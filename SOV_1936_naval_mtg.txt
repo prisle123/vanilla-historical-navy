@@ -10,24 +10,23 @@ units= {
 			name = "Severnyy Flot"
 			location = 3134 # Murmansk
 			# 1ya Flotiliya Esmintsev
-			ship = { name = "Dzerzhinskiy" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
-			ship = { name = "Nezamozhnik" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
-			ship = { name = "Petrovskiy" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
-			ship = { name = "Shaumyan" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "Dzerzhinskiy" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Izyaslav/Fidonisi Class" } } }
+			ship = { name = "Nezamozhnik" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Izyaslav/Fidonisi Class" } } }
+			ship = { name = "Shaumyan" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Izyaslav/Fidonisi Class" } } }
 			# 2ya Flotiliya Esmintsev
-			ship = { name = "Izyaslav" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Izyaslav Class" } } }
-			ship = { name = "Kalinin" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Izyaslav Class" } } }
+			ship = { name = "Karl Marx" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Izyaslav/Fidonisi Class" } } }
+			ship = { name = "Kalinin" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Izyaslav/Fidonisi Class" } } }
 		}	
 		task_force = {	
 			name = "Severnyy Podvodniy Flot"
 			location = 3134 # Murmansk
 			# 5iy Podvodniy Flot
-			ship = { name = "D-1" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
-			ship = { name = "D-2" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
-			ship = { name = "D-3" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
-			ship = { name = "D-4" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
-			ship = { name = "D-5" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
-			ship = { name = "D-6" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }			
+			ship = { name = "D-1" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Debakrist Class" } } }			
+			ship = { name = "D-2" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Debakrist Class" } } }			
+			ship = { name = "D-3" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Debakrist Class" } } }			
+			ship = { name = "D-4" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Debakrist Class" } } }			
+			ship = { name = "D-5" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Debakrist Class" } } }			
+			ship = { name = "D-6" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Debakrist Class" } } }			
 		}
 	}
 	
@@ -38,68 +37,66 @@ units= {
 		task_force = {				
 			name = "Baltiyskiy Flot"
 			location = 3151 # Leningrad
-			ship = { name = "Marat" pride_of_the_fleet = yes definition = battleship equipment = { nrm_ship_hull_capital_1 = { amount = 1 owner = SOV version_name = "Marat Class" } } }
-			ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { nrm_ship_hull_capital_1 = { amount = 1 owner = SOV version_name = "Marat Class" } } }
-			ship = { name = "Marti" definition = light_cruiser start_experience_factor = 0.09 equipment = { nrm_ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Marti Class" } } }
+			ship = { name = "Marat" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Gangut Class" } } }
+			ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Gangut Class" } } }
+			ship = { name = "Marti" definition = light_cruiser start_experience_factor = 0.09 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Marti Class" } } }
 			# 3ya Flotiliya Esmintsev
-			ship = { name = "Engels" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
-			ship = { name = "Artyom" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
-			ship = { name = "Volodarskiy" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
-			ship = { name = "Yakov Sverdlov" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Yakov Sverdlov Class" } } }
-			ship = { name = "Frunze" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Frunze Class" } } }
+			ship = { name = "Engels" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
+			ship = { name = "Artyom" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
+			ship = { name = "Volodarskiy" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
+			ship = { name = "Yakov Sverdlov" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik/Derzky Class" } } }
+			ship = { name = "Frunze" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik/Derzky Class" } } }
 			# 4ya Flotiliya Esmintsev
-			ship = { name = "Lenin" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Lenin Class" } } }		
-			ship = { name = "Voykov" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Lenin Class" } } }		
-			ship = { name = "Rykov" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Lenin Class" } } }		
-			ship = { name = "Karl Libknekht" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Lenin Class" } } }		
+			ship = { name = "Lenin" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }		
+			ship = { name = "Voykov" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }		
+			ship = { name = "Rykov" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }		
+			ship = { name = "Karl Libknekht" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }		
 		}	
 		task_force = {	
 			name = "Baltiyskiy Podvodniy Flot"
 			location = 3151 # Leningrad
-			ship = { name = "B-2" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Bars Class" } } }			
-			ship = { name = "L-55" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "L55 Class" } } }			
 			# 1iy Podvodniy Flot
-			ship = { name = "Shch-301" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series III Shchuka" } } }			
-			ship = { name = "Shch-302" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series III Shchuka" } } }			
-			ship = { name = "Shch-303" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series III Shchuka" } } }			
-			ship = { name = "Shch-304" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series III Shchuka" } } }			
-			ship = { name = "Shch-305" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-306" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-307" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-308" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-301" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series III Shchuka" } } }			
+			ship = { name = "Shch-302" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series III Shchuka" } } }			
+			ship = { name = "Shch-303" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series III Shchuka" } } }			
+			ship = { name = "Shch-304" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series III Shchuka" } } }			
+			ship = { name = "Shch-305" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-306" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-307" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-308" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
 			# 2iy Podvodniy Flot
-			ship = { name = "Shch-113" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-114" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-115" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-116" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-113" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-114" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-115" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-116" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
 			# 6iy Podvodniy Flot
-			ship = { name = "Shch-117" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-118" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-119" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-120" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-117" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-118" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-119" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-120" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
 			# 7iy  Podvodniy Flot
-			ship = { name = "Shch-201" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-202" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-203" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-204" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-309" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-201" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-202" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-203" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-204" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-309" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
 			# 16iy  Podvodniy Flot
-			ship = { name = "L-1" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series II Leninets" } } }			
-			ship = { name = "L-2" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series II Leninets" } } }			
-			ship = { name = "L-3" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series II Leninets" } } }	
+			ship = { name = "L-1" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }			
+			ship = { name = "L-2" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }			
+			ship = { name = "L-3" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }	
 			# 16iy  Coastal
-			ship = { name = "M-53" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }			
-			ship = { name = "M-71" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }			
-			ship = { name = "M-72" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }
-			ship = { name = "M-73" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }			
-			ship = { name = "M-74" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }			
-			ship = { name = "M-75" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }
-			ship = { name = "M-76" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }			
-			ship = { name = "M-82" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }			
-			ship = { name = "M-83" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }
-			ship = { name = "M-84" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }			
-			ship = { name = "M-85" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }				
-			ship = { name = "M-86" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI-bis" } } }				
+			ship = { name = "M-53" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-71" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-72" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-73" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-74" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-75" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-76" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-82" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-83" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-84" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-85" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }				
+			ship = { name = "M-86" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }				
 		}
 	}
 
@@ -110,31 +107,30 @@ units= {
 		task_force = {				
 			name = "Chernomorskiy Flot"
 			location = 3686 # Sevastopopl
-			ship = { name = "Parizhskaya Kommuna" definition = battleship equipment = { nrm_ship_hull_capital_1 = { amount = 1 owner = SOV version_name = "Marat Class" } } }
-			ship = { name = "Krasni Kavkaz" definition = light_cruiser start_experience_factor = 0.09 equipment = { nrm_ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Krasni Kavkaz Class" } } }
-			ship = { name = "Krasny Krym" definition = light_cruiser start_experience_factor = 0.09 equipment = { nrm_ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Krasny Krym Class" } } }
-			ship = { name = "Chervona Ukraina" definition = light_cruiser start_experience_factor = 0.09 equipment = { nrm_ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Chervona Ukraina Class" } } }
-			ship = { name = "Komintern" definition = light_cruiser start_experience_factor = 0.09 equipment = { nrm_ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Komintern Class" } } }
-			ship = { name = "Bug" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Bug Class" } } }
+			ship = { name = "Parizhskaya Kommuna" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Gangut Class" } } }
+			ship = { name = "Krasni Kavkaz" definition = light_cruiser start_experience_factor = 0.09 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Admiral Nakhimov Class" } } }
+			ship = { name = "Krasny Krym" definition = light_cruiser start_experience_factor = 0.09 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Svetlana Class" } } }
+			ship = { name = "Chervona Ukraina" definition = light_cruiser start_experience_factor = 0.09 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Admiral Nakhimov Class" } } }
+			ship = { name = "Komintern" definition = light_cruiser start_experience_factor = 0.09 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SOV version_name = "Bogatyr Class" } } }
 		}	
 		task_force = {	
 			name = "Chernomorskiy Podvodniy Flot"
 			location = 3686 # Sevastopopl
 			# 9iy Podvodniy Flot
-			ship = { name = "Shch-121" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-122" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-123" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
-			ship = { name = "Shch-124" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-121" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-122" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-123" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
+			ship = { name = "Shch-124" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V-bis Shchuka" } } }			
 			# 15iy Podvodniy Flot
-			ship = { name = "A-1" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
-			ship = { name = "A-2" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
-			ship = { name = "A-3" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
-			ship = { name = "A-4" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
-			ship = { name = "A-5" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
+			ship = { name = "A-1" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
+			ship = { name = "A-2" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
+			ship = { name = "A-3" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
+			ship = { name = "A-4" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
+			ship = { name = "A-5" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "AG Class" } } }
 			# 17iy  Podvodniy Flot
-			ship = { name = "L-4" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series II Leninets" } } }			
-			ship = { name = "L-5" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series II Leninets" } } }			
-			ship = { name = "L-6" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series II Leninets" } } }			
+			ship = { name = "L-4" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }			
+			ship = { name = "L-5" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }			
+			ship = { name = "L-6" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }			
 		}	
 	}
 
@@ -146,61 +142,61 @@ units= {
 			name = "Tikhookeanskiy Flot"
 			location = 957 # Vladivostok
 			# 8ya Flotiliya Esmintsev
-			ship = { name = "Uritskiy" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
-			ship = { name = "Stalin" definition = destroyer start_experience_factor = 0.09 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
+			ship = { name = "Uritskiy" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
+			ship = { name = "Stalin" definition = destroyer start_experience_factor = 0.09 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
 		}	
 		task_force = {	
 			name = "Tihookyeanskiy Podvodniy Flot"
 			location = 957 # Vladivostok
 			# 10iy Podvodniy Flot
-			ship = { name = "Shch-101" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-102" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-103" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-104" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-105" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-106" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-101" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-102" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-103" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-104" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-105" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-106" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
 			# 11iy Podvodniy Flot
-			ship = { name = "Shch-107" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-108" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-109" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-110" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-111" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
-			ship = { name = "Shch-112" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-107" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-108" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-109" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-110" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-111" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
+			ship = { name = "Shch-112" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series V Shchuka" } } }			
 			# 18iy  Podvodniy Flot
-			ship = { name = "L-7" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series XI Leninets" } } }			
-			ship = { name = "L-8" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series XI Leninets" } } }			
-			ship = { name = "L-9" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series XI Leninets" } } }		
+			ship = { name = "L-7" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }			
+			ship = { name = "L-8" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }			
+			ship = { name = "L-9" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }		
 			# Coastal
-			ship = { name = "M-1" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-2" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-3" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }
-			ship = { name = "M-4" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-5" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-6" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }
-			ship = { name = "M-7" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-8" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-9" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }
-			ship = { name = "M-10" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-11" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-12" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }
-			ship = { name = "M-13" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-14" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-15" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-16" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-17" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-18" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }
-			ship = { name = "M-19" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-20" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-21" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }
-			ship = { name = "M-22" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-23" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-24" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }
-			ship = { name = "M-25" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-26" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-27" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }
-			ship = { name = "M-28" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-51" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }			
-			ship = { name = "M-52" definition = submarine start_experience_factor = 0.09 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = SOV version_name = "Series VI" } } }		
+			ship = { name = "M-1" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-2" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-3" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-4" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-5" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-6" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-7" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-8" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-9" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-10" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-11" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-12" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-13" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-14" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-15" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-16" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-17" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-18" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-19" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-20" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-21" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-22" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-23" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-24" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-25" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-26" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-27" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-28" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-51" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-52" definition = submarine start_experience_factor = 0.09 equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }		
 		}		
 	}
 } 
@@ -214,20 +210,22 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_cruiser_2
+			type = ship_hull_cruiser_2
 			creator = "SOV"
 			version_name = "Kirov Class"
 		}
+		name = "Kirov"
 		requested_factories = 2
 		progress = 0.10
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_cruiser_2
+			type = ship_hull_cruiser_2
 			creator = "SOV"
 			version_name = "Kirov Class"
 		}
+		name = "Voroshilov"
 		requested_factories = 2
 		progress = 0.10
 		amount = 1
@@ -236,82 +234,145 @@ instant_effect = {
 	# DD: Leningrad & Minsk variant (x4) ("Leningrad" "Moskva" "Kharkov" "Minsk")
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_destroyer_2
+			type = ship_hull_light_2
 			creator = "SOV"
 			version_name = "Leningrad Class"
 		}
+		name = "Leningrad"
 		requested_factories = 1
 		progress = 0.80
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_destroyer_2
+			type = ship_hull_light_2
 			creator = "SOV"
 			version_name = "Leningrad Class"
 		}
+		name = "Kharkov"
 		requested_factories = 1
-		progress = 0.70
+		progress = 0.60
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_destroyer_2
+			type = ship_hull_light_2
 			creator = "SOV"
 			version_name = "Leningrad Class"
 		}
+		name = "Moskva"
 		requested_factories = 1
-		progress = 0.70
+		progress = 0.60
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_destroyer_2
+			type = ship_hull_light_2
 			creator = "SOV"
-			version_name = "Gnevnyy Class"
+			version_name = "Leningrad Class"
 		}
+		name = "Minsk"
 		requested_factories = 1
-		progress = 0.30
+		progress = 0.10
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_destroyer_2
+			type = ship_hull_light_2
 			creator = "SOV"
-			version_name = "Gnevnyy Class"
+			version_name = "Leningrad Class"
 		}
+		name = "Baku"
 		requested_factories = 1
-		progress = 0.30
+		progress = 0.10
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_destroyer_2
+			type = ship_hull_light_2
 			creator = "SOV"
-			version_name = "Gnevnyy Class"
+			version_name = "Leningrad Class"
 		}
+		name = "Tbilisi"
 		requested_factories = 1
-		progress = 0.20
+		progress = 0.10
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_destroyer_2
+			type = ship_hull_light_2
 			creator = "SOV"
-			version_name = "Gnevnyy Class"
+			version_name = "Gnevny Class"
 		}
+		name = "Gnevny"
 		requested_factories = 1
-		progress = 0.20
+		progress = 0.05
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_destroyer_2
+			type = ship_hull_light_2
 			creator = "SOV"
-			version_name = "Minsk Class"
+			version_name = "Gnevny Class"
 		}
+		name = "Grozny"
 		requested_factories = 1
-		progress = 0.20
+		progress = 0.05
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SOV"
+			version_name = "Gnevny Class"
+		}
+		name = "Reshitelny"
+		requested_factories = 1
+		progress = 0.01
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SOV"
+			version_name = "Gnevny Class"
+		}
+		name = "Bodry"
+		requested_factories = 1
+		progress = 0.01
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SOV"
+			version_name = "Gnevny Class"
+		}
+		name = "Ryany"
+		requested_factories = 1
+		progress = 0.01
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SOV"
+			version_name = "Gnevny Class"
+		}
+		name = "Boyky"
+		requested_factories = 1
+		progress = 0.01
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SOV"
+			version_name = "Gnevny Class"
+		}
+		name = "Rezvy"
+		requested_factories = 1
+		progress = 0.01
 		amount = 1
 	}
 	# SS: Shchuka class (x29) ("Shch-125" "Shch-205" "Shch-206" "Shch-207" "Shch-310" "Shch-311" "Shch-126" "Shch-127" "Shch-128" "Shch-129" "Shch-130" "Shch-131" "Shch-132" "Shch-133" 
@@ -319,7 +380,7 @@ instant_effect = {
 	# SS: Stalinets class (x5) ("P-1" "P-2" "P-3" "S-1" "S-2")
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series V-bis Shchuka"
 		}
@@ -329,7 +390,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series V-bis Shchuka"
 		}
@@ -339,7 +400,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series V-bis Shchuka"
 		}
@@ -349,7 +410,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series V-bis Shchuka"
 		}
@@ -359,7 +420,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series V-bis Shchuka"
 		}
@@ -369,7 +430,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series V-bis Shchuka"
 		}
@@ -379,7 +440,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -389,7 +450,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -399,7 +460,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -409,7 +470,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -419,7 +480,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -429,7 +490,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -439,7 +500,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -449,7 +510,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -459,7 +520,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -469,7 +530,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -479,7 +540,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -489,7 +550,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "SOV"
 			version_name = "Series X Shchuka"
 		}
@@ -499,9 +560,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_3
+			type = ship_hull_submarine_2
 			creator = "SOV"
-			version_name = "Series IX Srednyaya"
+			version_name = "Srednyaya Class"
 		}
 		requested_factories = 1
 		progress = 0.70
@@ -509,9 +570,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_3
+			type = ship_hull_submarine_2
 			creator = "SOV"
-			version_name = "Series IX Srednyaya"
+			version_name = "Srednyaya Class"
 		}
 		requested_factories = 1
 		progress = 0.60
@@ -519,9 +580,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_3
+			type = ship_hull_submarine_2
 			creator = "SOV"
-			version_name = "Series IX Srednyaya"
+			version_name = "Srednyaya Class"
 		}
 		requested_factories = 1
 		progress = 0.60
