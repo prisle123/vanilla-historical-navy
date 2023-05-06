@@ -249,7 +249,7 @@
 		task_force = {
 			name = "Mediterranean Fleet"
 			location = 11064 # 4076 # Alexandria
-			ship = { name = "HMS Glorious" definition = carrier start_experience_factor = 0.10 equipment = { nrm_ship_hull_carrier_capital = { amount = 1 owner = ENG version_name = "Courageous Class" } } 
+			ship = { name = "HMS Glorious" definition = carrier start_experience_factor = 0.10 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } 
 			
 			}
 			ship = { name = "HMS Warspite" definition = battleship start_experience_factor = 0.125 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Warspite Class" } } }			
@@ -375,7 +375,7 @@
 		task_force = {				
 			name = "China Fleet"
 			location = 11064 # 10062 # Hong Kong			
-			ship = { name = "HMS Eagle" definition = carrier start_experience_factor = 0.075 equipment = { ship_hull_carrier_2 = { amount = 1 owner = ENG version_name = "Eagle Class" } } 
+			ship = { name = "HMS Eagle" definition = carrier start_experience_factor = 0.075 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Eagle Class" } } 
 			
 			}
 			ship = { name = "HMS Kent" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Kent Class" } } }	
@@ -420,7 +420,7 @@ instant_effect = {
 	### Ongoing Ship Production Jan 1 1936 ###
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_carrier_2
+			type = ship_hull_carrier_1
 			creator = "ENG" 
 			version_name = "Ark Royal Class"
 		}

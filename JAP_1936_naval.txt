@@ -69,7 +69,7 @@ units = {
 		task_force = {
 			name = "1 Koku Sentai" # A part of "Dai 1 Kantai"
 			location = 9998  #Yokosuka
-			ship = { name = "Ryujo" definition = carrier start_experience_factor = 0.10 equipment = { ship_hull_carrier_2 = {amount = 1 owner = JAP version_name = "Ryujo Class"} } 				
+			ship = { name = "Ryujo" definition = carrier start_experience_factor = 0.10 equipment = { ship_hull_carrier_1 = {amount = 1 owner = JAP version_name = "Ryujo Class"} } 				
 			
 			}
 			#Dai 5 Kuchikutai
@@ -395,7 +395,7 @@ instant_effect =
 		# CV (x1): "Soryu"
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_carrier_2
+				type = ship_hull_carrier_1
 				creator = "JAP" 
 				version_name = "Soryu Class"
 			}
@@ -407,7 +407,7 @@ instant_effect =
 		}
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_carrier_2
+				type = ship_hull_carrier_1
 				creator = "JAP" 
 				version_name = "Zuiho Class"
 			}
@@ -419,7 +419,7 @@ instant_effect =
 		}
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_carrier_2
+				type = ship_hull_carrier_1
 				creator = "JAP" 
 				version_name = "Zuiho Class"
 			}
