@@ -89,9 +89,9 @@ units= {
 			ship = { name = "RN Trento" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Trento Class" } } } 
 			ship = { name = "RN Trieste" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Trento Class" } } } 
 			# VI Divisione Incrociatori
-			ship = { name = "RN Emanuele Filiberto Duca d'Aosta" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Duca d'Aosta Class" } } } 
-			ship = { name = "RN Muzio Attendolo" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Montecuccoli Class" } } } 
-			ship = { name = "RN Raimondo Montecuccoli" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Montecuccoli Class" } } } 
+			ship = { name = "RN Emanuele Filiberto Duca d'Aosta" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Montecuccoli/Duca d'Aosta Class" } } } 
+			ship = { name = "RN Muzio Attendolo" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Montecuccoli/Duca d'Aosta Class" } } } 
+			ship = { name = "RN Raimondo Montecuccoli" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Montecuccoli/Duca d'Aosta Class" } } } 
 			# X Squadriglia Cacciatorpediniere
 			ship = { name = "RN Maestrale" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = ITA version_name = "Maestrale/Oriani Class" } } } 
 			ship = { name = "RN Grecale" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = ITA version_name = "Maestrale/Oriani Class" } } } 
@@ -376,7 +376,7 @@ instant_effect = {
 			equipment = { 
 				type = ship_hull_cruiser_2 
 				creator = "ITA" 
-				version_name = "Duca d'Aosta Class" 
+				version_name = "Montecuccoli/Duca d'Aosta Class" 
 			} 
 			name = "RN Eugenio di Savoia"
 			requested_factories = 2
