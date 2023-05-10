@@ -112,9 +112,9 @@ units= {
 			name = "I Gruppo Sommergibili" 
 			location = 11837 # 6973 # La Spezia, Italy
 			# XI Squadriglia Sommergibili
-			ship = { name = "RN Pietro Calvi" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ITA version_name = "Calvi Class" } } } 
-			ship = { name = "RN Giuseppe Finzi" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ITA version_name = "Calvi Class" } } } 
-			ship = { name = "RN Ettore Fieramosca" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ITA version_name = "Fieramosca Class" } } } 
+			ship = { name = "RN Pietro Calvi" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ITA version_name = "Fieramosca/Calvi Class" } } } 
+			ship = { name = "RN Giuseppe Finzi" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ITA version_name = "Fieramosca/Calvi Class" } } } 
+			ship = { name = "RN Ettore Fieramosca" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ITA version_name = "Fieramosca/Calvi Class" } } } 
 			ship = { name = "RN Marcantonio Bragadin" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bragadin Class" } } } 
 			ship = { name = "RN Filippo Corridoni" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bragadin Class" } } } 
 			# XII Squadriglia Sommergibili
@@ -213,20 +213,20 @@ units= {
 			name = "III Gruppo Sommergibili" 
 			location = 11837 # 4159 # Messina, Sicily
 			# XXXI Squadriglia Sommergibili
-			ship = { name = "RN Vettor Pisani" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Pisani Class" } } } 
-			ship = { name = "RN Giovanni Bausan" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Pisani Class" } } } 
-			ship = { name = "RN Marcantonio Colonna" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Pisani Class" } } } 
-			ship = { name = "RN Des Geneys" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Pisani Class" } } } 
+			ship = { name = "RN Vettor Pisani" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli/Pisani Class" } } } 
+			ship = { name = "RN Giovanni Bausan" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli/Pisani Class" } } } 
+			ship = { name = "RN Marcantonio Colonna" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli/Pisani Class" } } } 
+			ship = { name = "RN Des Geneys" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli/Pisani Class" } } } 
 			# XXXII Squadriglia Sommergibili
-			ship = { name = "RN Fratelli Bandiera" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RN Luciano Manara" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RN Ciro Menotti" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RN Santorre Santarosa" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
+			ship = { name = "RN Fratelli Bandiera" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera/Squalo Class" } } } 
+			ship = { name = "RN Luciano Manara" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera/Squalo Class" } } } 
+			ship = { name = "RN Ciro Menotti" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera/Squalo Class" } } } 
+			ship = { name = "RN Santorre Santarosa" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera/Squalo Class" } } } 
 			# XXXIII Squadriglia Sommergibili
-			ship = { name = "RN Goffredo Mameli" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			ship = { name = "RN Pier Capponi" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			ship = { name = "RN Tito Speri" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
-			ship = { name = "RN Giovanni da Procida" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
+			ship = { name = "RN Goffredo Mameli" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli/Pisani Class" } } } 
+			ship = { name = "RN Pier Capponi" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli/Pisani Class" } } } 
+			ship = { name = "RN Tito Speri" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli/Pisani Class" } } } 
+			ship = { name = "RN Giovanni da Procida" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Mameli/Pisani Class" } } } 
 		} 
 	}
 	
@@ -273,10 +273,10 @@ units= {
 			name = "V Gruppo Sommergibili" 
 			location = 11837 # 1130 # Tobruk, Libya
 			# LI Squadriglia Sommergibili
-			ship = { name = "RN Delfino" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Squalo Class" } } } 
-			ship = { name = "RN Narvalo" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Squalo Class" } } } 
-			ship = { name = "RN Squalo" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Squalo Class" } } } 
-			ship = { name = "RN Tricheco" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Squalo Class" } } } 
+			ship = { name = "RN Delfino" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera/Squalo Class" } } } 
+			ship = { name = "RN Narvalo" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera/Squalo Class" } } } 
+			ship = { name = "RN Squalo" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera/Squalo Class" } } } 
+			ship = { name = "RN Tricheco" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_2 = { amount = 1 owner = ITA version_name = "Bandiera/Squalo Class" } } } 
 		} 
 	}
 	
@@ -557,7 +557,7 @@ instant_effect = {
 			equipment = { 
 				type = ship_hull_cruiser_submarine 
 				creator = "ITA" 
-				version_name = "Calvi Class" 
+				version_name = "Fieramosca/Calvi Class" 
 			} 
 			name = "RN Enrico Tazzoli"
 			requested_factories = 1 
