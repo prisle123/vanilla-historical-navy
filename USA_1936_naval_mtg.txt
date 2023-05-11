@@ -344,7 +344,7 @@ units= {
 			ship = { name = "USS S-15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
 			ship = { name = "USS S-16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
 			ship = { name = "USS S-17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
-			ship = { name = "USS S-48" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S48 Class" } } }
+			ship = { name = "USS S-48" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
 			ship = { name = "USS R-20" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
 		}					
 	}
@@ -455,7 +455,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_carrier_1
 			creator = "USA"
-			version_name = "Wasp Class"
+			version_name = "Yorktown Class"
 		}
 		name = "USS Wasp"
 		requested_factories = 10
