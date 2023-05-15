@@ -81,9 +81,9 @@ units= {
 			ship = { name = "Courbet" definition = battleship start_experience_factor = 0.04 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }        
 			ship = { name = "Paris" definition = battleship start_experience_factor = 0.04 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
 			ship = { name = "Algérie" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Algérie Class" } } }			
-			ship = { name = "Foch" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Colbert Class" } } }
-			ship = { name = "Dupleix" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Colbert Class" } } }
-			ship = { name = "Colbert" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Colbert Class" } } }
+			ship = { name = "Foch" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "Dupleix" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "Colbert" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 			ship = { name = "Duquesne" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Duquesne Class" } } }
 			ship = { name = "Tourville" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Duquesne Class" } } }
 			# 4e Division des Contre-Torpilleurs
