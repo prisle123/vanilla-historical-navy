@@ -1841,7 +1841,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Itsukushima/Okinoshima Class"
-        type = ship_hull_cruiser_2
+        type = ship_hull_cruiser_1
         name_group = JAP_CL_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_light_medium_battery_1_single

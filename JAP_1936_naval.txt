@@ -477,9 +477,9 @@ instant_effect =
 		# CL(CM) (x1): "Okinoshima"
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_cruiser_2
+				type = ship_hull_cruiser_1
 				creator = "JAP" 
-				version_name = "Okinoshima Class"
+				version_name = "Itsukushima/Okinoshima Class"
 			}
 			requested_factories = 2
 			progress = 0.75
