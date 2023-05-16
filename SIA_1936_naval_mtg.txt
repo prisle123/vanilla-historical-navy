@@ -1,0 +1,15 @@
+﻿
+units= {
+
+	######## NAVAL OOB ########
+	fleet = {
+		name = "Royal Siamese Navy"		
+		naval_base = 7408 # Bangkok
+		task_force = {				
+			name = "Royal Siamese Navy"			
+			location = 7408 # Bangkok
+			ship = { name = "HTMS Phra Ruang" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = SIA version_name = "Phra Ruang Class" } } }
+		}				
+	}
+} 
+
