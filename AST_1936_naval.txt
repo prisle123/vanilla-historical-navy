@@ -7,16 +7,16 @@
 		task_force = {
 			name = "Australian Squadron"
 			location = 12406 # Sydney
-			ship = { name = "HMAS Canberra" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { nrm_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Canberra Class" } }	}
-			ship = { name = "HMAS Australia" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { nrm_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Canberra Class" } } }
-			ship = { name = "HMAS Sydney" definition = light_cruiser start_experience_factor = 0.10 equipment = { nrm_ship_hull_cruiser_3 = { amount = 1 owner = AST version_name = "Sydney Class" } } }
-			ship = { name = "HMAS Adelaide" definition = light_cruiser start_experience_factor = 0.075 equipment = { nrm_ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Town Class" } } }
+			ship = { name = "HMAS Canberra" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Canberra Class" } }	}
+			ship = { name = "HMAS Australia" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Canberra Class" } } }
+			ship = { name = "HMAS Sydney" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Sydney Class" } } }
+			ship = { name = "HMAS Adelaide" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Town Class" } } }
 			# Scrap Iron Flotilla
-			ship = { name = "HMAS Vampire" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Vendetta" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Voyager" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Waterhen" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
-			ship = { name = "HMAS Stuart" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_1 = { amount = 1 owner = AST version_name = "Scott Class" } } }
+			ship = { name = "HMAS Vampire" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Vendetta" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Voyager" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Waterhen" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Stuart" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Scott Class" } } }
 		}				
 	}
 }

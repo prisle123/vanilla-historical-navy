@@ -7,16 +7,16 @@
 		task_force = {				
 			name = "Rannikkolaivue"				
 			location =  11105 # Helsinki
-			ship = { name = "Ilmarinen" definition = heavy_cruiser start_experience_factor = 0.16 equipment = { nrm_ship_hull_cruiser_coastal = { amount = 1 owner = FIN version_name = "Väinämöinen Class" } } }				
-			ship = { name = "Väinämöinen" definition = heavy_cruiser start_experience_factor = 0.16 equipment = { nrm_ship_hull_cruiser_coastal = { amount = 1 owner = FIN version_name = "Väinämöinen Class" } } }				
+			ship = { name = "Ilmarinen" definition = heavy_cruiser start_experience_factor = 0.16 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FIN version_name = "Väinämöinen Class" } } }				
+			ship = { name = "Väinämöinen" definition = heavy_cruiser start_experience_factor = 0.16 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FIN version_name = "Väinämöinen Class" } } }				
 		}					
 		task_force = {					
 			name = "Sukellusvenelaivue"				
 			location =  11105 # Helsinki
-			ship = { name = "Vetehinen" definition = submarine start_experience_factor = 0.16 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = FIN version_name = "Vetehinen Class" } } }
-			ship = { name = "Vesihiisi" definition = submarine start_experience_factor = 0.16 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = FIN version_name = "Vetehinen Class" } } }
-			ship = { name = "Iku-Turso" definition = submarine start_experience_factor = 0.16 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = FIN version_name = "Vetehinen Class" } } }
-			ship = { name = "Vesikko" definition = submarine start_experience_factor = 0.16 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = FIN  version_name = "Vesikko Class"} } }
+			ship = { name = "Vetehinen" definition = submarine start_experience_factor = 0.16 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN version_name = "Vetehinen Class" } } }
+			ship = { name = "Vesihiisi" definition = submarine start_experience_factor = 0.16 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN version_name = "Vetehinen Class" } } }
+			ship = { name = "Iku-Turso" definition = submarine start_experience_factor = 0.16 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN version_name = "Vetehinen Class" } } }
+			ship = { name = "Vesikko" definition = submarine start_experience_factor = 0.16 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN  version_name = "Vesikko Class"} } }
 		}					
 	}
 }

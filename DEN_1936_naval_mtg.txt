@@ -7,16 +7,16 @@
 		task_force = {
 			name = "Den Danske Flåde"
 			location = 6287  # Copenhagen			
-			ship = { name = "HDMS Niels Iuel" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { nrm_ship_hull_cruiser_coastal = { amount = 1 owner = DEN version_name = "Niels Iuel Class" } } }
-			ship = { name = "HDMS Peder Skram" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { nrm_ship_hull_cruiser_coastal = { amount = 1 owner = DEN version_name = "Herluf Trolle Class" } } }
-			ship = { name = "HDMS Ran" definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = DEN version_name = "Aegir Class" } } }			
-			ship = { name = "HDMS Triton" definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = DEN version_name = "Aegir Class" } } }		
-			ship = { name = "HDMS Neptun" definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = DEN version_name = "Aegir Class" } } }
-			ship = { name = "HDMS Rota" definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = DEN version_name = "Rota Class" } } }			
-			ship = { name = "HDMS Bellona" definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = DEN version_name = "Rota Class" } } }		
-			ship = { name = "HDMS Flora" definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = DEN version_name = "Rota Class" } } }
-			ship = { name = "HDMS Daphne" definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = DEN version_name = "Daphne Class" } } }
-			ship = { name = "HDMS Dryaden" definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = DEN version_name = "Daphne Class" } } }
+			ship = { name = "HDMS Niels Iuel" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Niels Iuel Class" } } }
+			ship = { name = "HDMS Peder Skram" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Herluf Trolle Class" } } }
+			ship = { name = "HDMS Ran" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Aegir Class" } } }			
+			ship = { name = "HDMS Triton" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Aegir Class" } } }		
+			ship = { name = "HDMS Neptun" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Aegir Class" } } }
+			ship = { name = "HDMS Rota" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Rota Class" } } }			
+			ship = { name = "HDMS Bellona" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Rota Class" } } }		
+			ship = { name = "HDMS Flora" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Rota Class" } } }
+			ship = { name = "HDMS Daphne" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Daphne Class" } } }
+			ship = { name = "HDMS Dryaden" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Daphne Class" } } }
 		}				
 	}
 }
