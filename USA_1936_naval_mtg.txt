@@ -24,9 +24,9 @@ units= {
 			ship = { name = "USS Mississippi" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania/New Mexico Class" } } }				
 			ship = { name = "USS Idaho" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania/New Mexico Class" } } }				
 			### Battleship Division 4 ###			
-			ship = { name = "USS Colorado" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
-			ship = { name = "USS West Virginia" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
-			ship = { name = "USS Maryland" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
+			ship = { name = "USS Colorado" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
+			ship = { name = "USS West Virginia" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
+			ship = { name = "USS Maryland" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }				
 		}				
 		task_force = {					
 			name = "Carrier Division, Battle Force"		
@@ -49,10 +49,10 @@ units= {
 			ship = { name = "USS Milwaukee" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }				
 			ship = { name = "USS Cincinnati" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }				
 			# Cruiser Division 6 #		
-			ship = { name = "USS New Orleans" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
-			ship = { name = "USS Astoria" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
-			ship = { name = "USS Minneapolis" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
-			ship = { name = "USS Indianapolis" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
+			ship = { name = "USS New Orleans" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
+			ship = { name = "USS Astoria" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
+			ship = { name = "USS Minneapolis" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
+			ship = { name = "USS Indianapolis" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
 		}					
 		task_force = {					
 			name = "Cruiser Division 3"				
@@ -167,9 +167,9 @@ units= {
 			ship = { name = "USS Chester" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }				
 			ship = { name = "USS Louisville" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Northampton Class" } } }					
 			# Cruiser Division 7 #
-			ship = { name = "USS Tuscaloosa" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
-			ship = { name = "USS San Francisco" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
-			ship = { name = "USS Portland" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
+			ship = { name = "USS Tuscaloosa" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
+			ship = { name = "USS San Francisco" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
+			ship = { name = "USS Portland" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Portland/New Orleans Class" } } }				
 			### Destroyer Squadron 10 ###
 			ship = { name = "USS Decatur" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Sampson/Wickes/Clemson Class" } } }		
 			# 22nd Destroyer Division				
@@ -465,7 +465,7 @@ instant_effect = {
 	# CA: Quincy (New Orleans class, Comm. 9-Jun, 1936)
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Portland/New Orleans Class"
 		}
@@ -476,7 +476,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Portland/New Orleans Class"
 		}
@@ -488,7 +488,7 @@ instant_effect = {
 	# CA: Wichita
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Wichita Class"
 		}
@@ -500,7 +500,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Brooklyn Class"
 		}
@@ -511,7 +511,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Brooklyn Class"
 		}
@@ -522,7 +522,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Brooklyn Class"
 		}
@@ -533,7 +533,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Brooklyn Class"
 		}
@@ -544,7 +544,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Brooklyn Class"
 		}
@@ -555,7 +555,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Brooklyn Class"
 		}
@@ -566,7 +566,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "USA"
 			version_name = "Brooklyn Class"
 		}
@@ -578,7 +578,7 @@ instant_effect = {
 	# DD: Porter (x4) ("USS Porter" "USS Phelps" "USS Clark" "USS Moffett")
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -589,7 +589,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -600,7 +600,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -611,7 +611,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -622,7 +622,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -633,7 +633,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -644,7 +644,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -655,7 +655,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -667,7 +667,7 @@ instant_effect = {
 	# DD: Somers (x2)
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -678,7 +678,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -689,7 +689,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -700,7 +700,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -711,7 +711,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
@@ -922,7 +922,7 @@ instant_effect = {
 	# DD: Gridley class (x4)
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -933,7 +933,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -944,7 +944,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -955,7 +955,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -967,7 +967,7 @@ instant_effect = {
 	# DD: Bagley class (x8)
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -978,7 +978,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -989,7 +989,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -1000,7 +1000,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -1011,7 +1011,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -1022,7 +1022,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -1033,7 +1033,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
@@ -1044,7 +1044,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_light_2
+			type = ship_hull_light_3
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}

@@ -12,28 +12,28 @@ units = {
 			name = "1 Kantai"
 			location = 9998  #Yokosuka
 			#Dai 1 Sentai
-			ship = { name = "Nagato"  pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.10 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Nagato Class" } } }
+			ship = { name = "Nagato"  pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.10 equipment = { ship_hull_heavy_2 = {amount = 1 owner = JAP version_name = "Nagato Class" } } }
 			ship = { name = "Haruna" definition = battle_cruiser start_experience_factor = 0.10 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
 			ship = { name = "Fuso" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso Class"} } }
 			ship = { name = "Yamashiro" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso Class"} } }
 			#Dai 8 Sentai
-			ship = { name = "Sendai" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Sendai Class"} } }
-			ship = { name = "Jintsu" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Sendai Class"} } }
-			ship = { name = "Nagara" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nagara Class"} } }
+			ship = { name = "Sendai" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Sendai Class"} } }
+			ship = { name = "Jintsu" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Sendai Class"} } }
+			ship = { name = "Nagara" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
 		}
 		task_force = {
 			name = "1 Suirai Sentai" #A part of "Dai 1 Kantai"
 			location = 9998  #Yokosuka
 			#Flagship
-			ship = { name = "Abukuma" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nagara Class"} } }
+			ship = { name = "Abukuma" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
 			#Dai 9 Kuchikutai
-			ship = { name = "Ariake" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }
-			ship = { name = "Yugure" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }
+			ship = { name = "Ariake" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }
+			ship = { name = "Yugure" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }
 			#Dai 21 Kuchikutai
-			ship = { name = "Hatsuharu" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }
-			ship = { name = "Nenohi" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }	
-			ship = { name = "Wakaba" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }		
-			ship = { name = "Hatsushimo" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }
+			ship = { name = "Hatsuharu" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }
+			ship = { name = "Nenohi" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }	
+			ship = { name = "Wakaba" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }		
+			ship = { name = "Hatsushimo" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Hatsuharu/Shiratsuyu Class"} } }
 			#Dai 30 Kuchikutai
 			ship = { name = "Mutsuki" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
 			ship = { name = "Kisaragi" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
@@ -81,13 +81,13 @@ units = {
 		task_force = {
 			name = "Yokosuka Yobikantai" # Patrol and reserve fleet, including ships under modernization
 			location = 9998  #Yokosuka
-			ship = { name = "Mutsu" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Nagato Class" } } }
+			ship = { name = "Mutsu" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_2 = {amount = 1 owner = JAP version_name = "Nagato Class" } } }
 			ship = { name = "Takao" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Takao Class"} } }
 			ship = { name = "Choukai" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Takao Class"} } }
 			ship = { name = "Maya" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Takao Class"} } }
 			ship = { name = "Atago" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Takao Class"} } }
-			ship = { name = "Isuzu" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nagara Class"} } }
-			ship = { name = "Kiso" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
+			ship = { name = "Isuzu" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Kiso" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
 			# Dai 3 Kuchikutai
 			ship = { name = "Shiokaze" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
 			ship = { name = "Yukaze" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
@@ -123,7 +123,7 @@ units = {
 			name = "2 Suirai Sentai" #A part of "Dai 2 Kantai"
 			location = 9998  # 9950  #Sasebo
 			#Flagship
-			ship = { name = "Naka" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Sendai Class"} } }
+			ship = { name = "Naka" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Sendai Class"} } }
 			#Dai 6 Kuchikutai, Type III Fubuki-class destroyers
 			ship = { name = "Akatsuki" definition = destroyer start_experience_factor = 0.13 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki/Akatsuki Class"} } }
 			ship = { name = "Hibiki" definition = destroyer start_experience_factor = 0.13 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki/Akatsuki Class"} } }		
@@ -148,7 +148,7 @@ units = {
 			name = "2 Sensui Sentai" #A part of "Dai 2 Kantai"
 			location = 9998  # 9950  #Sasebo
 			#Flagship
-			ship = { name = "Kinu" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nagara Class"} } }	
+			ship = { name = "Kinu" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }	
 			#Junsen-class Submarines
 			ship = { name = "I-1" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_cruiser_submarine = {amount = 1 owner = JAP version_name = "Junsen I Class"} } }	
 			ship = { name = "I-2" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_cruiser_submarine = {amount = 1 owner = JAP version_name = "Junsen I Class"} } }		
@@ -176,9 +176,9 @@ units = {
 			ship = { name = "Hosho" definition = carrier start_experience_factor = 0.10 equipment = { ship_hull_carrier_conversion_ca = {amount = 1 owner = JAP version_name = "Hosho Class"} } 				
 			
 			}
-			ship = { name = "Natori" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nagara Class"} } }
-			ship = { name = "Yura" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nagara Class"} } }
-			ship = { name = "Kitakami" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
+			ship = { name = "Natori" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Yura" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			ship = { name = "Kitakami" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
 			ship = { name = "Tatsuta" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Tenryu Class"} } }
 			#Dai 22 Kuchikutai
 			ship = { name = "Satsuki" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
@@ -203,7 +203,7 @@ units = {
 			#Dai 10 Sentai
 			ship = { name = "Asama" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Asama/Izumo Class"} } }
 			ship = { name = "Izumo" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Asama/Izumo Class"} } }
-			ship = { name = "Kuma" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class" } } }
+			ship = { name = "Kuma" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
 			#Dai 11 Sentai, Momi-class destroyers
 			#Dai 25 Kuchikutai
 			ship = { name = "Kaya" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
@@ -273,13 +273,13 @@ units = {
 			location = 9998  # 1092  # Hiroshima
 			ship = { name = "Ise" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Ise Class"} } }		
 			ship = { name = "Hyuga" definition = battleship start_experience_factor = 0.075 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Ise Class"} } }
-			ship = { name = "Mogami" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Mogami Class"} } }
-			ship = { name = "Mikuma" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Mogami Class"} } }
+			ship = { name = "Mogami" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_3 = {amount = 1 owner = JAP version_name = "Mogami Class"} } }
+			ship = { name = "Mikuma" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_3 = {amount = 1 owner = JAP version_name = "Mogami Class"} } }
 			ship = { name = "Furutaka" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Furutaka Class"} } }
 			ship = { name = "Kako" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Furutaka Class"} } }
-			ship = { name = "Oi" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
+			ship = { name = "Oi" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
 			ship = { name = "Tenryu" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Tenryu Class"} } }
-			ship = { name = "Tama" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } } # at Maizuru
+			ship = { name = "Tama" definition = light_cruiser start_experience_factor = 0.10 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } } # at Maizuru
 			# Dai 11 Kuchikutai
 			ship = { name = "Shirayuki" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki/Akatsuki Class"} } }
 			ship = { name = "Hatsuyuki" definition = destroyer start_experience_factor = 0.10 equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki/Akatsuki Class"} } }
@@ -432,7 +432,7 @@ instant_effect =
 		# CA (x1): "Suzuya"
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_cruiser_2
+				type = ship_hull_cruiser_3
 				creator = "JAP" 
 				version_name = "Mogami Class"
 			}
@@ -443,7 +443,7 @@ instant_effect =
 		}		
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_cruiser_2
+				type = ship_hull_cruiser_3
 				creator = "JAP" 
 				version_name = "Mogami Class"
 			}
@@ -454,7 +454,7 @@ instant_effect =
 		}	
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_cruiser_2
+				type = ship_hull_cruiser_3
 				creator = "JAP" 
 				version_name = "Tone Class"
 			}
@@ -465,7 +465,7 @@ instant_effect =
 		}		
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_cruiser_2
+				type = ship_hull_cruiser_3
 				creator = "JAP" 
 				version_name = "Tone Class"
 			}
@@ -489,7 +489,7 @@ instant_effect =
 		# DD (x5): "Shiratsuyu" "Shigure" "Murasame" "Harusame" "Samidare"
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -500,7 +500,7 @@ instant_effect =
 		}		
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -511,7 +511,7 @@ instant_effect =
 		}		
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -522,7 +522,7 @@ instant_effect =
 		}
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -533,7 +533,7 @@ instant_effect =
 		}	
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -544,7 +544,7 @@ instant_effect =
 		}
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -555,7 +555,7 @@ instant_effect =
 		}
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -566,7 +566,7 @@ instant_effect =
 		}	
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -577,7 +577,7 @@ instant_effect =
 		}
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -588,7 +588,7 @@ instant_effect =
 		}		
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
@@ -599,7 +599,7 @@ instant_effect =
 		}
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Asashio Class"
 			}
@@ -610,7 +610,7 @@ instant_effect =
 		}
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Asashio Class"
 			}
@@ -621,7 +621,7 @@ instant_effect =
 		}	
 		add_equipment_production = {				
 			equipment = {
-				type = ship_hull_light_2
+				type = ship_hull_light_3
 				creator = "JAP" 
 				version_name = "Asashio Class"
 			}
