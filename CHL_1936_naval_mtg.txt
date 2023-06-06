@@ -13,14 +13,14 @@ units= {
 			ship = { name = "BACH Chacabuco" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHL version_name = "Chacabuco Class" } } }
 			# Flotilla de Destructores nro. 1
 			ship = { name = "BACH Almirante Lynch" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Almirante Lynch Class" } } }
-			ship = { name = "BACH Serrano" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
-			ship = { name = "BACH Hyatt" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
-			ship = { name = "BACH Orella" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "BACH Serrano" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "BACH Hyatt" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "BACH Orella" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
 			# Flotilla de Destructores nro. 2
 			ship = { name = "BACH Almirante Condell" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Almirante Lynch Class" } } }
-			ship = { name = "BACH Aldea" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Aldea Class" } } }
-			ship = { name = "BACH Requelme" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Aldea Class" } } }
-			ship = { name = "BACH Videla" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Aldea Class" } } }
+			ship = { name = "BACH Aldea" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "BACH Requelme" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "BACH Videla" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
 		}				
 		task_force = {				
 			name = "Flotilla de Submarinos nro. 1"			

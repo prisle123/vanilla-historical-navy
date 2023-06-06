@@ -16,16 +16,16 @@ units= {
 			ship = { name = "ARA Libertad" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = ARG version_name = "Libertad/Independencia Class" } } }
 			ship = { name = "ARA Independencia" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = ARG version_name = "Libertad/Independencia Class" } } }
 			# Flotilla de Destructores nro. 1
-			ship = { name = "ARA Catamarca" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
-			ship = { name = "ARA Jujuy" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca Class" } } }
-			ship = { name = "ARA Córdoba" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "La Plata Class" } } }
-			ship = { name = "ARA La Plata" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "La Plata Class" } } }
+			ship = { name = "ARA Catamarca" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca/La Plata Class" } } }
+			ship = { name = "ARA Jujuy" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca/La Plata Class" } } }
+			ship = { name = "ARA Córdoba" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca/La Plata Class" } } }
+			ship = { name = "ARA La Plata" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Catamarca/La Plata Class" } } }
 			# Flotilla de Destructores nro. 2
-			ship = { name = "ARA Cervantes" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Cervantes Class" } } }
-			ship = { name = "ARA Juan de Garay" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Cervantes Class" } } }
-			ship = { name = "ARA Mendoza" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Mendoza Class" } } }
-			ship = { name = "ARA La Rioja" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Mendoza Class" } } }
-			ship = { name = "ARA Tucumán" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Mendoza Class" } } }
+			ship = { name = "ARA Cervantes" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Cervantes/Mendoza Class" } } }
+			ship = { name = "ARA Juan de Garay" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Cervantes/Mendoza Class" } } }
+			ship = { name = "ARA Mendoza" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Cervantes/Mendoza Class" } } }
+			ship = { name = "ARA La Rioja" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Cervantes/Mendoza Class" } } }
+			ship = { name = "ARA Tucumán" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = ARG version_name = "Cervantes/Mendoza Class" } } }
 		}				
 		task_force = {				
 			name = "Flotilla de Submarinos"			

@@ -7,15 +7,22 @@
 		task_force = {
 			name = "Di 1 Jiandui"
 			location = 7191 #Shanghai
-			ship = { name = "Ninghai" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Ninghai Class" } } }
+			ship = { name = "Ninghai" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = CHI version_name = "Ninghai Class" } } }
+			ship = { name = "Yat Sen" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Yat Sen Class" } } }
 			ship = { name = "Haiqi" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Haiqi Class" } } }
 			ship = { name = "Hairong" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
 			ship = { name = "Haichen" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
 			ship = { name = "Haichou" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Hairong Class" } } }
 			ship = { name = "Zhaohe" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Zhaohe Class" } } }
-			ship = { name = "Yingrui" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Yingrui Class" } } }
+			ship = { name = "Yingrui" definition = light_cruiser start_experience_factor = 0.04 equipment = { ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = CHI version_name = "Zhaohe Class" } } }
 			ship = { name = "Dadong" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Jianwei Class" } } }
 			ship = { name = "Zejiang" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Jianwei Class"} } }
+			ship = { name = "Chien Kang" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = {amount = 1 owner = CHI version_name = "Chang Feng Class" } } }
+			ship = { name = "Tung An" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Chang Feng Class"} } }
+			ship = { name = "Zhongshan" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yung Feng/Yung Chi Class"} } }
+			ship = { name = "Yung Hsiang" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yung Feng/Yung Chi Class"} } }
+			ship = { name = "Yung Chi" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yung Feng/Yung Chi Class"} } }
+			ship = { name = "Yung Chien" definition = destroyer start_experience_factor = 0.04 equipment = { ship_hull_light_1 = {amount = 1 owner = CHI  version_name = "Yung Feng/Yung Chi Class"} } }
 		}
 	}
 }
@@ -26,7 +33,7 @@ instant_effect = {
 	# Light Cruiser 
 	add_equipment_production = { 		# "Pinghai"
 		equipment = {
-			type = ship_hull_cruiser_1
+			type = ship_hull_cruiser_2
 			creator = "CHI" 
 			version_name = "Ninghai Class"
 		}

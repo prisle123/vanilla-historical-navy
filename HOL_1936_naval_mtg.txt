@@ -8,21 +8,23 @@
 		task_force = {				
 			name = "Koninklijke Vloot"			
 			location = 3314  # Amsterdam
-			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { nrm_ship_hull_cruiser_coastal = { amount = 1 owner = HOL version_name = "Hertog Hendrik Class" } } }		
-			ship = { name = "HrMs Ijmuiden" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { nrm_ship_hull_cruiser_coastal = { amount = 1 owner = HOL version_name = "Jacob van Heemskerck Class" } } }		
-			ship = { name = "HrMs Van Galen" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		
+			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Hertog Hendrik Class" } } }		
+			ship = { name = "HrMs Ijmuiden" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Jacob van Heemskerck Class" } } }	
+			ship = { name = "HrMs Gelderland" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }
+			ship = { name = "HrMs Noordbrabant" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }	
+			ship = { name = "HrMs Van Galen" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
 		}				
 		task_force = {				
 			name = "Koninklijke Onderzeeboot Smaldeel"			
 			location = 3314  # Amsterdam
-			ship = { ordered_name = 8 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = HOL version_name = "O8 Class" } } }
-			ship = { ordered_name = 9 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
-			ship = { ordered_name = 10 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
-			ship = { ordered_name = 11 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
-			ship = { ordered_name = 12 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = HOL version_name = "O12 Class" } } }
-			ship = { ordered_name = 13 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = HOL version_name = "O12 Class" } } }
-			ship = { ordered_name = 14 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = HOL version_name = "O12 Class" } } }
-			ship = { ordered_name = 15 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_2 = { amount = 1 owner = HOL version_name = "O12 Class" } } }
+			ship = { name = "O8" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O9" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O10" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O11" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O12" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O13" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O14" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O15" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
 		}				
 	}
 
@@ -33,37 +35,37 @@
 		task_force = {				
 			name = "Nederlands-Indië Eskader"			
 			location = 7381  # Batavia	
-			ship = { name = "HrMs Soerabaja" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { nrm_ship_hull_cruiser_coastal = { amount = 1 owner = HOL version_name = "Soerabaja Class" } }	}		
-			ship = { name = "HrMs Java" definition = light_cruiser start_experience_factor = 0.075 equipment = { nrm_ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
-			ship = { name = "HrMs Sumatra" definition = light_cruiser start_experience_factor = 0.075 equipment = { nrm_ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
-			ship = { name = "HrMs De Ruyter" definition = light_cruiser start_experience_factor = 0.075 equipment = { nrm_ship_hull_cruiser_2 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
+			ship = { name = "HrMs Soerabaja" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Soerabaja Class" } }	}		
+			ship = { name = "HrMs Java" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
+			ship = { name = "HrMs Sumatra" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
+			ship = { name = "HrMs De Ruyter" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
 			# Torpedobootjager Divisie
-			ship = { name = "HrMs Van Ghent" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Van Ghent Class" } } }		
-			ship = { name = "HrMs Evertsen" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Van Ghent Class" } } }		
-			ship = { name = "HrMs Kortenaer" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Van Ghent Class" } } }		
-			ship = { name = "HrMs Piet Hein" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Van Ghent Class" } } }		
-			ship = { name = "HrMs Witte de With" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }	
-			ship = { name = "HrMs Banckert" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }	
-			ship = { name = "HrMs Van Nes" definition = destroyer start_experience_factor = 0.075 equipment = { nrm_ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }	
+			ship = { name = "HrMs Van Ghent" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Evertsen" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Kortenaer" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Piet Hein" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Witte de With" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs Banckert" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs Van Nes" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
 		}				
 		task_force = {				
 			name = "Nederlands-Indië Onderzeeboot Smaldeel"			
 			location = 4608  # Soerbaja
-			ship = { ordered_name = 7 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = HOL version_name = "K-V Class" } } }
-			ship = { ordered_name = 8 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = HOL version_name = "K-VIII Class" } } }
-			ship = { ordered_name = 10 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = HOL version_name = "K-VIII Class" } } }
+			ship = { name = "K7" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K8" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K10" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
 			# I Onderzeeboot Divisie
-			ship = { ordered_name = 17 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
-			ship = { ordered_name = 18 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { name = "K17" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K18" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
 			# II Onderzeeboot Divisie
-			ship = { ordered_name = 9 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_small_1 = { amount = 1 owner = HOL version_name = "K-VIII Class" } } }
-			ship = { ordered_name = 11 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-XI Class" } } }
-			ship = { ordered_name = 12 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-XI Class" } } }
-			ship = { ordered_name = 13 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-XI Class" } } }
+			ship = { name = "K9" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K11" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K12" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K13" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
 			# III Onderzeeboot Divisie
-			ship = { ordered_name = 14 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
-			ship = { ordered_name = 15 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
-			ship = { ordered_name = 16 definition = submarine start_experience_factor = 0.075 equipment = { nrm_ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { name = "K14" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K15" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K16" definition = submarine start_experience_factor = 0.075 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
 		}				
 	}
 }
@@ -77,7 +79,7 @@ instant_effect = {
 	### Ships Under Contruction ###
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_cruiser_2
+			type = ship_hull_cruiser_3
 			creator = "HOL" 
 			version_name = "Tromp Class"
 		}
@@ -87,9 +89,9 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = nrm_ship_hull_submarine_2
+			type = ship_hull_submarine_2
 			creator = "HOL" 
-			version_name = "O16 Class"
+			version_name = "O Class"
 		}
 		name = "HrMs O-16"
 		requested_factories = 1
