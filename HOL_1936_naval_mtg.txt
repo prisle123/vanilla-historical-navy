@@ -12,7 +12,7 @@
 			ship = { name = "HrMs Ijmuiden" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Jacob van Heemskerck Class" } } }	
 			ship = { name = "HrMs Gelderland" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }
 			ship = { name = "HrMs Noordbrabant" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }	
-			ship = { name = "HrMs Van Galen" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Van Galen" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
 		}				
 		task_force = {				
 			name = "Koninklijke Onderzeeboot Smaldeel"			
@@ -40,13 +40,13 @@
 			ship = { name = "HrMs Sumatra" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
 			ship = { name = "HrMs De Ruyter" definition = light_cruiser start_experience_factor = 0.075 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
 			# Torpedobootjager Divisie
-			ship = { name = "HrMs Van Ghent" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
-			ship = { name = "HrMs Evertsen" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
-			ship = { name = "HrMs Kortenaer" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
-			ship = { name = "HrMs Piet Hein" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
-			ship = { name = "HrMs Witte de With" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
-			ship = { name = "HrMs Banckert" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
-			ship = { name = "HrMs Van Nes" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_destroyer_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs Van Ghent" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Evertsen" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Kortenaer" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Piet Hein" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Witte de With" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs Banckert" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs Van Nes" definition = destroyer start_experience_factor = 0.075 equipment = { ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
 		}				
 		task_force = {				
 			name = "Nederlands-Indië Onderzeeboot Smaldeel"			
