@@ -1,0 +1,102 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	### ROYAL NAVY ###
+	fleet = {
+		name = "Koninklijke Marine"			
+		naval_base = 3314  # Amsterdam
+		task_force = {				
+			name = "Koninklijke Vloot"			
+			location = 3314  # Amsterdam
+			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Hertog Hendrik Class" } } }		
+			ship = { name = "HrMs Ijmuiden" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Jacob van Heemskerck Class" } } }	
+			ship = { name = "HrMs Gelderland" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }
+			ship = { name = "HrMs Noordbrabant" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }	
+			ship = { name = "HrMs Van Galen" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+		}				
+		task_force = {				
+			name = "Koninklijke Onderzeeboot Smaldeel"			
+			location = 3314  # Amsterdam
+			ship = { name = "O8" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O9" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O10" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O11" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O12" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O13" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O14" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+			ship = { name = "O15" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O Class" } } }
+		}				
+	}
+
+	### EAST INDIES SQUADRON ###
+	fleet = {
+		name = "Nederlands-Indië Marine"			
+		naval_base = 7381  # Batavia	
+		task_force = {				
+			name = "Nederlands-Indië Eskader"			
+			location = 7381  # Batavia	
+			ship = { name = "HrMs Soerabaja" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Soerabaja Class" } }	}		
+			ship = { name = "HrMs Java" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
+			ship = { name = "HrMs Sumatra" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
+			ship = { name = "HrMs De Ruyter" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
+			# Torpedobootjager Divisie
+			ship = { name = "HrMs Van Ghent" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Evertsen" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Kortenaer" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Piet Hein" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }		
+			ship = { name = "HrMs Witte de With" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs Banckert" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+			ship = { name = "HrMs Van Nes" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = HOL version_name = "Admiralen Class" } } }	
+		}				
+		task_force = {				
+			name = "Nederlands-Indië Onderzeeboot Smaldeel"			
+			location = 4608  # Soerbaja
+			ship = { name = "K7" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K8" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K10" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			# I Onderzeeboot Divisie
+			ship = { name = "K17" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K18" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			# II Onderzeeboot Divisie
+			ship = { name = "K9" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K11" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K12" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K13" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			# III Onderzeeboot Divisie
+			ship = { name = "K14" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K15" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+			ship = { name = "K16" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K Class" } } }
+		}				
+	}
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	### Ships Under Contruction ###
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HOL" 
+			version_name = "Tromp Class"
+		}
+		requested_factories = 1
+		progress = 0.05
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "HOL" 
+			version_name = "O Class"
+		}
+		name = "HrMs O-16"
+		requested_factories = 1
+		progress = 0.05
+		amount = 2
+	}
+}
+#####################

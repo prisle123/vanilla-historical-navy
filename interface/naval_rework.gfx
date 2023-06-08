@@ -1,0 +1,57 @@
+spriteTypes = {	
+	spriteType = { # "SH battleship"
+		name = "GFX_navalcombat_ship_icon_SH_battleship"
+		texturefile = "gfx/interface/navalcombat/ships/sh_battleship.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = { name = "GFX_unit_battle_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/destroyer_V.dds"	noOfFrames = 2 }
+	
+	spriteType = {
+		name = "GFX_unit_SH_battleship_icon_medium_white"
+		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_SH_battleship_icon_medium_black"
+		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship_inverted.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_SH_battleship_icon_small"
+		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_SH_battleship_icon_small"
+		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	corneredTileSpriteType = {
+		name = "rework_ship_icon_bg"
+		#texturefile = "gfx/interface/tiles/tiled_paper_bg.dds"
+		textureFile = "gfx/interface/ship_icon_blueprint.dds"
+		size= { x=32 y=32 }
+		borderSize = { x=5 y=5 }
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_red_bg"
+		size= {x=96 y=96 }
+		textureFile ="gfx//interface//tiled_research_red_bg.dds"
+		borderSize = { x=32 y=32 }
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_navy_intro"
+		textureFile = "gfx/introscreen/navy_intro.png"
+	}
+	spriteType = {
+		name = "GFX_navy_splash_intro"
+		textureFile = "gfx/introscreen/navy_rework_splash.png"
+	}
+}

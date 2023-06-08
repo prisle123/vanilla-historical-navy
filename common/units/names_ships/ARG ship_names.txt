@@ -1,0 +1,122 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ARG_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ARG FOP }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "ARA "
+	fallback_name = "Destructor %d"
+
+	unique = {
+		"卡塔马卡" "胡胡伊" "科尔多瓦" "拉普拉塔" "塞凡提斯" "胡安·德·加雷" "蒙多萨" "里欧哈" "德图库曼" "布宜诺斯艾利斯" "恩特雷里奥斯" "科连特斯" "圣胡安"
+		"圣路易斯" "米西奥内斯" "圣克鲁斯" "多梅克·加西亚海军上将" "布朗" "埃斯波拉" "罗萨利斯" "斯托尼海军上将" "塞吉" "布夏" "彼德拉·武埃奈" "派伊" "大力神"
+		"圣三一" "圣地亚哥" "萨尔塔"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+ARG_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ARG FOP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "ARA "
+	fallback_name = "Crucero Ligero %d"
+
+	unique = {
+		"自由" "独立" "格里科" "葛兰维尔" "罗萨利斯" "斯彼罗" "帕克" "罗宾逊" "戈梅兹·罗卡"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+ARG_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ARG FOP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = "ARA "
+	fallback_name = "Crucero Pesado %d"
+
+	unique = {
+		"五月二十五日" "布朗海军上将" "普雷登" "阿根廷" "贝尔格拉诺将军" "七月九日" "穆拉彻" "金" "希罗纳" "德拉蒙德"
+		"格里科" "葛兰维尔" "罗萨利斯" "斯彼罗" "帕克" "罗宾逊" "戈梅兹·罗卡"
+	}
+}
+
+### BATTLESHIP NAMES ###
+ARG_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ARG FOP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = "ARA "
+	fallback_name = "Acorazado %d"
+
+	unique = {
+		"里瓦达维亚" "莫雷诺" "阿佐帕多" "萨兰迪" "埃斯波拉"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+ARG_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { ARG FOP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = "ARA "
+	fallback_name = "Crucero de Batalla %d"
+
+	unique = {
+		"里瓦达维亚" "莫雷诺" "阿佐帕多" "萨兰迪" "埃斯波拉"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+ARG_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ARG FOP }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "ARA "
+	fallback_name = "Portaaviones %d"
+
+	unique = {
+		"独立" "共和" "圣马丁将军"
+	}
+}
+
+### SUBMARINES ###
+ARG_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ARG FOP }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "ARA "
+	fallback_name = "Submarino %d"
+
+	unique = {
+		"圣塔菲" "圣地亚哥爱沙泰罗" "萨尔塔" "圣路易斯" "圣克鲁斯" "圣胡安"
+	}
+}

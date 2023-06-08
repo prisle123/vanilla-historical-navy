@@ -1,0 +1,244 @@
+﻿##### GREECE NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+HOL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HrMs "
+	fallback_name = "Torpedobootjager %d"					
+
+	unique = {											
+		"皮亚特·海恩" "埃弗斯坦" "范·根特" "寇腾纳尔" "范·盖伦" "维特·德·威斯" "班科特" "范·尼斯" "杰拉德·卡林堡" "艾萨克·斯维尔斯" "提尔科·希迪斯" "菲利普斯·凡·阿蒙德"
+		"坎贝尔敦" "马尔尼克斯" "荷兰" "泽兰" "北布拉班特" "海尔德兰" "弗里斯兰" "格罗宁根" "林堡" "上艾瑟尔" "德伦特" "乌德勒支" "鹿特丹" "阿姆斯特丹"
+		"狼" "雪貂" "猎犬" "豺" "貂" "山猫" "狐狸" "豹" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+HOL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HrMs "
+	fallback_name = "Kruiser %d"
+
+	unique = {
+		"爪哇" "苏门答腊" "德·鲁伊特" "特朗普" "雅各布·范黑姆斯克尔克" "七省" "团结" "海尔德兰" "泽兰" "弗里斯兰" "海尔德兰" "北布拉班特" 
+		"乌德勒支" "德伦特" "布拉班特" "林堡"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+HOL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HrMs "
+	fallback_name = "Panterschip %d"
+
+	unique = {
+		"亨利公爵" "雅各布·范黑姆斯克尔克" "泗水" "西里伯斯" "巴占群岛" "塞兰" "安汶岛" "班达群岛" "特尔纳特"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+HOL_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HrMs "
+	fallback_name = "Slagschip %d"		
+
+	unique = {
+		"雷纳尔·克拉斯岑" "埃弗森" "皮亚特·海恩" "寇腾纳尔" "摄政女王" "亨利公爵" "范·斯佩克" "维特·德·威斯" 
+	}
+}
+
+### BATTLECRUISER NAMES ###
+HOL_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HrMs "
+	fallback_name = "Slagkruiser %d"		
+
+	unique = {
+		"范·斯佩克" "维特·德·威斯" "皮亚特·海恩" "寇腾纳尔" "摄政女王" "亨利公爵" 
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+HOL_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HrMs "
+	fallback_name = "Vliegdekschip %d"	
+
+	unique = {
+		"卡雷尔·多尔曼" "七省" "德·鲁伊特" "特朗普" "皮亚特·海恩" 
+	}
+}
+
+### SUBMARINES ###
+HOL_SS_OCLASS = {
+	name = NAME_THEME_HISTORICAL_SUBS_OCLASS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HrMs "
+	fallback_name = "O-%d"
+	
+	ordered = {
+		1 = {"O-%d"}
+		2 = {"O-%d"} 
+		3 = {"O-%d"} 
+		4 = {"O-%d"} 
+		5 = {"O-%d"}
+		6 = {"O-%d"}
+		7 = {"O-%d"}
+		8 = {"O-%d"}
+		9 = {"O-%d"}
+		10 = {"O-%d"}
+		11 = {"O-%d"}
+		12 = {"O-%d"}
+		13 = {"O-%d"}
+		14 = {"O-%d"}
+		15 = {"O-%d"}
+		16 = {"O-%d"}
+		17 = {"O-%d"}
+		18 = {"O-%d"}
+		19 = {"O-%d"}
+		20 = {"O-%d"}
+		21 = {"O-%d"}
+		22 = {"O-%d"}
+		23 = {"O-%d"}
+		24 = {"O-%d"}
+		25 = {"O-%d"}
+	}
+}
+HOL_SS_KCLASS = {
+	name = NAME_THEME_HISTORICAL_SUBS_KCLASS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HrMs "
+	fallback_name = "K-%s"
+	
+	ordered = {
+		1 = {"K-%s"}
+		2 = {"K-%s"} 
+		3 = {"K-%s"} 
+		4 = {"K-%s"} 
+		5 = {"K-%s"}
+		6 = {"K-%s"}
+		7 = {"K-%s"}
+		8 = {"K-%s"}
+		9 = {"K-%s"}
+		10 = {"K-%s"}
+		11 = {"K-%s"}
+		12 = {"K-%s"}
+		13 = {"K-%s"}
+		14 = {"K-%s"}
+		15 = {"K-%s"}
+		16 = {"K-%s"}
+		17 = {"K-%s"}
+		18 = {"K-%s"}
+		19 = {"K-%s"}
+		20 = {"K-%s"}
+		21 = {"K-%s"}
+		22 = {"K-%s"}
+		23 = {"K-%s"}
+		24 = {"K-%s"}
+		25 = {"K-%s"}
+	}
+}
+
+### THEME: DUTCH REGIONS  ###
+HOL_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { HOL }
+
+	type = ship
+
+	prefix = "HrMs "							
+	unique = {
+		"海尔德兰" "泽兰" "弗里斯兰" "北布拉班特" "乌德勒支" "德伦特" "布拉班特" "林堡"
+	}
+}
+
+## THEME: DUTCH CITIES ###
+HOL_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { HOL }
+
+	type = ship
+
+	prefix = "HrMs "							
+	unique = {
+		"鹿特丹" "阿姆斯特丹" "海牙" "乌德勒支" "艾恩德霍芬" "蒂尔堡" "格罗宁根" "内梅亨" "布雷达" "阿尔梅勒" "恩斯科德" 
+		"阿纳姆" "阿默斯福特" "马斯特里赫特" "兹沃勒" "迪温特" "芬洛" "组特梅尔" "罗森达尔" "阿帕恩多" 
+	}
+}
+
+## THEME: DUTCH COLONIES ###
+HOL_COLONIES = {
+	name = NAME_THEME_COLONIES
+
+	for_countries = { HOL }
+
+	type = ship
+
+	prefix = "HrMs "							
+	unique = {
+		"爪哇" "苏门答腊" "泗水" "西" "巴占群岛" "塞兰" "安汶岛" "班达群岛" "特尔纳特" "巴达维亚" "苏拉威西" "巽他" "巴厘岛" "巴布亚" "棉兰" 
+		"望加锡" "巨港" "巴厘巴板" "万鸦老" "荷兰迪亚"
+	}
+}
+
+## THEME: FISH ###
+HOL_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { HOL }
+
+	type = ship
+
+	prefix = "HrMs "							
+	unique = {
+		"海豚" "海豹" "旗鱼" "虎鲨" "海象" "海狮" "抹香鲸" "金枪鱼" "剑鱼" "鼠海豚"
+	}
+}

@@ -1,0 +1,152 @@
+﻿##### GREECE NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+GRE_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "EP "
+	fallback_name = "Metafero %s"
+
+	unique = {
+		"纳瓦里诺" "客蒙" "尼阿库斯" "风暴" "特米斯托克利" "弗尔米奥" "盾牌" "长矛" "纳瓦里诺" "投石机" "弓箭" "阿波斯托利斯" "卡纳里斯" "克里季斯" "萨赫托利斯" "米奥列斯"
+		"雕" "鹰" "狮" "豹" "康托里奥蒂斯" "九头蛇" "普萨拉" "斯佩察" "海斯廷斯" "阿克洛奥斯" "埃夫罗塔斯" "阿利阿克蒙" "马里查" "奈斯托斯" "斯特鲁马" "克拉夫诺斯" "新生"
+		"度沙" "尼基" "阿德里亚斯" "埃该翁" "卡纳里斯" "克里特" "米奥列斯" "班都斯" "乔治一世" "康斯坦丁一世" "奥尔嘉王后" "索菲亚王后" "伊庇鲁斯" "马其顿"
+		"色雷斯" "希腊" "阿马利娅" "科斯塔克斯" "阿尼诺斯" "埃利奥提斯" "巴特西斯" "柯尼迪斯" "萨基皮斯" "图尔纳斯" "瓦拉哈瓦斯" "阿贡" "依莱夫瑟利亚" "阿克蒂昂" "阿弗拉基亚"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+GRE_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "EP "
+	fallback_name = "Elafri Katadromiko %s"
+
+	unique = {
+		"萨赫托利斯" "汤巴齐斯" "爱丽" "比雷埃夫斯" "基克拉泽斯" "亚历山德罗斯" "帕特雷" "乔治一世" "康斯坦丁一世" "奥尔嘉王后" "索菲亚王后" "伊庇鲁斯" "马其顿"
+		"色雷斯" "希腊" "阿马利娅" "科斯塔克斯" "阿尼诺斯" "埃利奥提斯" "巴特西斯" "柯尼迪斯" "萨基皮斯" "图尔纳斯" "瓦拉哈瓦斯" "阿贡" "依莱夫瑟利亚"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+GRE_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = "EP "
+	fallback_name = "Vari Katadromiko %s"
+
+	unique = {
+		"比雷埃夫斯" "基克拉泽斯" "亚历山德罗斯" "帕特雷" "克里特" "爱琴海群岛" "基西拉" "凯法利尼亚" "乔治一世" "康斯坦丁一世" "奥尔嘉王后" "索菲亚王后" "伊庇鲁斯" "马其顿"
+		"色雷斯" "希腊" "阿马利娅" "科斯塔克斯" "阿尼诺斯" "埃利奥提斯" "巴特西斯" "柯尼迪斯" "萨基皮斯" "图尔纳斯" "瓦拉哈瓦斯" "阿贡" "依莱夫瑟利亚"
+	}
+}
+
+### BATTLESHIP NAMES ###
+GRE_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = "EP "
+	fallback_name = "Thorikto %s"
+
+	unique = {
+		"基尔基斯" "雅典" "色萨利" "伊庇鲁斯" "伯罗奔尼撒"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+GRE_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = "EP "
+	fallback_name = "Thoriktou %s"
+
+	unique = {
+		"雅典" "色萨利" "伊庇鲁斯" "伯罗奔尼撒" "基尔基斯"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+GRE_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "EP "
+	fallback_name = "Aeroplanoforo %s"
+
+	unique = {
+		"希腊" "苏格拉底" "九头蛇" "斯佩察" "普萨拉"
+	}
+}
+
+### SUBMARINES ###
+GRE_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "EP "
+	fallback_name = "Ypobrychio %s"
+
+	unique = {
+		"马特罗佐斯" "皮皮诺斯" "海豚" "亚尔戈" "特里亚纳" "安菲特里特" "旗鱼" "格拉夫科斯" "格里帕里斯" "紫薇" "守护" "尼瑞夫斯"
+		"波塞冬" "俄刻阿诺斯" "尼鲁斯" "特里同" "普罗透斯" "蓬托斯" "帕帕尼科利斯" "皮皮诺斯" "马特罗佐斯" "卡特索尼斯"
+	}
+}
+
+## THEME: GREEK CITIES ###
+GRE_STATES = {
+	name = NAME_THEME_STATES
+
+	for_countries = { GRE }
+
+	type = ship
+
+	unique = {
+		"希腊" "安提基斯" "色萨利" "马其顿" "伊庇鲁斯" "伯罗奔尼撒" "阿索斯" "色雷斯"
+	}
+}
+
+GRE_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { GRE }
+
+	type = ship
+
+	unique = {
+		"雅典" "萨罗尼加" "帕特雷" "比雷埃夫斯" "拉里萨" "伊拉克利翁" "佩里斯特里" "卡里地亚" "阿夏奈" "卡拉马里亚" "尼卡亚" "格利法扎" "佛洛斯"
+		"新利奥夏" "伊里奥波利" "克拉茨尼" "埃夫斯莫斯" "法雅" "新士麦纳" "阿马鲁西奥" "圣德米特里" "佐格法夫" "艾加里奥" "新伊奥尼亚" "约阿尼纳"
+		"帕勒隆湾" "高丽达洛斯" "特里卡拉" "阿格林尼翁" "哈尔基斯" "塞雷" "卡泰里尼" "卡拉玛达"
+	}
+}

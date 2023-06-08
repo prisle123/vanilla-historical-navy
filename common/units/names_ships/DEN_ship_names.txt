@@ -1,0 +1,226 @@
+﻿##### DENMARK NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+DEN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { DEN SCA }
+
+	can_use = {
+		OR = {
+			tag = DEN
+			AND = {
+				tag = SCA
+				owns_state = 37 # Copenhagen
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "KDM "
+	fallback_name = "Destroyer %d"
+
+	unique = {
+		"惠特费尔特"
+		"维尔莫斯"
+		"海骑士"
+		"飞鱼"
+		"海狼"
+		"海象"
+		"剑鱼"
+		"海狮"
+		"海狗"
+		"独角鲸"
+		"鲭鱼"
+		"露脊鲸"
+		"狼鱼"
+		"海豹"
+		"龙"
+		"鲸鱼"
+		"鲑鱼"
+		"鸢"
+		"鹫"
+		"鹰"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+DEN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { DEN SCA }
+
+	can_use = {
+		OR = {
+			tag = DEN
+			AND = {
+				tag = SCA
+				owns_state = 37 # Copenhagen
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "KDM "
+	fallback_name = "Krysder %d"
+
+	unique = {
+		"比目鱼"
+		"海鸥"
+		"鹫"
+		"猛禽"
+		"杜父鱼"
+		"奥尔费尔特·费舍尔"
+		"费恩"
+		"海克拉"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+DEN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { DEN SCA }
+
+	can_use = {
+		OR = {
+			tag = DEN
+			AND = {
+				tag = SCA
+				owns_state = 37 # Copenhagen
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_cruiser_coastal_defense_ship ship_hull_cruiser_panzerschiff heavy_cruiser battle_cruiser }
+
+	prefix = "KDM "
+	fallback_name = "Panserkrysder %d"
+
+	unique = {
+		"尼尔斯·尤尔"
+		"彼得·斯克拉姆"
+		"维他斯·白令"
+		"北极熊"
+	}
+}
+
+### BATTLESHIP NAMES ###
+DEN_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { DEN SCA }
+
+	can_use = {
+		OR = {
+			tag = DEN
+			AND = {
+				tag = SCA
+				owns_state = 37 # Copenhagen
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = "KDM "
+	fallback_name = "Slagskib %d"
+
+	unique = {
+		"托登斯基尔德"
+		"伊瓦·惠特费尔特"
+		"乌尔里希·吉尔登洛夫"
+		"马克·罗德斯汀"
+		"德拉兹基"
+		"热列兹扬科夫"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+DEN_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { DEN SCA }
+
+	can_use = {
+		OR = {
+			tag = DEN
+			AND = {
+				tag = SCA
+				owns_state = 37 # Copenhagen
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "KDM "
+	fallback_name = "Hangarskib %d"
+
+	unique = {
+		"丹麦法典"
+		"彼得·维尔莫斯"
+		"斯蒂恩·比勒"
+		"彼得·玛斯文"
+		"丹纳布罗格"
+		"罗夫·克拉克"
+		"林德虫"
+		"奥丁"
+	}
+}
+
+### SUBMARINES ###
+DEN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { DEN SCA }
+
+	can_use = {
+		OR = {
+			tag = DEN
+			AND = {
+				tag = SCA
+				owns_state = 37 # Copenhagen
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "KDM "
+	fallback_name = "Ubåd %d"
+
+	unique = {
+		"罗塔"
+		"贝罗那"
+		"佛洛拉"
+		"达佛涅"
+		"德律阿得斯"
+		"人鱼"
+		"塞壬"
+		"灰鲨"
+		"暴雪鹱"
+		"骑士"
+		"斯特伦"
+		"海豚"
+		"虎鲸"
+		"宽吻海豚"
+		"潜水者"
+		"忒提斯"
+		"四月二日"
+		"那伊阿得斯"
+		"宁芙"
+		"埃吉尔"
+		"澜"
+		"特里同"
+		"尼普顿"
+		"铠甲虾"
+	}
+}

@@ -1,0 +1,208 @@
+﻿##### JAPAN NAME LISTS #####
+### ESCORT DESTROYER NAMES###
+
+### MINELAYER NAMES###
+JAP_MINELAYERS_HISTORICAL = { #islands
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+	for_countries = { JAP } 
+	prefix = ""
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	fallback_name = "敷設艇第%d號"
+	unique = {
+		# Cruiser and DD Minelayers
+		"冲之岛" "初鹰" "苍鹰" "若鹰" "津轻" "永城" "箕面"
+		"胜力" "白鹰" "严岛" "八重山" "鸿" "鹎" "隼" "鹊" "雉" "雁" "鹭" "鸠"
+		"熊鹰" "山鸟" "水鸟" "海鸟" "驹鸟"
+		# Older and smaller Minelayer Names
+		"夏岛" "测天" "户岛" "黑岛" "苇埼" "加德" "黑神" "片岛" "元岛" "江之岛" "黑埼" "似岛" "鹫埼" "鸥" "燕" "那沙美"
+		"猿岛" "白神" "成生" "巨济" "浮岛" "平岛" "澎湖" "石埼" "鹰岛" "济州" "新井埼" "由利岛" "怒和岛" "前岛"
+		"网代" "神岛" "粟岛"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+JAP_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS #unique carrier names
+	for_countries = { JAP } 
+	prefix = ""
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	fallback_name = "空母第%d號"
+	unique = {
+		"苍龙" "飞龙" "翔鹤" "瑞鹤" "隼鹰" "飞鹰" "大凤" "云龙" "葛城" "笠置" "阿苏" "白龙" "翔龙" "瑞龙" "顺龙"
+	}
+}
+JAP_CVL_HISTORICAL = {
+	name = NAME_THEME_IJN_LIGHT_CARRIERS #CVL names
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "空母第%d號"
+
+	unique = {
+		"瑞凤" "祥凤" "龙凤" "千岁" "千代田" "伊吹" "大鹰" "云鹰" "冲鹰" "神鹰"
+		"凤翔" "龙骧" "海鹰"
+		# CVE Names
+		"山汐丸" "千种丸" "岛根丸" "大泷山丸" "秋津丸" "神州丸" "熊野丸"
+	}
+}
+
+### SUBMARINES ###
+JAP_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = { JAP } 
+	prefix = ""
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	fallback_name = "伊-%d"
+	ordered = {
+		1 = {"伊-%d"}
+		2 = {"伊-%d"}
+		3 = {"伊-%d"}
+		4 = {"伊-%d"}
+	}
+}
+
+### THEME: JAPANESE PREFECTURES + Other names for Japan###
+JAP_PREFECTURES = {
+	name = NAME_THEME_PREFECTURES #battleships and bb converted carriers
+	ship_types = { ship_hull_carrier carrier ship_hull_heavy battleship battle_cruiser ship_hull_cruiser heavy_cruiser }
+	for_countries = { JAP } 
+	prefix = ""
+	type = ship
+	fallback_name = "%d"
+	unique = {
+		"摄津" "伊贺" "大和" "伊势" "志摩" "尾张" "三河" "远江" "骏河" "伊豆" "甲斐" "相模" "武藏" "阿波" "上总"
+		"下总" "日立" "麻绩" "美浓" "飞驒" "信浓" "上野" "下野" "出羽" "陆奥" "若狭" "越前" "加贺" "能登" "越中" "越后"
+		"佐渡" "丹波" "丹后" "但马" "因幡" "伯耆" "出云" "石见" "隐岐" "播磨" "美作" "备前" "备中" "备后" "安艺" "周防" "长门"
+		"纪伊" "淡路" "阿波" "赞岐" "伊予" "土佐" "丰前" "筑前" "筑后" "肥前" "肥后" "日向" "大隅" "萨摩" "壱岐" "对马" "大岛"
+		"后志" "胆振" "石狩" "天塩" "北见" "日高" "十胜" "钏路" "根室" "千岛"
+		"北海道" "爱知" "爱媛" "群马" "兵库" "石川" "岩手" "香川" "神奈川" "三重" "宫城" "冲绳" "滋贺" "岛根" "栃木" "山梨"
+		
+		"扶桑" "山城" "近江"
+	}
+}
+
+## THEME: JAPANESE CITIES ###
+JAP_CITIES = {
+	name = NAME_THEME_CITIES #not used
+	ship_types = { ship_hull_carrier carrier ship_hull_heavy battleship battle_cruiser ship_hull_cruiser heavy_cruiser }
+	for_countries = { JAP } 
+	prefix = ""
+	type = ship
+	fallback_name = "%d"
+	unique = {
+		"东京" "横浜" "大阪" "名古屋" "札幌" "神户" "京都" "福冈" "川崎" "埼玉" "广岛" "仙台" "北九州" "千叶" "世田谷"
+		"堺" "新泻" "浜松" "静冈" "相模原" "练马" "冈山" "大分" "熊本" "江户川" "足立" "鹿儿岛" "船桥" "八王子"
+		"川口" "姫路" "杉並" "板桥" "松山" "东大阪" "宇都宫" "松户" "西宫" "倉敷" "市川" "福山"
+		"尼崎" "金沢" "长崎" "江东" "葛饰" "横须贺" "富山" "丰田" "高松" "町田" "岐阜" "枚方" "藤沢" "柏"
+		"丰中" "长野" "丰桥" "一宫" "和歌山" "冈崎" "宫崎" "奈良" "吹田" "高槻" "品川" "旭川" "磐城" "高知"
+		"高崎" "郡山" "所沢" "川越" "北市" "秋田" "大津" "越谷" "前桥" "那覇" "中野" "新宿" "四日市" "青森" "久留米"
+		"春日井" "盛冈" "明石" "福岛" "津市" "下关" "长冈" "市原" "函馆" "八尾" "茨城" "福井" "目黑" "加古川" "徳岛"
+		"水户" "平塚" "丰岛" "山形" "佐世保" "府中" "吴市" "八户" "佐贺" "寝屋川" "草加" "墨田" "富士" "春日部" "茅崎" "松本"
+		"厚木" "上尾" "宝塚" "调布" "大田" "筑波" "沼津" "上越" "涉谷" "港" "熊谷" "伊势崎" "岸和田" "鸟取" "甲府"
+		"小田原" "铃鹿" "松江" "日立" "文京" "荒川" "伊丹" "西东京" "山口" "宇治"
+	}
+}
+
+JAP_WEATHER = {
+	name = NAME_THEME_WEATHER #wheather, moons, winds, natural phenomens, seasons
+	ship_types = { ship_hull_light destroyer }
+	for_countries = { JAP } 
+	prefix = ""
+	type = ship
+	fallback_name = "%d"
+	unique = {
+		"峯风" "泽风" "冲风" "岛风" "滩风" "矢风" "羽风" "汐风" "秋风" "夕风" "太刀风" "帆风" "野风" "波风" "沼风"
+		"神风" "朝风" "春风" "松风" "旗风" "追风" "疾风" "朝凪" "夕凪"
+		"睦月" "如月" "弥生" "卯月" "皋月" "水无月" "文月" "长月" "菊月" "三日月" "望月" "夕月"
+		"吹雪" "白雪" "初雪" "丛云" "东云" "薄云" "白云" "矶波" "浦波"
+		"绫波" "敷波" "朝雾" "夕雾" "天雾" "狭雾" "胧" "曙" "涟" "潮"
+		"晓" "响" "雷" "电"
+
+		"初春" "子日" "若叶" "初霜" "有明" "夕暮"
+		"白露" "时雨" "村雨" "夕立" "春雨" "五月雨" "海风" "山风" "江风" "凉风"
+		"朝潮" "大潮" "满潮" "荒潮" "朝云" "山云" "夏云" "峯云" "霰" "霞"
+		"阳炎" "不知火" "黑潮" "亲潮" "早潮" "夏潮" "初风" "雪风" "天津风" "时津风" "浦风" "矶风" "浜风" "谷风" "野分"
+		"岚" "萩风" "舞风" "秋云"
+
+		"夕云" "卷云" "风云" "长波" "卷波" "高波" "大波" "清波" "玉波" "凉波" "藤波" "早波" "滨波" "冲波" "岸波" "朝霜"
+		"早霜" "秋霜" "清霜" "海雾" "山雾" "谷雾" "川雾" "妙风" "里风" "村风" "山雨" "秋雨" "夏雨" "早雨" "高潮" "秋潮"
+		"春潮" "若潮"
+
+		"秋月" "照月" "凉月" "初月" "新月" "若月" "霜月"
+		"冬月" "春月" "宵月" "夏月"
+		"满月" "花月" "清月" "大月" "叶月" "山月" "浦月" "青云" "红云" "春云" "天云" "八重云" "冬云" "雪云" "冲津风"
+		"霜风" "朝东风" "东风" "西风" "南风"
+		"岛风" "北风" "早风" "夏风" "冬风" "初夏" "初秋" "早春"
+
+		"峰雪" "泽雪" "滨雪" "矶雪" "春雪" "山雪" "松雪" "濑户雪" "朝雪" "岛雪" "深雪"
+		"朝日" "清风" "微风" "大风" "旋风" "轻风" "真风"
+	}
+}
+
+JAP_NATURE = {
+	name = NAME_THEME_NATURE #plants for small DDs mostly
+	ship_types = { ship_hull_light destroyer }
+	for_countries = { JAP } 
+	prefix = ""
+	type = ship
+	fallback_name = "%d"
+	unique = {
+		"樱" "橘"
+		"桦" "柏" "榊" "桂" "杉" "枫" "梅" "桐" "楠" "松"
+		"桃" "樫" "桧" "柳"
+		"榎" "槙" "榉" "桑" "椿" "楢"
+		"枞" "榧" "梨" "竹" "柿" "栂" "榆" "栗" "菊" "葵" "藤" "萩" "薄" "菱" "莲" "蕨" "蓼" "菫" "茑" "苇" "蓬"
+		"若竹" "吴竹" "早苗" "早蕨" "朝颜" "夕颜" "芙蓉" "刈萱"
+		"桔梗" "百合" "菖蒲" "海棠" "杜若" "踯躅" "紫苑" "紫阳" "泽泻" "牡丹" "芭蕉" "抚子"
+
+		"八重樱" "矢竹" "葛" "真竹" "早梅" "飞梅" "若樱" "山樱" "雄竹" "初樱" "初梅" "梓" "御藏" "三宅" "淡路" "倉桥" 
+		"能美" "千振" "屋代" "草垣" "篠竹" "白梅" "柏" "黄菊" "初菊" "茜" "白菊" "千" "若草" "夏草" "秋草" "栃" "野菊"
+		"占守" "八丈" "国后" "石垣" "択捉" "隐岐" "佐渡" "松轮" "福江" "对马" "六連" "若宫" "干珠" "天草" "满珠" "笠户" "壱岐"
+		"友知" "鹈来" "日振" "昭南" "大东" "冲绳" "久米" "生名" "新南" "屋久" "粟国" "目斗" "稲木" "宇久" "竹生" "四阪"
+		"羽节" "崎户" "久贺" "男鹿" "神津" "金轮" "志贺" "奄美" "保高" "波太" "伊王" "高根" "伊唐" "蔚美" "室津"
+
+		"千鸟" "真鹤" "友鹤" "初雁"
+	}
+}
+
+JAP_RIVER = {
+	name = NAME_THEME_RIVERS #for cruisers (including battlecruisers) and cruiser converted carriers
+
+	for_countries = { JAP }
+	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
+	type = ship
+
+	fallback_name = "%d"
+
+	unique = {
+		"浅间" "古鹰" "加古" "青叶" "衣笠" "妙高" "那智" "羽黑" "足柄" "高雄" "爱宕" "摩耶" "鸟海" "最上" "三隈" "铃谷"
+		"熊野" "利根" "筑摩" "伊吹" "仁淀" "平户" "天龙" "龙田" "球磨" "多摩" "北上" "大井" "木曾" "长良" "五十铃" "名取"
+		"由良" "鬼怒" "阿武隈" "夕张" "川内" "神通" "那珂" "阿贺野" "能代" "矢矧" "酒匂" "大淀"
+		"绫濑" "水无濑" "音无濑" "天城" "金刚" "比叡" "榛名" "雾岛"
+		"筑波" "生驹" "鞍马"
+	}
+}
+
+JAP_MOUNTAIN = {
+	name = NAME_THEME_MOUNTAINS #for cruisers (including battlecruisers) and cruiser converted carriers
+
+	for_countries = { JAP }
+	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser ship_hull_heavy battle_cruiser }
+	type = ship
+
+	fallback_name = "%d"
+
+	unique = {
+		"石见" "磐手" "旭日" "藏王" "吾妻" "饭丰" "磐梯" "那须" "卷机" "谷川" "高妻" "穗高"
+		"常念" "乘鞍" "蓼科" "瑞墙" "丹沢" "惠那" "塩见" "赤石"
+		"大峰" "石槌" "开闻" "和华" "栗驹" "森吉" "守门" "八海" "岩菅" "妙义" "武甲"
+		"羽草" "爱鹰" "尾铃" "市房" "由布" "云仙" "有明" "饭纲"
+	}
+}
+

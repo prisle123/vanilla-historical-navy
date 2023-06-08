@@ -1,0 +1,193 @@
+﻿##### SARDINIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SRD_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SRD }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "RNs "
+	fallback_name = "Cacciatorpediniere %s"
+
+	unique = {
+		"阿尔盖洛" "阿尔巴塔克斯" "阿波利亚" "卡洛斯·阿尔贝托" "杜卡·翁伯托" "维拉奇德罗" "卡洛·埃曼努埃尔" "卡洛福尔泰" "埃曼努埃莱·菲利伯托" "菲利伯托"
+		"亚历山德罗·普里奥" "西萨尔·罗萨罗" "古列尔莫·佩佩"
+		"贝内文托" "卡普里" "福廖-伊斯基亚" "内格罗湖" "曼弗雷多尼亚" "蒙德拉戈内" "奥尔塔诺瓦" "奥特朗托" "赛尼塞" "德尔菲诺"
+		"朱庇特" "斯库拉" "室女座" "苍鹰" "英仙座" "天狼星" "射手座" "织女星" "金牛座" "仙女座" "牵牛星" "克里梦妮" "半人马座" "双子座" "天鹅座" "老人星" "仙后座" "阿尔弗雷多·奥里亚尼" "维托里奥·阿尔菲耶里"
+		"焦苏埃·卡尔杜奇" "文琴佐·吉奥贝蒂" "卡米契亚·内拉" "山地步兵" "炮手" "厄立特里亚军团" "飞行员" "神射手" "步枪手" "胸甲骑兵" "来复枪手" "工程兵" "掷弹兵" "枪骑兵" "炮兵"
+		"海盗" "军团" "机枪手" "标枪兵" "天蝎座" "白鹭" "翠鸟" "林仙" "艾瑞尔" "昴宿星团" "波鲁克斯" "帕拉斯" "帕耳忒诺珀" "天琴座" "天秤座" "豺狼座" "天猫座" "克利俄" "喀耳刻" "卡利俄佩" "卡吕普索"
+		"白羊座" "大角星" "御夫座" "参宿七" "波江座" "天龙座" "罗马短剑" "长剑" "匕首" "短刀" "长枪" "斧枪" "小熊座" "大熊座" "飞马座" "猎户座" "小犬座" "信风" "勇气" "勇敢"
+		"旋风" "暴风" "西洛可风" "阵风" "披靡" "季风" "台风" "飓风"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+SRD_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SRD }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "RNs "
+	fallback_name = "Incrociatore leggero %s"
+
+	unique = {
+		"安妮塔·加里波第" "巴列奥略"
+		"南海狮" "僧帽水母" "波涛" "大浪" "涡流" "鹦鹉螺" "海鳝" "鳗鱼" "鲷鱼" "鲈鱼" "石斑鱼"
+		"牙鲷" "海豹" "阿特罗波斯" "鲨鱼" "独角鲸" "海豚" "海象" "磷虾" "叉鲷" "詹缇娜" "毒蛇"
+		"猎豹" "狮" "黑豹" "虎" "犀牛" "鬣狗" "豺狼" "河马" "麝猫" "土狼"
+		"山猫" "狞猫" "熊" "美洲狮" "捷豹" "巨蜥" "蝎子" "蜘蛛" "獾" "狐狸"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SRD_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SRD }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = "RNs "
+	fallback_name = "Incrociatore pesante %s"
+
+	unique = {
+		"奥斯塔公爵" "欧根亲王" "阿布鲁兹公爵" "朱塞佩·加里波第" "阿蒂利乌斯·雷古鲁斯" "阿非利加征服者西庇阿" "朱利奥·日耳曼尼科" "伟大的庞贝"
+		"卢基乌斯·苏拉" "卡约·马里奥" "奥古斯都" "奥皮欧·图拉真" "克劳迪奥·德鲁索" "克劳迪奥·蒂贝里奥" "维普撒尼欧·阿格里帕" "保罗·埃米利奥"
+	}
+}
+
+### BATTLESHIP NAMES ###
+SRD_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SRD }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = "RNs " # Regia Nave
+	fallback_name = "Corazzata %s"
+
+	unique = {
+		"阿梅迪奥" "撒丁尼亚" "萨伏伊"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+SRD_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { SRD }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = "RNs "
+	fallback_name = "Incrociatore da battaglia %s"
+
+	unique = {
+		"卡拉利" "阿尔伯雷亚" "洛多罗" "加鲁拉" "奥尔比亚" "萨萨里" "玛格丽塔" "玛丽亚·克里斯蒂娜" "海伦公主" "玛丽亚·维多利亚·道尔·波佐" "玛丽·伊莎贝尔"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+SRD_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SRD }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "RNs " # Regia Nave
+	fallback_name = "Portaerei %s"
+
+	unique = {
+		"皮埃蒙特" "朱庇特" "加富尔伯爵"
+	}
+}
+
+### SUBMARINES ###
+SRD_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SRD }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "Rs.Smg. " # Regio Sommergibile
+	fallback_name = "Sommergibile %s"
+
+	unique = {
+		"格劳科斯" "海狮" "彼得罗·卡尔维" "朱利奥·芬奇" "恩里科·塔佐利" "亚尔戈" "帆水母" "琥珀" "绿柱石" "珊瑚" "碧玉" "宝石" "伊里斯" "孔雀石" "缟玛瑙" "珍珠" "绿松石" "阿杜瓦" "阿拉吉"
+		"阿拉达姆" "阿辛格" "阿克苏姆" "贝卢尔" "达加布尔" "德西" "杜布拉" "冈达尔" "拉佛勒" "默克莱" "那格利" "希雷" "滕比恩" "阿尔谢克" "谢贝利河" "马塞洛" "丹多洛" "维尼洛" "普罗瓦纳"
+		"莫切尼哥" "纳尼" "巴巴里戈" "伊默" "莫罗切尼" "卡佩里尼指挥官" "法迪布鲁诺" "布林" "加伐尼" "古格利尔莫蒂" "阿基米德" "托里拆利" "柳兹准将" "埃尔皮诺·巴格诺利尼"
+		"瑞吉纳多·朱利安尼" "塔兰蒂尼上校" "古列尔莫·马可尼" "莱昂纳多·达·芬奇" "路易吉·托雷利" "亚历山德罗·马拉斯宾纳" "巴拉卡少校" "圣邦海军上将" "卡尼海军上将"
+		"米罗海军上将" "卡拉乔洛海军上将" "钢" "雪花石" "银" "蓝宝石" "象牙" "青铜" "钴" "翡翠" "花岗岩" "镍" "铂" "斑岩" "钨" "人鱼" "漩涡" "波涛"
+		"大浪" "涡流" "鹦鹉螺" "钡" "锂" "钠" "钾" "铜" "铁" "锌" "铅"
+		"海鳝" "鳗鱼" "鲷鱼" "鲈鱼" "石斑鱼" "牙鲷" "铬" "黄铜" "镉" "钒" "铱" "钌" "金" "铝" "锑" "磷" "锰" "硫" "硅" "镁"
+		"汞" "石棉" "马可·安东尼奥·布拉加丁" "菲利波·科里多尼" "彼得罗·米卡" "海豹" "阿特罗波斯" "磷虾" "安东尼奥·巴贾蒙蒂" "弗朗切斯科·里斯蒙多"
+		"巴利拉" "多梅尼克·米勒莱尔" "恩里科·托利" "安东尼奥·谢萨" "戈弗雷多·马梅利" "皮耶罗·卡波尼" "普罗西达的乔瓦尼" "蒂托·斯佩里" "维特·皮萨尼" "马可·安东尼奥·科罗纳"
+		"乔瓦尼·鲍桑" "德·热内斯" "埃托雷·费拉莫斯卡" "班迪拉兄弟" "卢西亚诺·玛纳拉" "山托列·散塔罗沙" "奇罗·蒙诺提" "鲨鱼" "独角鲸" "海豚" "海象" "亚尔戈英雄" "詹缇娜"
+		"航海" "蛇" "路易吉·塞滕布里尼" "鲁杰罗·塞蒂莫" "伽利略·伽利莱" "托里拆利" "伽利略·费拉里斯" "紫水晶" "安菲特里忒" "钻石" "加拉蒂亚" "纳伊阿得斯" "涅瑞伊得斯" "温蒂妮"
+		"红宝石" "塞壬" "祖母绿" "黄玉" "紫石英"
+		"锕" "氮" "溴" "碳" "氦" "钼" "锇" "氧"
+	}
+}
+
+## THEME: ITALIAN CITIES ###
+SRD_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { SRD }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"米兰" "都灵" "那不勒斯" "巴勒莫" "佛罗伦萨" "热那亚" "波隆纳" "卡塔尼亚" "帕多瓦" "维罗纳" "布雷西亚" "特雷维索" "帕尔马" "普拉托" "摩德纳" "雷焦卡拉布里亚" "雷焦艾米利亚" "佩鲁贾" "拉温那" "里窝那"
+		"卡利亚里" "弗吉亚" "里米尼" "萨莱诺" "菲拉拉" "萨萨里" "蒙察" "维琴察" "科莫" "锡拉库萨" "贝加莫" "佩斯卡拉" "弗利" "莱切" "特拉帕尼" "曼托瓦" "拉奎拉" "锡耶纳" "拉斯佩齐亚" "帕维亚" "特尔尼"
+		"诺瓦拉" "皮亚琴察" "乌迪内" "阿雷佐" "切塞纳" "佩萨罗" "亚历山德里亚" "皮斯托亚" "卡坦扎罗" "卢卡" "阿斯蒂" "杰拉" "克雷莫纳" "维泰博" "科森察" "萨沃纳"
+		"威尼斯" "巴里" "的里雅斯特" "塔兰托" "波扎诺" "特伦托" "安科纳" "阜姆" "戈里察" "波拉" "比萨" "布林迪西" "瓦雷泽"
+	}
+}
+
+## THEME: ITALIAN WEATHER NAMES ###
+SRD_WEATHER = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { SRD }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"信风" "旋风" "暴风" "东南风" "季风" "台风" "飓风" "龙卷风" "东北风" "北风" "行云" "南风" "和风" "闪电"
+		"雷电" "天雷" "雷雨" "雷鸣" "西北风" "东风" "西洛可风" "欧罗风" "气旋" "水波" "洋流" "震荡" "清风" "阵风"
+		"强风" "雷暴" "风暴" "烈风" "大风"
+	}
+}
+
+## THEME: ROMAN MYTHOLOGY ###
+SRD_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { SRD }
+
+	type = ship
+
+	prefix = "Rs.Smg. "
+	unique = {
+		"维纳斯" "阿波罗" "玛尔斯" "密涅耳瓦" "刻瑞斯" "狄俄倪索斯" "普路托" "武尔坎努斯" "朱诺" "维斯塔" "尼普顿" "朱庇特" "萨图尔努斯" "乌拉诺斯" "普罗米修斯" "普罗透斯" "奥罗拉" "阿特拉斯" "斯库拉" "卡律布狄斯" "马头鱼尾怪"
+		"卡利俄佩" "独眼巨人" "亚尔戈" "僧帽水母" "蜂王" "美杜莎" "雅努斯" "狄阿娜" "卡尔门蒂斯" "法拉瑟" "波摩纳" "波图努斯" "奥迦斯" "巴克科斯" "迪西" "费罗尼亚" "福尔图娜"
+		"阿基米德" "特里同" "高葛" "亚尔戈英雄" "安菲特里忒" "加拉蒂亚" "纳伊阿得斯" "涅瑞伊得斯" "温蒂妮" "塞壬"
+	}
+}
+

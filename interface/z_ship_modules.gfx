@@ -1,0 +1,676 @@
+spriteTypes = {	
+	# slot
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_airplane_launcher_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_extra_secondaries_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_torpedo_defense_system_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
+	}
+
+	# category
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/super_heavy_battery.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_ap_shell"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_ap_shell.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_fire_control_system"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fire_control0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_modern_carrier_equipments"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/angled_deck.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_armor_scheme"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_scheme.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_torpedo_defense_system"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_defense_system.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_missile"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_missile.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/medium_heavy_battery.png"
+	}
+	
+	# topview images
+	spriteType = {
+		name = "GFX_SM_heavy_hull_fixed_triple_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_fixed_triple_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_1_triple_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_1_triple_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_fixed_quad_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_fixed_quad_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_fixed_quad_heavy_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_fixed_quad_heavy_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_quad_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_quad_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_quad_heavy_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_quad_heavy_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_fixed_double_super_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_fixed_double_super_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_fixed_double_super_heavy_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_fixed_double_super_heavy_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_double_super_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_double_super_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_double_super_heavy_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_double_super_heavy_battery@highlight.dds"
+	}
+
+
+	# double heavy battery
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_small_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_big_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery6.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery7.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_big_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery8.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_heavy_battery9.png"
+	}
+
+	# triple heavy battery
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_small_1_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_1_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_big_1_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_2_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_3_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_4_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery6.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_1_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery7.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_big_1_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery8.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_2_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_heavy_battery9.png"
+	}
+	
+	# quadruple heavy battery
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_small_1_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_1_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_big_1_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_2_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_3_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_battery_4_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery6.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_1_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery7.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_big_1_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery8.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_battery_2_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/quad_heavy_battery9.png"
+	}
+	
+	# double medium battery
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_1_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_medium_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_2_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_medium_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_3_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_medium_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_4_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_medium_battery4.png"
+	}
+	
+	# double light medium battery
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_1_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_medium_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_2_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_medium_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_3_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_medium_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_4_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_medium_battery4.png"
+	}
+
+	# single light medium battery
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_1_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_medium_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_2_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_medium_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_3_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_medium_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_4_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_medium_battery4.png"
+	}
+	
+	# double light battery
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_1_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_2_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_3_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_4_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_battery4.png"
+	}
+	
+	
+	# single light battery
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_battery4.png"
+	}
+	
+	# dp light battery
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_light_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_light_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_light_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_light_battery4.png"
+	}
+	
+	# triple light medium battery
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_light_medium_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_light_medium_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_light_medium_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_light_medium_battery4.png"
+	}
+	
+	# triple medium battery
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_medium_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_medium_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_medium_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_medium_battery4.png"
+	}
+	
+	# torpedo
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo4.png"
+	}
+	
+	# anti air
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air5.png"
+	}
+	
+	# ship ap shell
+	spriteType = {
+		name = "GFX_SMI_ship_ap_shell_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_ap_shell1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_ap_shell_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_ap_shell2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_ap_shell_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_ap_shell3.png"
+	}
+	
+	
+	## ship secondaries
+	spriteType = {
+		name = "GFX_SMI_ship_secondaries_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_secondaries_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries6.png"
+	}
+	
+	## fire control
+	spriteType = {
+		name = "GFX_SMI_ship_fire_control_system_0"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fire_control0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_fire_control_system_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fire_control1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_fire_control_system_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fire_control2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_fire_control_system_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fire_control3.png"
+	}
+	
+	
+	### aircraft carrier related
+	spriteType = {
+		name = "GFX_SMI_ship_airplane_launcher_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_steam_catapult.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_side_lift"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/side_lift.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_angled_deck"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/angled_deck.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bb_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_thick_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_armor_bc_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_advanced_heavy_armor_scheme_medium"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/advanced_heavy_armor_scheme.dds"
+	}
+	
+	# engine
+	spriteType = {
+		name = "GFX_SMI_light_ship_engine_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_light_ship_engine_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/high_speed_engine.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_engine_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_AIP_engine.png"
+	}
+	
+	# ship role
+	spriteType = {
+		name = "GFX_SMI_ship_hull_light_role_dd"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_dd.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_light_role_de"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_de.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_light_role_dl"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_dl.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_light_role_cl"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_cl.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_c"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_c.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_cb"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_cb.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_cg"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_cg.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_aa"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_aa.png"
+	}
+	
+	## scheme & TDS
+	spriteType = {
+		name = "GFX_SMI_ship_scheme_incremental"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_scheme_incremental.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_scheme_incremental_post_jutland"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_scheme_incremental_post_jutland.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_scheme_mixed"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_scheme_mixed.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_scheme_all_or_nothing"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_scheme_all_or_nothing.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_scheme_all_or_nothing_armor_box"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_scheme_all_or_nothing_armor_box.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_torpedo_bulge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_bulge.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_torpedo_belt"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_belt.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_torpedo_belt_enhanced"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_belt_enhanced.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_pugliese_system"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/pugliese_system.png"
+	}
+	
+	## sonar
+	spriteType = {
+		name = "GFX_SMI_ship_sonar_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sonar_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sonar_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sonar_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sonar_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sonar_3.png"
+	}
+	
+	## missile
+	spriteType = {
+		name = "GFX_SMI_ship_missile_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_missile.png"
+	}
+	
+	# diesel engine
+	spriteType = {
+		name = "GFX_SMI_ship_diesel_engine_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_diesel_engine2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_diesel_engine_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_diesel_engine3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_diesel_engine_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_diesel_engine4.png"
+	}
+
+	# pressure hull
+	spriteType = {
+		name = "GFX_SMI_pressure_hull_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/pressure_hull1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_pressure_hull_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/pressure_hull2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_pressure_hull_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/pressure_hull3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_pressure_hull_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/pressure_hull4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_anechoic_tile_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anechoic_tile.png"
+	}
+	
+	# periscope
+	spriteType = {
+		name = "GFX_SMI_sub_ship_periscope_0"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/periscope0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_periscope_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/periscope1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_periscope_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/periscope2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_periscope_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/periscope3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_medium_heavy_battery_1_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_medium_heavy_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_heavy_battery_2_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_medium_heavy_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_heavy_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_medium_heavy_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_heavy_battery_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_medium_heavy_battery2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_fire_control_system_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fire_control4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sub_torpedo_computer"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_computer.png"
+	}
+}

@@ -1,0 +1,704 @@
+﻿#### K.U.K / Federation ship names ####
+
+### Light Hulls only -Mountains, Soldiers types, Celestial Bodies, Rivers
+## Destroyers - Zerstörer (Z) - Ordered
+AUS_DD_ZERSTORER = {
+	name = NAME_ZERSTORER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Z-%d"
+
+	ordered = {
+		1 = { "Z-%d" }
+		2 = { "Z-%d" }
+		3 = { "Z-%d" }
+		4 = { "Z-%d" }
+		5 = { "Z-%d" }
+		6 = { "Z-%d" }
+		7 = { "Z-%d" }
+		8 = { "Z-%d" }
+		9 = { "Z-%d" }
+		10 = { "Z-%d" }
+		11 = { "Z-%d" }
+		12 = { "Z-%d" }
+	}
+}
+
+## Destroyers - Zerstörer (Z) - Theme - Mountains
+AUS_DD_T_M_ZERSTORER = {
+	name = NAME_T_M_ZERSTORER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Zerstörer Z-%d"
+
+	unique = {
+		"瓦拉斯迪纳" "维尔德峰" "魏斯山" "希米劳恩" "拉莫科格尔" "沙夫科格尔" "霍赫费尔纳格特" "瓦策峰" "维斯策峰" "菲纳尔峰"
+		"霍赫维德" "铁门峡" "阿尔马斯" "泽梅尼科" "阿尼纳" "罗科瓦" "奥尔绍瓦" "阿拉戈耶斯" "布库拉" "拉扎尔" "佩莱亚加" "格拉赫" "罗姆尼希" "冰谷峰" "菲斯克" "白铁山" "德利拉韦纳" "泰瑞" "屈帕里帕" "拇指峰"
+		"罗斯马东" "基斯德希" "韦伯峰" "凯日马罗克" "克斯肯尼" "摩尔多凡" "内戈尤峰" "维斯蒂亚" "莱斯佩兹" "巴提亚努峰" "达拉峰" "羚羊峰" "波德拉古" "伐乌加山" "柯索提亚" "奈特杜" "赛伯塔" "维克瑟尔"
+		"菲奇巴赫" "齐塔勒" "拉德施塔特" "施拉德明" "沃策峰" "罗滕曼" "赛考尔" "霍夏海姆峰" "大伦山" "索伊莱克" "克洛伊约赫" "上法伊勒山" "施兰克格尔" "雅克布峰" "瑟莱丝峰"
+		"国王峰" "赖兴峰" "洪德施泰因山"
+	}
+}
+
+## Destroyers - Zerstörer (Z) - Theme - Soldiers
+AUS_DD_T_S_ZERSTORER = {
+	name = NAME_T_S_ZERSTORER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Zerstörer Z-%d"
+
+	unique = {
+		"边境步兵" "捍卫者" "龙骑兵" "枪骑兵" "自由斗士" "掷弹兵" "燧发枪兵" "军团步兵" "哥萨克骑兵" "猎手" "线列步兵" "加农炮手" "国土佣仆" "卫兵" "骑士" "长枪兵" "钩铳兵"
+		"火绳枪兵" "胸甲骑兵"
+	}
+}
+
+## Destroyers - Zerstörer (Z) - Theme - Celestial Bodies
+AUS_DD_T_C_ZERSTORER = {
+	name = NAME_T_C_ZERSTORER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Zerstörer Z-%d"
+
+	unique = {
+		"卫星" "伴星" "磁石" "水星" "金星" "火星" "木星" "土星" "海王星" "天王星" "月亮" "福波斯" "得摩斯" "奥博隆"
+		"弥玛斯" "恩克拉多斯" "忒提斯" "卡戎" "伊奥" "欧罗巴" "甘尼梅德" "卡利斯托"
+	}
+}
+
+## Destroyers - Zerstörer (Z) - Theme - Rivers
+AUS_DD_T_R_ZERSTORER = {
+	name = NAME_T_R_ZERSTORER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Zerstörer Z-%d"
+
+	unique = {
+		"多瑙河" "蒂萨河" "绍约河" "拉巴河" "拉夫尼茨" "克勒什" "佐吉沃" "德拉瓦河" "扎拉河" "霍尔纳德" "马查尔" "塔纳" "萨尔查赫" "斯泰尔" "莱塔河" "塔亚" "因河" "伊萨" "伊勒" "特劳恩" "穆尔河" "德劳" "恩斯"
+	}
+}
+
+## Destroyers - Zerstörer (Z) - Theme - Snakes & other raptiles & amphibians
+AUS_DD_T_A_ZERSTORER = {
+	name = NAME_T_A_ZERSTORER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Zerstörer Z-%d"
+
+	unique = {
+		"眼镜蛇" "毒蛇" "蝰蛇" "蟒蛇" "眼镜王蛇" "森蚺" "水蚺" "凯门鳄" "短吻鳄" "鳄鱼" "蜥蜴" "巨蜥"
+	}
+}
+
+## Destroyers - Zerstörer (Z) - Theme - Marine Mammals
+AUS_DD_T_MM_ZERSTORER = {
+	name = NAME_T_MM_ZERSTORER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Zerstörer Z-%d"
+
+	unique = {
+		"鲸鱼" "海豹" "海豚" "独角鲸" "鲨鱼" "海鸥" "海燕" "企鹅"
+	}
+}
+
+## Destroyers - Zerstörer (Z) - Theme - Mythical Creatures
+AUS_DD_T_MC_ZERSTORER = {
+	name = NAME_T_MC_ZERSTORER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Zerstörer Z-%d"
+
+	unique = {
+		"飞龙" "狮鹫" "特里同" "九头蛇" "蝎子" "凤凰" "章鱼" "珊瑚虫"
+	}
+}
+
+## Torpedoboat Destroyers [Gunboat] - Torpedobootzerstörer (TZ) - Ordered
+AUS_DD_TORPEDOBOOTZERSTORER = {
+	name = NAME_TORPEDOBOOTZERSTORER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "TZ-%d"
+
+	ordered = {
+		1 = { "TZ-%d" }
+		2 = { "TZ-%d" }
+		3 = { "TZ-%d" }
+		4 = { "TZ-%d" }
+		5 = { "TZ-%d" }
+		6 = { "TZ-%d" }
+		7 = { "TZ-%d" }
+		8 = { "TZ-%d" }
+		9 = { "TZ-%d" }
+		10 = { "TZ-%d" }
+		11 = { "TZ-%d" }
+		12 = { "TZ-%d" }
+	}
+}
+
+## Torpedoboat - Torpedoboote (TB) - Ordered
+AUS_DD_TORPEDOBOOTE = {
+	name = NAME_TORPEDOBOOTE
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "SMS "
+	fallback_name = "TB-%d"
+
+	ordered = {
+		1 = { "TB-%d" }
+		2 = { "TB-%d" }
+		3 = { "TB-%d" }
+		4 = { "TB-%d" }
+		5 = { "TB-%d" }
+		6 = { "TB-%d" }
+		7 = { "TB-%d" }
+		8 = { "TB-%d" }
+		9 = { "TB-%d" }
+		10 = { "TB-%d" }
+		11 = { "TB-%d" }
+		12 = { "TB-%d" }
+	}
+}
+
+###Cruiser hull - Battles, Admirals, Cities
+## Scout Cruiser -  Aufklärungskreuzer (AK) - Ordered
+AUS_EC_Aufklärungskreuzer = {
+	name = NAME_AUFLARUNGKREUZER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "SMS "
+	fallback_name = "Aufklärungskreuzer AK-%d"
+
+	ordered = {
+		1 = { "AK-%d" }
+		2 = { "AK-%d" }
+		3 = { "AK-%d" }
+		4 = { "AK-%d" }
+		5 = { "AK-%d" }
+		6 = { "AK-%d" }
+		7 = { "AK-%d" }
+		8 = { "AK-%d" }
+		9 = { "AK-%d" }
+		10 = { "AK-%d" }
+		11 = { "AK-%d" }
+		12 = { "AK-%d" }
+	}
+}
+
+## Light Cruiser - Leichter Cruiser (LK) - Ordered
+AUS_EC_Leichterkreuzer = {
+	name = NAME_LEICHTERKREUZER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "SMS "
+	fallback_name = "Leichter Kreuzer LK-%d"
+
+	ordered = {
+		1 = { "LK-%d" }
+		2 = { "LK-%d" }
+		3 = { "LK-%d" }
+		4 = { "LK-%d" }
+		5 = { "LK-%d" }
+		6 = { "LK-%d" }
+		7 = { "LK-%d" }
+		8 = { "LK-%d" }
+		9 = { "LK-%d" }
+		10 = { "LK-%d" }
+		11 = { "LK-%d" }
+		12 = { "LK-%d" }
+	}
+}
+
+## Cruiser - Kreuzer (K) - Ordered
+AUS_C_Kreuzer = {
+	name = NAME_KREUZER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
+
+	prefix = "SMS "
+	fallback_name = "Kreuzer K-%d"
+
+	ordered = {
+		1 = { "K-%d" }
+		2 = { "K-%d" }
+		3 = { "K-%d" }
+		4 = { "K-%d" }
+		5 = { "K-%d" }
+		6 = { "K-%d" }
+		7 = { "K-%d" }
+		8 = { "K-%d" }
+		9 = { "K-%d" }
+		10 = { "K-%d" }
+		11 = { "K-%d" }
+		12 = { "K-%d" }
+	}
+}
+
+## Large Cruiser - Großer Kreuzer (GK) - Ordered
+AUS_C_GroseKreuzer = {
+	name = NAME_GROSE_KREUZER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = "SMS "
+	fallback_name = "Großer Kreuzer GK-%d"
+
+	ordered = {
+		1 = { "GK-%d" }
+		2 = { "GK-%d" }
+		3 = { "GK-%d" }
+		4 = { "GK-%d" }
+		5 = { "GK-%d" }
+		6 = { "GK-%d" }
+		7 = { "GK-%d" }
+		8 = { "GK-%d" }
+		9 = { "GK-%d" }
+		10 = { "GK-%d" }
+		11 = { "GK-%d" }
+		12 = { "GK-%d" }
+	}
+}
+
+## Cruiser - Kreuzer (K) - Theme -Battles
+AUS_C_T_B_Kreuzer = {
+	name = NAME_T_B_KREUZER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
+
+	prefix = "SMS "
+	fallback_name = "Kreuzer K-%d"
+
+	unique = {
+		"赫希施泰特" "莫哈奇" "贝尔格莱德" "卡伦山" "科巴里德" "克拉希尼克" "利马诺瓦" "洛夫岑堡" "奥特朗托" "科马洛夫" "戈尔利采-塔尔努夫" "罗基特纳" "伊松佐河" "布雷西亚" "森塔"
+		"彼得罗瓦拉丁" "齐亚里" "都灵" "奥德纳尔德" "里尔" "奥埃菲尔塞" "达姆施塔特" "霍赫基希" "库纳斯多夫" "尼尔维登" "阿斯珀恩"
+	}
+}
+
+## Cruiser - Kreuzer (K) - Theme - Admirals
+AUS_C_T_A_Kreuzer = {
+	name = NAME_T_A_KREUZER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
+
+	prefix = "SMS "
+	fallback_name = "Kreuzer K-%d"
+
+	unique = {
+		"内杰夫·戈凡海军上将" "道布勒伯斯基海军上将" "武科维奇海军上将" "霍尔蒂海军上将" "特拉普海军上将" "苏菲·夏洛特女公爵"
+	}
+}
+
+## Cruiser - Kreuzer (K) - Theme - Cities
+AUS_C_T_C_Kreuzer = {
+	name = NAME_T_C_KREUZER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
+
+	prefix = "SMS "
+	fallback_name = "Kreuzer K-%d"
+
+	unique = {
+		"的里雅斯特" "萨格勒布" "莱巴赫" "黛布勒森" "杜布罗夫尼克" "斯普利特" "扎达尔" "里耶卡" "布拉格" "斯格德" "佩奇" "布尔诺" "维也纳" "布达佩斯" "布拉迪斯拉发" "埃斯泰尔戈姆" "波德戈里察"
+		"萨拉热窝" "科洛兹堡" "蒂米什瓦拉" "卡萨" "布拉索夫" "比尔森" "奥斯特拉瓦" "奥洛穆茨" "克拉科夫" "伦堡" "普热梅希尔" "切诺维兹"
+	}
+}
+
+### Generic Escort Ships
+## Anti-submarine warfare ship - U-Boot-Jäger (UJ)
+AUS_ES_Ubootjager = {
+	name = NAME_UBOOTJAGER
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser heavy_cruiser destroyer }
+
+	prefix = "SMS "
+	fallback_name = "UJ-%d"
+
+	ordered = {
+		1 = { "UJ-%d" }
+		2 = { "UJ-%d" }
+		3 = { "UJ-%d" }
+		4 = { "UJ-%d" }
+		5 = { "UJ-%d" }
+		6 = { "UJ-%d" }
+		7 = { "UJ-%d" }
+		8 = { "UJ-%d" }
+		9 = { "UJ-%d" }
+		10 = { "UJ-%d" }
+		11 = { "UJ-%d" }
+		12 = { "UJ-%d" }
+	}
+}
+
+## Minewarfare ship - Minenabwehrfahrzeug (MT)
+AUS_ES_Minenabwehrfahrzeug = {
+	name = NAME_MINESHIPS
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser heavy_cruiser destroyer }
+
+	prefix = "SMS "
+	fallback_name = "MT-%d"
+
+	ordered = {
+		1 = { "MT-%d" }
+		2 = { "MT-%d" }
+		3 = { "MT-%d" }
+		4 = { "MT-%d" }
+		5 = { "MT-%d" }
+		6 = { "MT-%d" }
+		7 = { "MT-%d" }
+		8 = { "MT-%d" }
+		9 = { "MT-%d" }
+		10 = { "MT-%d" }
+		11 = { "MT-%d" }
+		12 = { "MT-%d" }
+	}
+}
+
+## AA Ship - Flakschiffe (FS)
+AUS_ES_Flakschiffe = {
+	name = NAME_AAship
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser heavy_cruiser destroyer }
+
+	prefix = "SMS "
+	fallback_name = "FS-%d"
+
+	ordered = {
+		1 = { "FS-%d" }
+		2 = { "FS-%d" }
+		3 = { "FS-%d" }
+		4 = { "FS-%d" }
+		5 = { "FS-%d" }
+		6 = { "FS-%d" }
+		7 = { "FS-%d" }
+		8 = { "FS-%d" }
+		9 = { "FS-%d" }
+		10 = { "FS-%d" }
+		11 = { "FS-%d" }
+		12 = { "FS-%d" }
+	}
+}
+
+### Heavy hull- Heroes, former monarchs, Archdukes
+## Armored Cruiser - Panzerschiffe (PZS) - Ordered
+AUS_BC_Panzerschiffe = {
+	name = NAME_PZS
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = "SMS "
+	fallback_name = "Panzerschiffe PZS-%d"
+
+	ordered = {
+		1 = { "PZS-%d" }
+		2 = { "PZS-%d" }
+		3 = { "PZS-%d" }
+		4 = { "PZS-%d" }
+		5 = { "PZS-%d" }
+		6 = { "PZS-%d" }
+		7 = { "PZS-%d" }
+		8 = { "PZS-%d" }
+		9 = { "PZS-%d" }
+		10 = { "PZS-%d" }
+		11 = { "PZS-%d" }
+		12 = { "PZS-%d" }
+	}
+}
+## Battleship - Schlachtschiffe (SS) - ordered
+AUS_BB_Schlachtschiffe = {
+	name = NAME_SS
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = "SMS "
+	fallback_name = "Schlachtschiffe SS-%d"
+
+	ordered = {
+		1 = { "SS-%d" }
+		2 = { "SS-%d" }
+		3 = { "SS-%d" }
+		4 = { "SS-%d" }
+		5 = { "SS-%d" }
+		6 = { "SS-%d" }
+		7 = { "SS-%d" }
+		8 = { "SS-%d" }
+		9 = { "SS-%d" }
+		10 = { "SS-%d" }
+		11 = { "SS-%d" }
+		12 = { "SS-%d" }
+	}
+}
+## HeavyHull -Theme
+AUS_HH_Theme = {
+	name = NAME_T_HH
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser battleship }
+
+	prefix = "SMS "
+	fallback_name = "Schlachtschiffe SS-%d"
+
+	unique = {
+		"卡尔大公"
+		"艾施特哈齐"
+		"帕尔菲"
+		"劳东伯爵"
+		"道恩伯爵"
+		"托米斯拉夫"
+		"哈迪克"
+		"阿尔布雷希特大公"
+		"约瑟夫·安东"
+		"列支敦士登"
+		"玛丽亚·特蕾莎女皇"
+		"皇帝约瑟夫二世"
+		"皇帝列奥波德二世"
+		"皇帝弗朗茨一世"
+		"誓死效忠"
+		"博罗埃维奇"
+		"欧根大公"
+		"赫岑多夫"
+		"弗雷德里希大公"
+		"柏姆·厄尔默利"
+		"罗尔"
+		"克罗巴廷"
+		"科菲斯"
+		"施特劳森堡"
+		"米岑瑟菲"
+		"施托格·斯坦纳"
+	}
+}
+
+### Carrier hull - Weltkrieg Aces and naval reformers
+## Escort Carrier - Geleitflugzeugträger (GFT)
+AUS_CVE_EscortCarrier = {
+	name = NAME_CVE
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "SMS "
+	fallback_name = "Geleitflugzeugträger GFT-%d"
+
+	ordered = {
+		1 = { "GFT-%d" }
+		2 = { "GFT-%d" }
+		3 = { "GFT-%d" }
+		4 = { "GFT-%d" }
+		5 = { "GFT-%d" }
+		6 = { "GFT-%d" }
+		7 = { "GFT-%d" }
+		8 = { "GFT-%d" }
+		9 = { "GFT-%d" }
+		10 = { "GFT-%d" }
+		11 = { "GFT-%d" }
+		12 = { "GFT-%d" }
+	}
+}
+
+## Carrier - Flugzeugträger (FT) - Ordered
+AUS_CV_Carrier = {
+	name = NAME_CV
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "SMS "
+	fallback_name = "Flugzeugträger FT-%d"
+
+	ordered = {
+		1 = { "FT-%d" }
+		2 = { "FT-%d" }
+		3 = { "FT-%d" }
+		4 = { "FT-%d" }
+		5 = { "FT-%d" }
+		6 = { "FT-%d" }
+		7 = { "FT-%d" }
+		8 = { "FT-%d" }
+		9 = { "FT-%d" }
+		10 = { "FT-%d" }
+		11 = { "FT-%d" }
+		12 = { "FT-%d" }
+	}
+}
+
+## Carrier - Flugzeugträger (FT) - Theme
+AUS_CV_Theme_Carrier = {
+	name = NAME_T_CV
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "SMS "
+	fallback_name = "Flugzeugträger FT-%d"
+
+	unique = {
+		"蒙特库利克"
+		"班菲德"
+		"格雷泽"
+		"布罗诺斯基"
+		"林基·克劳福德"
+		"豪斯海军上将"
+		"史斯舒耐德"
+		"格鲁伯"
+		"鲁多弗"
+		"斯托萨夫列维奇"
+		"金德拉"
+		"卡萨拉"
+		"科斯特巴"
+		"塔哈"
+	}
+}
+
+### Submarine hull
+## Submarine - U-boote (U)
+AUS_U_Submarine = {
+	name = NAME_U
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "SM "
+	fallback_name = "U-%d"
+
+	ordered = {
+		1 = { "U-%d" }
+		2 = { "U-%d" }
+		3 = { "U-%d" }
+		4 = { "U-%d" }
+		5 = { "U-%d" }
+		6 = { "U-%d" }
+		7 = { "U-%d" }
+		8 = { "U-%d" }
+		9 = { "U-%d" }
+		10 = { "U-%d" }
+		11 = { "U-%d" }
+		12 = { "U-%d" }
+	}
+}
+
+## Cruiser Submarine - U-Kreuzer (UK)
+AUS_UK_CruiserSubmarine = {
+	name = NAME_U
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "SM "
+	fallback_name = "KU-%d"
+
+	ordered = {
+		1 = { "KU-%d" }
+		2 = { "KU-%d" }
+		3 = { "KU-%d" }
+		4 = { "KU-%d" }
+		5 = { "KU-%d" }
+		6 = { "KU-%d" }
+		7 = { "KU-%d" }
+		8 = { "KU-%d" }
+		9 = { "KU-%d" }
+		10 = { "KU-%d" }
+		11 = { "KU-%d" }
+		12 = { "KU-%d" }
+	}
+}
+

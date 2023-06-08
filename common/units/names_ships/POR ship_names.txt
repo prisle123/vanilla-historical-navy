@@ -1,0 +1,129 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+POR_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "NRP "
+	fallback_name = "Contratorpedeiro %d"
+
+	unique = {
+		"皮尼昂" "瓜地亚纳" "杜罗" "塔梅加" "沃加" "利马" "杜奥" "特霍" "利兹" "努诺·特里斯唐" "迪奥戈·戈梅斯" "迪奥戈·康" "克尔特·雷阿尔" "佩德罗·埃斯科巴尔"
+		"萨杜" "米尼奥" "蒙得古" "塔梅加" "图阿" "科沃拉" "卡瓦杜" "爱芙" "巴卡" "泽济里" "苏萨" "科尔戈" "塔沃拉" "萨博尔" "拉巴卡" "派瓦"
+		"索里" "索拉亚" "阿拉约卢什" "奥克雷扎" "蓬苏尔" "阿尔瓦" "米拉" "卡伊亚" "阿尔曼莎" "阿尔卡苏瓦什" "奥迪韦拉什" "苏尔" "塞拉" "阿尔维埃拉"
+		"阿拉德" "亚当" "哈拉玛" "特兰考" "阿鲁恩卡" "奥克雷扎" "图埃拉" "安图奥" "阿伦克尔" "阿鲁恩卡" "巴尔塞芒" "乌鸦" "卡斯特罗·拉博雷鲁"
+		"科尔戈" "卡伊亚" "卡布里尔" "科伊纳" "雄鸡" "子弹" "英勇" "约翰内斯" "贾莫尔" "印苏雅" "内瓦" "派瓦" "派沃" "佩拉"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+POR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "NRP "
+	fallback_name = "Cruzador Ligeiro %d"
+
+	unique = {
+		"马托西纽什" "加亚新城" "米拉" "菲盖拉达福什" "大马里尼亚" "纳扎雷"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+POR_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = "NRP "
+	fallback_name = "Cruzador Pesado %d"
+
+	unique = {
+		"马托西纽什" "加亚新城" "米拉" "菲盖拉达福什" "大马里尼亚" "纳扎雷"
+	}
+}
+
+### BATTLESHIP NAMES ###
+POR_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = "NRP "
+	fallback_name = "Couraçado %d"
+
+	unique = {
+		"瓦斯科·达伽马" "佩德罗·卡布拉尔" "吉尔·埃阿尼什" "巴尔托洛乌梅·迪亚士" "佩罗·达·科维良" "费尔南多·麦哲伦" "阿方索·德·阿尔布克尔克"
+		"安东尼奥·德·亚比尔鲁" "迪尼什·迪亚士" "史提芬·达伽马" "斐南·德·波" "加斯帕·雷阿尔" "米格尔·雷阿尔"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+POR_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = "NRP "
+	fallback_name = "Cuzador Couraçado %d"
+
+	unique = {
+		"里斯本" "波尔图" "新国家"
+		"滨海杜罗" "山后省" "内贝拉" "上贝拉" "埃斯特雷马杜拉" "下贝拉" "阿尔加维" "上阿连特茹" "下阿连特茹"
+		"马德拉" "亚速尔"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+POR_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "NRP "
+	fallback_name = "Porta-Aviões %d"
+
+	unique = {
+		"阿马多拉" "埃什托里尔" "皇太子" "葡萄牙公主" "阿方索·德·阿尔布克尔克" "佩德罗三世" "美杜莎" "玛丽亚一世女王" "圣巴斯弟盎"
+	}
+}
+
+### SUBMARINES ###
+POR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "NRP "
+	fallback_name = "Submarino %d"
+
+	unique = {
+		"海豚" "剑鱼" "鼠海豚" "独角鲸" "鹦鹉螺" "海王星" "金枪鱼" "梭鱼" "抹香鲸" "海豹" "九头蛇"
+		"海豹" "三叉戟" "鱼叉" "鲸鱼" "吞拿鱼" "鳕鱼" "沙丁鱼" "红鱼" "竹荚鱼" "美人鱼" "章鱼"
+		"虾" "蚌" "乌贼" "虎鲸" "潜水者" "迅捷" "快速" "猫鱼" "飞鱼" "剑" "龙虾"
+		"七鳃鳗" "鲱鱼" "金鱼" "海牛" "企鹅"
+	}
+}
