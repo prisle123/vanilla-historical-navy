@@ -12,10 +12,10 @@ CHL_DD_HISTORICAL = {
 	fallback_name = "Destructor %d"
 
 	unique = {
-		"林奇海军少将" "康戴尔海军少将" "萨根多·艾尔迪亚" "哈亚特" "奥雷拉海军上校" "里克梅尔" "韦德拉" "里夫洛斯海军上将" "威廉姆斯海军少将" "布兰科·恩卡拉达" "科克伦海军上将"
-		"曾特诺部长" "波塔勒斯部长" "上普恩特" "迈普" "佛罗里达" "比尼亚德尔马" "安托法加斯塔" "瓦尔帕莱索" "拉斯孔德斯" "圣贝尔纳多" "特木科"
-		"佩尼亚洛伦" "康塞普西翁" "兰卡瓜" "普达韦尔" "拉平塔纳" "塔尔卡" "埃尔博斯克" "阿里卡" "纽尼奥阿" "伊基克" "塔尔卡瓦诺" "蒙特港" "科金博" "瓦尔迪维亚"
-		"拉格朗杰" "洛巴尔内切阿" "金塔诺马尔" "库里科" "卡萨布兰卡" "巴图科"
+		"Almirante Lynch" "Almirante Condell" "Aldea" "Hyatt" "Orella" "Requelme" "Videla" "Almirante Riveros" "Almirante Williams" "Blanco Encalada" "Cochrane"
+		"Ministro Zenteno" "Ministro Portales" "Puente Alto" "Maipú" "La Florida" "Viña del Mar" "Antofagasta" "Valparaíso" "Las Condes" "San Bernardo" "Temuco"
+		"Peñalolén" "Concepción" "Rancagua" "Pudahuel" "La Pintana" "Talca" "El Bosque" "Arica" "Ñuñoa" "Iquique" "Talcahuano" "Puerto Montt" "Coquimbo" "Valdivia"
+		"La Granja" "Lo Barnechea" "Quinta Normal" "Curicó" "Casablanca" "Batuco"
 	}
 }
 
@@ -32,10 +32,10 @@ CHL_CL_HISTORICAL = {
 	fallback_name = "Crucero Ligero %d"
 
 	unique = {
-		"查卡布科" "马普切" "圣地亚哥" "瓦尔帕莱索" "瓦尔迪维亚" "奥索尔诺" "蓬塔阿雷纳斯" "奇廉" "塔尔卡瓦诺" "兰卡瓜" "科金博"
-		"蓬塔阿雷纳斯" "复活节岛" "火地群岛" "尤耶亚科" "太平洋" "大西洋" "安蒂纳" "奇洛埃" "艾尔塔马鲁加尔" "萨拉曼卡" "比奥比奥" "阿劳卡尼亚"
-		"洛斯里奥斯" "洛斯拉各斯" "麦哲伦" "南极洲" "乌尔蒂玛埃斯佩兰萨" "拉古纳布兰卡" "蒂毛克尔" "纳塔莱斯" "波韦尼尔" "阿塔卡马" "伊亚佩尔"
-		"利坎卡武尔" "珀木拉普" "帕里纳科塔" "比格峰" "冒纳罗亚" "富塔莱乌尔"
+		"Chacabuco" "Araucano" "Santiago de Chile" "Valparaiso" "Valdivia" "Osorno" "Punta Arenas" "Chillán" "Talcahuano" "Rancagua" "Coquimbo"
+		"Punta Arenas" "Pascoa" "Tierra del Fuego" "Llullaillaco" "Pacifica" "Atlantica" "Andina" "Chiloe" "Tamarugal" "Salamanca" "Biobío" "Araucanía"
+		"Los Ríos" "Los Lagos" "Magallanes" "Antartica" "Ultima Esperanza" "Laguna Blanca" "Timaukel" "Natales" "Porvenir" "Atacama" "Illapel"
+		"Licancabur" "Pomerape" "Parinacota" "Beagle" "Loa" "Futaleufú"
 	}
 }
 
@@ -52,9 +52,9 @@ CHL_CA_HISTORICAL = {
 	fallback_name = "Crucero Pesado %d"
 
 	unique = {
-		"奥希金斯" "马普切" "圣地亚哥" "瓦尔帕莱索" "瓦尔迪维亚" "奥索尔诺" "蓬塔阿雷纳斯" "奇廉" "塔尔卡瓦诺" "兰卡瓜" "科金博"
-		"山峰" "玫瑰" "蔷薇" "奥瓦列" "营垒" "总统" "阿特纳斯" "塞尔塔" "猎犬" "嘉拉奎玛达" "伊利萨里" "拉拉斯特拉" "弗莱雷" "平托·迪亚兹"
-		"维库尼亚" "塔格莱" "佩利托" "萨尼亚图" "玛丽亚" "豪尔赫·蒙特" "力量" "伟大" "维尔" "保守派" "自由派" "巴尔马塞达"
+		"O'Higgins" "Araucano" "Santiago de Chile" "Valparaiso" "Valdivia" "Osorno" "Punta Arenas" "Chillán" "Talcahuano" "Rancagua" "Coquimbo"
+		"Cerro" "Rosas" "Rozales" "Ovalle" "Cuartel" "Presidente" "Atenas" "Celta" "Perro" "Jaraquemada" "Irisarri" "La Lastra" "Freire" "Pinto Díaz"
+		"Vicuña" "Tagle" "Prieto" "Zañartu" "María" "Jorge Montt" "Forza" "Grandeza" "Vial" "Pelucones" "Pipiolos" "Balmaceda"
 	}
 }
 
@@ -71,8 +71,8 @@ CHL_BB_HISTORICAL = {
 	fallback_name = "Acorazado %d"
 
 	unique = {
-		"拉托雷海军上将" "智利" "利马"
-		"复活节岛" "库里兰卡酋长" "瓦拉库伦酋长" "伦克米拉酋长" "拉斯埃拉斯" "巴伊亚考德拉" "解放者"
+		"Almirante Latorre" "República de Chile" "Lima"
+		"Rapa Nui" "Kurillanka" "Warakulen" "Lonkomilla" "Las Herras" "Baia Caldera" "Libertador"
 	}
 }
 
@@ -89,7 +89,7 @@ CHL_BC_HISTORICAL = {
 	fallback_name = "Crucero de Batalla %d"
 
 	unique = {
-		"智利" "利马" "国际" "胜利" "士兵" "绿宝石" "斩断锁链" "泛美"
+		"República de Chile" "Lima" "Internacionale" "Trinfo" "Soldado" "Esmeralda" "Correntes Rompidas" "Panamericana"
 	}
 }
 
@@ -106,8 +106,8 @@ CHL_CV_HISTORICAL = {
 	fallback_name = "Portaaviones %d"
 
 	unique = {
-		"洛斯安第斯" "帕西菲科"
-		"国际" "胜利" "士兵" "绿宝石" "斩断锁链" "泛美"
+		"Los Andes de Chile" "Pacífico"
+		"Internacionale" "Trinfo" "Soldado" "Esmeralda" "Correntes Rompidas" "Panamericana"
 	}
 }
 
@@ -124,7 +124,7 @@ CHL_SS_HISTORICAL = {
 	fallback_name = "Submarino %d"
 
 	unique = {
-		"瓜科尔达" "特瓜尔达" "卢苏米拉" "丘多拉" "弗雷西亚" "古雷" "奥布莱恩海军上校" "辛普森海军少将" "汤姆森海军上校" "奥希金斯" "卡雷拉"
+		"Gualcolda" "Tegualda" "Rucumilla" "Quidora" "Fresia" "Guale" "Capitán O`Brien" "Almirante Simpson" "Capitán Thomson" "O`Higgins" "Carrera"
 	}
 }
 
@@ -140,3 +140,4 @@ CHL_SS_H_CLASS = {
 	prefix = "CSN "
 	fallback_name = "H-%d"
 }
+

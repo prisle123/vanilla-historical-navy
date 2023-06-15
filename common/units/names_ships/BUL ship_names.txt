@@ -11,8 +11,8 @@ BUL_DD_HISTORICAL = {
 	fallback_name = "Razrushitel %d"
 
 	unique = {
-		"喧闹" "伯蒂里" "彼得罗夫斯基" "格奥尔基·迪米特洛夫" "瓦西里·列夫斯基" "赫里斯托·波特夫" "穆尔尼亚" "希布尔" "布里茨" "暴风" "普利博" "依斯库尔" "多布里奇" "巴里克" "巴尔奇克" "阿金" "阿赫洛伊" "普罗迪" "哈德吉·迪米塔尔"
-		"斯特凡·卡拉吉亚" "瓦西里·列夫斯基" "格奥尔基·拉科夫斯基" "柳本·卡拉维洛夫" "帕纳约特·沃洛夫"
+		"Shumni" "Bodri" "Petrovski" "Georgi Dimitrov" "Vasil Levski" "Hristo Botev" "Mulniya" "Tsibur" "Briz" "Shkval" "Priboi" "Iskur" "Dobrotich" "Balik" "Balchik" "Akin" "Aheloi" "Proteo" "Hadzhi Dimitur"
+		"Stefan Karadzha" "Vasil Levski" "Georgi Rakovski" "Lyuben Karavelov" "Panaiot Volov"
 	}
 }
 
@@ -28,7 +28,7 @@ BUL_CL_HISTORICAL = {
 	fallback_name = "Kraitser %d"
 
 	unique = {
-		"索菲亚" "佩尔尼克" "斯沃盖" "斯里弗尼察" "布雷兹尼克" "拉多米尔" "切尔诺莫拉塔" "贝洛莫拉塔" "杜纳瓦塔" "加拉尼察" "斯特拉扎"
+		"Sofiya" "Pernik" "Svoge" "Slivnica" "Breznik" "Radomir" "Chernomorata" "Belomorata" "Dunavata" "Granichar" "Strazhar"
 	}
 }
 
@@ -44,7 +44,7 @@ BUL_BB_HISTORICAL = {
 	fallback_name = "Lineen Korab %d"
 
 	unique = {
-		"德鲁斯基" "索菲亚" "普罗夫迪夫" "瓦尔纳" "布尔加斯" "卢斯" "斯塔拉扎戈拉" "普利文"
+		"Druzki" "Sofiya" "Plovdiv" "Varna" "Burgas" "Ruse" "Stara Zagora" "Pleven"
 	}
 }
 
@@ -60,7 +60,7 @@ BUL_CV_HISTORICAL = {
 	fallback_name = "Samoletonosach %d"
 
 	unique = {
-		"斯特鲁马" "索菲亚" "普罗夫迪夫" "瓦尔纳" "布尔加斯" "卢斯" "斯塔拉扎戈拉" "普利文"
+		"Struma" "Sofiya" "Plovdiv" "Varna" "Burgas" "Ruse" "Stara Zagora" "Pleven"
 	}
 }
 
@@ -76,7 +76,7 @@ BUL_SS_HISTORICAL = {
 	fallback_name = "Podvodnik no. %d"
 
 	unique = {
-		"鲨鱼" "喧闹" "荣耀" "胜利" "维多利亚" "娜杰日达" "慵懒"
+		"Akula" "Shumni" "Slava" "Pobeda" "Viktoriya" "Nadezhda" "Gagara"
 	}
 }
 
@@ -89,9 +89,9 @@ BUL_PROVINCES = {
 	type = ship
 
 	unique = {
-		"索菲亚" "普罗夫迪夫" "瓦尔纳" "布尔加斯" "斯塔拉扎戈拉" "普利文" "哈斯科沃" "洛维奇" "蒙塔纳" "拉兹格勒" "格雷罗" "布拉戈耶夫格勒"
-		"帕扎尔吉克" "大特尔诺沃" "弗拉察" "斯利文" "索诺拉" "多布里奇" "舒门" "克尔贾利" "丘斯滕迪尔" "扬博尔" "佩尔尼克" "加布罗沃"
-		"锡利斯特拉" "斯莫梁" "特尔戈维什特" "维丁"
+		"Sofiya" "Plovdiv" "Varna" "Burgas" "Stara Zagora" "Pleven" "Haskovo" "Lovech" "Montana" "Razgrad" "Guerrero" "Blagoevgrad"
+		"Pazardzhik" "Veliko Tarnovo" "Vratsa" "Sliven" "Sonora" "Dobrich" "Shumen" "Kardzhali" "Kyustendil" "Yambol" "Pernik" "Gabrovo"
+		"Silistra" "Smolyan" "Targovishte" "Vidin"
 	}
 }
 
@@ -104,8 +104,9 @@ BUL_CITIES = {
 	type = ship
 
 	unique = {
-		"索菲亚" "普罗夫迪夫" "瓦尔纳" "布尔加斯" "卢斯" "斯塔拉扎戈拉" "普利文" "多布里奇" "斯利文" "舒门" "佩尔尼克" "哈斯科沃" "扬博尔" "帕扎尔吉克"
-		"布拉戈耶夫格勒" "大特尔诺沃" "弗拉察" "加布罗沃" "阿塞诺夫格勒" "维丁" "卡赞勒克" "丘斯滕迪尔" "克尔贾利" "蒙塔纳" "季米特洛夫格勒" "特尔戈维什特" "洛维奇"
-		"锡利斯特拉" "杜普尼察" "斯维什托夫" "拉兹格勒" "上奥里亚霍维察" "斯莫梁" "佩特里奇" "桑丹斯基" "萨莫科夫" "塞夫利耶沃" "洛姆"
+		"Sofiya" "Plovdiv" "Varna" "Burgas" "Ruse" "Stara Zagora" "Pleven" "Dobrich" "Sliven" "Shumen" "Pernik" "Haskovo" "Yambol" "Pazardzhik"
+		"Blagoevgrad" "Veliko Tarnovo" "Vratsa" "Gabrovo" "Asenovgrad" "Vidin" "Kazanlak" "Kyustendil" "Kardzhali" "Montana" "Dimitrovgrad" "Targovishte" "Lovech"
+		"Silistra" "Dupnitsa" "Svishtov" "Razgrad" "Gorna Oryahovitsa" "Smolyan" "Petrich" "Sandanski" "Samokov" "Sevlievo" "Lom"
 	}
 }
+

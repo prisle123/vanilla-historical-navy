@@ -1,0 +1,111 @@
+add_namespace = navy_rework
+
+country_event = {
+    id = navy_rework.0
+
+    hidden = yes
+    fire_only_once = yes
+    trigger = {
+        has_global_flag = add_startup_navy
+    }
+    immediate = {
+        add_starting_techs = yes
+        makeup_starting_techs = yes
+
+         # add starting variants and navy
+        ARG = {
+        	ARG_start_naval_variants = yes
+        	load_oob = 00_ARG_vnr_naval
+        }
+        AST = {
+        	AST_start_naval_variants = yes
+        	load_oob = 00_AST_vnr_naval
+        }
+        BRA = {
+        	BRA_start_naval_variants = yes
+        	load_oob = 00_BRA_vnr_naval
+        }
+        CAN = {
+        	CAN_start_naval_variants = yes
+        	load_oob = 00_CAN_vnr_naval
+        }
+        CHI = {
+        	CHI_start_naval_variants = yes
+        	load_oob = 00_CHI_vnr_naval
+        }
+        CHL = {
+        	CHL_start_naval_variants = yes
+        	load_oob = 00_CHL_vnr_naval
+        }
+        DEN = {
+        	DEN_start_naval_variants = yes
+        	load_oob = 00_DEN_vnr_naval
+        }
+        ENG = {
+        	ENG_start_naval_variants = yes
+        	load_oob = 00_ENG_vnr_naval
+        }
+        FIN = {
+        	FIN_start_naval_variants = yes
+        	load_oob = 00_FIN_vnr_naval
+        }
+        FRA = {
+        	FRA_start_naval_variants = yes
+        	load_oob = 00_FRA_vnr_naval
+        }
+        GER = {
+        	GER_start_naval_variants = yes
+        	load_oob = 00_GER_vnr_naval
+        }
+        GRE = {
+        	GRE_start_naval_variants = yes
+        	load_oob = 00_GRE_vnr_naval
+        }
+        HOL = {
+        	HOL_start_naval_variants = yes
+        	load_oob = 00_HOL_vnr_naval
+        }
+        ITA = {
+        	ITA_start_naval_variants = yes
+        	load_oob = 00_ITA_vnr_naval
+        }
+        JAP = {
+        	JAP_start_naval_variants = yes
+        	load_oob = 00_JAP_vnr_naval
+        }
+        NOR = {
+        	NOR_start_naval_variants = yes
+        	load_oob = 00_NOR_vnr_naval
+        }
+        POL = {
+        	POL_start_naval_variants = yes
+        	load_oob = 00_POL_vnr_naval
+        }
+        POR = {
+        	POR_start_naval_variants = yes
+        	load_oob = 00_POR_vnr_naval
+        }
+        SOV = {
+        	SOV_start_naval_variants = yes
+        	load_oob = 00_SOV_vnr_naval
+        }
+        SPR = {
+        	SPR_start_naval_variants = yes
+        	load_oob = 00_SPR_vnr_naval
+        }
+        SWE = {
+        	SWE_start_naval_variants = yes
+        	load_oob = 00_SWE_vnr_naval
+        }
+        TUR = {
+        	TUR_start_naval_variants = yes
+        	load_oob = 00_TUR_vnr_naval
+        }
+        USA = {
+        	USA_start_naval_variants = yes
+        	load_oob = 00_USA_vnr_naval
+        }
+
+        clr_global_flag = add_startup_navy
+    }
+}

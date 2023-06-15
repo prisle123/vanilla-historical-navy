@@ -12,11 +12,11 @@ POR_DD_HISTORICAL = {
 	fallback_name = "Contratorpedeiro %d"
 
 	unique = {
-		"皮尼昂" "瓜地亚纳" "杜罗" "塔梅加" "沃加" "利马" "杜奥" "特霍" "利兹" "努诺·特里斯唐" "迪奥戈·戈梅斯" "迪奥戈·康" "克尔特·雷阿尔" "佩德罗·埃斯科巴尔"
-		"萨杜" "米尼奥" "蒙得古" "塔梅加" "图阿" "科沃拉" "卡瓦杜" "爱芙" "巴卡" "泽济里" "苏萨" "科尔戈" "塔沃拉" "萨博尔" "拉巴卡" "派瓦"
-		"索里" "索拉亚" "阿拉约卢什" "奥克雷扎" "蓬苏尔" "阿尔瓦" "米拉" "卡伊亚" "阿尔曼莎" "阿尔卡苏瓦什" "奥迪韦拉什" "苏尔" "塞拉" "阿尔维埃拉"
-		"阿拉德" "亚当" "哈拉玛" "特兰考" "阿鲁恩卡" "奥克雷扎" "图埃拉" "安图奥" "阿伦克尔" "阿鲁恩卡" "巴尔塞芒" "乌鸦" "卡斯特罗·拉博雷鲁"
-		"科尔戈" "卡伊亚" "卡布里尔" "科伊纳" "雄鸡" "子弹" "英勇" "约翰内斯" "贾莫尔" "印苏雅" "内瓦" "派瓦" "派沃" "佩拉"
+		"Pinhão" "Guadiana" "Douro" "Tamega" "Vouga" "Lima" "Dão" "Tejo" "Liz" "Nuno Tristão" "Diogo Gomes" "Diogo Cão" "Corte Real" "Pêro Escobar"
+		"Sado" "Minho" "Mondego" "Tâmega" "Tua" "Coura" "Cávado" "Ave" "Baca" "Zezere" "Sousa" "Corgo" "Távora" "Sabor" "Rabaca" "Paiva"
+		"Soure" "Sorraia" "Arraiolos" "Ocresa" "Ponsul" "Alva" "Mira" "Caia" "Almansar" "Alcacovas" "Odivelas" "Sol" "Ceira" "Alviela"
+		"Arade" "Adrão" "Xarrama" "Trancão" "Arunca" "Ocreza" "Tuela" "Antuã" "Alenquer" "Arunca" "Balsemão" "Corvo" "Castro Laboreiro"
+		"Corgo" "Caia" "Cabril" "Coina" "Galinhas" "Bala" "Homem" "Joanes" "Jamor" "Ínsua" "Neiva" "Paiva" "Paivó" "Pera"
 	}
 }
 
@@ -33,7 +33,7 @@ POR_CL_HISTORICAL = {
 	fallback_name = "Cruzador Ligeiro %d"
 
 	unique = {
-		"马托西纽什" "加亚新城" "米拉" "菲盖拉达福什" "大马里尼亚" "纳扎雷"
+		"Matosinhos" "Vila Nova de Gaia" "Mira" "Figueira da Foz" "Marinha Granda" "Nazare"
 	}
 }
 
@@ -50,7 +50,7 @@ POR_CA_HISTORICAL = {
 	fallback_name = "Cruzador Pesado %d"
 
 	unique = {
-		"马托西纽什" "加亚新城" "米拉" "菲盖拉达福什" "大马里尼亚" "纳扎雷"
+		"Matosinhos" "Vila Nova de Gaia" "Mira" "Figueira da Foz" "Marinha Granda" "Nazare"
 	}
 }
 
@@ -67,8 +67,8 @@ POR_BB_HISTORICAL = {
 	fallback_name = "Couraçado %d"
 
 	unique = {
-		"瓦斯科·达伽马" "佩德罗·卡布拉尔" "吉尔·埃阿尼什" "巴尔托洛乌梅·迪亚士" "佩罗·达·科维良" "费尔南多·麦哲伦" "阿方索·德·阿尔布克尔克"
-		"安东尼奥·德·亚比尔鲁" "迪尼什·迪亚士" "史提芬·达伽马" "斐南·德·波" "加斯帕·雷阿尔" "米格尔·雷阿尔"
+		"Vasco da Gama" "Pedro Álvares Cabral" "Gil Eanes" "Bartolomeu Dias" "Pero da Covilhã" "Fernão de Magalhães" "Afonso de Albuquerque"
+		"António de Abreu" "Dinis Dias" "Estevão da Gama" "Fernão do Pó" "Gaspar Corte Real" "Miguel Corte Real"
 	}
 }
 
@@ -85,9 +85,9 @@ POR_BC_HISTORICAL = {
 	fallback_name = "Cuzador Couraçado %d"
 
 	unique = {
-		"里斯本" "波尔图" "新国家"
-		"滨海杜罗" "山后省" "内贝拉" "上贝拉" "埃斯特雷马杜拉" "下贝拉" "阿尔加维" "上阿连特茹" "下阿连特茹"
-		"马德拉" "亚速尔"
+		"Lisboa" "Porto" "Novo Estado"
+		"Douro Litoral" "Tras os Montes" "Beira Interior" "Beira Alta" "Estremadura" "Beira Baixa" "Algarve" "Alto Alentejo" "Baixo Alentejo"
+		"Madeira" "Acores"
 	}
 }
 
@@ -104,7 +104,7 @@ POR_CV_HISTORICAL = {
 	fallback_name = "Porta-Aviões %d"
 
 	unique = {
-		"阿马多拉" "埃什托里尔" "皇太子" "葡萄牙公主" "阿方索·德·阿尔布克尔克" "佩德罗三世" "美杜莎" "玛丽亚一世女王" "圣巴斯弟盎"
+		"Amadora" "Estoril" "Principe Real" "Rainha de Portugal" "Afonso de Albuquerque" "Infante de Pedro" "Medusa" "Maria Primeira" "St Sebastiao"
 	}
 }
 
@@ -121,9 +121,10 @@ POR_SS_HISTORICAL = {
 	fallback_name = "Submarino %d"
 
 	unique = {
-		"海豚" "剑鱼" "鼠海豚" "独角鲸" "鹦鹉螺" "海王星" "金枪鱼" "梭鱼" "抹香鲸" "海豹" "九头蛇"
-		"海豹" "三叉戟" "鱼叉" "鲸鱼" "吞拿鱼" "鳕鱼" "沙丁鱼" "红鱼" "竹荚鱼" "美人鱼" "章鱼"
-		"虾" "蚌" "乌贼" "虎鲸" "潜水者" "迅捷" "快速" "猫鱼" "飞鱼" "剑" "龙虾"
-		"七鳃鳗" "鲱鱼" "金鱼" "海牛" "企鹅"
+		"Delfim" "Espadarte" "Golfinho" "Narval" "Nautilo" "Neptuno" "Albacora" "Barracuda" "Cachalote" "Foca" "Hidra"
+		"Foca" "Tridente" "Arpão" "Baleia" "Atum" "Bacalhau" "Sardinha" "Peixe Vermelho" "Carapau" "Sereia" "Polvo"
+		"Camarão" "Mexilhão" "Lula" "Orca" "Mergulho" "Rápido" "Veloz" "Peixe Gato" "Peixe Voador" "Espada" "Lagostim"
+		"Lampreia" "Arenque" "Peixe Dourado" "Morsa" "Pinguim"
 	}
 }
+

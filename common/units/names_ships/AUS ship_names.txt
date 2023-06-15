@@ -42,11 +42,11 @@ AUS_DD_T_M_ZERSTORER = {
 	fallback_name = "Zerstörer Z-%d"
 
 	unique = {
-		"瓦拉斯迪纳" "维尔德峰" "魏斯山" "希米劳恩" "拉莫科格尔" "沙夫科格尔" "霍赫费尔纳格特" "瓦策峰" "维斯策峰" "菲纳尔峰"
-		"霍赫维德" "铁门峡" "阿尔马斯" "泽梅尼科" "阿尼纳" "罗科瓦" "奥尔绍瓦" "阿拉戈耶斯" "布库拉" "拉扎尔" "佩莱亚加" "格拉赫" "罗姆尼希" "冰谷峰" "菲斯克" "白铁山" "德利拉韦纳" "泰瑞" "屈帕里帕" "拇指峰"
-		"罗斯马东" "基斯德希" "韦伯峰" "凯日马罗克" "克斯肯尼" "摩尔多凡" "内戈尤峰" "维斯蒂亚" "莱斯佩兹" "巴提亚努峰" "达拉峰" "羚羊峰" "波德拉古" "伐乌加山" "柯索提亚" "奈特杜" "赛伯塔" "维克瑟尔"
-		"菲奇巴赫" "齐塔勒" "拉德施塔特" "施拉德明" "沃策峰" "罗滕曼" "赛考尔" "霍夏海姆峰" "大伦山" "索伊莱克" "克洛伊约赫" "上法伊勒山" "施兰克格尔" "雅克布峰" "瑟莱丝峰"
-		"国王峰" "赖兴峰" "洪德施泰因山"
+		"Warasdiner" "Wildspitze" "Weißkugel" "Similaun" "Ramolkogel" "Schalfkogel" "Hochvernagtspitze" "Watzespitze" "Weißseespitze" "Fineilspitze"
+		"Hochwilde" "Vaskapu" "Almás" "Szemenik" "Anina" "Lokva" "Orsova" "Arágyes" "Bukura" "Lázár" "Pelága" "Gerlach" "Lomnici" "Jég-völgyi" "Fecske" "Markazit" "Déli-Lavina" "Téry" "Kőparipa" "Hüvelyk Matyi"
+		"Roth Martón" "Kis-Déchy" "Weber" "Késmárki" "Keskeny" "Moldován" "Negoj" "Nagy-Vist" "Leszpez" "Buteanu" "Dara" "Zerge" "Podragu" "Vaiuga" "Csortea" "Netedu" "Serbota" "Hochwechsel"
+		"Fischbacher" "Seetaler" "Radstádter" "Schladminger" "Wölzer" "Rottenmanner" "Seckauer" "Hochalmspitze" "Großelenkopf" "Säuleck" "Kreuzjoch" "Hochfeiler" "Schrankogel" "Jakobsspitze" "Serles"
+		"Königspitze" "Reichenspitze" "Hundstein"
 	}
 }
 
@@ -63,8 +63,8 @@ AUS_DD_T_S_ZERSTORER = {
 	fallback_name = "Zerstörer Z-%d"
 
 	unique = {
-		"边境步兵" "捍卫者" "龙骑兵" "枪骑兵" "自由斗士" "掷弹兵" "燧发枪兵" "军团步兵" "哥萨克骑兵" "猎手" "线列步兵" "加农炮手" "国土佣仆" "卫兵" "骑士" "长枪兵" "钩铳兵"
-		"火绳枪兵" "胸甲骑兵"
+		"Grenzer" "Honvéd" "Dragoner" "Labanc" "Hajdú" "Grenadier" "Füsilier" "Legionista" "Sich" "Jáger" "Vojnik" "Kanonier" "Landsknecht" "Trabant" "Ritter" "Pikenier" "Trabant" "Arkebusier"
+		"Musketier" "Kürassier"
 	}
 }
 
@@ -81,8 +81,8 @@ AUS_DD_T_C_ZERSTORER = {
 	fallback_name = "Zerstörer Z-%d"
 
 	unique = {
-		"卫星" "伴星" "磁石" "水星" "金星" "火星" "木星" "土星" "海王星" "天王星" "月亮" "福波斯" "得摩斯" "奥博隆"
-		"弥玛斯" "恩克拉多斯" "忒提斯" "卡戎" "伊奥" "欧罗巴" "甘尼梅德" "卡利斯托"
+		"Trabant" "Satellit" "Magnet" "Merkur" "Venus" "Mars" "Jupiter" "Saturn" "Neptun" "Uranus" "Mond" "Phobos" "Deimos" "Oberon"
+		"Mimas" "Enceladus" "Tethys" "Charon" "Io" "Europa" "Ganymed" "Kallisto"
 	}
 }
 
@@ -99,7 +99,7 @@ AUS_DD_T_R_ZERSTORER = {
 	fallback_name = "Zerstörer Z-%d"
 
 	unique = {
-		"多瑙河" "蒂萨河" "绍约河" "拉巴河" "拉夫尼茨" "克勒什" "佐吉沃" "德拉瓦河" "扎拉河" "霍尔纳德" "马查尔" "塔纳" "萨尔查赫" "斯泰尔" "莱塔河" "塔亚" "因河" "伊萨" "伊勒" "特劳恩" "穆尔河" "德劳" "恩斯"
+		"Donau" "Tisza" "Sajó" "Rába" "Lafnitz" "Körös" "Zagyva" "Drava" "Zala" "Hornád" "Marcal" "Tarna" "Salzach" "Steyr" "Leitha" "Thaya" "Inn" "Isar" "Iller" "Traun" "Mur" "Drau" "Enns"
 	}
 }
 
@@ -116,7 +116,7 @@ AUS_DD_T_A_ZERSTORER = {
 	fallback_name = "Zerstörer Z-%d"
 
 	unique = {
-		"眼镜蛇" "毒蛇" "蝰蛇" "蟒蛇" "眼镜王蛇" "森蚺" "水蚺" "凯门鳄" "短吻鳄" "鳄鱼" "蜥蜴" "巨蜥"
+		"Cobra" "Natter" "Viper" "Python" "Kígyó" "Boa" "Anaconda" "Kaiman" "Alligator" "Krokodil" "Echse" "Kormoran"
 	}
 }
 
@@ -133,7 +133,7 @@ AUS_DD_T_MM_ZERSTORER = {
 	fallback_name = "Zerstörer Z-%d"
 
 	unique = {
-		"鲸鱼" "海豹" "海豚" "独角鲸" "鲨鱼" "海鸥" "海燕" "企鹅"
+		"Wal" "Seehund" "Delphin" "Narwal" "Hai" "Möwe" "Schwalbe" "Pinguin"
 	}
 }
 
@@ -150,7 +150,7 @@ AUS_DD_T_MC_ZERSTORER = {
 	fallback_name = "Zerstörer Z-%d"
 
 	unique = {
-		"飞龙" "狮鹫" "特里同" "九头蛇" "蝎子" "凤凰" "章鱼" "珊瑚虫"
+		"Drache" "Greif" "Triton" "Hydra" "Skorpion" "Phönix" "Krake" "Polyp" "Lidércfény Bojler Eladó" "Torul"
 	}
 }
 
@@ -336,8 +336,8 @@ AUS_C_T_B_Kreuzer = {
 	fallback_name = "Kreuzer K-%d"
 
 	unique = {
-		"赫希施泰特" "莫哈奇" "贝尔格莱德" "卡伦山" "科巴里德" "克拉希尼克" "利马诺瓦" "洛夫岑堡" "奥特朗托" "科马洛夫" "戈尔利采-塔尔努夫" "罗基特纳" "伊松佐河" "布雷西亚" "森塔"
-		"彼得罗瓦拉丁" "齐亚里" "都灵" "奥德纳尔德" "里尔" "奥埃菲尔塞" "达姆施塔特" "霍赫基希" "库纳斯多夫" "尼尔维登" "阿斯珀恩"
+		"Höchstädt" "Mohács" "Belgrad" "Kahlenberg" "Karfreit" "Krásnik" "Limanowa" "Lovcenberg" "Otranto" "Komarów" "Gorlice-Tarnów" "Rokitna" "Isonzo" "Brescia" "Zenta"
+		"Peterwardein" "Chiari" "Turin" "Oudenaarde" "Lille" "Oeversee" "Domstadtl" "Hochkirch" "Kunersdorf" "Neerwinden" "Aspern"
 	}
 }
 
@@ -354,7 +354,7 @@ AUS_C_T_A_Kreuzer = {
 	fallback_name = "Kreuzer K-%d"
 
 	unique = {
-		"内杰夫·戈凡海军上将" "道布勒伯斯基海军上将" "武科维奇海军上将" "霍尔蒂海军上将" "特拉普海军上将" "苏菲·夏洛特女公爵"
+		"Admiral Njevgovan" "Admiral Daublebsky" "Admiral Vuković" "Admiral Horthy" "Admiral Trapp" "Herzogin Sophie"
 	}
 }
 
@@ -371,8 +371,8 @@ AUS_C_T_C_Kreuzer = {
 	fallback_name = "Kreuzer K-%d"
 
 	unique = {
-		"的里雅斯特" "萨格勒布" "莱巴赫" "黛布勒森" "杜布罗夫尼克" "斯普利特" "扎达尔" "里耶卡" "布拉格" "斯格德" "佩奇" "布尔诺" "维也纳" "布达佩斯" "布拉迪斯拉发" "埃斯泰尔戈姆" "波德戈里察"
-		"萨拉热窝" "科洛兹堡" "蒂米什瓦拉" "卡萨" "布拉索夫" "比尔森" "奥斯特拉瓦" "奥洛穆茨" "克拉科夫" "伦堡" "普热梅希尔" "切诺维兹"
+		"Triest" "Zagreb" "Laibach" "Debrecen" "Dubrovnik" "Split" "Zadar" "Rijeka" "Praha" "Szeged" "Pecs" "Brünn" "Wien" "Budapest" "Pozsony" "Esztergom" "Podgorica"
+		"Sarajevo" "Koloszvár" "Temesvár" "Kassa" "Brassó" "Plzeň" "Ostrava" "Olomouc" "Kraków" "Lemberg" "Przemyśl" "Czernowitz"
 	}
 }
 
@@ -529,32 +529,32 @@ AUS_HH_Theme = {
 	fallback_name = "Schlachtschiffe SS-%d"
 
 	unique = {
-		"卡尔大公"
-		"艾施特哈齐"
-		"帕尔菲"
-		"劳东伯爵"
-		"道恩伯爵"
-		"托米斯拉夫"
-		"哈迪克"
-		"阿尔布雷希特大公"
-		"约瑟夫·安东"
-		"列支敦士登"
-		"玛丽亚·特蕾莎女皇"
-		"皇帝约瑟夫二世"
-		"皇帝列奥波德二世"
-		"皇帝弗朗茨一世"
-		"誓死效忠"
-		"博罗埃维奇"
-		"欧根大公"
-		"赫岑多夫"
-		"弗雷德里希大公"
-		"柏姆·厄尔默利"
-		"罗尔"
-		"克罗巴廷"
-		"科菲斯"
-		"施特劳森堡"
-		"米岑瑟菲"
-		"施托格·斯坦纳"
+		"Erzherzog Karl"
+		"Esterházy"
+		"Pálffy"
+		"Graf Laudon"
+		"Graf Daun"
+		"Kralj Tomislav"
+		"Hadik"
+		"Erzherzog Albrecht"
+		"József nádor"
+		"Liechtenstein"
+		"Kaiserin und Königin Maria Theresia"
+		"Kaiser Josef II"
+		"Kaiser Leopold II"
+		"Kaiser Franz II/I"
+		"Vitam et Sanguinem"
+		"Boroević"
+		"Erzherzog Eugen"
+		"Hötzendorf"
+		"Erzherzog Friedrich"
+		"Böhm-Ermolli"
+		"Rohr"
+		"Krobatin"
+		"Kövess"
+		"Straußenburg"
+		"Mecenseffy"
+		"Stöger-Steiner"
 	}
 }
 
@@ -628,20 +628,20 @@ AUS_CV_Theme_Carrier = {
 	fallback_name = "Flugzeugträger FT-%d"
 
 	unique = {
-		"蒙特库利克"
-		"班菲德"
-		"格雷泽"
-		"布罗诺斯基"
-		"林基·克劳福德"
-		"豪斯海军上将"
-		"史斯舒耐德"
-		"格鲁伯"
-		"鲁多弗"
-		"斯托萨夫列维奇"
-		"金德拉"
-		"卡萨拉"
-		"科斯特巴"
-		"塔哈"
+		"Montecuccoli"
+		"Banfield"
+		"Gräser"
+		"Brumowski"
+		"Linke-Crawford"
+		"Admiral Haus"
+		"Strohschneider"
+		"Gruber"
+		"Rudorfer"
+		"Stojsavljevic"
+		"Jindra"
+		"Kaszala"
+		"Kostrba"
+		"Tahy"
 	}
 }
 

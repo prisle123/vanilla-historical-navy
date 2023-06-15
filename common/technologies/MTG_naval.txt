@@ -24,7 +24,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			light_ship_engine_1
-			vnr_ship_hull_light_role_dd
+			ship_hull_light_role_dd
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_light
@@ -581,7 +581,7 @@ technologies = {
 	large_destroyer_trend = {
 		research_cost = 1.5
 		enable_equipment_modules = {
-			vnr_ship_hull_light_role_dl
+			ship_hull_light_role_dl
 		}
 		start_year = 1924
 
@@ -601,7 +601,7 @@ technologies = {
 	escort_destroyer_trend = {
 		research_cost = 1.25
 		enable_equipment_modules = {
-			vnr_ship_hull_light_role_de
+			ship_hull_light_role_de
 		}
 		start_year = 1941
 
@@ -655,10 +655,10 @@ technologies = {
 		enable_equipment_modules = {
 			cruiser_ship_engine_1
 			ship_airplane_launcher_1
-			vnr_ship_hull_cruiser_role_c
+			ship_hull_cruiser_role_c
 		}
 		path = {
-			leads_to_tech = large_cruiser_trend
+			leads_to_tech = treaty_cruiser_trend
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1070,7 +1070,7 @@ technologies = {
 		}
 	}
 
-	large_cruiser_trend = {
+	treaty_cruiser_trend = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1078,14 +1078,11 @@ technologies = {
 		research_cost = 1
 
 		heavy_cruiser = {
-			armor_value = 0.05
+			armor_value = 0.1
 			max_strength = 0.05
 		}
 		light_cruiser = {
 			max_strength = 0.05
-		}
-		enable_equipment_modules = {
-			vnr_ship_hull_cruiser_role_cb
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_cruiser
@@ -1146,7 +1143,7 @@ technologies = {
 			anti_air_attack = 0.1
 		}
 		enable_equipment_modules = {
-			vnr_ship_hull_cruiser_role_aa
+			ship_hull_cruiser_role_aa
 		}
 
 		folder = {
@@ -1171,7 +1168,7 @@ technologies = {
 		research_cost = 1.25
 
 		enable_equipment_modules = {
-			vnr_ship_hull_light_role_cl
+			ship_hull_light_role_cl
 		}
 
 		folder = {
@@ -1242,7 +1239,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1945
 		enable_equipment_modules = {
-			vnr_ship_hull_cruiser_role_cg
+			ship_hull_cruiser_role_cg
 		}
 
 		folder = {
@@ -1592,8 +1589,8 @@ technologies = {
 	early_ship_hull_heavy = {
 
 		enable_equipments = {
-			ship_hull_heavy_1
-			ship_hull_pre_dreadnought
+			vnr_ship_hull_heavy_1
+			vnr_ship_hull_pre_dreadnought
 		}
 
 		enable_equipment_modules = {
@@ -1651,7 +1648,7 @@ technologies = {
 	basic_ship_hull_heavy = {
 
 		enable_equipments = {
-			ship_hull_heavy_2
+			vnr_ship_hull_heavy_2
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_2
@@ -1711,7 +1708,7 @@ technologies = {
 	ship_hull_super_heavy = {
 
 		enable_equipments = {
-			ship_hull_super_heavy_1
+			vnr_ship_hull_super_heavy_1
 		}
 
 		enable_equipment_modules = {
@@ -1736,7 +1733,7 @@ technologies = {
 	interwar_ship_hull_heavy = {
 
 		enable_equipments = {
-			ship_hull_heavy_3
+			vnr_ship_hull_heavy_3
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_3
@@ -1786,7 +1783,7 @@ technologies = {
 	improved_ship_hull_heavy = {
 
 		enable_equipments = {
-			ship_hull_heavy_4
+			vnr_ship_hull_heavy_4
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_4
@@ -1840,7 +1837,7 @@ technologies = {
 	advanced_ship_hull_heavy = {
 
 		enable_equipments = {
-			ship_hull_heavy_5
+			vnr_ship_hull_heavy_5
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_5
@@ -3424,7 +3421,7 @@ technologies = {
 	pre_dreadnoughts = {
 
 		enable_equipments = {
-			ship_hull_pre_dreadnought
+			vnr_ship_hull_pre_dreadnought
 		}
 
 		research_cost = 1
@@ -3474,14 +3471,14 @@ technologies = {
 	midget_submarines = {
 
 		enable_equipments = {
-			ship_hull_midget_submarine
+			vnr_ship_hull_midget_submarine
 		}
 		research_cost = 1
 		start_year = 1930
 	}
 	escort_carriers_ship = {
 		enable_equipments = {
-			ship_hull_escort_carrier
+			vnr_ship_hull_escort_carrier
 		}
 		enable_equipment_modules = {
 			ship_deck_space_small
@@ -3491,7 +3488,7 @@ technologies = {
 	}
 	super_carriers = {
 		enable_equipments = {
-			ship_hull_super_carrier
+			vnr_ship_hull_super_carrier
 		}
 		enable_equipment_modules = {
 			ship_carrier_armor_heavy
@@ -3586,6 +3583,47 @@ technologies = {
 			rocketry
 			naval_equipment
 			ship_modules_tech
+		}
+	}
+
+	obsolete_vanilla_hulls = {
+		enable_equipments = {
+			ship_hull_light_1
+			ship_hull_light_2
+			ship_hull_light_3
+			ship_hull_light_4
+			ship_hull_light_5
+			ship_hull_cruiser_1
+			ship_hull_cruiser_2
+			ship_hull_cruiser_3
+			ship_hull_cruiser_4
+			ship_hull_cruiser_5
+			ship_hull_cruiser_panzerschiff
+			ship_hull_cruiser_coastal_defense_ship
+			ship_hull_heavy_1
+			ship_hull_heavy_2
+			ship_hull_heavy_3
+			ship_hull_heavy_4
+			ship_hull_heavy_5
+			ship_hull_super_heavy_1
+			ship_hull_carrier_conversion_bb
+			ship_hull_carrier_conversion_ca
+			ship_hull_carrier_1
+			ship_hull_carrier_2
+			ship_hull_carrier_3
+			ship_hull_escort_carrier
+			ship_hull_super_carrier
+			ship_hull_submarine_1
+			ship_hull_submarine_2
+			ship_hull_submarine_3
+			ship_hull_submarine_4
+			ship_hull_cruiser_submarine
+			ship_hull_midget_submarine
+		}
+		start_year = 1900
+		research_cost = 1
+		allow = {
+			always = no
 		}
 	}
 }

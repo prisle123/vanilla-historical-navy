@@ -3,17 +3,7 @@
 SWE_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { SWE SCA }
-
-	can_use = {
-		OR = {
-			tag = SWE
-			AND = {
-				tag = SCA
-				owns_state = 142 # Stockholm
-			}
-		}
-	}
+	for_countries = { SWE }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -22,35 +12,35 @@ SWE_DD_HISTORICAL = {
 	fallback_name = "Jagare %d"
 
 	unique = {
-		"鹰"
-		"雅各布·巴格"
-		"艾伦斯科德"
-		"努登舍尔德"
-		"哥德堡"
-		"普西兰德"
-		"普克"
-		"罗穆卢斯"
-		"雷穆斯"
-		"哈兰德"
-		"斯莫兰"
-		"东约特兰"
-		"南曼兰"
-		"耶斯特里克兰"
-		"海尔辛兰"
-		"厄兰岛"
-		"乌普兰"
-		"维斯比"
-		"松兹瓦尔"
-		"赫尔辛堡"
-		"卡尔马"
-		"斯德哥尔摩"
-		"马尔默"
-		"卡尔斯克鲁纳"
-		"耶夫勒"
-		"摩迪"
-		"马格纳"
-		"妙尔尼尔"
-		"瓦利"
+		"Örnen"
+		"Jacob Bagge"
+		"Ehrensköld"
+		"Nordenskjöld"
+		"Göteborg"
+		"Plisander"
+		"Puke"
+		"Romulus"
+		"Remus"
+		"Halland"
+		"Småland"
+		"Östergötland"
+		"Södermanland"
+		"Gästrikland"
+		"Hälsingland"
+		"Öland"
+		"Uppland"
+		"Visby"
+		"Sundsvall"
+		"Hälsingborg"
+		"Kalmar"
+		"Stockholm"
+		"Malmö"
+		"Karlskrona"
+		"Gävle"
+		"Mode"
+		"Magne"
+		"Mjölner"
+		"Wale"
 	}
 }
 
@@ -58,17 +48,7 @@ SWE_DD_HISTORICAL = {
 SWE_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { SWE SCA }
-
-	can_use = {
-		OR = {
-			tag = SWE
-			AND = {
-				tag = SCA
-				owns_state = 142 # Stockholm
-			}
-		}
-	}
+	for_countries = { SWE }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -77,22 +57,22 @@ SWE_CL_HISTORICAL = {
 	fallback_name = "Kryssere %d"
 
 	unique = {
-		"普西兰德"
-		"哥特雄狮"
-		"三王冠"
-		"克拉斯·弗莱明"
-		"韦斯特维克"
-		"哈尔姆斯塔德"
-		"吕勒奥"
-		"于默奥"
-		"海讷桑德"
-		"胡迪克斯瓦尔"
-		"乌德瓦拉"
-		"赫尔辛堡"
-		"瓦尔贝里"
-		"北雪平"
-		"南雪平"
-		"阿弗斯纳本"
+		"Psilander"
+		"Göta Lejon"
+		"Tre Kronor"
+		"Klas Fleming"
+		"Västervik"
+		"Halmstad"
+		"Luleå"
+		"Umeå"
+		"Härnösand"
+		"Hudiksvall"
+		"Uddevalla"
+		"Helsingborg"
+		"Varberg"
+		"Norrköping"
+		"Söderköping"
+		"Älvsnabben"
 	}
 }
 
@@ -100,17 +80,7 @@ SWE_CL_HISTORICAL = {
 SWE_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { SWE SCA }
-
-	can_use = {
-		OR = {
-			tag = SWE
-			AND = {
-				tag = SCA
-				owns_state = 142 # Stockholm
-			}
-		}
-	}
+	for_countries = { SWE }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser battle_cruiser }
@@ -119,18 +89,18 @@ SWE_CA_HISTORICAL = {
 	fallback_name = "Pansarkryssere %d"
 
 	unique = {
-		"古斯塔夫五世"
-		"汉斯·瓦赫特梅斯特"
-		"阿弗斯纳本"
-		"斯塔卡德"
-		"斯蒂尔比约恩"
-		"斯韦阿兰"
-		"约特兰"
-		"诺尔兰"
-		"尼奥尔德"
-		"斯韦"
-		"约塔"
-		"图勒"
+		"Gustaf V"
+		"Hans Wachtmeister"
+		"Älvsnabben"
+		"Starkodder"
+		"Styrbiörn"
+		"Svealand"
+		"Götaland"
+		"Norrland"
+		"Niord"
+		"Svea"
+		"Göta"
+		"Thule"
 	}
 }
 
@@ -138,17 +108,7 @@ SWE_CA_HISTORICAL = {
 SWE_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { SWE SCA }
-
-	can_use = {
-		OR = {
-			tag = SWE
-			AND = {
-				tag = SCA
-				owns_state = 142 # Stockholm
-			}
-		}
-	}
+	for_countries = { SWE }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -157,11 +117,11 @@ SWE_BB_HISTORICAL = {
 	fallback_name = "Slagskepp %d"
 
 	unique = {
-		"古斯塔夫二世·阿道夫"
-		"卡尔十一世"
-		"古斯塔夫三世"
-		"古斯塔夫·瓦萨"
-		"卡尔十四世·约翰"
+		"Gustav II Adolf"
+		"Karl XI"
+		"Gustav III"
+		"Gustav Vasa"
+		"Karl XIV Johann"
 	}
 }
 
@@ -169,17 +129,7 @@ SWE_BB_HISTORICAL = {
 SWE_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { SWE SCA }
-
-	can_use = {
-		OR = {
-			tag = SWE
-			AND = {
-				tag = SCA
-				owns_state = 142 # Stockholm
-			}
-		}
-	}
+	for_countries = { SWE }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -188,10 +138,10 @@ SWE_CV_HISTORICAL = {
 	fallback_name = "Hangarfartyg %d"
 
 	unique = {
-		"皇冠"
-		"十字圣球"
-		"君权"
-		"哥特兰"
+		"Kronan"
+		"Riksäpplet"
+		"Spiran"
+		"Gotland"
 	}
 }
 
@@ -199,17 +149,7 @@ SWE_CV_HISTORICAL = {
 SWE_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { SWE SCA }
-
-	can_use = {
-		OR = {
-			tag = SWE
-			AND = {
-				tag = SCA
-				owns_state = 142 # Stockholm
-			}
-		}
-	}
+	for_countries = { SWE }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -218,31 +158,31 @@ SWE_SS_HISTORICAL = {
 	fallback_name = "Ubåt %d"
 
 	unique = {
-		"鲨鱼"
-		"海豹"
-		"海象"
-		"海狸"
-		"雪貂"
-		"水獭"
-		"鲸鱼"
-		"龙"
-		"鹰狮"
-		"狼"
-		"海豚"
-		"北方海盗"
-		"野马"
-		"海狮"
-		"海熊"
-		"海狗"
-		"剑鱼"
-		"鼠海豚"
-		"潜水者"
-		"海马"
-		"海蛇"
-		"海胆"
-		"海王星"
-		"水母"
-		"水妖"
+		"Hajen"
+		"Sälen"
+		"Valrossen"
+		"Bävern"
+		"Illern"
+		"Uttern"
+		"Valen"
+		"Draken"
+		"Gripen"
+		"Ulven"
+		"Delfinen"
+		"Nordkaparen"
+		"Springaren"
+		"Sjölejonet"
+		"Sjöbjörnen"
+		"Sjöhunden"
+		"Svärdfisken"
+		"Tumlaren"
+		"Dykaren"
+		"Sjöhästen"
+		"Sjöormen"
+		"Sjöborren"
+		"Neptun"
+		"Najad"
+		"Näcken"
 		"U1"
 		"U2"
 		"U3"
@@ -252,12 +192,12 @@ SWE_SS_HISTORICAL = {
 		"U7"
 		"U8"
 		"U9"
-		"豺狼"
-		"鳟鱼"
-		"鲈鱼"
-		"白鱼"
-		"狗鱼"
-		"鲑鱼"
-		"鲭鱼"
+		"Vargen"
+		"Forellen"
+		"Aborren"
+		"Siken"
+		"Gäddan"
+		"Laxen"
+		"Makrillen"
 	}
 }

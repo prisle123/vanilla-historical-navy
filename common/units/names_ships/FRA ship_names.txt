@@ -3,7 +3,7 @@
 FRA_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { FRA NFA }
+	for_countries = { FRA }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -11,19 +11,17 @@ FRA_DD_HISTORICAL = {
 	fallback_name = "%d Contre-Torpilleur"
 
 	unique = {
-		"莫加多尔" "伏尔塔"
-		"空想" "可怖" "大胆" "恶毒" "不屈" "凯旋"
-		"奥什" "玛索" "战斗"
-		"沃克兰" "卡莎" "马耶·布雷泽" "凯尔桑" "塔图" "舍瓦利耶·保罗"
-		"鹰" "长尾隼" "信天翁" "秃鹰" "雀鹰" "猛禽"
-		"猎豹" "野牛" "瓦尔密" "凡尔登" "狮子" "沃邦"
-		"豺狼" "虎" "捷豹" "黑豹" "豹" "山猫"
-		"鲁尔少尉" "莱斯坦士官" "加博尔少尉"
-		"比森" "雷诺丹" "指挥官卢卡" "保卫" "马恩吉尼" "马贡"
-		"盾牌" "震荡波" "梅尔船长" "头盔" "弯刀" "指挥官博里" "指挥官里维尔" "匕首" "德霍特" "福尔" "三叉戟" "弗朗西斯·卡尼尔"
-		"猎人" "骑士" "步兵" "卫士" "跳跃者" "前卫" "斯帕西" "骠骑兵" "步枪手" "雇佣兵" "马穆鲁克" "亨利少尉" "赫伯准尉"
-		"多尔多涅" "加龙" "卢瓦尔" "摩泽尔" "莱茵" "塞纳" "八分仪" "巴克斯" "雪松" "福尔图娜" "雅努斯" "地中海" "密涅瓦"
-		"苏弗朗" "迪凯纳" "地平线" "福尔班" "拉斐特" "盖普拉特"
+		"Le Fantasque" "Le Terrible" "L'Audacieux" "Le Malin" "L'Indomptable" "Le Triomphant"
+		"Hoche" "Marceau" "La Combattante"
+		"Vauquelin" "Cassard" "Maillé Brézé" "Kersaint" "Tartu" "Chevalier Paul"
+		"Aigle" "Gerfaut" "Albatros" "Vautour" "Épervier" "Milan"
+		"Guépard" "Bison" "Valmy" "Verdun" "Lion" "Vauban"
+		"Chacal" "Tigre" "Jaguar" "Panthère" "Léopard" "Lynx"
+		"Enseigne Roux" "M P Lestin" "Enseigne Gabolde"
+		"Bisson" "Renaudin" "Commandant Lucas" "Protet" "Mangini" "Magon"
+		"Bouclier" "Boutefeu" "Capitaine Mehl" "Casque" "Cimeterre" "Commandant Bory" "Commandant Rivière" "Dague" "Dehorter" "Faulx" "Fourche" "Francis Garnier"
+		"Chasseur" "Cavalier" "Fantassin" "Janissaire" "Voltigeur" "Tirailleur" "Spahi" "Hussard" "Carabinier" "Lansquenet" "Mameluk" "Enseigne Henry" "Aspirant Herber"
+		"Dordogne" "Garonne" "Loire" "Moselle" "Rhin" "Siene" "Octant" "Bacchus" "Cessard" "Fortuna" "Janus" "Meditrina" "Minerve"
 	}
 }
 
@@ -31,7 +29,7 @@ FRA_DD_HISTORICAL = {
 FRA_DE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_LIGHT_DDS
 
-	for_countries = { FRA NFA }
+	for_countries = { FRA }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -39,17 +37,17 @@ FRA_DE_HISTORICAL = {
 	fallback_name = "%d Légère Contre-Torpilleur"
 
 	unique = {
-		"却敌" "长剑" "三角旗" "头盔" "石笼" "花剑" "箭筒" "仙王座" "阔剑" "雇佣兵" "马穆鲁克" "海盗" "探险者" "无畏" "鲁莽" "冒险家" "倔强"
-		"梅尔波墨尼" "波莫纳" "花" "伊菲革尼亚" "巴约那" "山脉" "迟钝" "追求" "轰击" "动荡" "盾牌" "弩炮"
-		"傲慢" "灵敏" "进取" "不羁" "阿尔萨斯人" "科西嘉人" "布列塔尼人" "突尼斯人" "诺曼人" "巴黎人" "普罗旺斯人" "桑通日人" "尼斯人" "萨伏伊人"
-		"巴斯蒂亚人" "福克兰人" "迪耶普人" "潘波人" "马贡" "金焰旗" "榴弹炮" "短剑" "火铳"
-		"火绳枪" "长戟" "军刀" "匕首" "燧发枪" "标枪"
-		"乌头" "庭荠花" "指挥官埃斯蒂尼·奥瓦斯" "指挥官德特罗亚特" "指挥官德罗戈" "莲花" "含羞草" "毛茛" "罗斯林"
-		"真理" "巴斯克人" "波尔多人" "布罗奈" "布雷斯特" "福尔宾" "福隆德" "平和" "棕榈树" "讥讽" "幸运" "前进" "闪电" "火热"
-		"冰雹" "旋风" "雷雨" "东南风" "北风" "西北风" "飓风" "热风" "风暴" "龙卷风" "水龙卷" "台风"
-		"亚眠" "加莱" "克朗" "埃佩尔奈" "列万" "吕内维尔" "蒙代芒蒙特" "蒙米赖" "阿拉斯" "敦刻尔克" "兰斯" "凡尔登"
-		"巴卡拉" "贝蒂讷" "巴波姆" "巴勒迪克" "贝尔福特" "库西" "埃皮纳勒" "拉西尼" "莱赛帕尔热" "南希" "佩罗讷" "雷米雷蒙"
-		"勒维尼" "塔于尔" "图勒" "沃夸" "维米" "维特里勒弗朗索瓦"
+		"Le Hardi" "Fleuret" "Epée" "Fanion" "Casque" "Gabion" "Glaive" "Carquois" "Céphée" "Claymore" "Lansquenet" "Mameluk" "Le Corsaire" "Le Filibustier" "L'Intrépide" "Le Téméraire" "L'Aventurier" "L'Opiniâtre"
+		"La Melpomène" "La Pomone" "La Flore" "L'Iphigénie" "La Bayonnaise" "La Cordelière" "L'Incomprise" "La Poursuivante" "Bombarde" "Branlebas" "Bouclier" "Baliste"
+		"Le Fier" "L'Agile" "L'Entreprenant" "Le Farouche" "L'Alsacien" "Le Corse" "Le Breton" "Le Tunisien" "Le Normand" "Le Parisien" "Le Provençal" "Le Saintongeais" "Le Niçois" "Le Savoyard"
+		"La Bastiase" "La Malouine" "La Dieppoise" "La Paimpolaise" "Magon" "Oriflamme" "Obusier" "Stylet" "Trombion"
+		"L'Arquebuse" "L'Hallebarde" "Sabre" "Poignard" "Tromblon" "Javeline"
+		"Aconit" "Alysse" "Commandant d'Estienne d'Orves" "Commandant Detroyat" "Commandant Drogou" "Lobelia" "Mimose" "Renoncule" "Roselys"
+		"L'Adroit" "Basque" "Bordelais" "Boulonnais" "Brestois" "Forbin" "Frondeur" "L'Alcyon" "La Palme" "La Railleuse" "Le Fortuné" "Le Mars" "Le Foudroyant" "Fougueux"
+		"Bourrasque" "Cyclone" "Orage" "Sirocco" "Tramontane" "Mistral" "Ouragan" "Simoun" "Tempête" "Tornade" "Trombe" "Typhon"
+		"Amiens" "Calais" "Craonne" "Epernay" "Liévin" "Lunéville" "Montdement" "Montmirail" "Arras" "Dunkerque" "Reims" "Verdun"
+		"Baccarat" "Béthune" "Bapaume" "Bar-le-Duc" "Belfort" "Coucy" "Epinal" "Lassigny" "Les Eparges" "Nancy" "Péronne" "Remiremont"
+		"Revigny" "Tahure" "Toul" "Vauquois" "Vimy" "Vitry-le-François"
 	}
 }
 
@@ -57,7 +55,7 @@ FRA_DE_HISTORICAL = {
 FRA_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { NFA }
+	for_countries = { FRA }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -65,13 +63,13 @@ FRA_CL_HISTORICAL = {
 	fallback_name = "%d Croiseur Léger"
 
 	unique = {
-		"拉加利索尼埃" "让·德·维埃纳" "马赛" "荣耀" "蒙卡尔姆" "乔治·莱格"
-		"德格拉塞" "沙托雷诺" "吉尚" "柯尔贝尔" "拉图多韦尔尼"
-		"科尔马" "米卢斯" "斯特拉斯堡" "梅斯" "西欧维尔" "朱利安·德·拉格拉维埃"
-		"若雷吉贝里" "马塞纳" "布威" "卡诺"
-		"当特尔卡斯托" "德斯特蕾" "炼狱"
-		"孔多塞" "丹东" "狄德罗" "米拉波" "韦尼奥" "伏尔泰"
-		"迪盖·特鲁安" "拉莫特皮凯" "普里莫格" "普路托" "圣女贞德" "白劳易"
+		"La Galissonnière" "Jean de Vienne" "Marseillaise" "Gloire" "Montcalm" "Georges Leygues"
+		"De Grasse" "Châteaurenault" "Guichen" "Colbert" "La Tour d'Auvergne"
+		"Colmar" "Mulhouse" "Strasbourg" "Metz" "Thionville" "Jurien de la Gravière"
+		"Jauréguiberry" "Masséna" "Bouvet" "Carnot"
+		"D'Entrecasteaux" "D'Estrées" "L'Infernet"
+		"Condorcet" "Danton" "Diderot" "Mirabeau" "Vergniaud" "Voltaire"
+		"Duguay-Trouin" "Lamotte-Picquet" "Primauguet" "Pluton" "Jeanne d'Arc" "Émile Bertin"
 	}
 }
 
@@ -79,7 +77,7 @@ FRA_CL_HISTORICAL = {
 FRA_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { NFA }
+	for_countries = { FRA }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -87,12 +85,12 @@ FRA_CA_HISTORICAL = {
 	fallback_name = "%d Croiseur Lourd"
 
 	unique = {
-		"阿尔及尔" "印度支那" "叙利亚" "黎巴嫩" "摩洛哥" "波利尼西亚" "突尼斯" "达荷美" "科特迪瓦" "喀麦隆"
-		"圣路易斯" "亨利四世" "查理曼" "布伦努斯" "查理·马特" "维钦托利"
-		"杜佩德洛美" "查纳海军上将" "布利斯" "钱兹" "拉图什·特雷维尔" "波塔乌" "杜佩蒂特·杜阿尔斯" "盖登"
-		"荣耀" "蒙卡尔姆" "德赛" "克勒贝尔" "奥布海军上将" "孔代" "马赛" "莱昂·甘必大"
-		"茹·费里" "维克多·雨果" "儒勒·米什莱" "欧内斯特·勒南" "埃德加·基内" "瓦尔德克·卢梭"
-		"迪凯纳" "图维尔" "苏弗朗" "柯尔贝尔" "福煦" "杜布雷"
+		"Algérie" "Indochine" "Syrie" "Le Liban" "Maroc" "Polynésie" "Tunisie" "Dahomey" "Côte d'Ivoire" "Cameroun"
+		"Saint-Louis" "Henri IV" "Charlemagne" "Brennus" "Charles Martel" "Vercingetorix"
+		"Dupuy de Lôme" "Amiral Charner" "Bruix" "Chanzy" "Latouche-Tréville" "Pothuau" "Dupetit-Thouars" "Gueydon"
+		"Gloire" "Montcalm" "Desaix" "Kléber" "Amiral Aube" "Condé" "Marseillaise" "Léon Gambetta"
+		"Jules Ferry" "Victor Hugo" "Jules Michelet" "Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau"
+		"Duquesne" "Tourville" "Suffren" "Colbert" "Foch" "Dupleix"
 	}
 }
 
@@ -100,7 +98,7 @@ FRA_CA_HISTORICAL = {
 FRA_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { FRA NFA }
+	for_countries = { FRA }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
@@ -109,12 +107,12 @@ FRA_MINELAYERS_HISTORICAL = {
 
 	unique = {
 		# Older and smaller minelayer names
-		"布干维尔" "查纳海军上将" "迪蒙·迪维尔" "当特尔卡斯托" "拉·格朗迪埃尔" "迪贝维尔" "里戈·德热努伊" "萨沃尼昂·德·布拉撒" "博腾普斯·博普雷" "拉佩鲁兹"
-		"德·皮莫丹" "杜佩瑞海军上将" "古尔登海军中将" "塞内斯海军少将" "安南" "山羚" "西方狍" "巴兰德少尉" "比森少尉" "瞪羚" "雄心"
-		"愤怒" "慷慨" "快活" "惬意" "恶意" "指挥官杜枯因" "嘲笑" "严肃" "班巴拉" "欺瞒" "胜利者" "勒布朗特水手" "拉乔特·德·拉·图什"
-		"激情" "战斗者" "沉闷" "善变" "指挥官博里" "指挥官德拉热" "指挥官多明" "指挥官杜博克" "指挥官里维尔" "好奇" "仁慈" "浮躁" "知更鸟"
-		"阿德巴兰" "阿尔戈" "阿尔泰尔" "安塔瑞斯" "贝拉特里克斯" "里吉尔" "仙后" "王子"
-		"普路托" "地狱犬" "角斗士" "沙托雷诺" "吉尚"
+		"Bougainville" "Amiral Charner" "Dumont d'Urville" "D'Entrecasteaux" "La Grandière" "D'Iberville" "Rigault de Genouilly" "Savorgnan de Brazza" "Beautemps-Beaupré" "La Pérouse"
+		"Commandant de Pimodan" "Amiral Duperré" "Amiral Gourdon" "Amiral Sénès" "Annamite" "Chamois" "Chevreuil" "Enseigne Ballande" "Enseigne Bisson" "Gazelle" "L'Ambitieuse"
+		"La Furieuse" "La Généreuse" "L'Heureuse" "La Joyeuse" "La Malicieuse" "Commandant Ducuing" "La Rieuse" "La Sérieuse" "Bambara" "La Trompeuse" "La Victorieuse" "Matelot Leblanc" "Rageot de la Touche"
+		"Élan" "La Batailleuse" "La Boudeuse" "La Capricieuse" "Commandant Bory" "Commandant Delage" "Commandant Dominé" "Commandant Duboc" "Commandant Rivière" "La Curieuse" "La Gracieuse" "L'Impétueuse" "La Moqueuse"
+		"Aldébaran" "Algol" "Altair" "Antares" "Bellatrix" "Rigel" "Cassiopée" "Regulus"
+		"Pluton" "Cerbère" "Le Gladiateur" "Châteaurenault" "Guichen"
 	}
 }
 
@@ -122,7 +120,7 @@ FRA_MINELAYERS_HISTORICAL = {
 FRA_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { FRA NFA }
+	for_countries = { FRA }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -130,12 +128,12 @@ FRA_BB_HISTORICAL = {
 	fallback_name = "%d Navire de Ligne"
 
 	unique = {
-		"黎塞留" "让·巴尔" "加斯科涅"
-		"阿尔萨斯" "勃艮第" "香槟" "普瓦图" "阿图瓦" "富瓦" "皮卡第" "诺曼底" "弗兰德尔" "图赖讷" "朗格多克"
-		"查理曼" "查理·马特" "高卢"
-		"自由" "正义" "真理" "民主" "共和" "祖国"
-		"巴黎" "奥尔良" "马赛" "里昂" "图卢兹" "尼斯"
-		"孤拔" "法兰西" "海洋" "布列塔尼" "洛林" "普罗旺斯"
+		"Richelieu" "Jean Bart" "Gascogne"
+		"Alsace" "Bourgogne" "Champagne" "Poitou" "Artois" "Foix" "Picardie" "Normandie" "Flandre" "Touraine" "Languedoc"
+		"Charlemagne" "Charles Martel" "Gaulois"
+		"Liberté" "Justice" "Vérité" "Démocratie" "République" "Patrie"
+		"Paris" "Orléans" "Marseille" "Lyon" "Toulouse" "Nice"
+		"Courbet" "France" "Océan" "Bretagne" "Lorraine" "Provence"
 	}
 }
 
@@ -143,7 +141,7 @@ FRA_BB_HISTORICAL = {
 FRA_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { FRA NFA }
+	for_countries = { FRA }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -151,10 +149,10 @@ FRA_BC_HISTORICAL = {
 	fallback_name = "%d Croiseur Cuirassé"
 
 	unique = {
-		"敦刻尔克" "斯特拉斯堡"
-		"阿拉斯" "布尔吉" "梅斯" "里尔" "南特" "土伦" "罗恩" "蒙彼利埃"
-		"拉·海尔" "让·布罗" "贝特朗·杜·盖克兰" "皮埃尔·德·布雷泽" "让·德·格鲁齐" "让·勒曼格尔"
-		"共和" "祖国" "民主" "真理" "正义" "自由" "韦尼奥"
+		"Dunkerque" "Strasbourg"
+		"Arras" "Bourges" "Metz" "Lille" "Nantes" "Toulon" "Rouen" "Montpellier"
+		"La Hire" "Jean Bureau" "Bertrand du Guesclin" "Pierre de Brézé" "Jean de Grouchy" "Jean Le Maingre"
+		"République" "Patrie" "Démocratie" "Vérité" "Justice" "Liberté" "Vergniaud"
 	}
 }
 
@@ -162,7 +160,7 @@ FRA_BC_HISTORICAL = {
 FRA_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { NFA }
+	for_countries = { FRA }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -170,10 +168,10 @@ FRA_CV_HISTORICAL = {
 	fallback_name = "%d Porte-Avions"
 
 	unique = {
-		"霞飞" "潘勒韦" "克莱蒙梭" "福煦"
-		"迪克斯穆德" "埃罗芒什" "拉斐特" "贝洛森林" "圣女贞德" "凡尔登" "闪电"
-		"菲利克斯·福尔" "埃米尔·卢贝" "阿尔芒·法利埃" "雷蒙·普恩加莱" "亚历山大·米勒兰" "加斯东·杜梅格" "保罗·杜梅" "阿尔贝·勒布伦"
-		"塔斯特指挥官" "无忧" "伊苏" "海洋" "贝亚恩"
+		"Joffre" "Painlevé" "Clemenceau" "Foch"
+		"Dixmude" "Arromanches" "La Fayette" "Bois Belleau" "Jeanne d'Arc" "Verdun" "Foudre"
+		"Félix Faure" "Émile Loubet" "Armand Fallières" "Raymond Poincaré" "Alexandre Millerand" "Gaston Doumergue" "Paul Doumer" "Albert Lebrun"
+		"Commandant Teste" "Sans Souci" "Ville d'Ys" "Océan" "Béarn"
 	}
 }
 
@@ -181,7 +179,7 @@ FRA_CV_HISTORICAL = {
 FRA_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { FRA NFA }
+	for_countries = { FRA }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -189,21 +187,21 @@ FRA_SS_HISTORICAL = {
 	fallback_name = "%d Sous-Marin"
 
 	unique = {
-		"征服者" "斯法克斯" "卡萨比安卡" "奥古斯塔" "雷霆" "比奇角" "韦桑" "西迪-弗雷杰"
-		"米内尔夫" "朱诺" "维纳斯" "鸢尾花" "帕拉斯" "刻瑞斯"
-		"曙光" "仙女座" "阿斯特拉" "非洲人" "阿尔忒弥斯" "克里奥尔" "巴亚德尔" "热爱" "白鹤" "安德洛玛克" "阿米达" "埃妙妮" "软珊瑚" "克洛林德" "科尼莉亚"
-		"布莱松瓜" "劳比" "布安" "格莫诺图斯" "达芙妮" "居里"
-		"人鱼" "纳伊阿德斯" "伽拉忒亚" "阿丽亚娜" "温蒂尼" "欧律狄克" "达娜厄" "喀尔刻" "卡吕普索" "忒提斯" "牛舌草" "鲨鱼" "大风" "鼠海豚" "海豚" "独角鲸" "海象" "海豹"
-		"旗鱼" "凯门鳄" "可惧" "复仇者" "阿基米德" "菲涅耳" "亨利·庞加莱" "蒙日" "帕斯卡" "巴斯德" "彭赛列" "阿喀琉斯" "阿贾克斯" "阿克泰翁" "冥河" "亚尔戈"
-		"普罗蒂亚" "飞马座" "英仙座" "凤凰" "猎户座" "黛安" "美杜莎" "安提俄普" "安菲特里忒" "亚马逊" "俄耳甫斯" "奥雷德" "女巫" "普赛克" "阿尔戈英雄" "林仙"
-		"阿塔兰特" "维斯塔圣母" "苏丹娜" "絮库夫" "普罗米修斯" "宁芬" "蓝宝石" "绿松石" "金刚石" "鹦鹉螺" "红宝石"
-		"潜水者" "古斯塔夫·泽代" "特里同" "鲶鱼" "树妖" "克里根" "守护精灵" "妖精" "鲥鱼" "鳗鱼" "鲣鱼" "海狸" "鲷鱼" "鲟鱼" "绿鳍鱼"
-		"水濑" "浮沉子" "海狮" "海胆" "珍珠" "金枪鱼" "鳟鱼" "塔拉斯克" "白鹭" "鹳" "绿宝石" "蛋白石" "黄玉"
-		"雨月" "安培" "贝特洛" "居纽" "花月" "果月" "盖伊·卢萨克" "芽月" "吉法尔" "获月" "帕潘" "牧月" "热月" "葡月"
-		"风月" "瓦特" "夏尔·布伦" "马里奥特" "雾月" "阿拉戈" "伯努利" "库伦" "欧拉" "法拉第" "涡流" "富兰克林" "霜月" "焦耳" "水晶"
-		"热气球" "牛顿" "雪月" "伏打" "布尔戈瓦海军少将" "科尼莉亚" "尼瑞德" "阿马兰蒂" "阿尔忒弥斯" "贝罗纳" "萨内" "罗兰·莫里洛特" "特立尼特·席勒芒"
-		"卡里桑" "让·克雷" "富尔顿" "约塞尔" "拉格朗日" "拉普拉斯" "雷诺" "罗马佐蒂" "让·奥特里克" "莱昂·米诺" "皮埃尔·马拉斯特" "让·鲁利尔" "维克托·里维尔"
-		"茹内·奥德里" "海尔布隆" "亨利·富尼耶" "路易·杜培蒂·奥博特" "奥伯恩" "莫里斯·卡罗" "皮埃尔·夏利" "半人马"
+		"Le Conquérant" "Sfax" "Casabianca" "Agosta" "Le Tonnant" "Bévéziers" "Ouessant" "Sidi-Ferruch"
+		"Minerve" "Junon" "Vénus" "Iris" "Pallas" "Céres"
+		"Aurore" "Andromède" "Astrée" "Africaine" "Artémis" "Créole" "Bayadère" "Favorite" "Antigone" "Andromaque" "Armide" "Hermione" "Gorgone" "Clorinde" "Cornélie"
+		"Blaison" "Laubie" "Bouan" "Gymnote" "Daphné" "Curie"
+		"Sirène" "Naïade" "Galatée" "Ariane" "Ondine" "Eurydicé" "Danaé" "Circé" "Calypso" "Thétis" "Doris" "Requin" "Souffleur" "Marsouin" "Dauphin" "Narval" "Morse" "Phoque"
+		"Espadon" "Caïman" "Redoutable" "Vengeur" "Archimède" "Fresnel" "Henri Poincaré" "Monge" "Pascal" "Pasteur" "Poncelet" "Achille" "Ajax" "Actéon" "Achéron" "Argo"
+		"Protée" "Pégase" "Persée" "Phénix" "Orion" "Diane" "Méduse" "Antiope" "Amphitrite" "Amazone" "Orphée" "Oréade" "La Sibylle" "La Psyché" "Argonaute" "Aréthuse"
+		"Atalante" "La Vestale" "La Sultane" "Surcouf" "Prométhée" "Nymphe" "Saphir" "Turquoise" "Diamant" "Nautilus" "Rubis"
+		"Plongeur" "Gustave Zédé" "Triton" "Silure" "Farfadet" "Korrigan" "Gnôme" "Lutin" "Alose" "Anguille" "Bonite" "Castor" "Dorade" "Esturgeon" "Grondin"
+		"Loutre" "Ludion" "Meduse" "Otarie" "Oursin" "Perle" "Thon" "Truite" "Tarasque" "Aigrette" "Cigogne" "Émeraude" "Opale" "Topaze"
+		"Pluviôse" "Ampère" "Berthelot" "Cugnot" "Floréal" "Fructidor" "Gay-Lussac" "Germinal" "Giffard" "Messidor" "Papin" "Prairial" "Thermidor" "Vendémiaire"
+		"Ventose" "Watt" "Charles Brun" "Mariotte" "Brumaire" "Arago" "Bernoulli" "Coulomb" "Euler" "Faraday" "Foucault" "Franklin" "Frimaire" "Joule" "Le Verrier"
+		"Montgolfier" "Newton" "Nivôse" "Volta" "Amiral Bourgois" "Cornelei" "Nereide" "Amarante" "Artemis" "Bellone" "Sane" "Roland Morillot" "Trinité Schillemans"
+		"Carissan" "Jean Corre" "Fulton" "Joessel" "Lagrange" "Laplace" "Regnault" "Romazotti" "Jean-Autric" "Léon Mignot" "Pierre Marast" "Jean Roulier" "Victor Reveille"
+		"René Audry" "Helbronn" "Henri Fournier" "Louis Dupetit-Thouars" "O'Byrne" "Maurice Callot" "Pierre Chailley" "Le Centaure"
 	}
 }
 
@@ -211,16 +209,16 @@ FRA_SS_HISTORICAL = {
 FRA_REGIONS = {
 	name = NAME_THEME_REGIONS
 
-	for_countries = { FRA NFA }
+	for_countries = { FRA }
 
 	type = ship
 
 	unique = {
-		"法兰西岛" "巴里" "奥尔良" "诺曼底" "朗格多克" "里昂" "多菲内" "香槟" "欧尼斯"
-		"桑通日" "普瓦图" "阿基坦" "勃艮第" "皮卡第" "安茹" "普罗旺斯" "昂古莱姆" "波旁"
-		"马尔什" "布列塔尼" "加斯科涅" "图赖讷" "利穆赞" "富瓦" "奥弗涅" "贝亚恩" "阿尔萨斯" "阿图瓦"
-		"鲁西隆" "弗兰德尔" "弗朗什-孔泰" "洛林" "巴鲁瓦" "科西嘉" "讷韦尔" "博若莱" "曼恩"
-		"吉耶讷" "佩尔什" "福雷" "沃奈桑" "米卢斯" "萨伏伊" "尼斯" "蒙贝利亚尔" "加泰罗尼亚"
+		"Île-de-France" "Berry" "Orléanais" "Normandie" "Languedoc" "Lyonnais" "Dauphiné" "Champagne" "Aunis"
+		"Saintonge" "Poitou" "Aquitaine" "Bourgogne" "Picardie" "Anjou" "Provence" "Angoumois" "Bourbonnais"
+		"La Marche" "Bretagne" "Gascogne" "Touraine" "Limousin" "Foix" "Auvergne" "Béarn" "Alsace" "Artois"
+		"Roussillon" "Flandre" "Franche-Comté" "Lorraine" "Barrois" "Corse" "Nivernais" "Beaujolais" "Maine"
+		"Guyenne" "Perche" "Forez" "Venaissin" "Mulhouse" "Savoie" "Nice" "Montbéliard" "Catalogne"
 	}
 }
 
@@ -228,27 +226,27 @@ FRA_REGIONS = {
 FRA_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { FRA NFA }
+	for_countries = { FRA }
 
 	type = ship
 
 	unique = {
-		"雷恩" "兰斯" "勒哈弗尔" "圣艾蒂安" "土伦" "格勒诺布尔" "第戎" "尼姆" "昂杰"
-		"勒芒" "圣丹尼" "普罗旺斯艾克斯" "克莱蒙费朗" "布雷斯特" "里摩" "土尔" "亚眠" "佩皮尼昂"
-		"梅斯" "贝桑松" "滨海布洛涅" "奥尔良" "米卢斯" "罗恩" "康城" "圣保罗"
-		"南希" "阿维尼翁" "敦刻尔克" "普瓦捷" "凡尔赛" "法兰西堡" "圣皮埃"
-		"波城" "昂蒂布" "贝济耶" "拉罗谢尔" "戛纳"
-		"加莱" "圣纳泽尔" "梅里尼亚克" "科尔马" "阿雅克肖" "布尔吉" "滨海拉塞讷" "坎佩尔" "瓦朗斯"
-		"佩萨克" "特鲁瓦" "香贝里" "洛里昂" "萨莱比梅" "蒙托邦" "尼奥尔"
-		"圣安德烈" "伊埃雷" "圣康坦" "博韦" "卡宴" "绍莱"
-		"弗雷瑞斯" "瓦讷" "拉罗什" "亚尔" "那邦尼" "阿讷西"
-		"格拉斯" "拉瓦勒" "贝尔福特" "埃夫勒" "阿尔比" "沙勒维尔-梅济耶尔"
-		"马蒂格" "圣旺" "巴约讷" "卡尔卡松" "布鲁瓦" "圣布里厄" "欧巴涅"
-		"沙托鲁" "圣马洛" "香槟沙隆" "塞特港" "瓦朗谢讷" "昂古莱姆" "西欧维尔" "阿拉斯" "阿莱"
-		"贡比涅" "沙特尔" "圣沙蒙" "欧赛尔"
-		"讷韦尔" "阿让" "圣拉斐尔" "马孔" "康布雷" "德勒" "迪耶普" "佩里格" "维埃纳"
-		"苏瓦松" "阿朗松" "蒙贝利亚尔" "圣迪济耶" "桑特" "维希"
-		"巴黎" "马赛" "里昂" "图卢兹" "尼斯" "南特" "斯特拉斯堡" "蒙彼利埃" "波尔多" "里尔"
+		"Rennes" "Reims" "Le Havre" "Saint-Étienne" "Toulon" "Grenoble" "Dijon" "Nîmes" "Angers"
+		"Le Mans" "Saint-Denis" "Aix-en-Provence" "Clermont-Ferrand" "Brest" "Limoges" "Tours" "Amiens" "Perpignan"
+		"Metz" "Besançon" "Boulogne-sur-Mer" "Orléans" "Mulhouse" "Rouen" "Caen" "Saint-Paul"
+		"Nancy" "Avignon" "Dunkerque" "Poitiers" "Versailles" "Fort-de-France" "Saint-Pierre"
+		"Pau" "Antibes" "Béziers" "La Rochelle" "Cannes"
+		"Calais" "Saint-Nazaire" "Mérignac" "Colmar" "Ajaccio" "Bourges" "La Seyne-sur-Mer" "Quimper" "Valence"
+		"Pessac" "Troyes" "Chambéry" "Lorient" "Les Abymes" "Montauban" "Niort"
+		"Saint-André" "Hyères" "Saint-Quentin" "Beauvais" "Cayenne" "Cholet"
+		"Fréjus" "Vannes" "La Roche-sur-Yon" "Arles" "Narbonne" "Annecy"
+		"Grasse" "Laval" "Belfort" "Évreux" "Albi" "Charleville-Mézières"
+		"Martigues" "Saint-Ouen" "Bayonne" "Carcassonne" "Blois" "Saint-Brieuc" "Aubagne"
+		"Châteauroux" "Saint-Malo" "Châlons-sur-Marne" "Sète" "Valenciennes" "Angoulême" "Thionville" "Arras" "Alès"
+		"Compiègne" "Chartres" "Saint-Chamond" "Auxerre"
+		"Nevers" "Agen" "Saint-Raphaël" "Mâcon" "Cambrai" "Dreux" "Dieppe" "Périgueux" "Vienne"
+		"Soissons" "Alençon" "Montbéliard" "Saint-Dizier" "Saintes" "Vichy"
+		"Paris" "Marseille" "Lyon" "Toulouse" "Nice" "Nantes" "Strasbourg" "Montpellier" "Bordeaux" "Lille"
 	}
 }
 
@@ -256,19 +254,19 @@ FRA_CITIES = {
 FRA_COLONIES = {
 	name = NAME_THEME_COLONIES
 
-	for_countries = { NFA }
+	for_countries = { FRA }
 
 	type = ship
 
 	unique = {
-		"阿尔及尔" "印度支那" "叙利亚" "黎巴嫩" "摩洛哥" "波利尼西亚" "突尼斯" "达荷美" "科特迪瓦"
-		"马里" "喀麦隆" "苏丹" "塞内加尔" "马达加斯加" "安南" "交趾支那" "老挝" "高棉" "东京"
-		"赤道非洲" "阿卡迪亚" "路易斯安那" "圣克鲁瓦克斯" "桑特" "拉代希拉德"
-		"瓜地洛普" "马丁尼克" "圭亚那" "圣皮埃" "密克隆" "圣巴瑟米" "多米尼克"
-		"尼维斯" "格林纳达" "圣文森特" "普莱桑斯" "圣露西亚" "多巴哥" "几内亚" "毛里塔尼亚"
-		"尼日尔" "上伏尔塔" "多哥" "尼日利亚" "冈比亚" "乍得" "刚果" "加蓬" "毛里求斯" "吉布提"
-		"马约特" "塞舌尔" "科摩罗" "留尼旺" "本地治里" "卡莱卡" "马埃" "亚纳姆"
-		"金德讷格尔" "广州湾" "天津" "汉口" "沙面岛" "谢赫·萨伊德"
+		"Algérie" "Indochine" "Syrie" "Liban" "Maroc" "Polynésie" "Tunisie" "Dahomey" "Côte d'Ivoire"
+		"Mali" "Cameroun" "Soudan" "Sénégal" "Madagascar" "Annam" "Cochinchine" "Laos" "Cambodge" "Tonkin"
+		"Afrique Équatoriale" "Acadie" "Louisiane" "Sainte-Croix" "Îles-des-Saintes" "La Désirade"
+		"Guadeloupe" "Martinique" "Guyane" "Saint-Pierre" "Miquelon" "Saint-Barthélemy" "Dominique"
+		"Niévès" "Grenade" "Saint-Vincent" "Plaisance" "Sainte-Lucie" "Tobago" "Guinée" "Mauritanie"
+		"Niger" "Haute-Volta" "Togo" "Nigéria" "La Gambie" "Tchad" "Le Congo" "Gabon" "Maurice" "Djibouti"
+		"Mayotte" "Les Seychelles" "Les Comores" "La Réunion" "Pondichéry" "Karikal" "Mahé" "Yanaon"
+		"Chandernagor" "Kouang-Tchéou-Wan" "Tien-Tsin" "Hankou" "Île-de-Shamian" "Cheikh Saïd"
 	}
 }
 
@@ -281,14 +279,14 @@ FRA_MARTYRS = {
 	type = ship
 
 	unique = {
-		"卡尔·马克思" "弗里德里希·恩格斯" "彼得·克鲁泡特金" "米哈伊尔·巴枯宁" "亚历山大·勒德吕·洛兰" "维克多·格里夫耶斯"
-		"路易·安托万·德·圣茹斯特" "爱德华·瓦扬" "保尔·拉法格" "欧仁·鲍狄埃" "让·巴蒂斯塔·克莱芒" "贝努瓦·马隆"
-		"卡米尔·卡米特" "弗兰克尔·列奥" "亨利·托莱因" "保罗·布鲁斯" "阿尔芒·巴贝斯" "让·路易斯·品迪" "安德烈·巴斯特里卡" "菲利克斯·皮亚"
-		"让·阿勒曼" "泰奥菲尔·费雷" "卡米耶·德穆兰" "贾克·埃贝尔" "路易·罗塞尔" "阿方斯·德·拉马丁" "埃米尔·巴斯利"
-		"欧仁·瓦尔兰" "沙尔·龙格" "路易斯·米歇尔" "让·饶勒斯" "茹尔·盖德" "奥古斯特·布朗基" "夏尔·德莱克吕兹" "古斯塔夫·克鲁塞特"
-		"雅克·鲁" "让·泰奥菲尔·勒克莱尔" "让·弗朗索瓦·瓦尔莱" "克莱尔·拉孔贝" "保利纳·里昂" "皮埃尔·加斯帕德·肖梅特" "弗朗索瓦·诺埃尔·巴贝夫"
-		"菲·邦纳罗蒂" "席尔瓦·马雷夏尔" "让·德鲁埃" "让·保罗·马拉" "安托万·弗朗索瓦·莫莫罗" "夏尔·菲利普·龙桑"
-		"弗朗索瓦·尼古拉·樊尚"
+		"Karl Marx" "Friedrich Engels" "Pierre Kropotkine" "Mikhail Bakounine" "Alexandre Ledru-Rollin" "Victor Griffuelhes"
+		"Louis Antoine de Saint-Just" "Edouard Vaillant" "Paul Lafargue" "Eugène Pottier" "Jean-Baptiste Clément" "Benoît Malon"
+		"Camille Camet" "Léo Frankel" "Henri Tolain" "Paul Brousse" "Armand Barbès" "Jean-Louis Pindy" "André Bastelica" "Félix Pyat"
+		"Jean Allemane" "Théophile Ferré" "Camille Desmoulins" "Jacques-René Hébert" "Louis Rossel" "Alphonse de Lamartine" "Emile Basly"
+		"Eugène Varlin" "Charles Longuet" "Louise Michel" "Jean Jaurès" "Jules Guesde" "Auguste Blanqui" "Charles Delescluze" "Gustave Cluseret"
+		"Jacques Roux" "Jean-Théophile Leclerc" "Jean-François Varlet" "Claire Lacombe" "Pauline Léon" "Pierre Gaspard Chaumette" "François-Noël Babeuf"
+		"Philippe Buonarroti" "Sylvain Maréchal" "Jean-Baptiste Drouet" "Jean-Paul Marat" "Jacques Hébert" "Antoine-François Momoro" "Charles-Philippe Ronsin"
+		"François-Nicolas Vincent"
 	}
 }
 
@@ -301,10 +299,10 @@ FRA_INSPIRATIONAL = {
 	type = ship
 
 	unique = {
-		"联邦" "自由" "平等" "团结" "工团" "公社"
-		"解放" "社会主义" "革命" "斗争" "公民" "繁荣"
-		"联合" "人道" "自立" "法伦斯泰尔"
-		"真理" "民主" "共和" "祖国"
+		"Fédération" "Liberté" "Egalité" "Solidarité" "Syndicat" "Commune"
+		"Libération" "Socialisme" "Révolution" "Lutte" "Salut Commun" "Prospérité"
+		"Unité" "Humanisme" "Emancipation" "Phalanstere"
+		"Vérité" "Démocratie" "République" "Patrie"
 	}
 }
 
@@ -312,31 +310,62 @@ FRA_INSPIRATIONAL = {
 FRA_MARSHALS = {
 	name = NAME_THEME_MARSHALS # 1180 - 1789
 
-	for_countries = { FRA NFA }
+	for_countries = { FRA }
 
 	type = ship
 
 	unique = {
-		"艾伯利克·克列芒" "亨利·克列芒" "纪尧姆·德·布尔内尔" "尼韦龙·德·阿拉斯" "纪尧姆·德·拉·图讷勒"
-		"费利·佩斯特" "纪尧姆·德·博蒙" "戈蒂尔·德·内穆尔" "赫里克·德·博若" "雷诺·德·普雷西尼"
-		"朗斯诺·德·圣马亚尔" "费里·德·弗纳伊" "让·德哈考特" "让·克列芒" "拉乌尔·勒弗拉芒"
-		"让·德·瓦雷讷" "西蒙·德默伦" "居伊·克列芒" "杜梅尔" "让·德·博蒙"
-		"伯纳德·德·莫瑞" "让·德·巴雷斯" "马修·德·特里" "罗伯·贝特朗" "安塞尔·德·雅因维尔"
-		"查尔斯·德·蒙莫朗西" "罗伯特·德沃林" "爱德华·德·博热" "阿尔诺·奥德雷海姆" "罗格·德·汉杰斯特"
-		"让·勒曼格尔" "让·德·莫昆西" "路易·德·桑塞尔" "让·德·里厄" "皮埃尔·德·里欧" "克劳德·德波伏瓦"
-		"让·德·维利尔斯" "雅克·德·蒙贝隆" "拉斐特侯爵" "安托万·德·维吉"
-		"让·德拉·波美" "阿莫里·德·赛弗拉克" "让·德布鲁斯" "吉尔·德·雷" "安德烈·德·罗埃阿克"
-		"菲利普·德·库朗" "让·波东·德·桑特拉耶" "约阿希姆·鲁奥" "让·德·勒斯肯" "沃尔夫特·范博尔塞勒"
-		"皮埃尔·德·罗昂吉埃" "菲利普·德·克雷维科尔" "让·德·鲍德里库尔" "贾科莫·特里乌奇奥"
-		"查理·德·昂布瓦兹" "奥德·德·福瓦" "罗伯·斯图尔特·德奥比尼" "雅克·德拉·帕里斯"
-		"加斯帕尔·德克利尼" "汤玛斯·德·福瓦" "安内·莫蒙朗西" "特奥多罗·特里乌奇奥" "罗伯特·德拉马克"
-		"克劳德·德·安尼博" "勒内·德·蒙让" "奥达·杜比兹" "安东尼·德·德斯佩雷兹" "乔瓦尼·卡拉乔洛"
-		"雅克·德·圣安德烈" "查理·德·科斯" "皮埃尔·斯特罗奇" "保罗·德拉尔姆" "弗朗索瓦·德·莫蒙朗西"
-		"弗朗索瓦·德·斯塞波" "因伯特·德拉普拉蒂埃" 
-		"路易斯·贝尔蒂埃" "若阿尚·缪拉" "让诺·德·蒙塞" "让·巴普蒂斯·儒尔当" "安德烈·马塞纳" "皮埃尔·奥热罗"
-		"让·巴普蒂斯·贝尔纳多特" "安内·布律纳" "尼古拉斯·苏尔特" "让·拉纳" "爱德华·莫蒂埃" "米歇尔·内伊"
-		"路易斯·达武" "让·贝西埃尔" "弗朗索瓦·克勒曼" "多米尼克·佩里尼翁" "弗朗索瓦·勒费弗尔" "让·马蒂厄·菲利贝特"
-		"克劳德·维克托" "亚历山大·麦克唐纳" "尼古拉斯·乌迪诺" "奥古斯特·马尔蒙" "路易·絮歇"
+		"Albéric Clément" "Henri Clément" "Guillaume de Bournel" "Nivelon d'Arras" "Guillaume de La Tournelle"
+		"Ferry Pasté" "Jean Guillaume de Beaumont" "Gauthier de Nemours" "Héric de Beaujeu" "Renaud de Précigny"
+		"Lancelot de Saint-Maard" "Ferry de Verneuil" "Jean d'Harcourt" "Jean Clément" "Raoul Le Flamenc"
+		"Jean de Varennes" "Simon de Melun" "Guy de Clermont de Nesle" "Foulques du Merle" "Jean de Beaumont"
+		"Bernard de Moreuil" "Jean des Barres" "Mathieu de Trie" "Robert Bertrand de Bricquebec" "Anseau de Joinville"
+		"Charles de Montmorency" "Robert de Waurin" "Édouard de Beaujeu" "Arnoul d'Audrehem" "Rogues de Hangest"
+		"Jean Le Meingre" "Jean de Mauquenchy" "Louis de Sancerre" "Jean de Rieux" "Pierre de Rieux" "Claude de Beauvoir"
+		"Jean de Villiers de L'Isle-Adam" "Jacques de Montberon" "Gilbert Motier de La Fayette" "Antoine de Vergy"
+		"Jean de La Baume" "Amaury de Sévérac" "Jean de Brosse" "Gilles de Montmorency-Laval" "André de Lohéac"
+		"Philippe de Culant" "Jean Poton de Xaintrailles" "Joachim Rouhault" "Jean de Lescun" "Wolfert van Borssele"
+		"Pierre de Rohan-Gié" "Philippe de Crèvecœur d'Esquerdes" "Jean de Baudricourt" "Jacques de Trivulce"
+		"Charles d'Amboise" "Odet de Foix" "Robert Stuart d'Aubigny" "Jacques de Chabannes de La Palice"
+		"Gaspard de Coligny" "Thomas de Foix" "Anne de Montmorency" "Théodore de Trivulce" "Robert de La Marck"
+		"Claude d'Annebault" "René de Montjean" "Oudard du Biez" "Antoine de Lettes-Desprez" "Jean Caraccioli"
+		"Jacques d'Albon de Saint-André" "Charles de Cossé" "Pierre Strozzi" "Paul de La Barthe" "François de Montmorency"
+		"François de Scépeaux" "Imbert de La Platière" "Henri de Montmorency" "Artus de Cossé-Brissac" "Gaspard de Saulx"
+		"Honorat de Savoie" "Albert de Gondi" "Roger de Saint-Lary" "Blaise de Monluc" "Armand de Gontaut-Biron"
+		"Jacques de Goyon" "Jean d'Aumont" "Guillaume de Joyeuse" "François Gouffier" "Henri de La Tour d'Auvergne"
+		"Charles de Gontaut-Biron" "Claude de La Châtre" "Jean de Montluc de Balagny" "Jean de Beaumanoir" "Henri de Joyeuse"
+		"Urbain de Laval Boisdauphin" "Alphonse d'Ornano" "Guillaume de Hautemer" "François de Bonne" "Concino Concini"
+		"Gilles de Courtenvaux" "Antoine de Roquelaure" "Louis de La Châtre" "Pons de Lauzières-Thémines" "François de La Grange d'Arquian"
+		"Nicolas de L'Hospital" "Charles de Choiseul-Praslin" "Jean-François de La Guiche" "Honoré d'Albert" "François d'Esparbes de Lussan"
+		"Charles de Créquy" "Jacques d'Étampes" "Charles de Goyon" "Jacques Nompar de Caumont" "François de Bassompierre"
+		"Henri de Schomberg" "Jean-Baptiste d'Ornano" "François-Annibal d'Estrées" "Timoléon d'Epinay de Saint-Luc" "Louis de Marillac"
+		"Jean de Saint-Bonnet" "Antoine Coëffier de Ruzé" "Urbain de Maillé" "Maximilien de Béthune" "Charles de Schomberg"
+		"Charles de La Porte" "Antoine de Gramont" "Jean-Baptiste Budes de Guébriant" "Philippe de La Mothe-Houdancourt" "François de L'Hospital"
+		"Jean de Gassion" "César du Plessis-Praslin" "Josias Rantzau" "Nicolas de Neufville" "Antoine d'Aumont de Rochebaron"
+		"Henri de La Ferté-Senneterre" "Charles de Monchy" "Jacques Rouxel" "Armand Nompar de Caumont" "Philippe de Clérambault"
+		"César d'Albret" "Louis Foucault" "Jean de Schulemberg" "Abraham Fabert d'Esternay" "Jacques de Castelnau" "Bernardin Gigault"
+		"François de Créquy" "Louis de Crevant" "Godefroi d'Estrades" "Philippe de Montaut-Bénac" "Frédéric-Armand de Schomberg"
+		"Jacques-Henri de Durfort" "François d'Aubusson" "Louis Victor de Rochechouart" "François-Henri de Montmorency-Luxembourg"
+		"Henri Louis d'Aloigny" "Guy Aldonce de Durfort" "Jean d'Estrées" "Claude de Choiseul" "Jean-Armand de Joyeuse" "François de Neufville"
+		"Louis François de Boufflers" "Anne Hilarion de Costentin" "Anne-Jules de Noailles" "Nicolas de Catinat" "Claude-Louis-Hector de Villars"
+		"Noël Bouton" "Victor Marie d'Estrées" "François Louis Rousselet" "Sébastien Le Prestre" "Conrad de Rosen" "Nicolas Chalon du Blé"
+		"René de Froulay" "Camille d'Hostun" "Nicolas Auguste de La Baume" "Henri d'Harcourt" "Ferdinand de Marsin" "Jacques Fitz-James"
+		"Charles Auguste de Goyon" "Jacques Bazin de Bezons" "Pierre de Montesquiou" "Victor-Maurice de Broglie" "Antoine-Gaston de Roquelaure"
+		"Léonor Marie du Maine" "Yves d'Alègre" "Louis d'Aubusson" "Alain Emmanuel de Coëtlogon" "Charles-Armand de Gontaut-Biron"
+		"Jacques François de Chastenet" "Claude François Bidal" "Adrien Maurice de Noailles" "Christian Louis de Montmorency-Luxembourg"
+		"François-Marie de Broglie" "François de Franquetot" "Louis de Brancas" "Louis-Auguste d'Albert d'Ailly" "Louis Armand de Brichanteau"
+		"Louis de Gand de Mérode de Montmorency" "Jean-Baptiste de Durfort" "Jean-Baptiste Desmarets" "Charles Louis Auguste Fouquet"
+		"Maurice de Saxe" "Jean-Baptiste Louis Andrault" "Claude-Guillaume Testu" "Philippe-Charles de La Fare" "François d'Harcourt"
+		"Guy-Claude-Roland de Laval-Montmorency" "Gaspard de Clermont-Tonnerre" "Louis Charles de La Mothe-Houdancourt" "Woldemar de Lowendal"
+		"Louis-François-Armand de Vignerot du Plessis" "Jean de Fay" "Louis Antoine de Gontaut-Biron" "Daniel François de Gélas de Lautrec"
+		"Charles Frédéric de Montmorency-Luxembourg" "Louis Le Tellier" "Jean Charles de Saint-Nectaire" "Charles O'Brien de Thomond"
+		"Gaston-Pierre de Lévis-Mirepoix" "Ladislas Ignace de Bercheny" "Hubert de Brienne" "Louis Georges Érasme de Contades"
+		"Charles de Rohan-Soubise" "Victor-François de Broglie" "Guy-Michel de Durfort" "Louis de Conflans" "Jean Paul Timoléon de Cossé"
+		"Anne Pierre d'Harcourt" "Louis de Noailles" "Philippe de Noailles" "Antoine de Nicolaï" "Charles Fitz-James" "Emmanuel-Félicité de Durfort"
+		"Louis Nicolas Victor de Félix d'Ollières" "Claude-Louis de Saint-Germain" "Guy-André-Pierre de Montmorency-Laval"
+		"Augustin-Joseph de Mailly" "Henri Joseph Bouchard d'Esparbès de Lussan" "Charles-Juste de Beauvau-Craon" "Noël Jourda de Vaux"
+		"Philippe Henri de Ségur" "Jacques Philippe de Choiseul-Stainville" "Charles Eugène Gabriel de La Croix" "Emmanuel de Croÿ-Solre"
+		"François Gaston de Lévis" "Nicolas Luckner" "Jean-Baptiste-Donatien de Vimeur"
 	}
 }
 
@@ -344,7 +373,7 @@ FRA_MARSHALS = {
 FRA_KINGS = {
 	name = NAME_THEME_KINGS # 751 - 1789
 
-	for_countries = { NFA }
+	for_countries = { FRA }
 
 	can_use = {
 		has_socialist_government = no
@@ -353,13 +382,13 @@ FRA_KINGS = {
 	type = ship
 
 	unique = {
-		"丕平二世" "卡洛曼一世" "查理曼大帝" "虔诚者路易" "查理二世" "路易二世"
-		"胖子查理" "查理三世" "拉乌尔" "路易四世" "路易五世"
-		"于格·卡佩" "罗贝尔二世" "腓力一世" "路易六世" "路易七世"
-		"腓力二世" "路易八世" "路易九世" "腓力三世" "腓力四世" "路易十世"
-		"约翰一世" "腓力五世" "查理四世" "腓力六世" "约翰二世" "查理五世"
-		"查理六世" "查理七世" "路易十一" "查理八世" "路易十二"
-		"弗朗索瓦·德·奥尔良" "亨利四世" "路易十三" "路易十四" "路易十五"
+		"Pépin le Bref" "Carloman" "Charlemagne" "Louis le Pieux" "Charles le Chauve" "Louis le Bègue"
+		"Charles le Gros" "Charles le Simple" "Raoul de Bourgogne" "Louis d'Outremer" "Louis le Fainéant"
+		"Hugues Capet" "Robert le Pieux" "Philippe l'Amoureux" "Louis le Batailleur" "Louis le Jeune"
+		"Philippe Auguste" "Louis le Lion" "Saint-Louis" "Philippe le Hardi" "Philippe le Bel" "Louis le Hutin"
+		"Jean le Posthume" "Philippe le Long" "Charles le Bel" "Philippe de Valois" "Jean le Bon" "Charles le Sage"
+		"Charles le Bien-Aimé" "Charles le Bien Servi" "Louis le Prudent" "Charles l'Affable" "Louis le Père du Peuple"
+		"François d'Orléans" "Henri le Vert-Galant" "Louis le Juste" "Louis le Roi-Soleil" "Louis le Bien-Aimé"
 	}
 }
 

@@ -1,46 +1,50 @@
-##### USA NAME LISTS #####
+﻿##### USA NAME LISTS #####
 ### THEME: FISH (HISTORICAL SUBMARINES) ###
 USA_FISH = {
 	name = NAME_THEME_FISH_US
 
-	for_countries = { USA PSA TEX } # HAW, NEE, CSA is separate
+	for_countries = { USA } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 
 	prefix = "USS "
-	fallback_name = "SS-%d"
+	fallback_name = "Submarine SS-%d"
 
 	unique = {
 		#WIKI: Post S-boat, in order by hull designation, up to nuclear powered (excluding doubles)
 		# Porpoise
-		"鲨鱼" "海鲢" "鲈鱼" "梭鱼" "鲳鲹" "潜水者" "鳕鱼" "参鱼"
+		"Shark" "Tarpon" "Perch" "Pickerel" "Permit" "Plunger" "Pollack" "Pompano"
 		# Salmon
-		"鲑鱼" "海豹" "鲣鱼" "鲷鱼" "黄貂鱼" "鲟鱼"
+		"Salmon" "Seal" "Skipjack" "Snapper" "Stingray" "Sturgeon"
 		# Sargo
-		"重牙鲷" "秋刀鱼" "枪鱼" "杜父鱼" "旗鱼" "剑鱼" "海龙" "海狮" "海渡鸦" "海狼"
+		"Sargo" "Saury" "Spearfish" "Sculpin" "Sailfish" "Swordfish" "Seadragon" "Sealion" "Searaven" "Seawolf"
 		# Tambor
-		"河豚" "隆头鱼" "长尾鲨" "特里同" "鳟鱼" "吞拿鱼" "鲭鱼" "马林鱼" "灰鲸" "河鳟" "鼠尾鱼" "白杨鱼"
+		"Tambor" "Tautog" "Thresher" "Triton" "Trout" "Tuna" "Gar" "Grampus" "Grayback" "Grayling" "Grenadier" "Gudgeon"
 		# Mackerel
-		"马鲛鱼" "雀鳝"
+		"Mackerel" "Marlin"
 		# Gato
-		"小鲨鱼" "六线鱼" "石斑鱼" "黑鲈" "银汉鱼" "针鱼" "大青花鱼" "琥珀鱼" "鲃鱼" "黑鱼" "蓝鱼" "北梭鱼" "银鳕鱼" "塞罗鱼" "科维纳鱼" "镖鲈" "鼓鱼" "飞鱼" "长须鲸" "黑线鳕" "大比目鱼"
-		"鲱鱼" "国王鱼" "西鲱" "银河鱼" "鳞鲀" "棘䲠" "鲸鱼" "𩽾𩾌鱼" "铲𫚔" "蓝鳃太阳鱼" "欧鳊" "竹荚鱼" "海鲡" "石首鱼" "鲦鱼" "鲯鳅" "松鲷" "日鲈" "比目鱼" "牛鼻鲼" "锦鳚" "角鱼"
-		"粉红鲑" "无须鳕" "李氏鮻" "油角鲨" "鲹鱼" "鲉鱼" "翼齿鲷" "北美狗鱼" "匙吻鲟" "紫身笛鲷" "竹节䲠" "油鲱" "黑异孔石鲈" "四齿鲀" "红石鱼" "奈氏鳕" "𫚉鱼" "红鳍鱼" "罗巴洛鱼" "银花鲈鱼" "金鲹" "锯鳐" "喙鲈" "蝎子" "锯盖鱼"
-		"虹鳟" "太阳鱼" "金枪鱼" "阔步鲹" "湖白鲑"
+		"Gato" "Greenling" "Grouper" "Growler" "Grunion" "Guardfish" "Albacore" "Amberjack" "Barb" "Blackfish" "Bluefish" "Bonefish" "Cod" "Cero" "Corvina" "Darter" "Drum" "Flying Fish" "Finback" "Haddock" "Halibut"
+		"Herring" "Kingfish" "Shad" "Silversides" "Trigger" "Wahoo" "Whale" "Angler" "Bashaw" "Bluegill" "Bream" "Cavalla" "Cobia" "Croaker" "Dace" "Dorado" "Flasher" "Flier" "Flounder" "Gabilan" "Gunnel" "Gurnard"
+		"Haddo" "Hake" "Harder" "Hoe" "Jack" "Lapon" "Mingo" "Muskallunge" "Paddle" "Pargo" "Peto" "Pogy" "Pompon" "Puffer" "Rasher" "Raton" "Ray" "Redfin" "Robalo" "Rock" "Runner" "Sawfish" "Scamp" "Scorpion" "Snook"
+		"Steelhead" "Sunfish" "Tunny" "Tinosa" "Tullibee"
 		# Balao
-		"巴劳鱵" "尖嘴鱼" "弓鳍鱼" "纹首鮨" "毛鳞鱼" "思科鱼" "马鲹" "魔鬼鱼" "䲗鱼" "玉梭鱼" "铲鲟" "帆蜥鱼" "军曹鱼" "狮子鱼" "毯𫚉" "鯙鱼" "鼓石首鱼" "大海鲢" "海马"
-		"鳐鱼" "刺尾鲷" "软棘鱼" "天竺鲷" "金吉鲈" "蝙蝠鱼" "射水鱼" "光轮鱼" "白鱼" "巴伯罗鲷" "巴亚喙鲈" "贝库娜鱼" "梳唇隆头鱼" "真鲷" "黑鳍鱼" "凯门鳄" "鳚鱼" "斑点圆鲀" "蓝背鱼" "豚鼻鱼" "红点鲑" "鲢鱼"
-		"菱鲆" "布加拉鱼" "牛头鱼" "鲭鲹" "若鲉" "灰鲭鲨" "豚鱼" "红鲹" "鲤鱼" "鲶鱼" "电鳐" "绯鲤" "扁鲹" "蓝鹦嘴鱼" "云纹裸皮鲉" "妪鳞鲀" "雅罗鱼" "巴西笛鲷" "库斯克鳕" "刺鲀" "狗鱼鲨"
-		"墨瑞鳕" "鱵鱼" "儒艮" "鳗鱼" "埃斯帕达鱼" "后颌鱼" "奥诺鲅" "加洛帕石班鱼" "加鲁帕石班鱼" "白刺盖太阳鱼" "臼齿鱼" "玳瑁" "冰鱼" "贾劳仿石鲈" "四斑蝴蝶鱼" "克拉肯" "合齿鱼" "七鳃鳗" "蜥蜴鱼" "赤蠵龟" "马卡比鱼"
-		"马皮罗鱼" "梅罗鱼" "颌针鱼" "红鲑" "玉筋鱼" "大鳞魣" "红鲳鲹" "礁蝴蝶鱼" "黑鲱鱼" "领航鱼" "条斑马鲛" "管鱼" "水虎鱼" "鲽鱼" "鲳鱼"
-		"小体鲟" "后石首鱼" "剃刀鲸" "红鱼" "深海鳚" "鞘鱼" "塞贡多鱼" "海猫" "鬼蝠𫚉" "海狗" "海狐" "游鳍叶鲹" "拟三棘鲀" "圆鳍鱼" "八角鱼" "鲂𫚒" "魣鱼" "下鱵鱼" "马鲅"
-		"白鲳" "海参" "石首鱼" "灰海豚" "棘背鱼" "蜥狗母鱼"
+		"Balao" "Billfish" "Bowfin" "Cabrilla" "Capelin" "Cisco" "Crevalle" "Devilfish" "Dragonet" "Escolar" "Hackleback" "Lancetfish" "Ling" "Lionfish" "Manta" "Moray" "Roncador" "Sabalo" "Sablefish" "Seahorse"
+		"Skate" "Tang" "Tilefish" "Apogon" "Aspro" "Batfish" "Archerfish" "Burrfish" "Barbel" "Barbero" "Baya" "Becuna" "Bergall" "Besugo" "Blackfin" "Caiman" "Blenny" "Blower" "Blueback" "Boarfish" "Charr" "Chub"
+		"Brill" "Bugara" "Bullhead" "Bumper" "Cabezon" "Dentuda" "Capitaine" "Carbonero" "Carp" "Catfish" "Entemedor" "Chivo" "Chopper" "Clamagore" "Cobbler" "Cochino" "Corporal" "Cubera" "Cusk" "Diodon" "Dogfish"
+		"Greenfish" "Halfbeak" "Dugong" "Eel" "Espada" "Jawfish" "Ono" "Garlopa" "Garrupa" "Goldring" "Golet" "Guavina" "Guitarro" "Hammerhead" "Hardhead" "Hawkbill" "Icefish" "Jallao" "Kete" "Kraken" "Lagarto"
+		"Lamprey" "Lizardfish" "Loggerhead" "Macabi" "Mapiro" "Menhaden" "Mero" "Needlefish" "Nerka" "Sand Lance" "Picuda" "Pampanito" "Parche" "Bang" "Pilotfish" "Pintado" "Pipefish" "Piranha" "Plaice" "Pomfret"
+		"Sterlet" "Queenfish" "Razorback" "Redfish" "Ronquil" "Scabbardfish" "Segundo" "Sea Cat" "Sea Devil" "Sea Dog" "Sea Fox" "Atule" "Spikefish" "Sea Owl" "Sea Poacher" "Sea Robin" "Sennet" "Piper" "Threadfin"
+		"Spadefish" "Trepang" "Spot" "Springer" "Stickleback" "Tiru"
 		# Tench
-		"𫚕鱼" "热带虎鲨" "古巴长带鱼" "褐鳟鱼" "托罗鱼" "大西洋鳕" "亚口鱼" "管口鱼" "单鳍鳕" "海贼鱼" "独角兽" "海象" "康吉鳗" "带鱼" "无刺蝠鲼" "高体𫚕" "纺缍𫚕" "豹海豹" "大洋辐鳍鱼" "西拉戈鱼" "笛鲷"
-		"䲟鱼" "萨达鲭" "狗鲨" "加州飞鱼"
+		"Tench" "Thornback" "Tigrone" "Tirante" "Trutta" "Toro" "Torsk" "Quillback" "Trumpetfish" "Tusk" "Corsair" "Unicorn" "Walrus" "Conger" "Cutlass" "Diablo" "Medregal" "Requin" "Irex" "Sea Leopard" "Odax" "Sirago"
+		"Pomodon" "Remora" "Sarda" "Spinax" "Volador"
 		# Unfinished
-		"大菱鲆" "珍鲹" "欧白鲑" "白鱼" "白化鱼" "狼鱼" "九带鮨" "黑海豹" "蒂博龙" 
+		"Turbot" "Ulua" "Vendace" "Whitefish" "Whiting" "Wolffish" "Comber" "Sea Panther" "Tiburon" "Kinn" "Springeren"
+		# V-Boats
+		"Barracuda" "Bass" "Bonita" "Argonaut" "Narwhal" "Nautilus" "Dolphin" "Cachalot" "Cuttlefish"
+		# Porpoise
+		"Porpoise" "Pike"
 	}
 }
 
@@ -48,7 +52,7 @@ USA_FISH = {
 USA_HEROES_NAVY = {
 	name = NAME_HEROES_NAVY_US
 
-	for_countries = { USA PSA TEX } # HAW, NEE, CSA is separate
+	for_countries = { USA } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -58,56 +62,56 @@ USA_HEROES_NAVY = {
 
 	unique = {
 		# Porter (DL), Mahan, Gridley
-		"波特" "菲尔普斯" "克拉克" "巴奇" "塞尔弗里奇" "麦道加" "温斯洛" "马汉" "康宁斯" "基斯"
-		"康宁汉" "卡森" "邵" "库欣" "帕金斯" "傅拉瑟" "里德" "塔克" "史密斯" "德雷顿" "道恩斯" "普雷斯顿" "拉姆森" "范宁" "格里德利" "克雷文" "麦考" "默里"
+		"Porter" "Phelps" "Clark" "Balch" "Selfridge" "McDougal" "Winslow" "Mahan" "Cummings" "Case"
+		"Conyngham" "Cassin" "Shaw" "Cushing" "Perkins" "Flusser" "Reid" "Tucker" "Smith" "Drayton" "Downes" "Preston" "Lamson" "Fanning" "Gridley" "Craven" "McCall" "Maury"
 		# Bagley, Somers (DL), Benham, Sims
-		"巴格利" "麦福德" "亨利" "布鲁" "赫姆" "帕特森" "贾维斯" "索姆斯" "辛普森" "沃灵顿" "戴维斯" "乔埃特" "本汉" "梅兰特" "特里普" "罗温" "斯塔克" "埃立特" "莱因德"
-		"朗" "斯特雷特" "威尔森" "西姆斯" "姆斯汀" "拉塞尔" "安德森" "巴克" "休斯" "莫里斯" "罗伊" "温赖特" "奥布莱恩" "沃尔克"
+		"Bagley" "Mugford" "Henley" "Blue" "Helm" "Patterson" "Jarvis" "Somers" "Sampson" "Warrington" "Davis" "Jouett" "Benham" "Mayrant" "Trippe" "Rowan" "Stack" "Ellet" "Rhind"
+		"Lang" "Sterett" "Wilson" "Sims" "Mustin" "Russell" "Anderson" "Buck" "Hughes" "Morris" "Roe" "Wainwright" "O'Brien" "Walke"
 		# Benson and Gleaves
-		"格里弗斯" "普朗克特" "梅奥" "兰斯代尔" "希拉里·P·琼斯" "卡尼" "查尔斯·F·休斯" "利弗莫尔" "埃伯尔" "格温" "梅瑞迪斯" "伍尔西" "勒洛" "爱迪生"
-		"埃里克森" "威尔克斯" "尼科尔森" "英格拉姆"
+		"Gleaves" "Plunkett" "Mayo" "Lansdale" "Hilary P Jones" "Kearny" "Charles F Hughes" "Livermore" "Eberle" "Gwin" "Meredith" "Woolsey" "Ludlow" "Edison"
+		"Ericsson" "Wilkes" "Nicholson" "Ingraham"
 		# Bristol and Laffey
-		"布里斯托" "艾利森" "汉伯顿" "鲁德曼" "埃蒙斯" "马科姆" "弗雷斯特" "菲奇" "霍布森" "阿隆·瓦德" "布坎南" "考伊" "奈特" "拉菲" "伍德沃斯" "法伦霍特" "贝利" "邓肯"
-		"拉德纳" "麦卡拉" "班克罗夫特" "巴顿" "比蒂" "梅文" "奎克" "博伊尔" "查普林" "米德" "墨菲" "帕克" "考德维尔" "科格伦" "弗雷泽" "甘斯沃尔特" "格拉斯彼" "多兰" "厄尔"
-		"盖拉尔迪" "戴维森" "爱德华兹" "格伦农" "杰弗斯" "马多克斯" "纳尔逊" "卡米克" "杜尔" "恩迪科特" "麦库克" "法兰克福" "霍比" "肯德里克" "劳布" "麦肯锡" "麦克拉纳罕" "尼尔兹" "奥德罗诺"
-		"赫恩登" "舒布里克" "史蒂文森" "斯托克顿" "索恩" "特纳" "巴尔德温" "哈丁" "汤普森" "威尔斯"
+		"Bristol" "Ellyson" "Hambleton" "Rodman" "Emmons" "Macomb" "Forrest" "Fitch" "Hobson" "Aaron Ward" "Buchanan" "Cowie" "Knight" "Laffey" "Woodworth" "Farenholt" "Bailey" "Duncan"
+		"Lardner" "McCalla" "Bancroft" "Barton" "Beatty" "Mervine" "Quick" "Boyle" "Champlin" "Meade" "Murphy" "Parker" "Caldwell" "Coghlan" "Frazier" "Gansevoort" "Gillespie" "Doran" "Earle"
+		"Gherardi" "Davison" "Edwards" "Glennon" "Jeffers" "Maddox" "Nelson" "Carmick" "Doyle" "Endicott" "McCook" "Frankford" "Hobby" "Kendrick" "Laub" "MacKenzie" "McLanahan" "Nields" "Ordronaux"
+		"Herndon" "Shubrick" "Stevenson" "Stockton" "Thorn" "Turner" "Baldwin" "Harding" "Thompson" "Welles"
 		# Fletcher
-		"弗莱彻" "拉德福德" "拉瓦莱特" "尼古拉斯" "詹金斯" "奥班农" "索夫利" "沃勒" "斯特朗" "泰勒" "狄海文" "贝奇" "比尔" "格斯特" "贝内特" "弗拉姆" "哈德森" "普林格尔" "斯坦利"
-		"史蒂文斯" "柳特兹" "菲利普" "伦肖" "林格尔德" "施罗德" "西格斯比" "康威" "科尼" "康弗斯" "伊顿" "富特" "斯彭斯" "特里" "撒切尔" "安东尼" "沃兹沃斯" "沃克" "布朗森" "戴利"
-		"伊舍伍德" "金伯利" "卢斯" "艾布纳·里德" "阿曼" "马拉尼" "布什" "特拉森" "黑泽伍德" "奥利克" "克拉克斯顿" "戴森" "哈里森" "约翰·罗杰斯" "麦基" "默里" "希尔曼" "霍埃尔"
-		"麦科德" "米勒" "奥文" "博伊德" "布雷福德" "布朗" "考埃尔" "卡普斯" "大卫·W·泰勒" "埃文斯" "约翰·D·亨利" "弗兰克斯" "哈格德" "斯普罗斯顿" "威克斯" "威廉·D·波特"
-		"查雷特" "康纳" "霍尔" "霍利根" "哈拉登" "纽康姆" "贝尔" "伯恩斯" "艾泽德" "艾伯特" "布雷恩" "厄尔本" "黑尔" "西古尔尼" "斯坦贝尔" "阿尔伯特·W·格兰特" "卡帕顿" "英格索尔" "纳普"
-		"查尔斯·J·巴杰" "科拉汉" "达希尔" "布拉德" "昌西" "克拉伦斯·K·布朗森" "加特林" "亨特" "刘易斯·汉考克" "麦克德莫" "麦高恩" "麦克奈尔"
-		"霍普维尔" "李梅" "瓦德雷" "默茨" "海利" "约翰斯顿" "劳斯" "郎肖" "莫里森" "廷吉" "特文宁" "亚纳尔" "普里切特"
-		"罗宾逊" "罗斯" "罗" "斯莫利" "斯托达德" "瓦茨" "雷恩" "保罗·汉密尔顿" "特威格斯" "理查德·P·利里" "卡辛杨" "欧文"
-		"豪沃斯" "基伦" "比尔斯" "约翰·胡德" "科尔杭" "格里高利" "利特尔" "梅特卡夫" "希尔兹" "威利"
+		"Fletcher" "Radford" "La Vallette" "Nicholas" "Jenkins" "O'Bannon" "Saufley" "Waller" "Strong" "Taylor" "De Haven" "Bache" "Beale" "Guest" "Bennett" "Fullam" "Hudson" "Pringle" "Stanly"
+		"Stevens" "Leutze" "Philip" "Renshaw" "Ringgold" "Schroeder" "Sigsbee" "Conway" "Cony" "Converse" "Eaton" "Foote" "Spence" "Terry" "Thatcher" "Anthony" "Wadsworth" "Walker" "Brownson" "Daly"
+		"Isherwood" "Kimberly" "Luce" "Abner Read" "Ammen" "Mullany" "Bush" "Trathen" "Hazelwood" "Aulick" "Claxton" "Dyson" "Harrison" "John Rodgers" "McKee" "Murray" "Heermann" "Hoel"
+		"McCord" "Miller" "Owen" "Boyd" "Bradford" "Brown" "Cowell" "Capps" "David W Taylor" "Evans" "John D Henley" "Franks" "Haggard" "Sproston" "Wickes" "William D Porter"
+		"Charrette" "Conner" "Hall" "Halligan" "Haraden" "Newcomb" "Bell" "Burns" "Izard" "Abbot" "Braine" "Erben" "Hale" "Sigourney" "Stembel" "Albert W Grant" "Caperton" "Ingersoll" "Knapp"
+		"Charles J Badger" "Colahan" "Dashiell" "Bullard" "Chauncey" "Clarence K Bronson" "Gatling" "Hunt" "Lewis Hancock" "McDermut" "McGowan" "McNair"
+		"Hopewell" "Remey" "Wadleigh" "Mertz" "Hailey" "Johnston" "Laws" "Longshaw" "Morrison" "Tingey" "Twining" "Yarnall" "Prichett"
+		"Robinson" "Ross" "Rowe" "Smalley" "Stoddard" "Watts" "Wren" "Paul Hamilton" "Twiggs" "Richard P Leary" "Cassin" "Irwin"
+		"Howorth" "Killen" "Bearss" "John Hood" "Colhoun" "Gregory" "Little" "Metcalf" "Shields" "Wiley"
 		# Allen M Sumner
-		"莫勒" "库帕" "查尔斯·S·斯佩里" "曼斯菲尔德" "布拉什"
-		"陶西格" "洛瑞" "汉克" "博里" "索利" "休·普威斯" "德雷克斯勒"
-		"泽拉斯" "普特南"
+		"Moale" "Ingraham" "Cooper" "Charles S Sperry" "Mansfield" "Brush"
+		"Taussig" "Lowry" "Hank" "Borie" "Soley" "Hugh Purvis" "Drexler"
+		"Zellars" "Putnam"
 		# Gearing
-		"基林" "威廉·R·拉什" "萨瑟兰" "麦基恩" "亨德森" "古德里奇"
-		"福格格桑" "科内" "斯特林"
-		"弗斯" "纽曼·K·佩里" "威廉·W·伍德"
-		"菲斯克" "弗雷德·T·贝里"
-		"费希特勒" "卡朋特"
+		"Gearing" "William R Rush" "Southerland" "McKean" "Henderson" "Goodrich"
+		"Vogelgesang" "Cone" "Stribling"
+		"Furse" "Newman K Perry" "William M Wood"
+		"Fiske" "Fred T Berry"
+		"Fechteler" "Carpenter"
 		# Post-WW2 -- Mitscher, Forrest Sherman
-		"约翰·保罗·琼斯" "巴里" "迪凯特" "曼利" "杜邦"
-		"劳伦斯" "比德尔" "巴尼" "亨利·B·威尔森"
+		"John Paul Jones" "Barry" "Decatur" "Manley" "Du Pont"
+		"Lawrence" "Biddle" "Barney" "Henry B Wilson"
 		# Sampson, Caldwell, Wickes, Clemson classes
-		"艾伦" "拉斯伯恩" "塔伯特" "科尔霍恩" "斯特林厄姆" "沃特斯" "多西" "登特" "雪利" "利" "帕尔默" "塔贝尔" "格里尔" "厄普舍" "基尔蒂" "赵" "艾略特" "克罗斯比" 
-		"布雷肯里奇" "罗柏" "克雷恩" "肯尼森" "贝尔纳普" "格林" "贝尔纳多" "巴杰" "布莱克利" "塔特纳尔" "巴拉德" "科勒" "J·弗雷德·塔伯特" "奥斯蒙德·英格拉姆" "艾利斯"
-		"瓦德" "索顿" "迪克森" "钱德勒" "吉利斯" "索萨德" "霍根" "布鲁姆" "雅各布·琼斯" "申克" "霍威" "朗" "巴比特" "埃尔登" "赫伯特" "汉密尔顿" "克莱蒙森" "巴克尔" "雷利"
-		"斯坦斯伯里" "达尔格伦" "金斯博罗" "霍瓦德" "惠普尔" "哈特菲尔德" "约翰·D·爱德华兹" "吉尔莫" "福克斯" "里奇菲尔德" "凯恩" "乔治·E·巴杰" "布鲁克斯" "汉弗莱斯"
-		"威廉·B·普雷斯顿" "麦科米克" "麦克莱什" "鲁本·詹姆斯" "斯图尔特" "斯图尔特万" "麦法兰" "佩里" "波普" "赫伯特" "达拉斯" "桑兹" "辛普森" "艾德索尔" "约翰·D·福特" "皮尔斯伯里"
-		"巴里" "高夫" "扎恩" "班布里奇" "诺阿" "特鲁克斯顿" "霍普金斯" "保罗·琼斯" "瓦斯穆特" "特雷弗" "佩利"
+		"Allen" "Little" "Gregory" "Rathburne" "Talbot" "Colhoun" "Stringham" "Waters" "Dorsey" "Dent" "Schley" "Lea" "Palmer" "Tarbell" "Greer" "Upshur" "Kilty" "Chew" "Elliot" "Crosby" "McKean"
+		"Breckinridge" "Roper" "Barney" "Biddle" "Crane" "Kennison" "Du Pont" "Belknap" "Greene" "Bernadou" "Badger" "Blakeley" "Tattnall" "Ballard" "Cole" "J Fred Talbott" "Osmond Ingram" "Ellis"
+		"Ward" "Thornton" "Dickerson" "Chandler" "Gillis" "Southard" "Hogan" "Broome" "Jacob Jones" "Schenck" "Hovey" "Long" "Babbitt" "Alden" "Herbert" "Hamilton" "Clemson" "Barker" "Leary"
+		"Stansbury" "Dahlgren" "Goldsborough" "Howard" "Borie" "Whipple" "Hatfield" "John D Edwards" "Gilmer" "Fox" "Litchfield" "Kane" "George E Badger" "Brooks" "Humphreys"
+		"William B Preston" "McCormick" "MacLeish" "Reuben James" "Stewart" "Sturtevant" "McFarland" "Peary" "Pope" "Hulbert" "Dallas" "Sands" "Simpson" "Edsall" "John D Ford" "Pillsbury"
+		"Barry" "Goff" "Zane" "Bainbridge" "Noa" "Truxtun" "Hopkins" "Lawrence" "Paul Jones" "Wasmuth" "Trever" "Decatur" "Perry"
 		# Farragut
-		"法拉汉" "杜威" "沃登" "豪尔" "埃尔文" "麦克唐纳" "莫纳汉" "戴尔"
+		"Farragut" "Dewey" "Worden" "Hull" "Aylwin" "MacDonough" "Monaghan" "Dale"
 		# Cancelled/Converted/Never Used Ship Names
-		"珀西瓦尔" "沃特森" "亨利·A·威利" "卡斯尔"
+		"Percival" "Watson" "Henry A Wiley" "Castle"
 		# Retired ships -- Sampson, Caldwell, Wickes, Clemson classes
-		"桑普森" "费尔法克斯" "戴耶" "蒙哥马利" "以色列" "林巴顿" "博格斯" "布里斯" "甘布尔" "拉姆齐" "威廉姆斯" "托马斯" "罗杰斯" "斯瓦西" "克伦西" "史密斯·汤普森" "梅森" "特雷西" "普雷布尔" "西卡德" "布兰切"
-		"普鲁伊特" "柴尔德斯" "威廉姆森" "阿贝尔·P·厄普舍" "詹姆斯·K·保尔丁" "韦尔伯恩·C·伍德"
+		"Sampson" "Fairfax" "Dyer" "Montgomery" "Israel" "Lamberton" "Boggs" "Breese" "Gamble" "Ramsay" "Williams" "Thomas" "Rodgers" "Swasey" "Crowninshield" "Smith Thompson" "Mason" "Tracy" "Preble" "Sicard" "Branch"
+		"Pruitt" "Childs" "Williamson" "Abel P Upshur" "James K Paulding" "Welborn C Wood"
 
 		### CSA Specific Ones
 		# "Upland" "Gulf Stream" "Superior" "Blizzard" "Tornado"
@@ -123,7 +127,7 @@ USA_HEROES_NAVY = {
 USA_CITIES = {
 	name = NAME_THEME_CITIES_US
 
-	for_countries = { USA PSA TEX } # HAW, NEE, CSA is separate
+	for_countries = { USA } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
@@ -132,15 +136,15 @@ USA_CITIES = {
 	fallback_name = "Cruiser C-%d"
 
 	unique = {
-		"纽约城" "布鲁克林" "芝加哥" "洛杉矶" "旧金山" "底特律" "波士顿" "费城" "匹兹堡" "克利夫兰" "圣路易斯" "巴尔的摩" "堪萨斯城" "密尔沃基" "新奥尔良" "辛辛那提"
-		"印第安纳波利斯" "西雅图" "达拉斯" "亚特兰大" "水牛城" "明尼阿波利斯" "丹佛" "奥马哈" "圣地亚哥" "纳什维尔" "俄克拉荷马城" "路易斯维尔" "菲尼克斯" "波特兰" "罗彻斯特" "迈阿密"
-		"阿尔巴尼" "阿尔伯克基" "坎伯雷" "亚历山德里亚" "孟菲斯" "米苏拉" "阿姆斯特丹" "阿斯托利亚" "奥古斯塔" "巴顿鲁治" "比洛克西" "伯明翰" "博伊西" "布雷默顿" "布里奇波特" "剑桥" "薛安"
-		"查尔斯顿" "夏洛特" "查塔努加" "切斯特" "哥伦比亚" "哥伦布" "康科德" "科珀斯克里斯蒂" "代顿" "得梅因" "杜鲁斯" "福尔里弗" "法哥" "弗林特" "弗雷德里克" "弗雷斯诺" "加利纳" "格尔夫斯敦" "加里"
-		"格林维尔" "格罗顿" "汉普顿" "哈特福德" "海伦娜" "托利多" "托皮卡" "特伦顿" "图森" "塔尔萨" "塔斯卡卢萨" "瓦列霍" "基韦斯特" "拉霍亚" "兰开斯特" "长滩" "小石城" "梅肯"
-		"曼彻斯特" "马布尔黑德" "马里昂" "莫比尔" "莫西干" "蒙特哥马利" "蒙彼利埃" "纽哈芬" "纽瓦克" "纽波特纽斯" "诺福克" "北安普敦" "奥克兰" "奥林匹亚" "俄勒冈城" "圣塔菲" "萨拉托加" "萨凡纳" "斯瓦塔拉"
-		"帕萨迪纳" "彭萨科拉" "朴次茅斯" "普洛威顿斯" "普韦布洛" "昆西" "奎因鲍格" "阿那波利斯" "安妮斯顿" "阿什维尔" "罗利" "雷诺" "里士满" "罗阿诺克" "圣保罗" "萨勒姆" "盐湖城" "圣胡安"
-		"斯克兰顿" "斯波坎" "斯普林菲尔德" "塔科马" "太浩" "塔拉哈西" "维克斯堡" "威奇塔" "威尔克斯巴里" "威明顿" "伍斯特" "约塞米蒂" "火奴鲁鲁" "休斯顿" "亨廷顿" "休伦" "杰克逊维尔" "杰弗森城" "朱诺"
-		"杨斯敦" "万塞纳"
+		"Washington" "New York City" "Brooklyn" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" "Kansas City" "Milwaukee" "New Orleans" "Cincinnati"
+		"Indianapolis" "Seattle" "Dallas" "Atlanta" "Buffalo" "Minneapolis" "Denver" "Omaha" "San Diego" "Nashville" "Oklahoma City" "Louisville" "Phoenix" "Portland" "Rochester" "Miami"
+		"Albany" "Albuquerque" "Canberra" "Alexandria" "Memphis" "Missoula" "Amsterdam" "Astoria" "Augusta" "Baton Rouge" "Biloxi" "Birmingham" "Boise" "Bremerton" "Bridgeport" "Brooklyn" "Cambridge" "Cheyenne"
+		"Charleston" "Charlotte" "Chattanooga" "Chester" "Columbia" "Columbus" "Concord" "Corpus Christi" "Dayton" "Des Moines" "Duluth" "Fall River" "Fargo" "Flint" "Frederick" "Fresno" "Galena" "Galveston" "Gary"
+		"Greenville" "Groton" "Hampton" "Hartford" "Helena" "Toledo" "Topeka" "Trenton" "Tucson" "Tulsa" "Tuscaloosa" "Vallejo" "Key West" "La Jolla" "Lancaster" "Long Beach" "Little Rock" "Macon"
+		"Manchester" "Marblehead" "Marion" "Mobile" "Mohican" "Montgomery" "Montpelier" "New Haven" "Newark" "Newport News" "Norfolk" "Northampton" "Oakland" "Olympia" "Oregon City" "Santa Fe" "Saratoga" "Savannah" "Swatara"
+		"Pasadena" "Pensacola" "Portsmouth" "Providence" "Pueblo" "Quincy" "Quinnebaug" "Annapolis" "Anniston" "Asheville" "Raleigh" "Reno" "Richmond" "Roanoke" "St. Paul" "Salem" "Salt Lake City" "San Juan"
+		"Scranton" "Spokane" "Springfield" "Tacoma" "Tahoe" "Tallahassee" "Vicksburg" "Wichita" "Wilkes-Barre" "Wilmington" "Worcester" "Yosemite" "Honolulu" "Houston" "Huntington" "Huron" "Jacksonville" "Jefferson City" "Juneau"
+		"Youngstown" "Vincennes"
 	}
 }
 
@@ -149,7 +153,7 @@ USA_CITIES = {
 USA_BATTLES = {
 	name = NAME_THEME_BATTLES_US
 
-	for_countries = { USA PSA TEX } # HAW, NEE, CSA is separate
+	for_countries = { USA } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -158,10 +162,10 @@ USA_BATTLES = {
 	fallback_name = "Large Cruiser CB-%d"
 
 	unique = {
-		"邦克山" "福吉谷" "普林斯顿" "列克星敦" "萨拉托加" "提康德罗加" "本宁顿" "安提坦" "钱斯勒斯维尔" "葛底斯堡" "希罗" "维克斯堡" "莫比尔湾" "尚普兰湖"
-		"蒙特雷" "圣哈辛托" "贝洛森林" "考彭斯" "关岛" "关塔那摩" "奥古桑山" "加洛坎" "圣克鲁兹" "萨波特" "巴德达霍" "卡伦皮特" "马尼拉" "马洛洛斯" 
-		"唐纳尔森" "豌豆岭" "圣菲利普" "科林斯" "马尔文山" "默弗里斯伯勒" "彼得堡" "本顿维" "富兰克林" "韦斯特波特" "希达溪" "温彻斯特" "琼斯伯勒" "传教士岭"
-		"布拉奇托" "圣塔菲" "莫拉" "恩布多" "拉谢内加" "萨克拉门托" "布埃纳文图拉" "维拉克斯" "华曼特拉" "查普尔特佩克" "普埃布拉" "图斯潘" "汉普顿罗兹" "瑟堡"
+		"Bunker Hill" "Valley Forge" "Princeton" "Lexington" "Saratoga" "Ticonderoga" "Bennington" "Vincennes" "Antietam" "Chancellorsville" "Gettysburg" "Shiloh" "Vicksburg" "Mobile Bay" "Lake Champlain"
+		"Monterey" "San Jacinto" "Belleau Wood" "Cowpens" "Guam" "Guantanamo Bay" "San Juan" "Santiago" "Agusan Hill" "Caloocan" "Santa Cruz" "Zapote" "Bud Dajo" "Calumpit" "Manila" "Malolos" "New Orleans"
+		"Donelson" "Pea Ridge" "St. Philip" "Corinth" "Malvern Hill" "Murfreesboro" "Petersburg" "Bentonville" "Nashville" "Franklin" "Westport" "Cedar Creek" "Winchester" "Jonesborough" "Missionary Ridge"
+		"Tucson" "El Brazito" "Santa Fe" "Mora" "Embudo Pass" "Cienega" "Sacramento" "Buena Vista" "Veracruz" "Huamantla" "Chapultepec" "Puebla" "Tuxpan" "Hampton Roads" "Cherbourg"
 	}
 }
 
@@ -170,7 +174,7 @@ USA_BATTLES = {
 USA_STATES = {
 	name = NAME_THEME_STATES_US
 
-	for_countries = { USA PSA TEX } # HAW, NEE, CSA is separate
+	for_countries = { USA } # HAW, NEE, CSA is separate
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship ship_hull_carrier carrier }
@@ -179,10 +183,10 @@ USA_STATES = {
 	fallback_name = "Battleship BB-%d"
 
 	unique = {
-		"亚拉巴马" "亚利桑那" "阿肯色" "加利福尼亚" "科罗拉多" "康涅狄格" "特拉华" "佛罗里达" "佐治亚" "印第安纳" "爱达荷" "衣阿华" "伊利诺伊" "堪萨斯" "肯塔基"
-		"路易斯安那" "缅因" "马里兰" "马萨诸塞" "密歇根" "明尼苏达" "密西西比" "密苏里" "蒙大拿"
-		"内布拉斯加" "内华达" "新罕布什尔" "新泽西" "新墨西哥" "纽约" "北卡罗莱纳" "北达科他" "俄亥俄" "俄克拉荷马" "俄勒冈"
-		"宾夕法尼亚" "罗德岛" "南卡罗莱纳" "南达科他" "田纳西" "德克萨斯" "犹他" "佛蒙特" "弗吉尼亚" "华盛顿" "西弗吉尼亚" "威斯康辛" "怀俄明"
+		"Alabama" "Arizona" "Arkansas" "California" "Colorado" "Connecticut" "Delaware" "Florida" "Georgia" "Indiana" "Idaho" "Iowa" "Illinois" "Kansas" "Kentucky"
+		"Louisiana" "Maine" "Maryland" "Massachusetts" "Michigan" "Minnesota" "Mississippi" "Missouri" "Montana"
+		"Nebraska" "Nevada" "New Hampshire" "New Jersey" "New Mexico" "New York" "North Carolina" "North Dakota" "Ohio" "Oklahoma" "Oregon"
+		"Pennsylvania" "Rhode Island" "South Carolina" "South Dakota" "Tennessee" "Texas" "Utah" "Vermont" "Virginia" "Washington" "West Virginia" "Wisconsin" "Wyoming"
 	}
 }
 
@@ -190,7 +194,7 @@ USA_STATES = {
 USA_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { USA PSA TEX } # HAW, CSA, NEE is separate
+	for_countries = { USA } # HAW, CSA, NEE is separate
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -199,11 +203,11 @@ USA_CV_HISTORICAL = {
 	fallback_name = "Carrier CV-%d"
 
 	unique = {
-		"约克城" "企业" "大黄蜂" "胡蜂"
-		"埃塞克斯" "无畏" "邦克山" "富兰克林" "提康德罗加" "汉考克" "本宁顿" "香格里拉" "伦道夫" "好人理查德" "安提坦" "拳师" "尚普兰湖" "普林斯顿"
-		"奇尔沙治" "福吉谷" "奥里斯坎尼" "复仇"
+		"Yorktown" "Enterprise" "Wasp" "Hornet"
+		"Essex" "Intrepid" "Bunker Hill" "Franklin" "Ticonderoga" "Hancock" "Bennington" "Shangri-la" "Randolph" "Bon Homme Richard" "Antietam" "Boxer" "Lake Champlain" "Princeton"
+		"Kearsarge" "Valley Forge" "Oriskany" "Reprisal"
 		# Cold War and Beyond  (WW2 era Gen/Adm names excluded)
-		"福莱斯特" "独立" "小鹰" "美利坚" "西奥多·罗斯福" "亚伯拉罕·林肯" "乔治·华盛顿"
+		"Forrestal" "Independence" "Kitty Hawk" "America" "Theodore Roosevelt" "Abraham Lincoln" "George Washington"
 	}
 }
 
@@ -211,7 +215,7 @@ USA_CV_HISTORICAL = {
 USA_CVL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CVL
 
-	for_countries = { USA PSA TEX } # HAW, CSA, NEE is separate
+	for_countries = { USA } # HAW, CSA, NEE is separate
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -221,13 +225,15 @@ USA_CVL_HISTORICAL = {
 
 	unique = {
 		# CVL Names
-		"独立" "普林斯顿" "贝洛森林" "考彭斯" "蒙特雷" "卡伯特" "圣哈辛托" "莱特"
-		"兰利"
+		"Independence" "Princeton" "Belleau Wood" "Cowpens" "Monterey" "Cabot" "San Jacinto" "Wright"
+		"Langley"
+		# CV Battle Names
+		"Ticonderoga" "Bunker Hill" "Bennington" "Antietam" "Valley Forge"
 		# CVE Names
-		"长岛" "博格" "卡德" "科帕希" "科尔" "克罗坦" "拿骚" "奥塔马哈" "巴恩斯" "布洛克岛" "布雷顿" "桑加蒙" "苏万尼" "切南戈" "桑提"
-		"卡萨布兰卡" "利斯康湾" "传教湾" "那托玛湾" "迪德里克森湾" "白原" "加里宁湾"
-		"卡萨安湾" "范肖湾" "基昆湾" "甘比尔湾" "内亨塔湾" "霍格特湾" "卡达山湾" "奥马尼湾" "彼得洛夫湾" "鲁德湾" "萨吉诺湾"
-		"萨金特湾" "三叶草湾" "希普利湾" "实托湾" "轮船湾" "塔卡尼斯湾" "忒提斯湾" "温德姆湾"
+		"Long Island" "Bogue" "Card" "Copahee" "Core" "Croatan" "Nassau" "Altamaha" "Barnes" "Block Island" "Breton" "Sangamon" "Suwannee" "Chenango" "Santee"
+		"Casablanca" "Liscombe Bay" "Mission Bay" "Natoma Bay" "Didrickson Bay" "White Plains" "Kalinin Bay"
+		"Kasaan Bay" "Fanshaw Bay" "Kitkun Bay" "Gambier Bay" "Nehenta Bay" "Hoggatt Bay" "Kadashan Bay" "Ommaney Bay" "Petrof Bay" "Rudyerd Bay" "Saginaw Bay"
+		"Sargent Bay" "Shamrock Bay" "Shipley Bay" "Sitkoh Bay" "Steamer Bay" "Takanis Bay" "Thetis Bay" "Windham Bay"
 	}
 }
 
@@ -235,7 +241,7 @@ USA_CVL_HISTORICAL = {
 USA_LEADERS = {
 	name = NAME_THEME_LEADERS
 
-	for_countries = { USA PSA TEX } # HAW, CSA, NEE is separate
+	for_countries = { USA } # HAW, CSA, NEE is separate
 
 	type = ship
 
@@ -243,10 +249,10 @@ USA_LEADERS = {
 	fallback_name = "Ship SS-%d"
 
 	unique = {
-		"乔治·华盛顿" "亚伯拉罕·林肯" "托马斯·杰斐逊" "詹姆斯·麦迪逊" "詹姆斯·门罗" "约翰·亚当斯" "本杰明·富兰克林" "尤利西斯·S·格兰特" "安德鲁·杰克逊" "帕特里克·亨利" "伍德罗·威尔逊" "约翰·马歇尔"
-		"伊森·艾伦" "山姆·休斯顿" "拉法耶特" "冯·斯图本" "亚历山大·汉密尔顿" "卡齐米日·普瓦斯基" "刘易斯与克拉克" "詹姆斯·K·伯克"
-		"托马斯·A·爱迪生" "内森·黑尔" "亨利·克雷" "丹尼尔·韦伯斯特" "特库姆塞" "丹尼尔·布恩" "纳撒尼尔·格林" "西蒙·玻利瓦尔" "卡美哈梅哈" "乔治·卡弗" "弗朗西斯·斯科特" "马里亚诺·巴列霍"
-		"威尔·罗杰斯" "乔治·班克洛夫特" "西奥多·罗斯福"
+		"George Washington" "Abraham Lincoln" "Thomas Jefferson" "James Madison" "James Monroe" "John Adams" "Benjamin Franklin" "Ulysses S Grant" "Andrew Jackson" "Patrick Henry" "Woodrow Wilson" "John Marshall"
+		"Ethan Allen" "Sam Houston" "Lafayette" "Von Steuben" "Alexander Hamilton" "Casimir Pulaski" "Lewis and Clark" "James K. Polk"
+		"Thomas A. Edison" "Nathan Hale" "Henry Clay" "Daniel Webster" "Tecumseh" "Daniel Boone" "Nathanael Greene" "Simon Bolivar" "Kamehameha" "George Washington Carver" "Francis Scott Key" "Mariano G. Vallejo"
+		"Will Rogers" "George Bancroft" "Theodore Roosevelt"
 	}
 }
 
@@ -254,7 +260,7 @@ USA_LEADERS = {
 USA_INSPIRATIONAL = {
 	name = NAME_THEME_INSPIRATIONAL
 
-	for_countries = { USA PSA TEX } # HAW, CSA, NEE is separate
+	for_countries = { USA } # HAW, CSA, NEE is separate
 
 	type = ship
 
@@ -262,606 +268,7 @@ USA_INSPIRATIONAL = {
 	fallback_name = "Ship SS-%d"
 
 	unique = {
-		"凯旋" "胜利" "雄伟" "帝国" "无惧" "庄严" "飞升" "统治" "无畏" "至高" "慷慨" "解放" "挑战者" "反抗" "奋进" "勇士" "不惧"
-		"坚定" "不移" "飞跃" "主权" "光荣"
+		"Triumphant" "Victorious" "Magnificent" "Imperial" "Fearless" "Majestic" "Ascendant" "Dominion" "Intrepid" "Supremacy" "Bounty" "Liberation" "Challenger" "Defiant" "Endeavour" "Valiant" "Dauntless"
+		"Stalwart" "Steadfast" "Exaltation" "Sovereign" "Glorious"
 	}
 }
-
-### AUS Specific Namelist ###
-
-TEX_CUSTOM_NAME = {
-	name = NAME_THEME_TEX
-
-	for_countries = { TEX }
-
-	type = ship
-
-	prefix = "USS "
-	fallback_name = "Ship SS-%d"
-
-	unique = {
-		### DD
-		"珀尔" "密西西比" "庞恰特雷恩" "查尔斯·里德"
-		"亚当斯" "富兰克林" "自由" "汉考克" "杰克逊" "杰斐逊" "解放" "麦迪逊" "门罗" "潘恩" "里维尔" "华盛顿"
-		### CL
-		"坎伯兰峡" "莫比尔" "布洛" "波本" "拉法耶特" "萨姆特" "卡拉伦斯"
-		### CA
-		"爱国者" "哥伦比亚" "忠诚" "迪克西" "黄玫瑰" "亚拉巴马" "私掠者"
-		### BB
-		"休伊·朗" "李" "格兰特" "查尔斯顿·哈勃" "乔治安娜" "联盟"
-		### BC
-		"天命" "自由射手" "石墙"
-		### CV
-		"巴顿鲁治" "王鱼" "蓝河口"
-		### CVL
-		"金" "布坎南" "蒙哥马利" "查尔斯顿"
-	}
-}
-
-### CSA Specific Namelist ###
-##### CSA NAME LISTS #####
-
-### THEME: IDEOLOGICAL NAMES ###
-CSA_BIG_SHIP_IDEOLOGICAL = {
-	name = "革命主题"
-
-	for_countries = { CSA }
-
-	type = ship
-	ship_types = { ship_hull_heavy battleship battle_cruiser ship_hull_carrier carrier }
-
-	prefix = "CNS "
-	fallback_name = "SS-%d"
-
-	unique = {
-		"断链者" "五月奇迹" "红色夏日" "革命行军" "面包与玫瑰" "诛弑暴君" "猩红风暴" "八月和平" "工团" "人民意志" "起义" "大陆议会" 
-		"工会" "团结" "工业之锤" "理性" "火炬" "领袖" "红色旗帜" "铁锤" "劳动" "钢铁" "农业工人" "国际" "革命" "无产阶级" "先锋" "反抗" 
-		"保卫" "守护" "平等" "解放者"
-	}
-}
-
-### THEME: FISH (HISTORICAL SUBMARINES) ###
-CSA_FISH = {
-	name = NAME_THEME_FISH_US
-
-	for_countries = { CSA }
-
-	type = ship
-	ship_types = { ship_hull_submarine submarine }
-
-	prefix = "CNS "
-	fallback_name = "Submarine SS-%d"
-
-	unique = {
-		#WIKI: Post S-boat, in order by hull designation, up to nuclear powered (excluding doubles)
-		# Porpoise
-		"鲨鱼" "海鲢" "鲈鱼" "梭鱼" "鲳鲹" "潜水者" "鳕鱼" "参鱼"
-		# Salmon
-		"鲑鱼" "海豹" "鲣鱼" "鲷鱼" "黄貂鱼" "鲟鱼"
-		# Sargo
-		"重牙鲷" "秋刀鱼" "枪鱼" "杜父鱼" "旗鱼" "剑鱼" "海龙" "海狮" "海渡鸦" "海狼"
-		# Tambor
-		"河豚" "隆头鱼" "长尾鲨" "特里同" "鳟鱼" "吞拿鱼" "鲭鱼" "马林鱼" "灰鲸" "河鳟" "鼠尾鱼" "白杨鱼"
-		# Mackerel
-		"马鲛鱼" "雀鳝"
-		# Gato
-		"小鲨鱼" "六线鱼" "石斑鱼" "黑鲈" "银汉鱼" "针鱼" "大青花鱼" "琥珀鱼" "鲃鱼" "黑鱼" "蓝鱼" "北梭鱼" "银鳕鱼" "塞罗鱼" "科维纳鱼" "镖鲈" "鼓鱼" "飞鱼" "长须鲸" "黑线鳕" "大比目鱼"
-		"鲱鱼" "国王鱼" "西鲱" "银河鱼" "鳞鲀" "棘䲠" "鲸鱼" "𩽾𩾌鱼" "铲𫚔" "蓝鳃太阳鱼" "欧鳊" "竹荚鱼" "海鲡" "石首鱼" "鲦鱼" "鲯鳅" "松鲷" "日鲈" "比目鱼" "牛鼻鲼" "锦鳚" "角鱼"
-		"粉红鲑" "无须鳕" "李氏鮻" "油角鲨" "鲹鱼" "鲉鱼" "翼齿鲷" "北美狗鱼" "匙吻鲟" "紫身笛鲷" "竹节䲠" "油鲱" "黑异孔石鲈" "四齿鲀" "红石鱼" "奈氏鳕" "𫚉鱼" "红鳍鱼" "罗巴洛鱼" "银花鲈鱼" "金鲹" "锯鳐" "喙鲈" "蝎子" "锯盖鱼"
-		"虹鳟" "太阳鱼" "金枪鱼" "阔步鲹" "湖白鲑"
-		# Balao
-		"巴劳鱵" "尖嘴鱼" "弓鳍鱼" "纹首鮨" "毛鳞鱼" "思科鱼" "马鲹" "魔鬼鱼" "䲗鱼" "玉梭鱼" "铲鲟" "帆蜥鱼" "军曹鱼" "狮子鱼" "毯𫚉" "鯙鱼" "鼓石首鱼" "大海鲢" "海马"
-		"鳐鱼" "刺尾鲷" "软棘鱼" "天竺鲷" "金吉鲈" "蝙蝠鱼" "射水鱼" "光轮鱼" "白鱼" "巴伯罗鲷" "巴亚喙鲈" "贝库娜鱼" "梳唇隆头鱼" "真鲷" "黑鳍鱼" "凯门鳄" "鳚鱼" "斑点圆鲀" "蓝背鱼" "豚鼻鱼" "红点鲑" "鲢鱼"
-		"菱鲆" "布加拉鱼" "牛头鱼" "鲭鲹" "若鲉" "灰鲭鲨" "豚鱼" "红鲹" "鲤鱼" "鲶鱼" "电鳐" "绯鲤" "扁鲹" "蓝鹦嘴鱼" "云纹裸皮鲉" "妪鳞鲀" "雅罗鱼" "巴西笛鲷" "库斯克鳕" "刺鲀" "狗鱼鲨"
-		"墨瑞鳕" "鱵鱼" "儒艮" "鳗鱼" "埃斯帕达鱼" "后颌鱼" "奥诺鲅" "加洛帕石班鱼" "加鲁帕石班鱼" "白刺盖太阳鱼" "臼齿鱼" "玳瑁" "冰鱼" "贾劳仿石鲈" "四斑蝴蝶鱼" "克拉肯" "合齿鱼" "七鳃鳗" "蜥蜴鱼" "赤蠵龟" "马卡比鱼"
-		"马皮罗鱼" "梅罗鱼" "颌针鱼" "红鲑" "玉筋鱼" "大鳞魣" "红鲳鲹" "礁蝴蝶鱼" "黑鲱鱼" "领航鱼" "条斑马鲛" "管鱼" "水虎鱼" "鲽鱼" "鲳鱼"
-		"小体鲟" "后石首鱼" "剃刀鲸" "红鱼" "深海鳚" "鞘鱼" "塞贡多鱼" "海猫" "鬼蝠𫚉" "海狗" "海狐" "游鳍叶鲹" "拟三棘鲀" "圆鳍鱼" "八角鱼" "鲂𫚒" "魣鱼" "下鱵鱼" "马鲅"
-		"白鲳" "海参" "石首鱼" "灰海豚" "棘背鱼" "蜥狗母鱼"
-		# Tench
-		"𫚕鱼" "热带虎鲨" "古巴长带鱼" "褐鳟鱼" "托罗鱼" "大西洋鳕" "亚口鱼" "管口鱼" "单鳍鳕" "海贼鱼" "独角兽" "海象" "康吉鳗" "带鱼" "无刺蝠鲼" "高体𫚕" "纺缍𫚕" "豹海豹" "大洋辐鳍鱼" "西拉戈鱼" "笛鲷"
-		"䲟鱼" "萨达鲭" "狗鲨" "加州飞鱼"
-		# Unfinished
-		"大菱鲆" "珍鲹" "欧白鲑" "白鱼" "白化鱼" "狼鱼" "九带鮨" "黑海豹" "蒂博龙" 
-	}
-}
-
-### REGULAR DESTROYER NAMES###
-### OTL SAILORS KRTL ACW2 HEROES THEME###
-CSA_HEROES_ACW = {
-	name = NAME_HEROES_ACW_US
-
-	for_countries = { CSA }
-
-	type = ship
-	ship_types = { ship_hull_light destroyer }
-
-	prefix = "CNS "
-	fallback_name = "Destroyer Escort DE-%d"
-
-	unique = {
-		### CSA Specific Ones
-		"厄普兰" "湾流" "至高" "暴风雪" "龙卷风"
-		"戴布" "恩格尔" "菲尔登" "自由" "海伍德" "乔·希尔" "约翰·布朗" "解放" "马克思" "德莱昂"
-		# From wiki, by class, starting with Evarts
-		# Evarts
-		"埃瓦茨" "韦菲尔斯" "格利斯沃德" "斯蒂尔" "卡尔森" "贝巴斯" "克劳特" "布伦南" "多尔蒂" "奥斯丁" "埃德加·G·蔡斯" "爱德华·D·达利" "吉尔莫" "博登·C·哈斯丁" "勒哈迪" "哈罗德·C·托马斯" "威尔曼"
-		"查尔斯·R·格里尔" "魏特曼" "温特尔" "邓普西" "达菲" "艾梅里" "斯塔德菲尔德" "马丁" "塞德斯特伦" "弗莱明" "蒂斯达尔" "艾瑟尔" "菲尔" "曼勒夫" "格莱纳" "怀曼" "勒夫林" "桑德斯" "布拉克特" "雷诺兹"
-		"米切尔" "唐纳德森" "安德烈斯" "德克尔" "多布勒" "唐纳夫" "恩斯特罗姆" "席德" "斯玛特" "沃尔特·S·布朗" "威廉·C·米勒" "卡巴纳" "迪文" "坎菲尔德" "狄德" "埃尔顿" "克劳斯" "拉克" "莱曼" "克劳利" "拉尔"
-		"哈罗兰" "康纳利" "芬尼根" "奥图尔" "约翰·J·鲍沃斯" "梅森" "约翰·M·伯明翰"
-		# Buckley
-		"巴克利" "查尔斯·劳伦斯" "丹尼尔·T·格里芬" "唐纳尔" "福格" "福斯" "甘特纳" "乔治·W·英格拉姆" "伊拉·杰弗里" "李·福克斯" "埃姆斯伯里" "贝茨" "布里斯曼" "约瑟夫·E·坎贝尔" "鲁本·詹姆斯" "西姆斯" "霍平"
-		"里弗斯" "费希特勒" "蔡斯" "兰宁" "罗伊" "巴伯" "勒夫莱斯" "曼宁" "纽恩多夫" "詹姆斯·克雷格" "埃辛伯格" "托马森" "乔丹" "纽曼" "利德尔" "凯法特" "库弗" "洛伊德" "奥特" "约瑟夫·C·哈伯德"
-		"海特" "威廉·T·鲍威尔" "斯科特" "伯克" "恩莱特" "库尔博" "达比" "道格拉斯·布莱克伍德" "弗朗西斯·M·罗宾逊" "索拉" "富勒" "斯潘根贝格" "阿伦斯" "巴尔" "亚历山大·J·卢克" "罗伯特·I·潘恩"
-		"弗曼" "怀特赫斯特" "英格兰" "维特" "波尔斯" "威尔马斯" "让德罗" "菲柏林" "威廉·C·科勒" "保罗·G·贝克" "达蒙·M·康宁斯" "瓦蒙" "詹克斯" "杜里克" "怀斯曼" "韦伯" "施密特" "法拉蒙特" "哈蒙"
-		"格林伍德" "罗瑟" "吉列" "安德希尔" "亨利·R·坎耶" "公牛" "邦奇" "里奇" "斯潘格勒" "乔治" "拉比" "马希" "库里" "奥斯莫斯" "厄尔·V·约翰逊" "霍尔顿" "克罗宁" "弗莱巴格" "塔图姆" "波卢姆" "马洛"
-		"海恩斯" "卢奈尔" "霍利斯" "古纳森" "梅杰" "威登" "瓦里安" "斯克罗金斯" "杰克·W·威尔克"
-		# Cannon
-		"康农" "克里斯托弗" "阿尔格" "托马斯" "博斯特威克" "布里曼" "布罗斯" "卡特" "克拉伦斯·L·埃文斯" "里维" "麦康纳尔" "奥斯特豪斯" "帕克斯" "男爵" "阿克里" "阿米克" "阿瑟顿" "布斯" "卡罗尔" "库纳" "埃尔德里奇"
-		"马茨" "佩内维尔" "米卡" "雷博" "赫尔佐格" "麦安" "小号手" "施特劳布" "古斯塔夫森" "塞缪尔·S·迈尔斯" "文森" "谜语" "誓言" "斯特恩" "奥尼尔" "布朗施坦" "贝克" "考夫曼" "埃斯纳" "加菲尔德·托马斯" "温菲尔德"
-		"索希尔" "莱因哈特" "罗谢尔" "班古斯特" "沃特曼" "韦弗" "希尔伯特" "拉蒙斯" "施耐德" "海明格" "布莱特" "提尔斯" "罗伯茨" "麦克莱兰" "凯茨" "甘迪" "厄尔·K·奥尔森" "斯莱特" "奥斯瓦尔德" "艾尔伯特" "尼尔·A·斯科特"
-		"缪尔" "萨顿"
-		# Edsall
-		"埃德索尔" "雅各布·琼斯" "哈曼" "罗伯特·E·佩里" "皮尔斯布里" "波普" "弗莱厄蒂" "弗里德里克·C·戴维斯" "阿尔伯特·W·格兰特" "赫伯特·C·琼斯" "道格拉斯·L·霍华德" "法夸尔" "杰利·布莱克利" "希尔" "费森登" "菲斯克" "弗罗斯特"
-		"胡斯" "英奇" "布莱尔" "布劳" "查特莱恩" "纽泽" "普尔" "彼德森" "斯图尔特" "斯图尔特万" "莫雷" "基斯" "托米奇" "理查德·瓦德" "水濑" "斯洛特" "斯诺登" "斯坦顿" "施瓦西" "马尔尚" "赫斯特"
-		"坎普" "霍华德·D·克劳" "佩蒂特" "皮克茨" "塞尔斯特伦" "哈维斯顿" "乔希" "柯克帕特里克" "利奥波德" "门格斯" "莫斯利" "内维尔" "普莱德" "法戈特" "托马斯·J·加里" "布里斯特" "芬奇" "克雷奇默" "奥莱利" "科纳" "普莱斯"
-		"斯特里克兰" "福斯特" "丹尼尔" "罗伊·O·黑尔" "戴尔·W·彼德森" "马丁·H·雷" "拉姆斯登" "米尔斯" "罗德" "里奇" "萨维治" "范斯" "比尔斯" "兰辛" "杜兰特" "卡尔卡特拉" "钱伯斯" "梅里尔" "哈弗菲尔德" "斯文宁"
-		"威利斯" "詹森" "威尔霍伊特" "库克利" "斯托克代尔" "希塞姆" "霍德"
-		# Rudderow
-		"鲁德洛" "戴伊" "霞飞" "霍奇斯" "莱利" "莱斯利·LB·诺克斯" "麦克纳尔蒂" "梅蒂维尔" "乔治·A·约翰逊" "查尔斯·J·金梅尔" "丹尼尔·A·乔伊" "洛" "托马斯·F·尼克尔" "佩弗" "廷斯曼" "德隆" "科茨" "尤金·E·埃尔默"
-		"霍特" "乔布" "帕尔莱" "布雷"
-		# John C Butler
-		"约翰·C·巴特勒" "奥弗莱厄蒂" "雷蒙德" "理查德·W·绪森" "阿伯克龙比" "奥布兰德" "罗伯特·布拉西尔" "埃德温·A·霍华德" "杰西·卢瑟福" "基" "甘特里" "乔" "莫里斯·J·曼努埃尔" "奈菲" "多勒·C·巴恩斯" "肯尼斯·M·薇尔莉特"
-		"杰卡德" "洛伊德·E·阿克里" "乔治·E·戴维斯" "麦克" "强尼·哈钦斯" "沃尔顿" "罗夫" "普拉特" "隆巴赫" "麦金蒂" "埃尔文·C·库克雷" "弗朗基" "塞西尔·J·道尔" "赛迪斯·帕克" "约翰·L·威廉森" "普莱斯利" "威廉姆斯"
-		"理查德·S·博尔" "理查德·M·罗威尔" "丹尼斯" "埃德蒙" "施特劳斯" "拉普拉德" "杰克·米勒" "斯塔夫" "华特·C·万" "塞缪尔·B·罗伯茨" "雷伊·威尔森" "劳伦斯·C·泰勒" "马尔文·R·瑙曼" "奥利弗·米切尔"
-		"塔伯勒" "罗伯特·F·凯勒" "勒兰·E·托马斯" "切斯特·T·奥布莱恩" "道格拉斯·A·门罗" "杜菲略" "哈斯" "柯布西耶" "康克林" "麦考伊·雷诺兹" "威廉·西弗林" "乌尔弗特·M·摩尔" "肯德尔·C·坎贝尔" "高斯" "格拉迪"
-		"查尔斯·E·布兰农" "阿尔伯特·T·哈里斯" "卡洛斯" "汉娜" "约瑟夫·E·康纳利" "吉利根" "福尔摩" "海利格" "爱德华·H·艾伦" "特威迪" "霍华德·F·克拉克" "西尔弗斯坦" "刘易斯" "比文" "里基" "奥斯伯格" "范迪维尔"
-	}
-}
-
-## THEME: U.S. CITIES ###
-CSA_CITIES = {
-	name = NAME_THEME_CITIES_US
-
-	for_countries = { CSA }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
-
-	prefix = "CNS "
-	fallback_name = "Cruiser C-%d"
-
-	unique = {
-		"纽约城" "布鲁克林" "芝加哥" "洛杉矶" "旧金山" "底特律" "波士顿" "费城" "匹兹堡" "克利夫兰" "圣路易斯" "巴尔的摩" "堪萨斯城" "密尔沃基" "新奥尔良" "辛辛那提"
-		"印第安纳波利斯" "西雅图" "达拉斯" "亚特兰大" "水牛城" "明尼阿波利斯" "丹佛" "奥马哈" "圣地亚哥" "纳什维尔" "俄克拉荷马城" "路易斯维尔" "菲尼克斯" "波特兰" "罗彻斯特" "迈阿密"
-		"阿尔巴尼" "阿尔伯克基" "坎伯雷" "亚历山德里亚" "孟菲斯" "米苏拉" "阿姆斯特丹" "阿斯托利亚" "奥古斯塔" "巴顿鲁治" "比洛克西" "伯明翰" "博伊西" "布雷默顿" "布里奇波特" "剑桥" "薛安"
-		"查尔斯顿" "夏洛特" "查塔努加" "切斯特" "哥伦比亚" "哥伦布" "康科德" "科珀斯克里斯蒂" "代顿" "得梅因" "杜鲁斯" "福尔里弗" "法哥" "弗林特" "弗雷德里克" "弗雷斯诺" "加利纳" "格尔夫斯敦" "加里"
-		"格林维尔" "格罗顿" "汉普顿" "哈特福德" "海伦娜" "托利多" "托皮卡" "特伦顿" "图森" "塔尔萨" "塔斯卡卢萨" "瓦列霍" "基韦斯特" "拉霍亚" "兰开斯特" "长滩" "小石城" "梅肯"
-		"曼彻斯特" "马布尔黑德" "马里昂" "莫比尔" "莫西干" "蒙特哥马利" "蒙彼利埃" "纽哈芬" "纽瓦克" "纽波特纽斯" "诺福克" "北安普敦" "奥克兰" "奥林匹亚" "俄勒冈城" "圣塔菲" "萨拉托加" "萨凡纳" "斯瓦塔拉"
-		"帕萨迪纳" "彭萨科拉" "朴次茅斯" "普洛威顿斯" "普韦布洛" "昆西" "奎因鲍格" "阿那波利斯" "安妮斯顿" "阿什维尔" "罗利" "雷诺" "里士满" "罗阿诺克" "圣保罗" "萨勒姆" "盐湖城" "圣胡安"
-		"斯克兰顿" "斯波坎" "斯普林菲尔德" "塔科马" "太浩" "塔拉哈西" "维克斯堡" "威奇塔" "威尔克斯巴里" "威明顿" "伍斯特" "约塞米蒂" "火奴鲁鲁" "休斯顿" "亨廷顿" "休伦" "杰克逊维尔" "杰弗森城" "朱诺"
-		"杨斯敦" "万塞纳"
-	}
-}
-
-### BATTLECRUISER NAMES ###
-### THEME: HISTORICAL BATTLES ###
-CSA_BATTLES = {
-	name = NAME_THEME_BATTLES_US
-
-	for_countries = { CSA }
-
-	type = ship
-	ship_types = { ship_hull_heavy battle_cruiser }
-
-	prefix = "CNS "
-	fallback_name = "Large Cruiser CB-%d"
-
-	unique = {
-		"邦克山" "福吉谷" "普林斯顿" "列克星敦" "萨拉托加" "提康德罗加" "本宁顿" "安提坦" "钱斯勒斯维尔" "葛底斯堡" "希罗" "维克斯堡" "莫比尔湾" "尚普兰湖"
-		"蒙特雷" "圣哈辛托" "贝洛森林" "考彭斯" "关岛" "关塔那摩" "奥古桑山" "加洛坎" "圣克鲁兹" "萨波特" "巴德达霍" "卡伦皮特" "马尼拉" "马洛洛斯" 
-		"唐纳尔森" "豌豆岭" "圣菲利普" "科林斯" "马尔文山" "默弗里斯伯勒" "彼得堡" "本顿维" "富兰克林" "韦斯特波特" "希达溪" "温彻斯特" "琼斯伯勒" "传教士岭"
-		"布拉奇托" "圣塔菲" "莫拉" "恩布多" "拉谢内加" "萨克拉门托" "布埃纳文图拉" "维拉克斯" "华曼特拉" "查普尔特佩克" "普埃布拉" "图斯潘" "汉普顿罗兹" "瑟堡"
-	}
-}
-
-### BATTLESHIP NAMES ###
-### THEME: U.S. STATES ###
-CSA_STATES = {
-	name = NAME_THEME_STATES_US
-
-	for_countries = { CSA }
-
-	type = ship
-	ship_types = { ship_hull_heavy battleship ship_hull_carrier carrier }
-
-	prefix = "CNS "
-	fallback_name = "Battleship BB-%d"
-
-	unique = {
-		"亚拉巴马" "亚利桑那" "阿肯色" "加利福尼亚" "科罗拉多" "康涅狄格" "特拉华" "佛罗里达" "佐治亚" "印第安纳" "爱达荷" "衣阿华" "伊利诺伊" "堪萨斯" "肯塔基"
-		"路易斯安那" "缅因" "马里兰" "马萨诸塞" "密歇根" "明尼苏达" "密西西比" "密苏里" "蒙大拿"
-		"内布拉斯加" "内华达" "新罕布什尔" "新泽西" "新墨西哥" "纽约" "北卡罗莱纳" "北达科他" "俄亥俄" "俄克拉荷马" "俄勒冈"
-		"宾夕法尼亚" "罗德岛" "南卡罗莱纳" "南达科他" "田纳西" "德克萨斯" "犹他" "佛蒙特" "弗吉尼亚" "华盛顿" "西弗吉尼亚" "威斯康辛" "怀俄明"
-	}
-}
-
-### AIRCRAFT CARRIER NAMES ###
-CSA_CV_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CARRIERS
-
-	for_countries = { CSA }
-
-	type = ship
-	ship_types = { ship_hull_carrier carrier }
-
-	prefix = "CNS "
-	fallback_name = "Carrier CV-%d"
-
-	unique = {
-		"约克城" "企业" "大黄蜂" "胡蜂"
-		"埃塞克斯" "无畏" "邦克山" "富兰克林" "提康德罗加" "汉考克" "本宁顿" "香格里拉" "伦道夫" "好人理查德" "安提坦" "拳师" "尚普兰湖" "普林斯顿"
-		"奇尔沙治" "福吉谷" "奥里斯坎尼" "复仇"
-		# Cold War and Beyond  (WW2 era Gen/Adm names excluded)
-		"福莱斯特" "独立" "小鹰" "美利坚" "西奥多·罗斯福" "亚伯拉罕·林肯" "乔治·华盛顿"
-	}
-}
-
-CSA_CVL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CVL
-
-	for_countries = { CSA }
-
-	type = ship
-	ship_types = { ship_hull_carrier carrier }
-
-	prefix = "CNS "
-	fallback_name = "Carrier CVL-%d"
-
-	unique = {
-		# CVL Names
-		"独立" "普林斯顿" "贝洛森林" "考彭斯" "蒙特雷" "卡伯特" "圣哈辛托" "莱特"
-		"兰利"
-		# CVE Names
-		"长岛" "博格" "卡德" "科帕希" "科尔" "克罗坦" "拿骚" "奥塔马哈" "巴恩斯" "布洛克岛" "布雷顿" "桑加蒙" "苏万尼" "切南戈" "桑提"
-		"卡萨布兰卡" "利斯康湾" "传教湾" "那托玛湾" "迪德里克森湾" "白原" "加里宁湾"
-		"卡萨安湾" "范肖湾" "基昆湾" "甘比尔湾" "内亨塔湾" "霍格特湾" "卡达山湾" "奥马尼湾" "彼得洛夫湾" "鲁德湾" "萨吉诺湾"
-		"萨金特湾" "三叶草湾" "希普利湾" "实托湾" "轮船湾" "塔卡尼斯湾" "忒提斯湾" "温德姆湾"
-	}
-}
-
-### THEME: HISTORICAL LEADERS ###
-CSA_LEADERS = {
-	name = NAME_THEME_LEADERS
-
-	for_countries = { CSA }
-
-	type = ship
-
-	prefix = "CNS "
-	fallback_name = "Ship SS-%d"
-
-	unique = {
-		"乔治·华盛顿" "亚伯拉罕·林肯" "托马斯·杰斐逊" "詹姆斯·麦迪逊" "詹姆斯·门罗" "约翰·亚当斯" "本杰明·富兰克林" "尤利西斯·S·格兰特" "安德鲁·杰克逊" "帕特里克·亨利" "伍德罗·威尔逊" "约翰·马歇尔"
-		"伊森·艾伦" "山姆·休斯顿" "拉法耶特" "冯·斯图本" "亚历山大·汉密尔顿" "卡齐米日·普瓦斯基" "刘易斯与克拉克" "詹姆斯·K·伯克"
-		"托马斯·A·爱迪生" "内森·黑尔" "亨利·克雷" "丹尼尔·韦伯斯特" "特库姆塞" "丹尼尔·布恩" "纳撒尼尔·格林" "西蒙·玻利瓦尔" "卡美哈梅哈" "乔治·卡弗" "弗朗西斯·斯科特" "马里亚诺·巴列霍"
-	}
-}
-
-### THEME: INSPIRATIONAL ###
-CSA_INSPIRATIONAL = {
-	name = NAME_THEME_INSPIRATIONAL
-
-	for_countries = { CSA }
-
-	type = ship
-
-	prefix = "CNS "
-	fallback_name = "Ship SS-%d"
-
-	unique = {
-		"工业" "凯旋" "胜利" "雄伟" "帝国" "无惧" "庄严" "飞升" "革命" "无畏" "至高" "慷慨" "解放" "挑战者" "反抗" "奋进" "勇士" "不惧"
-		"坚定" "不移" "飞跃" "主权" "光荣" "宣言" "平等" "正义" "民权" "贤德" "火焰" "进步" "工团" "议会" "铁锤" "救济"
-	}
-}
-
-##### NEE NAME LISTS #####
-### THEME: FISH (HISTORICAL SUBMARINES) ###
-NEE_FISH = {
-	name = NAME_THEME_FISH_US
-
-	for_countries = { NEE }
-
-	type = ship
-	ship_types = { ship_hull_submarine submarine }
-
-	prefix = "NES "
-	fallback_name = "Submarine SS-%d"
-
-	unique = {
-		#WIKI: Post S-boat, in order by hull designation, up to nuclear powered (excluding doubles)
-		# Porpoise
-		"鲨鱼" "海鲢" "鲈鱼" "梭鱼" "鲳鲹" "潜水者" "鳕鱼" "参鱼"
-		# Salmon
-		"鲑鱼" "海豹" "鲣鱼" "鲷鱼" "黄貂鱼" "鲟鱼"
-		# Sargo
-		"重牙鲷" "秋刀鱼" "枪鱼" "杜父鱼" "旗鱼" "剑鱼" "海龙" "海狮" "海渡鸦" "海狼"
-		# Tambor
-		"河豚" "隆头鱼" "长尾鲨" "特里同" "鳟鱼" "吞拿鱼" "鲭鱼" "马林鱼" "灰鲸" "河鳟" "鼠尾鱼" "白杨鱼"
-		# Mackerel
-		"马鲛鱼" "雀鳝"
-		# Gato
-		"小鲨鱼" "六线鱼" "石斑鱼" "黑鲈" "银汉鱼" "针鱼" "大青花鱼" "琥珀鱼" "鲃鱼" "黑鱼" "蓝鱼" "北梭鱼" "银鳕鱼" "塞罗鱼" "科维纳鱼" "镖鲈" "鼓鱼" "飞鱼" "长须鲸" "黑线鳕" "大比目鱼"
-		"鲱鱼" "国王鱼" "西鲱" "银河鱼" "鳞鲀" "棘䲠" "鲸鱼" "𩽾𩾌鱼" "铲𫚔" "蓝鳃太阳鱼" "欧鳊" "竹荚鱼" "海鲡" "石首鱼" "鲦鱼" "鲯鳅" "松鲷" "日鲈" "比目鱼" "牛鼻鲼" "锦鳚" "角鱼"
-		"粉红鲑" "无须鳕" "李氏鮻" "油角鲨" "鲹鱼" "鲉鱼" "翼齿鲷" "北美狗鱼" "匙吻鲟" "紫身笛鲷" "竹节䲠" "油鲱" "黑异孔石鲈" "四齿鲀" "红石鱼" "奈氏鳕" "𫚉鱼" "红鳍鱼" "罗巴洛鱼" "银花鲈鱼" "金鲹" "锯鳐" "喙鲈" "蝎子" "锯盖鱼"
-		"虹鳟" "太阳鱼" "金枪鱼" "阔步鲹" "湖白鲑"
-		# Balao
-		"巴劳鱵" "尖嘴鱼" "弓鳍鱼" "纹首鮨" "毛鳞鱼" "思科鱼" "马鲹" "魔鬼鱼" "䲗鱼" "玉梭鱼" "铲鲟" "帆蜥鱼" "军曹鱼" "狮子鱼" "毯𫚉" "鯙鱼" "鼓石首鱼" "大海鲢" "海马"
-		"鳐鱼" "刺尾鲷" "软棘鱼" "天竺鲷" "金吉鲈" "蝙蝠鱼" "射水鱼" "光轮鱼" "白鱼" "巴伯罗鲷" "巴亚喙鲈" "贝库娜鱼" "梳唇隆头鱼" "真鲷" "黑鳍鱼" "凯门鳄" "鳚鱼" "斑点圆鲀" "蓝背鱼" "豚鼻鱼" "红点鲑" "鲢鱼"
-		"菱鲆" "布加拉鱼" "牛头鱼" "鲭鲹" "若鲉" "灰鲭鲨" "豚鱼" "红鲹" "鲤鱼" "鲶鱼" "电鳐" "绯鲤" "扁鲹" "蓝鹦嘴鱼" "云纹裸皮鲉" "妪鳞鲀" "雅罗鱼" "巴西笛鲷" "库斯克鳕" "刺鲀" "狗鱼鲨"
-		"墨瑞鳕" "鱵鱼" "儒艮" "鳗鱼" "埃斯帕达鱼" "后颌鱼" "奥诺鲅" "加洛帕石班鱼" "加鲁帕石班鱼" "白刺盖太阳鱼" "臼齿鱼" "玳瑁" "冰鱼" "贾劳仿石鲈" "四斑蝴蝶鱼" "克拉肯" "合齿鱼" "七鳃鳗" "蜥蜴鱼" "赤蠵龟" "马卡比鱼"
-		"马皮罗鱼" "梅罗鱼" "颌针鱼" "红鲑" "玉筋鱼" "大鳞魣" "红鲳鲹" "礁蝴蝶鱼" "黑鲱鱼" "领航鱼" "条斑马鲛" "管鱼" "水虎鱼" "鲽鱼" "鲳鱼"
-		"小体鲟" "后石首鱼" "剃刀鲸" "红鱼" "深海鳚" "鞘鱼" "塞贡多鱼" "海猫" "鬼蝠𫚉" "海狗" "海狐" "游鳍叶鲹" "拟三棘鲀" "圆鳍鱼" "八角鱼" "鲂𫚒" "魣鱼" "下鱵鱼" "马鲅"
-		"白鲳" "海参" "石首鱼" "灰海豚" "棘背鱼" "蜥狗母鱼"
-		# Tench
-		"𫚕鱼" "热带虎鲨" "古巴长带鱼" "褐鳟鱼" "托罗鱼" "大西洋鳕" "亚口鱼" "管口鱼" "单鳍鳕" "海贼鱼" "独角兽" "海象" "康吉鳗" "带鱼" "无刺蝠鲼" "高体𫚕" "纺缍𫚕" "豹海豹" "大洋辐鳍鱼" "西拉戈鱼" "笛鲷"
-		"䲟鱼" "萨达鲭" "狗鲨" "加州飞鱼"
-		# Unfinished
-		"大菱鲆" "珍鲹" "欧白鲑" "白鱼" "白化鱼" "狼鱼" "九带鮨" "黑海豹" "蒂博龙" 
-	}
-}
-
-### THEME: HEROES OF NAVY (HISTORICAL DDs) ###
-NEE_HEROES_NAVY = {
-	name = NAME_HEROES_NAVY_US
-
-	for_countries = { NEE }
-
-	type = ship
-	ship_types = { ship_hull_light destroyer }
-
-	prefix = "NES "
-	fallback_name = "Destroyer DD-%d"
-
-	unique = {
-		# Porter (DL), Mahan, Gridley
-		"波特" "菲尔普斯" "克拉克" "巴奇" "塞尔弗里奇" "麦道加" "温斯洛" "马汉" "康宁斯" "基斯"
-		"康宁汉" "卡森" "邵" "库欣" "帕金斯" "傅拉瑟" "里德" "塔克" "史密斯" "德雷顿" "道恩斯" "普雷斯顿" "拉姆森" "范宁" "格里德利" "克雷文" "麦考" "默里"
-		# Bagley, Somers (DL), Benham, Sims
-		"巴格利" "麦福德" "亨利" "布鲁" "赫姆" "帕特森" "贾维斯" "索姆斯" "辛普森" "沃灵顿" "戴维斯" "乔埃特" "本汉" "梅兰特" "特里普" "罗温" "斯塔克" "埃立特" "莱因德"
-		"朗" "斯特雷特" "威尔森" "西姆斯" "姆斯汀" "拉塞尔" "安德森" "巴克" "休斯" "莫里斯" "罗伊" "温赖特" "奥布莱恩" "沃尔克"
-		# Benson and Gleaves
-		"格里弗斯" "普朗克特" "梅奥" "兰斯代尔" "希拉里·P·琼斯" "卡尼" "查尔斯·F·休斯" "利弗莫尔" "埃伯尔" "格温" "梅瑞迪斯" "伍尔西" "勒洛" "爱迪生"
-		"埃里克森" "威尔克斯" "尼科尔森" "英格拉姆"
-		# Bristol and Laffey
-		"布里斯托" "艾利森" "汉伯顿" "鲁德曼" "埃蒙斯" "马科姆" "弗雷斯特" "菲奇" "霍布森" "阿隆·瓦德" "布坎南" "考伊" "奈特" "拉菲" "伍德沃斯" "法伦霍特" "贝利" "邓肯"
-		"拉德纳" "麦卡拉" "班克罗夫特" "巴顿" "比蒂" "梅文" "奎克" "博伊尔" "查普林" "米德" "墨菲" "帕克" "考德维尔" "科格伦" "弗雷泽" "甘斯沃尔特" "格拉斯彼" "多兰" "厄尔"
-		"盖拉尔迪" "戴维森" "爱德华兹" "格伦农" "杰弗斯" "马多克斯" "纳尔逊" "卡米克" "杜尔" "恩迪科特" "麦库克" "法兰克福" "霍比" "肯德里克" "劳布" "麦肯锡" "麦克拉纳罕" "尼尔兹" "奥德罗诺"
-		"赫恩登" "舒布里克" "史蒂文森" "斯托克顿" "索恩" "特纳" "巴尔德温" "哈丁" "汤普森" "威尔斯"
-		# Fletcher
-		"弗莱彻" "拉德福德" "拉瓦莱特" "尼古拉斯" "詹金斯" "奥班农" "索夫利" "沃勒" "斯特朗" "泰勒" "狄海文" "贝奇" "比尔" "格斯特" "贝内特" "弗拉姆" "哈德森" "普林格尔" "斯坦利"
-		"史蒂文斯" "柳特兹" "菲利普" "伦肖" "林格尔德" "施罗德" "西格斯比" "康威" "科尼" "康弗斯" "伊顿" "富特" "斯彭斯" "特里" "撒切尔" "安东尼" "沃兹沃斯" "沃克" "布朗森" "戴利"
-		"伊舍伍德" "金伯利" "卢斯" "艾布纳·里德" "阿曼" "马拉尼" "布什" "特拉森" "黑泽伍德" "奥利克" "克拉克斯顿" "戴森" "哈里森" "约翰·罗杰斯" "麦基" "默里" "希尔曼" "霍埃尔"
-		"麦科德" "米勒" "奥文" "博伊德" "布雷福德" "布朗" "考埃尔" "卡普斯" "大卫·W·泰勒" "埃文斯" "约翰·D·亨利" "弗兰克斯" "哈格德" "斯普罗斯顿" "威克斯" "威廉·D·波特"
-		"查雷特" "康纳" "霍尔" "霍利根" "哈拉登" "纽康姆" "贝尔" "伯恩斯" "艾泽德" "艾伯特" "布雷恩" "厄尔本" "黑尔" "西古尔尼" "斯坦贝尔" "阿尔伯特·W·格兰特" "卡帕顿" "英格索尔" "纳普"
-		"查尔斯·J·巴杰" "科拉汉" "达希尔" "布拉德" "昌西" "克拉伦斯·K·布朗森" "加特林" "亨特" "刘易斯·汉考克" "麦克德莫" "麦高恩" "麦克奈尔"
-		"霍普维尔" "李梅" "瓦德雷" "默茨" "海利" "约翰斯顿" "劳斯" "郎肖" "莫里森" "廷吉" "特文宁" "亚纳尔" "普里切特"
-		"罗宾逊" "罗斯" "罗" "斯莫利" "斯托达德" "瓦茨" "雷恩" "保罗·汉密尔顿" "特威格斯" "理查德·P·利里" "卡辛杨" "欧文"
-		"豪沃斯" "基伦" "比尔斯" "约翰·胡德" "科尔杭" "格里高利" "利特尔" "梅特卡夫" "希尔兹" "威利"
-		# Allen M Sumner
-		"莫勒" "库帕" "查尔斯·S·斯佩里" "曼斯菲尔德" "布拉什"
-		"陶西格" "洛瑞" "汉克" "博里" "索利" "休·普威斯" "德雷克斯勒"
-		"泽拉斯" "普特南"
-		# Gearing
-		"基林" "威廉·R·拉什" "萨瑟兰" "麦基恩" "亨德森" "古德里奇"
-		"福格格桑" "科内" "斯特林"
-		"弗斯" "纽曼·K·佩里" "威廉·W·伍德"
-		"菲斯克" "弗雷德·T·贝里"
-		"费希特勒" "卡朋特"
-		# Post-WW2 -- Mitscher, Forrest Sherman
-		"约翰·保罗·琼斯" "巴里" "迪凯特" "曼利" "杜邦"
-		"劳伦斯" "比德尔" "巴尼" "亨利·B·威尔森"
-		# Sampson, Caldwell, Wickes, Clemson classes
-		"艾伦" "拉斯伯恩" "塔伯特" "科尔霍恩" "斯特林厄姆" "沃特斯" "多西" "登特" "雪利" "利" "帕尔默" "塔贝尔" "格里尔" "厄普舍" "基尔蒂" "赵" "艾略特" "克罗斯比" 
-		"布雷肯里奇" "罗柏" "克雷恩" "肯尼森" "贝尔纳普" "格林" "贝尔纳多" "巴杰" "布莱克利" "塔特纳尔" "巴拉德" "科勒" "J·弗雷德·塔伯特" "奥斯蒙德·英格拉姆" "艾利斯"
-		"瓦德" "索顿" "迪克森" "钱德勒" "吉利斯" "索萨德" "霍根" "布鲁姆" "雅各布·琼斯" "申克" "霍威" "朗" "巴比特" "埃尔登" "赫伯特" "汉密尔顿" "克莱蒙森" "巴克尔" "雷利"
-		"斯坦斯伯里" "达尔格伦" "金斯博罗" "霍瓦德" "惠普尔" "哈特菲尔德" "约翰·D·爱德华兹" "吉尔莫" "福克斯" "里奇菲尔德" "凯恩" "乔治·E·巴杰" "布鲁克斯" "汉弗莱斯"
-		"威廉·B·普雷斯顿" "麦科米克" "麦克莱什" "鲁本·詹姆斯" "斯图尔特" "斯图尔特万" "麦法兰" "佩里" "波普" "赫伯特" "达拉斯" "桑兹" "辛普森" "艾德索尔" "约翰·D·福特" "皮尔斯伯里"
-		"巴里" "高夫" "扎恩" "班布里奇" "诺阿" "特鲁克斯顿" "霍普金斯" "保罗·琼斯" "瓦斯穆特" "特雷弗" "佩利"
-		# Farragut
-		"法拉汉" "杜威" "沃登" "豪尔" "埃尔文" "麦克唐纳" "莫纳汉" "戴尔"
-		# Cancelled/Converted/Never Used Ship Names
-		"珀西瓦尔" "沃特森" "亨利·A·威利" "卡斯尔"
-		# Retired ships -- Sampson, Caldwell, Wickes, Clemson classes
-		"桑普森" "费尔法克斯" "戴耶" "蒙哥马利" "以色列" "林巴顿" "博格斯" "布里斯" "甘布尔" "拉姆齐" "威廉姆斯" "托马斯" "罗杰斯" "斯瓦西" "克伦西" "史密斯·汤普森" "梅森" "特雷西" "普雷布尔" "西卡德" "布兰切"
-		"普鲁伊特" "柴尔德斯" "威廉姆森" "阿贝尔·P·厄普舍" "詹姆斯·K·保尔丁" "韦尔伯恩·C·伍德"
-
-		### CSA Specific Ones
-		# "Upland" "Gulf Stream" "Superior" "Blizzard" "Tornado"
-		# "Debs" "Engel" "Fielden" "Freedom" "Haywood" "Joe Hill" "John Brown" "Liberation" "Marx" "DeLeon"
-
-		### TEX Specific Ones
-		# "Pearl" "Mississippi" "Pontchartrain"
-		# "Adams" "Franklin" "Freedom" "Hancock" "Jackson" "Jefferson" "Liberty" "Madison" "Monroe" "Paine" "Revere" "Washington"
-	}
-}
-
-## THEME: CITIES ###
-NEE_CITIES = {
-	name = NAME_THEME_CITIES_US
-
-	for_countries = { NEE }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
-
-	prefix = "NES "
-	fallback_name = "Cruiser C-%d"
-
-	unique = {
-		"纽约城" "布鲁克林" "芝加哥" "洛杉矶" "旧金山" "底特律" "波士顿" "费城" "匹兹堡" "克利夫兰" "圣路易斯" "巴尔的摩" "堪萨斯城" "密尔沃基" "新奥尔良" "辛辛那提"
-		"印第安纳波利斯" "西雅图" "达拉斯" "亚特兰大" "水牛城" "明尼阿波利斯" "丹佛" "奥马哈" "圣地亚哥" "纳什维尔" "俄克拉荷马城" "路易斯维尔" "菲尼克斯" "波特兰" "罗彻斯特" "迈阿密"
-		"阿尔巴尼" "阿尔伯克基" "坎伯雷" "亚历山德里亚" "孟菲斯" "米苏拉" "阿姆斯特丹" "阿斯托利亚" "奥古斯塔" "巴顿鲁治" "比洛克西" "伯明翰" "博伊西" "布雷默顿" "布里奇波特" "剑桥" "薛安"
-		"查尔斯顿" "夏洛特" "查塔努加" "切斯特" "哥伦比亚" "哥伦布" "康科德" "科珀斯克里斯蒂" "代顿" "得梅因" "杜鲁斯" "福尔里弗" "法哥" "弗林特" "弗雷德里克" "弗雷斯诺" "加利纳" "格尔夫斯敦" "加里"
-		"格林维尔" "格罗顿" "汉普顿" "哈特福德" "海伦娜" "托利多" "托皮卡" "特伦顿" "图森" "塔尔萨" "塔斯卡卢萨" "瓦列霍" "基韦斯特" "拉霍亚" "兰开斯特" "长滩" "小石城" "梅肯"
-		"曼彻斯特" "马布尔黑德" "马里昂" "莫比尔" "莫西干" "蒙特哥马利" "蒙彼利埃" "纽哈芬" "纽瓦克" "纽波特纽斯" "诺福克" "北安普敦" "奥克兰" "奥林匹亚" "俄勒冈城" "圣塔菲" "萨拉托加" "萨凡纳" "斯瓦塔拉"
-		"帕萨迪纳" "彭萨科拉" "朴次茅斯" "普洛威顿斯" "普韦布洛" "昆西" "奎因鲍格" "阿那波利斯" "安妮斯顿" "阿什维尔" "罗利" "雷诺" "里士满" "罗阿诺克" "圣保罗" "萨勒姆" "盐湖城" "圣胡安"
-		"斯克兰顿" "斯波坎" "斯普林菲尔德" "塔科马" "太浩" "塔拉哈西" "维克斯堡" "威奇塔" "威尔克斯巴里" "威明顿" "伍斯特" "约塞米蒂" "火奴鲁鲁" "休斯顿" "亨廷顿" "休伦" "杰克逊维尔" "杰弗森城" "朱诺"
-		"杨斯敦" "万塞纳"
-	}
-}
-
-### BATTLECRUISER NAMES ###
-### THEME: HISTORICAL BATTLES ###
-NEE_BATTLES = {
-	name = NAME_THEME_BATTLES_US
-
-	for_countries = { NEE }
-
-	type = ship
-	ship_types = { ship_hull_heavy battle_cruiser }
-
-	prefix = "NES "
-	fallback_name = "Large Cruiser CB-%d"
-
-	unique = {
-		"邦克山" "福吉谷" "普林斯顿" "列克星敦" "萨拉托加" "提康德罗加" "本宁顿" "安提坦" "钱斯勒斯维尔" "葛底斯堡" "希罗" "维克斯堡" "莫比尔湾" "尚普兰湖"
-		"蒙特雷" "圣哈辛托" "贝洛森林" "考彭斯" "关岛" "关塔那摩" "奥古桑山" "加洛坎" "圣克鲁兹" "萨波特" "巴德达霍" "卡伦皮特" "马尼拉" "马洛洛斯" 
-		"唐纳尔森" "豌豆岭" "圣菲利普" "科林斯" "马尔文山" "默弗里斯伯勒" "彼得堡" "本顿维" "富兰克林" "韦斯特波特" "希达溪" "温彻斯特" "琼斯伯勒" "传教士岭"
-		"布拉奇托" "圣塔菲" "莫拉" "恩布多" "拉谢内加" "萨克拉门托" "布埃纳文图拉" "维拉克斯" "华曼特拉" "查普尔特佩克" "普埃布拉" "图斯潘" "汉普顿罗兹" "瑟堡"
-	}
-}
-
-### BATTLESHIP NAMES ###
-### THEME: STATES ###
-NEE_STATES = {
-	name = NAME_THEME_STATES_US
-
-	for_countries = { NEE }
-
-	type = ship
-	ship_types = { ship_hull_heavy battleship ship_hull_carrier carrier }
-
-	prefix = "NES "
-	fallback_name = "Battleship BB-%d"
-
-	unique = {
-		"马萨诸塞" "罗德岛" "康涅狄格" "纽约" "佛蒙特" "新罕布什尔" "缅因"
-	}
-}
-
-### AIRCRAFT CARRIER NAMES ###
-NEE_CV_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CARRIERS
-
-	for_countries = { NEE }
-
-	type = ship
-	ship_types = { ship_hull_carrier carrier }
-
-	prefix = "NES "
-	fallback_name = "Carrier CV-%d"
-
-	unique = {
-		"约克城" "企业" "大黄蜂" "胡蜂"
-		"埃塞克斯" "无畏" "邦克山" "富兰克林" "提康德罗加" "汉考克" "本宁顿" "香格里拉" "伦道夫" "好人理查德" "安提坦" "拳师" "尚普兰湖" "普林斯顿"
-		"奇尔沙治" "福吉谷" "奥里斯坎尼" "复仇"
-		# Cold War and Beyond  (WW2 era Gen/Adm names excluded)
-		"福莱斯特" "独立" "小鹰" "美利坚" "西奥多·罗斯福" "亚伯拉罕·林肯" "乔治·华盛顿"
-	}
-}
-
-### THEME: HISTORICAL LEADERS ###
-NEE_LEADERS = {
-	name = NAME_THEME_LEADERS
-
-	for_countries = { NEE }
-
-	type = ship
-
-	prefix = "NES "
-	fallback_name = "Ship SS-%d"
-
-	unique = {
-		"乔治·华盛顿" "亚伯拉罕·林肯" "托马斯·杰斐逊" "詹姆斯·麦迪逊" "詹姆斯·门罗" "约翰·亚当斯" "本杰明·富兰克林" "尤利西斯·S·格兰特" "安德鲁·杰克逊" "帕特里克·亨利" "伍德罗·威尔逊" "约翰·马歇尔"
-		"伊森·艾伦" "山姆·休斯顿" "拉法耶特" "冯·斯图本" "亚历山大·汉密尔顿" "卡齐米日·普瓦斯基" "刘易斯与克拉克" "詹姆斯·K·伯克"
-		"托马斯·A·爱迪生" "内森·黑尔" "亨利·克雷" "丹尼尔·韦伯斯特" "特库姆塞" "丹尼尔·布恩" "纳撒尼尔·格林" "西蒙·玻利瓦尔" "卡美哈梅哈" "乔治·卡弗" "弗朗西斯·斯科特" "马里亚诺·巴列霍"
-		"威尔·罗杰斯" "乔治·班克洛夫特" "西奥多·罗斯福"
-	}
-}
-
-### THEME: INSPIRATIONAL ###
-NEE_INSPIRATIONAL = {
-	name = NAME_THEME_INSPIRATIONAL
-
-	for_countries = { NEE }
-
-	type = ship
-
-	prefix = "NES "
-	fallback_name = "Ship SS-%d"
-
-	unique = {
-		"凯旋" "胜利" "雄伟" "帝国" "无惧" "庄严" "飞升" "统治" "无畏" "至高" "慷慨" "解放" "挑战者" "反抗" "奋进" "勇士" "不惧"
-		"坚定" "不移" "飞跃" "主权" "光荣"
-	}
-}
-
-##### HAW NAME LISTS #####
-
-### THEME: ISLANDS ###
-HAW_ISLANDS = {
-	name = NAME_THEME_HAW_ISLANDS
-
-	for_countries = { HAW }
-
-	type = ship
-	ship_types = { ship_hull_submarine submarine ship_hull_light destroyer }
-
-	prefix = "HNS "
-	fallback_name = "Ship-%d"
-
-	unique = {
-		"Maui" "O'ahu" "Kaua'i" "Moloka'i" "Lana'i" "Ni'ihau" "Kaho'olawe" "Nihoa" "Mokumanamana" "Kanemiloha'i" "Puhahonu" "Nalukakala" "Kauo" "Papa'apoho" "Holoikauaua" "Pihemanu" "Mokupapapa" "Moku'ume'ume" "Lehua" "Ka'ula"
-		"Kaohikaipu" "Manana" "Mokolea" "Na Mokulua" "Molokini" "Mokoli'i" "Moku Manu" "Moku Ola" "Moku o Lo'e" "Kalaemano" "Kaluahee" "Kaopapa" "Kauhuula" "Kaula'inaiwi" "Kawelohea" "Keaoi" "Kipu" "Kuhulu" "Laahana" "Lepeamoa"
-		"Mahikea" "Mokuhonu" "Mokuokahailani" "Mokupuku" "Opihi" "Pa'akea" "Paokalani" "Pohakulua" "Pulehua" "Wahinemakanui" "Ahu O Laka" "Mokuoloe" "Poka 'Ailana" "Khewa" "Kukaimanini" "Kahaka'aulana" "Kapapa" "Kekepa"
-		"Kukuiho'olua" "Laulaunui" "Mokauea" "Moku'lai" "Mokuaia" "Mokuauia" "Moku Mo'o" "Moku Iki" "Mokulua" "Mokumanu" "Moku Nui" "Mokuoeo" "Pohaku Kula'ila'i" "Papa'amoi" "Popoia" "Pulemoku" "Wananapaoa" "Pihemanu Kauihelani"
-		"Huelo" "Mokapu" "Molokai" "Kalanipuao" "Kuakamoku" "Mokuaeae" "Pu'ukole" "Ahole" "Alau" "Aawaiki" "Aawanui" "Aluea" "Hauko'i" "Hulu" "Kaelua" "Kah'lau" "Kalaepohaku" "Kanaha" "Kaneapua" "Moku o Kau" "Kauwalu" "Ke'puka"
-		"Kukuipalaoa" "Laupapa" "Makalea" "Makohola" "Mahinanui" "Makoloaka" "Mokeehia" "Moku'ula" "Mokuhalua" "Mokuhala" "Mokuho'oniki" "Mokuhuki" "Mokulau" "Mokumana" "Mokupala" "Mokupapa" "Mokupipi" "Moku Naio" "Namoku"
-		"Nanahoa" "Pa'aonu'akea" "Pai" "Papaloa" "Papanui o Kane" "Pohaku Manamana" "Pohaku Paea" "Poopoo" "Puauki'i" "Puaukoa'e" "Puupehe" "Wai'apae" "Waiakapuhi"
-	}
-}
-
-### THEME: MOUNTAINS ###
-HAW_MOUNTAINS = {
-	name = NAME_THEME_HAW_MOUNTAINS
-
-	for_countries = { HAW }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser ship_hull_heavy battle_cruiser }
-
-	prefix = "HNS "
-	fallback_name = "Ship-%d"
-
-	unique = {
-		"Mauna Kea" "Mauna Loa" "Haleakala" "Hualalai" "Pu'u Kukui" "Kaunu o Kaleihoohie" "Kawaikini" "Kamakou" "Oloku'i" "Ka'ala" "Lana'ihale" "Konahuanui" "Ha'upu"
-	}
-}
-
-## THEME: U.S. CITIES ###
-HAW_CITIES = {
-	name = NAME_THEME_HAW_CITIES
-
-	for_countries = { HAW }
-
-	type = ship
-	ship_types = { ship_hull_heavy battle_cruiser battleship ship_hull_carrier carrier }
-
-	prefix = "HNS "
-	fallback_name = "Ship-%d"
-
-	unique = {
-		"Honolulu" "Hilo" "Wailuku" "Lihue" "Waipahu" "Kaneohe" "Kalawao" "Kalaupapa"
-	}
-}
-

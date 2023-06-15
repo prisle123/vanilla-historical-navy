@@ -57,7 +57,7 @@ ENG_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "King George V Class"
-        type = ship_hull_heavy_3
+        type = vnr_ship_hull_heavy_3
         name_group = ENG_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_1
@@ -78,7 +78,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Nelson Class"
-        type = ship_hull_heavy_2
+        type = vnr_ship_hull_heavy_2
         name_group = ENG_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_2_triple
@@ -99,7 +99,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Queen Elizabeth Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = ENG_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_big_1
@@ -121,7 +121,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Revenge Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = ENG_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_big_1
@@ -144,7 +144,7 @@ ENG_start_naval_variants = {
     # battle_cruiser
     create_equipment_variant = {
         name = "Admiral Class"
-        type = ship_hull_heavy_2
+        type = vnr_ship_hull_heavy_2
         name_group = ENG_BC_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_big_1
@@ -166,7 +166,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Renown Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = ENG_BC_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_big_1
@@ -567,7 +567,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "H Class"
-        type = vnr_ship_hull_submarine_2
+        type = vnr_ship_hull_submarine_1
         name_group = ENG_SS_HISTORICAL
         modules = {
             fixed_ship_torpedo_slot = ship_torpedo_sub_2
@@ -579,7 +579,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "L Class"
-        type = vnr_ship_hull_submarine_2
+        type = vnr_ship_hull_submarine_1
         name_group = ENG_SS_HISTORICAL
         modules = {
             fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -609,7 +609,7 @@ GER_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Bismarck Class"
-        type = ship_hull_heavy_3
+        type = vnr_ship_hull_heavy_3
         name_group = GER_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_big_1
@@ -651,7 +651,7 @@ GER_start_naval_variants = {
     # battle_cruiser
     create_equipment_variant = {
         name = "Scharnhorst Class"
-        type = ship_hull_heavy_3
+        type = vnr_ship_hull_heavy_3
         name_group = GER_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_small_1_triple
@@ -918,13 +918,12 @@ FRA_start_naval_variants = {
             fixed_ship_engine_slot = heavy_ship_engine_1
             fixed_ship_secondaries_slot = ship_secondaries_1
             fixed_ship_anti_air_slot = ship_anti_air_1
-            front_1_custom_slot = empty
         }
     }
     # battleship
     create_equipment_variant = {
         name = "Richelieu Class"
-        type = ship_hull_heavy_3
+        type = vnr_ship_hull_heavy_3
         name_group = FRA_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_2_quad
@@ -945,7 +944,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Dunkerque Class"
-        type = ship_hull_heavy_3
+        type = vnr_ship_hull_heavy_3
         name_group = FRA_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_1_quad
@@ -966,7 +965,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Bretagne Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = FRA_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_1
@@ -988,7 +987,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Courbet Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = FRA_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_small_1
@@ -1440,13 +1439,13 @@ JAP_start_naval_variants = {
             fixed_ship_engine_slot = carrier_ship_engine_1
             fixed_ship_anti_air_slot = ship_anti_air_1
             fixed_ship_secondaries_slot = empty
-            front_1_custom_slot = ship_anti_air_1
+            front_1_custom_slot = empty
         }
     }
     create_equipment_variant = {
         name = "Hosho Class"
-        type = vnr_ship_hull_carrier_conversion_bb
-        name_group = JAP_CV_HISTORICAL
+        type = vnr_ship_hull_carrier_conversion_ca
+        name_group = JAP_CVL_HISTORICAL
         modules = {
             fixed_ship_deck_slot_1 = ship_deck_space
             fixed_ship_deck_slot_2 = empty
@@ -1481,7 +1480,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Nagato Class"
-        type = ship_hull_heavy_2
+        type = vnr_ship_hull_heavy_2
         name_group = JAP_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_2
@@ -1503,7 +1502,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Ise Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = JAP_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_1
@@ -1527,7 +1526,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Fuso Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = JAP_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_1
@@ -1552,7 +1551,7 @@ JAP_start_naval_variants = {
     # battle_cruiser
     create_equipment_variant = {
         name = "Kongo Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = JAP_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_1
@@ -1698,6 +1697,27 @@ JAP_start_naval_variants = {
     }
     # light_cruiser
     create_equipment_variant = {
+        name = "Mogami Class"
+        type = vnr_ship_hull_cruiser_3
+        name_group = JAP_CL_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+            front_1_custom_slot = ship_light_medium_battery_2
+            front_2_custom_slot = ship_light_medium_battery_2
+            mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_torpedo_2
+            mid_3_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_light_medium_battery_2
+            rear_2_custom_slot = ship_light_medium_battery_2
+        }
+    }
+    create_equipment_variant = {
         name = "Katori Class"
         type = vnr_ship_hull_cruiser_3
         name_group = JAP_CL_HISTORICAL
@@ -1738,7 +1758,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Yubari Class"
-        type = vnr_ship_hull_cruiser_1
+        type = vnr_ship_hull_cruiser_2
         name_group = JAP_CL_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_light_medium_battery_1_double
@@ -2100,7 +2120,7 @@ ITA_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Littorio Class"
-        type = ship_hull_heavy_3
+        type = vnr_ship_hull_heavy_3
         name_group = ITA_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_big_1
@@ -2122,7 +2142,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Andrea Doria Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = ITA_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_1
@@ -2142,8 +2162,8 @@ ITA_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Conte di Cavour Class"
-        type = ship_hull_heavy_1
+        name = "Conte Di Cavour Class"
+        type = vnr_ship_hull_heavy_1
         name_group = ITA_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_1
@@ -2485,6 +2505,25 @@ ITA_start_naval_variants = {
         obsolete = yes
     }
     create_equipment_variant = {
+        name = "Pilo/Sirtori Class"
+        type = vnr_ship_hull_light_1
+        name_group = ITA_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+            front_1_custom_slot = ship_light_battery_1
+            mid_1_custom_slot = ship_light_battery_1
+            mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+			rear_2_custom_slot = ship_light_battery_1
+        }
+        obsolete = yes
+    }
+    create_equipment_variant = {
         name = "La Masa/Palestro Class"
         type = vnr_ship_hull_light_1
         name_group = ITA_DD_HISTORICAL
@@ -2614,7 +2653,7 @@ SOV_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Gangut Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = SOV_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_small_1_triple
@@ -2985,7 +3024,7 @@ USA_start_naval_variants = {
     # battleship
     create_equipment_variant = {
 		name = "North Carolina Class"
-		type = ship_hull_heavy_3
+		type = vnr_ship_hull_heavy_3
 		name_group = USA_STATES
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2_triple
@@ -3007,7 +3046,7 @@ USA_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Colorado Class"
-		type = ship_hull_heavy_2
+		type = vnr_ship_hull_heavy_2
 		name_group = USA_STATES
 		modules = {
 			fixed_ship_armor_slot = ship_armor_bb_2
@@ -3029,7 +3068,7 @@ USA_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Tennessee Class"
-		type = ship_hull_heavy_1
+		type = vnr_ship_hull_heavy_1
 		name_group = USA_STATES
 		modules = {
 			fixed_ship_armor_slot = ship_armor_bb_1
@@ -3051,7 +3090,7 @@ USA_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Pennsylvania/New Mexico Class"
-		type = ship_hull_heavy_1
+		type = vnr_ship_hull_heavy_1
 		name_group = USA_STATES
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1_triple
@@ -3074,7 +3113,7 @@ USA_start_naval_variants = {
 
 	create_equipment_variant = {
 		name = "Nevada Class"
-		type = ship_hull_heavy_1
+		type = vnr_ship_hull_heavy_1
 		name_group = USA_STATES
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -3097,7 +3136,7 @@ USA_start_naval_variants = {
 	
 	create_equipment_variant = {
 		name = "New York Class"
-		type = ship_hull_heavy_1
+		type = vnr_ship_hull_heavy_1
 		name_group = USA_STATES
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -3120,7 +3159,7 @@ USA_start_naval_variants = {
 
 	create_equipment_variant = {
 		name = "Florida/Wyoming Class"
-		type = ship_hull_heavy_1
+		type = vnr_ship_hull_heavy_1
 		name_group = USA_STATES
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_small_1
@@ -3438,7 +3477,7 @@ ARG_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Rivadavia Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = ARG_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_small_1
@@ -3607,7 +3646,7 @@ AST_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Town Class"
-        type = vnr_ship_hull_cruiser_2
+        type = vnr_ship_hull_cruiser_1
         name_group = AST_CL_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_light_medium_battery_1_single
@@ -3690,7 +3729,7 @@ BRA_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Minas Gerais Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = BRA_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_small_1
@@ -3923,7 +3962,7 @@ CHL_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Almirante Latorre Class"
-        type = ship_hull_heavy_1
+        type = vnr_ship_hull_heavy_1
         name_group = CHL_BB_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_heavy_battery_1
@@ -4490,7 +4529,7 @@ NOR_start_naval_variants = {
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = NOR_CA_HISTORICAL
         modules = {
-            fixed_ship_battery_slot = ship_medium_battery_1_single
+            fixed_ship_battery_slot = ship_medium_battery_1_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -4507,7 +4546,7 @@ NOR_start_naval_variants = {
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = NOR_CA_HISTORICAL
         modules = {
-            fixed_ship_battery_slot = ship_medium_battery_1_single
+            fixed_ship_battery_slot = ship_medium_battery_1_double
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
@@ -4540,7 +4579,7 @@ NOR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Olaf Tryggvason Class"
-        type = ship_hull_cruiser1
+        type = vnr_ship_hull_cruiser_1
         name_group = NOR_CL_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_light_battery_2
@@ -4723,7 +4762,7 @@ SPR_start_naval_variants = {
     # battleship
     create_equipment_variant = {
 		name = "España Class"
-		type = ship_hull_heavy_1
+		type = vnr_ship_hull_heavy_1
 		name_group = SPR_BB_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_small_1
@@ -4838,6 +4877,24 @@ SPR_start_naval_variants = {
 			mid_2_custom_slot = ship_light_battery_2
 			rear_1_custom_slot = ship_depth_charge_1
 			rear_2_custom_slot = ship_light_battery_2
+        }
+    }
+    create_equipment_variant = {
+        name = "Júpiter Class"
+        type = vnr_ship_hull_light_2
+        name_group = SPR_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_light_battery_1
+			mid_2_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_light_battery_1
+            rear_2_custom_slot = ship_mine_layer_1
         }
     }
     create_equipment_variant = {
@@ -5059,6 +5116,22 @@ SWE_start_naval_variants = {
 		}
 		obsolete = yes
 	}
+    create_equipment_variant = {
+		name = "Clas Fleming Class"
+		type = vnr_ship_hull_light_1
+		name_group = SWE_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+            rear_1_custom_slot = ship_mine_layer_1
+			rear_2_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
     # submarine
     create_equipment_variant = {
         name = "Delfinen/Sjölejonet Class"
@@ -5073,7 +5146,7 @@ SWE_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Draken Class"
-        type = vnr_ship_hull_submarine_1
+        type = vnr_ship_hull_submarine_2
         name_group = SWE_SS_HISTORICAL
         modules = {
             fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -5112,7 +5185,7 @@ TUR_start_naval_variants = {
     # battle_cruiser
     create_equipment_variant = {
 		name = "Moltke Class"
-		type = ship_hull_heavy_1
+		type = vnr_ship_hull_heavy_1
 		name_group = TUR_BB_HISTORICAL
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_small_1

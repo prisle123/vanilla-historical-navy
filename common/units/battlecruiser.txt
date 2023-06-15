@@ -5,7 +5,7 @@ sub_units = {
 		priority = 8
 		active = yes
 		type = { capital_ship }
-		need_equipment = { vnr_ship_hull_heavy = 1 }
+		need_equipment = { ship_hull_heavy = 1 }
 		need_equipment_modules = {
 			any = {
 				ship_armor_bc_1 = 1

@@ -1,9 +1,9 @@
-##### CANADA NAME LISTS #####
+﻿##### CANADA NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
 CAN_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -12,21 +12,21 @@ CAN_DD_HISTORICAL = {
 	fallback_name = "Destroyer %s"
 
 	unique = {
-		"弗雷泽" "圣劳伦特" "渥太华" "雷斯蒂古什" "阿西尼博因" "马加里" "库特内"
-		"加蒂诺" "萨斯喀彻温" "曲阿佩勒" "肖迪埃" "阿尔冈金" "苏城" "新月" "十字军"
-		"安纳波利斯" "考德维尔" "切尔西" "哥伦比亚" "乔治敦" "汉密尔顿" "兰卡斯特" "雷明顿" "曼斯菲尔德" "蒙哥马利" "尼亚加拉" "里士满" "圣克莱尔" "索尔兹伯里"
-		"巴克斯顿" "圣克鲁斯" "圣弗朗西斯" "阿萨巴斯卡人" "海达人" "休伦人" "伊洛魁人" "卡尤加人" "米克马克人" "努特卡人"
-		"报复" "航海家" "沃特亨" "萨格奈" "斯基纳"
-		"布雷顿角" "邓弗" "格鲁" "马塔内" "蒙特利尔" "新格拉斯哥" "新沃特福德" "欧特蒙" "科尔本港"
-		"鲁伯特王储" "圣凯瑟琳斯" "圣约翰" "斯托蒙特" "斯旺西" "瓦利菲尔德" "瓦克斯修" "温特沃斯" "埃特里克" "米翁河" "特梅河" "安南河" "内内河" "曼诺河" "里布尔河"
-		"爱国者" "贵族" "温哥华" "张伯伦"
+		"Fraser" "St. Laurent" "Ottawa" "Restigouche" "Assiniboine" "Margaree" "Kootenay"
+		"Gatineau" "Saskatchewan" "Qu'Appelle" "Chaudiere" "Algonquin" "Sioux" "Crescent" "Crusader"
+		"Annapolis" "Caldwell" "Chelsea" "Columbia" "Georgetown" "Hamilton" "Lancaster" "Leamington" "Mansfield" "Montgomery" "Niagara" "Richmond" "St. Clair" "Salisbury"
+		"Buxton" "St. Croix" "St. Francis" "Athabaskan" "Haida" "Huron" "Iroquois" "Cayuga" "Micmac" "Nootka"
+		"Vendetta" "Voyager" "Waterhen" "Saguenay" "Skeena"
+		"Cape Breton" "Dunver" "Grou" "Matane" "Montreal" "New Glasgow" "New Waterford" "Outremont" "Port Colborne"
+		"Prince Rupert" "St. Catherine's" "St. John" "Stormont" "Swansea" "Valleyfield" "Waskesiu" "Wentworth" "Ettrick" "Meon" "Teme" "Annan" "Nene" "Monnow" "Ribble"
+		"Patriot" "Patrician" "Vancouver" "Champlain"
 	}
 }
 
 CAN_GBR_DD_HISTORICAL = {
 	name = NAME_THEME_GBR_HISTORICAL_DESTROYERS
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -36,38 +36,42 @@ CAN_GBR_DD_HISTORICAL = {
 
 	unique = {
 		# Starting with G-class ships
-		"英勇" "花环" "吉普赛人" "萤火虫" "格拉夫顿" "手榴弹" "格伦维尔" "灰猎犬" "狮鹫" "勇敢" "轻率" "浩劫" "赫利沃德" "英雄" "敌意" "热刺" "猎人" "海伯利安"
-		"阿弗里迪人" "阿香提人" "贝都因人" "哥萨克人" "爱斯基摩人" "廓尔喀人" "毛利人" "马绍那人" "马塔贝列人" "莫霍克人" "努比亚人" "旁遮普人" "锡克人" "索马里人" "鞑靼人" "祖鲁人"
-		"伊卡洛斯" "冬青" "伊墨金" "帝国" "冲动" "英格菲尔德" "无畏" "伊西斯" "艾芬豪" "收割者" "哈文特" "哈弗洛克" "赫斯帕洛斯" "高地人" "飓风"
-		"杰维斯" "豺狼" "捷豹" "朱诺" "杰纳斯" "标枪" "泽西" "朱庇特" "凯利" "坎大哈" "克什米尔" "凯文" "喀土穆" "金伯利" "京斯敦" "吉普林" "纳皮尔" "内斯特" "尼扎姆" "诺曼" "尼泊尔"
-		"拉弗雷" "长矛" "活泼" "军团" "闪电" "守望" "忠诚" "米尔恩" "马拉塔" "火枪手" "跟班" "杰出" "流星" "马恩" "马丁"
-		"流动" "奥法" "猛攻" "奥里布" "固执" "顺从" "机遇" "奥威尔" "帕肯汉" "圣骑士" "黑豹" "鹧鸪" "寻路者" "佩恩" "烟花" "豪猪"
-		"善变"
-		"皇后区" "象限" "鹌鹑" "品质" "昆丁" "屈伊伯龙" "导火索" "奎利姆" "罗瑟姆" "赛马" "劫掠者" "快速" "堡垒" "不安" "火箭" "罗巴克"
-		"索玛雷兹" "野人" "蝎子" "惩罚" "塞拉皮斯" "鲨鱼" "迅速" "挑衅" "顽强" "专横" "菊苣" "特鲁布里奇" "托斯卡尼" "泰利安"
-		"阿尔斯特" "尤利西斯" "无惧" "温迪" "大熊座" "淘气" "乌拉尼亚" "维纳斯" "维鲁拉姆" "警戒" "悍妇" "瓦伦丁" "雌狐" "莽撞"
-		"赌徒" "觉醒" "维塞克斯" "幼兽" "旋风" "向导" "牧马人"
-		"明斯" "清风" "赞比西" "妒忌" "斑马" "天顶" "热情" "十二宫" "任性" "卡桑德拉" "凯撒" "卡伦" "骑士"
-		"桂冠" "慈悲" "棋盘" "首领" "雪佛龙" "切维奥特" "柴尔德斯" "侠义" "柯姆斯" "康科德" "竞争" "协调" "帽徽" "彗星" "坚持"
-		"新月" "牧杖" "水晶" "克里斯平" "克里奥尔" "克伦威尔" "王冠"
-		"巴夫勒尔" "特拉法尔加" "阿玛达" "索尔贝" "坎珀当" "福斯特拉" "莱奥格" "拉各斯" "圣基茨" "圣詹姆斯" "加巴德" "格拉沃利讷" "桑特" "斯勒伊斯" "加的斯" "维戈尔"
-		"阿拉曼" "埃纳" "巴罗萨" "科伦纳" "敦刻尔克" "日德兰" "马塔潘角"
-		"大斧" "大剑" "反曲弓" "蝎子" "胆大" "纤巧" "保护" "诱饵" "戴安娜" "公爵夫人" "马尔普拉凯" "伊珀尔" "维米拉"
+		"Gallant" "Garland" "Gipsy" "Glowworm" "Grafton" "Grenade" "Grenville" "Greyhound" "Griffin" "Hardy" "Hasty" "Havock" "Hereward" "Hero" "Hostile" "Hotspur" "Hunter" "Hyperion"
+		"Afridi" "Ashanti" "Bedouin" "Cossack" "Eskimo" "Gurkha" "Maori" "Mashona" "Matabele" "Mohawk" "Nubian" "Punjabi" "Sikh" "Somali" "Tartar" "Zulu"
+		"Icarus" "Ilex" "Imogen" "CANerial" "CANulsive" "Inglefield" "Intrepid" "Isis" "Ivanhoe" "Harvester" "Havant" "Havelock" "Hesperus" "Highlander" "Hurricane"
+		"Jervis" "Jackal" "Jaguar" "Juno" "Janus" "Javelin" "Jersey" "Jupiter" "Kelly" "Kandahar" "Kashmir" "Kelvin" "Khartoum" "Kimberley" "Kingston" "Kipling" "Napier" "Nestor" "Nizam" "Norman" "Nepal"
+		"Laforey" "Lance" "Gurkha" "Lively" "Legion" "Lightning" "Lookout" "Loyal" "Milne" "Mahratta" "Musketeer" "Myrmidon" "Matchless" "Meteor" "Marne" "Martin"
+		"Onslow" "Offa" "Onslaught" "Oribi" "Obdurate" "Obedient" "Opportune" "Orwell" "Pakenham" "Paladin" "Panther" "Partridge" "Pathfinder" "Penn" "Petard" "Porcupine"
+		"Inconstant"
+		"Queenborough" "Quadrant" "Quail" "Quality" "Quentin" "Quiberon" "Quickmatch" "Quilliam" "Rotherham" "Racehorse" "Raider" "Rapid" "Redoubt" "Relentless" "Rocket" "Roebuck"
+		"Saumarez" "Savage" "Scorpion" "Scourge" "Serapis" "Shark" "Swift" "Teazer" "Tenacious" "Termagant" "Terpsichore" "Troubridge" "Tuscan" "Tyrian"
+		"Grenville" "Ulster" "Ulysses" "Undaunted" "Undine" "Ursa" "Urchin" "Urania" "Venus" "Verulam" "Vigilant" "Virago" "Hardy" "Valentine" "Vixen" "Volage"
+		"Wager" "Wakeful" "Wessex" "Whelp" "Whirlwind" "Wizard" "Wrangler"
+		"Myngs" "Zephyr" "Zambesi" "Zealous" "Zebra" "Zenith" "Zest" "Zodiac" "Caprice" "Cassandra" "Caesar" "Carron" "Cavalier"
+		"Chaplet" "Charity" "Chequers" "Chieftain" "Chevron" "Cheviot" "Childers" "Chivalrous" "Comus" "Concord" "Contest" "Consort" "Cockade" "Comet" "Constance" "Cossack"
+		"Crescent" "Croziers" "Crystal" "Crispin" "Creole" "Cromwell" "Crown"
+		"Barfleur" "Trafalgar" "Armada" "Solebay" "Camperdown" "Finisterre" "Hogue" "Lagos" "St. Kitts" "St. James" "Gabbard" "Gravelines" "Saintes" "Sluys" "Cadiz" "Vigo"
+		"Alamein" "Aisne" "Barrosa" "Corunna" "Dunkirk" "Jutland" "Matapan"
+		"Battleaxe" "Broadsword" "Crossbow" "Scorpion" "Daring" "Dainty" "Defender" "Decoy" "Diana" "Duchess" "Malplaquet" "Ypres" "Vimiera"
 		# Older ships (A-F classes)
-		"基斯" "巴西利斯克" "比格犬" "布兰奇" "布狄卡" "伯利亚斯"
-		"无耻" "聪慧" "斗牛犬" "邓肯" "喜悦" "金刚石" 
-		"回响" "月食" "伊莱克特拉" "遭遇" "捉弄" "护卫" "埃斯科" "迅捷" "名望" "不怯" "火龙" "森林人" "远见" "财富" "猎狐犬" "怒火" "福克纳" "埃克斯茅斯"
+		"Keith" "Basilisk" "Beagle" "Blanche" "Boadicea" "Boreas"
+		"Brazen" "Brilliant" "Bulldog" "Duncan" "Dainty" "Daring" "Decoy" "Defender" "Delight" "Diamond" "Diana" "Duchess"
+		"Echo" "Eclipse" "Electra" "Encounter" "Escapade" "Escort" "Esk" "Express" "Fame" "Fearless" "Firedrake" "Forester" "Foresight" "Fortune" "Foxhound" "Fury" "Exmouth" "Faulknor"
 		# Older ships (R/S and V/W classes)
-		"斯凯特" "布鲁斯" "麦凯" "军刀" "萨拉丁" "据点"
-		"瓦伦丁" "勇猛" "瓦诺克" "征服者" "凡尔登" "沃尔蒂根" "威尼斯" "杠杆" "真理" "恶毒" "维米" "生动" "维蒂特"
-		"瓦妮莎" "虚荣" "黄昏" "范西塔特" "看守" "沃克" "温切尔西" "沃维克" "温彻斯特" "沃尔波尔" "威斯科特" "摔跤手"
-		"狼狗" "惠特利" "啄木鸟" "沃尔西" "白腹秧鸡" "武力" "志愿者" "活力" "徘徊者" "白厅" "鹪" "威沙特" "女巫" "韦瑟林顿"
-		"惠特舍德" "战士" "野天鹅" "伍斯顿"
-		"不安" "结实" "议员" "推进" "暴风雨" "热带" "塞斯比" "暴君" "斯宾塞" "海火" "搜寻者" "吞噬"
-		"运动" "可靠" "安详" "女武神" "武力" 
+		"Skate" "Bruce" "Mackay" "Sabre" "Saladin" "Stronghold"
+		"Valentine" "Valorous" "Vanoc" "Vimiera" "Vanquisher" "Verdun" "Vortigern" "Venetia" "Versatile" "Vivacious" "Vesper" "Vimy" "Vivien" "Vidette"
+		"Vanessa" "Vanity" "Viceroy" "Viscount" "Wakeful" "Watchman" "Walker" "Whirlwind" "Winchelsea" "Warwick" "Winchester" "Walpole" "Westcott" "Wrestler" "Wessex"
+		"Wolfhound" "Whitley" "Wryneck" "Windsor" "Wolsey" "Woolston" "Venomous" "Verity" "Volunteer" "Vansittart" "Wanderer" "Whitehall" "Wren" "Wishart" "Witch" "Witherington"
+		"Whitshed" "Veteran" "Wild Swan" "Worcester"
+		"Restless" "Sable" "Senator" "Thruster" "Tempest" "Torrid" "Thisbe" "Tyrant" "Spencer" "Swallow" "Seafire" "Searcher"
+		"Sportive" "Trusty" "Serene" "Valkyrie" "Violent" "Vectis" "Venturous" "Walrus"
 		# Cancelled/Not completed
-		"高尚" "尼丽莎" "无穷"
-		"弯刀" "短刀" "匕首" "榴弹炮" "成功" "宝剑" "燧发枪" "长枪" "卡隆炮" "阔剑" "手榴弹" "长戟" "来复枪" "长矛"
+		"Noble" "Nerissa" "Nonpareil"
+		"Cutlass" "Dagger" "Culverin" "Howitzer" "Longbow" "Sword" "Musket" "Lance" "Carronade" "Claymore" "Dirk" "Grenade" "Halberd" "Poniard" "Rifle" "Spear"
+		"Leeds" "Lewes" "Ludlow" "Bath" "Brighton" "Campbelltown" "Caldwell" "Castleton" "Charlestown" "Chelsea" "Columbia" "Georgetown" "Hamilton" "Lancaster" "Leamington" "Lincoln" "Mansfield"
+		"Montgomery" "Newark" "Newmarket" "Newport" "Niagara" "Richmond" "Roxburgh" "St. Albans" "St. Clair" "St. Mary's" "Salisbury" "Wells" "Belmont" "Beverley" "Bradford" "Broadwater" "Broadway"
+		"Burnham" "Burwell" "Buxton" "Cameron" "Chesterfield" "Churchill" "Clare" "Ramsey" "Reading" "Ripley" "Rockingham" "Sherwood" "Stanley"
+		"Albuera" "Belle Isle" "Navarino" "Namur" "Oudenarde" "Mons" "Omdurman" "San Domingo" "River Plate" "St. Lucia" "Waterloo" "Poictiers" "Talavera" "Trincomalee"
 	}
 }
 
@@ -75,7 +79,7 @@ CAN_GBR_DD_HISTORICAL = {
 CAN_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -84,18 +88,18 @@ CAN_CL_HISTORICAL = {
 	fallback_name = "Light Cruiser %s"
 
 	unique = {
-		"安大略" "魁北克" "曙光女神" "彩虹" "尼俄伯" "不列颠哥伦比亚" "新斯科蒂娅" "新不伦瑞克" "曼尼托巴" "艾伯塔" "萨斯喀彻温"
-		"爱德华王子岛" "多伦多" "蒙特利尔"
-		"温哥华" "渥太华" "卡加利" "埃德蒙顿" "魁北克市" "温尼伯" "汉密尔顿" "伦敦" "基奇纳" "圣凯瑟琳斯" "哈利法克斯"
-		"维多利亚" "温莎" "奥沙华" "萨斯卡通" "雷吉娜" "舍布鲁克" "巴里" "基洛纳" "亚博斯福" "京斯敦" "三河市"
-		"圣约翰" "蒙克顿"
+		"Ontario" "Québec" "Aurora" "Rainbow" "Niobe" "British Columbia" "Nova Scotia" "New Brunswick" "Manitoba" "Alberta" "Saskatchewan"
+		"Prince Edward Island" "Toronto" "Montréal"
+		"Vancouver" "Ottawa" "Calgary" "Edmonton" "Ile de Québec" "Winnipeg" "Hamilton" "London" "Kitchener" "St. Catharines" "Halifax"
+		"Victoria" "Windsor" "Oshawa" "Saskatoon" "Regina" "Sherbrooke" "Barrie" "Kelowna" "Abbotsford" "Kingston" "Trois-Rivieres"
+		"Saint John" "Moncton"
 	}
 }
 
 CAN_GBR_CL_HISTORICAL = {
 	name = NAME_THEME_GBR_HISTORICAL_CL
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -105,15 +109,16 @@ CAN_GBR_CL_HISTORICAL = {
 
 	unique = {
 		# Starting with Leander class (less HMNZS ships)
-		"安菲翁" "阿波罗" "佩内洛普" "曙光女神" "南安普敦" "伯明翰" "格拉斯哥" "纽卡瑟尔" "设菲尔德" "格洛斯特" "利物浦" "曼彻斯特" "爱丁堡" "贝尔法斯特"
-		"斐济" "肯尼亚" "尼日利亚" "毛里求斯" "冈比亚" "牙买加" "百慕大" "锡兰" "纽芬兰" "乌干达" "确捷" "米诺陶" "壮丽"
-		"虎" "狮" "布莱克"
+		"Amphion" "Apollo" "Penelope" "Aurora" "Southampton" "Birmingham" "Glasgow" "Newcastle" "Sheffield" "Gloucester" "Liverpool" "Manchester" "Edinburgh" "Belfast"
+		"Fiji" "Kenya" "Nigeria" "Mauritius" "Gambia" "Jamaica" "Bermuda" "Ceylon" "Newfoundland" "Uganda" "Swiftsure" "Minotaur" "Superb"
+		"Tiger" "Lion" "Blake"
 		# Starting with Dido class
-		"波拿文德拉" "黛朵" "水中女仙" "月神" "赫尔迈厄尼" "欧亚卢斯" "卡律布迪斯" "天狼星" "六头女妖" "亚尔古水手" "贝罗娜" "黑太子" "王冠" "保皇党" "斯巴达"
+		"Bonaventure" "Dido" "Naiad" "Phoebe" "Hermione" "Euryalus" "Charybdis" "Cleopatra" "Sirius" "Scylla" "Argonaut" "Bellona" "Black Prince" "Diadem" "Royalist" "Spartan"
+		"Tiger" "Lion" "Blake"
 		##reusing WW1 ship names from here##
-		"坚持" "康科德" "布里斯托" "韦茅斯" "达特茅斯" "法尔茅斯" "雅茅斯" "查塔姆" "加的夫" "柯柳" "丹娜"
-		"考文垂" "库拉索" "开罗" "加尔各答" "开普敦" "德里" "但尼丁" "德本"
-		"进取" "阿喀琉斯" "阿贾克斯" "林德" "海王星" "林仙" "加拉蒂亚"
+		"Constance" "Concord" "Phaeton" "Bristol" "Weymouth" "Falmouth" "Yarmouth" "Chatham" "Cardiff"
+		"Coventry" "Curacoa" "Cairo" "Calcutta" "Capetown" "Delhi" "Dunedin" "Durban"
+		"Enterprise" "Achilles" "Ajax" "Leander" "Neptune" "Arethusa" "Galatea"
 	}
 }
 
@@ -121,7 +126,7 @@ CAN_GBR_CL_HISTORICAL = {
 CAN_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -130,19 +135,18 @@ CAN_CA_HISTORICAL = {
 	fallback_name = "Heavy Cruiser %s"
 
 	unique = {
-		"京斯敦" "安大略" "魁北克" "不列颠哥伦比亚" "新斯科蒂娅" "新不伦瑞克" "曼尼托巴" "艾伯塔" "萨斯喀彻温"
-		"爱德华王子岛" "尼俄伯"
-		"彩虹" "多伦多" "蒙特利尔" "温哥华" "渥太华" "卡加利" "埃德蒙顿" "魁北克市" "温尼伯" "汉密尔顿" "伦敦"
-		"基奇纳" "圣凯瑟琳斯" "哈利法克斯"
-		"维多利亚" "温莎" "奥沙华" "萨斯卡通" "雷吉娜" "舍布鲁克" "巴里" "基洛纳"
-		"亚博斯福" "三河市" "圣约翰" "蒙克顿"
+		"Kingston" "Ontario" "Québec" "British Columbia" "Nova Scotia" "New Brunswick" "Manitoba" "Alberta" "Saskatchewan"
+		"Prince Edward Island" "Niobe"
+		"Rainbow" "Toronto" "Montréal" "Vancouver" "Ottawa" "Calgary" "Edmonton" "Ile de Québec" "Winnipeg" "Hamilton" "London"
+		"Kitchener" "St. Catharines" "Halifax" "Victoria" "Windsor" "Oshawa" "Saskatoon" "Regina" "Sherbrooke" "Barrie" "Kelowna"
+		"Abbotsford" "Kingson" "Trois-Rivières" "Saint John" "Moncton"
 	}
 }
 
 CAN_GBR_CA_HISTORICAL = {
 	name = NAME_THEME_GBR_HISTORICAL_CA
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_cruiser battle_cruiser heavy_cruiser }
@@ -151,13 +155,12 @@ CAN_GBR_CA_HISTORICAL = {
 	fallback_name = "Heavy Cruiser %s"
 
 	unique = {
-		"罗利" "帝国" "奥兰多" "布雷克" "萨里"
-		"艾芬豪" "坎伯兰" "伯克郡" "康沃尔" "萨福克" "肯特" "伦敦" "德文郡" "什罗普郡" "萨塞克斯" "诺福克" "多塞特郡"
-		"约克" "埃克塞特"
+		"Raleigh" "CANerieuse" "Orlando" "Blake" "Surrey"
+		"Effingham" "Cumberland" "Berwick" "Cornwall" "Suffolk" "Kent" "London" "Devonshire" "Shropshire" "Sussex" "Norfolk" "Dorsetshire"
+		"York" "Exeter"
 		###
-		"埃德加" "霍克" "恩底米翁" "格拉夫顿" "圣乔治" "诺森伯兰" "新月" "非凡" "可怖"
-		"王冠" "尼俄伯" "安菲特里忒" "阿里阿德涅" "斯巴达人" "霍格" "迈纳德斯" "欧亚卢斯" "德雷克" "好运" "埃塞克斯" "罕布什尔" "卡纳芬" 
-		"安特里姆" "凯瑟尼斯" "阿盖尔郡" "爱丁堡公爵" "科克伦"
+		"Edgar" "Hawke" "Endymion" "Grafton" "St. George" "Northumberland" "Crescent" "Powerful" "Terrible"
+		"Diadem" "Niobe" "Amphitrite" "Ariadne" "Spartiate" "Hogue" "Bacchante" "Euryalus" "Drake" "Good Hope" "Essex" "Hampshire" "Carnarvon" "Antrim" "Roxburgh" "Argyll" "Duke of Edinburgh" "Cochrane"
 	}
 }
 
@@ -165,7 +168,7 @@ CAN_GBR_CA_HISTORICAL = {
 CAN_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
@@ -175,9 +178,9 @@ CAN_MINELAYERS_HISTORICAL = {
 
 	unique = {
 		# Cruiser and DD Minelayers
-		"鸻" "亚必迭" "勒托" "孟克斯人" "威尔士人" "阿波罗" "阿里阿德涅"
+		"Plover" "Latona" "Manxman" "Welshman" "Apollo" "Ariadne"
 		# Older and smaller minelayer names
-		"历险" "朱顶雀" "红尾鸲" "环斑鸠"
+		"Adventure" "Linnet" "Redstart" "Ringdove"
 	}
 }
 
@@ -185,7 +188,7 @@ CAN_MINELAYERS_HISTORICAL = {
 CAN_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -194,14 +197,14 @@ CAN_BB_HISTORICAL = {
 	fallback_name = "Battleship %s"
 
 	unique = {
-		"加拿大" "自治领" "安大略" "魁北克" "不列颠哥伦比亚" "新斯科蒂娅" "新不伦瑞克" "曼尼托巴" "艾伯塔" "萨斯喀彻温" "爱德华王子岛"
+		"Canada" "Dominion" "Ontario" "Québec" "British Columbia" "Nova Scotia" "New Brunswick" "Manitoba" "Alberta" "Saskatchewan" "Prince Edward Island"
 	}
 }
 
 CAN_GBR_BB_HISTORICAL = {
 	name = NAME_THEME_GBR_HISTORICAL_BB
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -210,11 +213,11 @@ CAN_GBR_BB_HISTORICAL = {
 	fallback_name = "Battleship %s"
 
 	unique = {
-		"英王乔治五世" "威尔士亲王" "约克公爵" "杰里科" "贝蒂" "狮" "鲁莽" "前卫" "反抗"
-		"壮丽" "圣文森特" "柯林伍德" "海王星" "巨像" "大力神" "王权" "百夫长" "大胆" "阿贾克斯" "艾琳" "马尔博罗"
-		"本鲍" "印度皇帝"
-		"伊丽莎白女王" "马来亚" "君权" "声望" "反击" "纳尔逊"
-		"阿尔比恩" "壁垒" "象" "傲慢" "蒙茅斯" "波利菲莫斯" "欧罗巴" "安朵美达"
+		"King George V" "Prince of Wales" "Duke of York" "Jellicoe" "Beatty" "Lion" "Temeraire" "Vanguard" "Resistance"
+		"Superb" "St Vincent" "Collingwood" "Neptune" "Colossus" "Hercules" "Monarch" "Centurion" "Audacious" "Ajax" "Erin" "Marlborough"
+		"Benbow" "Emperor of India"
+		"Queen Elizabeth" "Malaya" "Royal Sovereign" "Renown" "Repulse" "Nelson"
+		"Albion" "Bulwark" "Elephant" "Arrogant" "Monmouth" "Polyphemus" "Europa" "Andromeda"
 	}
 }
 
@@ -222,7 +225,7 @@ CAN_GBR_BB_HISTORICAL = {
 CAN_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -231,14 +234,14 @@ CAN_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser %s"
 
 	unique = {
-		"加拿大" "自治领" "安大略" "魁北克" "不列颠哥伦比亚" "新斯科蒂娅" "新不伦瑞克" "曼尼托巴" "艾伯塔" "萨斯喀彻温" "爱德华王子岛"
+		"Canada" "Dominion" "Ontario" "Québec" "British Columbia" "Nova Scotia" "New Brunswick" "Manitoba" "Alberta" "Saskatchewan" "Prince Edward Island"
 	}
 }
 
 CAN_GBR_BC_HISTORICAL = {
 	name = NAME_THEME_GBR_HISTORICAL_BC
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -247,8 +250,8 @@ CAN_GBR_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser %s"
 
 	unique = {
-		"安森" "杰里科" "贝蒂" "反抗" "无比" "无敌" "不屈" "不挠" "不倦" "长公主" "玛丽皇后" "虎"
-		"声望" "反击" "勇敢" "光荣" "暴怒" "胡德"
+		"Anson" "Jellicoe" "Beatty" "Resistance" "Incomparable" "Invincible" "Inflexible" "Indomitable" "Indefatigable" "Princess Royal" "Queen Mary" "Tiger"
+		"Renown" "Repulse" "Courageous" "Glorious" "Furious" "Hood"
 	}
 }
 
@@ -256,7 +259,7 @@ CAN_GBR_BC_HISTORICAL = {
 CAN_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -265,14 +268,14 @@ CAN_CV_HISTORICAL = {
 	fallback_name = "Carrier %s"
 
 	unique = {
-		"战士" "雄伟" "波拿文德拉" "非凡" "纳博" "拳击手"
+		"Warrior" "Magnificent" "Bonaventure" "Powerful" "Nabob" "Puncher"
 	}
 }
 
 CAN_GBR_CV_HISTORICAL = {
 	name = NAME_THEME_GBR_HISTORICAL_CARRIERS
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -281,10 +284,10 @@ CAN_GBR_CV_HISTORICAL = {
 	fallback_name = "Carrier %s"
 
 	unique = {
-		"皇家方舟" "光辉" "可畏" "不挠" "怨仇" "不倦"
-		"大胆" "马耳他" "新西兰" "直布罗陀" "阿非利加"
-		"光荣" "勇敢" "暴怒" "鹰"
-		"欧罗巴" "安朵美达" "阿尔比恩" "壁垒" "象" "利维坦" "傲慢" "蒙茅斯" "波利菲莫斯"
+		"Ark Royal" "Illustrious" "Formidable" "Indomitable" "CANlacable" "Indefatigable"
+		"Audacious" "Malta" "New Zealand" "Gibraltar" "Africa"
+		"Glorious" "Courageous" "Furious" "Eagle"
+		"Europa" "Andromeda" "Albion" "Bulwark" "Elephant" "Leviathan" "Arrogant" "Monmouth" "Polyphemus"
 	}
 }
 
@@ -292,7 +295,7 @@ CAN_GBR_CV_HISTORICAL = {
 CAN_GBR_CVL_HISTORICAL = {
 	name = NAME_THEME_GBR_HISTORICAL_CVL
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -302,8 +305,8 @@ CAN_GBR_CVL_HISTORICAL = {
 
 	unique = {
 		# CVL Names
-		"独角兽" "巨像" "可敬" "报复" "荣耀" "开拓者" "海洋" "帕修斯" "忒修斯" "凯旋" "战士"
-		"非凡" "可怖" "大力神" "利维坦" "百眼巨人"
+		"Unicorn" "Colossus" "Venerable" "Vengeance" "Glory" "Pioneer" "Ocean" "Perseus" "Theseus" "Triumph" "Warrior"
+		"Powerful" "Terrible" "Hercules" "Leviathan" "Argus"
 		# CVE Names
 	}
 }
@@ -312,7 +315,7 @@ CAN_GBR_CVL_HISTORICAL = {
 CAN_SS_NTYPE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_NTYPE_SUBMARINES
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -330,7 +333,7 @@ CAN_SS_NTYPE_HISTORICAL = {
 CAN_SS_KTYPE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_KTYPE_SUBMARINES
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -348,7 +351,7 @@ CAN_SS_KTYPE_HISTORICAL = {
 CAN_SS_HTYPE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_HTYPE_SUBMARINES
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -366,7 +369,7 @@ CAN_SS_HTYPE_HISTORICAL = {
 CAN_SS_X1TYPE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_X1TYPE_SUBMARINES
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -384,7 +387,7 @@ CAN_SS_X1TYPE_HISTORICAL = {
 CAN_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -393,14 +396,14 @@ CAN_SS_HISTORICAL = {
 	fallback_name = "Submarine %s"
 
 	unique = {
-		"大西洋鲑" "彩虹" "奥吉布瓦" "奥卡纳根" "奥农达加" "奥林匹斯" "欧西里斯" "维多利亚" "温莎" "科纳布鲁克" "希库蒂米"
+		"Grilse" "Rainbow" "Ojibwa" "Okanagan" "Onondaga" "Olympus" "Osiris" "Victoria" "Windsor" "Corner Brook" "Chicoutimi"
 	}
 }
 
 CAN_GBR_SS_HISTORICAL = {
 	name = NAME_THEME_GBR_HISTORICAL_SUBMARINES
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -410,27 +413,28 @@ CAN_GBR_SS_HISTORICAL = {
 
 	unique = {
 			# Starting with S-class ships
-		"剑鱼" "鲟鱼" "海马" "海星" "泰晤士河" "塞文河" "克莱德河" "海狮" "鲨鱼" "鲷鱼" "鲑鱼" "海狼" "旗鱼" "太阳鱼" "小体鲟"
-		"鼠海豚" "灰海豚" "独角鲸" "须鲸" "抹香鲸" "海豹" "特里同" "忒提斯" "论坛" "三叉戟" "大捷"
-		"温迪" "联合" "乌苏拉" "裁判" "尤娜" "不败" "不怯" "工会" "独特" "支持者" "耿直" "顽皮" "督促" "乌斯克" "极致"
-		"塔库" "海鲢" "蓟" "底格里斯" "三位一体" "怠惰" "金枪鱼" "护符" "领主" "托贝" "暴风雨" "荆棘" "长尾鲛" "旅者" "骑兵" "可信" "湍流"
-		"尘嚣" "通牒" "暗影" "倔强"
-		"探索" "萨希布" "撒拉逊人" "萨堤尔" "权杖" "海狗" "西比拉" "海上漫游者" "炽天使" "莎士比亚" "水妖" "镰刀" "西门" "队长" "恶毒" "灿烂" "运动员"
-		"不破" "和谐" "团结" "莫敌" "从容" "不羁" "无形" "复仇者" "不摇"
-		"侵入者" "战术家" "好斗" "圣殿骑士" "锁定" "坦塔罗斯" "坦提维"
-		"斯多葛" "巨石阵" "风暴" "多谋" "强弓" "火苗" "斯基泰人" "固执" "冲浪者" "瑟提斯" "沙利马尔" "苏格兰人" "海魔鬼" "精神" "参议员"
-		"无情" "篡位" "大同" "野蛮" "不懈" "瓦兰吉" "乌瑟尔" "不弃" "破坏者" "新贵" "瓦尔内" "声响"
-		"健壮" "冥河" "微妙" "至高" "海上侦察兵" "莎伦娜" "执事" "哨兵" "西顿" "侦探" "索伦特" "矛头"
-		"冒险家" "维京人" "吸血鬼" "蓬勃" "美德" "西哥特人" "明快" "贪心" "狐狸" "瓦尔内" "终局" "荨麻" "寻仇" "涡流" "剧毒" "弥散"
-		"施普林格" "忒勒马科斯" "海龟" "周密" "拓乐" "都铎" "不疲" "令牌" "季风" "刻薄" "箭头" "王牌" "沉默" "貘" "天才" "特雷多"
-		"传奇" "灼热者" "马刺" "乐观" "投票人" "游民" "安菲翁" "精明" "御夫座" "野牛" "阿尔西德" "奥尔德尼" "同盟" "伏击" "隐士" "安德鲁" "好斗" "埃涅阿斯"
-		"阿拉里克" "战袍" "图腾" "束棍" "特平" "温泉关" "阿尔忒弥斯" "精巧" "冥界" "皇牌" "伙伴"
+		"Swordfish" "Sturgeon" "Seahorse" "Starfish" "Thames" "Severn" "Clyde" "Sealion" "Shark" "Snapper" "Salmon" "Seawolf" "Spearfish" "Sunfish" "Sterlet"
+		"Porpoise" "Grampus" "Narwhal" "Rorqual" "Cachalot" "Seal" "Triton" "Thetis" "Trident" "Triumph"
+		"Undine" "Unity" "Ursula" "Umpire" "Una" "Unbeaten" "Undaunted" "Union" "Unique" "Upholder" "Upright" "Urchin" "Urge" "Usk" "Utmost"
+		"Taku" "Tarpon" "Thistle" "Tigris" "Triad" "Truant" "Tuna" "Talisman" "Tetrarch" "Torbay" "Tempest" "Thorn" "Thrasher" "Traveller" "Trooper" "Trusty"
+		"Uproar" "Ultimatum" "Umbra" "Unbending"
+		"Safari" "Sahib" "Saracen" "Satyr" "Sceptre" "Seadog" "Sibyl" "Sea Rover" "Seraph" "Sea Nymph" "Sickle" "Simoom" "Spiteful" "Splendid" "Sportsman"
+		"Unbroken" "Unison" "United" "Unrivalled" "Unruffled" "Unruly" "Unseen" "Ultor" "Unshaken"
+		"P311" "Trespasser" "Truculent" "Templar" "Tally-Ho" "Tantalus" "Tantivy"
+		"Stoic" "Storm" "Stratagem" "Strongbow" "Spark" "Scythian" "Stubborn" "Surf" "Syrtis" "Shalimar" "Sea Devil" "Spirit" "Statesman"
+		"Unsparing" "Usurper" "Universal" "Untamed" "Untiring" "Varangian" "Uther" "Unswerving" "Vandal" "Upstart" "Varne" "Vox"
+		"Stygian" "Subtle" "Supreme" "Sea Scout" "Selene" "Seneschal" "Sentinel" "Sidon" "Sleuth" "Solent" "Spearhead"
+		"Venturer" "Viking" "Vampire" "Vox" "Vigorous" "Virtue" "Visigoth" "Vivid" "Voracious" "Vulpine" "Varne" "Upshot" "Urtica" "Vengeful" "Vortex" "Virulent" "Volatile"
+		"Springer" "Telemachus" "Terrapin" "Thorough" "Thule" "Tudor" "Tireless" "Token" "Tradewind" "Trenchant" "Tiptoe" "Trump" "Taciturn" "Tapir" "Talent" "Teredo"
+		"Saga" "Scorcher" "Spur" "Sanguine" "Votary" "Vagabond" "Amphion" "Astute" "Auriga" "Aurochs" "Alcide" "Alderney" "Alliance" "Ambush" "Anchorite" "Andrew" "Affray" "Aeneas"
+		"Alaric" "Tabard" "Totem" "Truncheon" "Turpin" "Thermopylae" "Artemis" "Artful" "Ace"
 			###older ship names (unnumbered)
-		"奥伯龙" "奥特韦" "奥克斯利" "奥丁" "奥林匹斯" "俄耳甫斯" "欧西里斯" "奥斯瓦尔德" "奥图斯" "潘多拉" "帕提亚人" "帕修斯" "凤凰" "普罗透斯" "彩虹" "摄政" "轩辕" "漫游者"
+		"Oberon" "Otway" "Oxley" "Odin" "Olympus" "Orpheus" "Osiris" "Oswald" "Otus" "Pandora" "Parthian" "Perseus" "Phoenix" "Proteus" "Rainbow" "Regent" "Regulus" "Rover"
+		"Thames" "Severn" "Clyde"
 			###planned but cancelled, etc.
-		"有利" "慷慨" "毒液" "气魄" "放荡" "向上" "海罗宾" "轻快" "海面" "浪涌" "波塞冬" "否决" "阳刚" "访问者" "乌帕斯" "乌力士" "乌托邦"
-		"安德洛玛克" "答案" "敌手" "安泰" "澳新军团" "阿芙罗狄蒂" "接近" "阿卡迪亚" "热心" "阿戈西" "亚特兰蒂斯" "可叹" "粗糙" "严肃" "对抗者" "阿兹台克人" "阿伯拉尔"
-		"阿卡斯塔" "玛瑙" "侵略者" "灵活" "阿拉丁" "阿尔切斯蒂斯" "阿斯加德" "保证" "阿斯塔特"
+		"Vantage" "Venom" "Verve" "Unbridled" "Upward" "Sea Robin" "Sprightly" "Surface" "Surge" "Poseidon" "Veto" "Virile" "Visitan" "Upas" "Ulex" "Utopia"
+		"Andromache" "Answer" "Antagonist" "Antaeus" "Anzac" "Aphrodite" "Approach" "Arcadian" "Argosy" "Atlantis" "Admirable" "Asperity" "Austere" "Adversary" "Aztec" "Abelard"
+		"Agate" "Aggressor" "Agile" "Aladdin" "Alcestis" "Asgard" "Assurance" "Astarte"
 	}
 }
 
@@ -438,14 +442,13 @@ CAN_GBR_SS_HISTORICAL = {
 CAN_PROVINCES = {
 	name = NAME_THEME_PROVINCES
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 
 	prefix = "HMCS "
 	unique = {
-		"安大略" "魁北克" "不列颠哥伦比亚" "新斯科蒂娅" "新不伦瑞克" "曼尼托巴" "艾伯塔" "萨斯喀彻温" "爱德华王子岛"
-		"西北地" "纽纳武特" "育空" "纽芬兰" "拉布拉多"
+		"Ontario" "Québec" "British Columbia" "Alberta" "Manitoba" "Saskatchewan" "Nova Scotia" "New Brunswick" "Prince Edward Island" "Northwest Territories" "Nunavut" "Yukon" "Newfoundland" "Labrador"
 	}
 }
 
@@ -453,16 +456,16 @@ CAN_PROVINCES = {
 CAN_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 
 	prefix = "HMCS "
 	unique = {
-		"多伦多" "蒙特利尔" "卡加利" "温哥华" "渥太华" "埃德蒙顿" "温尼伯" "魁北克市" "哈利法克斯" "密西沙加" "布兰普顿" "汉密尔顿" "雷吉娜"
-		"维多利亚" "弗雷德瑞克登" "萨里" "拉瓦勒" "伦敦" "万锦" "旺市" "加蒂诺" "萨斯卡通" "朗基尔" "基奇纳" "本那比" "温莎" "里士满"
-		"奥沙华" "圣凯瑟琳斯" "基洛纳" "巴里" "舍布鲁克" "贵湖" "亚博斯福" "京斯敦" "三河市" "希库蒂米" "容基耶尔"
-		"红鹿市" "布兰特福德" "珊德湾" "白石城"
+		"Toronto" "Montréal" "Calgary" "Vancouver" "Ottawa" "Edmonton" "Winnipeg" "Québec City" "Halifax" "Mississauga" "Brampton" "Hamilton" "Regina"
+		"Victoria" "Fredericton" "Surrey" "Laval" "London" "Markham" "Vaughan" "Gatineau" "Saskatoon" "Longueuil" "Kitchener" "Burnaby" "Windsor" "Richmond"
+		"Oshawa" "Saint Catherines" "Kelowna" "Barrie" "Sherbrooke" "Guelph" "Abbotsford" "Kingston" "Trois-Rivières" "Chicoutimi" "Jonquière"
+		"Red Deer" "Brantford" "Thunder Bay" "White Rock"
 	}
 }
 
@@ -470,14 +473,16 @@ CAN_CITIES = {
 CAN_TRIBES = {
 	name = NAME_THEME_TRIBES
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 
 	prefix = "HMCS "
 	unique = {
-		"阿尔冈金人" "尼什那比人" "阿萨巴斯卡人" "阿西尼博因人" "布勒人" "卡尤加人" "奇佩维扬人" "齐黑里斯人" "科莫克斯人" "考伊琴人" "克里人"
-		"海达人" "休伦人" "伊努人" "伊洛魁人" "库特尼人" "夸库特尔人" "桑吉斯人" "利卢埃特人" "米克马克人" "莫霍克人" "尼皮辛人" "拉卡帕穆克斯人" "努特卡人" "努哈尔克人"
+		"Algonquin" "Anishinaabe" "Athabaskan" "Assiniboine" "Burrard" "Cayuga" "Chipewyan" "Chehalis" "Comox" "Cowichan" "Cree"
+		"Haida" "Huron" "Innu" "Iroquois" "Kootenay" "Kwakiutl" "Lekwungen" "Lillooet" "Micmac" "Mohawk" "Nipissing" "Nlakapamuk" "Nootka" "Nuxálk"
+		"Ojibwa" "Okanagan" "Oneida" "Onondaga" "Ottawa" "Penelakut" "Potawatomi" "Sechelt" "Seneca" "Shuswap" "Sinixt" "Sioux" "Snuneymuxw" "Stahlo"
+		"Tlingit" "Tuscarora" "Wakashan" "Wyandot"
 	}
 }
 
@@ -485,17 +490,17 @@ CAN_TRIBES = {
 CAN_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 
 	prefix = "HMCS "
 
 	unique = {
-		"麦肯锡河" "育空河" "圣劳伦斯河" "哥伦比亚河" "皮斯河" "丘吉尔河" "弗雷泽河" "阿萨巴斯卡河" "利亚德河"
-		"阿西尼博因河" "阿尔巴尼河" "塞文河" "塞隆河" "格兰德河" "红河" "科克索克河" "铜河" "杜邦特湖" "库特尼河"
-		"诺塔威河" "鲁伯特河" "阿塔瓦皮斯卡特" "卡赞河" "大鲸河" "豪猪" "庞多雷湖" "海河" "萨格奈河"
-		"安德森河" "皮尔河" "霍顿河" "佩里河"
+		"Mackenzie" "Yukon" "Saint Lawrence" "Columbia" "Peace River" "Churchill" "Fraser" "Athabasca" "Liard"
+		"Assiniboine" "Albany" "Severn" "Thelon" "La Grande" "Red River" "Koksoak" "Coppermine" "Dubawnt" "Kootenay"
+		"Nottaway" "Rupert" "Attawapiskat" "Kazan" "Great Whale" "Porcupine" "Pend d'Oreille" "Hay River" "Saguenay"
+		"Anderson" "Peel" "Horton" "English" "Pelley"
 	}
 }
 
@@ -503,23 +508,19 @@ CAN_RIVERS = {
 CAN_GBR_KINGS = {
 	name = NAME_THEME_KINGS # 1066 - 1936
 
-	for_countries = { IMP }
-
-	can_use = {
-		CAN_is_dominion = no
-	}
+	for_countries = { CAN }
 
 	type = ship
 
 	prefix = "HMCS "
 
 	unique = {
-		"英王爱德华八世" "英王乔治五世" "英王爱德华七世" "维多利亚女王" "英王威廉四世" "英王乔治四世"
-		"英王乔治三世" "英王乔治二世" "英王乔治一世" "安妮女王" "英王威廉三世" "英王詹姆斯二世"
-		"英王查尔斯二世" "英王查尔斯一世" "英王詹姆斯一世" "伊丽莎白女王" "玛丽皇后" "英王爱德华六世" "英王亨利八世"
-		"英王亨利七世" "英王理查德三世" "英王爱德华五世" "英王爱德华四世" "英王亨利六世" "英王亨利五世" "英王亨利四世"
-		"英王理查德二世" "英王爱德华三世" "英王爱德华二世" "英王爱德华一世" "英王亨利三世" "英王约翰" "英王理查德一世"
-		"英王亨利二世" "英王史蒂芬" "英王亨利一世" "英王威廉二世" "英王威廉一世"
+		"King Edward VIII" "King George V" "King Edward VII" "Queen Victoria" "King William IV" "King George IV"
+		"King George III" "King George II" "King George I" "Queen Anne" "King William III" "King James II"
+		"King Charles II" "King Charles I" "King James I" "Queen Elizabeth" "Queen Mary" "King Edward VI" "King Henry VIII"
+		"King Henry VII" "King Richard III" "King Edward V" "King Edward IV" "King Henry VI" "King Henry V" "King Henry IV"
+		"King Richard II" "King Edward III" "King Edward II" "King Edward I" "King Henry III" "King John" "King Richard I"
+		"King Henry II" "King Stephen" "King Henry I" "King William II" "King William I"
 	}
 }
 
@@ -527,40 +528,26 @@ CAN_GBR_KINGS = {
 CAN_FISH = {
 	name = NAME_THEME_FISH
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 
 	prefix = "HMCS "
 
 	unique = {
-		"鲨鱼" "海鲢" "鲈鱼" "梭鱼" "鲳鲹" "潜水者" "鳕鱼" "参鱼"
-		# Salmon
-		"鲑鱼" "海豹" "鲣鱼" "鲷鱼" "黄貂鱼" "鲟鱼"
-		# Sargo
-		"重牙鲷" "秋刀鱼" "枪鱼" "杜父鱼" "旗鱼" "剑鱼" "海龙" "海狮" "海渡鸦" "海狼"
-		# Tambor
-		"河豚" "隆头鱼" "长尾鲨" "特里同" "鳟鱼" "吞拿鱼" "鲭鱼" "马林鱼" "灰鲸" "河鳟" "鼠尾鱼" "白杨鱼"
-		# Mackerel
-		"马鲛鱼" "雀鳝"
-		# Gato
-		"小鲨鱼" "六线鱼" "石斑鱼" "黑鲈" "银汉鱼" "针鱼" "大青花鱼" "琥珀鱼" "鲃鱼" "黑鱼" "蓝鱼" "北梭鱼" "银鳕鱼" "塞罗鱼" "科维纳鱼" "镖鲈" "鼓鱼" "飞鱼" "长须鲸" "黑线鳕" "大比目鱼"
-		"鲱鱼" "国王鱼" "西鲱" "银河鱼" "鳞鲀" "棘䲠" "鲸鱼" "𩽾𩾌鱼" "铲𫚔" "蓝鳃太阳鱼" "欧鳊" "竹荚鱼" "海鲡" "石首鱼" "鲦鱼" "鲯鳅" "松鲷" "日鲈" "比目鱼" "牛鼻鲼" "锦鳚" "角鱼"
-		"粉红鲑" "无须鳕" "李氏鮻" "油角鲨" "鲹鱼" "鲉鱼" "翼齿鲷" "北美狗鱼" "匙吻鲟" "紫身笛鲷" "竹节䲠" "油鲱" "黑异孔石鲈" "四齿鲀" "红石鱼" "奈氏鳕" "𫚉鱼" "红鳍鱼" "罗巴洛鱼" "银花鲈鱼" "金鲹" "锯鳐" "喙鲈" "蝎子" "锯盖鱼"
-		"虹鳟" "太阳鱼" "金枪鱼" "阔步鲹" "湖白鲑"
-		# Balao
-		"巴劳鱵" "尖嘴鱼" "弓鳍鱼" "纹首鮨" "毛鳞鱼" "思科鱼" "马鲹" "魔鬼鱼" "䲗鱼" "玉梭鱼" "铲鲟" "帆蜥鱼" "军曹鱼" "狮子鱼" "毯𫚉" "鯙鱼" "鼓石首鱼" "大海鲢" "海马"
-		"鳐鱼" "刺尾鲷" "软棘鱼" "天竺鲷" "金吉鲈" "蝙蝠鱼" "射水鱼" "光轮鱼" "白鱼" "巴伯罗鲷" "巴亚喙鲈" "贝库娜鱼" "梳唇隆头鱼" "真鲷" "黑鳍鱼" "凯门鳄" "鳚鱼" "斑点圆鲀" "蓝背鱼" "豚鼻鱼" "红点鲑" "鲢鱼"
-		"菱鲆" "布加拉鱼" "牛头鱼" "鲭鲹" "若鲉" "灰鲭鲨" "豚鱼" "红鲹" "鲤鱼" "鲶鱼" "电鳐" "绯鲤" "扁鲹" "蓝鹦嘴鱼" "云纹裸皮鲉" "妪鳞鲀" "雅罗鱼" "巴西笛鲷" "库斯克鳕" "刺鲀" "狗鱼鲨"
-		"墨瑞鳕" "鱵鱼" "儒艮" "鳗鱼" "埃斯帕达鱼" "后颌鱼" "奥诺鲅" "加洛帕石班鱼" "加鲁帕石班鱼" "白刺盖太阳鱼" "臼齿鱼" "玳瑁" "冰鱼" "贾劳仿石鲈" "四斑蝴蝶鱼" "克拉肯" "合齿鱼" "七鳃鳗" "蜥蜴鱼" "赤蠵龟" "马卡比鱼"
-		"马皮罗鱼" "梅罗鱼" "颌针鱼" "红鲑" "玉筋鱼" "大鳞魣" "红鲳鲹" "礁蝴蝶鱼" "黑鲱鱼" "领航鱼" "条斑马鲛" "管鱼" "水虎鱼" "鲽鱼" "鲳鱼"
-		"小体鲟" "后石首鱼" "剃刀鲸" "红鱼" "深海鳚" "鞘鱼" "塞贡多鱼" "海猫" "鬼蝠𫚉" "海狗" "海狐" "游鳍叶鲹" "拟三棘鲀" "圆鳍鱼" "八角鱼" "鲂𫚒" "魣鱼" "下鱵鱼" "马鲅"
-		"白鲳" "海参" "石首鱼" "灰海豚" "棘背鱼" "蜥狗母鱼"
-		# Tench
-		"𫚕鱼" "热带虎鲨" "古巴长带鱼" "褐鳟鱼" "托罗鱼" "大西洋鳕" "亚口鱼" "管口鱼" "单鳍鳕" "海贼鱼" "独角兽" "海象" "康吉鳗" "带鱼" "无刺蝠鲼" "高体𫚕" "纺缍𫚕" "豹海豹" "大洋辐鳍鱼" "西拉戈鱼" "笛鲷"
-		"䲟鱼" "萨达鲭" "狗鲨" "加州飞鱼"
-		# Unfinished
-		"大菱鲆" "珍鲹" "欧白鲑" "白鱼" "白化鱼" "狼鱼" "九带鮨" "黑海豹" "蒂博龙" 
+		"Albacore" "Amberjack" "Angler" "Apogon" "Aspro" "Archerfish" "Atule" "Barracuda" "Bass" "Bonita" "Barb" "Blackfish" "Bluefish" "Bonefish" "Bashaw" "Bluegill" "Bream" "Balao" "Billfish" "Bowfin" "Batfish" "Burrfish"
+		"Barbel" "Barbero" "Baya" "Becuna" "Bang" "Bergall" "Besugo" "Blackfin" "Blenny" "Blower" "Blueback" "Boarfish" "Brill" "Bugara" "Bullhead" "Bumper" "Cachalot" "Cuttlefish" "Cavalla" "Cobia" "Croaker" "Cod" "Cero"
+		"Corvina" "Cabrilla" "Capelin" "Cisco" "Crevalle" "Caiman" "Charr" "Chub" "Cabezon" "Capitaine" "Carbonero" "Carp" "Catfish" "Chivo" "Chopper" "Clamagore" "Cobbler" "Cochino" "Corporal" "Cubera" "Cusk" "Conger" "Comber"
+		"Dolphin" "Darter" "Drum" "Devilfish" "Dragonet" "Dentuda" "Diodon" "Dogfish" "Dugong" "Escolar" "Entemedor" "Eel" "Espada" "Flying Fish" "Finback" "Flasher" "Flier" "Flounder"
+		"Gar" "Grampus" "Grayback" "Grayling" "Gato" "Greenling" "Grouper" "Growler" "Grunion" "Guardfish" "Gabilan" "Gunnel" "Gurnard" "Greenfish" "Garlopa" "Garrupa" "Goldring" "Golet" "Guavina" "Guitarro"
+		"Haddock" "Halibut" "Herring" "Haddo" "Hake" "Harder" "Hoe" "Hackleback" "Halfbeak" "Hammerhead" "Hardhead" "Hawkbill" "Icefish" "Irex" "Jack" "Jawfish" "Jallao" "Kete" "Kraken" "Kingfish"
+		"Lapon" "Lancetfish" "Ling" "Lionfish" "Lagarto" "Lamprey" "Lizardfish" "Loggerhead" "Manta" "Moray" "Mingo" "Muskallunge" "Mackerel" "Marlin" "Macabi" "Mapiro" "Menhaden" "Mero" "Medregal"
+		"Narwhal" "Nautilus" "Needlefish" "Nerka" "Ono" "Odax" "Porpoise" "Pike" "Perch" "Pickerel" "Pompano" "Paddle" "Pargo" "Peto" "Pogy" "Pompon" "Puffer" "Piper" "Rasher" "Picuda" "Pampanito" "Parche" "Pilotfish" "Pintado"
+		"Pipefish" "Piranha" "Plaice" "Pomfret" "Pomodon" "Queenfish" "Quillback" "Raton" "Ray" "Redfin" "Robalo" "Rock" "Runner" "Roncador" "Razorback" "Redfish" "Ronquil" "Requin" "Remora"
+		"Shark" "Salmon" "Seal" "Skipjack" "Snapper" "Stingray" "Sturgeon" "Sargo" "Saury" "Spearfish" "Sculpin" "Sailfish" "Swordfish" "Seadragon" "Sealion" "Searaven" "Seawolf" "Shad" "Silversides" "Sawfish" "Scamp" "Scorpion"
+		"Snook" "Steelhead" "Sunfish" "Sabalo" "Sablefish" "Seahorse" "Skate" "Sand Lance" "Sterlet" "Scabbardfish" "Segundo" "Sea Cat" "Sea Devil" "Sea Dog" "Sea Fox" "Spikefish" "Sea Owl" "Sea Poacher" "Sea Robin" "Sennet"
+		"Spadefish" "Spot" "Springer" "Stickleback" "Sea Leopard" "Sirago" "Sarda" "Spinax" "Sea Panther" "Springeren" "Tarpon" "Tambor" "Tautog" "Thresher" "Trout" "Tuna" "Tunny" "Tinosa" "Tullibee" "Tang" "Tilefish" "Threadfin"
+		"Trepang" "Tiru" "Tench" "Thornback" "Tigrone" "Tirante" "Trutta" "Toro" "Torsk" "Trumpetfish" "Tusk" "Turbot" "Tiburon" "Ulua" "Vendace" "Wahoo" "Whale" "Walrus" "Whitefish" "Whiting" "Wolffish"
 	}
 }
 
@@ -568,14 +555,15 @@ CAN_FISH = {
 CAN_INSPIRATIONAL = {
 	name = NAME_THEME_INSPIRATIONAL
 
-	for_countries = { IMP }
+	for_countries = { CAN }
 
 	type = ship
 
 	prefix = "HMCS "
 
 	unique = {
-		"大捷" "帝国" "不惧" "飞升" "统治" "无畏" "至高" "慷慨" "解放" "挑战者" "抵抗" "忍耐"
-		"坚定" "喜悦" "主权" "光荣"
+		"Triumphant" "CANerial" "Fearless" "Ascendant" "Dominion" "Intrepid" "Supremacy" "Bounty" "Liberation" "Challenger" "Defiant" "Endeavour"
+		"Stalwart" "Exaltation" "Sovereign" "Glorious"
 	}
 }
+

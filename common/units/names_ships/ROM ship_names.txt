@@ -13,7 +13,7 @@ ROM_SS_HISTORICAL = {
 	fallback_name = "Submarin %s"
 
 	unique = {
-		"海豚" "鲨鱼" "鼠海豚" "白斑狗鱼" "逆戟鲸" "章鱼" "海狮" "海豹" "鳟鱼" "鲑鱼"
+		"Delfinul" "Rechinul" "Marsuinul" "Stiuca" "Orca" "Caracatita" "Leul de Mare" "Foca" "Pastravul" "Somonul"
 	}
 }
 
@@ -30,7 +30,7 @@ ROM_DD_HISTORICAL = {
 	fallback_name = "Distrugator %s"
 
 	unique = {
-		"斐迪南一世" "玛丽亚王后" "风暴" "暴风雪" "马拉斯蒂" "默勒谢什蒂" "奥伊图兹" "西风" "东北风" "南风" "普鲁特" "雅洛米察"
+		"Regele Ferdinand" "Regina Maria" "Vifor" "Viscol" "Marasti" "Marasesti" "Oituz" "Zefirul" "Crivatul" "Austrul" "Prut" "Ialomita"
 	}
 }
 
@@ -47,7 +47,7 @@ ROM_CL_HISTORICAL = {
 	fallback_name = "Crucisator %s"
 
 	unique = {
-		"埃曼努尔·科斯林斯基海军上将" "德米特雷斯库·麦坎将军" "穆尔盖斯库海军上将" "胡希" "勒姆尼库瑟拉特" "特尔古日乌" "泰库奇" "斯洛博齐亚" "克勒拉希"
+		"Amiral Emanoil Koslinski" "General Dumitrescu-Maican" "Amiral Murgescu" "Husi" "Ramnicu Sarat" "Targu Jiu" "Tecuci" "Slobozia" "Calarasi"
 	}
 }
 
@@ -64,7 +64,7 @@ ROM_CA_HISTORICAL = {
 	fallback_name = "Crucisator %s"
 
 	unique = {
-		"克卢格雷尼" "洛凡" "尼科波尔" "勒兹博耶尼" "科斯敏森林" "妮高·巴萨拉布" "马泰·巴萨拉布" "瓦西里·卢普" "弗拉格·卡卢加鲁尔"
+		"Calugareni" "Rovine" "Nicopole" "Razboieni" "Codrii Cosminului" "Neagoe Basarab" "Matei Basarab" "Vasile Lupu" "Vlad Calugarul"
 	}
 }
 
@@ -81,7 +81,7 @@ ROM_BC_HISTORICAL = {
 	fallback_name = "Crucisator de linie %s"
 
 	unique = {
-		"蒙特尼亚" "摩尔多瓦" "奥尔特尼亚" "比萨拉比亚" "多布罗加" "特兰西瓦尼亚" "巴纳特" "克里沙纳" "马拉穆列什" "布科维纳" "康斯坦丁·布兰科维亚努" "迪米特里耶·坎泰米尔" "约翰三世" "斯特凡三世" "米尔恰一世"
+		"Muntenia" "Moldova" "Oltenia" "Basarabia" "Dobrogea" "Transilvania" "Banat" "Crisana" "Maramures" "Bucovina" "Constantin Brancoveanu" "Dimitrie Cantemir" "Ioan Voda cel Viteaz" "Stefan cel Mare" "Mircea cel Batran"
 	}
 }
 
@@ -98,7 +98,7 @@ ROM_BB_HISTORICAL = {
 	fallback_name = "Cuirasat %s"
 
 	unique = {
-		"罗马尼亚" "三色旗" "维多利亚" "迪塞巴拉斯" "图拉真" "布雷比斯塔" "哈德良" "马可·奥勒留" "勇敢的米哈伊" "图密善" "塞普蒂米乌·塞维尔" "达契亚" "普罗利萨姆" "马尔瓦" "阿普兰瑟斯"
+		"Romania" "Tricolorul" "Victoria" "Decebal" "Traian" "Burebista" "Hadrian" "Marcu Aureliu" "Mihai Viteazul" "Domitian" "Septimiu Sever" "Dacia" "Porolissensis" "Malvensis" "Apulensis"
 	}
 }
 
@@ -115,7 +115,7 @@ ROM_CV_HISTORICAL = {
 	fallback_name = "Portavion %s"
 
 	unique = {
-		"布加勒斯特" "克拉奥华" "雅西" "肯普隆格" "特尔戈维什泰" "康斯坦察" "库尔泰亚"
+		"Bucuresti" "Craiova" "Iasi" "Campulung" "Targoviste" "Constanta" "Curtea de Arges"
 	}
 }
 
@@ -134,7 +134,7 @@ ROM_RIVERS = {
 	prefix = "NMS " #Nava Maiestatii Sale
 
 	unique = {
-		"奥尔特河" "锡雷特河" "登博维察河" "巴鲁伊河" "日乌河" "阿尔杰什河" "伯尔拉德河" "特罗图什河" "日日亚河" "特列奥尔曼河" "多瑙河" "摩尔多瓦河" "德涅斯特河"
+		"Olt" "Siret" "Dambovita" "Bahlui" "Jiu" "Arges" "Barlad" "Trotus" "Jijia" "Teleorman" "Dunarea" "Moldova" "Nistru"
 	}
 }
 ROM_RIVERS_TRANSYLVANIA = {
@@ -151,8 +151,7 @@ ROM_RIVERS_TRANSYLVANIA = {
 	prefix = "NMS " #Nava Maiestatii Sale
 
 	unique = {
-		"奥尔特河" "锡雷特河" "登博维察河" "巴鲁伊河" "日乌河" "阿尔杰什河" "伯尔拉德河" "特罗图什河" "日日亚河" "特列奥尔曼河" "多瑙河" "摩尔多瓦河" "德涅斯特河"
-		"毛罗什河" "贝加河" "索梅什河" "克里什阿普河" "克勒什河" "塔纳瓦河"
+		"Olt" "Siret" "Dambovita" "Bahlui" "Jiu" "Arges" "Barlad" "Trotus" "Jijia" "Teleorman" "Dunarea" "Moldova" "Nistru" "Mures" "Bega" "Somes" "Crisul Alb" "Crisurile" "Tarnavele"
 	}
 }
 
@@ -171,7 +170,7 @@ ROM_COUNTIES = {
 	prefix = "NMS " #Nava Maiestatii Sale
 
 	unique = {
-		"梅赫丁茨" "弗朗恰" "罗马纳蒂" "戈尔日" "多尔日" "穆斯采尔" "伊尔福夫" "布勒伊拉" "图尔恰" "康斯坦察" "普拉霍瓦" "巴克乌" "尼亚姆茨" "多罗霍伊" "博托沙尼" "罗曼" "图托瓦" "弗尔恰" "卡胡尔" "伊斯梅尔" "普特纳" "霍滕" "索罗卡" "奥尔海伊" "瑟塔蒂亚阿尔巴" "巴尔茨" "基希讷乌" "卡利亚克拉" "杜罗斯托"
+		"Mehedinti" "Vlasca" "Romanati" "Gorj" "Dolj" "Muscel" "Ilfov" "Braila" "Tulcea" "Constanta" "Prahova" "Bacau" "Neamt" "Dorohoi" "Botosani" "Roman" "Tutova" "Falciu" "Cahul" "Ismail" "Putna" "Hotin" "Soroca" "Orhei" "Cetatea Alba" "Balti" "Chisinau" "Caliacra" "Durostor"
 	}
 }
 
@@ -186,7 +185,7 @@ ROM_KINGS = {
 	prefix = "NMS " #Nava Maiestatii Sale
 
 	unique = {
-		"德罗米夏埃特斯" "科摩西库斯" "德塞内乌斯" "斯科利罗" "迪塞巴拉斯"
+		"Dromihete" "Comosicus" "Deceneu" "Scorilo" "Diurpaneus"
 	}
 }
 
@@ -201,7 +200,7 @@ ROM_LEADERS = {
 	prefix = "NMS " #Nava Maiestatii Sale
 
 	unique = {
-		"米哈伊尔·科格尔尼恰努" "格奥尔基·阿萨奇" "格奥尔基·马格鲁" "拉斯克尔·卡塔尔久" "亚历山德鲁·约安·库扎" "伊恩·吉卡" "康斯坦丁·罗塞蒂" "伊恩·拉杜勒斯库" "尼古拉·伯尔切斯库" "塞扎尔·博利亚克"
+		"Mihail Kogalniceanu" "Gheorghe Asachi" "Gheorghe Magheru" "Lascar Catargiu" "Alexandru Ioan Cuza" "Ion Ghica" "Constantin Alexandru Rosetti" "Ion Heliade Radulescu" "Nicolae Balcescu" "Cezar Bolliac"
 	}
 }
 
@@ -216,7 +215,7 @@ ROM_LITERARY_FIGURES = {
 	prefix = "NMS " #Nava Maiestatii Sale
 
 	unique = {
-		"亚历山德罗·弗拉胡塔" "瓦西里·亚历山德里" "米哈伊·爱明内斯库" "迪米特里耶·博林蒂内亚努" "格里高利·亚历山德雷斯库" "安德烈·穆雷萨努" "康斯坦丁·内格鲁济"
+		"Alexandru Vlahuta" "Vasile Alecsandri" "Mihai Eminescu" "Dimitrie Bolintineanu" "Grigore Alexandrescu" "Andrei Muresanu" "Constantin Negruzzi"
 	}
 }
 
@@ -231,7 +230,7 @@ ROM_BIRDS = {
 	prefix = "NMS " #Nava Maiestatii Sale
 
 	unique = {
-		"鹰" "鹫" "雕" "鹞" "雀鹰" "海鸥" "天鹅" "鹈鹕" "鹤" "鹳" "麻雀" "燕"
+		"Acvila" "Vulturul" "Soimul" "Eretele" "Uliul" "Pescarusul" "Lebada" "Pelicanul" "Cocorul" "Barza" "Vrabia" "Randunica"
 	}
 }
 
@@ -246,11 +245,25 @@ ROM_ANIMALS = {
 	prefix = "NMS " #Nava Maiestatii Sale
 
 	unique = {
-		"狮" "虎" "豹" "猎豹" "猞猁" "熊" "毒蛇"
+		"Leul" "Tigrul" "Leopardul" "Ghepardul" "Rasul" "Ursul" "Vipera"
 	}
 }
 
 ### THEME: MYTHOLOGY ###
+ROM_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { ROM }
+
+	type = ship
+
+	prefix = "NMS " #Nava Maiestatii Sale
+
+	unique = {
+		"Zmeul" "Zburatorul"
+	}
+}
+
 ### THEME: SAINTS ###
 ROM_MYTHOLOGY = {
 	name = NAME_THEME_SAINTS
@@ -262,6 +275,7 @@ ROM_MYTHOLOGY = {
 	prefix = "NMS " #Nava Maiestatii Sale
 
 	unique = {
-		"圣乔治" "以利亚" "圣潘捷列伊蒙" "总天使弥哈伊尔" "伽弗里伊尔" "圣彼得" "圣保罗" "圣君士坦丁大帝" "圣斯德望" "圣德米特里" "圣安德烈" "圣雅各" "施洗者约翰" "泽缪" "飞灵"
+		"Sfantul Gheorghe" "Sfantul Ilie" "Sfantul Pantelimon" "Sfantul Arhanghel Mihail" "Sfantul Arhanghel Gavriil" "Sfantul Petru" "Sfantul Pavel" "Sfantul Imparat Constantin" "Sfantul Stefan" "Sfantul Dumitru" "Sfantul Andrei" "Sfantul Iacob cel Mare" "Sfantul Ioan Botezatorul"
 	}
 }
+

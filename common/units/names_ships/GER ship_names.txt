@@ -1,487 +1,481 @@
 ﻿GER_GENERAL_IMPERIAL = {
-	name = "德国历史将领"
+	name = "Generals"
 	
-	for_countries = { GER GEA }
+	for_countries = { GER }
 	
 	prefix = "SMS "
 	type = ship
-	fallback_name = "%d号舰"
+	fallback_name = "Schlachtschiff %d"
 	
 	unique = {
 		# fieldmarshall
-		"比滕费尔德" "施泰因梅茨" "毛奇" "阿尔伯特国王" "罗恩" "曼陀菲尔" "布鲁门萨尔" "乔治国王" "阿尔布雷希特王储"
-		"阿尔布雷希特大公" "冯·瓦德西" "黑泽勒伯爵" "威廉·冯·哈恩克" "沃尔特·冯·略埃" "施里芬"
-		"兴登堡" "比洛" "腓特烈大公" "马肯森" "路德维希三世" "鲁普雷希特" "利奥波德王储" "赫尔曼·冯·艾希霍恩"
-		"雷穆斯·冯·沃伊尔施"
+		"Bittenfeld" "Steinmetz" "Moltke" "König Albert" "Roon" "Manteuffel" "Blumenthal" "König Georg" "Prinz Albrecht"
+		"Erzherzog Albrecht" "Von Waldersee" "Graf Haeseler" "Wilhelm von Hahnke" "Walter von Loë" "Schlieffen"
+		"Hindenburg" "Bülow" "Erzherzog Friedrich" "Mackensen" "Ludwig III" "Rupprecht" "Prinz Leopold" "Hermann von Eichhorn"
+		"Remus von Woyrsch"
 		# colonel general
-		"奥古斯特王储" "腓特烈一世国王" "卡尔·亚历山大" "伯恩哈德三世" "腓特烈二世国王" "汉斯·冯·普莱森" "海因里希亲王"
-		"腓特烈·利奥波德" "克里斯蒂安王储" "古斯塔夫·冯·凯塞尔" "卡尔·冯·霍恩" "奥托·克雷斯" "菲利普公爵" "普里特维茨"
-		"莫里茨·冯·林克" "弗里德里希·冯·朔尔" "乔西亚斯·冯·赫林根" "豪森男爵" "克鲁克" "比辛"
-		"卡尔·冯·艾内姆" "奥托·冯·马奇塔勒" "基希巴赫伯爵" "波默伯爵" "卡尔·路德维希" "汉斯·冯·基希巴赫"
-		"汉斯·冯·塞克特" "威廉·海耶"
+		"Prinz August" "Friedrich I" "Karl Alexander" "Bernhard III" "Friedrich II" "Hans von Plessen" "Prinz Heinrich"
+		"Friedrich Leopold" "Prinz Christian" "Gustav von Kessel" "Karl von Horn" "Otto Kreß" "Herzog Philipp" "Prittwitz"
+		"Moriz von Lyncker" "Friedrich von Scholl" "Josias von Heeringen" "Freiherr von Hausen" "Kluck" "Bissing"
+		"Karl von Einem" "Otto von Marchtaler" "Graf von Kirchbach" "Graf von Bothmer" "Karl Ludwig" "Hans von Kirchbach"
+		"Hans von Seeckt" "Wilhelm Heye"
 	}
 }
 
 GER_CHANCELLOR_IMPERIAL = {
-	name = "德国历史宰相"
+	name = "Chancellors"
 	
-	for_countries = { GER GEA }
+	for_countries = { GER }
 	
 	prefix = "SMS "
 	type = ship
-	fallback_name = "%d号舰"
+	fallback_name = "Schlachtschiff %d"
 	
 	unique = {
-		"俾斯麦亲王" "列奥·冯·卡普里维" "克洛德维希" "伯恩哈德·冯·比洛" "贝特曼·霍尔维格" "乔治·米夏埃利斯" "乔治·冯·赫特林"
-		"提尔皮茨" "库诺·冯·维斯塔普"
+		"Fürst Bismarck" "Leo von Caprivi" "Chlodwig" "Bernhard von Bülow" "Bethmann Hollweg" "Georg Michaelis" "Georg von Hertling"
+		"Tirpitz" "Kuno von Westarp"
 	}
 }
 
 GER_CITIES = {
-	name = "德国城市"
+	name = "City"
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
 
-	fallback_name = "%d号舰"
-
+	fallback_name = "Schiff %d"
 
 	ordered = {
-		7 = {"慕尼黑"}
-		8 = {"柏林"}
-		9 = {"汉堡"}
-		10 = {"斯图加特"}
-		11 = {"不来梅"}
-		12 = {"吕贝克"}
-		13 = {"但泽"}
-		14 = {"斯德丁"}
-		15 = {"德累斯顿"}
-		16 = {"美因茨"}
-		17 = {"奥格斯堡"}
-		18 = {"马格德堡"}
-		19 = {"布雷斯劳"}
-		20 = {"汉诺威"}
-		21 = {"施特拉尔松德"}
-		22 = {"法兰克福"}
-		23 = {"罗斯托克"}
-		102 = {"美杜莎"}
-		103 = {"尼俄伯"}
-		104 = {"宁芙"}
-		105 = {"丽蝇"}
-		106 = {"牛虻"}
-		107 = {"瞪羚"}
-		108 = {"忒提斯"}
-		109 = {"阿里阿德涅"}
-		110 = {"阿玛宗"}
-		111 = {"女性之赞"}
-		112 = {"阿科纳"}
-		113 = {"温蒂妮"}
-		114 = {"海拉"}
-		115 = {"吉菲昂"}
-		24 = {"埃尔宾"}
-		25 = {"斯特拉斯堡"}
-		26 = {"雷根斯堡"}
-		27 = {"威斯巴登"}
-		28 = {"亚琛"}
-		29 = {"波茨坦"}
-		30 = {"海德堡"}
-		31 = {"基尔"}
-		32 = {"维尔茨堡"}
-		33 = {"明斯特"}
-		34 = {"达姆施塔特"}
-		35 = {"开姆尼茨"}
-		36 = {"不伦瑞克"}
-		37 = {"卡塞尔"}
-		38 = {"奥登堡"}
-		39 = {"杜塞尔多夫"}
-		40 = {"哈雷"}
-		41 = {"维也纳"}
-		42 = {"多特蒙德"}
-		43 = {"弗赖堡"}
-		44 = {"杜伊斯堡"}
-		45 = {"曼海姆"}
-		46 = {"埃尔福特"}
-		47 = {"奥斯纳布吕克"}
-		48 = {"埃森"}
-		49 = {"沃尔夫斯堡"}
-		50 = {"伍珀塔尔"}
-		51 = {"布拉格"}
-		52 = {"因斯布鲁克"}
-		53 = {"萨尔布吕肯"}
-		54 = {"波森"}
-		55 = {"牟罗兹"}
-		56 = {"帕德博恩"}
-		57 = {"布尔诺"}
-		58 = {"英戈尔施塔特"}
-		59 = {"比勒费尔德"}
-		60 = {"萨尔茨堡"}
-		61 = {"皮尔森"}
-		62 = {"米尔海姆"}
-		63 = {"海尔布隆"}
-		64 = {"波恩"}
-		65 = {"格拉茨"}
-		116 = {"弗伦斯堡"}
-		66 = {"奥伯豪森"}
-		67 = {"路德维希港"}
-		68 = {"波鸿"}
-		69 = {"佐林根"}
-		70 = {"林茨"}
-		71 = {"门兴格拉德巴赫"}
-		72 = {"菲尔特"}
-		73 = {"特里尔"}
-		74 = {"哈根"}
-		75 = {"克雷费尔德"}
-		76 = {"乌尔姆"}
-		77 = {"哥廷根"}
-		78 = {"盖尔森基兴"}
-		79 = {"雷克林豪森"}
-		80 = {"普福尔茨海姆"}
-		81 = {"哈姆"}
-		82 = {"博特罗普"}
-		83 = {"不来梅哈芬"}
-		84 = {"罗伊特林根"}
-		85 = {"耶拿"}
-		86 = {"科布伦茨"}
-		87 = {"勒沃库森"}
-		88 = {"诺伊斯"}
-		89 = {"奥芬巴赫"}
-		90 = {"黑尔讷"}
-		91 = {"雷姆沙伊德"}
-		92 = {"凯撒斯劳滕"}
-		93 = {"萨尔茨吉特"}
-		94 = {"什未林"}
-		95 = {"科特布斯"}
-		96 = {"威廉港"}
-		97 = {"埃尔兰根"}
-		98 = {"锡根"}
-		99 = {"希尔德斯海姆"}
-		101 = {"茨维考"}
-		1 = {"埃姆登"}
-		2 = {"柯尼斯堡"}
-		3 = {"卡尔斯鲁厄"}
-		4 = {"科隆"}
-		5 = {"莱比锡"}
-		6 = {"纽伦堡"}
+		7 = { "München" }
+		8 = { "Berlin" }
+		9 = { "Hamburg" }
+		10 = { "Stuttgart" }
+		11 = { "Bremen" }
+		12 = { "Lübeck" }
+		13 = { "Danzig" }
+		14 = { "Stettin" }
+		15 = { "Dresden" }
+		16 = { "Mainz" }
+		17 = { "Augsburg" }
+		18 = { "Magdeburg" }
+		19 = { "Breslau" }
+		20 = { "Hannover" }
+		21 = { "Stralsund" }
+		22 = { "Frankfurt" }
+		23 = { "Rostock" }
+		102 = { "Medusa" }
+		103 = { "Niobe" }
+		104 = { "Nymphe" }
+		105 = { "Brummer" }
+		106 = { "Bremse" }
+		107 = { "Gazelle" }
+		108 = { "Thetis" }
+		109 = { "Ariadne" }
+		110 = { "Amazone" }
+		111 = { "Frauenlob" }
+		112 = { "Arcona" }
+		113 = { "Undine" }
+		114 = { "Hela" }
+		115 = { "Gefion" }
+		24 = { "Elbing" }
+		25 = { "Straßburg" }
+		26 = { "Regensburg" }
+		27 = { "Wiesbaden" }
+		28 = { "Aachen" }
+		29 = { "Potsdam" }
+		30 = { "Heidelberg" }
+		31 = { "Kiel" }
+		32 = { "Würzburg" }
+		33 = { "Münster" }
+		34 = { "Darmstadt" }
+		35 = { "Chemnitz" }
+		36 = { "Braunschweig" }
+		37 = { "Kassel" }
+		38 = { "Oldenburg" }
+		39 = { "Düsseldorf" }
+		40 = { "Halle" }
+		41 = { "Wien" }
+		42 = { "Dortmund" }
+		43 = { "Freiburg" }
+		44 = { "Duisburg" }
+		45 = { "Mannheim" }
+		46 = { "Erfurt" }
+		47 = { "Osnabrück" }
+		48 = { "Essen" }
+		49 = { "Wolfsburg" }
+		50 = { "Wuppertal" }
+		51 = { "Prag" }
+		52 = { "Innsbruck" }
+		53 = { "Saarbrücken" }
+		54 = { "Posen" }
+		55 = { "Mülhausen" }
+		56 = { "Paderborn" }
+		57 = { "Brünn" }
+		58 = { "Ingolstadt" }
+		59 = { "Bielefeld" }
+		60 = { "Salzburg" }
+		61 = { "Pilsen" }
+		62 = { "Mülheim" }
+		63 = { "Heilbronn" }
+		64 = { "Bonn" }
+		65 = { "Graz" }
+		116 = { "Flensburg" }
+		66 = { "Oberhausen" }
+		67 = { "Ludwigshafen" }
+		68 = { "Bochum" }
+		69 = { "Solingen" }
+		70 = { "Linz" }
+		71 = { "Mönchengladbach" }
+		72 = { "Fürth" }
+		73 = { "Trier" }
+		74 = { "Hagen" }
+		75 = { "Krefeld" }
+		76 = { "Ulm" }
+		77 = { "Göttingen" }
+		78 = { "Gelsenkirchen" }
+		79 = { "Recklinghausen" }
+		80 = { "Pforzheim" }
+		81 = { "Hamm" }
+		82 = { "Bottrop" }
+		83 = { "Bremerhaven" }
+		84 = { "Reutlingen" }
+		85 = { "Jena" }
+		86 = { "Koblenz" }
+		87 = { "Leverkusen" }
+		88 = { "Neuss" }
+		89 = { "Offenbach" }
+		90 = { "Herne" }
+		91 = { "Remscheid" }
+		92 = { "Kaiserslautern" }
+		93 = { "Salzgitter" }
+		94 = { "Schwerin" }
+		95 = { "Cottbus" }
+		96 = { "Wilhelmshaven" }
+		97 = { "Erlangen" }
+		98 = { "Siegen" }
+		99 = { "Hildesheim" }
+		101 = { "Zwickau" }
+		1 = { "Emden" }
+		2 = { "Königsberg" }
+		3 = { "Karlsruhe" }
+		4 = { "Köln" }
+		5 = { "Leipzig" }
+		6 = { "Nürnberg" }
 	}
 }
 
-GER_BB_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_BB
+GER_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 
-	fallback_name = "%d号战列舰"
-
+	fallback_name = "Schlachtschiff %d"
 
 	ordered = {
-		1 = {"沙恩霍斯特"}
-		2 = {"格奈森瑙"}
-		3 = {"俾斯麦亲王"}
-		4 = {"提尔皮茨"}
-		5 = {"兴登堡"}
-		6 = {"鲁登道夫"}
-		7 = {"腓特烈大帝"}
-		8 = {"皇帝"}
-		9 = {"乌尔里希·冯·胡滕"}
-		46 = {"国王"}
-		10 = {"格茨·冯·贝利欣根"}
-		47 = {"皇储"}
-		11 = {"勃兰登堡"}
-		48 = {"皇后"}
-		12 = {"黑森"}
-		13 = {"策林根"}
-		14 = {"梅克伦堡"}
-		15 = {"阿尔萨斯"}
-		16 = {"洛林"}
-		17 = {"汉诺威"}
-		18 = {"拿骚"}
-		19 = {"波美拉尼亚"}
-		20 = {"威斯特法伦"}
-		21 = {"莱茵兰"}
-		22 = {"图林根"}
-		23 = {"符腾堡"}
-		24 = {"不伦瑞克"}
-		25 = {"巴伐利亚"}
-		26 = {"萨克森"}
-		27 = {"巴登"}
-		28 = {"魏森堡"}
-		29 = {"东弗里斯兰"}
-		30 = {"奥尔登堡"}
-		31 = {"波森"}
-		32 = {"普鲁士"}
-		33 = {"皮劳"}
-		34 = {"黑尔戈兰"}
-		35 = {"施瓦本"}
-		36 = {"沃尔特"}
-		37 = {"韦廷"}
-		38 = {"维特尔斯巴赫"}
-		39 = {"奥博特"}
-		40 = {"奥斯特马克"}
-		41 = {"石勒苏益格"}
-		42 = {"荷尔斯泰因"}
-		43 = {"弗兰肯"}
-		44 = {"施特雷利茨"}
-		45 = {"祖国"}
+		1 = { "Scharnhorst" }
+		2 = { "Gneisenau" }
+		3 = { "Fürst Bismarck" }
+		4 = { "Tirpitz" }
+		5 = { "Hindenburg" }
+		6 = { "Ludendorff" }
+		7 = { "Friedrich der Große" }
+		8 = { "Kaiser" }
+		9 = { "Ulrich von Hutten" }
+		46 = { "König" }
+		10 = { "Götz von Berlichingen" }
+		47 = { "Kronprinz" }
+		11 = { "Brandenburg" }
+		48 = { "Kaiserin" }
+		12 = { "Hessen" }
+		13 = { "Zähringen" }
+		14 = { "Mecklenburg" }
+		15 = { "Elsass" }
+		16 = { "Lothringen" }
+		17 = { "Hannover" }
+		18 = { "Nassau" }
+		19 = { "Pommern" }
+		20 = { "Westfalen" }
+		21 = { "Rheinland" }
+		22 = { "Thüringen" }
+		23 = { "Württemberg" }
+		24 = { "Braunschweig" }
+		25 = { "Bayern" }
+		26 = { "Sachsen" }
+		27 = { "Baden" }
+		28 = { "Weissenburg" }
+		29 = { "Ostfriesland" }
+		30 = { "Oldenburg" }
+		31 = { "Posen" }
+		32 = { "Preussen" }
+		33 = { "Pillau" }
+		34 = { "Helgoland" }
+		35 = { "Schwaben" }
+		36 = { "Wörth" }
+		37 = { "Wettin" }
+		38 = { "Wittelsbach" }
+		39 = { "Orbotrit" }
+		40 = { "Ostmark" }
+		41 = { "Schleswig" }
+		42 = { "Holstein" }
+		43 = { "Franken" }
+		44 = { "Strelitz" }
+		45 = { "Vaterland" }
 	}
 }
 
-GER_BC_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_BC
+GER_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 
-	fallback_name = "%d号战列巡洋舰"
-
+	fallback_name = "Schlachtkreuzer %d"
 
 	ordered = {
-		1 = {"冯·德·坦恩"}
-		2 = {"毛奇"}
-		3 = {"戈本"}
-		4 = {"德弗林格"}
-		5 = {"霍尔岑多夫"}
-		6 = {"约克"}
-		7 = {"马肯森"}
-		8 = {"冯·莱托-福尔贝克"}
-		9 = {"红胡子腓特烈"}
-		10 = {"查理大帝"}
-		11 = {"埃特尔·腓特烈王储"}
-		12 = {"维多利亚·路易丝"}
-		13 = {"海因里希亲王"}
+		1 = { "Von der Tann" }
+		2 = { "Moltke" }
+		3 = { "Goeben" }
+		4 = { "Derfflinger" }
+		5 = { "Holtzendorff" }
+		6 = { "York" }
+		7 = { "Von Mackensen" }
+		8 = { "Von Lettow-Vorbeck" }
+		9 = { "Friedrich Barbarossa" }
+		10 = { "Karl der Große" }
+		11 = { "Prinz Eitel Friedrich" }
+		12 = { "Victoria Louise" }
+		13 = { "Prinz Heinrich" }
 	}
 }
 
-GER_SS_IMPERIAL = {
+GER_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 	prefix = "SM "
 	fallback_name = "U-%d"
 
-	#U=U艇
 	ordered = {
-		1 = {"U-%d"}
-		2 = {"U-%d"}
-		3 = {"U-%d"}
-		4 = {"U-%d"}
-		5 = {"U-%d"}
-		6 = {"U-%d"}
-		7 = {"U-%d"}
-		8 = {"U-%d"}
-		9 = {"U-%d"}
-		10 = {"U-%d"}
-		11 = {"U-%d"}
-		12 = {"U-%d"}
-		13 = {"U-%d"}
-		14 = {"U-%d"}
-		15 = {"U-%d"}
-		16 = {"U-%d"}
-		17 = {"U-%d"}
-		18 = {"U-%d"}
-		19 = {"U-%d"}
-		20 = {"U-%d"}
-		21 = {"U-%d"}
-		22 = {"U-%d"}
-		23 = {"U-%d"}
-		24 = {"U-%d"}
-		25 = {"U-%d"}
-		26 = {"U-%d"}
+		1 = { "U-%d" }
+		2 = { "U-%d" }
+		3 = { "U-%d" }
+		4 = { "U-%d" }
+		5 = { "U-%d" }
+		6 = { "U-%d" }
+		7 = { "U-%d" }
+		8 = { "U-%d" }
+		9 = { "U-%d" }
+		10 = { "U-%d" }
+		11 = { "U-%d" }
+		12 = { "U-%d" }
+		13 = { "U-%d" }
+		14 = { "U-%d" }
+		15 = { "U-%d" }
+		16 = { "U-%d" }
+		17 = { "U-%d" }
+		18 = { "U-%d" }
+		19 = { "U-%d" }
+		20 = { "U-%d" }
+		21 = { "U-%d" }
+		22 = { "U-%d" }
+		23 = { "U-%d" }
+		24 = { "U-%d" }
+		25 = { "U-%d" }
+		26 = { "U-%d" }
 	}
 }
 
-GER_CA_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_CA
+GER_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 
-	fallback_name = "%d号大巡洋舰"
-
+	fallback_name = "Schwerer Kreuzer %d"
 
 	ordered = {
-		1 = {"施佩伯爵"}
-		2 = {"希佩尔海军上将"}
-		3 = {"布吕歇尔"}
-		4 = {"欧根亲王"}
-		5 = {"塞德利茨"}
-		6 = {"吕措"}
-		7 = {"罗恩"}
-		8 = {"德意志"}
-		9 = {"赫塔"}
-		10 = {"芙蕾雅"}
-		11 = {"维内塔"}
-		12 = {"齐格菲"}
-		13 = {"汉萨"}
-		14 = {"腓特烈·卡尔"}
-		15 = {"濮登博"}
-		16 = {"比滕费尔德"}
-		17 = {"施瓦岑贝格"}
-		18 = {"艾希霍恩"}
-		19 = {"弗莱明"}
-		20 = {"博恩"}
-		21 = {"海瑟勒"}
-		22 = {"沃尔什"}
-		23 = {"曼斯费尔德"}
-		24 = {"卡尔克鲁斯"}
-		25 = {"克莱斯特"}
-		26 = {"弗兰格尔"}
-		27 = {"多因"}
-		28 = {"海德"}
-		29 = {"克罗科夫"}
+		1 = { "Admiral Graf Spee" }
+		2 = { "Admiral Hipper" }
+		3 = { "Blücher" }
+		4 = { "Prinz Eugen" }
+		5 = { "Seydlitz" }
+		6 = { "Lützow" }
+		7 = { "Roon" }
+		8 = { "Deutschland" }
+		9 = { "Herta" }
+		10 = { "Freya" }
+		11 = { "Vineta" }
+		12 = { "Siegfried" }
+		13 = { "Hansa" }
+		14 = { "Friedrich Carl" }
+		15 = { "Buddenbrock" }
+		16 = { "Bittenfeld" }
+		17 = { "Schwarzenberg" }
+		18 = { "Eichhorn" }
+		19 = { "Flemming" }
+		20 = { "Boyen" }
+		21 = { "Haeseler" }
+		22 = { "Woyrsch" }
+		23 = { "Mansfeld" }
+		24 = { "Kalckreuth" }
+		25 = { "Kleist" }
+		26 = { "Wrangel" }
+		27 = { "Daun" }
+		28 = { "Heyde" }
+		29 = { "Krockow" }
 	}
 }
 
-GER_CL_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_CL
+GER_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	prefix = "SMS "
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser}
+	ship_types = { ship_hull_cruiser light_cruiser }
 
-	fallback_name = "%d号小巡洋舰"
-
+	fallback_name = "Leichter Kreuzer %d"
 
 	ordered = {
-		7 = {"慕尼黑"}
-		8 = {"柏林"}
-		9 = {"汉堡"}
-		10 = {"斯图加特"}
-		11 = {"不来梅"}
-		12 = {"吕贝克"}
-		13 = {"但泽"}
-		14 = {"斯德丁"}
-		15 = {"德累斯顿"}
-		16 = {"美因茨"}
-		17 = {"奥格斯堡"}
-		18 = {"马格德堡"}
-		19 = {"布雷斯劳"}
-		20 = {"汉诺威"}
-		21 = {"施特拉尔松德"}
-		22 = {"法兰克福"}
-		23 = {"罗斯托克"}
-		102 = {"美杜莎"}
-		103 = {"尼俄伯"}
-		104 = {"宁芙"}
-		105 = {"丽蝇"}
-		106 = {"牛虻"}
-		107 = {"瞪羚"}
-		108 = {"忒提斯"}
-		109 = {"阿里阿德涅"}
-		110 = {"阿玛宗"}
-		111 = {"女性之赞"}
-		112 = {"阿科纳"}
-		113 = {"温蒂妮"}
-		114 = {"海拉"}
-		115 = {"吉菲昂"}
-		24 = {"埃尔宾"}
-		25 = {"斯特拉斯堡"}
-		26 = {"雷根斯堡"}
-		27 = {"威斯巴登"}
-		28 = {"亚琛"}
-		29 = {"波茨坦"}
-		30 = {"海德堡"}
-		31 = {"基尔"}
-		32 = {"维尔茨堡"}
-		33 = {"明斯特"}
-		34 = {"达姆施塔特"}
-		35 = {"开姆尼茨"}
-		36 = {"不伦瑞克"}
-		37 = {"卡塞尔"}
-		38 = {"奥登堡"}
-		39 = {"杜塞尔多夫"}
-		40 = {"哈雷"}
-		41 = {"维也纳"}
-		42 = {"多特蒙德"}
-		43 = {"弗赖堡"}
-		44 = {"杜伊斯堡"}
-		45 = {"曼海姆"}
-		46 = {"埃尔福特"}
-		47 = {"奥斯纳布吕克"}
-		48 = {"埃森"}
-		49 = {"沃尔夫斯堡"}
-		50 = {"伍珀塔尔"}
-		51 = {"布拉格"}
-		52 = {"因斯布鲁克"}
-		53 = {"萨尔布吕肯"}
-		54 = {"波森"}
-		55 = {"牟罗兹"}
-		56 = {"帕德博恩"}
-		57 = {"布尔诺"}
-		58 = {"英戈尔施塔特"}
-		59 = {"比勒费尔德"}
-		60 = {"萨尔茨堡"}
-		61 = {"皮尔森"}
-		62 = {"米尔海姆"}
-		63 = {"海尔布隆"}
-		64 = {"波恩"}
-		65 = {"格拉茨"}
-		116 = {"弗伦斯堡"}
-		66 = {"奥伯豪森"}
-		67 = {"路德维希港"}
-		68 = {"波鸿"}
-		69 = {"佐林根"}
-		70 = {"林茨"}
-		71 = {"门兴格拉德巴赫"}
-		72 = {"菲尔特"}
-		73 = {"特里尔"}
-		74 = {"哈根"}
-		75 = {"克雷费尔德"}
-		76 = {"乌尔姆"}
-		77 = {"哥廷根"}
-		78 = {"盖尔森基兴"}
-		79 = {"雷克林豪森"}
-		80 = {"普福尔茨海姆"}
-		81 = {"哈姆"}
-		82 = {"博特罗普"}
-		83 = {"不来梅哈芬"}
-		84 = {"罗伊特林根"}
-		85 = {"耶拿"}
-		86 = {"科布伦茨"}
-		87 = {"勒沃库森"}
-		88 = {"诺伊斯"}
-		89 = {"奥芬巴赫"}
-		90 = {"黑尔讷"}
-		91 = {"雷姆沙伊德"}
-		92 = {"凯撒斯劳滕"}
-		93 = {"萨尔茨吉特"}
-		94 = {"什未林"}
-		95 = {"科特布斯"}
-		96 = {"威廉港"}
-		97 = {"埃尔兰根"}
-		98 = {"锡根"}
-		99 = {"希尔德斯海姆"}
-		101 = {"茨维考"}
-		1 = {"埃姆登"}
-		2 = {"柯尼斯堡"}
-		3 = {"卡尔斯鲁厄"}
-		4 = {"科隆"}
-		5 = {"莱比锡"}
-		6 = {"纽伦堡"}
+		7 = { "München" }
+		8 = { "Berlin" }
+		9 = { "Hamburg" }
+		10 = { "Stuttgart" }
+		11 = { "Bremen" }
+		12 = { "Lübeck" }
+		13 = { "Danzig" }
+		14 = { "Stettin" }
+		15 = { "Dresden" }
+		16 = { "Mainz" }
+		17 = { "Augsburg" }
+		18 = { "Magdeburg" }
+		19 = { "Breslau" }
+		20 = { "Hannover" }
+		21 = { "Stralsund" }
+		22 = { "Frankfurt" }
+		23 = { "Rostock" }
+		102 = { "Medusa" }
+		103 = { "Niobe" }
+		104 = { "Nymphe" }
+		105 = { "Brummer" }
+		106 = { "Bremse" }
+		107 = { "Gazelle" }
+		108 = { "Thetis" }
+		109 = { "Ariadne" }
+		110 = { "Amazone" }
+		111 = { "Frauenlob" }
+		112 = { "Arcona" }
+		113 = { "Undine" }
+		114 = { "Hela" }
+		115 = { "Gefion" }
+		24 = { "Elbing" }
+		25 = { "Straßburg" }
+		26 = { "Regensburg" }
+		27 = { "Wiesbaden" }
+		28 = { "Aachen" }
+		29 = { "Potsdam" }
+		30 = { "Heidelberg" }
+		31 = { "Kiel" }
+		32 = { "Würzburg" }
+		33 = { "Münster" }
+		34 = { "Darmstadt" }
+		35 = { "Chemnitz" }
+		36 = { "Braunschweig" }
+		37 = { "Kassel" }
+		38 = { "Oldenburg" }
+		39 = { "Düsseldorf" }
+		40 = { "Halle" }
+		41 = { "Wien" }
+		42 = { "Dortmund" }
+		43 = { "Freiburg" }
+		44 = { "Duisburg" }
+		45 = { "Mannheim" }
+		46 = { "Erfurt" }
+		47 = { "Osnabrück" }
+		48 = { "Essen" }
+		49 = { "Wolfsburg" }
+		50 = { "Wuppertal" }
+		51 = { "Prag" }
+		52 = { "Innsbruck" }
+		53 = { "Saarbrücken" }
+		54 = { "Posen" }
+		55 = { "Mülhausen" }
+		56 = { "Paderborn" }
+		57 = { "Brünn" }
+		58 = { "Ingolstadt" }
+		59 = { "Bielefeld" }
+		60 = { "Salzburg" }
+		61 = { "Pilsen" }
+		62 = { "Mülheim" }
+		63 = { "Heilbronn" }
+		64 = { "Bonn" }
+		65 = { "Graz" }
+		116 = { "Flensburg" }
+		66 = { "Oberhausen" }
+		67 = { "Ludwigshafen" }
+		68 = { "Bochum" }
+		69 = { "Solingen" }
+		70 = { "Linz" }
+		71 = { "Mönchengladbach" }
+		72 = { "Fürth" }
+		73 = { "Trier" }
+		74 = { "Hagen" }
+		75 = { "Krefeld" }
+		76 = { "Ulm" }
+		77 = { "Göttingen" }
+		78 = { "Gelsenkirchen" }
+		79 = { "Recklinghausen" }
+		80 = { "Pforzheim" }
+		81 = { "Hamm" }
+		82 = { "Bottrop" }
+		83 = { "Bremerhaven" }
+		84 = { "Reutlingen" }
+		85 = { "Jena" }
+		86 = { "Koblenz" }
+		87 = { "Leverkusen" }
+		88 = { "Neuss" }
+		89 = { "Offenbach" }
+		90 = { "Herne" }
+		91 = { "Remscheid" }
+		92 = { "Kaiserslautern" }
+		93 = { "Salzgitter" }
+		94 = { "Schwerin" }
+		95 = { "Cottbus" }
+		96 = { "Wilhelmshaven" }
+		97 = { "Erlangen" }
+		98 = { "Siegen" }
+		99 = { "Hildesheim" }
+		101 = { "Zwickau" }
+		1 = { "Emden" }
+		2 = { "Königsberg" }
+		3 = { "Karlsruhe" }
+		4 = { "Köln" }
+		5 = { "Leipzig" }
+		6 = { "Nürnberg" }
 	}
 }
 
-GER_DD_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_DD
+GER_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DD
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	prefix = "SMS "
 	type = ship
@@ -489,12 +483,6 @@ GER_DD_IMPERIAL = {
 
 	fallback_name = "T %d"
 
-	#鉴于德语原文使用造船厂首字母作为船号,中文也照样采用
-	#G=曼（日耳曼造船厂）
-	#S=希（希肖造船厂）
-	#V=伏（伏尔铿造船厂）
-	#T=雷（雷击舰，非船厂开头）
-	#B=布（布洛姆－福斯造船厂）
 	unique = {
 		"G 200"
 		"G 201"
@@ -599,247 +587,241 @@ GER_DD_IMPERIAL = {
 	}
 }
 
-GER_CV_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_CARRIERS
+GER_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	prefix = "SMS "
-	fallback_name = "%d号航母"
-
+	fallback_name = "Träger %d"
 
 	ordered = {
-		1 = {"齐柏林伯爵"}
-		2 = {"彼得·史特拉塞"}
-		3 = {"塞德利茨"}
-		4 = {"欧罗巴"}
-		5 = {"波茨坦"}
-		6 = {"奥托·李林塔尔"}
-		7 = {"极光"}
-		10 = {"曼弗雷德·冯·里希特霍芬"}
-		11 = {"马克斯·英麦曼"}
+		1 = { "Graf Zeppelin" }
+		2 = { "Peter Strasser" }
+		3 = { "Seydlitz" }
+		4 = { "Europa" }
+		5 = { "Potsdam" }
+		6 = { "Otto Lilienthal" }
+		7 = { "Aurora" }
+		10 = { "Manfred von Richthofen" }
+		11 = { "Max Immelman" }
 	}
 }
 
 GER_THEME_ANIMALS_IMPERIAL = {
 	name = NAME_THEME_ANIMALS
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	prefix = "SMS "
 	type = ship
 
-	fallback_name = "%d号舰"
-
+	fallback_name = "Schiff %d"
 
 	ordered = {
-		1 = {"海鸥"}
-		2 = {"信天翁"}
-		3 = {"海雕"}
-		4 = {"狮鹫"}
-		5 = {"隼"}
-		6 = {"神鹫"}
-		7 = {"狼"}
-		8 = {"鸡鼬"}
-		9 = {"猎豹"}
-		10 = {"黑豹"}
-		11 = {"老虎"}
-		12 = {"狮"}
-		13 = {"山猫"}
-		14 = {"熊"}
-		15 = {"猎豹"}
-		16 = {"花豹"}
-		17 = {"眼镜蛇"}
-		18 = {"蝰蛇"}
-		19 = {"龙"}
-		20 = {"黄鼠狼"}
-		21 = {"海豚"}
-		22 = {"鲸"}
-		23 = {"乌鸦"}
-		24 = {"鹰"}
-		25 = {"野牛"}
-		26 = {"美洲豹"}
-		27 = {"游蛇"}
-		28 = {"獭"}
-		29 = {"海狸"}
-		30 = {"美洲野牛"}
-		31 = {"驼鹿"}
-		32 = {"獾"}
-		33 = {"鹿"}
-		34 = {"蝎"}
-		35 = {"斑马"}
-		36 = {"白鼬"}
-		37 = {"水貂"}
-		38 = {"黑貂"}
-		39 = {"豹猫"}
-		40 = {"鬣狗"}
-		41 = {"貂"}
-		42 = {"苍鹭"}
-		43 = {"狐狸"}
-		44 = {"鹳"}
-		45 = {"鹤"}
-		46 = {"鸬鹚"}
-		47 = {"雀鹰"}
-		48 = {"鵟"}
-		49 = {"秃鹫"}
+		1 = { "Möwe" }
+		2 = { "Albatros" }
+		3 = { "Seeadler" }
+		4 = { "Greif" }
+		5 = { "Falke" }
+		6 = { "Kondor" }
+		7 = { "Wolf" }
+		8 = { "Iltis" }
+		9 = { "Gepard" }
+		10 = { "Panther" }
+		11 = { "Tiger" }
+		12 = { "Löwe" }
+		13 = { "Luchs" }
+		14 = { "Bär" }
+		15 = { "Jaguar" }
+		16 = { "Leopard" }
+		17 = { "Kobra" }
+		18 = { "Viper" }
+		19 = { "Drache" }
+		20 = { "Wiesel" }
+		21 = { "Delphin" }
+		22 = { "Wal" }
+		23 = { "Rabe" }
+		24 = { "Habicht" }
+		25 = { "Wisent" }
+		26 = { "Puma" }
+		27 = { "Natter" }
+		28 = { "Otter" }
+		29 = { "Biber" }
+		30 = { "Bison" }
+		31 = { "Elch" }
+		32 = { "Dachs" }
+		33 = { "Hirsch" }
+		34 = { "Steinbock" }
+		35 = { "Zebra" }
+		36 = { "Hermelin" }
+		37 = { "Nerz" }
+		38 = { "Zobel" }
+		39 = { "Ozelot" }
+		40 = { "Hyäne" }
+		41 = { "Marder" }
+		42 = { "Reiher" }
+		43 = { "Fuchs" }
+		44 = { "Storch" }
+		45 = { "Kranich" }
+		46 = { "Kormoran" }
+		47 = { "Sperber" }
+		48 = { "Bussard" }
+		49 = { "Geier" }
 	}
 }
 
 GER_THEME_GERMANIC_IMPERIAL = {
 	name = NAME_THEME_GERMANIC_MYTHOLOGY
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	type = ship
 	prefix = "SMS "
-	fallback_name = "%d号舰"
-
+	fallback_name = "Schiff %d"
 
 	ordered = {
-		1 = {"奥丁"}
-		2 = {"托尔"}
-		3 = {"提尔"}
-		4 = {"弗丽嘉"}
-		5 = {"芙拉"}
-		6 = {"弗雷"}
-		7 = {"高斯"}
-		8 = {"米德加尔德"}
-		9 = {"海拉"}
-		28 = {"希敏约格"}
-		29 = {"精灵"}
-		10 = {"索列姆"}
-		11 = {"埃吉尔"}
-		12 = {"阿特拉"}
-		24 = {"澜"}
-		25 = {"霍德尔"}
-		13 = {"希密尔"}
-		14 = {"包尔"}
-		15 = {"巴杜赫纳"}
-		16 = {"布拉基"}
-		17 = {"威利"}
-		18 = {"斯露德"}
-		19 = {"伊登"}
-		20 = {"洛德"}
-		21 = {"玛尼"}
-		22 = {"曼努斯"}
-		23 = {"维汉萨"}
-		26 = {"西吉"}
+		1 = { "Wotan" }
+		2 = { "Donar" }
+		3 = { "Tyr" }
+		4 = { "Friia" }
+		5 = { "Uolla" }
+		6 = { "Phol" }
+		7 = { "Gausus" }
+		8 = { "Mittgart" }
+		9 = { "Hellea" }
+		28 = { "Himilinberg" }
+		29 = { "Alb" }
+		10 = { "Thrym" }
+		11 = { "Ägir" }
+		12 = { "Atla" }
+		24 = { "Ran" }
+		25 = { "Hödur" }
+		13 = { "Hymir" }
+		14 = { "Borr" }
+		15 = { "Baduhenna" }
+		16 = { "Bragi" }
+		17 = { "Vili" }
+		18 = { "Thrud" }
+		19 = { "Idun" }
+		20 = { "Lodur" }
+		21 = { "Mani" }
+		22 = { "Mannus" }
+		23 = { "Vihansa" }
+		26 = { "Sigi" }
 	}
 }
 
 GER_THEME_BATTLE_IMPERIAL = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	type = ship
 	prefix = "SMS "
-	fallback_name = "%d号舰"
-
+	fallback_name = "Schiff %d"
 
 	ordered = {
-		1 = {"斯卡格拉克"}
-		2 = {"条顿堡林山"}
-		3 = {"佛兰德"}
-		4 = {"凡尔登"}
-		5 = {"色当"}
-		6 = {"克尼格雷茨"}
-		7 = {"洛伊滕"}
-		8 = {"索尔"}
-		17 = {"坦能堡"}
-		9 = {"凯塞尔斯多夫"}
-		28 = {"皮尔马森斯"}
-		29 = {"大贝伦"}
-		10 = {"拉罗蒂埃"}
-		11 = {"库尔姆"}
-		12 = {"滑铁卢"}
-		24 = {"迪博尔堡垒"}
-		25 = {"特鲁特诺夫"}
-		13 = {"黑尔戈兰岛"}
-		14 = {"多格滩"}
-		15 = {"科罗内尔"}
-		16 = {"槟城"}
-
+		1 = { "Skaggerak" }
+		2 = { "Teutoburger Wald" }
+		3 = { "Flandern" }
+		4 = { "Verdun" }
+		5 = { "Sedan" }
+		6 = { "Königgrätz" }
+		7 = { "Leuthen" }
+		8 = { "Soor" }
+		17 = { "Tannenberg" }
+		9 = { "Kesselsdorf" }
+		28 = { "Pirmasens" }
+		29 = { "Großbeeren" }
+		10 = { "La Rothière" }
+		11 = { "Kulm" }
+		12 = { "Belle-Alliance" }
+		24 = { "Düppeler Schanzen" }
+		25 = { "Trautenau" }
+		13 = { "Helgoland" }
+		14 = { "Doggerbank" }
+		15 = { "Coronel" }
+		16 = { "Penang" }
 	}
 }
 
 GER_THEME_FISH_IMPERIAL = {
 	name = NAME_THEME_FISH
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	type = ship
 	prefix = "SMS "
-	fallback_name = "%d号舰"
-
+	fallback_name = "Schiff %d"
 
 	ordered = {
-		1 = {"吻鲈"}
-		2 = {"鲶鱼"}
-		3 = {"鲱鱼"}
-		4 = {"鳗鱼"}
-		5 = {"狗鱼"}
-		6 = {"比目鱼"}
-		7 = {"鳕鱼"}
-		8 = {"鲨鱼"}
-		9 = {"黄貂鱼"}
-		10 = {"七鳃鳗"}
-		11 = {"苦鱼"}
-		12 = {"三文鱼"}
-		24 = {"河鲈"}
-		13 = {"大西洋鳕"}
-		14 = {"鳟鱼"}
-		15 = {"鲟鱼"}
-		16 = {"鲤鱼"}
-		17 = {"丁鳜"}
-		18 = {"沙丁鱼"}
-		19 = {"虾虎鱼"}
-		20 = {"鲭鱼"}
-		21 = {"庸鲽"}
-		22 = {"鳎鱼"}
-		23 = {"角鱼"}
+		1 = { "Zander" }
+		2 = { "Wels" }
+		3 = { "Hering" }
+		4 = { "Aal" }
+		5 = { "Hecht" }
+		6 = { "Flunder" }
+		7 = { "Dorsch" }
+		8 = { "Hai" }
+		9 = { "Stachelrochen" }
+		10 = { "Neunauge" }
+		11 = { "Bitterling" }
+		12 = { "Lachs" }
+		24 = { "Barsch" }
+		13 = { "Kabeljau" }
+		14 = { "Forelle" }
+		15 = { "Stör" }
+		16 = { "Barbe" }
+		17 = { "Schleie" }
+		18 = { "Sardine" }
+		19 = { "Grundel" }
+		20 = { "Makrele" }
+		21 = { "Heilbutt" }
+		22 = { "Seezunge" }
+		23 = { "Knurrhahn" }
 	}
 }
 
 GER_THEME_RIVERS_IMPERIAL = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { GER GEA }
+	for_countries = { GER }
 
 	type = ship
 	prefix = "SMS "
 
-
 	ordered = {
-		1 = {"莱茵河"}
-		2 = {"多瑙河"}
-		3 = {"奥得河"}
-		4 = {"瓦尔诺河"}
-		5 = {"雷克尼茨河"}
-		6 = {"尼萨河"}
-		7 = {"美因河"}
-		8 = {"特拉沃河"}
-		9 = {"于克河"}
-		28 = {"亚德河"}
-		29 = {"易北河"}
-		10 = {"因河"}
-		11 = {"伊萨尔河"}
-		12 = {"默兹河"}
-		24 = {"鲁尔河"}
-		25 = {"施普雷河"}
-		13 = {"摩泽尔河"}
-		14 = {"武珀河"}
-		15 = {"萨尔河"}
-		16 = {"阿尔夫河"}
-		17 = {"内卡河"}
-		18 = {"绍尔河"}
-		19 = {"威悉河"}
-		20 = {"阿勒尔河"}
-		21 = {"富尔达河"}
-		22 = {"威拉河"}
-		23 = {"阿尔斯特河"}
-		26 = {"哈弗尔河"}
+		1 = { "Rhein" }
+		2 = { "Donau" }
+		3 = { "Oder" }
+		4 = { "Warnow" }
+		5 = { "Recknitz" }
+		6 = { "Neiße" }
+		7 = { "Main" }
+		8 = { "Trave" }
+		9 = { "Uecker" }
+		28 = { "Jade" }
+		29 = { "Elbe" }
+		10 = { "Inn" }
+		11 = { "Isar" }
+		12 = { "Maas" }
+		24 = { "Ruhr" }
+		25 = { "Spree" }
+		13 = { "Mosel" }
+		14 = { "Wupper" }
+		15 = { "Saar" }
+		16 = { "Alf" }
+		17 = { "Neckar" }
+		18 = { "Sauer" }
+		19 = { "Weser" }
+		20 = { "Aller" }
+		21 = { "Fulda" }
+		22 = { "Werra" }
+		23 = { "Alster" }
+		26 = { "Havel" }
 	}
 }
+

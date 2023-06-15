@@ -67,10 +67,10 @@ OTT_REIS = {
 
 	unique = {
 		#OTL Reis names
-		"奥鲁奇·雷伊斯" "穆拉特·雷伊斯" "布拉克·雷伊斯" "乌鲁克·阿里·雷伊斯"
+		"Oruc Reis" "Murat Reis" "Burak Reis" "Uluc Ali Reis"
 		#Fictional
-		"皮瑞·雷伊斯" "凯末尔·雷伊斯" "阿里·马卡尔·雷伊斯" "布拉克·雷伊斯" "科卡·雷伊斯" "屈崔克·雷伊斯" "伊尔亚斯·雷伊斯" "库尔托奥卢·雷伊斯" "德拉古特·雷伊斯" "穆斯利辛迪·雷伊斯" "萨拉赫·雷伊斯" "塞尔曼·雷伊斯" "赛迪·阿里·雷伊斯" "艾汀·雷伊斯"
-		"伊沙克·雷伊斯" "西泽尔·雷伊斯" "库特·阿梅特·雷伊斯" "杜拉克·雷伊斯" "伊萨·雷伊斯" "卡拉·穆罕默德·雷伊斯" "卡拉缪塞尔·雷伊斯" "侯赛因·雷伊斯" "哈桑·雷伊斯"
+		"Piri Reis" "Kemal Reis" "Ali Macar Reis" "Burak Reis" "Koca Reis" "Kücük Reis" "Ilyas Reis" "Kurdoglu Reis" "Turgut Reis" "Muslihittin Reis" "Salih Reis" "Selman Reis" "Seydi Ali Reis" "Aydin Reis" "Burak Reis"
+		"Ishak Reis" "Hizir Reis" "Kurt Ahmet Reis" "Durak Reis" "Isa Reis" "Kara Mahmut Reis" "Karamürsel Reis" "Hüseyin Reis" "Hasan Reis"
 	}
 }
 
@@ -87,15 +87,15 @@ OTT_GEOGRAPHIC = {
 	fallback_name = "Gemileri %d"
 
 	unique = {
-		"许达文迪加尔" "佩伊克伊·谢夫克特" "伯克·伊·萨特维特" "门泰谢" "格尔米扬" "阿勒坡" "巴格达" "萨姆松" "的黎波里塔尼亚" "阿达德佩" "科扎德佩" "廷纳德佩" "德米尔希萨尔" "苏丹希萨尔" "康斯坦丁尼耶" "安卡拉" "埃迪尔内" "于斯屈达尔" "布尔萨" "科尼亚" "杰伊汉"
-		"马拉蒂亚" "屈塔西亚" "约兹加特" "埃尔祖鲁姆" "卡尔斯" "古都斯" "图兹拉" "锡瓦斯" "开塞利" "凡城" "锡诺普" "特拉布宗" "卡斯塔莫努" "费特希耶" "泰夫" "海丽丝岬" "盖姆利克" "盖布泽" "于切德佩" "萨瓦斯德佩" "梅里克" "常胜军" "黎巴嫩"
-		"克里特巴希尔" "亚希萨尔" "艾比尔" "阿克希萨尔" "阿尔帕古特" "安塔利亚" "乌尔法" "埃拉泽" "托卡特" "埃斯基谢希尔" "摩苏尔" "塞费里希萨尔" "阿卡" "艾纳里卡瓦克" "阿奇巴巴" "雅丽科斯屈" "塔什克普吕" "内夫谢希尔" "葛彻达古" "雷法希耶"
-		"安泰普" "奥尔杜" "巴夫拉" "凯卡拉" "瑟于特" "凯尚" "萨利耶尔" "坎迪耶" "加拉塔" "埃雷利" "博德鲁姆" "乌尔拉" "曼德列斯" "马尔泰佩" "卡塔卡" "芬得克勒" "喀巴塔斯" "托芬" "吉雷松" "泰基尔达" "亚罗瓦" "萨卡里亚"
-		"迪兹杰" "宗古尔达克" "居米什哈内" "里泽" "阿尔特温" "巴伊布尔特" "埃尔津詹" "阿马西亚" "科鲁姆" "昌克勒" "阿尔达汉" "卡拉比克" "博鲁" "比莱吉克" "恰纳卡莱" "艾登" "穆拉" "代尼兹利" "乌萨克" "伊斯帕尔塔" "巴尔杜尔" "克尔谢希尔"
-		"阿克萨赖" "尼代" "卡拉曼" "卡雷伊斯" "萨鲁汉" "阿达纳" "西贝里贝雷克特" "马拉斯" "通杰利" "阿德亚曼" "宾格尔" "巴特曼" "比特利斯" "迪亚巴克尔" "马尔丁" "舍尔纳克" "哈卡里" "穆斯" "艾吉里" "厄德尔" "基利斯" "锡尔特"
-		"哈塔伊" "基尔库克" "荷姆斯" "祖尔桑贾克" "艾瓦勒克" "贝科斯" "泰尔梅" "泰雷博卢" "科奇萨尔" "比加" "卡拉布伦" "科伊杰伊兹" "库姆卡勒" "塔尔索" "卡拉比戈" "卡西亚卡" "卡斯" "基利姆利" "图尔克利" "塔舒朱" "卡拉塔斯"
-		"希尔科利" "卡德柯伊" "卡尔帕斯" "库莎达西" "艾丁希克" "埃德雷米特" "埃内兹" "厄尔德克" "埃尔代姆利" "阿拉尼亚" "阿玛斯拉" "阿克恰科贾" "阿纳穆尔" "阿克恰伊" "法特萨" "芬尼克" "锡利夫凯" "萨罗斯" "西加齐克" "萨潘贾" "谢曼" "塞尔丘克"
-		"谢尔汉" "叙尔梅内" "瓦克弗凯比尔" "卡拉米塞尔" "克莱姆佩" "科兹鲁" "凯梅尔" "莫尔多安" "穆雷夫特" "塞尔达尔" "萨鲁卡贝" "乌卢巴特" "沙尔柯伊" "德吉尔门德雷" "德拉玛"
+		"Hüdavendigar" "Peyk" "Berk" "Mentese" "Germiyan" "Halep" "Bagdat" "Sam" "Trablusgarp" "Adatepe" "Kocatepe" "Tinaztepe" "Demirhisar" "Sultanhisar" "Kostantiniyye" "Ankara" "Edirne" "Üsküdar" "Bursa" "Konya" "Ceyhan"
+		"Malatya" "Kütahya" "Yozgat" "Erzurum" "Kars" "Kudüs" "Tuzla" "Sivas" "Kayseri" "Van" "Sinop" "Trabzon" "Kastamonu" "Fethiye" "Taif" "Seddülbahir" "Gemlik" "Gebze" "Yücetepe" "Savastepe" "Meric" "Mansure" "Lübnan"
+		"Kilidbahir" "Yarhisar" "Erbil" "Akhisar" "Alpagut" "Antalya" "Urfa" "Elaziz" "Tokat" "Eskisehir" "Musul" "Sivrihisar" "Akka" "Aynalikavak" "Alcitepe" "Yaliköskü" "Tasköprü" "Nevsehir" "Gökcedag" "Refahiye"
+		"Antep" "Ordu" "Bafra" "Caykara" "Sögüt" "Kesan" "Sariyer" "Kandiye" "Galata" "Eregli" "Bodrum" "Urla" "Menderes" "Maltepe" "Catalca" "Findikli" "Kabatas" "Tophane" "Giresun" "Tekirdag" "Yalova" "Sakarya"
+		"Düzce" "Zonguldak" "Gümüshane" "Rize" "Artvin" "Bayburt" "Erzincan" "Amasya" "Corum" "Cankiri" "Ardahan" "Karabük" "Bolu" "Bilecik" "Canakkale" "Aydin" "Mugla" "Denizli" "Usak" "Isparta" "Burdur" "Kirsehir"
+		"Aksaray" "Nigde" "Karaman" "Karesi" "Saruhan" "Adana" "Cebelibereket" "Maras" "Dersim" "Adiyaman" "Bingöl" "Batman" "Bitlis" "Diyarbakir" "Mardin" "Sirnak" "Hakkari" "Mus" "Agri" "Igdir" "Kilis" "Siirt"
+		"Hatay" "Kerkük" "Humus" "Deyr-i Zor" "Ayvalik" "Beykoz" "Terme" "Tirebolu" "Kochisar" "Biga" "Karaburun" "Köycegiz" "Kumkale" "Tarsus" "Karabiga" "Karsiyaka" "Kas" "Kilimli" "Türkeli" "Tasucu" "Karatas"
+		"Sirkeli" "Kadiköy" "Karpaz" "Kusadasi" "Edincik" "Edremit" "Enez" "Erdek" "Erdemli" "Alanya" "Amasra" "Akcakoca" "Anamur" "Akcay" "Fatsa" "Finike" "Silifke" "Saros" "Sigacik" "Sapanca" "Seymen" "Selcuk"
+		"Seyhan" "Sürmene" "Vakfikebir" "Karamürsel" "Kerempe" "Kozlu" "Kemer" "Mordogan" "Mürefte" "Serdar" "Sarucabey" "Uluabat" "Sarköy" "Degirmendere" "Drama"
 	}
 }
 
@@ -112,10 +112,10 @@ OTT_ISLANDS = {
 	fallback_name = "Gemileri %d"
 
 	unique = {
-		"莱斯沃斯岛" "罗德岛" "科斯岛" "格克切岛" "博兹贾岛" "海贝利亚达岛" "比于卡达岛" "克里特岛" "萨索斯岛" "萨莫色雷伊斯岛" "利姆尼岛" "马尔马拉岛" "阿福萨岛" "艾金里克岛" "帕萨利曼尼岛" "布加兹岛" "基纳里亚达岛" "赛德夫岛" "亚希岛" "西维里阿达岛"
-		"杰卡达岛" "叶希拉达岛" "博兹巴巴岛" "普萨拉岛" "伊卡利亚岛" "帕特莫斯岛" "伊雷利耶岛" "伊基尔岛" "赫克岛" "锡米岛" "利莫尼耶岛" "科尔佩岛" "圣托里尼岛" "基西拉岛" "纳克撒岛" "亚莫吉岛" "哈西拉岛" "塞里夫斯岛" "忒米耶岛" "蒂诺斯岛" "安蒂拉岛"
-		"英希里岛" "科赫巴巴" "富尔尼岛" "卡拉达岛" "卡索特岛" "卡琳诺斯岛" "基兹希萨尔" "卡拉哈伊特" "库于卢" "博斯布伦" "卡塔拉达岛" "伊姆拉勒岛" "巴拉岛" "锡夫诺斯岛" "克孜勒河" "耶锡勒马克河" "菲尔约斯" "乔鲁赫河" "伊德勒" "费尔廷纳" "达拉曼"
-		"玛纳夫加特" "阿克苏" "巴吉尔凯" "盖迪兹" "苏苏尔卢克" "尼鲁佛" "恰尔尚巴" "费拉特" "迪季莱" "阿莱斯" "库拉" "卡拉苏" "穆拉特" "阿帕凯"
+		"Midilli" "Rodos" "Istanköy" "Gökceada" "Bozcaada" "Heybeliada" "Büyükada" "Girit" "Taşoz" "Semadirek" "Limni" "Marmara" "Avsa" "Ekinlik" "Pasalimani" "Burgazada" "Kinaliada" "Sedefada" "Yassiada" "Sivriada"
+		"Gökada" "Yesilada" "Bozbaba" "Ipsara" "Ahikerya" "Batnoz" "Ileriye" "Ilkil" "Herke" "Sömbeki" "Limoniye" "Kerpe" "Santoron" "Degirmenlik" "Naksa" "Yamurgi" "Hacilar" "Koyunluca" "Termiye" "Istendil" "Andira"
+		"Incirli" "Kocbaba" "Fornoz" "Karaada" "Kasot" "Kelemez" "Kizilhisar" "Karahayit" "Kuyulu" "Bozburun" "Catalada" "Imrali" "Bara" "Yavuzca" "Kizilirmak" "Yesilirmak" "Filyos" "Coruh" "Iyidere" "Firtina" "Dalaman"
+		"Manavgat" "Aksu" "Bakircay" "Gediz" "Susurluk" "Nilüfer" "Carsamba" "Firat" "Dicle" "Aras" "Kura" "Karasu" "Murat" "Arpacay"
 	}
 }
 
@@ -132,20 +132,20 @@ OTT_KAPUDAN_PASHA = {
 	fallback_name = "Gemileri %d"
 
 	unique = {
-		"哈姆扎·帕夏" "巴巴罗萨·海雷丁·帕夏" "科贾·许斯雷夫·帕夏" "萨鲁卡·帕夏" "苏莱曼·巴尔塔奥卢·帕夏" "尤努斯·帕夏" "扎加诺斯·帕夏" "维利·穆罕默德·帕夏"
-		"盖迪克·艾哈迈德·帕夏" "梅西赫·帕夏" "卡拉·达乌德·帕夏" "居希克·帕夏" "海尔赛利克·帕夏" "卡弗·帕夏" "帕拉克·穆斯塔法·帕夏"
-		"哈希·本里·帕夏" "哈希·哈桑·帕夏" "尼西利·穆罕默德·帕夏" "曼达尔扎德·帕夏" "切扎伊里·哈桑·帕夏" "科贾·尤素福·帕夏" "杰里特利·侯赛因·帕夏"
-		"凯门克斯·艾哈迈德·帕夏" "索库鲁·穆罕默德·帕夏" "锡南·帕夏" "皮雅利·帕夏" "穆安津扎德·阿里·帕夏" "克利奇·阿里·帕夏" "尤素福·锡南·帕夏"
-		"卡莱里科兹·帕夏" "梅佐莫塔·侯赛因·帕夏" "帕拉比伊·帕夏" "阿锡·穆罕默德·帕夏" "居希克·奥斯曼·帕夏"
-		"德尔维希·帕夏" "哈菲兹·帕夏" "达马特·哈利勒·帕夏" "厄屈兹·帕夏" "居泽杰·阿里·帕夏" "卡拉·达乌德·帕夏"
-		"巴尔塔希·帕夏" "吉尔里·艾哈迈德·帕夏" "霍卡·易卜拉欣·帕夏" "尼尚西·苏莱曼·帕夏" "伊兹米里·帕夏" "卡尼姆·帕夏" "凯马克·穆斯塔法·帕夏"
-		"托帕·雷杰普·帕夏" "哈桑·帕夏" "德里·侯赛因·帕夏" "凯门克斯·穆斯塔法·帕夏" "阿卜迪·帕夏" "阿卜杜勒金·帕夏" "纳夏德·阿里·帕夏"
-		"西亚武什·帕夏" "乌准·皮雅利·帕夏" "艾布比科尔·帕夏" "科卡穆萨·帕夏" "卡拉穆萨·帕夏" "托帕·伊兹特·帕夏" "艾哈迈德·费斯·帕夏"
-		"科贾·德尔维希·帕夏" "卡乌扎得·帕夏" "卡拉·穆拉德·帕夏" "祖尔纳曾·穆斯塔法·帕夏" "梅尔济丰卢·帕夏"
-		"达玛德·穆罕默德·帕夏" "托布库巴希扎德·帕夏" "艾敏·帕夏" "恩格利兹·帕夏" "阿泰斯·帕夏" "维希姆·帕夏"
-		"萨利·坎南·帕夏" "赛迪·帕夏" "托帕·穆罕默德·帕夏" "卡拉·易卜拉欣·帕夏" "博佐克鲁·帕夏" "米西里奥古鲁·帕夏"
-		"哈齐·侯赛因·帕夏" "苏莱曼·帕夏" "埃尔希·帕夏" "叶海亚·帕夏" "马哈茂德·帕夏" "杜拉克·穆罕默德·帕夏" "达马特·梅勒克·帕夏" "阿里·帕夏"
-		"居希克·侯赛因·帕夏" "博斯坦斯巴希·帕夏" "哈齐·萨利·帕夏" "卡哈希·帕夏" "卡拉·穆罕默德·帕夏" "哈桑·帕夏" "德里·阿卜杜拉·帕夏"
+		"Hamza Kapudan Paşa" "Barbaros Hayreddin Kapudan Paşa" "Koca Hüsrev Kapudan Paşa" "Saruca Kapudan Paşa" "Baltaoglu Süleyman Kapudan Paşa" "Has Yunus Kapudan Paşa" "Zaganos Kapudan Paşa" "Veli Mahmud Kapudan Paşa"
+		"Gedik Ahmed Kapudan Paşa" "Mesih Kapudan Paşa" "Kara Nişanci Davud Kapudan Paşa" "Kücük Davud Kapudan Paşa" "Hersekli Ahmed Kapudan Paşa" "Cafer Kapudan Paşa" "Parlak Mustafa Kapudan Paşa"
+		"Haci Benli Mustafa Kapudan Paşa" "Haci Hasan Kapudan Paşa" "Nişli Mehmed Kapudan Paşa" "Mandalzade Hüsameddin Kapudan Paşa" "Cezayirli Gazi Hasan Kapudan Paşa" "Koca Yusuf Kapudan Paşa" "Giritli Hüseyin Kapudan Paşa"
+		"Kemankeş Ahmed Kapudan Paşa" "Sokullu Mehmed Kapudan Paşa" "Sinan Kapudan Paşa" "Piyale Kapudan Paşa" "Müezzinzade Ali Kapudan Paşa" "Kilic Ali Kapudan Paşa" "Yusuf Sinan Kapudan Paşa"
+		"Kalaylikoz Haci Ahmed Kapudan Paşa" "Mezomorto Hüseyin Kapudan Paşa" "Palabiyik Yusuf Kapudan Paşa" "Aşci Mehmed Kapudan Paşa" "Kücük Osman Kapudan Paşa"
+		"Derviş Mehmed Kapudan Paşa" "Hafiz Ahmed Kapudan Paşa" "Damat Halil Kapudan Paşa" "Oküz Mehmed Kapudan Paşa" "Güzelce Ali Kapudan Paşa" "Kara Davut Kapudan Paşa"
+		"Baltaci Mehmed Kapudan Paşa" "Kirli Ahmed Kapudan Paşa" "Hoca Ibrahim Kapudan Paşa" "Silahdar Süleyman Kapudan Paşa" "Izmirli Süleyman Kapudan Paşa" "Canim Hoca Mehmed Kapudan Paşa" "Kaymak Mustafa Kapudan Paşa"
+		"Topal Recep Kapudan Paşa" "Hasan Kapudan Paşa" "Deli Hüseyin Paşa" "Kemankeş Kara Mustafa Kapudan Paşa" "Abdi Kapudan Paşa" "Abdülkerim Kapudan Paşa" "Nasuhzade Ali Kapudan Paşa"
+		"Siyavuş Kapudan Paşa" "Uzun Piyale Kapudan Paşa" "Ebubekir Kapudan Paşa" "Koca Musa Kapudan Paşa" "Kara Musa Kapudan Paşa" "Topal Izzet Kapudan Paşa" "Ahmet Fevzi Kapudan Paşa"
+		"Koca Derviş Mehmed Kapudan Paşa" "Cavuşzade Mehmed Kapudan Paşa" "Kara Murad Kapudan Paşa" "Zurnazen Mustafa Kapudan Paşa" "Merzifonlu Kara Mustafa Kapudan Paşa"
+		"Damad Mehmed Ali Kapudan Paşa" "Topcubaşizade Mahmud Kapudan Paşa" "Kibrisli Mehmed Emin Kapudan Paşa" "Ingiliz Mustafa Kapudan Paşa" "Ateş Mehmet Kapudan Paşa" "Haci Vesim Kapudan Paşa"
+		"Sari Kenan Kapudan Paşa" "Seydi Ali Kapudan Paşa" "Topal Mehmed Kapudan Paşa" "Kara Ibrahim Kapudan Paşa" "Bozoklu Mustafa Kapudan Paşa" "Misirlioglu Ibrahim Kapudan Paşa"
+		"Haci Hüseyin Kapudan Paşa" "Süleyman Kapudan Paşa" "Elci Mirahor Mustafa Kapudan Paşa" "Yahya Kapudan Paşa" "Mahmud Kapudan Paşa" "Durak Mehmed Kapudan Paşa" "Damat Melek Mehmed Kapudan Paşa" "Ali Kapudan Paşa"
+		"Kücük Hüseyin Kapudan Paşa" "Bostancibaşi Hafiz Ismail Kapudan Paşa" "Haci Salih Kapudan Paşa" "Carhaci Ali Kapudan Paşa" "Kara Mehmed Kapudan Paşa" "Hasan Kapudan Paşa" "Deli Abdullah Kapudan Paşa"
 	}
 }
 
@@ -161,10 +161,10 @@ OTT_INSPIRATIONAL = {
 	fallback_name = "Gemileri %d"
 
 	unique = {
-		"欢愉" "神助" "佩伊克伊·谢夫克特" "支援" "黑贝特努玛" "光荣" "伯克·伊·萨特维特" "海洋商队" "富足之海" "幸福使者" "快乐" "征服" "圣助" "捷报" "圣谕"
-		"荣誉" "荣耀序言" "神恩指引" "革新" "凯旋" "征服者" "征服海洋" "圣恩" "圣质" "圣星" "神圣恩典" "仁君" "共赴胜利"
-		"伟大征服" "美好序言" "狮" "剑" "皇恩" "福祚" "荣耀使者" "剑舞" "友谊" "力量" "主动" "胜利之箭" "海洋之剑" "神佑" "流星" "晨星" "昴宿星团"
-		"箭矢" "龙" "雷霆万钧" "飞翔" "爱国" "国礼" "爱国模范" "祖国奋进" "胜利使者" "苏丹使节"
+		"Mesudiye" "Avnillah" "Peyk-i Şevket" "Muavenet" "Heybetnüma" "Iclaliye" "Berk-i Satvet" "Kervan-i Bahri" "Feyza-i Bahri" "Saik-i Sadi" "Sadiye" "Fethiye" "Nasr-ül Aziz" "Peyk-i Meserret" "Peyk-i Nusret"
+		"Peyk-i Seref" "Mukaddeme-i Seref" "Rehber-i Tevfik" "Eser-i Cedid" "Muzaffer" "Heybet Nüma" "Fettah" "Burc-i Zafer" "Asar-i Tevfik" "Asar-i Şevket" "Necm-i Şevket" "Lüft-ü Celil" "Hifz-ur Rahman" "Muin-i Zafer"
+		"Feth-i Bülend" "Mukaddeme-i Hayir" "Hizber" "Seyfi" "Lutf-ü Hümayun" "Tevfik" "Nimet" "Sanaver" "Semsir-i Hücum" "Mahabbet" "Satvet" "Saiki" "Tir-i Zafer" "Seyf-i Bahri" "Vesile-i Nusret" "Sahab" "Tarik" "Pervin"
+		"Seham" "Ejder" "Berk Efsan" "Tayyar" "Muavenet-i Milliye" "Yadigar-i Millet" "Nümune-i Hamiyet" "Gayret-i Vataniye" "Peyk-i Zafer" "Muhbir-i Sürur"
 	}
 }
 
@@ -181,10 +181,11 @@ OTT_SULTANS = {
 	fallback_name = "Gemileri %d"
 
 	unique = {
-		"苏丹穆罕默德二世" "苏丹奥斯曼一世" "苏丹苏莱曼一世" "苏丹阿卜杜勒-迈吉德一世" "苏丹穆拉德一世" "苏丹巴耶济德一世" "苏丹奥尔汗一世" "苏丹穆罕默德一世" "苏丹穆拉德二世"
-		"苏丹阿卜杜勒-阿齐兹一世" "苏丹穆罕默德六世" "苏丹阿卜杜勒-迈吉德二世" "苏丹穆拉德三世" "苏丹穆罕默德三世" "苏丹艾哈迈德一世" "苏丹穆斯塔法一世" "苏丹奥斯曼二世" "苏丹易卜拉欣一世"
-		"苏丹穆罕默德四世" "苏丹苏莱曼二世" "苏丹艾哈迈德二世" "苏丹穆斯塔法二世" "苏丹艾哈迈德三世" "苏丹马哈茂德一世" "苏丹奥斯曼三世" "苏丹巴耶济德二世" "苏丹塞利姆一世"
-		"苏丹穆斯塔法三世" "苏丹哈米德一世" "苏丹塞利姆二世" "苏丹穆斯塔法四世" "苏丹马哈茂德二世" "苏丹穆拉德四世" "苏丹穆罕默德五世" "苏丹哈米德二世"
-		"苏丹塞利姆三世"
+		"Fatih Sultan Mehmed" "Sultan Osman-i Evvel" "Kanuni Sultan Süleyman" "Sultan Abdülmecid-i Evvel" "Sultan Murad-i Rabi" "Sultan Yildirim Bayezid" "Sultan Orhan" "Celebi Sultan Mehmed" "Sultan Murad-i Sani"
+		"Sultan Abdülaziz" "Sultan Mehmed-i Sadis" "Sultan Abdülmecid-i Sani" "Sultan Murad-i Salis" "Sultan Mehmed-i Salis" "Sultan Ahmed-i Evvel" "Sultan Mustafa-i Evvel" "Sultan Osman-i Sani" "Sultan Ibrahim"
+		"Sultan Mehmed-i Rabi" "Sultan Süleyman-i Sani" "Sultan Ahmed-i Sani" "Sultan Mustafa-i Sani" "Sultan Ahmed-i Salis" "Sultan Mahmud-u Evvel" "Sultan Osman-i Salis" "Sultan Bayezid-i Sani" "Sultan Selim-i Sani"
+		"Sultan Mustafa-i Salis" "Sultan Abdulhamid-i Evvel" "Sultan Selim-i Salis" "Sultan Mustafa-i Rabi" "Sultan Mahmud-u Sani" "Sultan Murad-i Hamis" "Sultan Mehmed-i Hamis" "Sultan Abdülhamid-i Sani"
+		"Sultan Abdulhamid-i Sani" "Yavuz Sultan Selim-i Evvel"
 	}
 }
+

@@ -3,7 +3,7 @@
 RUS_ANIMALS_NAVY = {
 	name = NAME_THEME_ANIMALS_RUS
 
-	for_countries = { RUS SOV SIB }
+	for_countries = { SOV }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -12,19 +12,19 @@ RUS_ANIMALS_NAVY = {
 	fallback_name = "PL-%d"
 
 	unique = {
-		"海豚" "逆戟鲸" "黄貂鱼" "江豚" "河鲈" "鲭鱼" "鳟鱼" "鲤鱼" "乌鸦" "比目鱼" "白鲑" "鲶鱼" "白斑狗鱼" "鲦鱼" "小体鲟" "白鲸" "鲑鱼" "白梭吻鲈" "奥肖特" "鲻鱼" "白鱼" "虾虎鱼" "大比目鱼" "湖拟鲤" "大角羊"
-		"凯门鳄" "短吻鳄" "鳄鱼" "龙" "七鳃鳗" "阿库拉" "蟹" "海象" "海豹" "港海豹" "独角鲸" "抹香鲸" "鲸鱼" "豹" "猎豹" "公猪" "狼" "虎" "母狮" "蛇" "狮子" "独角兽" "鳇鱼" "芬塔西鲱" "信天翁"
-		"黑豹" "猞猁" "美洲豹" "美洲狮" "捷豹" "山羊" "鳗鱼" "火龙" "鸭子" "海燕" "海雕" "梅花鲈" "鹰" "虹鳟" "大马哈鱼" "金枪鱼" "褐蓝子鱼" "狸猫" "绿青鳕" "穆森白鲑" "猫" "白斑角鲨" "茴鱼" "剑旗鱼"
-		"巨蜥" "毒蛇" "蛇怪" "海蛇" "蟒蛇" "石龙子" "滑蛇" "龟" "飞鼠" "毒蜥" "蜥蜴" "加亚" "巨蟒" "黄颔蛇" "羚羊" "森蚺" "盲蛇" "锯鳞蝰" "泛蜥" "黑脊游蛇" "库图拟鲤"
-		"骏鹰" "中喙鲸" "贝喙鲸" "塞壬" "彩虹飞蜥" "松鸡" "恐龙" "红点鲑" "黑鱼" "鲈塘鳢" "红鳍原鲌" "蛇头鱼" "银汉鱼" "指猴" "重牙鲷" "石斑鱼" "菱鲆" "鹅" "白头鸭" "短趾雕" "秃鹰" "海东青"
-		"秃鹫" "黄花鱼" "星状鲟鱼" "银鲑" "鳕鱼" "欧洲鲤" "大西洋鲑" "鲇鱼" "黑线鳕" "水虎鱼" "大西洋鳕" "褐鳟" "贝鲁卡鲸" "鲂鱼" "韦莱斯" "水游蛇" "特里同" "飞角鱼" "黄盖鲽" "鲥鱼" "维云鱼" "公鸡" "黑海棱鲱"
-		"粉红鲑鱼" "海蜇" "里海拟鲤" "冠鱼" "芭比鱼" "雀鳝" "梭吻鲈" "懒熊" "旗鱼" "鹦鹉" "鳅鱼" "肺鱼" "沙丁鱼" "沃尔霍夫白鲑" "蓝背娇鹟" "冠海豹" "沙巴鳊" "项带鲷" "鳀鱼" "切楚加鱼" "宽鼻白鲑" "乔普鱼"
-		"高鼻羚羊" "臆羚" "松鼠" "熊" "鹿" "兔" "公牛" "水濑" "牛" "独狼" "山羚" "斑马" "山猫" "狐蝠" "黄鼠狼" "狐狸" "象" "马驹" "蝙蝠" "霍约克鱼" "豺狼" "豹猫" "刺猬" "豪猪" "海狸" "鬣狗"
-		"海鸥" "守宫" "长须鲸" "双斑白鱼" "胡瓜鱼" "漏斗鱼" "霸王龙" "瞻星鱼" "金头鲷" "针鱼" "杜父鱼" "里海棱鲱" "月亮鱼" "匙吻鲟" "飞马" "瓶螺" "赤鲷" "孔鳐" "粗鳞鳊" "小山羊" "北极鲑" "鳜鱼"
-		"赤狐" "壁虎" "飞鸟" "鹳" "白鹤" "苍鹭" "野牛" "麝" "朱鹭" "鸢" "白狐" "褐鸭" "金翅雀" "鹬" "鹈鹕" "猫头鹰" "硬尾鸭" "红隼" "鹤" "鸿雁" "东北虎" "翎颌鸨" "欧洲野马" "宽吻海豚"
-		"游隼" "拟游隼" "小鸨" "鹊" "麦田鸡" "海鸟" "红嘴巨鸥" "贼鸥" "企鹅" "鸽子" "布谷鸟" "夜鹰" "啄木鸟" "云雀" "画眉鸟" "山雀" "黄鹂" "伯劳鸟" "寒鸦" "秃鼻乌鸦" "渡鸦" "红腹灰雀"
-		"三刺鱼" "军舰鸟" "宽鼻鲑" "虎狮" "蝾螺" "水牛" "哲罗鲑" "石首鱼" "马舌鲽" "枪鱼" "图冈白鲑" "欧白鲑" "狗" "掸邦马" "巴沙鱼" "红眼鱼" "狐鲣" "断尾雕" "秋白鲑" "欧卡皮鹿" "大西洋鲤鱼" "锤头鲨"
-		"驼鹿" "貂熊" "麝鼠" "貂" "枭" "麝牛" "兔狲" "赛加羚羊" "鼠耳蝠" "长耳蝠" "沙狐" "黑貂" "海獭" "雪豹" "狞猫" "海狮" "髯海豹" "斑海豹" "骨顶鸡" "野驴" "长尾斑羚" "鹅喉羚" "领航鲸"
+		"Delfin" "Kasatka" "Skat" "Nalim" "Okun" "Makrel" "Forel" "Karp" "Karas" "Kambala" "Keta" "Som" "Shchuka" "Peskar" "Sterlyad" "Beluga" "Losos" "Sudak" "Osyotr" "Kefal" "Sig" "Bychok" "Paltus" "Plotva" "Baran"
+		"Kayman" "Alligator" "Krokodil" "Drakon" "Minoga" "Akula" "Krab" "Morzh" "Nerpa" "Tyulen" "Narval" "Kashalot" "Kit" "Bars" "Gepard" "Vepr" "Volk" "Tigr" "Lvitsa" "Zmeya" "Lev" "Yedinorog" "Kaluga" "Finta" "Albatros"
+		"Pantera" "Rys" "Yaguar" "Kuguar" "Leopard" "Tur" "Ugor" "Gagara" "Utka" "Burevestnik" "Orlan" "Yorsh" "Orel" "Mikizha" "Semga" "Tunets" "Pestryak" "Lin" "Sayda" "Muksun" "Koshka" "Katran" "Kharius" "Valyek" "Mech-Ryba"
+		"Varan" "Gadyuka" "Vasilisk" "Morskaya Zmeya" "Piton" "Stsink" "Medyanka" "Cherepakha" "Shipokhvost" "Yadozub" "Yasheritsa" "Gaya" "Udav" "Aspid" "Rogach" "Anakonda" "Slepun" "Efa" "Zmeyeglaz" "Poloz" "Kutum"
+		"Klyuvokryl" "Remnezub" "Plavun" "Sirena" "Agama" "Glukhar" "Poloz" "Dinodon" "Malma" "Dalliya" "Rotan" "Verkhoglyad" "Zmeyegolov" "Aterina" "Afiya" "Laskir" "Gruper" "Kalkan" "Kazarka" "Savka" "Zmeyeyad" "Grif" "Krechet"
+		"Kondor" "Stsiyena" "Gorbyl" "Sevryuga" "Kizhuch" "Navaga" "Sazan" "Syomga" "Zubatka" "Piksha" "Piranya" "Treska" "Kumzha" "Belukha" "Leshch" "Yelets" "Uzh" "Triton" "Dolgopyer" "Limanda" "Aloza" "Vyun" "Petukh" "Tyulka"
+		"Gorbusha" "Meduza" "Vobla" "Letuchka" "Usach" "Klyuvenos" "Bersh" "Gubach" "Parusnik" "Popugay" "Lobach" "Rogozub" "Sardina" "Sigolov" "Sinets" "Khokhlach" "Chesha" "Sapa" "Sarg" "Khamsa" "Chechuga" "Chir" "Chop"
+		"Sayga" "Serna" "Belka" "Medved" "Olen" "Zayats" "Byk" "Vydra" "Vol" "Biryuk" "Gazel" "Zebra" "Kot" "Krylan" "Laska" "Lisitsa" "Slon" "Zherebets" "Netopyr" "Khoryok" "Shakal" "Otselot" "Yozh" "Dikobraz" "Bobr" "Giyena"
+		"Chayka" "Yashcheroshchuka"	"Finval" "Bystryanka" "Vandysh" "Voronka" "Golyan" "Zvezdochyet" "Dorada" "Igla" "Kercha" "Kilka" "Luna" "Mnogozub" "Pegas" "Pila" "Pagr" "Raya" "Gustera" "Golets" "Belorybitsa" "Aukha"
+		"Lis" "Gekkon" "Gus" "Aist" "Zhuravl" "Tsaplya" "Zubr" "Kabarga" "Ibis" "Korshun" "Pesets" "Chirok" "Shchegol" "Ulit" "Pelikan" "Filin" "Savka" "Pustelga" "Sterkh" "Sukhonos" "Amur" "Vikhlyay" "Tarpan" "Afalina"
+		"Sapsan" "Shakhin" "Strepet" "Soroka" "Chibis" "Khokhotun" "Chegrava" "Pomornik" "Pingvin" "Golub" "Kukushhka" "Kozodoy" "Dyatel" "Zhavoronok" "Drozd" "Sinitsa" "Ivolga" "Sorokoput" "Galka" "Grach" "Voron" "Snegir"
+		"Rogatka" "Ship" "Shchokur" "Trigon" "Tyurbo" "Taran" "Taymen" "Umbrina" "Fletan" "Shchukoglav" "Tugun" "Samglav" "Sig-Seld" "Sobaka" "Shan" "Glazach" "Krasnoper" "Palamida" "Orlyak" "Omul" "Nergas" "Vyrezub" "Paliya"
+		"Los" "Rosomakha" "Ondatra" "Kunitsa" "Sova" "Kayra" "Ovtsebyk" "Manul" "Saygak" "Nochnitsa" "Ushan" "Korsak" "Sobol" "Kalan" "Irbis" "Karakal" "Sivuch" "Lakhtak" "Larga" "Lysun" "Kulan" "Goral" "Dzheyran" "Grinda"
 	}
 }
 
@@ -32,27 +32,27 @@ RUS_ANIMALS_NAVY = {
 RUS_ADJECTIVES_NAVY = {
 	name = NAME_THEME_ADJECTIVES_RUS
 
-	for_countries = { RUS SOV SIB }
+	for_countries = { SOV }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
 
 	prefix = ""
-	fallback_name = "驱逐舰 N%d"
+	fallback_name = "Esminets N%d"
 
 	unique = {
-		"警惕" "不惧" "鲁莽" "沉默" "细心" "忍耐" "敬佩" "傲慢" "雷鸣" "精巧" "忠顺" "热情" "持久" "倾听" "尖锐" "灵敏" "敏锐" "恶毒"
-		"活泼" "热心" "坚定" "果断" "愤怒" "勇敢" "守卫" "警戒" "快速" "可怖" "守序" "高尚" "狂暴" "激励" "愚钝" "严厉" "狡猾" "凶狠" "冲动" "端庄"
-		"狂怒" "固执" "热诚" "呼唤" "警觉" "锋利" "尽职" "强健" "巧妙" "用心" "强大" "无虑" "诡计" "善变" "暴怒" "坚硬" "精确" "焦躁" "理智" "战斗" "尊严" "典范"
-		"喧闹" "好动" "英勇" "不安" "迅捷" "闪耀" "勇气" "乐观" "无瑕" "显眼" "志愿" "吵闹" "妒忌" "珍惜" "恐惧" "活跃" "阿穆尔斯克" "乌苏里斯克" "界限" "无畏"
-		"外贝加尔" "哥萨克" "陆军" "土库曼" "莫斯科夫斯基" "卡赞斯科耶" "上尉" "中尉" "不倦" "怒火" "冒失" "可畏" "轻率" "快乐" "胜利" "雷霆" "自由" "彼得罗夫斯基"
-		"骄傲" "猛烈" "毁灭" "危险" "刻薄" "无情" "聪明" "进步" "坚持" "光荣" "干练" "有效" "智慧" "聪敏" "熟练" "火热" "谨慎" "狩猎"
-		"杰出" "聪慧" "抗争" "领先" "暴躁" "独特" "可观" "不满" "剧烈" "负责" "火爆" "堂皇" "严格" "顶尖" "急促" "真诚" "虔诚" "沉思" "旋风"
-		"冷酷" "喜悦" "启发" "保护" "全心" "护卫" "周密" "意外" "热络" "果决" "飞翔" "不屈" "完美" "持久" "期盼" "蛮勇"
-		"威胁" "恒常" "积极" "理想" "严肃" "不羁" "谄媚" "体贴" "坚实" "理解" "生动" "沉着" "怨恨" "无惧" "清醒" "疾速" "历战"
-		"谦逊" "博识" "庄重" "挑战" "冷静" "智慧" "隐秘" "无痕" "鼓舞" "慎重" "公平" "风暴" "气愤" "可敬" "无敌" "激昂" "机敏"
-		"兴奋" "独断" "可靠" "不懈" "老练" "远东" "躲避" "不息" "不挠" "炽热" "现代" "奋勇" "洁白" "毁坏" "达尔尼" "进取" "宽恕"
-		"和谐" "好奇" "明知" "自主" "共有" "广阔" "审慎" "莽撞" "友好" "嫉妒" "大胆" "老鹰" "协助" "贪婪" "上将" "二月革命" "打击" "不馁" "英雄" "凯旋" "拉特尼"
+		"Bditelny" "Besstrashny" "Besposhadny" "Besshumny" "Vnimatelny" "Vynoslivy" "Vnushitelny" "Vlastny" "Grozovoy" "Prytky" "Poslushny" "Pylky" "Prochny" "Porazhayushy" "Pronzitelny" "Podvizhny" "Prozorlivy" "Ozornoy"
+		"Rezvy" "Retivy" "Ryany" "Reshitelny" "Serdity" "Smely" "Storozhevoy" "Steregushchy" "Skory" "Strashny" "Stroyny" "Statny" "Razyashchy" "Rastoropny" "Silny" "Strogy" "Smetlivy" "Svirepy" "Stremitelny" "Grazhdansky"
+		"Zharky" "Zhivuchy" "Zadorny" "Zvonky" "Zorky" "Metky" "Molodetsky" "Moshchny" "Iskusny" "Ispolnitelny" "Krepky" "Legky" "Lovky" "Letuchy" "Likhoy" "Tvyerdy" "Tochny" "Trevozhny" "Delny" "Boyevoy" "Dostoyny" "Obraztsovy"
+		"Buyny" "Boyky" "Bravy" "Burny" "Bystry" "Blestyashchy" "Bedovy" "Bodry" "Bezuprechny" "Vidny" "Dobrovolchesky" "Gromky" "Gromyashchy" "Zavidny" "Zavetny" "Zhutky" "Zhivoy" "Amursky" "Ussuriysky" "Pogranichny" "Otvazhny"
+		"Zabaykalsky" "Kazachy" "Voyskovoy" "Turkmensky" "Moskovsky" "Kazansky" "Kapitansky" "Leytenantsky" "Bespokoyny" "Gnevny" "Derzky" "Grozny" "Pospeshny" "Schastlivy" "Pobezhdayushchy" "Gromovoy" "Svobodny" "Petrovsky"
+		"Gordy" "Gremyashchy" "Sokrushitelny" "Grozyashchy" "Rezky" "Besposhchadny" "Provorny" "Peredovoy" "Stoyky" "Slavny" "Sposobny" "Polezny" "Smyshleny" "Soobrazitelny" "Opytny" "Ognevoy" "Osmotritelny" "Okhotnichy"
+		"Otlichny" "Odaryenny" "Vstrechny" "Vedushchy" "Ognenny" "Otchyotlivy" "Vazhny" "Bezuderzhny" "Ostry" "Otvetstvenny" "Vspylchevy" "Velichavy" "Surovy" "Otmenny" "Otryvisty" "Vyortky" "Verny" "Otrazhayushchy" "Vikhrevoy"
+		"Bezzhalostny" "Otradny" "Ozaryonny" "Oberegayushchy" "Bezzavetny" "Okhranyayushchy" "Ostorozhny" "Vnezapny" "Vyrazitelny" "Volevoy" "Okrylyonny" "Bezboyaznenny" "Bezukoriznenny" "Bezotkazny" "Smotryashchy" "Otchayanny"
+		"Opasny" "Bessmenny" "Otzyvchivy" "Sovershenny" "Seryozny" "Volny" "Vkradchivy" "Vdumchivy" "Solidny" "Vrazumitelny" "Ozhivlyonny" "Stepenny" "Ozhestochyonny" "Neustrashimy" "Svetly" "Speshny" "Byvaly"
+		"Skromny" "Svedushchy" "Vesky" "Vyzyvayushchy" "Spokoyny" "Smyshlyonny" "Skrytny" "Bessledny" "Vdokhnovenny" "Soznatelny" "Spravedlivy" "Burlivy" "Vozmushchyonny" "Blagorodny" "Nesokrushimy" "Plamenny" "Nakhodchivy"
+		"Vozbuzhdenny" "Naporisty" "Vliyatelny" "Nastoychivy" "Vyderzhanny" "Dalnevostochny" "Neulovimy" "Neuderzhimy" "Uporny" "Zhguchy" "Sovermenny" "Khrabry" "Bely" "Gibelny" "Dalny" "Razvivayushchy" "Osvobozhdayushchy"
+		"Ladny" "Pytlivy" "Mudry" "Osoby" "Glasny" "Krupny" "Flotsky" "Poryvisty" "Druzhny" "Revnostny" "Udaloy" "Orliny" "Basisty" "Zhadny" "Veliky" "Admiralsky" "Fevralsky" "Razitelny" "Neukrotimy" "Geroysky" "Pobedny" "Ratny"
 	}
 }
 
@@ -60,22 +60,22 @@ RUS_ADJECTIVES_NAVY = {
 RUS_CITIES_NAVY = {
 	name = NAME_THEME_CITIES_RUS
 
-	for_countries = { RUS SOV SIB }
+	for_countries = { SOV }
 
 	type = ship
 
 	prefix = ""
-	fallback_name = "战舰 N%d"
+	fallback_name = "Korabl N%d"
 
 	unique = {
-		"莫斯科" "彼得格勒" "比什凯克" "斯摩棱斯克" "罗斯托夫" "叶卡捷琳娜堡" "弗拉基米尔" "维捷布斯克" "诺夫哥罗德" "喀山" "萨马拉" "乌法" "察里津" "斯塔夫罗波尔" "阿尔汉格尔斯克" "符拉迪克奥克兹" "摩尔曼斯克" "阿斯特拉罕" "萨拉托夫" "奔萨"
-		"梁赞" "奥廖尔" "布良斯克" "特维尔" "坦波夫" "伊热夫斯克" "沃特金斯克" "彼尔姆" "奥伦堡" "乌拉尔" "车尔雅宾斯克" "秋明" "鄂木斯克" "巴甫洛达尔" "巴尔瑙尔" "叶尼塞斯克" "克拉斯诺亚尔斯克" "伊尔库茨克" "赤塔" "雅库茨克" "布拉戈维申斯克"
-		"哈巴洛夫斯克" "符拉迪沃斯托克" "沃洛格达" "库尔斯克" "新罗西斯克" "彼得罗夫斯克" "叶列茨" "切博克萨雷" "托罗佩茨" "卢加" "米努辛斯克" "勒热夫" "雅罗斯拉夫尔" "彼得罗扎沃茨克" "别洛焦尔斯克" "穆罗姆" "苏兹达尔" "雷利斯克" "利佩茨克" "托尔若克"
-		"图拉" "大乌斯秋格" "乌格里奇" "科斯特罗马" "迪米特罗夫" "旧鲁萨" "科洛姆纳" "下诺夫哥罗德" "加利奇" "莫扎伊斯克" "普里奥焦尔斯克" "索帕科夫" "巴拉赫纳" "阿扎马斯" "沃罗涅日" "托博尔斯克" "别尔哥罗德" "卡尔戈波" "谢格洛夫斯克"
-		"伏尔加斯基" "苏尔古特" "比斯克" "奥尔斯克" "波克罗夫斯克" "北德文斯克" "阿尔马维尔" "波多利斯克" "彼得罗巴甫洛夫斯克" "塞兹兰" "兹拉托乌斯特" "新切尔卡斯克" "派蒂哥斯卡" "阿钦斯克" "坎斯克" "加特契纳" "叶伊斯克" "克林" "格奥尔吉耶夫斯克" "季霍列茨克"
-		"科兹洛夫" "辛比尔斯克" "奥洛涅茨" "尼布楚" "乌兰乌德" "亚速" "博布罗夫" "沙德林斯克" "凯因斯基" "罗斯拉夫尔" "奥斯特罗戈日斯克" "上沃洛乔克" "季赫温" "别热茨克" "伊尔比特" "塔甘罗格" "维亚济马" "小雅罗斯拉夫韦茨" "阿列克辛"
-		"博戈罗季茨克" "大卢基" "叶弗列莫夫" "卡希拉" "雷宾斯克" "切列波维茨" "亚历山德罗夫" "沃尔霍夫" "维亚特卡" "扎赖斯克" "基尔札奇" "科夫罗夫" "姆岑斯克" "涅列赫塔" "里亚日斯克" "斯科平" "舒亚" "鲍里索格列布斯克" "基尔萨诺夫"
-		"奇斯托波尔" "莫尔尚斯克" "巴甫洛夫斯克" "斯帕斯克" "乌斯曼" "阿特卡尔斯克" "巴拉绍夫" "布因斯克" "韦利斯克" "沃利斯克" "格拉佐夫" "叶拉布加" "卡米辛" "库兹涅茨" "奥涅加" "萨兰斯克" "萨拉普尔" "申库尔斯克" "亚兰斯克" "阿拉帕耶夫斯克" "比尔斯克" "库尔干"
+		"Moskva" "Petrograd" "Pishpek" "Smolensk" "Rostov" "Yekaterinodar" "Vladimir" "Vitebsk" "Novgorod" "Kazan" "Samara" "Ufa" "Tsaritsyn" "Stavropol" "Arkhangelsk" "Vladkikavkaz" "Murmansk" "Astrakhan" "Saratov" "Penza"
+		"Ryazan" "Oryol" "Bryansk" "Tver" "Tambov" "Izhevsk" "Votkinsk" "Perm" "Orenburg" "Uralsk" "Chelyabinsk" "Tyumen" "Omsk" "Pavlodar" "Barnaul" "Yeniseysk" "Krasnoyarsk" "Irkutsk" "Chita" "Yakutsk" "Blagoveshchensk"
+		"Khabarovsk" "Vladivostok" "Vologda" "Kursk" "Novorossiysk" "Petrovsk" "Yelets" "Cheboksary" "Toropets" "Luga" "Minusinsk" "Rzhev" "Yaroslavl" "Petrozavodsk" "Belozersk" "Murom" "Suzdal" "Rylsk" "Lipetsk" "Torzhok"
+		"Tula" "Veliky Ustug" "Uglich" "Kostroma" "Dmitrov" "Staraya Russa" "Kolomna" "Nizhny Novgorod" "Galich" "Mozhaysk" "Priozersk" "Serpukhov" "Balakhna" "Arzamas" "Voronezh" "Tobolsk" "Belgorod" "Kargopol" "Shcheglovsk"
+		"Volzhsky" "Surgut" "Biysk" "Orsk" "Pokrovsk" "Severodvinsk" "Armavir" "Podolsk" "Petropavlovsk" "Syzran" "Zlatoust" "Novocherkassk" "Pyatigorsk" "Achinsk" "Kansk" "Gatchina" "Eysk" "Klin" "Georgiyevsk" "Tikhoretsk"
+		"Kozlov" "Simbirsk" "Olonets" "Nerchinsk" "Verkhneudinsk" "Azov" "Bobrov" "Shadrinsk" "Kainsk" "Roslavl" "Ostrogozhsk" "Vyshny Volochek" "Tikhvin" "Bezhetsk" "Irbit" "Taganrog" "Vyazma" "Maloyaroslavets" "Aleksin"
+		"Bogoroditsk" "Velikiye Luki" "Yefremov" "Kashira" "Rybinsk" "Cherepovets" "Aleksandrov" "Volkhov" "Vyatka" "Zaraysk" "Kirzhach" "Kovrov" "Mtsensk" "Nerekhta" "Pokrov" "Ryazhsk" "Skopin" "Shuya" "Borisoglebsk" "Kirsanov"
+		"Chistopol" "Morshansk" "Pavlovsk" "Spassk" "Usman" "Atkarsk" "Balashov" "Buinsk" "Velsk" "Volsk" "Glazov" "Yelabuga" "Kamyshin" "Kuznetsk" "Onega" "Saransk" "Sarapul" "Shenkursk" "Yaransk" "Alapayevsk" "Birsk" "Kurgan"
 	}
 }
 
@@ -83,22 +83,22 @@ RUS_CITIES_NAVY = {
 RUS_ADMIRALS_NAVY = {
 	name = NAME_THEME_ADMIRALS_RUS
 
-	for_countries = { RUS SOV SIB }
+	for_countries = { SOV }
 
 	type = ship
 
 	prefix = ""
-	fallback_name = "战舰 N%d"
+	fallback_name = "Korabl N%d"
 
 	unique = {
-		"阿帕拉克金海军上将" "彼得·罗曼诺夫海军上将" "西弗斯海军上将" "缅希科夫海军上将" "戈利岑海军上将" "格雷格海军上将" "乌沙科夫海军上将" "布塔科夫海军上将" "克鲁森施滕海军上将" "拉扎列夫海军上将" "别林斯高晋海军上将"
-		"克雷默海军上将" "斯米德海军上将" "艾森海军上将" "阿列克谢耶夫海军上将" "纳西莫夫海军上将" "弗兰格尔海军上将" "卡宁海军上将" "艾伯哈特海军上将" "雅科夫列夫海军上将" "高尔察克海军上将" "科尔尼洛夫海军上将"
-		"列索夫斯基海军上将" "布雷达尔海军中将" "罗杰斯特文斯基海军中将" "库舒列夫海军上将" "德里巴斯海军上将" "瓦诺维奇海军上将" "马卡洛夫海军上将" "普茨托什金海军上将" "海登海军上将" "康斯坦丁·罗曼诺夫海军上将"
-		"库曼海军上将" "格里戈沃维奇海军上将" "赫鲁晓夫海军上将" "叶潘钦海军上将" "卡辛海军上将" "谢列布雅科夫海军上将" "斯坦科维奇海军上将" "梅林海军上将" "普提雅廷海军上将" "迪科夫海军上将" "杜巴索夫海军上将"
-		"涅维尔斯科伊海军上将" "曼加那利海军上将" "弗沃特斯基海军上将" "阿卡斯海军上将" "萨列夫海军上将" "翁科夫斯基海军上将" "舍斯塔科夫海军上将" "克恩海军上将" "尼科诺夫海军上将" "佩雷莱辛海军上将" "波波夫海军上将"
-		"拉里奥诺夫海军上将" "戈洛温海军上将" "斯皮里多夫海军上将" "戈登海军上将" "济马耶维奇海军上将" "米什科夫海军上将" "米塔特列夫海军上将" "塔利津海军上将" "谢尼亚温海军上将" "高利尼舍切夫·库图佐夫海军上将"
-		"诺沃西尔斯基海军上将" "安茹海军上将" "潘菲洛夫海军上将" "格拉泽纳普海军上将" "克拉布海军上将" "伊斯托明海军上将" "尤哈林海军上将" "拉夫罗夫海军上将" "贝伦斯海军上将" "扎沃伊科海军上将" "基斯林斯基海军上将"
-		"莫德维诺夫海军上将" "纳加耶夫海军上将" "奇恰戈夫海军上将" "金斯伯根海军上将" "阿列克谢·罗曼诺夫海军大将" "斯塔克海军上将" "维特格夫特海军上将" "维伦海军上将" "内鲍加托夫海军少将" "恩克维斯特海军中将"
+		"Admiral Apraksin" "Admiral Pyotr Romanov" "Admiral Sivers" "Admiral Menshikov" "Admiral Golitsyn" "Admiral Greig" "Admiral Ushakov" "Admiral Butakov" "Admiral Kruzenshtern" "Admiral Lazarev" "Admiral Bellinsgauzen"
+		"Admiral Kremer" "Admiral Shmidt" "Admiral Essen" "Admiral Alekseyev" "Admiral Nakhimov" "Admiral Wrangel" "Admiral Kanin" "Admiral Ebergard" "Admiral Yakovlev" "Admiral Kolchak" "Admiral Kornilov"
+		"Admiral Lesovsky" "Vitse-Admiral Bredal" "Vitse-Admiral Rozhestvensky" "Admiral Kushelev" "Admiral Deribas" "Admiral Voynovich" "Admiral Makarov" "Admiral Pustoshkin" "Admiral Geyden" "Admiral Konstantin Romanov"
+		"Admiral Kumani" "Admiral Grigorovich" "Admiral Khrushchov" "Admiral Yepanchin" "Admiral Kazin" "Admiral Serevryakov" "Admiral Stankyuvich" "Admiral Metlin" "Admiral Putyatin" "Admiral Dikov" "Admiral Dubasov"
+		"Admiral Nevelskoy" "Admiral Manganari" "Admiral Voyevodsky" "Admiral Arkas" "Admiral Sarychev" "Admiral Unkovsky" "Admiral Shestakov" "Admiral Kern" "Admiral Nikonov" "Admiral Pereleshin" "Admiral Popov"
+		"Admiral Larionov" "Admiral Golovin" "Admiral Spiridov" "Admiral Gordon" "Admiral Zmayevich" "Admiral Golovin" "Admiral Mishukov" "Admiral Myatlev" "Admiral Talyzin" "Admiral Senyavin" "Admiral Golenishchev-Kutuzov"
+		"Admiral Nikonov" "Admiral Novosilsky" "Admiral Anzhu" "Admiral Panfilov" "Admiral Glazenap" "Admiral Krabbe" "Admiral Istomin" "Admiral Yukharin" "Admiral Lavrov" "Admiral Berens" "Admiral Zavoyko" "Admiral Kislinsky"
+		"Admiral Mordvinov" "Admiral Nagayev" "Admiral Chichagov" "Admiral Kinsbergen" "General-Admiral Aleksey Romanov" "Admiral Stark" "Admiral Vitgeft" "Admiral Viren" "Kontr-Admiral Nebogatov" "Vitse-Admiral Enkvist"
 	}
 }
 
@@ -106,21 +106,21 @@ RUS_ADMIRALS_NAVY = {
 RUS_NAMES_NAVY = {
 	name = NAME_THEME_NAMES_RUS
 
-	for_countries = { RUS SOV SIB }
+	for_countries = { SOV }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser }
 
 	prefix = ""
-	fallback_name = "战舰 N%d"
+	fallback_name = "Korabl N%d"
 
 	unique = {
-		"亚历山大" "马克西姆" "米哈伊" "阿尔乔姆" "丹尼尔" "伊凡" "德米特里" "基里尔" "安德烈" "马特维" "叶戈尔" "伊利亚" "蒂莫菲" "罗曼" "尼基塔" "阿列克谢" "列夫" "弗拉基米尔" "费奥尔多" "雅罗斯拉夫" "斯捷潘" "尼古莱" "格奥尔基" "帕维尔"
-		"索菲亚" "玛丽亚" "安娜" "维多利亚" "艾莉莎" "阿娜塔西娅" "达莉娅" "瓦尔瓦拉" "叶卡捷琳娜" "克谢尼娅" "艾莉娜" "维罗妮卡" "瓦西丽莎" "乌里安娜" "琪拉" "维拉" "塔伊西亚" "玛格丽塔" "阿廖娜" "阿莉娜" "亚娜" "玛娅" "帕拉达"
-		"弗拉迪斯拉夫" "阿尔谢尼" "拉夫连季" "格列布" "米戎" "格里高利" "玛卡" "丹尼斯" "塞米恩" "叶夫根尼" "萨维尔利" "阿特米" "维克托" "列奥尼德" "彼得" "鲁斯兰" "博格丹" "伊戈尔" "尤里" "瓦西里" "安东" "扎哈" "奥列格" "德米" "维亚切斯拉夫"
-		"米洛斯拉娃" "克里斯蒂娜" "戴安娜" "阿芙乐尔" "奥尔加" "斯维特兰娜" "叶塞尼亚" "塔蒂亚娜" "叶夫根尼娅" "兹拉塔" "尼卡" "伊利娜" "叶莲娜" "娜杰日达" "玛丽娜" "雅罗斯拉娃" "妮娜" "莉迪亚" "里尤波夫" "佐娅" "阿格尼娅" "奥莱西亚"
-		"梅奇斯拉夫" "斯维亚托斯拉夫" "菲利普" "季洪" "鲍里斯" "米罗斯拉夫" "斯坦尼斯拉夫" "戈尔杰伊" "罗迪翁" "瓦列里" "杰米扬" "阿纳托利" "雅科夫" "维塔利" "罗斯提斯拉夫" "阿卡狄" "亚罗米尔" "克里姆" "多布雷尼亚" "跟纳季" "库兹马" "普罗霍"
-		"安东尼娜" "卡利纳" "莉莉娅" "玛利亚娜" "米拉" "弗拉迪斯拉夫" "瓦伦蒂娜" "叶夫多基娅" "佩拉吉雅" "塔玛拉" "莱达" "尤利安娜" "阿拉" "柳德米拉" "弗拉达" "索尼娅" "艾达" "阿克辛娅" "加利纳" "拉达" "阿斯亚" "阿芙朵嘉" "奇奈达"
+		"Aleksandr" "Maksim" "Mikhail" "Artyom" "Daniil" "Ivan" "Dmitry" "Kirill" "Andrey" "Matvey" "Yegor" "Ilya" "Timofey" "Roman" "Nikita" "Aleksey" "Lev" "Vladimir" "Fyodor" "Yaroslav" "Stepan" "Nikolay" "Georgy" "Pavel"
+		"Sofiya" "Mariya" "Anna" "Viktoriya" "Alisa" "Anastasiya" "Darya" "Varvara" "Yekaterina" "Kseniya" "Arina" "Veronika" "Vasilisa" "Ulyana" "Kira" "Vera" "Taisiya" "Margarita" "Alyona" "Alina" "Yana" "Maya" "Pallada"
+		"Vladislav" "Arseny" "Lavrenty" "Gleb" "Miron" "Grigory" "Makar" "Denis" "Semyon" "Yevgeny" "Savely" "Artemy" "Viktor" "Leonid" "Pyotr" "Ruslan" "Bogdan" "Igor" "Yury" "Vasily" "Anton" "Zakhar" "Oleg" "Demid" "Vyacheslav"
+		"Miroslava" "Kristina" "Diana" "Avrora" "Olga" "Svetlana" "Yeseniya" "Tatyana" "Yevgeniya" "Zlata" "Nika" "Irina" "Yelena" "Nadezhda" "Darina" "Marina" "Yaroslava" "Nina" "Lidiya" "Lyubov" "Zoya" "Agniya" "Olesya"
+		"Mecheslav" "Svyatoslav" "Filipp" "Tikhon" "Boris" "Miroslav" "Stanislav" "Gordey" "Rodion" "Valery" "Demyan" "Anatoly" "Yakov" "Vitaly" "Rostislav" "Arkady" "Yaromir" "Klim" "Dobrynya" "Gennady" "Kuzma" "Prokhor"
+		"Antonina" "Karina" "Liliya" "Maryana" "Mira" "Vladislava" "Mila" "Valentina" "Yevdokiya" "Pelageya" "Tamara" "Lada" "Yuliana" "Alla" "Lyudmila" "Vlada" "Sonya" "Aida" "Aksinya" "Galina" "Rada" "Asya" "Avdotya" "Zinaida"
 	}
 }
 
@@ -128,21 +128,21 @@ RUS_NAMES_NAVY = {
 RUS_SHIPS_NAVY = {
 	name = NAME_THEME_SHIPS_RUS
 
-	for_countries = { RUS SOV SIB }
+	for_countries = { SOV }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser ship_hull_heavy battle_cruiser battleship }
 
 	prefix = ""
-	fallback_name = "战舰 N%d"
+	fallback_name = "Korabl N%d"
 
 	unique = {
-		"猎手" "边防" "西伯利亚步枪手" "志愿兵" "顿河哥萨克" "外贝加尔人" "喀山人" "土库曼人" "莫斯科人" "骑兵" "阿穆尔人" "西伯利亚人" "乌苏里人" "哥萨克人" "阿拉什人" "叶尔马克" "通古斯" "列特维赞"
-		"盖达马克" "阿布莱克" "总督" "勇士" "留里克" "博加特耶尔" "骑士" "瓦良格" "阿斯尔科德" "射手" "侦察兵" "劫掠者" "奥布里希尼克" "骑手" "珍珠" "金刚石" "绿宝石" "缟玛瑙" "巡防" "雷鸣" "博彦"
-		"莫敌" "骠骑兵" "先驱" "步枪手" "卢萨卡" "女巫" "飓风" "旋风" "龙卷风" "台风" "犰狳" "魔法师" "先知" "长子" "海军大将" "波尔扎斯基" "米宁" "斯拉瓦" "凯旋"
-		"帕米亚特·迈尔库里亚" "亚速-纪念" "叶夫斯塔菲-纪念" "伊西多尔" "胜利" "北方之星" "北极星" "荣耀俄罗斯" "亚历山大·涅夫斯基" "德米特里·顿斯科伊" "弗拉基米尔·莫诺马赫" "康斯坦丁"
-		"罗蒙诺索夫" "联合" "勇敢" "胜利者" "战术" "俄罗斯" "卡扎尔斯基" "俄耳甫斯" "新地岛" "伏尔加" "亚细亚" "东方" "高加索" "木星" "阿耳戈斯" "奥林匹斯" "阿尔戈英雄" "奥廖尔" "格罗姆" "萨姆松"
-		"闪电" "霹隆" "乌斯佩赫" "对抗" "火神" "繁荣之基" "规范" "佩列斯维特" "犹豫" "独角兽" "潘捷列伊蒙" "阿美利加" "雷神" "士兵" "克里姆林" "姊妹"
+		"Okhotnik" "Pogranichnik" "Sibirsky Strelok" "Dobrovolets" "Donskoy Kazak" "Zabaykalets" "Kazanets" "Turkemenets" "Moskvityanin" "Vsadnik" "Amurets" "Sibiryak" "Ussuriyets" "Kazak" "Alashets" "Yermak" "Tungus" "Retvizan"
+		"Gaydamak" "Abrek" "Voyevoda" "Ratnik" "Ryurik" "Bogatyr" "Vityaz" "Varyag" "Askold" "Strelok" "Plastun" "Razboynik" "Oprichnik" "Dzhigit" "Zhemchug" "Almaz" "Izumrud" "Yakhont" "Kreyser" "Gromoboy" "Bayan"
+		"Ne Tron Menya" "Nayezdnik" "Vestnik" "Strelets" "Rusalka" "Charodeyka" "Uragan" "Vikhr" "Smerch" "Tifon" "Bronenosets" "Koldun" "Veshchun" "Pervenets" "General-Admiral" "Pozharsky" "Minin" "Slava" "Triumph"
+		"Pamyat Merkuriya" "Pamyat Azova" "Pamyat Evstafiya" "Pamyat Efstaviya" "Isidor" "Pobeda" "Severnaya Zvezda" "Polyarnaya Zvezda" "Slava Rossii" "Aleksandr Nevsky" "Dmitry Donskoy" "Vladimir Monomakh" "Konstantin"
+		"Lomonosov" "Soyedinenniye" "Bezboyazn" "Pobedonosets" "Tsvet Voyny" "Rossiya" "Kazarsky" "Orfey" "Novaya Zemlya" "Volga" "Aziya" "Vostok" "Kavkaz" "Yupiter" "Argus" "Olimp" "Argonavt" "Oryol" "Grom" "Samson"
+		"Molniya" "Perun" "Strakh" "Uspekh" "Sopernik" "Vulkan" "Osnovaniye Blagopoluchiya" "Shtadnart" "Peresvet" "Oslablya" "Yedinorog" "Panteylemon" "Amerika" "Gromonosets" "Voin" "Kreml" "Sestritsa"
 	}
 }
 
@@ -150,18 +150,18 @@ RUS_SHIPS_NAVY = {
 RUS_BATTLES_NAVY = {
 	name = NAME_THEME_BATTLES_RUS
 
-	for_countries = { RUS SOV SIB }
+	for_countries = { SOV }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser battleship }
 
 	prefix = ""
-	fallback_name = "战列舰 N%d"
+	fallback_name = "Linkor N%d"
 
 	unique = {
-		"纳瓦里诺" "甘古特" "哥特兰" "塞瓦斯托波尔" "彼得罗巴甫洛夫斯克" "波尔塔瓦" "伊兹梅尔" "博罗季诺" "金布恩" "格林甘" "博斯普鲁斯" "巴拉克拉瓦" "卡利亚克拉" "帕特拉斯" "雷瓦尔" "月音" "锡诺普" "坦德拉" "切什梅" "费多尼西" "科孚"
-		"安丰" "亚瑟港" "对马" "萨利赫" "伏尔加" "奥涅加" "伊泽尔" "达达尼尔" "维堡" "阿兰" "奥恰科夫" "亚速" "卡胡尔" "禁卫军" "刻赤" "科特林" "图普卡拉干" "库里科沃" "布鲁西洛夫" "伊丽莎白波尔" "埃里温" "萨雷卡梅什"
-		"科兹鲁扎" "乌格拉" "摩洛迪" "涅瓦" "艾尔曼" "卡尔斯" "普列夫纳" "卢斯科" "小雅罗斯拉夫韦茨" "格伦瓦德" "察里津" "奥索维茨" "克拉斯纳亚高尔卡" "楚德诺夫"
+		"Navarin" "Gangut" "Gotland" "Sevastopol" "Petropavlovsk" "Poltava" "Izmail" "Borodino" "Kinburn" "Grengam" "Bosfor" "Balaklava" "Kaliakriya" "Patras" "Revel" "Moonzund" "Sinop" "Tendra" "Chesma" "Fidonisi" "Korfu"
+		"Afon" "Port-Artur" "Tsusima" "Sarych" "Volga" "Onega" "Ezel" "Dardanelly" "Vyborg" "Eland" "Ochakov" "Azov" "Kagul" "Rynda" "Kerch" "Kotlin" "Tyubkarag" "Kulikovo" "Brusilov" "Elisavetopol" "Erivan" "Sarykamysh"
+		"Kozludzha" "Ugra" "Molodi" "Neva" "Irmen" "Kars" "Plevna" "Lutsk" "Maloyaroslavets" "Gryunvald" "Tsaritsyn" "Levody Pokhod" "Osovets" "Krasnaya Gorka" "Chud"
 	}
 }
 
@@ -169,17 +169,17 @@ RUS_BATTLES_NAVY = {
 RUS_CV_NAVY = {
 	name = NAME_THEME_CARRIERS_RUS
 
-	for_countries = { RUS SOV SIB }
+	for_countries = { SOV }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 
 	prefix = ""
-	fallback_name = "航母 N%d"
+	fallback_name = "Avianosets N%d"
 
 	unique = {
-		"喀琅施塔得" "罗斯" "奥利察" "飞行家" "神鹰" "白隼" "暴风雨" "奥廖尔" "渡鸦" "北冰洋" "鄂霍茨克海" "波罗的海" "黑海" "里海" "巴伦支海" "罗马尼亚" "新罗西斯克" "符拉迪沃斯托克" "尼古拉耶夫斯克"
-		"彼得罗巴甫洛夫斯克" "阿尔汉格尔斯克" "摩尔曼斯克" "新地岛"
+		"Kronshtadt" "Rus" "Orlitsa" "Aviator" "Kondor" "Krechet" "Shtorm" "Oryol" "Voron" "Arktika" "Okhotsk" "Baltika" "Chernoye More" "Kaspy" "Barentsevo More" "Rumyniya" "Novorossiysk" "Vladivostok" "Nikolayevsk"
+		"Petropavlovsk" "Arkhangelsk" "Murmansk" "Novaya Zemlya"
 	}
 }
 
@@ -193,13 +193,13 @@ RUS_SAVINKOV_NAVY = {
 	ship_types = { heavy_cruiser ship_hull_heavy battle_cruiser battleship }
 
 	prefix = ""
-	fallback_name = "战舰 N%d"
+	fallback_name = "Korabl N%d"
 
 	unique = {
-		"苏沃洛夫元帅" "库图佐夫元帅" "波将金元帅" "巴克莱·德托利元帅" "巴格拉季昂上将" "奇恰戈夫海军上将" "大俄罗斯" "统一俄罗斯" "至高俄罗斯" "新俄罗斯" "复兴"
-		"真理之胜利" "解放者" "英雄" "堡垒" "海军上将" "科尔尼洛夫上将" "自由之光" "俄罗斯守护者" "杜霍宁" "伊凡四世" "宏伟" "拯救者" "复兴俄罗斯" "责罚者" "民族自由"
-		"忠于祖国" "辉煌胜利" "伊凡一世" "指挥官" "统御" "人民意志" "烈士" "卫士" "罗日杰斯特沃大捷" "俄罗斯母亲" "保卫祖国" "勿忘胜利" "追求" "钢铁意志"
-		"正义与平等" "正义之召唤" "砥砺前行" "壁垒" "人民公仆" "信念" "莫斯科河"
+		"Feldmarshal Suvorov" "Feldmarshal Kutuzov" "Feldmarshal Potemkin" "Feldmarshal Barklay-de-Tolli" "General Bagration" "Admiral Chichagov" "Velikaya Rossiya" "Bellaya Rossiya" "Mallaya Rossiya" "Novaya Rossiya" "Zenit"
+		"Pobeda Pravdy" "Osvoboditel" "Geroy" "Krepost" "Admiral" "General Kornilov" "Siyaniye Svobody" "Rossiysky Zashitnik" "General Dukhonin" "Ivan Grozny" "Velichiye" "Spasitel" "Vozrozhdeniye Rossii" "Obvinitel" "Svoboda"
+		"Vernost Rodine" "Slavnaya Pobeda" "Ivan Kalita" "Ofitser" "Venets Rossii" "Volya Naroda" "Muchenik" "Obereg" "Rozhdestvo Pobedy" "Mat-Rossiya" "Khranitel Otechestva" "Monument Pobedy" "Stremleniye" "Zheleznaya Volya"
+		"Sprevedlivost" "Pravedny Otvet" "Voskhodny" "Burelom" "Sluga Naroda" "Russkaya Pravda" "Na Moskvu"
 	}
 }
 
@@ -213,13 +213,13 @@ RUS_REPUBLICAN_NAVY = {
 	ship_types = { heavy_cruiser ship_hull_heavy battle_cruiser battleship }
 
 	prefix = ""
-	fallback_name = "战舰 N%d"
+	fallback_name = "Korabl N%d"
 
 	unique = {
-		"共和" "宪法" "公民" "总统" "人民与自由" "平等" "民主" "二月革命" "斗争" "共和国万岁" "部长" "农民" "知识分子" "自由黎明"
-		"意志" "自由俄罗斯" "革命" "街垒" "反抗" "临时政府" "教区" "示威" "联盟" "进步" "先驱" "俄罗斯意志" "革命士兵" "联合" "自由"
-		"总理" "制宪大会" "李沃夫" "大赦" "切尔诺夫" "起义" "公平" "女子敢死队" "回归" "宣言" "自由永续" "议会" "大会"
-		"正义" "英雄纪念" "政治" "解放" "革命者" "共和派"
+		"Respublika" "Konstitutsiya" "Grazhdanin" "Prezident" "Narodnaya Svoboda" "Spravedlivost" "Demokratiya" "Fevralskaya Revolyutsiya" "Borets za Svobodu" "Slava Respublike" "Ministr" "Krestyanin" "Intelligent" "Zarya Svobody"
+		"Volya" "Svobodnaya Rossiya" "Revolyutsiya" "Barrikada" "Protest" "Vremennoye Pravitelstvo" "Pomestny Sobor" "Demonstratsiya" "Soyuz" "Progress" "Dumsky Vestnik" "Zemlya i Volya" "Soldat Revolyutsii" "Koalitsiya" "Svoboda"
+		"Predsedatel" "Uchreditelnoye Sobraniye" "Ministr-Predsedatel Lvov" "Amnistiya" "Chernov" "Vosstaniye" "Nepredresheniye" "Zhenskaya Zhertva" "Otrecheniye" "Deklaratsiya" "Svoboda Very" "Parlamentarism" "Soveshchaniye"
+		"Sprevedlivost" "Pamyat Geroyev" "Politika" "Nastupleniye Svobody" "Narodovolets" "Revolyutsioner" "Respublikanets"
 	}
 }
 
@@ -233,13 +233,13 @@ RUS_IMPERIAL_NAVY = {
 	ship_types = { heavy_cruiser ship_hull_heavy battle_cruiser battleship }
 
 	prefix = ""
-	fallback_name = "战舰 N%d"
+	fallback_name = "Korabl N%d"
 
 	unique = {
-		"彼得大帝" "亚历山大一世" "尼古拉一世" "玛丽亚皇后" "叶卡捷琳娜二世" "安娜女王" "亚历山大三世" "尼古拉二世" "基里尔一世"
-		"保罗一世" "皇太子" "皇太妃" "莫斯科夫斯基亲王" "贵族" "奥洛夫伯爵" "弗拉基米尔亲王" "乌瓦洛夫伯爵" "圣乔治" "全俄罗斯皇帝" "伊凡四世" "复辟" "米哈伊一世"
-		"基辅的奥尔嘉" "伊凡一世" "三圣徒" "十二使徒" "圣三一" "圣西索" "三位一体" "约翰大主教" "耶稣降生" "首召者安德烈"
-		"转生" "圣杜克" "叶夫斯塔菲" "至高权力" "皇权" "沙皇" "加冕" "主之救赎" "神圣俄罗斯" "血脉" "召唤" "祖国" "洗礼"
+		"Imperator Pyotr I" "Imperator Aleksandr I" "Imperator Nikolay I" "Imperatritsa Mariya" "Imperatritsa Yekaterina II" "Imperatritsa Anna" "Imperator Aleksandr III" "Imperator Nikolay II" "Imperator Kirill"
+		"Imperator Pavel" "Tsesarevich" "Tsesarevna" "Knyaz Moskovsky" "Boyarin" "Graf Orlov" "Knyaz Vladimir" "Graf Uvarov" "Georgy Pobedonosets" "Imperator Vserossiysky" "Tsar Ivan IV" "Vosstanovleniye Monarkhii" "Tsar Mikhail"
+		"Velikaya Knyaginya Olga" "Tsar Ivan I" "Tri Svyatitelya" "Dvenadtsat Apostolov" "Svyataya Troitsa" "Sysoy Veliky" "Tri Iyerarkha" "Ioann Zlatoust" "Rozhdestvo Khristovo" "Rozhdestvo Bogoroditsy" "Andrey Pervozvanny"
+		"Preobrazheniye Gospodne" "Svyatoy Dukh" "Yevstafy" "Velikoderzhavny" "Monarkhichesky" "Tsarsky" "Ventsenosny" "Spaseniye Gosdpodne" "Svyataya Rossiya" "Naslediye" "Prizvaniye" "Otechestvo" "Kreshcheniye Rusi"
 	}
 }
 
@@ -253,13 +253,13 @@ RUS_SOCIALIST_NAVY = {
 	ship_types = { heavy_cruiser ship_hull_heavy battle_cruiser battleship }
 
 	prefix = ""
-	fallback_name = "战舰 N%d"
+	fallback_name = "Korabl N%d"
 
 	unique = {
-		"共和" "宪法" "工人" "总统" "公社" "马拉" "民主" "二月革命" "巴黎公社" "工会" "钢铁工人" "农民" "知识分子" "打破锁链" "维克托·切尔诺夫"
-		"意志" "革命俄罗斯" "革命" "街垒" "示威" "国际" "蒂莫菲·基尔皮契尼科夫" "反抗" "联盟" "进步" "民权" "土地改革" "革命士兵"
-		"红色俄罗斯" "红色高加索" "红色北方" "大赦" "工人联盟" "起义" "公平" "女子敢死队" "回归" "宣言" "自由信念" "民有" "苏维埃"
-		"社会主义" "英雄纪念" "卡尔·马克思" "弗伦德里希·恩格斯" "独立" "革命者"
+		"Respublika" "Konstitutsiya" "Rabochy" "Prezident" "Kommunar" "Marat" "Demokratiya" "Fevralskaya Revolyutsiya" "Parizhskaya Kommuna" "Profsoyuz" "Metallist" "Krestyanin" "Intelligent" "Ugnetyenny" "Viktor Chernov"
+		"Volya" "Revolyutsionnaya Rossiya" "Revolyutsiya" "Barrikada" "Protest" "Internatsional" "Timofey Kirpichnikov" "Demonstratsiya" "Soyuz" "Progress" "Vsya Vlast Narodu" "Zemlya i Volya" "Soldat Revolyutsii"
+		"Krasnaya Rossiya" "Krasny Kavkaz" "Krasny Sever" "Amnistiya" "Rabochaya Koalitsiya" "Vosstaniye" "Nepredresheniye" "Zhenskaya Zhertva" "Otrecheniye" "Deklaratsiya" "Svoboda Very" "Pravo Svoye" "Rossiysky Komitet"
+		"Sotsializm" "Pamyat Geroyev" "Karl Marks" "Fridrikh Engels" "Vozzvaniye" "Narodovolets" "Revolyutsioner"
 	}
 }
 

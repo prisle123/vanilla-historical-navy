@@ -41,7 +41,7 @@ BEL_RIVERS_THEME = {
 	fallback_name = "Contre-Torpilleur-%d"
 
 	unique = {
-		"希耶河" "伊西亚河" "卢拉河" "利西亚河" "乌鲁姆河" "丹德拉河" "泰莉亚河" "苏拉河" "锡耶纳河" "维鲁瓦河" "德梅鲁姆河" "尼塔萨河" "梅海尼河" "迈奥杰拉河" "霍玛河" "瓦加河" "波鸿河" "曼德拉河" "萨马纳河" "奥克松纳河" "艾苏姆河" "欧利娜河" "萨马纳河" "里耶那河" "海努姆河" "海拉河" "瓦姆河" "古里亚河" "奥诺河" "塞勒河" "玛夸河" "伊珀尔河" "维泽拉河" "维拉河"
+		"Chiersa" "Esia" "Rura" "Licia" "Urum" "Dendera" "Thylia" "Sura" "Sainna" "Viruva" "Demerum" "Nitasa" "Mehaegna" "Maior Geta" "Lhomma" "Varcha" "Bocquum" "Mandela" "Salmana" "Axona" "Aesum" "Olina" "Salmana" "Lienna" "Haenum" "Hella" "Vamme" "Gulia" "Orneau" "Thyle" "Marcqua" "Yperlea" "Vizara" "Vira"
 	}
 }
 
@@ -59,7 +59,7 @@ BEL_CITIES_THEME = {
 	fallback_name = "Croiseur-%d"
 
 	unique = {
-		"布鲁塞尔" "根特" "列日" "蒙斯" "布鲁日" "科特赖克" "纳慕尔" "鲁汶" "梅赫伦" "奥斯坦德" "图尔奈" "瑟兰" "穆斯克龙" "阿洛斯特" "哈瑟尔特" "瓦夫尔" "拉卢维耶尔"
+		"Bruxellae" "Gandavum" "Leodium" "Montes" "Brugae" "Cortoriacum" "Namurcum" "Lovanium" "Mechlinia" "Ostenda" "Turnacum" "Seranium" "Musera" "Alostum" "Hasseletum" "Wavria" "Luparia"
 	}
 }
 
@@ -77,7 +77,7 @@ BEL_LEADERSHIP_THEME = {
 	fallback_name = "Navire de Ligne-%d"
 
 	unique = {
-		"安比奥里克斯" "利奥波德一世" "德·热尔拉什" "利奥波德二世" "阿尔伯特" "伊丽莎白" "莱科因特"
+		"Ambiotrix" "Leopold I" "de Gerlache" "Leopold II" "Albert" "Elisabeth" "Lecointe"
 	}
 }
 
@@ -95,7 +95,7 @@ BEL_REGIONS_THEME = {
 	fallback_name = "Dreadnought-%d"
 
 	unique = {
-		"比利时" "刚果" "法兰德斯" "瓦隆" "布拉班特" "埃诺" "卢森堡"
+		"Belgica" "Congo" "Flandria" "Vallonia" "Brabantia" "Hannonia" "Luxemburgum"
 	}
 }
 
@@ -127,3 +127,4 @@ BEL_CARRIERS_THEME = {
 		12 = { "Porte-Avions-%d" }
 	}
 }
+

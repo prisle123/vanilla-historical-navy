@@ -13,9 +13,9 @@ BRA_DD_HISTORICAL = {
 	fallback_name = "Contratorpedeiro %d"
 
 	unique = {
-		"皮奥伊" "北里约格朗德" "帕拉伊巴" "阿拉戈斯" "马拉尼昂" "塞尔希培" "圣卡塔利娜" "马托格罗索" "马里斯·巴罗斯" "马希略·迪亚兹" "格林哈尔"
-		"亚马孙" "阿拉瓜里" "阿朱里卡巴" "阿卡" "阿拉瓜亚" "阿帕" "茹鲁阿" "贾瓦里" "茹塔希" "茹鲁埃纳" "雅瓜里比" "亚帕鲁阿"
-		"巴比同加" "巴埃彭迪" "包鲁" "贝贝里比" "贝纳文特" "贝尔蒂奥加" "博凯纳" "布拉崔"
+		"Piaui" "Rio Grande do Norte" "Paraíba" "Alagoas" "Marnhão" "Sergipe" "Santa Catharina" "Mato Grosso" "Mariz e Barros" "Marcílio Dias" "Greenhalgh"
+		"Amazonas" "Araguari" "Ajuricaba" "Acre" "Araguaya" "Apa" "Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe" "Japarua"
+		"Babitonga" "Baependi" "Bauru" "Beberibe" "Benevente" "Bertioga" "Bocaina" "Bracuí"
 	}
 }
 
@@ -32,8 +32,8 @@ BRA_CL_HISTORICAL = {
 	fallback_name = "Cruzador Ligeiro %d"
 
 	unique = {
-		"巴伊亚" "南里约格朗德" "北里约格朗德" "巴拉那" "阿卡" "马托格罗索" "亚马孙" "朗多尼亚" "阿马帕" "皮奥伊" "塞阿腊" "塞尔希培"
-		"帕拉伊巴" "南马托格罗索"
+		"Bahia" "Rio Grande do Sul" "Rio Grande do Norte" "Paraná" "Acre" "Mato Grosso" "Amazona" "Rondonia" "Amapá" "Piaui" "Ceará" "Sergipe"
+		"Paraíba" "Mato Grosso do Sul"
 	}
 }
 
@@ -50,9 +50,9 @@ BRA_CA_HISTORICAL = {
 	fallback_name = "Cruzador Pesado %d"
 
 	unique = {
-		"贝尔蒙特" "圣卡塔琳娜" "圣埃斯皮里图" "里约热内卢" "马拉尼昂" "戈亚斯" "帕拉" "阿拉戈斯" "伯南布哥" "罗赖玛" "托坎廷"
-		"北里约格朗德" "巴拉那" "阿卡" "马托格罗索" "亚马孙" "朗多尼亚" "阿马帕" "皮奥伊" "塞阿腊" "塞尔希培"
-		"帕拉伊巴" "南马托格罗索" "巴伊亚" "南里约格朗德"
+		"Belmonte" "Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Pará" "Alagoas" "Pernambuco" "Roraima" "Tocantins"
+		"Santa Catarina" "Rio Grande do Norte" "Paraná" "Acre" "Mato Grosso" "Amazona" "Rondonia" "Amapá" "Piaui" "Ceará" "Sergipe"
+		"Paraíba" "Mato Grosso do Sul" "Bahia" "Rio Grande do Sul"
 	}
 }
 
@@ -69,9 +69,9 @@ BRA_BB_HISTORICAL = {
 	fallback_name = "Couraçado %d"
 
 	unique = {
-		"米纳斯格拉斯" "圣保罗" "圣卡塔琳娜" "圣埃斯皮里图" "里约热内卢" "马拉尼昂" "戈亚斯" "南里约格朗德" "帕拉" "阿拉戈斯" "伯南布哥"
-		"罗赖玛" "托坎廷" "北里约格朗德" "巴拉那" "阿卡" "马托格罗索" "亚马孙" "朗多尼亚" "阿马帕" "皮奥伊"
-		"塞阿腊" "塞尔希培" "帕拉伊巴" "南马托格罗索"
+		"Minas Gerais" "São Paulo" "Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas" "Pernambuco"
+		"Roraima" "Tocantins" "Santa Catarina" "Rio Grande do Norte" "Paraná" "Acre" "Mato Grosso" "Amazona" "Rondonia" "Amapá" "Piaui"
+		"Ceará" "Sergipe" "Paraíba" "Mato Grosso do Sul"
 	}
 }
 
@@ -88,8 +88,8 @@ BRA_BC_HISTORICAL = {
 	fallback_name = "Cuzador Couraçado %d"
 
 	unique = {
-		"圣卡塔琳娜" "圣埃斯皮里图" "里约热内卢" "马拉尼昂" "戈亚斯" "南里约格朗德" "帕拉" "阿拉戈斯" "伯南布哥"
-		"罗赖玛" "托坎廷" "米纳斯格拉斯" "圣保罗"
+		"Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas" "Pernambuco"
+		"Roraima" "Tocantins" "Santa Catarina" "Minas Gerais" "São Paulo"
 	}
 }
 
@@ -106,7 +106,7 @@ BRA_CV_HISTORICAL = {
 	fallback_name = "Porta-Aviões %d"
 
 	unique = {
-		"圣卡塔琳娜" "圣埃斯皮里图" "里约热内卢" "马拉尼昂" "戈亚斯" "南里约格朗德" "帕拉" "阿拉戈斯" "伯南布哥" "罗赖玛" "托坎廷"
+		"Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas" "Pernambuco" "Roraima" "Tocantins"
 	}
 }
 
@@ -123,7 +123,7 @@ BRA_SS_HISTORICAL = {
 	fallback_name = "Submarino %d"
 
 	unique = {
-		"胡梅塔" "托比" "提姆比拉" "塔莫伊奥" "里阿裘洛" "瓜纳巴拉" "南里约格朗德" "巴伊亚" "里约热内卢" "塞阿腊" "戈亚斯" "亚马孙s"
+		"Humaytá" "Tupi" "Timbira" "Tamoio" "Riachuelo" "Guanabara" "Rio Grande do Sul" "Bahia" "Rio de Janeiro" "Ceará" "Goiás" "Amazonas"
 	}
 }
 
@@ -153,14 +153,14 @@ BRA_STATES_CITIES = {
 
 	unique = {
 		#states
-		"圣卡塔利娜" "南里约格朗德" "米纳斯格拉斯" "圣保罗" "巴拉那" "马托格罗索" "里约热内卢" "圣埃斯皮里图" "巴伊亚" "阿拉戈斯" "帕拉伊巴" "伯南布哥" "北里约格朗德" "塞阿腊" "塞尔希培"
-		"戈亚斯" "帕拉" "亚马孙" "阿卡" "马拉尼昂"
+		"Santa Catharina" "Rio Grande do Sul" "Minas Geraes" "São Paulo" "Paraná" "Matto Grosso" "Rio de Janeiro" "Espirito Santo" "Bahia" "Alagoas" "Parahyba" "Pernambuco" "Rio Grande do Norte" "Ceará" "Sergipe"
+		"Goyaz" "Pará" "Amazonas" "Acre" "Maranhão"
 		#cities
-		"阿雷格里港" "乌鲁瓜亚纳" "佩罗塔斯" "里奥格朗德" "巴热" "新汉堡" "丽港" "费洛里亚诺波利斯" "库里提巴" "巴拉那瓜" "马林加" "福斯杜伊瓜苏" "伊瓜佩" "坎皮纳斯" "桑托斯" "尼泰罗伊" "新弗里堡" "卡布弗里乌" "安格拉杜斯雷斯"
-		"大坎普" "科伦巴" "库亚巴" "乌贝兰迪亚" "欧鲁普雷图" "贝洛奥里藏特" "茹伊斯迪福拉" "大莫古尔" "雅努阿里亚" "彼得罗波利斯" "新伊瓜苏" "陶巴特" "伊图" "皮拉西卡巴" "里贝朗普雷图" "瓜卢流斯" "伊塔佩米里姆" "维多利亚" "圣马特乌斯"
-		"卡拉韦拉斯" "塞古鲁港" "伊列乌斯" "圣阿马鲁" "阿拉戈伊尼亚斯" "伯姆菲" "阿拉卡茹" "佩内杜" "马塞约" "累西腓" "奥林达" "戈亚纳" "纳塔尔" "莫索罗" "瓜拉拉皮斯" "阿拉皮拉卡" "茹阿泽鲁" "福塔雷萨" "马考" "马曼瓜皮" "卡莫辛" "卡舒埃拉"
-		"巴图里特" "阿拉卡蒂" "帕纳伊巴" "泰瑞辛纳" "阿马兰蒂" "卡希亚斯" "南卡希亚斯" "阿尔坎塔拉" "卡罗莱纳" "圣路易斯" "帕尔马" "美景镇" "贝伦" "卡梅塔" "因佩拉特里斯" "圣塔伦" "马卡帕" "伊塔夸蒂亚拉" "博尔巴" "马尼科雷" "马瑙斯" "拿撒勒"
-		"特费" "胡梅塔" "拉布雷亚" "南科鲁兹罗" "圣安娜" "卡塔朗" "佩里诺波利斯" "韦柳港" "里奥布朗库" "贝廷" "卡拉瓜塔图巴" "伊塔佩蒂宁加" "马里卡" "佩鲁伊比" "博图卡图" "洛蕾娜" "帕图布兰库" "圣莱奥波尔多" "因比图巴"
+		"Porto Alegre" "Uruguayana" "Pelotas" "Rio Grande" "Bagé" "Novo Hamburgo" "Laguna" "Florianopolis" "Curytiba" "Paranaguá" "Maringá" "Foz do Igassu" "Iguape" "Campinas" "Santos" "Niterói" "Nova Friburgo" "Cabo Frio" "Angra dos Reis"
+		"Campo Grande" "Corumbá" "Cuyabá" "Uberlândia" "Ouro Preto" "Bello Horizonte" "Juiz de Fora"    "Grão Mogol" "Januaria" "Petropolis" "Nova Iguassu" "Taubaté" "Itú" "Piracicaba" "Ribeirão Preto" "Guarulhos" "Itapemirim" "Victoria" "São Matheus"
+		"Caravellas" "Porto Seguro" "Ilhéos" "Santo Amaro" "Alagoinhas" "Bom Fim" "Aracajú" "Penedo" "Maceió" "Recife" "Olinda" "Goyanna" "Natal" "Mossoró" "Guararapes" "Arapiraca" "Juazeiro" "Fortaleza" "Macau" "Mamanguape" "Camocim" "Cachoeira"
+		"Baturité" "Aracaty" "Parnahyba" "Therezina" "Amarante" "Caxias" "Caxias do Sul" "Alcantara" "Carolina" "São Luiz" "Palma" "Boa Vista" "Belem" "Cametá" "Imperatriz" "Santarem" "Macapá" "Itacoatiara" "Borba" "Manicoré" "Manáos" "Nazareth"
+		"Teffe" "Humaytá" "Labrea" "Cruzeiro do Sul" "Santa Anna" "Catalão" "Pyrinopolis" "Porto Velho" "Rio Branco" "Betim" "Caraguatatuba" "Itapetininga" "Maricá" "Peruíbe" "Botucatu" "Lorena" "Pato Branco" "São Leopoldo"    "Imbytuba"
 	}
 }
 
@@ -176,34 +176,34 @@ BRA_RIVER = {
 	fallback_name = "Navio %d"
 
 	unique = {
-		"阿拉瓜里" "阿茹里卡巴" "阿卡" "阿拉瓜亚" "阿帕" "茹鲁阿" "贾瓦里" "茹塔希" "茹鲁埃纳" "雅瓜里比" "亚帕鲁阿" "巴比同加" "巴埃彭迪" "包鲁" "贝贝里比"    "贝纳文特" "贝尔蒂奥加" "博凯纳" "布拉崔"
-		"帕林廷斯" "雅普拉" "普鲁斯" "马德拉" "阿布纳" "乌拉圭" "巴拉圭" "古鲁派" "辛谷" "塔帕若斯" "卡努马" "巴拉那" "皮雷斯" "尼亚蒙达" "托坎廷" "弗德" "瓜波雷" "阿马帕" "玛布" "沃佩斯" "伊卡"
-		"索利莫艾斯" "伊塔拉拉" "伊瓜苏" "巴拉那帕内马" "铁特" "里奥格朗德" "南帕拉伊巴" "圣弗朗西斯科" "伊塔皮库鲁" "巴拉纳廷加" "雅库" "帕拉纳希巴" "波蒂" "平达雷" "卡宁德" "派瑞加" "巴纳纳伊斯"
-		"伊塔蒂艾亚" "里约普雷图" "瓜伊巴"
+		"Araguari" "Ajuricaba" "Acre" "Araguaya" "Apa"    "Juruá"    "Javary" "Jutahy" "Juruena"    "Jaguaribe" "Japarua" "Babitonga" "Baependi" "Bauru" "Beberibe"    "Benevente"    "Bertioga"    "Bocaina"    "Bracuí"
+		"Parintins" "Jupurá" "Purús" "Madeira" "Abunã" "Uruguay" "Paraguay" "Gurupy" "Xingu" "Tapajoz" "Canumá" "Gi-Paraná" "Pires" "Jamundá" "Tocantins" "Verde" "Guaporé" "Amapá" "Mabu" "Uaupés" "Iça"
+		"Solimões" "Itarara" "Iguassú" "Paranapanema" "Tiete" "Rio Grande" "Parahyba do Sul" "São Francisco" "Itapicuru" "Paranatinga" "Jacuy" "Paranahyba" "Poty" "Pindaré" "Canindé" "Ypiranga" "Bananais"
+		"Itatiaya" "Rio Preto" "Guaíba"
 	}
 }
 
 ### THEME: HISTORICAL ###
 #  Commented - these are displaying incorrectly due to the NAME_THEME_HISTORICAL not having localisation in vanilla. After changing it to something with localisation, these lines can be uncommented
 
-BRA_HISTORICAL = {
-	name = "历史"
+# BRA_HISTORICAL = {
+# 	name = NAME_THEME_HISTORICAL
 
-	for_countries = { BRA }
+# 	for_countries = { BRA }
 
-	type = ship
+# 	type = ship
 
-	prefix = "NMB " #Navio da Marinha Brasileira
-	fallback_name = "Navio %d"
+# 	prefix = "NMB " #Navio da Marinha Brasileira
+# 	fallback_name = "Navio %d"
 
-	unique = {
-		#People
-		"蒂拉登特斯" "博尼法西奥" "佩德罗一世" "佩德罗二世" "玛丽亚·莱奥波尔迪娜" "特雷莎·克里斯蒂娜" "多明戈斯·乔治·维利乌" "拉波索·塔瓦雷斯" "安汉格拉" "博巴·加托" "阿普卡" "布拉斯·莱姆" "巴拉那侯爵" "布兰科男爵"
-		"奥索里乌" "杜科·德·费罗" "德奥多罗·达·丰塞卡" "华盛顿·路易斯" "贝尔蒙特" "劳林多·皮塔" "巴西志愿军"
-		#Battles
-		"阿韦" "里阿裘洛" "塞鲁科拉" "伊托罗罗" "白泥" "伊瓜特米" "皮拉贾" "杰尼帕波" "伊塔帕里卡" "伊波茹卡" "德斯蒂诺镇" "圣地亚哥山" "蒙特卡塞罗斯"
-		#Native Names
-		"提姆比拉" "托比" "伊拉塞马" "塔莫约" "塔普亚" "沙凡特" "瓜拉尼" "波提瓜拉" "卡利乔" "昆汉贝贝" "特雷门贝" "图帕" "塔巴贾拉" "艾莫尔" "特米米诺" "卡埃特" "茹帕里" "蒂茹卡"
-	}
-}
+# 	unique = {
+# 		#People
+# 		"Tiradentes" "Bonifácio" "Dom Pedro I" "Dom Pedro II" "Maria Leopoldina" "Teresa Cristina" "Domingos Jorge Velho" "Raposo Tavares" "Anhanguera" "Borba Gato" "Apuçá" "Brás Leme" "Marquês do Paraná" "Barão do Rio Branco"
+# 		"Osório" "Duque de Ferro" "Deodoro da Fonseca" "Washington Luís" "Tender Belmonte" "Laurindo Pitta" "Voluntário da Pátria"
+# 		#Battles
+# 		"Havay" "Riachuelo" "Cerro Corá" "Ytororó" "Tuyutí" "Iguatemi" "Pirajá" "Jenipapo" "Itaparica" "Ipojuca" "Bom Destino" "Monte Santiago" "Monte Caseros"
+# 		#Native Names
+# 		"Timbira" "Tupy" "Iraçema" "Tamoyo" "Tapuia" "Xavante" "Guarany" "Potyguara" "Carijó" "Cunhambebe" "Tremembé" "Tupã" "Tabajara" "Aimoré" "Temiminó" "Caeté" "Jupary" "Tijuca"
+# 	}
+# }
 

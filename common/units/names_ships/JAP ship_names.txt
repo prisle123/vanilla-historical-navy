@@ -3,36 +3,44 @@
 
 ### MINELAYER NAMES###
 JAP_MINELAYERS_HISTORICAL = { #islands
-	name = NAME_THEME_HISTORICAL_MINELAYERS
-	for_countries = { JAP } 
-	prefix = ""
+	name = NAME_THEME_IJN_MINELAYERS
+
+	for_countries = { JAP }
+
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
-	fallback_name = "敷設艇第%d號"
+
+	fallback_name = "Fusetsukan %d -go"
+
 	unique = {
 		# Cruiser and DD Minelayers
-		"冲之岛" "初鹰" "苍鹰" "若鹰" "津轻" "永城" "箕面"
-		"胜力" "白鹰" "严岛" "八重山" "鸿" "鹎" "隼" "鹊" "雉" "雁" "鹭" "鸠"
-		"熊鹰" "山鸟" "水鸟" "海鸟" "驹鸟"
+		"Okinoshima" "Hatsutaka" "Aotaka" "Wakataka" "Tsugaru" "Eijo" "Mino"
+		"Katsuriki" "Shirataka" "Itsukushima" "Yaeyama"
 		# Older and smaller Minelayer Names
-		"夏岛" "测天" "户岛" "黑岛" "苇埼" "加德" "黑神" "片岛" "元岛" "江之岛" "黑埼" "似岛" "鹫埼" "鸥" "燕" "那沙美"
-		"猿岛" "白神" "成生" "巨济" "浮岛" "平岛" "澎湖" "石埼" "鹰岛" "济州" "新井埼" "由利岛" "怒和岛" "前岛"
-		"网代" "神岛" "粟岛"
+		"Natsushima" "Sokuten" "Toshima" "Kuroshima" "Ashizaki" "Katoku" "Kurokami" "Katashima" "Ento" "Enoshima" "Kurosaki" "Ninoshima" "Washizaki" "Kamome" "Tsubame" "Nasami"
+		"Sarushima" "Shirakami" "Naryu" "Kyosai" "Ukishima" "Hirashima" "Hoko" "Ishizaki" "Takashima" "Saishu" "Niizaki" "Yurijima" "Nuwashima" "Maeshima"
+		"Ajiro" "Kamishima" "Awashima"
 	}
 }
 
 ### AIRCRAFT CARRIER NAMES ###
 JAP_CV_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CARRIERS #unique carrier names
-	for_countries = { JAP } 
-	prefix = ""
+	name = NAME_THEME_IJN_CARRIERS #unique carrier names
+
+	for_countries = { JAP }
+
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
-	fallback_name = "空母第%d號"
+
+	fallback_name = "Seikikubo %d -go"
+
 	unique = {
-		"苍龙" "飞龙" "翔鹤" "瑞鹤" "隼鹰" "飞鹰" "大凤" "云龙" "葛城" "笠置" "阿苏" "白龙" "翔龙" "瑞龙" "顺龙"
+		# Historical
+		"Hiryu" "Shokaku" "Zuikaku" "Junyo" "Hiyo" "Taiho" "Hiho" "Unryu" "Katsuragi" "Kasagi" "Aso" "Shoryu" "Zuiryu" "Junryu"
 	}
 }
+
+### LIGHT AIRCRAFT CARRIER NAMES ###
 JAP_CVL_HISTORICAL = {
 	name = NAME_THEME_IJN_LIGHT_CARRIERS #CVL names
 
@@ -41,29 +49,86 @@ JAP_CVL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 
-	fallback_name = "空母第%d號"
+	fallback_name = "Keikubo %d -go"
 
 	unique = {
-		"瑞凤" "祥凤" "龙凤" "千岁" "千代田" "伊吹" "大鹰" "云鹰" "冲鹰" "神鹰"
-		"凤翔" "龙骧" "海鹰"
+		# CVL Names
+		"Zuiho" "Shoho" "Ryuho" "Chitose" "Chiyoda"
+
 		# CVE Names
-		"山汐丸" "千种丸" "岛根丸" "大泷山丸" "秋津丸" "神州丸" "熊野丸"
+		"Taiyo" "Unyo" "Chuyo" "Shinyo" "Kaiyo" "Akitsu Maru" "Nigitsu Maru" "Yamashiro Maru" "Shimane Maru" "Otakisan Maru" "Chigusa Maru" "Kumano Maru"
+
+		# Names in use
+		"Hosho" "Ryujo" "Ryuen"
 	}
 }
 
 ### SUBMARINES ###
 JAP_SS_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_SUBMARINES
-	for_countries = { JAP } 
-	prefix = ""
+	name = NAME_THEME_IJN_SUBMARINES
+
+	for_countries = { JAP }
+
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
-	fallback_name = "伊-%d"
+
+	fallback_name = "I-%d"
+
 	ordered = {
-		1 = {"伊-%d"}
-		2 = {"伊-%d"}
-		3 = {"伊-%d"}
-		4 = {"伊-%d"}
+		51 = { "I-%d" }
+		52 = { "I-%d" }
+		1 = { "I-%d" }
+		2 = { "I-%d" }
+		3 = { "I-%d" }
+		4 = { "I-%d" }
+		53 = { "I-%d" }
+		54 = { "I-%d" }
+		55 = { "I-%d" }
+		58 = { "I-%d" }
+		121 = { "I-%d" }
+		122 = { "I-%d" }
+		123 = { "I-%d" }
+		124 = { "I-%d" }
+		56 = { "I-%d" }
+		57 = { "I-%d" }
+		59 = { "I-%d" }
+		60 = { "I-%d" }
+		63 = { "I-%d" }
+		61 = { "I-%d" }
+		62 = { "I-%d" }
+		64 = { "I-%d" }
+		65 = { "I-%d" }
+		66 = { "I-%d" }
+		67 = { "I-%d" }
+		5 = { "I-%d" }
+		68 = { "I-%d" }
+		69 = { "I-%d" }
+		70 = { "I-%d" }
+		71 = { "I-%d" }
+		72 = { "I-%d" }
+		73 = { "I-%d" }
+		6 = { "I-%d" }
+		7 = { "I-%d" }
+		8 = { "I-%d" }
+		74 = { "I-%d" }
+		75 = { "I-%d" }
+		9 = { "I-%d" }
+		10 = { "I-%d" }
+		11 = { "I-%d" }
+		12 = { "I-%d" }
+		13 = { "I-%d" }
+		14 = { "I-%d" }
+		15 = { "I-%d" }
+		16 = { "I-%d" }
+		17 = { "I-%d" }
+		18 = { "I-%d" }
+		19 = { "I-%d" }
+		20 = { "I-%d" }
+		21 = { "I-%d" }
+		22 = { "I-%d" }
+		23 = { "I-%d" }
+		24 = { "I-%d" }
+		25 = { "I-%d" }
 	}
 }
 
@@ -71,103 +136,125 @@ JAP_SS_HISTORICAL = {
 JAP_PREFECTURES = {
 	name = NAME_THEME_PREFECTURES #battleships and bb converted carriers
 	ship_types = { ship_hull_carrier carrier ship_hull_heavy battleship battle_cruiser ship_hull_cruiser heavy_cruiser }
-	for_countries = { JAP } 
-	prefix = ""
+	for_countries = { JAP }
+
 	type = ship
+
 	fallback_name = "%d"
+
 	unique = {
-		"摄津" "伊贺" "大和" "伊势" "志摩" "尾张" "三河" "远江" "骏河" "伊豆" "甲斐" "相模" "武藏" "阿波" "上总"
-		"下总" "日立" "麻绩" "美浓" "飞驒" "信浓" "上野" "下野" "出羽" "陆奥" "若狭" "越前" "加贺" "能登" "越中" "越后"
-		"佐渡" "丹波" "丹后" "但马" "因幡" "伯耆" "出云" "石见" "隐岐" "播磨" "美作" "备前" "备中" "备后" "安艺" "周防" "长门"
-		"纪伊" "淡路" "阿波" "赞岐" "伊予" "土佐" "丰前" "筑前" "筑后" "肥前" "肥后" "日向" "大隅" "萨摩" "壱岐" "对马" "大岛"
-		"后志" "胆振" "石狩" "天塩" "北见" "日高" "十胜" "钏路" "根室" "千岛"
-		"北海道" "爱知" "爱媛" "群马" "兵库" "石川" "岩手" "香川" "神奈川" "三重" "宫城" "冲绳" "滋贺" "岛根" "栃木" "山梨"
-		
-		"扶桑" "山城" "近江"
+		"Settsu" "Iga" "Shima" "Mikawa" "Totomi" "Izu" "Kai" "Sagami" "Musashi" "Awa" "Kazusa"
+		"Shimosa" "Hitachi" "Mino" "Hida" "Shinano" "Kozuke" "Shimotsuke" "Dewa" "Wakasa" "Echizen" "Noto" "Etchu" "Echigo"
+		"Sado" "Tanba" "Tango" "Tajima" "Inaba" "Hoki" "Oki" "Harima" "Mimasaka" "Bizen" "Bitchu" "Bingo" "Suo"
+		"Awaji" "Awa" "Sanuki" "Iyo" "Buzen" "Chikuzen" "Chikugo" "Hizen" "Higo" "Osumi" "Iki" "Tsushima" "Oshima"
+		"Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Kushiro" "Nemuro" "Chishima"
+		"Hokkaido" "Aichi" "Ehime" "Gunma" "Hyogo" "Ishikawa" "Iwate" "Kagawa" "Kanagawa" "Mie" "Miyagi" "Okinawa" "Shiga" "Shimane" "Tochigi" "Yamanashi"
+
+		# Names in use
+		"Fuso" "Yamashiro" "Ise" "Hyuga" "Nagato" "Mutsu" "Tosa" "Kaga" "Kii" "Suruga" "Owari" "Omi" "Izumo" "Iwami" "Aki" "Satsuma"
 	}
 }
-
 ## THEME: JAPANESE CITIES ###
 JAP_CITIES = {
 	name = NAME_THEME_CITIES #not used
 	ship_types = { ship_hull_carrier carrier ship_hull_heavy battleship battle_cruiser ship_hull_cruiser heavy_cruiser }
-	for_countries = { JAP } 
-	prefix = ""
+	for_countries = { JAP }
+
 	type = ship
+
 	fallback_name = "%d"
+
 	unique = {
-		"东京" "横浜" "大阪" "名古屋" "札幌" "神户" "京都" "福冈" "川崎" "埼玉" "广岛" "仙台" "北九州" "千叶" "世田谷"
-		"堺" "新泻" "浜松" "静冈" "相模原" "练马" "冈山" "大分" "熊本" "江户川" "足立" "鹿儿岛" "船桥" "八王子"
-		"川口" "姫路" "杉並" "板桥" "松山" "东大阪" "宇都宫" "松户" "西宫" "倉敷" "市川" "福山"
-		"尼崎" "金沢" "长崎" "江东" "葛饰" "横须贺" "富山" "丰田" "高松" "町田" "岐阜" "枚方" "藤沢" "柏"
-		"丰中" "长野" "丰桥" "一宫" "和歌山" "冈崎" "宫崎" "奈良" "吹田" "高槻" "品川" "旭川" "磐城" "高知"
-		"高崎" "郡山" "所沢" "川越" "北市" "秋田" "大津" "越谷" "前桥" "那覇" "中野" "新宿" "四日市" "青森" "久留米"
-		"春日井" "盛冈" "明石" "福岛" "津市" "下关" "长冈" "市原" "函馆" "八尾" "茨城" "福井" "目黑" "加古川" "徳岛"
-		"水户" "平塚" "丰岛" "山形" "佐世保" "府中" "吴市" "八户" "佐贺" "寝屋川" "草加" "墨田" "富士" "春日部" "茅崎" "松本"
-		"厚木" "上尾" "宝塚" "调布" "大田" "筑波" "沼津" "上越" "涉谷" "港" "熊谷" "伊势崎" "岸和田" "鸟取" "甲府"
-		"小田原" "铃鹿" "松江" "日立" "文京" "荒川" "伊丹" "西东京" "山口" "宇治"
+		"Tokyo" "Yokohama" "Osaka" "Nagoya" "Sapporo" "Kobe" "Kyoto" "Fukuoka" "Kawasaki" "Saitama" "Hiroshima" "Sendai" "Kitakyushu" "Chiba" "Setagaya"
+		"Sakai" "Niigata" "Hamamatsu" "Shizuoka" "Sagamihara" "Nerima" "Okayama" "Oita" "Kumamoto" "Edogawa" "Adachi" "Kagoshima" "Funabashi" "Hachioji"
+		"Kawaguchi" "Himeji" "Suginami" "Itabashi" "Matsuyama" "Higashiosaka" "Utsunomiya" "Matsudo" "Nishinomiya" "Kurashiki" "Ichikawa" "Fukuyama"
+		"Amagasaki" "Kanazawa" "Nagasaki" "Koto" "Katsushika" "Yokusaka" "Toyama" "Toyota" "Takamatsu" "Machida" "Gifu" "Hirakata" "Fujisawa" "Kashiwa"
+		"Toyonaka" "Nagano" "Toyohashi" "Ichinomiya" "Wakayama" "Okazaki" "Miyazaki" "Nara" "Suita" "Takatsuki" "Shinagawa" "Asahikawa" "Iwaki" "Kochi"
+		"Takasaki" "Koriyama" "Tokorozawa" "Kawagoe" "Kita" "Akita" "Otsu" "Koshigaya" "Maebashi" "Naha" "Nakano" "Shinjuku" "Yokaichi" "Aomori" "Kurume"
+		"Kasugai" "Morioka" "Akashi" "Fukushima" "Tsu" "Shimonoseki" "Nagaoka" "Ichihara" "Hakodate" "Yao" "Ibaraki" "Fukui" "Meguro" "Kakogawa" "Tokushima"
+		"Mito" "Hiratsuka" "Toshima" "Yamagata" "Sasebo" "Fuchu" "Kure" "Hachinohe" "Saga" "Neyagawa" "Soka" "Sumida" "Fuji" "Kasukabe" "Chigasaki" "Matsumoto"
+		"Atsugi" "Yamato" "Ageo" "Takarazuka" "Chofu" "Ota" "Tsukuba" "Numazu" "Joetsu" "Shibuya" "Minato" "Kumagaya" "Isesaki" "Kishiwada" "Tottori" "Kofu" "Iizuma"
+		"Odawara" "Suzuka" "Matsue" "Hitachi" "Bunkyo" "Arakawa" "Itami" "Nishitokyo" "Yamaguchi" "Uji"
 	}
 }
 
 JAP_WEATHER = {
 	name = NAME_THEME_WEATHER #wheather, moons, winds, natural phenomens, seasons
 	ship_types = { ship_hull_light destroyer }
-	for_countries = { JAP } 
-	prefix = ""
+	for_countries = { JAP }
+
 	type = ship
+
 	fallback_name = "%d"
+
 	unique = {
-		"峯风" "泽风" "冲风" "岛风" "滩风" "矢风" "羽风" "汐风" "秋风" "夕风" "太刀风" "帆风" "野风" "波风" "沼风"
-		"神风" "朝风" "春风" "松风" "旗风" "追风" "疾风" "朝凪" "夕凪"
-		"睦月" "如月" "弥生" "卯月" "皋月" "水无月" "文月" "长月" "菊月" "三日月" "望月" "夕月"
-		"吹雪" "白雪" "初雪" "丛云" "东云" "薄云" "白云" "矶波" "浦波"
-		"绫波" "敷波" "朝雾" "夕雾" "天雾" "狭雾" "胧" "曙" "涟" "潮"
-		"晓" "响" "雷" "电"
+		#Asashio class
+		"Asashio" "Arashio" "Oshio" "Michishio" "Yamagumo" "Natsugumo" "Minegumo" "Asagumo" "Arare" "Kasumi"
+		#Kagero class
+		"Kagero" "Shiranui" "Kuroshio" "Oyashio" "Hayashio" "Natsushio" "Hatsukaze" "Yukikaze" "Amatsukaze" "Tokitsukaze" "Urakaze" "Isokaze" "Tanikaze" "Nowaki" "Arashi" "Hagikaze" "Maikaze" "Akigumo"
+		#Akizuki class (Akizuki)
+		"Akizuki" "Teruzuki" "Suzutsuki" "Hatsuzuki" "Niizuki" "Wakatsuki" "Shimotsuki"
+		#Akizuki (Fuyutsuki)
+		"Fuyutsuki" "Harutsuki" "Yoizuki" "Natsuzuki"
+		#Akizuki (Michitsuki)
+		"Michitsuki" "Hanazuki" "Kiyotsuki" "Otsuki" "Hazuki" "Yamazuki" "Urazuki" "Aogumo" "Benigumo" "Harugumo" "Amagumo" "Yaegumo" "Fuyugumo" "Yukigumo" "Okitsukaze" "Shimokaze" "Asagochi" "Okaze" "Kochi" "Nishikaze" "Hae"
+		#Yugumo class
+		"Yugumo" "Makigumo" "Kazagumo" "Naganami" "Makinami" "Takanami" "Onami" "Kiyonami" "Tamanami" "Suzunami" "Fujinami" "Hayanami" "Hamanami" "Asashimo" "Okinami" "Kishinami" "Hayashimo" "Akishimo" "Kiyoshimo" "Shimakaze"
+		#Yugumo class (Cancelled)
+		"Umigiri" "Yamagiri" "Tanigiri" "Kawagiri" "Taekaze" "Kiyokaze" "Satokaze" "Murakaze"
+		#Kai-Yugumo class
+		"Yamasame" "Akisame" "Natsusame" "Hayasame" "Takashio" "Akishio" "Harushio" "Wakashio"
+		#Sho-Akizuki class
+		"Kitakaze" "Hayakaze" "Natsukaze" "Fuyukaze" "Hatsunatsu" "Hatsuaki" "Hayaharu"
 
-		"初春" "子日" "若叶" "初霜" "有明" "夕暮"
-		"白露" "时雨" "村雨" "夕立" "春雨" "五月雨" "海风" "山风" "江风" "凉风"
-		"朝潮" "大潮" "满潮" "荒潮" "朝云" "山云" "夏云" "峯云" "霰" "霞"
-		"阳炎" "不知火" "黑潮" "亲潮" "早潮" "夏潮" "初风" "雪风" "天津风" "时津风" "浦风" "矶风" "浜风" "谷风" "野分"
-		"岚" "萩风" "舞风" "秋云"
-
-		"夕云" "卷云" "风云" "长波" "卷波" "高波" "大波" "清波" "玉波" "凉波" "藤波" "早波" "滨波" "冲波" "岸波" "朝霜"
-		"早霜" "秋霜" "清霜" "海雾" "山雾" "谷雾" "川雾" "妙风" "里风" "村风" "山雨" "秋雨" "夏雨" "早雨" "高潮" "秋潮"
-		"春潮" "若潮"
-
-		"秋月" "照月" "凉月" "初月" "新月" "若月" "霜月"
-		"冬月" "春月" "宵月" "夏月"
-		"满月" "花月" "清月" "大月" "叶月" "山月" "浦月" "青云" "红云" "春云" "天云" "八重云" "冬云" "雪云" "冲津风"
-		"霜风" "朝东风" "东风" "西风" "南风"
-		"岛风" "北风" "早风" "夏风" "冬风" "初夏" "初秋" "早春"
-
-		"峰雪" "泽雪" "滨雪" "矶雪" "春雪" "山雪" "松雪" "濑户雪" "朝雪" "岛雪" "深雪"
-		"朝日" "清风" "微风" "大风" "旋风" "轻风" "真风"
+		###  Names in use  ###
+		# Minekaze class
+		"Minekaze" "Sawakaze" "Okikaze" "Shimakaze" "Nadakaze" "Yakaze" "Hakaze" "Shiokaze" "Akikaze" "Yukaze" "Tachikaze" "Hokaze" "Nokaze" "Namikaze" "Numakaze"
+		# Kamikaze class
+		"Kamikaze" "Asakaze" "Harukaze" "Matsukaze" "Hatakaze" "Oite" "Hayate" "Asanagi" "Yunagi" "Hamakaze"
+		# Mutsuki class
+		"Mutsuki" "Kisaragi" "Yayoi" "Uzuki" "Satsuki" "Minazuki" "Fumizuki" "Nagatsuki" "Kikuzuki" "Mikazuki" "Mochizuki" "Yuzuki"
+		# Fubuki class (Fubuki)
+		"Fubuki" "Shirayuki" "Hatsuyuki" "Miyuki" "Murakumo" "Shinonome" "Usugumo" "Shirakumo" "Isonami" "Uranami"
+		# Fubuki class (Ayanami)
+		"Ayanami" "Shikinami" "Asagiri" "Yugiri" "Amagiri" "Sagiri" "Oboro" "Akebono" "Sazanami" "Ushio"
+		# Fubuki class (Akatsuki)
+		"Akatsuki" "Hibiki" "Ikazuchi" "Inazuma"
+		# Hatsuharu class
+		"Hatsuharu" "Nenohi" "Wakaba" "Hatsushimo" "Yugure"
+		# Shiratsuyu class
+		"Shiratsuyu" "Shigure" "Murasame" "Yudachi" "Harusame" "Samidare" "Umikaze" "Yamakaze" "Kawakaze" "Suzukaze"
 	}
 }
 
 JAP_NATURE = {
 	name = NAME_THEME_NATURE #plants for small DDs mostly
 	ship_types = { ship_hull_light destroyer }
-	for_countries = { JAP } 
-	prefix = ""
+	for_countries = { JAP }
+
 	type = ship
+
 	fallback_name = "%d"
+
 	unique = {
-		"樱" "橘"
-		"桦" "柏" "榊" "桂" "杉" "枫" "梅" "桐" "楠" "松"
-		"桃" "樫" "桧" "柳"
-		"榎" "槙" "榉" "桑" "椿" "楢"
-		"枞" "榧" "梨" "竹" "柿" "栂" "榆" "栗" "菊" "葵" "藤" "萩" "薄" "菱" "莲" "蕨" "蓼" "菫" "茑" "苇" "蓬"
-		"若竹" "吴竹" "早苗" "早蕨" "朝颜" "夕颜" "芙蓉" "刈萱"
-		"桔梗" "百合" "菖蒲" "海棠" "杜若" "踯躅" "紫苑" "紫阳" "泽泻" "牡丹" "芭蕉" "抚子"
+		"Momo" "Kashi" "Hinoki" "Yanagi" "Enoki" "Maki" "Keyaki" "Kuwa" "Tsubaki" "Nara" "Hagi" "Wakatake"
+		"Matsu" "Ume" "Kiri" "Sugi" "Sakura" "Kaba" "Kaede" "Yaezakura" "Yadake" "Kudzu" "Madake" "Hayaume" "Tobiume" "Wakazakura" "Yamazakura"
+		"Tachibana" "Shii" "Kusunoki" "Odake" "Hatsuzakura" "Hatsuume" "Azusa" "Mikura" "Miyake" "Awaji" "Kurahashi" "Nomi" "Chiburi" "Yashiro"
+		"Kusagaki" "Shinodake" "Shiraume" "Kashiwa" "Kigiku" "Hatsugiku" "Akane" "Shiragiku" "Chigusa" "Wakakusa" "Natsugusa" "Akikusa" "Tochi" "Nogiku"
+		"Shimushu" "Hachijo" "Kunashiri" "Ishigaki" "Etorofu" "Oki" "Sado" "Matsuwa" "Fukue" "Tsushima" "Mutsure" "Wakamiya" "Kanju" "Amakusa" "Manju" "Kasado" "Iki"
+		"Matsu" "Ume" "Momo" "Kuwa" "Kiri" "Sugi" "Maki" "Momi" "Kashi" "Kaya" "Nara" "Sakura" "Yanagi" "Tsubaki" "Kaki" "Kaba" "Hinoki" "Kaede" "Keyaki"
+		"Tachibana" "Nire" "Tsuta" "Hagi" "Kaki" "Nashi" "Shii" "Sumire" "Enoki" "Kusunoki" "Odake" "Hatsuzakura" "Kaba" "Hatsuume"
+		"Katsura" "Wakazakura" "Azusa" "Sakaki" "Kuzu" "Hishi" "Otsu" "Tomoshiri" "Mikura" "Miyake" "Awaji" "Kurahashi" "Nomi" "Yashiro" "Kusagaki"
+		"Ukuru" "Hiburi" "Shonan" "Daito" "Okinawa" "Kume" "Ikuna" "Shinnan" "Yaku" "Aguni" "Mokuto" "Inagi" "Uku" "Chikubu" "Shisaka" "Habushi" "Sakito" "Kuga" "Oga" "Kozu"
+		"Kanawa" "Shiga" "Amami" "Hodaka" "Habuto" "Iwo" "Takane" "Ikara" "Ikino" "Urumi" "Murotsu"
+		"Umigiri" "Yamagiri" "Tanigiri" "Kawagiri" "Taekaze" "Kiyokaze" "Satokaze" "Murakaze" "Yamasame" "Akisame" "Natsusame" "Hayasame" "Takashio" "Akishio" "Harushio" "Wakashio"
+		"Kiyotsuki" "Otsuki" "Hazuki" "Yamazuki" "Urazuki" "Aogumo" "Benigumo" "Harugumo" "Yaegumo" "Fuyugumo" "Yukigumo" "Okitsukaze" "Shimokaze" "Asagochi"
+		"Okaze" "Kochi" "Nishikaze" "Hae" "Kitakaze" "Hayakaze" "Natsukaze" "Fuyukaze" "Hatsunatsu" "Hatsuaki" "Hayaharu" "Hayaume" "Tobiume"
+		"Yamazakura" "Ashi" "Shinodake" "Shiraume" "Kashiwa" "Kigiku" "Hatsugiku" "Akane" "Shiragiku" "Chigusa" "Wakakusa" "Natsugusa" "Akikusa" "Nogiku" "Susuki"
 
-		"八重樱" "矢竹" "葛" "真竹" "早梅" "飞梅" "若樱" "山樱" "雄竹" "初樱" "初梅" "梓" "御藏" "三宅" "淡路" "倉桥" 
-		"能美" "千振" "屋代" "草垣" "篠竹" "白梅" "柏" "黄菊" "初菊" "茜" "白菊" "千" "若草" "夏草" "秋草" "栃" "野菊"
-		"占守" "八丈" "国后" "石垣" "択捉" "隐岐" "佐渡" "松轮" "福江" "对马" "六連" "若宫" "干珠" "天草" "满珠" "笠户" "壱岐"
-		"友知" "鹈来" "日振" "昭南" "大东" "冲绳" "久米" "生名" "新南" "屋久" "粟国" "目斗" "稲木" "宇久" "竹生" "四阪"
-		"羽节" "崎户" "久贺" "男鹿" "神津" "金轮" "志贺" "奄美" "保高" "波太" "伊王" "高根" "伊唐" "蔚美" "室津"
-
-		"千鸟" "真鹤" "友鹤" "初雁"
+		#Names in use
+		"Momi" "Kaya" "Nashi" "Take" "Kaki" "Tsuga" "Nire" "Kuri" "Kiku" "Aoi" "Fuji" "Susuki" "Hishi" "Hasu" "Warabi" "Tade" "Sumire" "Tsuta" "Ashi"
+		"Yomogi" "Asagao" "Fuyo" "Karukaya" "Kuretake" "Omodoka" "Sanae" "Sarawabi" "Yugao"
 	}
 }
 
@@ -181,11 +268,51 @@ JAP_RIVER = {
 	fallback_name = "%d"
 
 	unique = {
-		"浅间" "古鹰" "加古" "青叶" "衣笠" "妙高" "那智" "羽黑" "足柄" "高雄" "爱宕" "摩耶" "鸟海" "最上" "三隈" "铃谷"
-		"熊野" "利根" "筑摩" "伊吹" "仁淀" "平户" "天龙" "龙田" "球磨" "多摩" "北上" "大井" "木曾" "长良" "五十铃" "名取"
-		"由良" "鬼怒" "阿武隈" "夕张" "川内" "神通" "那珂" "阿贺野" "能代" "矢矧" "酒匂" "大淀"
-		"绫濑" "水无濑" "音无濑" "天城" "金刚" "比叡" "榛名" "雾岛"
-		"筑波" "生驹" "鞍马"
+		## Historical Names ##
+		# Suzuya class
+		"Suzuya" "Kumano"
+		# Tone Class
+		"Tone" "Chikuma"
+		# Agano class
+		"Agano" "Noshiro" "Yahagi" "Sakawa"
+		# Oyodo class
+		"Oyodo" "Niyodo"
+
+		## Fictional
+		"Ayase" "Minase"
+		# Hokkaido rivers
+		"Abashiri" "Ishikari" "Toyohira" "Makomanai" "Anano" "Kushiro" "Mu" "Rumoi" "Saru" "Shiribeshi"
+		"Shokotsu" "Teshio" "Tokoro" "Yubetsu" "Akan" "Niikappu" "Shibetsu" "Shizunai" "Koetoi" "Mitsuishi"
+		#Honshu
+		"Iwaki" "Takase" "Mabechi" "Naruse" "Yoneshiro" "Omono" "Koyoshi" "Aka" "Oirase" "Kuji"
+		"Edo" "Arakawa" "Kanda" "Tama" "Tsurumi" "Sagami" "Ara" "Seki" "Hime" "Kurobe"
+		"Joganji" "Sho" "Oyabe" "Tedori" "Kakehashi" "Abe" "Sakawa" "Toyo" "Shionai"
+		"Kiso" "Ibi" "Kushida" "Miya" "Kano" "Abe" "Kumozu" "Kushida" "Yura" "Yasu" "Katsura"
+		"Kamo" "Kizu" "Doton" "Maruyama" "Ibo" "Kino" "Muko" "Tenjin" "Hino" "Hii"
+		"Gono" "Takatsu" "Yoshii" "Takahashi" "Ashida" "Ota" "Oze" "Saba" "Yoshino" "Doki"
+		"Shigenobu" "Hiji" "Niyodo" "Shimanto"
+		#Kyushu
+		"Onga" "Yamakuni" "Chikugo" "Yabe" "Matsuura" "Kase" "Honmyo" "Kikuchi" "Shira"
+		"Midori" "Oita" "Oono" "Banjo" "Gokase" "Kimotsuki"
+
+		## Names in use ##
+		# Not represented in game
+		"Yodo" "Hirado"
+		## Represented in game ##
+		# Tenryu class
+		"Tenryu" "Tatsuta"
+		# Kuma class
+		"Kuma" "Tama" "Kitakami" "Oi" "Kiso"
+		# Nagara class
+		"Nagara" "Isuzu" "Natori" "Yura" "Kinu" "Abukuma"
+		# Yubari
+		"Yubari"
+		# Sendai class
+		"Sendai" "Jintsu" "Naka"
+		# Furutaka class
+		"Kako"
+		#Monobe/Tokachi class
+		"Monobe" "Mogami" "Mikuma" "Kuzuryu" "Tokachi" "Rokkaku" "Sumida" "Suzuka"
 	}
 }
 
@@ -199,10 +326,21 @@ JAP_MOUNTAIN = {
 	fallback_name = "%d"
 
 	unique = {
-		"石见" "磐手" "旭日" "藏王" "吾妻" "饭丰" "磐梯" "那须" "卷机" "谷川" "高妻" "穗高"
-		"常念" "乘鞍" "蓼科" "瑞墙" "丹沢" "惠那" "塩见" "赤石"
-		"大峰" "石槌" "开闻" "和华" "栗驹" "森吉" "守门" "八海" "岩菅" "妙义" "武甲"
-		"羽草" "爱鹰" "尾铃" "市房" "由布" "云仙" "有明" "饭纲"
+		# Historical Names
+		"Myoko" "Nachi" "Haguro" "Ashigara"
+		# Takao Class OTL
+		"Maya" "Chokai"
+		# Ibuki Class
+		"Ibuki"
+		#Fictional
+		"Katsuragi" "Kasagi" "Aso" "Ikoma" "Asama" "Tsukuba" "Kurama"
+		"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
+		"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
+		"Omine" "Ishizuchi" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
+		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+
+		# Names in use
+		"Kongo" "Hiei" "Haruna" "Kirishima" "Amagi" "Furutaka" "Aoba" "Kinugasa" "Takao" "Atago"
 	}
 }
 

@@ -1,20 +1,20 @@
-##### SPAIN NAME LISTS #####
+﻿##### SPAIN NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
 SPR_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { SPA }
+	for_countries = { SPR }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer }
 
-	prefix = "ARE "
-	fallback_name = "Destructor %d"					
+	prefix = ""
+	fallback_name = "Destructor %d"
 
-	unique = {											
-		"阿尔塞多" "贝拉斯科" "拉扎加" "桑切斯·巴凯兹泰吉" "费兰迪斯上将" "何塞·路易斯·迪亚兹" "勒班陀" "丘鲁卡" "阿尔卡拉·加利亚诺" "瓦尔德斯海军上将" 
-		"安特奎拉海军上将" "米兰达海军上将" "艾斯卡诺" "西斯卡" "格拉维纳" "豪尔赫·胡安" "乌路亚" "利涅尔" "阿拉瓦" "韦斯卡" "特鲁埃尔" "休达" "梅利利亚" 
-		"大胆" "勇敢" "彗星" "暴怒" "闪电" "公羊" "鲁莽" "无畏" "雷电"
+	unique = {
+		"Alsedo" "Velasco" "Lazaga" "Sanchez Barcaiztegui" "Almirante Ferrandiz" "José Luis Diez" "Lepanto" "Churruca" "Alcalá Galiano" "Almirante Valdés"
+		"Almirante Antequera" "Almirante Miranda" "Escano" "Císcar" "Gravina" "Jorge Juan" "Ulloa" "Liniers" "Álava" "Huesca" "Teruel" "Ceuta" "Melilla"
+		"Audaz" "Osado" "Meteoro" "Furor" "Rayo" "Ariete" "Temerario" "Intrépido" "Relámpago"
 	}
 }
 
@@ -22,16 +22,16 @@ SPR_DD_HISTORICAL = {
 SPR_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { SPA }
+	for_countries = { SPR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
-	
-	prefix = "ARE "
+
+	prefix = ""
 	fallback_name = "Crucero Ligero %d"
 
 	unique = {
-		"门德斯·努涅斯" "塞韦拉海军上将" "自由" "米格尔·塞凡提斯" "加利西亚" "布拉斯·德莱索" "塞维利亚" "韦尔瓦" "比斯开" "格拉纳达" "巴利阿里" "加那利" 
+		"República" "Méndez Núñez" "Almirante Cervera" "Libertad" "Miguel de Cervantes" "Galicia" "Blas de Lezo" "Sevilla" "Huelva" "Vizcaya" "Granada" "Baleares" "Canarias"
 	}
 }
 
@@ -39,86 +39,33 @@ SPR_CL_HISTORICAL = {
 SPR_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { SPA }
-	can_use = {
-		SPA = {
-			NOT = {
-				has_cosmetic_tag = SPA_socialist
-			}
-		}
-	}
+	for_countries = { SPR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
-	
-	prefix = "ARE "
+
+	prefix = ""
 	fallback_name = "Crucero Pesado %d"
 
 	unique = {
-		"加那利" "巴利阿里" "纳瓦拉" "摄政女王" "加泰罗尼亚" "埃斯特雷马杜拉" "比斯开" "布拉斯·德莱索" "塞维利亚" "韦尔瓦" "格拉纳达" 
+		"Canarias" "Baleares" "Navarra" "Reina Regente" "Cataluña" "Extremadura" "Vizcaya" "Blas de Lezo" "Sevilla" "Huelva" "Vizcaya" "Granada"
 	}
 }
-
-SWF_CA_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CA
-
-	for_countries = { SPA }
-	can_use = {
-		SPA = { has_cosmetic_tag = SPA_socialist }
-	}
-
-	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser }
-	
-	prefix = "ARE "
-	fallback_name = "Crucero Pesado %d"
-
-	unique = {
-		"加那利" "巴利阿里" "纳瓦拉" "加泰罗尼亚" "埃斯特雷马杜拉" "比斯开" "布拉斯·德莱索" "塞维利亚" "韦尔瓦" "格拉纳达" 
-	}
-}
-
 
 ### BATTLESHIP NAMES ###
 SPR_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { SPA }
-	can_use = {
-		SPA = {
-			NOT = {
-				has_cosmetic_tag = SPA_socialist
-			}
-		}
-	}
+	for_countries = { SPR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
-	
-	prefix = "ARE "
-	fallback_name = "Acorazado %d"		
+
+	prefix = ""
+	fallback_name = "Acorazado %d"
 
 	unique = {
-		"海梅一世" "西班牙" "阿方索十三世" "勒班陀" "拜伦" "自由" 
-	}
-}
-
-SWF_BB_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BB
-
-	for_countries = { SPA }
-	can_use = {
-		SPA = { has_cosmetic_tag = SPA_socialist }
-	}
-
-	type = ship
-	ship_types = { ship_hull_heavy battleship }
-	
-	prefix = "ARE "
-	fallback_name = "Acorazado %d"		
-
-	unique = {
-		"西班牙" "勒班陀" "拜伦" "自由" "共和国"
+		"Jaime I" "España" "Alfonso XIII" "Lepanto" "Bailén" "Libertad"
 	}
 }
 
@@ -126,16 +73,16 @@ SWF_BB_HISTORICAL = {
 SPR_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { SPA }
+	for_countries = { SPR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
-	
-	prefix = "ARE "
-	fallback_name = "Crucero de Batalla %d"		
+
+	prefix = ""
+	fallback_name = "Crucero de Batalla %d"
 
 	unique = {
-		"勒班陀" "拜伦" "自由" 
+		"Lepanto" "Bailén" "Libertad"
 	}
 }
 
@@ -143,81 +90,55 @@ SPR_BC_HISTORICAL = {
 SPR_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { SPA }
-	can_use = {
-		SPA = {
-			NOT = {
-				has_cosmetic_tag = SPA_socialist
-			}
-		}
-	}
+	for_countries = { SPR }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
-	
-	prefix = "ARE "
-	fallback_name = "Portaaviones %d"	
+
+	prefix = ""
+	fallback_name = "Portaaviones %d"
 
 	unique = {
-		"代达罗斯" "阿斯图里亚亲王" "王国" "维多利亚" 
-	}
-}
-
-SWF_CV_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CARRIERS
-
-	for_countries = { SPA }
-	can_use = {
-		SPA = { has_cosmetic_tag = SPA_socialist }
-	}
-
-	type = ship
-	ship_types = { ship_hull_carrier carrier }
-	
-	prefix = "ARE "
-	fallback_name = "Portaaviones %d"	
-
-	unique = {
-		"尼塞托·萨莫拉" "曼努埃尔·阿萨尼亚" "亚历杭德罗·加西亚" "巴利亚达雷斯" "弗朗西斯科·卡瓦罗列"
+		"Dédalo" "Príncipe de Asturias" "República" "Victoria"
 	}
 }
 
 ### SUBMARINES ###
 SPR_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
-	
-	for_countries = { SPA }
+
+	for_countries = { SPR }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
-	
-	prefix = "ARE "
+
+	prefix = ""
 	fallback_name = "S%d"
-	
+
 	ordered = {
-		1 = {"S0%d"}
-		2 = {"S0%d"}
-		3 = {"S0%d"}
-		4 = {"S0%d"} 
-		5 = {"S0%d"} 
-		6 = {"S0%d"} 
-		7 = {"S0%d"}
-		8 = {"S0%d"}
-		9 = {"S0%d"}
-		10 = {"S%d"}
-		11 = {"S%d"}
-		12 = {"S%d"}
-		13 = {"S%d"}
-		14 = {"S%d"}
-		15 = {"S%d"}
-		16 = {"S%d"}
-		17 = {"S%d"}
-		18 = {"S%d"}
-		19 = {"S%d"}
-		20 = {"S%d"}
-		21 = {"S%d"}
-		22 = {"S%d"}
-		23 = {"S%d"}
+		1 = { "S0%d" }
+		2 = { "S0%d" }
+		3 = { "S0%d" }
+		4 = { "S0%d" }
+		5 = { "S0%d" }
+		6 = { "S0%d" }
+		7 = { "S0%d" }
+		8 = { "S0%d" }
+		9 = { "S0%d" }
+		10 = { "S%d" }
+		11 = { "S%d" }
+		12 = { "S%d" }
+		13 = { "S%d" }
+		14 = { "S%d" }
+		15 = { "S%d" }
+		16 = { "S%d" }
+		17 = { "S%d" }
+		18 = { "S%d" }
+		19 = { "S%d" }
+		20 = { "S%d" }
+		21 = { "S%d" }
+		22 = { "S%d" }
+		23 = { "S%d" }
 	}
 }
 
@@ -225,13 +146,13 @@ SPR_SS_HISTORICAL = {
 SPR_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { SPA }
+	for_countries = { SPR }
 
 	type = ship
 
-	prefix = "ARE "							
+	prefix = ""
 	unique = {
-		"拉科鲁尼亚" "毕尔巴鄂" "奥维耶多" "马拉加" "巴塞罗那" "巴伦西亚" "桑坦德" "加的斯" "阿利坎特" "拉斯帕尔马斯" "费罗尔" "梅利利亚" "圣克鲁斯" "格拉纳达" "圣地亚哥" "赫罗纳" "休达" "帕尔马" "比戈" "圣塞瓦斯蒂安" "阿尔梅利亚" "卢戈" "卡斯特利翁" "韦尔瓦" "塞维利亚" "蓬特韦德拉" "维多利亚" "木尔西亚" "塔拉戈纳" "希洪" "洛格罗尼奥" "潘普洛纳" "利昂" "萨莫拉" "萨拉曼卡" "帕伦西亚" "巴利亚多利德" "阿维拉" "塞哥维亚" "布尔戈斯" "索里亚" "马德里" "瓜达拉哈拉" "昂卡" "托莱多" "雷亚尔城" "阿尔瓦赛特" "巴达霍斯" "科尔多瓦" "哈恩" "奥伦塞" "卡塞雷斯" "韦斯卡" "萨拉戈扎" "特鲁埃尔" "莱里达" "阿兰胡埃斯" "比利亚韦德" "蓬费拉达" "卡塔赫纳" "普埃托利亚诺"
+		"La Coruña" "Bilbao" "Oviedo" "Málaga" "Barcelona" "Valencia" "Santander" "Cádiz" "Alicante" "Las Palmas" "Ferrol" "Melilla" "Santa Cruz" "Granada" "Santiago" "Gerona" "Ceuta" "Palma de Mayorca" "Vigo" "San Sebastián" "Almería" "Lugo" "Castellón" "Huelva" "Sevilla" "Pontevedra" "Vitoria" "Murcia" "Tarragona" "Gijón" "Logroño" "Pamplona" "León" "Zamora" "Salamanca" "Palencia" "Valladolid" "Ávila" "Segovia" "Burgos" "Soria" "Madrid" "Guadalajara" "Cuenca" "Toledo" "Ciudad Real" "Albacete" "Badajoz" "Córdoba" "Jaén" "Orense" "Cáceres" "Huesca" "Zaragoza" "Teruel" "Lérida" "Aranjuez" "Villaverde" "Ponferrada" "Cartagena" "Puertollano"
 	}
 }
 
@@ -239,34 +160,13 @@ SPR_CITIES = {
 SPR_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { SPA }
+	for_countries = { SPR }
 
 	type = ship
 
-	prefix = "ARE "
+	prefix = ""
 
 	unique = {
-		"太加斯河" "埃布罗河" "瓜达尔基维尔河" "瓜地亚纳河" "杜罗河" "米尼奥河" "哈拉玛河" "施古拉河" "纳隆河" "胡卡尔河" "内维翁河" "略夫雷加特河" "乌勒河" "特尔河" "埃斯拉河" "伊拜萨巴河" "瓜达莱特河" "比达索阿河" "哈隆河" "西圭拉河" "皮苏埃加河" "阿拉贡河" "赫尼尔河" "锡尔河" "托尔梅斯河" "瓜达利马尔河" "铁塔尔河" "米哈雷斯河" "纳维亚河" "奥迭尔河" "比纳波洛河" "瓜达塞洛河" "图里亚河" "坦布雷河" "塞拉河" "杜拉通河" "阿瓜斯韦瓦斯河" "马塔拉尼亚河" "德瓦河" "弗卢维亚河" "瓜达尔费奥河" "塞尔皮斯河" "阿德拉河" "贝莱斯河" "瓜达卢普河" "阿尔曼佐拉河" "彼德拉斯河" "瓜迪拉河" "加洛河" "本贝萨尔河" "瓜达伦廷河" "瑟格雷河" "维亚河" "塔胡尼亚河" "加列戈河" "阿尔韦奇河"
-	}
-}
-
-
-## THEME: SPANISH ANARCHIST IDEOLOGIES
-SWF_ANARCHY = {
-	name = "无政府主义人物与理念"
-	
-	for_countries = { SPA }
-	can_use = {
-		SPA = { has_cosmetic_tag = SPA_socialist }
-	}
-	
-	type = ship
-	
-	prefix = "ARE "
-	
-	unique = {
-		"阿尔芒" "巴枯宁" "贝克曼" "伏尔泰琳·克蕾" "戴伊" "塞巴斯蒂安·富尔" "威廉·戈德温" "艾玛·高德曼" "克鲁泡特金" "古斯塔夫·兰道尔"
-		"马拉泰斯诺" "弗朗西斯科·弗雷尔" "路易斯·米歇尔" "蒲鲁东" "斯波纳" "本杰明·塔克" "约书亚·沃伦" "红十字会" "革命" "劳工联盟"
-		"共和国" "土地与自由" "联合会"
+		"Tajo" "Ebro" "Guadalquivir" "Guadiana" "Duero" "Miño" "Jarama" "Segura" "Nalón" "Júcar" "Nervión" "Llobregat" "Ulla" "Ter" "Esla" "Ibaizábal" "Guadalete" "Bidasoa" "Jalón" "Cigüela" "Pisuerga" "Aragón" "Genil" "Sil" "Tormes" "Guadalimar" "Tiétar" "Mijares" "Navia" "Odiel" "Vinalopó" "Guadalhorce" "Turia" "Tambre" "Sella" "Duratón" "Aguasvivas" "Matarraña" "Deva" "Fluviá" "Guadalfeo" "Serpis" "Adra" "Vélez" "Guadalupe" "Almanzora" "Piedras" "Guadiela" "Gallo" "Bembézar" "Guadalentín" "Segre" "Viar" "Tajuña" "Gállego" "Alberche"
 	}
 }
