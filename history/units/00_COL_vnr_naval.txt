@@ -1,0 +1,14 @@
+units= {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Armada Nacional"			
+		naval_base = 12790 # Cartegena
+		task_force = {
+			name = "Armada Nacional"
+			location = 12790 # Cartegena
+			ship = { name = "ARC Antioquia" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_destroyer_2 = { amount = 1 owner = COL version_name = "Antioquia Class" } } }
+			ship = { name = "ARC Caldas" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_destroyer_2 = { amount = 1 owner = COL version_name = "Antioquia Class" } } }
+		}				
+	}
+} 
