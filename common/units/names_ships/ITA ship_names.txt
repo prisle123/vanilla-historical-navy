@@ -8,7 +8,7 @@ ITA_DD_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_light destroyer }
 
-	prefix = "RCT " # Regio Cacciatorpediniere (this group includes also torpedo boats classified as RT - Regio Torpediniere)
+	prefix = "RN " # Regio Cacciatorpediniere (this group includes also torpedo boats classified as RT - Regio Torpediniere)
 	fallback_name = "Cacciatorpediniere %s"
 
 	unique = {
@@ -35,7 +35,7 @@ ITA_CL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 
-	prefix = "RI " # Regio Incrociatore
+	prefix = "RN " # Regio Incrociatore
 	fallback_name = "Incrociatore leggero %s"
 
 	unique = {
@@ -58,7 +58,7 @@ ITA_CA_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 
-	prefix = "RI " # Regio Incrociatore
+	prefix = "RN " # Regio Incrociatore
 	fallback_name = "Incrociatore pesante %s"
 
 	unique = {
@@ -115,7 +115,7 @@ ITA_BC_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 
-	prefix = "RI " # Regio Incrociatore
+	prefix = "RN " # Regio Incrociatore
 	fallback_name = "Incrociatore da battaglia %s"
 
 	unique = {
@@ -174,7 +174,7 @@ ITA_SS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 
-	prefix = "RSmg " # Regio Sommergibile
+	prefix = "RN " # Regio Sommergibile
 	fallback_name = "Sommergibile %s"
 
 	unique = {

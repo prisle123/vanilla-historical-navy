@@ -1,7 +1,11 @@
 on_actions = {
     on_startup = {
         effect = {
-            set_global_flag = add_startup_navy
+			set_global_flag = navy_rework_splash_show
+			
+			every_country = {
+				set_variable = { navy_rework_welcome_splash_variable = 1 }
+			}
         }
     }
 }

@@ -1,0 +1,83 @@
+scripted_gui = {
+
+	navy_rework_welcome_splash = {
+		context_type = player_context
+		window_name = navy_rework_welcome_splash_container
+
+		ai_enabled = { always = no }
+		
+		visible = {
+			has_global_flag = navy_rework_splash_show
+		}
+
+		triggers = {
+
+			tab_1_click_enabled = { NOT = { check_variable = { navy_rework_welcome_splash_variable = 1 } } }
+			tab_2_click_enabled = { NOT = { check_variable = { navy_rework_welcome_splash_variable = 2 } } }
+			tab_3_click_enabled = { NOT = { check_variable = { navy_rework_welcome_splash_variable = 3 } } }
+			tab_4_click_enabled = { NOT = { check_variable = { navy_rework_welcome_splash_variable = 4 } } }
+		}
+
+		effects = {
+			tab_1_click = { set_variable = { navy_rework_welcome_splash_variable = 1 } }
+			tab_2_click = { set_variable = { navy_rework_welcome_splash_variable = 2 } }
+			tab_3_click = { set_variable = { navy_rework_welcome_splash_variable = 3 } }
+			tab_4_click = { set_variable = { navy_rework_welcome_splash_variable = 4 } }
+
+			navy_rework_options_button_click = {
+				clr_global_flag = navy_rework_splash_show
+				clear_variable = navy_rework_welcome_splash_variable
+				country_event = navy_rework.0
+			}
+		}
+	}
+
+	navy_rework_welcome_splash_tab_1 = {
+		context_type = player_context
+		window_name = navy_rework_welcome_splash_tab_1_container
+		parent_window_name = "navy_rework_welcome_splash_container"
+
+		ai_enabled = { always = no }
+
+		visible = {
+			check_variable = { navy_rework_welcome_splash_variable = 1 }
+		}
+	}
+
+	navy_rework_welcome_splash_tab_2 = {
+		context_type = player_context
+		window_name = navy_rework_welcome_splash_tab_2_container
+		parent_window_name = "navy_rework_welcome_splash_container"
+
+		ai_enabled = { always = no }
+
+		visible = {
+			check_variable = { navy_rework_welcome_splash_variable = 2 }
+		}
+	}
+	
+	navy_rework_welcome_splash_tab_3 = {
+		context_type = player_context
+		window_name = navy_rework_welcome_splash_tab_3_container
+		parent_window_name = "navy_rework_welcome_splash_container"
+
+		ai_enabled = { always = no }
+
+		visible = {
+			check_variable = { navy_rework_welcome_splash_variable = 3 }
+		}
+	}
+	
+	navy_rework_welcome_splash_tab_4 = {
+		context_type = player_context
+		window_name = navy_rework_welcome_splash_tab_4_container
+		parent_window_name = "navy_rework_welcome_splash_container"
+
+		ai_enabled = { always = no }
+
+		visible = {
+			check_variable = { navy_rework_welcome_splash_variable = 4 }
+		}
+	}
+}
+

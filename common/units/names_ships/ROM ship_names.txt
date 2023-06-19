@@ -120,23 +120,6 @@ ROM_CV_HISTORICAL = {
 }
 
 ### THEME: RIVERS ###
-ROM_RIVERS = {
-	name = NAME_THEME_RIVERS
-
-	for_countries = { ROM }
-
-	can_use = {
-		NOT = { owns_state = 84 } #Transylvania
-	}
-
-	type = ship
-
-	prefix = "NMS " #Nava Maiestatii Sale
-
-	unique = {
-		"Olt" "Siret" "Dambovita" "Bahlui" "Jiu" "Arges" "Barlad" "Trotus" "Jijia" "Teleorman" "Dunarea" "Moldova" "Nistru"
-	}
-}
 ROM_RIVERS_TRANSYLVANIA = {
 	name = NAME_THEME_RIVERS
 
@@ -160,10 +143,6 @@ ROM_COUNTIES = {
 	name = NAME_THEME_COUNTIES
 
 	for_countries = { ROM }
-
-	can_use = {
-		NOT = { owns_state = 84 } #Transylvania
-	}
 
 	type = ship
 

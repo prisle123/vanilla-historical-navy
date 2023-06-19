@@ -1,7 +1,7 @@
 ﻿##### USA NAME LISTS #####
 ### THEME: FISH (HISTORICAL SUBMARINES) ###
 USA_FISH = {
-	name = NAME_THEME_FISH_US
+	name = NAME_THEME_FISH
 
 	for_countries = { USA } # HAW, NEE, CSA is separate
 
@@ -125,7 +125,7 @@ USA_HEROES_NAVY = {
 
 ## THEME: U.S. CITIES ###
 USA_CITIES = {
-	name = NAME_THEME_CITIES_US
+	name = NAME_THEME_CITIES
 
 	for_countries = { USA } # HAW, NEE, CSA is separate
 
@@ -151,7 +151,7 @@ USA_CITIES = {
 ### BATTLECRUISER NAMES ###
 ### THEME: HISTORICAL BATTLES ###
 USA_BATTLES = {
-	name = NAME_THEME_BATTLES_US
+	name = NAME_THEME_BATTLES
 
 	for_countries = { USA } # HAW, NEE, CSA is separate
 
@@ -172,7 +172,7 @@ USA_BATTLES = {
 ### BATTLESHIP NAMES ###
 ### THEME: U.S. STATES ###
 USA_STATES = {
-	name = NAME_THEME_STATES_US
+	name = NAME_THEME_STATES
 
 	for_countries = { USA } # HAW, NEE, CSA is separate
 
@@ -253,22 +253,5 @@ USA_LEADERS = {
 		"Ethan Allen" "Sam Houston" "Lafayette" "Von Steuben" "Alexander Hamilton" "Casimir Pulaski" "Lewis and Clark" "James K. Polk"
 		"Thomas A. Edison" "Nathan Hale" "Henry Clay" "Daniel Webster" "Tecumseh" "Daniel Boone" "Nathanael Greene" "Simon Bolivar" "Kamehameha" "George Washington Carver" "Francis Scott Key" "Mariano G. Vallejo"
 		"Will Rogers" "George Bancroft" "Theodore Roosevelt"
-	}
-}
-
-### THEME: INSPIRATIONAL ###
-USA_INSPIRATIONAL = {
-	name = NAME_THEME_INSPIRATIONAL
-
-	for_countries = { USA } # HAW, CSA, NEE is separate
-
-	type = ship
-
-	prefix = "USS "
-	fallback_name = "Ship SS-%d"
-
-	unique = {
-		"Triumphant" "Victorious" "Magnificent" "Imperial" "Fearless" "Majestic" "Ascendant" "Dominion" "Intrepid" "Supremacy" "Bounty" "Liberation" "Challenger" "Defiant" "Endeavour" "Valiant" "Dauntless"
-		"Stalwart" "Steadfast" "Exaltation" "Sovereign" "Glorious"
 	}
 }

@@ -8,7 +8,7 @@ CHL_DD_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_light destroyer }
 
-	prefix = "CSN "
+	prefix = "BACH "
 	fallback_name = "Destructor %d"
 
 	unique = {
@@ -28,7 +28,7 @@ CHL_CL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 
-	prefix = "CSN "
+	prefix = "BACH "
 	fallback_name = "Crucero Ligero %d"
 
 	unique = {
@@ -48,7 +48,7 @@ CHL_CA_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 
-	prefix = "CSN "
+	prefix = "BACH "
 	fallback_name = "Crucero Pesado %d"
 
 	unique = {
@@ -67,7 +67,7 @@ CHL_BB_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 
-	prefix = "CSN "
+	prefix = "BACH "
 	fallback_name = "Acorazado %d"
 
 	unique = {
@@ -85,7 +85,7 @@ CHL_BC_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 
-	prefix = "CSN "
+	prefix = "BACH "
 	fallback_name = "Crucero de Batalla %d"
 
 	unique = {
@@ -102,7 +102,7 @@ CHL_CV_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 
-	prefix = "CSN "
+	prefix = "BACH "
 	fallback_name = "Portaaviones %d"
 
 	unique = {
@@ -120,7 +120,7 @@ CHL_SS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 
-	prefix = "CSN "
+	prefix = "BACH "
 	fallback_name = "Submarino %d"
 
 	unique = {
@@ -137,7 +137,7 @@ CHL_SS_H_CLASS = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 
-	prefix = "CSN "
+	prefix = "BACH "
 	fallback_name = "H-%d"
 }
 

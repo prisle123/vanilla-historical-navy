@@ -270,26 +270,6 @@ FRA_COLONIES = {
 	}
 }
 
-## THEME: SOCIALIST MARTYRS ###
-FRA_MARTYRS = {
-	name = NAME_THEME_HISTORICAL_FIGURES
-
-	for_countries = { FRA }
-
-	type = ship
-
-	unique = {
-		"Karl Marx" "Friedrich Engels" "Pierre Kropotkine" "Mikhail Bakounine" "Alexandre Ledru-Rollin" "Victor Griffuelhes"
-		"Louis Antoine de Saint-Just" "Edouard Vaillant" "Paul Lafargue" "Eugène Pottier" "Jean-Baptiste Clément" "Benoît Malon"
-		"Camille Camet" "Léo Frankel" "Henri Tolain" "Paul Brousse" "Armand Barbès" "Jean-Louis Pindy" "André Bastelica" "Félix Pyat"
-		"Jean Allemane" "Théophile Ferré" "Camille Desmoulins" "Jacques-René Hébert" "Louis Rossel" "Alphonse de Lamartine" "Emile Basly"
-		"Eugène Varlin" "Charles Longuet" "Louise Michel" "Jean Jaurès" "Jules Guesde" "Auguste Blanqui" "Charles Delescluze" "Gustave Cluseret"
-		"Jacques Roux" "Jean-Théophile Leclerc" "Jean-François Varlet" "Claire Lacombe" "Pauline Léon" "Pierre Gaspard Chaumette" "François-Noël Babeuf"
-		"Philippe Buonarroti" "Sylvain Maréchal" "Jean-Baptiste Drouet" "Jean-Paul Marat" "Jacques Hébert" "Antoine-François Momoro" "Charles-Philippe Ronsin"
-		"François-Nicolas Vincent"
-	}
-}
-
 ## THEME: INSPIRATIONAL ###
 FRA_INSPIRATIONAL = {
 	name = NAME_THEME_INSPIRATIONAL
@@ -368,27 +348,3 @@ FRA_MARSHALS = {
 		"François Gaston de Lévis" "Nicolas Luckner" "Jean-Baptiste-Donatien de Vimeur"
 	}
 }
-
-## THEME: FRENCH KINGS ###
-FRA_KINGS = {
-	name = NAME_THEME_KINGS # 751 - 1789
-
-	for_countries = { FRA }
-
-	can_use = {
-		has_socialist_government = no
-	}
-
-	type = ship
-
-	unique = {
-		"Pépin le Bref" "Carloman" "Charlemagne" "Louis le Pieux" "Charles le Chauve" "Louis le Bègue"
-		"Charles le Gros" "Charles le Simple" "Raoul de Bourgogne" "Louis d'Outremer" "Louis le Fainéant"
-		"Hugues Capet" "Robert le Pieux" "Philippe l'Amoureux" "Louis le Batailleur" "Louis le Jeune"
-		"Philippe Auguste" "Louis le Lion" "Saint-Louis" "Philippe le Hardi" "Philippe le Bel" "Louis le Hutin"
-		"Jean le Posthume" "Philippe le Long" "Charles le Bel" "Philippe de Valois" "Jean le Bon" "Charles le Sage"
-		"Charles le Bien-Aimé" "Charles le Bien Servi" "Louis le Prudent" "Charles l'Affable" "Louis le Père du Peuple"
-		"François d'Orléans" "Henri le Vert-Galant" "Louis le Juste" "Louis le Roi-Soleil" "Louis le Bien-Aimé"
-	}
-}
-

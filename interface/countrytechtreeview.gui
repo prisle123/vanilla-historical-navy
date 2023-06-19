@@ -1856,7 +1856,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_destroyer"
-				position = { x = 250 y = 35 }
+				position = { x = 220 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1870,7 +1870,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_cruiser"
-				position = { x = 740 y = 35 }
+				position = { x = 720 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1884,7 +1884,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_armor"
-				position = { x = 1040 y = 35 }
+				position = { x = 1010 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1898,7 +1898,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_battleship"
-				position = { x = 1400 y = 35 }
+				position = { x = 1370 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1926,7 +1926,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "naval_subtitle_sub"
-				position = { x = 2200 y = 35 }
+				position = { x = 2150 y = 35 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -3873,7 +3873,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "technology_info_window"
 		position = { x=500 y=100 }
-		size = { width = 550 height = 550 }
+		size = { width = 550 height = 650 }
 		orientation = UPPER_LEFT
 		moveable = yes
 		#clipping = no
@@ -3885,12 +3885,12 @@ guiTypes = {
 		background = {
 			name = "Background"
 			#SpriteType ="GFX_technology_info_bg"
-			SpriteType = "GFX_tiled_window_thin_border2"
+			SpriteType = "GFX_tiled_window_thin_border_kr"
 		}
 
 		iconType ={
 			name ="tech_info_top_win"
-			spriteType = "GFX_tech_info_top_win"
+			spriteType = "GFX_tech_info_top_win_kr"
 			position = { x= 1 y = 1 }
 			orientation = "UPPER_LEFT"
 			alwaystransparent = yes
@@ -3928,7 +3928,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "tech_info_description"
-			position = { x = 27 y = 121 }
+			position = { x = 27 y = 130 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}

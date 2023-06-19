@@ -1,11 +1,12 @@
 ﻿army = {
 	gfx = GFX_theatre_army_shield
-
+	
 	icon = {
 		#Example of icon script, corresponding to the frame index in the .dds files
 		#color_override = no
 		#name = "EQUAL_ICON"
-		#available = {
+		#available = 
+		#{
 		#	tag = CHI
 		#}
 	}
@@ -38,7 +39,8 @@
 	icon = {
 		color_override = no
 		name = "4. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -46,7 +48,8 @@
 	icon = {
 		color_override = no
 		name = "16. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -54,7 +57,8 @@
 	icon = {
 		color_override = no
 		name = "1. Panzerarmee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -62,7 +66,8 @@
 	icon = {
 		color_override = no
 		name = "V. Armeekorps"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -70,7 +75,8 @@
 	icon = {
 		color_override = no
 		name = "6. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -78,7 +84,8 @@
 	icon = {
 		color_override = no
 		name = "7. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -86,7 +93,8 @@
 	icon = {
 		color_override = no
 		name = "2. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -94,7 +102,8 @@
 	icon = {
 		color_override = no
 		name = "2. Panzerarmee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -102,7 +111,8 @@
 	icon = {
 		color_override = no
 		name = "10. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -110,7 +120,8 @@
 	icon = {
 		color_override = no
 		name = "11. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -118,7 +129,8 @@
 	icon = {
 		color_override = no
 		name = "14. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -126,7 +138,8 @@
 	icon = {
 		color_override = no
 		name = "17. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -134,7 +147,8 @@
 	icon = {
 		color_override = no
 		name = "18. Armee"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -142,7 +156,8 @@
 	icon = {
 		color_override = no
 		name = "Panzergruppe H"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -150,7 +165,8 @@
 	icon = {
 		color_override = no
 		name = "Panzergruppe E"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -158,7 +174,8 @@
 	icon = {
 		color_override = no
 		name = "Panzergruppe Z"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -166,7 +183,8 @@
 	icon = {
 		color_override = no
 		name = "Panzergruppe A"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -174,7 +192,8 @@
 	icon = {
 		color_override = no
 		name = "Panzergruppe D"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = GER
 		}
@@ -182,7 +201,8 @@
 	icon = {
 		color_override = no
 		name = "First Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -190,7 +210,8 @@
 	icon = {
 		color_override = no
 		name = "Second Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -198,7 +219,8 @@
 	icon = {
 		color_override = no
 		name = "Eighth Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -206,7 +228,8 @@
 	icon = {
 		color_override = no
 		name = "Tenth Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -214,7 +237,8 @@
 	icon = {
 		color_override = no
 		name = "Fourteenth Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -222,7 +246,8 @@
 	icon = {
 		color_override = no
 		name = "Northern Command"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -230,7 +255,8 @@
 	icon = {
 		color_override = no
 		name = "Eastern Command"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -238,7 +264,8 @@
 	icon = {
 		color_override = no
 		name = "Western Command"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -246,7 +273,8 @@
 	icon = {
 		color_override = no
 		name = "Southern Command"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -254,7 +282,8 @@
 	icon = {
 		color_override = no
 		name = "Aldershot Command"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -262,7 +291,8 @@
 	icon = {
 		color_override = no
 		name = "Scottish Command"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = ENG
 		}
@@ -270,7 +300,8 @@
 	icon = {
 		color_override = no
 		name = "8th Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = USA
 		}
@@ -278,7 +309,8 @@
 	icon = {
 		color_override = no
 		name = "1st Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = USA
 		}
@@ -286,7 +318,8 @@
 	icon = {
 		color_override = no
 		name = "2nd Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = USA
 		}
@@ -294,7 +327,8 @@
 	icon = {
 		color_override = no
 		name = "3rd Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = USA
 		}
@@ -302,7 +336,8 @@
 	icon = {
 		color_override = no
 		name = "5th Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = USA
 		}
@@ -310,7 +345,8 @@
 	icon = {
 		color_override = no
 		name = "6th Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = USA
 		}
@@ -318,7 +354,8 @@
 	icon = {
 		color_override = no
 		name = "7th Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = USA
 		}
@@ -326,7 +363,8 @@
 	icon = {
 		color_override = no
 		name = "9th Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = USA
 		}
@@ -334,7 +372,8 @@
 	icon = {
 		color_override = no
 		name = "1re Armée"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = FRA
 		}
@@ -342,7 +381,8 @@
 	icon = {
 		color_override = no
 		name = "Forces françaises libres"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = FRA
 		}
@@ -350,7 +390,8 @@
 	icon = {
 		color_override = no
 		name = "2e Armée"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = FRA
 		}
@@ -358,33 +399,38 @@
 	icon = {
 		color_override = no
 		name = "1. Allied Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			has_democratic_government = yes
+			has_government = democratic
 		}
 	}
 	icon = {
 		color_override = no
 		name = "1. Homeland Defense Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			has_authoritarian_government = yes
+			has_government = fascism
 		}
 	}
 	icon = {
 		color_override = no
 		name = "Sunflower Defense Corps"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			has_elected_government = yes
+			has_government = neutrality
 		}
 	}
 	icon = {
 		color_override = no
 		name = "I. Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			NOT = {
+			NOT = 
+			{
 				tag = FRA
 				tag = GER
 				tag = ENG
@@ -396,9 +442,11 @@
 	icon = {
 		color_override = no
 		name = "II. Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			NOT = {
+			NOT = 
+			{
 				tag = FRA
 				tag = GER
 				tag = ENG
@@ -410,9 +458,11 @@
 	icon = {
 		color_override = no
 		name = "III. Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			NOT = {
+			NOT = 
+			{
 				tag = FRA
 				tag = GER
 				tag = ENG
@@ -421,28 +471,33 @@
 			}
 		}
 	}
-	icon = {
+	icon = 
+	{
 		color_override = no
 		name = "1. Celestial Penetration Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			has_authoritarian_government = yes
+			has_government = fascism
 		}
 	}
 	icon = {
 		color_override = no
 		name = "1. Liberation Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			has_socialist_government = yes
+			has_government = communism
 		}
 	}
 	icon = {
 		color_override = no
 		name = "IV. Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			NOT = {
+			NOT = 
+			{
 				tag = FRA
 				tag = GER
 				tag = ENG
@@ -454,9 +509,11 @@
 	icon = {
 		color_override = no
 		name = "V. Army"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
-			NOT = {
+			NOT = 
+			{
 				tag = FRA
 				tag = GER
 				tag = ENG
@@ -468,7 +525,8 @@
 	icon = {
 		color_override = no
 		name = "7. Guards"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
 		}
@@ -476,7 +534,8 @@
 	icon = {
 		color_override = no
 		name = "41. Guards"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
 		}
@@ -484,7 +543,8 @@
 	icon = {
 		color_override = no
 		name = "90. Tanks"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
 		}
@@ -492,7 +552,8 @@
 	icon = {
 		color_override = no
 		name = "8. Artillery"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
 		}
@@ -500,7 +561,8 @@
 	icon = {
 		color_override = no
 		name = "1443. Artillery"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
 		}
@@ -508,7 +570,8 @@
 	icon = {
 		color_override = no
 		name = "76. Tanks"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
 		}
@@ -516,7 +579,8 @@
 	icon = {
 		color_override = no
 		name = "3. Guards Mechanized"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
 		}
@@ -524,7 +588,8 @@
 	icon = {
 		color_override = no
 		name = "3. Tanks"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
 		}
@@ -540,7 +605,8 @@
 	icon = {
 		color_override = no
 		name = "8. Mechanized"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 			tag = SOV
 		}
@@ -548,7 +614,8 @@
 	icon = {
 		color_override = no
 		name = "Turkish 1"
-		available = {
+		available = 
+		{
 			has_dlc = "Battle for the Bosporus"
 			tag = TUR
 		}
@@ -556,7 +623,8 @@
 	icon = {
 		color_override = no
 		name = "Turkish 2"
-		available = {
+		available = 
+		{
 			has_dlc = "Battle for the Bosporus"
 			tag = TUR
 		}
@@ -564,7 +632,8 @@
 	icon = {
 		color_override = no
 		name = "Greek 1"
-		available = {
+		available = 
+		{
 			has_dlc = "Battle for the Bosporus"
 			tag = GRE
 		}
@@ -572,7 +641,8 @@
 	icon = {
 		color_override = no
 		name = "Greek 2"
-		available = {
+		available = 
+		{
 			has_dlc = "Battle for the Bosporus"
 			tag = GRE
 		}
@@ -580,7 +650,8 @@
 	icon = {
 		color_override = no
 		name = "Greek 3"
-		available = {
+		available = 
+		{
 			has_dlc = "Battle for the Bosporus"
 			tag = GRE
 		}
@@ -588,7 +659,8 @@
 	icon = {
 		color_override = no
 		name = "Bulgarian 1"
-		available = {
+		available = 
+		{
 			has_dlc = "Battle for the Bosporus"
 			tag = BUL
 		}
@@ -596,7 +668,8 @@
 	icon = {
 		color_override = no
 		name = "Bulgarian 2"
-		available = {
+		available = 
+		{
 			has_dlc = "Battle for the Bosporus"
 			tag = BUL
 		}
@@ -605,39 +678,44 @@
 
 army_group = {
 	gfx = GFX_theatre_army_group_shield
-
+	
 	icon = {
 	}
 	icon = {
 		color_override = no
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 		}
 	}
 	icon = {
 		color_override = no
 		name = "15. Army Group"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 		}
 	}
 	icon = {
 		color_override = no
 		name = "12. Army Group"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 		}
 	}
 	icon = {
 		color_override = no
 		name = "6. Army Group"
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 		}
 	}
 	icon = {
 		color_override = no
-		available = {
+		available = 
+		{
 			has_dlc = "Waking the Tiger"
 		}
 	}
@@ -645,7 +723,7 @@ army_group = {
 
 fleet = {
 	gfx = GFX_theatre_task_force_shield
-
+	
 	icon = {
 	}
 	icon = {
@@ -712,7 +790,7 @@ fleet = {
 
 task_force = {
 	gfx = GFX_theatre_task_force_shield
-
+	
 	icon = {
 	}
 	icon = {
@@ -780,57 +858,57 @@ task_force = {
 naval_equipment_role = {
 	gfx = GFX_naval_equipment_role_icons
 	
-	icon = {	color_override = no 	name = "FBB - 高速战列舰"	} # 1
-	icon = {	color_override = no 	name = "FBB - 高速战列舰"	} # 2
-	icon = {	color_override = no 	name = "BB - 战列舰"	} # 3
-	icon = {	color_override = no 	name = "BB - 战列舰"	} # 4
-	icon = {	color_override = no 	name = "B - 前无畏舰"	} # 5
-	icon = {	color_override = no 	name = "B - 前无畏舰"	} # 6
-	icon = {	color_override = no 	name = "DN - 超级无畏舰"	} # 7
-	icon = {	color_override = no 	name = "DN - 超级无畏舰"	} # 8
-	icon = {	color_override = no 	name = "CV - 航空母舰"	} # 9
-	icon = {	color_override = no 	name = "CV - 航空母舰"	} # 10
-	icon = {	color_override = no 	name = "CVL - 轻型航空母舰"	} # 11
-	icon = {	color_override = no 	name = "CVL - 轻型航空母舰"	} # 12
+	icon = {	color_override = no 	name = "FBB - Fast Battleship"	} # 1
+	icon = {	color_override = no 	name = "FBB - Fast Battleship"	} # 2
+	icon = {	color_override = no 	name = "BB - Battleship"	} # 3
+	icon = {	color_override = no 	name = "BB - Battleship"	} # 4
+	icon = {	color_override = no 	name = "B - Pre-dreadnought"	} # 5
+	icon = {	color_override = no 	name = "B - Pre-dreadnought"	} # 6
+	icon = {	color_override = no 	name = "SHBB - Super Heavy Battleship"	} # 7
+	icon = {	color_override = no 	name = "SHBB - Super Heavy Battleship"	} # 8
+	icon = {	color_override = no 	name = "CV - Aircraft Carrier"	} # 9
+	icon = {	color_override = no 	name = "CV - Aircraft Carrier"	} # 10
+	icon = {	color_override = no 	name = "CVL - Light Aircraft Carrier"	} # 11
+	icon = {	color_override = no 	name = "CVL - Light Aircraft Carrier"	} # 12
 
-	icon = {	color_override = no 	name = "CVH - 重型航空母舰"	} # 13
-	icon = {	color_override = no 	name = "CVH - 重型航空母舰"	} # 14
-	icon = {	color_override = no 	name = "BC - 战列巡洋舰"	} # 15
-	icon = {	color_override = no 	name = "BC - 战列巡洋舰"	} # 16
-	icon = {	color_override = no 	name = "ACR - 装甲巡洋舰"	} # 17
-	icon = {	color_override = no 	name = "ACR - 装甲巡洋舰"	} # 18
-	icon = {	color_override = no 	name = "BM - 浅水重炮舰"	} # 19
-	icon = {	color_override = no 	name = "BM - 浅水重炮舰"	} # 20
-	icon = {	color_override = no 	name = "CB - 大型巡洋舰"	} # 21
-	icon = {	color_override = no 	name = "CB - 大型巡洋舰"	} # 22
-	icon = {	color_override = no 	name = "C - 巡洋舰"	} # 23
-	icon = {	color_override = no 	name = "C - 巡洋舰"	} # 24
+	icon = {	color_override = no 	name = "CVH - Heavy Aircraft Carrier"	} # 13
+	icon = {	color_override = no 	name = "CVH - Heavy Aircraft Carrier"	} # 14
+	icon = {	color_override = no 	name = "BC - Battlecruiser"	} # 15
+	icon = {	color_override = no 	name = "BC - Battlecruiser"	} # 16
+	icon = {	color_override = no 	name = "ACR - Armored Cruiser"	} # 17
+	icon = {	color_override = no 	name = "ACR - Armored Cruiser"	} # 18
+	icon = {	color_override = no 	name = "BM - Monitor"	} # 19
+	icon = {	color_override = no 	name = "BM - Monitor"	} # 20
+	icon = {	color_override = no 	name = "CB - Large Cruiser"	} # 21
+	icon = {	color_override = no 	name = "CB - Large Cruiser"	} # 22
+	icon = {	color_override = no 	name = "C - Cruiser"	} # 23
+	icon = {	color_override = no 	name = "C - Cruiser"	} # 24
 
-	icon = {	color_override = no 	name = "EC - 护航巡洋舰"	} # 25
-	icon = {	color_override = no 	name = "EC - 护航巡洋舰"	} # 26
-	icon = {	color_override = no 	name = "CA - 重型巡洋舰"	} # 27
-	icon = {	color_override = no 	name = "CA - 重型巡洋舰"	} # 28
-	icon = {	color_override = no 	name = "D - 鱼雷驱逐舰"	} # 29
-	icon = {	color_override = no 	name = "D - 鱼雷驱逐舰"	} # 30
-	icon = {	color_override = no 	name = "DD - 驱逐舰"	} # 31
-	icon = {	color_override = no 	name = "DD - 驱逐舰"	} # 32
-	icon = {	color_override = no 	name = "DL - 驱逐领舰"	} # 33
-	icon = {	color_override = no 	name = "DL - 驱逐领舰"	} # 34
-	icon = {	color_override = no 	name = "DE - 护航驱逐舰"	} # 35
-	icon = {	color_override = no 	name = "DE - 护航驱逐舰"	} # 36
+	icon = {	color_override = no 	name = "CL - Light Cruiser"	} # 25
+	icon = {	color_override = no 	name = "CL - Light Cruiser"	} # 26
+	icon = {	color_override = no 	name = "CA - Heavy Cruiser"	} # 27
+	icon = {	color_override = no 	name = "CA - Heavy Cruiser"	} # 28
+	icon = {	color_override = no 	name = "D - Torpedo Destroyer"	} # 29
+	icon = {	color_override = no 	name = "D - Torpedo Destroyer"	} # 30
+	icon = {	color_override = no 	name = "DD - Destroyer"	} # 31
+	icon = {	color_override = no 	name = "DD - Destroyer"	} # 32
+	icon = {	color_override = no 	name = "DL - Destroyer Leader"	} # 33
+	icon = {	color_override = no 	name = "DL - Destroyer Leader"	} # 34
+	icon = {	color_override = no 	name = "DE - Escort Destroyer"	} # 35
+	icon = {	color_override = no 	name = "DE - Escort Destroyer"	} # 36
 
-	icon = {	color_override = no 	name = "SS - 潜艇"	} # 37
-	icon = {	color_override = no 	name = "SS - 潜艇"	} # 38
-	icon = {	color_override = no 	name = "SC - 巡洋潜艇"	} # 39
-	icon = {	color_override = no 	name = "SC - 巡洋潜艇"	} # 40
-	icon = {	color_override = no 	name = "SM - 布雷潜艇"	} # 41
-	icon = {	color_override = no 	name = "SM - 布雷潜艇"	} # 42
-	icon = {	color_override = no 	name = "CLAA - 防空巡洋舰"	} # 43
-	icon = {	color_override = no 	name = "CLAA - 防空巡洋舰"	} # 44
-	icon = {	color_override = no 	name = "CS - 侦察巡洋舰"	} # 45
-	icon = {	color_override = no 	name = "CS - 侦察巡洋舰"	} # 46
-	icon = {	color_override = no 	name = "FF - 护卫舰"	} # 47
-	icon = {	color_override = no 	name = "FF - 护卫舰"	} # 48
+	icon = {	color_override = no 	name = "SS - Submarine"	} # 37
+	icon = {	color_override = no 	name = "SS - Submarine"	} # 38
+	icon = {	color_override = no 	name = "SC - Cruiser Submarine"	} # 39
+	icon = {	color_override = no 	name = "SC - Cruiser Submarine"	} # 40
+	icon = {	color_override = no 	name = "SM - Minelaying Submarine"	} # 41
+	icon = {	color_override = no 	name = "SM - Minelaying Submarine"	} # 42
+	icon = {	color_override = no 	name = "CLAA - Anti-aircraft Cruiser"	} # 43
+	icon = {	color_override = no 	name = "CLAA - Anti-aircraft Cruiser"	} # 44
+	icon = {	color_override = no 	name = "CS - Scout Cruiser"	} # 45
+	icon = {	color_override = no 	name = "CS - Scout Cruiser"	} # 46
+	icon = {	color_override = no 	name = "FF - Frigate"	} # 47
+	icon = {	color_override = no 	name = "FF - Frigate"	} # 48
 
 
 	# icon = {	color_override = no 	name = "E - Escort"	}
@@ -865,7 +943,7 @@ naval_equipment_role = {
 
 equipment_niche_insignias = {
 	gfx = GFX_niche_icon_strip
-
+	
 	icon = {
 	}
 	icon = {
@@ -969,5 +1047,5 @@ air_niche = {
 	icon = {
 	}
 	icon = {
-	}
+	}	
 }

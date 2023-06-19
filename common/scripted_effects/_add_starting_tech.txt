@@ -4,6 +4,7 @@ add_starting_techs = {
             interwar_ship_hull_light = 1
             interwar_ship_hull_cruiser = 1
             interwar_ship_hull_heavy = 1
+			early_ship_hull_carrier = 1
             large_destroyer_trend = 1
             searchlight = 1
             treaty_cruiser_trend = 1
@@ -11,12 +12,10 @@ add_starting_techs = {
             basic_cruiser_armor = 1
             incremental_armor_scheme = 1
             mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
             basic_torpedo_defense = 1
             improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
-            dry_dock_expansion = 1
             improved_conning_tower = 1
             prototype_airplane_launcher = 1
             landing_aid_system = 1
@@ -25,9 +24,6 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
             midget_submarines = 1
-
-            basic_super_heavy_battery = 1
-            experimental_super_heavy_battery = 1
         }
     }
     JAP = {
@@ -36,6 +32,7 @@ add_starting_techs = {
             interwar_ship_hull_light = 1
             interwar_ship_hull_cruiser = 1
             interwar_ship_hull_heavy = 1
+			ship_hull_super_heavy = 1
             searchlight = 1
 			large_destroyer_trend = 1
             treaty_cruiser_trend = 1
@@ -59,7 +56,6 @@ add_starting_techs = {
             cruiser_submarines = 1
 
             basic_super_heavy_battery = 1
-            experimental_super_heavy_battery = 1
         }
     }
     USA = {
@@ -155,8 +151,6 @@ add_starting_techs = {
             basic_periscope = 1
             basic_ballast_tank = 1
             cruiser_submarines = 1
-
-            basic_super_heavy_battery = 1
         }
     }
 	AST = {
@@ -184,8 +178,6 @@ add_starting_techs = {
             basic_periscope = 1
             basic_ballast_tank = 1
             cruiser_submarines = 1
-
-            basic_super_heavy_battery = 1
         }
     }
     FRA = {
@@ -199,7 +191,6 @@ add_starting_techs = {
             treaty_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            destroyer_cruiser_trend = 1
             incremental_armor_scheme = 1
             mixed_armor_scheme = 1
             all_or_nothing_armor_scheme = 1
@@ -364,4 +355,22 @@ makeup_starting_techs = {
 			diesel_electric_transmission = 1
         }
     }
+	every_country = {
+		limit = { has_tech = interwar_ship_hull_light }
+		set_technology = {
+			basic_ship_hull_light = 1
+		}
+	}
+	every_country = {
+		limit = { has_tech = interwar_ship_hull_cruiser }
+		set_technology = {
+			basic_ship_hull_cruiser = 1
+		}
+	}
+	every_country = {
+		limit = { has_tech = interwar_ship_hull_heavy }
+		set_technology = {
+			basic_ship_hull_heavy = 1
+		}
+	}
 }

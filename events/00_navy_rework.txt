@@ -4,10 +4,7 @@ country_event = {
     id = navy_rework.0
 
     hidden = yes
-    fire_only_once = yes
-    trigger = {
-        has_global_flag = add_startup_navy
-    }
+    is_triggered_only = yes
     immediate = {
         add_starting_techs = yes
         makeup_starting_techs = yes
@@ -44,6 +41,13 @@ country_event = {
         ENG = {
         	ENG_start_naval_variants = yes
         	load_oob = 00_ENG_vnr_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_ENG_vnr_air_bba
+			}
+			else = {
+				load_oob = 01_ENG_vnr_air
+			}
         }
         FIN = {
         	FIN_start_naval_variants = yes
@@ -52,6 +56,13 @@ country_event = {
         FRA = {
         	FRA_start_naval_variants = yes
         	load_oob = 00_FRA_vnr_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_FRA_vnr_air_bba
+			}
+			else = {
+				load_oob = 01_FRA_vnr_air
+			}
         }
         GER = {
         	GER_start_naval_variants = yes
@@ -72,6 +83,13 @@ country_event = {
         JAP = {
         	JAP_start_naval_variants = yes
         	load_oob = 00_JAP_vnr_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_JAP_vnr_air_bba
+			}
+			else = {
+				load_oob = 01_JAP_vnr_air
+			}
         }
         NOR = {
         	NOR_start_naval_variants = yes
@@ -104,6 +122,13 @@ country_event = {
         USA = {
         	USA_start_naval_variants = yes
         	load_oob = 00_USA_vnr_naval
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				load_oob = 01_USA_vnr_air_bba
+			}
+			else = {
+				load_oob = 01_USA_vnr_air
+			}
         }
 
         clr_global_flag = add_startup_navy

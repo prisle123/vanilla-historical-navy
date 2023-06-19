@@ -1,9 +1,9 @@
 ﻿GER_GENERAL_IMPERIAL = {
-	name = "Generals"
+	name = NAME_THEME_GENERALS
 	
 	for_countries = { GER }
 	
-	prefix = "SMS "
+	
 	type = ship
 	fallback_name = "Schlachtschiff %d"
 	
@@ -23,11 +23,11 @@
 }
 
 GER_CHANCELLOR_IMPERIAL = {
-	name = "Chancellors"
+	name = NAME_THEME_CHANCELLORS
 	
 	for_countries = { GER }
 	
-	prefix = "SMS "
+	
 	type = ship
 	fallback_name = "Schlachtschiff %d"
 	
@@ -38,11 +38,11 @@ GER_CHANCELLOR_IMPERIAL = {
 }
 
 GER_CITIES = {
-	name = "City"
+	name = NAME_THEME_CITIES
 
 	for_countries = { GER }
 
-	prefix = "SMS "
+	
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser }
 
@@ -172,7 +172,7 @@ GER_BB_HISTORICAL = {
 
 	for_countries = { GER }
 
-	prefix = "SMS "
+	
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 
@@ -235,7 +235,7 @@ GER_BC_HISTORICAL = {
 
 	for_countries = { GER }
 
-	prefix = "SMS "
+	
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 
@@ -303,7 +303,7 @@ GER_CA_HISTORICAL = {
 
 	for_countries = { GER }
 
-	prefix = "SMS "
+	
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 
@@ -347,7 +347,7 @@ GER_CL_HISTORICAL = {
 
 	for_countries = { GER }
 
-	prefix = "SMS "
+	
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 
@@ -477,114 +477,11 @@ GER_DD_HISTORICAL = {
 
 	for_countries = { GER }
 
-	prefix = "SMS "
+	
 	type = ship
 	ship_types = { ship_hull_light destroyer }
 
-	fallback_name = "T %d"
-
-	unique = {
-		"G 200"
-		"G 201"
-		"G 202"
-		"G 203"
-		"G 204"
-		"G 205"
-		"G 206"
-		"S 207"
-		"G 208"
-		"V 209"
-		"S 210"
-		"G 211"
-		"G 212"
-		"G 213"
-		"V 214"
-		"V 215"
-		"V 216"
-		"V 217"
-		"V 218"
-		"V 219"
-		"G 220"
-		"S 221"
-		"S 222"
-		"S 223"
-		"S 224"
-		"T 225"
-		"T 226"
-		"T 227"
-		"T 228"
-		"T 229"
-		"B 230"
-		"S 231"
-		"S 232"
-		"S 233"
-		"S 234"
-		"S 235"
-		"S 236"
-		"V 237"
-		"V 238"
-		"V 239"
-		"T 240"
-		"S 241"
-		"S 242"
-		"B 243"
-		"B 244"
-		"B 245"
-		"S 246"
-		"V 247"
-		"V 248"
-		"V 249"
-		"G 250"
-		"G 251"
-		"G 252"
-		"G 253"
-		"G 254"
-		"B 255"
-		"S 256"
-		"B 257"
-		"B 258"
-		"B 259"
-		"T 260"
-		"S 261"
-		"S 262"
-		"B 263"
-		"B 264"
-		"B 265"
-		"S 266"
-		"G 267"
-		"G 268"
-		"G 269"
-		"T 270"
-		"S 271"
-		"V 272"
-		"V 273"
-		"V 274"
-		"B 275"
-		"S 276"
-		"S 277"
-		"S 278"
-		"S 279"
-		"V 280"
-		"V 281"
-		"V 282"
-		"V 283"
-		"V 284"
-		"V 285"
-		"B 286"
-		"B 287"
-		"B 288"
-		"B 289"
-		"G 290"
-		"G 291"
-		"G 292"
-		"G 293"
-		"G 294"
-		"T 295"
-		"T 296"
-		"T 297"
-		"T 298"
-		"T 299"
-	}
+	fallback_name = "Z %d"
 }
 
 GER_CV_HISTORICAL = {
@@ -594,7 +491,7 @@ GER_CV_HISTORICAL = {
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
-	prefix = "SMS "
+	
 	fallback_name = "Träger %d"
 
 	ordered = {
@@ -615,7 +512,7 @@ GER_THEME_ANIMALS_IMPERIAL = {
 
 	for_countries = { GER }
 
-	prefix = "SMS "
+	
 	type = ship
 
 	fallback_name = "Schiff %d"
@@ -679,7 +576,7 @@ GER_THEME_GERMANIC_IMPERIAL = {
 	for_countries = { GER }
 
 	type = ship
-	prefix = "SMS "
+	
 	fallback_name = "Schiff %d"
 
 	ordered = {
@@ -720,7 +617,7 @@ GER_THEME_BATTLE_IMPERIAL = {
 	for_countries = { GER }
 
 	type = ship
-	prefix = "SMS "
+	
 	fallback_name = "Schiff %d"
 
 	ordered = {
@@ -754,7 +651,7 @@ GER_THEME_FISH_IMPERIAL = {
 	for_countries = { GER }
 
 	type = ship
-	prefix = "SMS "
+	
 	fallback_name = "Schiff %d"
 
 	ordered = {
@@ -791,7 +688,7 @@ GER_THEME_RIVERS_IMPERIAL = {
 	for_countries = { GER }
 
 	type = ship
-	prefix = "SMS "
+	
 
 	ordered = {
 		1 = { "Rhein" }
