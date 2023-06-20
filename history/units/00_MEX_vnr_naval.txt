@@ -10,9 +10,9 @@
 			ship = { name = "ARM Anáhuac" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = MEX version_name = "Anahuac Class"} } }
 			ship = { name = "ARM Nicolás Bravo" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Nicolás Bravo Class" } } }
 			ship = { name = "ARM Durango" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Durango Class" } } }
-			ship = { name = "ARM Guanajuato" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Durango Class" } } }
-			ship = { name = "ARM Querétaro" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Durango Class" } } } 
-			ship = { name = "ARM Potosí" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Durango Class" } } }		
+			ship = { name = "ARM Guanajuato" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Guanajuato Class" } } }
+			ship = { name = "ARM Querétaro" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Guanajuato Class" } } } 
+			ship = { name = "ARM Potosí" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = MEX version_name = "Guanajuato Class" } } }		
 		}
 	}
 }

@@ -270,22 +270,6 @@ FRA_COLONIES = {
 	}
 }
 
-## THEME: INSPIRATIONAL ###
-FRA_INSPIRATIONAL = {
-	name = NAME_THEME_INSPIRATIONAL
-
-	for_countries = { FRA }
-
-	type = ship
-
-	unique = {
-		"Fédération" "Liberté" "Egalité" "Solidarité" "Syndicat" "Commune"
-		"Libération" "Socialisme" "Révolution" "Lutte" "Salut Commun" "Prospérité"
-		"Unité" "Humanisme" "Emancipation" "Phalanstere"
-		"Vérité" "Démocratie" "République" "Patrie"
-	}
-}
-
 ## THEME: FRENCH MARSHALS ###
 FRA_MARSHALS = {
 	name = NAME_THEME_MARSHALS # 1180 - 1789

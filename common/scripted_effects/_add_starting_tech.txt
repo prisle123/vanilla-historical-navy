@@ -304,6 +304,18 @@ add_starting_techs = {
             basic_ship_hull_light = 1
         }
     }
+	ROM = {
+		set_technology = {
+			basic_ship_hull_light = 1
+			basic_ship_hull_submarine = 1
+		}
+	}
+	YUG = {
+		set_technology = {
+			basic_ship_hull_light = 1
+			basic_ship_hull_submarine = 1
+		}
+	}
 }
 
 makeup_starting_techs = {
