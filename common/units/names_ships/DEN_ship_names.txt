@@ -8,7 +8,7 @@ DEN_DD_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_light destroyer }
 
-	prefix = "HDMS "
+	prefix = "KDM "
 	fallback_name = "Destroyer %d"
 
 	unique = {
@@ -44,7 +44,7 @@ DEN_CL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 
-	prefix = "HDMS "
+	prefix = "KDM "
 	fallback_name = "Krysder %d"
 
 	unique = {
@@ -68,7 +68,7 @@ DEN_CA_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_cruiser_coastal_defense_ship ship_hull_cruiser_panzerschiff heavy_cruiser battle_cruiser }
 
-	prefix = "HDMS "
+	prefix = "KDM "
 	fallback_name = "Panserkrysder %d"
 
 	unique = {
@@ -88,7 +88,7 @@ DEN_BB_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 
-	prefix = "HDMS "
+	prefix = "KDM "
 	fallback_name = "Slagskib %d"
 
 	unique = {
@@ -110,7 +110,7 @@ DEN_CV_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 
-	prefix = "HDMS "
+	prefix = "KDM "
 	fallback_name = "Hangarskib %d"
 
 	unique = {
@@ -134,7 +134,7 @@ DEN_SS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 
-	prefix = "HDMS "
+	prefix = "KDM "
 	fallback_name = "Ubåd %d"
 
 	unique = {

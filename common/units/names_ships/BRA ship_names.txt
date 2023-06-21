@@ -9,7 +9,7 @@ BRA_DD_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_light destroyer }
 
-	prefix = "NRB "
+	prefix = "NMB "
 	fallback_name = "Contratorpedeiro %d"
 
 	unique = {
@@ -28,7 +28,7 @@ BRA_CL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 
-	prefix = "NRB "
+	prefix = "NMB "
 	fallback_name = "Cruzador Ligeiro %d"
 
 	unique = {
@@ -46,7 +46,7 @@ BRA_CA_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 
-	prefix = "NRB "
+	prefix = "NMB "
 	fallback_name = "Cruzador Pesado %d"
 
 	unique = {
@@ -65,7 +65,7 @@ BRA_BB_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 
-	prefix = "NRB "
+	prefix = "NMB "
 	fallback_name = "Couraçado %d"
 
 	unique = {
@@ -84,7 +84,7 @@ BRA_BC_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 
-	prefix = "NRB "
+	prefix = "NMB "
 	fallback_name = "Cuzador Couraçado %d"
 
 	unique = {
@@ -102,7 +102,7 @@ BRA_CV_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 
-	prefix = "NRB "
+	prefix = "NMB "
 	fallback_name = "Porta-Aviões %d"
 
 	unique = {
@@ -148,7 +148,7 @@ BRA_STATES_CITIES = {
 
 	type = ship
 
-	prefix = "NRB " #Navio da Marinha Brasileira
+	prefix = "NMB " #Navio da Marinha Brasileira
 	fallback_name = "Navio %d"
 
 	unique = {
@@ -172,7 +172,7 @@ BRA_RIVER = {
 
 	type = ship
 
-	prefix = "NRB " #Navio da Marinha Brasileira
+	prefix = "NMB " #Navio da Marinha Brasileira
 	fallback_name = "Navio %d"
 
 	unique = {
@@ -193,7 +193,7 @@ BRA_RIVER = {
 
 # 	type = ship
 
-# 	prefix = "NRB " #Navio da Marinha Brasileira
+# 	prefix = "NMB " #Navio da Marinha Brasileira
 # 	fallback_name = "Navio %d"
 
 # 	unique = {

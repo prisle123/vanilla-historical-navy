@@ -8,7 +8,7 @@ GRE_DD_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_light destroyer }
 
-	prefix = "RHS "
+	prefix = "EP "
 	fallback_name = "Metafero %s"
 
 	unique = {
@@ -28,7 +28,7 @@ GRE_CL_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 
-	prefix = "RHS "
+	prefix = "EP "
 	fallback_name = "Elafri Katadromiko %s"
 
 	unique = {
@@ -46,7 +46,7 @@ GRE_CA_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 
-	prefix = "RHS "
+	prefix = "EP "
 	fallback_name = "Vari Katadromiko %s"
 
 	unique = {
@@ -64,7 +64,7 @@ GRE_BB_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 
-	prefix = "RHS "
+	prefix = "EP "
 	fallback_name = "Thorikto %s"
 
 	unique = {
@@ -81,7 +81,7 @@ GRE_BC_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 
-	prefix = "RHS "
+	prefix = "EP "
 	fallback_name = "Thoriktou %s"
 
 	unique = {
@@ -98,7 +98,7 @@ GRE_CV_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 
-	prefix = "RHS "
+	prefix = "EP "
 	fallback_name = "Aeroplanoforo %s"
 
 	unique = {
@@ -115,7 +115,7 @@ GRE_SS_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 
-	prefix = "RHS "
+	prefix = "EP "
 	fallback_name = "Ypobrychio %s"
 
 	unique = {
