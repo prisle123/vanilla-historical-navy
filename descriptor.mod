@@ -8,7 +8,6 @@ tags={
 dependencies={
 	"The Road to 56"
 }
-replace_path="common/units/names_ships"
 name="Vanilla Navy Rework"
 picture="thumbnail.png"
 supported_version="1.12.14"

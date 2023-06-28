@@ -2119,7 +2119,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			lg_attack = 3
+			lg_attack = 2
 			build_cost_ic = 180
 		}
 		
@@ -2145,11 +2145,11 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			lg_attack = 4
+			lg_attack = 3
 			build_cost_ic = 240
 		}
 		multiply_stats = {
-			naval_speed = -0.01
+			naval_speed = -0.015
 		}
 		
 		add_average_stats = {
@@ -2159,6 +2159,55 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_secondaries
 			convert_cost_ic = 120
+		}
+		critical_parts = { damaged_secondaries }
+	}
+
+	ship_secondaries_3 = {
+		category = ship_secondaries
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			lg_attack = 4
+			build_cost_ic = 300
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 8
+		}
+		
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 140
+		}
+		critical_parts = { damaged_secondaries }
+	}
+
+	ship_secondaries_4 = {
+		category = ship_secondaries
+		parent = ship_secondaries_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 5
+			build_cost_ic = 350
+		}
+		multiply_stats = {
+			naval_speed = -0.025
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 10.5
+		}
+		
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 160
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -2265,7 +2314,7 @@ equipment_modules = {
 		parent = dp_ship_secondaries_3
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			lg_attack = 4.5
+			lg_attack = 5
 			anti_air_attack = 3.5
 			build_cost_ic = 290
 		}
@@ -4564,6 +4613,7 @@ equipment_modules = {
 	ship_armor_cruiser_heavy_1 = {
 		category = ship_cruiser_heavy_armor
 		gfx = ship_armor_1
+		add_equipment_type = capital_ship
 		
 		multiply_stats = {
 			build_cost_ic = 0.08
@@ -4583,6 +4633,7 @@ equipment_modules = {
 	ship_armor_cruiser_heavy_2 = {
 		category = ship_cruiser_heavy_armor
 		gfx = ship_armor_2
+		add_equipment_type = capital_ship
 		parent = ship_armor_cruiser_heavy_1
 		multiply_stats = {
 			build_cost_ic = 0.12
@@ -4603,6 +4654,7 @@ equipment_modules = {
 	ship_armor_cruiser_heavy_3 = {
 		category = ship_cruiser_heavy_armor
 		gfx = ship_armor_3
+		add_equipment_type = capital_ship
 		parent = ship_armor_cruiser_heavy_2
 		multiply_stats = {
 			build_cost_ic = 0.15
@@ -4625,6 +4677,7 @@ equipment_modules = {
 	ship_armor_cruiser_heavy_4 = {
 		category = ship_cruiser_heavy_armor
 		gfx = ship_armor_bc_4
+		add_equipment_type = capital_ship
 		parent = ship_armor_cruiser_heavy_3
 		multiply_stats = {
 			build_cost_ic = 0.18
@@ -4758,6 +4811,7 @@ equipment_modules = {
 
 	ship_deck_space_small = {
 		category = ship_deck_space_small
+		add_equipment_type = capital_ship
 		gui_category = ship_deck_space
 		gfx = ship_deck_space
 		add_stats = {
@@ -4782,6 +4836,7 @@ equipment_modules = {
 	}
 	ship_carrier_armor_heavy = {
 		category = ship_carrier_armor_heavy
+		add_equipment_type = capital_ship
 		gfx = ship_heavy_armor
 		
 		multiply_stats = {
