@@ -2166,7 +2166,7 @@ equipment_modules = {
 	ship_secondaries_3 = {
 		category = ship_secondaries
 		sfx = sfx_ui_sd_module_turret
-
+		gfx = ship_light_battery_3_double
 		
 		add_stats = {
 			lg_attack = 4
@@ -2192,6 +2192,7 @@ equipment_modules = {
 		category = ship_secondaries
 		parent = ship_secondaries_1
 		sfx = sfx_ui_sd_module_turret
+		gfx = ship_light_medium_battery_4_double
 
 		add_stats = {
 			lg_attack = 5
@@ -4152,6 +4153,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 2
 			build_cost_ic = 1750
+			anti_air_attack = 1
 		}
 		manpower = 500 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -4780,7 +4782,7 @@ equipment_modules = {
 		gfx = ship_side_lift
 
 		add_stats = {
-			build_cost_ic = 2000
+			build_cost_ic = 1500
 			carrier_size = 1
 		}
 
@@ -4817,6 +4819,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			build_cost_ic = 800
+			anti_air_attack = 0.5
 		}
 		dismantle_cost_ic = 400
 	}
@@ -4828,6 +4831,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 3
 			build_cost_ic = 2300
+			anti_air_attack = 1.5
 		}
 		multiply_stats = {
 			naval_speed = -0.1
@@ -4865,7 +4869,7 @@ equipment_modules = {
 			build_cost_ic = 4000
 			hg_attack = 20
 			naval_heavy_gun_hit_chance_factor = 0.15
-			reliability = -0.3
+			reliability = -0.25
 		}
 		add_average_stats = {
 			hg_armor_piercing = 40
@@ -4897,7 +4901,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			max_strength = 0.1
-			sub_visibility = -0.1
+			sub_visibility = -0.075
 		}
 
 		can_convert_from = {
@@ -4914,7 +4918,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			max_strength = 0.15
-			sub_visibility = -0.15
+			sub_visibility = -0.1
 		}
 		can_convert_from = {
 			module_category = pressure_hull
@@ -4930,7 +4934,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			max_strength = 0.2
-			sub_visibility = -0.2
+			sub_visibility = -0.125
 		}
 		can_convert_from = {
 			module_category = pressure_hull
@@ -5031,7 +5035,7 @@ equipment_modules = {
     	multiply_stats = {
 	        lg_attack = -0.1
     	    max_strength = -0.05
-        	sub_detection = 0.05
+        	sub_detection = 0.1
         	build_cost_ic = -0.2
     	}
 		forbid_module_categories = {
@@ -5085,6 +5089,7 @@ equipment_modules = {
 		multiply_stats = {
 			anti_air_attack = 0.1
 			build_cost_ic = 0.3
+			reliability = 0.1
 		}
 	}
 }
