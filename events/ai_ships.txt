@@ -1,0 +1,1523 @@
+add_namespace = ai_ships
+
+country_event = {
+	id = ai_ships.0
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		GER = {
+			is_ai = yes
+			NOT = { has_country_flag = GER_SHIPS_1940 }
+		}
+		date > 1940.6.1
+	}
+	immediate = {
+		GER = {
+			create_equipment_variant = {
+				name = "Hindenburg Class"
+				role_icon_index = 1
+				type = vnr_ship_hull_heavy_4
+				parent_version = 0
+				name_group = GER_BB_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_3_triple
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_bb_3
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt
+					front_1_custom_slot = ship_anti_air_3
+					front_2_custom_slot = ship_heavy_battery_3_triple
+					mid_1_custom_slot = dp_ship_secondaries_2
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_2
+					rear_1_custom_slot = ship_heavy_battery_3_triple
+				}
+			}
+			create_equipment_variant = {
+				name = "Dresden Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_4
+				parent_version = 0
+				name_group = GER_CL_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_3
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_3
+					mid_1_custom_slot = ship_torpedo_2
+					mid_2_custom_slot = ship_torpedo_2
+					mid_3_custom_slot = ship_anti_air_3
+					rear_1_custom_slot = ship_light_medium_battery_3
+				}
+			}
+			create_equipment_variant = {
+				name = "Type 1936B Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_4
+				parent_version = 0
+				name_group = GER_DD_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_3_double
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = light_ship_engine_3
+					front_1_custom_slot = ship_light_battery_3_double
+					front_2_custom_slot = ship_light_battery_3_double
+					mid_1_custom_slot = ship_torpedo_3
+					mid_2_custom_slot = ship_torpedo_3
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_3_double
+				}
+			}
+			set_country_flag = GER_SHIPS_1940
+		}
+	}
+	option = {
+	}
+}
+
+country_event = {
+	id = ai_ships.1
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		GER = {
+			is_ai = yes
+			NOT = { has_country_flag = GER_SHIPS_1943 }
+		}
+		date > 1943.3.1
+	}
+	immediate = {
+		GER = {
+			create_equipment_variant = {
+				name = "Nassau Class"
+				type = vnr_ship_hull_heavy_5
+				parent_version = 0
+				name_group = GER_BB_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_4_triple
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_bb_4
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
+					front_1_custom_slot = ship_anti_air_4
+					front_2_custom_slot = ship_heavy_battery_4_triple
+					mid_1_custom_slot = dp_ship_secondaries_4
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_4
+					rear_1_custom_slot = ship_heavy_battery_4_triple
+					rear_2_custom_slot = ship_heavy_battery_4_triple
+				}
+			}
+			create_equipment_variant = {
+				name = "Flandern Class"
+				type = vnr_ship_hull_carrier_3
+				parent_version = 0
+				name_group = GER_THEME_BATTLE_IMPERIAL
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_deck_space
+					mid_2_custom_slot = ship_armor_carrier_deck
+				}
+			}
+			create_equipment_variant = {
+				name = "Bremen Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_5
+				parent_version = 0
+				name_group = GER_CL_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = cruiser_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_4
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					mid_3_custom_slot = ship_anti_air_4
+					rear_1_custom_slot = ship_light_medium_battery_4
+					rear_2_custom_slot = ship_light_medium_battery_4
+				}
+			}
+			create_equipment_variant = {
+				name = "Type 1936C Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_5
+				parent_version = 0
+				name_group = GER_DD_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_4_double
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = light_ship_engine_4
+					front_1_custom_slot = ship_light_battery_4_double
+					front_2_custom_slot = ship_light_battery_4_double
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_4_double
+				}
+			}
+			set_country_flag = GER_SHIPS_1943
+		}
+	}
+	option = {
+	}
+}
+
+
+country_event = {
+	id = ai_ships.2
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		ENG = {
+			is_ai = yes
+			NOT = { has_country_flag = ENG_SHIPS_1940 }
+		}
+		date > 1940.6.1
+	}
+	immediate = {
+		ENG = {
+			create_equipment_variant = {
+				name = "Lion Class"
+				role_icon_index = 1
+				type = vnr_ship_hull_heavy_4
+				parent_version = 0
+				name_group = ENG_BB_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_3_triple
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_bb_3
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt
+					front_1_custom_slot = ship_anti_air_3
+					front_2_custom_slot = ship_heavy_battery_3_triple
+					mid_1_custom_slot = dp_ship_secondaries_2
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_2
+					rear_1_custom_slot = ship_heavy_battery_3_triple
+				}
+			}
+			create_equipment_variant = {
+				name = "Illustrious Class"
+				role_icon_index = 9
+				type = vnr_ship_hull_carrier_2
+				parent_version = 0
+				name_group = ENG_CV_QUALITIES
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_armor_carrier_deck
+				}
+			}
+			create_equipment_variant = {
+				name = "Dido Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_4
+				parent_version = 0
+				name_group = ENG_CL_MYTHOLOGY
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_3
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_3
+					mid_1_custom_slot = ship_torpedo_2
+					mid_2_custom_slot = ship_torpedo_2
+					mid_3_custom_slot = ship_anti_air_3
+					rear_1_custom_slot = ship_light_medium_battery_3
+				}
+			}
+			create_equipment_variant = {
+				name = "L/M Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_4
+				parent_version = 0
+				name_group = ENG_DD_ALPHABETICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_3_double
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = light_ship_engine_3
+					front_1_custom_slot = ship_light_battery_3_double
+					front_2_custom_slot = ship_light_battery_3_double
+					mid_1_custom_slot = ship_torpedo_3
+					mid_2_custom_slot = ship_torpedo_3
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_3_double
+				}
+			}
+			set_country_flag = ENG_SHIPS_1940
+		}
+	}
+	option = {
+	}
+}
+
+
+country_event = {
+	id = ai_ships.3
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 100 }
+	trigger = {
+		ENG = {
+			is_ai = yes
+			NOT = { has_country_flag = ENG_SHIPS_1943 }
+		}
+		date > 1943.3.1
+	}
+	immediate = {
+		ENG = {
+
+			create_equipment_variant = {
+				name = "Vanguard Class"
+				role_icon_index = 1
+				type = vnr_ship_hull_heavy_5
+				parent_version = 0
+				name_group = ENG_BB_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_bb_4
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
+					front_1_custom_slot = ship_anti_air_4
+					front_2_custom_slot = ship_heavy_battery_4
+					mid_1_custom_slot = dp_ship_secondaries_4
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_4
+					rear_1_custom_slot = ship_heavy_battery_4
+					rear_2_custom_slot = ship_heavy_battery_4
+				}
+			}
+			create_equipment_variant = {
+				name = "Implacable Class"
+				role_icon_index = 13
+				type = vnr_ship_hull_carrier_3
+				parent_version = 0
+				name_group = ENG_CV_QUALITIES
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_deck_space
+					mid_2_custom_slot = ship_armor_carrier_deck
+				}
+			}
+			create_equipment_variant = {
+				name = "Minotaur Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_5
+				parent_version = 0
+				name_group = ENG_CL_MYTHOLOGY 
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = cruiser_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_4
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					mid_3_custom_slot = ship_anti_air_4
+					rear_1_custom_slot = ship_light_medium_battery_4
+					rear_2_custom_slot = ship_light_medium_battery_4
+				}
+			}
+			create_equipment_variant = {
+				name = "U/V/W/Z Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_5
+				parent_version = 0
+				name_group = ENG_DD_ALPHABETICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_4_double
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = light_ship_engine_4
+					front_1_custom_slot = ship_light_battery_4_double
+					front_2_custom_slot = ship_light_battery_4_double
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_4_double
+				}
+			}
+			set_country_flag = ENG_SHIPS_1943
+		}
+	}
+	option = {
+	}
+}
+
+country_event = {
+	id = ai_ships.4
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		JAP = {
+			is_ai = yes
+			NOT = { has_country_flag = JAP_SHIPS_1940 }
+		}
+		date > 1940.2.1
+	}
+	immediate = {
+		JAP = {
+			create_equipment_variant = {
+				name = "Kii Class"
+				role_icon_index = 3
+				type = vnr_ship_hull_heavy_4
+				parent_version = 0
+				name_group = JAP_PREFECTURES
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_3_triple
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_bb_3
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt
+					front_1_custom_slot = ship_anti_air_3
+					front_2_custom_slot = ship_heavy_battery_3_triple
+					mid_1_custom_slot = dp_ship_secondaries_2
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = ship_anti_air_3
+					rear_1_custom_slot = ship_heavy_battery_3_triple
+				}
+			}
+			create_equipment_variant = {
+				name = "Shokaku Class"
+				role_icon_index = 13
+				type = vnr_ship_hull_carrier_2
+				parent_version = 0
+				name_group = JAP_CV_HISTORICAL
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_deck_space
+				}
+			}
+			create_equipment_variant = {
+				name = "Ibuki Class"
+				role_icon_index = 27
+				type = vnr_ship_hull_cruiser_4
+				parent_version = 0
+				name_group = JAP_MOUNTAIN 
+				modules = {
+					fixed_ship_battery_slot = ship_medium_battery_3_double
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = ship_medium_battery_3_double
+					front_2_custom_slot = ship_medium_battery_3_double
+					mid_1_custom_slot = ship_torpedo_2
+					mid_2_custom_slot = ship_torpedo_2
+					mid_3_custom_slot = ship_anti_air_3
+					rear_1_custom_slot = ship_medium_battery_3_double
+					rear_2_custom_slot = ship_medium_battery_3_double
+				}
+			}
+			create_equipment_variant = {
+				name = "Agano Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_4
+				parent_version = 0
+				name_group = JAP_RIVER
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_3_double
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_3_double
+					mid_1_custom_slot = ship_torpedo_2
+					mid_2_custom_slot = ship_torpedo_2
+					mid_3_custom_slot = ship_anti_air_3
+					rear_1_custom_slot = ship_light_medium_battery_3_double
+					rear_2_custom_slot = ship_depth_charge_1
+				}
+			}
+			create_equipment_variant = {
+				name = "Kagero Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_4
+				parent_version = 0
+				name_group = JAP_WEATHER 
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_3_double
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = light_ship_engine_3
+					front_1_custom_slot = ship_light_battery_3_double
+					front_2_custom_slot = ship_light_battery_3_double
+					mid_1_custom_slot = ship_torpedo_3
+					mid_2_custom_slot = ship_torpedo_3
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_3_double
+				}
+			}
+			
+			set_country_flag = JAP_SHIPS_1940
+		}
+	}
+}
+
+country_event = {
+	id = ai_ships.5
+	
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		JAP = {
+			is_ai = yes
+			NOT = { has_country_flag = JAP_SHIPS_1943 }
+		}
+		date > 1943.2.1
+	}
+	immediate = {
+		JAP = {
+			
+			create_equipment_variant = {
+				name = "Omi Class"
+				type = vnr_ship_hull_heavy_5
+				parent_version = 0
+				name_group = JAP_PREFECTURES
+				modules = {
+					fixed_ship_battery_slot = ship_super_heavy_battery_2
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_bb_4
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
+					front_1_custom_slot = ship_anti_air_4
+					front_2_custom_slot = ship_super_heavy_battery_2
+					mid_1_custom_slot = dp_ship_secondaries_4
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_4
+					rear_1_custom_slot = ship_super_heavy_battery_2
+					rear_2_custom_slot = ship_super_heavy_battery_2
+				}
+			}
+			create_equipment_variant = {
+				name = "Taiho Class"
+				type = vnr_ship_hull_carrier_3
+				parent_version = 0
+				name_group = JAP_CV_HISTORICAL
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					front_1_custom_slot = ship_armor_carrier_deck
+					mid_1_custom_slot = ship_deck_space
+					mid_2_custom_slot = ship_deck_space
+				}
+			}
+			create_equipment_variant = {
+				name = "Zao Class"
+				role_icon_index = 27
+				type = vnr_ship_hull_cruiser_5
+				parent_version = 0
+				name_group = JAP_MOUNTAIN 
+				modules = {
+					fixed_ship_battery_slot = ship_medium_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = cruiser_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_medium_battery_4
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = ship_anti_air_4
+					rear_1_custom_slot = ship_medium_battery_4
+					rear_2_custom_slot = ship_medium_battery_4
+				}
+			}
+			create_equipment_variant = {
+				name = "Oyodo Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_5
+				parent_version = 0
+				name_group = JAP_MOUNTAIN 
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = cruiser_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_4
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					mid_3_custom_slot = ship_anti_air_4
+					rear_1_custom_slot = ship_light_medium_battery_4
+					rear_2_custom_slot = ship_depth_charge_1
+				}
+			}
+			create_equipment_variant = {
+				name = "Shimakaze Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_5
+				parent_version = 0
+				name_group = JAP_WEATHER
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_4_double
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = light_ship_engine_5
+					front_1_custom_slot = ship_light_battery_4_double
+					front_2_custom_slot = ship_light_battery_4_double
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_4_double
+				}
+			}
+			set_country_flag = JAP_SHIPS_1943
+		}
+	}
+}
+
+country_event = {
+	id = ai_ships.6
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		tag = USA
+		is_ai = yes
+		date > 1941.1.1
+		NOT = { has_global_flag = USA_SHIPS_1941 }
+	}
+	immediate = {
+		ROOT = {
+			create_equipment_variant = {
+				name = "South Dakota Class"
+				role_icon_index = 1
+				type = vnr_ship_hull_heavy_4
+				parent_version = 0
+				name_group = USA_STATES
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_3_triple
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_bb_3
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt
+					front_1_custom_slot = ship_anti_air_3
+					front_2_custom_slot = ship_heavy_battery_3_triple
+					mid_1_custom_slot = dp_ship_secondaries_2
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_2
+					rear_1_custom_slot = ship_heavy_battery_3_triple
+				}
+			}
+			create_equipment_variant = {
+				name = "Essex Class"
+				role_icon_index = 9
+				type = vnr_ship_hull_carrier_2
+				parent_version = 0
+				name_group = USA_CV_HISTORICAL 
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_radar_slot = ship_radar_2
+					fixed_ship_engine_slot = carrier_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_3
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_deck_space
+				}
+			}
+			create_equipment_variant = {
+				name = "Baltimore Class"
+				role_icon_index = 27
+				type = vnr_ship_hull_cruiser_4
+				parent_version = 0
+				name_group = USA_CITIES 
+				modules = {
+					fixed_ship_battery_slot = ship_medium_battery_3
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_medium_battery_3
+					mid_1_custom_slot = dp_ship_secondaries_2
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = ship_anti_air_3
+					rear_1_custom_slot = ship_medium_battery_3
+				}
+			}
+			create_equipment_variant = {
+				name = "Cleveland Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_4
+				parent_version = 0
+				name_group = USA_CITIES 
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_3
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_3
+					mid_1_custom_slot = ship_anti_air_3
+					mid_2_custom_slot = dp_ship_secondaries_2
+					mid_3_custom_slot = ship_anti_air_3
+					rear_1_custom_slot = ship_light_medium_battery_3
+					rear_2_custom_slot = ship_airplane_launcher_1
+				}
+			}
+			create_equipment_variant = {
+				name = "Fletcher Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_4
+				parent_version = 0
+				name_group = USA_HEROES_NAVY 
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_3_double
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = light_ship_engine_3
+					front_1_custom_slot = ship_light_battery_3_double
+					front_2_custom_slot = ship_light_battery_3_double
+					mid_1_custom_slot = ship_torpedo_3
+					mid_2_custom_slot = ship_torpedo_3
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_3_double
+				}
+			}
+			set_global_flag = USA_SHIPS_1941
+		}
+	}
+}
+
+country_event = {
+	id = ai_ships.7
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		tag = USA
+		is_ai = yes
+		date > 1943.2.1
+		NOT = { has_global_flag = USA_SHIPS_1943 }
+	}
+	immediate = {
+		ROOT = {
+			create_equipment_variant = {
+				name = "Iowa Class"
+				role_icon_index = 1
+				type = vnr_ship_hull_heavy_5
+				parent_version = 0
+				name_group = USA_STATES
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_4_triple
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_bb_4
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
+					front_1_custom_slot = ship_anti_air_4
+					front_2_custom_slot = ship_heavy_battery_4_triple
+					mid_1_custom_slot = dp_ship_secondaries_4
+					mid_2_custom_slot = ship_anti_air_4
+					mid_3_custom_slot = dp_ship_secondaries_4
+					rear_1_custom_slot = ship_heavy_battery_4_triple
+					rear_2_custom_slot = ship_airplane_launcher_1
+				}
+			}
+			create_equipment_variant = {
+				name = "Midway Class"
+				role_icon_index = 9
+				type = vnr_ship_hull_carrier_3
+				parent_version = 0
+				name_group = USA_CV_HISTORICAL 
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					front_1_custom_slot = ship_deck_space
+					front_2_custom_slot = angled_deck
+					mid_1_custom_slot = ship_deck_space
+					mid_2_custom_slot = ship_deck_space
+				}
+			}
+			create_equipment_variant = {
+				name = "Alaska Class"
+				role_icon_index = 21
+				type = vnr_ship_hull_cruiser_4
+				parent_version = 0
+				name_group = USA_BATTLES  
+				modules = {
+					fixed_ship_battery_slot = ship_medium_heavy_battery_2
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = cruiser_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_cruiser_heavy_4
+					fixed_ship_role_slot = ship_hull_cruiser_role_cb
+					front_1_custom_slot = ship_anti_air_4
+					front_2_custom_slot = ship_medium_heavy_battery_2
+					mid_1_custom_slot = dp_ship_secondaries_4
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = ship_anti_air_4
+					rear_1_custom_slot = ship_medium_heavy_battery_2
+				}
+			}
+			create_equipment_variant = {
+				name = "Des Moines Class"
+				role_icon_index = 27
+				type = vnr_ship_hull_cruiser_5
+				parent_version = 0
+				name_group = USA_CITIES 
+				modules = {
+					fixed_ship_battery_slot = ship_medium_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = cruiser_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_medium_battery_4
+					mid_1_custom_slot = ship_anti_air_4
+					mid_2_custom_slot = dp_ship_secondaries_4
+					mid_3_custom_slot = ship_anti_air_4
+					rear_1_custom_slot = ship_medium_battery_4
+					rear_2_custom_slot = ship_airplane_launcher_1
+				}
+			}
+			create_equipment_variant = {
+				name = "Juneau Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_5
+				parent_version = 0
+				name_group = USA_CITIES 
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_4
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = cruiser_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_4
+					mid_1_custom_slot = ship_anti_air_4
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = ship_anti_air_4
+					rear_1_custom_slot = ship_light_medium_battery_4
+					rear_2_custom_slot = ship_light_medium_battery_4
+				}
+			}
+			create_equipment_variant = {
+				name = "Gearing Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_5
+				parent_version = 0
+				name_group = USA_HEROES_NAVY 
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_4_double
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = light_ship_engine_5
+					front_1_custom_slot = ship_light_battery_4_double
+					front_2_custom_slot = ship_light_battery_4_double
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_4_double
+				}
+			}
+			set_global_flag = USA_SHIPS_1943
+		}
+	}
+}
+
+country_event = {
+	id = ai_ships.8
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		FRA = {
+			is_ai = yes
+			NOT = { has_country_flag = FRA_SHIPS_1940 }
+		}
+
+		date > 1940.2.1
+	}
+	immediate = {
+		ROOT = {
+			create_equipment_variant = {
+				name = "Alsace Class"
+				role_icon_index = 1
+				type = vnr_ship_hull_heavy_4
+				parent_version = 0
+				name_group = FRA_BB_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_3_quad
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_bb_3
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt
+					front_1_custom_slot = ship_anti_air_3
+					front_2_custom_slot = ship_heavy_battery_3_quad
+					mid_1_custom_slot = dp_ship_secondaries_2
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_2
+					rear_1_custom_slot = ship_heavy_battery_3_quad
+				}
+			}
+			create_equipment_variant = {
+				name = "Saint-Louis Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_4
+				parent_version = 0
+				name_group = FRA_CITIES 
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_3
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_3
+					mid_1_custom_slot = ship_torpedo_2
+					mid_2_custom_slot = ship_torpedo_2
+					mid_3_custom_slot = ship_anti_air_3
+					rear_1_custom_slot = ship_light_medium_battery_3
+				}
+			}
+			create_equipment_variant = {
+				name = "La Fayette Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_4
+				parent_version = 0
+				name_group = FRA_DD_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_3_double
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = light_ship_engine_3
+					front_1_custom_slot = ship_light_battery_3_double
+					front_2_custom_slot = ship_light_battery_3_double
+					mid_1_custom_slot = ship_torpedo_3
+					mid_2_custom_slot = ship_torpedo_3
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_3_double
+				}
+			}
+			set_country_flag = FRA_SHIPS_1940
+		}
+	}
+}
+
+country_event = {
+	id = ai_ships.9
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		FRA = {
+			is_ai = yes
+			NOT = { has_country_flag = FRA_SHIPS_1943 }
+
+			date > 1943.2.1
+		}
+	}
+	immediate = {
+		ROOT = {
+			create_equipment_variant = {
+				name = "République Class"
+				role_icon_index = 1
+				type = vnr_ship_hull_heavy_5
+				parent_version = 0
+				name_group = FRA_BB_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_4_quad
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_bb_4
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt
+					front_1_custom_slot = ship_anti_air_4
+					front_2_custom_slot = ship_heavy_battery_4_quad
+					mid_1_custom_slot = dp_ship_secondaries_4
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_4
+					rear_1_custom_slot = ship_heavy_battery_4_quad
+				}
+			}
+			create_equipment_variant = {
+				name = "Clemenceau Class"
+				role_icon_index = 9
+				type = vnr_ship_hull_carrier_3
+				parent_version = 0
+				name_group = FRA_CV_HISTORICAL 
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_deck_space
+					mid_2_custom_slot = ship_deck_space
+				}
+			}
+			create_equipment_variant = {
+				name = "De Grasse Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_5
+				parent_version = 0
+				name_group = FRA_CL_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_4_double
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = cruiser_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_4_double
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					mid_3_custom_slot = ship_anti_air_4
+					rear_1_custom_slot = ship_light_medium_battery_4_double
+					rear_2_custom_slot = ship_light_medium_battery_4_double
+				}
+			}
+			create_equipment_variant = {
+				name = "Horizon Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_5
+				parent_version = 0
+				name_group = FRA_DE_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_4_double
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = light_ship_engine_5
+					front_1_custom_slot = ship_light_battery_4_double
+					front_2_custom_slot = ship_light_battery_4_double
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_4_double
+				}
+			}
+			set_country_flag = FRA_SHIPS_1943
+		}
+	}
+}
+
+country_event = {
+	id = ai_ships.10
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		ITA = {
+			is_ai = yes
+			NOT = { has_country_flag = ITA_SHIPS_1940 }
+		}
+
+		date > 1940.2.1
+	}
+	immediate = {
+		ROOT = {
+			create_equipment_variant = {
+				name = "Italia Class"
+				role_icon_index = 1
+				type = vnr_ship_hull_heavy_4
+				parent_version = 0
+				name_group = ITA_BB_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_3_triple
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = heavy_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_bb_3
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt
+					front_1_custom_slot = ship_anti_air_3
+					front_2_custom_slot = ship_heavy_battery_3_triple
+					mid_1_custom_slot = dp_ship_secondaries_2
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_2
+					rear_1_custom_slot = ship_heavy_battery_3_triple
+					rear_2_custom_slot = ship_airplane_launcher_1
+				}
+			}
+			create_equipment_variant = {
+				name = "Capitani Romani Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_4
+				parent_version = 0
+				name_group = ITA_CL_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_3
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = cruiser_ship_engine_3
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_cruiser_3
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_3
+					mid_1_custom_slot = ship_torpedo_2
+					mid_2_custom_slot = ship_torpedo_2
+					mid_3_custom_slot = ship_anti_air_3
+					rear_1_custom_slot = ship_light_medium_battery_3
+				}
+			}
+			create_equipment_variant = {
+				name = "Soldati Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_4
+				parent_version = 0
+				name_group = ITA_DD_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_3_double
+					fixed_ship_anti_air_slot = ship_anti_air_3
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+					fixed_ship_radar_slot = ship_radar_1
+					fixed_ship_engine_slot = light_ship_engine_3
+					front_1_custom_slot = ship_light_battery_3_double
+					front_2_custom_slot = ship_light_battery_3_double
+					mid_1_custom_slot = ship_torpedo_3
+					mid_2_custom_slot = ship_torpedo_3
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_3_double
+				}
+			}
+			set_country_flag = ITA_SHIPS_1940
+		}
+	}
+}
+
+country_event = {
+	id = ai_ships.11
+	hidden = yes
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	trigger = {
+		ITA = {
+			is_ai = yes
+			NOT = { has_country_flag = ITA_SHIPS_1943 }
+
+			date > 1943.2.1
+		}
+	}
+	immediate = {
+		ROOT = {
+			create_equipment_variant = {
+				name = "Augustus Class"
+				role_icon_index = 1
+				type = vnr_ship_hull_heavy_5
+				parent_version = 0
+				name_group = ITA_BB_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_heavy_battery_4_triple
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = heavy_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_bb_4
+					fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+					fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
+					front_1_custom_slot = ship_anti_air_4
+					front_2_custom_slot = ship_heavy_battery_4_triple
+					mid_1_custom_slot = dp_ship_secondaries_4
+					mid_2_custom_slot = ship_airplane_launcher_1
+					mid_3_custom_slot = dp_ship_secondaries_4
+					rear_1_custom_slot = ship_heavy_battery_4_triple
+					rear_2_custom_slot = ship_heavy_battery_4_triple
+				}
+			}
+			create_equipment_variant = {
+				name = "Aquila Class"
+				role_icon_index = 9
+				type = vnr_ship_hull_carrier_3
+				parent_version = 0
+				name_group = ITA_CV_HISTORICAL 
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = carrier_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_deck_space
+				}
+			}
+			create_equipment_variant = {
+				name = "Etna Class"
+				role_icon_index = 25
+				type = vnr_ship_hull_cruiser_5
+				parent_version = 0
+				name_group = ITA_CL_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_medium_battery_4_double
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = cruiser_ship_engine_4
+					fixed_ship_secondaries_slot = dp_ship_secondaries_4
+					fixed_ship_armor_slot = ship_armor_cruiser_4
+					front_1_custom_slot = empty
+					front_2_custom_slot = ship_light_medium_battery_4_double
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					mid_3_custom_slot = ship_anti_air_4
+					rear_1_custom_slot = ship_light_medium_battery_4_double
+					rear_2_custom_slot = ship_light_medium_battery_4_double
+				}
+			}
+			create_equipment_variant = {
+				name = "Comandanti Medaglie d'Oro Class"
+				role_icon_index = 31
+				type = vnr_ship_hull_light_5
+				parent_version = 0
+				name_group = ITA_DD_HISTORICAL
+				modules = {
+					fixed_ship_battery_slot = ship_light_battery_4_double
+					fixed_ship_anti_air_slot = ship_anti_air_4
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+					fixed_ship_radar_slot = ship_radar_3
+					fixed_ship_engine_slot = light_ship_engine_5
+					front_1_custom_slot = ship_light_battery_4_double
+					front_2_custom_slot = ship_light_battery_4_double
+					mid_1_custom_slot = ship_torpedo_4
+					mid_2_custom_slot = ship_torpedo_4
+					rear_1_custom_slot = ship_depth_charge_1
+					rear_2_custom_slot = ship_light_battery_4_double
+				}
+			}
+			set_country_flag = ITA_SHIPS_1943
+		}
+	}
+}
+
+# add some cv planes for AI countries with CVs per 100 days
+country_event = {
+	id = ai_ships.100
+	hidden = yes
+	fire_only_once = no
+	trigger = {
+		is_ai = yes
+		has_navy_size = { size > 0 unit = carrier }
+		NOT = { has_country_flag = Naval_Rework_carrier_plane_added }
+	}
+	immediate = {
+		set_country_flag = { flag = Naval_Rework_carrier_plane_added value = 1 days = 100}
+		if = {
+			limit = { has_dlc = "By Blood Alone" }
+			if = {
+				limit = { has_tech = advanced_small_airframe }
+				add_equipment_to_stockpile = { type = cv_small_plane_naval_bomber_airframe_3 amount = 50 producer = ROOT }
+				add_equipment_to_stockpile = { type = cv_small_plane_airframe_3 amount = 50 producer = ROOT }
+			}
+			else_if = {
+				limit = { has_tech = improved_small_airframe }
+				add_equipment_to_stockpile = { type = cv_small_plane_naval_bomber_airframe_2 amount = 50 producer = ROOT }
+				add_equipment_to_stockpile = { type = cv_small_plane_airframe_2 amount = 50 producer = ROOT }
+			}
+			else_if = {
+				limit = { has_tech = basic_small_airframe }
+				add_equipment_to_stockpile = { type = cv_small_plane_naval_bomber_airframe_1 amount = 50 producer = ROOT }
+				add_equipment_to_stockpile = { type = cv_small_plane_airframe_1 amount = 50 producer = ROOT }
+			}
+			else_if = {
+				limit = { has_tech = iw_small_airframe }
+				add_equipment_to_stockpile = { type = cv_small_plane_naval_bomber_airframe_0 amount = 50 producer = ROOT }
+				add_equipment_to_stockpile = { type = cv_small_plane_airframe_0 amount = 50 producer = ROOT }
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_tech = cv_fighter3
+					has_tech = cv_naval_bomber3
+				}
+				add_equipment_to_stockpile = { type = cv_fighter_equipment_3 amount = 50 producer = ROOT }
+				add_equipment_to_stockpile = { type = cv_nav_bomber_equipment_3 amount = 50 producer = ROOT }
+			}
+			else_if = {
+				limit = {
+					has_tech = cv_fighter2
+					has_tech = cv_naval_bomber2
+				}
+				add_equipment_to_stockpile = { type = cv_fighter_equipment_2 amount = 50 producer = ROOT }
+				add_equipment_to_stockpile = { type = cv_nav_bomber_equipment_2 amount = 50 producer = ROOT }
+			}
+			else_if = {
+				limit = {
+					has_tech = cv_fighter1
+					has_tech = cv_naval_bomber1
+				}
+				add_equipment_to_stockpile = { type = cv_fighter_equipment_1 amount = 50 producer = ROOT }
+				add_equipment_to_stockpile = { type = cv_nav_bomber_equipment_1 amount = 50 producer = ROOT }
+			}
+			else_if = {
+				limit = {
+					has_tech = cv_early_fighter
+					has_tech = cv_naval_bomber1
+				}
+				add_equipment_to_stockpile = { type = cv_fighter_equipment_0 amount = 50 producer = ROOT }
+				add_equipment_to_stockpile = { type = cv_nav_bomber_equipment_1 amount = 50 producer = ROOT }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ai_ships.101
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1940.1.1
+		NOT = { has_global_flag = naval_tech_1940 }
+	}
+	immediate = {
+		for_each_scope_loop = {
+			array = global.vnr_naval_powers
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				set_technology = {
+					improved_ship_hull_heavy = 1 
+					improved_ship_hull_light = 1 
+					improved_ship_hull_cruiser = 1 
+					antiair2 = 1 
+					antiair3 = 1 
+					improved_fire_control_system = 1 
+					decimetric_radar = 1 
+					improved_decimetric_radar = 1 
+					basic_dp_light_battery = 1 
+					improved_heavy_battery = 1
+					improved_super_heavy_battery = 1
+					improved_medium_battery = 1 
+					improved_medium_heavy_battery = 1 
+					improved_light_battery = 1 
+					advanced_ship_torpedo_launcher = 1 
+					improved_ship_hull_carrier = 1
+					improved_cruiser_armor = 1 
+					advanced_torpedo_defense = 1
+					improved_heavy_armor = 1
+					all_or_nothing_armor_scheme = 1
+					sonar = 1
+					improved_sonar = 1
+					improved_depth_charges = 1
+					escort_carriers_ship = 1
+					destroyer_cruiser_trend = 1
+					improved_periscope = 1
+
+					basic_light_shell = 1
+					basic_medium_shell = 1
+					basic_heavy_shell = 1
+				}
+			}
+		}
+		set_global_flag = naval_tech_1940
+	}
+}
+
+country_event = {
+	id = ai_ships.102
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1943.1.1
+		NOT = { has_global_flag = naval_tech_1943 }
+	}
+	immediate = {
+		for_each_scope_loop = {
+			array = global.vnr_naval_powers
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				set_technology = {
+					advanced_ship_hull_carrier = 1 
+					advanced_ship_hull_heavy = 1 
+					advanced_ship_hull_cruiser = 1 
+					advanced_ship_hull_light = 1 
+					antiair4 = 1 
+					antiair5 = 1 
+					advanced_fire_control_system = 1 
+					centimetric_radar = 1 
+					advanced_dp_light_battery = 1 
+					advanced_heavy_battery = 1 
+					advanced_medium_battery = 1 
+					advanced_light_battery = 1
+					advanced_heavy_armor = 1
+					advanced_cruiser_armor = 1
+					all_or_nothing_armor_box_armor_scheme = 1
+					advanced_sonar = 1
+					advanced_depth_charges = 1
+					modern_depth_charges = 1
+					advanced_periscope = 1
+
+					modern_ship_torpedo_launcher = 1
+					modern_carrier_equipments = 1
+				}
+			}
+		}
+		set_global_flag = naval_tech_1943
+	}
+}
+
+country_event = {
+	id = ai_ships.103
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1944.6.1
+		NOT = { has_global_flag = naval_tech_1944 }
+	}
+	immediate = {
+		for_each_scope_loop = {
+			array = global.vnr_naval_powers
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				set_technology = {
+					full_armored_carrier = 1
+					carrier_steam_catapult = 1
+					carrier_angled_deck = 1
+					super_carriers = 1
+					anechoic_tile = 1
+				}
+			}
+		}
+		set_global_flag = naval_tech_1944
+	}
+}

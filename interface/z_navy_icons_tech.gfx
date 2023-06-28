@@ -1616,4 +1616,30 @@ spriteTypes = {
         		name = "GFX_POL_basic_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/EE/POL_destroyer2.png"
         	}
+			
+### YUG ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_YUG_basic_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_YUG_interwar_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_YUG_improved_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_destroyer4.png"
+        	}
+	# cruiser
+
+        	spriteType = {
+        		name = "GFX_YUG_interwar_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_YUG_improved_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_light_cruiser4.png"
+        	}
 }

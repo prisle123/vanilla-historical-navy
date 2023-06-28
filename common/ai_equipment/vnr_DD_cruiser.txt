@@ -1,0 +1,97 @@
+naval_screen_cruiser = {
+	category = naval
+	#available_for = {}
+	#blocked_for = {}
+	roles = { vnr_naval_screen_cruiser }
+	priority = { base = 10 }
+
+	screen_1936 = {
+		role_icon_index = 31
+
+		priority = {
+			base = 50
+		}
+
+		enable = {
+			not = { has_tech = improved_ship_hull_light }		# 1936 DD should be stopped producing as soon as tag has 1940 DDs
+		}
+
+		target_variant = {
+			match_value = 2000.0
+
+			type = vnr_ship_hull_light_3
+			modules = {
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = empty
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_role_slot = ship_hull_light_role_cl
+				front_1_custom_slot = ship_light_medium_battery
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_anti_air
+				rear_1_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_light_medium_battery
+			}
+		}
+	}
+
+	screen_1940 = {
+		role_icon_index = 31
+
+		priority = {
+			base = 75
+			# modifier = { factor = 0 has_tech = advanced_ship_hull_light }
+		}
+
+		target_variant = {
+			match_value = 3500.0
+
+			type = vnr_ship_hull_light_4
+			modules = {
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = empty
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_role_slot = ship_hull_light_role_cl
+				front_1_custom_slot = ship_light_medium_battery
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_anti_air
+				rear_1_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_light_medium_battery
+			}
+		}
+	}
+
+	screen_1944 = {
+		role_icon_index = 31
+
+		priority = {
+			base = 0
+			modifier = { add = 100 has_tech = advanced_ship_hull_light }
+		}
+
+		target_variant = {
+			match_value = 5000.0
+
+			type = vnr_ship_hull_light_5
+			modules = {
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = empty
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_role_slot = ship_hull_light_role_cl
+				front_1_custom_slot = ship_light_medium_battery
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_anti_air
+				rear_1_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_light_medium_battery
+			}
+		}
+	}
+}

@@ -58,6 +58,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_medium_heavy_battery"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/medium_heavy_battery.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_cruiser_heavy_armor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_icn.dds"
+	}
 	
 	# topview images
 	spriteType = {

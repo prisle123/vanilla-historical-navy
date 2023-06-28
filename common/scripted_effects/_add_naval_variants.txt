@@ -19,15 +19,15 @@ ENG_start_naval_variants = {
         name = "Eagle Class"
 		role_icon_index = 9
 		icon = "gfx/interface/technologies/England/ENG_carrier1.png"
-        type = vnr_ship_hull_carrier_1
+        type = vnr_ship_hull_carrier_conversion_bb
         name_group = ENG_CV_QUALITIES
         modules = {
             fixed_ship_deck_slot_1 = ship_deck_space
-            fixed_ship_anti_air_slot = ship_anti_air_2
+            fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = carrier_ship_engine_1
-			fixed_ship_secondaries_slot = empty
-			front_1_custom_slot = ship_deck_space
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_deck_space
         }
     }
     create_equipment_variant = {
@@ -39,8 +39,8 @@ ENG_start_naval_variants = {
             fixed_ship_deck_slot_1 = ship_deck_space
             fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = ship_deck_space
         }
         obsolete = yes
@@ -230,7 +230,7 @@ ENG_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_2
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
             front_1_custom_slot = ship_medium_battery_2_double
 			mid_2_custom_slot = ship_anti_air_2
@@ -249,8 +249,8 @@ ENG_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
             front_1_custom_slot = ship_medium_battery_2_double
 			mid_2_custom_slot = ship_torpedo_2
@@ -268,7 +268,7 @@ ENG_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
             front_1_custom_slot = ship_medium_battery_2_double
@@ -428,6 +428,7 @@ ENG_start_naval_variants = {
     create_equipment_variant = {
         name = "Adventure Class"
 		role_icon_index = 23
+		icon = "gfx/interface/technologies/England/ENG_light_cruiser_Adventure.png"
         type = vnr_ship_hull_cruiser_2
         name_group = ENG_MINELAYERS_HISTORICAL
         modules = {
@@ -690,9 +691,7 @@ GER_start_naval_variants = {
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
-			fixed_ship_torpedo_defense_system_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
 			rear_1_custom_slot = ship_heavy_battery_small_1
         }
         obsolete = yes
@@ -805,7 +804,7 @@ GER_start_naval_variants = {
     create_equipment_variant = {
         name = "Emden Class"
 		role_icon_index = 25
-		icon = "gfx/interface/technologies/Germany/GER_light_cruiser_Emden.png"
+		icon = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
         type = vnr_ship_hull_cruiser_1
         name_group = GER_CL_HISTORICAL
         modules = {
@@ -1264,7 +1263,7 @@ FRA_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_5
+			fixed_ship_engine_slot = light_ship_engine_6
 			fixed_ship_torpedo_slot = ship_torpedo_2
 			fixed_ship_role_slot = ship_hull_light_role_dl
 			front_1_custom_slot = ship_light_battery_2_double
@@ -1284,7 +1283,7 @@ FRA_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_5
+			fixed_ship_engine_slot = light_ship_engine_6
 			fixed_ship_torpedo_slot = ship_torpedo_2
 			fixed_ship_role_slot = ship_hull_light_role_dl
 			front_1_custom_slot = ship_light_battery_2
@@ -1609,6 +1608,7 @@ JAP_start_naval_variants = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_scheme_slot = ship_scheme_mixed
 			fixed_ship_armor_slot = ship_armor_bb_2
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
             front_1_custom_slot = ship_anti_air_1
@@ -1683,8 +1683,9 @@ JAP_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
 			fixed_ship_armor_slot = ship_armor_bc_1
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
             front_1_custom_slot = empty
@@ -3027,7 +3028,7 @@ SOV_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_5
+			fixed_ship_engine_slot = light_ship_engine_6
 			fixed_ship_torpedo_slot = ship_torpedo_2
             front_1_custom_slot = ship_light_battery_2
             front_2_custom_slot = ship_light_battery_2
@@ -3240,7 +3241,7 @@ USA_start_naval_variants = {
 			fixed_ship_deck_slot_2 = ship_deck_space
 			mid_1_custom_slot = ship_deck_space
             mid_2_custom_slot = ship_deck_space
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_secondaries_slot = ship_secondaries_2
@@ -5730,6 +5731,198 @@ COL_start_naval_variants = {
 			mid_2_custom_slot = ship_light_battery_2
 			rear_1_custom_slot = ship_light_battery_2
 			rear_2_custom_slot = ship_depth_charge_1
+        }
+    }
+}
+
+MEX_start_naval_variants = {
+	create_equipment_variant = {
+        name = "Anahuac Class"
+		role_icon_index = 23
+        type = vnr_ship_hull_cruiser_coastal_defense_ship
+        name_group = MEX_CA_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_medium_battery_1_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+            fixed_ship_secondaries_slot = ship_secondaries_1
+            front_1_custom_slot = empty
+            mid_1_custom_slot = empty
+            mid_2_custom_slot = ship_torpedo_1
+        }
+    }
+	create_equipment_variant = {
+        name = "Durango Class"
+		role_icon_index = 47
+        type = vnr_ship_hull_light_1
+        name_group = MEX_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			front_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+        }
+    }
+	create_equipment_variant = {
+        name = "Guanajuato Class"
+		role_icon_index = 47
+        type = vnr_ship_hull_light_1
+        name_group = MEX_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			front_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
+        }
+    }
+	create_equipment_variant = {
+        name = "Nicolás Bravo Class"
+		role_icon_index = 47
+        type = vnr_ship_hull_light_1
+        name_group = MEX_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
+        }
+    }
+}
+
+ROM_start_naval_variants = {
+	create_equipment_variant = {
+        name = "Regele Ferdinand Class"
+		role_icon_index = 31
+        type = vnr_ship_hull_light_2
+        name_group = ROM_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_light_battery_2
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_light_battery_2
+			rear_2_custom_slot = ship_mine_layer_1
+        }
+    }
+	create_equipment_variant = {
+        name = "Marasti Class"
+		role_icon_index = 29
+        type = vnr_ship_hull_light_1
+        name_group = ROM_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1_double
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1_double
+        }
+		obsolete = yes
+    }
+	create_equipment_variant = {
+        name = "Delfinul Class"
+		role_icon_index = 37
+        type = vnr_ship_hull_submarine_2
+        name_group = ROM_SS_HISTORICAL
+        modules = {
+            fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+            fixed_ship_armor_slot = pressure_hull_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+        }
+    }
+}
+
+URG_start_naval_variants = {
+	create_equipment_variant = {
+        name = "Uruguay Class"
+		role_icon_index = 29
+        type = vnr_ship_hull_light_1
+        name_group = URG_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
+        }
+    }
+}
+
+YUG_start_naval_variants = {
+	create_equipment_variant = {
+        name = "Dalmacija Class"
+		role_icon_index = 23
+        type = vnr_ship_hull_cruiser_coastal_defense_ship
+        name_group = YUG_CL_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+            fixed_ship_secondaries_slot = empty
+            front_1_custom_slot = ship_light_battery_1
+            mid_1_custom_slot = ship_light_battery_1
+            mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+			rear_2_custom_slot = ship_light_battery_1
+        }
+    }
+	create_equipment_variant = {
+        name = "Dubrovnik Class"
+		role_icon_index = 31
+        type = vnr_ship_hull_light_2
+        name_group = YUG_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			front_1_custom_slot = ship_light_battery_2
+			mid_2_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_light_battery_2
+			rear_2_custom_slot = ship_light_battery_2
+        }
+    }
+	create_equipment_variant = {
+        name = "Hrabri/Smeli Class"
+		role_icon_index = 37
+        type = vnr_ship_hull_submarine_2
+        name_group = YUG_SS_HISTORICAL
+        modules = {
+            fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+            fixed_ship_armor_slot = pressure_hull_1
+			rear_1_custom_slot = ship_torpedo_sub_1
         }
     }
 }

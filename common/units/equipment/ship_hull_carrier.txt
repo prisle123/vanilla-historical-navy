@@ -762,7 +762,7 @@ equipments = {
 		max_strength = 125
 
 		reliability = 0.65
-		naval_speed = 22
+		naval_speed = 20
 		build_cost_ic = 2200
 		resources = {
 			steel = 2
@@ -776,6 +776,7 @@ equipments = {
 		archetype = ship_hull_carrier
 		priority = 1200
 		can_convert_from = { vnr_ship_hull_escort_carrier }
+		parent = vnr_ship_hull_carrier_3
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -799,7 +800,6 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
-			fixed_ship_secondaries_slot = empty
 		}
 		naval_range = 3000
 
@@ -821,6 +821,7 @@ equipments = {
 		archetype = ship_hull_carrier
 		priority = 1000
 		can_convert_from = { vnr_ship_hull_super_carrier }
+		parent = vnr_ship_hull_escort_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -833,7 +834,10 @@ equipments = {
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_secondaries_slot = inherit
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+			}
 			fixed_ship_armor_slot = {
 				required = yes
 				allowed_module_categories = { ship_carrier_armor_heavy }

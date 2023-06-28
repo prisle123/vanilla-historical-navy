@@ -1,11 +1,23 @@
 on_actions = {
     on_startup = {
         effect = {
+            # show welcome splash
 			set_global_flag = navy_rework_splash_show
 			
+            # show the first panel of intro splash
 			every_country = {
+                limit = { is_ai = no }
 				set_variable = { navy_rework_welcome_splash_variable = 1 }
 			}
+
+            # major naval powers array setup
+            add_to_array = { global.vnr_naval_powers = ENG }
+            add_to_array = { global.vnr_naval_powers = FRA }
+            add_to_array = { global.vnr_naval_powers = GER }
+            add_to_array = { global.vnr_naval_powers = ITA }
+            add_to_array = { global.vnr_naval_powers = JAP }
+            add_to_array = { global.vnr_naval_powers = SOV }
+            add_to_array = { global.vnr_naval_powers = USA }
         }
     }
 }

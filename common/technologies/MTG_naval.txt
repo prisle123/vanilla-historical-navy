@@ -742,6 +742,7 @@ technologies = {
 		enable_equipment_modules = {
 			cruiser_ship_engine_3
 			cruiser_ship_engine_2_diesel
+			ship_hull_cruiser_role_cb
 		}
 		sub_technologies = {
 			panzerschiffe
@@ -3393,9 +3394,6 @@ technologies = {
 
 		enable_equipments = {
 			vnr_ship_hull_cruiser_panzerschiff
-		}
-		enable_equipment_modules = {
-			ship_hull_cruiser_role_cb
 		}
 
 		research_cost = 1.5

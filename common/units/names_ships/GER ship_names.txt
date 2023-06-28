@@ -265,7 +265,6 @@ GER_SS_HISTORICAL = {
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
-	prefix = "SM "
 	fallback_name = "U-%d"
 
 	ordered = {
@@ -473,7 +472,7 @@ GER_CL_HISTORICAL = {
 }
 
 GER_DD_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_DD
+	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { GER }
 

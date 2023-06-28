@@ -130,6 +130,27 @@ country_event = {
 				load_oob = 01_USA_vnr_air
 			}
         }
+		
+		COL = {
+			COL_start_naval_variants = yes
+			load_oob = 00_COL_vnr_naval
+		}
+		MEX = {
+			MEX_start_naval_variants = yes
+			load_oob = 00_MEX_vnr_naval
+		}
+		ROM = {
+			ROM_start_naval_variants = yes
+			load_oob = 00_ROM_vnr_naval
+		}
+		URG = {
+			URG_start_naval_variants = yes
+			load_oob = 00_URG_vnr_naval
+		}
+		YUG = {
+			YUG_start_naval_variants = yes
+			load_oob = 00_YUG_vnr_naval
+		}
 
         clr_global_flag = add_startup_navy
     }

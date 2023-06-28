@@ -15,7 +15,7 @@
 			ship = { name = "HMS Royal Oak" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }
 			ship = { name = "HMS Royal Sovereign" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }
 			ship = { name = "HMS Ramillies" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }
-			ship = { name = "HMS Hood" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }
+			ship = { name = "HMS Hood" pride_of_the_fleet = yes definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }
 			ship = { name = "HMS Repulse" definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
 			ship = { name = "HMS Renown" definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
 			ship = { name = "HMS Norfolk" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Norfolk Class" } } }
@@ -374,7 +374,7 @@
 		task_force = {				
 			name = "China Fleet"
 			location = 10062 # 10062 # Hong Kong			
-			ship = { name = "HMS Eagle" definition = carrier start_experience_factor = 0.075 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Eagle Class" } } 
+			ship = { name = "HMS Eagle" definition = carrier start_experience_factor = 0.075 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Eagle Class" } } 
 			
 			}
 			ship = { name = "HMS Kent" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Kent Class" } } }	

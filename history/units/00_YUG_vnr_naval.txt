@@ -8,13 +8,13 @@ units= {
 		task_force = {				
 			name = "Kraljevska Mornarica"			
 			location = 3924 # Split
-			ship = { name = "KB Dalmacija" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = YUG version_name = "Dalmacija Class" } } }
+			ship = { name = "KB Dalmacija" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = YUG version_name = "Dalmacija Class" } } }
 			ship = { name = "KB Dubrovnik" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = YUG version_name = "Dubrovnik Class" } } }
 			# Podmornica Divizija
-			ship = { name = "KB Hrabri" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = YUG version_name = "Hrabri Class" } } }				
-			ship = { name = "KB Nebojsa" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = YUG version_name = "Hrabri Class" } } }				
-			ship = { name = "KB Smeli" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = YUG version_name = "Smeli Class" } } }				
-			ship = { name = "KB Osvetnik" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = YUG version_name = "Smeli Class" } } }				
+			ship = { name = "KB Hrabri" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = YUG version_name = "Hrabri/Smeli Class" } } }				
+			ship = { name = "KB Nebojsa" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = YUG version_name = "Hrabri/Smeli Class" } } }				
+			ship = { name = "KB Smeli" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = YUG version_name = "Hrabri/Smeli Class" } } }				
+			ship = { name = "KB Osvetnik" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = YUG version_name = "Hrabri/Smeli Class" } } }				
 		}				
 	}
 } 

@@ -1,0 +1,93 @@
+# By Pelmen, 1.10.7
+naval_cruiser_armor = {
+	category = naval
+	#available_for = {}
+	#blocked_for = {}
+	roles = { vnr_naval_cruiser_armor }
+	priority = { base = 10 }
+
+	capital_cruiser_armor_1936 = {
+		role_icon_index = 21
+
+		priority = {
+			base = 1
+		}
+
+		target_variant = {
+			match_value = 500.0
+			type = vnr_ship_hull_cruiser_panzerschiff
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar }
+					module = empty
+				}
+				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_secondaries_slot = ship_secondaries
+				front_1_custom_slot = ship_heavy_battery
+				mid_1_custom_slot = ship_secondaries
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_heavy_battery
+			}
+		}
+	}
+
+	capital_cruiser_armor_1940 = {
+		role_icon_index = 21
+
+		priority = {
+			base = 5
+		}
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = vnr_ship_hull_cruiser_panzerschiff
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_radar_slot = { any_of = { ship_radar } }
+				fixed_ship_armor_slot = { any_of = { ship_cruiser_heavy_armor ship_cruiser_armor } }
+				fixed_ship_secondaries_slot = ship_secondaries
+				front_1_custom_slot = ship_heavy_battery_triple
+				mid_1_custom_slot = ship_secondaries
+				mid_2_custom_slot = ship_torpedo
+				rear_2_custom_slot = ship_heavy_battery_triple
+			}
+		}
+	}
+
+	capital_cruiser_armor_1944 = {
+		role_icon_index = 21
+
+		priority = {
+			base = 5
+		}
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = vnr_ship_hull_cruiser_panzerschiff
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_radar_slot = { any_of = { ship_radar } }
+				fixed_ship_armor_slot = { any_of = { ship_cruiser_heavy_armor ship_cruiser_armor } }
+				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_secondaries
+				front_1_custom_slot = ship_heavy_battery_triple
+				mid_1_custom_slot = ship_secondaries
+				mid_2_custom_slot = ship_torpedo
+				rear_2_custom_slot = ship_heavy_battery_triple
+			}
+		}
+	}
+}
+
