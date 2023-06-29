@@ -1080,7 +1080,7 @@ technologies = {
 
 		heavy_cruiser = {
 			build_cost_ic = -0.05
-			armor_value = 0.05
+			armor_value = 0.1
 		}
 		light_cruiser = {
 			build_cost_ic = -0.05
@@ -1110,11 +1110,11 @@ technologies = {
 		research_cost = 0.75
 
 		heavy_cruiser = {
-			lg_attack = 0.05
+			lg_attack = 0.075
 			lg_armor_piercing = 0.05
 		}
 		light_cruiser = {
-			lg_attack = 0.025
+			lg_attack = 0.05
 		}
 
 		folder = {
@@ -1199,10 +1199,10 @@ technologies = {
 		start_year = 1944
 
 		heavy_cruiser = {
-			surface_detection = 0.05
+			surface_detection = 0.1
 		}
 		light_cruiser = {
-			surface_detection = 0.05
+			surface_detection = 0.1
 		}
 
 		folder = {
