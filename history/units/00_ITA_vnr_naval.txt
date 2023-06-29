@@ -12,9 +12,9 @@ units= {
 			ship = { name = "RN Conte Di Cavour" pride_of_the_fleet = yes definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Conte Di Cavour Class"  } } } 
 			ship = { name = "RN Giulio Cesare" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = ITA version_name = "Conte Di Cavour Class"  } } } 
 			# I Divisione Incrociatori
-			ship = { name = "RN Zara" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Zara Class" } } } 
-			ship = { name = "RN Gorizia" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Zara Class" } } } 
-			ship = { name = "RN Fiume" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Zara Class" } } } 
+			ship = { name = "RN Zara" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "Zara Class" } } } 
+			ship = { name = "RN Gorizia" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "Zara Class" } } } 
+			ship = { name = "RN Fiume" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "Zara Class" } } } 
 			# IV Divisione Incrociatori
 			ship = { name = "RN Luigi Cadorna" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Giussano/Cadorna Class" } } } 
 			ship = { name = "RN Armando Diaz" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Giussano/Cadorna Class" } } } 
@@ -80,12 +80,12 @@ units= {
 			name = "II Squadra Navale" # Dipartimento Militare Marittimo 'Alto Tirreno' / II Squadra
 			location = 6973 # 6973 # La Spezia, Italy
 			# Comando di Squadra
-			ship = { name = "RN Pola" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Zara Class" } } } 
+			ship = { name = "RN Pola" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "Zara Class" } } } 
 			# II Divisione Incrociatori
 			ship = { name = "RN Giovanni dalle Bande Nere" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Giussano/Cadorna Class" } } } 
 			ship = { name = "RN Bartolomeo Colleoni" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Giussano/Cadorna Class" } } } 
 			# III Divisione Incrociatori
-			ship = { name = "RN Bolzano" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "Bolzano Class" } } } 
+			ship = { name = "RN Bolzano" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Bolzano Class" } } } 
 			ship = { name = "RN Trento" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Trento Class" } } } 
 			ship = { name = "RN Trieste" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Trento Class" } } } 
 			# VI Divisione Incrociatori
