@@ -2166,7 +2166,6 @@ equipment_modules = {
 	ship_secondaries_3 = {
 		category = ship_secondaries
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_light_battery_3_double
 		
 		add_stats = {
 			lg_attack = 4
@@ -2192,7 +2191,6 @@ equipment_modules = {
 		category = ship_secondaries
 		parent = ship_secondaries_1
 		sfx = sfx_ui_sd_module_turret
-		gfx = ship_light_medium_battery_4_double
 
 		add_stats = {
 			lg_attack = 5
@@ -4323,7 +4321,7 @@ equipment_modules = {
 		parent = ship_armor_bb_2
 		multiply_stats = {
 			build_cost_ic = 0.17
-			naval_speed = -0.28
+			naval_speed = -0.3
 			max_strength = 0.15
 		}
 		build_cost_resources = {
@@ -4368,7 +4366,7 @@ equipment_modules = {
 		parent = ship_armor_bb_3
 		multiply_stats = {
 			build_cost_ic = 0.2
-			naval_speed = -0.3
+			naval_speed = -0.32
 			max_strength = 0.2
 		}
 		build_cost_resources = {
@@ -4873,6 +4871,9 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 40
+		}
+		multiply_stats = {
+			naval_speed = -0.1
 		}
 	}
 

@@ -882,9 +882,10 @@ equipments = {
 			fixed_ship_armor_slot = ship_carrier_armor_heavy
 		}
 
-		naval_range = 5000
+		naval_range = 6000
 		reliability = 0.8
 		max_strength = 350
+		naval_speed = 29
 
 		module_count_limit = {
 			category = carrier_angled_deck
