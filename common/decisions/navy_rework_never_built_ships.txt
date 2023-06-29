@@ -46,4 +46,19 @@ navy_rework_category = {
             }
         }
     }
+
+    add_wunderwaffe_ships = {
+        icon = generic_naval
+        visible = {
+            OR = {
+                NOT = { has_country_flag = spawn_alicorn }
+                NOT = { has_country_flag = spawn_consititution }
+                NOT = { has_country_flag = spawn_macross }
+                NOT = { has_country_flag = spawn_space_yamato }
+            }
+        }
+        complete_effect = {
+            hidden_effect = { country_event = navy_rework.1 }
+        }
+    }
 }

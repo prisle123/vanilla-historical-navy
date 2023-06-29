@@ -1,0 +1,225 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "Man the Guns" 
+	}
+
+    ship_em_battery_1 = {
+        category = ship_electric_magnetic_battery
+		sfx = sfx_ui_sd_module_turret
+        add_equipment_type = capital_ship
+
+        add_stats = {
+            hg_attack = 100
+            build_cost_ic = 2000
+            naval_heavy_gun_hit_chance_factor = 1
+            reliability = -0.2
+        }
+        add_average_stats = {
+            hg_armor_piercing = 80
+        }
+        multiply_stats = {
+            naval_speed = -0.1
+        }
+        critical_parts = { damaged_heavy_guns }
+    }
+    ship_space_battery_0 = {
+        category = ship_space_battery
+		sfx = sfx_ui_sd_module_turret
+        add_equipment_type = capital_ship
+
+        add_stats = {
+            hg_attack = 20
+            build_cost_ic = 400
+        }
+        add_average_stats = {
+            hg_armor_piercing = 5
+        }
+        multiply_stats = {
+            naval_speed = -0.05
+        }
+        critical_parts = { damaged_heavy_guns }
+    }
+    ship_space_battery_1 = {
+        category = ship_space_battery
+		sfx = sfx_ui_sd_module_turret
+        add_equipment_type = capital_ship
+
+        add_stats = {
+            hg_attack = 40
+            build_cost_ic = 1000
+        }
+        add_average_stats = {
+            hg_armor_piercing = 70
+        }
+        multiply_stats = {
+            naval_speed = -0.05
+        }
+        critical_parts = { damaged_heavy_guns }
+    }
+
+    ship_vls_1 = {
+        category = ship_vls
+		sfx = sfx_ui_sd_module_turret
+        add_equipment_type = capital_ship
+
+        add_stats = {
+            hg_attack = 20
+            lg_attack = 20
+            build_cost_ic = 500
+        }
+        multiply_stats = {
+            naval_speed = -0.05
+        }
+        critical_parts = { damaged_heavy_guns }
+    }
+
+    ship_sam_1 = {
+        category = ship_sam
+		sfx = sfx_ui_sd_module_turret
+
+        add_equipment_type = anti_air
+        add_stats = {
+			anti_air_attack = 30
+			build_cost_ic = 600
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.05
+		}
+    }
+
+    ship_ciw_1 = {
+        category = ship_ciw
+		sfx = sfx_ui_sd_module_turret
+
+        add_stats = {
+            lg_attack = 10
+			anti_air_attack = 10
+			build_cost_ic = 300
+		}
+        add_average_stats = {
+            lg_armor_piercing = 20
+        }
+		
+		multiply_stats = {
+			naval_speed = -0.05
+		}
+    }
+
+    ship_AI_fire_control_0 = {
+        category = ship_super_fire_control_system
+        sfx = sfx_ui_sd_module_sonar
+
+        add_stats = {
+			build_cost_ic = 1000
+			naval_light_gun_hit_chance_factor = 0.5
+			naval_heavy_gun_hit_chance_factor = 0.5
+		}
+    }
+    ship_AI_fire_control_1 = {
+        category = ship_super_fire_control_system
+        sfx = sfx_ui_sd_module_sonar
+
+        add_stats = {
+			build_cost_ic = 1500
+			naval_light_gun_hit_chance_factor = 0.5
+			naval_heavy_gun_hit_chance_factor = 0.5
+		}
+        multiply_stats = {
+            lg_attack = 0.1
+        }
+    }
+
+    ship_aegis_0 = {
+        category = ship_aegis
+        sfx = sfx_ui_sd_module_sonar
+
+        add_stats = {
+            build_cost_ic = 800
+            surface_detection = 50
+            sub_detection = 50
+        }
+    }
+
+    modern_ship_engine_1 = {
+        category = modern_ship_engine
+        sfx = sfx_ui_sd_module_engine
+
+        add_stats = {
+            build_cost_ic = 5000
+            reliability = -0.3
+        }
+        multiply_stats = {
+            naval_speed = 0.5
+        }
+    }
+    modern_ship_engine_2 = {
+        category = modern_ship_engine
+        sfx = sfx_ui_sd_module_engine
+
+        add_stats = {
+            build_cost_ic = 5000
+            reliability = -0.15
+        }
+        multiply_stats = {
+            naval_speed = 0.8
+        }
+    }
+    space_ship_engine_1 = {
+        category = space_ship_engine
+        sfx = sfx_ui_sd_module_engine
+
+        add_stats = {
+            build_cost_ic = 5000
+            reliability = -0.3
+        }
+        multiply_stats = {
+            naval_speed = 0.5
+        }
+    }
+
+    ship_modern_armor_1 = {
+        category = ship_modern_armor
+        gfx = ship_armor_thick_4
+
+        multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.3
+			max_strength = 0.2
+		}
+		build_cost_resources = {
+			steel = 2
+		}
+		add_stats = {
+			armor_value = 200
+		}
+    }
+    ship_space_armor_1 = {
+        category = ship_space_armor
+        gfx = ship_armor_thick_4
+
+        multiply_stats = {
+			build_cost_ic = 0.4
+			naval_speed = -0.5
+			max_strength = 0.4
+		}
+		build_cost_resources = {
+			steel = 3
+		}
+		add_stats = {
+			armor_value = 300
+		}
+    }
+
+    modern_deck_space_1 = {
+        category = modern_deck_space
+        gfx = ship_deck_space
+
+        add_stats = {
+            carrier_size = 4
+        }
+        multiply_stats = {
+            naval_speed = -0.1
+        }
+    }
+}

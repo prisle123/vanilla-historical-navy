@@ -155,3 +155,31 @@ country_event = {
         clr_global_flag = add_startup_navy
     }
 }
+
+country_event = {
+	id = navy_rework.1
+	title = navy_rework.1.t
+	desc = navy_rework.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = navy_rework.option.alicorn
+		FROM = { create_alicorn = yes }
+	}
+	option = {
+		name = navy_rework.option.consititution
+		FROM = { create_consititution = yes }
+	}
+	option = {
+		name = navy_rework.option.macross
+		FROM = { create_macross = yes }
+	}
+	option = {
+		name = navy_rework.option.space_yamato
+		FROM = { create_space_yamato = yes }
+	}
+	option = {
+		name = navy_rework.option.never_mind
+	}
+}

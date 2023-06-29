@@ -1,0 +1,295 @@
+equipments = {
+    vnr_ship_hull_alicorn = {
+        year = 1914
+		archetype = ship_hull_heavy
+        parent = vnr_ship_hull_heavy_5
+		priority = 1500
+		visual_level = 0
+		module_slots = {
+            fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_electric_magnetic_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_sam }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_super_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_aegis }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { modern_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_ciw }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_modern_armor }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					modern_deck_space
+				}
+			}
+			front_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					modern_deck_space
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_sam
+                    ship_ciw
+                    ship_vls
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_sam
+                    ship_ciw
+				}
+			}
+			rear_2_custom_slot = rear_1_custom_slot
+        }
+
+        naval_range = 10000
+		naval_speed = 50
+		max_strength = 1000
+		fuel_consumption = 150
+		reliability = 1.5
+		build_cost_ic = 10000
+		resources = {
+			steel = 6
+			chromium = 3
+		}
+		manpower = 20000
+    }
+
+    vnr_ship_hull_consititution = {
+        year = 1914
+		archetype = ship_hull_wunderwaffe
+        parent = vnr_ship_hull_alicorn
+		priority = 1500
+		visual_level = 0
+		module_slots = {
+            fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_space_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_sam }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_super_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_aegis }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { modern_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_ciw }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_modern_armor }
+			}
+        }
+
+        naval_range = 10000
+		naval_speed = 10
+		max_strength = 1000
+		fuel_consumption = 80
+		reliability = 1.5
+		build_cost_ic = 5000
+		resources = {
+			steel = 2
+			chromium = 1
+		}
+		manpower = 500
+    }
+
+    vnr_ship_hull_macross = {
+        year = 1914
+		archetype = ship_hull_heavy
+        parent = vnr_ship_hull_consititution
+		priority = 1500
+		visual_level = 0
+		module_slots = {
+            fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_space_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_sam }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_super_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_aegis }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { space_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_ciw }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_space_armor }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					modern_deck_space
+				}
+			}
+			front_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					modern_deck_space
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_sam
+                    ship_ciw
+                    ship_vls
+                    ship_space_battery
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_sam
+                    ship_ciw
+                    ship_space_battery
+				}
+			}
+			rear_2_custom_slot = rear_1_custom_slot
+        }
+
+        naval_range = 50000
+		naval_speed = 100
+		max_strength = 2000
+		fuel_consumption = 150
+		reliability = 2
+		build_cost_ic = 50000
+		resources = {
+			steel = 6
+			chromium = 3
+		}
+		manpower = 50000
+    }
+
+    vnr_ship_hull_space_yamato = {
+        year = 1914
+		archetype = ship_hull_heavy
+        parent = vnr_ship_hull_macross
+		priority = 1500
+		visual_level = 0
+		module_slots = {
+            fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_space_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_sam }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_super_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_aegis }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { space_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_ciw }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_space_armor }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_space_battery
+				}
+			}
+			front_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_space_battery
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_sam
+                    ship_ciw
+                    ship_vls
+                    ship_space_battery
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_sam
+                    ship_ciw
+                    ship_space_battery
+				}
+			}
+			rear_2_custom_slot = rear_1_custom_slot
+        }
+
+        naval_range = 50000
+		naval_speed = 100
+		max_strength = 2000
+		fuel_consumption = 150
+		reliability = 2
+		build_cost_ic = 20000
+		resources = {
+			steel = 6
+			chromium = 3
+		}
+		manpower = 10000
+    }
+}
