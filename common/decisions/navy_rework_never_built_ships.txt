@@ -47,18 +47,44 @@ navy_rework_category = {
         }
     }
 
-    add_wunderwaffe_ships = {
+    add_alicorn = {
         icon = generic_naval
-        visible = {
-            OR = {
-                NOT = { has_country_flag = spawn_alicorn }
-                NOT = { has_country_flag = spawn_constitution }
-                NOT = { has_country_flag = spawn_macross }
-                NOT = { has_country_flag = spawn_space_yamato }
-            }
+        available = {
+            num_of_naval_factories > 0
         }
+        fire_only_once = yes
         complete_effect = {
             hidden_effect = { country_event = navy_rework.1 }
+        }
+    }
+    add_constitution = {
+        icon = generic_naval
+        available = {
+            num_of_naval_factories > 0
+        }
+        fire_only_once = yes
+        complete_effect = {
+            hidden_effect = { country_event = navy_rework.2 }
+        }
+    }
+    add_macross = {
+        icon = generic_naval
+        available = {
+            num_of_naval_factories > 0
+        }
+        fire_only_once = yes
+        complete_effect = {
+            hidden_effect = { country_event = navy_rework.3 }
+        }
+    }
+    add_space_yamato = {
+        icon = generic_naval
+        available = {
+            num_of_naval_factories > 0
+        }
+        fire_only_once = yes
+        complete_effect = {
+            hidden_effect = { country_event = navy_rework.4 }
         }
     }
 }

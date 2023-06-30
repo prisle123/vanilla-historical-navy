@@ -278,7 +278,6 @@ create_alicorn = {
 	}
 
 	create_ship = { type = vnr_ship_hull_alicorn equipment_variant = "Alicorn Class" creator = ROOT name = "Alicorn" }
-	set_country_flag = spawn_alicorn
 }
 
 create_constitution = {
@@ -299,7 +298,6 @@ create_constitution = {
 	}
 
 	create_ship = { type = vnr_ship_hull_consititution equipment_variant = "Constitution Class" creator = ROOT name = "USS Constitution" }
-	set_country_flag = spawn_constitution
 }
 
 create_macross = {
@@ -327,7 +325,6 @@ create_macross = {
 	}
 
 	create_ship = { type = vnr_ship_hull_macross equipment_variant = "Macross Class" creator = ROOT name = "Macross" }
-	set_country_flag = spawn_macross
 }
 
 create_space_yamato = {
@@ -355,5 +352,4 @@ create_space_yamato = {
 	}
 
 	create_ship = { type = vnr_ship_hull_macross equipment_variant = "Yamato Class" creator = ROOT name = "Space Battleship Yamato" }
-	set_country_flag = spawn_space_yamato
 }
