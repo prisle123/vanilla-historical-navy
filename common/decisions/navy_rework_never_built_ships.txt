@@ -52,7 +52,7 @@ navy_rework_category = {
         visible = {
             OR = {
                 NOT = { has_country_flag = spawn_alicorn }
-                NOT = { has_country_flag = spawn_consititution }
+                NOT = { has_country_flag = spawn_constitution }
                 NOT = { has_country_flag = spawn_macross }
                 NOT = { has_country_flag = spawn_space_yamato }
             }

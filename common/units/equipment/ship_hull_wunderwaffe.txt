@@ -1,8 +1,8 @@
 equipments = {
     vnr_ship_hull_alicorn = {
         year = 1914
-		archetype = ship_hull_heavy
-        parent = vnr_ship_hull_heavy_5
+		archetype = ship_hull_carrier
+        parent = vnr_ship_hull_super_carrier
 		priority = 1500
 		visual_level = 0
 		module_slots = {
@@ -67,11 +67,11 @@ equipments = {
         }
 
         naval_range = 10000
-		naval_speed = 50
+		naval_speed = 150
 		max_strength = 1000
 		fuel_consumption = 150
 		reliability = 1.5
-		build_cost_ic = 10000
+		build_cost_ic = 30000
 		resources = {
 			steel = 6
 			chromium = 3
@@ -79,9 +79,9 @@ equipments = {
 		manpower = 20000
     }
 
-    vnr_ship_hull_consititution = {
+    vnr_ship_hull_constitution = {
         year = 1914
-		archetype = ship_hull_wunderwaffe
+		archetype = ship_hull_carrier
         parent = vnr_ship_hull_alicorn
 		priority = 1500
 		visual_level = 0
@@ -121,7 +121,7 @@ equipments = {
 		max_strength = 1000
 		fuel_consumption = 80
 		reliability = 1.5
-		build_cost_ic = 5000
+		build_cost_ic = 10000
 		resources = {
 			steel = 2
 			chromium = 1
@@ -131,8 +131,8 @@ equipments = {
 
     vnr_ship_hull_macross = {
         year = 1914
-		archetype = ship_hull_heavy
-        parent = vnr_ship_hull_consititution
+		archetype = ship_hull_carrier
+        parent = vnr_ship_hull_constitution
 		priority = 1500
 		visual_level = 0
 		module_slots = {
@@ -213,7 +213,7 @@ equipments = {
 
     vnr_ship_hull_space_yamato = {
         year = 1914
-		archetype = ship_hull_heavy
+		archetype = ship_hull_carrier
         parent = vnr_ship_hull_macross
 		priority = 1500
 		visual_level = 0

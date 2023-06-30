@@ -253,6 +253,8 @@ USA_never_built_blueprints = {
 }
 
 create_alicorn = {
+	set_technology = { ship_alicorn = 1 wunderwaffe_modules = 1 popup = no }
+	
 	create_equipment_variant = {
 		name = "Alicorn Class"
 		role_icon_index = 7
@@ -279,11 +281,12 @@ create_alicorn = {
 	set_country_flag = spawn_alicorn
 }
 
-create_consititution = {
+create_constitution = {
+	set_technology = { ship_constitution = 1 wunderwaffe_modules = 1 popup = no }
 	create_equipment_variant = {
-		name = "Consititution Class"
+		name = "Constitution Class"
 		role_icon_index = 5
-		type = vnr_ship_hull_consititution
+		type = vnr_ship_hull_constitution
 		modules = {
 			fixed_ship_battery_slot = ship_space_battery_0
 			fixed_ship_anti_air_slot = ship_sam_1
@@ -295,11 +298,12 @@ create_consititution = {
 		}
 	}
 
-	create_ship = { type = vnr_ship_hull_consititution equipment_variant = "Consititution Class" creator = ROOT name = "USS Consititution" }
-	set_country_flag = spawn_consititution
+	create_ship = { type = vnr_ship_hull_consititution equipment_variant = "Constitution Class" creator = ROOT name = "USS Constitution" }
+	set_country_flag = spawn_constitution
 }
 
 create_macross = {
+	set_technology = { ship_macross = 1 wunderwaffe_modules = 1 popup = no }
 	create_equipment_variant = {
 		name = "Macross Class"
 		role_icon_index = 7
@@ -327,6 +331,7 @@ create_macross = {
 }
 
 create_space_yamato = {
+	set_technology = { ship_space_yamato = 1 wunderwaffe_modules = 1 popup = no }
 	create_equipment_variant = {
 		name = "Yamato Class"
 		role_icon_index = 7

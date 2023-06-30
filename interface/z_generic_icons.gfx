@@ -265,4 +265,11 @@ spriteTypes = {
         		name = "GFX_advanced_ship_hull_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_submarine4.png"
         	}
+			
+	# wunderwaffe
+	
+			spriteType = {
+				name = "GFX_vnr_ship_hull_alicorn_medium"
+				texturefile = "gfx/interface/technologies/Generic/generic_alicorn.png"
+			}
 }

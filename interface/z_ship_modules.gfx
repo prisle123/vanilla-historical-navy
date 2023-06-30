@@ -104,6 +104,10 @@ spriteTypes = {
 		name = "GFX_SM_heavy_hull_rear_double_super_heavy_battery@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_double_super_heavy_battery@highlight.dds"
 	}
+	spriteType = {
+		name = "GFX_SD_tv_alicorn"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_alicorn.dds"
+	}
 
 
 	# double heavy battery
@@ -684,5 +688,35 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_sub_torpedo_computer"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_computer.png"
+	}
+	
+	### wunderwaffe modules
+	spriteType = {
+		name = "GFX_SMI_ship_em_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_em_battery_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_vls_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_vls_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sam_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sam_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_ciw_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_ciw_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_AI_fire_control_0"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_AI_fire_control_0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_aegis_0"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_aegis_0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_modern_ship_engine_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/modern_ship_engine_1.png"
 	}
 }
