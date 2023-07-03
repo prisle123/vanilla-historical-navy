@@ -406,4 +406,10 @@ makeup_starting_techs = {
 			popup = no
 		}
 	}
+    every_country = {
+        set_technology = {
+            vnr_less_fuel_consumption = 1
+            popup = no
+        }
+    }
 }

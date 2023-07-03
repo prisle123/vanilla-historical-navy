@@ -151,6 +151,10 @@ country_event = {
 			YUG_start_naval_variants = yes
 			load_oob = 00_YUG_vnr_naval
 		}
+		PRU = {
+			PRU_start_naval_variants = yes
+			load_oob = 00_PRU_vnr_naval
+		}
 
         clr_global_flag = add_startup_navy
     }
