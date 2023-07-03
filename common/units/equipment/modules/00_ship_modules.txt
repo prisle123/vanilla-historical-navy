@@ -5067,7 +5067,7 @@ equipment_modules = {
 		category = c_role
 		multiply_stats = {
 			max_strength = 0.1
-			build_cost_ic = 0.2
+			build_cost_ic = 0.15
 		}
 		forbid_module_categories = {
 			ship_missile

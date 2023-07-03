@@ -68,10 +68,11 @@ equipments = {
 
         naval_range = 10000
 		naval_speed = 150
-		max_strength = 1000
+		max_strength = 2000
 		fuel_consumption = 150
 		reliability = 1.5
 		build_cost_ic = 30000
+		surface_visibility = 5
 		resources = {
 			steel = 6
 			chromium = 3
@@ -122,6 +123,7 @@ equipments = {
 		fuel_consumption = 80
 		reliability = 1.5
 		build_cost_ic = 10000
+		surface_visibility = 30
 		resources = {
 			steel = 2
 			chromium = 1
@@ -199,7 +201,7 @@ equipments = {
         }
 
         naval_range = 50000
-		naval_speed = 100
+		naval_speed = 200
 		max_strength = 2000
 		fuel_consumption = 150
 		reliability = 2
@@ -281,7 +283,7 @@ equipments = {
         }
 
         naval_range = 50000
-		naval_speed = 100
+		naval_speed = 200
 		max_strength = 2000
 		fuel_consumption = 150
 		reliability = 2

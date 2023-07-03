@@ -9,13 +9,13 @@ equipment_modules = {
         add_equipment_type = capital_ship
 
         add_stats = {
-            hg_attack = 300
+            hg_attack = 500
             build_cost_ic = 2000
             naval_heavy_gun_hit_chance_factor = 1
             reliability = -0.2
         }
         add_average_stats = {
-            hg_armor_piercing = 100
+            hg_armor_piercing = 150
         }
         multiply_stats = {
             naval_speed = -0.1
@@ -45,11 +45,11 @@ equipment_modules = {
         add_equipment_type = capital_ship
 
         add_stats = {
-            hg_attack = 100
+            hg_attack = 300
             build_cost_ic = 1000
         }
         add_average_stats = {
-            hg_armor_piercing = 70
+            hg_armor_piercing = 100
         }
         multiply_stats = {
             naval_speed = -0.05
@@ -65,6 +65,7 @@ equipment_modules = {
         add_stats = {
             hg_attack = 50
             lg_attack = 50
+            sub_attack = 50
             build_cost_ic = 500
         }
         multiply_stats = {
@@ -112,8 +113,8 @@ equipment_modules = {
 
         add_stats = {
 			build_cost_ic = 1000
-			naval_light_gun_hit_chance_factor = 0.5
-			naval_heavy_gun_hit_chance_factor = 0.5
+			naval_light_gun_hit_chance_factor = 0.7
+			naval_heavy_gun_hit_chance_factor = 0.7
 		}
     }
     ship_AI_fire_control_1 = {
@@ -121,7 +122,7 @@ equipment_modules = {
         sfx = sfx_ui_sd_module_sonar
 
         add_stats = {
-			build_cost_ic = 1500
+			build_cost_ic = 1300
 			naval_light_gun_hit_chance_factor = 0.5
 			naval_heavy_gun_hit_chance_factor = 0.5
 		}
@@ -151,6 +152,7 @@ equipment_modules = {
         }
         multiply_stats = {
             naval_speed = 0.5
+            surface_visibility = -0.1
         }
     }
     modern_ship_engine_2 = {
@@ -174,7 +176,7 @@ equipment_modules = {
             reliability = -0.3
         }
         multiply_stats = {
-            naval_speed = 2
+            naval_speed = 10
         }
     }
 
