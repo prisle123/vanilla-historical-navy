@@ -272,4 +272,16 @@ spriteTypes = {
 				name = "GFX_vnr_ship_hull_alicorn_medium"
 				texturefile = "gfx/interface/technologies/Generic/generic_alicorn.png"
 			}
+			spriteType = {
+				name = "GFX_vnr_ship_hull_constitution_medium"
+				texturefile = "gfx/interface/technologies/Generic/generic_constitution.png"
+			}
+			spriteType = {
+				name = "GFX_vnr_ship_hull_macross_medium"
+				texturefile = "gfx/interface/technologies/Generic/generic_macross.png"
+			}
+			spriteType = {
+				name = "GFX_vnr_ship_hull_space_yamato_medium"
+				texturefile = "gfx/interface/technologies/Generic/generic_space_yamato.png"
+			}
 }

@@ -1166,13 +1166,6 @@ technologies = {
 		start_year = 1932
 		research_cost = 1.25
 		
-		allow = {
-			NOT = { has_idea = MTG_naval_treaty_adherent }
-			NOT = { has_idea = MTG_naval_treaty_adherent_reduced }
-			NOT = { has_idea = MTG_naval_treaty_cheating }
-			NOT = { has_idea = MTG_naval_treaty_cheating_reduced }
-		}
-
 		enable_equipment_modules = {
 			ship_hull_light_role_cl
 		}

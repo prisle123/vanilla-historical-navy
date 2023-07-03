@@ -297,7 +297,7 @@ create_constitution = {
 		}
 	}
 
-	create_ship = { type = vnr_ship_hull_consititution equipment_variant = "Constitution Class" creator = ROOT name = "USS Constitution" }
+	create_ship = { type = vnr_ship_hull_constitution equipment_variant = "Constitution Class" creator = ROOT name = "USS Constitution" }
 }
 
 create_macross = {
@@ -324,7 +324,7 @@ create_macross = {
 		}
 	}
 
-	create_ship = { type = vnr_ship_hull_macross equipment_variant = "Macross Class" creator = ROOT name = "Macross" }
+	create_ship = { type = vnr_ship_hull_macross equipment_variant = "Macross Class" creator = ROOT name = "SDF-1" }
 }
 
 create_space_yamato = {
@@ -351,5 +351,5 @@ create_space_yamato = {
 		}
 	}
 
-	create_ship = { type = vnr_ship_hull_macross equipment_variant = "Yamato Class" creator = ROOT name = "Space Battleship Yamato" }
+	create_ship = { type = vnr_ship_hull_space_yamato equipment_variant = "Yamato Class" creator = ROOT name = "Space Battleship Yamato" }
 }

@@ -108,6 +108,18 @@ spriteTypes = {
 		name = "GFX_SD_tv_alicorn"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_alicorn.dds"
 	}
+	spriteType = {
+		name = "GFX_SD_tv_constitution"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_constitution.dds"
+	}
+	spriteType = {
+		name = "GFX_SD_tv_macross"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_macross.dds"
+	}
+	spriteType = {
+		name = "GFX_SD_tv_space_yamato"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_space_yamato.dds"
+	}
 
 
 	# double heavy battery
@@ -696,6 +708,14 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_em_battery_1.png"
 	}
 	spriteType = {
+		name = "GFX_SMI_ship_space_battery_0"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_space_battery_0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_space_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_space_battery_1.png"
+	}
+	spriteType = {
 		name = "GFX_SMI_ship_vls_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_vls_1.png"
 	}
@@ -712,11 +732,27 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_AI_fire_control_0.png"
 	}
 	spriteType = {
+		name = "GFX_SMI_ship_AI_fire_control_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_AI_fire_control_1.png"
+	}
+	spriteType = {
 		name = "GFX_SMI_ship_aegis_0"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_aegis_0.png"
 	}
 	spriteType = {
 		name = "GFX_SMI_modern_ship_engine_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/modern_ship_engine_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_modern_ship_engine_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/modern_ship_engine_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_space_ship_engine_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/space_ship_engine_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_space_armor_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_space_armor_1.png"
 	}
 }
