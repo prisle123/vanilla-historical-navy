@@ -4720,43 +4720,43 @@ equipment_modules = {
 	
 	
 ### AP shell for balance
-	ship_ap_shell_1 = {
-		abbreviation = "sea"
-		category = ship_ap_shell
-		
-		add_stats = {
-			build_cost_ic = 300
-		}
-		multiply_stats = {
-			hg_attack = 0.1
-			lg_attack = 0.1
-		}
-		dismantle_cost_ic = 5
-	}
-	ship_ap_shell_2 = {
-		abbreviation = "seb"
-		category = ship_ap_shell
-		add_stats = {
-			build_cost_ic = 350
-		}
-		multiply_stats = {
-			hg_attack = 0.2
-			lg_attack = 0.2
-		}
-		dismantle_cost_ic = 5
-	}
-	ship_ap_shell_3 = {
-		abbreviation = "sec"
-		category = ship_ap_shell
-		add_stats = {
-			build_cost_ic = 400
-		}
-		multiply_stats = {
-			hg_attack = 0.3
-			lg_attack = 0.3
-		}
-		dismantle_cost_ic = 5
-	}
+	# ship_ap_shell_1 = {
+	# 	abbreviation = "sea"
+	# 	category = ship_ap_shell
+	# 	
+	# 	add_stats = {
+	# 		build_cost_ic = 300
+	# 	}
+	# 	multiply_stats = {
+	# 		hg_attack = 0.1
+	# 		lg_attack = 0.1
+	# 	}
+	# 	dismantle_cost_ic = 5
+	# }
+	# ship_ap_shell_2 = {
+	# 	abbreviation = "seb"
+	# 	category = ship_ap_shell
+	# 	add_stats = {
+	# 		build_cost_ic = 350
+	# 	}
+	# 	multiply_stats = {
+	# 		hg_attack = 0.2
+	# 		lg_attack = 0.2
+	# 	}
+	# 	dismantle_cost_ic = 5
+	# }
+	# ship_ap_shell_3 = {
+	# 	abbreviation = "sec"
+	# 	category = ship_ap_shell
+	# 	add_stats = {
+	# 		build_cost_ic = 400
+	# 	}
+	# 	multiply_stats = {
+	# 		hg_attack = 0.3
+	# 		lg_attack = 0.3
+	# 	}
+	# 	dismantle_cost_ic = 5
+	# }
 	
 ### modern carrier equipments
 	ship_airplane_launcher_3 = {
