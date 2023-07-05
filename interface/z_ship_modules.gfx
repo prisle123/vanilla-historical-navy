@@ -344,6 +344,22 @@ spriteTypes = {
 		name = "GFX_SMI_dp_light_battery_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_light_battery4.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_1_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_dp_light_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_2_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_dp_light_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_3_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_dp_light_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_4_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_dp_light_battery4.png"
+	}
 	
 	# triple light medium battery
 	spriteType = {
