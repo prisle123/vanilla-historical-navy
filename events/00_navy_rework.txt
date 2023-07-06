@@ -168,7 +168,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = navy_rework.option.alicorn
+		name = navy_rework.1.1
 		FROM = { create_alicorn = yes }
 	}
 }
@@ -179,8 +179,28 @@ country_event = {
 
 	is_triggered_only = yes
 
+	# USA
 	option = {
-		name = navy_rework.option.constitution
+		trigger = { original_tag = USA NOT = { has_government = communism } }
+		name = navy_rework.2.1
+		FROM = { country_event = {id = navy_rework.5 days = 2} }
+	}
+	# Commie fix
+	option = {
+		trigger = { has_government = communism }
+		name = navy_rework.2.2
+		FROM = { create_constitution = yes add_political_power = -50 }
+	}
+	# Commie abandon
+	option = {
+		trigger = { has_government = communism }
+		name = navy_rework.2.3
+		FROM = { navy_experience = 50 }
+	}
+	# Generic
+	option = {
+		trigger = { NOT = {has_government = communism original_tag = USA} }
+		name = navy_rework.2.4
 		FROM = { create_constitution = yes }
 	}
 }
@@ -192,7 +212,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = navy_rework.option.macross
+		name = navy_rework.3.1
 		FROM = { create_macross = yes }
 	}
 }
@@ -203,8 +223,36 @@ country_event = {
 
 	is_triggered_only = yes
 
+	# JAP
 	option = {
-		name = navy_rework.option.space_yamato
+		trigger = { original_tag = JAP }
+		name = navy_rework.4.1
 		FROM = { create_space_yamato = yes }
+	}
+	# Generic
+	option = {
+		trigger = { NOT = {original_tag = JAP} }
+		name = navy_rework.4.2
+		FROM = { create_space_yamato = yes }
+	}
+}
+country_event = {
+	id = navy_rework.5
+	title = navy_rework.5.t
+	desc = navy_rework.5.d
+
+	is_triggered_only = yes
+
+	# USA let stay
+	option = {
+		trigger = { original_tag = USA NOT = { has_government = communism } }
+		name = navy_rework.5.1
+		FROM = { create_constitution = yes navy_experience = 25 }
+	}
+	# USA let go
+	option = {
+		trigger = { original_tag = USA NOT = { has_government = communism } }
+		name = navy_rework.5.1
+		FROM = { add_tech_bonus = {bouns = 1 uses = 3 category = naval_equipment} }
 	}
 }
