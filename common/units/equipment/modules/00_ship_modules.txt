@@ -4817,10 +4817,11 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.05
+			anti_air_attack = 0.1
 		}
 		add_stats = {
-			armor_value = 5
-			max_strength = 25
+			armor_value = 10
+			max_strength = 50
 		}
 		dismantle_cost_ic = 2500
 	}
@@ -4956,10 +4957,11 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.1
+			anti_air_attack = 0.15
 		}
 		add_stats = {
-			armor_value = 10
-			max_strength = 50
+			armor_value = 20
+			max_strength = 75
 			naval_torpedo_damage_reduction_factor = 0.2
 			naval_torpedo_enemy_critical_chance_factor = -0.15
 		}
@@ -4971,7 +4973,7 @@ equipment_modules = {
 		category = ship_missile
 
 		add_stats = {
-			build_cost_ic = 4000
+			build_cost_ic = 3000
 			hg_attack = 20
 			naval_heavy_gun_hit_chance_factor = 0.15
 			reliability = -0.25
@@ -5174,7 +5176,7 @@ equipment_modules = {
 		category = c_role
 		multiply_stats = {
 			max_strength = 0.1
-			build_cost_ic = 0.15
+			build_cost_ic = 0.125
 		}
 		forbid_module_categories = {
 			ship_missile
