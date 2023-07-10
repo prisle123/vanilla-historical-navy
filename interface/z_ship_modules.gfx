@@ -62,6 +62,66 @@ spriteTypes = {
 		name = "GFX_SMI_ship_cruiser_heavy_armor"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_icn.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_medium_battery.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_medium_battery.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_battery_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_medium_battery.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_electric_magnetic_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_em_battery_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_space_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_space_battery_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_vls"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_vls_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sam"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sam_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_ciw"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_ciw_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_fire_control_system"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_AI_fire_control_0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_aegis"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_aegis_0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_modern_ship_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/modern_ship_engine_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_space_ship_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/space_ship_engine_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_modern_armor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_modern_armor_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_space_armor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_space_armor_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_modern_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/modern_deck_space_1.png"
+	}
 	
 	# topview images
 	spriteType = {

@@ -1,4 +1,4 @@
-version="v0.1"
+version="v0.2"
 tags={
 	"Military"
 	"Graphics"

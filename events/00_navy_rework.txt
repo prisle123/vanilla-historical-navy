@@ -164,6 +164,7 @@ country_event = {
 	id = navy_rework.1
 	title = navy_rework.1.t
 	desc = navy_rework.1.d
+	picture = GFX_report_event_alicorn
 
 	is_triggered_only = yes
 
@@ -176,14 +177,18 @@ country_event = {
 	id = navy_rework.2
 	title = navy_rework.2.t
 	desc = navy_rework.2.d
+	picture = GFX_report_event_constitution
 
 	is_triggered_only = yes
 
 	# USA
 	option = {
-		trigger = { original_tag = USA NOT = { has_government = communism } }
+		trigger = { 
+			original_tag = USA 
+			NOT = { has_government = communism } 
+		}
 		name = navy_rework.2.1
-		FROM = { country_event = {id = navy_rework.5 days = 2} }
+		FROM = { country_event = {id = navy_rework.5 days = 1} }
 	}
 	# Commie fix
 	option = {
@@ -199,7 +204,12 @@ country_event = {
 	}
 	# Generic
 	option = {
-		trigger = { NOT = {has_government = communism original_tag = USA} }
+		trigger = { 
+			NOT = {
+				has_government = communism 
+				original_tag = USA
+			} 
+		}
 		name = navy_rework.2.4
 		FROM = { create_constitution = yes }
 	}
@@ -208,6 +218,7 @@ country_event = {
 	id = navy_rework.3
 	title = navy_rework.3.t
 	desc = navy_rework.3.d
+	picture = GFX_report_event_macross
 
 	is_triggered_only = yes
 
@@ -220,6 +231,7 @@ country_event = {
 	id = navy_rework.4
 	title = navy_rework.4.t
 	desc = navy_rework.4.d
+	picture = GFX_report_event_yamato
 
 	is_triggered_only = yes
 
@@ -240,19 +252,39 @@ country_event = {
 	id = navy_rework.5
 	title = navy_rework.5.t
 	desc = navy_rework.5.d
+	picture = GFX_report_event_omaha
+
+	is_triggered_only = yes
+
+	option = {
+		name = navy_rework.5.1
+		FROM = { country_event = {id = navy_rework.6 days = 1} }
+	}
+}
+country_event = {
+	id = navy_rework.6
+	title = navy_rework.6.t
+	desc = navy_rework.6.d
+	picture = GFX_report_event_ironsides
 
 	is_triggered_only = yes
 
 	# USA let stay
 	option = {
 		trigger = { original_tag = USA NOT = { has_government = communism } }
-		name = navy_rework.5.1
+		name = navy_rework.6.1
 		FROM = { create_constitution = yes navy_experience = 25 }
 	}
 	# USA let go
 	option = {
 		trigger = { original_tag = USA NOT = { has_government = communism } }
-		name = navy_rework.5.1
-		FROM = { add_tech_bonus = {bouns = 1 uses = 3 category = naval_equipment} }
+		name = navy_rework.6.2
+		FROM = { 
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = naval_equipment
+			}
+		}
 	}
 }

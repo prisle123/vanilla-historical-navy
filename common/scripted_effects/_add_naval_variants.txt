@@ -234,6 +234,7 @@ ENG_start_naval_variants = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
             front_1_custom_slot = ship_medium_battery_2_double
 			mid_2_custom_slot = ship_anti_air_2
+			mid_3_custom_slot = ship_torpedo_2
 			rear_1_custom_slot = ship_medium_battery_2_double
             rear_2_custom_slot = ship_medium_battery_2_double
         }
@@ -273,6 +274,7 @@ ENG_start_naval_variants = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
             front_1_custom_slot = ship_medium_battery_2_double
 			mid_2_custom_slot = ship_anti_air_1
+			mid_3_custom_slot = ship_torpedo_2
 			rear_1_custom_slot = ship_medium_battery_2_double
             rear_2_custom_slot = ship_medium_battery_2_double
         }
@@ -3255,7 +3257,7 @@ USA_start_naval_variants = {
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
-			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_secondaries_slot = ship_secondaries_1
@@ -3900,6 +3902,7 @@ AST_start_naval_variants = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
             front_1_custom_slot = ship_medium_battery_2_double
 			mid_2_custom_slot = ship_anti_air_1
+			mid_3_custom_slot = ship_torpedo_2
 			rear_1_custom_slot = ship_medium_battery_2_double
             rear_2_custom_slot = ship_medium_battery_2_double
         }

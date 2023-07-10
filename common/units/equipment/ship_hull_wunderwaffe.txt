@@ -68,7 +68,7 @@ equipments = {
 
         naval_range = 10000
 		naval_speed = 150
-		max_strength = 2000
+		max_strength = 6000
 		fuel_consumption = 150
 		reliability = 1.5
 		build_cost_ic = 30000
@@ -202,7 +202,7 @@ equipments = {
 
         naval_range = 50000
 		naval_speed = 200
-		max_strength = 2000
+		max_strength = 10000
 		fuel_consumption = 150
 		reliability = 2
 		build_cost_ic = 50000
@@ -252,12 +252,14 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_space_battery
+					modern_deck_space
 				}
 			}
 			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_space_battery
+					modern_deck_space
 				}
 			}
 			mid_1_custom_slot = {
@@ -284,7 +286,7 @@ equipments = {
 
         naval_range = 50000
 		naval_speed = 200
-		max_strength = 2000
+		max_strength = 8000
 		fuel_consumption = 150
 		reliability = 2
 		build_cost_ic = 20000
