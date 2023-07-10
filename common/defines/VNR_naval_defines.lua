@@ -1,5 +1,7 @@
 NDefines.NAI.SHIPS_PRODUCTION_BASE_COST = 25000;					-- Used by the AI to normalize IC values when picking what ship to build.
 NDefines.NAI.NAVY_PREFERED_MAX_SIZE = 50;
+NDefines.NAI.PRODUCTION_MAX_PROGRESS_TO_SWITCH_NAVAL = 0;
+NDefines.NAI.SCREENS_TO_CAPITAL_RATIO = 4.5;
 
 NDefines.NNavy.COMBAT_MIN_DURATION = 20;
 NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 24;
