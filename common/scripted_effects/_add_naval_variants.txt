@@ -3551,7 +3551,7 @@ USA_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			front_1_custom_slot = ship_light_medium_battery_1_single
 			front_2_custom_slot = ship_light_medium_battery_1_single
@@ -3895,7 +3895,7 @@ AST_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
             front_1_custom_slot = ship_medium_battery_2_double
@@ -5922,6 +5922,58 @@ YUG_start_naval_variants = {
 			fixed_ship_engine_slot = sub_ship_engine_2
             fixed_ship_armor_slot = pressure_hull_1
 			rear_1_custom_slot = ship_torpedo_sub_1
+        }
+    }
+}
+
+PRU_start_naval_variants = {
+    create_equipment_variant = {
+        name = "Almirante Grau Class"
+		role_icon_index = 23
+        type = vnr_ship_hull_cruiser_coastal_defense_ship
+        name_group = PRU_CL_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+            fixed_ship_secondaries_slot = ship_secondaries_1
+            front_1_custom_slot = ship_light_battery_1
+            mid_1_custom_slot = ship_torpedo_1
+        }
+    }
+	create_equipment_variant = {
+        name = "Almirante Villar Class"
+		role_icon_index = 31
+        icon = "gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
+        type = vnr_ship_hull_light_1
+        name_group = PRU_DD_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+            front_1_custom_slot = ship_light_battery_1
+            mid_1_custom_slot = ship_light_battery_1
+            mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+			rear_2_custom_slot = ship_light_battery_1
+        }
+    }
+	create_equipment_variant = {
+        name = "R1 Class"
+		role_icon_index = 37
+        type = vnr_ship_hull_submarine_1
+        name_group = PRU_SS_HISTORICAL
+        modules = {
+            fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+            fixed_ship_armor_slot = empty
+			rear_1_custom_slot = empty
         }
     }
 }

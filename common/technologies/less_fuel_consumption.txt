@@ -1,0 +1,11 @@
+technologies = {
+    vnr_less_fuel_consumption = {
+        research_cost = 1
+		start_year = 1900
+
+		allow = {
+			always = no
+		}
+        navy_fuel_consumption_factor = -0.15
+    }
+}

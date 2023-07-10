@@ -1,0 +1,54 @@
+technologies = {
+	ship_alicorn = {
+		enable_equipments = { vnr_ship_hull_alicorn }
+		start_year = 1900
+		research_cost = 1
+		allow = {
+			always = no
+		}
+	}
+	ship_constitution = {
+		enable_equipments = { vnr_ship_hull_constitution }
+		start_year = 1900
+		research_cost = 1
+		allow = {
+			always = no
+		}
+	}
+	ship_macross = {
+		enable_equipments = { vnr_ship_hull_macross }
+		start_year = 1900
+		research_cost = 1
+		allow = {
+			always = no
+		}
+	}
+	ship_space_yamato = {
+		enable_equipments = { vnr_ship_hull_space_yamato }
+		start_year = 1900
+		research_cost = 1
+		allow = {
+			always = no
+		}
+	}
+	
+	wunderwaffe_modules = {
+		enable_equipment_modules = {
+			ship_em_battery_1
+			ship_space_battery_0
+			ship_space_battery_1
+			ship_vls_1
+			ship_sam_1
+			ship_ciw_1
+			ship_AI_fire_control_0
+			ship_AI_fire_control_1
+			ship_aegis_0
+			modern_ship_engine_1
+			modern_ship_engine_2
+			space_ship_engine_1
+			ship_modern_armor_1
+			ship_space_armor_1
+			modern_deck_space_1
+		}
+	}
+}

@@ -46,4 +46,45 @@ navy_rework_category = {
             }
         }
     }
+
+    add_alicorn = {
+        icon = generic_naval
+        available = {
+            num_of_naval_factories > 0
+        }
+        fire_only_once = yes
+        complete_effect = {
+            country_event = navy_rework.1 
+        }
+    }
+    add_constitution = {
+        icon = generic_naval
+        available = {
+            num_of_naval_factories > 0
+        }
+        fire_only_once = yes
+        complete_effect = {
+            country_event = navy_rework.2
+        }
+    }
+    add_macross = {
+        icon = generic_naval
+        available = {
+            num_of_naval_factories > 0
+        }
+        fire_only_once = yes
+        complete_effect = {
+            country_event = navy_rework.3
+        }
+    }
+    add_space_yamato = {
+        icon = generic_naval
+        available = {
+            num_of_naval_factories > 0
+        }
+        fire_only_once = yes
+        complete_effect = {
+            country_event = navy_rework.4
+        }
+    }
 }

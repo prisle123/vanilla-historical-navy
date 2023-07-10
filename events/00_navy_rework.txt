@@ -151,7 +151,108 @@ country_event = {
 			YUG_start_naval_variants = yes
 			load_oob = 00_YUG_vnr_naval
 		}
+		PRU = {
+			PRU_start_naval_variants = yes
+			load_oob = 00_PRU_vnr_naval
+		}
 
         clr_global_flag = add_startup_navy
     }
+}
+
+country_event = {
+	id = navy_rework.1
+	title = navy_rework.1.t
+	desc = navy_rework.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = navy_rework.1.1
+		FROM = { create_alicorn = yes }
+	}
+}
+country_event = {
+	id = navy_rework.2
+	title = navy_rework.2.t
+	desc = navy_rework.2.d
+
+	is_triggered_only = yes
+
+	# USA
+	option = {
+		trigger = { original_tag = USA NOT = { has_government = communism } }
+		name = navy_rework.2.1
+		FROM = { country_event = {id = navy_rework.5 days = 2} }
+	}
+	# Commie fix
+	option = {
+		trigger = { has_government = communism }
+		name = navy_rework.2.2
+		FROM = { create_constitution = yes add_political_power = -50 }
+	}
+	# Commie abandon
+	option = {
+		trigger = { has_government = communism }
+		name = navy_rework.2.3
+		FROM = { navy_experience = 50 }
+	}
+	# Generic
+	option = {
+		trigger = { NOT = {has_government = communism original_tag = USA} }
+		name = navy_rework.2.4
+		FROM = { create_constitution = yes }
+	}
+}
+country_event = {
+	id = navy_rework.3
+	title = navy_rework.3.t
+	desc = navy_rework.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = navy_rework.3.1
+		FROM = { create_macross = yes }
+	}
+}
+country_event = {
+	id = navy_rework.4
+	title = navy_rework.4.t
+	desc = navy_rework.4.d
+
+	is_triggered_only = yes
+
+	# JAP
+	option = {
+		trigger = { original_tag = JAP }
+		name = navy_rework.4.1
+		FROM = { create_space_yamato = yes }
+	}
+	# Generic
+	option = {
+		trigger = { NOT = {original_tag = JAP} }
+		name = navy_rework.4.2
+		FROM = { create_space_yamato = yes }
+	}
+}
+country_event = {
+	id = navy_rework.5
+	title = navy_rework.5.t
+	desc = navy_rework.5.d
+
+	is_triggered_only = yes
+
+	# USA let stay
+	option = {
+		trigger = { original_tag = USA NOT = { has_government = communism } }
+		name = navy_rework.5.1
+		FROM = { create_constitution = yes navy_experience = 25 }
+	}
+	# USA let go
+	option = {
+		trigger = { original_tag = USA NOT = { has_government = communism } }
+		name = navy_rework.5.1
+		FROM = { add_tech_bonus = {bouns = 1 uses = 3 category = naval_equipment} }
+	}
 }

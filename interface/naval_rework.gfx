@@ -4,9 +4,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/navalcombat/ships/sh_battleship.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_navalcombat_ship_icon_behemoth"
+		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds"
+		noOfFrames = 2
+	}
 	
 	spriteType = { name = "GFX_unit_battle_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_light_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_destroyer_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/destroyer_V.dds"	noOfFrames = 2 }
@@ -31,6 +37,36 @@ spriteTypes = {
 		name = "unit_SH_battleship_icon_small"
 		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
 		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_behemoth_icon_medium_white"
+		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_behemoth_icon_medium_black"
+		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship_inverted.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_behemoth_icon_small"
+		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_behemoth_icon_small"
+		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_unit_behemoth_icon_medium"
+		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_behemoth_1_icon_medium"
+		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds"
+		noOfFrames = 2
 	}
 	
 	corneredTileSpriteType = {

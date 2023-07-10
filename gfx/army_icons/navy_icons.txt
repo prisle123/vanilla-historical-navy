@@ -1,0 +1,85 @@
+﻿naval_equipment_role = {
+	gfx = GFX_naval_equipment_role_icons
+	
+	icon = {	color_override = no 	name = "FBB - Fast Battleship"	} # 1
+	icon = {	color_override = no 	name = "FBB - Fast Battleship"	} # 2
+	icon = {	color_override = no 	name = "BB - Battleship"	} # 3
+	icon = {	color_override = no 	name = "BB - Battleship"	} # 4
+	icon = {	color_override = no 	name = "B - Pre-dreadnought"	} # 5
+	icon = {	color_override = no 	name = "B - Pre-dreadnought"	} # 6
+	icon = {	color_override = no 	name = "SHBB - Super Heavy Battleship"	} # 7
+	icon = {	color_override = no 	name = "SHBB - Super Heavy Battleship"	} # 8
+	icon = {	color_override = no 	name = "CV - Aircraft Carrier"	} # 9
+	icon = {	color_override = no 	name = "CV - Aircraft Carrier"	} # 10
+	icon = {	color_override = no 	name = "CVL - Light Aircraft Carrier"	} # 11
+	icon = {	color_override = no 	name = "CVL - Light Aircraft Carrier"	} # 12
+
+	icon = {	color_override = no 	name = "CVH - Heavy Aircraft Carrier"	} # 13
+	icon = {	color_override = no 	name = "CVH - Heavy Aircraft Carrier"	} # 14
+	icon = {	color_override = no 	name = "BC - Battlecruiser"	} # 15
+	icon = {	color_override = no 	name = "BC - Battlecruiser"	} # 16
+	icon = {	color_override = no 	name = "ACR - Armored Cruiser"	} # 17
+	icon = {	color_override = no 	name = "ACR - Armored Cruiser"	} # 18
+	icon = {	color_override = no 	name = "BM - Monitor"	} # 19
+	icon = {	color_override = no 	name = "BM - Monitor"	} # 20
+	icon = {	color_override = no 	name = "CB - Large Cruiser"	} # 21
+	icon = {	color_override = no 	name = "CB - Large Cruiser"	} # 22
+	icon = {	color_override = no 	name = "C - Cruiser"	} # 23
+	icon = {	color_override = no 	name = "C - Cruiser"	} # 24
+
+	icon = {	color_override = no 	name = "CL - Light Cruiser"	} # 25
+	icon = {	color_override = no 	name = "CL - Light Cruiser"	} # 26
+	icon = {	color_override = no 	name = "CA - Heavy Cruiser"	} # 27
+	icon = {	color_override = no 	name = "CA - Heavy Cruiser"	} # 28
+	icon = {	color_override = no 	name = "D - Torpedo Destroyer"	} # 29
+	icon = {	color_override = no 	name = "D - Torpedo Destroyer"	} # 30
+	icon = {	color_override = no 	name = "DD - Destroyer"	} # 31
+	icon = {	color_override = no 	name = "DD - Destroyer"	} # 32
+	icon = {	color_override = no 	name = "DL - Destroyer Leader"	} # 33
+	icon = {	color_override = no 	name = "DL - Destroyer Leader"	} # 34
+	icon = {	color_override = no 	name = "DE - Escort Destroyer"	} # 35
+	icon = {	color_override = no 	name = "DE - Escort Destroyer"	} # 36
+
+	icon = {	color_override = no 	name = "SS - Submarine"	} # 37
+	icon = {	color_override = no 	name = "SS - Submarine"	} # 38
+	icon = {	color_override = no 	name = "SC - Cruiser Submarine"	} # 39
+	icon = {	color_override = no 	name = "SC - Cruiser Submarine"	} # 40
+	icon = {	color_override = no 	name = "SM - Minelaying Submarine"	} # 41
+	icon = {	color_override = no 	name = "SM - Minelaying Submarine"	} # 42
+	icon = {	color_override = no 	name = "CLAA - Anti-aircraft Cruiser"	} # 43
+	icon = {	color_override = no 	name = "CLAA - Anti-aircraft Cruiser"	} # 44
+	icon = {	color_override = no 	name = "CS - Scout Cruiser"	} # 45
+	icon = {	color_override = no 	name = "CS - Scout Cruiser"	} # 46
+	icon = {	color_override = no 	name = "FF - Frigate"	} # 47
+	icon = {	color_override = no 	name = "FF - Frigate"	} # 48
+
+
+	# icon = {	color_override = no 	name = "E - Escort"	}
+	# icon = {	color_override = no 	name = "E - Escort"	}
+	# icon = {	color_override = no 	name = "CVL - Light Carrier"	}
+	# icon = {	color_override = no 	name = "CVL - Light Carrier"	}
+	# icon = {	color_override = no 	name = "DL - Destroyer Leader / Flotilla Leader"	}
+	# icon = {	color_override = no 	name = "DL - Destroyer Leader / Flotilla Leader"	}
+	# icon = {	color_override = no 	name = "DDT - Torpedo Destroyer"	}
+	# icon = {	color_override = no 	name = "DDT - Torpedo Destroyer"	}
+	# icon = {	color_override = no 	name = "CLT - Torpedo Cruiser"	}
+	# icon = {	color_override = no 	name = "CLT - Torpedo Cruiser"	}
+	# icon = {	color_override = no 	name = "DDAA - Anti Aircraft Destroyer"	}
+	# icon = {	color_override = no 	name = "DDAA - Anti Aircraft Destroyer"	}
+	# icon = {	color_override = no 	name = "DDK - Destroyer Hunter-Killer (ASW)"	}
+	# icon = {	color_override = no 	name = "DDK - Destroyer Hunter-Killer (ASW)"	}
+	# icon = {	color_override = no 	name = "CLK - Cruiser Hunter-Killer (ASW)"	}
+	# icon = {	color_override = no 	name = "CLK - Cruiser Hunter-Killer (ASW)"	}
+	# icon = {	color_override = no 	name = "DDR - Radar Picket Destroyer"	}
+	# icon = {	color_override = no 	name = "DDR - Radar Picket Destroyer"	}
+	# icon = {	color_override = no 	name = "CS - Scout Cruiser"	}
+	# icon = {	color_override = no 	name = "CS - Scout Cruiser"	}
+	# icon = {	color_override = no 	name = "CMS - Cruiser Minesweeper"	}
+	# icon = {	color_override = no 	name = "CMS - Cruiser Minesweeper"	}
+	# icon = {	color_override = no 	name = "SHBB - Super Heavy Battleship"	}
+	# icon = {	color_override = no 	name = "SHBB - Super Heavy Battleship"	}
+	# icon = {	color_override = no 	name = "MS - Minesweeper"	}
+	# icon = {	color_override = no 	name = "MS - Minesweeper"	}
+	# icon = {	color_override = no 	name = "AM - Minelayer"	}
+	# icon = {	color_override = no 	name = "AM - Minelayer"	}
+}
