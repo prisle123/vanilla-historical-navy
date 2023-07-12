@@ -4969,6 +4969,20 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1100
 	}
+	ship_deck_space_bb = {
+		category = ship_deck_space_bb
+		gui_category = ship_deck_space
+		add_equipment_type = carrier
+		gfx = ship_deck_space
+		add_stats = {
+			carrier_size = 1
+			build_cost_ic = 1500
+		}
+		multiply_stats = {
+			naval_speed = -0.075
+		}
+		dismantle_cost_ic = 5000
+	}
 	ship_carrier_armor_heavy = {
 		category = ship_carrier_armor_heavy
 		add_equipment_type = capital_ship
