@@ -47,8 +47,19 @@ navy_rework_category = {
         }
     }
 
+    show_wunderwaffe = {
+        visible = {NOT = { has_global_flag = wunderwaffe_shown }}
+        available = {
+            num_of_naval_factories > 0
+        }
+        complete_effect = {
+            country_event = navy_rework.100
+        }
+    }
+
     add_alicorn = {
         icon = generic_naval
+        visible = { has_global_flag = wunderwaffe_shown }
         available = {
             num_of_naval_factories > 0
         }
@@ -59,6 +70,7 @@ navy_rework_category = {
     }
     add_constitution = {
         icon = generic_naval
+        visible = { has_global_flag = wunderwaffe_shown }
         available = {
             num_of_naval_factories > 0
         }
@@ -69,6 +81,7 @@ navy_rework_category = {
     }
     add_macross = {
         icon = generic_naval
+        visible = { has_global_flag = wunderwaffe_shown }
         available = {
             num_of_naval_factories > 0
         }
@@ -79,6 +92,7 @@ navy_rework_category = {
     }
     add_space_yamato = {
         icon = generic_naval
+        visible = { has_global_flag = wunderwaffe_shown }
         available = {
             num_of_naval_factories > 0
         }

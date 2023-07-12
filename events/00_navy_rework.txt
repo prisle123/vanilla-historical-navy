@@ -288,3 +288,19 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = navy_rework.100
+	title = navy_rework.100.t
+	desc = navy_rework.100.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = navy_rework.100.0
+		set_global_flag = wunderwaffe_shown
+	}
+	option = {
+		name = navy_rework.100.1
+	}
+}
