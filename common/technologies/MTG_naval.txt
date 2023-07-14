@@ -10,6 +10,7 @@ technologies = {
 	@1940_module = 15
 	@1944 = 17
 	@1944_module = 19
+	@1944_module_2 = 21
 
 #   ###  ##  #  # ###	## #  # ### ###   ##
 #	#  #	#  #  #	#   #  #  #  #  # #
@@ -714,6 +715,10 @@ technologies = {
 			leads_to_tech = basic_cruiser_armor
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = colony_cruiser
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 
@@ -868,6 +873,33 @@ technologies = {
 		}
 	}
 
+	colony_cruiser = {
+
+		enable_equipment_modules = {
+			ship_hull_cruiser_role_clc
+		}
+
+		research_cost = 0.75
+
+		start_year = 1925
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = @1924_module }
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			ship_modules_tech
+		}
+	}
+
 	improved_airplane_launcher = {
 
 		enable_equipment_modules = {
@@ -883,7 +915,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1924_module }
+			position = { x = -2 y = @1924_module }
 		}
 		dependencies = {
 			prototype_airplane_launcher = 1
@@ -2555,6 +2587,14 @@ technologies = {
 			leads_to_tech = carrier_mass_production
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = carrier_damage_control
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = air_fuel_storage
+			research_cost_coeff = 1
+		}
 
 		sub_technologies = {
 			escort_carriers_ship
@@ -2610,7 +2650,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1944 }
+			position = { x = -1 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -2705,9 +2745,62 @@ technologies = {
 		}
 	}
 
+	carrier_damage_control = {
+		research_cost = 1.5
+		start_year = 1942
+		
+		carrier = {
+			max_strength = 0.1
+		}
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -3 y = @1940_module }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	air_fuel_storage = {
+		research_cost = 1.5
+		start_year = 1942
+		
+		navy_carrier_air_agility_factor = 0.1
+		cv_fighter = {
+			air_attack = 0.2
+			air_range = 0.2
+		}
+		cv_cas = {
+			air_range = 0.2
+		}
+		cv_nav_bomber = {
+			air_range = 0.2
+		}
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1940_module }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
 	carrier_mass_production = {
 		research_cost = 2
-		start_year = 1943
+		start_year = 1942
 		
 		carrier = {
 			build_cost_ic = -0.1
@@ -2715,7 +2808,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1940_module }
+			position = { x = -2 y = @1944 }
 		}
 		
 		ai_will_do = {
@@ -2735,7 +2828,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1940_module }
+			position = { x = 0 y = @1944 }
 		}
 		
 		ai_will_do = {
@@ -2758,7 +2851,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1944_module }
+			position = { x = 1 y = @1944_module_2 }
 		}
 		
 		ai_will_do = {
@@ -2781,7 +2874,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1944_module }
+			position = { x = -1 y = @1944_module_2 }
 		}
 		
 		ai_will_do = {
@@ -2804,7 +2897,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1944_module }
+			position = { x = -3 y = @1944_module_2 }
 		}
 		
 		ai_will_do = {

@@ -497,6 +497,7 @@ equipment_modules = {
 			module_category = ship_heavy_battery
 			convert_cost_ic = 175
 		}
+		dismantle_cost_ic = 875
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -526,6 +527,7 @@ equipment_modules = {
 			module_category = ship_heavy_battery
 			convert_cost_ic = 200
 		}
+		dismantle_cost_ic = 1040
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -555,6 +557,7 @@ equipment_modules = {
 			module_category = ship_heavy_battery
 			convert_cost_ic = 300
 		}
+		dismantle_cost_ic = 1625
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -590,6 +593,7 @@ equipment_modules = {
 			module = ship_heavy_battery_1
 			convert_cost_ic = 300
 		}
+		dismantle_cost_ic = 1875
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -625,6 +629,7 @@ equipment_modules = {
 			module = ship_heavy_battery_2
 			convert_cost_ic = 300
 		}
+		dismantle_cost_ic = 2000
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -661,6 +666,7 @@ equipment_modules = {
 			module = ship_heavy_battery_3
 			convert_cost_ic = 400
 		}
+		dismantle_cost_ic = 2125
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -689,6 +695,7 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 48
 		}
+		dismantle_cost_ic = 3125
 		critical_parts = { damaged_heavy_guns }
 	}
 	
@@ -712,7 +719,7 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 52
 		}
-
+		dismantle_cost_ic = 4375
 		critical_parts = { damaged_heavy_guns }
 	}
 
@@ -739,6 +746,7 @@ equipment_modules = {
 			module_category = ship_heavy_battery_triple
 			convert_cost_ic = 195
 		}
+		dismantle_cost_ic = 1000
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -769,6 +777,7 @@ equipment_modules = {
 			module_category = ship_heavy_battery_triple
 			convert_cost_ic = 215
 		}
+		dismantle_cost_ic = 1200
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -799,6 +808,7 @@ equipment_modules = {
 			module_category = ship_heavy_battery_triple
 			convert_cost_ic = 320
 		}
+		dismantle_cost_ic = 1750
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -834,6 +844,7 @@ equipment_modules = {
 			module = ship_heavy_battery_1_triple
 			convert_cost_ic = 350
 		}
+		dismantle_cost_ic = 2200
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -869,6 +880,7 @@ equipment_modules = {
 			module = ship_heavy_battery_2_triple
 			convert_cost_ic = 350
 		}
+		dismantle_cost_ic = 2375
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -905,6 +917,7 @@ equipment_modules = {
 			module = ship_heavy_battery_3_triple
 			convert_cost_ic = 400
 		}
+		dismantle_cost_ic = 2625
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -933,6 +946,7 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 48
 		}
+		dismantle_cost_ic = 3625
 		critical_parts = { damaged_heavy_guns }
 	}
 	
@@ -956,7 +970,7 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 52
 		}
-		
+		dismantle_cost_ic = 4875
 		critical_parts = { damaged_heavy_guns }
 	}
 
@@ -985,6 +999,7 @@ equipment_modules = {
 			module_category = ship_heavy_battery_quad
 			convert_cost_ic = 225
 		}
+		dismantle_cost_ic = 1875
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1018,6 +1033,7 @@ equipment_modules = {
 			module_category = ship_heavy_battery_quad
 			convert_cost_ic = 300
 		}
+		dismantle_cost_ic = 2250
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1050,6 +1066,7 @@ equipment_modules = {
 			module_category = ship_heavy_battery_quad
 			convert_cost_ic = 360
 		}
+		dismantle_cost_ic = 2500
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1087,6 +1104,7 @@ equipment_modules = {
 			module = ship_heavy_battery_1_quad
 			convert_cost_ic = 350
 		}
+		dismantle_cost_ic = 3250
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1124,6 +1142,7 @@ equipment_modules = {
 			module = ship_heavy_battery_2_quad
 			convert_cost_ic = 350
 		}
+		dismantle_cost_ic = 3500
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1161,6 +1180,7 @@ equipment_modules = {
 			module = ship_heavy_battery_3_quad
 			convert_cost_ic = 460
 		}
+		dismantle_cost_ic = 3875
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1190,6 +1210,7 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 48
 		}
+		dismantle_cost_ic = 4375
 		critical_parts = { damaged_heavy_guns }
 	}
 	
@@ -1214,7 +1235,7 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 52
 		}
-		
+		dismantle_cost_ic = 5625
 		critical_parts = { damaged_heavy_guns }
 	}
 
@@ -1237,7 +1258,7 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 54
 		}
-		
+		dismantle_cost_ic = 4500
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_super_heavy_battery_2_triple = {
@@ -1259,7 +1280,7 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 54
 		}
-		
+		dismantle_cost_ic = 5250
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_super_heavy_battery_2_quad = {
@@ -1282,7 +1303,7 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 54
 		}
-		
+		dismantle_cost_ic = 6000
 		critical_parts = { damaged_heavy_guns }
 	}
 
@@ -4283,8 +4304,8 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			carrier_size = 2
-			build_cost_ic = 1750
-			anti_air_attack = 1
+			build_cost_ic = 1500
+			anti_air_attack = 0.5
 		}
 		manpower = 500 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -4902,7 +4923,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			anti_air_attack = 0.2
-			surface_detection = 0.05
+			surface_detection = 0.1
 		}
 	}
 
@@ -4913,7 +4934,7 @@ equipment_modules = {
 		gfx = ship_side_lift
 
 		add_stats = {
-			build_cost_ic = 1500
+			build_cost_ic = 800
 			carrier_size = 1
 		}
 
@@ -4921,7 +4942,7 @@ equipment_modules = {
 			chromium = 1
 		}
 
-		dismantle_cost_ic = 750
+		dismantle_cost_ic = 400
 	}
 
 	angled_deck = {
@@ -4950,7 +4971,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			build_cost_ic = 800
-			anti_air_attack = 0.5
+			anti_air_attack = 0.3
 		}
 		dismantle_cost_ic = 400
 	}
@@ -4961,11 +4982,11 @@ equipment_modules = {
 		gfx = ship_deck_space
 		add_stats = {
 			carrier_size = 3
-			build_cost_ic = 2300
-			anti_air_attack = 1.5
+			build_cost_ic = 2000
+			anti_air_attack = 1
 		}
 		multiply_stats = {
-			naval_speed = -0.1
+			naval_speed = -0.075
 		}
 		dismantle_cost_ic = 1100
 	}
@@ -4979,9 +5000,9 @@ equipment_modules = {
 			build_cost_ic = 1500
 		}
 		multiply_stats = {
-			naval_speed = -0.075
+			naval_speed = -0.05
 		}
-		dismantle_cost_ic = 5000
+		dismantle_cost_ic = 2000
 	}
 	ship_carrier_armor_heavy = {
 		category = ship_carrier_armor_heavy
@@ -4997,10 +5018,10 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.1
 			anti_air_attack = 0.1
+			max_strength = 0.3
 		}
 		add_stats = {
 			armor_value = 20
-			max_strength = 75
 			naval_torpedo_damage_reduction_factor = 0.2
 			naval_torpedo_enemy_critical_chance_factor = -0.15
 		}
@@ -5226,6 +5247,20 @@ equipment_modules = {
 		multiply_stats = {
 			anti_air_attack = 0.2
 			build_cost_ic = 0.2
+		}
+		forbid_module_categories = {
+			ship_medium_heavy_battery
+			ship_cruiser_heavy_armor
+			ship_missile
+		}
+	}
+	ship_hull_cruiser_role_clc = {
+		category = c_role
+		multiply_stats = {
+			max_strength = -0.1
+			armor_value = -0.1
+			naval_speed = 0.05
+			build_cost_ic = -0.1
 		}
 		forbid_module_categories = {
 			ship_medium_heavy_battery

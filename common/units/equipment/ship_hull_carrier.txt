@@ -52,7 +52,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor ship_heavy_armor ship_cruiser_heavy_armor }
+				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor }
 			}
 
 			front_1_custom_slot = {
@@ -103,7 +103,7 @@ equipments = {
 
 		naval_range = 3000
 
-		max_strength = 250
+		max_strength = 225
 
 
 		fuel_consumption = 87
@@ -594,7 +594,7 @@ equipments = {
 		}
 		naval_range = 4000
 		reliability = 0.65
-		max_strength = 325
+		max_strength = 300
 		naval_speed = 24
 
 
@@ -716,7 +716,7 @@ equipments = {
 		}
 		naval_range = 4000
 		reliability = 0.75
-		max_strength = 325
+		max_strength = 275
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -796,7 +796,7 @@ equipments = {
 
 		naval_range = 5000
 		reliability = 0.8
-		max_strength = 350
+		max_strength = 300
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -848,6 +848,8 @@ equipments = {
 
 		reliability = 0.7
 		naval_speed = 20
+		sub_detection = 8.5
+		surface_visibility = 25
 		build_cost_ic = 2000
 		resources = {
 			steel = 1
