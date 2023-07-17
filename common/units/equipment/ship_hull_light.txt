@@ -24,7 +24,15 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_light_battery dp_light_battery ship_light_medium_battery }
+				allowed_module_categories = { 
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
+					ship_light_medium_battery
+					ship_light_medium_battery_double
+					ship_light_medium_battery_single
+				}
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -55,9 +63,13 @@ equipments = {
 				allowed_module_categories = {
 					ship_depth_charge
 					ship_anti_air
-					ship_light_battery
-					dp_light_battery
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
 					ship_light_medium_battery
+					ship_light_medium_battery_double
+					ship_light_medium_battery_single
 				}
 			}
 			front_2_custom_slot = {
@@ -65,8 +77,10 @@ equipments = {
 				allowed_module_categories = {
 					ship_depth_charge
 					ship_anti_air
-					ship_light_battery
-					dp_light_battery
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
 				}
 			}
 
@@ -78,8 +92,10 @@ equipments = {
 					ship_mine_layer
 					ship_anti_air
 					ship_depth_charge
-					ship_light_battery
-					dp_light_battery
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -91,9 +107,13 @@ equipments = {
 					ship_mine_layer
 					ship_anti_air
 					ship_depth_charge
-					ship_light_battery
-					dp_light_battery
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
 					ship_light_medium_battery
+					ship_light_medium_battery_double
+					ship_light_medium_battery_single
 				}
 			}
 			rear_2_custom_slot = mid_1_custom_slot
@@ -138,7 +158,7 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 10
-		naval_speed = 30
+		naval_speed = 32
 		reliability = 0.80
 
 		naval_range = 1500
@@ -378,7 +398,7 @@ equipments = {
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_3
 		}
-		naval_speed = 34
+		naval_speed = 32
 	}
 
 	vnr_ship_hull_light_5 = {

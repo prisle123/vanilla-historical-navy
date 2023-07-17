@@ -586,6 +586,10 @@ technologies = {
 		}
 		start_year = 1924
 
+		destroyer = {
+			max_organisation = 5
+		}
+
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 3 y = @1924_module }
@@ -605,6 +609,8 @@ technologies = {
 			ship_hull_light_role_de
 		}
 		start_year = 1941
+
+		convoy_escort_efficiency = 0.05
 
 		folder = {
 			name = mtgnavalfolder
@@ -1116,7 +1122,7 @@ technologies = {
 		}
 		light_cruiser = {
 			build_cost_ic = -0.05
-			naval_speed = 0.1
+			naval_speed = 0.05
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_cruiser
