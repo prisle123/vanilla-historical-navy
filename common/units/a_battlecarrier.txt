@@ -1,0 +1,21 @@
+sub_units = {
+	battlecarrier = {
+		sprite = battlecarrier
+		map_icon_category = ship
+		priority = 9
+		active = yes
+		type = { capital_ship carrier }
+		need_equipment = { ship_hull_heavy = 1 }
+		need_equipment_modules = {
+			ship_deck_space_bb = 1
+		}
+		max_organisation = 60
+
+		supply_consumption = 0.2
+		
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1 
+		
+		hit_profile_mult = 1.0
+	}
+}

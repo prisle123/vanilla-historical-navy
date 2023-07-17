@@ -1,0 +1,33 @@
+add_namespace = naval_lore
+
+country_event = {
+    id = naval_lore.0
+    title = naval_lore.0.t
+    desc = naval_lore.0.d
+
+    is_triggered_only = yes
+	
+	option = {
+        name = naval_lore.0.1
+		FROM = { country_event = naval_lore.1 }
+    }
+    option = {
+        name = naval_lore.0.2
+    }
+}
+
+country_event = {
+    id = naval_lore.1
+    title = naval_lore.0.t
+    desc = naval_lore.1.d
+
+    is_triggered_only = yes
+	
+	option = {
+        name = naval_lore.1.1
+		FROM = { country_event = naval_lore.0 }
+    }
+    option = {
+        name = naval_lore.0.2
+    }
+}

@@ -660,8 +660,8 @@ equipments = {
 		priority = 1900
 		can_convert_from = { vnr_ship_hull_cruiser_2 }
 
-
 		module_slots = inherit
+		naval_speed = 29
 	}
 
 	vnr_ship_hull_cruiser_3 = {

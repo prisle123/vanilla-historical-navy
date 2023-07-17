@@ -12,7 +12,9 @@ ENG_start_naval_variants = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = dp_ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
 			front_1_custom_slot = ship_deck_space
+			mid_1_custom_slot = ship_armor_carrier_deck
         }
     }
     create_equipment_variant = {
@@ -27,6 +29,7 @@ ENG_start_naval_variants = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
 			mid_1_custom_slot = ship_deck_space
         }
     }
@@ -39,8 +42,9 @@ ENG_start_naval_variants = {
             fixed_ship_deck_slot_1 = ship_deck_space
             fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 			mid_1_custom_slot = ship_deck_space
         }
         obsolete = yes
@@ -429,7 +433,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Adventure Class"
-		role_icon_index = 23
+		role_icon_index = 51
 		icon = "gfx/interface/technologies/England/ENG_light_cruiser_Adventure.png"
         type = vnr_ship_hull_cruiser_2
         name_group = ENG_MINELAYERS_HISTORICAL
@@ -709,7 +713,7 @@ GER_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
 			fixed_ship_armor_slot = ship_armor_bc_2
@@ -990,6 +994,7 @@ FRA_start_naval_variants = {
             fixed_ship_engine_slot = heavy_ship_engine_1
             fixed_ship_secondaries_slot = ship_secondaries_1
             fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
         }
     }
     # battleship
@@ -1026,7 +1031,7 @@ FRA_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
             fixed_ship_armor_scheme_slot = ship_scheme_mixed
@@ -1233,7 +1238,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Pluton Class"
-		role_icon_index = 23
+		role_icon_index = 51
 		icon = "gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
         type = vnr_ship_hull_cruiser_2
         name_group = FRA_CL_HISTORICAL
@@ -1483,6 +1488,7 @@ JAP_start_naval_variants = {
             fixed_ship_engine_slot = carrier_ship_engine_2
             fixed_ship_anti_air_slot = ship_anti_air_2
             fixed_ship_secondaries_slot = dp_ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
             front_1_custom_slot = ship_deck_space
         }
     }
@@ -1525,6 +1531,7 @@ JAP_start_naval_variants = {
             fixed_ship_engine_slot = heavy_ship_engine_2
             fixed_ship_anti_air_slot = ship_anti_air_1
             fixed_ship_secondaries_slot = dp_ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
             mid_1_custom_slot = ship_deck_space
             mid_2_custom_slot = ship_deck_space
         }
@@ -1541,6 +1548,7 @@ JAP_start_naval_variants = {
             fixed_ship_engine_slot = heavy_ship_engine_2
             fixed_ship_anti_air_slot = ship_anti_air_2
             fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
             mid_1_custom_slot = ship_deck_space
         }
         obsolete = yes
@@ -1987,7 +1995,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Itsukushima/Okinoshima Class"
-		role_icon_index = 23
+		role_icon_index = 51
         type = vnr_ship_hull_cruiser_1
         name_group = JAP_MINELAYERS_HISTORICAL
         modules = {
@@ -2981,7 +2989,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Marti Class"
-		role_icon_index = 23
+		role_icon_index = 51
 		icon = "gfx/interface/technologies/Soviet/SOV_light_cruiser_Marti.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = SOV_MINELAYERS_HISTORICAL
@@ -3230,6 +3238,8 @@ USA_start_naval_variants = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			front_1_custom_slot = ship_deck_space
+			mid_1_custom_slot = ship_deck_space
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 		}
 	}
     create_equipment_variant = {
@@ -3246,6 +3256,7 @@ USA_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
 		}
 	}
     create_equipment_variant = {
@@ -3261,6 +3272,7 @@ USA_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
 		}
 	}
     # battleship
@@ -3567,7 +3579,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Oglala Class"
-		role_icon_index = 23
+		role_icon_index = 51
 		icon = "gfx/interface/technologies/USA/USA_light_cruiser_Oglala.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = USA_CITIES

@@ -105,6 +105,7 @@ add_starting_techs = {
             sonar = 1
             searchlight = 1
             treaty_cruiser_trend = 1
+			colony_cruiser = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
             incremental_armor_scheme = 1
@@ -382,6 +383,7 @@ makeup_starting_techs = {
         set_technology = {
             basic_periscope = 1
 			diesel_electric_transmission = 1
+			teardrop_hull = 1
 			popup = no
         }
     }

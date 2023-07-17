@@ -1,0 +1,6 @@
+navy_rework_category = {
+    ship_hull_description = {
+        icon = generic_naval
+        complete_effect = { FROM = { country_event = naval_lore.0 } }
+    }
+}

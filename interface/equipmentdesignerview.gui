@@ -542,7 +542,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "niche_icon_selector"
 			position = { x=515 y=83 }
-			size = { width=526 height=182 }
+			size = { width=526 height=225 }
 			
 			background = {
 				name = "Background"
@@ -553,7 +553,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "grid_container"
 				position = { x=5 y=5 }
-				size = { width=526 height=182 }
+				size = { width=526 height=225 }
 				verticalScrollbar = "right_vertical_slider"
 				
 				background = {
@@ -567,7 +567,7 @@ guiTypes = {
 					size = { width = 100%% height = 100%% }
 					slotsize = { width = 43 height = 43 }
 					max_slots_horizontal = 12
-					max_slots_vertical = 4
+					max_slots_vertical = 5
 					format = "UPPER_LEFT"
 				}
 			}
