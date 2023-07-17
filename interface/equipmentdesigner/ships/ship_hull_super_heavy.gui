@@ -302,7 +302,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_heavy_hull_mid1_airplane_launcher"
-						position = { x=226 y=0 }
+						position = { x=160 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -313,7 +313,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_heavy_hull_mid1_airplane_launcher@highlight"
-						position = { x=226 y=0 }
+						position = { x=160 y=0 }
 					}
 				}
 			}
@@ -1173,8 +1173,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_super_heavy_hull_rear1_airplane_launcher"
-						position = { x=25 y=0 }
+						spriteType = "GFX_SM_super_heavy_hull_rear2_airplane_launcher"
+						position = { x=50 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1184,8 +1184,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_super_heavy_hull_rear1_airplane_launcher@highlight"
-						position = { x=25 y=0 }
+						spriteType = "GFX_SM_super_heavy_hull_rear2_airplane_launcher@highlight"
+						position = { x=50 y=0 }
 					}
 				}
 
@@ -1411,8 +1411,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_super_heavy_hull_rear2_airplane_launcher"
-						position = { x=50 y=0 }
+						spriteType = "GFX_SM_super_heavy_hull_rear1_airplane_launcher"
+						position = { x=25 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1422,8 +1422,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_super_heavy_hull_rear2_airplane_launcher@highlight"
-						position = { x=50 y=0 }
+						spriteType = "GFX_SM_super_heavy_hull_rear1_airplane_launcher@highlight"
+						position = { x=25 y=0 }
 					}
 				}
 

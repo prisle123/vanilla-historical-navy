@@ -595,7 +595,7 @@ equipments = {
 		naval_range = 4000
 		reliability = 0.65
 		max_strength = 300
-		naval_speed = 24
+		naval_speed = 26
 
 
 		build_cost_ic = 2500
@@ -652,7 +652,17 @@ equipments = {
 					ship_dp_secondaries
 				}
 			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_deck_space
+					ship_carrier_armor
+					ship_secondaries
+					ship_dp_secondaries
+				}
+			}
 		}
+		naval_speed = 28
 
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
@@ -705,6 +715,9 @@ equipments = {
 					steam_catapult
 					carrier_side_lift
 					carrier_angled_deck
+					ship_secondaries
+					ship_dp_secondaries
+					ship_deck_space
 				}
 			}
 		}
@@ -717,6 +730,7 @@ equipments = {
 		naval_range = 4000
 		reliability = 0.75
 		max_strength = 275
+		naval_speed = 28
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -787,6 +801,15 @@ equipments = {
 					carrier_angled_deck
 				}
 			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_secondaries
+					ship_dp_secondaries
+					ship_anti_air
+					carrier_side_lift
+				}
+			}
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -797,6 +820,7 @@ equipments = {
 		naval_range = 5000
 		reliability = 0.8
 		max_strength = 300
+		naval_speed = 30
 
 		module_count_limit = {
 			category = carrier_angled_deck

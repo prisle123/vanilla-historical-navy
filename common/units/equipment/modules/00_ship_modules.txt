@@ -4304,7 +4304,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			carrier_size = 2
-			build_cost_ic = 1500
+			build_cost_ic = 1400
 			anti_air_attack = 0.5
 		}
 		manpower = 500 #outside the add_stats section for code reasons
@@ -5126,10 +5126,10 @@ equipment_modules = {
 	sub_ship_periscope_0 = {
 		category = sub_ship_periscope
 		multiply_stats = {
-			surface_detection = 0.025
 			sub_visibility = 0.06
 		}
 		add_stats = {
+			surface_detection = 8
 			build_cost_ic = 10
 		}
 		can_convert_from = {
@@ -5140,10 +5140,10 @@ equipment_modules = {
 	sub_ship_periscope_1 = {
 		category = sub_ship_periscope
 		multiply_stats = {
-			surface_detection = 0.05
 			sub_visibility = 0.05
 		}
 		add_stats = {
+			surface_detection = 10
 			build_cost_ic = 30
 		}
 		can_convert_from = {
@@ -5155,10 +5155,10 @@ equipment_modules = {
 		category = sub_ship_periscope
 		parent = sub_ship_periscope_1
 		multiply_stats = {
-			surface_detection = 0.075
 			sub_visibility = 0.025
 		}
 		add_stats = {
+			surface_detection = 12
 			build_cost_ic = 50
 		}
 		can_convert_from = {
@@ -5170,9 +5170,10 @@ equipment_modules = {
 		category = sub_ship_periscope
 		parent = sub_ship_periscope_2
 		multiply_stats = {
-			surface_detection = 0.1
+			sub_visibility = 0.01
 		}
 		add_stats = {
+			surface_detection = 14
 			build_cost_ic = 70
 		}
 		can_convert_from = {

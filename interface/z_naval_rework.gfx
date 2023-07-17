@@ -9,10 +9,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_navalcombat_ship_icon_battlecarrier"
+		texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds"
+		noOfFrames = 2
+	}
 	
-	spriteType = { name = "GFX_unit_battle_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_V.dds"	noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_battleship_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds"	noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_battleship_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_I.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_II.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_III.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_IV.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_0.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_I.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_II.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_III.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_IV.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_heavy_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_light_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_destroyer_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/destroyer_V.dds"	noOfFrames = 2 }
@@ -23,6 +36,11 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_carrier_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/carrier_IV.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_carrier_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/carrier_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_carrier_7_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/carrier_VI.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battlecarrier_2_icon_medium" texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battlecarrier_3_icon_medium" texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battlecarrier_4_icon_medium" texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battlecarrier_5_icon_medium" texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battlecarrier_6_icon_medium" texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
 	
 	spriteType = {
 		name = "GFX_unit_SH_battleship_icon_medium_white"
@@ -43,6 +61,32 @@ spriteTypes = {
 		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_unit_battlecarrier_icon_medium_white"
+		texturefile = "gfx/interface/counters/ships_small/onmap_battleship.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_battlecarrier_icon_medium_black"
+		texturefile = "gfx/interface/counters/ships_small/onmap_battleship_inverted.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_battlecarrier_icon_small"
+		texturefile = "gfx/texticons/ship_battleship_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_battlecarrier_icon_small"
+		texturefile = "gfx/texticons/ship_battleship_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_battlecarrier_icon_medium"
+		texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds"
+		noOfFrames = 2
+	}
+	
 	spriteType = {
 		name = "GFX_unit_behemoth_icon_medium_white"
 		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship.dds"
@@ -74,6 +118,19 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	
+	spriteType = {
+		name = "GFX_unit_cv_fighter_icon_medium"
+		texturefile = "gfx/interface/category_fighter.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_cv_cas_icon_medium"
+		texturefile = "gfx/interface/category_cas.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_cv_nav_bomber_icon_medium"
+		texturefile = "gfx/interface/category_heavy_fighter.dds"
+	}
+	
 	corneredTileSpriteType = {
 		name = "rework_ship_icon_bg"
 		#texturefile = "gfx/interface/tiles/tiled_paper_bg.dds"
@@ -101,13 +158,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_naval_equipment_role_icons"
 		texturefile = "gfx/army_icons/naval_equipment_role_icons.dds"
-		noOfFrames = 48
+		noOfFrames = 60
 	}
 
 	spriteType = {
 		name = "GFX_naval_equipment_role_icons_selected"
 		texturefile = "gfx/army_icons/naval_equipment_role_icons_selected.dds"
-		noOfFrames = 48
+		noOfFrames = 60
 	}
 	
 	corneredTileSpriteType = {

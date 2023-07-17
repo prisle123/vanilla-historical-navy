@@ -584,7 +584,6 @@ equipments = {
 	vnr_ship_hull_pre_dreadnought = {
 		abbreviation = "hcb"
 		year = 1905
-		visual_tech_level_addition = 0
 		archetype = ship_hull_heavy
 		priority = 1500
 		can_convert_from = { vnr_ship_hull_pre_dreadnought }
@@ -654,8 +653,110 @@ equipments = {
 		parent = vnr_ship_hull_pre_dreadnought
 		priority = 1500
 		can_convert_from = { vnr_ship_hull_heavy_1 }
-		visual_level = 0
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_battery ship_heavy_battery_triple ship_heavy_battery_quad ship_super_heavy_battery ship_super_heavy_battery_triple ship_super_heavy_battery_quad }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { heavy_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_armor }
+			}
+			fixed_ship_airplane_launcher_slot = {
+				required = no
+				allowed_module_categories = { ship_airplane_launcher }
+			}
+			fixed_ship_extra_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_ap_shell }
+			}
+			fixed_ship_armor_scheme_slot = { 
+				required = yes
+				allowed_module_categories = { armor_scheme }
+			}
+			fixed_ship_torpedo_defense_system_slot = {
+				required = no
+				allowed_module_categories = { torpedo_defense_system }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery 
+					ship_super_heavy_battery 
+					ship_super_heavy_battery_triple 
+					ship_super_heavy_battery_quad
+					ship_heavy_battery_triple
+					ship_heavy_battery_quad
+				}
+			}
+			front_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery 
+					ship_super_heavy_battery 
+					ship_super_heavy_battery_triple 
+					ship_super_heavy_battery_quad
+					ship_heavy_battery_triple
+					ship_heavy_battery_quad
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_heavy_battery 
+					ship_super_heavy_battery 
+					ship_super_heavy_battery_triple 
+					ship_super_heavy_battery_quad
+					ship_heavy_battery_triple
+					ship_heavy_battery_quad
+					ship_anti_air
+					ship_secondaries
+					ship_dp_secondaries
+					ship_airplane_launcher
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					ship_super_heavy_battery 
+					ship_super_heavy_battery_triple 
+					ship_super_heavy_battery_quad
+					ship_heavy_battery_triple
+					ship_heavy_battery_quad
+					ship_secondaries
+					ship_dp_secondaries
+					ship_airplane_launcher
+					ship_deck_space_bb
+				}
+			}
+			rear_2_custom_slot = rear_1_custom_slot
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -687,7 +788,6 @@ equipments = {
 		archetype = ship_hull_heavy
 		priority = 1500
 		can_convert_from = { vnr_ship_hull_heavy_2 }
-		visual_level = 0
 		module_slots = inherit
 
 		default_modules = {
@@ -721,7 +821,6 @@ equipments = {
 		priority = 1500
 		can_convert_from = { vnr_ship_hull_heavy_3 }
 		parent = vnr_ship_hull_heavy_2
-		visual_level = 1
 		module_slots = inherit
 
 		default_modules = {
@@ -733,7 +832,7 @@ equipments = {
 		max_strength = 350
 		reliability = 0.85
 		fuel_consumption = 67
-		naval_speed = 31
+		naval_speed = 32
 		build_cost_ic = 2700
 
 		manpower = 5200
@@ -747,7 +846,6 @@ equipments = {
 		priority = 1500
 		can_convert_from = { vnr_ship_hull_heavy_4 }
 		parent = vnr_ship_hull_heavy_3
-		visual_level = 1
 		module_slots = inherit
 
 		default_modules = {
@@ -773,7 +871,6 @@ equipments = {
 		priority = 1500
 		can_convert_from = { vnr_ship_hull_heavy_5 }
 		parent = vnr_ship_hull_heavy_4
-		visual_level = 1
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit

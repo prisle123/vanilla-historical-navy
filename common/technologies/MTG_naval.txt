@@ -879,13 +879,13 @@ technologies = {
 			ship_hull_cruiser_role_clc
 		}
 
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1925
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1924_module }
+			position = { x = -4 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -2945,6 +2945,14 @@ technologies = {
 			leads_to_tech = diesel_electric_transmission
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = acoustic_signature
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = teardrop_hull
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
 
@@ -3204,7 +3212,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1914_module_2 }
+			position = { x = 1 y = @1914_module_2 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -3212,6 +3220,52 @@ technologies = {
 				factor = 7
 				has_navy_size = { size > 40 unit = submarine }
 			}
+		}
+
+		categories = {
+			ss_tech
+		}
+	}
+	
+	acoustic_signature = {
+		research_cost = 1
+
+		start_year = 1920
+		submarine = {
+			surface_detection = 0.05
+		}
+		navy_submarine_detection_factor = 0.05
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1924 }
+		}
+		dependencies = {
+			sonar = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			ss_tech
+		}
+	}
+	
+	teardrop_hull = {
+		research_cost = 0.5
+
+		start_year = 1919
+		submarine = {
+			naval_speed = 0.1
+		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = @1924 }
+		}
+		ai_will_do = {
+			factor = 1
 		}
 
 		categories = {
@@ -3356,7 +3410,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1914_module_2 }
+			position = { x = -3 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -3412,7 +3466,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1940_module }
+			position = { x = -3 y = @1940_module }
 		}
 
 		ai_will_do = {
@@ -3599,6 +3653,7 @@ technologies = {
 	naval_radio_guiding_system = {
 		dependencies = {
 			radio_detection = 1
+			improved_computing_machine = 1
 		}
 		path = {
 			leads_to_tech = ship_to_ship_missile

@@ -74,6 +74,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/navy_techtree/cruiser_gun_upgrade.png"
 	}
 	spriteType = {
+		name = "GFX_colony_cruiser_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/colony_cruiser.png"
+	}
+	spriteType = {
 		name = "GFX_cruiser_radar_sentry_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/cruiser_radar_sentry.png"
 	}
@@ -243,6 +247,14 @@ spriteTypes = {
 		name = "GFX_folding_wing_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/folding_wing.png"
 	}
+	spriteType = {
+		name = "GFX_carrier_damage_control_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/carrier_damage_control.png"
+	}
+	spriteType = {
+		name = "GFX_air_fuel_storage_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/air_fuel_storage.png"
+	}
 	
 	spriteType = {
 		name = "GFX_basic_ballast_tank_medium"
@@ -271,6 +283,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_sub_AIP_engine_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/sub_AIP_engine.png"
+	}
+	spriteType = {
+		name = "GFX_acoustic_signature_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/acoustic_signature.png"
+	}
+	spriteType = {
+		name = "GFX_teardrop_hull_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/teardrop_hull.png"
 	}
 	
 	spriteType = {
