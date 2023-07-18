@@ -5148,6 +5148,8 @@ equipment_modules = {
     	category = dd_role
 		forbid_module_categories = {
 			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 		}
 	}
 	ship_hull_light_role_dl = {
@@ -5160,6 +5162,8 @@ equipment_modules = {
     	}
 		forbid_module_categories = {
 			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 		}
 	}
 	ship_hull_light_role_de = {
@@ -5172,6 +5176,8 @@ equipment_modules = {
     	}
 		forbid_module_categories = {
 			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 			ship_torpedo
 		}
 	}

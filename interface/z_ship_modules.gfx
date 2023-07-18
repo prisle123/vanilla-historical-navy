@@ -122,6 +122,15 @@ spriteTypes = {
 		name = "GFX_SMI_modern_deck_space"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/modern_deck_space_1.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_all"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/light_battery_icn.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_all"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_light_battery_icn.dds"
+	}
+	
 	
 	# topview images
 	spriteType = {
@@ -163,6 +172,38 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SM_heavy_hull_rear_double_super_heavy_battery@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_double_super_heavy_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_triple_medium_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_triple_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_triple_medium_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_triple_medium_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_triple_medium_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_rear_triple_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_triple_medium_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_rear_triple_medium_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_fixed_double_light_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/light_hull_double_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_fixed_double_light_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/light_hull_double_light_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_double_light_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/light_hull_rear_double_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_double_light_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/light_hull_rear_double_light_battery@highlight.dds"
 	}
 	spriteType = {
 		name = "GFX_SD_tv_alicorn"
