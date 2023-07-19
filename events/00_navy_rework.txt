@@ -1,5 +1,6 @@
 add_namespace = navy_rework
 
+# load starting naval designs and fleet and techs
 country_event = {
     id = navy_rework.0
 
@@ -160,6 +161,7 @@ country_event = {
     }
 }
 
+# add Alicorn
 country_event = {
 	id = navy_rework.1
 	title = navy_rework.1.t
@@ -173,6 +175,8 @@ country_event = {
 		FROM = { create_alicorn = yes }
 	}
 }
+
+# add USS Constitution
 country_event = {
 	id = navy_rework.2
 	title = navy_rework.2.t
@@ -214,6 +218,8 @@ country_event = {
 		FROM = { create_constitution = yes }
 	}
 }
+
+# add SDF-1
 country_event = {
 	id = navy_rework.3
 	title = navy_rework.3.t
@@ -227,6 +233,8 @@ country_event = {
 		FROM = { create_macross = yes }
 	}
 }
+
+# add Space Battleship Yamato
 country_event = {
 	id = navy_rework.4
 	title = navy_rework.4.t
@@ -248,6 +256,8 @@ country_event = {
 		FROM = { create_space_yamato = yes }
 	}
 }
+
+# Consitution event: Omaha Chase
 country_event = {
 	id = navy_rework.5
 	title = navy_rework.5.t
@@ -261,6 +271,8 @@ country_event = {
 		FROM = { country_event = {id = navy_rework.6 days = 1} }
 	}
 }
+
+# Consitution event: Talk with Ironsides
 country_event = {
 	id = navy_rework.6
 	title = navy_rework.6.t
@@ -289,6 +301,7 @@ country_event = {
 	}
 }
 
+# Confirm check for behemoths
 country_event = {
 	id = navy_rework.100
 	title = navy_rework.100.t

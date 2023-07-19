@@ -1,5 +1,6 @@
 add_namespace = ai_ships
 
+# GER AI template 1940
 country_event = {
 	id = ai_ships.0
 	
@@ -88,6 +89,7 @@ country_event = {
 	}
 }
 
+# GER AI template 1943
 country_event = {
 	id = ai_ships.1
 	
@@ -194,7 +196,7 @@ country_event = {
 	}
 }
 
-
+# ENG AI template 1940
 country_event = {
 	id = ai_ships.2
 	
@@ -300,7 +302,7 @@ country_event = {
 	}
 }
 
-
+# ENG AI template 1943
 country_event = {
 	id = ai_ships.3
 	
@@ -410,6 +412,7 @@ country_event = {
 	}
 }
 
+# JAP AI template 1940
 country_event = {
 	id = ai_ships.4
 	
@@ -538,6 +541,7 @@ country_event = {
 	}
 }
 
+# JAP AI template 1943
 country_event = {
 	id = ai_ships.5
 	
@@ -666,6 +670,7 @@ country_event = {
 	}
 }
 
+# USA AI template 1940
 country_event = {
 	id = ai_ships.6
 	hidden = yes
@@ -790,6 +795,7 @@ country_event = {
 	}
 }
 
+# USA AI template 1943
 country_event = {
 	id = ai_ships.7
 	hidden = yes
@@ -941,6 +947,7 @@ country_event = {
 	}
 }
 
+# FRA AI template 1940
 country_event = {
 	id = ai_ships.8
 	hidden = yes
@@ -1027,6 +1034,7 @@ country_event = {
 	}
 }
 
+# FRA AI template 1943
 country_event = {
 	id = ai_ships.9
 	hidden = yes
@@ -1132,6 +1140,7 @@ country_event = {
 	}
 }
 
+# ITA AI template 1940
 country_event = {
 	id = ai_ships.10
 	hidden = yes
@@ -1219,6 +1228,7 @@ country_event = {
 	}
 }
 
+# ITA AI template 1943
 country_event = {
 	id = ai_ships.11
 	hidden = yes
@@ -1396,6 +1406,7 @@ country_event = {
 	}
 }
 
+# unlock some naval techs for major powers in 1940
 country_event = {
 	id = ai_ships.101
 	hidden = yes
@@ -1449,6 +1460,7 @@ country_event = {
 	}
 }
 
+# unlock some naval techs for major powers in 1943
 country_event = {
 	id = ai_ships.102
 	hidden = yes
@@ -1494,6 +1506,7 @@ country_event = {
 	}
 }
 
+# unlock some naval techs for major powers in 1944
 country_event = {
 	id = ai_ships.103
 	hidden = yes

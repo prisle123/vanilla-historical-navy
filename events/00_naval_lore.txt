@@ -1,5 +1,6 @@
 add_namespace = naval_lore
 
+# first page of ship hull code intro
 country_event = {
     id = naval_lore.0
     title = naval_lore.0.t
@@ -15,7 +16,7 @@ country_event = {
         name = naval_lore.0.2
     }
 }
-
+# second page of ship hull code intro
 country_event = {
     id = naval_lore.1
     title = naval_lore.0.t
