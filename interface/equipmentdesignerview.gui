@@ -825,7 +825,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "module_selector_window"
 			position = { x=2 y=40 }
-			size = { width=538 height=464 }
+			size = { width=538 height=500 }
 			verticalScrollbar = "right_vertical_slider"
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
@@ -843,7 +843,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "icon_module_slot"
-				position = { x=17 y=18 }
+				position = { x=17 y=14 }
 				#size = { width=76 height=47 }
 				spriteType = "GFX_locked_icon"
 				#Orientation = "CENTER"

@@ -101,4 +101,20 @@ navy_rework_category = {
             country_event = navy_rework.4
         }
     }
+
+    add_kuk_never_built_blueprints = {
+        allowed = {
+            OR = {
+                tag = AUS
+                tag = HUN
+            }
+        }
+        available = {
+            num_of_naval_factories > 0
+        }
+        fire_only_once = yes
+        complete_effect = {
+            KuK_never_built_blueprints = yes
+        }
+    }
 }

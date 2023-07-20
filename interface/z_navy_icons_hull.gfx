@@ -2240,5 +2240,185 @@ spriteTypes = {
         		name = "GFX_YUG_vnr_ship_hull_cruiser_4_medium"
         		texturefile = "gfx/interface/technologies/Yugoslavia/YUG_light_cruiser4.png"
         	}
+			
+### AUS ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_cruiser_coastal_defense_ship.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_cruiser5.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_AUS_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_battleship1.png"
+        	}
+
+### HUN ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_destroyer5.png"
+        	}
+	# light cruiser
+
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_cruiser_1_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_cruiser_4_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_cruiser_5_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_light_cruiser5.png"
+        	}
+	# heavy cruiser
+
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_cruiser_coastal_defense_ship.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_cruiser_1_capital_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_cruiser_3_capital_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_cruiser_4_capital_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_cruiser_5_capital_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_cruiser5.png"
+        	}
+	# battleship
+
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_pre_dreadnought.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_heavy_2_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_heavy_3_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_heavy_4_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_HUN_vnr_ship_hull_super_heavy_1_medium"
+        		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_heavy_battleship1.png"
+        	}
 }
 

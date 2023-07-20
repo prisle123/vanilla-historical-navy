@@ -13,6 +13,7 @@ equipment_modules = {
 	ship_light_battery_1 = {
 		abbreviation = "saa"
 		category = ship_light_battery
+		gui_category = ship_light_battery_all
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -30,6 +31,10 @@ equipment_modules = {
 			module_category = ship_light_battery
 			convert_cost_ic = 6
 		}
+		can_convert_from = {
+			module_category = ship_light_battery_double
+			convert_cost_ic = 8
+		}
 
 		critical_parts = { damaged_light_guns }
 	}
@@ -37,6 +42,7 @@ equipment_modules = {
 	ship_light_battery_2 = {
 		abbreviation = "sab"
 		category = ship_light_battery
+		gui_category = ship_light_battery_all
 		parent = ship_light_battery_1
 		sfx = sfx_ui_sd_module_turret
 		
@@ -56,10 +62,9 @@ equipment_modules = {
 			module_category = ship_light_battery
 			convert_cost_ic = 10 #conversion cost from ANY ship_light_battery module
 		}
-		
 		can_convert_from = {
-			module = ship_light_battery_1
-			convert_cost_ic = 7 #conversion cost from that specific module
+			module_category = ship_light_battery_double
+			convert_cost_ic = 14 #conversion cost from ANY ship_light_battery module
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -67,6 +72,7 @@ equipment_modules = {
 	ship_light_battery_3 = {
 		abbreviation = "sac"
 		category = ship_light_battery
+		gui_category = ship_light_battery_all
 		parent = ship_light_battery_2
 		sfx = sfx_ui_sd_module_turret
 		
@@ -83,12 +89,11 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 10
+			convert_cost_ic = 15
 		}
-		
 		can_convert_from = {
-			module= ship_light_battery_2
-			convert_cost_ic = 7
+			module_category = ship_light_battery
+			convert_cost_ic = 20 #conversion cost from ANY ship_light_battery module
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -96,6 +101,7 @@ equipment_modules = {
 	ship_light_battery_4 = {
 		abbreviation = "sad"
 		category = ship_light_battery
+		gui_category = ship_light_battery_all
 		parent = ship_light_battery_3
 		sfx = sfx_ui_sd_module_turret
 		
@@ -114,17 +120,17 @@ equipment_modules = {
 			module_category = ship_light_battery
 			convert_cost_ic = 25
 		}
-			
 		can_convert_from = {
-			module = ship_light_battery_3
-			convert_cost_ic = 15
+			module_category = ship_light_battery_double
+			convert_cost_ic = 30 #conversion cost from ANY ship_light_battery module
 		}
 		critical_parts = { damaged_light_guns }
 	}
 	
 	ship_light_battery_1_double = {
 		abbreviation = "saad"
-		category = ship_light_battery
+		category = ship_light_battery_double
+		gui_category = ship_light_battery_all
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -142,13 +148,18 @@ equipment_modules = {
 			module_category = ship_light_battery
 			convert_cost_ic = 12
 		}
+		can_convert_from = {
+			module_category = ship_light_battery_double
+			convert_cost_ic = 10
+		}
 
 		critical_parts = { damaged_light_guns }
 	}
 
 	ship_light_battery_2_double = {
 		abbreviation = "sabd"
-		category = ship_light_battery
+		category = ship_light_battery_double
+		gui_category = ship_light_battery_all
 		parent = ship_light_battery_1_double
 		sfx = sfx_ui_sd_module_turret
 		
@@ -168,17 +179,17 @@ equipment_modules = {
 			module_category = ship_light_battery
 			convert_cost_ic = 20 #conversion cost from ANY ship_light_battery module
 		}
-		
 		can_convert_from = {
-			module = ship_light_battery_1
-			convert_cost_ic = 14 #conversion cost from that specific module
+			module_category = ship_light_battery_double
+			convert_cost_ic = 15
 		}
 		critical_parts = { damaged_light_guns }
 	}
 
 	ship_light_battery_3_double = {
 		abbreviation = "sacd"
-		category = ship_light_battery
+		category = ship_light_battery_double
+		gui_category = ship_light_battery_all
 		parent = ship_light_battery_2_double
 		sfx = sfx_ui_sd_module_turret
 		
@@ -195,19 +206,19 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 20
+			convert_cost_ic = 40
 		}
-		
 		can_convert_from = {
-			module= ship_light_battery_2
-			convert_cost_ic = 14
+			module_category = ship_light_battery_double
+			convert_cost_ic = 30
 		}
 		critical_parts = { damaged_light_guns }
 	}
 
 	ship_light_battery_4_double = {
 		abbreviation = "sadd"
-		category = ship_light_battery
+		category = ship_light_battery_double
+		gui_category = ship_light_battery_all
 		parent = ship_light_battery_3_double
 		sfx = sfx_ui_sd_module_turret
 		
@@ -226,10 +237,9 @@ equipment_modules = {
 			module_category = ship_light_battery
 			convert_cost_ic = 50
 		}
-			
 		can_convert_from = {
-			module = ship_light_battery_3
-			convert_cost_ic = 30
+			module_category = ship_light_battery_double
+			convert_cost_ic = 40
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -237,6 +247,7 @@ equipment_modules = {
 	dp_light_battery_1 = {
 		abbreviation = "sae"
 		category = dp_light_battery
+		gui_category = dp_light_battery_all
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -253,8 +264,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = ship_light_battery
-			convert_cost_ic = 80
+			module_category = dp_light_battery
+			convert_cost_ic = 30
+		}
+		can_convert_from = {
+			module_category = dp_light_battery_single
+			convert_cost_ic = 40
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -262,6 +277,7 @@ equipment_modules = {
 	dp_light_battery_2 = {
 		abbreviation = "saf"
 		category = dp_light_battery
+		gui_category = dp_light_battery_all
 		parent = dp_light_battery_1
 		sfx = sfx_ui_sd_module_turret
 	
@@ -279,13 +295,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = ship_light_battery
-			convert_cost_ic = 65 #conversion cost from ANY ship_light_battery module
+			module_category = dp_light_battery
+			convert_cost_ic = 50
 		}
-		
 		can_convert_from = {
-			module = ship_light_battery_1
-			convert_cost_ic = 45 #conversion cost from that specific module
+			module_category = dp_light_battery_single
+			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -293,6 +308,7 @@ equipment_modules = {
 	dp_light_battery_3 = {
 		abbreviation = "sag"
 		category = dp_light_battery
+		gui_category = dp_light_battery_all
 		parent = dp_light_battery_2
 		sfx = sfx_ui_sd_module_turret
 	
@@ -310,13 +326,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = ship_light_battery
-			convert_cost_ic = 65
+			module_category = dp_light_battery
+			convert_cost_ic = 60
 		}
-		
 		can_convert_from = {
-			module= ship_light_battery_2
-			convert_cost_ic = 45
+			module_category = dp_light_battery_single
+			convert_cost_ic = 80
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -324,6 +339,7 @@ equipment_modules = {
 	dp_light_battery_4 = {
 		abbreviation = "sah"
 		category = dp_light_battery
+		gui_category = dp_light_battery_all
 		parent = dp_light_battery_3
 		sfx = sfx_ui_sd_module_turret
 	
@@ -341,19 +357,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = ship_light_battery
-			convert_cost_ic = 150
+			module_category = dp_light_battery
+			convert_cost_ic = 75
 		}
-			
 		can_convert_from = {
-			module = ship_light_battery_3
-			convert_cost_ic = 70
+			module_category = dp_light_battery_single
+			convert_cost_ic = 90
 		}
 		critical_parts = { damaged_light_guns }
 	}
 	
 	dp_light_battery_1_single = {
-		category = dp_light_battery
+		category = dp_light_battery_single
+		gui_category = dp_light_battery_all
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
@@ -370,14 +386,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = ship_light_battery
-			convert_cost_ic = 80
+			module_category = dp_light_battery
+			convert_cost_ic = 40
+		}
+		can_convert_from = {
+			module_category = dp_light_battery_single
+			convert_cost_ic = 30
 		}
 		critical_parts = { damaged_light_guns }
 	}
 
 	dp_light_battery_2_single = {
-		category = dp_light_battery
+		category = dp_light_battery_single
+		gui_category = dp_light_battery_all
 		parent = dp_light_battery_1_single
 		sfx = sfx_ui_sd_module_turret
 	
@@ -395,19 +416,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = ship_light_battery
-			convert_cost_ic = 65 #conversion cost from ANY ship_light_battery module
+			module_category = dp_light_battery
+			convert_cost_ic = 60
 		}
-		
 		can_convert_from = {
-			module = ship_light_battery_1
-			convert_cost_ic = 45 #conversion cost from that specific module
+			module_category = dp_light_battery_single
+			convert_cost_ic = 40
 		}
 		critical_parts = { damaged_light_guns }
 	}
 
 	dp_light_battery_3_single = {
-		category = dp_light_battery
+		category = dp_light_battery_single
+		gui_category = dp_light_battery_all
 		parent = dp_light_battery_2_single
 		sfx = sfx_ui_sd_module_turret
 	
@@ -425,19 +446,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = ship_light_battery
-			convert_cost_ic = 65
+			module_category = dp_light_battery
+			convert_cost_ic = 70
 		}
-		
 		can_convert_from = {
-			module= ship_light_battery_2
-			convert_cost_ic = 45
+			module_category = dp_light_battery_single
+			convert_cost_ic = 50
 		}
 		critical_parts = { damaged_light_guns }
 	}
 
 	dp_light_battery_4_single = {
-		category = dp_light_battery
+		category = dp_light_battery_single
+		gui_category = dp_light_battery_all
 		parent = dp_light_battery_3_single
 		sfx = sfx_ui_sd_module_turret
 	
@@ -455,13 +476,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = ship_light_battery
-			convert_cost_ic = 150
+			module_category = dp_light_battery
+			convert_cost_ic = 80
 		}
-			
 		can_convert_from = {
-			module = ship_light_battery_3
-			convert_cost_ic = 70
+			module_category = dp_light_battery_single
+			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -1318,6 +1338,7 @@ equipment_modules = {
 	ship_medium_battery_1 = {
 		abbreviation = "san"
 		category = ship_medium_battery
+		gui_category = ship_medium_battery_multi
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 		add_stats = {
@@ -1354,6 +1375,7 @@ equipment_modules = {
 	ship_medium_battery_2 = {
 		abbreviation = "sao"
 		category = ship_medium_battery
+		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_1
 		sfx = sfx_ui_sd_module_turret
 
@@ -1392,6 +1414,7 @@ equipment_modules = {
 	ship_medium_battery_3 = {
 		abbreviation = "sap"
 		category = ship_medium_battery
+		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_2
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -1420,22 +1443,17 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 250
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_medium_battery_2
 			convert_cost_ic = 175
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_medium_battery_4 = {
 		abbreviation = "saq"
 		category = ship_medium_battery
+		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_3
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -1464,9 +1482,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 300
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_medium_battery_3
@@ -1477,8 +1492,8 @@ equipment_modules = {
 	
 	ship_medium_battery_1_double = {
 		abbreviation = "sand"
-		category = ship_medium_battery
-		gui_category = ship_medium_battery_double
+		category = ship_medium_battery_double
+		gui_category = ship_medium_battery_multi
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 		add_stats = {
@@ -1514,8 +1529,8 @@ equipment_modules = {
 	}
 	ship_medium_battery_2_double = {
 		abbreviation = "saod"
-		category = ship_medium_battery
-		gui_category = ship_medium_battery_double
+		category = ship_medium_battery_double
+		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_1_double
 		sfx = sfx_ui_sd_module_turret
 
@@ -1553,8 +1568,8 @@ equipment_modules = {
 	}
 	ship_medium_battery_3_double = {
 		abbreviation = "sapd"
-		category = ship_medium_battery
-		gui_category = ship_medium_battery_double
+		category = ship_medium_battery_double
+		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_2_double
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -1583,23 +1598,17 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 240
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_medium_battery_2
 			convert_cost_ic = 165
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_medium_battery_4_double = {
 		abbreviation = "saqd"
-		category = ship_medium_battery
-		gui_category = ship_medium_battery_double
+		category = ship_medium_battery_double
+		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_3_double
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -1628,9 +1637,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 275
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_medium_battery_3
@@ -1670,9 +1676,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_heavy_battery
 			convert_cost_ic = 275
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
@@ -1707,9 +1710,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_heavy_battery
 			convert_cost_ic = 350
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
@@ -1745,9 +1745,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_heavy_battery
 			convert_cost_ic = 300
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
@@ -1782,9 +1779,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_heavy_battery
 			convert_cost_ic = 400
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
@@ -1793,7 +1787,7 @@ equipment_modules = {
 	ship_light_medium_battery_1 = {
 		abbreviation = "sar"
 		category = ship_light_medium_battery
-		gui_category = ship_light_medium_battery
+		gui_category = ship_light_medium_battery_multi
 
 		sfx = sfx_ui_sd_module_turret
 
@@ -1822,7 +1816,7 @@ equipment_modules = {
 	ship_light_medium_battery_2 = {
 		abbreviation = "sas"
 		category = ship_light_medium_battery
-		gui_category = ship_light_medium_battery
+		gui_category = ship_light_medium_battery_multi
 		parent = ship_light_medium_battery_1
 		sfx = sfx_ui_sd_module_turret
 
@@ -1845,9 +1839,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 300
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_1
@@ -1858,7 +1849,7 @@ equipment_modules = {
 	ship_light_medium_battery_3 = {
 		abbreviation = "sat"
 		category = ship_light_medium_battery
-		gui_category = ship_light_medium_battery
+		gui_category = ship_light_medium_battery_multi
 		parent = ship_light_medium_battery_2
 		sfx = sfx_ui_sd_module_turret
 		
@@ -1883,9 +1874,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 400
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_2
@@ -1896,7 +1884,7 @@ equipment_modules = {
 	ship_light_medium_battery_4 = {
 		abbreviation = "sau"
 		category = ship_light_medium_battery
-		gui_category = ship_light_medium_battery
+		gui_category = ship_light_medium_battery_multi
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3
 		add_stats = {
@@ -1921,9 +1909,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 450
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_3
@@ -1935,8 +1920,8 @@ equipment_modules = {
 	# double light medium
 	ship_light_medium_battery_1_double = {
 		abbreviation = "sard"
-		category = ship_light_medium_battery
-		gui_category = ship_light_medium_battery_double
+		category = ship_light_medium_battery_double
+		gui_category = ship_light_medium_battery_multi
 
 		sfx = sfx_ui_sd_module_turret
 
@@ -1964,8 +1949,8 @@ equipment_modules = {
 	}
 	ship_light_medium_battery_2_double = {
 		abbreviation = "sasd"
-		category = ship_light_medium_battery
-		gui_category = ship_light_medium_battery_double
+		category = ship_light_medium_battery_double
+		gui_category = ship_light_medium_battery_multi
 		parent = ship_light_medium_battery_1_double
 		sfx = sfx_ui_sd_module_turret
 
@@ -1988,9 +1973,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 275
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_1
@@ -2000,8 +1982,8 @@ equipment_modules = {
 	}
 	ship_light_medium_battery_3_double = {
 		abbreviation = "satd"
-		category = ship_light_medium_battery
-		gui_category = ship_light_medium_battery_double
+		category = ship_light_medium_battery_double
+		gui_category = ship_light_medium_battery_multi
 		parent = ship_light_medium_battery_2_double
 		sfx = sfx_ui_sd_module_turret
 		
@@ -2026,9 +2008,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 375
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_2
@@ -2038,8 +2017,8 @@ equipment_modules = {
 	}
 	ship_light_medium_battery_4_double = {
 		abbreviation = "saud"
-		category = ship_light_medium_battery
-		gui_category = ship_light_medium_battery_double
+		category = ship_light_medium_battery_double
+		gui_category = ship_light_medium_battery_multi
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3_double
 		add_stats = {
@@ -2064,9 +2043,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 400
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_3
@@ -2078,7 +2054,7 @@ equipment_modules = {
 	# single light medium
 	ship_light_medium_battery_1_single = {
 		abbreviation = "sars"
-		category = ship_light_medium_battery
+		category = ship_light_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 
 		sfx = sfx_ui_sd_module_turret
@@ -2107,7 +2083,7 @@ equipment_modules = {
 	}
 	ship_light_medium_battery_2_single = {
 		abbreviation = "sass"
-		category = ship_light_medium_battery
+		category = ship_light_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 		parent = ship_light_medium_battery_1_single
 		sfx = sfx_ui_sd_module_turret
@@ -2131,9 +2107,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 240
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_1
@@ -2143,7 +2116,7 @@ equipment_modules = {
 	}
 	ship_light_medium_battery_3_single = {
 		abbreviation = "sats"
-		category = ship_light_medium_battery
+		category = ship_light_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 		parent = ship_light_medium_battery_2_single
 		sfx = sfx_ui_sd_module_turret
@@ -2169,9 +2142,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 300
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_2
@@ -2181,7 +2151,7 @@ equipment_modules = {
 	}
 	ship_light_medium_battery_4_single = {
 		abbreviation = "saus"
-		category = ship_light_medium_battery
+		category = ship_light_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3_single
@@ -2207,9 +2177,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 300
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_3
@@ -2221,9 +2188,9 @@ equipment_modules = {
 	dp_ship_medium_1 = {
 		abbreviation = "sdq"
 		category = ship_light_medium_battery
-		gui_category = ship_medium_battery
+		gui_category = ship_light_medium_battery_multi
 		sfx = sfx_ui_sd_module_turret
-		parent = ship_light_medium_battery_3
+		parent = ship_light_medium_battery_4
 		add_stats = {
 			lg_attack = 6
 			anti_air_attack = 4
@@ -2246,9 +2213,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 500
-			convert_cost_resources = {
-				steel = 1
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_3
@@ -3906,9 +3870,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_torpedo
 			convert_cost_ic = 60
-			convert_cost_resources = {
-				steel = 0
-			}
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -5187,6 +5148,8 @@ equipment_modules = {
     	category = dd_role
 		forbid_module_categories = {
 			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 		}
 	}
 	ship_hull_light_role_dl = {
@@ -5199,6 +5162,8 @@ equipment_modules = {
     	}
 		forbid_module_categories = {
 			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 		}
 	}
 	ship_hull_light_role_de = {
@@ -5211,6 +5176,8 @@ equipment_modules = {
     	}
 		forbid_module_categories = {
 			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 			ship_torpedo
 		}
 	}
@@ -5222,7 +5189,7 @@ equipment_modules = {
     	multiply_stats = {
         	max_strength = 0.2
         	naval_speed = -0.1
-        	build_cost_ic = 0.3
+        	build_cost_ic = 0.25
     	}
 	}
 	ship_hull_cruiser_role_c = {
@@ -5273,7 +5240,7 @@ equipment_modules = {
 		category = c_role
 		multiply_stats = {
 			anti_air_attack = 0.1
-			build_cost_ic = 0.3
+			build_cost_ic = 0.2
 			reliability = 0.1
 		}
 	}
