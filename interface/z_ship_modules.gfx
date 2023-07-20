@@ -206,6 +206,22 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/light_hull_rear_double_light_battery@highlight.dds"
 	}
 	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_1_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_1_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_1_deck_space@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_1_deck_space@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_2_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_2_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_2_deck_space@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_2_deck_space@highlight.dds"
+	}
+	spriteType = {
 		name = "GFX_SD_tv_alicorn"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_alicorn.dds"
 	}

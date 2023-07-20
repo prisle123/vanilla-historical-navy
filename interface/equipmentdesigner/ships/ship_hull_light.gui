@@ -89,7 +89,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery"
-						position = { x=385 y=0 }
+						position = { x=385 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -100,7 +100,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery@highlight"
-						position = { x=385 y=0 }
+						position = { x=385 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -202,7 +202,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery"
-						position = { x=385 y=0 }
+						position = { x=385 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -213,7 +213,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery@highlight"
-						position = { x=385 y=0 }
+						position = { x=385 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -224,7 +224,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery"
-						position = { x=385 y=0 }
+						position = { x=385 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -235,7 +235,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery@highlight"
-						position = { x=385 y=0 }
+						position = { x=385 y=-1 }
 					}
 				}
 			}
@@ -254,7 +254,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery"
-						position = { x=360 y=0 }
+						position = { x=360 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -265,7 +265,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery@highlight"
-						position = { x=360 y=0 }
+						position = { x=360 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -366,7 +366,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery"
-						position = { x=360 y=0 }
+						position = { x=360 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -377,7 +377,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery@highlight"
-						position = { x=360 y=0 }
+						position = { x=360 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -388,7 +388,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery"
-						position = { x=360 y=0 }
+						position = { x=360 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -399,7 +399,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery@highlight"
-						position = { x=360 y=0 }
+						position = { x=360 y=-1 }
 					}
 				}
 			}
@@ -722,7 +722,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery"
-						position = { x=340 y=0 }
+						position = { x=340 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -733,7 +733,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery@highlight"
-						position = { x=340 y=0 }
+						position = { x=340 y=-1 }
 					}
 				}
 				containerWindowType = {
@@ -744,7 +744,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery"
-						position = { x=340 y=0 }
+						position = { x=340 y=-1 }
 					}
 				}
 				
@@ -756,7 +756,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery@highlight"
-						position = { x=340 y=0 }
+						position = { x=340 y=-1 }
 					}
 				}
 			}
@@ -946,7 +946,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery"
-						position = { x=170 y=0 }
+						position = { x=170 y=-2 }
 					}
 				}
 				
@@ -958,7 +958,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery@highlight"
-						position = { x=170 y=0 }
+						position = { x=170 y=-2 }
 					}
 				}
 
@@ -970,7 +970,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery"
-						position = { x=170 y=0 }
+						position = { x=170 y=-2 }
 					}
 				}
 				
@@ -982,7 +982,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_fixed_double_light_battery@highlight"
-						position = { x=170 y=0 }
+						position = { x=170 y=-2 }
 					}
 				}
 			}
@@ -1169,7 +1169,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery"
-						position = { x=110 y=0 }
+						position = { x=110 y=-2 }
 					}
 				}
 				
@@ -1181,7 +1181,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery@highlight"
-						position = { x=110 y=0 }
+						position = { x=110 y=-2 }
 					}
 				}
 
@@ -1193,7 +1193,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery"
-						position = { x=110 y=0 }
+						position = { x=110 y=-2 }
 					}
 				}
 				
@@ -1205,7 +1205,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery@highlight"
-						position = { x=110 y=0 }
+						position = { x=110 y=-2 }
 					}
 				}
 			}
@@ -1391,7 +1391,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery"
-						position = { x=70 y=0 }
+						position = { x=70 y=-2 }
 					}
 				}
 				containerWindowType = {
@@ -1402,7 +1402,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery@highlight"
-						position = { x=70 y=0 }
+						position = { x=70 y=-2 }
 					}
 				}
 
@@ -1414,7 +1414,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery"
-						position = { x=70 y=0 }
+						position = { x=70 y=-2 }
 					}
 				}
 				containerWindowType = {
@@ -1425,7 +1425,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery@highlight"
-						position = { x=70 y=0 }
+						position = { x=70 y=-2 }
 					}
 				}
 			}
@@ -1677,7 +1677,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery"
-						position = { x=91 y=0 }
+						position = { x=91 y=-2 }
 					}
 				}
 				containerWindowType = {
@@ -1688,7 +1688,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery@highlight"
-						position = { x=91 y=0 }
+						position = { x=91 y=-2 }
 					}
 				}
 
@@ -1700,7 +1700,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery"
-						position = { x=91 y=0 }
+						position = { x=91 y=-2 }
 					}
 				}
 				containerWindowType = {
@@ -1711,7 +1711,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_rear_double_light_battery@highlight"
-						position = { x=91 y=0 }
+						position = { x=91 y=-2 }
 					}
 				}
 			}

@@ -109,7 +109,7 @@ navy_rework_category = {
                 tag = HUN
             }
         }
-        visible = {
+        available = {
             num_of_naval_factories > 0
         }
         fire_only_once = yes

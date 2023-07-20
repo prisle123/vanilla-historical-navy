@@ -1521,6 +1521,30 @@ guiTypes = {
 						position = { x=50 y=3 }
 					}
 				}
+				
+				#### MODULE: Deck Space ####
+				containerWindowType = {
+					name = "ship_deck_space_bb"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_rear_2_deck_space"
+						position = { x=-8 y=80 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_deck_space_bb@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_rear_2_deck_space@highlight"
+						position = { x=-8 y=80 }
+					}
+				}
 			}
 			################# MODULE SLOT: Custom, Rear #1 #################
 			containerWindowType = {
@@ -1757,6 +1781,30 @@ guiTypes = {
 						name = "highlight"
 						spriteType = "GFX_SM_heavy_hull_rear_quad_heavy_battery@highlight"
 						position = { x=79 y=3 }
+					}
+				}
+				
+				#### MODULE: Deck Space ####
+				containerWindowType = {
+					name = "ship_deck_space_bb"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_rear_1_deck_space"
+						position = { x=-8 y=80 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_deck_space_bb@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_heavy_hull_rear_1_deck_space@highlight"
+						position = { x=-8 y=80 }
 					}
 				}
 			}
