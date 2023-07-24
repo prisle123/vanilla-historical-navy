@@ -2413,4 +2413,383 @@ technologies = {
 			tp_tech
 		}
 	}
+
+	# naval integrated support tech tree
+	naval_combat_support = {
+		research_cost = 0.5
+		start_year = 1914
+		force_use_small_tech_layout = yes
+
+		path = {
+			leads_to_tech = basic_port_facility
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 3
+				has_navy_size > 50
+			}
+		}
+
+		enable_equipments = {
+			vnr_ship_hull_civilian_1
+		}
+		enable_equipment_modules = {
+			fuel_tanker_silo
+			civilian_ship_engine_1
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	# port facility branch
+	basic_port_facility = {
+		research_cost = 0.5
+		start_year = 1918
+
+		path = {
+			leads_to_tech = large_shipyard
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		production_speed_naval_base_factor = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	large_shipyard = {
+		research_cost = 0.6
+		start_year = 1924
+
+		path = {
+			leads_to_tech = port_construction_corps
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		industrial_capacity_dockyard = 0.05
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_crane = {
+		research_cost = 0.5
+		start_year = 1925
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		refit_speed = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	dry_dock = {
+		research_cost = 0.5
+		start_year = 1922
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		repair_speed_factor = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	port_construction_corps = {
+		research_cost = 0.75
+		start_year = 1936
+
+		path = {
+			leads_to_tech = integrated_shipyard_complex
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		repair_speed_naval_base_factor = 0.1
+		repair_speed_dockyard_factor = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	integrated_shipyard_complex = {
+		research_cost = 1.25
+		start_year = 1942
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		industrial_capacity_dockyard = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+
+	# auxiliary ship branch
+	speed_over_range = {
+		research_cost = 0.5
+		start_year = 1925
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = high_speed_civilian_engine
+			research_cost_coeff = 1
+		}
+		XOR = { range_over_speed }
+
+		auxiliary_ship = {
+			naval_speed = 0.2
+			naval_range = -0.2
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	range_over_speed = {
+		research_cost = 0.5
+		start_year = 1925
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = armed_civilian_ship
+			research_cost_coeff = 1
+		}
+		XOR = { speed_over_range }
+
+		auxiliary_ship = {
+			naval_speed = -0.2
+			naval_range = 0.2
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	high_speed_civilian_engine = {
+		research_cost = 1
+		start_year = 1936
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = fast_combat_support_ship
+			research_cost_coeff = 1
+		}
+		auxiliary_ship = {
+			surface_visibility = -0.1
+		}
+
+		enable_equipment_modules = {
+			civilian_ship_engine_2
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	fast_combat_support_ship = {
+		research_cost = 2
+		start_year = 1943
+
+		enable_equipments = {
+			vnr_ship_hull_civilian_2_a
+		}
+		enable_equipment_modules = {
+			ship_heavy_mg_1
+			ship_civilian_light_battery_1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	armed_civilian_ship = {
+		research_cost = 1
+		start_year = 1936
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = integrated_supply_ship
+			research_cost_coeff = 1
+		}
+		auxiliary_ship = {
+			max_strength = 0.1
+		}
+
+		enable_equipment_modules = {
+			ship_heavy_mg_1
+			ship_civilian_light_battery_1
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	integrated_supply_ship = {
+		research_cost = 2
+		start_year = 1943
+
+		ai_will_do = {
+			factor = 1
+		}
+		enable_equipments = {
+			vnr_ship_hull_civilian_2_b
+		}
+		enable_equipment_modules = {
+			civilian_ship_engine_2
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	repair_ship = {
+		research_cost = 0.4
+		start_year = 1920
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = floating_dry_dock
+			research_cost_coeff = 1
+		}
+
+		repair_speed_factor = 0.05
+		categories = {
+			naval_equipment
+		}
+	}
+	floating_dry_dock = {
+		research_cost = 1
+		start_year = 1936
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = logistic_system_redundancy
+			research_cost_coeff = 1
+		}
+
+		repair_speed_factor = 0.1
+		naval_accidents_chance = -0.1
+
+		categories = {
+			naval_equipment
+		}
+	}
+	logistic_system_redundancy = {
+		research_cost = 1
+		start_year = 1942
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		auxiliary_ship = {
+			build_cost_ic = -0.1
+		}
+		navy_org_factor = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	hospital_ship = {
+		research_cost = 0.75
+		start_year = 1918
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = surgery_at_sea
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = medical_supply_at_sea
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = joint_sea_hospital
+			research_cost_coeff = 1
+		}
+
+		category_all_ships = {
+			water_fjords = {
+				naval_morale_factor = 0.1
+			}
+			water_shallow_sea = {
+				naval_morale_factor = 0.1
+			}
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	surgery_at_sea = {
+		research_cost = 1
+		start_year = 1932
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		category_all_ships = {
+			water_deep_ocean = {
+				naval_morale_factor = 0.1
+			}
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medical_supply_at_sea = {
+		research_cost = 1
+		start_year = 1939
+		ai_will_do = {
+			factor = 1
+		}
+
+		naval_invasion_penalty = -0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	joint_sea_hospital = {
+		research_cost = 1
+		start_year = 1943
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		experience_loss_factor = -0.1
+		categories = {
+			naval_equipment
+		}
+	}
 }

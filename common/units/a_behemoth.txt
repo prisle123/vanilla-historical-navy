@@ -5,6 +5,7 @@ sub_units = {
 		priority = 11
 		active = yes
 		type = { capital_ship carrier }
+		categories = { category_all_ships }
 		need_equipment = { ship_hull_heavy = 1 }
 		need_equipment_modules = {
 			any = {

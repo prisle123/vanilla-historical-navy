@@ -2147,6 +2147,9 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = -1 y = @1924_module }
 		}
+		dependencies = {
+			dry_dock = 1
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -2221,11 +2224,10 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.25
-		research_cost = 0.75
+		research_cost = 0.6
 		
 		
 		refit_ic_cost = -0.1
-		refit_speed = 0.1
 		
 		start_year = 1930
 
