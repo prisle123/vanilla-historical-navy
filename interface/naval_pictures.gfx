@@ -1,4 +1,4 @@
-spriteTypes = {	
+spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_alicorn"
 		texturefile = "gfx/event_pictures/VNR/alicorn.png"
@@ -22,5 +22,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_yamato"
 		texturefile = "gfx/event_pictures/VNR/yamato.png"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_navy_rework"
+		texturefile = "gfx/event_pictures/VNR/decision_cat_navy_rework.png"
 	}
 }
