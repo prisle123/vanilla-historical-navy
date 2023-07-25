@@ -5,7 +5,6 @@ sub_units = {
 		priority = 6
 		active = yes
 		type = { capital_ship }
-		categories = { category_all_ships }
 		need = { ship_hull_cruiser = 1 }
 		
 		max_organisation = 40

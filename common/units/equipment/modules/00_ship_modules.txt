@@ -5244,4 +5244,57 @@ equipment_modules = {
 			reliability = 0.1
 		}
 	}
+
+	# auxiliary
+	fuel_tanker_silo = {
+		category = ship_auxiliary
+		add_stats = {
+			naval_range = 2000
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+			reliability = -0.05
+		}
+	}
+	food_storage = {
+		category = ship_auxiliary
+		add_stats = {
+			naval_range = 1000
+		}
+		multiply_stats = {
+			reliability = 0.05
+		}
+	}
+	supply_hub = {
+		category = ship_auxiliary
+		multiply_stats = {
+			naval_range = 0.1
+			naval_speed = -0.05
+		}
+	}
+	ship_heavy_mg_1 = {
+		category = civilian_ship_weapons
+		add_stats = {
+			lg_attack = 0.1
+			build_cost_ic = 1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 0.2
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	ship_civilian_light_battery_1 = {
+		category = civilian_ship_weapons
+		add_stats = {
+			lg_attack = 0.4
+			build_cost_ic = 8
+		}
+		add_average_stats = {
+			lg_armor_piercing = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.001
+		}
+		critical_parts = { damaged_light_guns }
+	}
 }
