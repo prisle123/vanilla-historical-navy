@@ -2247,6 +2247,10 @@ technologies = {
 			leads_to_tech = mtg_landing_craft
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = naval_combat_support
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 		start_year = 1922
@@ -2424,13 +2428,33 @@ technologies = {
 			leads_to_tech = basic_port_facility
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = speed_over_range
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = range_over_speed
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = repair_ship
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = hospital_ship
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = naval_fuel_complex
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 5 y = 1 }
+		}
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 3
-				has_navy_size > 50
-			}
 		}
 
 		enable_equipments = {
@@ -2453,6 +2477,18 @@ technologies = {
 			leads_to_tech = large_shipyard
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = heavy_crane
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dry_dock
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 3 }
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -2465,28 +2501,36 @@ technologies = {
 	}
 	large_shipyard = {
 		research_cost = 0.6
-		start_year = 1924
+		start_year = 1926
 
 		path = {
 			leads_to_tech = port_construction_corps
 			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 8 }
 		}
 
 		ai_will_do = {
 			factor = 1
 		}
 
-		industrial_capacity_dockyard = 0.05
+		production_speed_dockyard_factor = 0.1
 		categories = {
 			naval_equipment
 		}
 	}
 	heavy_crane = {
 		research_cost = 0.5
-		start_year = 1925
+		start_year = 1924
 
 		ai_will_do = {
 			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 3 y = 5 }
 		}
 
 		refit_speed = 0.1
@@ -2501,6 +2545,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 5 }
+		}
 
 		repair_speed_factor = 0.1
 		categories = {
@@ -2509,7 +2557,7 @@ technologies = {
 	}
 	port_construction_corps = {
 		research_cost = 0.75
-		start_year = 1936
+		start_year = 1938
 
 		path = {
 			leads_to_tech = integrated_shipyard_complex
@@ -2518,6 +2566,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 12 }
 		}
 
 		repair_speed_naval_base_factor = 0.1
@@ -2532,6 +2584,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 16 }
 		}
 
 		industrial_capacity_dockyard = 0.1
@@ -2552,11 +2608,14 @@ technologies = {
 			leads_to_tech = high_speed_civilian_engine
 			research_cost_coeff = 1
 		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 4 y = 7 }
+		}
 		XOR = { range_over_speed }
 
 		auxiliary_ship = {
 			naval_speed = 0.2
-			naval_range = -0.2
 		}
 		categories = {
 			naval_equipment
@@ -2573,10 +2632,13 @@ technologies = {
 			leads_to_tech = armed_civilian_ship
 			research_cost_coeff = 1
 		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 6 y = 7 }
+		}
 		XOR = { speed_over_range }
 
 		auxiliary_ship = {
-			naval_speed = -0.2
 			naval_range = 0.2
 		}
 		categories = {
@@ -2593,6 +2655,10 @@ technologies = {
 		path = {
 			leads_to_tech = fast_combat_support_ship
 			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 4 y = 10 }
 		}
 		auxiliary_ship = {
 			surface_visibility = -0.1
@@ -2616,6 +2682,10 @@ technologies = {
 			ship_heavy_mg_1
 			ship_civilian_light_battery_1
 		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 4 y = 16 }
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -2635,6 +2705,10 @@ technologies = {
 			leads_to_tech = integrated_supply_ship
 			research_cost_coeff = 1
 		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 6 y = 10 }
+		}
 		auxiliary_ship = {
 			max_strength = 0.1
 		}
@@ -2653,6 +2727,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 6 y = 16 }
 		}
 		enable_equipments = {
 			vnr_ship_hull_civilian_2_b
@@ -2676,8 +2754,13 @@ technologies = {
 			leads_to_tech = floating_dry_dock
 			research_cost_coeff = 1
 		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 8 y = 6 }
+		}
 
 		repair_speed_factor = 0.05
+		naval_accidents_chance = -0.05
 		categories = {
 			naval_equipment
 		}
@@ -2693,9 +2776,13 @@ technologies = {
 			leads_to_tech = logistic_system_redundancy
 			research_cost_coeff = 1
 		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 8 y = 10 }
+		}
 
 		repair_speed_factor = 0.1
-		naval_accidents_chance = -0.1
+		naval_accidents_chance = -0.05
 
 		categories = {
 			naval_equipment
@@ -2707,6 +2794,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 8 y = 16 }
 		}
 
 		auxiliary_ship = {
@@ -2728,23 +2819,13 @@ technologies = {
 			leads_to_tech = surgery_at_sea
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = medical_supply_at_sea
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = joint_sea_hospital
-			research_cost_coeff = 1
+		
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 9 y = 4 }
 		}
 
-		category_all_ships = {
-			water_fjords = {
-				naval_morale_factor = 0.1
-			}
-			water_shallow_sea = {
-				naval_morale_factor = 0.1
-			}
-		}
+		naval_morale_factor = 0.05
 		categories = {
 			naval_equipment
 		}
@@ -2756,12 +2837,20 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-
-		category_all_ships = {
-			water_deep_ocean = {
-				naval_morale_factor = 0.1
-			}
+		path = {
+			leads_to_tech = medical_supply_at_sea
+			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = joint_sea_hospital
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 9 y = 8 }
+		}
+
+		naval_morale_factor = 0.1
 
 		categories = {
 			naval_equipment
@@ -2772,6 +2861,10 @@ technologies = {
 		start_year = 1939
 		ai_will_do = {
 			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 9 y = 12 }
 		}
 
 		naval_invasion_penalty = -0.1
@@ -2786,8 +2879,73 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 10 y = 16 }
+		}
 
 		experience_loss_factor = -0.1
+		categories = {
+			naval_equipment
+		}
+	}
+
+	# naval fuel branch
+	naval_fuel_complex = {
+		research_cost = 0.35
+		start_year = 1925
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = retardant_silo
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = integrated_fuel_base
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 12 y = 7 }
+		}
+
+		production_speed_fuel_silo_factor = 0.2
+		categories = {
+			naval_equipment
+		}
+	}
+	retardant_silo = {
+		research_cost = 1
+		start_year = 1936
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 11 y = 10 }
+		}
+
+		repair_speed_fuel_silo_factor = 0.2
+		categories = {
+			naval_equipment
+		}
+	}
+	integrated_fuel_base = {
+		research_cost = 1.5
+		start_year = 1938
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 12 y = 12 }
+		}
+
+		max_fuel_factor = 0.1
 		categories = {
 			naval_equipment
 		}

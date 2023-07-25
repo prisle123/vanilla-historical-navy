@@ -343,4 +343,57 @@ spriteTypes = {
 		name = "GFX_diesel_electric_transmission_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/diesel_electric_transmission.png"
 	}
+
+	spriteType = {
+		name = "GFX_naval_combat_support_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/naval_combat_support.png"
+	}
+	spriteType = {
+		name = "GFX_basic_port_facility_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/basic_port_facility.png"
+	}
+	spriteType = {
+		name = "GFX_large_shipyard_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/large_shipyard.png"
+	}
+	spriteType = {
+		name = "GFX_heavy_crane_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/heavy_crane.png"
+	}
+	spriteType = {
+		name = "GFX_dry_dock_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/dry_dock.png"
+	}
+	spriteType = {
+		name = "GFX_port_construction_corps_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/port_construction_corps.png"
+	}
+	spriteType = {
+		name = "GFX_integrated_shipyard_complex_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/large_shipyard.png"
+	}
+	spriteType = {
+		name = "GFX_speed_over_range_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/speed_over_range.png"
+	}
+	spriteType = {
+		name = "GFX_range_over_speed_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/range_over_speed.png"
+	}
+	spriteType = {
+		name = "GFX_high_speed_civilian_engine_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/high_speed_civilian_engine.png"
+	}
+	spriteType = {
+		name = "GFX_armed_civilian_ship_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/armed_civilian_ship.png"
+	}
+	spriteType = {
+		name = "GFX_repair_ship_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/repair_ship.png"
+	}
+	spriteType = {
+		name = "GFX_hospital_ship_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/hospital_ship.png"
+	}
 }
