@@ -5297,4 +5297,38 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 	}
+	civilian_ship_engine_1 = {
+		category = civilian_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 8
+			build_cost_ic = 300
+		}
+		multiply_stats = {
+			naval_speed = 0.2
+		}
+		can_convert_from = {
+			module_category = civilian_ship_engine
+			convert_cost_ic = 200
+		}
+	}
+	civilian_ship_engine_2 = {
+		category = civilian_ship_engine
+		parent = civilian_ship_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 14
+			build_cost_ic = 600
+		}
+		multiply_stats = {
+			naval_speed = 0.3
+		}
+
+		can_convert_from = {
+			module_category = civilian_ship_engine
+			convert_cost_ic = 200
+		}
+	}
 }

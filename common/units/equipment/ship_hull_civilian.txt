@@ -95,12 +95,12 @@ equipments = {
         module_slots = inherit
     }
 
-    vnr_ship_hull_civilian_2_a = {
+    vnr_ship_hull_civilian_2 = {
         year = 1936
         archetype = ship_hull_civilian
         parent = vnr_ship_hull_civilian_1
         priority = 1000
-        can_convert_from = { vnr_ship_hull_civilian_2_a vnr_ship_hull_civilian_2_b }
+        can_convert_from = { vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 
         module_slots = inherit
 
@@ -111,12 +111,12 @@ equipments = {
         manpower = 1200
     }
 
-    vnr_ship_hull_civilian_2_b = {
+    vnr_ship_hull_civilian_3 = {
         year = 1936
         archetype = ship_hull_civilian
         parent = vnr_ship_hull_civilian_1
         priority = 1000
-        can_convert_from = { vnr_ship_hull_civilian_2_a vnr_ship_hull_civilian_2_b }
+        can_convert_from = { vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 
         module_slots = {
             fixed_ship_secondaries_slot = inherit

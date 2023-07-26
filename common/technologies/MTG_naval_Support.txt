@@ -2677,7 +2677,7 @@ technologies = {
 		start_year = 1943
 
 		enable_equipments = {
-			vnr_ship_hull_civilian_2_a
+			vnr_ship_hull_civilian_2
 		}
 		enable_equipment_modules = {
 			ship_heavy_mg_1
@@ -2735,7 +2735,7 @@ technologies = {
 			position = { x = 6 y = 16 }
 		}
 		enable_equipments = {
-			vnr_ship_hull_civilian_2_b
+			vnr_ship_hull_civilian_3
 		}
 		enable_equipment_modules = {
 			civilian_ship_engine_2
@@ -2904,7 +2904,7 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 10 y = 16 }
+			position = { x = 10 y = 17 }
 		}
 
 		experience_loss_factor = -0.1

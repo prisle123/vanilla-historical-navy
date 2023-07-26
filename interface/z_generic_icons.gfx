@@ -160,6 +160,19 @@ spriteTypes = {
         		name = "GFX_vnr_ship_hull_midget_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_midget_submarine.png"
         	}
+	# auxiliary
+			spriteType = {
+				name = "GFX_vnr_ship_hull_civilian_1_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_auxiliary_ship1.png"
+			}
+			spriteType = {
+				name = "GFX_vnr_ship_hull_civilian_2_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_auxiliary_ship2.png"
+			}
+			spriteType = {
+				name = "GFX_vnr_ship_hull_civilian_3_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_auxiliary_ship3.png"
+			}
 			
 
 ### generic tech ###
