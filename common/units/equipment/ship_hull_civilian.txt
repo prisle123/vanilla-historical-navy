@@ -98,7 +98,6 @@ equipments = {
     vnr_ship_hull_civilian_2 = {
         year = 1936
         archetype = ship_hull_civilian
-        parent = vnr_ship_hull_civilian_1
         priority = 1000
         can_convert_from = { vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 
@@ -139,7 +138,6 @@ equipments = {
     vnr_ship_hull_civilian_3 = {
         year = 1936
         archetype = ship_hull_civilian
-        parent = vnr_ship_hull_civilian_1
         priority = 1000
         can_convert_from = { vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 
