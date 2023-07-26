@@ -102,7 +102,32 @@ equipments = {
         priority = 1000
         can_convert_from = { vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 
-        module_slots = inherit
+        module_slots = {
+            fixed_ship_secondaries_slot = {
+                required = no
+                allowed_module_categories = { civilian_ship_weapons }
+            }
+            fixed_ship_anti_air_slot = {
+                required = no
+                allowed_module_categories = { ship_anti_air }
+            }
+            fixed_ship_engine_slot = {
+                required = yes
+                allowed_module_categories = { civilian_ship_engine }
+            }
+            front_1_custom_slot = {
+                required = no
+                allowed_module_categories = { civilian_ship_weapons ship_auxiliary }
+            }
+            mid_1_custom_slot = {
+                required = no
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher }
+            }
+            rear_1_custom_slot = {
+                required = no
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher civilian_ship_weapons }
+            }
+        }
 
         naval_speed = 25
         max_strength = 60
