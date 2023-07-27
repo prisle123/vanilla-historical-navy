@@ -6,7 +6,7 @@ CAN_DD_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HMCS "
 	fallback_name = "Destroyer %s"
@@ -72,7 +72,7 @@ CAN_MINELAYERS_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HMCS "
 	fallback_name = "Miner %s"

@@ -24,7 +24,7 @@ ROM_DD_HISTORICAL = {
 	for_countries = { ROM }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "NMS " #Nava Maiestatii Sale
 	fallback_name = "Distrugator %s"

@@ -6,7 +6,7 @@ GRE_DD_HISTORICAL = {
 	for_countries = { GRE }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "RHS "
 	fallback_name = "Metafero %s"

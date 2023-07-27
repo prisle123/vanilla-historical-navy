@@ -35,7 +35,7 @@ SOV_ADJECTIVES_NAVY = {
 	for_countries = { SOV }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = ""
 	fallback_name = "Esminets N%d"
@@ -109,7 +109,7 @@ SOV_NAMES_NAVY = {
 	for_countries = { SOV }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser }
+	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser  ship_hull_civilian }
 
 	prefix = ""
 	fallback_name = "Korabl N%d"
@@ -180,7 +180,7 @@ SOV_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }			
 
 	fallback_name = "Esminets %d"					
 
@@ -272,7 +272,7 @@ SOV_MINELAYERS_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
 	
 	fallback_name = "Minny Zagraditel' %d"
 
@@ -700,7 +700,7 @@ SOV_DD_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }			
 
 	prefix = "" #The Imperial Russian Navy didn't have prefixes							
 	fallback_name = "Myenonosyets %s"					
@@ -740,7 +740,7 @@ SOV_DE_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }			
 
 	prefix = "" #The Imperial Russian Navy didn't have prefixes				
 	fallback_name = "Storozhevoy Korabl %s"					
@@ -823,7 +823,7 @@ SOV_MINELAYERS_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
 	
 	prefix = "" #The Imperial Russian Navy didn't have prefixes							
 	fallback_name = "Zagraditel %s"
@@ -848,7 +848,7 @@ SOV_MINESWEEPERS_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 	
 	prefix = "" #The Imperial Russian Navy didn't have prefixes							
 	fallback_name = "Tralshchik %s"

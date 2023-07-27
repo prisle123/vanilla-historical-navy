@@ -6,7 +6,7 @@ SAF_DD_HISTORICAL = {
 	for_countries = { SAF }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }			
 
 	prefix = "HMSAS "							
 	fallback_name = "Destroyer %s"					
