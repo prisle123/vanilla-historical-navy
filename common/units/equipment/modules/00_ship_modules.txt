@@ -1345,7 +1345,7 @@ equipment_modules = {
 			hg_attack = 3
 			lg_attack = 1.5
 			build_cost_ic = 600
-			surface_visibility = 1
+			surface_visibility = 0.25
 		}
 		multiply_stats = {
 			naval_speed = -0.03
@@ -1384,7 +1384,7 @@ equipment_modules = {
 			hg_attack = 4
 			lg_attack = 2.5
 			build_cost_ic = 700
-			surface_visibility = 1
+			surface_visibility = 0.25
 		}
 		multiply_stats = {
 			naval_speed = -0.04
@@ -1423,7 +1423,7 @@ equipment_modules = {
 			hg_attack = 5.5
 			lg_attack = 3.5
 			build_cost_ic = 750
-			surface_visibility = 1
+			surface_visibility = 0.25
 		}
 		multiply_stats = {
 			naval_speed = -0.05
@@ -1462,7 +1462,7 @@ equipment_modules = {
 			hg_attack = 7
 			lg_attack = 4.5
 			build_cost_ic = 800
-			surface_visibility = 1
+			surface_visibility = 0.25
 		}
 		multiply_stats = {
 			naval_speed = -0.06
@@ -1500,7 +1500,7 @@ equipment_modules = {
 			hg_attack = 2
 			lg_attack = 1
 			build_cost_ic = 450
-			surface_visibility = 0.8
+			surface_visibility = 0.25
 		}
 		multiply_stats = {
 			naval_speed = -0.025
@@ -1539,7 +1539,7 @@ equipment_modules = {
 			hg_attack = 3
 			lg_attack = 2
 			build_cost_ic = 550
-			surface_visibility = 0.8
+			surface_visibility = 0.25
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -1578,7 +1578,7 @@ equipment_modules = {
 			hg_attack = 4
 			lg_attack = 3
 			build_cost_ic = 650
-			surface_visibility = 0.8
+			surface_visibility = 0.25
 		}
 		multiply_stats = {
 			naval_speed = -0.045
@@ -1617,7 +1617,7 @@ equipment_modules = {
 			hg_attack = 5
 			lg_attack = 4
 			build_cost_ic = 750
-			surface_visibility = 0.8
+			surface_visibility = 0.25
 		}
 		multiply_stats = {
 			naval_speed = -0.055
@@ -1655,7 +1655,7 @@ equipment_modules = {
 			hg_attack = 4
 			lg_attack = 2
 			build_cost_ic = 750
-			surface_visibility = 0.8
+			surface_visibility = 0.3
 			reliability = -0.05
 		}
 		multiply_stats = {
@@ -1689,7 +1689,7 @@ equipment_modules = {
 			hg_attack = 5
 			lg_attack = 4
 			build_cost_ic = 850
-			surface_visibility = 0.9
+			surface_visibility = 0.3
 			reliability = -0.05
 		}
 		multiply_stats = {
@@ -1724,7 +1724,7 @@ equipment_modules = {
 			hg_attack = 6
 			lg_attack = 2.5
 			build_cost_ic = 900
-			surface_visibility = 0.8
+			surface_visibility = 0.3
 			reliability = -0.05
 		}
 		multiply_stats = {
@@ -1758,7 +1758,7 @@ equipment_modules = {
 			hg_attack = 7.5
 			lg_attack = 4.5
 			build_cost_ic = 1000
-			surface_visibility = 0.9
+			surface_visibility = 0.3
 			reliability = -0.05
 		}
 		multiply_stats = {

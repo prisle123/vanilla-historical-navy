@@ -2336,6 +2336,39 @@ technologies = {
 		start_year = 1940
 
 		naval_retreat_speed_after_initial_combat = 0.1
+		SH_battleship = {
+			water_fjords = {
+				movement = 0.025
+			}
+			water_shallow_sea = {
+				movement = 0.025
+			}
+			water_deep_ocean = {
+				movement = 0.05
+			}
+		}
+		battleship = {
+			water_fjords = {
+				movement = 0.05
+			}
+			water_shallow_sea = {
+				movement = 0.05
+			}
+			water_deep_ocean = {
+				movement = 0.05
+			}
+		}
+		battle_cruiser = {
+			water_fjords = {
+				movement = 0.05
+			}
+			water_shallow_sea = {
+				movement = 0.05
+			}
+			water_deep_ocean = {
+				movement = 0.05
+			}
+		}
 
 		folder = {
 			name = mtgnavalfolder
