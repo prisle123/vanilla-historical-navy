@@ -85,18 +85,18 @@ units= {
 			ship = { name = "L-2" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }			
 			ship = { name = "L-3" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }	
 			# 16iy  Coastal
-			ship = { name = "M-53" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-71" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-72" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-73" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-74" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-75" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-76" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-82" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-83" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-84" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-85" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }				
-			ship = { name = "M-86" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }				
+			ship = { name = "M-53" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-71" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-72" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-73" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-74" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-75" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-76" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-82" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-83" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-84" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-85" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }				
+			ship = { name = "M-86" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }				
 		}
 	}
 
@@ -167,36 +167,36 @@ units= {
 			ship = { name = "L-8" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }			
 			ship = { name = "L-9" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Leninets Class" } } }		
 			# Coastal
-			ship = { name = "M-1" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-2" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-3" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-4" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-5" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-6" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-7" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-8" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-9" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-10" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-11" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-12" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-13" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-14" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-15" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-16" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-17" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-18" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-19" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-20" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-21" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-22" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-23" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-24" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-25" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-26" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-27" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
-			ship = { name = "M-28" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-51" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
-			ship = { name = "M-52" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }		
+			ship = { name = "M-1" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-2" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-3" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-4" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-5" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-6" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-7" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-8" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-9" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-10" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-11" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-12" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-13" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-14" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-15" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-16" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-17" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-18" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-19" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-20" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-21" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-22" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-23" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-24" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-25" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-26" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-27" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }
+			ship = { name = "M-28" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-51" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }			
+			ship = { name = "M-52" definition = submarine start_experience_factor = 0.09 equipment = { vnr_ship_hull_midget_submarine = { amount = 1 owner = SOV version_name = "Malyutka Class" } } }		
 		}		
 	}
 } 

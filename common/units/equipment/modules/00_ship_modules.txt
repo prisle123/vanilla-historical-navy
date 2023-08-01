@@ -1356,12 +1356,6 @@ equipment_modules = {
 			lg_armor_piercing = 5
 		}
 		
-
-		forbid_module_categories = {
-		    ship_depth_charge
-			ship_mine_layer
-		}
-
 		can_convert_from = {
 			module_category = ship_light_battery
 			convert_cost_ic = 200
@@ -1395,12 +1389,6 @@ equipment_modules = {
 			lg_armor_piercing = 7
 		}
 		
-
-		forbid_module_categories = {
-		    ship_depth_charge
-			ship_mine_layer
-		}
-
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 200
@@ -1434,12 +1422,6 @@ equipment_modules = {
 			lg_armor_piercing = 9
 		}
 		
-
-		forbid_module_categories = {
-		    ship_depth_charge
-			ship_mine_layer
-		}
-
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 250
@@ -1472,12 +1454,6 @@ equipment_modules = {
 			hg_armor_piercing = 34
 			lg_armor_piercing = 11
 		}
-		
-
-		forbid_module_categories = {
-		    ship_depth_charge
-			ship_mine_layer
-		}
 
 		can_convert_from = {
 			module_category = ship_medium_battery
@@ -1509,12 +1485,6 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 22
 			lg_armor_piercing = 5
-		}
-		
-
-		forbid_module_categories = {
-		    ship_depth_charge
-			ship_mine_layer
 		}
 
 		can_convert_from = {
@@ -1549,12 +1519,6 @@ equipment_modules = {
 			hg_armor_piercing = 25
 			lg_armor_piercing = 7
 		}
-		
-
-		forbid_module_categories = {
-		    ship_depth_charge
-			ship_mine_layer
-		}
 
 		can_convert_from = {
 			module_category = ship_medium_battery
@@ -1588,12 +1552,6 @@ equipment_modules = {
 			hg_armor_piercing = 29
 			lg_armor_piercing = 9
 		}
-		
-
-		forbid_module_categories = {
-		    ship_depth_charge
-			ship_mine_layer
-		}
 
 		can_convert_from = {
 			module_category = ship_medium_battery
@@ -1626,12 +1584,6 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 34
 			lg_armor_piercing = 11
-		}
-		
-
-		forbid_module_categories = {
-		    ship_depth_charge
-			ship_mine_layer
 		}
 
 		can_convert_from = {
@@ -3412,7 +3364,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 4800
+			convert_cost_ic = 5500
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 
@@ -3436,12 +3392,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 5000
-		}
-		
-		can_convert_from = {
-			module = heavy_ship_engine_1
-			convert_cost_ic = 4800
+			convert_cost_ic = 6500
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 
@@ -3464,12 +3419,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 5000
-		}
-		
-		can_convert_from = {
-			module = heavy_ship_engine_2
-			convert_cost_ic = 4800
+			convert_cost_ic = 7200
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	heavy_ship_engine_4 = {
@@ -3491,12 +3445,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 5000
-		}
-		
-		can_convert_from = {
-			module = heavy_ship_engine_3
-			convert_cost_ic = 4800
+			convert_cost_ic = 8000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	heavy_ship_engine_5 = {
@@ -3518,12 +3471,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 5000
-		}
-		
-		can_convert_from = {
-			module = heavy_ship_engine_4
-			convert_cost_ic = 4800
+			convert_cost_ic = 9000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	heavy_ship_engine_2_diesel = {
@@ -3546,6 +3498,10 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = heavy_ship_engine
 			convert_cost_ic = 5000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 
@@ -3569,12 +3525,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 5000
-		}
-		
-		can_convert_from = {
-			module = heavy_ship_engine_2_diesel
-			convert_cost_ic = 4800
+			convert_cost_ic = 6500
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	heavy_ship_engine_4_diesel = {
@@ -3597,12 +3552,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 5000
-		}
-		
-		can_convert_from = {
-			module = heavy_ship_engine_3
-			convert_cost_ic = 4800
+			convert_cost_ic = 7500
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	heavy_ship_engine_4_gas = {
@@ -3623,7 +3577,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 6000
+			convert_cost_ic = 8500
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	carrier_ship_engine_1 = {
@@ -3646,6 +3604,10 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = carrier_ship_engine
 			convert_cost_ic = 2500
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 
@@ -3669,12 +3631,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 2500
-		}
-		
-		can_convert_from = {
-			module = carrier_ship_engine_1
-			convert_cost_ic = 2300
+			convert_cost_ic = 3000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 
@@ -3698,12 +3659,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 2500
-		}
-		
-		can_convert_from = {
-			module = carrier_ship_engine_2
-			convert_cost_ic = 2300
+			convert_cost_ic = 4000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	carrier_ship_engine_4 = {
@@ -3726,12 +3686,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 2500
-		}
-		
-		can_convert_from = {
-			module = carrier_ship_engine_3
-			convert_cost_ic = 2300
+			convert_cost_ic = 5000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	carrier_ship_engine_2_diesel = {
@@ -3754,6 +3713,10 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = carrier_ship_engine
 			convert_cost_ic = 2500
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 
@@ -3777,12 +3740,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 2500
-		}
-		
-		can_convert_from = {
-			module = carrier_ship_engine_2_diesel
-			convert_cost_ic = 2300
+			convert_cost_ic = 4000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	carrier_ship_engine_4_diesel = {
@@ -3805,12 +3767,11 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 2500
-		}
-		
-		can_convert_from = {
-			module = carrier_ship_engine_3
-			convert_cost_ic = 2300
+			convert_cost_ic = 5000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
 		}
 	}
 	
@@ -4553,6 +4514,7 @@ equipment_modules = {
 		add_stats = {
 			reliability = 0.1
 		}
+		dismantle_cost_ic = 3000
 	}
 	ship_scheme_incremental_post_jutland = {
 		category = armor_scheme
@@ -4565,6 +4527,7 @@ equipment_modules = {
 		add_stats = {
 			reliability = 0.1
 		}
+		dismantle_cost_ic = 3500
 	}
 	ship_scheme_mixed = {
 		category = armor_scheme
@@ -4575,6 +4538,7 @@ equipment_modules = {
 			armor_value = 0.05
 			build_cost_ic = 0.075
 		}
+		dismantle_cost_ic = 4000
 	}
 	ship_scheme_all_or_nothing = {
 		category = armor_scheme
@@ -4587,6 +4551,7 @@ equipment_modules = {
 		add_stats = {
 			reliability = 0.05
 		}
+		dismantle_cost_ic = 4500
 	}
 	ship_scheme_all_or_nothing_armor_box = {
 		category = armor_scheme
@@ -4600,6 +4565,7 @@ equipment_modules = {
 		add_stats = {
 			reliability = 0.1
 		}
+		dismantle_cost_ic = 5000
 	}
 	torpedo_bulge = {
 		category = torpedo_defense_system
@@ -4613,6 +4579,7 @@ equipment_modules = {
 			naval_speed = -0.03
 			build_cost_ic = 0.03
 		}
+		dismantle_cost_ic = 1000
 	}
 	pugliese_system = {
 		category = torpedo_defense_system
@@ -4625,6 +4592,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.05
 		}
+		dismantle_cost_ic = 1500
 	}
 	torpedo_belt = {
 		category = torpedo_defense_system
@@ -4637,6 +4605,7 @@ equipment_modules = {
 			naval_speed = -0.01
 			build_cost_ic = 0.08
 		}
+		dismantle_cost_ic = 2000
 	}
 	torpedo_belt_enhanced = {
     	category = torpedo_defense_system
@@ -4648,6 +4617,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 		}
+		dismantle_cost_ic = 3000
 	}
 	
 	
