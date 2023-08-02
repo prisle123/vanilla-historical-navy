@@ -2673,7 +2673,10 @@ equipment_modules = {
 		abbreviation = "sbj"
 		category = ship_radar
 		sfx = sfx_ui_sd_module_sonar
-		
+
+		multiply_stats = {
+			anti_air_attack = 0.025
+		}
 		add_stats = {
 			build_cost_ic = 100
 			surface_detection = 5
@@ -2688,8 +2691,6 @@ equipment_modules = {
 			anti_air_attack = 0.05
 		}
 		add_stats = {
-			naval_light_gun_hit_chance_factor = 0.025
-			naval_heavy_gun_hit_chance_factor = 0.025
 			build_cost_ic = 130
 			surface_detection = 7
 			sub_detection = 2
@@ -2709,8 +2710,6 @@ equipment_modules = {
 			anti_air_attack = 0.075
 		}
 		add_stats = {
-			naval_light_gun_hit_chance_factor = 0.05
-			naval_heavy_gun_hit_chance_factor = 0.05
 			surface_detection = 12
 			sub_detection = 6
 			build_cost_ic = 160
@@ -2733,8 +2732,6 @@ equipment_modules = {
 			anti_air_attack = 0.1
 		}
 		add_stats = {
-			naval_light_gun_hit_chance_factor = 0.1
-			naval_heavy_gun_hit_chance_factor = 0.1
 			build_cost_ic = 190
 			surface_detection = 18
 			sub_detection = 14
@@ -4055,7 +4052,7 @@ equipment_modules = {
 		
 		
 		add_stats = {
-			sub_attack = 8
+			sub_attack = 12
 			build_cost_ic = 90
 		}
 
@@ -4076,7 +4073,7 @@ equipment_modules = {
 		parent = ship_depth_charge_1
 		
 		add_stats = {
-			sub_attack = 12
+			sub_attack = 16
 			build_cost_ic = 120
 		}
 
@@ -4097,7 +4094,7 @@ equipment_modules = {
 		parent = ship_depth_charge_2
 		
 		add_stats = {
-			sub_attack = 16
+			sub_attack = 20
 			build_cost_ic = 150
 		}
 
@@ -4118,7 +4115,7 @@ equipment_modules = {
 		parent = ship_depth_charge_3
 		
 		add_stats = {
-			sub_attack = 20
+			sub_attack = 24
 			build_cost_ic = 180
 		}
 
