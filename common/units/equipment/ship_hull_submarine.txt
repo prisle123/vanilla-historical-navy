@@ -128,21 +128,14 @@ equipments = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_fire_control_system_slot = {
 				required = no
-				allowed_module_categories = { sub_fire_control_system }
+				allowed_module_categories = { sub_fire_control_system ship_sonar }
 			}
-			mid_1_custom_slot = {
+			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = {
-					sub_ship_periscope
-				}
+				allowed_module_categories = { ship_radar ship_sonar }
 			}
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo_sub
-					ship_mine_layer_sub
-				}
-			}
+			mid_1_custom_slot = inherit
+			rear_1_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -180,10 +173,8 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
-			fixed_ship_fire_control_system_slot = {
-				required = no
-				allowed_module_categories = { sub_fire_control_system }
-			}
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -191,12 +182,7 @@ equipments = {
 					ship_mine_layer_sub
 				}
 			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					sub_ship_periscope
-				}
-			}
+			mid_1_custom_slot = inherit
 			mid_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -241,23 +227,11 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
-			fixed_ship_fire_control_system_slot = {
-				required = no
-				allowed_module_categories = { sub_fire_control_system }
-			}
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
 			front_1_custom_slot = inherit
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					sub_ship_periscope
-				}
-			}
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_sub_snorkel
-				}
-			}
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = inherit
 			mid_3_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -301,11 +275,19 @@ equipments = {
 		priority = 2600
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
+			fixed_ship_battery_slot = {
+				required = no
+				allowed_module_categories = { sub_battery }
+			}
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_fire_control_system_slot = {
 				required = no
-				allowed_module_categories = { sub_fire_control_system }
+				allowed_module_categories = { sub_fire_control_system ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -316,16 +298,17 @@ equipments = {
 					ship_extra_fuel_tank
 				}
 			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					sub_ship_periscope
-				}
-			}
+			mid_1_custom_slot = inherit
 			mid_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_sub_snorkel
+				}
+			}
+			mid_3_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_ship_stealth
 				}
 			}
 			rear_1_custom_slot = {
@@ -377,6 +360,17 @@ equipments = {
 				allowed_module_categories = {
 					sub_ship_periscope
 				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_sub_snorkel
+					sub_ship_stealth
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_mine_layer_sub }
 			}
 		}
 

@@ -1,4 +1,4 @@
-version="v0.6 - Logistics First"
+version="v0.7 - Death From Beneath"
 tags={
 	"Military"
 	"Graphics"

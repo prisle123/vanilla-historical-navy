@@ -5299,4 +5299,29 @@ equipment_modules = {
 			convert_cost_ic = 200
 		}
 	}
+
+	# sub weapon
+	sub_battery_1 = {
+		category = sub_battery
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hg_attack = 4
+			lg_attack = 2
+			naval_heavy_gun_hit_chance_factor = -0.02
+			naval_light_gun_hit_chance_factor = -0.02
+			reliability = -0.1
+			build_cost_ic = 300	
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+			sub_visibility = 0.05
+		}
+		add_average_stats = {
+			hg_armor_piercing = 20
+			lg_armor_piercing = 5
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
 }
