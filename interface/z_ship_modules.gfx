@@ -130,6 +130,10 @@ spriteTypes = {
 		name = "GFX_SMI_dp_light_battery_all"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_light_battery_icn.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_auxiliary"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fuel_tank_icn.dds"
+	}
 	
 	
 	# topview images
@@ -236,6 +240,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SD_tv_space_yamato"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_space_yamato.dds"
+	}
+	spriteType = {
+		name = "GFX_SD_tv_civilian"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_civilian.dds"
 	}
 
 
@@ -891,5 +899,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_space_armor_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_space_armor_1.png"
+	}
+
+	### auxiliary modules
+	spriteType = {
+		name = "GFX_SMI_dry_cargo_storage"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dry_cargo_storage.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_supply_hub"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/supply_hub.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_mg_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_heavy_mg_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_civilian_light_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_civilian_light_battery_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_civilian_ship_engine_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/civilian_ship_engine_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_civilian_ship_engine_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/civilian_ship_engine_2.png"
 	}
 }

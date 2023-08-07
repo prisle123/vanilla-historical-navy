@@ -6,7 +6,7 @@ RAJ_DD_HISTORICAL = {
 	for_countries = { RAJ }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HMIS "
 	fallback_name = "Destroyer %s"

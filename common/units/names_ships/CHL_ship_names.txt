@@ -6,7 +6,7 @@ CHL_DD_HISTORICAL = {
 	for_countries = { CHL }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "BACH "
 	fallback_name = "Destructor %d"

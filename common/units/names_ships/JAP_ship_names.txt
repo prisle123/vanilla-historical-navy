@@ -8,7 +8,7 @@ JAP_MINELAYERS_HISTORICAL = { #islands
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
 
 	fallback_name = "Fusetsukan %d -go"
 
@@ -180,7 +180,7 @@ JAP_CITIES = {
 
 JAP_WEATHER = {
 	name = NAME_THEME_WEATHER #wheather, moons, winds, natural phenomens, seasons
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 	for_countries = { JAP }
 
 	type = ship
@@ -229,7 +229,7 @@ JAP_WEATHER = {
 
 JAP_NATURE = {
 	name = NAME_THEME_NATURE #plants for small DDs mostly
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 	for_countries = { JAP }
 
 	type = ship

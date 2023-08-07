@@ -6,7 +6,7 @@ DEN_DD_HISTORICAL = {
 	for_countries = { DEN }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "HDMS "
 	fallback_name = "Destroyer %d"

@@ -262,6 +262,7 @@ add_starting_techs = {
             improved_periscope = 1
             basic_ballast_tank = 1
             cruiser_submarines = 1
+			midget_submarines = 1
 			popup = no
         }
     }
@@ -411,6 +412,28 @@ makeup_starting_techs = {
     every_country = {
         set_technology = {
             vnr_less_fuel_consumption = 1
+            popup = no
+        }
+    }
+    every_country = {
+        limit = { has_tech = mtg_transport }
+        set_technology = {
+            naval_combat_support = 1
+            popup = no
+        }
+    }
+    every_country = {
+        limit = { num_of_naval_factories > 0 }
+        set_technology = {
+            basic_port_facility = 1
+            popup = no
+        }
+    }
+    every_country = {
+        limit = { has_tech = dry_dock_expansion }
+        set_technology = {
+            dry_dock = 1
+            heavy_crane = 1
             popup = no
         }
     }

@@ -1,0 +1,163 @@
+equipments = {
+    ship_hull_civilian = {
+        year = 1918
+        is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		sprite = auxiliary_ship
+		group_by = archetype
+		priority = 300
+
+        interface_category = interface_category_capital_ships
+
+        upgrades = {
+			ship_engine_upgrade
+			ship_reliability_upgrade
+		}
+
+        module_slots = {
+            fixed_ship_secondaries_slot = {
+                required = no
+                allowed_module_categories = { civilian_ship_weapons }
+            }
+            fixed_ship_anti_air_slot = {
+                required = no
+                allowed_module_categories = { ship_anti_air }
+            }
+            fixed_ship_engine_slot = {
+                required = yes
+                allowed_module_categories = { civilian_ship_engine }
+            }
+            front_1_custom_slot = {
+                required = no
+                allowed_module_categories = { civilian_ship_weapons ship_auxiliary }
+            }
+            mid_1_custom_slot = {
+                required = no
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher }
+            }
+            mid_2_custom_slot = {
+                required = no
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher }
+            }
+            rear_1_custom_slot = {
+                required = no
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher civilian_ship_weapons }
+            }
+        }
+
+        default_modules = {
+            fixed_ship_engine_slot = empty
+        }
+
+        lg_armor_piercing = 0
+		lg_attack = 0
+
+		hg_armor_piercing = 0
+		hg_attack = 0
+
+		torpedo_attack = 0
+		sub_attack = 0
+
+		anti_air_attack = 0
+
+		armor_value = 0
+
+
+		surface_detection = 5
+		sub_detection = 0
+		surface_visibility = 20
+		naval_speed = 20
+		reliability = 0.60
+
+		naval_range = 3000
+
+		max_strength = 30
+
+
+		fuel_consumption = 15
+
+		build_cost_ic = 800
+		resources = {
+			steel = 1
+		}
+
+        manpower = 600
+        naval_supremacy_factor = 0.2
+    }
+
+    vnr_ship_hull_civilian_1 = {
+        year = 1918
+        archetype = ship_hull_civilian
+        priority = 1000
+        can_convert_from = { vnr_ship_hull_civilian_1 }
+
+        module_slots = inherit
+    }
+
+    vnr_ship_hull_civilian_2 = {
+        year = 1936
+        archetype = ship_hull_civilian
+        priority = 1000
+        can_convert_from = { vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
+
+        module_slots = {
+            fixed_ship_secondaries_slot = {
+                required = no
+                allowed_module_categories = { civilian_ship_weapons }
+            }
+            fixed_ship_anti_air_slot = {
+                required = no
+                allowed_module_categories = { ship_anti_air }
+            }
+            fixed_ship_engine_slot = {
+                required = yes
+                allowed_module_categories = { civilian_ship_engine }
+            }
+            front_1_custom_slot = {
+                required = no
+                allowed_module_categories = { civilian_ship_weapons ship_auxiliary }
+            }
+            mid_1_custom_slot = {
+                required = no
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher }
+            }
+            rear_1_custom_slot = {
+                required = no
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher civilian_ship_weapons }
+            }
+        }
+
+        naval_speed = 25
+        max_strength = 60
+        reliability = 0.70
+        build_cost_ic = 1000
+        manpower = 1200
+    }
+
+    vnr_ship_hull_civilian_3 = {
+        year = 1936
+        archetype = ship_hull_civilian
+        priority = 1000
+        can_convert_from = { vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
+
+        module_slots = {
+            fixed_ship_secondaries_slot = inherit
+            fixed_ship_anti_air_slot = inherit
+            fixed_ship_engine_slot = inherit
+            fixed_ship_armor_slot = {
+                required = no
+                allowed_module_categories = { ship_cruiser_armor }
+            }
+            front_1_custom_slot = inherit
+            mid_1_custom_slot = inherit
+            mid_2_custom_slot = inherit
+            rear_1_custom_slot = inherit
+        }
+
+        max_strength = 60
+        reliability = 0.70
+        build_cost_ic = 1000
+        manpower = 1200
+    }
+}

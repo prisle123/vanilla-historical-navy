@@ -6,7 +6,7 @@ LIT_DD_HISTORICAL = {
 	for_countries = { LIT }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "LKL "
 	fallback_name = "Nakintojas %d"

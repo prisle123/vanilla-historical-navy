@@ -1207,7 +1207,7 @@ technologies = {
 
 	basic_torpedo = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1922
 
@@ -1263,7 +1263,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1936
 
@@ -1329,7 +1329,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 2
 
 		start_year = 1942
 		destroyer = {
@@ -1533,7 +1533,7 @@ technologies = {
 
 	damage_control_1 = {
 
-		research_cost = 2
+		research_cost = 1.25
 		path = {
 			leads_to_tech = damage_control_2
 			research_cost_coeff = 1
@@ -1573,7 +1573,7 @@ technologies = {
 
 	damage_control_2 = {
 
-		research_cost = 2
+		research_cost = 1.5
 		path = {
 			leads_to_tech = damage_control_3
 			research_cost_coeff = 1
@@ -1613,7 +1613,7 @@ technologies = {
 
 	damage_control_3 = {
 
-		research_cost = 2
+		research_cost = 1.75
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
@@ -1657,10 +1657,14 @@ technologies = {
 
 	fire_control_methods_1 = {
 
-		research_cost = 2
+		research_cost = 1.5
 		path = {
 			leads_to_tech = fire_control_methods_2
 			research_cost_coeff = 1
+		}
+		SH_battleship = {
+			lg_attack = 0.05
+			hg_attack = 0.05
 		}
 		battleship = {
 			lg_attack = 0.05
@@ -1705,13 +1709,17 @@ technologies = {
 			leads_to_tech = fire_control_methods_3
 			research_cost_coeff = 1
 		}
+		SH_battleship = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		battleship = {
-			lg_attack = 0.1
-			hg_attack = 0.1
+			lg_attack = 0.05
+			hg_attack = 0.05
 		}
 		battle_cruiser = {
-			lg_attack = 0.1
-			hg_attack = 0.1
+			lg_attack = 0.05
+			hg_attack = 0.05
 		}
 		heavy_cruiser = {
 			lg_attack = 0.05
@@ -1744,13 +1752,17 @@ technologies = {
 	fire_control_methods_3 = {
 
 		research_cost = 2
+		SH_battleship = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
 		battleship = {
-			lg_attack = 0.15
-			hg_attack = 0.15
+			lg_attack = 0.1
+			hg_attack = 0.1
 		}
 		battle_cruiser = {
-			lg_attack = 0.15
-			hg_attack = 0.15
+			lg_attack = 0.1
+			hg_attack = 0.1
 		}
 		heavy_cruiser = {
 			lg_attack = 0.1
@@ -2247,6 +2259,10 @@ technologies = {
 			leads_to_tech = mtg_landing_craft
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = naval_combat_support
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 		start_year = 1922
@@ -2411,6 +2427,563 @@ technologies = {
 		categories = {
 			naval_equipment
 			tp_tech
+		}
+	}
+
+	# naval integrated support tech tree
+	naval_combat_support = {
+		research_cost = 0.5
+		start_year = 1914
+		force_use_small_tech_layout = yes
+
+		path = {
+			leads_to_tech = basic_port_facility
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = speed_over_range
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = range_over_speed
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = repair_ship
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = hospital_ship
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = naval_fuel_complex
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 5 y = 1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		enable_equipments = {
+			vnr_ship_hull_civilian_1
+		}
+		enable_equipment_modules = {
+			fuel_tanker_silo
+			dry_cargo_storage
+			civilian_ship_engine_1
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	# port facility branch
+	basic_port_facility = {
+		research_cost = 0.3
+		start_year = 1918
+
+		path = {
+			leads_to_tech = large_shipyard
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_crane
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dry_dock
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 3 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		production_speed_naval_base_factor = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	large_shipyard = {
+		research_cost = 0.6
+		start_year = 1926
+
+		path = {
+			leads_to_tech = port_construction_corps
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		production_speed_dockyard_factor = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	heavy_crane = {
+		research_cost = 0.3
+		start_year = 1924
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 3 y = 5 }
+		}
+
+		refit_speed = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	dry_dock = {
+		research_cost = 0.45
+		start_year = 1922
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 5 }
+		}
+
+		repair_speed_factor = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	port_construction_corps = {
+		research_cost = 0.6
+		start_year = 1938
+
+		path = {
+			leads_to_tech = integrated_shipyard_complex
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 12 }
+		}
+
+		repair_speed_naval_base_factor = 0.1
+		repair_speed_dockyard_factor = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	integrated_shipyard_complex = {
+		research_cost = 1.25
+		start_year = 1942
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 16 }
+		}
+
+		industrial_capacity_dockyard = 0.1
+		categories = {
+			naval_equipment
+		}
+	}
+
+	# auxiliary ship branch
+	speed_over_range = {
+		research_cost = 0.5
+		start_year = 1925
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = high_speed_civilian_engine
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 4 y = 7 }
+		}
+		XOR = { range_over_speed }
+
+		auxiliary_ship = {
+			naval_speed = 0.2
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	range_over_speed = {
+		research_cost = 0.5
+		start_year = 1925
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = armed_civilian_ship
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 6 y = 7 }
+		}
+		XOR = { speed_over_range }
+
+		auxiliary_ship = {
+			naval_range = 0.2
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	high_speed_civilian_engine = {
+		research_cost = 0.75
+		start_year = 1936
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = fast_combat_support_ship
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 4 y = 10 }
+		}
+		auxiliary_ship = {
+			surface_visibility = -0.1
+		}
+
+		enable_equipment_modules = {
+			civilian_ship_engine_2
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	fast_combat_support_ship = {
+		research_cost = 1.5
+		start_year = 1943
+
+		enable_equipments = {
+			vnr_ship_hull_civilian_2
+		}
+		enable_equipment_modules = {
+			ship_heavy_mg_1
+			ship_civilian_light_battery_1
+			supply_hub
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 4 y = 16 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	armed_civilian_ship = {
+		research_cost = 0.75
+		start_year = 1936
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = integrated_supply_ship
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 6 y = 10 }
+		}
+		auxiliary_ship = {
+			max_strength = 0.1
+		}
+
+		enable_equipment_modules = {
+			ship_heavy_mg_1
+			ship_civilian_light_battery_1
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	integrated_supply_ship = {
+		research_cost = 1.5
+		start_year = 1943
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 6 y = 16 }
+		}
+		enable_equipments = {
+			vnr_ship_hull_civilian_3
+		}
+		enable_equipment_modules = {
+			civilian_ship_engine_2
+			supply_hub
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	repair_ship = {
+		research_cost = 0.3
+		start_year = 1920
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = floating_dry_dock
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 8 y = 6 }
+		}
+
+		repair_speed_factor = 0.05
+		naval_accidents_chance = -0.05
+		heavy_cruiser = {
+			reliability = 0.1
+		}
+		light_cruiser = {
+			reliability = 0.1
+		}
+		categories = {
+			naval_equipment
+		}
+	}
+	floating_dry_dock = {
+		research_cost = 0.8
+		start_year = 1936
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = logistic_system_redundancy
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 8 y = 10 }
+		}
+
+		repair_speed_factor = 0.1
+		naval_accidents_chance = -0.05
+		battleship = {
+			reliability = 0.1
+		}
+		battle_cruiser = {
+			reliability = 0.1
+		}
+		SH_battleship = {
+			reliability = 0.1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+	logistic_system_redundancy = {
+		research_cost = 1
+		start_year = 1942
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 8 y = 16 }
+		}
+
+		auxiliary_ship = {
+			build_cost_ic = -0.1
+		}
+		destroyer = {
+			reliability = 0.1
+		}
+		submarine = {
+			reliability = 0.1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+	}
+	hospital_ship = {
+		research_cost = 0.5
+		start_year = 1918
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = surgery_at_sea
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 9 y = 4 }
+		}
+
+		naval_morale_factor = 0.05
+		categories = {
+			naval_equipment
+		}
+	}
+	surgery_at_sea = {
+		research_cost = 0.75
+		start_year = 1932
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = medical_supply_at_sea
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = joint_sea_hospital
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 9 y = 8 }
+		}
+
+		naval_morale_factor = 0.1
+
+		categories = {
+			naval_equipment
+		}
+	}
+	medical_supply_at_sea = {
+		research_cost = 0.8
+		start_year = 1939
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 9 y = 12 }
+		}
+
+		naval_invasion_penalty = -0.1
+		categories = {
+			naval_equipment
+		}
+	}
+	joint_sea_hospital = {
+		research_cost = 0.75
+		start_year = 1943
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 10 y = 17 }
+		}
+
+		experience_loss_factor = -0.1
+		categories = {
+			naval_equipment
+		}
+	}
+
+	# naval fuel branch
+	naval_fuel_complex = {
+		research_cost = 0.2
+		start_year = 1925
+
+		ai_will_do = {
+			factor = 1
+		}
+		path = {
+			leads_to_tech = retardant_silo
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = integrated_fuel_base
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 12 y = 7 }
+		}
+
+		production_speed_fuel_silo_factor = 0.2
+		categories = {
+			naval_equipment
+		}
+	}
+	retardant_silo = {
+		research_cost = 0.75
+		start_year = 1936
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 11 y = 10 }
+		}
+
+		repair_speed_fuel_silo_factor = 0.2
+		categories = {
+			naval_equipment
+		}
+	}
+	integrated_fuel_base = {
+		research_cost = 1
+		start_year = 1938
+
+		ai_will_do = {
+			factor = 1
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 12 y = 12 }
+		}
+
+		max_fuel_factor = 0.1
+		categories = {
+			naval_equipment
 		}
 	}
 }

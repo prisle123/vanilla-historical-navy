@@ -1,10 +1,6 @@
 spriteTypes = {	
 	# new tech
 	spriteType = {
-		name = "GFX_modern_carrier_equipments_medium"
-		textureFile = "gfx/interface/technologies/floating_airfield.dds"
-	}
-	spriteType = {
 		name = "GFX_anti_air_rockets_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/anti_air_rockets.png"
 	}
@@ -342,5 +338,98 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_diesel_electric_transmission_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/diesel_electric_transmission.png"
+	}
+
+	spriteType = {
+		name = "GFX_naval_combat_support_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/naval_combat_support.png"
+	}
+	spriteType = {
+		name = "GFX_basic_port_facility_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/basic_port_facility.png"
+	}
+	spriteType = {
+		name = "GFX_large_shipyard_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/large_shipyard.png"
+	}
+	spriteType = {
+		name = "GFX_heavy_crane_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/heavy_crane.png"
+	}
+	spriteType = {
+		name = "GFX_dry_dock_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/dry_dock.png"
+	}
+	spriteType = {
+		name = "GFX_port_construction_corps_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/port_construction_corps.png"
+	}
+	spriteType = {
+		name = "GFX_integrated_shipyard_complex_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/large_shipyard.png"
+	}
+	spriteType = {
+		name = "GFX_speed_over_range_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/speed_over_range.png"
+	}
+	spriteType = {
+		name = "GFX_range_over_speed_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/range_over_speed.png"
+	}
+	spriteType = {
+		name = "GFX_high_speed_civilian_engine_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/high_speed_civilian_engine.png"
+	}
+	spriteType = {
+		name = "GFX_armed_civilian_ship_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/armed_civilian_ship.png"
+	}
+	spriteType = {
+		name = "GFX_fast_combat_support_ship_medium"
+		texturefile = "gfx/interface/technologies/Generic/generic_auxiliary_ship2.png"
+	}
+	spriteType = {
+		name = "GFX_integrated_supply_ship_medium"
+		texturefile = "gfx/interface/technologies/Generic/generic_auxiliary_ship3.png"
+	}
+	spriteType = {
+		name = "GFX_repair_ship_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/repair_ship.png"
+	}
+	spriteType = {
+		name = "GFX_floating_dry_dock_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/floating_dry_dock.png"
+	}
+	spriteType = {
+		name = "GFX_logistic_system_redundancy_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/logistic_system_redundancy.png"
+	}
+	spriteType = {
+		name = "GFX_hospital_ship_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/hospital_ship.png"
+	}
+	spriteType = {
+		name = "GFX_surgery_at_sea_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/surgery_at_sea.png"
+	}
+	spriteType = {
+		name = "GFX_medical_supply_at_sea_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/medical_supply_at_sea.png"
+	}
+	spriteType = {
+		name = "GFX_joint_sea_hospital_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/joint_sea_hospital.png"
+	}
+	spriteType = {
+		name = "GFX_naval_fuel_complex_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/naval_fuel_complex.png"
+	}
+	spriteType = {
+		name = "GFX_retardant_silo_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/retardant_silo.png"
+	}
+	spriteType = {
+		name = "GFX_integrated_fuel_base_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/integrated_fuel_base.png"
 	}
 }

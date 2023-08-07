@@ -13,7 +13,7 @@ CHI_DD_HISTORICAL = {
 	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	#prefix = "ROCS "
 	fallback_name = "%s. Quzujian"

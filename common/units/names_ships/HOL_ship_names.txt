@@ -6,7 +6,7 @@ HOL_DD_HISTORICAL = {
 	for_countries = { HOL }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }			
 
 	prefix = "HrMs "
 	fallback_name = "Torpedobootjager %d"					

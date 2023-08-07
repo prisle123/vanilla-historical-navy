@@ -6,7 +6,7 @@ PER_DD_HISTORICAL = {
 	for_countries = { PER }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }			
 
 	prefix = "IIS "							
 	fallback_name = "Destroyer %d"					

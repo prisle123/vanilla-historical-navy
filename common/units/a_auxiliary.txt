@@ -1,0 +1,18 @@
+sub_units = {
+	auxiliary_ship = {
+		sprite = auxiliary_ship
+		map_icon_category = ship
+		priority = 0
+		active = yes
+		type = { capital_ship }
+		need_equipment = { ship_hull_civilian = 1 }
+		max_organisation = 60
+
+		supply_consumption = 0.1
+		
+		critical_parts = { rudder_jammed broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1 
+		
+		hit_profile_mult = 1.0
+	}
+}

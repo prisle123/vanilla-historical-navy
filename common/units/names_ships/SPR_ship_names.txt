@@ -6,7 +6,7 @@ SPR_DD_HISTORICAL = {
 	for_countries = { SPR }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
 	prefix = "ARE "
 	fallback_name = "Destructor %d"

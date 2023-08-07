@@ -26,7 +26,7 @@ TUR_GEOGRAPHIC = {
 	for_countries = { TUR }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser }
+	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser  ship_hull_civilian }
 
 	prefix = "TCG " #Osmanli Humayun Gemileri
 	fallback_name = "Gemileri %d"
@@ -51,7 +51,7 @@ TUR_ISLANDS = {
 	for_countries = { TUR }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser }
+	ship_types = { ship_hull_light destroyer ship_hull_cruiser light_cruiser heavy_cruiser  ship_hull_civilian }
 
 	prefix = "TCG " #Osmanli Humayun Gemileri
 	fallback_name = "Gemileri %d"
