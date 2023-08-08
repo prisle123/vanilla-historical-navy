@@ -417,6 +417,7 @@ equipments = {
 		naval_speed = 27.5
 		fuel_consumption = 67
 		build_cost_ic = 2600
+		manpower = 4600
 	}
 
 	vnr_ship_hull_heavy_3 = {
@@ -553,7 +554,7 @@ equipments = {
 		reliability = 0.95
 		build_cost_ic = 3300
 
-		manpower = 6000
+		manpower = 6500
 	}
 
 	vnr_ship_hull_super_heavy_1 = {
@@ -675,6 +676,6 @@ equipments = {
 			steel = 4
 			chromium = 1
 		}
-		manpower = 9000
+		manpower = 7500
 	}
 }
