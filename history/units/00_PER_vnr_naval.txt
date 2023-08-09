@@ -1,0 +1,12 @@
+units = {
+	fleet = {
+		name = "Iranian Navy"
+		naval_base = 7982 ###Change to proper province number
+		task_force = {
+			name = "Iranian Navy"
+			location = 7982 ###Change to proper province number
+			ship = { name = "IIS Babr" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PER version_name = "Babr Class" } } }
+            ship = { name = "IIS Palang" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PER version_name = "Babr Class" } } }
+		}
+	}
+}

@@ -1,0 +1,16 @@
+units = {
+	fleet = {
+		name = "First Fleet"
+		naval_base = 7622 ###Change to proper province number
+		task_force = {
+			name = "First Fleet "
+			location = 7622 ###Change to proper province number
+			ship = { name = "BGC Baire" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Baire/Patria Class" } } }
+			ship = { name = "BGC Santa Clara" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Baire/Patria Class" } } }
+			ship = { name = "BGC Diez de Octubre" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Baire/Patria Class" } } }
+			ship = { name = "BGC Veinte y Cuatro de Febrero" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Baire/Patria Class" } } }
+			ship = { name = "BGC Patria" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Baire/Patria Class" } } }
+			ship = { name = "BGC Cuba" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CUB version_name = "Cuba Class" } } }
+		}
+	}
+}
