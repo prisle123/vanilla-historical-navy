@@ -156,18 +156,6 @@ country_event = {
 			PRU_start_naval_variants = yes
 			load_oob = 00_PRU_vnr_naval
 		}
-		CUB = {
-			CUB_start_naval_variants = yes
-			load_oob = 00_CUB_vnr_naval
-		}
-		PER = {
-			PER_start_naval_variants = yes
-			load_oob = 00_PER_vnr_naval
-		}
-		SIA = {
-			SIA_start_naval_variants = yes
-			load_oob = 00_SIA_vnr_naval
-		}
 
         clr_global_flag = add_startup_navy
     }
