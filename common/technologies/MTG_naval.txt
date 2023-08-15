@@ -3578,6 +3578,10 @@ technologies = {
 		enable_equipments = {
 			vnr_ship_hull_cruiser_panzerschiff
 		}
+		enable_equipment_modules = {
+			ship_hull_cruiser_role_rc
+			ship_cruiser_camo_1
+		}
 
 		research_cost = 1
 

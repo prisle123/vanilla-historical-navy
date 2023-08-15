@@ -134,6 +134,18 @@ spriteTypes = {
 		name = "GFX_SMI_ship_auxiliary"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fuel_tank_icn.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_sub_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_battery_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_raider_kit"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_cruiser_camo_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_civilian_ship_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/civilian_ship_engine.png"
+	}
 	
 	
 	# topview images
@@ -224,6 +236,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SM_heavy_hull_rear_2_deck_space@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/heavy_hull_rear_2_deck_space@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_heavy_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/submarine_hull_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_heavy_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/submarine_hull_heavy_battery@highlight.dds"
 	}
 	spriteType = {
 		name = "GFX_SD_tv_alicorn"
@@ -503,6 +523,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_light_medium_battery_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/triple_light_medium_battery4.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_medium_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_medium_battery.png"
+	}
 	
 	# triple medium battery
 	spriteType = {
@@ -629,6 +653,24 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fire_control3.png"
 	}
 	
+	### radar
+	spriteType = {
+		name = "GFX_SMI_ship_radar_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_radar1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_radar_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_radar2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_radar_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_radar3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_radar_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_radar4.png"
+	}
+	
 	
 	### aircraft carrier related
 	spriteType = {
@@ -707,6 +749,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_hull_cruiser_role_clc"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_clc.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_rc"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_rc.png"
 	}
 	
 	## scheme & TDS
@@ -925,5 +971,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_civilian_ship_engine_2"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/civilian_ship_engine_2.png"
+	}
+	
+	### submarine gun
+	spriteType = {
+		name = "GFX_SMI_sub_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_battery_1.png"
+	}
+	
+	### raider kit
+	spriteType = {
+		name = "GFX_SMI_ship_cruiser_camo_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_cruiser_camo_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_cruiser_camo_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_cruiser_camo_2.png"
 	}
 }

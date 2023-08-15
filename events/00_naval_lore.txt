@@ -32,3 +32,35 @@ country_event = {
         name = naval_lore.0.2
     }
 }
+
+# naval history event
+country_event = {
+	id = naval_lore.2
+	title = naval_lore.2.t
+	desc = naval_lore.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = naval_lore.option.next
+		FROM = { country_event = naval_lore.3 }
+	}
+	option = {
+		name = naval_lore.option.ok
+	}
+}
+country_event = {
+	id = naval_lore.3
+	title = naval_lore.3.t
+	desc = naval_lore.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = naval_lore.option.previous
+		FROM = { country_event = naval_lore.2 }
+	}
+	option = {
+		name = naval_lore.option.ok
+	}
+}

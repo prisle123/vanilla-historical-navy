@@ -2014,14 +2014,12 @@ we_need_screen_1 = {
 			tag = SOV
 		}
 	}
-	enable = { has_navy_size = { size < 50 type = destroyer } }
+	enable = { has_navy_size = { size < 50 type = screen_ship archetype = ship_hull_light } }
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		ai_strategy = {
-			type = role_ratio
-			id = vnr_naval_screen
-			value = 300
-		}
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 300
 	}
 }

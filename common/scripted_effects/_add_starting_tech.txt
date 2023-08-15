@@ -429,12 +429,13 @@ makeup_starting_techs = {
             popup = no
         }
     }
-    every_country = {
-        limit = { has_tech = dry_dock_expansion }
-        set_technology = {
-            dry_dock = 1
-            heavy_crane = 1
-            popup = no
-        }
-    }
+    for_each_scope_loop = {
+		array = global.vnr_naval_powers
+		
+		set_technology = {
+			dry_dock = 1
+			heavy_crane = 1
+			popup = no
+		}
+	}
 }
