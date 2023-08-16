@@ -46,7 +46,7 @@ country_event = {
 		FROM = { country_event = naval_lore.3 }
 	}
 	option = {
-		name = naval_lore.option.ok
+		name = naval_lore.option.ok.1
 	}
 }
 country_event = {
@@ -61,6 +61,6 @@ country_event = {
 		FROM = { country_event = naval_lore.2 }
 	}
 	option = {
-		name = naval_lore.option.ok
+		name = naval_lore.option.ok.2
 	}
 }

@@ -18,26 +18,74 @@ defined_text = {
 }
 
 defined_text = {
-	name = naval_lore_loc_title
+	name = naval_lore_loc_decision_title
 	text = {
 		trigger = { original_tag = ENG }
-		localization_key = naval_lore_title_eng
+		localization_key = naval_lore_decision_title_eng
 	}
 	text = {
 		trigger = { original_tag = USA }
-		localization_key = naval_lore_title_usa
+		localization_key = naval_lore_decision_title_usa
 	}
 	text = {
 		trigger = { original_tag = JAP }
-		localization_key = naval_lore_title_jap
+		localization_key = naval_lore_decision_title_jap
 	}
 	text = {
 		trigger = { original_tag = FRA }
-		localization_key = naval_lore_title_fra
+		localization_key = naval_lore_decision_title_fra
 	}
 	text = {
 		trigger = { original_tag = ITA }
-		localization_key = naval_lore_title_ita
+		localization_key = naval_lore_decision_title_ita
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_title_1
+	text = {
+		trigger = { original_tag = ENG }
+		localization_key = naval_lore_title_1_eng
+	}
+	text = {
+		trigger = { original_tag = USA }
+		localization_key = naval_lore_title_1_usa
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = naval_lore_title_1_jap
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = naval_lore_title_1_fra
+	}
+	text = {
+		trigger = { original_tag = ITA }
+		localization_key = naval_lore_title_1_ita
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_title_2
+	text = {
+		trigger = { original_tag = ENG }
+		localization_key = naval_lore_title_2_eng
+	}
+	text = {
+		trigger = { original_tag = USA }
+		localization_key = naval_lore_title_2_usa
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = naval_lore_title_2_jap
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = naval_lore_title_2_fra
+	}
+	text = {
+		trigger = { original_tag = ITA }
+		localization_key = naval_lore_title_2_ita
 	}
 }
 
@@ -90,25 +138,49 @@ defined_text = {
 }
 
 defined_text = {
-	name = naval_lore_loc_option
+	name = naval_lore_loc_option_1
 	text = {
 		trigger = { original_tag = ENG }
-		localization_key = naval_lore_option_eng
+		localization_key = naval_lore_option_1_eng
 	}
 	text = {
 		trigger = { original_tag = USA }
-		localization_key = naval_lore_option_usa
+		localization_key = naval_lore_option_1_usa
 	}
 	text = {
 		trigger = { original_tag = JAP }
-		localization_key = naval_lore_option_jap
+		localization_key = naval_lore_option_1_jap
 	}
 	text = {
 		trigger = { original_tag = FRA }
-		localization_key = naval_lore_option_fra
+		localization_key = naval_lore_option_1_fra
 	}
 	text = {
 		trigger = { original_tag = ITA }
-		localization_key = naval_lore_option_ita
+		localization_key = naval_lore_option_1_ita
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_option_2
+	text = {
+		trigger = { original_tag = ENG }
+		localization_key = naval_lore_option_2_eng
+	}
+	text = {
+		trigger = { original_tag = USA }
+		localization_key = naval_lore_option_2_usa
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = naval_lore_option_2_jap
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = naval_lore_option_2_fra
+	}
+	text = {
+		trigger = { original_tag = ITA }
+		localization_key = naval_lore_option_2_ita
 	}
 }
