@@ -2340,8 +2340,8 @@ ITA_start_naval_variants = {
 			front_2_custom_slot = ship_heavy_battery_1_triple
 			mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_heavy_battery_1_triple
-            rear_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = ship_heavy_battery_1
+            rear_2_custom_slot = ship_heavy_battery_1_triple
         }
     }
     create_equipment_variant = {
@@ -2364,8 +2364,8 @@ ITA_start_naval_variants = {
 			front_2_custom_slot = ship_heavy_battery_1_triple
 			mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_heavy_battery_1_triple
-            rear_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = ship_heavy_battery_1
+            rear_2_custom_slot = ship_heavy_battery_1_triple
         }
         obsolete = yes
     }

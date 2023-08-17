@@ -39,6 +39,8 @@ country_event = {
 	title = naval_lore.2.t
 	desc = naval_lore.2.d
 	
+	picture = "[get_naval_lore_picture]"
+	
 	is_triggered_only = yes
 	
 	option = {
@@ -53,6 +55,8 @@ country_event = {
 	id = naval_lore.3
 	title = naval_lore.3.t
 	desc = naval_lore.3.d
+	
+	picture = "[get_naval_lore_picture]"
 	
 	is_triggered_only = yes
 	

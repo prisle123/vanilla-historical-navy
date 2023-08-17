@@ -28,4 +28,25 @@ spriteTypes = {
 		name = "GFX_decision_cat_navy_rework"
 		texturefile = "gfx/event_pictures/VNR/decision_cat_navy_rework.png"
 	}
+	
+	spriteType = {
+		name = "GFX_naval_lore_eng"
+		texturefile = "gfx/event_pictures/VNR/eng_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_usa"
+		texturefile = "gfx/event_pictures/VNR/usa_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_jap"
+		texturefile = "gfx/event_pictures/VNR/jap_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_fra"
+		texturefile = "gfx/event_pictures/VNR/fra_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_ita"
+		texturefile = "gfx/event_pictures/VNR/ita_ship.png"
+	}
 }
