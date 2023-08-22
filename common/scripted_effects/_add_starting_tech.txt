@@ -330,6 +330,22 @@ add_starting_techs = {
 			popup = no
 		}
 	}
+    CUB = {
+        set_technology = {
+            early_ship_hull_light = 1
+            early_ship_hull_cruiser = 1
+            popup = no
+        }
+    }
+    SIA = {
+        set_technology = {
+            early_ship_hull_light = 1
+            early_ship_hull_cruiser = 1
+            early_ship_hull_submarine = 1
+            basic_ship_hull_submarine = 1
+            popup = no
+        }
+    }
 }
 
 makeup_starting_techs = {
