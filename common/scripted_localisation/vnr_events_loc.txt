@@ -39,6 +39,14 @@ defined_text = {
 		trigger = { original_tag = ITA }
 		localization_key = naval_lore_title_1_ita
 	}
+	text = {
+		trigger = { original_tag = GER }
+		localization_key = naval_lore_title_1_ger
+	}
+	text = {
+		trigger = { original_tag = SOV }
+		localization_key = naval_lore_title_1_sov
+	}
 }
 
 defined_text = {
@@ -62,6 +70,14 @@ defined_text = {
 	text = {
 		trigger = { original_tag = ITA }
 		localization_key = naval_lore_title_2_ita
+	}
+	text = {
+		trigger = { original_tag = GER }
+		localization_key = naval_lore_title_2_ger
+	}
+	text = {
+		trigger = { original_tag = SOV }
+		localization_key = naval_lore_title_2_sov
 	}
 }
 
@@ -87,6 +103,14 @@ defined_text = {
 		trigger = { original_tag = ITA }
 		localization_key = naval_lore_desc_1_ita
 	}
+	text = {
+		trigger = { original_tag = GER }
+		localization_key = naval_lore_desc_1_ger
+	}
+	text = {
+		trigger = { original_tag = SOV }
+		localization_key = naval_lore_desc_1_sov
+	}
 }
 
 defined_text = {
@@ -110,6 +134,14 @@ defined_text = {
 	text = {
 		trigger = { original_tag = ITA }
 		localization_key = naval_lore_desc_2_ita
+	}
+	text = {
+		trigger = { original_tag = GER }
+		localization_key = naval_lore_desc_2_ger
+	}
+	text = {
+		trigger = { original_tag = SOV }
+		localization_key = naval_lore_desc_2_sov
 	}
 }
 
@@ -135,6 +167,14 @@ defined_text = {
 		trigger = { original_tag = ITA }
 		localization_key = naval_lore_option_1_ita
 	}
+	text = {
+		trigger = { original_tag = GER }
+		localization_key = naval_lore_option_1_ger
+	}
+	text = {
+		trigger = { original_tag = SOV }
+		localization_key = naval_lore_option_1_sov
+	}
 }
 
 defined_text = {
@@ -159,6 +199,14 @@ defined_text = {
 		trigger = { original_tag = ITA }
 		localization_key = naval_lore_option_2_ita
 	}
+	text = {
+		trigger = { original_tag = GER }
+		localization_key = naval_lore_option_2_ger
+	}
+	text = {
+		trigger = { original_tag = SOV }
+		localization_key = naval_lore_option_2_sov
+	}
 }
 
 defined_text = {
@@ -182,5 +230,13 @@ defined_text = {
 	text = {
 		trigger = { original_tag = ITA }
 		localization_key = GFX_naval_lore_ita
+	}
+	text = {
+		trigger = { original_tag = GER }
+		localization_key = GFX_naval_lore_ger
+	}
+	text = {
+		trigger = { original_tag = SOV }
+		localization_key = GFX_naval_lore_sov
 	}
 }

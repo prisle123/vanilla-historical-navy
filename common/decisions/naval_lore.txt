@@ -24,6 +24,16 @@ navy_rework_category = {
 		allowed = { tag = ITA }
 		complete_effect = { FROM = { country_event = naval_lore.2 } }
 	}
+	ger_naval_history = {
+		icon = GFX_vnr_ger_flag
+		allowed = { tag = GER }
+		complete_effect = { FROM = { country_event = naval_lore.2 } }
+	}
+	sov_naval_history = {
+		icon = GFX_vnr_sov_flag
+		allowed = { tag = SOV }
+		complete_effect = { FROM = { country_event = naval_lore.2 } }
+	}
 	
     ship_hull_description = {
         icon = generic_naval

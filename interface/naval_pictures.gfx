@@ -49,6 +49,14 @@ spriteTypes = {
 		name = "GFX_naval_lore_ita"
 		texturefile = "gfx/event_pictures/VNR/ita_ship.png"
 	}
+	spriteType = {
+		name = "GFX_naval_lore_ger"
+		texturefile = "gfx/event_pictures/VNR/ger_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_sov"
+		texturefile = "gfx/event_pictures/VNR/sov_ship.png"
+	}
 	
 	spriteType = {
 		name = "GFX_vnr_eng_flag"
@@ -69,5 +77,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_vnr_fra_flag"
 		texturefile = "gfx/event_pictures/flag_icons/fra_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_ger_flag"
+		texturefile = "gfx/event_pictures/flag_icons/ger_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_sov_flag"
+		texturefile = "gfx/event_pictures/flag_icons/sov_flag.png"
 	}
 }
