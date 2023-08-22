@@ -18,30 +18,6 @@ defined_text = {
 }
 
 defined_text = {
-	name = naval_lore_loc_decision_title
-	text = {
-		trigger = { original_tag = ENG }
-		localization_key = naval_lore_decision_title_eng
-	}
-	text = {
-		trigger = { original_tag = USA }
-		localization_key = naval_lore_decision_title_usa
-	}
-	text = {
-		trigger = { original_tag = JAP }
-		localization_key = naval_lore_decision_title_jap
-	}
-	text = {
-		trigger = { original_tag = FRA }
-		localization_key = naval_lore_decision_title_fra
-	}
-	text = {
-		trigger = { original_tag = ITA }
-		localization_key = naval_lore_decision_title_ita
-	}
-}
-
-defined_text = {
 	name = naval_lore_loc_title_1
 	text = {
 		trigger = { original_tag = ENG }
@@ -206,5 +182,29 @@ defined_text = {
 	text = {
 		trigger = { original_tag = ITA }
 		localization_key = GFX_naval_lore_ita
+	}
+}
+
+defined_text = {
+	name = get_naval_lore_flag_icon
+	text = {
+		trigger = { original_tag = ENG }
+		localization_key = GFX_vnr_eng_flag
+	}
+	text = {
+		trigger = { original_tag = USA }
+		localization_key = GFX_vnr_usa_flag
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = GFX_vnr_jap_flag
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = GFX_vnr_fra_flag
+	}
+	text = {
+		trigger = { original_tag = ITA }
+		localization_key = GFX_vnr_ita_flag
 	}
 }

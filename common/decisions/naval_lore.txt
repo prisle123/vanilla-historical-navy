@@ -1,20 +1,32 @@
 navy_rework_category = {
+	eng_naval_history = {
+		icon = GFX_vnr_eng_flag
+		allowed = { tag = ENG }
+		complete_effect = { FROM = { country_event = naval_lore.2 } }
+	}
+	usa_naval_history = {
+		icon = GFX_vnr_usa_flag
+		allowed = { tag = USA }
+		complete_effect = { FROM = { country_event = naval_lore.2 } }
+	}
+	jap_naval_history = {
+		icon = GFX_vnr_jap_flag
+		allowed = { tag = JAP }
+		complete_effect = { FROM = { country_event = naval_lore.2 } }
+	}
+	fra_naval_history = {
+		icon = GFX_vnr_fra_flag
+		allowed = { tag = FRA }
+		complete_effect = { FROM = { country_event = naval_lore.2 } }
+	}
+	ita_naval_history = {
+		icon = GFX_vnr_ita_flag
+		allowed = { tag = ITA }
+		complete_effect = { FROM = { country_event = naval_lore.2 } }
+	}
+	
     ship_hull_description = {
         icon = generic_naval
         complete_effect = { FROM = { country_event = naval_lore.0 } }
     }
-	
-	naval_history = {
-		icon = generic_naval
-		allowed = {
-            OR = {
-                tag = ENG
-                tag = FRA
-                tag = ITA
-                tag = JAP
-                tag = USA
-            }
-        }
-		complete_effect = { FROM = { country_event = naval_lore.2 } }
-	}
 }

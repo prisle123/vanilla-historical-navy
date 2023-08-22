@@ -49,4 +49,25 @@ spriteTypes = {
 		name = "GFX_naval_lore_ita"
 		texturefile = "gfx/event_pictures/VNR/ita_ship.png"
 	}
+	
+	spriteType = {
+		name = "GFX_vnr_eng_flag"
+		texturefile = "gfx/event_pictures/flag_icons/eng_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_usa_flag"
+		texturefile = "gfx/event_pictures/flag_icons/usa_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_jap_flag"
+		texturefile = "gfx/event_pictures/flag_icons/jap_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_ita_flag"
+		texturefile = "gfx/event_pictures/flag_icons/ita_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_fra_flag"
+		texturefile = "gfx/event_pictures/flag_icons/fra_flag.png"
+	}
 }
