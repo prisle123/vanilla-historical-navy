@@ -184,27 +184,3 @@ defined_text = {
 		localization_key = GFX_naval_lore_ita
 	}
 }
-
-defined_text = {
-	name = get_naval_lore_flag_icon
-	text = {
-		trigger = { original_tag = ENG }
-		localization_key = GFX_vnr_eng_flag
-	}
-	text = {
-		trigger = { original_tag = USA }
-		localization_key = GFX_vnr_usa_flag
-	}
-	text = {
-		trigger = { original_tag = JAP }
-		localization_key = GFX_vnr_jap_flag
-	}
-	text = {
-		trigger = { original_tag = FRA }
-		localization_key = GFX_vnr_fra_flag
-	}
-	text = {
-		trigger = { original_tag = ITA }
-		localization_key = GFX_vnr_ita_flag
-	}
-}
