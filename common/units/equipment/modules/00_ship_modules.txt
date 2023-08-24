@@ -1076,7 +1076,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.025
+			naval_speed = -0.04
 		}
 		add_average_stats = {
 			hg_armor_piercing = 34
@@ -1109,7 +1109,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.035
+			naval_speed = -0.055
 		}
 		add_average_stats = {
 			hg_armor_piercing = 37
@@ -1147,7 +1147,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.045
+			naval_speed = -0.06
 		}
 		add_average_stats = {
 			hg_armor_piercing = 43
@@ -1185,7 +1185,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.05
+			naval_speed = -0.07
 		}
 		add_average_stats = {
 			hg_armor_piercing = 48
@@ -1250,7 +1250,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.1
+			naval_speed = -0.11
 		}
 		add_average_stats = {
 			hg_armor_piercing = 52
@@ -2424,6 +2424,7 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		
 		add_stats = {
+			lg_attack = 0.2
 			anti_air_attack = 2.5
 			build_cost_ic = 80
 		}
@@ -2446,6 +2447,7 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		
 		add_stats = {
+			lg_attack = 0.3
 			anti_air_attack = 3.5
 			build_cost_ic = 110
 		}
@@ -2471,6 +2473,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = anti_air
 		add_stats = {
+			lg_attack = 0.4
 			anti_air_attack = 4.5
 			build_cost_ic = 140
 		}
@@ -2497,6 +2500,7 @@ equipment_modules = {
 
 		add_equipment_type = anti_air
 		add_stats = {
+			lg_attack = 0.5
 			anti_air_attack = 5.5
 			build_cost_ic = 170
 		}
@@ -2523,6 +2527,7 @@ equipment_modules = {
 		
 		add_equipment_type = anti_air
 		add_stats = {
+			lg_attack = 0.6
 			anti_air_attack = 8
 			reliability = -0.05
 			build_cost_ic = 300
