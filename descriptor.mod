@@ -1,4 +1,4 @@
-version="v0.6 - Logistics First"
+version="v0.7 - Death From Beneath"
 tags={
 	"Military"
 	"Graphics"
@@ -7,6 +7,7 @@ tags={
 }
 dependencies={
 	"The Road to 56"
+	"Last Stand"
 }
 name="Vanilla Navy Rework"
 picture="thumbnail.png"

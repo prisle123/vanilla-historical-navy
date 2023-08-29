@@ -148,7 +148,7 @@ no_old_navy_production = {
 	}
 }
 ### Minors ###
-naval_unit_role_ratios_minors = {
+naval_unit_role_ratios_minors_coastal = {
 	allowed = {
 		has_dlc = "Man the Guns"
 		NOT = {
@@ -161,7 +161,12 @@ naval_unit_role_ratios_minors = {
 			tag = SOV
 		}
 	}
-	enable = { num_of_naval_factories > 0 }
+	enable = { 
+		AND = {
+			num_of_naval_factories > 0 
+			num_of_naval_factories < 10
+		}
+	}
 
 	abort_when_not_enabled = yes
 
@@ -175,6 +180,164 @@ naval_unit_role_ratios_minors = {
 		type = role_ratio
 		id = vnr_naval_submarine
 		value = 50
+	}
+}
+
+naval_unit_role_ratios_minors_defensive = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		NOT = {
+			tag = ENG
+			tag = JAP
+			tag = ITA
+			tag = GER
+			tag = FRA
+			tag = USA
+			tag = SOV
+		}
+	}
+	enable = { 
+		AND = {
+			num_of_naval_factories > 9 
+			num_of_naval_factories < 20
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 20
+	}
+}
+
+naval_unit_role_ratios_minors_offensive = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		NOT = {
+			tag = ENG
+			tag = JAP
+			tag = ITA
+			tag = GER
+			tag = FRA
+			tag = USA
+			tag = SOV
+		}
+	}
+	enable = { 
+		AND = {
+			num_of_naval_factories > 19 
+			num_of_naval_factories < 30
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 80
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 20
+	}
+}
+
+naval_unit_role_ratios_minors_global = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		NOT = {
+			tag = ENG
+			tag = JAP
+			tag = ITA
+			tag = GER
+			tag = FRA
+			tag = USA
+			tag = SOV
+		}
+	}
+	enable = { 
+		AND = {
+			num_of_naval_factories > 29
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 80
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 20
 	}
 }
 
@@ -1836,5 +1999,27 @@ we_dont_need_convoys_2 = {
 		type = equipment_variant_production_factor
 		id = convoy
 		value = -500
+	}
+}
+
+we_need_screen_1 = {
+	allowed = {
+		OR = {
+			tag = ENG
+			tag = FRA
+			tag = JAP
+			tag = GER
+			tag = USA
+			tag = ITA
+			tag = SOV
+		}
+	}
+	enable = { has_navy_size = { size < 50 type = screen_ship archetype = ship_hull_light } }
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 300
 	}
 }

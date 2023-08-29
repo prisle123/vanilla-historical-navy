@@ -407,6 +407,8 @@ technologies = {
 			ship_light_medium_battery_2_double
 			ship_light_medium_battery_2_single
 			ship_secondaries_2
+
+			sub_battery_1
 		}
 
 
@@ -2730,6 +2732,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_heavy_mg_1
 			ship_civilian_light_battery_1
+			ship_cruiser_camo_2
 		}
 		categories = {
 			naval_equipment

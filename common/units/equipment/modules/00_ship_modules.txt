@@ -1076,7 +1076,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.025
+			naval_speed = -0.04
 		}
 		add_average_stats = {
 			hg_armor_piercing = 34
@@ -1109,7 +1109,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.035
+			naval_speed = -0.055
 		}
 		add_average_stats = {
 			hg_armor_piercing = 37
@@ -1147,7 +1147,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.045
+			naval_speed = -0.06
 		}
 		add_average_stats = {
 			hg_armor_piercing = 43
@@ -1185,7 +1185,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.05
+			naval_speed = -0.07
 		}
 		add_average_stats = {
 			hg_armor_piercing = 48
@@ -1250,7 +1250,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
-			naval_speed = -0.1
+			naval_speed = -0.11
 		}
 		add_average_stats = {
 			hg_armor_piercing = 52
@@ -2424,6 +2424,7 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		
 		add_stats = {
+			lg_attack = 0.2
 			anti_air_attack = 2.5
 			build_cost_ic = 80
 		}
@@ -2446,6 +2447,7 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		
 		add_stats = {
+			lg_attack = 0.3
 			anti_air_attack = 3.5
 			build_cost_ic = 110
 		}
@@ -2471,6 +2473,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = anti_air
 		add_stats = {
+			lg_attack = 0.4
 			anti_air_attack = 4.5
 			build_cost_ic = 140
 		}
@@ -2497,6 +2500,7 @@ equipment_modules = {
 
 		add_equipment_type = anti_air
 		add_stats = {
+			lg_attack = 0.5
 			anti_air_attack = 5.5
 			build_cost_ic = 170
 		}
@@ -2523,6 +2527,7 @@ equipment_modules = {
 		
 		add_equipment_type = anti_air
 		add_stats = {
+			lg_attack = 0.6
 			anti_air_attack = 8
 			reliability = -0.05
 			build_cost_ic = 300
@@ -5165,6 +5170,7 @@ equipment_modules = {
 			ship_medium_heavy_battery
 			ship_cruiser_heavy_armor
 			ship_missile
+			raider_kit
 		}
 	}
 	ship_hull_cruiser_role_cb = {
@@ -5175,6 +5181,7 @@ equipment_modules = {
 		}
 		forbid_module_categories = {
 			ship_missile
+			raider_kit
 		}
 	}
 	ship_hull_cruiser_role_aa = {
@@ -5187,6 +5194,7 @@ equipment_modules = {
 			ship_medium_heavy_battery
 			ship_cruiser_heavy_armor
 			ship_missile
+			raider_kit
 		}
 	}
 	ship_hull_cruiser_role_clc = {
@@ -5201,6 +5209,29 @@ equipment_modules = {
 			ship_medium_heavy_battery
 			ship_cruiser_heavy_armor
 			ship_missile
+			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_rc = {
+		category = c_role
+		multiply_stats = {
+			lg_attack = -0.1
+			hg_attack = -0.1
+			
+			max_strength = -0.1
+			naval_speed = -0.1
+			armor_value = -0.1
+			naval_range = 0.4
+			surface_visibility = -0.05
+			build_cost_ic = -0.12
+		}
+		forbid_module_categories = {
+			ship_medium_heavy_battery
+			ship_medium_battery
+			ship_medium_battery_double
+			ship_cruiser_heavy_armor
+			ship_missile
+			ship_airplane_launcher
 		}
 	}
 	ship_hull_cruiser_role_cg = {
@@ -5209,6 +5240,9 @@ equipment_modules = {
 			anti_air_attack = 0.1
 			build_cost_ic = 0.2
 			reliability = 0.1
+		}
+		forbid_module_categories = {
+			raider_kit
 		}
 	}
 
@@ -5297,6 +5331,59 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = civilian_ship_engine
 			convert_cost_ic = 200
+		}
+	}
+
+	# sub weapon
+	sub_battery_1 = {
+		category = sub_battery
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hg_attack = 4
+			lg_attack = 2
+			naval_heavy_gun_hit_chance_factor = -0.02
+			naval_light_gun_hit_chance_factor = -0.02
+			reliability = -0.1
+			build_cost_ic = 300	
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+			sub_visibility = 0.05
+		}
+		add_average_stats = {
+			hg_armor_piercing = 20
+			lg_armor_piercing = 5
+		}
+
+		critical_parts = { damaged_heavy_guns }
+	}
+	
+	# raider kit
+	ship_cruiser_camo_1 = {
+		category = raider_kit
+		
+		multiply_stats = {
+			surface_visibility = -0.05
+			build_cost_ic = 0.02
+		}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+		}
+	}
+	ship_cruiser_camo_2 = {
+		category = raider_kit
+		
+		multiply_stats = {
+			surface_visibility = -0.2
+			build_cost_ic = 0.02
+		}
+		
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 		}
 	}
 }

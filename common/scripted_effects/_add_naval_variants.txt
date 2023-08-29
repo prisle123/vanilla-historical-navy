@@ -1391,6 +1391,7 @@ FRA_start_naval_variants = {
         name_group = FRA_SS_HISTORICAL
         modules = {
             fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_battery_slot = sub_battery_1
 			fixed_ship_engine_slot = sub_ship_engine_1
             fixed_ship_armor_slot = pressure_hull_2
             front_1_custom_slot = ship_airplane_launcher_1
@@ -2340,8 +2341,8 @@ ITA_start_naval_variants = {
 			front_2_custom_slot = ship_heavy_battery_1_triple
 			mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_heavy_battery_1_triple
-            rear_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = ship_heavy_battery_1
+            rear_2_custom_slot = ship_heavy_battery_1_triple
         }
     }
     create_equipment_variant = {
@@ -2364,8 +2365,8 @@ ITA_start_naval_variants = {
 			front_2_custom_slot = ship_heavy_battery_1_triple
 			mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_heavy_battery_1_triple
-            rear_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = ship_heavy_battery_1
+            rear_2_custom_slot = ship_heavy_battery_1_triple
         }
         obsolete = yes
     }
@@ -3129,7 +3130,7 @@ SOV_start_naval_variants = {
         modules = {
             fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_1
-            fixed_ship_armor_slot = pressure_hull_2
+			fixed_ship_armor_slot = pressure_hull_2
 			rear_1_custom_slot = empty
         }
     }
@@ -5988,6 +5989,177 @@ PRU_start_naval_variants = {
             fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
             fixed_ship_armor_slot = empty
+			rear_1_custom_slot = empty
+        }
+    }
+}
+
+CUB_start_naval_variants = {
+    create_equipment_variant = {
+		name = "Baire/Patria Class"
+        allow_without_tech = yes
+		role_icon_index = 47
+		type = vnr_ship_hull_light_1
+		name_group = CUB_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {#TBC
+		name = "Cuba Class"
+		allow_without_tech = yes
+		role_icon_index = 23
+		name_group = CUB_DD_HISTORICAL
+		type = vnr_ship_hull_cruiser_coastal_defense_ship
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+	}
+}
+
+PER_start_naval_variants = {
+    create_equipment_variant = {
+		name = "Babr Class"
+        allow_without_tech = yes
+		role_icon_index = 47
+		type = vnr_ship_hull_light_1
+		name_group = PER_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
+            rear_2_custom_slot = ship_mine_layer_1
+		}
+	}
+}
+
+SIA_start_naval_variants = {
+    # heavy cruiser
+    create_equipment_variant = {
+		name = "Sri Ayuthia Class"
+        allow_without_tech = yes
+		role_icon_index = 19
+		type = vnr_ship_hull_cruiser_coastal_defense_ship
+		name_group = SIA_CA_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1_double
+            fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+            fixed_ship_armor_slot = ship_armor_cruiser_1
+			rear_1_custom_slot = ship_medium_battery_1_double
+		}
+	}
+    # destroyer
+    create_equipment_variant = {
+		name = "Phra Ruang Class"
+        allow_without_tech = yes
+		role_icon_index = 31
+		type = vnr_ship_hull_light_1
+		name_group = SIA_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_light_battery_1
+            rear_2_custom_slot = ship_light_battery_1
+		}
+	}
+    create_equipment_variant = {
+		name = "Sua Tayanchon Class"
+        allow_without_tech = yes
+		role_icon_index = 31
+		type = vnr_ship_hull_light_1
+		name_group = SIA_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+		}
+        obsolete = yes
+	}
+    create_equipment_variant = {
+		name = "Chao Phraya Class"
+        allow_without_tech = yes
+		role_icon_index = 47
+		type = vnr_ship_hull_light_1
+		name_group = SIA_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+		}
+        obsolete = yes
+	}
+    create_equipment_variant = {
+		name = "Trad Class"
+        allow_without_tech = yes
+		role_icon_index = 35
+		type = vnr_ship_hull_light_2
+		name_group = SIA_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_light_battery_1
+            rear_2_custom_slot = ship_light_battery_1
+		}
+	}
+    create_equipment_variant = {
+		name = "Kantang Class"
+        allow_without_tech = yes
+		role_icon_index = 29
+		type = vnr_ship_hull_light_1
+		name_group = SIA_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+		}
+	}
+    # submarine
+    create_equipment_variant = {
+        name = "Vilun Class"
+        allow_without_tech = yes
+		role_icon_index = 49
+        type = vnr_ship_hull_submarine_2
+        name_group = SIA_SS_HISTORICAL
+        modules = {
+            fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+            fixed_ship_armor_slot = pressure_hull_1
 			rear_1_custom_slot = empty
         }
     }

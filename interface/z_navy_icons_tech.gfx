@@ -1762,4 +1762,68 @@ spriteTypes = {
         		name = "GFX_HUN_improved_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Dual_Monarchy/AUS_battleship4.png"
         	}
+			
+### SIA ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_SIA_early_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_basic_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_interwar_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_improved_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_destroyer5.png"
+        	}
+	# cruiser
+
+        	spriteType = {
+        		name = "GFX_SIA_early_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_basic_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_interwar_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_improved_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser4.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_advanced_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_light_cruiser5.png"
+        	}
+	# submarine
+
+        	spriteType = {
+        		name = "GFX_SIA_early_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_submarine1.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_basic_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_submarine2.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_improved_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_submarine3.png"
+        	}
+        	spriteType = {
+        		name = "GFX_SIA_advanced_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_submarine4.png"
+        	}
 }

@@ -303,6 +303,8 @@
  EQ_MOD_CAT_civilian_ship_engine_TITLE: "Civilian Engine"
  EQ_MOD_CAT_civilian_ship_weapons_TITLE: "Civilian Ship Weapon"
  EQ_MOD_CAT_ship_auxiliary_TITLE: "Auxiliary Device"
+ EQ_MOD_CAT_sub_battery_TITLE: "Submarine Battery"
+ EQ_MOD_CAT_raider_kit_TITLE: "Raider Camouflage"
 
  EQ_MOD_SLOT_fixed_ship_airplane_launcher_slot_TITLE:0 "Airplane Launcher"
  EQ_MOD_SLOT_fixed_ship_extra_secondaries_slot_TITLE:0 "Miscellaneous"
@@ -395,6 +397,9 @@
  ship_hull_cruiser_role_clc: "Colonial Cruiser Role"
  ship_hull_cruiser_role_clc_short: "Colonial Cruiser"
  ship_hull_cruiser_role_clc_desc: "A cruiser designed for cruising remote waters."
+ ship_hull_cruiser_role_rc: "Raider Cruiser Role"
+ ship_hull_cruiser_role_rc_short: "Raider Cruiser"
+ ship_hull_cruiser_role_rc_desc: "A cruiser designed for raiding the trade routes, usually has lower visibility."
 
  civilian_ship_engine_1: "5000hp"
  civilian_ship_engine_1_short: "Civilian Steam Engine I"
@@ -417,6 +422,13 @@
  ship_civilian_light_battery_1: "88mm Naval Gun"
  ship_civilian_light_battery_1_short: "Light Guns"
  ship_civilian_light_battery_1_desc: "A single mounted light breechloader."
+ 
+ ship_cruiser_camo_1: "Dazzle Camouflage"
+ ship_cruiser_camo_1_short: "Camouflage Paint"
+ ship_cruiser_camo_1_desc: "A paint on the ship to make it harder to identify or spot.\n\nThis module §Rdisallows§! §YTwin and Triple Light Medium Gun§!."
+ ship_cruiser_camo_2: "Civilian Ship Disguise"
+ ship_cruiser_camo_2_short: "Disguised Outfit"
+ ship_cruiser_camo_2_desc: "A ship totally undergone civilian ship refit, all weapons are hidden properly.\n\nThis module §Rdisallows§! §YAll Light Medium Gun§!."
  
  light_ship_engine_5:0 "55000hp"
  light_ship_engine_5_short:0 "Light Steam Engine V"
@@ -517,6 +529,10 @@
  pressure_hull_4: "Pressure Hull IV"
  pressure_hull_4_short: "Pressure Hull IV"
  pressure_hull_4_desc: "Pressure hull protects a submarine from water pressure and decides its max submerging depth."
+
+ sub_battery_1: "203mm Cannon"
+ sub_battery_1_short: "Submarine Battery"
+ sub_battery_1_desc: "A cruiser-level gun installed on a submarine without a turret."
  
  ship_sonar_3: "Towed Sonar Array"
  ship_sonar_3_short: "Towed Sonar"
