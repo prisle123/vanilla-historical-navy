@@ -7,6 +7,7 @@ tags={
 }
 dependencies={
 	"The Road to 56"
+	"Last Stand"
 }
 name="Vanilla Navy Rework"
 picture="thumbnail.png"

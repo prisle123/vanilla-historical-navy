@@ -1391,7 +1391,7 @@ FRA_start_naval_variants = {
         name_group = FRA_SS_HISTORICAL
         modules = {
             fixed_ship_torpedo_slot = ship_torpedo_sub_1
-            fixed_ship_battery_slot = sub_battery_1
+			fixed_ship_battery_slot = sub_battery_1
 			fixed_ship_engine_slot = sub_ship_engine_1
             fixed_ship_armor_slot = pressure_hull_2
             front_1_custom_slot = ship_airplane_launcher_1
@@ -3130,7 +3130,7 @@ SOV_start_naval_variants = {
         modules = {
             fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_1
-            fixed_ship_armor_slot = pressure_hull_2
+			fixed_ship_armor_slot = pressure_hull_2
 			rear_1_custom_slot = empty
         }
     }
