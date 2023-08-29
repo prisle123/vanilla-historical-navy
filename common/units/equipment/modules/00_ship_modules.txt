@@ -1003,7 +1003,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 0.6
-			hg_attack = 7.5
+			hg_attack = 7.2
 			build_cost_ic = 750
 			reliability = -0.05
 			naval_heavy_gun_hit_chance_factor = -0.01
@@ -1036,7 +1036,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 0.7
-			hg_attack = 10
+			hg_attack = 9
 			build_cost_ic = 900
 			reliability = -0.05
 			naval_heavy_gun_hit_chance_factor = -0.01
@@ -1070,7 +1070,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 0.8
-			hg_attack = 13
+			hg_attack = 12.6
 			build_cost_ic = 1000
 			reliability = -0.08
 			naval_heavy_gun_hit_chance_factor = -0.01
@@ -1103,7 +1103,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 0.9
-			hg_attack = 16
+			hg_attack = 14.4
 			build_cost_ic = 1300
 			reliability = -0.08
 			naval_heavy_gun_hit_chance_factor = -0.01
@@ -1141,7 +1141,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 1
-			hg_attack = 17
+			hg_attack = 16.2
 			build_cost_ic = 1400
 			reliability = -0.08
 			naval_heavy_gun_hit_chance_factor = -0.01
@@ -1179,7 +1179,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 1.1
-			hg_attack = 22
+			hg_attack = 21.6
 			build_cost_ic = 1550
 			reliability = -0.08
 			naval_heavy_gun_hit_chance_factor = -0.01
@@ -1221,7 +1221,7 @@ equipment_modules = {
 			hg_attack = 27
 			build_cost_ic = 1750
 			reliability = -0.15
-			naval_heavy_gun_hit_chance_factor = -0.015
+			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		
 		multiply_stats = {
@@ -1247,7 +1247,7 @@ equipment_modules = {
 			hg_attack = 32.4
 			build_cost_ic = 2250
 			reliability = -0.2
-			naval_heavy_gun_hit_chance_factor = -0.02
+			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.11
@@ -1315,7 +1315,7 @@ equipment_modules = {
 			hg_attack = 32.4
 			build_cost_ic = 2400
 			reliability = -0.16
-			naval_heavy_gun_hit_chance_factor = -0.015
+			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.1
