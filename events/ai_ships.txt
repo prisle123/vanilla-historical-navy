@@ -1448,11 +1448,19 @@ country_event = {
 					improved_depth_charges = 1
 					escort_carriers_ship = 1
 					destroyer_cruiser_trend = 1
+					escort_destroyer_trend = 1
 					improved_periscope = 1
+					improved_airplane_launcher = 1
+					cruiser_gun_upgrade = 1
+					cruiser_aa_upgrade = 1
+					krupp_cemented_steel = 1
 
 					basic_light_shell = 1
 					basic_medium_shell = 1
 					basic_heavy_shell = 1
+
+					damage_control_1 = 1
+					fire_control_methods_1 = 1
 				}
 			}
 		}
@@ -1481,6 +1489,7 @@ country_event = {
 					advanced_ship_hull_heavy = 1 
 					advanced_ship_hull_cruiser = 1 
 					advanced_ship_hull_light = 1 
+					advanced_ship_hull_submarine = 1
 					antiair4 = 1 
 					antiair5 = 1 
 					advanced_fire_control_system = 1 
@@ -1491,14 +1500,25 @@ country_event = {
 					advanced_light_battery = 1
 					advanced_heavy_armor = 1
 					advanced_cruiser_armor = 1
+					advanced_torpedo_defense = 1
 					all_or_nothing_armor_box_armor_scheme = 1
 					advanced_sonar = 1
 					advanced_depth_charges = 1
 					modern_depth_charges = 1
 					advanced_periscope = 1
+					basic_submarine_snorkel = 1
+					destroyer_mass_production = 1
+					ducol_steel = 1
+					homogeneous_krupp_steel = 1
+					folding_wing = 1
+					carrier_mass_production = 1
+					carrier_damage_control = 1
+					air_fuel_storage = 1
 
 					modern_ship_torpedo_launcher = 1
-					modern_carrier_equipments = 1
+					
+					damage_control_2 = 1
+					fire_control_methods_2 = 1
 				}
 			}
 		}
@@ -1523,11 +1543,19 @@ country_event = {
 					is_ai = yes
 				}
 				set_technology = {
+					improved_submarine_snorkel = 1
+					sub_AIP_engine = 1
 					full_armored_carrier = 1
 					carrier_steam_catapult = 1
 					carrier_angled_deck = 1
 					super_carriers = 1
 					anechoic_tile = 1
+					damage_control_3 = 1
+					fire_control_methods_3 = 1
+					radar_jammer = 1
+					sound_surveillance_system = 1
+					naval_radio_guiding_system = 1
+					ship_to_ship_missile = 1
 				}
 			}
 		}
