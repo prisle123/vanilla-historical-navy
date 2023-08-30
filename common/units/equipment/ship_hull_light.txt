@@ -44,7 +44,7 @@ equipments = {
 			}
 			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = { ship_radar ship_sonar }
+				allowed_module_categories = { ship_radar ship_sonar ship_mast }
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
@@ -133,7 +133,7 @@ equipments = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
-			fixed_ship_radar_slot = empty
+			fixed_ship_radar_slot = ship_mast_1
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_role_slot = ship_hull_light_role_dd
 			fixed_ship_torpedo_slot = empty

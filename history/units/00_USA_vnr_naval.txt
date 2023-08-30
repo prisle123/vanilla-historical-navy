@@ -152,7 +152,7 @@ units= {
 			name = "Scouting Force"				
 			location = 9814 # 9814 # Los Angeles
 			### Battleship Division 4 ###			
-			ship = { name = "USS Arkansas" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Florida/Wyoming Class" } } }				
+			ship = { name = "USS Arkansas" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Wyoming Class" } } }				
 			ship = { name = "USS New York" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }				
 			ship = { name = "USS Texas" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }				
 			### Cruisers ###				
