@@ -1,0 +1,59 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "Man the Guns" 
+	}
+
+    eng_14in_mk7_double = {
+        category = ship_heavy_battery
+        sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+
+        add_stats = {
+			surface_visibility = 0.5
+			hg_attack = 6
+			build_cost_ic = 500
+		}
+		multiply_stats = {
+			naval_speed = -0.015
+		}
+		add_average_stats = {
+			hg_armor_piercing = 33
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 200
+		}
+		dismantle_cost_ic = 1040
+		critical_parts = { damaged_heavy_guns }
+		forbid_module_categories = {
+		    ship_depth_charge
+			ship_mine_layer
+		}
+    }
+    eng_14in_mk7_quad = {
+        category = ship_heavy_battery_quad
+        add_stats = {
+			surface_visibility = 0.8
+			hg_attack = 11.5
+			build_cost_ic = 1000
+            reliability = -0.05
+			naval_heavy_gun_hit_chance_factor = -0.01
+		}
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+		add_average_stats = {
+			hg_armor_piercing = 33
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 300
+		}
+		dismantle_cost_ic = 2250
+		critical_parts = { damaged_heavy_guns }
+		forbid_module_categories = {
+		    ship_depth_charge
+			ship_mine_layer
+		}
+    }
+}

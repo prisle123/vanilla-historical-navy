@@ -1676,6 +1676,10 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
+		battlecarrier = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1723,6 +1727,10 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
+		battlecarrier = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		heavy_cruiser = {
 			lg_attack = 0.05
 			hg_attack = 0.05
@@ -1763,6 +1771,10 @@ technologies = {
 			hg_attack = 0.1
 		}
 		battle_cruiser = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
+		battlecarrier = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
@@ -2989,4 +3001,15 @@ technologies = {
 			naval_equipment
 		}
 	}
+
+
+	vnr_less_fuel_consumption = {
+        research_cost = 1
+		start_year = 1900
+
+		allow = {
+			always = no
+		}
+        navy_fuel_consumption_factor = -0.15
+    }
 }

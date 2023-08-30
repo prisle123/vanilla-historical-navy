@@ -1,0 +1,14 @@
+technologies = {
+    eng_14in_mk7 = {
+        research_cost = 1
+        start_year = 1930
+
+        allow = {
+            always = no
+        }
+        enable_equipment_modules = {
+            eng_14in_mk7_double
+            eng_14in_mk7_quad
+        }
+    }
+}

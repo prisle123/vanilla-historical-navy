@@ -26,6 +26,7 @@ technologies = {
 		enable_equipment_modules = {
 			light_ship_engine_1
 			ship_hull_light_role_dd
+			ship_mast_1
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_light
@@ -663,6 +664,7 @@ technologies = {
 			cruiser_ship_engine_1
 			ship_airplane_launcher_1
 			ship_hull_cruiser_role_c
+			ship_mast_1
 		}
 		path = {
 			leads_to_tech = treaty_cruiser_trend
@@ -1636,6 +1638,7 @@ technologies = {
 			ship_armor_bb_1
 			ship_armor_bc_1
 			ship_scheme_incremental
+			ship_mast_1
 		}
 
 		path = {
@@ -2410,14 +2413,9 @@ technologies = {
 		research_cost = 1
 		start_year = 1945
 
-		battleship = {
-			surface_visibility = -0.1
-		}
-		battle_cruiser = {
-			surface_visibility = -0.1
-		}
-		SH_battleship = {
-			surface_visibility = -0.1
+		navy_visibility = -0.05
+		enable_equipment_modules = {
+			ship_radar_jammer
 		}
 
 		folder = {
