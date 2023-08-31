@@ -4512,6 +4512,29 @@ equipment_modules = {
 		dismantle_cost_ic = 8200
 		
 	}
+	ship_armor_shbb_2 = {
+		category = ship_super_heavy_armor
+		gfx = ship_armor_bb_4
+		
+		multiply_stats = {
+			build_cost_ic = 0.28
+			naval_speed = -0.35
+			max_strength = 0.15
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 50
+			surface_visibility = 12
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.1
+			reliability = 0.25
+		}
+		dismantle_cost_ic = 10000
+		
+	}
 	### scheme and TDS
 	ship_scheme_incremental = {
 		category = armor_scheme
