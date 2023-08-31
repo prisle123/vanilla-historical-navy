@@ -5012,7 +5012,7 @@ equipment_modules = {
 			naval_speed = -0.1
 		}
 	}
-	ship_missile_1 = {
+	ship_missile_aa_1 = {
 		category = ship_missile_aa
 		gui_category = ship_missile
 
@@ -5322,7 +5322,7 @@ equipment_modules = {
 		multiply_stats = {
 			surface_detection = 0.1
 			sub_detection = 0.1
-			build_cost_ic = 0.1
+			build_cost_ic = 0.075
 		}
 		forbid_module_categories = {
 			raider_kit

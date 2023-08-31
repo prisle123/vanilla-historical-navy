@@ -735,6 +735,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_cl.png"
 	}
 	spriteType = {
+		name = "GFX_SMI_ship_hull_light_role_dda"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_dda.png"
+	}
+	spriteType = {
 		name = "GFX_SMI_ship_hull_cruiser_role_c"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_c.png"
 	}
@@ -757,6 +761,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_hull_cruiser_role_rc"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_rc.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_csr"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_csr.png"
 	}
 	
 	## scheme & TDS
@@ -815,6 +823,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_missile_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_missile.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_missile_aa_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_missile_aa.png"
 	}
 	
 	# diesel engine
@@ -995,7 +1007,7 @@ spriteTypes = {
 	
 	#electronics
 	spriteType = {
-		name = "GFX_SMI_radar_jammer"
+		name = "GFX_SMI_ship_radar_jammer"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/radar_jammer.png"
 	}
 }

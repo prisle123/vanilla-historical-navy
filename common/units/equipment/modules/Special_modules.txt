@@ -12,7 +12,7 @@ equipment_modules = {
         add_stats = {
 			surface_visibility = 0.5
 			hg_attack = 6
-			build_cost_ic = 500
+			build_cost_ic = 470
 		}
 		multiply_stats = {
 			naval_speed = -0.015
@@ -40,7 +40,7 @@ equipment_modules = {
         add_stats = {
 			surface_visibility = 0.8
 			hg_attack = 11.5
-			build_cost_ic = 1000
+			build_cost_ic = 900
             reliability = -0.05
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
