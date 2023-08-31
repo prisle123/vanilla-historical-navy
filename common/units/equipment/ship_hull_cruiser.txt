@@ -139,6 +139,10 @@ equipments = {
 			category = ship_missile
 			count < 3
 		}
+		module_count_limit = {
+			category = ship_missile_aa
+			count < 4
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -321,6 +325,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery 
 					ship_missile
+					ship_missile_aa
 				}
 			}
 			front_2_custom_slot = front_1_custom_slot
@@ -334,6 +339,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_mine_layer
 					ship_missile
+					ship_missile_aa
 
 					ship_light_medium_battery 
 					ship_light_medium_battery_double 
@@ -358,6 +364,7 @@ equipments = {
 					ship_depth_charge
 					ship_torpedo
 					ship_missile
+					ship_missile_aa
 
 					ship_light_medium_battery 
 					ship_light_medium_battery_double 

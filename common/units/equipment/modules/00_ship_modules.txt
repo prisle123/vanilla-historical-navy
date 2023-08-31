@@ -5012,6 +5012,27 @@ equipment_modules = {
 			naval_speed = -0.1
 		}
 	}
+	ship_missile_1 = {
+		category = ship_missile_aa
+		gui_category = ship_missile
+
+		add_stats = {
+			build_cost_ic = 1000
+			hg_attack = 5
+			lg_attack = 5
+			anti_air_attack = 10
+			naval_heavy_gun_hit_chance_factor = 0.05
+			naval_light_gun_hit_chance_factor = 0.05
+			reliability = -0.15
+		}
+		add_average_stats = {
+			hg_armor_piercing = 16
+			lg_armor_piercing = 10
+		}
+		multiply_stats = {
+			naval_speed = -0.08
+		}
+	}
 
 ### Submarine modules
 	pressure_hull_1 = {
@@ -5156,6 +5177,7 @@ equipment_modules = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
 			ship_light_medium_battery_single
+			ship_missile_aa
 		}
 	}
 	ship_hull_light_role_dl = {
@@ -5170,6 +5192,7 @@ equipment_modules = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
 			ship_light_medium_battery_single
+			ship_missile_aa
 		}
 	}
 	ship_hull_light_role_de = {
@@ -5185,6 +5208,7 @@ equipment_modules = {
 			ship_light_medium_battery_double
 			ship_light_medium_battery_single
 			ship_torpedo
+			ship_missile_aa
 		}
 	}
 	ship_hull_light_role_cl = {
@@ -5197,6 +5221,15 @@ equipment_modules = {
         	naval_speed = -0.1
         	build_cost_ic = 0.25
     	}
+		forbid_module_categories = {
+			ship_missile_aa
+		}
+	}
+	ship_hull_light_role_dda = {
+    	category = dd_role
+    	multiply_stats = {
+        	build_cost_ic = 0.1
+    	}
 	}
 	ship_hull_cruiser_role_c = {
 		category = c_role
@@ -5204,6 +5237,7 @@ equipment_modules = {
 			ship_medium_heavy_battery
 			ship_cruiser_heavy_armor
 			ship_missile
+			ship_missile_aa
 			raider_kit
 		}
 	}
@@ -5215,6 +5249,7 @@ equipment_modules = {
 		}
 		forbid_module_categories = {
 			ship_missile
+			ship_missile_aa
 			raider_kit
 		}
 	}
@@ -5228,6 +5263,7 @@ equipment_modules = {
 			ship_medium_heavy_battery
 			ship_cruiser_heavy_armor
 			ship_missile
+			ship_missile_aa
 			raider_kit
 		}
 	}
@@ -5243,6 +5279,7 @@ equipment_modules = {
 			ship_medium_heavy_battery
 			ship_cruiser_heavy_armor
 			ship_missile
+			ship_missile_aa
 			raider_kit
 		}
 	}
@@ -5265,6 +5302,7 @@ equipment_modules = {
 			ship_medium_battery_double
 			ship_cruiser_heavy_armor
 			ship_missile
+			ship_missile_aa
 			ship_airplane_launcher
 		}
 	}
@@ -5277,6 +5315,19 @@ equipment_modules = {
 		}
 		forbid_module_categories = {
 			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_csr = {
+		category = c_role
+		multiply_stats = {
+			surface_detection = 0.1
+			sub_detection = 0.1
+			build_cost_ic = 0.1
+		}
+		forbid_module_categories = {
+			raider_kit
+			ship_missile
+			ship_missile_aa
 		}
 	}
 
