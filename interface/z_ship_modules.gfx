@@ -655,6 +655,10 @@ spriteTypes = {
 	
 	### radar
 	spriteType = {
+		name = "GFX_SMI_ship_mast_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_mast.png"
+	}
+	spriteType = {
 		name = "GFX_SMI_ship_radar_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_radar1.png"
 	}
@@ -987,5 +991,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_cruiser_camo_2"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_cruiser_camo_2.png"
+	}
+	
+	#electronics
+	spriteType = {
+		name = "GFX_SMI_radar_jammer"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/radar_jammer.png"
 	}
 }

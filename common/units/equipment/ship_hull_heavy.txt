@@ -55,7 +55,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_ap_shell }
+				allowed_module_categories = { ship_miscellaneous }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -295,7 +295,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_ap_shell }
+				allowed_module_categories = { ship_miscellaneous }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -605,7 +605,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_ap_shell }
+				allowed_module_categories = { ship_miscellaneous }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes

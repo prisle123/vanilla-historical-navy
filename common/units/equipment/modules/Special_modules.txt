@@ -5,6 +5,7 @@ equipment_modules = {
 
     eng_14in_mk7_double = {
         category = ship_heavy_battery
+		gfx = ship_heavy_battery_2
         sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 
@@ -32,6 +33,10 @@ equipment_modules = {
     }
     eng_14in_mk7_quad = {
         category = ship_heavy_battery_quad
+		gfx = ship_heavy_battery_2_quad
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
         add_stats = {
 			surface_visibility = 0.8
 			hg_attack = 11.5
