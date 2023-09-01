@@ -665,9 +665,15 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 3 y = 22 }
 		}
+		dependencies = {
+			rocket_engines = 1
+		}
 		
 		ai_will_do = {
 			factor = 1
+		}
+		categories = {
+			dd_tech
 		}
 	}
 
@@ -1321,6 +1327,28 @@ technologies = {
 			naval_equipment
 			cl_tech
 			ca_tech
+			ship_modules_tech
+		}
+	}
+
+	helipad = {
+		research_cost = 0.75
+		start_year = 1945
+		enable_equipment_modules = {
+			ship_helipad
+		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = 21 }
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		categories = {
+			naval_equipment
 			ship_modules_tech
 		}
 	}

@@ -4194,7 +4194,7 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_1
 		
 		add_stats = {
-			surface_detection = 7
+			surface_detection = 6
 			sub_detection = 2.5
 			sub_attack = 2.5
 			build_cost_ic = 150
@@ -4209,7 +4209,7 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_2
 		parent = ship_airplane_launcher_1
 		add_stats = {
-			surface_detection = 10
+			surface_detection = 9
 			sub_detection = 3.5
 			sub_attack = 5
 			build_cost_ic = 170
@@ -4220,6 +4220,19 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.003
+		}
+	}
+	ship_helipad = {
+		category = ship_airplane_launcher
+		parent = ship_airplane_launcher_2
+		add_stats = {
+			surface_detection = 7
+			sub_detection = 4.5
+			sub_attack = 6.5
+			build_cost_ic = 180
+		}
+		multiply_stats = {
+			naval_speed = -0.005
 		}
 	}
 
