@@ -1553,12 +1553,38 @@ country_event = {
 					damage_control_3 = 1
 					fire_control_methods_3 = 1
 					radar_jammer = 1
-					sound_surveillance_system = 1
 					naval_radio_guiding_system = 1
 					ship_to_ship_missile = 1
 				}
 			}
 		}
 		set_global_flag = naval_tech_1944
+	}
+}
+
+# unlock some naval techs for major powers in 1945
+country_event = {
+	id = ai_ships.104
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1945.1.1
+		NOT = { has_global_flag = naval_tech_1945 }
+	}
+	immediate = {
+		for_each_scope_loop = {
+			array = global.vnr_naval_powers
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				set_technology = {
+					cruiser_missile_upgrade = 1
+					destroyer_missile_upgrade = 1
+					sound_surveillance_system = 1
+				}
+			}
+		}
+		set_global_flag = naval_tech_1945
 	}
 }

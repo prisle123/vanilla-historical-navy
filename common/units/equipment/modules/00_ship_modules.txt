@@ -5227,6 +5227,9 @@ equipment_modules = {
 	}
 	ship_hull_light_role_dda = {
     	category = dd_role
+		add_stats = {
+			reliability = 0.1
+		}
     	multiply_stats = {
         	build_cost_ic = 0.1
     	}

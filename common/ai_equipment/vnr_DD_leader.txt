@@ -6,7 +6,7 @@ naval_screen_leader = {
 	priority = { base = 10 }
 
 	screen_1924 = {
-		role_icon_index = 31
+		role_icon_index = 33
 
 		priority = {
 			base = 1
@@ -38,7 +38,7 @@ naval_screen_leader = {
 	}
 
 	screen_1936 = {
-		role_icon_index = 31
+		role_icon_index = 33
 
 		priority = {
 			base = 50
@@ -70,7 +70,7 @@ naval_screen_leader = {
 	}
 
 	screen_1940 = {
-		role_icon_index = 31
+		role_icon_index = 33
 
 		priority = {
 			base = 75
@@ -83,23 +83,23 @@ naval_screen_leader = {
 			type = vnr_ship_hull_light_4
 			modules = {
 				fixed_ship_engine_slot = light_ship_engine
-				fixed_ship_battery_slot = ship_light_battery
+				fixed_ship_battery_slot = ship_light_battery_double
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_sonar
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_dl
-				front_1_custom_slot = ship_light_battery
+				front_1_custom_slot = ship_light_battery_double
 				mid_1_custom_slot = ship_torpedo
-				mid_2_custom_slot = ship_light_battery
+				mid_2_custom_slot = ship_light_battery_double
 				rear_1_custom_slot = ship_depth_charge
-				rear_2_custom_slot = ship_light_battery
+				rear_2_custom_slot = ship_light_battery_double
 			}
 		}
 	}
 
 	screen_1944 = {
-		role_icon_index = 31
+		role_icon_index = 33
 
 		priority = {
 			base = 0
@@ -112,17 +112,17 @@ naval_screen_leader = {
 			type = vnr_ship_hull_light_5
 			modules = {
 				fixed_ship_engine_slot = light_ship_engine
-				fixed_ship_battery_slot = ship_light_battery
+				fixed_ship_battery_slot = ship_light_battery_double
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_sonar
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_dl
-				front_1_custom_slot = ship_light_battery
+				front_1_custom_slot = ship_light_battery_double
 				mid_1_custom_slot = ship_torpedo
-				mid_2_custom_slot = ship_light_battery
+				mid_2_custom_slot = ship_light_battery_double
 				rear_1_custom_slot = ship_depth_charge
-				rear_2_custom_slot = ship_light_battery
+				rear_2_custom_slot = ship_light_battery_double
 			}
 		}
 	}

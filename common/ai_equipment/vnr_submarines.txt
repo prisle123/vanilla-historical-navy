@@ -33,6 +33,7 @@ naval_submarine = {
 			modules = {
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -58,6 +59,7 @@ naval_submarine = {
 			modules = {
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -81,6 +83,8 @@ naval_submarine = {
 				mid_2_custom_slot = ship_sub_snorkel
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -101,8 +105,11 @@ naval_submarine = {
 			modules = {
 				mid_1_custom_slot = sub_ship_periscope
 				mid_2_custom_slot = ship_sub_snorkel
+				mid_3_custom_slot = sub_ship_stealth
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}
