@@ -1226,6 +1226,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_1
 			torpedo_mounting
+			ship_torpedo_fire_control
 		}
 
 		on_research_complete = {
@@ -2627,6 +2628,7 @@ technologies = {
 	speed_over_range = {
 		research_cost = 0.5
 		start_year = 1925
+		force_use_small_tech_layout = yes
 
 		ai_will_do = {
 			factor = 1
@@ -2651,6 +2653,7 @@ technologies = {
 	range_over_speed = {
 		research_cost = 0.5
 		start_year = 1925
+		force_use_small_tech_layout = yes
 
 		ai_will_do = {
 			factor = 1

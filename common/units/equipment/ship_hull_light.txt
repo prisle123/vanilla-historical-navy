@@ -58,6 +58,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { dd_role }
 			}
+			fixed_ship_extra_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_miscellaneous }
+			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -301,6 +305,7 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_role_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {

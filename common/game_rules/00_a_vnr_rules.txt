@@ -1,0 +1,40 @@
+#
+# List of options showing in the Game Rules screen
+#
+# format is:
+# rule_token = {
+#	name = "TEXT_KEY_FOR_NAME"
+#	required_dlc = "Name of the Required DLC"
+#	desc = "TEXT_KEY_FOR_LONG_DESC"
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	icon = gfx_option_token							# Optional icon
+#	option = {										# Unless other specified, the first option is the default option
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		allow_achievements = no						# Achievements cannot be earned if one or more game rules are set to an option that has this property set to no.
+#													# If not specified, this is set to yes for default options and no for all other options.
+#	}
+#	default = {										# Specify an option with the "default" token to override the behavior of treating the first option as the default.
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		...
+#	}
+# }
+
+allow_never_built = {
+	name = "RULE_ALLOW_NEVER_BUILT"
+	group = "RULE_GROUP_VANILLA_NAVY_REWORK"
+	icon = generic_naval
+	option = {
+		name = "FREE"
+		text = "RULE_OPTION_FREE"
+		desc = "RULE_ALLOW_NEVER_BUILT_FREE_DESC"
+	}
+	option = {
+		name = BLOCKED
+		text = "RULE_OPTION_BLOCKED"
+		desc = "RULE_ALLOW_NEVER_BUILT_BLOCKED_DESC"
+	}
+}
+
+#We could add stuff for political advisor visibility filters here too, in the future

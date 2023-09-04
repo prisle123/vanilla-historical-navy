@@ -247,6 +247,10 @@ technologies = {
 	smoke_generator = {
 
 		naval_retreat_speed = 0.2
+		
+		enable_equipment_modules = {
+			ship_smoke_generator
+		}
 
 		research_cost = 0.5
 
@@ -463,6 +467,7 @@ technologies = {
 	improved_sonar = {
 		enable_equipment_modules = {
 			ship_sonar_2
+			ship_bulbous_bow
 		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
@@ -890,6 +895,10 @@ technologies = {
 			leads_to_tech = cruiser_missile_upgrade
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = helipad
+			research_cost_coeff = 1
+		}
 		research_cost = 1.5
 
 		start_year = 1944
@@ -1213,6 +1222,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			ship_hull_cruiser_role_aa
+			ship_aa_fire_control
 		}
 
 		folder = {
@@ -3299,6 +3309,9 @@ technologies = {
 		research_cost = 0.75
 
 		start_year = 1914
+		enable_equipment_modules = {
+			ship_electric_motor
+		}
 		submarine = {
 			fuel_consumption = -0.1
 			sub_visibility = -0.05

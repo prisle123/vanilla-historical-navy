@@ -4,10 +4,10 @@ spriteTypes = {
 		name = "GFX_EMSI_fixed_ship_airplane_launcher_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
 	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_extra_secondaries_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/secondaries.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_EMSI_fixed_ship_extra_secondaries_slot"
+	#	textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/secondaries.dds"
+	#}
 	spriteType = {
 		name = "GFX_EMSI_fixed_ship_torpedo_defense_system_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
@@ -145,6 +145,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_civilian_ship_engine"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/civilian_ship_engine.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_civilian_ship_weapons"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_civilian_light_battery_1.png"
 	}
 	
 	
@@ -1005,9 +1009,34 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_cruiser_camo_2.png"
 	}
 	
-	#electronics
+	### miscellaneous
 	spriteType = {
 		name = "GFX_SMI_ship_radar_jammer"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/radar_jammer.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_smoke_generator"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_smoke_generator.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_fire_control"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo_director.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_bulbous_bow"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_bulbous_bow.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_aa_fire_control"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_aa_fire_control.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_electric_motor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_electric_motor.png"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_helipad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_helipad.png"
 	}
 }

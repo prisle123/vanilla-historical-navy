@@ -62,6 +62,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { c_role }
 			}
+			fixed_ship_extra_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_miscellaneous }
+			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -313,6 +317,7 @@ equipments = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_role_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -416,6 +421,7 @@ equipments = {
 				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor }
 			}
 			fixed_ship_airplane_launcher_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -536,10 +542,7 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_airplane_launcher }
 			}
-			fixed_ship_extra_secondaries_slot = {
-				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
-			}
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
