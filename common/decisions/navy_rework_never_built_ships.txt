@@ -3,6 +3,7 @@ navy_rework_category = {
         icon = generic_naval
         fire_only_once = yes
         allowed = {
+            has_game_rule = { rule = allow_never_built option = FREE }
             OR = {
                 tag = ENG
                 tag = FRA
@@ -48,6 +49,7 @@ navy_rework_category = {
     }
 
     show_wunderwaffe = {
+        allowed = { has_game_rule = { rule = allow_never_built option = FREE } }
         visible = {NOT = { has_global_flag = wunderwaffe_shown }}
         available = {
             num_of_naval_factories > 0

@@ -22,18 +22,20 @@
 # }
 
 allow_never_built = {
-	name = "RULE_ALLOW_NEVER_BUILT"
-	group = "RULE_GROUP_VANILLA_NAVY_REWORK"
+	name = RULE_ALLOW_NEVER_BUILT
+	group = RULE_GROUP_NAVY_REWORK
 	icon = generic_naval
 	option = {
-		name = "FREE"
-		text = "RULE_OPTION_FREE"
-		desc = "RULE_ALLOW_NEVER_BUILT_FREE_DESC"
+		name = FREE
+		text = RULE_OPTION_FREE
+		desc = RULE_ALLOW_NEVER_BUILT_FREE_DESC
+		allow_achievements = yes
 	}
 	option = {
 		name = BLOCKED
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_NEVER_BUILT_BLOCKED_DESC"
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_ALLOW_NEVER_BUILT_BLOCKED_DESC
+		allow_achievements = yes
 	}
 }
 
