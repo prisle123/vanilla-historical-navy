@@ -597,7 +597,7 @@ technologies = {
 		start_year = 1924
 
 		destroyer = {
-			max_organisation = 5
+			max_strength = 0.1
 		}
 
 		folder = {
@@ -3341,7 +3341,7 @@ technologies = {
 		submarine = {
 			surface_detection = 0.05
 		}
-		navy_submarine_detection_factor = 0.05
+		navy_submarine_detection_factor = 0.1
 
 		folder = {
 			name = mtgnavalfolder
