@@ -234,6 +234,11 @@ units= {
 	fleet = {
 		name = "Pacific Reserve Fleet"			
 		naval_base = 1562 # 1562 # San Diego
+		task_force = {
+			name = "Pacific Reserve Carriers"
+			location = 1562
+			ship = { name = "USS Langley" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = USA version_name = "Langley Class" } } }
+		}
 		task_force = {					
 			name = "Pacific Reserve Destroyers"			# Decommissioned ships docked in San Diego				
 			location = 1562 # 1562 # San Diego
