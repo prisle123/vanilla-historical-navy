@@ -20,11 +20,9 @@ naval_submarine = {
 
 		priority = {
 			base = 10
+			modifier = { factor = 0 has_tech = basic_ship_hull_submarine }
 		}
 
-		enable = {
-			not = { has_tech = basic_ship_hull_submarine }		# WK-era SS are not worth refitting or building
-		}
 
 		target_variant = {
 			match_value = 1000.0
@@ -45,11 +43,7 @@ naval_submarine = {
 
 		priority = {
 			base = 20
-			# modifier = { factor = 0 has_tech = improved_ship_hull_submarine }
-		}
-
-		enable = {
-			not = { has_tech = improved_ship_hull_submarine }		# WK-era SS are not worth refitting or building
+			modifier = { factor = 0 has_tech = improved_ship_hull_submarine }
 		}
 
 		target_variant = {
@@ -71,7 +65,7 @@ naval_submarine = {
 
 		priority = {
 			base = 35
-			# modifier = { factor = 0 has_tech = advanced_ship_hull_submarine }
+			modifier = { factor = 0 has_tech = advanced_ship_hull_submarine }
 		}
 
 		target_variant = {
