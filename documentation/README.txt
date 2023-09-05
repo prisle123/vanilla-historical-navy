@@ -122,3 +122,14 @@ The basis of post-loading is achieved in following steps:
 Reference files:
     events/00_navy_rework.txt
     common/scripted_guis/00_navy_rework_welcome_splash_gui.txt
+
+############################################
+###     Interesting Feature Breakdown    ###
+############################################
+1. Multiple customized ship icons for one hull
+    As we all know, the icon for ship hull is unique, there is no way in code level to assign several icons for one hull. However, you can do that in tank/air designer, that's because NSB and BBA shared the same mechanism when it comes to designer, which has a pool for icons. But MTG is too old to receive an update like that.
+
+    So the only way is actually a workaround. That's to add a line "icon = xxx.dds" in the variant definition. But unfortunately this will only work for starting variants.
+
+2. Ship role system
+    The ship role system is what creates more variants. Before that, most naval mods simply add a lot of hulls to represent new type of ships, but they in fact are not so different from the base platform. For example, destroyer leader, destroyer and escort destroyer. Offering different bonus, the ship role also allow or disallow certain categories of modules.
