@@ -1039,4 +1039,22 @@ spriteTypes = {
 		name = "GFX_SMI_ship_helipad"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_helipad.png"
 	}
+	
+	### depth charge
+	spriteType = {
+		name = "GFX_SMI_ship_depth_charge_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/depth_charge1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_depth_charge_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/depth_charge2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_depth_charge_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/depth_charge3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_depth_charge_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/depth_charge4.png"
+	}
 }

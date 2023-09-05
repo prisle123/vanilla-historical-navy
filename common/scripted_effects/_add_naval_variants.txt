@@ -3162,6 +3162,21 @@ USA_start_naval_variants = {
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 		}
 	}
+	create_equipment_variant = {
+		name = "Langley Class"
+		role_icon_index = 12
+		type = vnr_ship_hull_carrier_conversion_ca
+		name_group = USA_CVL_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+		}
+		obsolete = yes
+	}
     # battleship
     create_equipment_variant = {
 		name = "North Carolina Class"
@@ -3180,7 +3195,7 @@ USA_start_naval_variants = {
             front_2_custom_slot = ship_heavy_battery_2_triple
 			mid_1_custom_slot = dp_ship_secondaries_1
 			mid_2_custom_slot = ship_anti_air_2
-			mid_3_custom_slot = ship_anti_air_2
+			mid_3_custom_slot = empty
             rear_1_custom_slot = ship_heavy_battery_2_triple
             rear_2_custom_slot = ship_airplane_launcher_1
 		}
@@ -3270,11 +3285,11 @@ USA_start_naval_variants = {
 			fixed_ship_armor_slot = ship_armor_bb_1
 			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_1_triple
 			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = empty
-			rear_1_custom_slot = ship_heavy_battery_1_triple
-			rear_2_custom_slot = ship_heavy_battery_1
-			front_1_custom_slot = ship_heavy_battery_1_triple
+			rear_1_custom_slot = ship_heavy_battery_1
+			rear_2_custom_slot = ship_heavy_battery_1_triple
 		}
 		obsolete = yes
 	}
@@ -3317,7 +3332,7 @@ USA_start_naval_variants = {
 			fixed_ship_armor_slot = ship_armor_bb_1
 			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
 			mid_1_custom_slot = empty
-			mid_2_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = empty
 			mid_3_custom_slot = ship_heavy_battery_small_1
 			rear_1_custom_slot = ship_heavy_battery_small_1
 			rear_2_custom_slot = ship_heavy_battery_small_1
