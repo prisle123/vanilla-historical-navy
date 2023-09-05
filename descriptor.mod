@@ -1,4 +1,4 @@
-version="v0.7 - Death From Beneath"
+version="v0.8 - Turning Tides"
 tags={
 	"Military"
 	"Graphics"
