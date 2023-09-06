@@ -104,6 +104,8 @@ technologies = {
 			ship_heavy_battery_1_quad
 			ship_heavy_battery_big_1_quad
 			ship_heavy_battery_small_1_quad
+
+			ship_light_weight_shell
 		}
 
 
@@ -838,6 +840,10 @@ technologies = {
 			hg_armor_piercing = 0.05
 		}
 
+		enable_equipment_modules = {
+			ship_high_velocity_shell
+		}
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 10 }
@@ -879,6 +885,10 @@ technologies = {
 		SH_battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
+		}
+
+		enable_equipment_modules = {
+			ship_super_heavy_weight_shell
 		}
 
 		folder = {
