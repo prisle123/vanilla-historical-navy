@@ -3780,6 +3780,10 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 0 }
 		}
+		
+		enable_equipment_modules = {
+			ship_vt_shell
+		}
 
 		naval_coordination = 0.05
 

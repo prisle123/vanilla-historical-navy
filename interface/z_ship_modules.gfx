@@ -835,6 +835,10 @@ spriteTypes = {
 	
 	# diesel engine
 	spriteType = {
+		name = "GFX_SMI_ship_diesel_engine_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_diesel_engine1.png"
+	}
+	spriteType = {
 		name = "GFX_SMI_ship_diesel_engine_2"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_diesel_engine2.png"
 	}
@@ -1034,6 +1038,27 @@ spriteTypes = {
 		name = "GFX_SMI_ship_electric_motor"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_electric_motor.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_weight_shell"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_light_weight_shell.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_super_heavy_weight_shell"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_super_heavy_weight_shell.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_high_velocity_shell"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_high_velocity_shell.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_shell"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_anti_air_shell.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_vt_shell"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_vt_shell.png"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_SMI_ship_helipad"

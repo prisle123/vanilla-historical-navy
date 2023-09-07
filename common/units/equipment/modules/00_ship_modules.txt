@@ -3010,6 +3010,7 @@ equipment_modules = {
 		abbreviation = "sbr"
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_diesel_engine_1
 		
 		
 		add_stats = {
@@ -3035,7 +3036,7 @@ equipment_modules = {
 		category = sub_ship_engine
 		parent = sub_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
-
+		gfx = ship_diesel_engine_2
 		
 		add_stats = {
 			#naval_speed = 5
@@ -3063,7 +3064,7 @@ equipment_modules = {
 		category = sub_ship_engine
 		parent = sub_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
-
+		gfx = ship_diesel_engine_3
 		
 		add_stats = {
 			#naval_speed = 5
@@ -3091,7 +3092,7 @@ equipment_modules = {
 		category = sub_ship_engine
 		parent = sub_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
-
+		gfx = ship_diesel_engine_4
 		
 		add_stats = {
 			#naval_speed = 5
@@ -5582,7 +5583,14 @@ equipment_modules = {
 			reliability = -0.05
 		}
 		multiply_stats = {
-			anti_air_attack = 0.05
+			anti_air_attack = 0.02
+			build_cost_ic = 0.01
+		}
+	}
+	ship_vt_shell = {
+		category = ship_miscellaneous
+		multiply_stats = {
+			anti_air_attack = 0.04
 			build_cost_ic = 0.02
 		}
 	}
