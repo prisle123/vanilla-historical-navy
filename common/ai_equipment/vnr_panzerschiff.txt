@@ -20,7 +20,7 @@ naval_cruiser_armor = {
 				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
 				fixed_ship_radar_slot = {
 					any_of = { ship_radar }
 					module = empty
@@ -50,7 +50,7 @@ naval_cruiser_armor = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
 				fixed_ship_radar_slot = { any_of = { ship_radar } }
 				fixed_ship_armor_slot = { any_of = { ship_cruiser_heavy_armor ship_cruiser_armor } }
 				fixed_ship_secondaries_slot = ship_secondaries
@@ -77,7 +77,7 @@ naval_cruiser_armor = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_5 cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
 				fixed_ship_radar_slot = { any_of = { ship_radar } }
 				fixed_ship_armor_slot = { any_of = { ship_cruiser_heavy_armor ship_cruiser_armor } }
 				fixed_ship_secondaries_slot = ship_secondaries
