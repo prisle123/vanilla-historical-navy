@@ -432,4 +432,13 @@ spriteTypes = {
 		name = "GFX_integrated_fuel_base_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/integrated_fuel_base.png"
 	}
+	
+	spriteType = {
+		name = "GFX_destroyer_missile_upgrade_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/destroyer_missile_upgrade.png"
+	}
+	spriteType = {
+		name = "GFX_helipad_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/helipad.png"
+	}
 }

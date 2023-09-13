@@ -116,3 +116,10 @@
  navy_rework.100.d: "Behemoths are intruders from other dimensions beyond imagination and comprehension of mankind. Built with future or even space-era technologies, they are able to destroy everything in sight, but this time, you will be granted to use them in your own war effort.\n\nYou have been warned that these dimensional weapons will strongly break the balance and historical elements in your run. It is available to players but not AI.\n\nNow, will you choose to burn the world or not, it all lies in your hand."
  navy_rework.100.0: "Yes!"
  navy_rework.100.1: "Maybe later."
+
+ RULE_ALLOW_NEVER_BUILT: "Allow Cheating Decisions"
+ RULE_GROUP_NAVY_REWORK: "Navy Rework Rules"
+ RULE_OPTION_FREE: "Allowed"
+ RULE_OPTION_BLOCKED: "Blocked"
+ RULE_ALLOW_NEVER_BUILT_FREE_DESC: "This option will §Renable§! the cheating decisions which grant you never-built ships and behemoth ships."
+ RULE_ALLOW_NEVER_BUILT_BLOCKED_DESC: "This option will §Rdisable§! the cheating decisions which grant you never-built ships and behemoth ships.\n\n§RHighly recommended in MP.§!"

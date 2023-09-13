@@ -40,7 +40,7 @@ equipments = {
 			}
 			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = { ship_radar ship_sonar }
+				allowed_module_categories = { ship_radar ship_sonar ship_mast }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -61,6 +61,10 @@ equipments = {
 			fixed_ship_role_slot = {
 				required = yes
 				allowed_module_categories = { c_role }
+			}
+			fixed_ship_extra_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_miscellaneous }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -139,12 +143,16 @@ equipments = {
 			category = ship_missile
 			count < 3
 		}
+		module_count_limit = {
+			category = ship_missile_aa
+			count < 4
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
-			fixed_ship_radar_slot = empty
+			fixed_ship_radar_slot = ship_mast_1
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_role_slot = ship_hull_cruiser_role_c
 			mid_1_custom_slot = empty
@@ -174,7 +182,7 @@ equipments = {
 
 		naval_range = 2500
 
-		max_strength = 100
+		max_strength = 130
 
 
 		fuel_consumption = 20
@@ -207,7 +215,7 @@ equipments = {
 
 		naval_range = 2200
 
-		max_strength = 90
+		max_strength = 100
 
 
 		fuel_consumption = 18
@@ -241,7 +249,7 @@ equipments = {
 		reliability = 0.85
 		build_cost_ic = 1700
 		naval_range = 3000
-		max_strength = 110
+		max_strength = 150
 		resources = {
 			steel = 2
 		}
@@ -264,7 +272,7 @@ equipments = {
 		naval_speed = 32
 		build_cost_ic = 1800
 		reliability = 0.90
-		max_strength = 120
+		max_strength = 165
 		naval_range = 4000
 		manpower = 1200
 		resources = {
@@ -292,13 +300,16 @@ equipments = {
 		manpower = 1400
 		build_cost_ic = 2000
 		naval_range = 4500
-		max_strength = 130
+		max_strength = 180
 		resources = {
 			steel = 3
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air_slot = inherit
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air ship_missile_aa }
+			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
@@ -306,6 +317,7 @@ equipments = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_role_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -321,6 +333,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery 
 					ship_missile
+					ship_missile_aa
 				}
 			}
 			front_2_custom_slot = front_1_custom_slot
@@ -334,6 +347,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_mine_layer
 					ship_missile
+					ship_missile_aa
 
 					ship_light_medium_battery 
 					ship_light_medium_battery_double 
@@ -358,6 +372,7 @@ equipments = {
 					ship_depth_charge
 					ship_torpedo
 					ship_missile
+					ship_missile_aa
 
 					ship_light_medium_battery 
 					ship_light_medium_battery_double 
@@ -372,12 +387,6 @@ equipments = {
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
-		}
-
-		default_modules = {
-			front_1_custom_slot = empty
-			rear_1_custom_slot = empty
-			rear_2_custom_slot = empty
 		}
 	}
 	vnr_ship_hull_cruiser_panzerschiff = {
@@ -412,6 +421,7 @@ equipments = {
 				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor }
 			}
 			fixed_ship_airplane_launcher_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -464,6 +474,7 @@ equipments = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
 			fixed_ship_engine_slot = empty
 			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_radar_slot = ship_mast_1
 			rear_1_custom_slot = ship_torpedo_1
 		}
 	}
@@ -513,7 +524,7 @@ equipments = {
 			}
 			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = { ship_radar ship_sonar }
+				allowed_module_categories = { ship_radar ship_sonar ship_mast }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -531,10 +542,7 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_airplane_launcher }
 			}
-			fixed_ship_extra_secondaries_slot = {
-				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
-			}
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -606,6 +614,7 @@ equipments = {
 			rear_1_custom_slot = empty
 			fixed_ship_battery_slot = empty
 			fixed_ship_secondaries_slot = empty
+			fixed_ship_radar_slot = ship_mast_1
 		}
 	}
 }

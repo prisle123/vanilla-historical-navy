@@ -26,6 +26,7 @@ technologies = {
 		enable_equipment_modules = {
 			light_ship_engine_1
 			ship_hull_light_role_dd
+			ship_mast_1
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_light
@@ -221,6 +222,10 @@ technologies = {
 			leads_to_tech = modern_depth_charges
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = destroyer_missile_upgrade
+			research_cost_coeff = 1
+		}
 
 		start_year = 1944
 
@@ -242,6 +247,10 @@ technologies = {
 	smoke_generator = {
 
 		naval_retreat_speed = 0.2
+		
+		enable_equipment_modules = {
+			ship_smoke_generator
+		}
 
 		research_cost = 0.5
 
@@ -458,6 +467,7 @@ technologies = {
 	improved_sonar = {
 		enable_equipment_modules = {
 			ship_sonar_2
+			ship_bulbous_bow
 		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
@@ -587,7 +597,7 @@ technologies = {
 		start_year = 1924
 
 		destroyer = {
-			max_organisation = 5
+			max_strength = 0.1
 		}
 
 		folder = {
@@ -647,6 +657,31 @@ technologies = {
 		}
 	}
 
+	destroyer_missile_upgrade = {
+		research_cost = 1
+		start_year = 1946
+
+		enable_equipment_modules = {
+			ship_missile_aa_1
+			ship_hull_light_role_dda
+		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 3 y = 22 }
+		}
+		dependencies = {
+			rocket_engines = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			dd_tech
+		}
+	}
+
  ##  ###  #  # ###  ## ### ###   ##
 #  # #  # #  #  #  #   #   #  # #
 #	###  #  #  #   #  ##  ###   #
@@ -663,6 +698,7 @@ technologies = {
 			cruiser_ship_engine_1
 			ship_airplane_launcher_1
 			ship_hull_cruiser_role_c
+			ship_mast_1
 		}
 		path = {
 			leads_to_tech = treaty_cruiser_trend
@@ -857,6 +893,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = cruiser_missile_upgrade
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = helipad
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
@@ -1182,6 +1222,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			ship_hull_cruiser_role_aa
+			ship_aa_fire_control
 		}
 
 		folder = {
@@ -1231,10 +1272,13 @@ technologies = {
 		start_year = 1944
 
 		heavy_cruiser = {
-			surface_detection = 0.1
+			surface_detection = 0.05
 		}
 		light_cruiser = {
-			surface_detection = 0.1
+			surface_detection = 0.05
+		}
+		enable_equipment_modules = {
+			ship_hull_cruiser_role_csr
 		}
 
 		folder = {
@@ -1293,6 +1337,28 @@ technologies = {
 			naval_equipment
 			cl_tech
 			ca_tech
+			ship_modules_tech
+		}
+	}
+
+	helipad = {
+		research_cost = 0.75
+		start_year = 1945
+		enable_equipment_modules = {
+			ship_helipad
+		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = 21 }
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		categories = {
+			naval_equipment
 			ship_modules_tech
 		}
 	}
@@ -1636,6 +1702,7 @@ technologies = {
 			ship_armor_bb_1
 			ship_armor_bc_1
 			ship_scheme_incremental
+			ship_mast_1
 		}
 
 		path = {
@@ -2002,6 +2069,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_armor_bb_4
 			ship_armor_bc_4
+			ship_armor_shbb_2
 		}
 
 		on_research_complete = {
@@ -2313,6 +2381,10 @@ technologies = {
 			anti_air_attack = 0.1
 		}
 
+		enable_equipment_modules = {
+			ship_anti_air_shell
+		}
+
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 3 y = @1940_module }
@@ -2410,14 +2482,9 @@ technologies = {
 		research_cost = 1
 		start_year = 1945
 
-		battleship = {
-			surface_visibility = -0.1
-		}
-		battle_cruiser = {
-			surface_visibility = -0.1
-		}
-		SH_battleship = {
-			surface_visibility = -0.1
+		navy_visibility = -0.05
+		enable_equipment_modules = {
+			ship_radar_jammer
 		}
 
 		folder = {
@@ -3246,6 +3313,9 @@ technologies = {
 		research_cost = 0.75
 
 		start_year = 1914
+		enable_equipment_modules = {
+			ship_electric_motor
+		}
 		submarine = {
 			fuel_consumption = -0.1
 			sub_visibility = -0.05
@@ -3275,7 +3345,7 @@ technologies = {
 		submarine = {
 			surface_detection = 0.05
 		}
-		navy_submarine_detection_factor = 0.05
+		navy_submarine_detection_factor = 0.1
 
 		folder = {
 			name = mtgnavalfolder
@@ -3709,6 +3779,10 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 0 }
+		}
+		
+		enable_equipment_modules = {
+			ship_vt_shell
 		}
 
 		naval_coordination = 0.05

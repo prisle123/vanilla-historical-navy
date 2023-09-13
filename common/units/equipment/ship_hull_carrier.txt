@@ -368,7 +368,10 @@ equipments = {
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
-			fixed_ship_anti_air_slot = inherit
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air ship_missle_aa }
+			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
@@ -451,7 +454,7 @@ equipments = {
 		year = 1941
 		archetype = ship_hull_carrier
 		priority = 1200
-		can_convert_from = { vnr_ship_hull_escort_carrier }
+		can_convert_from = { vnr_ship_hull_escort_carrier vnr_ship_hull_civilian_1 vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 		parent = vnr_ship_hull_carrier_3
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
@@ -462,7 +465,10 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_deck_space_small }
 			}
-			fixed_ship_anti_air_slot = inherit
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
 				required = yes
@@ -508,7 +514,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { ship_deck_space_big ship_deck_space }
 			}
-			fixed_ship_anti_air_slot = inherit
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air ship_missle_aa }
+			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = {
@@ -548,6 +557,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 					ship_anti_air
+					ship_missle_aa
 					carrier_side_lift
 				}
 			}

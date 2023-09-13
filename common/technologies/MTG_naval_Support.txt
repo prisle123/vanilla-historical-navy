@@ -104,6 +104,8 @@ technologies = {
 			ship_heavy_battery_1_quad
 			ship_heavy_battery_big_1_quad
 			ship_heavy_battery_small_1_quad
+
+			ship_light_weight_shell
 		}
 
 
@@ -838,6 +840,10 @@ technologies = {
 			hg_armor_piercing = 0.05
 		}
 
+		enable_equipment_modules = {
+			ship_high_velocity_shell
+		}
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 10 }
@@ -879,6 +885,10 @@ technologies = {
 		SH_battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
+		}
+
+		enable_equipment_modules = {
+			ship_super_heavy_weight_shell
 		}
 
 		folder = {
@@ -1226,6 +1236,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_1
 			torpedo_mounting
+			ship_torpedo_fire_control
 		}
 
 		on_research_complete = {
@@ -1676,6 +1687,10 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
+		battlecarrier = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1723,6 +1738,10 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
+		battlecarrier = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
 		heavy_cruiser = {
 			lg_attack = 0.05
 			hg_attack = 0.05
@@ -1763,6 +1782,10 @@ technologies = {
 			hg_attack = 0.1
 		}
 		battle_cruiser = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+		}
+		battlecarrier = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
@@ -2615,6 +2638,7 @@ technologies = {
 	speed_over_range = {
 		research_cost = 0.5
 		start_year = 1925
+		force_use_small_tech_layout = yes
 
 		ai_will_do = {
 			factor = 1
@@ -2639,6 +2663,7 @@ technologies = {
 	range_over_speed = {
 		research_cost = 0.5
 		start_year = 1925
+		force_use_small_tech_layout = yes
 
 		ai_will_do = {
 			factor = 1
@@ -2989,4 +3014,15 @@ technologies = {
 			naval_equipment
 		}
 	}
+
+
+	vnr_less_fuel_consumption = {
+        research_cost = 1
+		start_year = 1900
+
+		allow = {
+			always = no
+		}
+        navy_fuel_consumption_factor = -0.15
+    }
 }

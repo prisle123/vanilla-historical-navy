@@ -6,7 +6,7 @@ naval_screen_cruiser = {
 	priority = { base = 10 }
 
 	screen_1936 = {
-		role_icon_index = 31
+		role_icon_index = 25
 
 		priority = {
 			base = 50
@@ -25,20 +25,20 @@ naval_screen_cruiser = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = empty
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_cl
 				front_1_custom_slot = ship_light_medium_battery
 				mid_1_custom_slot = ship_torpedo
 				mid_2_custom_slot = ship_anti_air
 				rear_1_custom_slot = ship_light_medium_battery
-				rear_2_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_depth_charge
 			}
 		}
 	}
 
 	screen_1940 = {
-		role_icon_index = 31
+		role_icon_index = 25
 
 		priority = {
 			base = 75
@@ -54,20 +54,20 @@ naval_screen_cruiser = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = empty
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_cl
 				front_1_custom_slot = ship_light_medium_battery
 				mid_1_custom_slot = ship_torpedo
 				mid_2_custom_slot = ship_anti_air
 				rear_1_custom_slot = ship_light_medium_battery
-				rear_2_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_depth_charge
 			}
 		}
 	}
 
 	screen_1944 = {
-		role_icon_index = 31
+		role_icon_index = 25
 
 		priority = {
 			base = 0
@@ -83,14 +83,14 @@ naval_screen_cruiser = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = empty
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_cl
 				front_1_custom_slot = ship_light_medium_battery
 				mid_1_custom_slot = ship_torpedo
 				mid_2_custom_slot = ship_anti_air
 				rear_1_custom_slot = ship_light_medium_battery
-				rear_2_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_depth_charge
 			}
 		}
 	}

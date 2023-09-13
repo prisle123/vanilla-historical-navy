@@ -20,11 +20,9 @@ naval_submarine = {
 
 		priority = {
 			base = 10
+			modifier = { factor = 0 has_tech = basic_ship_hull_submarine }
 		}
 
-		enable = {
-			not = { has_tech = basic_ship_hull_submarine }		# WK-era SS are not worth refitting or building
-		}
 
 		target_variant = {
 			match_value = 1000.0
@@ -33,6 +31,7 @@ naval_submarine = {
 			modules = {
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -44,11 +43,7 @@ naval_submarine = {
 
 		priority = {
 			base = 20
-			# modifier = { factor = 0 has_tech = improved_ship_hull_submarine }
-		}
-
-		enable = {
-			not = { has_tech = improved_ship_hull_submarine }		# WK-era SS are not worth refitting or building
+			modifier = { factor = 0 has_tech = improved_ship_hull_submarine }
 		}
 
 		target_variant = {
@@ -58,6 +53,7 @@ naval_submarine = {
 			modules = {
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -69,7 +65,7 @@ naval_submarine = {
 
 		priority = {
 			base = 35
-			# modifier = { factor = 0 has_tech = advanced_ship_hull_submarine }
+			modifier = { factor = 0 has_tech = advanced_ship_hull_submarine }
 		}
 
 		target_variant = {
@@ -81,6 +77,8 @@ naval_submarine = {
 				mid_2_custom_slot = ship_sub_snorkel
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -101,8 +99,11 @@ naval_submarine = {
 			modules = {
 				mid_1_custom_slot = sub_ship_periscope
 				mid_2_custom_slot = ship_sub_snorkel
+				mid_3_custom_slot = sub_ship_stealth
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}

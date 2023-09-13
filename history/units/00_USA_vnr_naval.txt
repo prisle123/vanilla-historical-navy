@@ -152,7 +152,7 @@ units= {
 			name = "Scouting Force"				
 			location = 9814 # 9814 # Los Angeles
 			### Battleship Division 4 ###			
-			ship = { name = "USS Arkansas" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Florida/Wyoming Class" } } }				
+			ship = { name = "USS Arkansas" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Wyoming Class" } } }				
 			ship = { name = "USS New York" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }				
 			ship = { name = "USS Texas" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }				
 			### Cruisers ###				
@@ -234,6 +234,11 @@ units= {
 	fleet = {
 		name = "Pacific Reserve Fleet"			
 		naval_base = 1562 # 1562 # San Diego
+		task_force = {
+			name = "Pacific Reserve Carriers"
+			location = 1562
+			ship = { name = "USS Langley" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = USA version_name = "Langley Class" } } }
+		}
 		task_force = {					
 			name = "Pacific Reserve Destroyers"			# Decommissioned ships docked in San Diego				
 			location = 1562 # 1562 # San Diego

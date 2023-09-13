@@ -62,7 +62,7 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
 				fixed_ship_radar_slot = ship_radar
 				front_1_custom_slot = ship_deck_space
 			}
@@ -86,10 +86,12 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
 				fixed_ship_radar_slot = ship_radar
 				front_1_custom_slot = ship_deck_space
+				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space
+				mid_2_custom_slot = ship_dp_secondaries
 			}
 		}
 	}
@@ -109,12 +111,15 @@ naval_carrier = {
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space
 				fixed_ship_deck_slot_2 = ship_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_anti_air_slot = { any_of { ship_anti_air ship_missile_aa } }
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
 				fixed_ship_radar_slot = ship_radar
 				front_1_custom_slot = ship_deck_space
+				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space
+				mid_2_custom_slot = ship_deck_space
+				rear_1_custom_slot = ship_dp_secondaries
 			}
 		}
 	}
@@ -134,7 +139,7 @@ naval_carrier = {
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space_big
 				fixed_ship_deck_slot_2 = ship_deck_space_big
-				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_anti_air_slot = { any_of { ship_anti_air ship_missile_aa } }
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries

@@ -13,6 +13,7 @@ navy_rework_category = {
                 tag = USA
             }
         }
+		visible = { has_game_rule = { rule = allow_never_built option = FREE } }
         complete_effect = {
             FROM = {
                 if = {
@@ -48,7 +49,10 @@ navy_rework_category = {
     }
 
     show_wunderwaffe = {
-        visible = {NOT = { has_global_flag = wunderwaffe_shown }}
+        visible = {
+			NOT = { has_global_flag = wunderwaffe_shown }
+			has_game_rule = { rule = allow_never_built option = FREE }
+		}
         available = {
             num_of_naval_factories > 0
         }
@@ -109,6 +113,7 @@ navy_rework_category = {
                 tag = HUN
             }
         }
+        visible = { has_game_rule = { rule = allow_never_built option = FREE } }
         available = {
             num_of_naval_factories > 0
         }
