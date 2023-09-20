@@ -1056,7 +1056,7 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 0.35
+		value = 35
 	}
 }
 
@@ -1145,7 +1145,7 @@ naval_unit_role_ratios_SOV_atwar_with_major = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 0.35
+		value = 30
 	}
 }
 
@@ -1323,7 +1323,7 @@ naval_unit_role_ratios_JAP_late_peace = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 0.3
+		value = 30
 	}
 }
 
@@ -1436,7 +1436,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 0.3
+		value = 30
 	}
 }
 
@@ -1485,7 +1485,7 @@ naval_unit_role_ratios_USA_atwar = {
 	
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 0.8
+		value = 50
 	}
 }
 
