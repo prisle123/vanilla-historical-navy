@@ -1244,6 +1244,14 @@ spriteTypes = {
         		name = "GFX_NOR_early_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Scandinavia/NOR_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_NOR_basic_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/NOR_destroyer2.png"
+        	}
+			spriteType = {
+        		name = "GFX_NOR_interwar_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/NOR_destroyer3.png"
+        	}
 			
 ### SWE ###
 	# destroyer
@@ -1480,6 +1488,18 @@ spriteTypes = {
         		name = "GFX_SPR_basic_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer2.png"
         	}
+			spriteType = {
+        		name = "GFX_SPR_interwar_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer3.png"
+        	}
+			spriteType = {
+        		name = "GFX_SPR_improved_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer4.png"
+        	}
+			spriteType = {
+        		name = "GFX_SPR_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer5.png"
+        	}
 	# cruiser
 
         	spriteType = {
@@ -1489,6 +1509,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_SPR_basic_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Spain/SPR_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_SPR_interwar_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_light_cruiser3.png"
         	}
 	# battleship
 

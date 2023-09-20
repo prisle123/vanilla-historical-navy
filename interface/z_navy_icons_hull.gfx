@@ -1720,6 +1720,14 @@ spriteTypes = {
         		name = "GFX_NOR_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/Scandinavia/NOR_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_NOR_vnr_ship_hull_light_2_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/NOR_destroyer2.png"
+        	}
+			spriteType = {
+        		name = "GFX_NOR_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Scandinavia/NOR_destroyer3.png"
+        	}
 	# heavy cruiser
 
         	spriteType = {
@@ -2030,6 +2038,18 @@ spriteTypes = {
         		name = "GFX_SPR_vnr_ship_hull_light_2_medium"
         		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer2.png"
         	}
+			spriteType = {
+        		name = "GFX_SPR_vnr_ship_hull_light_3_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer3.png"
+        	}
+			spriteType = {
+        		name = "GFX_SPR_vnr_ship_hull_light_4_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer4.png"
+        	}
+			spriteType = {
+        		name = "GFX_SPR_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_destroyer5.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -2040,6 +2060,16 @@ spriteTypes = {
         		name = "GFX_SPR_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/Spain/SPR_light_cruiser2.png"
         	}
+			spriteType = {
+        		name = "GFX_SPR_vnr_ship_hull_cruiser_3_medium"
+        		texturefile = "gfx/interface/technologies/Spain/SPR_light_cruiser3.png"
+        	}
+	# heavy cruiser
+
+			spriteType = {
+				name = "GFX_SPR_vnr_ship_hull_cruiser_2_capital_medium"
+				texturefile = "gfx/interface/technologies/Spain/SPR_heavy_cruiser2.png"
+			}
 	# battleship
 
         	spriteType = {
