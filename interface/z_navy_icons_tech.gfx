@@ -1316,6 +1316,10 @@ spriteTypes = {
         		name = "GFX_ARG_early_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/South_America/ARG_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_ARG_basic_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/South_America/ARG_destroyer2.png"
+        	}
 	# cruiser
 
         	spriteType = {
@@ -1850,4 +1854,16 @@ spriteTypes = {
         		name = "GFX_SIA_advanced_ship_hull_submarine_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_submarine4.png"
         	}
+
+### POR ###
+	# destroyer
+
+			spriteType = {
+				name = "GFX_POR_early_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Portugal/POR_destroyer1.png"
+			}
+			spriteType = {
+				name = "GFX_POR_basic_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Portugal/POR_destroyer2.png"
+			}
 }
