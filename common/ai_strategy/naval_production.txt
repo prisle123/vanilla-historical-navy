@@ -148,6 +148,7 @@ no_old_navy_production = {
 	}
 }
 ### Minors ###
+# remains a coastal defense force
 naval_unit_role_ratios_minors_coastal = {
 	allowed = {
 		has_dlc = "Man the Guns"
@@ -182,7 +183,7 @@ naval_unit_role_ratios_minors_coastal = {
 		value = 50
 	}
 }
-
+# a green water navy
 naval_unit_role_ratios_minors_defensive = {
 	allowed = {
 		has_dlc = "Man the Guns"
@@ -208,7 +209,7 @@ naval_unit_role_ratios_minors_defensive = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 50
+		value = 100
 	}
 
 	ai_strategy = {
@@ -229,7 +230,7 @@ naval_unit_role_ratios_minors_defensive = {
 		value = 20
 	}
 }
-
+# regional navy
 naval_unit_role_ratios_minors_offensive = {
 	allowed = {
 		has_dlc = "Man the Guns"
@@ -255,7 +256,7 @@ naval_unit_role_ratios_minors_offensive = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 80
+		value = 100
 	}
 
 	ai_strategy = {
@@ -282,7 +283,7 @@ naval_unit_role_ratios_minors_offensive = {
 		value = 20
 	}
 }
-
+# global navy
 naval_unit_role_ratios_minors_global = {
 	allowed = {
 		has_dlc = "Man the Guns"
@@ -307,7 +308,7 @@ naval_unit_role_ratios_minors_global = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 80
+		value = 150
 	}
 
 	ai_strategy = {
@@ -357,13 +358,13 @@ naval_unit_role_ratios_GER_prewar_early = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 50
+		value = 70
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 50
+		value = 30
 	}
 	
 	ai_strategy = {
@@ -400,7 +401,7 @@ naval_unit_role_ratios_GER_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 30
+		value = 70
 	}
 
 	ai_strategy = {
@@ -453,7 +454,7 @@ naval_unit_role_ratios_GER_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 50
+		value = 25
 	}
 	
 	ai_strategy = {
@@ -485,7 +486,7 @@ naval_unit_role_ratios_GER_atwar_knock_USA = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 60
+		value = 120
 	}
 
 	ai_strategy = {
@@ -536,7 +537,7 @@ naval_unit_role_ratios_GER_atwar_No_Naval_Competitor = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 60
+		value = 100
 	}
 
 	ai_strategy = {
@@ -548,7 +549,7 @@ naval_unit_role_ratios_GER_atwar_No_Naval_Competitor = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 50
+		value = 25
 	}
 	
 	ai_strategy = {
@@ -584,7 +585,7 @@ naval_unit_role_ratios_GER_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 60
+		value = 120
 	}
 
 	ai_strategy = {
@@ -645,7 +646,7 @@ naval_unit_role_ratios_ENG_prewar_early = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 80
+		value = 120
 	}
 
 	ai_strategy = {
@@ -694,13 +695,13 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 80
+		value = 50
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 80
+		value = 150
 	}
 
 	ai_strategy = {
@@ -747,13 +748,18 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 80
+		value = 150
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 50
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 0.35
 	}
 }
 
@@ -996,7 +1002,7 @@ naval_unit_role_ratios_SOV_need_to_watch_germany_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 50
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1032,7 +1038,7 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 50
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1121,7 +1127,7 @@ naval_unit_role_ratios_SOV_atwar_with_major = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 50
+		value = 80
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1159,7 +1165,7 @@ naval_unit_role_ratios_JAP_prewar_build_carriers = {
 	enable = {
 		NOT = { has_war_with = USA }
 		has_war_with_major = no
-		has_navy_size = { size < 8 type = carrier }
+		has_navy_size = { size < 11 type = carrier }
 	}
 	abort_when_not_enabled = yes
 	
@@ -1203,7 +1209,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	enable = {
 		NOT = { has_war_with = USA }
 		has_war_with_major = no
-		has_navy_size = { size > 7 type = carrier }
+		has_navy_size = { size > 9 type = carrier }
 	}
 	abort_when_not_enabled = yes
 	
@@ -1215,7 +1221,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 50
+		value = 120
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1257,7 +1263,7 @@ naval_unit_role_ratios_JAP_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 60
+		value = 150
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1335,7 +1341,7 @@ naval_unit_role_ratios_USA_great_depression = {
 		tag = USA
 	}
 	enable = {
-		date < 1939.1.1
+		date < 1938.1.1
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1389,7 +1395,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 		tag = USA
 	}
 	enable = {
-		date > 1939.1.1
+		date > 1938.1.1
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1402,7 +1408,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 80
+		value = 120
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1436,7 +1442,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 0.3
+		value = 0.4
 	}
 }
 
@@ -1485,7 +1491,7 @@ naval_unit_role_ratios_USA_atwar = {
 	
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 0.8
+		value = 1
 	}
 }
 
@@ -1508,7 +1514,7 @@ naval_unit_role_ratios_ITA_prewar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 60
+		value = 80
 	}
 	ai_strategy = {
 		type = role_ratio
