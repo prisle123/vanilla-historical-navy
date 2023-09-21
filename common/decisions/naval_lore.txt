@@ -34,6 +34,16 @@ navy_rework_category = {
 		allowed = { tag = SOV }
 		complete_effect = { FROM = { country_event = naval_lore.2 } }
 	}
+	chi_naval_history = {
+		icon = GFX_vnr_chi_flag
+		allowed = {
+			tag = {
+				CHI
+				PRC
+			}
+		}
+		complete_effect = { FROM = { country_event = naval_lore.2 } }
+	}
 	
     ship_hull_description = {
         icon = generic_naval

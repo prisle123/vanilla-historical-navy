@@ -47,6 +47,15 @@ defined_text = {
 		trigger = { original_tag = SOV }
 		localization_key = naval_lore_title_1_sov
 	}
+	text = {
+		trigger = {
+			original_tag = {
+				CHI
+				PRC
+			}
+		}
+		localization_key = naval_lore_title_1_chi
+	}
 }
 
 defined_text = {
@@ -78,6 +87,15 @@ defined_text = {
 	text = {
 		trigger = { original_tag = SOV }
 		localization_key = naval_lore_title_2_sov
+	}
+	text = {
+		trigger = {
+			original_tag = {
+				CHI
+				PRC
+			}
+		}
+		localization_key = naval_lore_title_2_chi
 	}
 }
 
@@ -111,6 +129,15 @@ defined_text = {
 		trigger = { original_tag = SOV }
 		localization_key = naval_lore_desc_1_sov
 	}
+	text = {
+		trigger = {
+			original_tag = {
+				CHI
+				PRC
+			}
+		}
+		localization_key = naval_lore_desc_1_chi
+	}
 }
 
 defined_text = {
@@ -142,6 +169,15 @@ defined_text = {
 	text = {
 		trigger = { original_tag = SOV }
 		localization_key = naval_lore_desc_2_sov
+	}
+	text = {
+		trigger = {
+			original_tag = {
+				CHI
+				PRC
+			}
+		}
+		localization_key = naval_lore_desc_2_chi
 	}
 }
 
@@ -175,6 +211,15 @@ defined_text = {
 		trigger = { original_tag = SOV }
 		localization_key = naval_lore_option_1_sov
 	}
+	text = {
+		trigger = {
+			original_tag = {
+				CHI
+				PRC
+			}
+		}
+		localization_key = naval_lore_option_1_chi
+	}
 }
 
 defined_text = {
@@ -207,6 +252,15 @@ defined_text = {
 		trigger = { original_tag = SOV }
 		localization_key = naval_lore_option_2_sov
 	}
+	text = {
+		trigger = {
+			original_tag = {
+				CHI
+				PRC
+			}
+		}
+		localization_key = naval_lore_option_2_chi
+	}
 }
 
 defined_text = {
@@ -238,5 +292,14 @@ defined_text = {
 	text = {
 		trigger = { original_tag = SOV }
 		localization_key = GFX_naval_lore_sov
+	}
+	text = {
+		trigger = {
+			original_tag = {
+				CHI
+				PRC
+			}
+		}
+		localization_key = GFX_naval_lore_chi
 	}
 }
