@@ -1623,6 +1623,10 @@ spriteTypes = {
 	# destroyer
 
         	spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer1.png"
+        	}
+			spriteType = {
         		name = "GFX_HOL_vnr_ship_hull_light_2_medium"
         		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer2.png"
         	}
@@ -1633,6 +1637,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_HOL_vnr_ship_hull_light_4_medium"
         		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer4.png"
+        	}
+			spriteType = {
+        		name = "GFX_HOL_vnr_ship_hull_light_5_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer5.png"
         	}
 	# light cruiser
 

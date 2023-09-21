@@ -1174,6 +1174,10 @@ spriteTypes = {
 ### HOL ###
 	# destroyer
 
+			spriteType = {
+        		name = "GFX_HOL_early_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer1.png"
+        	}
         	spriteType = {
         		name = "GFX_HOL_basic_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer2.png"
@@ -1185,6 +1189,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_HOL_improved_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer4.png"
+        	}
+			spriteType = {
+        		name = "GFX_HOL_advanced_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Netherlands/HOL_destroyer5.png"
         	}
 	# cruiser
 
