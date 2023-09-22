@@ -37,9 +37,9 @@ navy_rework_category = {
 	chi_naval_history = {
 		icon = GFX_vnr_chi_flag
 		allowed = {
-			tag = {
-				CHI
-				PRC
+			OR = {
+				tag = CHI
+				tag = PRC
 			}
 		}
 		complete_effect = { FROM = { country_event = naval_lore.2 } }
