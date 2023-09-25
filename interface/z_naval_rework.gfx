@@ -31,8 +31,19 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_battleship_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_III.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_IV.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battleship_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds"	noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_heavy_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_V.dds"	noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_light_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_0.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_I.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_II.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_III.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_IV.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_7_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/panzerschiff.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_0.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_I.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_II.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_III.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_IV.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/light_cruiser_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_destroyer_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/destroyer_V.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_carrier_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/carrier_I.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_carrier_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/carrier_0.dds"	noOfFrames = 2 }
@@ -70,11 +81,11 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_unit_battlecarrier_icon_medium_white"
-		texturefile = "gfx/interface/counters/ships_small/onmap_battleship.dds"
+		texturefile = "gfx/interface/counters/ships_small/onmap_battlecarrier.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_battlecarrier_icon_medium_black"
-		texturefile = "gfx/interface/counters/ships_small/onmap_battleship_inverted.dds"
+		texturefile = "gfx/interface/counters/ships_small/onmap_battlecarrier_inverted.dds"
 	}
 	
 	spriteType = {
@@ -95,11 +106,11 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_unit_auxiliary_ship_icon_medium_white"
-		texturefile = "gfx/interface/counters/ships_small/onmap_destroyer.dds"
+		texturefile = "gfx/interface/counters/ships_small/onmap_auxiliary_ship.dds"
 	}
 	spriteType = {
 		name = "GFX_unit_auxiliary_ship_icon_medium_black"
-		texturefile = "gfx/interface/counters/ships_small/onmap_destroyer_inverted.dds"
+		texturefile = "gfx/interface/counters/ships_small/onmap_auxiliary_ship_inverted.dds"
 	}
 	
 	spriteType = {

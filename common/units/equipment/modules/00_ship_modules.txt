@@ -2425,7 +2425,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 0.2
-			anti_air_attack = 2.5
+			anti_air_attack = 2
 			build_cost_ic = 80
 		}
 		
@@ -2448,7 +2448,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 0.3
-			anti_air_attack = 3.5
+			anti_air_attack = 3
 			build_cost_ic = 110
 		}
 		
@@ -2474,7 +2474,7 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		add_stats = {
 			lg_attack = 0.4
-			anti_air_attack = 4.5
+			anti_air_attack = 4
 			build_cost_ic = 140
 		}
 		
@@ -2501,7 +2501,7 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		add_stats = {
 			lg_attack = 0.5
-			anti_air_attack = 5.5
+			anti_air_attack = 5
 			build_cost_ic = 170
 		}
 		
@@ -2528,9 +2528,10 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		add_stats = {
 			lg_attack = 0.6
-			anti_air_attack = 8
+			anti_air_attack = 6
 			reliability = -0.025
 			build_cost_ic = 300
+			naval_light_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.003
