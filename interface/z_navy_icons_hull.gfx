@@ -1713,7 +1713,12 @@ spriteTypes = {
         	}
 			
 ### FIN ###
+	# destroyer
 
+			spriteType = {
+				name = "GFX_FIN_vnr_ship_hull_light_1_medium"
+				texturefile = "gfx/interface/technologies/Scandinavia/FIN_destroyer1.png"
+			}
 	# heavy cruiser
 
         	spriteType = {
