@@ -1219,7 +1219,7 @@ technologies = {
 
 	basic_torpedo = {
 
-		research_cost = 1.0
+		research_cost = 0.5
 
 		start_year = 1922
 
@@ -1276,7 +1276,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1936
 
@@ -1342,7 +1342,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2
+		research_cost = 1.25
 
 		start_year = 1942
 		destroyer = {
@@ -1390,7 +1390,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1940
 
@@ -1423,7 +1423,7 @@ technologies = {
 	}
 	improved_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1932
 
@@ -1464,7 +1464,7 @@ technologies = {
 	}
 	advanced_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1940
 
@@ -1771,7 +1771,9 @@ technologies = {
 	}
 
 	fire_control_methods_3 = {
-
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
 		research_cost = 2
 		SH_battleship = {
 			lg_attack = 0.1
@@ -1836,7 +1838,7 @@ technologies = {
 
 	basic_naval_mines = {
 
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1922
 
@@ -1893,7 +1895,7 @@ technologies = {
 
 	submarine_mine_laying = {
 
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1922
 
@@ -1934,7 +1936,7 @@ technologies = {
 
 	improved_submarine_mine_laying = {
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1940
 
@@ -1970,7 +1972,7 @@ technologies = {
 
 	improved_naval_mines = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1936
 
@@ -2102,7 +2104,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 1.25
+		research_cost = 0.75
 
 		start_year = 1942
 
@@ -2145,7 +2147,7 @@ technologies = {
 			has_dlc = "By Blood Alone"
 		}
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1942
 
@@ -2218,7 +2220,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 2
+		research_cost = 0.75
 
 		start_year = 1944
 
