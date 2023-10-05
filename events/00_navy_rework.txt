@@ -1,4 +1,5 @@
 add_namespace = navy_rework
+add_namespace = vnr_ai
 
 # load starting naval designs and fleet and techs
 country_event = {
@@ -327,5 +328,59 @@ country_event = {
 	}
 	option = {
 		name = navy_rework.100.1
+	}
+}
+
+# Buff AI
+country_event = {
+	id = vnr_ai.0
+	title = vnr_ai.0.t
+	desc = vnr_ai.0.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = vnr_ai.0.0
+		every_country = {
+			limit = { is_ai = yes }
+			remove_ideas = {
+				vnr_hard
+				vnr_normal
+			}
+			add_ideas = vnr_mad
+		}
+	}
+	option = {
+		name = vnr_ai.0.1
+		every_country = {
+			limit = { is_ai = yes }
+			remove_ideas = {
+				vnr_mad
+				vnr_normal
+			}
+			add_ideas = vnr_hard
+		}
+	}
+	option = {
+		name = vnr_ai.0.2
+		every_country = {
+			limit = { is_ai = yes }
+			remove_ideas = {
+				vnr_mad
+				vnr_hard
+			}
+			add_ideas = vnr_normal
+		}
+	}
+	option = {
+		name = vnr_ai.0.3
+		every_country = {
+			limit = { is_ai = yes }
+			remove_ideas = {
+				vnr_mad
+				vnr_hard
+				vnr_normal
+			}
+		}
 	}
 }
