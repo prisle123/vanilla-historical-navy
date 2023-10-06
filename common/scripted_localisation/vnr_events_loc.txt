@@ -303,3 +303,23 @@ defined_text = {
 		localization_key = GFX_naval_lore_chi
 	}
 }
+
+defined_text = {
+	name = get_vnr_ai_difficulty
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 0 } }
+		localization_key = vnr_ai_difficulty_no
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 1 } }
+		localization_key = vnr_ai_difficulty_normal
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 2 } }
+		localization_key = vnr_ai_difficulty_hard
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 3 } }
+		localization_key = vnr_ai_difficulty_mad
+	}
+}

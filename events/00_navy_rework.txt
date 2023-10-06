@@ -341,41 +341,50 @@ country_event = {
 
 	option = {
 		name = vnr_ai.0.0
+		set_variable = { vnr_ai_difficulty = 3 }
 		every_country = {
-			limit = { is_ai = yes }
 			remove_ideas = {
 				vnr_hard
 				vnr_normal
 			}
+		}
+		every_country = {
+			limit = { is_ai = yes }
 			add_ideas = vnr_mad
 		}
 	}
 	option = {
 		name = vnr_ai.0.1
+		set_variable = { vnr_ai_difficulty = 2 }
 		every_country = {
-			limit = { is_ai = yes }
 			remove_ideas = {
 				vnr_mad
 				vnr_normal
 			}
+		}
+		every_country = {
+			limit = { is_ai = yes }
 			add_ideas = vnr_hard
 		}
 	}
 	option = {
 		name = vnr_ai.0.2
+		set_variable = { vnr_ai_difficulty = 1 }
 		every_country = {
-			limit = { is_ai = yes }
 			remove_ideas = {
 				vnr_mad
 				vnr_hard
 			}
+		}
+		every_country = {
+			limit = { is_ai = yes }
 			add_ideas = vnr_normal
 		}
 	}
 	option = {
 		name = vnr_ai.0.3
+		set_variable = { vnr_ai_difficulty = 0 }
 		every_country = {
-			limit = { is_ai = yes }
 			remove_ideas = {
 				vnr_mad
 				vnr_hard

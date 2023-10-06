@@ -1,0 +1,11 @@
+﻿l_english:
+ vnr_ai.0.t: "Select Naval Difficulty"
+ vnr_ai.0.d: "The difficulty decision will give more strengthen AI's navy. Modifiers include attack, defense, detection, positioning and combat efficiency. You are provided with three levels of difficulty, normal, hard, and mad, which is increase 10% by each level. By default, AIs is the same as before.\n\nYour current difficulty: [get_vnr_ai_difficulty]"
+ vnr_ai_difficulty_no: "Easy"
+ vnr_ai_difficulty_normal: "Normal"
+ vnr_ai_difficulty_hard: "Hard"
+ vnr_ai_difficulty_mad: "Mad"
+ vnr_ai.0.0: "Mad"
+ vnr_ai.0.1: "Hard"
+ vnr_ai.0.2: "Normal"
+ vnr_ai.0.3: "Easy"
