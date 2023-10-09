@@ -169,6 +169,10 @@ country_event = {
 			SIA_start_naval_variants = yes
 			load_oob = 00_SIA_vnr_naval
 		}
+		RAJ = {
+			RAJ_start_naval_variants = yes
+			load_oob = 00_RAJ_vnr_naval
+		}
 
         clr_global_flag = add_startup_navy
     }
