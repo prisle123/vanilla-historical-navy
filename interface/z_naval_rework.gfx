@@ -200,13 +200,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_naval_equipment_role_icons"
 		texturefile = "gfx/army_icons/naval_equipment_role_icons.dds"
-		noOfFrames = 60
+		noOfFrames = 72
 	}
 
 	spriteType = {
 		name = "GFX_naval_equipment_role_icons_selected"
 		texturefile = "gfx/army_icons/naval_equipment_role_icons_selected.dds"
-		noOfFrames = 60
+		noOfFrames = 72
 	}
 	
 	corneredTileSpriteType = {
@@ -231,5 +231,18 @@ spriteTypes = {
 		size = { x = 1920 y = 1440 }
 		tilingCenter = no
 		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_vnr_mad"
+		textureFile = "gfx/interface/vnr_ai_difficulty.png"
+	}
+	spriteType = {
+		name = "GFX_idea_vnr_hard"
+		textureFile = "gfx/interface/vnr_ai_difficulty.png"
+	}
+	spriteType = {
+		name = "GFX_idea_vnr_normal"
+		textureFile = "gfx/interface/vnr_ai_difficulty.png"
 	}
 }

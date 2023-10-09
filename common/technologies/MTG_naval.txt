@@ -2900,7 +2900,6 @@ technologies = {
 			air_range = 0.2
 		}
 		carrier = {
-			anti_air_attack = 0.1
 			surface_detection = 0.1
 		}
 		
@@ -2954,6 +2953,9 @@ technologies = {
 		xp_research_bonus = 1.25
 		
 		carrier_capacity_penalty_reduction = -0.1
+		carrier = {
+			anti_air_attack = 0.1
+		}
 		
 		folder = {
 			name = mtgnavalfolder

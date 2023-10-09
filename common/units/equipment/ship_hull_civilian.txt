@@ -132,7 +132,7 @@ equipments = {
         max_strength = 60
         reliability = 0.70
         build_cost_ic = 1000
-        manpower = 1200
+        manpower = 600
     }
 
     vnr_ship_hull_civilian_3 = {
@@ -155,9 +155,10 @@ equipments = {
             rear_1_custom_slot = inherit
         }
 
-        max_strength = 60
+        max_strength = 100
         reliability = 0.70
         build_cost_ic = 1000
-        manpower = 1200
+        manpower = 800
+		naval_range = 5000
     }
 }
