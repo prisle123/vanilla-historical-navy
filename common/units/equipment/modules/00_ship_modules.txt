@@ -3580,6 +3580,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.65
+			naval_range = -0.1
 		}
 		
 		can_convert_from = {
@@ -4927,7 +4928,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			max_organisation = 0.1
-			build_cost_ic = 3500
+			build_cost_ic = 2000
 		}
 
 		build_cost_resources = {
