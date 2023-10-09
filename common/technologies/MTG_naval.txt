@@ -2642,7 +2642,7 @@ technologies = {
 			carrier_ship_engine_2_diesel
 		}
 		path = {
-			leads_to_tech = improved_ship_hull_carrier
+			leads_to_tech = dive_bomber_study
 			research_cost_coeff = 1
 		}
 		path = {
@@ -2815,12 +2815,16 @@ technologies = {
 	night_air_strike = {
 		research_cost = 0.75
 		start_year = 1934
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.25
 		
 		air_carrier_night_penalty_reduction_factor = 0.1
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1932_module }
+			position = { x = 1 y = @1932_module }
 		}
 		
 		ai_will_do = {
@@ -2833,15 +2837,67 @@ technologies = {
 	}
 
 	aviation_dawn = {
-		research_cost = 0.75
+		research_cost = 2
 		start_year = 1932
+
+		xp_research_type = navy
+		xp_boost_cost = 15
+		xp_research_bonus = 3
 		
 		experience_gain_carrier_training_factor = 0.1
 		experience_gain_carrier_combat_factor = 0.1
+		cat_base_strike_cost_factor = -0.1
+		ship_hull_carrier_design_cost_factor = -0.1
+
+		path = {
+			leads_to_tech = improved_ship_hull_carrier
+			research_cost_coeff = 1
+		}
+
+		on_research_complete_limit = {
+			has_navy_size = {
+				size > 6
+				type = capital_ship
+				archetype = ship_hull_heavy
+			}
+		}
+		on_research_complete = {
+			add_political_power = -20
+		}
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1932_module }
+			position = { x = -1 y = @1932_module }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			cv_tech
+		}
+	}
+
+	dive_bomber_study = {
+		research_cost = 0.75
+		start_year = 1932
+
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.25
+		research_cost = 1.25
+		
+		navy_carrier_air_attack_factor = 0.05
+		cv_cas = {
+			naval_strike_attack = 0.5
+			naval_strike_targetting = 0.1
+			air_agility = 0.05
+		}
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -3 y = @1932_module }
 		}
 		
 		ai_will_do = {
