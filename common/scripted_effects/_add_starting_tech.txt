@@ -393,6 +393,13 @@ makeup_starting_techs = {
 		}
     }
 	every_country = {
+        limit = { has_tech = basic_ship_hull_light }
+        set_technology = {
+			smoke_generator = 1
+			popup = no
+		}
+    }
+	every_country = {
         limit = { has_tech = basic_battery }
         set_technology = {
 			multi_mounted_battery = 1
