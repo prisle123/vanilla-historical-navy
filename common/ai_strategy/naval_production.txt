@@ -80,6 +80,7 @@ no_old_navy_production = {
 		has_dlc = "Man the Guns"
 		has_navy_size = { size > 0 }
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
@@ -766,6 +767,7 @@ naval_unit_role_ratios_ENG_late_peace = {
 		date > 1941.1.1
 		has_war = no
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
@@ -936,6 +938,7 @@ naval_unit_role_ratios_FRA_late_peace = {
 		date > 1940.1.1
 		has_war = no
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
@@ -1290,6 +1293,7 @@ naval_unit_role_ratios_JAP_late_peace = {
 		date > 1942.1.1
 		has_war_with_major = no
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio

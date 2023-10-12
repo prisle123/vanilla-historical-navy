@@ -10,6 +10,8 @@ on_actions = {
 				set_variable = { navy_rework_welcome_splash_variable = 1 }
 			}
 
+            set_variable = { vnr_ai_difficulty = 0 }
+
             # major naval powers array setup
             add_to_array = { global.vnr_naval_powers = ENG }
             add_to_array = { global.vnr_naval_powers = FRA }

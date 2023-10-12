@@ -5947,3 +5947,41 @@ SIA_start_naval_variants = {
         }
     }
 }
+
+RAJ_start_naval_variants = {
+    # sloop
+    create_equipment_variant = {
+		name = "Hasting/Grimsby Class"
+        allow_without_tech = yes
+		role_icon_index = 48
+		type = vnr_ship_hull_cruiser_coastal_defense_ship
+		name_group = RAJ_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+            fixed_ship_secondaries_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_engine_slot = civilian_ship_engine_1
+            fixed_ship_armor_slot = empty
+            rear_2_custom_slot = ship_light_battery_2
+		}
+	}
+    create_equipment_variant = {
+		name = "Lawrence/Clive Class"
+        allow_without_tech = yes
+		role_icon_index = 48
+		type = vnr_ship_hull_cruiser_coastal_defense_ship
+		name_group = RAJ_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+            fixed_ship_secondaries_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_engine_slot = civilian_ship_engine_1
+            fixed_ship_armor_slot = empty
+            front_1_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+            rear_2_custom_slot = ship_light_battery_1
+		}
+	}
+}

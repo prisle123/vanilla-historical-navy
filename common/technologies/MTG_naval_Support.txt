@@ -1219,7 +1219,7 @@ technologies = {
 
 	basic_torpedo = {
 
-		research_cost = 1.0
+		research_cost = 0.5
 
 		start_year = 1922
 
@@ -1276,7 +1276,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1936
 
@@ -1342,7 +1342,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2
+		research_cost = 1.25
 
 		start_year = 1942
 		destroyer = {
@@ -1390,7 +1390,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+		research_cost = 1.5
 
 		start_year = 1940
 
@@ -1423,7 +1423,7 @@ technologies = {
 	}
 	improved_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1932
 
@@ -1464,7 +1464,7 @@ technologies = {
 	}
 	advanced_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1940
 
@@ -1771,7 +1771,9 @@ technologies = {
 	}
 
 	fire_control_methods_3 = {
-
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
 		research_cost = 2
 		SH_battleship = {
 			lg_attack = 0.1
@@ -1836,7 +1838,7 @@ technologies = {
 
 	basic_naval_mines = {
 
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1922
 
@@ -1893,7 +1895,7 @@ technologies = {
 
 	submarine_mine_laying = {
 
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1922
 
@@ -1934,7 +1936,7 @@ technologies = {
 
 	improved_submarine_mine_laying = {
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1940
 
@@ -1970,7 +1972,7 @@ technologies = {
 
 	improved_naval_mines = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1936
 
@@ -2102,7 +2104,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 1.25
+		research_cost = 0.75
 
 		start_year = 1942
 
@@ -2145,7 +2147,7 @@ technologies = {
 			has_dlc = "By Blood Alone"
 		}
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1942
 
@@ -2218,7 +2220,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 2
+		research_cost = 0.75
 
 		start_year = 1944
 
@@ -2636,7 +2638,7 @@ technologies = {
 
 	# auxiliary ship branch
 	speed_over_range = {
-		research_cost = 0.5
+		research_cost = 0.3
 		start_year = 1925
 		force_use_small_tech_layout = yes
 
@@ -2661,7 +2663,7 @@ technologies = {
 		}
 	}
 	range_over_speed = {
-		research_cost = 0.5
+		research_cost = 0.3
 		start_year = 1925
 		force_use_small_tech_layout = yes
 
@@ -2686,7 +2688,7 @@ technologies = {
 		}
 	}
 	high_speed_civilian_engine = {
-		research_cost = 0.75
+		research_cost = 0.7
 		start_year = 1936
 
 		ai_will_do = {
@@ -2712,7 +2714,7 @@ technologies = {
 		}
 	}
 	fast_combat_support_ship = {
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1943
 
 		enable_equipments = {
@@ -2736,7 +2738,7 @@ technologies = {
 		}
 	}
 	armed_civilian_ship = {
-		research_cost = 0.75
+		research_cost = 0.7
 		start_year = 1936
 
 		ai_will_do = {
@@ -2764,7 +2766,7 @@ technologies = {
 		}
 	}
 	integrated_supply_ship = {
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1943
 
 		ai_will_do = {
@@ -2815,7 +2817,7 @@ technologies = {
 		}
 	}
 	floating_dry_dock = {
-		research_cost = 0.8
+		research_cost = 0.5
 		start_year = 1936
 
 		ai_will_do = {
@@ -2847,7 +2849,7 @@ technologies = {
 		}
 	}
 	logistic_system_redundancy = {
-		research_cost = 1
+		research_cost = 0.8
 		start_year = 1942
 
 		ai_will_do = {
@@ -2873,7 +2875,7 @@ technologies = {
 		}
 	}
 	hospital_ship = {
-		research_cost = 0.5
+		research_cost = 0.35
 		start_year = 1918
 
 		ai_will_do = {
@@ -2895,7 +2897,7 @@ technologies = {
 		}
 	}
 	surgery_at_sea = {
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1932
 
 		ai_will_do = {
@@ -2921,7 +2923,7 @@ technologies = {
 		}
 	}
 	medical_supply_at_sea = {
-		research_cost = 0.8
+		research_cost = 0.55
 		start_year = 1939
 		ai_will_do = {
 			factor = 1

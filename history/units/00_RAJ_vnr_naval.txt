@@ -1,0 +1,14 @@
+units = {
+    fleet = {
+        name = "Royal Indian Navy"
+        naval_base = 1349
+        task_force = {
+            name = "Royal Indian Navy"
+            location = 1349
+            ship = { name = "HMIS Lawrence" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Lawrence/Clive Class"} } }
+            ship = { name = "HMIS Clive" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Lawrence/Clive Class"} } }
+            ship = { name = "HMIS Hindustan" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Hasting/Grimsby Class"} } }
+            ship = { name = "HMIS Indus" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = RAJ version_name = "Hasting/Grimsby Class"} } }
+        }
+    }
+}

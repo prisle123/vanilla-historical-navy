@@ -50,6 +50,7 @@ add_starting_techs = {
             landing_aid_system = 1
             arresting_gear = 1
             aviation_dawn = 1
+            dive_bomber_study = 1
             basic_periscope = 1
             improved_periscope = 1
             basic_ballast_tank = 1
@@ -85,6 +86,7 @@ add_starting_techs = {
             landing_aid_system = 1
             arresting_gear = 1
             aviation_dawn = 1
+            dive_bomber_study = 1
             basic_periscope = 1
             improved_periscope = 1
             basic_ballast_tank = 1
@@ -121,6 +123,7 @@ add_starting_techs = {
             landing_aid_system = 1
             arresting_gear = 1
             aviation_dawn = 1
+            night_air_strike = 1
             basic_periscope = 1
             improved_periscope = 1
             basic_ballast_tank = 1
@@ -386,6 +389,13 @@ makeup_starting_techs = {
         set_technology = {
 			treaty_cruiser_trend = 1
 			basic_cruiser_armor = 1
+			popup = no
+		}
+    }
+	every_country = {
+        limit = { has_tech = basic_ship_hull_light }
+        set_technology = {
+			smoke_generator = 1
 			popup = no
 		}
     }

@@ -1,0 +1,8 @@
+navy_rework_category = {
+    buff_ai_difficulty = {
+		icon = generic_civil_support
+        complete_effect = {
+            FROM = { country_event = vnr_ai.0 }
+        }
+    }
+}

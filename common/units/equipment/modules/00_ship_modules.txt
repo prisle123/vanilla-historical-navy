@@ -3575,11 +3575,12 @@ equipment_modules = {
 			#naval_speed = 12
 			fuel_consumption = 38
 			build_cost_ic = 4000
-			reliability = -0.2
+			reliability = -0.3
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.65
+			naval_range = -0.1
 		}
 		
 		can_convert_from = {
@@ -4561,6 +4562,7 @@ equipment_modules = {
 	}
 	ship_scheme_incremental_post_jutland = {
 		category = armor_scheme
+		parent = ship_scheme_incremental
 		
 		multiply_stats = {
 			naval_speed = -0.05
@@ -4574,6 +4576,7 @@ equipment_modules = {
 	}
 	ship_scheme_mixed = {
 		category = armor_scheme
+		parent = ship_scheme_incremental_post_jutland
 		
 		multiply_stats = {
 			naval_speed = -0.025
@@ -4585,6 +4588,7 @@ equipment_modules = {
 	}
 	ship_scheme_all_or_nothing = {
 		category = armor_scheme
+		parent = ship_scheme_mixed
 		
 		multiply_stats = {
 			naval_speed = -0.025
@@ -4598,6 +4602,7 @@ equipment_modules = {
 	}
 	ship_scheme_all_or_nothing_armor_box = {
 		category = armor_scheme
+		parent = ship_scheme_all_or_nothing
 		
 		multiply_stats = {
 			naval_speed = -0.025
@@ -4639,6 +4644,7 @@ equipment_modules = {
 	}
 	torpedo_belt = {
 		category = torpedo_defense_system
+		parent = torpedo_bulge
 		
 		add_stats = {
 			naval_torpedo_enemy_critical_chance_factor = -0.2
@@ -4652,6 +4658,7 @@ equipment_modules = {
 	}
 	torpedo_belt_enhanced = {
     	category = torpedo_defense_system
+		parent = torpedo_belt
 		
 		add_stats = {
 			naval_torpedo_enemy_critical_chance_factor = -0.25
@@ -4927,7 +4934,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			max_organisation = 0.1
-			build_cost_ic = 3500
+			build_cost_ic = 2000
 		}
 
 		build_cost_resources = {
@@ -5409,7 +5416,7 @@ equipment_modules = {
 			build_cost_ic = 300
 		}
 		multiply_stats = {
-			naval_speed = 0.2
+			naval_speed = 0.1
 		}
 		can_convert_from = {
 			module_category = civilian_ship_engine

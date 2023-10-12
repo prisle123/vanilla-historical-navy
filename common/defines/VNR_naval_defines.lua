@@ -31,6 +31,11 @@ NDefines.NNavy.AGGRESSION_SETTINGS_VALUES = {
 		2.2,	-- high
 		10000,	-- I am death incarnate!
 };
+NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
+		80.0,	-- big guns
+		130.0,	-- torpedoes
+		45.0,	-- small guns
+};
 NDefines.NAI.MIN_NAVAL_MISSION_PRIO_TO_ASSIGN = {
 		0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 		200, -- PATROL

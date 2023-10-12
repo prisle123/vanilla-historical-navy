@@ -1,4 +1,5 @@
 add_namespace = navy_rework
+add_namespace = vnr_ai
 
 # load starting naval designs and fleet and techs
 country_event = {
@@ -168,6 +169,10 @@ country_event = {
 			SIA_start_naval_variants = yes
 			load_oob = 00_SIA_vnr_naval
 		}
+		RAJ = {
+			RAJ_start_naval_variants = yes
+			load_oob = 00_RAJ_vnr_naval
+		}
 
         clr_global_flag = add_startup_navy
     }
@@ -327,5 +332,77 @@ country_event = {
 	}
 	option = {
 		name = navy_rework.100.1
+	}
+}
+
+# Buff AI
+country_event = {
+	id = vnr_ai.0
+	title = vnr_ai.0.t
+	desc = vnr_ai.0.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = vnr_ai.0.0
+		set_variable = { vnr_ai_difficulty = 3 }
+		hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_hard
+					vnr_normal
+				}
+			}
+		}
+		
+		every_country = {
+			limit = { is_ai = yes }
+			add_ideas = vnr_mad
+		}
+	}
+	option = {
+		name = vnr_ai.0.1
+		set_variable = { vnr_ai_difficulty = 2 }
+		hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_normal
+				}
+			}
+		}
+		every_country = {
+			limit = { is_ai = yes }
+			add_ideas = vnr_hard
+		}
+	}
+	option = {
+		name = vnr_ai.0.2
+		set_variable = { vnr_ai_difficulty = 1 }
+		hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_hard
+				}
+			}
+		}
+		every_country = {
+			limit = { is_ai = yes }
+			add_ideas = vnr_normal
+		}
+	}
+	option = {
+		name = vnr_ai.0.3
+		set_variable = { vnr_ai_difficulty = 0 }
+		hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_hard
+					vnr_normal
+				}
+			}
+		}
 	}
 }
