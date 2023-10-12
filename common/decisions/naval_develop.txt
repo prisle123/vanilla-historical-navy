@@ -1,0 +1,247 @@
+naval_develop_category = {
+    gen_naval_hire_designer = {
+		icon = generic_naval
+		fire_only_once = yes
+		days_remove = 30
+		available = {
+			has_navy_size = {
+				size < 1
+			}
+			num_of_naval_factories > 1
+		}
+
+		visible = {
+			has_navy_size = {
+				size < 1
+			}
+			num_of_naval_factories > 1
+		}
+
+		cancel_trigger = {
+			OR= {
+				has_navy_size = {
+					size > 5
+				}
+			}
+		}
+
+		cost = 15
+
+		remove_effect = {
+			navy_experience = 50
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 300
+				has_war = yes
+			}
+			modifier = {
+				add = 300
+				has_navy_size = {
+					size < 5
+				}
+			}
+		}
+	}
+	gen_naval_hire_advisor = {
+		icon = generic_naval
+		fire_only_once = yes
+		days_remove = 30
+		available = {
+			has_navy_size = {
+				size < 1
+			}
+			num_of_naval_factories > 1
+		}
+
+		visible = {
+			has_navy_size = {
+				size < 1
+			}
+			num_of_naval_factories > 1
+		}
+
+		cost = 15
+
+		remove_effect = {
+			add_tech_bonus = {
+				name = naval_doctrine
+				bonus = 1
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 300
+				has_war = yes
+			}
+			modifier = {
+				add = 300
+				has_navy_size = {
+					size < 5
+				}
+			}
+		}
+	}
+    gen_naval_develop_destroyer = {
+        icon = generic_naval
+		fire_only_once = yes
+		days_remove = 30
+		available = {
+			has_navy_size = {
+				size < 10
+			}
+			num_of_naval_factories > 1
+		}
+
+		visible = {
+			has_navy_size = {
+				size < 10
+			}
+			num_of_naval_factories > 1
+		}
+
+		cost = 30
+        modifier = {
+            consumer_goods_factor = 0.05
+        }
+
+		remove_effect = {
+			add_tech_bonus = {
+				name = dd_tech
+				bonus = 1
+				uses = 3
+				category = dd_tech
+			}
+		}
+    }
+    gen_naval_develop_cruiser = {
+        icon = generic_naval
+		fire_only_once = yes
+		days_remove = 30
+		available = {
+			has_navy_size = {
+				size < 15
+			}
+			num_of_naval_factories > 1
+		}
+
+		visible = {
+			has_navy_size = {
+				size < 15
+			}
+			num_of_naval_factories > 1
+		}
+
+		cost = 30
+        modifier = {
+            consumer_goods_factor = 0.05
+        }
+
+		remove_effect = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = { ca_tech cl_tech }
+			}
+		}
+    }
+    gen_naval_develop_battleship = {
+        icon = generic_naval
+		fire_only_once = yes
+		days_remove = 60
+		available = {
+			has_navy_size = {
+				size < 20
+			}
+			num_of_naval_factories > 1
+		}
+
+		visible = {
+			has_navy_size = {
+				size < 20
+			}
+			num_of_naval_factories > 1
+		}
+
+		cost = 50
+        modifier = {
+            consumer_goods_factor = 0.1
+        }
+
+		remove_effect = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = bb_tech
+			}
+		}
+    }
+    gen_naval_develop_carrier = {
+        icon = generic_naval
+		fire_only_once = yes
+		days_remove = 45
+		available = {
+			has_navy_size = {
+				size < 20
+			}
+			num_of_naval_factories > 1
+		}
+
+		visible = {
+			has_navy_size = {
+				size < 20
+			}
+			num_of_naval_factories > 1
+		}
+
+		cost = 50
+        modifier = {
+            consumer_goods_factor = 0.1
+        }
+
+		remove_effect = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = cv_tech
+			}
+		}
+    }
+    gen_naval_develop_submarine = {
+        icon = generic_naval
+		fire_only_once = yes
+		days_remove = 30
+		available = {
+			has_navy_size = {
+				size < 10
+			}
+			num_of_naval_factories > 1
+		}
+
+		visible = {
+			has_navy_size = {
+				size < 10
+			}
+			num_of_naval_factories > 1
+		}
+
+		cost = 15
+        modifier = {
+            consumer_goods_factor = 0.025
+        }
+
+		remove_effect = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = ss_tech
+			}
+		}
+    }
+}
