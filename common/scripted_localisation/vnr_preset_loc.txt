@@ -939,35 +939,6 @@ defined_text = {
 
 defined_text = {
     name = vnr_ss_cruiser
-    
-    text = {
-        trigger = { tag = USA is_ai = yes }
-        localization_key = vnr_ss_cruiser_usa 
-    }
-    text = {
-        trigger = { tag = ENG is_ai = yes }
-        localization_key = vnr_ss_cruiser_eng 
-    }
-    text = {
-        trigger = { tag = JAP is_ai = yes }
-        localization_key = vnr_ss_cruiser_jap 
-    }
-    text = {
-        trigger = { tag = FRA is_ai = yes }
-        localization_key = vnr_ss_cruiser_fra 
-    }
-    text = {
-        trigger = { tag = ITA is_ai = yes }
-        localization_key = vnr_ss_cruiser_ita 
-    }
-    text = {
-        trigger = { tag = GER is_ai = yes }
-        localization_key = vnr_ss_cruiser_ger 
-    }
-    text = {
-        trigger = { tag = SOV is_ai = yes }
-        localization_key = vnr_ss_cruiser_sov 
-    }
     text = {
         localization_key = vnr_ss_cruiser_gen
     }
