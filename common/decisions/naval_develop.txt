@@ -9,12 +9,11 @@ naval_develop_category = {
 			}
 			num_of_naval_factories > 1
 		}
-
 		visible = {
-			has_navy_size = {
-				size < 1
+			AND = {
+				has_navy_size = { size < 1 }
+				num_of_naval_factories > 0
 			}
-			num_of_naval_factories > 1
 		}
 
 		cancel_trigger = {
@@ -55,12 +54,11 @@ naval_develop_category = {
 			}
 			num_of_naval_factories > 1
 		}
-
 		visible = {
-			has_navy_size = {
-				size < 1
+			AND = {
+				has_navy_size = { size < 1 }
+				num_of_naval_factories > 0
 			}
-			num_of_naval_factories > 1
 		}
 
 		cost = 15
@@ -98,12 +96,13 @@ naval_develop_category = {
 			}
 			num_of_naval_factories > 1
 		}
-
 		visible = {
-			has_navy_size = {
-				size < 10
+			AND = {
+				has_navy_size = {
+					size < 10
+				}
+				num_of_naval_factories > 0
 			}
-			num_of_naval_factories > 1
 		}
 
 		cost = 30
@@ -113,7 +112,6 @@ naval_develop_category = {
 
 		remove_effect = {
 			add_tech_bonus = {
-				name = dd_tech
 				bonus = 1
 				uses = 3
 				category = dd_tech
@@ -130,12 +128,13 @@ naval_develop_category = {
 			}
 			num_of_naval_factories > 1
 		}
-
 		visible = {
-			has_navy_size = {
-				size < 15
+			AND = {
+				has_navy_size = {
+					size < 15
+				}
+				num_of_naval_factories > 1
 			}
-			num_of_naval_factories > 1
 		}
 
 		cost = 30
@@ -151,36 +150,11 @@ naval_develop_category = {
 			}
 		}
     }
-    gen_naval_develop_battleship = {
+    gen_naval_develop_bb = {
         icon = generic_naval
-		fire_only_once = yes
-		days_remove = 60
-		available = {
-			has_navy_size = {
-				size < 20
-			}
-			num_of_naval_factories > 1
-		}
+		days_remove = 30
 
-		visible = {
-			has_navy_size = {
-				size < 20
-			}
-			num_of_naval_factories > 1
-		}
-
-		cost = 50
-        modifier = {
-            consumer_goods_factor = 0.1
-        }
-
-		remove_effect = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 3
-				category = bb_tech
-			}
-		}
+		cost = 30
     }
     gen_naval_develop_carrier = {
         icon = generic_naval
@@ -188,16 +162,17 @@ naval_develop_category = {
 		days_remove = 45
 		available = {
 			has_navy_size = {
-				size < 20
+				size < 30
 			}
 			num_of_naval_factories > 1
 		}
-
 		visible = {
-			has_navy_size = {
-				size < 20
+			AND = {
+				has_navy_size = {
+					size < 30
+				}
+				num_of_naval_factories > 1
 			}
-			num_of_naval_factories > 1
 		}
 
 		cost = 50
@@ -221,14 +196,16 @@ naval_develop_category = {
 			has_navy_size = {
 				size < 10
 			}
-			num_of_naval_factories > 1
+			num_of_naval_factories > 0
 		}
 
 		visible = {
-			has_navy_size = {
-				size < 10
+			AND = {
+				has_navy_size = {
+					size < 10
+				}
+				num_of_naval_factories > 0
 			}
-			num_of_naval_factories > 1
 		}
 
 		cost = 15
