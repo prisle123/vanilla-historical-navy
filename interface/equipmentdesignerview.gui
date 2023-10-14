@@ -277,14 +277,14 @@ guiTypes = {
 
 		buttonType = {
 			name = "upgrade_assigned_industrial_org"
-			position = { x = 20 y = 360 }
+			position = { x = 70 y = 360 }
 			spriteType = "GFX_designer_button_upgrade_strip"
 		}
 
 		buttonType = {
 			name = "design_team_button"
 			spriteType = "GFX_idea_slot_naval_manufacturer"
-			position = { x = 50 y = 340 }
+			position = { x = 10 y = 340 }
 		}
 
 		# right hand side, stats and terrain adjusters
