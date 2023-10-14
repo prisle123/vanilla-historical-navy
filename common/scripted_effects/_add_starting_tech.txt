@@ -463,6 +463,13 @@ makeup_starting_techs = {
             popup = no
         }
     }
+    every_country = {
+        limit = { is_ai = yes }
+        set_technology = {
+            vnr_reckless_attack = 1
+            popup = no
+        }
+    }
     for_each_scope_loop = {
 		array = global.vnr_naval_powers
 		

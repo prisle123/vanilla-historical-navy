@@ -3031,4 +3031,14 @@ technologies = {
 		}
         navy_fuel_consumption_factor = -0.15
     }
+
+	vnr_reckless_attack = {
+		research_cost = 1
+		start_year = 1900
+
+		allow = {
+			always = no
+		}
+		naval_retreat_chance = -0.8
+	}
 }
