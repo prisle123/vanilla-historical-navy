@@ -179,7 +179,7 @@ JAP_CITIES = {
 }
 
 JAP_WEATHER = {
-	name = NAME_THEME_WEATHER #wheather, moons, winds, natural phenomens, seasons
+	name = NAME_THEME_IJN_WEATHER #wheather, moons, winds, natural phenomens, seasons
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 	for_countries = { JAP }
 
@@ -228,7 +228,7 @@ JAP_WEATHER = {
 }
 
 JAP_NATURE = {
-	name = NAME_THEME_NATURE #plants for small DDs mostly
+	name = NAME_THEME_IJN_NATURE #plants for small DDs mostly
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 	for_countries = { JAP }
 
@@ -344,3 +344,94 @@ JAP_MOUNTAIN = {
 	}
 }
 
+
+### LIGHT CRUISER NAMES###
+JAP_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "Keijun'yokan %d -go"
+
+	unique = {
+		"Suzuya" "Kumano" "Katori" "Kashima" "Kashii" "Kashiwara" "Agano" "Noshiro" "Yahagi" "Sakawa" "Oyodo" 
+		# Captured/Converted/Older Models
+		"Ioshima" "Yasoshima" "Yodo" "Hirado" "Yahagi" 
+		"Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" "Oi" "Kiso" "Nagara" "Isuzu" "Natori" "Yura" "Kinu" "Abukuma" "Yubari" "Sendai" "Jintsu" "Naka" 
+		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Tone" "Chikuma" "Aso" "Tsugaru" "Soya" "Ibuki" "Haogi" "Mogami" "Mikuma"
+		# Fictional
+		"Iwaki" "Mabechi" "Takase" "Naruse" "Yoneshiro" "Omono" "Koyoshi" "Kuji" "Tsurumi" "Oyabe" "Tedori" "Kano" "Shonai" "Suzuka" "Kumozu" "Kushida" "Maruyama" "Hino"
+		"Takatsu" "Yoshii" "Takahashi" "Ashida" "Yoshino" "Onga" "Yabe" "Matsuura" "Yamakuni" "Chikugo" "Rokkaku" "Kikuchi" "Kase" "Honmyo" "Oita" "Ono" "Ota" "Banjo"
+		"Gokase" "Omaru" "Kimotsuki"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+JAP_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "Jujun'yokan %d -go"
+
+	unique = {
+		"Tone" "Chikuma" "Aso" "Tsugaru" "Soya" 
+		# Older Models
+		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" 
+		# Cancelled/not completed
+		"Ibuki" "Haogi" "Mogami" "Mikuma" "Suzuya" "Kumano" 
+		# Fictional
+		"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
+		"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
+		"Omine" "Ishizuchi" "Aso" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
+		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+	}
+}
+
+### BATTLESHIP NAMES ###
+JAP_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "Senkan %d -go"		
+
+	unique = {
+			"Hiei" "Yamato" "Musashi" "Tosa" "Kii" "Owari" "Iwami" "Sagami" "Suwo" "Hizen" "Tango" "Iki" 
+			# Captured/Converted/Older Models
+			"Fuso" "Yamashiro" "Ise" "Hyuga" "Nagato" "Mutsu" "Haruna" "Kirishima" "Kaga" "Shinano" 
+			# Fictional
+			"Dewa" "Hitachi" "Noto" "Hida" "Mino" "Mikawa" "Suruga" "Kai" "Izumi" "Kawachi" "Iga" "Tanba" "Sanuki" "Awa" "Satsuma"
+			"Osumi" "Aki" "Settsu" "Tajima" "Iyo" "Omi"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+JAP_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "Jun'yosenkan %d -go"		
+
+	unique = {
+		"Amagi" "Tsukuba" "Ikoma" "Ibuki" "Kurama" "Akagi" "Atago" "Takao" "Kongo" "Hiei" "Haruna" "Kirishima"
+		# Fictional
+		"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
+		"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
+		"Omine" "Ishizuchi" "Aso" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
+		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+	}
+}
