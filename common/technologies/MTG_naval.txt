@@ -3387,7 +3387,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1944 }
+			position = { x = -1 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -3415,11 +3415,11 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 1942
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1940_module }
+			position = { x = 0 y = @1944 }
 		}
 
 		ai_will_do = {
@@ -3453,11 +3453,11 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
-		start_year = 1944
+		start_year = 1945
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1944_module }
+			position = { x = -1 y = @1944_module_2 }
 		}
 
 		ai_will_do = {
@@ -3630,6 +3630,33 @@ technologies = {
 		}
 	}
 
+	submarine_mass_production = {
+		research_cost = 1
+
+		start_year = 1941
+
+		submarine = {
+			build_cost_ic = -0.15
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = @1944 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				has_navy_size = { size > 35 unit = submarine }
+			}
+		}
+
+		categories = {
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
 	sub_AIP_engine = {
 		enable_equipment_modules = {
 			sub_ship_engine_5
@@ -3644,7 +3671,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1944_module }
+			position = { x = -3 y = @1944_module_2 }
 		}
 
 		ai_will_do = {
@@ -3676,7 +3703,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1944_module }
+			position = { x = 1 y = @1944_module_2 }
 		}
 
 		ai_will_do = {
@@ -3791,7 +3818,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1932 }
+			position = { x = 0 y = @1932 }
 		}
 
 		ai_will_do = {
