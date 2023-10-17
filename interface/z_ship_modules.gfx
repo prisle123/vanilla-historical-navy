@@ -439,6 +439,24 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_medium_battery4.png"
 	}
 	
+	# single medium battery
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_1_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_medium_battery1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_2_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_medium_battery2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_3_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_medium_battery3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_medium_battery_4_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_medium_battery4.png"
+	}
+	
 	# double light battery
 	spriteType = {
 		name = "GFX_SMI_ship_light_battery_1_double"

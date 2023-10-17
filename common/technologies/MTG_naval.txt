@@ -3333,6 +3333,10 @@ technologies = {
 			leads_to_tech = improved_ballast_tank
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = submarine_mass_production
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2.0
 
@@ -3818,7 +3822,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1932 }
+			position = { x = 1 y = @1932 }
 		}
 
 		ai_will_do = {
@@ -3842,7 +3846,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = @1940_module }
+			position = { x = 1 y = @1940_module }
 		}
 
 		ai_will_do = {
