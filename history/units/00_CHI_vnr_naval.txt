@@ -20,7 +20,7 @@
 		}
 		task_force = {
 			name = "2nd Fleet"
-			location = 7191
+			location = 7014
 			ship = { name = "Chu Tai" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Chu Tai/Kiang Yuan Class" } } }
 			ship = { name = "Chu Yiu" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Chu Tai/Kiang Yuan Class" } } }
 			ship = { name = "Chu Tung" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = CHI version_name = "Chu Tai/Kiang Yuan Class" } } }
@@ -31,7 +31,7 @@
 		}
 		task_force = {
 			name = "3rd Fleet"
-			location = 7191
+			location = 4205
 			ship = { name = "Chen Hai" definition = auxiliary_ship equipment = { vnr_ship_hull_civilian_1 = { amount = 1 owner = CHI version_name = "Chen Hai Class" } } }
 			ship = { name = "Haiqi" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHI version_name = "Haiqi Class" } } }
 			ship = { name = "Haichen" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
@@ -42,7 +42,7 @@
 		}
 		task_force = {
 			name = "4th Fleet"
-			location = 7191
+			location = 1047
 			ship = { name = "Zhaohe" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHI version_name = "Zhaohe Class" } } }
 		}
 		task_force = {

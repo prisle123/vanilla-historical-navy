@@ -20,6 +20,10 @@ on_actions = {
             add_to_array = { global.vnr_naval_powers = JAP }
             add_to_array = { global.vnr_naval_powers = SOV }
             add_to_array = { global.vnr_naval_powers = USA }
+			
+			GXC = {
+				give_military_access = CHI
+			}
         }
     }
 }

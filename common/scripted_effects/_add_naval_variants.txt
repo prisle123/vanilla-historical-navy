@@ -4138,6 +4138,7 @@ CHI_start_naval_variants = {
     create_equipment_variant = {
         name = "Chu Tai/Kiang Yuan Class"
 		role_icon_index = 47
+		icon = "gfx/interface/technologies/China/CHI_destroyer_Zhongshan.png"
         type = vnr_ship_hull_light_1
         name_group = CHI_DD_HISTORICAL
         modules = {
@@ -4152,6 +4153,7 @@ CHI_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Chen Hai Class"
+		allow_without_tech = yes
 		role_icon_index = 61
         type = vnr_ship_hull_civilian_1
         name_group = CHI_DD_HISTORICAL

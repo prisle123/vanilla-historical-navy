@@ -117,6 +117,15 @@ naval_develop_category = {
 				category = dd_tech
 			}
 		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 300
+				has_navy_size = {
+					size < 15
+				}
+			}
+		}
     }
     gen_naval_develop_cruiser = {
         icon = generic_naval
@@ -149,6 +158,15 @@ naval_develop_category = {
 				category = ca_tech
 			}
 		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 300
+				has_navy_size = {
+					size < 15
+				}
+			}
+		}
     }
     gen_naval_develop_battleship = {
         icon = generic_naval
@@ -156,14 +174,14 @@ naval_develop_category = {
 		days_remove = 45
 		available = {
 			has_navy_size = {
-				size < 30
+				size < 45
 			}
 			num_of_naval_factories > 1
 		}
 		visible = {
 			AND = {
 				has_navy_size = {
-					size < 30
+					size < 45
 				}
 				num_of_naval_factories > 1
 			}
@@ -181,6 +199,15 @@ naval_develop_category = {
 				category = bb_tech
 			}
 		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 300
+				has_navy_size = {
+					size < 45
+				}
+			}
+		}
     }
     gen_naval_develop_carrier = {
         icon = generic_naval
@@ -188,14 +215,14 @@ naval_develop_category = {
 		days_remove = 45
 		available = {
 			has_navy_size = {
-				size < 30
+				size < 45
 			}
 			num_of_naval_factories > 1
 		}
 		visible = {
 			AND = {
 				has_navy_size = {
-					size < 30
+					size < 45
 				}
 				num_of_naval_factories > 1
 			}
@@ -211,6 +238,15 @@ naval_develop_category = {
 				bonus = 1
 				uses = 3
 				category = cv_tech
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 300
+				has_navy_size = {
+					size < 45
+				}
 			}
 		}
     }
@@ -244,6 +280,15 @@ naval_develop_category = {
 				bonus = 1
 				uses = 3
 				category = ss_tech
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 300
+				has_navy_size = {
+					size < 10
+				}
 			}
 		}
     }
