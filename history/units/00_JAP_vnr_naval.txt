@@ -204,6 +204,7 @@ units = {
 			ship = { name = "Asama" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Asama/Izumo Class"} } }
 			ship = { name = "Izumo" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Asama/Izumo Class"} } }
 			ship = { name = "Kuma" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
+			ship = { name = "Yodo" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Yodo Class" } } }
 			#Dai 11 Sentai, Momi-class destroyers
 			#Dai 25 Kuchikutai
 			ship = { name = "Kaya" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
@@ -229,6 +230,11 @@ units = {
 			ship = { name = "Fuji" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
 			ship = { name = "Susuki" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
 			ship = { name = "Tsuta" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
+			#Torpedo Boats
+			ship = { name = "Chidori" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Chidori Class"} } }
+			ship = { name = "Manazuru" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Chidori Class"} } }
+			ship = { name = "Tomozuru" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Chidori Class"} } }
+			ship = { name = "Hatsukari" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = {amount = 1 owner = JAP version_name = "Chidori Class"} } }
 			#Minelayers
 			ship = { name = "Yaeyama" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Itsukushima/Okinoshima Class"} } }
 			ship = { name = "Shirataka" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Itsukushima/Okinoshima Class"} } }
@@ -628,6 +634,51 @@ instant_effect =
 			name = "Arashio"
 			requested_factories = 1
 			progress = 0.14
+			amount = 1
+		}	
+		# TB (x4): Otori Class
+		add_equipment_production = {				
+			equipment = {
+				type = vnr_ship_hull_light_3
+				creator = "JAP" 
+				version_name = "Otori Class"
+			}
+			name = "Otori"
+			requested_factories = 1
+			progress = 0.14
+			amount = 1
+		}	
+		add_equipment_production = {				
+			equipment = {
+				type = vnr_ship_hull_light_3
+				creator = "JAP" 
+				version_name = "Otori Class"
+			}
+			name = "Hiyodori"
+			requested_factories = 1
+			progress = 0.05
+			amount = 1
+		}	
+		add_equipment_production = {				
+			equipment = {
+				type = vnr_ship_hull_light_3
+				creator = "JAP" 
+				version_name = "Otori Class"
+			}
+			name = "Hayabusa"
+			requested_factories = 1
+			progress = 0.05
+			amount = 1
+		}	
+		add_equipment_production = {				
+			equipment = {
+				type = vnr_ship_hull_light_3
+				creator = "JAP" 
+				version_name = "Otori Class"
+			}
+			name = "Kasasagi"
+			requested_factories = 1
+			progress = 0.01
 			amount = 1
 		}	
 		# SS (x4): "I-172" "I-73" "I-174" "I-175"
