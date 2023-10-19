@@ -335,7 +335,7 @@ ENG_start_naval_variants = {
         name = "Leander Class"
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
-        type = vnr_ship_hull_cruiser_3
+        type = vnr_ship_hull_cruiser_2
         name_group = ENG_CL_MYTHOLOGY
         modules = {
             fixed_ship_battery_slot = ship_light_medium_battery_2_double
@@ -401,13 +401,8 @@ ENG_start_naval_variants = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
-            front_1_custom_slot = ship_light_battery_1
-            front_2_custom_slot = ship_light_battery_1
-            mid_1_custom_slot = ship_light_battery_1
             mid_2_custom_slot = ship_torpedo_1
-            mid_3_custom_slot = ship_light_battery_1
-			rear_1_custom_slot = ship_light_battery_1
-            rear_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_medium_battery_1_single
         }
         obsolete = yes
     }
@@ -530,14 +525,14 @@ ENG_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Grampus Class"
-		role_icon_index = 37
+		role_icon_index = 41
         type = vnr_ship_hull_submarine_2
         name_group = ENG_SS_HISTORICAL
         modules = {
             fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
             fixed_ship_armor_slot = pressure_hull_2
-			rear_1_custom_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_mine_layer_sub
         }
     }
     create_equipment_variant = {
@@ -1769,6 +1764,7 @@ JAP_start_naval_variants = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
+            fixed_ship_role_slot = ship_hull_cruiser_role_ac
             front_1_custom_slot = empty
             mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = ship_torpedo_1
@@ -2362,6 +2358,7 @@ ITA_start_naval_variants = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
+            fixed_ship_role_slot = ship_hull_cruiser_role_ac
             mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = ship_torpedo_1
 			rear_1_custom_slot = empty
@@ -3716,6 +3713,7 @@ ARG_start_naval_variants = {
         	fixed_ship_engine_slot = cruiser_ship_engine_1
         	fixed_ship_armor_slot = ship_armor_cruiser_1
         	fixed_ship_secondaries_slot = ship_secondaries_1
+            fixed_ship_role_slot = ship_hull_cruiser_role_ac
             mid_1_custom_slot = empty
         	mid_2_custom_slot = ship_secondaries_1
             mid_3_custom_slot = ship_torpedo_1
@@ -3798,7 +3796,8 @@ AST_start_naval_variants = {
     create_equipment_variant = {
         name = "Leander Class"
 		role_icon_index = 25
-        type = vnr_ship_hull_cruiser_3
+        icon = "gfx/interface/technologies/England/ENG_light_cruiser3.png"
+        type = vnr_ship_hull_cruiser_2
         name_group = AST_CL_HISTORICAL
         modules = {
             fixed_ship_battery_slot = ship_light_medium_battery_2_double
@@ -4115,6 +4114,7 @@ CHI_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
+            fixed_ship_role_slot = ship_hull_light_role_ff
             mid_1_custom_slot = ship_light_battery_1
 			rear_1_custom_slot = ship_light_battery_1
         }
@@ -4131,6 +4131,7 @@ CHI_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
+            fixed_ship_role_slot = ship_hull_light_role_ff
 			rear_1_custom_slot = ship_light_battery_1
         }
         obsolete = yes
@@ -4147,6 +4148,7 @@ CHI_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
+            fixed_ship_role_slot = ship_hull_light_role_ff
 			rear_1_custom_slot = ship_light_battery_1
         }
         obsolete = yes
@@ -4426,6 +4428,7 @@ FIN_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
+            fixed_ship_role_slot = ship_hull_light_role_ff
 			rear_1_custom_slot = ship_light_battery_1
         }
     }
@@ -4470,6 +4473,7 @@ GRE_start_naval_variants = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
             fixed_ship_secondaries_slot = ship_secondaries_1
+            fixed_ship_role_slot = ship_hull_cruiser_role_ac
             front_1_custom_slot = ship_medium_battery_1_double
             mid_1_custom_slot = ship_secondaries_1
             mid_2_custom_slot = ship_medium_battery_1_double
@@ -4577,6 +4581,7 @@ HOL_start_naval_variants = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
             fixed_ship_secondaries_slot = ship_secondaries_1
+            fixed_ship_role_slot = ship_hull_cruiser_role_ac
         }
     }
     create_equipment_variant = {
@@ -4610,6 +4615,7 @@ HOL_start_naval_variants = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
             fixed_ship_secondaries_slot = ship_secondaries_1
+            fixed_ship_role_slot = ship_hull_cruiser_role_ac
             mid_1_custom_slot = empty
             mid_2_custom_slot = empty
             mid_3_custom_slot = ship_torpedo_1
@@ -5183,6 +5189,7 @@ SWE_start_naval_variants = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
             fixed_ship_secondaries_slot = ship_secondaries_1
+            fixed_ship_role_slot = ship_hull_cruiser_role_ac
             front_1_custom_slot = empty
             mid_1_custom_slot = ship_secondaries_1
             mid_2_custom_slot = ship_torpedo_1
@@ -5612,6 +5619,7 @@ MEX_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
+            fixed_ship_role_slot = ship_hull_light_role_ff
 			front_1_custom_slot = ship_light_battery_1
 			rear_1_custom_slot = ship_light_battery_1
         }
@@ -5627,6 +5635,7 @@ MEX_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
+            fixed_ship_role_slot = ship_hull_light_role_ff
 			front_1_custom_slot = empty
 			rear_1_custom_slot = ship_light_battery_1
         }
@@ -5642,6 +5651,7 @@ MEX_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
+            fixed_ship_role_slot = ship_hull_light_role_ff
 			front_1_custom_slot = empty
 			rear_1_custom_slot = ship_light_battery_1
         }
@@ -5829,6 +5839,7 @@ CUB_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
+            fixed_ship_role_slot = ship_hull_light_role_ff
 			mid_1_custom_slot = empty
 		}
 	}
@@ -5861,6 +5872,7 @@ PER_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
+            fixed_ship_role_slot = ship_hull_light_role_ff
 			rear_1_custom_slot = ship_light_battery_1
             rear_2_custom_slot = ship_mine_layer_1
 		}
@@ -5929,6 +5941,7 @@ SIA_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
+            fixed_ship_role_slot = ship_hull_light_role_ff
 		}
         obsolete = yes
 	}

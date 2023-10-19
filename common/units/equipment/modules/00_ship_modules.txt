@@ -5350,13 +5350,32 @@ equipment_modules = {
 	        lg_attack = -0.1
     	    max_strength = -0.05
         	sub_detection = 0.1
+			torpedo_attack = -0.6
         	build_cost_ic = -0.2
     	}
 		forbid_module_categories = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
 			ship_light_medium_battery_single
-			ship_torpedo
+			ship_missile_aa
+		}
+	}
+	ship_hull_light_role_ff = {
+    	category = dd_role
+    	multiply_stats = {
+	        lg_attack = -0.15
+			lg_armor_piercing = -0.1
+			anti_air_attack = -0.15
+    	    max_strength = -0.1
+			naval_speed = -0.4
+        	surface_visibility = -0.1
+			torpedo_attack = -0.8
+        	build_cost_ic = -0.3
+    	}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 			ship_missile_aa
 		}
 	}
@@ -5481,6 +5500,19 @@ equipment_modules = {
 			raider_kit
 			ship_missile
 			ship_missile_aa
+		}
+	}
+	ship_hull_cruiser_role_ac = {
+		category = cds_role
+		multiply_stats = {
+			naval_range = 0.5
+		}
+	}
+	ship_hull_cruiser_role_cd = {
+		category = cds_role
+		multiply_stats = {
+			naval_speed = -0.2
+			build_cost_ic = -0.2
 		}
 	}
 
