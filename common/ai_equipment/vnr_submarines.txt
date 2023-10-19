@@ -7,15 +7,25 @@ naval_submarine = {
 	priority = { base = 10 }
 
 	submarine_cruiser_dummy = {
+		name = vnr_ss_cruiser
 		role_icon_index = 37
 
 		priority = { base = 0 }
 		target_variant = {
 			type = vnr_ship_hull_cruiser_submarine
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
+				front_1_custom_slot = ship_torpedo_sub
+				mid_1_custom_slot = sub_ship_periscope
+				rear_1_custom_slot = ship_torpedo_sub
+			}
 		}
 	}
 
 	submarine_1922 = {
+		name = vnr_ss_1922
 		role_icon_index = 37
 
 		priority = {
@@ -39,6 +49,7 @@ naval_submarine = {
 	}
 
 	submarine_1936 = {
+		name = vnr_ss_1936
 		role_icon_index = 37
 
 		priority = {
@@ -61,6 +72,7 @@ naval_submarine = {
 	}
 
 	submarine_1940 = {
+		name = vnr_ss_1940
 		role_icon_index = 37
 
 		priority = {
@@ -86,6 +98,7 @@ naval_submarine = {
 	}
 
 	submarine_1944 = {
+		name = vnr_ss_1944
 		role_icon_index = 37
 		priority = {
 			base = 0

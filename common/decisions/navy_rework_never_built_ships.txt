@@ -113,7 +113,7 @@ navy_rework_category = {
                 tag = HUN
             }
         }
-        visible = { has_game_rule = { rule = allow_never_built option = FREE } }
+        # visible = { has_game_rule = { rule = allow_never_built option = FREE } }
         available = {
             num_of_naval_factories > 0
         }

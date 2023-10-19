@@ -30,24 +30,42 @@ naval_carrier = {
 	# }
 
 	carrier_conv_ca_dummy = {
+		name = vnr_cv_ca
 		role_icon_index = 9
 
 		priority = { base = 0 }
 		target_variant = {
 			type = vnr_ship_hull_carrier_conversion_ca
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_engine_slot = carrier_ship_engine
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
+			}
 		}
 	}
 
 	carrier_conv_bb_dummy = {
+		name = vnr_cv_bb
 		role_icon_index = 9
 
 		priority = { base = 0 }
 		target_variant = {
 			type = vnr_ship_hull_carrier_conversion_bb
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_engine_slot = carrier_ship_engine
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
+				mid_1_custom_slot = ship_deck_space
+			}
 		}
 	}
 
 	carrier_1936_dummy = {
+		name = vnr_cv_1936
 		role_icon_index = 9
 
 		priority = { 
@@ -70,6 +88,7 @@ naval_carrier = {
 	}
 
 	carrier_1940 = {
+		name = vnr_cv_1940
 		role_icon_index = 9
 
 		priority = {
@@ -97,6 +116,7 @@ naval_carrier = {
 	}
 
 	carrier_1944 = {
+		name = vnr_cv_1944
 		role_icon_index = 9
 
 		priority = {
@@ -125,6 +145,7 @@ naval_carrier = {
 	}
 
 	carrier_1945 = {
+		name = vnr_cv_1945
 		role_icon_index = 9
 
 		priority = {

@@ -346,7 +346,14 @@ add_starting_techs = {
             early_ship_hull_light = 1
             early_ship_hull_cruiser = 1
             early_ship_hull_submarine = 1
+            basic_ship_hull_light = 1
             basic_ship_hull_submarine = 1
+            popup = no
+        }
+    }
+    PER = {
+        set_technology = {
+            early_ship_hull_light = 1
             popup = no
         }
     }
@@ -456,6 +463,13 @@ makeup_starting_techs = {
             popup = no
         }
     }
+    # every_country = {
+        # limit = { is_ai = yes }
+        # set_technology = {
+            # vnr_reckless_attack = 1
+            # popup = no
+        # }
+    # }
     for_each_scope_loop = {
 		array = global.vnr_naval_powers
 		

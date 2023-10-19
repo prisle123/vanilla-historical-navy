@@ -1,4 +1,4 @@
-version="v0.10 - Look At Seagull"
+version="v0.11 - Smoke On The Water"
 tags={
 	"Military"
 	"Graphics"
@@ -11,5 +11,5 @@ dependencies={
 }
 name="Vanilla Navy Rework"
 picture="thumbnail.png"
-supported_version="1.13.1"
+supported_version="1.13.*"
 remote_file_id="2993766165"

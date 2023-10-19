@@ -1597,6 +1597,135 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 
+	# single medium battery
+	ship_medium_battery_1_single = {
+		category = ship_medium_battery_single
+		gui_category = ship_light_medium_battery_single
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		add_stats = {
+			hg_attack = 1.5
+			lg_attack = 0.75
+			build_cost_ic = 300
+			surface_visibility = 0.2
+		}
+		multiply_stats = {
+			naval_speed = -0.025
+			max_strength = 0.1
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22
+			lg_armor_piercing = 5
+		}
+
+		can_convert_from = {
+			module_category = ship_light_battery
+			convert_cost_ic = 200
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 200
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_medium_battery_2_single = {
+		category = ship_medium_battery_single
+		gui_category = ship_light_medium_battery_single
+		parent = ship_medium_battery_1_single
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			hg_attack = 2
+			lg_attack = 1.5
+			build_cost_ic = 400
+			surface_visibility = 0.2
+		}
+		multiply_stats = {
+			naval_speed = -0.035
+			max_strength = 0.15
+		}
+		add_average_stats = {
+			hg_armor_piercing = 25
+			lg_armor_piercing = 7
+		}
+
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 180
+		}
+		can_convert_from = {
+			module = ship_medium_battery_1
+			convert_cost_ic = 140
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_medium_battery_3_single = {
+		category = ship_medium_battery_single
+		gui_category = ship_light_medium_battery_single
+		gui_category = ship_medium_battery_multi
+		parent = ship_medium_battery_2_single
+		add_equipment_type = capital_ship
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hg_attack = 3
+			lg_attack = 2
+			build_cost_ic = 500
+			surface_visibility = 0.2
+		}
+		multiply_stats = {
+			naval_speed = -0.045
+			max_strength = 0.2
+		}
+		add_average_stats = {
+			hg_armor_piercing = 29
+			lg_armor_piercing = 9
+		}
+
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 240
+		}
+		can_convert_from = {
+			module = ship_medium_battery_2
+			convert_cost_ic = 165
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+	ship_medium_battery_4_single = {
+		category = ship_medium_battery_single
+		gui_category = ship_light_medium_battery_single
+		parent = ship_medium_battery_3_single
+		add_equipment_type = capital_ship
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hg_attack = 4
+			lg_attack = 3
+			build_cost_ic = 600
+			surface_visibility = 0.2
+		}
+		multiply_stats = {
+			naval_speed = -0.055
+			max_strength = 0.25
+		}
+		add_average_stats = {
+			hg_armor_piercing = 34
+			lg_armor_piercing = 11
+		}
+
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 275
+		}
+		can_convert_from = {
+			module = ship_medium_battery_3
+			convert_cost_ic = 180
+		}
+		critical_parts = { damaged_heavy_guns }
+	}
+
 	# double medium heavy battery
 	ship_medium_heavy_battery_1_double = {
 		category = ship_medium_heavy_battery
@@ -4539,8 +4668,8 @@ equipment_modules = {
 		add_stats = {
 			armor_value = 50
 			surface_visibility = 12
-			naval_torpedo_enemy_critical_chance_factor = -0.05
-			naval_torpedo_damage_reduction_factor = 0.1
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.15
 			reliability = 0.25
 		}
 		dismantle_cost_ic = 10000
@@ -4633,8 +4762,8 @@ equipment_modules = {
 		category = torpedo_defense_system
 		
 		add_stats = {
-			naval_torpedo_enemy_critical_chance_factor = -0.15
-			naval_torpedo_damage_reduction_factor = 0.2
+			naval_torpedo_enemy_critical_chance_factor = -0.2
+			naval_torpedo_damage_reduction_factor = 0.1
 			reliability = -0.05
 		}
 		multiply_stats = {
@@ -4648,7 +4777,7 @@ equipment_modules = {
 		
 		add_stats = {
 			naval_torpedo_enemy_critical_chance_factor = -0.2
-			naval_torpedo_damage_reduction_factor = 0.25
+			naval_torpedo_damage_reduction_factor = 0.2
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -5323,6 +5452,7 @@ equipment_modules = {
 			ship_medium_heavy_battery
 			ship_medium_battery
 			ship_medium_battery_double
+			ship_medium_battery_single
 			ship_cruiser_heavy_armor
 			ship_missile
 			ship_missile_aa

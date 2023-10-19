@@ -6,7 +6,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_advanced_sonar_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/advanced_sonar.dds"
+		textureFile = "gfx/interface/technologies/navy_techtree/advanced_sonar.png"
 	}
 	spriteType = {
 		name = "GFX_ship_to_ship_missile_medium"
@@ -291,6 +291,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_teardrop_hull_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/teardrop_hull.png"
+	}
+	spriteType = {
+		name = "GFX_submarine_mass_production_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/submarine_mass_production.png"
 	}
 	
 	spriteType = {
