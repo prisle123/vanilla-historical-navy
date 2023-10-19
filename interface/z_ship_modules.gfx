@@ -4,10 +4,10 @@ spriteTypes = {
 		name = "GFX_EMSI_fixed_ship_airplane_launcher_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
 	}
-	#spriteType = {
-	#	name = "GFX_EMSI_fixed_ship_extra_secondaries_slot"
-	#	textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/secondaries.dds"
-	#}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_extra_secondaries_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/miscellaneous.dds"
+	}
 	spriteType = {
 		name = "GFX_EMSI_fixed_ship_torpedo_defense_system_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
@@ -761,6 +761,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_dda.png"
 	}
 	spriteType = {
+		name = "GFX_SMI_ship_hull_light_role_ff"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_ff.png"
+	}
+	spriteType = {
 		name = "GFX_SMI_ship_hull_cruiser_role_c"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_c.png"
 	}
@@ -787,6 +791,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_hull_cruiser_role_csr"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_csr.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_ac"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_ac.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_cd"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_cd.png"
 	}
 	
 	## scheme & TDS
