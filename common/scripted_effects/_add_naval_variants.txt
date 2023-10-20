@@ -1413,6 +1413,29 @@ FRA_start_naval_variants = {
         }
         obsolete = yes
     }
+    # seaplane tender
+    create_equipment_variant = {
+        name = "Commandant Teste Class"
+		role_icon_index = 61
+        type = vnr_ship_hull_cruiser_coastal_defense_ship
+        name_group = FRA_CA_HISTORICAL
+        modules = {
+            fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = empty
+            fixed_ship_role_slot = ship_hull_cruiser_role_ac
+            front_1_custom_slot = ship_light_medium_battery_1_single
+            front_2_custom_slot = ship_light_medium_battery_1_single
+            mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+            mid_3_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_1_single
+            rear_2_custom_slot = ship_light_medium_battery_1_single
+        }
+    }
 }
 
 JAP_start_naval_variants = {
