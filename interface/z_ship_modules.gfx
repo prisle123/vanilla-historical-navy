@@ -1112,4 +1112,18 @@ spriteTypes = {
 		name = "GFX_SMI_ship_depth_charge_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/depth_charge4.png"
 	}
+	
+	### deck space
+	spriteType = {
+		name = "GFX_SMI_ship_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_deck_space_small"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space_small.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_deck_space_big"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space_big.png"
+	}
 }
