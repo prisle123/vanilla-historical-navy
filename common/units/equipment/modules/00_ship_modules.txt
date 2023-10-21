@@ -5110,10 +5110,12 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			build_cost_ic = 1500
+			reliability = -0.1
 		}
 		manpower = 250
 		multiply_stats = {
 			naval_speed = -0.05
+			max_strength = -0.1
 		}
 		dismantle_cost_ic = 2000
 	}
@@ -5647,6 +5649,7 @@ equipment_modules = {
 		category = raider_kit
 		
 		multiply_stats = {
+			lg_attack = -0.1
 			surface_visibility = -0.2
 			build_cost_ic = 0.02
 		}
