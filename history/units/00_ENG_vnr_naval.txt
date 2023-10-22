@@ -7,7 +7,7 @@
 		task_force = {
 			name = "Home Fleet"
 			location = 11064 # Scapa Flow
-			ship = { name = "HMS Furious" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } 
+			ship = { name = "HMS Furious" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Furious Class" } } 
 			
 			}
 			ship = { name = "HMS Nelson" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
