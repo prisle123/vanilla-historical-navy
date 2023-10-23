@@ -204,10 +204,10 @@ equipments = {
 	### vnr hulls
 	vnr_ship_hull_cruiser_coastal_defense_ship = {
 		abbreviation = "hbg"
-		year = 1929
+		year = 1910
 		visual_level = 0
 		archetype = ship_hull_cruiser
-		priority = 1850
+		priority = 2000
 		can_convert_from = { vnr_ship_hull_cruiser_coastal_defense_ship }
 
 		manpower = 1200
