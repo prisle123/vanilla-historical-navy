@@ -5,6 +5,35 @@ naval_cruiser_heavy = {
 	#blocked_for = {}
 	roles = { vnr_naval_cruiser_heavy }
 	priority = { base = 10 }
+	
+	capital_cruiser_1910 = {
+		name = vnr_ca_1910
+		role_icon_index = 17
+
+		priority = {
+			base = 0
+		}
+
+		target_variant = {
+			match_value = 100.0
+			type = vnr_ship_hull_cruiser_coastal_defense_ship
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_1 } }
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar }
+					module = empty
+				}
+				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_1 } }
+				fixed_ship_secondaries_slot = ship_secondaries
+				mid_1_custom_slot = ship_anti_air
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_medium_battery
+			}
+		}
+	}
 
 	capital_cruiser_1924 = {
 		name = vnr_ca_1924

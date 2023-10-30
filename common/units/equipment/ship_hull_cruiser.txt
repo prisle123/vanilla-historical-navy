@@ -204,10 +204,10 @@ equipments = {
 	### vnr hulls
 	vnr_ship_hull_cruiser_coastal_defense_ship = {
 		abbreviation = "hbg"
-		year = 1929
+		year = 1910
 		visual_level = 0
 		archetype = ship_hull_cruiser
-		priority = 1850
+		priority = 2000
 		can_convert_from = { vnr_ship_hull_cruiser_coastal_defense_ship }
 
 		manpower = 1200
@@ -268,6 +268,10 @@ equipments = {
 				allowed_module_categories = { ship_airplane_launcher }
 			}
 			fixed_ship_extra_secondaries_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { cds_role }
+			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -343,6 +347,7 @@ equipments = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_secondaries_slot = empty
 			fixed_ship_radar_slot = ship_mast_1
+			fixed_ship_role_slot = ship_hull_cruiser_role_cd
 		}
 	}
 
@@ -548,7 +553,7 @@ equipments = {
 		can_convert_from = { vnr_ship_hull_cruiser_4 }
 		priority = 1900
 		parent = vnr_ship_hull_cruiser_3
-		naval_speed = 32
+		naval_speed = 30
 		build_cost_ic = 1800
 		reliability = 0.90
 		max_strength = 165
@@ -574,7 +579,7 @@ equipments = {
 		priority = 1900
 		can_convert_from = { vnr_ship_hull_cruiser_5 }
 		parent = vnr_ship_hull_cruiser_4
-		naval_speed = 32
+		naval_speed = 29
 		reliability = 0.95
 		manpower = 1400
 		build_cost_ic = 2000
@@ -687,6 +692,7 @@ equipments = {
 		naval_range = 7500
 		max_strength = 220
 		reliability = 0.7
+		armor_value = 10
 		resources = {
 			steel = 3
 		}

@@ -1,4 +1,4 @@
-version="v0.11 - Smoke On The Water"
+version="v0.12 - All Along The Watchtower"
 tags={
 	"Military"
 	"Graphics"

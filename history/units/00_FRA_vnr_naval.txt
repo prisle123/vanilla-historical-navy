@@ -170,6 +170,8 @@ units= {
 			# 9e Légère Division des Contre-Torpilleurs
 			ship = { name = "Forbin" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
 			ship = { name = "Basque" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			# Commandant Teste
+			ship = { name = "Commandant Teste" definition = auxiliary_ship start_experience_factor = 0.005 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FRA version_name = "Commandant Teste Class" } } }
 		}				
 		task_force = {				
 			name = "Force d'Attaque Légère"			

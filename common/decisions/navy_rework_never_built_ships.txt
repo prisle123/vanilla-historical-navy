@@ -117,6 +117,7 @@ navy_rework_category = {
         available = {
             num_of_naval_factories > 0
         }
+        cost = 50
         fire_only_once = yes
         complete_effect = {
             KuK_never_built_blueprints = yes

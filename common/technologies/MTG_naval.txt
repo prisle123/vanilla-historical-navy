@@ -26,6 +26,7 @@ technologies = {
 		enable_equipment_modules = {
 			light_ship_engine_1
 			ship_hull_light_role_dd
+			ship_hull_light_role_ff
 			ship_mast_1
 		}
 		path = {
@@ -717,6 +718,8 @@ technologies = {
 			cruiser_ship_engine_1
 			ship_airplane_launcher_1
 			ship_hull_cruiser_role_c
+			ship_hull_cruiser_role_ac
+			ship_hull_cruiser_role_cd
 			ship_mast_1
 		}
 		path = {
@@ -2628,6 +2631,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_airplane_launcher_1
 			ship_deck_space
+			ship_deck_space_small
 		}
 		path = {
 			leads_to_tech = early_ship_hull_carrier
@@ -3970,9 +3974,6 @@ technologies = {
 	escort_carriers_ship = {
 		enable_equipments = {
 			vnr_ship_hull_escort_carrier
-		}
-		enable_equipment_modules = {
-			ship_deck_space_small
 		}
 		research_cost = 0.8
 		start_year = 1941

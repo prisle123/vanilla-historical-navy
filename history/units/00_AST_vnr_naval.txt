@@ -9,7 +9,7 @@
 			location = 12406 # Sydney
 			ship = { name = "HMAS Canberra" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Kent Class" } }	}
 			ship = { name = "HMAS Australia" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Kent Class" } } }
-			ship = { name = "HMAS Sydney" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = AST version_name = "Leander Class" } } }
+			ship = { name = "HMAS Sydney" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Leander Class" } } }
 			ship = { name = "HMAS Adelaide" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Town Class" } } }
 			# Scrap Iron Flotilla
 			ship = { name = "HMAS Vampire" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }

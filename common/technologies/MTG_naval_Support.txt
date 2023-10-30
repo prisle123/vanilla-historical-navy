@@ -34,6 +34,8 @@ technologies = {
 			ship_heavy_battery_big_1
 			ship_heavy_battery_small_1
 			ship_secondaries_1
+			ship_heavy_mg_1
+			ship_civilian_light_battery_1
 			
 			# ship_ap_shell_1
 			# ship_ap_shell_2
@@ -2762,6 +2764,7 @@ technologies = {
 		auxiliary_ship = {
 			surface_visibility = -0.1
 		}
+		convoy_retreat_speed = 0.1
 
 		enable_equipment_modules = {
 			civilian_ship_engine_2
@@ -2778,8 +2781,6 @@ technologies = {
 			vnr_ship_hull_civilian_2
 		}
 		enable_equipment_modules = {
-			ship_heavy_mg_1
-			ship_civilian_light_battery_1
 			supply_hub
 		}
 		folder = {
@@ -2812,10 +2813,9 @@ technologies = {
 		auxiliary_ship = {
 			max_strength = 0.1
 		}
+		navy_submarine_detection_factor = 0.05
 
 		enable_equipment_modules = {
-			ship_heavy_mg_1
-			ship_civilian_light_battery_1
 			ship_cruiser_camo_2
 		}
 		categories = {
