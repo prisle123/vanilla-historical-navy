@@ -1321,7 +1321,7 @@ technologies = {
 	magnetic_detonator = {
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1
 
@@ -1389,7 +1389,7 @@ technologies = {
 	homing_torpedo = {
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1.25
 
@@ -1439,7 +1439,7 @@ technologies = {
 	electric_torpedo = {
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
@@ -1613,7 +1613,7 @@ technologies = {
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1653,7 +1653,7 @@ technologies = {
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1689,7 +1689,7 @@ technologies = {
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1751,7 +1751,7 @@ technologies = {
 			hg_attack = 0.05
 		}
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1778,7 +1778,7 @@ technologies = {
 
 	fire_control_methods_2 = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 2
 		path = {
@@ -1831,7 +1831,7 @@ technologies = {
 
 	fire_control_methods_3 = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 2
 		SH_battleship = {
@@ -1863,7 +1863,7 @@ technologies = {
 			hg_attack = 0.05
 		}
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1949,6 +1949,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
 		}
 	}
 
@@ -2026,6 +2027,7 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 			ship_modules_tech
+			mio_cat_tech_all_submarine_and_modules
 		}
 	}
 
@@ -2078,6 +2080,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
 		}
 	}
 
@@ -2111,6 +2114,10 @@ technologies = {
 			naval_mines
 			naval_minesweeping
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_capital_ship_and_modules
+			mio_cat_tech_all_carrier_and_modules
 		}
 	}
 
@@ -2155,6 +2162,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
 		}
 	}
 
@@ -2271,6 +2279,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			mio_cat_tech_all_screen_ship_and_modules
 		}
 	}
 

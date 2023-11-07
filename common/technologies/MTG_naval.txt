@@ -296,7 +296,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.5
 
@@ -333,7 +333,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.5
 
@@ -372,7 +372,7 @@ technologies = {
 			custom_effect_tooltip = depth_charges_advice_tt
 		}
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.75
 
@@ -412,7 +412,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.75
 
@@ -1021,7 +1021,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.5
 
@@ -1056,7 +1056,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.5
 
@@ -1094,7 +1094,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.65
 
@@ -1132,7 +1132,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.65
 
@@ -1161,7 +1161,7 @@ technologies = {
 
 	searchlight = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.1
 
@@ -1186,7 +1186,7 @@ technologies = {
 
 	treaty_cruiser_trend = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		start_year = 1925
 		research_cost = 0.5
@@ -1423,7 +1423,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.65
 
@@ -1463,7 +1463,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.75
 
@@ -1500,7 +1500,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1
 
@@ -1533,7 +1533,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1.25
 
@@ -1559,7 +1559,7 @@ technologies = {
 
 	harvey_steel = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.65
 
@@ -1577,6 +1577,9 @@ technologies = {
 			armor_value = 0.01
 		}
 		SH_battleship = {
+			armor_value = 0.01
+		}
+		battlecarrier = {
 			armor_value = 0.01
 		}
 
@@ -1597,7 +1600,7 @@ technologies = {
 
 	krupp_steel = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.75
 
@@ -1615,6 +1618,9 @@ technologies = {
 			armor_value = 0.04
 		}
 		SH_battleship = {
+			armor_value = 0.04
+		}
+		battlecarrier = {
 			armor_value = 0.04
 		}
 
@@ -1635,7 +1641,7 @@ technologies = {
 
 	krupp_cemented_steel = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1
 
@@ -1659,6 +1665,9 @@ technologies = {
 		SH_battleship = {
 			armor_value = 0.05
 		}
+		battlecarrier = {
+			armor_value = 0.05
+		}
 
 		folder = {
 			name = mtgnavalfolder
@@ -1677,7 +1686,7 @@ technologies = {
 
 	ducol_steel = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.8
 
@@ -1707,7 +1716,7 @@ technologies = {
 
 	homogeneous_krupp_steel = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
@@ -2052,7 +2061,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 0.75
 
@@ -2090,7 +2099,7 @@ technologies = {
 		start_year = 1936
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 1
 
@@ -2131,7 +2140,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 1.25
 		
@@ -2168,7 +2177,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 0.75
 		
@@ -2197,7 +2206,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 1
 		
@@ -2229,7 +2238,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 1.25
 		
@@ -2261,7 +2270,7 @@ technologies = {
 
 	dry_dock_expansion = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 0.75
 		
@@ -2288,7 +2297,7 @@ technologies = {
 
 	improved_conning_tower = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 0.5
 		
@@ -2313,7 +2322,7 @@ technologies = {
 	
 	fuel_oil_boiler = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 0.75
 		
@@ -2326,6 +2335,10 @@ technologies = {
 			surface_visibility = -0.05
 		}
 		SH_battleship = {
+			fuel_consumption = -0.1
+			surface_visibility = -0.05
+		}
+		battlecarrier = {
 			fuel_consumption = -0.1
 			surface_visibility = -0.05
 		}
@@ -2350,7 +2363,7 @@ technologies = {
 	heavy_ship_refit_reduction = {
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 0.6
 		
@@ -2375,7 +2388,7 @@ technologies = {
 
 	enhanced_horizontal_defense = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1
 
@@ -2401,7 +2414,7 @@ technologies = {
 	
 	ship_living_standard = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1
 
@@ -2427,7 +2440,7 @@ technologies = {
 	
 	battleship_aa_upgrade = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		research_cost = 1.25
 		
@@ -2893,7 +2906,7 @@ technologies = {
 		start_year = 1934
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		
 		air_carrier_night_penalty_reduction_factor = 0.1
@@ -2964,11 +2977,11 @@ technologies = {
 		xp_research_bonus = 1.25
 		
 		cv_cas = {
-			naval_strike_attack = 0.5
-			naval_strike_targetting = 0.2
+			naval_strike_attack = 0.3
+			naval_strike_targetting = 0.15
 			air_agility = 0.15
 			maximum_speed = 0.1
-			build_cost_ic = -0.2
+			build_cost_ic = -0.1
 		}
 		
 		folder = {
@@ -2991,7 +3004,7 @@ technologies = {
 		start_year = 1942
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		
 		carrier = {
@@ -3019,7 +3032,7 @@ technologies = {
 		start_year = 1942
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		
 		navy_carrier_air_agility_factor = 0.1
@@ -3058,7 +3071,7 @@ technologies = {
 		start_year = 1942
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		
 		carrier = {
@@ -3085,7 +3098,7 @@ technologies = {
 		start_year = 1942
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		
 		carrier_capacity_penalty_reduction = -0.1
@@ -3457,7 +3470,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
@@ -3488,7 +3501,7 @@ technologies = {
 		research_cost = 0.75
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
 		start_year = 1914
@@ -3522,7 +3535,7 @@ technologies = {
 		research_cost = 1
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
 		start_year = 1920
@@ -3551,7 +3564,7 @@ technologies = {
 		research_cost = 0.5
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
 		start_year = 1919
@@ -3579,7 +3592,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
@@ -3611,7 +3624,7 @@ technologies = {
 
 	torpedo_loader = {
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
@@ -3671,7 +3684,7 @@ technologies = {
 		}
 
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 2
 
@@ -3703,7 +3716,7 @@ technologies = {
 			anechoic_tile_1
 		}
 		xp_research_type = navy
-		xp_boost_cost = 50
+		xp_boost_cost = 20
 		xp_research_bonus = 1.50
 		research_cost = 2
 
