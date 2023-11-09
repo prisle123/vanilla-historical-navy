@@ -798,7 +798,7 @@ naval_unit_role_ratios_ENG_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 10
+		value = 5
 	}
 
 	ai_strategy = {
@@ -989,12 +989,12 @@ naval_unit_role_ratios_FRA_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 40
+		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 40
+		value = 25
 	}
 }
 
@@ -1056,7 +1056,7 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 50
+		value = 150
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1071,7 +1071,7 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 40
+		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1368,7 +1368,7 @@ naval_unit_role_ratios_USA_great_depression = {
 		tag = USA
 	}
 	enable = {
-		date < 1939.1.1
+		date < 1938.1.1
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1422,7 +1422,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 		tag = USA
 	}
 	enable = {
-		date > 1939.1.1
+		date > 1938.1.1
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1522,7 +1522,7 @@ naval_unit_role_ratios_USA_atwar = {
 	}
 }
 
-naval_unit_role_ratios_ITA_prewar = {
+naval_unit_role_ratios_ITA_prewar_build_battleships = {
 	allowed = {
 		has_dlc = "Man the Guns"
 		tag = ITA
@@ -1530,6 +1530,7 @@ naval_unit_role_ratios_ITA_prewar = {
 	enable = {
 		date < 1941.1.1
 		has_war_with_major = no
+		has_navy_size = { size < 6 type = battleship }
 	}
 	abort_when_not_enabled = yes
 	
@@ -1563,6 +1564,51 @@ naval_unit_role_ratios_ITA_prewar = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 20
+	}
+}
+
+naval_unit_role_ratios_ITA_prewar_enough_battleships = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		tag = ITA
+	}
+	enable = {
+		date < 1941.1.1
+		has_war_with_major = no
+		has_navy_size = { size > 5 type = battleship }
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 40
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen_leader
+		value = 10
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 40
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = -20
 	}
 }
 
