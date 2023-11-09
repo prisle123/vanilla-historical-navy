@@ -23,7 +23,7 @@ naval_capital_battleship = {
 				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = empty
+				fixed_ship_radar_slot = ship_mast
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_2 heavy_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_bb_2 ship_armor_bb_1 } }
@@ -56,7 +56,7 @@ naval_capital_battleship = {
 				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = empty
+				fixed_ship_radar_slot = ship_mast
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_bb_2 ship_armor_bb_1 } }
@@ -156,8 +156,8 @@ naval_capital_battleship = {
 				fixed_ship_battery_slot = ship_super_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
+				fixed_ship_radar_slot = ship_mast
+				fixed_ship_engine_slot = { upgrade = current any_of = { super_heavy_ship_engine_3 super_heavy_ship_engine_2 super_heavy_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_shbb_2 ship_armor_shbb } }
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental_post_jutland ship_scheme_incremental } }

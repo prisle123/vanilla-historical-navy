@@ -601,7 +601,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { heavy_ship_engine }
+				allowed_module_categories = { super_heavy_ship_engine }
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
@@ -684,11 +684,11 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		naval_range = 4500
-		naval_speed = 30
+		naval_speed = 26.5
 		max_strength = 330
 		fuel_consumption = 75
 		reliability = 0.9
-		build_cost_ic = 4500
+		build_cost_ic = 3800
 		resources = {
 			steel = 4
 			chromium = 1

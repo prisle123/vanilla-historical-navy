@@ -3760,6 +3760,69 @@ equipment_modules = {
 			}
 		}
 	}
+	super_heavy_ship_engine_1 = {
+		category = super_heavy_ship_engine
+		gui_category = heavy_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 30
+			build_cost_ic = 2000
+		}
+		multiply_stats = {
+			naval_speed = 0.5
+		}
+		can_convert_from = {
+			module_category = super_heavy_ship_engine
+			convert_cost_ic = 3000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
+		}
+	}
+	super_heavy_ship_engine_2 = {
+		category = super_heavy_ship_engine
+		gui_category = heavy_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 30
+			build_cost_ic = 3500
+		}
+		multiply_stats = {
+			naval_speed = 0.575
+		}
+		can_convert_from = {
+			module_category = super_heavy_ship_engine
+			convert_cost_ic = 4500
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
+		}
+	}
+	super_heavy_ship_engine_3 = {
+		category = super_heavy_ship_engine
+		gui_category = heavy_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 40
+			build_cost_ic = 4000
+		}
+		multiply_stats = {
+			naval_speed = 0.65
+		}
+		can_convert_from = {
+			module_category = super_heavy_ship_engine
+			convert_cost_ic = 6000
+			convert_cost_resources = {
+				steel = 1
+				chromium = 1
+			}
+		}
+	}
 	carrier_ship_engine_1 = {
 		abbreviation = "scd"
 		category = carrier_ship_engine
