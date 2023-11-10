@@ -2646,20 +2646,51 @@ technologies = {
 	prototype_airplane_launcher = {
 		enable_equipment_modules = {
 			ship_airplane_launcher_1
-			ship_deck_space
-			ship_deck_space_small
 		}
 		path = {
-			leads_to_tech = early_ship_hull_carrier
+			leads_to_tech = early_carrier_study
 			research_cost_coeff = 1
 		}
-		research_cost = 0.75
+		research_cost = 0.2
 
 		start_year = 1918
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -1 y = @1914 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+	}
+
+	early_carrier_study = {
+		enable_equipment_modules = {
+			ship_deck_space
+			ship_deck_space_small
+			ship_deck_space_more
+		}
+		path = {
+			leads_to_tech = early_ship_hull_carrier
+			research_cost_coeff = 1
+		}
+		research_cost = 0.5
+
+		start_year = 1920
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = @1914_module }
+		}
+		on_research_complete = {
+			navy_experience = 50
 		}
 
 		ai_will_do = {
@@ -2684,6 +2715,7 @@ technologies = {
 			ship_armor_carrier_deck
 			carrier_ship_engine_1
 			ship_deck_space_bb
+			ship_deck_space_armored
 		}
 
 		path = {
@@ -2705,7 +2737,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 4 }
+			position = { x = -1 y = @1924 }
 		}
 
 		ai_will_do = {
@@ -2869,7 +2901,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = @1924_module }
 		}
 		
 		ai_will_do = {
@@ -2891,7 +2923,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = @1924_module }
 		}
 		
 		ai_will_do = {

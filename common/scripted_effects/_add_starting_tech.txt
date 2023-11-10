@@ -362,7 +362,11 @@ add_starting_techs = {
 makeup_starting_techs = {
 	every_country = {
         limit = { has_tech = early_ship_hull_carrier }
-        set_technology = { prototype_airplane_launcher = 1 popup = no }
+        set_technology = { 
+            prototype_airplane_launcher = 1 
+            early_carrier_study = 1
+            popup = no 
+        }
     }
     every_country = {
         limit = { has_tech = early_ship_hull_cruiser }
