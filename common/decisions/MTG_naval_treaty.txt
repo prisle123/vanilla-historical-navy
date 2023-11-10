@@ -220,6 +220,7 @@ MTG_naval_treaties = {
 		visible = {
 			OR = {
 				has_idea = MTG_naval_treaty_adherent
+				has_idea = MTG_naval_treaty_adherent_1936
 				has_idea = MTG_naval_treaty_adherent_reduced
 			}
 			OR = {
@@ -697,6 +698,7 @@ MTG_naval_treaties = {
 		activation = {
 			has_naval_treaty_trigger = yes
 			has_global_flag = MTG_second_london_conference
+			NOT = { has_country_flag = MTG_second_london_treaty_signed }
 		}
 
 		visible = {
@@ -719,7 +721,16 @@ MTG_naval_treaties = {
                     add_idea = MTG_naval_treaty_adherent_1936
                 }
                 add_political_power = 10
+				set_country_flag = MTG_second_london_treaty_signed
             }
+			if = {
+				limit = {
+					all_other_country = {
+						NOT = { has_idea = MTG_naval_treaty_adherent }
+					}
+				}
+				clr_global_flag = MTG_second_london_conference
+			}
 		}
 
         ai_will_do = {
@@ -763,6 +774,7 @@ MTG_naval_treaties = {
                     add_idea = MTG_naval_treaty_adherent_1936
                 }
                 add_political_power = 10
+				set_country_flag = MTG_second_london_treaty_signed
             }
 		}
 
@@ -794,7 +806,10 @@ MTG_naval_treaties = {
 			has_naval_treaty_trigger = yes
 		}
 		cancel_trigger = {
-			has_global_flag = { flag = MTG_naval_treaty_violator value < 1 }
+			custom_trigger_tooltip = {
+				tooltip = MTG_escalator_clause_tooltip
+				has_global_flag = { flag = MTG_naval_treaty_violator value < 1 }
+			}
 		}
 		timeout_effect = {
 			if = {
