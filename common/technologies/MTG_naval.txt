@@ -1813,6 +1813,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_2
+			super_heavy_ship_engine_1
 		}
 
 		path = {
@@ -1871,6 +1872,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_armor_shbb
+			super_heavy_ship_engine_2
 		}
 
 		research_cost = 1.5
@@ -1951,6 +1953,7 @@ technologies = {
 		enable_equipment_modules = {
 			heavy_ship_engine_4
 			heavy_ship_engine_3_diesel
+			super_heavy_ship_engine_3
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_heavy
