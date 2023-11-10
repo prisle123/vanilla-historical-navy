@@ -5,10 +5,8 @@ MTG_naval_treaties = {
 			
 	
 		available = {
-			OR = {
-				threat > 0.2
-				has_global_flag = MTG_second_london_conference
-			}
+			threat > 0.5
+			NOT = { has_global_flag = MTG_second_london_conference }
 		}
 	
 		cost = 150
@@ -26,6 +24,8 @@ MTG_naval_treaties = {
 		}
 	
 		complete_effect = {
+			add_stability = -0.15
+			add_war_support = -0.15
 			modify_global_flag = {
 				flag = MTG_naval_treaty_violator
 				value = 1
@@ -36,6 +36,10 @@ MTG_naval_treaties = {
 					has_naval_treaty_trigger = yes
 				}
 				country_event = MTG_naval_treaty.7
+				send_embargo = ROOT
+				every_subject_country = {
+					send_embargo = ROOT
+				}
 			}
 			if = {
 				limit = {
@@ -78,6 +82,7 @@ MTG_naval_treaties = {
 						OR = {
 							has_idea = MTG_naval_treaty_cheating
 							has_idea = MTG_naval_treaty_adherent
+							has_idea = MTG_naval_treaty_adherent_1936
 						}
 					}
 					activate_mission = MTG_escalator_clause_invocation_mission
@@ -90,13 +95,10 @@ MTG_naval_treaties = {
 	MTG_abandon_treaty_fascist = {
 
 		icon = generic
-			
 	
 		available = {
-			OR = {
-				threat > 0.2
-				has_global_flag = MTG_second_london_conference
-			}
+			threat > 0.2
+			NOT = { has_global_flag = MTG_second_london_conference }
 		}
 	
 		cost = 25
@@ -147,6 +149,10 @@ MTG_naval_treaties = {
 					has_naval_treaty_trigger = yes
 				}
 				country_event = { id = MTG_naval_treaty.7 days = 2 }
+				send_embargo = ROOT
+				every_subject_country = {
+					send_embargo = ROOT
+				}
 			}
 			if = {
 				limit = {
@@ -189,6 +195,7 @@ MTG_naval_treaties = {
 						OR = {
 							has_idea = MTG_naval_treaty_cheating
 							has_idea = MTG_naval_treaty_adherent
+							has_idea = MTG_naval_treaty_adherent_1936
 						}
 					}
 					activate_mission = MTG_escalator_clause_invocation_mission
@@ -720,7 +727,14 @@ MTG_naval_treaties = {
                     remove_idea = MTG_naval_treaty_adherent
                     add_idea = MTG_naval_treaty_adherent_1936
                 }
-                add_political_power = 10
+                if = {
+					limit = { has_government = fascism }
+					custom_effect_tooltip = fascism_renew_naval_treaty_tt
+					add_political_power = -100
+				}
+				else = {
+					add_political_power = 10
+				}
 				set_country_flag = MTG_second_london_treaty_signed
             }
 			if = {
@@ -773,7 +787,14 @@ MTG_naval_treaties = {
                     remove_idea = MTG_naval_treaty_adherent
                     add_idea = MTG_naval_treaty_adherent_1936
                 }
-                add_political_power = 10
+                if = {
+					limit = { has_government = fascism }
+					custom_effect_tooltip = fascism_renew_naval_treaty_tt
+					add_political_power = -100
+				}
+				else = {
+					add_political_power = 10
+				}
 				set_country_flag = MTG_second_london_treaty_signed
             }
 		}

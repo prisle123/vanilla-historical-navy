@@ -22,7 +22,13 @@ country_event = {
 				factor = 0.25
 			}
 		}
-		add_ideas = MTG_naval_treaty_adherent
+		if = {
+			limit = { has_global_flag = MTG_second_london_conference }
+			add_ideas = MTG_naval_treaty_adherent
+		}
+		else = {
+			add_ideas = MTG_naval_treaty_adherent_1936
+		}
 		modify_global_flag = {
 			flag = MTG_naval_treaty_signatories
 			value = 1
@@ -75,7 +81,13 @@ country_event = {
 		name = MTG_naval_treaty.2.a 
 		effect_tooltip = {
 			FROM = {
-				add_ideas = MTG_naval_treaty_adherent_1936
+				if = {
+					limit = { has_global_flag = MTG_second_london_conference }
+					add_ideas = MTG_naval_treaty_adherent
+				}
+				else = {
+					add_ideas = MTG_naval_treaty_adherent_1936
+				}
 			}
 		}
 	}
@@ -219,17 +231,17 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { #to war!
+	option = { #emabrgo them!
 		name = MTG_naval_treaty.6.a 
 		ai_chance = {
 			factor = 70
 			modifier = {
 				has_war = yes
-				factor = 0
+				factor = 0.25
 			}
 			modifier = {
 				has_war_support < 0.2
-				factor = 0.25
+				factor = 0.5
 			}
 		}
 		send_embargo = FROM
