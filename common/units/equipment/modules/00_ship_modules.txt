@@ -4701,6 +4701,7 @@ equipment_modules = {
 			carrier_size = 3
 			build_cost_ic = 1800
 			reliability = -0.1
+			max_organisation = -0.1
 		}
 		manpower = 300 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -4759,6 +4760,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 3
 			build_cost_ic = 2000
+			max_organisation = -0.05
 		}
 		manpower = 300
 		multiply_stats = {
@@ -6159,6 +6161,99 @@ equipment_modules = {
 		multiply_stats = {
 			anti_air_attack = 0.04
 			build_cost_ic = 0.02
+		}
+	}
+
+	# carrier miscellaneous
+	carrier_aviation_control_unit = {
+		category = carrier_unit
+		add_stats = {
+			max_organisation = 0.2
+		}
+		multiply_stats = {
+			surface_visibility = 0.1
+			build_cost_ic = 0.05
+		}
+	}
+	carrier_damage_control_unit = {
+		category = carrier_unit
+		add_stats = {
+			reliability = 0.1
+		}
+		multiply_stats = {
+			build_cost_ic = 0.05
+		}
+	}
+	carrier_scouting_unit = {
+		category = carrier_unit
+		add_stats = {
+			carrier_size = -1
+		}
+		multiply_stats = {
+			surface_detection = 0.15
+			sub_detection = 0.1
+			build_cost_ic = 0.06
+		}
+	}
+	carrier_spared_squad = {
+		category = carrier_unit
+		add_stats = {
+			carrier_size = 1
+		}
+		manpower = 100
+		multiply_stats = {
+			anti_air_attack = 0.03
+			build_cost_ic = 0.075
+		}
+	}
+	carrier_fuel_storage = {
+		category = carrier_miscellaneous
+		add_stats = {
+			reliability = -0.05
+		}
+		multiply_stats = {
+			naval_range = 0.2
+			fuel_consumption = 0.1
+			build_cost_ic = 0.08
+		}
+	}
+	carrier_civilian_material = {
+		category = carrier_miscellaneous
+		add_stats = {
+			reliability = -0.15
+		}
+		multiply_stats = {
+			armor_value = -0.25
+			max_strength = -0.25
+			naval_speed = -0.25
+			naval_range = -0.2
+			build_cost_ic = -0.15
+		}
+	}
+	carrier_secondary_island = {
+		category = carrier_miscellaneous
+		add_stats = {
+			max_organisation = 0.1
+			build_cost_ic = 200
+		}
+		multiply_stats = {
+			surface_detection = 0.05
+			anti_air_attack = 0.025
+			naval_torpedo_damage_reduction_factor = 0.01
+		}
+	}
+	carrier_strength_deck = {
+		category = carrier_miscellaneous
+		add_stats = {
+			reliability = 0.1
+			max_strength = 100
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.025
+			build_cost_ic = 0.15
 		}
 	}
 }

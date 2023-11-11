@@ -2677,6 +2677,7 @@ technologies = {
 			ship_deck_space
 			ship_deck_space_small
 			ship_deck_space_more
+			carrier_spared_squad
 		}
 		ship_hull_carrier_design_cost_factor = -0.1
 		path = {
@@ -2715,6 +2716,7 @@ technologies = {
 			carrier_ship_engine_1
 			ship_deck_space_bb
 			ship_deck_space_armored
+			carrier_scouting_unit
 		}
 
 		path = {
@@ -2758,6 +2760,7 @@ technologies = {
 		enable_equipment_modules = {
 			carrier_ship_engine_2
 			carrier_ship_engine_2_diesel
+			carrier_secondary_island
 		}
 		path = {
 			leads_to_tech = dive_bomber_study
@@ -2919,6 +2922,9 @@ technologies = {
 		
 		carrier_traffic = 0.1
 		carrier_night_traffic = 0.05
+		enable_equipment_modules = {
+			carrier_aviation_control_unit
+		}
 		
 		folder = {
 			name = mtgnavalfolder
@@ -3045,6 +3051,9 @@ technologies = {
 			max_strength = 0.1
 			reliability = 0.05
 		}
+		enable_equipment_modules = {
+			carrier_damage_control_unit
+		}
 		
 		folder = {
 			name = mtgnavalfolder
@@ -3083,6 +3092,9 @@ technologies = {
 		carrier = {
 			surface_detection = 0.1
 		}
+		enable_equipment_modules = {
+			carrier_fuel_storage
+		}
 		
 		folder = {
 			name = mtgnavalfolder
@@ -3110,6 +3122,9 @@ technologies = {
 		
 		carrier = {
 			build_cost_ic = -0.1
+		}
+		enable_equipment_modules = {
+			carrier_civilian_material
 		}
 		
 		folder = {
@@ -3188,6 +3203,9 @@ technologies = {
 			armor_value = 0.2
 			anti_air_attack = 0.05
 			reliability = 0.05
+		}
+		enable_equipment_modules = {
+			carrier_strength_deck
 		}
 		
 		folder = {
