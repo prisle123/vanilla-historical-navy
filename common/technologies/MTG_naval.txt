@@ -2647,6 +2647,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_airplane_launcher_1
 		}
+		navy_submarine_detection_factor = 0.05
 		path = {
 			leads_to_tech = early_carrier_study
 			research_cost_coeff = 1
@@ -2677,6 +2678,7 @@ technologies = {
 			ship_deck_space_small
 			ship_deck_space_more
 		}
+		ship_hull_carrier_design_cost_factor = -0.1
 		path = {
 			leads_to_tech = early_ship_hull_carrier
 			research_cost_coeff = 1
@@ -2687,10 +2689,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1914_module }
-		}
-		on_research_complete = {
-			navy_experience = 50
+			position = { x = -1 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -2971,7 +2970,7 @@ technologies = {
 		experience_gain_carrier_training_factor = 0.1
 		experience_gain_carrier_combat_factor = 0.1
 		cat_base_strike_cost_factor = -0.1
-		ship_hull_carrier_design_cost_factor = -0.2
+		ship_hull_carrier_design_cost_factor = -0.1
 
 		path = {
 			leads_to_tech = improved_ship_hull_carrier
@@ -3004,8 +3003,8 @@ technologies = {
 	}
 
 	dive_bomber_study = {
-		research_cost = 1
-		start_year = 1936
+		research_cost = 1.25
+		start_year = 1938
 
 		xp_research_type = navy
 		xp_boost_cost = 10

@@ -150,6 +150,10 @@ spriteTypes = {
 		name = "GFX_SMI_civilian_ship_weapons"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_civilian_light_battery_1.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
+	}
 	
 	
 	# topview images
@@ -1119,11 +1123,19 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space.png"
 	}
 	spriteType = {
+		name = "GFX_SMI_ship_deck_space_armored"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space_armored.png"
+	}
+	spriteType = {
 		name = "GFX_SMI_ship_deck_space_small"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space_small.png"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_deck_space_big"
+		name = "GFX_SMI_ship_deck_space_more"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space_big.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_deck_space_big"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space_big_armored.png"
 	}
 }
