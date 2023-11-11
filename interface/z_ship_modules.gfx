@@ -9,6 +9,14 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/miscellaneous.dds"
 	}
 	spriteType = {
+		name = "GFX_EMSI_fixed_ship_carrier_miscellaneous_slot_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/miscellaneous.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_carrier_miscellaneous_slot_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/miscellaneous.dds"
+	}
+	spriteType = {
 		name = "GFX_EMSI_fixed_ship_torpedo_defense_system_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
 	}
@@ -150,11 +158,6 @@ spriteTypes = {
 		name = "GFX_SMI_civilian_ship_weapons"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_civilian_light_battery_1.png"
 	}
-	spriteType = {
-		name = "GFX_SMI_ship_deck_space"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
-	}
-	
 	
 	# topview images
 	spriteType = {
@@ -1137,5 +1140,39 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_deck_space_big"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space_big_armored.png"
+	}
+	
+	# carrier miscellaneous
+	spriteType = {
+		name = "GFX_SMI_carrier_aviation_control_unit"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_aviation_control_unit.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_damage_control_unit"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_damage_control_unit.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_scouting_unit"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_scouting_unit.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_spared_squad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_spared_squad.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_fuel_storage"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_fuel_storage.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_secondary_island"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_secondary_island.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_civilian_material"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_civilian_material.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_strength_deck"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_strength_deck.png"
 	}
 }

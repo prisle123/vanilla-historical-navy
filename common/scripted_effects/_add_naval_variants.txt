@@ -1575,7 +1575,7 @@ JAP_start_naval_variants = {
             fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-			fixed_ship_engine_slot = heavy_ship_engine_3
+			fixed_ship_engine_slot = super_heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			fixed_ship_armor_slot = ship_armor_shbb
             fixed_ship_armor_scheme_slot = ship_scheme_mixed
@@ -4256,9 +4256,7 @@ CHI_start_naval_variants = {
         name_group = CHI_DD_HISTORICAL
         modules = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_engine_slot = civilian_ship_engine_1
-			fixed_ship_torpedo_slot = empty
 			mid_1_custom_slot = ship_airplane_launcher_1
         }
     }
