@@ -55,7 +55,7 @@ equipment_modules = {
 			naval_speed = -0.005
 		}
 		add_average_stats = {
-			lg_armor_piercing = 2
+			lg_armor_piercing = 4
 		}
 		
 		can_convert_from = {
@@ -82,7 +82,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 2.5
+			lg_armor_piercing = 6
 		}
 		multiply_stats = {
 			naval_speed = -0.007
@@ -113,7 +113,7 @@ equipment_modules = {
 			naval_speed = -0.01
 		}
 		add_average_stats = {
-			lg_armor_piercing = 2.5
+			lg_armor_piercing = 8
 		}
 		
 		can_convert_from = {
@@ -172,7 +172,7 @@ equipment_modules = {
 			naval_speed = -0.005
 		}
 		add_average_stats = {
-			lg_armor_piercing = 2
+			lg_armor_piercing = 4
 		}
 		
 		can_convert_from = {
@@ -199,7 +199,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 2.5
+			lg_armor_piercing = 6
 		}
 		multiply_stats = {
 			naval_speed = -0.007
@@ -230,7 +230,7 @@ equipment_modules = {
 			naval_speed = -0.01
 		}
 		add_average_stats = {
-			lg_armor_piercing = 2.5
+			lg_armor_piercing = 8
 		}
 		
 		can_convert_from = {
@@ -291,7 +291,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 1
+			lg_armor_piercing = 3
 		}
 		
 		can_convert_from = {
@@ -322,7 +322,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 1.75
+			lg_armor_piercing = 5
 		}
 		
 		can_convert_from = {
@@ -353,7 +353,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 1.75
+			lg_armor_piercing = 7
 		}
 		
 		can_convert_from = {
@@ -412,7 +412,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 1
+			lg_armor_piercing = 3
 		}
 		
 		can_convert_from = {
@@ -442,7 +442,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 1.75
+			lg_armor_piercing = 5
 		}
 		
 		can_convert_from = {
@@ -472,7 +472,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 1.75
+			lg_armor_piercing = 7
 		}
 		
 		can_convert_from = {
@@ -1833,7 +1833,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 32
-			lg_armor_piercing = 11
+			lg_armor_piercing = 12
 		}
 		
 
@@ -1868,7 +1868,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 36
-			lg_armor_piercing = 14
+			lg_armor_piercing = 15
 		}
 		
 
@@ -1904,7 +1904,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 32
-			lg_armor_piercing = 11
+			lg_armor_piercing = 12
 		}
 		
 
@@ -1939,7 +1939,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 36
-			lg_armor_piercing = 14
+			lg_armor_piercing = 15
 		}
 		
 
@@ -1964,14 +1964,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 3.8
+			lg_attack = 3
 			build_cost_ic = 350
+			naval_light_gun_hit_chance_factor = 0.005
 		}
 		multiply_stats = {
 			naval_speed = -0.02
 		}
 		add_average_stats = {
-			lg_armor_piercing = 5.5
+			lg_armor_piercing = 7
 			max_strength = 10
 		}
 
@@ -2001,14 +2002,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 6
+			lg_attack = 5
 			build_cost_ic = 400
+			naval_light_gun_hit_chance_factor = 0.006
 		}
 		multiply_stats = {
 			naval_speed = -0.03
 		}
 		add_average_stats = {
-			lg_armor_piercing = 7.0
+			lg_armor_piercing = 9
 			max_strength = 10
 		}
 
@@ -2042,15 +2044,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			
-			lg_attack = 8.3
+			lg_attack = 7
 			build_cost_ic = 450
+			naval_light_gun_hit_chance_factor = 0.007
 		}
 		multiply_stats = {
 			naval_speed = -0.04
 		}
 		add_average_stats = {
-			lg_armor_piercing = 8
+			lg_armor_piercing = 11
 			max_strength = 10
 		}
 		
@@ -2084,16 +2086,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3
 		add_stats = {
-			
-			lg_attack = 10.5
-			
+			lg_attack = 9
 			build_cost_ic = 500
+			naval_light_gun_hit_chance_factor = 0.008
 		}
 		multiply_stats = {
 			naval_speed = -0.05
 		}
 		add_average_stats = {
-			lg_armor_piercing = 9
+			lg_armor_piercing = 13
 			max_strength = 10
 		}
 		
@@ -2130,14 +2131,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 2.5
+			lg_attack = 2
 			build_cost_ic = 250
+			naval_light_gun_hit_chance_factor = 0.005
 		}
 		multiply_stats = {
 			naval_speed = -0.015
 		}
 		add_average_stats = {
-			lg_armor_piercing = 5.5
+			lg_armor_piercing = 7
 			max_strength = 10
 		}
 
@@ -2167,14 +2169,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 4
+			lg_attack = 3.3
 			build_cost_ic = 325
+			naval_light_gun_hit_chance_factor = 0.006
 		}
 		multiply_stats = {
 			naval_speed = -0.025
 		}
 		add_average_stats = {
-			lg_armor_piercing = 7.0
+			lg_armor_piercing = 9
 			max_strength = 10
 		}
 
@@ -2208,15 +2211,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			
-			lg_attack = 5.5
+			lg_attack = 4.6
 			build_cost_ic = 375
+			naval_light_gun_hit_chance_factor = 0.007
 		}
 		multiply_stats = {
 			naval_speed = -0.035
 		}
 		add_average_stats = {
-			lg_armor_piercing = 8
+			lg_armor_piercing = 11
 			max_strength = 10
 		}
 		
@@ -2250,16 +2253,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3_double
 		add_stats = {
-			
-			lg_attack = 7
-			
+			lg_attack = 6
 			build_cost_ic = 400
+			naval_light_gun_hit_chance_factor = 0.008
 		}
 		multiply_stats = {
 			naval_speed = -0.045
 		}
 		add_average_stats = {
-			lg_armor_piercing = 9
+			lg_armor_piercing = 13
 			max_strength = 10
 		}
 		
@@ -2298,6 +2300,7 @@ equipment_modules = {
 		add_stats = {	
 			lg_attack = 1.5
 			build_cost_ic = 225
+			naval_light_gun_hit_chance_factor = 0.001
 		}
 		multiply_stats = {
 			naval_speed = -0.015
@@ -2335,6 +2338,7 @@ equipment_modules = {
 		add_stats = {	
 			lg_attack = 2.6
 			build_cost_ic = 250
+			naval_light_gun_hit_chance_factor = 0.002
 		}
 		multiply_stats = {
 			naval_speed = -0.025
@@ -2376,6 +2380,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 3.75
 			build_cost_ic = 275
+			naval_light_gun_hit_chance_factor = 0.003
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -2417,6 +2422,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 4.8
 			build_cost_ic = 325
+			naval_light_gun_hit_chance_factor = 0.004
 		}
 		multiply_stats = {
 			naval_speed = -0.045
@@ -2458,8 +2464,9 @@ equipment_modules = {
 		parent = ship_light_medium_battery_4
 		add_stats = {
 			lg_attack = 6
-			anti_air_attack = 4
+			anti_air_attack = 2
 			build_cost_ic = 400
+			naval_light_gun_hit_chance_factor = 0.007
 		}
 
 		multiply_stats = {
@@ -2510,7 +2517,7 @@ equipment_modules = {
 		}
 
 		add_average_stats = {
-			lg_armor_piercing = 5.5
+			lg_armor_piercing = 6
 		}
 		
 		can_convert_from = {
@@ -2535,7 +2542,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 7
+			lg_armor_piercing = 8.5
 		}
 		
 		can_convert_from = {
@@ -2560,7 +2567,7 @@ equipment_modules = {
 		}
 
 		add_average_stats = {
-			lg_armor_piercing = 8
+			lg_armor_piercing = 10
 		}
 		
 		can_convert_from = {
@@ -2584,7 +2591,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 10.5
+			lg_armor_piercing = 12.5
 		}
 		
 		can_convert_from = {
@@ -2610,7 +2617,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 3
+			lg_armor_piercing = 4
 		}
 		
 		can_convert_from = {
@@ -2642,7 +2649,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 4
+			lg_armor_piercing = 6
 		}
 		
 		can_convert_from = {
@@ -2674,7 +2681,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 5
+			lg_armor_piercing = 8
 		}
 		
 		can_convert_from = {
@@ -2706,7 +2713,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 6
+			lg_armor_piercing = 10
 		}
 		
 		can_convert_from = {
