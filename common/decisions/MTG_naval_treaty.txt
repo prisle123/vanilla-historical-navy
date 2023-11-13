@@ -24,6 +24,7 @@ MTG_naval_treaties = {
 		}
 	
 		complete_effect = {
+			custom_effect_tooltip = MTG_abandon_treaty_tt
 			add_stability = -0.15
 			add_war_support = -0.15
 			modify_global_flag = {
@@ -139,6 +140,7 @@ MTG_naval_treaties = {
 		}
 	
 		complete_effect = {
+			custom_effect_tooltip = MTG_abandon_treaty_tt
 			modify_global_flag = {
 				flag = MTG_naval_treaty_violator
 				value = 1
@@ -728,11 +730,15 @@ MTG_naval_treaties = {
                     add_idea = MTG_naval_treaty_adherent_1936
                 }
                 if = {
-					limit = { has_government = fascism }
+					limit = { 
+						has_government = fascism 
+						has_government = communism
+					}
 					custom_effect_tooltip = fascism_renew_naval_treaty_tt
 					add_political_power = -100
 				}
 				else = {
+					custom_effect_tooltip = democracy_renew_naval_treaty_tt
 					add_political_power = 10
 				}
 				set_country_flag = MTG_second_london_treaty_signed
@@ -751,8 +757,8 @@ MTG_naval_treaties = {
             base = 100
             modifier = {
                 OR = {
-                    tag = JAP
-                    tag = ITA
+                    has_government = fascism
+					has_government = communism
                 }
                 factor = 0
             }
@@ -803,8 +809,8 @@ MTG_naval_treaties = {
             base = 100
             modifier = {
                 OR = {
-                    tag = JAP
-                    tag = ITA
+                    has_government = fascism
+					has_government = communism
                 }
                 factor = 0
             }
@@ -828,7 +834,7 @@ MTG_naval_treaties = {
 		}
 		cancel_trigger = {
 			custom_trigger_tooltip = {
-				tooltip = MTG_escalator_clause_tooltip
+				tooltip = MTG_escalator_clause_condition
 				has_global_flag = { flag = MTG_naval_treaty_violator value < 1 }
 			}
 		}
