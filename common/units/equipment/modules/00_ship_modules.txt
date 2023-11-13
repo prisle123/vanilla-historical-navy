@@ -1666,7 +1666,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.025
-			max_strength = 0.1
+			max_strength = 0.025
 			armor_value = 0.02
 		}
 		add_average_stats = {
@@ -1703,7 +1703,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.035
-			max_strength = 0.15
+			max_strength = 0.05
 			armor_value = 0.04
 		}
 		add_average_stats = {
@@ -1745,7 +1745,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.045
-			max_strength = 0.2
+			max_strength = 0.075
 			armor_value = 0.06
 		}
 		add_average_stats = {
@@ -1786,7 +1786,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.055
-			max_strength = 0.25
+			max_strength = 0.1
 			armor_value = 0.08
 		}
 		add_average_stats = {
