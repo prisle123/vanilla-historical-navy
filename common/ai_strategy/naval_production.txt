@@ -1602,13 +1602,18 @@ naval_unit_role_ratios_ITA_prewar_enough_battleships = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 25
+		value = 10
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = -20
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 20
 	}
 }
 
@@ -1652,6 +1657,10 @@ naval_unit_role_ratios_ITA_atwar_with_England = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 20
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 40
 	}
 }
 
@@ -1700,6 +1709,10 @@ naval_unit_role_ratios_ITA_atwar_with_major = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 20
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 50
 	}
 }
 
