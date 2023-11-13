@@ -6144,3 +6144,38 @@ RAJ_start_naval_variants = {
 		}
 	}
 }
+
+VEN_start_naval_variants = {
+    create_equipment_variant = {
+        name = "General Soublette Class"
+        role_icon_index = 48
+        type = vnr_ship_hull_light_1
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+            fixed_ship_role_slot = ship_hull_light_role_ff
+			rear_1_custom_slot = ship_light_battery_1
+        }
+    }
+}
+
+BEL_start_naval_variants = {
+    create_equipment_variant = {
+        name = "A1/A22 Class"
+        role_icon_index = 72
+        type = vnr_ship_hull_light_1
+        name_group = BEL_RIVERS_THEME
+        modules = {
+            fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+            fixed_ship_role_slot = ship_hull_light_role_ff
+            fixed_ship_torpedo_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_mine_sweeper_1
+        }
+        obsolete = yes
+    }
+}

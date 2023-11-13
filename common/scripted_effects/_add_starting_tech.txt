@@ -368,6 +368,18 @@ add_starting_techs = {
             popup = no
         }
     }
+    VEN = {
+        set_technology = {
+            early_ship_hull_light = 1
+            popup = no
+        }
+    }
+    BEL = {
+        set_technology = {
+            early_ship_hull_light = 1
+            popup = no
+        }
+    }
 }
 
 makeup_starting_techs = {
