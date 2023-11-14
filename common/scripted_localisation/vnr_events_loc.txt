@@ -372,6 +372,10 @@ defined_text = {
 		localization_key = ship_designer_title_chi
 	}
 	text = {
+		trigger = { original_tag = PRC }
+		localization_key = ship_designer_title_prc
+	}
+	text = {
 		localization_key = ship_designer_title_gen
 	}
 }
