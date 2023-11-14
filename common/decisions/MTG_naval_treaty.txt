@@ -730,9 +730,11 @@ MTG_naval_treaties = {
                     add_idea = MTG_naval_treaty_adherent_1936
                 }
                 if = {
-					limit = { 
-						has_government = fascism 
-						has_government = communism
+					limit = {
+						OR = {
+							has_government = fascism 
+							has_government = communism
+						}
 					}
 					custom_effect_tooltip = fascism_renew_naval_treaty_tt
 					add_political_power = -100
@@ -794,11 +796,17 @@ MTG_naval_treaties = {
                     add_idea = MTG_naval_treaty_adherent_1936
                 }
                 if = {
-					limit = { has_government = fascism }
+					limit = {
+						OR = {
+							has_government = fascism 
+							has_government = communism
+						}
+					}
 					custom_effect_tooltip = fascism_renew_naval_treaty_tt
 					add_political_power = -100
 				}
 				else = {
+					custom_effect_tooltip = democracy_renew_naval_treaty_tt
 					add_political_power = 10
 				}
 				set_country_flag = MTG_second_london_treaty_signed

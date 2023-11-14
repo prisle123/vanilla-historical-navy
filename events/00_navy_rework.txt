@@ -173,6 +173,14 @@ country_event = {
 			RAJ_start_naval_variants = yes
 			load_oob = 00_RAJ_vnr_naval
 		}
+		BEL = {
+			BEL_start_naval_variants = yes
+			load_oob = 00_BEL_vnr_naval
+		}
+		VEN = {
+			VEN_start_naval_variants = yes
+			load_oob = 00_VEN_vnr_naval
+		}
 
         clr_global_flag = add_startup_navy
     }

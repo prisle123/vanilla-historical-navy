@@ -323,3 +323,43 @@ defined_text = {
 		localization_key = vnr_ai_difficulty_mad
 	}
 }
+
+defined_text = {
+	name = get_designer_title
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = ENG
+				original_tag = CAN
+				original_tag = SAF
+				original_tag = AST
+				original_tag = NZL
+				original_tag = RAJ
+			}
+		}
+		localization_key = ship_designer_title_eng
+	}
+	text = {
+		trigger = { original_tag = USA }
+		localization_key = ship_designer_title_usa
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = ship_designer_title_jap
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = ship_designer_title_fra
+	}
+	text = {
+		trigger = { original_tag = GER }
+		localization_key = ship_designer_title_ger
+	}
+	text = {
+		trigger = { original_tag = ITA }
+		localization_key = ship_designer_title_ita
+	}
+	text = {
+		localization_key = ship_designer_title_gen
+	}
+}
