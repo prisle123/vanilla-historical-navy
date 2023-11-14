@@ -1,9 +1,14 @@
 ﻿l_english:
+ SHIP_DESIGNER_TITLE: ""
+
  VNR_SHIP_DESIGNER_TITLE: "[get_designer_title]"
  ship_designer_title_gen: "Ship Designer"
- ship_designer_title_eng: "DNC"
- ship_designer_title_usa: "BuC&R"
- ship_designer_title_jap: "Navy Technical Department"
- ship_designer_title_fra: "DCAN"
+ ship_designer_title_eng: "DNC" # Director of Naval Construction
+ ship_designer_title_usa: "BuC&R" # Bureau of Construction and Repair
+ ship_designer_title_jap: "Navy Technical Department" # 艦政本部
+ ship_designer_title_fra: "STCN" # Service technique des constructions navales
  ship_designer_title_ger: "Hauptamt Kriegsschiffsbau"
- ship_designer_title_ita: "Dipartimento marittimo"
+ ship_designer_title_ita: "Dipartimento Marittimo"
+ ship_designer_title_sov: "PCSI" # People's Commissariat of the Shipbuilding Industry
+ ship_designer_title_rus: "Naval Technical Committee"
+ ship_designer_title_chi: "Navy Technical Department" # 海军部舰政司 Technical Department of Naval Ministry
