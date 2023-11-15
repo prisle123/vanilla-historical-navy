@@ -2863,7 +2863,7 @@ ITA_start_naval_variants = {
 SOV_start_naval_variants = {
     # battleship
     create_equipment_variant = {
-        name = "Gangut Class"
+        name = "Sevastopol Class"
 		role_icon_index = 3
 		icon = "gfx/interface/technologies/Soviet/SOV_battleship2.png"
         type = vnr_ship_hull_heavy_1
@@ -2990,6 +2990,25 @@ SOV_start_naval_variants = {
         }
         obsolete = yes
     }
+	create_equipment_variant = {
+		name = "Pallada Class"
+		role_icon_index = 23
+		icon = "gfx/interface/technologies/Soviet/SOV_light_cruiser1.png"
+		type = vnr_ship_hull_cruiser_coastal_defense_ship
+		name_group = SOV_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_light_medium_battery_1_single
+			mid_2_custom_slot = ship_light_medium_battery_1_single
+			rear_1_custom_slot = ship_light_medium_battery_1_single
+			rear_2_custom_slot = ship_light_medium_battery_1_single
+		}
+		obsolete = yes
+	}
     # destroyer
     create_equipment_variant = {
         name = "Gnevny Class"
@@ -3011,7 +3030,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Leningrad Class"
-		role_icon_index = 31
+		role_icon_index = 33
         type = vnr_ship_hull_light_3
         name_group = SOV_CITIES_NAVY
         modules = {
@@ -3020,6 +3039,7 @@ SOV_start_naval_variants = {
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_engine_slot = light_ship_engine_6
 			fixed_ship_torpedo_slot = ship_torpedo_2
+			fixed_ship_role_slot = ship_hull_light_role_dl
             front_1_custom_slot = ship_light_battery_2
             front_2_custom_slot = ship_light_battery_2
             mid_1_custom_slot = ship_light_battery_2

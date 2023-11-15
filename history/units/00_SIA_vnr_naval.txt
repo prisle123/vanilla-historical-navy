@@ -5,8 +5,8 @@ units = {
 		task_force = {
 			name = "RSN 1st Naval Command"
 			location = 7408 ## Sattahip
-			ship = { name = "HTMS Ratanakosindra" definition = destroyer equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
-			ship = { name = "HTMS Sukhothai" definition = destroyer equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
+			ship = { name = "HTMS Ratanakosindra" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
+			ship = { name = "HTMS Sukhothai" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
 			ship = { name = "HTMS Phra Ruang" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Phra Ruang Class" } } }
             ship = { name = "HTMS Sua Tayanchon" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Sua Tayanchon Class" } } }
             ship = { name = "HTMS Sua Khamronsin" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Sua Tayanchon Class" } } }
