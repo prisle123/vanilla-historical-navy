@@ -27,7 +27,7 @@ naval_develop_category = {
 		cost = 15
 
 		remove_effect = {
-			navy_experience = 50
+			navy_experience = 150
 		}
 
 		ai_will_do = {
@@ -67,7 +67,7 @@ naval_develop_category = {
 			add_tech_bonus = {
 				name = naval_doctrine
 				bonus = 1
-				uses = 1
+				uses = 3
 				category = naval_doctrine
 			}
 		}
@@ -161,7 +161,7 @@ naval_develop_category = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				add = 300
+				add = 30
 				has_navy_size = {
 					size < 15
 				}
@@ -202,7 +202,7 @@ naval_develop_category = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				add = 300
+				add = 30
 				has_navy_size = {
 					size < 45
 				}
@@ -243,7 +243,7 @@ naval_develop_category = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				add = 300
+				add = 20
 				has_navy_size = {
 					size < 45
 				}
@@ -285,7 +285,7 @@ naval_develop_category = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
-				add = 300
+				add = 30
 				has_navy_size = {
 					size < 10
 				}

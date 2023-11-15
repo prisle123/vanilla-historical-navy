@@ -23,7 +23,7 @@ naval_capital_battleship = {
 				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = empty
+				fixed_ship_radar_slot = ship_mast
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_2 heavy_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_bb_2 ship_armor_bb_1 } }
@@ -56,7 +56,7 @@ naval_capital_battleship = {
 				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = empty
+				fixed_ship_radar_slot = ship_mast
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_bb_2 ship_armor_bb_1 } }
@@ -77,7 +77,7 @@ naval_capital_battleship = {
 		role_icon_index = 1
 
 		priority = {
-			base = 35
+			base = 50
 			modifier = { factor = 0 has_tech = advanced_ship_hull_heavy }
 		}
 
@@ -135,6 +135,39 @@ naval_capital_battleship = {
 				mid_3_custom_slot = ship_secondaries
 				rear_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				rear_2_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
+			}
+		}
+	}
+
+	capital_battleship_shbb = {
+		name = vnr_shbb_1936
+		role_icon_index = 7
+
+		priority = {
+			base = 0
+			modifier = { add = 10 tag = JAP }
+		}
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = vnr_ship_hull_super_heavy_1
+			modules = {
+				fixed_ship_battery_slot = ship_super_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_mast
+				fixed_ship_engine_slot = { upgrade = current any_of = { super_heavy_ship_engine_3 super_heavy_ship_engine_2 super_heavy_ship_engine_1 } }
+				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_shbb_2 ship_armor_shbb } }
+				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental_post_jutland ship_scheme_incremental } }
+				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				front_1_custom_slot = ship_super_heavy_battery_triple
+				mid_1_custom_slot = ship_secondaries
+				mid_2_custom_slot = ship_anti_air
+				mid_3_custom_slot = ship_secondaries
+				rear_1_custom_slot = ship_super_heavy_battery_triple
 			}
 		}
 	}

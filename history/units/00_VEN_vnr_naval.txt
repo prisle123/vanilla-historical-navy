@@ -1,0 +1,12 @@
+units = {
+    fleet = {
+        name = "Armada Bolivariana de Venezuela"
+        naval_base = 8113
+        task_force = {
+            name = "Armada Bolivariana de Venezuela"
+            location = 8113
+            ship = { name = "General Soublette" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = VEN version_name = "General Soublette Class" } } }
+            ship = { name = "General Urdaneta" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = VEN version_name = "General Soublette Class" } } }
+        }
+    }
+}

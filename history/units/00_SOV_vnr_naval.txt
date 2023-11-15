@@ -37,8 +37,8 @@ units= {
 		task_force = {				
 			name = "Baltiyskiy Flot"
 			location = 3151 # Leningrad
-			ship = { name = "Marat" pride_of_the_fleet = yes definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Gangut Class" } } }
-			ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Gangut Class" } } }
+			ship = { name = "Marat" pride_of_the_fleet = yes definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Sevastopol Class" } } }
+			ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Sevastopol Class" } } }
 			ship = { name = "Marti" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SOV version_name = "Marti Class" } } }
 			# 3ya Flotiliya Esmintsev
 			ship = { name = "Engels" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }
@@ -52,6 +52,11 @@ units= {
 			ship = { name = "Rykov" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }		
 			ship = { name = "Karl Libknekht" definition = destroyer start_experience_factor = 0.09 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Orfey Class" } } }		
 		}	
+		task_force = {
+			name = "K.E. Voroshilov Naval Academy"
+			location = 3151 # Leningrad
+			ship = { name = "Avrora" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SOV version_name = "Pallada Class" } } }
+		}
 		task_force = {	
 			name = "Baltiyskiy Podvodniy Flot"
 			location = 3151 # Leningrad
@@ -107,7 +112,7 @@ units= {
 		task_force = {				
 			name = "Chernomorskiy Flot"
 			location = 3686 # Sevastopopl
-			ship = { name = "Parizhskaya Kommuna" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Gangut Class" } } }
+			ship = { name = "Parizhskaya Kommuna" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Sevastopol Class" } } }
 			ship = { name = "Krasni Kavkaz" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "Admiral Nakhimov Class" } } }
 			ship = { name = "Krasny Krym" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Svetlana Class" } } }
 			ship = { name = "Chervona Ukraina" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "Admiral Nakhimov Class" } } }

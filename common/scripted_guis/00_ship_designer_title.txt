@@ -1,0 +1,15 @@
+scripted_gui = {
+
+	ship_designer_title_tab = {
+		context_type = player_context
+		window_name = ship_designer_title_tab_container
+		parent_window_name = countryequipmentdesignerview
+
+		ai_enabled = { always = no }
+		
+		visible = {
+			
+		}
+	}
+}
+

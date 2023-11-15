@@ -24,6 +24,9 @@ on_actions = {
 			GXC = {
 				give_military_access = CHI
 			}
+
+            # naval treaty violator
+            set_global_flag = { flag = MTG_naval_treaty_violator value = 0 }
         }
     }
 }
