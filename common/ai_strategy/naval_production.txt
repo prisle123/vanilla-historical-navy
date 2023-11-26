@@ -1530,7 +1530,7 @@ naval_unit_role_ratios_ITA_prewar_build_battleships = {
 	enable = {
 		date < 1941.1.1
 		has_war_with_major = no
-		has_navy_size = { size < 6 type = battleship }
+		has_navy_size = { size < 6 type = capital_ship archetype = ship_hull_heavy }
 	}
 	abort_when_not_enabled = yes
 	
@@ -1575,7 +1575,7 @@ naval_unit_role_ratios_ITA_prewar_enough_battleships = {
 	enable = {
 		date < 1941.1.1
 		has_war_with_major = no
-		has_navy_size = { size > 5 type = battleship }
+		has_navy_size = { size > 5 type = capital_ship archetype = ship_hull_heavy }
 	}
 	abort_when_not_enabled = yes
 	
