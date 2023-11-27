@@ -5578,10 +5578,6 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.05
 			reliability = -0.1
 		}
-		add_average_stats = {
-			hg_armor_piercing = 16
-			lg_armor_piercing = 10
-		}
 		multiply_stats = {
 			naval_speed = -0.08
 		}
@@ -6262,6 +6258,60 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.025
 			build_cost_ic = 0.15
+		}
+	}
+
+	# submarine miscellaneous
+	crewed_torpedo = {
+		category = submarine_miscellaneous
+		add_stats = {
+			torpedo_attack = 5
+			reliability = -0.05
+			build_cost_ic = 20
+		}
+		manpower = 2
+		multiply_stats = {
+			max_strength = -0.03
+		}
+	}
+	oxygen_generator = {
+		category = submarine_miscellaneous
+		add_stats = {
+			build_cost_ic = 35
+			reliability = -0.01
+		}
+		multiply_stats = {
+			sub_visibility = -0.025
+		}
+	}
+	jumping_wire = {
+		category = submarine_miscellaneous
+		add_stats = {
+			build_cost_ic = 5
+			max_organisation = 0.05
+		}
+		multiply_stats = {
+			sub_visibility = 0.025
+		}
+	}
+	diving_plane = {
+		category = submarine_miscellaneous
+		add_stats = {
+			build_cost_ic = 50
+		}
+		multiply_stats = {
+			naval_speed = 0.025
+			sub_visibility = -0.01
+		}
+	}
+	vlf_receiver = {
+		category = submarine_miscellaneous
+		add_stats = {
+			build_cost_ic = 200
+		}
+		multiply_stats = {
+			surface_detection = 0.1
+			sub_visibility = -0.05
 		}
 	}
 }
