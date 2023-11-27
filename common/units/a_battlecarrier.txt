@@ -11,7 +11,7 @@ sub_units = {
 		}
 		max_organisation = 60
 
-		supply_consumption = 0.2
+		supply_consumption = 1.4
 		
 		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
 		critical_part_damage_chance_mult = 1 

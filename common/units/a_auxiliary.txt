@@ -8,7 +8,7 @@ sub_units = {
 		need_equipment = { ship_hull_civilian = 1 }
 		max_organisation = 60
 
-		supply_consumption = 0.1
+		supply_consumption = 0.05
 		
 		critical_parts = { rudder_jammed broken_propeller on_fire }
 		critical_part_damage_chance_mult = 1 
