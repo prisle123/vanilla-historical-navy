@@ -6284,16 +6284,6 @@ equipment_modules = {
 			sub_visibility = -0.025
 		}
 	}
-	jumping_wire = {
-		category = submarine_miscellaneous
-		add_stats = {
-			build_cost_ic = 5
-			max_organisation = 0.05
-		}
-		multiply_stats = {
-			sub_visibility = 0.025
-		}
-	}
 	diving_plane = {
 		category = submarine_miscellaneous
 		add_stats = {
