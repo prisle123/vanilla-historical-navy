@@ -917,6 +917,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type IIA Class"
+        icon = "gfx/interface/technologies/generic/generic_midget_submarine.png"
 		role_icon_index = 49
         type = vnr_ship_hull_submarine_2
         name_group = GER_SS_HISTORICAL
@@ -929,6 +930,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type IIB Class"
+        icon = "gfx/interface/technologies/generic/generic_midget_submarine.png"
 		role_icon_index = 49
         type = vnr_ship_hull_submarine_2
         name_group = GER_SS_HISTORICAL
@@ -941,6 +943,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type IA Class"
+        icon = "gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = GER_SS_HISTORICAL

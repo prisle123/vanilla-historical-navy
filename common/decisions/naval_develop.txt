@@ -10,10 +10,9 @@ naval_develop_category = {
 			num_of_naval_factories > 1
 		}
 		visible = {
-			AND = {
-				has_navy_size = { size < 1 }
-				num_of_naval_factories > 0
-			}
+			has_navy_size = { size < 1 }
+			num_of_naval_factories > 0
+			is_major = no
 		}
 
 		cancel_trigger = {
@@ -55,10 +54,9 @@ naval_develop_category = {
 			num_of_naval_factories > 1
 		}
 		visible = {
-			AND = {
-				has_navy_size = { size < 1 }
-				num_of_naval_factories > 0
-			}
+			has_navy_size = { size < 1 }
+			num_of_naval_factories > 0
+			is_major = no
 		}
 
 		cost = 15
@@ -97,12 +95,11 @@ naval_develop_category = {
 			num_of_naval_factories > 1
 		}
 		visible = {
-			AND = {
-				has_navy_size = {
-					size < 15
-				}
-				num_of_naval_factories > 0
+			has_navy_size = {
+				size < 15
 			}
+			num_of_naval_factories > 0
+			is_major = no
 		}
 
 		cost = 30
@@ -138,12 +135,11 @@ naval_develop_category = {
 			num_of_naval_factories > 1
 		}
 		visible = {
-			AND = {
-				has_navy_size = {
-					size < 15
-				}
-				num_of_naval_factories > 1
+			has_navy_size = {
+				size < 15
 			}
+			num_of_naval_factories > 1
+			is_major = no
 		}
 
 		cost = 30
@@ -179,12 +175,11 @@ naval_develop_category = {
 			num_of_naval_factories > 1
 		}
 		visible = {
-			AND = {
-				has_navy_size = {
-					size < 45
-				}
-				num_of_naval_factories > 1
+			has_navy_size = {
+				size < 45
 			}
+			num_of_naval_factories > 1
+			is_major = no
 		}
 
 		cost = 50
@@ -220,12 +215,11 @@ naval_develop_category = {
 			num_of_naval_factories > 1
 		}
 		visible = {
-			AND = {
-				has_navy_size = {
-					size < 45
-				}
-				num_of_naval_factories > 1
+			has_navy_size = {
+				size < 45
 			}
+			num_of_naval_factories > 1
+			is_major = no
 		}
 
 		cost = 50
@@ -262,12 +256,11 @@ naval_develop_category = {
 		}
 
 		visible = {
-			AND = {
-				has_navy_size = {
-					size < 10
-				}
-				num_of_naval_factories > 0
+			has_navy_size = {
+				size < 10
 			}
+			num_of_naval_factories > 0
+			is_major = no
 		}
 
 		cost = 15

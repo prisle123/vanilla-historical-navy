@@ -1,7 +1,6 @@
 on_actions = {
     on_startup = {
         effect = {
-			set_global_flag = vnr_enabled
             # show welcome splash
 			set_global_flag = navy_rework_splash_show
 			

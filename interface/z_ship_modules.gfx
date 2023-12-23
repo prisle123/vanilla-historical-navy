@@ -1175,4 +1175,22 @@ spriteTypes = {
 		name = "GFX_SMI_carrier_strength_deck"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_strength_deck.png"
 	}
+	
+	# submarine miscellaneous
+	spriteType = {
+		name = "GFX_SMI_crewed_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/crewed_torpedo.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_oxygen_generator"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/oxygen_generator.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_diving_plane"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/diving_plane.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_vlf_receiver"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/vlf_receiver.png"
+	}
 }
