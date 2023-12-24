@@ -65,6 +65,8 @@ naval_carrier = {
 				fixed_ship_engine_slot = carrier_ship_engine
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_radar_slot = { upgrade = current any_of = { carrier_ship_engine_2 carrier_ship_engine_1 } }
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_miscellaneous
 			}
 		}
 	}
@@ -89,6 +91,8 @@ naval_carrier = {
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_radar_slot = ship_radar
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_miscellaneous
 			}
 		}
 	}
@@ -113,6 +117,8 @@ naval_carrier = {
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_radar_slot = ship_radar
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_miscellaneous
 			}
 		}
 	}

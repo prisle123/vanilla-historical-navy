@@ -28,6 +28,7 @@ naval_cruiser_heavy = {
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_torpedo
 				rear_1_custom_slot = ship_medium_battery
@@ -58,6 +59,7 @@ naval_cruiser_heavy = {
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_medium_battery
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_torpedo
@@ -90,6 +92,7 @@ naval_cruiser_heavy = {
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_medium_battery
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_torpedo
@@ -121,6 +124,7 @@ naval_cruiser_heavy = {
 				fixed_ship_radar_slot = { any_of = { ship_radar } }
 				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_medium_battery
 				front_2_custom_slot = ship_medium_battery
 				mid_1_custom_slot = ship_anti_air
@@ -154,6 +158,7 @@ naval_cruiser_heavy = {
 				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_4 ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_role_slot = { any_of = { ship_hull_cruiser_role_c  ship_hull_cruiser_role_aa ship_hull_cruiser_role_cg } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_medium_battery
 				front_2_custom_slot = ship_medium_battery
 				mid_1_custom_slot = ship_anti_air
