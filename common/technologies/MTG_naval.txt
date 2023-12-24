@@ -3325,6 +3325,7 @@ technologies = {
 			ship_torpedo_sub_2
 			sub_ship_engine_2
 			pressure_hull_2
+			oxygen_generator
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_submarine
@@ -3383,6 +3384,7 @@ technologies = {
 			ship_torpedo_sub_3
 			sub_ship_engine_3
 			pressure_hull_3
+			diving_plane
 		}
 
 		path = {
@@ -4028,6 +4030,9 @@ technologies = {
 		enable_equipments = {
 			vnr_ship_hull_midget_submarine
 		}
+		enable_equipment_modules = {
+			crewed_torpedo
+		}
 		research_cost = 0.75
 		start_year = 1930
 		categories = {
@@ -4088,6 +4093,7 @@ technologies = {
 		
 		enable_equipment_modules = {
 			ship_vt_shell
+			vlf_receiver
 		}
 
 		naval_coordination = 0.05

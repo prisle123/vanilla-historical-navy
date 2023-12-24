@@ -9,7 +9,7 @@ MTG_naval_treaties = {
 			NOT = { has_global_flag = MTG_second_london_conference }
 		}
 	
-		cost = 150
+		cost = 300
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 0
@@ -295,7 +295,7 @@ MTG_naval_treaties = {
 						sub_unit_def_weights = {
 							carrier = 0.25
 							battleship = 1
-							battle_cruiser = 0.8
+							battle_cruiser = 1
 							heavy_cruiser = 0.5
 						}
 					}
@@ -370,7 +370,7 @@ MTG_naval_treaties = {
 						sub_unit_def_weights = {
 							carrier = 0.25
 							battleship = 1
-							battle_cruiser = 0.8
+							battle_cruiser = 1
 							heavy_cruiser = 0.5
 						}
 					}
@@ -460,7 +460,7 @@ MTG_naval_treaties = {
 								sub_unit_def_weights = {
 									carrier = 0.5
 									battleship = 1
-									battle_cruiser = 0.8
+									battle_cruiser = 1
 									heavy_cruiser = 0.5
 								}
 							}
@@ -495,7 +495,7 @@ MTG_naval_treaties = {
 								sub_unit_def_weights = {
 									carrier = 0.5
 									battleship = 1
-									battle_cruiser = 0.8
+									battle_cruiser = 1
 									heavy_cruiser = 0.5
 								}
 							}
@@ -563,7 +563,7 @@ MTG_naval_treaties = {
 					sub_unit_def_weights = {
 						carrier = 0.25
 						battleship = 1
-						battle_cruiser = 0.8
+						battle_cruiser = 1
 						heavy_cruiser = 0.5
 					}
 				}
@@ -620,7 +620,7 @@ MTG_naval_treaties = {
 					sub_unit_def_weights = {
 						carrier = 0.5
 						battleship = 1
-						battle_cruiser = 0.8
+						battle_cruiser = 1
 						heavy_cruiser = 0.5
 					}
 				}
@@ -874,7 +874,6 @@ MTG_naval_treaties = {
 					add_idea = MTG_naval_treaty_cheating_reduced
 				}
 			}
-			set_global_flag = { flag = MTG_naval_treaty_violator value = 0 }
 		}
 		complete_effect = {
 			

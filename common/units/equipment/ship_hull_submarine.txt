@@ -35,6 +35,10 @@ equipments = {
 				required = no
 				allowed_module_categories = { pressure_hull }
 			}
+			fixed_ship_extra_secondaries_slot = {
+				required = no
+				allowed_module_categories = { submarine_miscellaneous }
+			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -84,7 +88,7 @@ equipments = {
 		naval_speed = 13
 		reliability = 0.60
 
-		naval_range = 2500
+		naval_range = 4000
 
 		max_strength = 10
 
@@ -134,6 +138,7 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_radar ship_sonar }
 			}
+			fixed_ship_extra_secondaries_slot = inherit
 			mid_1_custom_slot = inherit
 			rear_1_custom_slot = inherit
 		}
@@ -148,7 +153,7 @@ equipments = {
 		naval_speed = 17
 		reliability = 0.70
 
-		naval_range = 4000
+		naval_range = 6000
 		reliability = 0.70
 		max_strength = 20
 
@@ -175,6 +180,7 @@ equipments = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -204,7 +210,7 @@ equipments = {
 		naval_speed = 18
 		reliability = 0.75
 
-		naval_range = 5000
+		naval_range = 7000
 
 		max_strength = 30
 
@@ -229,6 +235,7 @@ equipments = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = inherit
 			mid_1_custom_slot = inherit
 			mid_2_custom_slot = inherit
@@ -253,7 +260,7 @@ equipments = {
 		naval_speed = 18
 		reliability = 0.80
 
-		naval_range = 6000
+		naval_range = 8000
 
 		max_strength = 35
 
@@ -285,6 +292,7 @@ equipments = {
 				required = no
 				allowed_module_categories = { sub_fire_control_system ship_sonar }
 			}
+			fixed_ship_extra_secondaries_slot = inherit
 			fixed_ship_radar_slot = {
 				required = no
 				allowed_module_categories = { ship_radar ship_sonar }
@@ -333,7 +341,7 @@ equipments = {
 		naval_speed = 16
 		reliability = 0.75
 
-		naval_range = 5000
+		naval_range = 6500
 
 		max_strength = 30
 
@@ -356,6 +364,7 @@ equipments = {
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
