@@ -1366,7 +1366,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 3
-			lg_attack = 2.5
+			lg_attack = 1.5
 			build_cost_ic = 600
 			surface_visibility = 0.25
 		}
@@ -1400,7 +1400,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 4
-			lg_attack = 4
+			lg_attack = 2.5
 			build_cost_ic = 700
 			surface_visibility = 0.25
 		}
@@ -1438,7 +1438,7 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 5.5
-			lg_attack = 4.8
+			lg_attack = 4.5
 			build_cost_ic = 800
 			surface_visibility = 0.25
 		}
@@ -1476,7 +1476,7 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 7
-			lg_attack = 6
+			lg_attack = 5.5
 			build_cost_ic = 900
 			surface_visibility = 0.25
 		}
@@ -1513,7 +1513,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 2
-			lg_attack = 2
+			lg_attack = 1.2
 			build_cost_ic = 450
 			surface_visibility = 0.25
 		}
@@ -1547,7 +1547,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 3
-			lg_attack = 2.5
+			lg_attack = 2.2
 			build_cost_ic = 550
 			surface_visibility = 0.25
 		}
@@ -1585,7 +1585,7 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 4
-			lg_attack = 4
+			lg_attack = 3
 			build_cost_ic = 650
 			surface_visibility = 0.25
 		}
@@ -1623,7 +1623,7 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 5
-			lg_attack = 5
+			lg_attack = 3.8
 			build_cost_ic = 750
 			surface_visibility = 0.25
 		}
@@ -1660,7 +1660,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 1.5
-			lg_attack = 1
+			lg_attack = 0.8
 			build_cost_ic = 300
 			surface_visibility = 0.2
 		}
@@ -1856,7 +1856,7 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 5
-			lg_attack = 4
+			lg_attack = 3
 			build_cost_ic = 850
 			surface_visibility = 0.3
 			reliability = -0.05
@@ -1892,7 +1892,7 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 6
-			lg_attack = 2.5
+			lg_attack = 3
 			build_cost_ic = 900
 			surface_visibility = 0.3
 			reliability = -0.05
@@ -1927,7 +1927,7 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 7.5
-			lg_attack = 4.5
+			lg_attack = 4
 			build_cost_ic = 1000
 			surface_visibility = 0.3
 			reliability = -0.05
@@ -1964,7 +1964,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 3
+			lg_attack = 2
 			build_cost_ic = 350
 			naval_light_gun_hit_chance_factor = 0.005
 		}
@@ -1976,9 +1976,9 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2002,7 +2002,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 5
+			lg_attack = 3.5
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.006
 		}
@@ -2014,9 +2014,9 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2044,7 +2044,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 7
+			lg_attack = 5.5
 			build_cost_ic = 450
 			naval_light_gun_hit_chance_factor = 0.007
 		}
@@ -2057,9 +2057,9 @@ equipment_modules = {
 		}
 		
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2086,7 +2086,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3
 		add_stats = {
-			lg_attack = 9
+			lg_attack = 7
 			build_cost_ic = 500
 			naval_light_gun_hit_chance_factor = 0.008
 		}
@@ -2099,9 +2099,9 @@ equipment_modules = {
 		}
 		
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2131,7 +2131,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 2
+			lg_attack = 1.5
 			build_cost_ic = 250
 			naval_light_gun_hit_chance_factor = 0.005
 		}
@@ -2143,9 +2143,9 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2169,7 +2169,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 3.3
+			lg_attack = 2.5
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.006
 		}
@@ -2181,9 +2181,9 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2211,7 +2211,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 4.6
+			lg_attack = 3.5
 			build_cost_ic = 375
 			naval_light_gun_hit_chance_factor = 0.007
 		}
@@ -2224,9 +2224,9 @@ equipment_modules = {
 		}
 		
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2253,7 +2253,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3_double
 		add_stats = {
-			lg_attack = 6
+			lg_attack = 4.5
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.008
 		}
@@ -2266,9 +2266,9 @@ equipment_modules = {
 		}
 		
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2298,7 +2298,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 1.5
+			lg_attack = 1.2
 			build_cost_ic = 225
 			naval_light_gun_hit_chance_factor = 0.001
 		}
@@ -2310,9 +2310,9 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2336,7 +2336,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 2.6
+			lg_attack = 2
 			build_cost_ic = 250
 			naval_light_gun_hit_chance_factor = 0.002
 		}
@@ -2348,9 +2348,9 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2378,7 +2378,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 3.75
+			lg_attack = 3
 			build_cost_ic = 275
 			naval_light_gun_hit_chance_factor = 0.003
 		}
@@ -2391,9 +2391,9 @@ equipment_modules = {
 		}
 		
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2420,7 +2420,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3_single
 		add_stats = {
-			lg_attack = 4.8
+			lg_attack = 4
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.004
 		}
@@ -2433,9 +2433,9 @@ equipment_modules = {
 		}
 		
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2463,7 +2463,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_4
 		add_stats = {
-			lg_attack = 6
+			lg_attack = 5.5
 			anti_air_attack = 2
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.007
@@ -2478,9 +2478,9 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		# forbid_module_categories = {
-		     # ship_medium_battery
-		# }
+		forbid_module_categories = {
+			ship_secondaries
+		}
 		
 		can_convert_from = {
 			module_category = ship_medium_battery
