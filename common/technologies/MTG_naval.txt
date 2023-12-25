@@ -11,6 +11,9 @@ technologies = {
 	@1944 = 17
 	@1944_module = 19
 	@1944_module_2 = 21
+	@1948 = 23
+	@1952 = 25
+	@1952_module = 26
 
 #   ###  ##  #  # ###	## #  # ### ###   ##
 #	#  #	#  #  #	#   #  #  #  #  # #
@@ -231,12 +234,51 @@ technologies = {
 			leads_to_tech = destroyer_missile_upgrade
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = modern_ship_hull_light
+			research_cost_coeff = 1
+		}
 
 		start_year = 1944
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = @1944 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	modern_ship_hull_light = {
+		enable_equipments = {
+			vnr_ship_hull_light_6
+		}
+		research_cost = 1.5
+		start_year = 1949
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1948 }
+		}
+		path = {
+			leads_to_tech = rocket_depth_charges
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = destroyer_guided_missile_upgrade
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = destroyer_hull_improvement
+			research_cost_coeff = 1
 		}
 
 		ai_will_do = {
