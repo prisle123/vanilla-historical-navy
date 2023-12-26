@@ -1144,7 +1144,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = stable_nuclear_reactor
+			leads_to_tech = nuclear_reactor_cost_reduction
 			research_cost_coeff = 1
 		}
 
@@ -1168,7 +1168,7 @@ technologies = {
 	}
 	phased_array_radar = {
 		enable_equipment_modules = {
-			ship_radar_6
+			ship_radar_5
 		}
 
 		research_cost = 2
@@ -1177,9 +1177,6 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 4 y = @1952_module }
-		}
-		dependencies = {
-			three_dimensional_radar = 1
 		}
 		ai_will_do = {
 			factor = 1
@@ -1247,7 +1244,7 @@ technologies = {
 	}
 	decoy_launching_system = {
 		enable_equipment_modules = {
-			decoy_launching_system
+			ship_decoy_launcher
 		}
 
 		research_cost = 1
@@ -1271,7 +1268,7 @@ technologies = {
 	nuclear_engine_research = {
 		research_cost = 1.5
 		enable_equipment_modules = {
-			heavy_ship_engine_nuclear
+			cruiser_ship_engine_nuclear
 			carrier_ship_engine_nuclear
 		}
 
@@ -1280,6 +1277,9 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -1 y = 22 }
+		}
+		dependencies = {
+			nuclear_reactor = 1
 		}
 
 		ai_will_do = {
@@ -1295,10 +1295,11 @@ technologies = {
 		}
 	}
 
-	stable_nuclear_reactor = {
+	nuclear_reactor_cost_reduction = {
 		research_cost = 2
 		enable_equipment_modules = {
-			nuclear_reactor_stablizer
+			economical_nuclear_reactor_cruiser
+			economical_nuclear_reactor_carrier
 		}
 
 		start_year = 1953
@@ -1306,6 +1307,9 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 2 y = @1952 }
+		}
+		dependencies = {
+			nuclear_engine_research = 1
 		}
 
 		ai_will_do = {
@@ -3027,10 +3031,8 @@ technologies = {
 
 	naval_tactical_data_system = {
 		research_cost = 1.5
-		enable_equipment_modules = {
-			ship_fire_control_system_4
-		}
 		naval_coordination = 0.1
+		positioning = 0.1
 
 		start_year = 1950
 
@@ -3055,7 +3057,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = three_dimensional_radar
+			leads_to_tech = electromagnetic_signature_study
 			research_cost_coeff = 1
 		}
 
@@ -3074,14 +3076,15 @@ technologies = {
 
 	memory_expansion = {
 		research_cost = 1.5
-		naval_light_gun_hit_chance_factor = 0.1
-		naval_heavy_gun_hit_chance_factor = 0.1
+		naval_light_gun_hit_chance_factor = 0.05
+		naval_heavy_gun_hit_chance_factor = 0.05
+		naval_torpedo_hit_chance_factor = 0.05
 
-		start_year = 1955
+		start_year = 1950
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1952_module }
+			position = { x = -2 y = @1948_module }
 		}
 		dependencies = {
 			advanced_computing_machine = 1
@@ -3099,16 +3102,19 @@ technologies = {
 			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
-	self_defense_fire_control = {
-		research_cost = 0.7
+	integrated_combat_system = {
+		research_cost = 1.5
 		enable_equipment_modules = {
-			ship_self_defense_fire_control_1
+			ship_fire_control_system_5
 		}
-		start_year = 1950
+		start_year = 1954
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1948_module }
+			position = { x = 1 y = @1952_module }
+		}
+		dependencies = {
+			phased_array_radar = 1
 		}
 
 		ai_will_do = {
@@ -3125,7 +3131,9 @@ technologies = {
 	}
 	comprehensive_display_system = {
 		research_cost = 1.2
-		navy_org_factor = 0.15
+		enable_equipment_modules = {
+			ship_display_system
+		}
 		
 		start_year = 1954
 
@@ -3142,7 +3150,6 @@ technologies = {
 			naval_equipment
 			bb_tech
 			bc_tech
-			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
@@ -3174,11 +3181,9 @@ technologies = {
 			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
-	three_dimensional_radar = {
-		research_cost = 1
-		enable_equipment_modules = {
-			ship_radar_5
-		}
+	electromagnetic_signature_study = {
+		research_cost = 1.5
+		navy_visibility = -0.1
 		
 		start_year = 1952
 
@@ -3198,7 +3203,6 @@ technologies = {
 			naval_equipment
 			bb_tech
 			bc_tech
-			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
@@ -4156,6 +4160,22 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = -1 y = 25 }
 		}
+		path = {
+			leads_to_tech = wire_guided_torpedo
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rescue_submarine
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = hydrocooling_battery
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sonar_telephone
+			research_cost_coeff = 1
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -4633,6 +4653,114 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 1 y = @1940_module }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				has_navy_size = { size > 35 unit = submarine }
+			}
+		}
+
+		categories = {
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+	wire_guided_torpedo = {
+		research_cost = 0.75
+		enable_equipment_modules = {
+			sub_wire_guided_torpedo
+		}
+		naval_torpedo_screen_penetration_factor = 0.1
+
+		start_year = 1951
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1948 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				has_navy_size = { size > 35 unit = submarine }
+			}
+		}
+
+		categories = {
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+	rescue_submarine = {
+		research_cost = 1
+		naval_accidents_chance = -0.15
+		submarine = {
+			reliability = 0.2
+		}
+
+		start_year = 1951
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1948 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				has_navy_size = { size > 35 unit = submarine }
+			}
+		}
+
+		categories = {
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+	hydrocooling_battery = {
+		research_cost = 1
+		submarine = {
+			naval_speed = 0.1
+		}
+		sub_retreat_speed = 0.05
+
+		start_year = 1951
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1948 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				has_navy_size = { size > 35 unit = submarine }
+			}
+		}
+
+		categories = {
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+	sonar_telephone = {
+		research_cost = 1
+		submarine = {
+			convoy_raiding_coordination = 0.1
+		}
+
+		start_year = 1953
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1948 }
 		}
 
 		ai_will_do = {
