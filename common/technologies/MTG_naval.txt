@@ -3045,7 +3045,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = self_defense_fire_control
+			leads_to_tech = integrated_combat_system
 			research_cost_coeff = 1
 		}
 		path = {
@@ -3839,7 +3839,7 @@ technologies = {
 			mio_cat_tech_all_carrier_and_modules
 		}
 	}
-	air_tracers = {
+	airborne_early_warning = {
 		research_cost = 1
 		start_year = 1948
 		
@@ -4680,7 +4680,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1948 }
+			position = { x = -3 y = 27 }
 		}
 
 		ai_will_do = {
@@ -4707,7 +4707,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1948 }
+			position = { x = 1 y = 27 }
 		}
 
 		ai_will_do = {
@@ -4730,11 +4730,11 @@ technologies = {
 		}
 		sub_retreat_speed = 0.05
 
-		start_year = 1951
+		start_year = 1952
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1948 }
+			position = { x = 0 y = 29 }
 		}
 
 		ai_will_do = {
@@ -4760,7 +4760,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1948 }
+			position = { x = -2 y = 29 }
 		}
 
 		ai_will_do = {
@@ -4918,7 +4918,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = air_tracers
+			leads_to_tech = airborne_early_warning
 			research_cost_coeff = 1
 		}
 		path = {

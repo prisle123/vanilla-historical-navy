@@ -6524,4 +6524,13 @@ equipment_modules = {
 			build_cost_ic = 0.1
 		}
 	}
+	structural_aluminum = {
+		category = ship_miscellaneous
+		multiply_stats = {
+			build_cost_ic = -0.1
+		}
+		build_cost_resources = {
+			aluminum = 2
+		}
+	}
 }
