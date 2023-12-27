@@ -6422,6 +6422,7 @@ equipment_modules = {
 	}
 	full_missile_upgrade = {
 		category = ship_miscellaneous
+		add_equipment_type = capital_ship
 		add_stats = {
 			reliability = 0.3
 		}
