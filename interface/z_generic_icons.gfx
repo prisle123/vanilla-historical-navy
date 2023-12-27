@@ -22,6 +22,10 @@ spriteTypes = {
         		name = "GFX_vnr_ship_hull_light_5_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer5.png"
         	}
+			spriteType = {
+        		name = "GFX_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -43,6 +47,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_vnr_ship_hull_cruiser_5_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser5.png"
+        	}
+			spriteType = {
+        		name = "GFX_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser6.png"
         	}
 	# heavy cruiser
 
@@ -69,6 +77,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_vnr_ship_hull_cruiser_5_capital_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_heavy_cruiser5.png"
+        	}
+			spriteType = {
+        		name = "GFX_vnr_ship_hull_cruiser_6_capital_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_heavy_cruiser6.png"
         	}
         	spriteType = {
         		name = "GFX_vnr_ship_hull_cruiser_panzerschiff_medium"
@@ -152,6 +164,10 @@ spriteTypes = {
         		name = "GFX_vnr_ship_hull_submarine_4_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_submarine4.png"
         	}
+			spriteType = {
+        		name = "GFX_vnr_ship_hull_submarine_5_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_submarine5.png"
+        	}
         	spriteType = {
         		name = "GFX_vnr_ship_hull_cruiser_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_cruiser_submarine.png"
@@ -198,6 +214,10 @@ spriteTypes = {
         		name = "GFX_advanced_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_destroyer5.png"
         	}
+			spriteType = {
+        		name = "GFX_modern_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_destroyer6.png"
+        	}
 	# cruiser
 
         	spriteType = {
@@ -219,6 +239,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_advanced_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser5.png"
+        	}
+			spriteType = {
+        		name = "GFX_modern_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_light_cruiser6.png"
         	}
 	# battleship
 
@@ -260,6 +284,10 @@ spriteTypes = {
         		name = "GFX_advanced_ship_hull_carrier_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_carrier4.png"
         	}
+			spriteType = {
+        		name = "GFX_super_carriers_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_super_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -277,6 +305,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_advanced_ship_hull_submarine_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_submarine4.png"
+        	}
+			spriteType = {
+        		name = "GFX_modern_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_submarine5.png"
         	}
 			
 	# wunderwaffe
