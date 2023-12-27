@@ -103,6 +103,7 @@ naval_submarine = {
 		priority = {
 			base = 0
 			modifier = { add = 50 has_tech = advanced_ship_hull_submarine }
+			modifier = { factor = 0 has_tech = modern_ship_hull_submarine }
 		}
 
 		target_variant = {
@@ -117,6 +118,33 @@ naval_submarine = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				front_1_custom_slot = ship_torpedo_sub
+				rear_1_custom_slot = ship_torpedo_sub
+			}
+		}
+	}
+
+	submarine_1947 = {
+		name = vnr_ss_1947
+		role_icon_index = 37
+		priority = {
+			base = 0
+			modifier = { add = 50 has_tech = modern_ship_hull_submarine }
+		}
+
+		target_variant = {
+			type = vnr_ship_hull_submarine_5
+			match_value = 5000.0
+
+			modules = {
+				mid_1_custom_slot = sub_ship_periscope
+				mid_2_custom_slot = ship_sub_snorkel
+				mid_3_custom_slot = sub_ship_stealth
+				fixed_ship_engine_slot = sub_ship_engine
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_armor_slot = pressure_hull
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_extra_secondaries_slot = sub_wire_guided_torpedo
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}

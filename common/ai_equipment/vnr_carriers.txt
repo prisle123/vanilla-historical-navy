@@ -159,6 +159,7 @@ naval_carrier = {
 		priority = {
 			base = 0
 			modifier = { add = 100 has_tech = super_carriers }
+			modifier = { factor = 0 has_global_flag = naval_tech_1946 }
 		}
 
 		target_variant = {
@@ -180,6 +181,38 @@ naval_carrier = {
 				mid_1_custom_slot = ship_deck_space_big
 				mid_2_custom_slot = ship_deck_space_big
 				rear_1_custom_slot = ship_anti_air
+			}
+		}
+	}
+
+	carrier_1947 = {
+		name = vnr_cv_1947
+		role_icon_index = 9
+
+		priority = {
+			base = 0
+			modifier = { add = 100 has_tech = nuclear_engine_research }
+		}
+
+		target_variant = {
+			match_value = 2000.0
+
+			type = vnr_ship_hull_super_carrier
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space_big
+				fixed_ship_deck_slot_2 = ship_deck_space_big
+				fixed_ship_anti_air_slot = ship_missile_aa
+				fixed_ship_armor_slot = ship_carrier_armor_heavy
+				fixed_ship_engine_slot = carrier_ship_engine_nuclear
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
+				fixed_ship_carrier_miscellaneous_slot_1 = economical_nuclear_reactor_carrier
+				front_1_custom_slot = steam_catapult
+				front_2_custom_slot = carrier_angled_deck
+				mid_1_custom_slot = ship_deck_space_big
+				mid_2_custom_slot = ship_deck_space_big
+				rear_1_custom_slot = ship_missile_aa
 			}
 		}
 	}
