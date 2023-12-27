@@ -5888,6 +5888,7 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_cg = {
 		category = c_role
+		add_equipment_type = capital_ship
 		multiply_stats = {
 			anti_air_attack = 0.1
 			build_cost_ic = 0.2
