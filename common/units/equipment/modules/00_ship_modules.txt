@@ -6568,11 +6568,12 @@ equipment_modules = {
 			reliability = -0.1
 			armor_value = -0.2
 			max_strength = -0.1
-			build_cost_ic = -0.2
+			naval_speed = 0.2
+			build_cost_ic = 0.2
 		}
 		build_cost_resources = {
 			aluminium = 2
-			steel = -2
+			steel = -3
 		}
 	}
 }
