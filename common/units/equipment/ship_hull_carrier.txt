@@ -44,7 +44,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { carrier_ship_engine carrier_ship_engine_nuclear }
+				allowed_module_categories = { carrier_ship_engine }
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
@@ -549,7 +549,10 @@ equipments = {
 				allowed_module_categories = { ship_anti_air ship_missle_aa }
 			}
 			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { carrier_ship_engine carrier_ship_engine_nuclear }
+			}
 			fixed_ship_secondaries_slot = {
 				required = no
 				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
@@ -608,7 +611,7 @@ equipments = {
 		}
 
 		naval_range = 6000
-		reliability = 0.8
+		reliability = 1.5
 		max_strength = 300
 		naval_speed = 27
 		surface_visibility = 30
