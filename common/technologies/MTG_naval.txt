@@ -4482,10 +4482,14 @@ technologies = {
 		}
 
 		start_year = 1949
+		research_cost = 1.5
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = 23 }
+		}
+		dependencies = {
+			nuclear_reactor = 1
 		}
 
 		ai_will_do = {
