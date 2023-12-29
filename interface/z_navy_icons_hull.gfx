@@ -2159,6 +2159,10 @@ spriteTypes = {
         		name = "GFX_USA_vnr_ship_hull_light_5_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_destroyer5.png"
         	}
+			spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -2181,6 +2185,10 @@ spriteTypes = {
         		name = "GFX_USA_vnr_ship_hull_cruiser_5_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser5.png"
         	}
+			spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser6.png"
+        	}
 	# heavy cruiser
 
         	spriteType = {
@@ -2202,6 +2210,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_USA_vnr_ship_hull_cruiser_5_capital_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser5.png"
+        	}
+			spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_6_capital_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser6.png"
         	}
         	spriteType = {
         		name = "GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium"
@@ -2259,6 +2271,10 @@ spriteTypes = {
         		name = "GFX_USA_vnr_ship_hull_carrier_3_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_carrier4.png"
         	}
+			spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_super_carrier_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_super_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -2276,6 +2292,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_USA_vnr_ship_hull_submarine_4_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_submarine4.png"
+        	}
+			spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_submarine_5_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_submarine5.png"
         	}
         	spriteType = {
         		name = "GFX_USA_vnr_ship_hull_cruiser_submarine_medium"

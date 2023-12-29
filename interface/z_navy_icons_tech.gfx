@@ -1577,6 +1577,10 @@ spriteTypes = {
         		name = "GFX_USA_advanced_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_destroyer5.png"
         	}
+			spriteType = {
+        		name = "GFX_USA_modern_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_destroyer6.png"
+        	}
 	# cruiser
 
         	spriteType = {
@@ -1598,6 +1602,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_USA_advanced_ship_hull_cruiser_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser5.png"
+        	}
+			spriteType = {
+        		name = "GFX_USA_modern_ship_hull_cruiser_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_light_cruiser6.png"
         	}
 	# battleship
 
@@ -1639,6 +1647,10 @@ spriteTypes = {
         		name = "GFX_USA_advanced_ship_hull_carrier_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_carrier4.png"
         	}
+			spriteType = {
+        		name = "GFX_USA_super_carriers_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_super_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -1656,6 +1668,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_USA_advanced_ship_hull_submarine_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_submarine4.png"
+        	}
+			spriteType = {
+        		name = "GFX_USA_modern_ship_hull_submarine_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_submarine5.png"
         	}
 			
 ### POL ###

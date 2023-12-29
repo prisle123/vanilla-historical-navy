@@ -1197,4 +1197,62 @@ spriteTypes = {
 		name = "GFX_SMI_vlf_receiver"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/vlf_receiver.png"
 	}
+
+	# cold war equipments
+	spriteType = {
+		name = "GFX_SMI_ship_depth_charge_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/depth_charge5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sonar_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_sonar_4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_light_role_ddg"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_ddg.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_radar_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_radar5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_decoy_launcher"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_decoy_launcher.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_engine_nuclear"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_engine_nuclear.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_full_missile_upgrade"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/full_missile_upgrade.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_economical_nuclear_reactor"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/economical_nuclear_reactor.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_fire_control_system_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_fire_control_system_5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_display_system"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_display_system.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_recon_drone_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/recon_drone_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_tracing_unit"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_tracing_unit.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_wire_guided_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_wire_guided_torpedo.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_structural_aluminum"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/structural_aluminum.png"
+	}
 }
