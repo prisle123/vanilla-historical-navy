@@ -395,7 +395,7 @@ equipments = {
 			fixed_ship_deck_slot_2 = inherit
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missle_aa }
+				allowed_module_categories = { ship_anti_air ship_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
@@ -546,7 +546,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missle_aa }
+				allowed_module_categories = { ship_anti_air ship_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
@@ -598,7 +598,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 					ship_anti_air
-					ship_missle_aa
+					ship_missile_aa
 					carrier_side_lift
 				}
 			}

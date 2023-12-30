@@ -1976,10 +1976,6 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		forbid_module_categories = {
-			ship_secondaries
-		}
-
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 250
@@ -2012,10 +2008,6 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 9
 			max_strength = 10
-		}
-
-		forbid_module_categories = {
-			ship_secondaries
 		}
 
 		can_convert_from = {
@@ -2055,11 +2047,6 @@ equipment_modules = {
 			lg_armor_piercing = 11
 			max_strength = 10
 		}
-		
-
-		forbid_module_categories = {
-			ship_secondaries
-		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2096,11 +2083,6 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 13
 			max_strength = 10
-		}
-		
-
-		forbid_module_categories = {
-			ship_secondaries
 		}
 
 		can_convert_from = {
@@ -2143,10 +2125,6 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		forbid_module_categories = {
-			ship_secondaries
-		}
-
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 250
@@ -2179,10 +2157,6 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 9
 			max_strength = 10
-		}
-
-		forbid_module_categories = {
-			ship_secondaries
 		}
 
 		can_convert_from = {
@@ -2222,11 +2196,6 @@ equipment_modules = {
 			lg_armor_piercing = 11
 			max_strength = 10
 		}
-		
-
-		forbid_module_categories = {
-			ship_secondaries
-		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2263,11 +2232,6 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 13
 			max_strength = 10
-		}
-		
-
-		forbid_module_categories = {
-			ship_secondaries
 		}
 
 		can_convert_from = {
@@ -2310,10 +2274,6 @@ equipment_modules = {
 			max_strength = 10
 		}
 
-		forbid_module_categories = {
-			ship_secondaries
-		}
-
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 225
@@ -2346,10 +2306,6 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 7.0
 			max_strength = 10
-		}
-
-		forbid_module_categories = {
-			ship_secondaries
 		}
 
 		can_convert_from = {
@@ -2389,11 +2345,6 @@ equipment_modules = {
 			lg_armor_piercing = 8
 			max_strength = 10
 		}
-		
-
-		forbid_module_categories = {
-			ship_secondaries
-		}
 
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -2430,11 +2381,6 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 9
 			max_strength = 10
-		}
-		
-
-		forbid_module_categories = {
-			ship_secondaries
 		}
 
 		can_convert_from = {
@@ -2476,10 +2422,6 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 8
 			max_strength = 10
-		}
-
-		forbid_module_categories = {
-			ship_secondaries
 		}
 		
 		can_convert_from = {
@@ -5575,10 +5517,10 @@ equipment_modules = {
 			anti_air_attack = 10
 			naval_heavy_gun_hit_chance_factor = 0.05
 			naval_light_gun_hit_chance_factor = 0.05
-			reliability = -0.1
+			reliability = -0.075
 		}
 		multiply_stats = {
-			naval_speed = -0.08
+			naval_speed = -0.05
 		}
 	}
 
@@ -6372,6 +6314,7 @@ equipment_modules = {
 	}
 	ship_decoy_launcher = {
 		category = ship_miscellaneous
+		gui_category = cold_war_miscellaneous
 		multiply_stats = {
 			surface_visibility = -0.05
 		}
@@ -6387,7 +6330,6 @@ equipment_modules = {
 		parent = heavy_ship_engine_5
 		add_stats = {
 			#naval_speed = 12
-			fuel_consumption = 0
 			naval_range = 50000
 			build_cost_ic = 6000
 			reliability = -0.3
@@ -6395,6 +6337,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.6
+			fuel_consumption = -1
 		}
 		build_cost_resources = {
 			steel = 2
@@ -6409,14 +6352,14 @@ equipment_modules = {
 		parent = cruiser_ship_engine_5
 		add_stats = {
 			#naval_speed = 7
-			fuel_consumption = 0
 			build_cost_ic = 3200
 			naval_range = 50000
 			reliability = -0.5
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.45
+			naval_speed = 0.55
+			fuel_consumption = -1
 		}
 		build_cost_resources = {
 			steel = 2
@@ -6431,7 +6374,6 @@ equipment_modules = {
 		parent = carrier_ship_engine_4
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 0
 			build_cost_ic = 4500
 			naval_range = 50000
 			reliability = -0.5
@@ -6439,6 +6381,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.6
+			fuel_consumption = -1
 		}
 		build_cost_resources = {
 			steel = 2
@@ -6447,6 +6390,7 @@ equipment_modules = {
 	}
 	full_missile_upgrade = {
 		category = ship_miscellaneous
+		gui_category = cold_war_miscellaneous
 		add_stats = {
 			reliability = 0.3
 		}
@@ -6457,6 +6401,7 @@ equipment_modules = {
 			ship_super_heavy_battery
 			ship_super_heavy_battery_triple
 			ship_super_heavy_battery_quad
+			ship_medium_heavy_battery
 			ship_medium_battery
 			ship_medium_battery_double
 			ship_medium_battery_single
@@ -6468,9 +6413,10 @@ equipment_modules = {
 	}
 	economical_nuclear_reactor_cruiser = {
 		category = ship_miscellaneous
+		gui_category = cold_war_miscellaneous
 		gfx = economical_nuclear_reactor
 		multiply_stats = {
-			build_cost_ic = -0.2
+			build_cost_ic = -0.3
 		}
 		forbid_module_categories = {
 			heavy_ship_engine
@@ -6482,7 +6428,7 @@ equipment_modules = {
 		category = carrier_miscellaneous
 		gfx = economical_nuclear_reactor
 		multiply_stats = {
-			build_cost_ic = -0.2
+			build_cost_ic = -0.3
 		}
 		forbid_module_categories = {
 			carrier_ship_engine
@@ -6515,6 +6461,7 @@ equipment_modules = {
 	}
 	ship_display_system = {
 		category = ship_miscellaneous
+		gui_category = cold_war_miscellaneous
 		add_stats = {
 			surface_detection = 5
 			max_organisation = 0.1
@@ -6525,6 +6472,7 @@ equipment_modules = {
 	}
 	recon_drone_1 = {
 		category = ship_miscellaneous
+		gui_category = cold_war_miscellaneous
 		add_stats = {
 			surface_detection = 3
 			sub_detection = 3
@@ -6549,7 +6497,6 @@ equipment_modules = {
 
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 0
 			build_cost_ic = 3000
 			naval_range = 50000
 			reliability = -0.3
@@ -6559,6 +6506,7 @@ equipment_modules = {
 			naval_speed = 0.3
 			sub_visibility = -0.3
 			max_strength = -0.1
+			fuel_consumption = -1
 		}
 	}
 	sub_wire_guided_torpedo = {
@@ -6570,11 +6518,12 @@ equipment_modules = {
 	}
 	structural_aluminum = {
 		category = ship_miscellaneous
+		gui_category = cold_war_miscellaneous
 		multiply_stats = {
 			reliability = -0.1
 			armor_value = -0.2
 			max_strength = -0.1
-			naval_speed = 0.2
+			naval_speed = 0.3
 			build_cost_ic = 0.2
 		}
 		build_cost_resources = {

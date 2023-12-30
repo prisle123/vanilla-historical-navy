@@ -64,6 +64,8 @@ equipment_modules = {
 
 	usa_8in_mk9_secondaries = {
 		category = ship_secondaries
+		gfx = ship_medium_battery_2_double
+		sfx = sfx_ui_sd_module_turret
 		add_stats = {
 			hg_attack = 4.5
 			lg_attack = 3.5

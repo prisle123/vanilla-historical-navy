@@ -1876,6 +1876,19 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
+				name = "naval_year7"
+				position = { x = 20 y = 1560 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = {x = 0 y = 4}
+				text = "1955"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
 				name = "naval_subtitle_destroyer"
 				position = { x = 220 y = 35 }
 				textureFile = ""
