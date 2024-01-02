@@ -3753,6 +3753,10 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 1 y = @1944_module_2 }
 		}
+		path = {
+			leads_to_tech = super_carriers
+			research_cost_coeff = 1
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -3809,6 +3813,10 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -3 y = @1944_module_2 }
+		}
+		path = {
+			leads_to_tech = super_carriers
+			research_cost_coeff = 1
 		}
 		
 		ai_will_do = {
@@ -4912,14 +4920,9 @@ technologies = {
 			ship_carrier_armor_heavy
 			ship_deck_space_big
 		}
-		dependencies = {
-			full_armored_carrier = 1
-			carrier_angled_deck = 1
-			carrier_steam_catapult = 1
-		}
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 23 }
+			position = { x = -1 y = @1948 }
 		}
 		path = {
 			leads_to_tech = tactical_air_navigation_system

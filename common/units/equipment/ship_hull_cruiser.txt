@@ -818,7 +818,7 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1850
 		can_convert_from = { vnr_ship_hull_cruiser_panzerschiff }
-		parent = vnr_ship_hull_cruiser_5
+		parent = vnr_ship_hull_cruiser_6
 
 		manpower = 1800
 		build_cost_ic = 3500

@@ -2920,6 +2920,7 @@ equipment_modules = {
 	}
 	ship_sub_torpedo_computer = {
 		category = sub_fire_control_system
+		gui_category = ship_fire_control_system
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
