@@ -502,7 +502,7 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine }
+				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine civilian_ship_engine }
 			}
 		}
 
@@ -522,7 +522,7 @@ equipments = {
 		naval_speed = 20
 		sub_detection = 8.5
 		surface_visibility = 20
-		build_cost_ic = 800
+		build_cost_ic = 600
 		resources = {
 			steel = 1
 		}
