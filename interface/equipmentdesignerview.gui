@@ -625,7 +625,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "niche_icon_selector"
 			position = { x=520 y=83 }
-			size = { width=865 height=320 }
+			size = { width=750 height=320 }
 			
 			background = {
 				name = "Background"
@@ -665,7 +665,7 @@ guiTypes = {
 					font = "hoi_16mbs"
 					borderSize = {x = 0 y = 0}
 					text = "SHIP_ROLE_ICON_TEXT"
-					maxWidth = 300
+					maxWidth = 185
 					maxHeight = 300
 					format = left
 					scrollbartype = "standardtext_slider"
