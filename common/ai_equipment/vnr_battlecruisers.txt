@@ -10,8 +10,7 @@ naval_capital_bc = {
 		role_icon_index = 15
 
 		priority = {
-			base = 10
-			modifier = { factor = 0 has_tech = improved_ship_hull_heavy }
+			base = 0
 		}
 
 		target_variant = {
@@ -44,8 +43,7 @@ naval_capital_bc = {
 		role_icon_index = 1
 
 		priority = {
-			base = 10
-			modifier = { factor = 0 has_tech = advanced_ship_hull_heavy }
+			base = 0
 		}
 
 		target_variant = {
@@ -80,7 +78,6 @@ naval_capital_bc = {
 
 		priority = {
 			base = 0
-			modifier = { add = 10 has_tech = advanced_ship_hull_heavy }
 		}
 
 		target_variant = {
