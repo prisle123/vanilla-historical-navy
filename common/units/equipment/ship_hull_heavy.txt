@@ -169,7 +169,7 @@ equipments = {
 
 		surface_detection = 20
 		sub_detection = 1
-		surface_visibility = 20
+		surface_visibility = 26
 		naval_speed = 30
 		reliability = 0.80
 
@@ -487,14 +487,20 @@ equipments = {
 		can_convert_from = { vnr_ship_hull_heavy_5 }
 		parent = vnr_ship_hull_heavy_4
 		module_slots = {
-			fixed_ship_battery_slot = inherit
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_battery ship_heavy_battery_triple ship_heavy_battery_quad ship_super_heavy_battery ship_super_heavy_battery_triple ship_super_heavy_battery_quad ship_missile }
+			}
 			fixed_ship_anti_air_slot = {
 				required = no
 				allowed_module_categories = { ship_anti_air ship_missile_aa }
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { heavy_ship_engine heavy_ship_engine_nuclear }
+			}
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
@@ -601,7 +607,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { super_heavy_ship_engine }
+				allowed_module_categories = { super_heavy_ship_engine heavy_ship_engine_nuclear }
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
@@ -688,6 +694,7 @@ equipments = {
 		max_strength = 330
 		fuel_consumption = 75
 		reliability = 0.9
+		surface_visibility = 35
 		build_cost_ic = 3800
 		resources = {
 			steel = 4

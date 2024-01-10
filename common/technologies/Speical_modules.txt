@@ -11,4 +11,16 @@ technologies = {
             eng_14in_mk7_quad
         }
     }
+
+    usa_8in_mk9 = {
+        research_cost = 1
+        start_year = 1930
+
+        allow = {
+            always = no
+        }
+        enable_equipment_modules = {
+            usa_8in_mk9_secondaries
+        }
+    }
 }

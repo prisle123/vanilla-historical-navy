@@ -1,4 +1,4 @@
-version="v0.14 - Haus in Neu Berlin"
+version="v1.0 - Symphony Op.48 Prelude to Berlin"
 tags={
 	"Military"
 	"Graphics"

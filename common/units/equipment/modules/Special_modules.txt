@@ -61,4 +61,25 @@ equipment_modules = {
 			ship_mine_layer
 		}
     }
+
+	usa_8in_mk9_secondaries = {
+		category = ship_secondaries
+		gfx = ship_medium_battery_2_double
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			hg_attack = 4.5
+			lg_attack = 3.5
+			build_cost_ic = 600
+			surface_visibility = 0.5
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22
+			lg_armor_piercing = 9
+		}
+		dismantle_cost_ic = 1000
+		critical_parts = { damaged_secondaries }
+	}
 }

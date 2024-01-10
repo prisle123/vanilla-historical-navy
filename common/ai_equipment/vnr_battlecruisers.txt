@@ -10,8 +10,7 @@ naval_capital_bc = {
 		role_icon_index = 15
 
 		priority = {
-			base = 10
-			modifier = { factor = 0 has_tech = improved_ship_hull_heavy }
+			base = 0
 		}
 
 		target_variant = {
@@ -29,6 +28,7 @@ naval_capital_bc = {
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt torpedo_bulge } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_heavy_battery
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_secondaries
@@ -43,8 +43,7 @@ naval_capital_bc = {
 		role_icon_index = 1
 
 		priority = {
-			base = 10
-			modifier = { factor = 0 has_tech = advanced_ship_hull_heavy }
+			base = 0
 		}
 
 		target_variant = {
@@ -62,6 +61,7 @@ naval_capital_bc = {
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt torpedo_bulge } }
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_anti_air
@@ -78,7 +78,6 @@ naval_capital_bc = {
 
 		priority = {
 			base = 0
-			modifier = { add = 10 has_tech = advanced_ship_hull_heavy }
 		}
 
 		target_variant = {
@@ -96,6 +95,7 @@ naval_capital_bc = {
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt torpedo_bulge } }
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_anti_air

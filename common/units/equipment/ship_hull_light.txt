@@ -198,7 +198,6 @@ equipments = {
 
 		surface_detection = 15
 		sub_detection = 1
-		surface_visibility = 13
 		naval_speed = 28
 		reliability = 0.75
 
@@ -351,5 +350,126 @@ equipments = {
 		}
 		manpower = 500
 		naval_speed = 34
+	}
+
+	vnr_ship_hull_light_6 = {
+		year = 1949
+
+		archetype = ship_hull_light
+		priority = 2000
+		parent = vnr_ship_hull_light_5
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { 
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
+					ship_light_medium_battery
+					ship_light_medium_battery_double
+					ship_light_medium_battery_single
+					ship_missile
+					ship_missile_aa
+				}
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air ship_missile_aa }
+			}
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_role_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_depth_charge
+					ship_anti_air
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
+					ship_light_medium_battery
+					ship_light_medium_battery_double
+					ship_light_medium_battery_single
+					ship_missile_aa
+				}
+			}
+			front_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_depth_charge
+					ship_anti_air
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
+					ship_missile_aa
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
+					ship_missile
+					ship_missile_aa
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
+					ship_light_medium_battery
+					ship_light_medium_battery_double
+					ship_light_medium_battery_single
+					ship_missile
+					ship_missile_aa
+				}
+			}
+			rear_2_custom_slot = mid_1_custom_slot
+		}
+
+
+		surface_detection = 20
+		reliability = 1.5
+		naval_range = 3000
+		max_strength = 100
+		build_cost_ic = 800
+		resources = {
+			steel = 4
+			chromium = 1
+		}
+		manpower = 800
+		naval_speed = 36.5
+
+		module_count_limit = {
+			category = ship_missile
+			count < 3
+		}
+		module_count_limit = {
+			category = ship_missile_aa
+			count < 3
+		}
 	}
 }

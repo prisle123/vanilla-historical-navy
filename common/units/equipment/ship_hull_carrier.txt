@@ -98,7 +98,7 @@ equipments = {
 
 		surface_detection = 26
 		sub_detection = 7.5
-		surface_visibility = 30
+		surface_visibility = 23
 		naval_speed = 26
 		reliability = 0.70
 
@@ -157,6 +157,7 @@ equipments = {
 
 		reliability = 0.65
 		naval_speed = 20
+		surface_visibility = 22
 		build_cost_ic = 1200
 		resources = {
 			steel = 2
@@ -222,6 +223,7 @@ equipments = {
 		reliability = 0.65
 		max_strength = 250
 		naval_speed = 26
+		surface_visibility = 30
 
 
 		build_cost_ic = 2400
@@ -393,7 +395,7 @@ equipments = {
 			fixed_ship_deck_slot_2 = inherit
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missle_aa }
+				allowed_module_categories = { ship_anti_air ship_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
@@ -500,7 +502,7 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine }
+				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine civilian_ship_engine }
 			}
 		}
 
@@ -519,8 +521,8 @@ equipments = {
 		reliability = 0.7
 		naval_speed = 20
 		sub_detection = 8.5
-		surface_visibility = 25
-		build_cost_ic = 800
+		surface_visibility = 20
+		build_cost_ic = 600
 		resources = {
 			steel = 1
 		}
@@ -544,10 +546,13 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missle_aa }
+				allowed_module_categories = { ship_anti_air ship_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { carrier_ship_engine carrier_ship_engine_nuclear }
+			}
 			fixed_ship_secondaries_slot = {
 				required = no
 				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
@@ -593,7 +598,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries
 					ship_anti_air
-					ship_missle_aa
+					ship_missile_aa
 					carrier_side_lift
 				}
 			}
@@ -606,9 +611,10 @@ equipments = {
 		}
 
 		naval_range = 6000
-		reliability = 0.8
+		reliability = 1.5
 		max_strength = 300
-		naval_speed = 27
+		naval_speed = 29
+		surface_visibility = 30
 
 		module_count_limit = {
 			category = carrier_angled_deck

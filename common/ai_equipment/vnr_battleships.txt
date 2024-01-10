@@ -30,6 +30,7 @@ naval_capital_battleship = {
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental_post_jutland ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt torpedo_bulge } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_heavy_battery
 				mid_1_custom_slot = ship_secondaries
 				mid_2_custom_slot = ship_anti_air
@@ -63,6 +64,7 @@ naval_capital_battleship = {
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental_post_jutland ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_heavy_battery
 				mid_1_custom_slot = ship_secondaries
 				mid_2_custom_slot = ship_anti_air
@@ -91,15 +93,16 @@ naval_capital_battleship = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_4 heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_armor_slot = { any_of = { ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				mid_1_custom_slot = ship_secondaries
 				mid_2_custom_slot = ship_anti_air
-				mid_3_custom_slot = ship_secondaries
+				mid_3_custom_slot = ship_dp_secondaries
 				rear_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				rear_2_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 			}
@@ -112,6 +115,7 @@ naval_capital_battleship = {
 		priority = {
 			base = 10
 			modifier = { add = 50 has_tech = advanced_ship_hull_heavy }
+			modifier = { factor = 0 has_global_flag = naval_tech_1945 }
 		}
 
 		target_variant = {
@@ -124,17 +128,52 @@ naval_capital_battleship = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_5 heavy_ship_engine_4 heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_armor_slot = { any_of = { ship_armor_bb_4 ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
-				mid_1_custom_slot = ship_secondaries
+				mid_1_custom_slot = ship_dp_secondaries
 				mid_2_custom_slot = ship_anti_air
-				mid_3_custom_slot = ship_secondaries
+				mid_3_custom_slot = ship_dp_secondaries
 				rear_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				rear_2_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
+			}
+		}
+	}
+
+	capital_battleship_1946 = {
+		name = vnr_bb_1946
+		role_icon_index = 57
+
+		priority = {
+			base = 50
+		}
+
+		target_variant = {
+			match_value = 5000.0
+
+			type = vnr_ship_hull_heavy_5
+			modules = {
+				fixed_ship_battery_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
+				fixed_ship_anti_air_slot = ship_missile_aa
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_5 heavy_ship_engine_4 heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_armor_slot = { any_of = { ship_armor_bb_4 ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
+				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
+				front_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
+				mid_1_custom_slot = ship_dp_secondaries
+				mid_2_custom_slot = ship_missile
+				mid_3_custom_slot = ship_missile_aa
+				rear_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
+				rear_2_custom_slot = ship_missile
 			}
 		}
 	}
@@ -163,6 +202,7 @@ naval_capital_battleship = {
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental_post_jutland ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_extra_secondaries_slot = ship_miscellaneous
 				front_1_custom_slot = ship_super_heavy_battery_triple
 				mid_1_custom_slot = ship_secondaries
 				mid_2_custom_slot = ship_anti_air

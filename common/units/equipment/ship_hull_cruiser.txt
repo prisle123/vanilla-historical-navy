@@ -45,7 +45,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { cruiser_ship_engine civilian_ship_engine }
+				allowed_module_categories = { cruiser_ship_engine civilian_ship_engine cruiser_ship_engine_nuclear }
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
@@ -180,7 +180,7 @@ equipments = {
 
 		surface_detection = 20
 		sub_detection = 1
-		surface_visibility = 15
+		surface_visibility = 20
 		naval_speed = 30
 		reliability = 0.80
 
@@ -493,7 +493,6 @@ equipments = {
 
 		surface_detection = 15
 		sub_detection = 1
-		surface_visibility = 18
 		naval_speed = 28
 		reliability = 0.75
 
@@ -518,6 +517,9 @@ equipments = {
 
 		module_slots = inherit
 		naval_speed = 29
+		default_modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+		}
 	}
 
 	vnr_ship_hull_cruiser_3 = {
@@ -540,8 +542,7 @@ equipments = {
 		module_slots = inherit
 
 		default_modules = {
-			front_1_custom_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_engine_slot = cruiser_ship_engine_3
 		}
 	}
 
@@ -565,9 +566,7 @@ equipments = {
 		module_slots = inherit
 
 		default_modules = {
-			front_1_custom_slot = empty
-			rear_1_custom_slot = empty
-			rear_2_custom_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_4
 		}
 	}
 
@@ -675,6 +674,156 @@ equipments = {
 			}
 			rear_2_custom_slot = rear_1_custom_slot
 		}
+		default_modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_5
+		}
+	}
+	vnr_ship_hull_cruiser_6 = {
+		year = 1949
+		visual_level = 1
+		archetype = ship_hull_cruiser
+		priority = 1900
+		parent = vnr_ship_hull_cruiser_5
+		naval_speed = 35
+		reliability = 1.5
+		manpower = 2500
+		build_cost_ic = 2500
+		naval_range = 5000
+		max_strength = 200
+		resources = {
+			steel = 3
+		}
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_medium_battery_single
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
+					ship_missile
+				}
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air ship_missile_aa }
+			}
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { cruiser_ship_engine civilian_ship_engine cruiser_ship_engine_nuclear }
+			}
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			fixed_ship_airplane_launcher_slot = inherit
+			fixed_ship_role_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
+			fixed_ship_extra_missile_slot = fixed_ship_extra_secondaries_slot
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_medium_battery_single
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
+					ship_missile
+					ship_missile_aa
+				}
+			}
+			front_2_custom_slot = front_1_custom_slot
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
+					ship_secondaries
+					ship_dp_secondaries
+					ship_airplane_launcher
+					ship_mine_layer
+					ship_missile
+					ship_missile_aa
+
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_medium_battery_single
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_airplane_launcher
+					ship_mine_layer
+					ship_depth_charge
+					ship_torpedo
+					ship_missile
+					ship_missile_aa
+
+					ship_light_medium_battery 
+					ship_light_medium_battery_double 
+					ship_light_medium_battery_single 
+					ship_medium_battery
+					ship_medium_battery_double
+					ship_medium_battery_single
+					ship_light_battery
+					ship_light_battery_double
+					dp_light_battery
+					dp_light_battery_single
+					ship_medium_heavy_battery 
+				}
+			}
+			rear_2_custom_slot = rear_1_custom_slot
+		}
+
+		module_count_limit = {
+			category = ship_missile
+			count < 6
+		}
+		module_count_limit = {
+			category = ship_missile_aa
+			count < 8
+		}
+		module_count_limit = {
+			module = full_missile_upgrade
+			count < 2
+		}
+		module_count_limit = {
+			module = economical_nuclear_reactor_cruiser
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_display_system
+			count < 2
+		}
+		default_modules = {
+			fixed_ship_engine_slot = cruiser_ship_engine_5
+		}
 	}
 	vnr_ship_hull_cruiser_panzerschiff = {
 		abbreviation = "hbf"
@@ -683,12 +832,12 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1850
 		can_convert_from = { vnr_ship_hull_cruiser_panzerschiff }
-		parent = vnr_ship_hull_cruiser_5
+		parent = vnr_ship_hull_cruiser_6
 
 		manpower = 1800
 		build_cost_ic = 3500
 		naval_speed = 25
-		surface_visibility = 22
+		surface_visibility = 21
 		naval_range = 7500
 		max_strength = 220
 		reliability = 0.7

@@ -1334,78 +1334,6 @@ country_event = {
 	}
 }
 
-# add some cv planes for AI countries with CVs per 100 days
-country_event = {
-	id = ai_ships.100
-	hidden = yes
-	fire_only_once = no
-	trigger = {
-		is_ai = yes
-		has_navy_size = { size > 0 unit = carrier }
-		NOT = { has_country_flag = Naval_Rework_carrier_plane_added }
-	}
-	immediate = {
-		set_country_flag = { flag = Naval_Rework_carrier_plane_added value = 1 days = 100}
-		if = {
-			limit = { has_dlc = "By Blood Alone" }
-			if = {
-				limit = { has_tech = advanced_small_airframe }
-				add_equipment_to_stockpile = { type = cv_small_plane_naval_bomber_airframe_3 amount = 50 producer = ROOT }
-				add_equipment_to_stockpile = { type = cv_small_plane_airframe_3 amount = 50 producer = ROOT }
-			}
-			else_if = {
-				limit = { has_tech = improved_small_airframe }
-				add_equipment_to_stockpile = { type = cv_small_plane_naval_bomber_airframe_2 amount = 50 producer = ROOT }
-				add_equipment_to_stockpile = { type = cv_small_plane_airframe_2 amount = 50 producer = ROOT }
-			}
-			else_if = {
-				limit = { has_tech = basic_small_airframe }
-				add_equipment_to_stockpile = { type = cv_small_plane_naval_bomber_airframe_1 amount = 50 producer = ROOT }
-				add_equipment_to_stockpile = { type = cv_small_plane_airframe_1 amount = 50 producer = ROOT }
-			}
-			else_if = {
-				limit = { has_tech = iw_small_airframe }
-				add_equipment_to_stockpile = { type = cv_small_plane_naval_bomber_airframe_0 amount = 50 producer = ROOT }
-				add_equipment_to_stockpile = { type = cv_small_plane_airframe_0 amount = 50 producer = ROOT }
-			}
-		}
-		else = {
-			if = {
-				limit = {
-					has_tech = cv_fighter3
-					has_tech = cv_naval_bomber3
-				}
-				add_equipment_to_stockpile = { type = cv_fighter_equipment_3 amount = 50 producer = ROOT }
-				add_equipment_to_stockpile = { type = cv_nav_bomber_equipment_3 amount = 50 producer = ROOT }
-			}
-			else_if = {
-				limit = {
-					has_tech = cv_fighter2
-					has_tech = cv_naval_bomber2
-				}
-				add_equipment_to_stockpile = { type = cv_fighter_equipment_2 amount = 50 producer = ROOT }
-				add_equipment_to_stockpile = { type = cv_nav_bomber_equipment_2 amount = 50 producer = ROOT }
-			}
-			else_if = {
-				limit = {
-					has_tech = cv_fighter1
-					has_tech = cv_naval_bomber1
-				}
-				add_equipment_to_stockpile = { type = cv_fighter_equipment_1 amount = 50 producer = ROOT }
-				add_equipment_to_stockpile = { type = cv_nav_bomber_equipment_1 amount = 50 producer = ROOT }
-			}
-			else_if = {
-				limit = {
-					has_tech = cv_early_fighter
-					has_tech = cv_naval_bomber1
-				}
-				add_equipment_to_stockpile = { type = cv_fighter_equipment_0 amount = 50 producer = ROOT }
-				add_equipment_to_stockpile = { type = cv_nav_bomber_equipment_1 amount = 50 producer = ROOT }
-			}
-		}
-	}
-}
-
 # unlock some naval techs for major powers in 1940
 country_event = {
 	id = ai_ships.101
@@ -1582,9 +1510,87 @@ country_event = {
 					cruiser_missile_upgrade = 1
 					destroyer_missile_upgrade = 1
 					sound_surveillance_system = 1
+					helipad = 1
+					gas_turbine = 1
 				}
 			}
 		}
 		set_global_flag = naval_tech_1945
+	}
+}
+
+# unlock some naval techs for major powers in 1946
+country_event = {
+	id = ai_ships.105
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1946.1.1
+		NOT = { has_global_flag = naval_tech_1946 }
+	}
+	immediate = {
+		for_each_scope_loop = {
+			array = global.vnr_naval_powers
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				set_technology = {
+					modern_ship_hull_light = 1
+					modern_ship_hull_cruiser = 1
+					modern_ship_hull_submarine = 1
+					destroyer_guided_missile_upgrade = 1
+					nuclear_engine_research = 1
+					sub_nuclear_engine = 1
+					full_missile_ship = 1
+					naval_tactical_data_system = 1
+					rocket_depth_charges = 1
+					modern_sonar = 1
+					tactical_air_navigation_system = 1
+					iff_device = 1
+					wire_guided_torpedo = 1
+				}
+			}
+		}
+		set_global_flag = naval_tech_1946
+	}
+}
+
+# unlock some naval techs for major powers in 1949
+country_event = {
+	id = ai_ships.106
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1949.1.1
+		NOT = { has_global_flag = naval_tech_1949 }
+	}
+	immediate = {
+		for_each_scope_loop = {
+			array = global.vnr_naval_powers
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				set_technology = {
+					destroyer_hull_improvement = 1
+					new_ship_materials = 1
+					decoy_launching_system = 1
+					nuclear_reactor_cost_reduction = 1
+					phased_array_radar = 1
+					memory_expansion = 1
+					integrated_combat_system = 1
+					comprehensive_display_system = 1
+					recon_drone_1 = 1
+					electromagnetic_signature_study = 1
+					airborne_early_warning = 1
+					optical_landing_system = 1
+					rescue_submarine = 1
+					hydrocooling_battery = 1
+					sonar_telephone = 1
+				}
+			}
+		}
+		set_global_flag = naval_tech_1949
 	}
 }
