@@ -6417,20 +6417,21 @@ equipment_modules = {
 		category = ship_miscellaneous
 		gui_category = cold_war_miscellaneous
 		gfx = economical_nuclear_reactor
-		multiply_stats = {
-			build_cost_ic = -0.3
+		add_stats = {
+			build_cost_ic = -1300
 		}
 		forbid_module_categories = {
 			heavy_ship_engine
 			cruiser_ship_engine
 			civilian_ship_engine
+			light_ship_engine
 		}
 	}
 	economical_nuclear_reactor_carrier = {
 		category = carrier_miscellaneous
 		gfx = economical_nuclear_reactor
-		multiply_stats = {
-			build_cost_ic = -0.3
+		add_stats = {
+			build_cost_ic = -1000
 		}
 		forbid_module_categories = {
 			carrier_ship_engine
