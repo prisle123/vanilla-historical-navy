@@ -6012,7 +6012,8 @@ equipment_modules = {
 
 	# miscellaneous
 	ship_radar_jammer = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			surface_visibility = -0.1
 		}
@@ -6021,7 +6022,8 @@ equipment_modules = {
 		}
 	}
 	ship_smoke_generator = {
-		category = ship_miscellaneous
+		category = light_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			surface_visibility = -0.05
 			naval_light_gun_hit_chance_factor = -0.01
@@ -6042,7 +6044,8 @@ equipment_modules = {
 		}
 	}
 	ship_bulbous_bow = {
-		category = ship_miscellaneous
+		category = light_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			sub_detection = 0.15
 			naval_speed = 0.05
@@ -6053,7 +6056,8 @@ equipment_modules = {
 		}
 	}
 	ship_aa_fire_control = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			anti_air_attack = 0.05
 		}
@@ -6062,7 +6066,8 @@ equipment_modules = {
 		}
 	}
 	ship_electric_motor = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		add_stats = {
 			max_organisation = 0.1
 			reliability = -0.01
@@ -6072,7 +6077,8 @@ equipment_modules = {
 		}
 	}
 	ship_light_weight_shell = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			hg_attack = -0.05
 			hg_armor_piercing = -0.05
@@ -6081,7 +6087,8 @@ equipment_modules = {
 		}
 	}
 	ship_super_heavy_weight_shell = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
@@ -6090,7 +6097,8 @@ equipment_modules = {
 		}
 	}
 	ship_high_velocity_shell = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		add_stats = {
 			reliability = -0.1
 		}
@@ -6101,7 +6109,8 @@ equipment_modules = {
 		}
 	}
 	ship_anti_air_shell = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		add_stats = {
 			reliability = -0.05
 		}
@@ -6111,7 +6120,8 @@ equipment_modules = {
 		}
 	}
 	ship_vt_shell = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			anti_air_attack = 0.04
 			build_cost_ic = 0.02
@@ -6315,7 +6325,7 @@ equipment_modules = {
 		}
 	}
 	ship_decoy_launcher = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		multiply_stats = {
 			surface_visibility = -0.05
@@ -6391,7 +6401,7 @@ equipment_modules = {
 		}
 	}
 	full_missile_upgrade = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		add_stats = {
 			reliability = 0.3
@@ -6414,7 +6424,7 @@ equipment_modules = {
 		}
 	}
 	economical_nuclear_reactor_cruiser = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
 		gui_category = cold_war_miscellaneous
 		gfx = economical_nuclear_reactor
 		add_stats = {
@@ -6463,7 +6473,7 @@ equipment_modules = {
 		}
 	}
 	ship_display_system = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		add_stats = {
 			surface_detection = 5
@@ -6474,7 +6484,7 @@ equipment_modules = {
 		}
 	}
 	recon_drone_1 = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		add_stats = {
 			surface_detection = 3
@@ -6520,7 +6530,7 @@ equipment_modules = {
 		}
 	}
 	structural_aluminum = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		multiply_stats = {
 			reliability = -0.1

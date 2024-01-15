@@ -60,7 +60,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_miscellaneous }
+				allowed_module_categories = { light_miscellaneous generic_miscellaneous }
 			}
 			front_1_custom_slot = {
 				required = no
