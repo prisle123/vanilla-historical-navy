@@ -2823,6 +2823,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 		}
+		critical_parts = { damaged_fire_control }
 	}
 
 	ship_fire_control_system_1 = {
@@ -2845,6 +2846,7 @@ equipment_modules = {
 			module = ship_fire_control_system_0
 			convert_cost_ic = 85
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_fire_control_system_2 = {
 		abbreviation = "sbh"
@@ -2869,6 +2871,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 145
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_fire_control_system_3 = {
 		abbreviation = "sbi"
@@ -2893,6 +2896,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 145
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_fire_control_system_4 = {
 		category = ship_fire_control_system
@@ -2917,6 +2921,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 200
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_sub_torpedo_computer = {
 		category = sub_fire_control_system
@@ -6471,6 +6476,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 300
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_display_system = {
 		category = generic_miscellaneous
