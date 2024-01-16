@@ -2255,3 +2255,20 @@ we_need_cv_planes_3 = {
 		value = 60
 	}
 }
+
+
+build_more_missile_cruisers = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = modern_ship_hull_cruiser
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = 50
+	}
+}
