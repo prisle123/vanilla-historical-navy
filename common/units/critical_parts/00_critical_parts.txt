@@ -145,16 +145,33 @@ critical_parts = {
         base_damage_instance = 1
         max_damage_instance = 1
     }
-    damaged_flight_deck = {
+    damaged_wooden_flight_deck = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
         stat_penalties = {
-            carrier_size = -0.25
-            navy_org_factor = -0.75
+            carrier_size = -0.2
+            navy_org_factor = -0.3
         }
-        chance = 1
+        chance = 0.8
         org_damage_multiplier = 1.25
         str_damage_multiplier = 1.25
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 3
+    }
+	damaged_armored_flight_deck = {
+        icon = "GFX_default_critical_damage_icons"
+		frame = 6
+        stat_penalties = {
+            carrier_size = -0.1
+            navy_org_factor = -0.15
+        }
+        chance = 0.4
+        org_damage_multiplier = 1
+        str_damage_multiplier = 1
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 6
     }
     gas_leakage = {
         icon = "GFX_default_critical_damage_icons"

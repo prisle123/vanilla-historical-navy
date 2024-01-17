@@ -4646,6 +4646,7 @@ equipment_modules = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1000
 		}
+		critical_parts = { damaged_wooden_flight_deck }
 	}
 	ship_deck_space_more = {
 		category = ship_deck_space
@@ -4669,6 +4670,7 @@ equipment_modules = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1600
 		}
+		critical_parts = { damaged_wooden_flight_deck }
 	}
 	ship_deck_space_armored = {
 		category = ship_deck_space
@@ -4690,6 +4692,7 @@ equipment_modules = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1200
 		}
+		critical_parts = { damaged_armored_flight_deck }
 	}
 	ship_deck_space_small = {
 		category = ship_deck_space_small
@@ -4706,6 +4709,7 @@ equipment_modules = {
 		}
 		manpower = 100
 		dismantle_cost_ic = 400
+		critical_parts = { damaged_wooden_flight_deck }
 	}
 	ship_deck_space_big = {
 		category = ship_deck_space_big
@@ -4725,6 +4729,7 @@ equipment_modules = {
 			fuel_consumption = 0.1
 		}
 		dismantle_cost_ic = 1100
+		critical_parts = { damaged_armored_flight_deck }
 	}
 	ship_deck_space_bb = {
 		category = ship_deck_space_bb
@@ -4742,6 +4747,7 @@ equipment_modules = {
 			max_strength = -0.1
 		}
 		dismantle_cost_ic = 2000
+		critical_parts = { damaged_wooden_flight_deck }
 	}
 
 ### #  # ### #       ###  ##  #  # # #  ## 
