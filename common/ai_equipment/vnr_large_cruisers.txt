@@ -10,8 +10,8 @@ naval_cruiser_large = {
 		role_icon_index = 21
 
 		priority = {
-			base = 30
-			modifier = { factor = 0 has_tech = improved_ship_hull_cruiser }
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
 		}
 
 		target_variant = {
@@ -46,7 +46,7 @@ naval_cruiser_large = {
 
 		priority = {
 			base = 30
-			modifier = { factor = 0 has_tech = advanced_ship_hull_cruiser }
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
 		}
 
 		target_variant = {
@@ -78,8 +78,8 @@ naval_cruiser_large = {
 		role_icon_index = 21
 
 		priority = {
-			base = 20
-			modifier = { add = 10 has_tech = advanced_ship_hull_cruiser }
+			base = 0
+			modifier = { add = 50 has_tech = advanced_ship_hull_cruiser }
 		}
 
 		target_variant = {

@@ -11,10 +11,7 @@ naval_screen_cruiser = {
 
 		priority = {
 			base = 50
-		}
-
-		enable = {
-			not = { has_tech = improved_ship_hull_light }		# 1936 DD should be stopped producing as soon as tag has 1940 DDs
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
 		}
 
 		target_variant = {
@@ -45,7 +42,7 @@ naval_screen_cruiser = {
 
 		priority = {
 			base = 75
-			# modifier = { factor = 0 has_tech = advanced_ship_hull_light }
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
 		}
 
 		target_variant = {

@@ -9,7 +9,7 @@ naval_submarine = {
 		name = vnr_ss_cruiser
 		role_icon_index = 37
 
-		priority = { base = 0 }
+		priority = { base = 1 }
 		target_variant = {
 			type = vnr_ship_hull_cruiser_submarine
 			modules = {
@@ -30,7 +30,7 @@ naval_submarine = {
 
 		priority = {
 			base = 10
-			modifier = { factor = 0 has_tech = basic_ship_hull_submarine }
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_submarine }
 		}
 
 
@@ -55,7 +55,7 @@ naval_submarine = {
 
 		priority = {
 			base = 20
-			modifier = { factor = 0 has_tech = improved_ship_hull_submarine }
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_submarine }
 		}
 
 		target_variant = {
@@ -79,7 +79,7 @@ naval_submarine = {
 
 		priority = {
 			base = 35
-			modifier = { factor = 0 has_tech = advanced_ship_hull_submarine }
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_submarine }
 		}
 
 		target_variant = {
@@ -104,9 +104,8 @@ naval_submarine = {
 		name = vnr_ss_1944
 		role_icon_index = 37
 		priority = {
-			base = 0
-			modifier = { add = 50 has_tech = advanced_ship_hull_submarine }
-			modifier = { factor = 0 has_tech = modern_ship_hull_submarine }
+			base = 50
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_submarine }
 		}
 
 		target_variant = {
@@ -133,7 +132,7 @@ naval_submarine = {
 		role_icon_index = 37
 		priority = {
 			base = 0
-			modifier = { add = 50 has_tech = modern_ship_hull_submarine }
+			modifier = { add = 100 has_tech = modern_ship_hull_submarine }
 		}
 
 		target_variant = {
