@@ -5819,15 +5819,17 @@ equipment_modules = {
 	ship_hull_cruiser_role_rc = {
 		category = c_role
 		multiply_stats = {
-			lg_attack = -0.1
-			hg_attack = -0.1
+			lg_attack = -0.15
+			lg_armor_piercing = -0.15
+			hg_attack = -0.15
+			hg_armor_piercing = -0.15
 			
-			max_strength = -0.1
+			max_strength = -0.2
 			naval_speed = -0.1
-			armor_value = -0.1
+			armor_value = -0.2
 			naval_range = 0.4
 			surface_visibility = -0.05
-			build_cost_ic = -0.12
+			build_cost_ic = -0.15
 		}
 		forbid_module_categories = {
 			ship_medium_heavy_battery
@@ -6009,7 +6011,12 @@ equipment_modules = {
 		category = raider_kit
 		
 		multiply_stats = {
-			lg_attack = -0.1
+			lg_attack = -0.2
+			lg_armor_piercing = -0.2
+			hg_attack = -1
+			hg_armor_piercing = -1
+			anti_air_attack = -0.5
+			torpedo_attack = -0.8
 			surface_visibility = -0.2
 			build_cost_ic = 0.02
 		}
