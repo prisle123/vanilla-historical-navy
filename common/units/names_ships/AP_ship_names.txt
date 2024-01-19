@@ -1,0 +1,103 @@
+### USA ###
+USA_AP_HISTORICAL = {
+    name = NAME_THEME_HISTORICAL_AP
+
+    for_countries = { USA }
+    type = ship
+    ship_types = { ship_hull_civilian }
+
+    prefix = "USS "
+    fallback_name = "Oiler AP-%d"
+
+    unique = {
+        "Kanawha" "Maumee" "Cuyama" "Brazos" "Neches" "Pecos" "Patoka" "Sapelo" "Ramapo" "Trinity"
+        "Rapidan" "Salinas" "Sepulga" "Tippecanoe" "Alameda" "Kaweah" "Laramie" "Mattole" "Cimarron" "Neosho"
+        "Platte" "Sabine" "Salamonie" "Kaskaskla" "Chemung" "Guadalupe" "Ashtabulla" "Cacapon" "Caliente" "Chikaskia"
+        "Elokomin" "Aucilla" "Marias" "Manatee" "Mississinewa" "Nantahala" "Severn" "Tuluga" "Chipola" "Tovolana"
+        "Allagash" "Caloosahatchee" "Canisteo" "Chukawan" "Mispillion" "Navasota" "Passumpsic" "Pawcatuck" "Waccamaw" "Chicopee"
+        "Housatonic" "Kennebec" "Merrimack" "Winooski" "Kankakee" "Lackawanna" "Neosho" "Mattaponi" "Monongahela" "Tappahannock"
+        "Patuxent" "Neches" "Chiwawa" "Enoree" "Escalante" "Neshanic" "Niobrara" "Suamico" "Tallulah" "Pecos"
+        "Cache" "Milicoma" "Saranac" "Saugatuck" "Schuylkill" "Cossatot" "Chepachet" "Cowanesque" "Escambia" "Kennebago"
+        "Cahaba" "Mascoma" "Ocklawaha" "Pamanset" "Ponganset" "Sebec" "Tomahawk" "Pasig" "Abatan" "Soubarissen"
+        "Anacosita" "Caney" "Tamalpais" "Cohocton" "Concho" "Conecuh" "Contoocook" "Mission Buenaventura" "Mission Capistrano" "Mission Carmel"
+        "Mission De Pala" "Mission Dolores" "Mission Loreto" "Mission Los Angeles" "Mission Purisima" "Mission San Antonio" "Mission San Carlos" "Mission San Diego" "Mission San Fernando" "Mission San Francisco"
+        "Mission San Gabriel" "Mission San Jose" "Mission San Juan" "Mission San Luis Obispo" "Mission San Luis Rey" "Mission San Miguel" "Mission San Rafael" "Mission Santa Barbara" "Mission Santa Clara" "Mission Santa Cruz"
+        "Mission Santa Ynez" "Mission Solano" "Mission Soledad" "Mission Santa Ana" "Shikellamy" "Neosho" "Mississinewa" "Hassayampa" "Kawaishiwi" "Truckee"
+        "Ponchatoula" "Conech" "Maumee" "Potomac" "Shoshone" "Yukon" "American Explorer" "Sacramento" "Camden" "Seattle"
+        "Detroit"
+    }
+}
+
+### ENG ###
+ENG_AP_HISTORICAL = {
+    name = NAME_THEME_HISTORICAL_AP
+
+    for_countries = { ENG }
+    type = ship
+    ship_types = { ship_hull_civilian }
+
+    prefix = "RAF "
+    fallback_name = "Oiler AP-%d"
+
+    unique = {
+        "Olcades" "Oligarch" "Olynthus" "Olwen" "Olna" "Oleander" "Abbeysdale" "Aldersdale" "Arndale" "Bishopdale"
+        "Boardale" "Broomdale" "Cairndale" "Cedardale" "Darkdale" "Denbydale" "Derwentdale" "Dewdale" "Dingledale" "Dinsdale"
+        "Eaglesdale" "Easedale" "Echodale" "Ennerdale" "Airsprite" "Nasprite" "Black Ranger" "Blue Ranger" "Brown Ranger" "Gold Ranger"
+        "Green Ranger" "Gray Ranger" "Wave Baron" "Wave Chief" "Wave Commander" "Wave Conqueror" "Wave Duke" "Wave Emperor" "Governor" "Wave King"
+        "Wave Knight" "Wave Laird" "Wave Liberator" "Wave Master" "Wave Monarch" "Wave Premier" "Wave Prince" "Wave Protector" "Wave Regent" "Wave Ruler"
+        "Wave Sovreign" "Wave Victor" "Surf Patrol" "Surf Pioneer" "Surf Pilot" "Appleleaf" "Bayleaf" "Brambleleaf" "Cherryleaf" "Pearleaf"
+        "Plumleaf" "Olna" "Tidereach" "Tideflow" "Tidesurge" "Tide Austral" "Tidespring" "Tidepool" "Olwen" "Olna"
+        "Olmeda" "Bulawayo" "Eddybeach" "Eddybay" "Eddycliff" "Eddycreek" "Eddyrock" "Eddyreef" "Eddyfrith" "Eddyness"
+    }
+}
+
+### GER ###
+GER_AP_HISTORICAL = {
+    name = NAME_THEME_HISTORICAL_AP
+
+    for_countries = { GER }
+    type = ship
+    ship_types = { ship_hull_civilian }
+
+    fallback_name = "Oiler AP-%d"
+
+    unique = {
+        "Dithmarschen" "Altmark" "Nordmark" "Franken" "Ermland" "Spichern" "Walchensee" "Ammersee" "Tegernsee" "Westensee"
+        "Luneburg" "Coburg" "Freiburg" "Glucksburg" "Saarburg" "Nienburg" "Offenburg" "Meersburg"
+    }
+}
+
+### SOV ###
+SOV_AP_HISTORICAL = {
+    name = NAME_THEME_HISTORICAL_AP
+
+    for_countries = { SOV }
+    type = ship
+    ship_types = { ship_hull_civilian }
+
+    fallback_name = "Oiler AP-%d"
+
+    unique = {
+        "Alazan" "Tartu" "Goryn" "Khobi" "Sosyva" "Orsha" "Titan" "Tunguska" "Sunta" "Linda"
+        "Indiga" "Moksha" "Sysola" "Cheremshan" "Lovat" "Shacha" "Seyma" "Shelon" "Terek" "Sheksna"
+        "Don" "Donets" "Dnepr" "Dunay" "Koyda" "Lena" "Vishera"
+    }
+}
+
+### JAP ###
+JAP_AP_HISTORICAL = {
+    name = NAME_THEME_HISTORICAL_AP
+
+    for_countries = { JAP }
+    type = ship
+    ship_types = { ship_hull_civilian }
+
+    fallback_name = "Oiler AP-%d"
+
+    unique = {
+        "Ondo" "Hayatomo" "Naruto" "Noma" "Notoro" "Shiretoko" "Erimo" "Sata" "Tsurumi" "Shiriya"
+        "Iro" "Kamoi" "Kazahaya" "Hayasui" "Hario" "Toa Maru" "Kyokuto Maru" "Tatekawa Maru" "Nippon Maru" "Toho Maru"
+        "Itsukushima Maru" "Gen'Yo Maru" "Nichiei Maru" "Toei Maru" "Kokuyo Maru" "Ken'Yo Maru" "Shinkoku Maru" "Kyuei Maru" "Nissho Maru" "Kuroshio Maru"
+        "Akatsuki Maru" "Akebono Maru" "Hamana"
+    }
+}
