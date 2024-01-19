@@ -1,4 +1,4 @@
-version="v1.0 - Symphony Op.48 Prelude to Berlin"
+version="v1.1 - Year of Dragon"
 tags={
 	"Military"
 	"Graphics"
