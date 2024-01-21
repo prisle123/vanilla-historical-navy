@@ -393,7 +393,7 @@ naval_unit_role_ratios_GER_prewar_late = {
 	}
 	enable = {
 		date < 1941.1.1
-		date > 1938.1.1
+		date > 1937.12.31
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -486,7 +486,7 @@ naval_unit_role_ratios_GER_atwar_knock_USA = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 160
+		value = 200
 	}
 
 	ai_strategy = {
@@ -504,7 +504,7 @@ naval_unit_role_ratios_GER_atwar_knock_USA = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 30
+		value = 20
 	}
 	
 	ai_strategy = {
@@ -636,7 +636,7 @@ naval_unit_role_ratios_ENG_prewar_early = {
 		tag = ENG
 	}
 	enable = {
-		date < 1938.1.1
+		date < 1937.6.1
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -685,7 +685,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	}
 	enable = {
 		date < 1941.1.1
-		date > 1938.1.1
+		date > 1937.5.31
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -790,7 +790,7 @@ naval_unit_role_ratios_ENG_late_peace = {
 		tag = ENG
 	}
 	enable = {
-		date > 1941.1.1
+		date > 1940.12.31
 		has_war = no
 	}
 	abort_when_not_enabled = yes
@@ -956,7 +956,7 @@ naval_unit_role_ratios_FRA_late_peace = {
 		tag = FRA
 	}
 	enable = {
-		date > 1940.1.1
+		date > 1939.12.31
 		has_war = no
 	}
 	abort_when_not_enabled = yes
@@ -969,12 +969,12 @@ naval_unit_role_ratios_FRA_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 60
+		value = 150
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen_leader
-		value = 250
+		value = 150
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -994,7 +994,7 @@ naval_unit_role_ratios_FRA_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 25
+		value = 20
 	}
 }
 
@@ -1008,6 +1008,7 @@ naval_unit_role_ratios_SOV_need_to_watch_germany_peace = {
 	}
 	enable = {
 		NOT = { is_ally_with = GER }
+		date < 1942.1.1
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1043,6 +1044,7 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 		OR = {
 			NOT = { country_exists = GER }
 			is_ally_with = GER
+			date > 1941.12.31
 		}
 		has_war_with_major = no
 	}
@@ -1066,12 +1068,12 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 20
+		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 30
+		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1169,7 +1171,7 @@ naval_unit_role_ratios_SOV_atwar_with_major = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 30
+		value = 50
 	}
 }
 
@@ -1181,8 +1183,12 @@ naval_unit_role_ratios_JAP_prewar_build_carriers = {
 		tag = JAP
 	}
 	enable = {
+		date < 1939.6.1
 		NOT = { has_war_with = USA }
-		has_war_with_major = no
+		any_enemy_country = {
+			is_literally_china = no
+			is_major = yes
+		}
 		has_navy_size = { size < 8 type = carrier }
 	}
 	abort_when_not_enabled = yes
@@ -1225,8 +1231,12 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 		tag = JAP
 	}
 	enable = {
+		date < 1939.6.1
 		NOT = { has_war_with = USA }
-		has_war_with_major = no
+		any_enemy_country = {
+			is_literally_china = no
+			is_major = yes
+		}
 		has_navy_size = { size > 7 type = carrier }
 	}
 	abort_when_not_enabled = yes
@@ -1273,7 +1283,13 @@ naval_unit_role_ratios_JAP_atwar = {
 		tag = JAP
 	}
 	enable = {
-		has_war_with_major = yes
+		OR = {
+			date > 1939.5.31
+			any_enemy_country = {
+				is_literally_china = no
+				is_major = yes
+			}
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -1327,7 +1343,7 @@ naval_unit_role_ratios_JAP_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 120
+		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1394,7 +1410,7 @@ naval_unit_role_ratios_USA_great_depression = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 250
+		value = 150
 	}
 
 	ai_strategy = {
@@ -1435,7 +1451,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 400
+		value = 320
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1464,7 +1480,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 5
+		value = 10
 	}
 	
 	ai_strategy = {
@@ -1491,7 +1507,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 650
+		value = 500
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1501,19 +1517,19 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 20
+		value = 35
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 25
+		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 80
+		value = 50
 	}
 	
 	ai_strategy = {
@@ -1656,7 +1672,7 @@ naval_unit_role_ratios_ITA_atwar_with_England = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 10
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
@@ -1708,7 +1724,7 @@ naval_unit_role_ratios_ITA_atwar_with_major = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 15
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
@@ -1756,7 +1772,7 @@ naval_unit_role_ratios_ITA_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 15
 	}
 	ai_strategy = {
 		type = role_ratio
