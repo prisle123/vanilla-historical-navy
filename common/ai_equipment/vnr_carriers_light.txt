@@ -55,7 +55,7 @@ naval_light_carrier = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
 		}
 		target_variant = {
-			match_value = 500.0
+			match_value = 100.0
 			type = vnr_ship_hull_carrier_1
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space
@@ -80,7 +80,7 @@ naval_light_carrier = {
 		}
 
 		target_variant = {
-			match_value = 800.0
+			match_value = 300.0
 
 			type = vnr_ship_hull_carrier_2
 			modules = {
@@ -106,7 +106,7 @@ naval_light_carrier = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 800.0
 
 			type = vnr_ship_hull_carrier_3
 			modules = {

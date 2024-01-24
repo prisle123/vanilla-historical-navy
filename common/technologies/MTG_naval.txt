@@ -1726,7 +1726,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1944_module }
+			position = { x = 0 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -4942,6 +4942,12 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1946
+		
+		dependencies = {
+			full_armored_carrier = 1
+			carrier_angled_deck = 1
+			carrier_steam_catapult = 1
+		}
 
 		ai_will_do = {
 			factor = 1

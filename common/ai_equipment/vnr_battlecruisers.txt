@@ -14,7 +14,7 @@ naval_capital_battlecruiser = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 10.0
 
 			type = vnr_ship_hull_heavy_3
 			modules = {
@@ -47,7 +47,7 @@ naval_capital_battlecruiser = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 10.0
 
 			type = vnr_ship_hull_heavy_4
 			modules = {
@@ -81,7 +81,7 @@ naval_capital_battlecruiser = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 10.0
 
 			type = vnr_ship_hull_heavy_5
 			modules = {

@@ -107,7 +107,7 @@ naval_cruiser_light = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 4000.0
 
 			type = vnr_ship_hull_cruiser_4
 			modules = {
@@ -140,7 +140,7 @@ naval_cruiser_light = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 6000.0
 
 			type = vnr_ship_hull_cruiser_5
 			modules = {
@@ -173,7 +173,7 @@ naval_cruiser_light = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 7000.0
 
 			type = vnr_ship_hull_cruiser_6
 			modules = {
