@@ -2299,4 +2299,10 @@ build_more_missile_cruisers = {
 		id = vnr_naval_cruiser_heavy
 		value = 50
 	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = -80
+	}
 }
