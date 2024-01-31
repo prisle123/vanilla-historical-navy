@@ -4646,7 +4646,6 @@ equipment_modules = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1000
 		}
-		critical_parts = { damaged_wooden_flight_deck }
 	}
 	ship_deck_space_more = {
 		category = ship_deck_space
@@ -4670,7 +4669,6 @@ equipment_modules = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1600
 		}
-		critical_parts = { damaged_wooden_flight_deck }
 	}
 	ship_deck_space_armored = {
 		category = ship_deck_space
@@ -4692,7 +4690,6 @@ equipment_modules = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1200
 		}
-		critical_parts = { damaged_armored_flight_deck }
 	}
 	ship_deck_space_small = {
 		category = ship_deck_space_small
@@ -4709,7 +4706,6 @@ equipment_modules = {
 		}
 		manpower = 100
 		dismantle_cost_ic = 400
-		critical_parts = { damaged_wooden_flight_deck }
 	}
 	ship_deck_space_big = {
 		category = ship_deck_space_big
@@ -4729,7 +4725,6 @@ equipment_modules = {
 			fuel_consumption = 0.1
 		}
 		dismantle_cost_ic = 1100
-		critical_parts = { damaged_armored_flight_deck }
 	}
 	ship_deck_space_bb = {
 		category = ship_deck_space_bb
@@ -4747,7 +4742,6 @@ equipment_modules = {
 			max_strength = -0.1
 		}
 		dismantle_cost_ic = 2000
-		critical_parts = { damaged_wooden_flight_deck }
 	}
 
 ### #  # ### #       ###  ##  #  # # #  ## 
@@ -5362,28 +5356,6 @@ equipment_modules = {
 		dismantle_cost_ic = 6700
 	}
 	
-	ship_armor_carrier_deck = {
-		abbreviation = "sdp"
-		category = ship_carrier_armor
-		gfx = ship_cruiser_armor
-		
-		add_stats = {
-			reliability = 0.05
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		multiply_stats = {
-			naval_speed = -0.05
-			anti_air_attack = 0.05
-			build_cost_ic = 0.075
-		}
-		add_stats = {
-			max_strength = 40
-		}
-		dismantle_cost_ic = 2500
-	}
-	
 	
 ### AP shell for balance
 	# ship_ap_shell_1 = {
@@ -5423,7 +5395,38 @@ equipment_modules = {
 	# 	}
 	# 	dismantle_cost_ic = 5
 	# }
-	
+### carrier flight deck
+	carrier_armor_deck = {
+		category = ship_flight_deck
+		
+		add_stats = {
+			reliability = 0.1
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.075
+			anti_air_attack = 0.1
+			build_cost_ic = 0.1
+		}
+		add_stats = {
+			max_strength = 80
+		}
+		dismantle_cost_ic = 3500
+
+		critical_parts = { damaged_armored_flight_deck }
+	}
+	carrier_wooden_deck = {
+		category = ship_flight_deck
+
+		multiply_stats = {
+			naval_speed = 0.01
+		}
+		dismantle_cost_ic = 2500
+
+		critical_parts = { damaged_wooden_flight_deck }
+	}	
 ### modern carrier equipments
 	ship_airplane_launcher_3 = {
 		category = steam_catapult
@@ -5487,15 +5490,15 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.1
-			anti_air_attack = 0.1
 			max_strength = 0.3
 		}
 		add_stats = {
 			armor_value = 20
 			naval_torpedo_damage_reduction_factor = 0.2
 			naval_torpedo_enemy_critical_chance_factor = -0.15
+			reliability = 0.15
 		}
-		dismantle_cost_ic = 3500
+		dismantle_cost_ic = 4500
 	}
 
 ### Missile
@@ -6173,8 +6176,8 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			surface_detection = 0.15
-			sub_detection = 0.1
-			build_cost_ic = 0.06
+			sub_detection = 0.15
+			build_cost_ic = 0.05
 		}
 	}
 	carrier_spared_squad = {
@@ -6186,6 +6189,9 @@ equipment_modules = {
 		multiply_stats = {
 			anti_air_attack = 0.03
 			build_cost_ic = 0.075
+		}
+		add_stats = {
+			reliability = -0.05
 		}
 	}
 	carrier_fuel_storage = {
