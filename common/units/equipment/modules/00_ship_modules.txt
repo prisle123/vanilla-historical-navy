@@ -2558,10 +2558,6 @@ equipment_modules = {
 			naval_speed = -0.01
 		}
 		
-		add_average_stats = {
-			lg_armor_piercing = 4
-		}
-		
 		can_convert_from = {
 			module_category = ship_secondaries
 			convert_cost_ic = 100
@@ -2588,10 +2584,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			naval_speed = -0.01
-		}
-		
-		add_average_stats = {
-			lg_armor_piercing = 6
 		}
 		
 		can_convert_from = {
@@ -2622,10 +2614,6 @@ equipment_modules = {
 			naval_speed = -0.02
 		}
 		
-		add_average_stats = {
-			lg_armor_piercing = 8
-		}
-		
 		can_convert_from = {
 			module_category = ship_secondaries
 			convert_cost_ic = 180
@@ -2652,10 +2640,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			naval_speed = -0.03
-		}
-		
-		add_average_stats = {
-			lg_armor_piercing = 10
 		}
 		
 		can_convert_from = {
