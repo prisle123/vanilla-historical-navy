@@ -5401,6 +5401,7 @@ equipment_modules = {
 		
 		add_stats = {
 			reliability = 0.1
+			max_strength = 80
 		}
 		build_cost_resources = {
 			steel = 1
@@ -5408,10 +5409,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.075
 			anti_air_attack = 0.1
-			build_cost_ic = 0.1
-		}
-		add_stats = {
-			max_strength = 80
+			build_cost_ic = 0.15
 		}
 		dismantle_cost_ic = 3500
 
