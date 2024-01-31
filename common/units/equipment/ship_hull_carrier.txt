@@ -457,9 +457,7 @@ equipments = {
 			}
 		}
 		default_modules = {
-			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_4
 		}
 
 		naval_range = 5000
@@ -604,9 +602,7 @@ equipments = {
 			}
 		}
 		default_modules = {
-			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_4
 			fixed_ship_armor_slot = ship_carrier_armor_heavy
 		}
 
