@@ -1,0 +1,35 @@
+allow_never_built = {
+	name = RULE_ALLOW_NEVER_BUILT
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = FREE
+		text = RULE_OPTION_FREE
+		desc = RULE_ALLOW_NEVER_BUILT_FREE_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_ALLOW_NEVER_BUILT_BLOCKED_DESC
+		allow_achievements = yes
+	}
+}
+
+ai_ship_design_style = {
+	name = RULE_AI_SHIP_DESIGN_STYLE
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = HISTORICAL
+		text = RULE_OPTION_HISTORICAL
+		desc = RULE_AI_SHIP_DESIGN_STYLE_HISTORICAL_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = EXPERT
+		text = RULE_OPTION_EXPERT
+		desc = RULE_AI_SHIP_DESIGN_STYLE_EXPERT_DESC
+		allow_achievements = yes
+	}
+}
