@@ -18,7 +18,7 @@
 		task_force = { 
 			name = "1a Eskadern"
 			location = 11215 # Karlskrona
-			ship = { name = "HMS Gustaf V" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }				
+			ship = { name = "HMS Gustaf V" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }				
 			ship = { name = "HMS Sverige" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }				
 			ship = { name = "HMS Drottning Victoria" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SWE version_name = "Sverige Class" } } }				
 			ship = { name = "HMS Gotland" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Gotland Class" } } }

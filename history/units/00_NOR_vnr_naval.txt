@@ -33,7 +33,7 @@
 		task_force = {					
 			name = "3. Sjøforsvarsdistrikt"				
 			location =  11050 # Tromso
-			ship = { name = "HNoMS Norge" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Eidsvold Class" } } }				
+			ship = { name = "HNoMS Norge" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Eidsvold Class" } } }				
 			ship = { name = "HNoMS Eidsvold" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Eidsvold Class" } } }				
 			# Submarine Detachment
 			ship = { name = "HNoMS B1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "B Class" } } }

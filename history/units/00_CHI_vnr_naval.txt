@@ -7,7 +7,7 @@
 		task_force = {
 			name = "1st Fleet"
 			location = 7191 #Shanghai
-			ship = { name = "Ninghai" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Ninghai Class" } } }
+			ship = { name = "Ninghai" pride_of_the_fleet = yes definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "Ninghai Class" } } }
 			ship = { name = "Hairong" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
 			ship = { name = "Haichou" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = CHI version_name = "Hairong Class" } } }
 			ship = { name = "Yat Sen" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = CHI version_name = "Yat Sen Class" } } }
