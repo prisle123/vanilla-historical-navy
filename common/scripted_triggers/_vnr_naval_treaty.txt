@@ -1,9 +1,0 @@
-has_naval_treaty_trigger = {
-	OR = {
-		has_idea = MTG_naval_treaty_adherent
-        has_idea = MTG_naval_treaty_adherent_1936
-		has_idea = MTG_naval_treaty_cheating
-		has_idea = MTG_naval_treaty_adherent_reduced
-		has_idea = MTG_naval_treaty_cheating_reduced
-	}
-}

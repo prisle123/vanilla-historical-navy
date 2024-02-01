@@ -1,0 +1,35 @@
+has_naval_treaty_trigger = {
+	OR = {
+		has_idea = MTG_naval_treaty_adherent
+        has_idea = MTG_naval_treaty_adherent_1936
+		has_idea = MTG_naval_treaty_cheating
+		has_idea = MTG_naval_treaty_adherent_reduced
+		has_idea = MTG_naval_treaty_cheating_reduced
+	}
+}
+
+historical_ai_style = {
+	has_game_rule = { rule = ai_ship_design_style option = HISTORICAL }
+	OR = {
+		tag = ENG
+		tag = FRA
+		tag = GER
+		tag = ITA
+		tag = JAP
+		tag = SOV
+		tag = USA
+	}
+}
+
+expert_ai_style = {
+	has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+	OR = {
+		tag = ENG
+		tag = FRA
+		tag = GER
+		tag = ITA
+		tag = JAP
+		tag = SOV
+		tag = USA
+	}
+}

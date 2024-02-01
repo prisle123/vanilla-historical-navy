@@ -73,6 +73,7 @@ naval_carrier = {
 		priority = { 
 			base = 10
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 		target_variant = {
 			match_value = 2000.0
@@ -98,6 +99,7 @@ naval_carrier = {
 		priority = {
 			base = 20
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_carrier }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -128,6 +130,7 @@ naval_carrier = {
 		priority = {
 			base = 50
 			modifier = { factor = 0.1 has_tech = super_carriers }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -159,6 +162,7 @@ naval_carrier = {
 		priority = {
 			base = 100
 			modifier = { factor = 0.5 has_global_flag = naval_tech_1946 }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -191,6 +195,7 @@ naval_carrier = {
 		priority = {
 			base = 0
 			modifier = { add = 200 has_tech = nuclear_engine_research }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {

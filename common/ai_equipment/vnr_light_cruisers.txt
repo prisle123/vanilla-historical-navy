@@ -12,6 +12,7 @@ naval_cruiser_light = {
 		priority = {
 			base = 10
 			modifier = { factor = 0 has_tech = basic_ship_hull_cruiser }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -41,6 +42,7 @@ naval_cruiser_light = {
 		priority = {
 			base = 10
 			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -72,6 +74,7 @@ naval_cruiser_light = {
 		priority = {
 			base = 20
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -104,6 +107,7 @@ naval_cruiser_light = {
 		priority = {
 			base = 50
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -137,6 +141,7 @@ naval_cruiser_light = {
 		priority = {
 			base = 100
 			modifier = { add = 0.1 has_tech = modern_ship_hull_cruiser }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -170,6 +175,7 @@ naval_cruiser_light = {
 		priority = {
 			base = 0
 			modifier = { add = 100 has_tech = modern_ship_hull_cruiser }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {

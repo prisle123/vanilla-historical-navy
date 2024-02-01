@@ -31,6 +31,7 @@ naval_submarine = {
 		priority = {
 			base = 10
 			modifier = { factor = 0.1 has_tech = basic_ship_hull_submarine }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 
@@ -55,6 +56,7 @@ naval_submarine = {
 		priority = {
 			base = 20
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_submarine }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -79,6 +81,7 @@ naval_submarine = {
 		priority = {
 			base = 35
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_submarine }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -105,6 +108,7 @@ naval_submarine = {
 		priority = {
 			base = 50
 			modifier = { factor = 0.1 has_tech = modern_ship_hull_submarine }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -132,6 +136,7 @@ naval_submarine = {
 		priority = {
 			base = 0
 			modifier = { add = 100 has_tech = modern_ship_hull_submarine }
+			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
