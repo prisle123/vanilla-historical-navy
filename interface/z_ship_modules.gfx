@@ -1263,4 +1263,14 @@ spriteTypes = {
 		name = "GFX_SMI_structural_aluminum"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/structural_aluminum.png"
 	}
+	
+	# flight deck
+	spriteType = {
+		name = "GFX_SMI_carrier_armor_deck"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_armor_deck.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_wooden_deck"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_wooden_deck.png"
+	}
 }
