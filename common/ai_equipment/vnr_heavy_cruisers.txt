@@ -42,7 +42,6 @@ naval_cruiser_heavy = {
 		priority = {
 			base = 10
 			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -76,7 +75,6 @@ naval_cruiser_heavy = {
 		priority = {
 			base = 20
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -111,7 +109,6 @@ naval_cruiser_heavy = {
 		priority = {
 			base = 50
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -145,7 +142,6 @@ naval_cruiser_heavy = {
 		priority = {
 			base = 70
 			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
 		target_variant = {
@@ -205,6 +201,72 @@ naval_cruiser_heavy = {
 				mid_3_custom_slot = ship_missile
 				rear_1_custom_slot = ship_missile
 				rear_2_custom_slot = ship_missile_aa
+			}
+		}
+	}
+
+
+
+	# expert AI
+	capital_cruiser_1946_expert = {
+		role_icon_index = 55
+
+		priority = {
+			base = 0
+			modifier = { add = 80 has_tech = cruiser_missile_upgrade }
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+			modifier = { factor = 0 expert_ai_style = no }
+		}
+
+		target_variant = {
+			match_value = 7000.0
+
+			type = vnr_ship_hull_cruiser_5
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_missile_aa
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = cruiser_ship_engine
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_armor_slot = empty
+				fixed_ship_role_slot = ship_hull_cruiser_role_cg
+				fixed_ship_secondaries_slot = empty
+				fixed_ship_extra_secondaries_slot = ship_radar_jammer
+				front_2_custom_slot = ship_missile_aa
+				mid_2_custom_slot = ship_missile
+				mid_3_custom_slot = ship_missile
+			}
+		}
+	}
+	capital_cruiser_1949_expert = {
+		role_icon_index = 55
+
+		priority = {
+			base = 0
+			modifier = { add = 100 has_tech = modern_ship_hull_cruiser }
+			modifier = { factor = 0 expert_ai_style = no }
+		}
+
+		target_variant = {
+			match_value = 9000.0
+
+			type = vnr_ship_hull_cruiser_6
+			modules = {
+				fixed_ship_battery_slot = ship_missile
+				fixed_ship_anti_air_slot = ship_missile_aa
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = cruiser_ship_engine
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_armor_slot = empty
+				fixed_ship_role_slot = ship_hull_cruiser_role_cg
+				fixed_ship_secondaries_slot = empty
+				fixed_ship_extra_secondaries_slot = ship_radar_jammer
+				fixed_ship_extra_missile_slot = ship_decoy_launcher
+				mid_1_custom_slot = ship_missile
+				mid_2_custom_slot = ship_missile
+				mid_3_custom_slot = ship_missile
+				rear_1_custom_slot = ship_missile
+				rear_2_custom_slot = empty
 			}
 		}
 	}

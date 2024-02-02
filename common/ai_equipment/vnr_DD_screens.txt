@@ -173,7 +173,7 @@ naval_screen = {
 
 	screen_1949 = {
 		name = vnr_dd_1949
-		role_icon_index = 31
+		role_icon_index = 83
 
 		priority = {
 			base = 0
@@ -199,6 +199,158 @@ naval_screen = {
 				mid_2_custom_slot = ship_missile
 				rear_1_custom_slot = ship_depth_charge
 				rear_2_custom_slot = dp_light_battery
+			}
+		}
+	}
+
+
+
+	# expert AI
+	screen_1936_expert = {
+		role_icon_index = 31
+
+		priority = {
+			base = 50
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
+			modifier = { factor = 0 expert_ai_style = no }
+		}
+
+		target_variant = {
+			match_value = 4000.0
+
+			type = vnr_ship_hull_light_3
+			modules = {
+				fixed_ship_engine_slot = { upgrade > current any_of = { light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
+				fixed_ship_battery_slot = ship_light_battery_double
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = { upgrade > current any_of = { ship_sonar ship_mast } }
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_role_slot = ship_hull_light_role_dd
+				front_1_custom_slot = ship_light_battery_double
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_depth_charge
+				rear_2_custom_slot = ship_depth_charge
+			}
+		}
+	}
+	screen_1940_expert = {
+		role_icon_index = 31
+
+		priority = {
+			base = 80
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
+			modifier = { factor = 0 expert_ai_style = no }
+		}
+
+		target_variant = {
+			match_value = 5000.0
+
+			type = vnr_ship_hull_light_4
+			modules = {
+				fixed_ship_engine_slot = { upgrade > current any_of = { light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
+				fixed_ship_battery_slot = ship_light_battery_double
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_role_slot = ship_hull_light_role_dd
+				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous generic_miscellaneous } }
+				front_1_custom_slot = ship_light_battery_double
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_depth_charge
+				rear_2_custom_slot = ship_depth_charge
+			}
+		}
+	}
+	screen_1944_expert = {
+		role_icon_index = 31
+
+		priority = {
+			base = 100
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_light }
+			modifier = { factor = 0 expert_ai_style = no }
+		}
+
+		target_variant = {
+			match_value = 6500.0
+
+			type = vnr_ship_hull_light_5
+			modules = {
+				fixed_ship_engine_slot = { upgrade > current any_of = { light_ship_engine_5 light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
+				fixed_ship_battery_slot = ship_light_battery_double
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_role_slot = ship_hull_light_role_dd
+				front_1_custom_slot = ship_light_battery_double
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_depth_charge
+				rear_2_custom_slot = ship_depth_charge
+			}
+		}
+	}
+	screen_1946_expert = {
+		role_icon_index = 63
+
+		priority = {
+			base = 0
+			modifier = { add = 150 has_tech = destroyer_missile_upgrade }
+			modifier = { factor = 0 expert_ai_style = no }
+		}
+
+		target_variant = {
+			match_value = 7000.0
+
+			type = vnr_ship_hull_light_5
+			modules = {
+				fixed_ship_engine_slot = { upgrade > current any_of = { light_ship_engine_5 light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
+				fixed_ship_battery_slot = ship_light_battery_double
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_anti_air_slot = ship_missile_aa
+				fixed_ship_role_slot = ship_hull_light_role_dda
+				front_1_custom_slot = ship_light_battery_double
+				front_2_custom_slot = ship_missile_aa
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_depth_charge
+				rear_2_custom_slot = ship_depth_charge
+			}
+		}
+	}
+	screen_1949_expert = {
+		role_icon_index = 83
+
+		priority = {
+			base = 0
+			modifier = { add = 200 has_tech = modern_ship_hull_light }
+			modifier = { factor = 0 expert_ai_style = yes }
+		}
+
+		target_variant = {
+			match_value = 8000.0
+
+			type = vnr_ship_hull_light_6
+			modules = {
+				fixed_ship_engine_slot = { upgrade > current any_of = { light_ship_engine_5 light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
+				fixed_ship_battery_slot = ship_missile
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_anti_air_slot = ship_missile_aa
+				fixed_ship_role_slot = ship_hull_light_role_ddg
+				fixed_ship_extra_secondaries_slot = ship_radar_jammer
+				front_1_custom_slot = ship_missile_aa
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_missile
+				rear_1_custom_slot = ship_depth_charge
+				rear_2_custom_slot = ship_depth_charge
 			}
 		}
 	}
