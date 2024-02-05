@@ -1522,6 +1522,10 @@ spriteTypes = {
         		name = "GFX_ITA_vnr_ship_hull_light_5_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer5.png"
         	}
+			spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -1543,6 +1547,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_ITA_vnr_ship_hull_cruiser_5_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser5.png"
+        	}
+			spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_light_cruiser6.png"
         	}
 	# heavy cruiser
 
@@ -1569,6 +1577,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_ITA_vnr_ship_hull_cruiser_5_capital_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_heavy_cruiser5.png"
+        	}
+			spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_cruiser_6_capital_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_heavy_cruiser6.png"
         	}
         	spriteType = {
         		name = "GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium"
@@ -1643,6 +1655,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_ITA_vnr_ship_hull_submarine_4_medium"
         		texturefile = "gfx/interface/technologies/Italy/ITA_submarine4.png"
+        	}
+			spriteType = {
+        		name = "GFX_ITA_vnr_ship_hull_submarine_5_medium"
+        		texturefile = "gfx/interface/technologies/Italy/ITA_submarine5.png"
         	}
         	spriteType = {
         		name = "GFX_ITA_vnr_ship_hull_cruiser_submarine_medium"

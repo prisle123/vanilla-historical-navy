@@ -1,4 +1,4 @@
-naval_capital_bc = {
+naval_capital_battlecruiser = {
 	category = naval
 	#available_for = {}
 	#blocked_for = {}
@@ -14,7 +14,7 @@ naval_capital_bc = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 10.0
 
 			type = vnr_ship_hull_heavy_3
 			modules = {
@@ -28,7 +28,7 @@ naval_capital_bc = {
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt torpedo_bulge } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
-				fixed_ship_extra_secondaries_slot = ship_miscellaneous
+				fixed_ship_extra_secondaries_slot = { any_of = { heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_heavy_battery
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_secondaries
@@ -47,7 +47,7 @@ naval_capital_bc = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 10.0
 
 			type = vnr_ship_hull_heavy_4
 			modules = {
@@ -61,7 +61,7 @@ naval_capital_bc = {
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt torpedo_bulge } }
-				fixed_ship_extra_secondaries_slot = ship_miscellaneous
+				fixed_ship_extra_secondaries_slot = { any_of = { heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_anti_air
@@ -81,7 +81,7 @@ naval_capital_bc = {
 		}
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 10.0
 
 			type = vnr_ship_hull_heavy_5
 			modules = {
@@ -95,7 +95,7 @@ naval_capital_bc = {
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt torpedo_bulge } }
-				fixed_ship_extra_secondaries_slot = ship_miscellaneous
+				fixed_ship_extra_secondaries_slot = { any_of = { heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_anti_air

@@ -31,3 +31,9 @@
  gen_naval_develop_carrier_desc: "Carriers have been proved the future of naval combat, we should import some blueprints to catch up with the world."
  gen_naval_develop_submarine: "Purchase Submarine Blueprints"
  gen_naval_develop_submarine_desc: "Submarines are killers underwater, we should import some blueprints to catch up with the world."
+
+ RULE_AI_SHIP_DESIGN_STYLE: "AI Ship Design Style"
+ RULE_OPTION_HISTORICAL: "Historical"
+ RULE_OPTION_EXPERT: "Expert"
+ RULE_AI_SHIP_DESIGN_STYLE_HISTORICAL_DESC: "AI will design historical ships, this is the old and default naval rework style."
+ RULE_AI_SHIP_DESIGN_STYLE_EXPERT_DESC: "AI will design ships based on efficiency and produce meta ships.\n§RThis will make the naval battle more intense and break role play elements in this mod.§!"

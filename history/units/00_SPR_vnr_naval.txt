@@ -8,8 +8,8 @@ units= {
 		task_force = {
 			name = "Escuadrón de El Ferrol"
 			location = 758  # Ferrol/Coruna
-			ship = { name = "ARE España" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "España Class" } } }
-			ship = { name = "ARE Jaime I" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "España Class" } } }
+			ship = { name = "ARE España" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "España Class" } } }
+			ship = { name = "ARE Jaime I" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "España Class" } } }
 			ship = { name = "ARE Libertad" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "Almirante Cervera Class" } } }
 			ship = { name = "ARE Almirante Cervera" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "Almirante Cervera Class" } } }
 			ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "Almirante Cervera Class" } } }

@@ -31,7 +31,7 @@ equipments = {
 			}
 			fixed_ship_deck_slot_2 = {
 				required = no
-				allowed_module_categories = { ship_deck_space ship_deck_space_small ship_carrier_armor }
+				allowed_module_categories = { ship_deck_space ship_deck_space_small }
 				gfx = ship_deck_space_slot
 			}
 			fixed_ship_anti_air_slot = {
@@ -53,6 +53,18 @@ equipments = {
 			fixed_ship_armor_slot = {
 				required = no
 				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor }
+			}
+			fixed_ship_carrier_miscellaneous_slot_1 = { 
+				required = no
+				allowed_module_categories = { carrier_unit }
+			}
+			fixed_ship_carrier_miscellaneous_slot_2 = { 
+				required = no
+				allowed_module_categories = { carrier_miscellaneous }
+			}
+			fixed_ship_flight_deck_slot = {
+				required = yes
+				allowed_module_categories = { ship_flight_deck }
 			}
 
 			front_1_custom_slot = {
@@ -80,6 +92,7 @@ equipments = {
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
 			front_1_custom_slot = empty
+			fixed_ship_flight_deck_slot = carrier_wooden_deck
 		}
 
 		lg_armor_piercing = 0
@@ -141,6 +154,9 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_carrier_miscellaneous_slot_1 = inherit
+			fixed_ship_carrier_miscellaneous_slot_2 = inherit
+			fixed_ship_flight_deck_slot = inherit
 		}
 
 		default_modules = {
@@ -186,14 +202,9 @@ equipments = {
 				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_medium_battery_single }
 			}
 			fixed_ship_armor_slot = inherit
-			fixed_ship_carrier_miscellaneous_slot_1 = { 
-				required = no
-				allowed_module_categories = { carrier_unit }
-			}
-			fixed_ship_carrier_miscellaneous_slot_2 = { 
-				required = no
-				allowed_module_categories = { carrier_miscellaneous }
-			}
+			fixed_ship_carrier_miscellaneous_slot_1 = inherit
+			fixed_ship_carrier_miscellaneous_slot_2 = inherit
+			fixed_ship_flight_deck_slot = inherit
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -250,7 +261,7 @@ equipments = {
 			}
 			fixed_ship_deck_slot_2 = {
 				required = no
-				allowed_module_categories = { ship_deck_space ship_deck_space_small ship_carrier_armor }
+				allowed_module_categories = { ship_deck_space ship_deck_space_small }
 				gfx = ship_deck_space_slot
 			}
 			fixed_ship_anti_air_slot = {
@@ -272,6 +283,7 @@ equipments = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = inherit
+			fixed_ship_flight_deck_slot = inherit
 
 			front_1_custom_slot = {
 				required = no
@@ -318,6 +330,7 @@ equipments = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = inherit
+			fixed_ship_flight_deck_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -403,6 +416,7 @@ equipments = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = inherit
+			fixed_ship_flight_deck_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -457,9 +471,7 @@ equipments = {
 			}
 		}
 		default_modules = {
-			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_4
 		}
 
 		naval_range = 5000
@@ -504,6 +516,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine civilian_ship_engine }
 			}
+			fixed_ship_flight_deck_slot = inherit
 		}
 
 		default_modules = {
@@ -569,6 +582,7 @@ equipments = {
 				required = no
 				allowed_module_categories = { carrier_miscellaneous }
 			}
+			fixed_ship_flight_deck_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -604,9 +618,7 @@ equipments = {
 			}
 		}
 		default_modules = {
-			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_4
 			fixed_ship_armor_slot = ship_carrier_armor_heavy
 		}
 

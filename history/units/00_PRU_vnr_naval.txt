@@ -5,7 +5,7 @@ units = {
 		task_force = {				
 			name = "Escuadrón Naval"			
 			location = 12997 # Lima
-			ship = { name = "BAP Almirante Grau" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PRU version_name = "Almirante Grau Class" } } }
+			ship = { name = "BAP Almirante Grau" pride_of_the_fleet = yes definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PRU version_name = "Almirante Grau Class" } } }
 			ship = { name = "BAP Coronel Bolognesi" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PRU version_name = "Almirante Grau Class" } } }
 			ship = { name = "BAP Almirante Villar" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Almirante Villar Class" } } }
 			ship = { name = "BAP Almirante Guise" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Almirante Villar Class" } } }

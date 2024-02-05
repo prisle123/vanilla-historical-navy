@@ -7,7 +7,7 @@
 		task_force = {
 			name = "Den Danske Flåde"
 			location = 6287  # Copenhagen			
-			ship = { name = "HDMS Niels Iuel" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Niels Iuel Class" } } }
+			ship = { name = "HDMS Niels Iuel" pride_of_the_fleet = yes definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Niels Iuel Class" } } }
 			ship = { name = "HDMS Peder Skram" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = DEN version_name = "Herluf Trolle Class" } } }
 			ship = { name = "HDMS Dragen" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
 			ship = { name = "HDMS Hvalen" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }

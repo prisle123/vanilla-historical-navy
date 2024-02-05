@@ -2558,10 +2558,6 @@ equipment_modules = {
 			naval_speed = -0.01
 		}
 		
-		add_average_stats = {
-			lg_armor_piercing = 4
-		}
-		
 		can_convert_from = {
 			module_category = ship_secondaries
 			convert_cost_ic = 100
@@ -2588,10 +2584,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			naval_speed = -0.01
-		}
-		
-		add_average_stats = {
-			lg_armor_piercing = 6
 		}
 		
 		can_convert_from = {
@@ -2622,10 +2614,6 @@ equipment_modules = {
 			naval_speed = -0.02
 		}
 		
-		add_average_stats = {
-			lg_armor_piercing = 8
-		}
-		
 		can_convert_from = {
 			module_category = ship_secondaries
 			convert_cost_ic = 180
@@ -2652,10 +2640,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			naval_speed = -0.03
-		}
-		
-		add_average_stats = {
-			lg_armor_piercing = 10
 		}
 		
 		can_convert_from = {
@@ -2823,6 +2807,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 		}
+		critical_parts = { damaged_fire_control }
 	}
 
 	ship_fire_control_system_1 = {
@@ -2845,6 +2830,7 @@ equipment_modules = {
 			module = ship_fire_control_system_0
 			convert_cost_ic = 85
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_fire_control_system_2 = {
 		abbreviation = "sbh"
@@ -2869,6 +2855,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 145
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_fire_control_system_3 = {
 		abbreviation = "sbi"
@@ -2893,6 +2880,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 145
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_fire_control_system_4 = {
 		category = ship_fire_control_system
@@ -2917,6 +2905,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 200
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_sub_torpedo_computer = {
 		category = sub_fire_control_system
@@ -4623,25 +4612,6 @@ equipment_modules = {
 #  # ##  #    ##       #  ###  #### #    ##  
 #  # #   #  # # #       # #    #  # #  # #   
 ###  ###  ##  # #     ##  #    #  #  ##  ### 
-	ship_deck_space = {
-		category = ship_deck_space
-
-		add_equipment_type = capital_ship
-		add_stats = {
-			carrier_size = 2
-			build_cost_ic = 1200
-		}
-		manpower = 200 #outside the add_stats section for code reasons
-		multiply_stats = {
-			naval_speed = -0.05
-			anti_air_attack = 0.025
-		}
-		dismantle_cost_ic = 600
-		can_convert_from = {
-			module_category = ship_deck_space
-			convert_cost_ic = 1000
-		}
-	}
 	ship_deck_space_more = {
 		category = ship_deck_space
 
@@ -4684,6 +4654,26 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1200
+		}
+	}
+	ship_deck_space = {
+		category = ship_deck_space
+		parent = ship_deck_space_armored
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 2
+			build_cost_ic = 1200
+		}
+		manpower = 200 #outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.05
+			anti_air_attack = 0.025
+		}
+		dismantle_cost_ic = 600
+		can_convert_from = {
+			module_category = ship_deck_space
+			convert_cost_ic = 1000
 		}
 	}
 	ship_deck_space_small = {
@@ -5351,28 +5341,6 @@ equipment_modules = {
 		dismantle_cost_ic = 6700
 	}
 	
-	ship_armor_carrier_deck = {
-		abbreviation = "sdp"
-		category = ship_carrier_armor
-		gfx = ship_cruiser_armor
-		
-		add_stats = {
-			reliability = 0.05
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		multiply_stats = {
-			naval_speed = -0.05
-			anti_air_attack = 0.05
-			build_cost_ic = 0.075
-		}
-		add_stats = {
-			max_strength = 40
-		}
-		dismantle_cost_ic = 2500
-	}
-	
 	
 ### AP shell for balance
 	# ship_ap_shell_1 = {
@@ -5412,7 +5380,36 @@ equipment_modules = {
 	# 	}
 	# 	dismantle_cost_ic = 5
 	# }
-	
+### carrier flight deck
+	carrier_armor_deck = {
+		category = ship_flight_deck
+		
+		add_stats = {
+			reliability = 0.1
+			max_strength = 35
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+			anti_air_attack = 0.06
+			build_cost_ic = 0.05
+		}
+		dismantle_cost_ic = 3500
+
+		critical_parts = { damaged_armored_flight_deck }
+	}
+	carrier_wooden_deck = {
+		category = ship_flight_deck
+
+		multiply_stats = {
+			naval_speed = 0.01
+		}
+		dismantle_cost_ic = 2500
+
+		critical_parts = { damaged_wooden_flight_deck }
+	}	
 ### modern carrier equipments
 	ship_airplane_launcher_3 = {
 		category = steam_catapult
@@ -5476,15 +5473,15 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.1
-			anti_air_attack = 0.1
 			max_strength = 0.3
 		}
 		add_stats = {
 			armor_value = 20
 			naval_torpedo_damage_reduction_factor = 0.2
 			naval_torpedo_enemy_critical_chance_factor = -0.15
+			reliability = 0.15
 		}
-		dismantle_cost_ic = 3500
+		dismantle_cost_ic = 4500
 	}
 
 ### Missile
@@ -5808,15 +5805,17 @@ equipment_modules = {
 	ship_hull_cruiser_role_rc = {
 		category = c_role
 		multiply_stats = {
-			lg_attack = -0.1
-			hg_attack = -0.1
+			lg_attack = -0.15
+			lg_armor_piercing = -0.15
+			hg_attack = -0.15
+			hg_armor_piercing = -0.15
 			
-			max_strength = -0.1
+			max_strength = -0.2
 			naval_speed = -0.1
-			armor_value = -0.1
+			armor_value = -0.2
 			naval_range = 0.4
 			surface_visibility = -0.05
-			build_cost_ic = -0.12
+			build_cost_ic = -0.15
 		}
 		forbid_module_categories = {
 			ship_medium_heavy_battery
@@ -5998,7 +5997,12 @@ equipment_modules = {
 		category = raider_kit
 		
 		multiply_stats = {
-			lg_attack = -0.1
+			lg_attack = -0.2
+			lg_armor_piercing = -0.2
+			hg_attack = -1
+			hg_armor_piercing = -1
+			anti_air_attack = -0.5
+			torpedo_attack = -0.8
 			surface_visibility = -0.2
 			build_cost_ic = 0.02
 		}
@@ -6012,7 +6016,8 @@ equipment_modules = {
 
 	# miscellaneous
 	ship_radar_jammer = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			surface_visibility = -0.1
 		}
@@ -6021,7 +6026,8 @@ equipment_modules = {
 		}
 	}
 	ship_smoke_generator = {
-		category = ship_miscellaneous
+		category = light_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			surface_visibility = -0.05
 			naval_light_gun_hit_chance_factor = -0.01
@@ -6042,7 +6048,8 @@ equipment_modules = {
 		}
 	}
 	ship_bulbous_bow = {
-		category = ship_miscellaneous
+		category = light_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			sub_detection = 0.15
 			naval_speed = 0.05
@@ -6053,7 +6060,8 @@ equipment_modules = {
 		}
 	}
 	ship_aa_fire_control = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			anti_air_attack = 0.05
 		}
@@ -6062,7 +6070,8 @@ equipment_modules = {
 		}
 	}
 	ship_electric_motor = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		add_stats = {
 			max_organisation = 0.1
 			reliability = -0.01
@@ -6072,7 +6081,8 @@ equipment_modules = {
 		}
 	}
 	ship_light_weight_shell = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			hg_attack = -0.05
 			hg_armor_piercing = -0.05
@@ -6081,7 +6091,8 @@ equipment_modules = {
 		}
 	}
 	ship_super_heavy_weight_shell = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
@@ -6090,7 +6101,8 @@ equipment_modules = {
 		}
 	}
 	ship_high_velocity_shell = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		add_stats = {
 			reliability = -0.1
 		}
@@ -6101,7 +6113,8 @@ equipment_modules = {
 		}
 	}
 	ship_anti_air_shell = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		add_stats = {
 			reliability = -0.05
 		}
@@ -6111,7 +6124,8 @@ equipment_modules = {
 		}
 	}
 	ship_vt_shell = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
+		gui_category = ship_miscellaneous
 		multiply_stats = {
 			anti_air_attack = 0.04
 			build_cost_ic = 0.02
@@ -6145,8 +6159,8 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			surface_detection = 0.15
-			sub_detection = 0.1
-			build_cost_ic = 0.06
+			sub_detection = 0.15
+			build_cost_ic = 0.05
 		}
 	}
 	carrier_spared_squad = {
@@ -6158,6 +6172,9 @@ equipment_modules = {
 		multiply_stats = {
 			anti_air_attack = 0.03
 			build_cost_ic = 0.075
+		}
+		add_stats = {
+			reliability = -0.05
 		}
 	}
 	carrier_fuel_storage = {
@@ -6315,7 +6332,7 @@ equipment_modules = {
 		}
 	}
 	ship_decoy_launcher = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		multiply_stats = {
 			surface_visibility = -0.05
@@ -6391,7 +6408,7 @@ equipment_modules = {
 		}
 	}
 	full_missile_upgrade = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		add_stats = {
 			reliability = 0.3
@@ -6414,7 +6431,7 @@ equipment_modules = {
 		}
 	}
 	economical_nuclear_reactor_cruiser = {
-		category = ship_miscellaneous
+		category = heavy_miscellaneous
 		gui_category = cold_war_miscellaneous
 		gfx = economical_nuclear_reactor
 		add_stats = {
@@ -6461,9 +6478,10 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 300
 		}
+		critical_parts = { damaged_fire_control }
 	}
 	ship_display_system = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		add_stats = {
 			surface_detection = 5
@@ -6474,7 +6492,7 @@ equipment_modules = {
 		}
 	}
 	recon_drone_1 = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		add_stats = {
 			surface_detection = 3
@@ -6520,7 +6538,7 @@ equipment_modules = {
 		}
 	}
 	structural_aluminum = {
-		category = ship_miscellaneous
+		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		multiply_stats = {
 			reliability = -0.1
