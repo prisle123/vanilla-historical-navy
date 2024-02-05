@@ -4612,25 +4612,6 @@ equipment_modules = {
 #  # ##  #    ##       #  ###  #### #    ##  
 #  # #   #  # # #       # #    #  # #  # #   
 ###  ###  ##  # #     ##  #    #  #  ##  ### 
-	ship_deck_space = {
-		category = ship_deck_space
-
-		add_equipment_type = capital_ship
-		add_stats = {
-			carrier_size = 2
-			build_cost_ic = 1200
-		}
-		manpower = 200 #outside the add_stats section for code reasons
-		multiply_stats = {
-			naval_speed = -0.05
-			anti_air_attack = 0.025
-		}
-		dismantle_cost_ic = 600
-		can_convert_from = {
-			module_category = ship_deck_space
-			convert_cost_ic = 1000
-		}
-	}
 	ship_deck_space_more = {
 		category = ship_deck_space
 
@@ -4673,6 +4654,26 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1200
+		}
+	}
+	ship_deck_space = {
+		category = ship_deck_space
+		parent = ship_deck_space_armored
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 2
+			build_cost_ic = 1200
+		}
+		manpower = 200 #outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.05
+			anti_air_attack = 0.025
+		}
+		dismantle_cost_ic = 600
+		can_convert_from = {
+			module_category = ship_deck_space
+			convert_cost_ic = 1000
 		}
 	}
 	ship_deck_space_small = {

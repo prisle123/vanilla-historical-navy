@@ -151,10 +151,6 @@ MTG_naval_treaties = {
 					has_naval_treaty_trigger = yes
 				}
 				country_event = { id = MTG_naval_treaty.7 days = 2 }
-				send_embargo = ROOT
-				every_subject_country = {
-					send_embargo = ROOT
-				}
 			}
 			if = {
 				limit = {

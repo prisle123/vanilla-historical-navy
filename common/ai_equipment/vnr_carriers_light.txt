@@ -51,8 +51,7 @@ naval_light_carrier = {
 		role_icon_index = 11
 
 		priority = { 
-			base = 10
-			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
+			base = 0
 		}
 		target_variant = {
 			match_value = 100.0
@@ -65,7 +64,8 @@ naval_light_carrier = {
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_radar_slot = { upgrade = current any_of = { carrier_ship_engine_2 carrier_ship_engine_1 } }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_miscellaneous
+				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
+				fixed_ship_flight_deck_slot = carrier_wooden_deck
 			}
 		}
 	}
@@ -75,8 +75,7 @@ naval_light_carrier = {
 		role_icon_index = 11
 
 		priority = {
-			base = 20
-			modifier = { factor = 0.1 has_tech = advanced_ship_hull_carrier }
+			base = 0
 		}
 
 		target_variant = {
@@ -91,7 +90,8 @@ naval_light_carrier = {
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_miscellaneous
+				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
+				fixed_ship_flight_deck_slot = carrier_wooden_deck
 			}
 		}
 	}
@@ -102,7 +102,6 @@ naval_light_carrier = {
 
 		priority = {
 			base = 0
-			modifier = { add = 10 has_tech = advanced_ship_hull_carrier }
 		}
 
 		target_variant = {
@@ -117,7 +116,8 @@ naval_light_carrier = {
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
-				fixed_ship_carrier_miscellaneous_slot_1 = carrier_miscellaneous
+				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
+				fixed_ship_flight_deck_slot = carrier_wooden_deck
 			}
 		}
 	}

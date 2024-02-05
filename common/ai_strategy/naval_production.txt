@@ -1992,12 +1992,12 @@ we_need_convoys_majors1 = {
 	allowed = {
 		OR = {
 			tag = ENG
-				tag = FRA
-				tag = JAP
-				tag = GER
-				tag = USA
-				tag = ITA
-				tag = SOV
+			tag = FRA
+			tag = JAP
+			tag = GER
+			tag = USA
+			tag = ITA
+			tag = SOV
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 75 } }
@@ -2006,7 +2006,7 @@ we_need_convoys_majors1 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = convoy
-		value = 2
+		value = 10
 	}
 }
 
@@ -2014,16 +2014,38 @@ we_need_convoys_majors2 = {
 	allowed = {
 		OR = {
 			tag = ENG
-				tag = FRA
-				tag = JAP
-				tag = GER
-				tag = USA
-				tag = ITA
-				tag = SOV
+			tag = FRA
+			tag = JAP
+			tag = GER
+			tag = USA
+			tag = ITA
+			tag = SOV
 		}
 	}
 	enable = { stockpile_ratio = { archetype = convoy ratio < 150 } }
 	abort = { stockpile_ratio = { archetype = convoy ratio > 250 } }
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = convoy
+		value = 5
+	}
+}
+
+we_need_convoys_majors3 = {
+	allowed = {
+		OR = {
+			tag = ENG
+			tag = FRA
+			tag = JAP
+			tag = GER
+			tag = USA
+			tag = ITA
+			tag = SOV
+		}
+	}
+	enable = { stockpile_ratio = { archetype = convoy ratio > 250 } }
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories

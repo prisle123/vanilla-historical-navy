@@ -143,7 +143,7 @@ country_event = {
 					fixed_ship_secondaries_slot = dp_ship_secondaries_4
 					front_1_custom_slot = ship_deck_space
 					mid_1_custom_slot = ship_deck_space
-					mid_2_custom_slot = ship_armor_carrier_deck
+					mid_2_custom_slot = ship_deck_space
 				}
 			}
 			create_equipment_variant = {
@@ -250,7 +250,7 @@ country_event = {
 					fixed_ship_engine_slot = carrier_ship_engine_3
 					fixed_ship_secondaries_slot = dp_ship_secondaries_3
 					front_1_custom_slot = ship_deck_space
-					mid_1_custom_slot = ship_armor_carrier_deck
+					mid_1_custom_slot = ship_deck_space
 				}
 			}
 			create_equipment_variant = {
@@ -359,7 +359,7 @@ country_event = {
 					fixed_ship_secondaries_slot = dp_ship_secondaries_4
 					front_1_custom_slot = ship_deck_space
 					mid_1_custom_slot = ship_deck_space
-					mid_2_custom_slot = ship_armor_carrier_deck
+					mid_2_custom_slot = ship_deck_space
 				}
 			}
 			create_equipment_variant = {
@@ -594,7 +594,7 @@ country_event = {
 					fixed_ship_radar_slot = ship_radar_3
 					fixed_ship_engine_slot = carrier_ship_engine_4
 					fixed_ship_secondaries_slot = dp_ship_secondaries_4
-					front_1_custom_slot = ship_armor_carrier_deck
+					front_1_custom_slot = ship_deck_space
 					mid_1_custom_slot = ship_deck_space
 					mid_2_custom_slot = ship_deck_space
 				}

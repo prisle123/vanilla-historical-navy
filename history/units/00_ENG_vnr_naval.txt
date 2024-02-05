@@ -431,7 +431,7 @@ instant_effect = {
 	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 1936, "HMS Apollo", Comm. 13-Jan 1936, "HMS Penelope", Comm. 12-Nov 1936)
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_cruiser_2
+			type = vnr_ship_hull_cruiser_3
 			creator = "ENG" 
 			version_name = "Leander Class"
 		}
@@ -442,7 +442,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = vnr_ship_hull_cruiser_2
+			type = vnr_ship_hull_cruiser_3
 			creator = "ENG" 
 			version_name = "Leander Class"
 		}

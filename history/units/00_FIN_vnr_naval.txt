@@ -9,10 +9,10 @@
 			location =  11105 # Helsinki
 			ship = { name = "Ilmarinen" definition = heavy_cruiser start_experience_factor = 0.16 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FIN version_name = "Väinämöinen Class" } } }				
 			ship = { name = "Väinämöinen" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.16 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FIN version_name = "Väinämöinen Class" } } }		
-			ship = { name = "Uusimaa" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Golub/Filin Class" } } }
-			ship = { name = "Hämeenmaa" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Golub/Filin Class" } } }
-			ship = { name = "Turunmaa" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Golub/Filin Class" } } }
-			ship = { name = "Karjala" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Golub/Filin Class" } } }		
+			ship = { name = "Uusimaa" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Golub/Filin Class" } } }
+			ship = { name = "Hämeenmaa" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Golub/Filin Class" } } }
+			ship = { name = "Turunmaa" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Golub/Filin Class" } } }
+			ship = { name = "Karjala" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Golub/Filin Class" } } }		
 		}					
 		task_force = {					
 			name = "Sukellusvenelaivue"				
