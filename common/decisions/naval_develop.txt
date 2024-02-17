@@ -12,11 +12,10 @@ naval_develop_category = {
 		visible = {
 			has_navy_size = { size < 1 }
 			num_of_naval_factories > 0
-			is_major = no
 		}
 
 		cancel_trigger = {
-			OR= {
+			OR = {
 				has_navy_size = {
 					size > 5
 				}
@@ -48,23 +47,18 @@ naval_develop_category = {
 		fire_only_once = yes
 		days_remove = 30
 		available = {
-			has_navy_size = {
-				size < 1
-			}
 			num_of_naval_factories > 1
 		}
 		visible = {
-			has_navy_size = { size < 1 }
+			has_navy_size = { size < 50 }
 			num_of_naval_factories > 0
-			is_major = no
 		}
 
 		cost = 15
 
 		remove_effect = {
-			add_tech_bonus = {
-				name = naval_doctrine
-				bonus = 1
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.8
 				uses = 3
 				category = naval_doctrine
 			}
@@ -99,7 +93,6 @@ naval_develop_category = {
 				size < 15
 			}
 			num_of_naval_factories > 0
-			is_major = no
 		}
 
 		cost = 30
@@ -130,16 +123,15 @@ naval_develop_category = {
 		days_remove = 30
 		available = {
 			has_navy_size = {
-				size < 15
+				size < 30
 			}
 			num_of_naval_factories > 1
 		}
 		visible = {
 			has_navy_size = {
-				size < 15
+				size < 30
 			}
 			num_of_naval_factories > 1
-			is_major = no
 		}
 
 		cost = 30
@@ -159,7 +151,7 @@ naval_develop_category = {
 			modifier = {
 				add = 30
 				has_navy_size = {
-					size < 15
+					size < 30
 				}
 			}
 		}
@@ -178,8 +170,12 @@ naval_develop_category = {
 			has_navy_size = {
 				size < 45
 			}
+			has_navy_size = {
+				size < 1
+				type = capital_ship
+				archetype = ship_hull_heavy
+			}
 			num_of_naval_factories > 1
-			is_major = no
 		}
 
 		cost = 50
@@ -218,8 +214,11 @@ naval_develop_category = {
 			has_navy_size = {
 				size < 45
 			}
+			has_navy_size = {
+				size < 1
+				type = carrier
+			}
 			num_of_naval_factories > 1
-			is_major = no
 		}
 
 		cost = 50
@@ -260,7 +259,6 @@ naval_develop_category = {
 				size < 10
 			}
 			num_of_naval_factories > 0
-			is_major = no
 		}
 
 		cost = 15
@@ -285,4 +283,30 @@ naval_develop_category = {
 			}
 		}
     }
+	gen_naval_research_budget = {
+		icon = GFX_decision_generic_research
+		available = {
+			num_of_naval_factories > 0
+			has_navy_size = {
+				size > 50
+			}
+		}
+		visible = {
+			num_of_naval_factories > 0
+		}
+		
+		cost = 10
+		days_re_enable = 365
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = vnr_research_budget
+				days = 180
+			}
+		}
+		ai_will_do = {
+			factor = 30
+			modifier = { factor = 0 has_political_power < 20 }
+		}
+	}
 }

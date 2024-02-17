@@ -4641,7 +4641,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			carrier_size = 2
-			build_cost_ic = 1400
+			build_cost_ic = 1300
 			reliability = 0.025
 		}
 		manpower = 200 #outside the add_stats section for code reasons
@@ -4663,7 +4663,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			carrier_size = 2
-			build_cost_ic = 1200
+			build_cost_ic = 1000
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -4682,7 +4682,7 @@ equipment_modules = {
 		gui_category = ship_deck_space
 		add_stats = {
 			carrier_size = 1
-			build_cost_ic = 800
+			build_cost_ic = 500
 		}
 		multiply_stats = {
 			naval_speed = -0.025
@@ -5394,7 +5394,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.05
 			anti_air_attack = 0.06
-			build_cost_ic = 0.05
+			build_cost_ic = 0.1
 		}
 		dismantle_cost_ic = 3500
 
@@ -5492,8 +5492,8 @@ equipment_modules = {
 			build_cost_ic = 2200
 			hg_attack = 30
 			lg_attack = 20
-			naval_heavy_gun_hit_chance_factor = 0.1
-			naval_light_gun_hit_chance_factor = 0.1
+			naval_heavy_gun_hit_chance_factor = 0.05
+			naval_light_gun_hit_chance_factor = 0.05
 			reliability = -0.15
 		}
 		add_average_stats = {
@@ -5502,6 +5502,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.1
+			surface_visibility = -0.025
 		}
 	}
 	ship_missile_aa_1 = {
@@ -5513,12 +5514,13 @@ equipment_modules = {
 			hg_attack = 5
 			lg_attack = 5
 			anti_air_attack = 10
-			naval_heavy_gun_hit_chance_factor = 0.05
-			naval_light_gun_hit_chance_factor = 0.05
+			naval_heavy_gun_hit_chance_factor = 0.025
+			naval_light_gun_hit_chance_factor = 0.025
 			reliability = -0.075
 		}
 		multiply_stats = {
 			naval_speed = -0.05
+			surface_visibility = -0.015
 		}
 	}
 
@@ -5594,7 +5596,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			sub_visibility = -0.1
-			build_cost_ic = 0.4
+			build_cost_ic = 0.2
 		}
 	}
 
@@ -6155,12 +6157,11 @@ equipment_modules = {
 	carrier_scouting_unit = {
 		category = carrier_unit
 		add_stats = {
-			carrier_size = -1
+			build_cost_ic = 400
 		}
 		multiply_stats = {
 			surface_detection = 0.15
 			sub_detection = 0.15
-			build_cost_ic = 0.05
 		}
 	}
 	carrier_spared_squad = {
@@ -6181,6 +6182,7 @@ equipment_modules = {
 		category = carrier_miscellaneous
 		add_stats = {
 			reliability = -0.05
+			supply_consumption = -0.02
 		}
 		multiply_stats = {
 			naval_range = 0.2
@@ -6206,11 +6208,13 @@ equipment_modules = {
 		category = carrier_miscellaneous
 		add_stats = {
 			max_organisation = 0.1
+			reliability = -0.05
 			build_cost_ic = 200
 		}
 		multiply_stats = {
 			surface_detection = 0.05
 			anti_air_attack = 0.025
+			naval_speed = -0.025
 			naval_torpedo_damage_reduction_factor = 0.01
 		}
 	}
@@ -6225,7 +6229,8 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.025
-			build_cost_ic = 0.15
+			armor_value = 0.1
+			build_cost_ic = 0.1
 		}
 	}
 
@@ -6469,6 +6474,7 @@ equipment_modules = {
 		multiply_stats = {
 			anti_air_attack = 0.3
 			surface_detection = 0.075
+			surface_visibility = -0.05
 		}
 		can_convert_from = {
 			module = ship_fire_control_system_4
@@ -6486,14 +6492,16 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 5
 			max_organisation = 0.1
+			naval_light_gun_hit_chance_factor = 0.015
+			naval_heavy_gun_hit_chance_factor = 0.015
+			naval_torpedo_hit_chance_factor = 0.015
 		}
 		multiply_stats = {
 			build_cost_ic = 0.025
 		}
 	}
 	recon_drone_1 = {
-		category = generic_miscellaneous
-		gui_category = cold_war_miscellaneous
+		category = ship_airplane_launcher
 		add_stats = {
 			surface_detection = 3
 			sub_detection = 3
@@ -6503,12 +6511,11 @@ equipment_modules = {
 	carrier_tracing_unit = {
 		category = carrier_unit
 		add_stats = {
-			carrier_size = -1
+			build_cost_ic = 800
 		}
 		multiply_stats = {
 			surface_detection = 0.3
 			sub_detection = 0.2
-			build_cost_ic = 0.1
 		}
 	}
 	sub_ship_engine_nuclear = {

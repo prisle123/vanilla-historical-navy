@@ -17,6 +17,6 @@ sub_units = {
 		critical_parts = { destroyed_ammo_storage broken_propeller on_fire gas_leakage }
 		critical_part_damage_chance_mult = 1
 
-		hit_profile_mult = 1.3
+		hit_profile_mult = 1
 	}
 }

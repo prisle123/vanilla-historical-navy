@@ -236,7 +236,7 @@ naval_capital_battleship = {
 
 			type = vnr_ship_hull_heavy_3
 			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
@@ -245,10 +245,10 @@ naval_capital_battleship = {
 				fixed_ship_armor_slot = { upgrade > current any_of = { ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_armor_scheme_slot = { upgrade > current any_of = { ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental_post_jutland ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade > current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
-				front_1_custom_slot = ship_heavy_battery
+				front_1_custom_slot = ship_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_anti_air
-				rear_1_custom_slot = ship_heavy_battery
+				rear_1_custom_slot = ship_heavy_battery_triple
 			}
 		}
 	}

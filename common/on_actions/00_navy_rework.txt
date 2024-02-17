@@ -1,7 +1,7 @@
 on_actions = {
     on_startup = {
         effect = {
-            set_global_flag = vnr_enabled
+			set_global_flag = vnr_enabled
             # show welcome splash
 			set_global_flag = navy_rework_splash_show
 			
@@ -12,6 +12,7 @@ on_actions = {
 			}
 
             set_variable = { vnr_ai_difficulty = 0 }
+			set_variable = { vnr_ai_production = 0 }
 
             # major naval powers array setup
             add_to_array = { global.vnr_naval_powers = ENG }

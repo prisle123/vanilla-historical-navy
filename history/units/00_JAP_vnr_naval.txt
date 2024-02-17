@@ -72,6 +72,9 @@ units = {
 			ship = { name = "Ryujo" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_1 = {amount = 1 owner = JAP version_name = "Ryujo Class"} } 				
 			
 			}
+			ship = { name = "Hosho" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_ca = {amount = 1 owner = JAP version_name = "Hosho Class"} } 				
+			
+			}
 			#Dai 5 Kuchikutai
 			ship = { name = "Asakaze" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
 			ship = { name = "Harukaze" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
@@ -173,9 +176,6 @@ units = {
 			ship = { name = "Akagi" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = {amount = 1 owner = JAP version_name = "Akagi Class"} } 				
 			
 			}	
-			ship = { name = "Hosho" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_ca = {amount = 1 owner = JAP version_name = "Hosho Class"} } 				
-			
-			}
 			ship = { name = "Natori" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
 			ship = { name = "Yura" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
 			ship = { name = "Kitakami" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
@@ -190,6 +190,11 @@ units = {
 			ship = { name = "Mikazuki" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
 			ship = { name = "Mochizuki" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
 			ship = { name = "Yuzuki" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
+			# Dai 24 Kuchikutai
+			ship = { name = "Momo" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
+			ship = { name = "Kashi" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
+			ship = { name = "Hinoki" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
+			ship = { name = "Yanagi" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
 		}
 	}
 	
@@ -201,7 +206,6 @@ units = {
 			name = "3 Kantai" #Later assigned for the Chinese theater
 			location = 12068  # 12068	# Taiwan
 			#Dai 10 Sentai
-			ship = { name = "Asama" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Asama/Izumo Class"} } }
 			ship = { name = "Izumo" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Asama/Izumo Class"} } }
 			ship = { name = "Kuma" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
 			ship = { name = "Yodo" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = {amount = 1 owner = JAP version_name = "Yodo Class" } } }
@@ -251,13 +255,9 @@ units = {
 			ship = { name = "Sanae" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Wakatake Class"} } }
 			##Dai 16 Kuchikutai
 			ship = { name = "Fuyo" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Wakatake Class"} } }
-			ship = { name = "Karukaya" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Wakatake Class"} } }		
+			ship = { name = "Karukaya" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Wakatake Class"} } }
+			ship = { name = "Yugao" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Wakatake Class"} } }
 			ship = { name = "Asagao" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Wakatake Class"} } }		
-			
-			ship = { name = "Momo" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
-			ship = { name = "Kashi" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
-			ship = { name = "Hinoki" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
-			ship = { name = "Yanagi" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo/Momi Class"} } }
 		}
 		task_force = {
 			name = "Makou Keibi Sentai"
@@ -272,7 +272,7 @@ units = {
 
 	#Hiroshima (Kure)
 	fleet = {
-		name = "Kure Kantai"			
+		name = "Kaigun Yobikantai"			
 		naval_base = 1092  # 1092  # Hiroshima
 		task_force = {
 			name = "Kure Yobikantai" # Patrol and reserve fleet, including ships under modernization
@@ -329,12 +329,6 @@ units = {
 			ship = { name = "Ro-67" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Class"} } }
 			ship = { name = "Ro-68" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Class"} } }	
 		}
-	}
-
-	# Naval District Forces #
-	fleet = {
-		name = "Kaigun Yobikantai"
-		naval_base = 9859  # 9859  #Ominato
 		#Ominato
 		task_force = {
 			name = "Ominato Keibi Sentai"
@@ -366,7 +360,6 @@ units = {
 			location = 2489  # 2489  # Truk
 			ship = { name = "Oite" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
 			ship = { name = "Hayate" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
-			ship = { name = "Yugao" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Wakatake Class"} } }
 			#Former Dai 2 Kuchikutai
 			ship = { name = "Minekaze" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }
 			ship = { name = "Sawakaze" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze/Mutsuki Class"} } }

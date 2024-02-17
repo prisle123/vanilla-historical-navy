@@ -703,13 +703,13 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 25
+		value = 35
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 15
+		value = 30
 	}
 
 	ai_strategy = {
@@ -761,13 +761,13 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 35
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 30
+		value = 40
 	}
 
 	ai_strategy = {
@@ -1276,7 +1276,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 40
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1333,7 +1333,7 @@ naval_unit_role_ratios_JAP_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 30
+		value = 45
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
@@ -1486,13 +1486,13 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 40
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 20
+		value = 30
 	}
 	
 	ai_strategy = {
@@ -1535,13 +1535,13 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 30
+		value = 50
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 55
+		value = 60
 	}
 	
 	ai_strategy = {

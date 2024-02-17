@@ -44,7 +44,9 @@ naval_screen_leader = {
 		role_icon_index = 33
 
 		priority = {
-			base = 10
+			base = 1
+			modifier = { factor = 10 tag = USA }
+			modifier = { factor = 25 tag = FRA }
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
 		}
 
@@ -75,7 +77,9 @@ naval_screen_leader = {
 		role_icon_index = 33
 
 		priority = {
-			base = 30
+			base = 1
+			modifier = { factor = 10 tag = USA }
+			modifier = { factor = 25 tag = FRA }
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
 		}
 
@@ -106,8 +110,9 @@ naval_screen_leader = {
 		role_icon_index = 33
 
 		priority = {
-			base = 0
-			modifier = { add = 100 has_tech = advanced_ship_hull_light }
+			base = 1
+			modifier = { factor = 10 tag = USA }
+			modifier = { factor = 25 tag = FRA }
 		}
 
 		target_variant = {

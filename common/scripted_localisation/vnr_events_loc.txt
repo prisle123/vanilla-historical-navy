@@ -325,6 +325,26 @@ defined_text = {
 }
 
 defined_text = {
+	name = get_vnr_ai_production
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 0 } }
+		localization_key = vnr_ai_production_no
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 1 } }
+		localization_key = vnr_ai_production_normal
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 2 } }
+		localization_key = vnr_ai_production_hard
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 3 } }
+		localization_key = vnr_ai_production_mad
+	}
+}
+
+defined_text = {
 	name = get_designer_title
 	text = {
 		trigger = { 

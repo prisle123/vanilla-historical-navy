@@ -1,6 +1,9 @@
 ideas = {
     country = {
         vnr_mad = {
+			cancel = {
+				is_ai = no
+			}
             modifier = {
                 convoy_raiding_efficiency_factor = 0.3
                 critical_receive_chance = -0.3
@@ -25,6 +28,9 @@ ideas = {
             }
         }
         vnr_hard = {
+			cancel = {
+				is_ai = no
+			}
 			modifier = {
                 convoy_raiding_efficiency_factor = 0.2
                 critical_receive_chance = -0.2
@@ -49,6 +55,9 @@ ideas = {
 			}
         }
         vnr_normal = {
+			cancel = {
+				is_ai = no
+			}
 			modifier = {
                 convoy_raiding_efficiency_factor = 0.1
                 critical_receive_chance = -0.1
@@ -72,5 +81,40 @@ ideas = {
                 sortie_efficiency = 0.1
 			}
         }
+		
+		vnr_mad_production = {
+			cancel = {
+				is_ai = no
+			}
+			picture = generic_navy_bonus
+            modifier = {
+                industrial_capacity_dockyard = 1
+            }
+        }
+        vnr_hard_production = {
+			cancel = {
+				is_ai = no
+			}
+			picture = generic_navy_bonus
+			modifier = {
+                industrial_capacity_dockyard = 0.6
+			}
+        }
+        vnr_normal_production = {
+			cancel = {
+				is_ai = no
+			}
+			picture = generic_navy_bonus
+			modifier = {
+                industrial_capacity_dockyard = 0.3
+			}
+        }
+		
+		vnr_research_budget = {
+			picture = liberty_ships_focus
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+		}
     }
 }
