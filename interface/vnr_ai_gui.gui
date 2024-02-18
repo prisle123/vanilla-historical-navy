@@ -1,0 +1,219 @@
+guiTypes = {
+	containerWindowType = {
+		name = vnr_ai_gui_container
+		position = { x = 0 y = 0 }
+		size = { width = 720 height = 800 }
+		moveable = yes
+		orientation = CENTER
+		origo = center
+		clipping = no
+
+		background = { quadTextureSprite = "GFX_tiled_window_pol_goal" }
+		instantTextboxType = {
+			name ="vnr_ai_gui_container_header"
+			position = { x = 0 y = 30 }
+			font = "hoi_36header"
+			text = "vnr_ai_gui_header_text"
+			format = center
+			maxHeight = 36
+			maxWidth = 720
+		}
+		instantTextboxType = {
+			name ="vnr_ai_gui_container_intro_text"
+			position = { x = 0 y = 0 }
+			font = "hoi_36header"
+			text = "vnr_ai_intro_text"
+			format = center
+			maxHeight = 36
+			maxWidth = 720
+		}
+
+		containerWindowType = {
+			name = vnr_ai_gui_tab_button_container
+			position = { x = 50 y = 50 }
+			size = { width = 600 height = 200 }
+			orientation = CENTER_UP
+
+			buttonType = {
+				name = "tab_1"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_main_lobby_button"
+				buttonText = "vnar_ai_gui_tab_1"
+				font = "hoi_18mbs"
+				clicksound = click_default
+			}
+			buttonType = {
+				name = "tab_2"
+				position = { x = 200 y = 0 }
+				quadTextureSprite ="GFX_main_lobby_button"
+				buttonText = "vnar_ai_gui_tab_2"
+				font = "hoi_18mbs"
+				clicksound = click_default
+			}
+		}
+
+		buttonType = {
+			name = "apply_button"
+			position = { x = -120 y = -42 }
+			orientation = center_down
+
+			quadTextureSprite = "GFX_button_123x34"
+			buttonText = "Apply"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+	}
+
+	containerWindowType = {
+		name = vnr_ai_gui_tab_1_container
+		position = { x = 0 y = 436 }
+		size = { width = 720 height = 292 }
+
+		containerWindowType = {
+			name = "vnr_ai_gui_combat_container"
+			Orientation = upper_left
+			size = {width=400 height=200}
+			position = {x=0 y=0}
+			verticalScrollbar = "right_vertical_slider_intel"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
+			
+			gridBoxType = {
+				name = "vnr_ai_gui_grid_box_1"
+				position = { x = 0 y = 0}
+				#The size of the gridbox
+				size = { width = 100%% height = 100%% }
+				Orientation = upper_left
+				#The slot size
+				slotsize = {width=400 height=50 }
+				format = "UPPER_LEFT"
+				#the maximum horizontal gui elements
+				max_slots_horizontal = 1
+			}
+		}
+	}
+	containerWindowType = {
+		name = vnr_ai_gui_tab_2_container
+		position = { x = 0 y = 436 }
+		size = { width = 720 height = 292 }
+
+		containerWindowType = {
+			name = "vnr_ai_gui_production_container"
+			Orientation = upper_left
+			size = {width=400 height=200}
+			position = {x=0 y=0}
+			verticalScrollbar = "right_vertical_slider_intel"
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
+			
+			gridBoxType = {
+				name = "vnr_ai_gui_grid_box_2"
+				position = { x = 0 y = 0}
+				#The size of the gridbox
+				size = { width = 100%% height = 100%% }
+				Orientation = upper_left
+				#The slot size
+				slotsize = {width=400 height=50 }
+				format = "UPPER_LEFT"
+				#the maximum horizontal gui elements
+				max_slots_horizontal = 1
+			}
+		}
+	}
+
+
+	containerWindowType = {
+		name = "vnr_ai_gui_combat"
+		size = {width=100% height=100%}
+
+		instantTextboxType = {
+			name ="country_header"
+			position = { x = 0 y = 15 }
+			font = "hoi_18mbs"
+			text = "country_header_text"
+			format = center
+			maxHeight = 36
+			maxWidth = 720
+		}	
+		checkboxType = {
+			name = "easy_cb"
+			position = { x=0 y=47}
+			quadTextureSprite ="GFX_difficulty_button_recruit"
+			buttonText = "vnr_ai_difficulty_no"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
+		}
+		checkboxType = {
+			name = "normal_cb"
+			position = { x=125 y=47}
+			quadTextureSprite ="GFX_difficulty_button_regular"
+			clicksound = click_checkbox
+			buttonText = "vnr_ai_difficulty_normal"
+			buttonFont = "hoi_20b"
+		}
+		checkboxType = {
+			name = "hard_cb"
+			position = { x=241 y=47}
+			quadTextureSprite ="GFX_difficulty_button_veteran"
+			buttonText = "vnr_ai_difficulty_hard"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
+		}
+		checkboxType = {
+			name = "very_hard_cb"
+			position = { x=357 y=47}
+			quadTextureSprite ="GFX_difficulty_button_elite"
+			buttonText = "vnr_ai_difficulty_mad"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
+		}
+	}
+	containerWindowType = {
+		name = "vnr_ai_gui_production"
+		size = {width=100% height=100%}
+
+		instantTextboxType = {
+			name ="country_header"
+			position = { x = 0 y = 15 }
+			font = "hoi_18mbs"
+			text = "country_header_text"
+			format = center
+			maxHeight = 36
+			maxWidth = 720
+		}	
+		checkboxType = {
+			name = "easy_cb"
+			position = { x=0 y=47}
+			quadTextureSprite ="GFX_difficulty_button_recruit"
+			buttonText = "vnr_ai_difficulty_no"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
+		}
+		checkboxType = {
+			name = "normal_cb"
+			position = { x=125 y=47}
+			quadTextureSprite ="GFX_difficulty_button_regular"
+			clicksound = click_checkbox
+			buttonText = "vnr_ai_difficulty_normal"
+			buttonFont = "hoi_20b"
+		}
+		checkboxType = {
+			name = "hard_cb"
+			position = { x=241 y=47}
+			quadTextureSprite ="GFX_difficulty_button_veteran"
+			buttonText = "vnr_ai_difficulty_hard"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
+		}
+		checkboxType = {
+			name = "very_hard_cb"
+			position = { x=357 y=47}
+			quadTextureSprite ="GFX_difficulty_button_elite"
+			buttonText = "vnr_ai_difficulty_mad"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
+		}
+	}
+}
+
