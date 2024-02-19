@@ -4720,6 +4720,7 @@ equipment_modules = {
 			carrier_size = 1
 			build_cost_ic = 1000
 			reliability = -0.1
+			max_organisation = -0.1
 		}
 		manpower = 125
 		multiply_stats = {
