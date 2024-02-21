@@ -328,7 +328,7 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = -3 y = 6 }
 		}
 
 		ai_will_do = {
@@ -407,13 +407,17 @@ technologies = {
 			max_organisation = 20
 		}
 
-		ship_at_battle_start = 0.1
+		ships_at_battle_start = 0.1
 		positioning = 0.1
 
 		########
 
 		path = {
 			leads_to_tech = floating_airfield
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = grand_battlefleet
 			research_cost_coeff = 1
 		}
 
@@ -453,11 +457,6 @@ technologies = {
 		sortie_efficiency = 0.2
 		########
 
-		path = {
-			leads_to_tech = grand_battlefleet
-			research_cost_coeff = 1
-		}
-
 		xp_research_type = navy
 		xp_unlock_cost = 75
 		doctrine = yes
@@ -471,7 +470,7 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = -1 y = 12 }
+			position = { x = 1 y = 12 }
 		}
 
 		ai_will_do = {
@@ -523,7 +522,7 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = -1 y = 14 }
+			position = { x = -1 y = 12 }
 		}
 
 		ai_will_do = {
@@ -766,6 +765,10 @@ technologies = {
 
 		path = {
 			leads_to_tech = floating_airfield
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = grand_battlefleet
 			research_cost_coeff = 1
 		}
 
@@ -1228,7 +1231,7 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 1 y = 5 }
+			position = { x = 1 y = 6 }
 		}
 
 		ai_will_do = {
@@ -1680,7 +1683,7 @@ technologies = {
 		#same as battlefleet_concentration
 		# EFFECT #############
 		SH_battleship = {
-			max_organisation = 25
+			max_organisation = 10
 		}
 		battleship = {
 			max_organisation = 10
@@ -2122,6 +2125,11 @@ technologies = {
 			leads_to_tech = carrier_task_forces
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = naval_air_force
+			research_cost_coeff = 1
+		}
 
 		xp_research_type = navy
 		xp_unlock_cost = 75
@@ -2230,6 +2238,7 @@ technologies = {
 			naval_strike_attack_factor = 0.1
 		}
 		##########
+		xor = { carrier_task_forces }
 
 		path = {
 			leads_to_tech = mass_air_raid
@@ -2287,7 +2296,7 @@ technologies = {
 		########
 
 		path = {
-			leads_to_tech = floating_airfield_bs
+			leads_to_tech = floating_fortress_bs
 			research_cost_coeff = 1
 		}
 
@@ -2336,7 +2345,7 @@ technologies = {
 		########
 
 		path = {
-			leads_to_tech = floating_airfield_bs
+			leads_to_tech = floating_fortress_bs
 			research_cost_coeff = 1
 		}
 
@@ -2387,62 +2396,11 @@ technologies = {
 		########
 
 		path = {
-			leads_to_tech = massed_strikes
+			leads_to_tech = carrier_battlegroups
 			research_cost_coeff = 1
 		}
-
-		xp_research_type = navy
-		xp_unlock_cost = 75
-		doctrine = yes
-		research_cost = 3
-
-		categories = {
-			naval_doctrine
-			base_strike_main
-			cat_base_strike
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 2 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 4
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			carrier = 2.0
-			naval_air = 0.75
-		}
-	}
-
-	massed_strikes = {
-		#CAGs are larger and more effort is made to have all planes arrive at the target at the same time, even when launched from multiple CVs
-		# EFFECT #############
-		carrier = {
-			max_organisation = 20
-		}
-		carrier_capacity_penalty_reduction = -0.2
-		sortie_efficiency = 0.2
-
-		modifier = {
-			naval_strike_targetting_factor = 0.2
-		}
-		########
-
 		path = {
-			leads_to_tech = floating_fortress_bs
+			leads_to_tech = massed_strikes
 			research_cost_coeff = 1
 		}
 
@@ -2482,6 +2440,56 @@ technologies = {
 		}
 	}
 
+	massed_strikes = {
+		#CAGs are larger and more effort is made to have all planes arrive at the target at the same time, even when launched from multiple CVs
+		# EFFECT #############
+		carrier = {
+			max_organisation = 20
+		}
+		carrier_capacity_penalty_reduction = -0.2
+		sortie_efficiency = 0.2
+
+		modifier = {
+			naval_strike_targetting_factor = 0.2
+		}
+		########
+
+		xp_research_type = navy
+		xp_unlock_cost = 75
+		doctrine = yes
+		research_cost = 3
+
+		categories = {
+			naval_doctrine
+			base_strike_main
+			cat_base_strike
+		}
+
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 12 }
+		}
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 4
+			}
+		}
+
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			carrier = 2.0
+			naval_air = 0.75
+		}
+	}
+
 	floating_fortress_bs = {
 
 		#same as floating_fortress
@@ -2499,7 +2507,7 @@ technologies = {
 		########
 
 		path = {
-			leads_to_tech = carrier_battlegroups
+			leads_to_tech = floating_airfield_bs
 			research_cost_coeff = 1
 		}
 
@@ -2516,7 +2524,7 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 2 y = 12 }
+			position = { x = 2 y = 8 }
 		}
 
 		ai_will_do = {
@@ -2568,7 +2576,7 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = 12 }
 		}
 
 		ai_will_do = {

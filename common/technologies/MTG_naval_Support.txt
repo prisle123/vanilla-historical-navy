@@ -939,7 +939,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				has_tech = improved_ship_hull_heavy = 1
+				has_tech = improved_ship_hull_heavy
 				has_war = yes
 				factor = 10
 			}
