@@ -4646,7 +4646,7 @@ equipment_modules = {
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
-			naval_speed = -0.06
+			naval_speed = -0.065
 			max_strength = 0.05
 			armor_value = 0.025
 		}
@@ -4821,6 +4821,13 @@ equipment_modules = {
 			armor_value = 30
 		}
 		dismantle_cost_ic = 5500
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 3500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
 	}
 	ship_armor_bc_1 = {
 		abbreviation = "sdf"
@@ -4840,7 +4847,13 @@ equipment_modules = {
 			armor_value = 22
 		}
 		dismantle_cost_ic = 4500
-		
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 3000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
 	}
 	ship_armor_bb_2 = {
 		abbreviation = "sdg"
@@ -4862,7 +4875,20 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 6000
-		
+		can_convert_from = {
+			module = ship_armor_bb_1
+			convert_cost_ic = 3000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 4500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
 	}
 	ship_armor_bc_2 = {
 		abbreviation = "sdh"
@@ -4883,6 +4909,20 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 5500
+		can_convert_from = {
+			module = ship_armor_bc_1
+			convert_cost_ic = 3000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 4000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
 	}
 	ship_armor_bb_3 = {
 		abbreviation = "sdi"
@@ -4905,7 +4945,20 @@ equipment_modules = {
 			reliability = 0.1
 		}
 		dismantle_cost_ic = 7500
-		
+		can_convert_from = {
+			module = ship_armor_bb_2
+			convert_cost_ic = 4500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 5500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
 	}
 	ship_armor_bc_3 = {
 		abbreviation = "sdj"
@@ -4928,7 +4981,20 @@ equipment_modules = {
 			reliability = 0.1
 		}
 		dismantle_cost_ic = 6200
-		
+		can_convert_from = {
+			module = ship_armor_bc_2
+			convert_cost_ic = 4000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 5000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
 	}
 	ship_armor_bb_4 = {
 		abbreviation = "sdj1"
@@ -4950,6 +5016,20 @@ equipment_modules = {
 			reliability = 0.15
 		}
 		dismantle_cost_ic = 8000
+		can_convert_from = {
+			module = ship_armor_bb_2
+			convert_cost_ic = 5500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 6500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
 	}
 	ship_armor_bc_4 = {
 		abbreviation = "sdj2"
@@ -4971,6 +5051,20 @@ equipment_modules = {
 			reliability = 0.15
 		}
 		dismantle_cost_ic = 6700
+		can_convert_from = {
+			module = ship_armor_bc_2
+			convert_cost_ic = 5000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 6000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
 	}
 	ship_armor_shbb = {
 		abbreviation = "sk"
@@ -4994,7 +5088,20 @@ equipment_modules = {
 			reliability = 0.2
 		}
 		dismantle_cost_ic = 8200
-		
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 5000
+			convert_cost_ic = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 7000
+			convert_cost_ic = {
+				steel = 1
+			}
+		}
 	}
 	ship_armor_shbb_2 = {
 		category = ship_super_heavy_armor
@@ -5017,7 +5124,27 @@ equipment_modules = {
 			reliability = 0.25
 		}
 		dismantle_cost_ic = 10000
-		
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 6000
+			convert_cost_ic = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module = ship_armor_shbb
+			convert_cost_ic = 5000
+			convert_cost_ic = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 8000
+			convert_cost_ic = {
+				steel = 1
+			}
+		}
 	}
 	### scheme and TDS
 	ship_scheme_incremental = {
@@ -5093,6 +5220,10 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 4500
+		can_convert_from = {
+			module_category = armor_scheme
+			convert_cost_ic = 2750
+		}
 	}
 	ship_scheme_all_or_nothing_armor_box = {
 		category = armor_scheme
@@ -5108,8 +5239,12 @@ equipment_modules = {
 			reliability = 0.1
 		}
 		can_convert_from = {
-			module = armor_scheme
-			convert_cost_ic = 2500
+			module_category = armor_scheme
+			convert_cost_ic = 3500
+		}
+		can_convert_from = {
+			module = ship_scheme_all_or_nothing
+			convert_cost_ic = 2000
 		}
 		dismantle_cost_ic = 5000
 	}
@@ -5195,6 +5330,10 @@ equipment_modules = {
 		add_stats = {
 			armor_value = 8
 		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 1000
+		}
 	}
 	ship_armor_cruiser_2 = {
 		abbreviation = "sdm"
@@ -5213,6 +5352,15 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = 1
+		}
+
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 1500
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_1
+			convert_cost_ic = 1000
 		}
 	}
 	ship_armor_cruiser_3 = {
@@ -5234,6 +5382,14 @@ equipment_modules = {
 			steel = 1
 			chromium = 1
 		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 2000
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_2
+			convert_cost_ic = 1500
+		}
 	}
 	ship_armor_cruiser_4 = {
 		abbreviation = "sdo"
@@ -5254,6 +5410,14 @@ equipment_modules = {
 			steel = 2
 			chromium = 1
 		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 2500
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_3
+			convert_cost_ic = 2000
+		}
 	}
 	ship_armor_cruiser_heavy_1 = {
 		category = ship_cruiser_heavy_armor
@@ -5273,7 +5437,10 @@ equipment_modules = {
 			armor_value = 10
 		}
 		dismantle_cost_ic = 4500
-		
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 2500
+		}
 	}
 	ship_armor_cruiser_heavy_2 = {
 		category = ship_cruiser_heavy_armor
@@ -5295,6 +5462,14 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 5500
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 3000
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_heavy_1
+			convert_cost_ic = 2000
+		}
 	}
 	ship_armor_cruiser_heavy_3 = {
 		category = ship_cruiser_heavy_armor
@@ -5317,7 +5492,14 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 6200
-		
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 3500
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_heavy_2
+			convert_cost_ic = 2500
+		}
 	}
 	ship_armor_cruiser_heavy_4 = {
 		category = ship_cruiser_heavy_armor
@@ -5340,6 +5522,14 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 6700
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 4000
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_heavy_3
+			convert_cost_ic = 3000
+		}
 	}
 	
 	
@@ -5424,6 +5614,7 @@ equipment_modules = {
 			anti_air_attack = 0.2
 			surface_detection = 0.1
 		}
+		dismantle_cost_ic = 800
 	}
 
 
@@ -5505,6 +5696,7 @@ equipment_modules = {
 			naval_speed = -0.1
 			surface_visibility = -0.025
 		}
+		dismantle_cost_ic = 1800
 	}
 	ship_missile_aa_1 = {
 		category = ship_missile_aa
@@ -5523,6 +5715,7 @@ equipment_modules = {
 			naval_speed = -0.05
 			surface_visibility = -0.015
 		}
+		dismantle_cost_ic = 600
 	}
 
 ### Submarine modules
@@ -5599,6 +5792,7 @@ equipment_modules = {
 			sub_visibility = -0.1
 			build_cost_ic = 0.2
 		}
+		dismantle_cost_ic = 750
 	}
 
 ### Submarine Periscope
