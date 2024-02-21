@@ -547,10 +547,11 @@ technologies = {
 			naval_range = 0.1
 		}
 		convoy_retreat_speed = 0.1
+		convoy_escort_efficiency = 0.05
 		#####
 
 		path = {
-			leads_to_tech = armed_convoy
+			leads_to_tech = armed_merchantmen
 			research_cost_coeff = 1
 		}
 
@@ -591,11 +592,16 @@ technologies = {
 		}
 	}
 
-	armed_convoy = {
+	armed_merchantmen = {
 		#Armed Merchantmen
 
 		# EFFECT #############
+		auxiliary_ship = {
+			max_organisation = 20
+			sub_detection = 0.1
+		}
 		navy_submarine_detection_factor = 0.1
+		convoy_escort_efficiency = 0.05
 		#####
 
 		path = {
@@ -700,7 +706,7 @@ technologies = {
 		carrier = {
 			sub_detection = 0.2
 		}
-		convoy_escort_efficiency = 0.15
+		convoy_escort_efficiency = 0.1
 		####
 
 		path = {
@@ -760,7 +766,7 @@ technologies = {
 		carrier = {
 			sub_detection = 0.2
 		}
-		convoy_escort_efficiency = 0.05
+		convoy_escort_efficiency = 0.1
 		#####
 
 		path = {
@@ -1129,16 +1135,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
+			factor = 0
 		}
 
 		ai_research_weights = {
@@ -1152,7 +1149,7 @@ technologies = {
 		# same as convoy interdiction
 		# EFFECT ##############
 		submarine = {
-			max_organisation = 5
+			max_organisation = 10
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.1
 		}
@@ -1258,14 +1255,14 @@ technologies = {
 
 		# EFFECT ##############
 		submarine = {
-			surface_detection = 0.1
+			surface_detection = 0.05
 			convoy_raiding_coordination = 0.1
 		}
 		navy_submarine_attack_factor = 0.1
 		#######
 
 		path = {
-			leads_to_tech = global_deployment
+			leads_to_tech = tonnage_war
 			research_cost_coeff = 1
 		}
 
@@ -1305,10 +1302,11 @@ technologies = {
 		}
 	}
 
-	global_deployment = {
+	tonnage_war = {
 
 		# EFFECT ##############
 		submarine = {
+			max_organisation = 10
 			naval_range = 0.3
 			fuel_consumption = -0.25
 		}
@@ -1364,6 +1362,7 @@ technologies = {
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.10
 		}
+		night_spotting_chance = 0.1
 
 		naval_torpedo_reveal_chance_factor = -0.10
 		#######
@@ -1416,7 +1415,6 @@ technologies = {
 		submarine = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.2
-			surface_detection = 0.1
 		}
 		navy_submarine_attack_factor = 0.1
 		navy_submarine_defence_factor = 0.1
@@ -1916,7 +1914,7 @@ technologies = {
 
 		# EFFECT #############
 		destroyer = {
-			max_organisation = 15
+			max_organisation = 10
 			surface_visibility = -0.05
 		}
 		light_cruiser = {
@@ -2052,7 +2050,7 @@ technologies = {
 		#This tree is primarily focused on Carriers. It should have the best Carriers, Battleships that are better than Trade interdiction but worse than Fleet in being, and has the same Sub tree as FiB. Convoy defense is better than TI but worse than FiB
 		# EFFECT ##############
 		carrier = {
-			max_organisation = 20
+			max_organisation = 10
 		}
 		port_strike = 0.25
 		#####
@@ -2264,16 +2262,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 2
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
+			factor = 0
 		}
 
 		ai_research_weights = {
@@ -2400,7 +2389,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = massed_strikes
+			leads_to_tech = flight_deck_management
 			research_cost_coeff = 1
 		}
 
@@ -2440,11 +2429,11 @@ technologies = {
 		}
 	}
 
-	massed_strikes = {
+	flight_deck_management = {
 		#CAGs are larger and more effort is made to have all planes arrive at the target at the same time, even when launched from multiple CVs
 		# EFFECT #############
 		carrier = {
-			max_organisation = 20
+			max_organisation = 10
 		}
 		carrier_capacity_penalty_reduction = -0.2
 		sortie_efficiency = 0.2
@@ -2655,12 +2644,12 @@ technologies = {
 		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
-			surface_detection = 0.05
+			convoy_raiding_coordination = 0.05
 		}
 		#######
 
 		path = {
-			leads_to_tech = convoy_interdiction_bs
+			leads_to_tech = submarine_picket_bs
 			research_cost_coeff = 1
 		}
 
@@ -2690,6 +2679,47 @@ technologies = {
 				has_navy_experience > 120
 				factor = 2
 			}
+		}
+
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			submarine = 2.0
+		}
+	}
+
+	submarine_picket_bs = {
+		# Sub boost
+
+		# EFFECT ##############
+		submarine = {
+			surface_detection = 0.1
+		}
+		night_spotting_chance = 0.1
+		#######
+
+		path = {
+			leads_to_tech = convoy_interdiction_bs
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = navy
+		xp_unlock_cost = 75
+		doctrine = yes
+		research_cost = 3
+
+		categories = {
+			naval_doctrine
+			cat_base_strike
+			submarine_doctrine
+		}
+
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 3 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 
 		ai_research_weights = {
@@ -3004,7 +3034,6 @@ technologies = {
 		# EFFECT #############
 		destroyer = {
 			max_organisation = 5
-			sub_detection = 0.10
 		}
 		heavy_cruiser = {
 			max_organisation = 10
