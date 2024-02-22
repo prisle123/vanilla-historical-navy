@@ -554,4 +554,79 @@ spriteTypes = {
 		name = "GFX_rescue_submarine_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/rescue_submarine.png"
 	}
+	
+	
+	# doctrine
+	spriteType = {
+		name = "GFX_adjacent_projection_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/adjacent_projection.png"
+	}
+	spriteType = {
+		name = "GFX_ambush_tactics_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/ambush_tactics.png"
+	}
+	spriteType = {
+		name = "GFX_armed_merchantmen_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/armed_merchantmen.png"
+	}
+	spriteType = {
+		name = "GFX_circle_formation_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/circle_formation.png"
+	}
+	spriteType = {
+		name = "GFX_coastal_operations_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/coastal_operations.png"
+	}
+	spriteType = {
+		name = "GFX_decisive_battle_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/decisive_battle.png"
+	}
+	spriteType = {
+		name = "GFX_fast_battleship_primacy_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/fast_battleship_primacy.png"
+	}
+	spriteType = {
+		name = "GFX_frequent_air_raid_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/frequent_air_raid.png"
+	}
+	spriteType = {
+		name = "GFX_guerrilla_tactics_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/guerrilla_tactics.png"
+	}
+	spriteType = {
+		name = "GFX_mass_air_raid_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/mass_air_raid.png"
+	}
+	spriteType = {
+		name = "GFX_naval_air_force_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/naval_air_force.png"
+	}
+	spriteType = {
+		name = "GFX_naval_concealment_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/naval_concealment.png"
+	}
+	spriteType = {
+		name = "GFX_scouting_fleet_primacy_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/scouting_fleet_primacy.png"
+	}
+	spriteType = {
+		name = "GFX_submarine_picket_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/submarine_picket.png"
+	}
+	spriteType = {
+		name = "GFX_submarine_picket_bs_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/submarine_picket.png"
+	}
+	spriteType = {
+		name = "GFX_tonnage_war_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/tonnage_war.png"
+	}
+	spriteType = {
+		name = "GFX_torpedo_groups_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/torpedo_groups.png"
+	}
+	spriteType = {
+		name = "GFX_flight_deck_management_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/flight_deck_management.png"
+	}
 }

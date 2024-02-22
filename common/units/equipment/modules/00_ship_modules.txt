@@ -26,14 +26,15 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 1
 		}
+		dismantle_cost_ic = 2
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 6
+			convert_cost_ic = 12
 		}
 		can_convert_from = {
 			module_category = ship_light_battery_double
-			convert_cost_ic = 8
+			convert_cost_ic = 14
 		}
 
 		critical_parts = { damaged_light_guns }
@@ -57,14 +58,15 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 4
 		}
+		dismantle_cost_ic = 4
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 10 #conversion cost from ANY ship_light_battery module
+			convert_cost_ic = 24 #conversion cost from ANY ship_light_battery module
 		}
 		can_convert_from = {
 			module_category = ship_light_battery_double
-			convert_cost_ic = 14 #conversion cost from ANY ship_light_battery module
+			convert_cost_ic = 28 #conversion cost from ANY ship_light_battery module
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -87,13 +89,14 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.007
 		}
+		dismantle_cost_ic = 6
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 15
+			convert_cost_ic = 36
 		}
 		can_convert_from = {
-			module_category = ship_light_battery
-			convert_cost_ic = 20 #conversion cost from ANY ship_light_battery module
+			module_category = ship_light_battery_double
+			convert_cost_ic = 42 #conversion cost from ANY ship_light_battery module
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -115,14 +118,15 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 8
 		}
+		dismantle_cost_ic = 8
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 25
+			convert_cost_ic = 48
 		}
 		can_convert_from = {
 			module_category = ship_light_battery_double
-			convert_cost_ic = 30 #conversion cost from ANY ship_light_battery module
+			convert_cost_ic = 56 #conversion cost from ANY ship_light_battery module
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -143,14 +147,15 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 1
 		}
+		dismantle_cost_ic = 4
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 12
+			convert_cost_ic = 22
 		}
 		can_convert_from = {
 			module_category = ship_light_battery_double
-			convert_cost_ic = 10
+			convert_cost_ic = 24
 		}
 
 		critical_parts = { damaged_light_guns }
@@ -174,14 +179,15 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 4
 		}
+		dismantle_cost_ic = 8
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 20 #conversion cost from ANY ship_light_battery module
+			convert_cost_ic = 44 #conversion cost from ANY ship_light_battery module
 		}
 		can_convert_from = {
 			module_category = ship_light_battery_double
-			convert_cost_ic = 15
+			convert_cost_ic = 48
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -204,13 +210,14 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.007
 		}
+		dismantle_cost_ic = 12
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 40
+			convert_cost_ic = 66
 		}
 		can_convert_from = {
 			module_category = ship_light_battery_double
-			convert_cost_ic = 30
+			convert_cost_ic = 72
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -232,14 +239,14 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 8
 		}
-		
+		dismantle_cost_ic = 16
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 50
+			convert_cost_ic = 88
 		}
 		can_convert_from = {
 			module_category = ship_light_battery_double
-			convert_cost_ic = 40
+			convert_cost_ic = 96
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -262,14 +269,14 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 0.5
 		}
-		
+		dismantle_cost_ic = 10
 		can_convert_from = {
 			module_category = dp_light_battery
-			convert_cost_ic = 30
+			convert_cost_ic = 60
 		}
 		can_convert_from = {
 			module_category = dp_light_battery_single
-			convert_cost_ic = 50
+			convert_cost_ic = 55
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -293,14 +300,14 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 3
 		}
-		
+		dismantle_cost_ic = 20
 		can_convert_from = {
 			module_category = dp_light_battery
-			convert_cost_ic = 50
+			convert_cost_ic = 120
 		}
 		can_convert_from = {
 			module_category = dp_light_battery_single
-			convert_cost_ic = 80
+			convert_cost_ic = 110
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -324,14 +331,14 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 5
 		}
-		
+		dismantle_cost_ic = 30
 		can_convert_from = {
 			module_category = dp_light_battery
-			convert_cost_ic = 75
+			convert_cost_ic = 180
 		}
 		can_convert_from = {
 			module_category = dp_light_battery_single
-			convert_cost_ic = 100
+			convert_cost_ic = 165
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -355,14 +362,14 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 7
 		}
-		
+		dismantle_cost_ic = 40
 		can_convert_from = {
 			module_category = dp_light_battery
-			convert_cost_ic = 100
+			convert_cost_ic = 240
 		}
 		can_convert_from = {
 			module_category = dp_light_battery_single
-			convert_cost_ic = 150
+			convert_cost_ic = 220
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -384,14 +391,14 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 0.5
 		}
-		
+		dismantle_cost_ic = 5
 		can_convert_from = {
 			module_category = dp_light_battery
-			convert_cost_ic = 40
+			convert_cost_ic = 35
 		}
 		can_convert_from = {
 			module_category = dp_light_battery_single
-			convert_cost_ic = 20
+			convert_cost_ic = 30
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -414,14 +421,14 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 3
 		}
-		
+		dismantle_cost_ic = 10
 		can_convert_from = {
 			module_category = dp_light_battery
-			convert_cost_ic = 60
+			convert_cost_ic = 70
 		}
 		can_convert_from = {
 			module_category = dp_light_battery_single
-			convert_cost_ic = 40
+			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -444,14 +451,14 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 5
 		}
-		
+		dismantle_cost_ic = 15
 		can_convert_from = {
 			module_category = dp_light_battery
-			convert_cost_ic = 85
+			convert_cost_ic = 105
 		}
 		can_convert_from = {
 			module_category = dp_light_battery_single
-			convert_cost_ic = 50
+			convert_cost_ic = 90
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -474,14 +481,14 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 7
 		}
-		
+		dismantle_cost_ic = 20
 		can_convert_from = {
 			module_category = dp_light_battery
-			convert_cost_ic = 120
+			convert_cost_ic = 140
 		}
 		can_convert_from = {
 			module_category = dp_light_battery_single
-			convert_cost_ic = 60
+			convert_cost_ic = 120
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -516,9 +523,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 300
+			convert_cost_ic = 525
 		}
-		dismantle_cost_ic = 875
+		dismantle_cost_ic = 175
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -547,9 +554,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 360
+			convert_cost_ic = 625
 		}
-		dismantle_cost_ic = 1040
+		dismantle_cost_ic = 210
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -578,9 +585,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 580
+			convert_cost_ic = 975
 		}
-		dismantle_cost_ic = 1625
+		dismantle_cost_ic = 325
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -610,9 +617,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 680
+			convert_cost_ic = 1125
 		}
-		dismantle_cost_ic = 1875
+		dismantle_cost_ic = 375
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -642,9 +649,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 720
+			convert_cost_ic = 1200
 		}
-		dismantle_cost_ic = 2000
+		dismantle_cost_ic = 400
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -675,9 +682,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 780
+			convert_cost_ic = 1275
 		}
-		dismantle_cost_ic = 2125
+		dismantle_cost_ic = 425
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -709,9 +716,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_super_heavy_battery
-			convert_cost_ic = 1000
+			convert_cost_ic = 1875
 		}
-		dismantle_cost_ic = 3125
+		dismantle_cost_ic = 625
 		critical_parts = { damaged_heavy_guns }
 	}
 	
@@ -738,9 +745,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_super_heavy_battery
-			convert_cost_ic = 1500
+			convert_cost_ic = 2625
 		}
-		dismantle_cost_ic = 4375
+		dismantle_cost_ic = 875
 		critical_parts = { damaged_heavy_guns }
 	}
 
@@ -766,9 +773,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_triple
-			convert_cost_ic = 320
+			convert_cost_ic = 600
 		}
-		dismantle_cost_ic = 1000
+		dismantle_cost_ic = 200
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -798,9 +805,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_triple
-			convert_cost_ic = 390
+			convert_cost_ic = 715
 		}
-		dismantle_cost_ic = 1200
+		dismantle_cost_ic = 240
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -830,9 +837,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_triple
-			convert_cost_ic = 600
+			convert_cost_ic = 1050
 		}
-		dismantle_cost_ic = 1750
+		dismantle_cost_ic = 350
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -862,10 +869,10 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_triple
-			convert_cost_ic = 720
+			convert_cost_ic = 1315
 		}
 
-		dismantle_cost_ic = 2200
+		dismantle_cost_ic = 440
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -895,10 +902,10 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_triple
-			convert_cost_ic = 820
+			convert_cost_ic = 1425
 		}
 
-		dismantle_cost_ic = 2375
+		dismantle_cost_ic = 475
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -929,10 +936,10 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_triple
-			convert_cost_ic = 900
+			convert_cost_ic = 1575
 		}
 		
-		dismantle_cost_ic = 2625
+		dismantle_cost_ic = 525
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -964,9 +971,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_super_heavy_battery_triple
-			convert_cost_ic = 1200
+			convert_cost_ic = 2175
 		}
-		dismantle_cost_ic = 3625
+		dismantle_cost_ic = 725
 		critical_parts = { damaged_heavy_guns }
 	}
 	
@@ -993,9 +1000,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_super_heavy_battery_triple
-			convert_cost_ic = 1700
+			convert_cost_ic = 2925
 		}
-		dismantle_cost_ic = 4875
+		dismantle_cost_ic = 975
 		critical_parts = { damaged_heavy_guns }
 	}
 
@@ -1023,9 +1030,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_quad
-			convert_cost_ic = 650
+			convert_cost_ic = 1125
 		}
-		dismantle_cost_ic = 1875
+		dismantle_cost_ic = 375
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1057,9 +1064,9 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = ship_heavy_battery_quad
-			convert_cost_ic = 780
+			convert_cost_ic = 1350
 		}
-		dismantle_cost_ic = 2250
+		dismantle_cost_ic = 450
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1091,9 +1098,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_quad
-			convert_cost_ic = 890
+			convert_cost_ic = 1500
 		}
-		dismantle_cost_ic = 2500
+		dismantle_cost_ic = 500
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1125,10 +1132,10 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_quad
-			convert_cost_ic = 1100
+			convert_cost_ic = 1950
 		}
 
-		dismantle_cost_ic = 3250
+		dismantle_cost_ic = 650
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1160,10 +1167,10 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_quad
-			convert_cost_ic = 1200
+			convert_cost_ic = 2100
 		}
 
-		dismantle_cost_ic = 3500
+		dismantle_cost_ic = 700
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1195,10 +1202,10 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery_quad
-			convert_cost_ic = 1300
+			convert_cost_ic = 2325
 		}
 
-		dismantle_cost_ic = 3875
+		dismantle_cost_ic = 775
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -1231,9 +1238,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_super_heavy_battery_quad
-			convert_cost_ic = 1500
+			convert_cost_ic = 2625
 		}
-		dismantle_cost_ic = 4375
+		dismantle_cost_ic = 875
 		critical_parts = { damaged_heavy_guns }
 	}
 	
@@ -1261,9 +1268,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_super_heavy_battery_quad
-			convert_cost_ic = 2000
+			convert_cost_ic = 3375
 		}
-		dismantle_cost_ic = 5625
+		dismantle_cost_ic = 1125
 		critical_parts = { damaged_heavy_guns }
 	}
 
@@ -1289,9 +1296,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_super_heavy_battery
-			convert_cost_ic = 1600
+			convert_cost_ic = 2700
 		}
-		dismantle_cost_ic = 4500
+		dismantle_cost_ic = 900
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_super_heavy_battery_2_triple = {
@@ -1316,9 +1323,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_super_heavy_battery_triple
-			convert_cost_ic = 1900
+			convert_cost_ic = 3150
 		}
-		dismantle_cost_ic = 5250
+		dismantle_cost_ic = 1050
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_super_heavy_battery_2_quad = {
@@ -1344,9 +1351,9 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_super_heavy_battery_quad
-			convert_cost_ic = 2200
+			convert_cost_ic = 3600
 		}
-		dismantle_cost_ic = 6000
+		dismantle_cost_ic = 1200
 		critical_parts = { damaged_heavy_guns }
 	}
 
@@ -5091,14 +5098,14 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_super_heavy_armor
 			convert_cost_ic = 5000
-			convert_cost_ic = {
+			convert_cost_resources = {
 				steel = 1
 			}
 		}
 		can_convert_from = {
 			module_category = ship_heavy_armor
 			convert_cost_ic = 7000
-			convert_cost_ic = {
+			convert_cost_resources = {
 				steel = 1
 			}
 		}
@@ -5127,21 +5134,21 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_super_heavy_armor
 			convert_cost_ic = 6000
-			convert_cost_ic = {
+			convert_cost_resources = {
 				steel = 1
 			}
 		}
 		can_convert_from = {
 			module = ship_armor_shbb
 			convert_cost_ic = 5000
-			convert_cost_ic = {
+			convert_cost_resources = {
 				steel = 1
 			}
 		}
 		can_convert_from = {
 			module_category = ship_heavy_armor
 			convert_cost_ic = 8000
-			convert_cost_ic = {
+			convert_cost_resources = {
 				steel = 1
 			}
 		}
@@ -5325,14 +5332,14 @@ equipment_modules = {
 			build_cost_ic = 0.05
 			naval_speed = -0.05
 		}
-		dismantle_cost_ic = 2500
+		dismantle_cost_ic = 1250
 
 		add_stats = {
 			armor_value = 8
 		}
 		can_convert_from = {
 			module_category = ship_cruiser_armor
-			convert_cost_ic = 1000
+			convert_cost_ic = 600
 		}
 	}
 	ship_armor_cruiser_2 = {
@@ -5345,7 +5352,7 @@ equipment_modules = {
 			naval_speed = -0.075
 			max_strength = 0.05
 		}
-		dismantle_cost_ic = 3000
+		dismantle_cost_ic = 1500
 		
 		add_stats = {
 			armor_value = 10
@@ -5356,11 +5363,11 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = ship_cruiser_armor
-			convert_cost_ic = 1500
+			convert_cost_ic = 1000
 		}
 		can_convert_from = {
 			module = ship_armor_cruiser_1
-			convert_cost_ic = 1000
+			convert_cost_ic = 500
 		}
 	}
 	ship_armor_cruiser_3 = {
@@ -5373,7 +5380,7 @@ equipment_modules = {
 			naval_speed = -0.1
 			max_strength = 0.1
 		}
-		dismantle_cost_ic = 3500
+		dismantle_cost_ic = 1750
 		
 		add_stats = {
 			armor_value = 12
@@ -5384,11 +5391,11 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_cruiser_armor
-			convert_cost_ic = 2000
+			convert_cost_ic = 1500
 		}
 		can_convert_from = {
 			module = ship_armor_cruiser_2
-			convert_cost_ic = 1500
+			convert_cost_ic = 750
 		}
 	}
 	ship_armor_cruiser_4 = {
@@ -5401,7 +5408,7 @@ equipment_modules = {
 			naval_speed = -0.125
 			max_strength = 0.15
 		}
-		dismantle_cost_ic = 4000
+		dismantle_cost_ic = 2000
 		
 		add_stats = {
 			armor_value = 14
@@ -5412,11 +5419,11 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_cruiser_armor
-			convert_cost_ic = 2500
+			convert_cost_ic = 2000
 		}
 		can_convert_from = {
 			module = ship_armor_cruiser_3
-			convert_cost_ic = 2000
+			convert_cost_ic = 1000
 		}
 	}
 	ship_armor_cruiser_heavy_1 = {
@@ -5436,10 +5443,10 @@ equipment_modules = {
 		add_stats = {
 			armor_value = 10
 		}
-		dismantle_cost_ic = 4500
+		dismantle_cost_ic = 1125
 		can_convert_from = {
 			module_category = ship_cruiser_heavy_armor
-			convert_cost_ic = 2500
+			convert_cost_ic = 1500
 		}
 	}
 	ship_armor_cruiser_heavy_2 = {
@@ -5461,14 +5468,14 @@ equipment_modules = {
 			naval_torpedo_damage_reduction_factor = 0.05
 			reliability = 0.05
 		}
-		dismantle_cost_ic = 5500
+		dismantle_cost_ic = 2750
 		can_convert_from = {
 			module_category = ship_cruiser_heavy_armor
-			convert_cost_ic = 3000
+			convert_cost_ic = 2000
 		}
 		can_convert_from = {
 			module = ship_armor_cruiser_heavy_1
-			convert_cost_ic = 2000
+			convert_cost_ic = 1000
 		}
 	}
 	ship_armor_cruiser_heavy_3 = {
@@ -5491,14 +5498,14 @@ equipment_modules = {
 			naval_torpedo_damage_reduction_factor = 0.05
 			reliability = 0.05
 		}
-		dismantle_cost_ic = 6200
+		dismantle_cost_ic = 3100
 		can_convert_from = {
 			module_category = ship_cruiser_heavy_armor
-			convert_cost_ic = 3500
+			convert_cost_ic = 2500
 		}
 		can_convert_from = {
 			module = ship_armor_cruiser_heavy_2
-			convert_cost_ic = 2500
+			convert_cost_ic = 1250
 		}
 	}
 	ship_armor_cruiser_heavy_4 = {
@@ -5521,14 +5528,14 @@ equipment_modules = {
 			naval_torpedo_damage_reduction_factor = 0.05
 			reliability = 0.05
 		}
-		dismantle_cost_ic = 6700
+		dismantle_cost_ic = 3350
 		can_convert_from = {
 			module_category = ship_cruiser_heavy_armor
-			convert_cost_ic = 4000
+			convert_cost_ic = 3000
 		}
 		can_convert_from = {
 			module = ship_armor_cruiser_heavy_3
-			convert_cost_ic = 3000
+			convert_cost_ic = 1500
 		}
 	}
 	
@@ -5587,7 +5594,7 @@ equipment_modules = {
 			anti_air_attack = 0.06
 			build_cost_ic = 0.1
 		}
-		dismantle_cost_ic = 3500
+		dismantle_cost_ic = 2500
 
 		critical_parts = { damaged_armored_flight_deck }
 	}
@@ -5597,7 +5604,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.01
 		}
-		dismantle_cost_ic = 2500
+		dismantle_cost_ic = 1600
 
 		critical_parts = { damaged_wooden_flight_deck }
 	}	
