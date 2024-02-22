@@ -235,6 +235,10 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
+		battlecarrier = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -337,6 +341,10 @@ technologies = {
 			lg_armor_piercing = 0.05
 		}
 		SH_battleship = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		battlecarrier = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
@@ -879,6 +887,10 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
+		battlecarrier = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
 
 		enable_equipment_modules = {
 			ship_high_velocity_shell
@@ -923,6 +935,10 @@ technologies = {
 			hg_armor_piercing = 0.05
 		}
 		SH_battleship = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
+		battlecarrier = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
@@ -1439,7 +1455,7 @@ technologies = {
 		start_year = 1940
 
 
-		naval_torpedo_reveal_chance_factor = -0.25
+		naval_torpedo_reveal_chance_factor = -0.15
 
 
 		folder = {
