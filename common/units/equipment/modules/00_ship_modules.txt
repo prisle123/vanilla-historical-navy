@@ -6055,6 +6055,7 @@ equipment_modules = {
 		gfx = economical_nuclear_reactor
 		add_stats = {
 			build_cost_ic = -1300
+			reliability = -0.05
 		}
 		forbid_module_categories = {
 			heavy_ship_engine
@@ -6068,6 +6069,7 @@ equipment_modules = {
 		gfx = economical_nuclear_reactor
 		add_stats = {
 			build_cost_ic = -1000
+			reliability = -0.05
 		}
 		forbid_module_categories = {
 			carrier_ship_engine
