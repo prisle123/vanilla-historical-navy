@@ -57,3 +57,7 @@
  vnr_mad_production: "AI Production Buff: §RMad§!"
  vnr_hard_production: "AI Production Buff: §OHard§!"
  vnr_normal_production: "AI Production Buff: §GNormal§!"
+
+ RULE_ALLOW_AI_TECH_AUTO_UNLOCK: "Allow AI Auto Research"
+ RULE_ALLOW_AI_TECH_AUTO_UNLOCK_FREE_DESC: "AI will automatically unlock a group of technologies in the run."
+ RULE_ALLOW_AI_TECH_AUTO_UNLOCK_FREE_DESC: "AI won't automatically unlock technologies in the run.\n§RThis changes AI's behavior of picking tech, and may also affect its research in other fields.§!"

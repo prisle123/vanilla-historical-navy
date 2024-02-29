@@ -354,64 +354,22 @@ country_event = {
 	option = {
 		name = vnr_ai.0.0
 		set_variable = { vnr_ai_difficulty = 3 }
-		hidden_effect = {
-			every_country = {
-				remove_ideas = {
-					vnr_hard
-					vnr_normal
-				}
-			}
-		}
-		
-		every_country = {
-			limit = { is_ai = yes }
-			add_ideas = vnr_mad
-		}
+		update_ai_combat_bonus = yes
 	}
 	option = {
 		name = vnr_ai.0.1
 		set_variable = { vnr_ai_difficulty = 2 }
-		hidden_effect = {
-			every_country = {
-				remove_ideas = {
-					vnr_mad
-					vnr_normal
-				}
-			}
-		}
-		every_country = {
-			limit = { is_ai = yes }
-			add_ideas = vnr_hard
-		}
+		update_ai_combat_bonus = yes
 	}
 	option = {
 		name = vnr_ai.0.2
 		set_variable = { vnr_ai_difficulty = 1 }
-		hidden_effect = {
-			every_country = {
-				remove_ideas = {
-					vnr_mad
-					vnr_hard
-				}
-			}
-		}
-		every_country = {
-			limit = { is_ai = yes }
-			add_ideas = vnr_normal
-		}
+		update_ai_combat_bonus = yes
 	}
 	option = {
 		name = vnr_ai.0.3
 		set_variable = { vnr_ai_difficulty = 0 }
-		hidden_effect = {
-			every_country = {
-				remove_ideas = {
-					vnr_mad
-					vnr_hard
-					vnr_normal
-				}
-			}
-		}
+		update_ai_combat_bonus = yes
 	}
 }
 country_event = {
@@ -424,63 +382,21 @@ country_event = {
 	option = {
 		name = vnr_ai.1.0
 		set_variable = { vnr_ai_production = 3 }
-		hidden_effect = {
-			every_country = {
-				remove_ideas = {
-					vnr_hard_production
-					vnr_normal_production
-				}
-			}
-		}
-		
-		every_country = {
-			limit = { is_ai = yes }
-			add_ideas = vnr_mad_production
-		}
+		update_ai_production_bonus = yes
 	}
 	option = {
 		name = vnr_ai.1.1
 		set_variable = { vnr_ai_production = 2 }
-		hidden_effect = {
-			every_country = {
-				remove_ideas = {
-					vnr_mad_production
-					vnr_normal_production
-				}
-			}
-		}
-		every_country = {
-			limit = { is_ai = yes }
-			add_ideas = vnr_hard_production
-		}
+		update_ai_production_bonus = yes
 	}
 	option = {
 		name = vnr_ai.1.2
 		set_variable = { vnr_ai_production = 1 }
-		hidden_effect = {
-			every_country = {
-				remove_ideas = {
-					vnr_mad_production
-					vnr_hard_production
-				}
-			}
-		}
-		every_country = {
-			limit = { is_ai = yes }
-			add_ideas = vnr_normal_production
-		}
+		update_ai_production_bonus = yes
 	}
 	option = {
 		name = vnr_ai.1.3
 		set_variable = { vnr_ai_production = 0 }
-		hidden_effect = {
-			every_country = {
-				remove_ideas = {
-					vnr_mad_production
-					vnr_hard_production
-					vnr_normal_production
-				}
-			}
-		}
+		update_ai_production_bonus = yes
 	}
 }

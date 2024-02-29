@@ -1,4 +1,4 @@
-version="v1.1 - Year of Dragon"
+version="v1.2 - Jutland Sonata"
 tags={
 	"Military"
 	"Graphics"

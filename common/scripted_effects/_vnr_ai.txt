@@ -1,0 +1,141 @@
+update_ai_combat_bonus = {
+    if = {
+        limit = { check_variable = { vnr_ai_difficulty = 1 } }
+        hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_hard
+				}
+			}
+		}
+        every_country = {
+			limit = { 
+                is_ai = yes
+                is_major = yes
+                NOT = { is_ally_with = ROOT }
+            }
+			add_ideas = vnr_normal
+		}
+    }
+    else_if = {
+        limit = { check_variable = { vnr_ai_difficulty = 2 } }
+        hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_normal
+				}
+			}
+		}
+        every_country = {
+			limit = { 
+                is_ai = yes
+                is_major = yes
+                NOT = { is_ally_with = ROOT }
+            }
+			add_ideas = vnr_hard
+		}
+    }
+    else_if = {
+        limit = { check_variable = { vnr_ai_difficulty = 3 } }
+        hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_normal
+					vnr_hard
+				}
+			}
+		}
+        every_country = {
+			limit = { 
+                is_ai = yes
+                is_major = yes
+                NOT = { is_ally_with = ROOT }
+            }
+			add_ideas = vnr_mad
+		}
+    }
+    else = {
+        hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad
+					vnr_hard
+					vnr_normal
+				}
+			}
+		}
+    }
+}
+
+update_ai_production_bonus = {
+    if = {
+        limit = { check_variable = { vnr_ai_production = 1 } }
+        hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad_production
+					vnr_hard_production
+				}
+			}
+		}
+        every_country = {
+			limit = { 
+                is_ai = yes
+                is_major = yes
+                NOT = { is_ally_with = ROOT }
+            }
+			add_ideas = vnr_normal_production
+		}
+    }
+    else_if = {
+        limit = { check_variable = { vnr_ai_production = 2 } }
+        hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad_production
+					vnr_normal_production
+				}
+			}
+		}
+        every_country = {
+			limit = { 
+                is_ai = yes
+                is_major = yes
+                NOT = { is_ally_with = ROOT }
+            }
+			add_ideas = vnr_hard_production
+		}
+    }
+    else_if = {
+        limit = { check_variable = { vnr_ai_production = 3 } }
+        hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_normal_production
+					vnr_hard_production
+				}
+			}
+		}
+        every_country = {
+			limit = { 
+                is_ai = yes
+                is_major = yes
+                NOT = { is_ally_with = ROOT }
+            }
+			add_ideas = vnr_mad_production
+		}
+    }
+    else = {
+        hidden_effect = {
+			every_country = {
+				remove_ideas = {
+					vnr_mad_production
+					vnr_hard_production
+					vnr_normal_production
+				}
+			}
+		}
+    }
+}
