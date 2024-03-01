@@ -355,16 +355,19 @@ country_event = {
 		name = vnr_ai.0.0
 		set_variable = { vnr_ai_difficulty = 3 }
 		update_ai_combat_bonus = yes
+		effect_tooltip = { add_ideas = vnr_mad }
 	}
 	option = {
 		name = vnr_ai.0.1
 		set_variable = { vnr_ai_difficulty = 2 }
 		update_ai_combat_bonus = yes
+		effect_tooltip = { add_ideas = vnr_hard }
 	}
 	option = {
 		name = vnr_ai.0.2
 		set_variable = { vnr_ai_difficulty = 1 }
 		update_ai_combat_bonus = yes
+		effect_tooltip = { add_ideas = vnr_normal }
 	}
 	option = {
 		name = vnr_ai.0.3
@@ -383,16 +386,19 @@ country_event = {
 		name = vnr_ai.1.0
 		set_variable = { vnr_ai_production = 3 }
 		update_ai_production_bonus = yes
+		effect_tooltip = { add_ideas = vnr_mad_production }
 	}
 	option = {
 		name = vnr_ai.1.1
 		set_variable = { vnr_ai_production = 2 }
 		update_ai_production_bonus = yes
+		effect_tooltip = { add_ideas = vnr_hard_production }
 	}
 	option = {
 		name = vnr_ai.1.2
 		set_variable = { vnr_ai_production = 1 }
 		update_ai_production_bonus = yes
+		effect_tooltip = { add_ideas = vnr_normal_production }
 	}
 	option = {
 		name = vnr_ai.1.3
