@@ -1408,7 +1408,6 @@ equipment_modules = {
 	ship_medium_battery_3_single = {
 		category = ship_medium_battery_single
 		gui_category = ship_light_medium_battery_single
-		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_2_single
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -4512,7 +4511,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.28
 			naval_speed = -0.35
-			max_strength = 0.15
+			max_strength = 0.2
 		}
 		build_cost_resources = {
 			steel = 2
