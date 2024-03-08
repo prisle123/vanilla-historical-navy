@@ -34,11 +34,22 @@ guiTypes = {
 				clipping = no
 
 				background = { quadTextureSprite = "GFX_tiled_generic_bg_1" }
+				
+				instantTextboxType = {
+					name = "naval_lore_gui_title_text"
+					text = "Naval History of [ROOT.GetName]"
+					
+					position = { x = 0 y = 32 }
+					font = "hoi_24header"
+					format = center
+					maxWidth = 720
+					maxHeight = 100
+				}
 
 				containerWindowType = {
 					name = content_bkgr_bottom_layer
 					position = { x = 0 y = 72 }
-					size = { width = 696 height = 360 }
+					size = { width = 696 height = 368 }
 					orientation = CENTER_UP
 					origo = center_up
 
@@ -47,7 +58,7 @@ guiTypes = {
 					containerWindowType = {
 						name = content_bkgr_top_layer
 						position = { x = 0 y = 4 }
-						size = { width = 688 height = 352 }
+						size = { width = 688 height = 360 }
 						orientation = CENTER_UP
 						origo = center_up
 
