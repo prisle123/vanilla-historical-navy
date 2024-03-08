@@ -58,6 +58,22 @@ equipments = {
 			category = sub_fire_control_system
 			count < 2
 		}
+		module_count_limit = {
+			module = oxygen_generator
+			count < 2
+		}
+		module_count_limit = {
+			module = diving_plane
+			count < 2
+		}
+		module_count_limit = {
+			module = vlf_receiver
+			count < 2
+		}
+		module_count_limit = {
+			module = sub_wire_guided_torpedo
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
@@ -289,6 +305,7 @@ equipments = {
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
+			fixed_ship_extra_missile_slot = fixed_ship_extra_secondaries_slot
 			front_1_custom_slot = inherit
 			mid_1_custom_slot = inherit
 			mid_2_custom_slot = inherit
