@@ -830,6 +830,7 @@ equipments = {
 	vnr_ship_hull_cruiser_panzerschiff = {
 		abbreviation = "hbf"
 		year = 1929
+		model = heavy_cruiser
 		visual_level = 0
 		archetype = ship_hull_cruiser
 		priority = 1850
