@@ -19,7 +19,7 @@
  naval_lore_title_1_eng: "§HRule the Waves, Royal Navy: 1900-1922§!"
  naval_lore_title_1_usa: "§HSteady as She Goes, United States Navy: 1905-1922§!"
  naval_lore_title_1_jap: "§HLegacy of Tsushima, Imperial Japanese Navy: 1895-1922§!"
- naval_lore_title_1_fra: "§HNotre Mer, French National Navy: 1905-1922§!"
+ naval_lore_title_1_fra: "§HOn Ne Passe Pas, French National Navy: 1905-1922§!"
  naval_lore_title_1_ita: "§HBattle for the Adriatic, Regia Marina: 1900-1922§!"
  naval_lore_title_1_ger: "§HHeil dir im Siegerkranz, Kaiserliche Marine: 1900-1919§!"
  naval_lore_title_1_sov: "§HElegy of the Double Eagle, Imperial Russian Navy: 1900-1917§!"
@@ -28,7 +28,7 @@
  naval_lore_title_2_eng: "§HDusk of an Empire, Royal Navy: 1922-1936§!"
  naval_lore_title_2_usa: "§HGod Bless America, United States Navy: 1922-1936§!"
  naval_lore_title_2_jap: "§HBlooming Sakura, Imperial Japanese Navy: 1922-1936§!"
- naval_lore_title_2_fra: "§HFrench National Navy: 1922-1936§!"
+ naval_lore_title_2_fra: "§HNotre Mer, French National Navy: 1922-1936§!"
  naval_lore_title_2_ita: "§HFides Est Regni Tutela, Regia Marina: 1922-1936§!"
  naval_lore_title_2_ger: "§HDeutschland Uber Alles, Reichsmarine: 1919-1936§!"
  naval_lore_title_2_sov: "§HAurora over the North, Soviet Navy: 1917-1936§!"
@@ -76,5 +76,5 @@
 
  SHIP_ROLE_ICON_TEXT: "§HShip Hull Symbol§!\n\n§RFBB:§! Fast Battleship\n§RBB:§! Battleship\n§RB:§! Pre-dreadnought\n§RSHBB:§! Super Heavy Battleship\n§RCV:§! Fleet Aircraft Carrier\n§RCVL:§! Light Aircraft Carrier\n§RCVH:§! Heavy Aircraft Carrier\n§RBC:§! Battlecruiser\n§RACR:§! Armored Cruiser\n§RBM:§! Monitor\n§RCB:§! Large Cruiser\n§RC:§! Protected Cruiser\n§RCL:§! Light Cruiser\n§RCA:§! Heavy Cruiser\n§RD:§! Torpedo Destroyer\n§RDD:§! Destroyer\n§RDL:§! Destroyer Leader\n§RDE:§! Escort Destroyer\n§RSS:§! Submarine\n§RSC:§! Cruiser Submarine\n§RSM:§! Minelaying Submarine\n§RCLAA:§! Anti-Air Cruiser\n§RCS:§! Scout Cruiser\n§RFF:§! Frigate\n§RSSC:§! Coastal Submarine\n§RCM:§! Minelayer\n§RAP:§! Auxiliary Ship\n§RCG:§! Guided Missile Cruiser\n§RBBG:§! Guided Missile Battleship\n§RBBV:§! Battlecarrier\n§RAV:§! Seaplane Tender\n§RDDAG:§! Anti-Air Missile Destroyer\n§RAM:§! Minesweeper\n§RCVE:§! Escort Carrier\n§RCC:§! Command Cruiser\n§RTB:§! Torpedo Boat\n§RCVN:§! Nuclear Aircraft Carrier\n§RSSN:§! Nuclear Submarine\n§RCGN:§! Nuclear Guided Missile Cruiser\n§RBBN:§! Nuclear Battleship\n§RBBGN:§! Nuclear Guided Missile Battleship\n§RDDG:§! Guided Missile Destroyer"
 
- naval_lore_gui_title_text: "Naval History of [ROOT.GetName]"
+ naval_lore_gui_title_text: "[get_naval_lore_gui_title]"
  naval_lore_gui_content_container_text: "[naval_lore_loc_title_1]\n[naval_lore_loc_desc_1]\n\n[naval_lore_loc_title_2]\n[naval_lore_loc_desc_2]"
