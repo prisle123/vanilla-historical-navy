@@ -37,7 +37,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "naval_lore_gui_title_text"
-					text = "Naval History of [ROOT.GetName]"
+					text = "naval_lore_gui_title_text"
 					
 					position = { x = 0 y = 32 }
 					font = "hoi_24header"
@@ -112,7 +112,7 @@ guiTypes = {
 				text = "naval_lore_gui_content_container_text"
 				
 				position = { x = 0 y = 6 }
-				font = "hoi_18b"
+				font = "hoi_18mbs"
 				maxWidth = 500
 				maxHeight = 292
 				scrollbartype = "standardtext_slider"
