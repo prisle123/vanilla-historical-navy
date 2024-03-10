@@ -1,4 +1,4 @@
-version="v1.2 - Jutland Sonata"
+version="v1.3 - Kraken"
 tags={
 	"Military"
 	"Graphics"
@@ -11,5 +11,5 @@ dependencies={
 }
 name="Vanilla Navy Rework"
 picture="thumbnail.png"
-supported_version="1.13.*"
+supported_version="1.14.*"
 remote_file_id="2993766165"
