@@ -8,7 +8,7 @@
 		task_force = {				
 			name = "Koninklijke Vloot"			
 			location = 3314  # Amsterdam
-			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Hertog Hendrik Class" } } }		
+			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Koningin Regentes Class" } } }		
 			ship = { name = "HrMs Ijmuiden" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Jacob van Heemskerck Class" } } }	
 			ship = { name = "HrMs Gelderland" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }
 			ship = { name = "HrMs Noordbrabant" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Holland Class" } } }	

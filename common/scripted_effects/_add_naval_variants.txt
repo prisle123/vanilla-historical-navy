@@ -4721,7 +4721,7 @@ HOL_start_naval_variants = {
         obsolete = yes
     }
     create_equipment_variant = {
-        name = "Hertog Hendrik Class"
+        name = "Koningin Regentes Class"
 		role_icon_index = 17
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = HOL_CA_HISTORICAL
