@@ -1,0 +1,177 @@
+unique_id = navy_rework_achievements
+
+navy_promoter = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = { size > 500 }
+    }
+}
+
+aviation_commander = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = {
+            type = carrier
+            size > 50
+        }
+    }
+}
+
+battleship_commander = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = {
+            archtype = ship_hull_heavy
+            size > 50
+        }
+    }
+}
+
+cruiser_commander = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = {
+            archtype = ship_hull_cruiser
+            size > 100
+        }
+    }
+}
+
+destroyer_commander = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = {
+            type = destroyer
+            size > 300
+        }
+    }
+}
+
+submarine_commander = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = {
+            type = submarine
+            size > 500
+        }
+    }
+}
+
+cruising_the_ocean = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = {
+            type = auxiliary_ship
+            size > 100
+        }
+    }
+}
+
+senior_naval_architect = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_tech = modern_ship_hull_light
+        has_tech = modern_ship_hull_cruiser
+        has_tech = advanced_ship_hull_heavy
+        has_tech = super_carriers
+        has_tech = modern_ship_hull_submarine  
+    }
+}
+
+cold_war_pioneer = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_tech = ship_to_ship_missile
+        has_tech = full_missile_upgrade
+    }
+}
+
+full_nuclear_fleet = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_tech = nuclear_engine_research
+        has_tech = sub_nuclear_engine
+    }
+}
+
+submarine_hood = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+        tag = GER
+    }
+    happened = {
+        tag = GER
+        has_war_with = ENG
+        has_country_flag = has_sunk_ENG_potf
+    }
+}
+
+revenge_for_jiangyin = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+        is_literally_china = yes
+    }
+    happened = {
+        is_literally_china = yes
+        has_war_with = JAP
+        has_country_flag = has_sunk_JAP_potf
+    }
+}
+
+togo_lives_again = {
+    possible = {
+        difficulty > 1
+        has_any_custom_difficulty_setting = no
+        game_rules_allow_achievements = yes
+        tag = JAP
+    }
+    happened = {
+        tag = JAP
+        has_war_with = SOV
+        has_country_flag = has_sunk_SOV_potf
+    }
+}

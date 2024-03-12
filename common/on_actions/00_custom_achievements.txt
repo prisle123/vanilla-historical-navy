@@ -1,0 +1,18 @@
+on_actions = {
+    on_pride_of_the_fleet_sunk = {
+        effect = {
+            if = {
+                limit = { tag = ENG }
+                FROM = { set_country_flag = has_sunk_ENG_potf }
+            }
+            if = {
+                limit = { tag = JAP }
+                FROM = { set_country_flag = has_sunk_JAP_potf }
+            }
+            if = {
+                limit = { tag = SOV }
+                FROM = { set_country_flag = has_sunk_SOV_potf }
+            }
+        }
+    }
+}
