@@ -6,7 +6,7 @@ allow_never_built = {
 		name = FREE
 		text = RULE_OPTION_FREE
 		desc = RULE_ALLOW_NEVER_BUILT_FREE_DESC
-		allow_achievements = yes
+		allow_achievements = no
 	}
 	option = {
 		name = BLOCKED
