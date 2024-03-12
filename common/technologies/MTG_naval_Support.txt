@@ -219,6 +219,10 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
+		##! armored_cruiser = {
+		##! 	lg_attack = 0.05
+		##! 	lg_armor_piercing = 0.05
+		##! }
 		battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -328,6 +332,10 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
+		##! armored_cruiser = {
+		##! 	lg_attack = 0.05
+		##! 	lg_armor_piercing = 0.05
+		##! }
 		battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -891,6 +899,10 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
+		##! armored_cruiser = {
+		##! 	hg_attack = 0.05
+		##! 	hg_armor_piercing = 0.05
+		##! }
 
 		enable_equipment_modules = {
 			ship_high_velocity_shell
@@ -942,6 +954,10 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
+		##! armored_cruiser = {
+		##! 	hg_attack = 0.05
+		##! 	hg_armor_piercing = 0.05
+		##! }
 
 		enable_equipment_modules = {
 			ship_super_heavy_weight_shell
@@ -1615,7 +1631,7 @@ technologies = {
 
 	damage_control_1 = {
 
-		research_cost = 1.25
+		research_cost = 1
 		path = {
 			leads_to_tech = damage_control_2
 			research_cost_coeff = 1
@@ -1655,7 +1671,7 @@ technologies = {
 
 	damage_control_2 = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 		path = {
 			leads_to_tech = damage_control_3
 			research_cost_coeff = 1
@@ -1695,7 +1711,7 @@ technologies = {
 
 	damage_control_3 = {
 
-		research_cost = 1.75
+		research_cost = 1.5
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
@@ -1811,6 +1827,10 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
+		##! armored_cruiser = {
+		##! 	lg_attack = 0.05
+		##! 	hg_attack = 0.05
+		##! }
 		heavy_cruiser = {
 			lg_attack = 0.05
 			hg_attack = 0.05
@@ -1860,6 +1880,10 @@ technologies = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
+		##! armored_cruiser = {
+		##! 	lg_attack = 0.05
+		##! 	hg_attack = 0.05
+		##! }
 		heavy_cruiser = {
 			lg_attack = 0.1
 			hg_attack = 0.1
@@ -2652,7 +2676,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 4 y = 7 }
 		}
-		XOR = { range_over_speed }
+		xor = { range_over_speed }
 
 		auxiliary_ship = {
 			naval_speed = 0.2
@@ -2677,7 +2701,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 7 }
 		}
-		XOR = { speed_over_range }
+		xor = { speed_over_range }
 
 		auxiliary_ship = {
 			naval_range = 0.2
@@ -3024,14 +3048,4 @@ technologies = {
 		}
         navy_fuel_consumption_factor = -0.15
     }
-
-	vnr_reckless_attack = {
-		research_cost = 1
-		start_year = 1900
-
-		allow = {
-			always = no
-		}
-		naval_retreat_chance = -0.8
-	}
 }
