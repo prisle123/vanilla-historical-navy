@@ -1273,4 +1273,10 @@ spriteTypes = {
 		name = "GFX_SMI_carrier_wooden_deck"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_wooden_deck.png"
 	}
+	
+	# BB torpedo
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_bb"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo_bb.png"
+	}
 }
