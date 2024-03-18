@@ -822,13 +822,17 @@ technologies = {
 		research_cost = 1
 		start_year = 1942
 
-		ship_hull_light = {
+		destroyer = {
 			build_cost_ic = -0.1
 		}
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 1 y = @1940_module }
+		}
+		
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_destroyer_cost_1 }
 		}
 
 		ai_will_do = {
@@ -1278,7 +1282,10 @@ technologies = {
 		enable_equipment_modules = {
 			structural_aluminum
 		}
-		ship_hull_cruiser = {
+		heavy_cruiser = {
+			build_cost_ic = -0.1
+		}
+		light_cruiser = {
 			build_cost_ic = -0.1
 		}
 
@@ -1288,6 +1295,9 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = @1948_module }
+		}
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_cruiser_cost_2 }
 		}
 		ai_will_do = {
 			factor = 0
@@ -1688,13 +1698,12 @@ technologies = {
 		research_cost = 0.5
 
 		heavy_cruiser = {
+			build_cost_ic = -0.05
 			armor_value = 0.1
 		}
 		light_cruiser = {
-			naval_speed = 0.05
-		}
-		ship_hull_cruiser = {
 			build_cost_ic = -0.05
+			naval_speed = 0.05
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_cruiser
@@ -1704,6 +1713,10 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -1 y = @1914_module_2 }
+		}
+		
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_cruiser_cost_1 }
 		}
 
 		ai_will_do = {
@@ -3862,6 +3875,7 @@ technologies = {
 			naval_strike_targetting = 0.15
 			air_agility = 0.15
 			maximum_speed = 0.1
+			build_cost_ic = -0.1
 		}
 		
 		folder = {
@@ -3982,7 +3996,7 @@ technologies = {
 		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 		
-		ship_hull_carrier = {
+		carrier = {
 			build_cost_ic = -0.1
 		}
 		enable_equipment_modules = {
@@ -3992,6 +4006,10 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = @1944 }
+		}
+		
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_carrier_cost_1 }
 		}
 		
 		ai_will_do = {
@@ -4765,12 +4783,16 @@ technologies = {
 
 		start_year = 1941
 
-		ship_hull_submarine = {
+		submarine = {
 			build_cost_ic = -0.15
 		}
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = @1944 }
+		}
+		
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_submarine_cost_1 }
 		}
 
 		ai_will_do = {
