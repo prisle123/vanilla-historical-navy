@@ -122,5 +122,8 @@ navy_rework_category = {
         complete_effect = {
             KuK_never_built_blueprints = yes
         }
+        ai_will_do = {
+            factor = 1
+        }
     }
 }

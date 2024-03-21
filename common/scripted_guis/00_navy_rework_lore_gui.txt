@@ -1,0 +1,32 @@
+scripted_gui = {
+    naval_lore_gui = {
+        context_type = player_context
+        window_name = naval_lore_gui_container
+
+        ai_enabled = { always = no }
+
+        visible = { has_global_flag = naval_lore_gui_show }
+
+        effects = {
+            naval_lore_gui_option_button_click = {
+                clr_global_flag = naval_lore_gui_show
+            }
+        }
+    }
+
+    naval_lore_gui_textbox = {
+        context_type = player_context
+        window_name = naval_lore_gui_textbox_container
+        parent_window_name = naval_lore_gui_container
+
+        ai_enabled = { always = no }
+
+        visible = { has_global_flag = naval_lore_gui_show }
+
+        properties = {
+            naval_lore_intro_icon = {
+                image = "[get_naval_lore_picture]"
+            }
+        }
+    }
+}

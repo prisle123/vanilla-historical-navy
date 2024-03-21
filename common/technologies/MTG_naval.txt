@@ -830,6 +830,10 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 1 y = @1940_module }
 		}
+		
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_destroyer_cost_1 }
+		}
 
 		ai_will_do = {
 			factor = 8
@@ -1292,6 +1296,9 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 0 y = @1948_module }
 		}
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_cruiser_cost_2 }
+		}
 		ai_will_do = {
 			factor = 0
 		}
@@ -1364,7 +1371,7 @@ technologies = {
 			position = { x = -1 y = 22 }
 		}
 		dependencies = {
-			nuclear_reactor = 2
+			nuclear_reactor = 1
 		}
 
 		ai_will_do = {
@@ -1706,6 +1713,10 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -1 y = @1914_module_2 }
+		}
+		
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_cruiser_cost_1 }
 		}
 
 		ai_will_do = {
@@ -3997,6 +4008,10 @@ technologies = {
 			position = { x = -2 y = @1944 }
 		}
 		
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_carrier_cost_1 }
+		}
+		
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -4774,6 +4789,10 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = @1944 }
+		}
+		
+		on_research_complete = {
+			hidden_effect = { add_ideas = vnr_submarine_cost_1 }
 		}
 
 		ai_will_do = {

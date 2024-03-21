@@ -18,6 +18,47 @@ defined_text = {
 }
 
 defined_text = {
+	name = get_naval_lore_gui_title
+	text = {
+		trigger = { original_tag = ENG }
+		localization_key = eng_naval_history
+	}
+	text = {
+		trigger = { original_tag = USA }
+		localization_key = usa_naval_history
+	}
+	text = {
+		trigger = { original_tag = JAP }
+		localization_key = jap_naval_history
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = fra_naval_history
+	}
+	text = {
+		trigger = { original_tag = ITA }
+		localization_key = ita_naval_history
+	}
+	text = {
+		trigger = { original_tag = GER }
+		localization_key = ger_naval_history
+	}
+	text = {
+		trigger = { original_tag = SOV }
+		localization_key = sov_naval_history
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = CHI
+				original_tag = PRC
+			}
+		}
+		localization_key = chi_naval_history
+	}
+}
+
+defined_text = {
 	name = naval_lore_loc_title_1
 	text = {
 		trigger = { original_tag = ENG }
@@ -178,88 +219,6 @@ defined_text = {
 			}
 		}
 		localization_key = naval_lore_desc_2_chi
-	}
-}
-
-defined_text = {
-	name = naval_lore_loc_option_1
-	text = {
-		trigger = { original_tag = ENG }
-		localization_key = naval_lore_option_1_eng
-	}
-	text = {
-		trigger = { original_tag = USA }
-		localization_key = naval_lore_option_1_usa
-	}
-	text = {
-		trigger = { original_tag = JAP }
-		localization_key = naval_lore_option_1_jap
-	}
-	text = {
-		trigger = { original_tag = FRA }
-		localization_key = naval_lore_option_1_fra
-	}
-	text = {
-		trigger = { original_tag = ITA }
-		localization_key = naval_lore_option_1_ita
-	}
-	text = {
-		trigger = { original_tag = GER }
-		localization_key = naval_lore_option_1_ger
-	}
-	text = {
-		trigger = { original_tag = SOV }
-		localization_key = naval_lore_option_1_sov
-	}
-	text = {
-		trigger = {
-			OR = {
-				original_tag = CHI
-				original_tag = PRC
-			}
-		}
-		localization_key = naval_lore_option_1_chi
-	}
-}
-
-defined_text = {
-	name = naval_lore_loc_option_2
-	text = {
-		trigger = { original_tag = ENG }
-		localization_key = naval_lore_option_2_eng
-	}
-	text = {
-		trigger = { original_tag = USA }
-		localization_key = naval_lore_option_2_usa
-	}
-	text = {
-		trigger = { original_tag = JAP }
-		localization_key = naval_lore_option_2_jap
-	}
-	text = {
-		trigger = { original_tag = FRA }
-		localization_key = naval_lore_option_2_fra
-	}
-	text = {
-		trigger = { original_tag = ITA }
-		localization_key = naval_lore_option_2_ita
-	}
-	text = {
-		trigger = { original_tag = GER }
-		localization_key = naval_lore_option_2_ger
-	}
-	text = {
-		trigger = { original_tag = SOV }
-		localization_key = naval_lore_option_2_sov
-	}
-	text = {
-		trigger = {
-			OR = {
-				original_tag = CHI
-				original_tag = PRC
-			}
-		}
-		localization_key = naval_lore_option_2_chi
 	}
 }
 

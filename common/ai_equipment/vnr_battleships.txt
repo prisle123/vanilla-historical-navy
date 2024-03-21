@@ -290,7 +290,7 @@ naval_capital_battleship = {
 			base = 0
 			modifier = { add = 100 has_tech = advanced_ship_hull_heavy }
 			modifier = { factor = 0.1 has_global_flag = naval_tech_1945 }
-			modifier = { factor = 0 expert_ai_style = yes }
+			modifier = { factor = 0 expert_ai_style = no }
 		}
 
 		target_variant = {

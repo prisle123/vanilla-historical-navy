@@ -3674,6 +3674,25 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+	ship_torpedo_bb = {
+		category = ship_torpedo_bb
+		gui_category = ship_torpedo
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 10
+			build_cost_ic = 80
+			naval_torpedo_hit_chance_factor = -0.02
+		}
+		multiply_stats = {
+			naval_speed = -0.02		
+		}
+		dismantle_cost_ic = 60
+
+		critical_parts = { damaged_torpedoes }
+	}
+
 	ship_torpedo_sub_1 = {
 		abbreviation = "scfl"
 		category = ship_torpedo_sub
@@ -4996,6 +5015,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			naval_speed = 0.01
+			build_cost_ic = 0.04
 		}
 		dismantle_cost_ic = 1500
 

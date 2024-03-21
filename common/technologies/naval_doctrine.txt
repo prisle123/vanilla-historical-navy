@@ -16,6 +16,9 @@ technologies = {
 		battle_cruiser = {
 			max_organisation = 5
 		}
+		##! armored_cruiser = {
+		##! 	max_organisation = 5
+		##! }
 		heavy_cruiser = {
 			max_organisation = 5
 		}
@@ -91,6 +94,9 @@ technologies = {
 		battle_cruiser = {
 			max_organisation = 10
 		}
+		##! armored_cruiser = {
+		##! 	max_organisation = 10
+		##! }
 		heavy_cruiser = {
 			max_organisation = 10
 		}
@@ -202,6 +208,9 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
+		##! armored_cruiser = {
+		##! 	surface_detection = 0.05
+		##! }
 		heavy_cruiser = {
 			surface_detection = 0.05
 		}
@@ -415,6 +424,9 @@ technologies = {
 		heavy_cruiser = {
 			max_organisation = 20
 		}
+		##! armored_cruiser = {
+		##! 	max_organisation = 20
+		##! }
 
 		ships_at_battle_start = 0.1
 		positioning = 0.1
@@ -504,6 +516,10 @@ technologies = {
 		battle_cruiser = {
 			max_organisation = 20
 		}
+
+		##! armored_cruiser = {
+		##! 	max_organisation = 20
+		##! }
 
 		heavy_cruiser = {
 			max_organisation = 20
@@ -874,7 +890,7 @@ technologies = {
 		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.05
+			convoy_raiding_coordination = 0.1
 		}
 		#######
 
@@ -916,6 +932,7 @@ technologies = {
 		# EFFECT ##############
 		submarine = {
 			surface_detection = 0.1
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		night_spotting_chance = 0.1
 		#######
@@ -957,7 +974,7 @@ technologies = {
 		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.05
+			convoy_raiding_coordination = 0.1
 		}
 		naval_torpedo_reveal_chance_factor = -0.10
 		#######
@@ -1216,6 +1233,7 @@ technologies = {
 		submarine = {
 			max_organisation = 10
 			sub_visibility = -0.05
+			naval_torpedo_hit_chance_factor = 0.1
 		}
 		mines_planting_by_fleets_factor = 0.15
 		#######
@@ -1321,6 +1339,7 @@ technologies = {
 			naval_range = 0.3
 			fuel_consumption = -0.25
 		}
+		naval_torpedo_cooldown_factor = -0.2
 		#######
 
 		path = {
@@ -1374,7 +1393,7 @@ technologies = {
 			surface_detection = 0.10
 		}
 		night_spotting_chance = 0.1
-
+		sub_retreat_speed = 0.15
 		naval_torpedo_reveal_chance_factor = -0.10
 		#######
 
@@ -1476,25 +1495,31 @@ technologies = {
 		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.05
+			convoy_raiding_coordination = 0.15
 			surface_detection = 0.1
 		}
 
 		light_cruiser = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.35
+			convoy_raiding_coordination = 0.15
 			surface_detection = 0.15
 		}
 
 		heavy_cruiser = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.35
+			convoy_raiding_coordination = 0.15
 			surface_detection = 0.15
 		}
 
+		##! armored_cruiser = {
+		##! 	max_organisation = 10
+		##! 	convoy_raiding_coordination = 0.15
+		##! 	surface_detection = 0.15
+		##! }
+
 		battle_cruiser = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.35
+			convoy_raiding_coordination = 0.15
 			surface_detection = 0.15
 		}
 
@@ -1541,13 +1566,13 @@ technologies = {
 		# EFFECT ##############
 		light_cruiser = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.15
+			convoy_raiding_coordination = 0.1
 			surface_detection = 0.10
 		}
 
 		heavy_cruiser = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.15
+			convoy_raiding_coordination = 0.1
 			surface_detection = 0.10
 		}
 		#######
@@ -1590,17 +1615,23 @@ technologies = {
 		# EFFECT ##############
 		battle_cruiser = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.2
+			convoy_raiding_coordination = 0.15
 			surface_detection = 0.15
 		}
 
 		battleship = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.15
+			convoy_raiding_coordination = 0.1
 			surface_detection = 0.15
 		}
 
-		screening_without_screens = 0.3
+		##! armored_cruiser = {
+		##! 	max_organisation = 10
+		##! 	convoy_raiding_coordination = 0.15
+		##! 	surface_detection = 0.15
+		##! }
+
+		screening_without_screens = 0.1
 		#######
 
 		path = {
@@ -1649,6 +1680,14 @@ technologies = {
 
 		heavy_cruiser = {
 			surface_visibility = -0.1
+		}
+
+		##! armored_cruiser = {
+		##! 	surface_visibility = -0.1
+		##! }
+
+		submarine = {
+			sub_visibility = -0.1
 		}
 
 		naval_retreat_speed = 0.1
@@ -1700,6 +1739,9 @@ technologies = {
 		battle_cruiser = {
 			max_organisation = 10
 		}
+		##! armored_cruiser = {
+		##! 	max_organisation = 10
+		##! }
 		heavy_cruiser = {
 			max_organisation = 10
 		}
@@ -2564,6 +2606,10 @@ technologies = {
 			max_organisation = 20
 			surface_detection = 0.1
 		}
+		heavy_cruiser = {
+			max_organisation = 10
+			surface_detection = 0.1
+		}
 		battle_cruiser = {
 			max_organisation = 10
 			surface_detection = 0.1
@@ -2674,7 +2720,7 @@ technologies = {
 		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.05
+			convoy_raiding_coordination = 0.1
 		}
 		#######
 
@@ -2723,6 +2769,7 @@ technologies = {
 		# EFFECT ##############
 		submarine = {
 			surface_detection = 0.1
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		night_spotting_chance = 0.1
 		#######
@@ -2764,7 +2811,7 @@ technologies = {
 		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.05
+			convoy_raiding_coordination = 0.1
 		}
 		naval_torpedo_reveal_chance_factor = -0.10
 		#######
@@ -3072,6 +3119,9 @@ technologies = {
 		heavy_cruiser = {
 			max_organisation = 10
 		}
+		##! armored_cruiser = {
+		##! 	max_organisation = 10
+		##! }
 		battle_cruiser = {
 			max_organisation = 10
 		}

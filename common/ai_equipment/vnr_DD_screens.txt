@@ -330,7 +330,7 @@ naval_screen = {
 		priority = {
 			base = 0
 			modifier = { add = 200 has_tech = modern_ship_hull_light }
-			modifier = { factor = 0 expert_ai_style = yes }
+			modifier = { factor = 0 expert_ai_style = no }
 		}
 
 		target_variant = {
