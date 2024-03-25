@@ -5546,6 +5546,19 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 	}
+	ship_rocket_launcher = {
+		category = civilian_ship_weapons
+		add_stats = {
+			hg_attack = 15
+			naval_heavy_gun_hit_chance_factor = -0.8
+			reliability = -0.15
+			build_cost_ic = 250
+		}
+		multiply_stats = {
+			max_strength = -0.1
+			naval_speed = -0.05
+		}
+	}
 	civilian_ship_engine_1 = {
 		category = civilian_ship_engine
 		sfx = sfx_ui_sd_module_engine
