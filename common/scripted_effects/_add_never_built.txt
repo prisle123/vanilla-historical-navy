@@ -116,6 +116,52 @@ GER_never_built_blueprints = {
 			rear_2_custom_slot = ship_heavy_battery_2
 		}
 	}
+	create_equipment_variant = {
+		name = "Mackensen Class"
+		role_icon_index = 16
+		icon = "gfx/interface/technologies/Fun/Yorck.png"
+		type = ship_hull_heavy_1
+		name_group = GER_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1	# Capable of launching a seaplane from turret X
+			rear_1_custom_slot = ship_heavy_battery_1
+			rear_2_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Yorck Class"
+		role_icon_index = 16
+		icon = "gfx/interface/technologies/Fun/Yorck.png"
+		type = ship_hull_heavy_2
+		name_group = GER_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_2
+			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_big_1
+			front_2_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1	# Capable of launching a seaplane from turret X
+			rear_1_custom_slot = ship_heavy_battery_big_1
+			rear_2_custom_slot = ship_heavy_battery_big_1
+		}
+	}
 }
 
 ITA_never_built_blueprints = {
