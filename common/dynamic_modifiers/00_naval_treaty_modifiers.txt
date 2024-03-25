@@ -1,0 +1,12 @@
+washington_treaty_article_xix = {
+    icon = GFX_modifiers_sabotaged_resource
+    enable = { always = yes }
+    remove_trigger = {
+        ROOT = { 
+            owner = { has_naval_treaty_trigger = no }
+        }
+    }
+
+    state_production_speed_coastal_bunker_factor = -1.0
+    state_production_naval_base_bunker_factor = -1.0
+}

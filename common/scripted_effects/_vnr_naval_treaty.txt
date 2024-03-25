@@ -31,3 +31,23 @@ remove_naval_treaty_effect = {
 	}
 	set_country_flag = MTG_naval_treaty_abandoned
 }
+
+add_article_xix = {
+	every_state = {
+		limit = {
+			owner = { has_naval_treaty_trigger = yes }
+			OR = {
+                is_core_of = HAW
+                is_core_of = FIJ
+                is_core_of = TAH
+                is_core_of = GUM
+                is_core_of = FSM
+            }
+			naval_base < 5
+			coastal_bunker < 2
+		}
+		add_dynamic_modifier = {
+			modifier = washington_treaty_article_xix
+		}
+	}
+}
