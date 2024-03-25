@@ -28,7 +28,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double
 				}
 			}
 			fixed_ship_anti_air_slot = {
@@ -81,7 +82,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 				}
 			}
 			front_2_custom_slot = front_1_custom_slot
@@ -100,7 +102,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 					ship_secondaries
 					ship_dp_secondaries
 					ship_airplane_launcher
@@ -128,7 +131,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -375,7 +379,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 				}
 			}
 			fixed_ship_anti_air_slot = {
@@ -428,7 +433,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 				}
 			}
 			front_2_custom_slot = front_1_custom_slot
@@ -447,7 +453,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 					ship_secondaries
 					ship_dp_secondaries
 					ship_airplane_launcher
@@ -475,7 +482,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -617,7 +625,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 					ship_missile
 					ship_missile_aa
 				}
@@ -645,7 +654,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -671,7 +681,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -709,7 +720,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 					ship_missile
 				}
 			}
@@ -743,7 +755,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 					ship_missile
 					ship_missile_aa
 				}
@@ -771,7 +784,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -797,7 +811,8 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_medium_heavy_battery 
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double 
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -851,7 +866,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_heavy_battery ship_heavy_battery_triple ship_medium_heavy_battery }
+				allowed_module_categories = { ship_heavy_battery ship_heavy_battery_triple ship_medium_heavy_battery_triple ship_medium_heavy_battery_double }
 			}
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
@@ -870,7 +885,8 @@ equipments = {
 					ship_anti_air
 					ship_heavy_battery
 					ship_heavy_battery_triple
-					ship_medium_heavy_battery
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double
 				}
 			}
 			front_2_custom_slot = {
@@ -879,7 +895,8 @@ equipments = {
 					ship_anti_air
 					ship_heavy_battery
 					ship_heavy_battery_triple
-					ship_medium_heavy_battery
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double
 					ship_secondaries
 					ship_dp_secondaries
 				}
@@ -905,7 +922,8 @@ equipments = {
 					ship_torpedo
 					ship_heavy_battery
 					ship_heavy_battery_triple
-					ship_medium_heavy_battery
+					ship_medium_heavy_battery_triple
+					ship_medium_heavy_battery_double
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -1037,7 +1055,10 @@ equipments = {
 
 		max_strength = 140
 
-
+		module_count_limit = {
+			module = ship_hull_cruiser_role_c
+			count > 0
+		}
 
 		build_cost_ic = 1700
 		resources = {

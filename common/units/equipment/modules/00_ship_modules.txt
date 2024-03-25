@@ -1460,7 +1460,8 @@ equipment_modules = {
 
 	# double medium heavy battery
 	ship_medium_heavy_battery_1_double = {
-		category = ship_medium_heavy_battery
+		category = ship_medium_heavy_battery_double
+		gui_category = ship_medium_heavy_battery
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
@@ -1490,7 +1491,8 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_medium_heavy_battery_2_double = {
-		category = ship_medium_heavy_battery
+		category = ship_medium_heavy_battery_double
+		gui_category = ship_medium_heavy_battery
 		parent = ship_medium_heavy_battery_1_double
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -1523,7 +1525,8 @@ equipment_modules = {
 
 	# triple medium heavy battery
 	ship_medium_heavy_battery_1 = {
-		category = ship_medium_heavy_battery
+		category = ship_medium_heavy_battery_triple
+		gui_category = ship_medium_heavy_battery
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
@@ -1553,7 +1556,8 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_medium_heavy_battery_2 = {
-		category = ship_medium_heavy_battery
+		category = ship_medium_heavy_battery_triple
+		gui_category = ship_medium_heavy_battery
 		parent = ship_medium_heavy_battery_1
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
