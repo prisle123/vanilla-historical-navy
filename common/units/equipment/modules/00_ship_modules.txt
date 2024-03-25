@@ -5550,7 +5550,7 @@ equipment_modules = {
 		category = civilian_ship_weapons
 		add_stats = {
 			hg_attack = 15
-			naval_heavy_gun_hit_chance_factor = -0.8
+			naval_heavy_gun_hit_chance_factor = -1.0
 			reliability = -0.15
 			build_cost_ic = 250
 		}
