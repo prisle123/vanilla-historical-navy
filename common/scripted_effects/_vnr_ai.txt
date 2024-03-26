@@ -139,3 +139,10 @@ update_ai_production_bonus = {
 		}
     }
 }
+
+ai_get_navy_experience = {
+	if = {
+		limit = { has_navy_experience < 50 }
+		navy_experience = 100
+	}
+}

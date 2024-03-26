@@ -337,6 +337,7 @@ country_event = {
 					damage_control_1 = 1
 					fire_control_methods_1 = 1
 				}
+				ai_get_navy_experience = yes
 			}
 		}
 		set_global_flag = naval_tech_1940
@@ -396,6 +397,7 @@ country_event = {
 					damage_control_2 = 1
 					fire_control_methods_2 = 1
 				}
+				ai_get_navy_experience = yes
 			}
 		}
 		set_global_flag = naval_tech_1943
@@ -433,6 +435,7 @@ country_event = {
 					naval_radio_guiding_system = 1
 					ship_to_ship_missile = 1
 				}
+				ai_get_navy_experience = yes
 			}
 		}
 		set_global_flag = naval_tech_1944
@@ -463,6 +466,7 @@ country_event = {
 					helipad = 1
 					gas_turbine = 1
 				}
+				ai_get_navy_experience = yes
 			}
 		}
 		set_global_flag = naval_tech_1945
@@ -501,6 +505,7 @@ country_event = {
 					iff_device = 1
 					wire_guided_torpedo = 1
 				}
+				ai_get_navy_experience = yes
 			}
 		}
 		set_global_flag = naval_tech_1946
@@ -541,6 +546,7 @@ country_event = {
 					hydrocooling_battery = 1
 					sonar_telephone = 1
 				}
+				ai_get_navy_experience = yes
 			}
 		}
 		set_global_flag = naval_tech_1949
