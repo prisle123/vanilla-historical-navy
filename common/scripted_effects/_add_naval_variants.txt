@@ -1516,6 +1516,7 @@ JAP_start_naval_variants = {
             fixed_ship_anti_air_slot = ship_anti_air_2
             fixed_ship_secondaries_slot = dp_ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_heavy_2
+            fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
             mid_1_custom_slot = ship_deck_space
             mid_2_custom_slot = ship_deck_space
         }
@@ -3237,9 +3238,26 @@ USA_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
+            fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 			front_1_custom_slot = ship_deck_space
 			mid_1_custom_slot = ship_deck_space
 			fixed_ship_armor_slot = ship_armor_cruiser_1
+		}
+	}
+    create_equipment_variant = {
+		name = "Wasp Class"
+		role_icon_index = 9
+		type = vnr_ship_hull_carrier_1
+		name_group = USA_CV_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+            fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+			front_1_custom_slot = ship_deck_space
+			mid_1_custom_slot = ship_deck_space
 		}
 	}
     create_equipment_variant = {
@@ -3256,6 +3274,7 @@ USA_start_naval_variants = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_secondaries_slot = usa_8in_mk9_secondaries
 			fixed_ship_armor_slot = ship_armor_cruiser_2
+            fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 		}
 	}
     create_equipment_variant = {
@@ -3270,9 +3289,8 @@ USA_start_naval_variants = {
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_cruiser_1
             front_1_custom_slot = ship_deck_space
-            mid_1_custom_slot = ship_deck_space_small
+            mid_1_custom_slot = ship_deck_space
 		}
 	}
 	create_equipment_variant = {
