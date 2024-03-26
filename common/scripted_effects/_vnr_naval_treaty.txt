@@ -37,14 +37,19 @@ add_article_xix = {
 		limit = {
 			owner = { has_naval_treaty_trigger = yes }
 			OR = {
-                is_core_of = HAW
+				is_on_continent = asia
+				is_on_continent = australia
+			}
+			OR = {
+				is_core_of = HAW
                 is_core_of = FIJ
                 is_core_of = TAH
                 is_core_of = GUM
                 is_core_of = FSM
-            }
-			naval_base < 8
-			coastal_bunker < 2
+				is_owned_by = JAP
+				is_owned_by = USA
+			}
+			is_island_state = yes
 		}
 		add_dynamic_modifier = {
 			modifier = washington_treaty_article_xix
