@@ -1,4 +1,4 @@
-version="v1.3 - Kraken"
+version="v1.4 - Pacific Storm"
 tags={
 	"Military"
 	"Graphics"
