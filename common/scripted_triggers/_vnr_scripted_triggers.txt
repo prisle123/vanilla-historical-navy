@@ -8,19 +8,6 @@ has_naval_treaty_trigger = {
 	}
 }
 
-historical_ai_style = {
-	has_game_rule = { rule = ai_ship_design_style option = HISTORICAL }
-	OR = {
-		tag = ENG
-		tag = FRA
-		tag = GER
-		tag = ITA
-		tag = JAP
-		tag = SOV
-		tag = USA
-	}
-}
-
 expert_ai_style = {
 	has_game_rule = { rule = ai_ship_design_style option = EXPERT }
 	OR = {
