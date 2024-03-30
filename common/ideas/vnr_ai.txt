@@ -113,7 +113,8 @@ ideas = {
 		vnr_research_budget = {
 			picture = liberty_ships_focus
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = 0.25
+                consumer_goods_factor = 0.1
 			}
 		}
     }
