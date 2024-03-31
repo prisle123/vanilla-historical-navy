@@ -5605,6 +5605,7 @@ TUR_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
 		name = "Zafer Class"
+        icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_2
 		name_group = TUR_GEOGRAPHIC
@@ -5620,6 +5621,7 @@ TUR_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Kocatepe Class"
+        icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_2
 		name_group = TUR_GEOGRAPHIC
