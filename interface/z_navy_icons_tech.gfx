@@ -1721,6 +1721,12 @@ spriteTypes = {
         		name = "GFX_TUR_early_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Turkey/TUR_destroyer1.png"
         	}
+	# battleship
+
+			spriteType = {
+				name = "GFX_TUR_early_ship_hull_heavy_medium"
+				texturefile = "gfx/interface/technologies/Turkey/TUR_battleship1.png"
+			}
 			
 ### USA ###
 	# destroyer
