@@ -5377,7 +5377,8 @@ equipment_modules = {
 	ship_hull_cruiser_role_c = {
 		category = c_role
 		forbid_module_categories = {
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_cruiser_heavy_armor
 			ship_missile
 			ship_missile_aa
@@ -5403,7 +5404,8 @@ equipment_modules = {
 			build_cost_ic = 0.1
 		}
 		forbid_module_categories = {
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_cruiser_heavy_armor
 			ship_missile
 			ship_missile_aa
@@ -5419,7 +5421,8 @@ equipment_modules = {
 			build_cost_ic = -0.1
 		}
 		forbid_module_categories = {
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_cruiser_heavy_armor
 			ship_missile
 			ship_missile_aa
@@ -5442,7 +5445,8 @@ equipment_modules = {
 			build_cost_ic = -0.15
 		}
 		forbid_module_categories = {
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_medium_battery
 			ship_medium_battery_double
 			ship_medium_battery_single
@@ -6076,7 +6080,8 @@ equipment_modules = {
 			ship_super_heavy_battery
 			ship_super_heavy_battery_triple
 			ship_super_heavy_battery_quad
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_medium_battery
 			ship_medium_battery_double
 			ship_medium_battery_single
