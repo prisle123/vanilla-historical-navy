@@ -5362,34 +5362,6 @@ technologies = {
 		}
 	}
 
-	anti_air_rockets = {
-		research_cost = 1
-		start_year = 1943
-		
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 2 y = 0}
-		}
-		dependencies = {
-			experimental_rockets = 1
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		enable_equipment_modules = {
-			ship_anti_air_5
-			ship_rocket_launcher
-		}
-		
-		categories = {
-			rocketry
-			naval_equipment
-			ship_modules_tech
-		}
-	}
-
 	obsolete_vanilla_hulls = {
 		enable_equipments = {
 			ship_hull_light_1

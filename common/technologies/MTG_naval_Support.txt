@@ -100,6 +100,11 @@ technologies = {
 			leads_to_tech = basic_heavy_battery
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = ship_rocket_artillery
+			research_cost_coeff = 1
+		}
 		
 		enable_equipment_modules = {
 			ship_light_battery_1_double
@@ -1210,6 +1215,38 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+
+	ship_rocket_artillery = {
+		research_cost = 0.8
+		start_year = 1943
+
+		dependencies = {
+			rocket_artillery = 1
+		}
+
+		enable_equipment_modules = {
+			ship_anti_air_5
+			ship_rocket_launcher
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = heavy_battery_advice_tt
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 3 y = 19 }
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
