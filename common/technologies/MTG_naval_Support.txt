@@ -436,10 +436,6 @@ technologies = {
 			leads_to_tech = basic_medium_shell
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = improved_medium_heavy_battery
-			research_cost_coeff = 1
-		}
 
 		enable_equipment_modules = {
 			ship_medium_battery_2
@@ -543,6 +539,8 @@ technologies = {
 			ship_light_medium_battery_3_double
 			ship_light_medium_battery_3_single
 			ship_secondaries_3
+			ship_medium_heavy_battery_1
+			ship_medium_heavy_battery_1_double
 		}
 
 
@@ -631,6 +629,8 @@ technologies = {
 			ship_light_medium_battery_4_double
 			ship_light_medium_battery_4_single
 			ship_secondaries_4
+			ship_medium_heavy_battery_2
+			ship_medium_heavy_battery_2_double
 		}
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
@@ -657,73 +657,6 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
-
-	improved_medium_heavy_battery = {
-
-		research_cost = 0.75
-
-		start_year = 1936
-
-		path = {
-			leads_to_tech = advanced_medium_heavy_battery
-			research_cost_coeff = 1
-		}
-		on_research_complete = {
-			custom_effect_tooltip = medium_battery_advice_tt
-		}
-		enable_equipment_modules = {
-			ship_medium_heavy_battery_1
-			ship_medium_heavy_battery_1_double
-		}
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 3 y = 10 }
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			cat_ship_medium_battery
-			mio_cat_tech_all_cruiser_and_modules
-		}
-	}
-
-	advanced_medium_heavy_battery = {
-
-		research_cost = 0.75
-
-		start_year = 1942
-
-		on_research_complete = {
-			custom_effect_tooltip = medium_battery_advice_tt
-		}
-		enable_equipment_modules = {
-			ship_medium_heavy_battery_2
-			ship_medium_heavy_battery_2_double
-		}
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 3 y = 18 }
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			cat_ship_medium_battery
-			mio_cat_tech_all_cruiser_and_modules
-		}
-	}
-	
 
 	basic_heavy_battery = {
 
