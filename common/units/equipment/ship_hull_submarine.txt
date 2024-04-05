@@ -59,6 +59,14 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		module_count_limit = {
 			module = oxygen_generator
 			count < 2
 		}
