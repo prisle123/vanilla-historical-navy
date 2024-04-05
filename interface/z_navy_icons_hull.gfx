@@ -1899,10 +1899,6 @@ spriteTypes = {
         		texturefile = "gfx/interface/technologies/Netherlands/HOL_carrier_conversion_ca.png"
         	}
         	spriteType = {
-        		name = "GFX_HOL_vnr_ship_hull_carrier_conversion_bb_medium"
-        		texturefile = "gfx/interface/technologies/Netherlands/HOL_carrier_conversion_bb.png"
-        	}
-        	spriteType = {
         		name = "GFX_HOL_vnr_ship_hull_carrier_1_medium"
         		texturefile = "gfx/interface/technologies/Netherlands/HOL_carrier2.png"
         	}
@@ -2343,6 +2339,12 @@ spriteTypes = {
         		name = "GFX_TUR_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
         		texturefile = "gfx/interface/technologies/Turkey/TUR_cruiser_coastal_defense_ship.png"
         	}
+	# battleship
+
+			spriteType = {
+				name = "GFX_TUR_vnr_ship_hull_heavy_1_medium"
+				texturefile = "gfx/interface/technologies/Turkey/TUR_battleship1.png"
+			}
 			
 ### USA ###
 	# destroyer

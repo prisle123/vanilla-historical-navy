@@ -100,6 +100,11 @@ technologies = {
 			leads_to_tech = basic_heavy_battery
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = ship_rocket_artillery
+			research_cost_coeff = 1
+		}
 		
 		enable_equipment_modules = {
 			ship_light_battery_1_double
@@ -436,10 +441,6 @@ technologies = {
 			leads_to_tech = basic_medium_shell
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = improved_medium_heavy_battery
-			research_cost_coeff = 1
-		}
 
 		enable_equipment_modules = {
 			ship_medium_battery_2
@@ -543,6 +544,8 @@ technologies = {
 			ship_light_medium_battery_3_double
 			ship_light_medium_battery_3_single
 			ship_secondaries_3
+			ship_medium_heavy_battery_1
+			ship_medium_heavy_battery_1_double
 		}
 
 
@@ -631,6 +634,8 @@ technologies = {
 			ship_light_medium_battery_4_double
 			ship_light_medium_battery_4_single
 			ship_secondaries_4
+			ship_medium_heavy_battery_2
+			ship_medium_heavy_battery_2_double
 		}
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
@@ -657,73 +662,6 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
-
-	improved_medium_heavy_battery = {
-
-		research_cost = 0.75
-
-		start_year = 1936
-
-		path = {
-			leads_to_tech = advanced_medium_heavy_battery
-			research_cost_coeff = 1
-		}
-		on_research_complete = {
-			custom_effect_tooltip = medium_battery_advice_tt
-		}
-		enable_equipment_modules = {
-			ship_medium_heavy_battery_1
-			ship_medium_heavy_battery_1_double
-		}
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 3 y = 10 }
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			cat_ship_medium_battery
-			mio_cat_tech_all_cruiser_and_modules
-		}
-	}
-
-	advanced_medium_heavy_battery = {
-
-		research_cost = 0.75
-
-		start_year = 1942
-
-		on_research_complete = {
-			custom_effect_tooltip = medium_battery_advice_tt
-		}
-		enable_equipment_modules = {
-			ship_medium_heavy_battery_2
-			ship_medium_heavy_battery_2_double
-		}
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 3 y = 18 }
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			cat_ship_medium_battery
-			mio_cat_tech_all_cruiser_and_modules
-		}
-	}
-	
 
 	basic_heavy_battery = {
 
@@ -1277,6 +1215,38 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 			cat_ship_heavy_battery
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+
+	ship_rocket_artillery = {
+		research_cost = 0.8
+		start_year = 1943
+
+		dependencies = {
+			rocket_artillery = 1
+		}
+
+		enable_equipment_modules = {
+			ship_anti_air_5
+			ship_rocket_launcher
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = heavy_battery_advice_tt
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 3 y = 17 }
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
@@ -2302,7 +2272,7 @@ technologies = {
 
 	mtg_transport = { #WHEN BALANCING - ALSO FIX REGULAR NAVAL TREE
 
-		transport_capacity = -0.5
+		transport_capacity = -0.2
 		naval_invasion_capacity = 10
 
 		path = {
@@ -2485,6 +2455,7 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1914
 		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
 
 		path = {
 			leads_to_tech = basic_port_facility
@@ -2529,6 +2500,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
+			logistics_tech
 		}
 	}
 	# port facility branch
@@ -2560,6 +2532,7 @@ technologies = {
 		production_speed_naval_base_factor = 0.1
 		categories = {
 			naval_equipment
+			industry
 		}
 	}
 	large_shipyard = {
@@ -2582,6 +2555,7 @@ technologies = {
 		production_speed_dockyard_factor = 0.1
 		categories = {
 			naval_equipment
+			industry
 		}
 	}
 	heavy_crane = {
@@ -2599,6 +2573,7 @@ technologies = {
 		refit_speed = 0.1
 		categories = {
 			naval_equipment
+			industry
 		}
 	}
 	dry_dock = {
@@ -2616,6 +2591,7 @@ technologies = {
 		repair_speed_factor = 0.1
 		categories = {
 			naval_equipment
+			industry
 		}
 	}
 	port_construction_corps = {
@@ -2639,6 +2615,7 @@ technologies = {
 		repair_speed_dockyard_factor = 0.1
 		categories = {
 			naval_equipment
+			logistics_tech
 		}
 	}
 	integrated_shipyard_complex = {
@@ -2656,6 +2633,7 @@ technologies = {
 		industrial_capacity_dockyard = 0.1
 		categories = {
 			naval_equipment
+			industry
 		}
 	}
 
@@ -2683,6 +2661,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
+			logistics_tech
 		}
 	}
 	range_over_speed = {
@@ -2708,6 +2687,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
+			logistics_tech
 		}
 	}
 	high_speed_civilian_engine = {
@@ -2735,6 +2715,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
+			logistics_tech
 		}
 	}
 	fast_combat_support_ship = {
@@ -2757,6 +2738,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
+			logistics_tech
 		}
 	}
 	armed_civilian_ship = {
@@ -2784,6 +2766,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
+			logistics_tech
 		}
 	}
 	integrated_supply_ship = {
@@ -2807,6 +2790,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			logistics_tech
 		}
 	}
 	repair_ship = {
@@ -2867,6 +2851,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			industry
 		}
 	}
 	logistic_system_redundancy = {
@@ -2893,6 +2878,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			logistics_tech
 		}
 	}
 	hospital_ship = {
@@ -2915,6 +2901,7 @@ technologies = {
 		naval_morale_factor = 0.05
 		categories = {
 			naval_equipment
+			hospital_tech
 		}
 	}
 	surgery_at_sea = {
@@ -2941,6 +2928,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
+			hospital_tech
 		}
 	}
 	medical_supply_at_sea = {
@@ -2957,6 +2945,7 @@ technologies = {
 		naval_invasion_penalty = -0.1
 		categories = {
 			naval_equipment
+			hospital_tech
 		}
 	}
 	joint_sea_hospital = {
@@ -2974,6 +2963,7 @@ technologies = {
 		experience_loss_factor = -0.1
 		categories = {
 			naval_equipment
+			hospital_tech
 		}
 	}
 

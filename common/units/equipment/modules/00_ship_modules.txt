@@ -1460,7 +1460,8 @@ equipment_modules = {
 
 	# double medium heavy battery
 	ship_medium_heavy_battery_1_double = {
-		category = ship_medium_heavy_battery
+		category = ship_medium_heavy_battery_double
+		gui_category = ship_medium_heavy_battery
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
@@ -1490,7 +1491,8 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_medium_heavy_battery_2_double = {
-		category = ship_medium_heavy_battery
+		category = ship_medium_heavy_battery_double
+		gui_category = ship_medium_heavy_battery
 		parent = ship_medium_heavy_battery_1_double
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -1523,7 +1525,8 @@ equipment_modules = {
 
 	# triple medium heavy battery
 	ship_medium_heavy_battery_1 = {
-		category = ship_medium_heavy_battery
+		category = ship_medium_heavy_battery_triple
+		gui_category = ship_medium_heavy_battery
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
@@ -1553,7 +1556,8 @@ equipment_modules = {
 		critical_parts = { damaged_heavy_guns }
 	}
 	ship_medium_heavy_battery_2 = {
-		category = ship_medium_heavy_battery
+		category = ship_medium_heavy_battery_triple
+		gui_category = ship_medium_heavy_battery
 		parent = ship_medium_heavy_battery_1
 		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
@@ -5309,6 +5313,7 @@ equipment_modules = {
     	multiply_stats = {
 	        lg_attack = -0.1
     	    max_strength = -0.05
+			naval_speed = -0.3
         	sub_detection = 0.1
 			torpedo_attack = -0.6
         	build_cost_ic = -0.2
@@ -5372,7 +5377,8 @@ equipment_modules = {
 	ship_hull_cruiser_role_c = {
 		category = c_role
 		forbid_module_categories = {
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_cruiser_heavy_armor
 			ship_missile
 			ship_missile_aa
@@ -5398,7 +5404,8 @@ equipment_modules = {
 			build_cost_ic = 0.1
 		}
 		forbid_module_categories = {
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_cruiser_heavy_armor
 			ship_missile
 			ship_missile_aa
@@ -5414,7 +5421,8 @@ equipment_modules = {
 			build_cost_ic = -0.1
 		}
 		forbid_module_categories = {
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_cruiser_heavy_armor
 			ship_missile
 			ship_missile_aa
@@ -5437,7 +5445,8 @@ equipment_modules = {
 			build_cost_ic = -0.15
 		}
 		forbid_module_categories = {
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_medium_battery
 			ship_medium_battery_double
 			ship_medium_battery_single
@@ -5541,6 +5550,19 @@ equipment_modules = {
 			naval_speed = -0.001
 		}
 		critical_parts = { damaged_light_guns }
+	}
+	ship_rocket_launcher = {
+		category = civilian_ship_weapons
+		add_stats = {
+			hg_attack = 15
+			naval_heavy_gun_hit_chance_factor = -1.0
+			reliability = -0.15
+			build_cost_ic = 250
+		}
+		multiply_stats = {
+			max_strength = -0.1
+			naval_speed = -0.05
+		}
 	}
 	civilian_ship_engine_1 = {
 		category = civilian_ship_engine
@@ -6058,7 +6080,8 @@ equipment_modules = {
 			ship_super_heavy_battery
 			ship_super_heavy_battery_triple
 			ship_super_heavy_battery_quad
-			ship_medium_heavy_battery
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
 			ship_medium_battery
 			ship_medium_battery_double
 			ship_medium_battery_single

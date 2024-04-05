@@ -181,6 +181,9 @@ country_event = {
 			VEN_start_naval_variants = yes
 			load_oob = 00_VEN_vnr_naval
 		}
+
+		# add washington treaty article xix to pacific islands
+		add_article_xix = yes
     }
 }
 

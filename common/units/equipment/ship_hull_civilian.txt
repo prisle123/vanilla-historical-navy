@@ -82,6 +82,11 @@ equipments = {
 			steel = 1
 		}
 
+        module_count_limit = {
+            module = ship_rocket_launcher
+            count < 2
+        }
+
         manpower = 600
         naval_supremacy_factor = 0.2
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers

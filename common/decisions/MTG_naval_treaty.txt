@@ -721,10 +721,20 @@ MTG_naval_treaties = {
 		}
 		complete_effect = {
 			FROM = {
-                swap_ideas = {
-                    remove_idea = MTG_naval_treaty_adherent
-                    add_idea = MTG_naval_treaty_adherent_1936
-                }
+				if = {
+					limit = { has_idea = MTG_naval_treaty_adherent }
+					swap_ideas = {
+						remove_idea = MTG_naval_treaty_adherent
+						add_idea = MTG_naval_treaty_adherent_1936
+					}
+				}
+				else = {
+					swap_ideas = {
+						remove_idea = MTG_naval_treaty_cheating
+						add_idea = MTG_naval_treaty_adherent_1936
+					}
+				}
+                
                 if = {
 					limit = {
 						OR = {
