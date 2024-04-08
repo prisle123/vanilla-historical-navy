@@ -4280,7 +4280,6 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			ship_torpedo_sub_1
 			sub_ship_engine_1
 			pressure_hull_1
 			sub_ship_periscope_0
@@ -4341,7 +4340,6 @@ technologies = {
 			vnr_ship_hull_submarine_2
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_2
 			sub_ship_engine_2
 			pressure_hull_2
 			oxygen_generator
@@ -4400,7 +4398,6 @@ technologies = {
 			vnr_ship_hull_submarine_3
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_3
 			sub_ship_engine_3
 			pressure_hull_3
 			diving_plane
@@ -4458,7 +4455,6 @@ technologies = {
 			vnr_ship_hull_submarine_4
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_4
 			sub_ship_engine_4
 			pressure_hull_4
 		}
@@ -5353,6 +5349,8 @@ technologies = {
 		
 		enable_equipment_modules = {
 			ship_missile_1
+			ship_cruise_missile_1
+			ship_cruise_missile_sub_1
 		}
 		
 		categories = {

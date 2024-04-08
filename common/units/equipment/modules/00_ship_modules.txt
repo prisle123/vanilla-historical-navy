@@ -3679,6 +3679,29 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+	ship_torpedo_5 = {
+		category = ship_torpedo
+		parent = ship_torpedo_4
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 40
+			build_cost_ic = 220
+			naval_torpedo_hit_chance_factor = 0.025
+		}
+		multiply_stats = {
+			naval_speed = -0.05	
+		}
+		dismantle_cost_ic = 75
+
+		can_convert_from = {
+			module_category = ship_torpedo
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
 	ship_torpedo_bb = {
 		category = ship_torpedo_bb
 		gui_category = ship_torpedo
@@ -3785,6 +3808,29 @@ equipment_modules = {
 
 		multiply_stats = {
 			naval_speed = -0.04			
+		}
+
+		can_convert_from = {
+			module_category = ship_torpedo_sub
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
+	ship_torpedo_sub_5 = {
+		category = ship_torpedo_sub
+		parent = ship_torpedo_sub_4
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 34
+			build_cost_ic = 180
+			naval_torpedo_hit_chance_factor = 0.025
+		}
+
+		multiply_stats = {
+			naval_speed = -0.05	
 		}
 
 		can_convert_from = {
@@ -5126,6 +5172,36 @@ equipment_modules = {
 			surface_visibility = -0.025
 		}
 		dismantle_cost_ic = 1800
+	}
+	ship_cruise_missile_1 = {
+		category = ship_missile
+
+		add_stats = {
+			build_cost_ic = 1800
+			hg_attack = 20
+			naval_heavy_gun_hit_chance_factor = -0.5
+			reliability = -0.1
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		dismantle_cost_ic = 1500
+	}
+	ship_cruise_missile_sub_1 = {
+		category = ship_sub_missile
+		gui_category = ship_missile
+
+		add_stats = {
+			build_cost_ic = 1800
+			hg_attack = 20
+			naval_heavy_gun_hit_chance_factor = -0.8
+			reliability = -0.1
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+			sub_visibility = 0.15
+		}
+		dismantle_cost_ic = 1500
 	}
 	ship_missile_aa_1 = {
 		category = ship_missile_aa

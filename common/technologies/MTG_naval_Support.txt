@@ -290,8 +290,6 @@ technologies = {
 			ship_light_battery_3_double
 		}
 
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 13 }
@@ -402,6 +400,10 @@ technologies = {
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
+		path = {
+			leads_to_tech = modern_generic_battery
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -641,6 +643,10 @@ technologies = {
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
 
+		path = {
+			leads_to_tech = modern_generic_battery
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1029,6 +1035,11 @@ technologies = {
 			custom_effect_tooltip = secondary_battery_advice_tt
 		}
 
+		path = {
+			leads_to_tech = modern_generic_battery
+			research_cost_coeff = 1
+		}
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -3 y = 21 }
@@ -1251,6 +1262,39 @@ technologies = {
 		}
 	}
 
+	modern_generic_battery = {
+		research_cost = 1
+		start_year = 1948
+
+		on_research_complete = {
+			custom_effect_tooltip = light_battery_advice_tt
+		}
+
+		enable_equipment_modules = {
+			ship_light_battery_5
+			ship_light_battery_5_double
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -3 y = 27 }
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_light_battery
+			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
 ###  ##  ###  ###  ### ###   ##      #   #  ##  ###   ##  ### ###  ###
  #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #  
  #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ## 
@@ -1278,6 +1322,7 @@ technologies = {
 			torpedo_mounting
 			ship_torpedo_fire_control
 			ship_torpedo_bb
+			ship_torpedo_sub_1
 		}
 
 		on_research_complete = {
@@ -1487,7 +1532,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_torpedo_2
-			ship_modules_tech
+			ship_torpedo_sub_2
 		}
 
 
@@ -1515,7 +1560,7 @@ technologies = {
 	}
 	advanced_ship_torpedo_launcher = {
 
-		research_cost = 1.25
+		research_cost = 1
 
 		start_year = 1940
 
@@ -1530,6 +1575,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_torpedo_3
+			ship_torpedo_sub_3
 		}
 
 
@@ -1557,18 +1603,23 @@ technologies = {
 	}
 	modern_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1944
 
 		enable_equipment_modules = {
 			ship_torpedo_4
+			ship_torpedo_sub_4
 		}
 
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
 
+		path = {
+			leads_to_tech = coldwar_ship_torpedo_launcher
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1589,6 +1640,25 @@ technologies = {
 			cat_torpedoes
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	coldwar_ship_torpedo_launcher = {
+		research_cost = 1.5
+		start_year = 1949
+
+		enable_equipment_modules = {
+			ship_torpedo_5
+			ship_torpedo_sub_5
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = torpedo_advice_tt
+		}
+
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 0 y = 27 }
 		}
 	}
 
