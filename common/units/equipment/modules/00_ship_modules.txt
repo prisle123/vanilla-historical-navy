@@ -2391,7 +2391,7 @@ equipment_modules = {
 		}
 		add_stats = {
 			surface_detection = 12
-			sub_detection = 4
+			sub_detection = 6
 			build_cost_ic = 160
 		}
 		can_convert_from = {
@@ -2414,7 +2414,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 190
 			surface_detection = 18
-			sub_detection = 6
+			sub_detection = 14
 		}
 		can_convert_from = {
 			module = ship_radar_3
@@ -2785,6 +2785,7 @@ equipment_modules = {
 
 	sub_ship_engine_5 = {
 		category = sub_ship_engine
+		parent = sub_ship_engine_4
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -4000,7 +4001,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 6
 			sub_detection = 2.5
-			sub_attack = 1.5
+			sub_attack = 2.5
 			build_cost_ic = 150
 		}
 		multiply_stats = {
@@ -4015,7 +4016,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 9
 			sub_detection = 3.5
-			sub_attack = 3.5
+			sub_attack = 5
 			build_cost_ic = 170
 		}
 		can_convert_from = {
@@ -4196,7 +4197,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			sub_detection = 5
+			sub_detection = 10
 			build_cost_ic = 40
 		}
 	}
@@ -4208,7 +4209,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		parent = ship_sonar_1
 		add_stats = {
-			sub_detection = 12
+			sub_detection = 15
 			build_cost_ic = 60
 		}
 		can_convert_from = {
@@ -4529,6 +4530,7 @@ equipment_modules = {
 	}
 	ship_armor_shbb_2 = {
 		category = ship_super_heavy_armor
+		parent = ship_armor_shbb
 		gfx = ship_armor_bb_4
 		
 		multiply_stats = {
@@ -4712,6 +4714,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.01
+			max_strength = 0.03
 			build_cost_ic = 0.08
 		}
 		can_convert_from = {
@@ -4729,6 +4732,7 @@ equipment_modules = {
 			naval_torpedo_damage_reduction_factor = 0.25
 		}
 		multiply_stats = {
+			max_strength = 0.05
 			build_cost_ic = 0.1
 		}
 		can_convert_from = {
@@ -5053,7 +5057,7 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			chromium = 1
+			steel = 1
 		}
 
 		dismantle_cost_ic = 400
@@ -5238,6 +5242,7 @@ equipment_modules = {
 	}
 	sub_ship_periscope_1 = {
 		category = sub_ship_periscope
+		parent = sub_ship_periscope_0
 		multiply_stats = {
 			sub_visibility = 0.05
 		}
@@ -5972,7 +5977,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 600
 			surface_detection = 30
-			sub_detection = 8
+			sub_detection = 25
 		}
 		can_convert_from = {
 			module_category = ship_radar
