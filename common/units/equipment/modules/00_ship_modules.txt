@@ -2785,6 +2785,7 @@ equipment_modules = {
 
 	sub_ship_engine_5 = {
 		category = sub_ship_engine
+		parent = sub_ship_engine_4
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -4529,6 +4530,7 @@ equipment_modules = {
 	}
 	ship_armor_shbb_2 = {
 		category = ship_super_heavy_armor
+		parent = ship_armor_shbb
 		gfx = ship_armor_bb_4
 		
 		multiply_stats = {
@@ -4712,6 +4714,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.01
+			max_strength = 0.03
 			build_cost_ic = 0.08
 		}
 		can_convert_from = {
@@ -4729,6 +4732,7 @@ equipment_modules = {
 			naval_torpedo_damage_reduction_factor = 0.25
 		}
 		multiply_stats = {
+			max_strength = 0.05
 			build_cost_ic = 0.1
 		}
 		can_convert_from = {
@@ -5053,7 +5057,7 @@ equipment_modules = {
 		}
 
 		build_cost_resources = {
-			chromium = 1
+			steel = 1
 		}
 
 		dismantle_cost_ic = 400
@@ -5238,6 +5242,7 @@ equipment_modules = {
 	}
 	sub_ship_periscope_1 = {
 		category = sub_ship_periscope
+		parent = sub_ship_periscope_0
 		multiply_stats = {
 			sub_visibility = 0.05
 		}
