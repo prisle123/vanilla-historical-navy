@@ -1314,6 +1314,9 @@ technologies = {
 		enable_equipment_modules = {
 			full_missile_upgrade
 		}
+		dependencies = {
+			ship_to_ship_missile = 1
+		}
 
 		research_cost = 1
 		start_year = 1951
@@ -3286,9 +3289,8 @@ technologies = {
 
 	memory_expansion = {
 		research_cost = 1.5
-		naval_light_gun_hit_chance_factor = 0.05
-		naval_heavy_gun_hit_chance_factor = 0.05
-		naval_torpedo_hit_chance_factor = 0.05
+		naval_hit_chance = 0.05
+		naval_critical_score_chance_factor = 0.05
 
 		start_year = 1950
 
@@ -4518,7 +4520,7 @@ technologies = {
 			position = { x = -1 y = 25 }
 		}
 		path = {
-			leads_to_tech = wire_guided_torpedo
+			leads_to_tech = missile_submarine
 			research_cost_coeff = 1
 		}
 		path = {
@@ -5022,12 +5024,14 @@ technologies = {
 		}
 	}
 
-	wire_guided_torpedo = {
-		research_cost = 0.75
+	missile_submarine = {
+		research_cost = 1.25
 		enable_equipment_modules = {
-			sub_wire_guided_torpedo
+			ship_cruise_missile_sub_1
 		}
-		naval_torpedo_screen_penetration_factor = 0.1
+		dependencies = {
+			ship_to_ship_missile = 1
+		}
 
 		start_year = 1951
 
@@ -5350,7 +5354,6 @@ technologies = {
 		enable_equipment_modules = {
 			ship_missile_1
 			ship_cruise_missile_1
-			ship_cruise_missile_sub_1
 		}
 		
 		categories = {

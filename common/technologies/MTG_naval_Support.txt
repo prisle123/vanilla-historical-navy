@@ -401,7 +401,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = modern_generic_battery
+			leads_to_tech = unmanned_gun_turrets
 			research_cost_coeff = 1
 		}
 
@@ -644,7 +644,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = modern_generic_battery
+			leads_to_tech = unmanned_gun_turrets
 			research_cost_coeff = 1
 		}
 
@@ -1036,7 +1036,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = modern_generic_battery
+			leads_to_tech = unmanned_gun_turrets
 			research_cost_coeff = 1
 		}
 
@@ -1262,6 +1262,46 @@ technologies = {
 		}
 	}
 
+	unmanned_gun_turrets = {
+		research_cost = 1
+		start_year = 1947
+
+		heavy_cruiser = {
+			naval_light_gun_hit_chance_factor = 0.05
+		}
+		light_cruiser = {
+			naval_light_gun_hit_chance_factor = 0.05
+		}
+		destroyer = {
+			naval_light_gun_hit_chance_factor = 0.05
+		}
+
+		dependencies = {
+			advanced_fire_control_system = 1
+			radio = 1
+		}
+
+		path = {
+			leads_to_tech = modern_generic_battery
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -3 y = 21 }
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_light_battery
+			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
 	modern_generic_battery = {
 		research_cost = 1
 		start_year = 1949
@@ -1364,7 +1404,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1
+		research_cost = 0.8
 
 		start_year = 1936
 
@@ -1432,24 +1472,28 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.25
+		research_cost = 1
 
 		start_year = 1942
 		destroyer = {
-			naval_torpedo_hit_chance_factor = 0.1
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		submarine = {
-			naval_torpedo_hit_chance_factor = 0.1
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		light_cruiser = {
-			naval_torpedo_hit_chance_factor = 0.1
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		heavy_cruiser = {
-			naval_torpedo_hit_chance_factor = 0.1
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 16 }
+		}
+		path = {
+			leads_to_tech = wake_homing_torpedo
+			research_cost_coeff = 1
 		}
 
 		ai_will_do = {
@@ -1474,6 +1518,98 @@ technologies = {
 			cat_torpedoes
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	wake_homing_torpedo = {
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
+		research_cost = 1
+
+		start_year = 1944
+		destroyer = {
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		submarine = {
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		light_cruiser = {
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		heavy_cruiser = {
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 19 }
+		}
+		path = {
+			leads_to_tech = wire_guided_torpedo
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = USA
+					tag = GER
+				}
+				factor = 5
+			}
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	wire_guided_torpedo = {
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
+		research_cost = 1.25
+		enable_equipment_modules = {
+			sub_wire_guided_torpedo
+		}
+		naval_torpedo_screen_penetration_factor = 0.1
+
+		start_year = 1951
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 25 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = USA
+					tag = GER
+				}
+				factor = 5
+			}
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+		}
+
+		categories = {
+			ss_tech
+			mio_cat_tech_all_submarine_and_modules
 		}
 	}
 
