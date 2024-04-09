@@ -2022,8 +2022,8 @@ we_need_convoys_majors2 = {
 			tag = SOV
 		}
 	}
-	enable = { stockpile_ratio = { archetype = convoy ratio < 150 } }
-	abort = { stockpile_ratio = { archetype = convoy ratio > 250 } }
+	enable = { stockpile_ratio = { archetype = convoy ratio < 125 } }
+	abort = { stockpile_ratio = { archetype = convoy ratio > 500 } }
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2044,7 +2044,7 @@ we_need_convoys_majors3 = {
 			tag = SOV
 		}
 	}
-	enable = { stockpile_ratio = { archetype = convoy ratio > 250 } }
+	enable = { stockpile_ratio = { archetype = convoy ratio > 500 } }
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
@@ -2134,7 +2134,7 @@ we_dont_need_convoys_2 = {
 			tag = SOV
 		}
 	}
-	enable = { stockpile_ratio = { archetype = convoy ratio > 500 } }
+	enable = { stockpile_ratio = { archetype = convoy ratio > 1000 } }
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
