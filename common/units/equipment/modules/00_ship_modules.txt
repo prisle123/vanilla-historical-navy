@@ -99,29 +99,6 @@ equipment_modules = {
 		critical_parts = { damaged_light_guns }
 	}
 	
-	ship_light_battery_5 = {
-		category = ship_light_battery
-		gui_category = ship_light_battery_all
-		parent = ship_light_battery_4
-		sfx = sfx_ui_sd_module_turret
-		
-		add_stats = {
-			lg_attack = 4
-			anti_air_attack = 1.5
-			naval_light_gun_hit_chance_factor = 0.01
-			build_cost_ic = 100
-		}
-		multiply_stats = {
-			naval_speed = -0.015
-		}
-		add_average_stats = {
-			lg_armor_piercing = 14
-		}
-		dismantle_cost_ic = 20
-		
-		critical_parts = { damaged_light_guns }
-	}
-	
 	ship_light_battery_1_double = {
 		abbreviation = "saad"
 		category = ship_light_battery_double
@@ -207,29 +184,6 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 16
 
-		critical_parts = { damaged_light_guns }
-	}
-	
-	ship_light_battery_5_double = {
-		category = ship_light_battery_double
-		gui_category = ship_light_battery_all
-		parent = ship_light_battery_4_double
-		sfx = sfx_ui_sd_module_turret
-		
-		add_stats = {
-			lg_attack = 6
-			anti_air_attack = 1.75
-			naval_light_gun_hit_chance_factor = 0.01
-			build_cost_ic = 140
-		}
-		multiply_stats = {
-			naval_speed = -0.02
-		}
-		add_average_stats = {
-			lg_armor_piercing = 14
-		}
-		dismantle_cost_ic = 28
-		
 		critical_parts = { damaged_light_guns }
 	}
 
@@ -327,6 +281,29 @@ equipment_modules = {
 
 		critical_parts = { damaged_light_guns }
 	}
+
+	dp_light_battery_5 = {
+		category = dp_light_battery
+		gui_category = dp_light_battery_all
+		parent = dp_light_battery_4
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 6
+			anti_air_attack = 1.75
+			naval_light_gun_hit_chance_factor = 0.01
+			build_cost_ic = 140
+		}
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+		add_average_stats = {
+			lg_armor_piercing = 14
+		}
+		dismantle_cost_ic = 28
+		
+		critical_parts = { damaged_light_guns }
+	}
 	
 	dp_light_battery_1_single = {
 		category = dp_light_battery_single
@@ -416,6 +393,29 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 20
 
+		critical_parts = { damaged_light_guns }
+	}
+
+	dp_light_battery_5_single = {
+		category = dp_light_battery_single
+		gui_category = dp_light_battery_all
+		parent = dp_light_battery_4_single
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 4
+			anti_air_attack = 1.5
+			naval_light_gun_hit_chance_factor = 0.01
+			build_cost_ic = 100
+		}
+		multiply_stats = {
+			naval_speed = -0.015
+		}
+		add_average_stats = {
+			lg_armor_piercing = 14
+		}
+		dismantle_cost_ic = 20
+		
 		critical_parts = { damaged_light_guns }
 	}
 
