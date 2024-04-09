@@ -1253,6 +1253,10 @@ technologies = {
 			position = { x = 3 y = 15 }
 		}
 
+		ai_will_do = {
+			factor = 1
+		}
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1291,6 +1295,14 @@ technologies = {
 			position = { x = -3 y = 21 }
 		}
 
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_tech = modern_ship_hull_light
+				factor = 3
+			}
+		}
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1322,6 +1334,10 @@ technologies = {
 
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				has_tech = modern_ship_hull_light
+				factor = 3
+			}
 		}
 
 		categories = {
@@ -1527,22 +1543,22 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1
 
-		start_year = 1944
+		start_year = 1945
 		destroyer = {
-			naval_torpedo_hit_chance_factor = 0.05
+			naval_torpedo_hit_chance_factor = 0.1
 		}
 		submarine = {
-			naval_torpedo_hit_chance_factor = 0.05
+			naval_torpedo_hit_chance_factor = 0.1
 		}
 		light_cruiser = {
-			naval_torpedo_hit_chance_factor = 0.05
+			naval_torpedo_hit_chance_factor = 0.1
 		}
 		heavy_cruiser = {
-			naval_torpedo_hit_chance_factor = 0.05
+			naval_torpedo_hit_chance_factor = 0.1
 		}
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 2 y = 19 }
+			position = { x = 2 y = 20 }
 		}
 		path = {
 			leads_to_tech = wire_guided_torpedo
@@ -1608,7 +1624,10 @@ technologies = {
 		}
 
 		categories = {
+			naval_equipment
 			ss_tech
+			ship_modules_tech
+			cat_torpedoes
 			mio_cat_tech_all_submarine_and_modules
 		}
 	}
