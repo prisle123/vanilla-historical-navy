@@ -493,6 +493,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_light_battery_4_double"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_battery4.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_5_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/double_light_battery5.png"
+	}
 	
 	
 	# single light battery
@@ -511,6 +515,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_light_battery_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_battery4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_light_battery_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/single_light_battery5.png"
 	}
 	
 	# dp light battery
@@ -603,6 +611,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_torpedo_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_sub_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo_sub_5.png"
 	}
 	
 	# anti air
@@ -876,6 +892,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_missile_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_missile.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_cruise_missile_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_cruise_missile_1.png"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_missile_aa_1"

@@ -362,7 +362,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 18 }
+			position = { x = -6 y = 16 }
 		}
 
 		ai_will_do = {
@@ -407,7 +407,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 21 }
+			position = { x = -6 y = 19 }
 		}
 
 		ai_will_do = {
@@ -601,7 +601,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 18 }
+			position = { x = 0 y = 16 }
 		}
 
 		ai_will_do = {
@@ -650,7 +650,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 21 }
+			position = { x = 0 y = 19 }
 		}
 
 		ai_will_do = {
@@ -788,7 +788,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 6 y = 21 }
+			position = { x = 6 y = 19 }
 		}
 
 		ai_will_do = {
@@ -909,7 +909,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 6 y = 18 }
+			position = { x = 6 y = 16 }
 		}
 
 		ai_will_do = {
@@ -996,7 +996,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 17 }
+			position = { x = -3 y = 15 }
 		}
 
 		ai_will_do = {
@@ -1042,7 +1042,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 21 }
+			position = { x = -3 y = 19 }
 		}
 
 		ai_will_do = {
@@ -1081,7 +1081,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 3 y = 21 }
+			position = { x = 3 y = 19 }
 		}
 
 		ai_will_do = {
@@ -1197,7 +1197,7 @@ technologies = {
 	improved_super_heavy_battery = {
 		research_cost = 1.5
 
-		start_year = 1940
+		start_year = 1941
 
 		enable_equipment_modules = {
 			ship_super_heavy_battery_2
@@ -1250,7 +1250,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 3 y = 17 }
+			position = { x = 3 y = 15 }
 		}
 
 		categories = {
@@ -1264,7 +1264,7 @@ technologies = {
 
 	modern_generic_battery = {
 		research_cost = 1
-		start_year = 1948
+		start_year = 1949
 
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
@@ -1277,7 +1277,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 27 }
+			position = { x = -3 y = 23 }
 		}
 
 		ai_will_do = {
@@ -1539,7 +1539,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 9 }
+			position = { x = 0 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1623,7 +1623,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 21 }
+			position = { x = 0 y = 19 }
 		}
 
 		ai_will_do = {
@@ -1658,7 +1658,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 27 }
+			position = { x = 0 y = 23 }
 		}
 	}
 

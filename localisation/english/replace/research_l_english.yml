@@ -319,7 +319,7 @@
  submarine_picket: "Submarine Picket"
  submarine_picket_desc: "Organizing a group of submarines near enemy ports or other key locations will allow us to spy on enemy fleet's movements without it even noticing."
  submarine_picket_bs: "Submarine Picket"
- submarine_picket_desc_bs: "Organizing a group of submarines near enemy ports or other key locations will allow us to spy on enemy fleet's movements without it even noticing."
+ submarine_picket_bs_desc: "Organizing a group of submarines near enemy ports or other key locations will allow us to spy on enemy fleet's movements without it even noticing."
  coastal_operations: "Coastal Operations"
  coastal_operations_desc: "Although submarines get detected more easily in shallow seas, a team of such vessels will still pose enough threat to naval and amphibious operations near our coast.\n\n"
  ambush_tactics: "Ambush Tactics"
@@ -351,3 +351,9 @@
  vnr_destroyer_cost_1: "Destroyer Mass Production"
  vnr_carrier_cost_1: "Carrier Mass Production"
  vnr_submarine_cost_1: "Submarine Mass Production"
+ 
+ # support tech extension
+ modern_generic_battery: "Naval Automatic Gun System"
+ modern_generic_battery_desc: "The \"SjöAutomatKanon\" (SAK), or Naval Automatic Gun System, was an automatic dual-purpose weapon system developed by Swedish military immediately after the Second World War. The revolution of jet technology saw great improvement in the speed of aircrafts in the late-war period when a jet plane can fly at speeds close to 1,000 kilometres per hour, rendering anti-air guns ineffective against it. With fire-control computers and rapid-fire guns, SAK can fire enough rounds in a short period to ensure a hit."
+ coldwar_ship_torpedo_launcher: "Cold War Torpedo Launcher"
+ coldwar_ship_torpedo_launcher_desc: "Because of improved submarine strength and speed, post-WWII torpedoes were given improved warheads and better motors.\n\nMounting this module on §YLight Ships§! or §YCruisers§! allows them to do significant damage to enemy §YCapital Ships§!."
