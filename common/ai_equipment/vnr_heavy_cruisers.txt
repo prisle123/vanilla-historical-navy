@@ -194,11 +194,11 @@ naval_cruiser_heavy = {
 				fixed_ship_extra_secondaries_slot = economical_nuclear_reactor_cruiser
 				fixed_ship_extra_missile_slot = full_missile_upgrade
 				front_1_custom_slot = dp_light_battery
-				front_2_custom_slot = ship_missile
+				front_2_custom_slot = ship_missile_1
 				mid_1_custom_slot = ship_missile_aa
 				mid_2_custom_slot = ship_torpedo
-				mid_3_custom_slot = ship_missile
-				rear_1_custom_slot = ship_missile
+				mid_3_custom_slot = ship_missile_1
+				rear_1_custom_slot = ship_missile_1
 				rear_2_custom_slot = ship_missile_aa
 			}
 		}
@@ -232,8 +232,8 @@ naval_cruiser_heavy = {
 				fixed_ship_secondaries_slot = empty
 				fixed_ship_extra_secondaries_slot = ship_radar_jammer
 				front_2_custom_slot = ship_missile_aa
-				mid_2_custom_slot = ship_missile
-				mid_3_custom_slot = ship_missile
+				mid_2_custom_slot = ship_missile_1
+				mid_3_custom_slot = ship_missile_1
 			}
 		}
 	}
@@ -251,7 +251,7 @@ naval_cruiser_heavy = {
 
 			type = vnr_ship_hull_cruiser_6
 			modules = {
-				fixed_ship_battery_slot = ship_missile
+				fixed_ship_battery_slot = ship_missile_1
 				fixed_ship_anti_air_slot = ship_missile_aa
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_engine_slot = cruiser_ship_engine
@@ -261,10 +261,10 @@ naval_cruiser_heavy = {
 				fixed_ship_secondaries_slot = empty
 				fixed_ship_extra_secondaries_slot = ship_radar_jammer
 				fixed_ship_extra_missile_slot = ship_decoy_launcher
-				mid_1_custom_slot = ship_missile
-				mid_2_custom_slot = ship_missile
-				mid_3_custom_slot = ship_missile
-				rear_1_custom_slot = ship_missile
+				mid_1_custom_slot = ship_missile_1
+				mid_2_custom_slot = ship_missile_1
+				mid_3_custom_slot = ship_missile_1
+				rear_1_custom_slot = ship_missile_1
 				rear_2_custom_slot = empty
 			}
 		}
