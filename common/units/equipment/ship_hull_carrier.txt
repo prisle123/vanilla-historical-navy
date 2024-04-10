@@ -131,7 +131,7 @@ equipments = {
 			chromium = 1
 		}
 
-		manpower = 4500
+		manpower = 2500
 
 		naval_supremacy_factor = 3.2
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -245,7 +245,7 @@ equipments = {
 			steel = 3
 			chromium = 1
 		}
-		manpower = 5000
+		manpower = 3000
 	}
 	
 	vnr_ship_hull_carrier_1 = {
@@ -396,7 +396,7 @@ equipments = {
 			steel = 3
 			chromium = 1
 		}
-		manpower = 5000
+		manpower = 2800
 	}
 
 	vnr_ship_hull_carrier_3 = {
@@ -492,7 +492,7 @@ equipments = {
 			steel = 3
 			chromium = 2
 		}
-		manpower = 5500
+		manpower = 3200
 	}
 
 	vnr_ship_hull_escort_carrier = {
@@ -550,7 +550,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
-		manpower = 600
+		manpower = 400
 	}
 
 	vnr_ship_hull_super_carrier = {
@@ -649,7 +649,7 @@ equipments = {
 			steel = 4
 			chromium = 2
 		}
-		manpower = 5500
+		manpower = 4500
 	}
 }
 
