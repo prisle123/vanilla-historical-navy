@@ -3871,6 +3871,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 34
+			sub_attack = 5
 			build_cost_ic = 180
 			naval_torpedo_hit_chance_factor = 0.025
 		}
@@ -5225,7 +5226,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 1800
 			hg_attack = 20
-			naval_heavy_gun_hit_chance_factor = -0.5
+			naval_heavy_gun_hit_chance_factor = -0.8
 			reliability = -0.1
 		}
 		multiply_stats = {
@@ -5241,7 +5242,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 1800
 			hg_attack = 20
-			naval_heavy_gun_hit_chance_factor = -0.8
+			naval_heavy_gun_hit_chance_factor = -0.9
 			reliability = -0.1
 		}
 		multiply_stats = {

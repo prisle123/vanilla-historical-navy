@@ -1420,7 +1420,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 0.8
+		research_cost = 0.75
 
 		start_year = 1936
 
@@ -1435,16 +1435,16 @@ technologies = {
 		}
 
 		destroyer = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 		submarine = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 		light_cruiser = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 		heavy_cruiser = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 
 
@@ -1509,6 +1509,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = wire_guided_torpedo
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = proximity_detonator
 			research_cost_coeff = 1
 		}
 
@@ -1670,6 +1674,66 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
+
+	proximity_detonator = {
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1943
+		dependencies = {
+			radio_detection = 1
+		}
+
+		destroyer = {
+			torpedo_attack = 0.1
+		}
+		submarine = {
+			torpedo_attack = 0.1
+		}
+		light_cruiser = {
+			torpedo_attack = 0.1
+		}
+		heavy_cruiser = {
+			torpedo_attack = 0.1
+		}
+
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 3 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = USA
+					tag = GER
+				}
+				factor = 5
+			}
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				tag = JAP #Japan wants torpedoes EXTRA HARD
+				factor = 2
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
 	improved_ship_torpedo_launcher = {
 
 		research_cost = 1
