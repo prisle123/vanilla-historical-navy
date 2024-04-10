@@ -401,7 +401,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = unmanned_gun_turrets
+			leads_to_tech = unmanned_gun_turret
 			research_cost_coeff = 1
 		}
 
@@ -644,7 +644,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = unmanned_gun_turrets
+			leads_to_tech = unmanned_gun_turret
 			research_cost_coeff = 1
 		}
 
@@ -1036,7 +1036,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = unmanned_gun_turrets
+			leads_to_tech = unmanned_gun_turret
 			research_cost_coeff = 1
 		}
 
@@ -1266,7 +1266,7 @@ technologies = {
 		}
 	}
 
-	unmanned_gun_turrets = {
+	unmanned_gun_turret = {
 		research_cost = 1
 		start_year = 1947
 
@@ -1554,7 +1554,7 @@ technologies = {
 			position = { x = 2 y = 20 }
 		}
 		path = {
-			leads_to_tech = wire_guided_torpedo
+			leads_to_tech = wake_homing_torpedo
 			research_cost_coeff = 1
 		}
 
