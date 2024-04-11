@@ -655,4 +655,8 @@ spriteTypes = {
 		name = "GFX_unmanned_gun_turret_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/unmanned_gun_turret.png"
 	}
+	spriteType = {
+		name = "GFX_proximity_detonator_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/proximity_detonator.png"
+	}
 }
