@@ -200,7 +200,7 @@ equipments = {
 			steel = 2
 		}
 
-		manpower = 600
+		manpower = 800
 
 		naval_supremacy_factor = 2
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -527,7 +527,7 @@ equipments = {
 
 		module_slots = inherit
 		naval_speed = 29
-		manpower = 800
+		manpower = 1000
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 		}
@@ -570,7 +570,7 @@ equipments = {
 		reliability = 0.90
 		max_strength = 165
 		naval_range = 4000
-		manpower = 1200
+		manpower = 1400
 		resources = {
 			steel = 3
 		}
@@ -591,7 +591,7 @@ equipments = {
 		parent = vnr_ship_hull_cruiser_4
 		naval_speed = 30
 		reliability = 0.95
-		manpower = 1400
+		manpower = 1600
 		build_cost_ic = 2000
 		naval_range = 4500
 		max_strength = 180
@@ -1067,6 +1067,6 @@ equipments = {
 			steel = 3
 		}
 
-		manpower = 600
+		manpower = 800
 	}
 }
