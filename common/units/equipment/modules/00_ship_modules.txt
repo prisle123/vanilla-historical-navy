@@ -2647,13 +2647,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 5
-			build_cost_ic = 160
+			build_cost_ic = 200
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.20
-			naval_range = 0.1
+			naval_range = 0.3
 		}
 		
 		can_convert_from = {
@@ -2671,13 +2671,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 7
-			build_cost_ic = 200
+			build_cost_ic = 250
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.25
-			naval_range = 0.15
+			naval_range = 0.4
 		}
 		
 		can_convert_from = {
@@ -2699,13 +2699,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 9
-			build_cost_ic = 230
+			build_cost_ic = 300
 			reliability = -0.05
 		}
 
 		multiply_stats = {
 			naval_speed = 0.3
-			naval_range = 0.2
+			naval_range = 0.5
 		}
 		
 		can_convert_from = {
@@ -2997,13 +2997,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 6
 			fuel_consumption = 12
-			build_cost_ic = 540
+			build_cost_ic = 600
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.25
-			naval_range = 0.1
+			naval_range = 0.4
 		}
 		
 		can_convert_from = {
@@ -3021,13 +3021,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 7
 			fuel_consumption = 16
-			build_cost_ic = 600
+			build_cost_ic = 660
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.3
-			naval_range = 0.15
+			naval_range = 0.5
 		}
 		
 		can_convert_from = {
@@ -3049,13 +3049,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 7
 			fuel_consumption = 20
-			build_cost_ic = 720
+			build_cost_ic = 750
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.35
-			naval_range = 0.2
+			naval_range = 0.6
 		}
 		
 		can_convert_from = {
@@ -3225,13 +3225,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 10
 			fuel_consumption = 20
-			build_cost_ic = 1800
+			build_cost_ic = 2200
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.35
-			naval_range = 0.1
+			naval_range = 0.3
 		}
 		
 		can_convert_from = {
@@ -3253,13 +3253,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 11
 			fuel_consumption = 25
-			build_cost_ic = 2200
+			build_cost_ic = 2600
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.4
-			naval_range = 0.15
+			naval_range = 0.4
 		}
 		
 		can_convert_from = {
@@ -3284,13 +3284,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 12
 			fuel_consumption = 30
-			build_cost_ic = 3200
+			build_cost_ic = 3500
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.5
-			naval_range = 0.2
+			naval_range = 0.5
 		}
 		
 		can_convert_from = {
@@ -3320,7 +3320,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.65
-			naval_range = -0.1
+			naval_range = -0.2
 		}
 		
 		can_convert_from = {
@@ -3535,13 +3535,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 12
-			build_cost_ic = 2200
+			build_cost_ic = 2500
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.35
-			naval_range = 0.1
+			naval_range = 0.3
 		}
 		
 		can_convert_from = {
@@ -3563,13 +3563,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 16
-			build_cost_ic = 2700
+			build_cost_ic = 3000
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.45
-			naval_range = 0.15
+			naval_range = 0.4
 		}
 		
 		can_convert_from = {
@@ -3594,13 +3594,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 20
-			build_cost_ic = 3200
+			build_cost_ic = 3500
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.5
-			naval_range = 0.2
+			naval_range = 0.5
 		}
 		
 		can_convert_from = {
@@ -5427,6 +5427,7 @@ equipment_modules = {
         	lg_attack = 0.1
         	lg_armor_piercing = 0.1
         	max_strength = 0.1
+			naval_range = 0.2
         	build_cost_ic = 0.1
     	}
 		forbid_module_categories = {
@@ -5484,6 +5485,7 @@ equipment_modules = {
     	multiply_stats = {
         	max_strength = 0.2
         	naval_speed = -0.1
+			naval_range = 0.4
         	build_cost_ic = 0.25
     	}
 		forbid_module_categories = {
