@@ -4561,7 +4561,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = snorkel_advice_tt
 		}
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1942
 
@@ -4599,7 +4599,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1945
 
@@ -4721,7 +4721,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1939
 
@@ -4753,7 +4753,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1939
 
@@ -4872,7 +4872,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 2
+		research_cost = 1.5
 
 		start_year = 1944
 
@@ -5075,7 +5075,7 @@ technologies = {
 		}
 	}
 	hydrocooling_battery = {
-		research_cost = 1
+		research_cost = 0.75
 		submarine = {
 			naval_speed = 0.1
 		}
@@ -5098,7 +5098,7 @@ technologies = {
 		}
 	}
 	sonar_telephone = {
-		research_cost = 1
+		research_cost = 0.6
 		submarine = {
 			convoy_raiding_coordination = 0.1
 		}
@@ -5131,7 +5131,7 @@ technologies = {
 			ship_cruiser_camo_1
 		}
 
-		research_cost = 1
+		research_cost = 0.6
 
 		start_year = 1932
 
@@ -5223,7 +5223,7 @@ technologies = {
 		enable_equipment_modules = {
 			crewed_torpedo
 		}
-		research_cost = 0.75
+		research_cost = 0.6
 		start_year = 1930
 
 		ai_will_do = {
