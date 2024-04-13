@@ -1488,7 +1488,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1942
 		destroyer = {
@@ -1545,7 +1545,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.25
+		research_cost = 1
 		enable_equipment_modules = {
 			sub_wire_guided_torpedo
 		}
@@ -1591,7 +1591,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1
+		research_cost = 1.25
 
 		start_year = 1951
 		destroyer = {
@@ -1641,7 +1641,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 0.75
 
 		start_year = 1940
 
