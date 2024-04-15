@@ -6220,3 +6220,19 @@ BEL_start_naval_variants = {
         obsolete = yes
     }
 }
+
+LAT_start_naval_variants = {
+    create_equipment_variant = {
+        name = "Ronis Class"
+        allow_without_tech = yes
+        role_icon_index = 49
+        type = vnr_ship_hull_submarine_2
+        name_group = LAT_SS_HISTORICAL
+        modules = {
+            fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+            fixed_ship_armor_slot = pressure_hull_1
+			rear_1_custom_slot = empty
+        }
+    }
+}
