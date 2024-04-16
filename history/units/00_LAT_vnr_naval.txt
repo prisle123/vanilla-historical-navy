@@ -3,10 +3,10 @@ units = {
     ##### NAVAL UNITS #####
     fleet = {
         name = "Latvijas Jūras spēki"
-        naval_base = 1
+        naval_base = 9340
         task_force = {
             name = "Latvijas Jūras spēki"
-            location = 1
+            location = 9340
             ship = { name = "Ronis" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = LAT version_name = "Ronis Class" } } }
             ship = { name = "Spidola" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = LAT version_name = "Ronis Class" } } }
         }
