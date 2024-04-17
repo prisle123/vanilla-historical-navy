@@ -110,7 +110,7 @@ equipments = {
 
 
 		surface_detection = 26
-		sub_detection = 7.5
+		sub_detection = 5
 		surface_visibility = 23
 		naval_speed = 26
 		reliability = 0.70
@@ -131,7 +131,7 @@ equipments = {
 			chromium = 1
 		}
 
-		manpower = 4500
+		manpower = 3000
 
 		naval_supremacy_factor = 3.2
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -181,7 +181,7 @@ equipments = {
 		resources = {
 			steel = 2
 		}
-		manpower = 1000
+		manpower = 1300
 	}
 	
 	vnr_ship_hull_carrier_conversion_bb = {
@@ -245,7 +245,7 @@ equipments = {
 			steel = 3
 			chromium = 1
 		}
-		manpower = 5000
+		manpower = 3500
 	}
 	
 	vnr_ship_hull_carrier_1 = {
@@ -396,7 +396,7 @@ equipments = {
 			steel = 3
 			chromium = 1
 		}
-		manpower = 5000
+		manpower = 3100
 	}
 
 	vnr_ship_hull_carrier_3 = {
@@ -492,7 +492,7 @@ equipments = {
 			steel = 3
 			chromium = 2
 		}
-		manpower = 5500
+		manpower = 3500
 	}
 
 	vnr_ship_hull_escort_carrier = {
@@ -550,7 +550,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
-		manpower = 600
+		manpower = 700
 	}
 
 	vnr_ship_hull_super_carrier = {
@@ -649,7 +649,7 @@ equipments = {
 			steel = 4
 			chromium = 2
 		}
-		manpower = 5500
+		manpower = 5000
 	}
 }
 

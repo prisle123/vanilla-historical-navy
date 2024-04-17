@@ -200,7 +200,7 @@ equipments = {
 			steel = 2
 		}
 
-		manpower = 600
+		manpower = 800
 
 		naval_supremacy_factor = 2
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -217,7 +217,7 @@ equipments = {
 		priority = 2000
 		can_convert_from = { vnr_ship_hull_cruiser_coastal_defense_ship }
 
-		manpower = 1200
+		manpower = 800
 		build_cost_ic = 1800
 		resources = {
 			steel = 2
@@ -527,6 +527,7 @@ equipments = {
 
 		module_slots = inherit
 		naval_speed = 29
+		manpower = 1000
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 		}
@@ -540,7 +541,7 @@ equipments = {
 		priority = 1900
 		can_convert_from = { vnr_ship_hull_cruiser_3 }
 		parent = vnr_ship_hull_cruiser_2
-		manpower = 800
+		manpower = 1200
 		naval_speed = 30
 		reliability = 0.85
 		build_cost_ic = 1700
@@ -569,7 +570,7 @@ equipments = {
 		reliability = 0.90
 		max_strength = 165
 		naval_range = 4000
-		manpower = 1200
+		manpower = 1400
 		resources = {
 			steel = 3
 		}
@@ -590,7 +591,7 @@ equipments = {
 		parent = vnr_ship_hull_cruiser_4
 		naval_speed = 30
 		reliability = 0.95
-		manpower = 1400
+		manpower = 1600
 		build_cost_ic = 2000
 		naval_range = 4500
 		max_strength = 180
@@ -699,7 +700,7 @@ equipments = {
 		parent = vnr_ship_hull_cruiser_5
 		naval_speed = 32
 		reliability = 1.5
-		manpower = 2500
+		manpower = 1800
 		build_cost_ic = 2500
 		naval_range = 5000
 		max_strength = 200
@@ -852,11 +853,11 @@ equipments = {
 		can_convert_from = { vnr_ship_hull_cruiser_panzerschiff }
 		parent = vnr_ship_hull_cruiser_6
 
-		manpower = 1800
+		manpower = 1000
 		build_cost_ic = 3500
 		naval_speed = 25
 		surface_visibility = 21
-		naval_range = 7500
+		naval_range = 5000
 		max_strength = 220
 		reliability = 0.7
 		armor_value = 10
@@ -1051,7 +1052,7 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.6
 
-		naval_range = 4000
+		naval_range = 3000
 
 		max_strength = 140
 
@@ -1066,6 +1067,6 @@ equipments = {
 			steel = 3
 		}
 
-		manpower = 600
+		manpower = 800
 	}
 }

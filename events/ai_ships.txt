@@ -545,6 +545,10 @@ country_event = {
 					rescue_submarine = 1
 					hydrocooling_battery = 1
 					sonar_telephone = 1
+					wake_homing_torpedo = 1
+					unmanned_gun_turret = 1
+					modern_generic_battery = 1
+					missile_submarine = 1
 				}
 				ai_get_navy_experience = yes
 			}

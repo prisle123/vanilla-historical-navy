@@ -290,8 +290,6 @@ technologies = {
 			ship_light_battery_3_double
 		}
 
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 13 }
@@ -364,7 +362,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 18 }
+			position = { x = -6 y = 16 }
 		}
 
 		ai_will_do = {
@@ -402,10 +400,14 @@ technologies = {
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
+		path = {
+			leads_to_tech = unmanned_gun_turret
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -6 y = 21 }
+			position = { x = -6 y = 19 }
 		}
 
 		ai_will_do = {
@@ -599,7 +601,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 18 }
+			position = { x = 0 y = 16 }
 		}
 
 		ai_will_do = {
@@ -641,10 +643,14 @@ technologies = {
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
 
+		path = {
+			leads_to_tech = unmanned_gun_turret
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 21 }
+			position = { x = 0 y = 19 }
 		}
 
 		ai_will_do = {
@@ -782,7 +788,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 6 y = 21 }
+			position = { x = 6 y = 19 }
 		}
 
 		ai_will_do = {
@@ -903,7 +909,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 6 y = 18 }
+			position = { x = 6 y = 16 }
 		}
 
 		ai_will_do = {
@@ -990,7 +996,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 17 }
+			position = { x = -3 y = 15 }
 		}
 
 		ai_will_do = {
@@ -1029,9 +1035,14 @@ technologies = {
 			custom_effect_tooltip = secondary_battery_advice_tt
 		}
 
+		path = {
+			leads_to_tech = unmanned_gun_turret
+			research_cost_coeff = 1
+		}
+
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -3 y = 21 }
+			position = { x = -3 y = 19 }
 		}
 
 		ai_will_do = {
@@ -1070,7 +1081,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 3 y = 21 }
+			position = { x = 3 y = 19 }
 		}
 
 		ai_will_do = {
@@ -1186,7 +1197,7 @@ technologies = {
 	improved_super_heavy_battery = {
 		research_cost = 1.5
 
-		start_year = 1940
+		start_year = 1941
 
 		enable_equipment_modules = {
 			ship_super_heavy_battery_2
@@ -1239,7 +1250,11 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 3 y = 17 }
+			position = { x = 3 y = 15 }
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 
 		categories = {
@@ -1248,6 +1263,91 @@ technologies = {
 			cat_ship_medium_battery
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	unmanned_gun_turret = {
+		research_cost = 1
+		start_year = 1947
+
+		heavy_cruiser = {
+			naval_light_gun_hit_chance_factor = 0.05
+		}
+		light_cruiser = {
+			naval_light_gun_hit_chance_factor = 0.05
+		}
+		destroyer = {
+			naval_light_gun_hit_chance_factor = 0.05
+		}
+
+		dependencies = {
+			advanced_fire_control_system = 1
+			radio = 1
+		}
+
+		path = {
+			leads_to_tech = modern_generic_battery
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -3 y = 21 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_tech = modern_ship_hull_light
+				factor = 3
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_light_battery
+			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	modern_generic_battery = {
+		research_cost = 1
+		start_year = 1949
+
+		on_research_complete = {
+			custom_effect_tooltip = light_battery_advice_tt
+		}
+
+		enable_equipment_modules = {
+			dp_light_battery_5
+			dp_light_battery_5_single
+		}
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = -3 y = 23 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_tech = modern_ship_hull_light
+				factor = 3
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_ship_light_battery
+			cat_ship_medium_battery
+			mio_cat_tech_all_cruiser_and_modules
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -1278,6 +1378,7 @@ technologies = {
 			torpedo_mounting
 			ship_torpedo_fire_control
 			ship_torpedo_bb
+			ship_torpedo_sub_1
 		}
 
 		on_research_complete = {
@@ -1319,7 +1420,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1936
 
@@ -1334,16 +1435,16 @@ technologies = {
 		}
 
 		destroyer = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 		submarine = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 		light_cruiser = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 		heavy_cruiser = {
-			torpedo_attack = 0.2
+			torpedo_attack = 0.1
 		}
 
 
@@ -1387,9 +1488,112 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.25
+		research_cost = 0.75
 
 		start_year = 1942
+		destroyer = {
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		submarine = {
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		light_cruiser = {
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		heavy_cruiser = {
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 16 }
+		}
+		path = {
+			leads_to_tech = wire_guided_torpedo
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = proximity_detonator
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = USA
+					tag = GER
+				}
+				factor = 5
+			}
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	wire_guided_torpedo = {
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
+		research_cost = 1
+		enable_equipment_modules = {
+			sub_wire_guided_torpedo
+		}
+		naval_torpedo_screen_penetration_factor = 0.1
+
+		start_year = 1945
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 2 y = 20 }
+		}
+		path = {
+			leads_to_tech = wake_homing_torpedo
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = USA
+					tag = GER
+				}
+				factor = 5
+			}
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ss_tech
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+
+	wake_homing_torpedo = {
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
+		research_cost = 1.25
+
+		start_year = 1951
 		destroyer = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
@@ -1404,7 +1608,7 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 2 y = 16 }
+			position = { x = 2 y = 25 }
 		}
 
 		ai_will_do = {
@@ -1437,7 +1641,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.5
+		research_cost = 0.75
 
 		start_year = 1940
 
@@ -1470,6 +1674,66 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
+
+	proximity_detonator = {
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1943
+		dependencies = {
+			radio_detection = 1
+		}
+
+		destroyer = {
+			torpedo_attack = 0.1
+		}
+		submarine = {
+			torpedo_attack = 0.1
+		}
+		light_cruiser = {
+			torpedo_attack = 0.1
+		}
+		heavy_cruiser = {
+			torpedo_attack = 0.1
+		}
+
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 3 y = 18 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = USA
+					tag = GER
+				}
+				factor = 5
+			}
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				tag = JAP #Japan wants torpedoes EXTRA HARD
+				factor = 2
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
 	improved_ship_torpedo_launcher = {
 
 		research_cost = 1
@@ -1487,14 +1751,14 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_torpedo_2
-			ship_modules_tech
+			ship_torpedo_sub_2
 		}
 
 
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 9 }
+			position = { x = 0 y = 8 }
 		}
 
 		ai_will_do = {
@@ -1515,7 +1779,7 @@ technologies = {
 	}
 	advanced_ship_torpedo_launcher = {
 
-		research_cost = 1.25
+		research_cost = 1
 
 		start_year = 1940
 
@@ -1530,13 +1794,14 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_torpedo_3
+			ship_torpedo_sub_3
 		}
 
 
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 13 }
+			position = { x = 0 y = 14 }
 		}
 
 		ai_will_do = {
@@ -1557,22 +1822,27 @@ technologies = {
 	}
 	modern_ship_torpedo_launcher = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1944
 
 		enable_equipment_modules = {
 			ship_torpedo_4
+			ship_torpedo_sub_4
 		}
 
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
 
+		path = {
+			leads_to_tech = coldwar_ship_torpedo_launcher
+			research_cost_coeff = 1
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 21 }
+			position = { x = 0 y = 19 }
 		}
 
 		ai_will_do = {
@@ -1589,6 +1859,25 @@ technologies = {
 			cat_torpedoes
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+	coldwar_ship_torpedo_launcher = {
+		research_cost = 1.5
+		start_year = 1949
+
+		enable_equipment_modules = {
+			ship_torpedo_5
+			ship_torpedo_sub_5
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = torpedo_advice_tt
+		}
+
+
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 0 y = 23 }
 		}
 	}
 

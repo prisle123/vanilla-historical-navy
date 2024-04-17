@@ -185,7 +185,7 @@ equipments = {
 			chromium = 1
 		}
 
-		manpower = 4000
+		manpower = 2000
 
 		naval_supremacy_factor = 2.6
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -258,7 +258,7 @@ equipments = {
 			chromium = 1
 		}
 
-		manpower = 3200
+		manpower = 1500
 	}
 
 	vnr_ship_hull_heavy_1 = {
@@ -427,7 +427,7 @@ equipments = {
 		naval_speed = 27.5
 		fuel_consumption = 67
 		build_cost_ic = 2600
-		manpower = 4600
+		manpower = 2200
 	}
 
 	vnr_ship_hull_heavy_3 = {
@@ -454,7 +454,7 @@ equipments = {
 		naval_speed = 32
 		build_cost_ic = 2700
 
-		manpower = 5200
+		manpower = 2500
 	}
 
 	vnr_ship_hull_heavy_4 = {
@@ -482,7 +482,7 @@ equipments = {
 
 		build_cost_ic = 3000
 
-		manpower = 6000
+		manpower = 2800
 	}
 
 	vnr_ship_hull_heavy_5 = {
@@ -587,7 +587,7 @@ equipments = {
 		reliability = 0.95
 		build_cost_ic = 3300
 
-		manpower = 6500
+		manpower = 3800
 	}
 
 	vnr_ship_hull_super_heavy_1 = {
@@ -711,6 +711,6 @@ equipments = {
 			steel = 4
 			chromium = 1
 		}
-		manpower = 7500
+		manpower = 3500
 	}
 }

@@ -281,6 +281,29 @@ equipment_modules = {
 
 		critical_parts = { damaged_light_guns }
 	}
+
+	dp_light_battery_5 = {
+		category = dp_light_battery
+		gui_category = dp_light_battery_all
+		parent = dp_light_battery_4
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 6
+			anti_air_attack = 1.75
+			naval_light_gun_hit_chance_factor = 0.01
+			build_cost_ic = 140
+		}
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+		add_average_stats = {
+			lg_armor_piercing = 14
+		}
+		dismantle_cost_ic = 28
+		
+		critical_parts = { damaged_light_guns }
+	}
 	
 	dp_light_battery_1_single = {
 		category = dp_light_battery_single
@@ -370,6 +393,29 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 20
 
+		critical_parts = { damaged_light_guns }
+	}
+
+	dp_light_battery_5_single = {
+		category = dp_light_battery_single
+		gui_category = dp_light_battery_all
+		parent = dp_light_battery_4_single
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 4
+			anti_air_attack = 1.5
+			naval_light_gun_hit_chance_factor = 0.01
+			build_cost_ic = 100
+		}
+		multiply_stats = {
+			naval_speed = -0.015
+		}
+		add_average_stats = {
+			lg_armor_piercing = 14
+		}
+		dismantle_cost_ic = 20
+		
 		critical_parts = { damaged_light_guns }
 	}
 
@@ -2391,7 +2437,7 @@ equipment_modules = {
 		}
 		add_stats = {
 			surface_detection = 12
-			sub_detection = 6
+			sub_detection = 4
 			build_cost_ic = 160
 		}
 		can_convert_from = {
@@ -2414,7 +2460,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 190
 			surface_detection = 18
-			sub_detection = 14
+			sub_detection = 6
 		}
 		can_convert_from = {
 			module = ship_radar_3
@@ -2601,13 +2647,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 5
-			build_cost_ic = 160
+			build_cost_ic = 200
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.20
-			naval_range = 0.1
+			naval_range = 0.3
 		}
 		
 		can_convert_from = {
@@ -2625,13 +2671,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 7
-			build_cost_ic = 200
+			build_cost_ic = 250
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.25
-			naval_range = 0.15
+			naval_range = 0.4
 		}
 		
 		can_convert_from = {
@@ -2653,13 +2699,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 9
-			build_cost_ic = 230
+			build_cost_ic = 300
 			reliability = -0.05
 		}
 
 		multiply_stats = {
 			naval_speed = 0.3
-			naval_range = 0.2
+			naval_range = 0.5
 		}
 		
 		can_convert_from = {
@@ -2951,13 +2997,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 6
 			fuel_consumption = 12
-			build_cost_ic = 540
+			build_cost_ic = 600
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.25
-			naval_range = 0.1
+			naval_range = 0.4
 		}
 		
 		can_convert_from = {
@@ -2975,13 +3021,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 7
 			fuel_consumption = 16
-			build_cost_ic = 600
+			build_cost_ic = 660
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.3
-			naval_range = 0.15
+			naval_range = 0.5
 		}
 		
 		can_convert_from = {
@@ -3003,13 +3049,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 7
 			fuel_consumption = 20
-			build_cost_ic = 720
+			build_cost_ic = 750
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.35
-			naval_range = 0.2
+			naval_range = 0.6
 		}
 		
 		can_convert_from = {
@@ -3179,13 +3225,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 10
 			fuel_consumption = 20
-			build_cost_ic = 1800
+			build_cost_ic = 2200
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.35
-			naval_range = 0.1
+			naval_range = 0.3
 		}
 		
 		can_convert_from = {
@@ -3207,13 +3253,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 11
 			fuel_consumption = 25
-			build_cost_ic = 2200
+			build_cost_ic = 2600
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.4
-			naval_range = 0.15
+			naval_range = 0.4
 		}
 		
 		can_convert_from = {
@@ -3238,13 +3284,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 12
 			fuel_consumption = 30
-			build_cost_ic = 3200
+			build_cost_ic = 3500
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.5
-			naval_range = 0.2
+			naval_range = 0.5
 		}
 		
 		can_convert_from = {
@@ -3274,7 +3320,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.65
-			naval_range = -0.1
+			naval_range = -0.2
 		}
 		
 		can_convert_from = {
@@ -3489,13 +3535,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 12
-			build_cost_ic = 2200
+			build_cost_ic = 2500
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.35
-			naval_range = 0.1
+			naval_range = 0.3
 		}
 		
 		can_convert_from = {
@@ -3517,13 +3563,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 16
-			build_cost_ic = 2700
+			build_cost_ic = 3000
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.45
-			naval_range = 0.15
+			naval_range = 0.4
 		}
 		
 		can_convert_from = {
@@ -3548,13 +3594,13 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 20
-			build_cost_ic = 3200
+			build_cost_ic = 3500
 			reliability = -0.05
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.5
-			naval_range = 0.2
+			naval_range = 0.5
 		}
 		
 		can_convert_from = {
@@ -3679,6 +3725,29 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
+	ship_torpedo_5 = {
+		category = ship_torpedo
+		parent = ship_torpedo_4
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 40
+			build_cost_ic = 220
+			naval_torpedo_hit_chance_factor = 0.025
+		}
+		multiply_stats = {
+			naval_speed = -0.05	
+		}
+		dismantle_cost_ic = 75
+
+		can_convert_from = {
+			module_category = ship_torpedo
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
 	ship_torpedo_bb = {
 		category = ship_torpedo_bb
 		gui_category = ship_torpedo
@@ -3785,6 +3854,30 @@ equipment_modules = {
 
 		multiply_stats = {
 			naval_speed = -0.04			
+		}
+
+		can_convert_from = {
+			module_category = ship_torpedo_sub
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_torpedoes }
+	}
+
+	ship_torpedo_sub_5 = {
+		category = ship_torpedo_sub
+		parent = ship_torpedo_sub_4
+		
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 34
+			sub_attack = 5
+			build_cost_ic = 180
+			naval_torpedo_hit_chance_factor = 0.025
+		}
+
+		multiply_stats = {
+			naval_speed = -0.05	
 		}
 
 		can_convert_from = {
@@ -4001,7 +4094,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 6
 			sub_detection = 2.5
-			sub_attack = 2.5
+			sub_attack = 1.5
 			build_cost_ic = 150
 		}
 		multiply_stats = {
@@ -4016,7 +4109,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 9
 			sub_detection = 3.5
-			sub_attack = 5
+			sub_attack = 3
 			build_cost_ic = 170
 		}
 		can_convert_from = {
@@ -4031,9 +4124,9 @@ equipment_modules = {
 		category = ship_airplane_launcher
 		parent = ship_airplane_launcher_2
 		add_stats = {
-			surface_detection = 7
+			surface_detection = 6
 			sub_detection = 4.5
-			sub_attack = 6.5
+			sub_attack = 6
 			build_cost_ic = 180
 		}
 		multiply_stats = {
@@ -4197,7 +4290,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			sub_detection = 10
+			sub_detection = 5
 			build_cost_ic = 40
 		}
 	}
@@ -4209,7 +4302,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		parent = ship_sonar_1
 		add_stats = {
-			sub_detection = 15
+			sub_detection = 12
 			build_cost_ic = 60
 		}
 		can_convert_from = {
@@ -5109,7 +5202,7 @@ equipment_modules = {
 		category = ship_missile
 
 		add_stats = {
-			build_cost_ic = 2200
+			build_cost_ic = 2000
 			hg_attack = 30
 			lg_attack = 20
 			naval_heavy_gun_hit_chance_factor = 0.05
@@ -5118,14 +5211,45 @@ equipment_modules = {
 			max_strength = 15
 		}
 		add_average_stats = {
-			hg_armor_piercing = 50
-			lg_armor_piercing = 20
+			hg_armor_piercing = 65
+			lg_armor_piercing = 30
 		}
 		multiply_stats = {
 			naval_speed = -0.1
 			surface_visibility = -0.025
 		}
 		dismantle_cost_ic = 1800
+	}
+	ship_cruise_missile_1 = {
+		category = ship_missile
+
+		add_stats = {
+			build_cost_ic = 1400
+			hg_attack = 25
+			naval_heavy_gun_hit_chance_factor = -0.8
+			reliability = -0.1
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		dismantle_cost_ic = 1100
+	}
+	ship_cruise_missile_sub_1 = {
+		category = ship_sub_missile
+		gui_category = ship_missile
+		gfx = ship_cruise_missile_1
+
+		add_stats = {
+			build_cost_ic = 1500
+			hg_attack = 25
+			naval_heavy_gun_hit_chance_factor = -0.9
+			reliability = -0.1
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+			sub_visibility = 0.15
+		}
+		dismantle_cost_ic = 1100
 	}
 	ship_missile_aa_1 = {
 		category = ship_missile_aa
@@ -5303,6 +5427,7 @@ equipment_modules = {
         	lg_attack = 0.1
         	lg_armor_piercing = 0.1
         	max_strength = 0.1
+			naval_range = 0.2
         	build_cost_ic = 0.1
     	}
 		forbid_module_categories = {
@@ -5360,6 +5485,7 @@ equipment_modules = {
     	multiply_stats = {
         	max_strength = 0.2
         	naval_speed = -0.1
+			naval_range = 0.4
         	build_cost_ic = 0.25
     	}
 		forbid_module_categories = {
@@ -5977,7 +6103,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 600
 			surface_detection = 30
-			sub_detection = 25
+			sub_detection = 12
 		}
 		can_convert_from = {
 			module_category = ship_radar

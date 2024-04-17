@@ -633,4 +633,30 @@ spriteTypes = {
 		name = "GFX_advanced_submarine_warfare_medium"
 		textureFile = "gfx/interface/technologies/doctrine_tree/advanced_submarine_warfare.png"
 	}
+
+	# support tech extension
+	spriteType = {
+		name = "GFX_coldwar_ship_torpedo_launcher_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/coldwar_ship_torpedo_launcher.png"
+	}
+	spriteType = {
+		name = "GFX_modern_generic_battery_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/modern_generic_battery.png"
+	}
+	spriteType = {
+		name = "GFX_missile_submarine_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/missile_submarine.png"
+	}
+	spriteType = {
+		name = "GFX_wake_homing_torpedo_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/wake_homing_torpedo.png"
+	}
+	spriteType = {
+		name = "GFX_unmanned_gun_turret_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/unmanned_gun_turret.png"
+	}
+	spriteType = {
+		name = "GFX_proximity_detonator_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/proximity_detonator.png"
+	}
 }

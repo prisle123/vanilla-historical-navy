@@ -306,6 +306,7 @@ naval_develop_category = {
 		}
 		ai_will_do = {
 			factor = 30
+			modifier = { factor = 0 expert_ai_style = yes }
 			modifier = { factor = 0 has_political_power < 20 }
 		}
 	}
