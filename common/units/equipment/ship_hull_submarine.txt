@@ -386,7 +386,12 @@ equipments = {
 					ship_extra_fuel_tank
 				}
 			}
-			mid_1_custom_slot = inherit
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_ship_periscope
+				}
+			}
 			mid_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
