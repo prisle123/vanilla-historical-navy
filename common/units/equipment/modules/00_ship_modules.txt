@@ -5428,6 +5428,7 @@ equipment_modules = {
         	lg_armor_piercing = 0.1
         	max_strength = 0.1
 			naval_range = 0.2
+			surface_visibility = 0.25
         	build_cost_ic = 0.1
     	}
 		forbid_module_categories = {
@@ -5446,6 +5447,7 @@ equipment_modules = {
 			naval_speed = -0.3
         	sub_detection = 0.1
 			torpedo_attack = -0.6
+			surface_visibility = -0.05
         	build_cost_ic = -0.2
     	}
 		forbid_module_categories = {
@@ -5486,6 +5488,7 @@ equipment_modules = {
         	max_strength = 0.2
         	naval_speed = -0.1
 			naval_range = 0.4
+			surface_visibility = 0.5
         	build_cost_ic = 0.25
     	}
 		forbid_module_categories = {
@@ -5520,6 +5523,7 @@ equipment_modules = {
 		category = c_role
 		multiply_stats = {
 			naval_range = 0.1
+			surface_visibility = 0.1
 			build_cost_ic = 0.1
 		}
 		forbid_module_categories = {
