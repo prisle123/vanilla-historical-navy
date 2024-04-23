@@ -23,7 +23,7 @@ CHI_DD_HISTORICAL = {
 		"Jiang Li" "Jiang Heng" "Jiang Kun" "Jiang Kung" "Jiang Xi" "Jiang Yuan" "Jiang Zhen"
 
 		## Chu Tong Class
-		"Chu Yu" "Chu Cai" "Chu An" "Chu Yi" "Chu Xin" "Chu Tong" "Chu Tai" "Chu You" "Chu Guan" "Chu Qian" "Chu Kuan" "Chu Yiu" "Chu Chien" "Chu Tai" "Chu Tung" "Chu Yu"
+		"Chu Yu" "Chu Cai" "Chu An" "Chu Yi" "Chu Xin" "Chu Tong" "Chu Tai" "Chu You" "Chu Guan" "Chu Qian" "Chu Kuan" "Chu Yiu" "Chu Chien" "Chu Tai" "Chu Tung"
 
 		## Yong Feng Class
 		"Yong Xiang" "Yong An"
@@ -44,13 +44,28 @@ CHI_DD_HISTORICAL = {
 		"Su Zi" "Lie Zi" "Chen Zi" "Zhang Zi"
 
 		## Yong Jiang Class
-		"Yong Jiang" "Yong Ji"
+		"Yong Jiang" "Yong Ji" "Yong Sui"
 
 		## Tong An Class
 		"Tong An" "Jing An" "Yong An"
 
 		## Miscellaneous Class
 		"Jian Kang" "Yu Zhang" "Tong Ji" "Jian Ru" "Fu You" "Gong Chen" "Jian Zhong" "Lian Jing" "Ta Tung" "Tze Kiang"
+
+		"Hai Lung" "Hai Ching" "Hai Hua" "Hai Hsi" "Hai Chin" "Li Yun" "Hsi Chao" "Fei Ting" "Fei Fu" "Chao Hai" "Tieh Lung" "Fei Lung" "Kuai Shun" "Yiu Shun"
+		"Li Shun" "Chieh Shun" "Tao Hai" "Tao Ho" "Kan Lei" "Hsia Lei" "Hsiun Lei" "Pao Fa"
+
+		# KMT ships 
+		"Hai Chiao" "Hai Shih" "Hai Pao" "Hai Hu"
+		"Tai Kang" "Tai Pin" "Tai Ho" "Tai Tsang" "Tai Chao"
+		"Yun Yang" "Cheng Yang" "Shao Yang" "Tsi Yang" "Kai Yang" "Te Yang" "Sui Yang" "Chien Yang" "Lai Yang" "Fu Yang" "Tang Yang" "Kun Yang"
+		"Ting An" "Ko An" "Hsien Ning" "Te Sheng" "Wei Sheng" "I Sheng" "Yung Sheng" "Jen Sheng" "Cheng Sheng" "Kung Sheng" "Sui Sheng" "Su Ning" "Wei Ning" "Chung Ning" "I Ning" "Cheng Ning"
+		"Chang Ning"
+		"Kan Lu" "Chiao Jih" "Ching Hsing" "Ching Yun"
+		
+		"Yung Fen" "Yung Chia" "Yung Ting" "Yung Shun" "Yung Chin"
+		"Chung Chien" "Chung Chi" "Chung Ming" "Chung Yeh" "Chung Ho" "Chung Ping" "Hsu Hai" "An Hai" "Ta Kang" "Ta Tai" "Ta Wan" "Ta Kuan"
+		"Ho Cheng" "Ho Kung" "Ho Chun" "Ho Chuan" "Ho Chao" "Ho Yung" "Ho Mao" "Ho Shou" "Ho Chun" "Ho Yao" "Ho Chung"
 	}
 }
 
@@ -72,6 +87,11 @@ CHI_CL_HISTORICAL = {
 
 		## Miscellaneous Class
 		"Jue Chuan" "Jun Shu" "Ying Rui" "Zhao He" "Hao Ran" "Fei Hung" "Chao Ho" "Ying Swei"
+
+		"Tsao Kiang" "Mei Yun" "Tai An"
+
+		"Lin An" "Ku An" "Chieng An" "Tai An" "Tung An" "Rui An" "Chi An" "Hsin An" "Huang An" "Chao An" "Hui An" "Cheng An" "Te An" "Kao An"
+		"Pan Shih" "Zhao He" "Ying Rui"
 	}
 }
 
@@ -89,7 +109,9 @@ CHI_CA_HISTORICAL = {
 
 	unique = {
 		## Ping Hai Class
-		"Pinghai" "Ninghai" "Dinghai" "Weihai" "Chenghai" "Zhenhai"
+		"Pinghai" "Ninghai" "Dinghai" "Weihai" "Chenghai" "Zhenhai" "Weiyuan" "Kangchi" "Kuangchia" "Kuang-i" "Kuangpin"
+		"Zheng He" "Ji Guang" "Yue Fei" "Tze Yi" "Ban Chao" "Zhang Chien" "Tien Tan" "Ming Chuan" "Feng Chia"
+		"Chi Te" "Ming Te" "Tung Te" "Wu Te"
 	}
 }
 
@@ -107,7 +129,7 @@ CHI_BB_HISTORICAL = {
 
 	unique = {
 		## Wuwei Class
-		"Wuwei" "Huwei" "Longwei"
+		"Wuwei" "Huwei" "Longwei" "Dingyuan" "Zhenyuan" "Jinyuan" "Laiyuan" "Jiyuan" "Zhiyuan" "Jinyuan" "Chaoyong" "Yangwei" "Pingyuan"
 	}
 }
 
@@ -122,6 +144,11 @@ CHI_CV_HISTORICAL = {
 
 	#prefix = "ROCS "
 	fallback_name = "%s. Hangmu"
+
+	unique = {
+		"Xianglong" "Xiangfeng" "Tianfeng" "Qilin" "Qinglong" "Baihu" "Zhuque" "Xuanwu" "Tianzhi" "Baize"
+		"Juechuan" "Weisheng" "Desheng" "Bijia" "Zhenhai"
+	}
 }
 
 ### SUBMARINES ###
@@ -234,3 +261,18 @@ CHI_THEME_CITIES = {
 	}
 }
 
+CHYN_THEME_ASTROLOGY = {
+	name = NAME_THEME_ASTROLOGY
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+
+	type = ship
+
+	#prefix = "ROCS "
+	fallback_name = "%s."
+	
+	unique = {
+		"Tianshu" "Tianxuan" "Tianji" "Tianquan" "Yuheng" "Kaiyang" "Yaoguang" "Beiji" "Sifu" "Tianyi" "Taiyi" "Ziwei Zuohuan" "Ziwei Youhuan"
+		"Yinde" "Shangshu" "Nushi" "Zhushi" "Yunu" "Tianzhu" "Dali" "Goucheng" "Liujia" "Huagai" "Chuanshe" "Neijie" "Tianchu" "Bagu" "Tianpei"
+		"Wenchang" "Sanshi" "Sangong" "Tianchuang" "Taizun" "Tianlao" "Xuange"
+	}
+}
