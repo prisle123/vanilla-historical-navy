@@ -37,6 +37,7 @@ JAP_CV_HISTORICAL = {
 	unique = {
 		# Historical
 		"Hiryu" "Shokaku" "Zuikaku" "Junyo" "Hiyo" "Taiho" "Hiho" "Unryu" "Katsuragi" "Kasagi" "Aso" "Shoryu" "Zuiryu" "Junryu"
+		"Ikoma" "Kurama" "Kaimon"
 	}
 }
 
@@ -132,6 +133,21 @@ JAP_SS_HISTORICAL = {
 	}
 }
 
+JAP_SSC_HISTORICAL = {
+	name = NAME_THEME_IJN_SUBMARINES_2nd
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	fallback_name = "Ro-%d"
+
+	unique = {
+		"Ro-34"
+	}
+}
+
 ### THEME: JAPANESE PREFECTURES + Other names for Japan###
 JAP_PREFECTURES = {
 	name = NAME_THEME_PREFECTURES #battleships and bb converted carriers
@@ -188,6 +204,10 @@ JAP_WEATHER = {
 	fallback_name = "%d"
 
 	unique = {
+		# Hatsuharu class
+		"Hatsuharu" "Nenohi" "Wakaba" "Hatsushimo" "Yugure"
+		# Shiratsuyu class
+		"Shiratsuyu" "Shigure" "Murasame" "Yudachi" "Harusame" "Samidare" "Umikaze" "Yamakaze" "Kawakaze" "Suzukaze"
 		#Asashio class
 		"Asashio" "Arashio" "Oshio" "Michishio" "Yamagumo" "Natsugumo" "Minegumo" "Asagumo" "Arare" "Kasumi"
 		#Kagero class
@@ -220,10 +240,6 @@ JAP_WEATHER = {
 		"Ayanami" "Shikinami" "Asagiri" "Yugiri" "Amagiri" "Sagiri" "Oboro" "Akebono" "Sazanami" "Ushio"
 		# Fubuki class (Akatsuki)
 		"Akatsuki" "Hibiki" "Ikazuchi" "Inazuma"
-		# Hatsuharu class
-		"Hatsuharu" "Nenohi" "Wakaba" "Hatsushimo" "Yugure"
-		# Shiratsuyu class
-		"Shiratsuyu" "Shigure" "Murasame" "Yudachi" "Harusame" "Samidare" "Umikaze" "Yamakaze" "Kawakaze" "Suzukaze"
 	}
 }
 
