@@ -276,3 +276,17 @@ CHYN_THEME_ASTROLOGY = {
 		"Wenchang" "Sanshi" "Sangong" "Tianchuang" "Taizun" "Tianlao" "Xuange"
 	}
 }
+
+CHYN_THEME_ANCIENT_GENERAL = {
+	name = NAME_THEME_GENERAL_CHI
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+
+	type = ship
+
+	#prefix = "ROCS "
+	fallback_name = "%s."
+
+	unique = {
+		"Piaoji Jiangjun" "Cheji Jiangjun" "Wei Jiangjun" "Qian Jiangjun" "Hou Jiangjun" "Zuo Jiangjun" "You Jiangjun" "Dangkou Jiangjun" "Taolu Jiangjun" "Polu Jiangjun" "Taoni Jiangjun" "Wuya Jiangjun" "Zhechong Jiangjun" "Fubo Jiangjun" "Longxiang Jiangjun" "Huyi Jiangjun" "Xiaoji Jiangjun" "Pian Jiangjun" "Pi Jiangjun" "Zhong Hujun"
+	}
+}
