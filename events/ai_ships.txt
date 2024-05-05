@@ -8,18 +8,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
-		GER = {
-			is_ai = yes
-			NOT = { has_country_flag = GER_SHIPS_1940 }
-		}
+		tag = GER
+		is_ai = yes
+		NOT = { has_country_flag = GER_SHIPS_1940 }
 		date > 1940.6.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		GER = {
-			GER_AI_variants_1940 = yes
-			set_country_flag = GER_SHIPS_1940
-		}
+		GER_AI_variants_1940 = yes
+		set_country_flag = GER_SHIPS_1940
 	}
 	option = {
 	}
@@ -33,18 +30,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
-		GER = {
-			is_ai = yes
-			NOT = { has_country_flag = GER_SHIPS_1943 }
-		}
+		tag = GER
+		is_ai = yes
+		NOT = { has_country_flag = GER_SHIPS_1943 }
 		date > 1943.3.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		GER = {
-			GER_AI_variants_1943 = yes
-			set_country_flag = GER_SHIPS_1943
-		}
+		GER_AI_variants_1943 = yes
+		set_country_flag = GER_SHIPS_1943
 	}
 	option = {
 	}
@@ -58,18 +52,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
-		ENG = {
-			is_ai = yes
-			NOT = { has_country_flag = ENG_SHIPS_1940 }
-		}
+		tag = ENG
+		is_ai = yes
+		NOT = { has_country_flag = ENG_SHIPS_1940 }
 		date > 1940.6.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ENG = {
-			ENG_AI_variants_1940 = yes
-			set_country_flag = ENG_SHIPS_1940
-		}
+		ENG_AI_variants_1940 = yes
+		set_country_flag = ENG_SHIPS_1940
 	}
 	option = {
 	}
@@ -83,18 +74,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 100 }
 	trigger = {
-		ENG = {
-			is_ai = yes
-			NOT = { has_country_flag = ENG_SHIPS_1943 }
-		}
+		tag = ENG
+		is_ai = yes
+		NOT = { has_country_flag = ENG_SHIPS_1943 }
 		date > 1943.3.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ENG = {
-			ENG_AI_variants_1943 = yes
-			set_country_flag = ENG_SHIPS_1943
-		}
+		ENG_AI_variants_1943 = yes
+		set_country_flag = ENG_SHIPS_1943
 	}
 	option = {
 	}
@@ -108,18 +96,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
-		JAP = {
-			is_ai = yes
-			NOT = { has_country_flag = JAP_SHIPS_1940 }
-		}
+		tag = JAP
+		is_ai = yes
+		NOT = { has_country_flag = JAP_SHIPS_1940 }
 		date > 1940.2.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		JAP = {
-			JAP_AI_variants_1940 = yes
-			set_country_flag = JAP_SHIPS_1940
-		}
+		JAP_AI_variants_1940 = yes
+		set_country_flag = JAP_SHIPS_1940
 	}
 }
 
@@ -131,18 +116,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
-		JAP = {
-			is_ai = yes
-			NOT = { has_country_flag = JAP_SHIPS_1943 }
-		}
+		tag = JAP
+		is_ai = yes
+		NOT = { has_country_flag = JAP_SHIPS_1943 }
 		date > 1943.2.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		JAP = {
-			JAP_AI_variants_1943 = yes
-			set_country_flag = JAP_SHIPS_1943
-		}
+		JAP_AI_variants_1943 = yes
+		set_country_flag = JAP_SHIPS_1943
 	}
 }
 
@@ -160,10 +142,8 @@ country_event = {
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		USA = {
-			USA_AI_variants_1940 = yes
-			set_global_flag = USA_SHIPS_1941
-		}
+		USA_AI_variants_1940 = yes
+		set_global_flag = USA_SHIPS_1941
 	}
 }
 
@@ -181,10 +161,8 @@ country_event = {
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		USA = {
-			USA_AI_variants_1943 = yes
-			set_global_flag = USA_SHIPS_1943
-		}
+		USA_AI_variants_1943 = yes
+		set_global_flag = USA_SHIPS_1943
 	}
 }
 
@@ -195,19 +173,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
-		FRA = {
-			is_ai = yes
-			NOT = { has_country_flag = FRA_SHIPS_1940 }
-		}
-
+		tag = FRA
+		is_ai = yes
+		NOT = { has_country_flag = FRA_SHIPS_1940 }
 		date > 1940.2.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		FRA = {
-			FRA_AI_variants_1940 = yes
-			set_country_flag = FRA_SHIPS_1940
-		}
+		FRA_AI_variants_1940 = yes
+		set_country_flag = FRA_SHIPS_1940
 	}
 }
 
@@ -218,19 +192,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
-		FRA = {
-			is_ai = yes
-			NOT = { has_country_flag = FRA_SHIPS_1943 }
-
-			date > 1943.2.1
-		}
+		tag = FRA
+		is_ai = yes
+		NOT = { has_country_flag = FRA_SHIPS_1943 }
+		date > 1943.2.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		FRA = {
-			FRA_AI_variants_1943 = yes
-			set_country_flag = FRA_SHIPS_1943
-		}
+		FRA_AI_variants_1943 = yes
+		set_country_flag = FRA_SHIPS_1943
 	}
 }
 
@@ -241,19 +211,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
-		ITA = {
-			is_ai = yes
-			NOT = { has_country_flag = ITA_SHIPS_1940 }
-		}
-
+		tag = ITA
+		is_ai = yes
+		NOT = { has_country_flag = ITA_SHIPS_1940 }
 		date > 1940.2.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ITA = {
-			ITA_AI_variants_1940 = yes
-			set_country_flag = ITA_SHIPS_1940
-		}
+		ITA_AI_variants_1940 = yes
+		set_country_flag = ITA_SHIPS_1940
 	}
 }
 
@@ -264,19 +230,15 @@ country_event = {
 	fire_only_once = yes
 	mean_time_to_happen = { days = 1 }
 	trigger = {
-		ITA = {
-			is_ai = yes
-			NOT = { has_country_flag = ITA_SHIPS_1943 }
-
-			date > 1943.2.1
-		}
+		tag = ITA
+		is_ai = yes
+		NOT = { has_country_flag = ITA_SHIPS_1943 }
+		date > 1943.2.1
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
-		ITA = {
-			ITA_AI_variants_1943 = yes
-			set_country_flag = ITA_SHIPS_1943
-		}
+		ITA_AI_variants_1943 = yes
+		set_country_flag = ITA_SHIPS_1943
 	}
 }
 
@@ -424,10 +386,6 @@ country_event = {
 				set_technology = {
 					improved_submarine_snorkel = 1
 					sub_AIP_engine = 1
-					full_armored_carrier = 1
-					carrier_steam_catapult = 1
-					carrier_angled_deck = 1
-					super_carriers = 1
 					anechoic_tile = 1
 					damage_control_3 = 1
 					fire_control_methods_3 = 1
@@ -504,6 +462,9 @@ country_event = {
 					tactical_air_navigation_system = 1
 					iff_device = 1
 					wire_guided_torpedo = 1
+					full_armored_carrier = 1
+					carrier_steam_catapult = 1
+					carrier_angled_deck = 1
 				}
 				ai_get_navy_experience = yes
 			}
@@ -549,6 +510,7 @@ country_event = {
 					unmanned_gun_turret = 1
 					modern_generic_battery = 1
 					missile_submarine = 1
+					super_carriers = 1
 				}
 				ai_get_navy_experience = yes
 			}

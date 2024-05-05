@@ -4,8 +4,8 @@ equipments = {
         is_archetype = yes
 		is_buildable = no
 		type = capital_ship
-		sprite = auxiliary_ship
 		group_by = archetype
+        model = destroyer
 		priority = 300
 
         interface_category = interface_category_capital_ships

@@ -1,4 +1,4 @@
-version="v1.5 - Guadalcanal"
+version="v1.6 - Furinkazan"
 tags={
 	"Military"
 	"Graphics"
