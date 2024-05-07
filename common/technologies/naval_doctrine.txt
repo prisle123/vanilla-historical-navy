@@ -101,6 +101,7 @@ technologies = {
 			max_organisation = 10
 		}
 		strike_force_movement_org_loss = -0.1
+		positioning = 0.1
 		########
 
 		path = {
@@ -1746,6 +1747,7 @@ technologies = {
 			max_organisation = 10
 		}
 		strike_force_movement_org_loss = -0.1
+		positioning = 0.1
 		########
 
 		path = {
@@ -2246,6 +2248,7 @@ technologies = {
 			surface_detection = 0.1
 		}
 		strike_force_movement_org_loss = -0.1
+		positioning = 0.1
 		##########
 
 		path = {
@@ -2625,6 +2628,7 @@ technologies = {
 
 		naval_critical_score_chance_factor = 0.10
 		strike_force_movement_org_loss = -0.1
+		positioning = 0.1
 
 		###########
 
@@ -3132,6 +3136,7 @@ technologies = {
 			max_organisation = 10
 		}
 		navy_anti_air_attack_factor = 0.15
+		positioning = 0.1
 		#####
 		path = {
 			leads_to_tech = carrier_battlegroups
