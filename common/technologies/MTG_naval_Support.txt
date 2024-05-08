@@ -929,7 +929,7 @@ technologies = {
 
 	basic_dp_light_battery = {
 
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1939
 
@@ -975,7 +975,7 @@ technologies = {
 
 	improved_dp_light_battery = {
 
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1941
 
@@ -1021,7 +1021,7 @@ technologies = {
 
 	advanced_dp_light_battery = {
 
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1944
 
@@ -1067,7 +1067,7 @@ technologies = {
 
 	basic_dp_medium_battery = {
 
-		research_cost = 1.25
+		research_cost = 0.75
 
 		start_year = 1944
 
@@ -1232,7 +1232,7 @@ technologies = {
 
 
 	ship_rocket_artillery = {
-		research_cost = 0.8
+		research_cost = 0.75
 		start_year = 1943
 
 		dependencies = {
@@ -1420,7 +1420,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1936
 
@@ -1736,7 +1736,7 @@ technologies = {
 
 	improved_ship_torpedo_launcher = {
 
-		research_cost = 1
+		research_cost = 0.5
 
 		start_year = 1932
 
@@ -1779,7 +1779,7 @@ technologies = {
 	}
 	advanced_ship_torpedo_launcher = {
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1940
 
@@ -1822,7 +1822,7 @@ technologies = {
 	}
 	modern_ship_torpedo_launcher = {
 
-		research_cost = 1.25
+		research_cost = 1
 
 		start_year = 1944
 
@@ -1862,7 +1862,7 @@ technologies = {
 		}
 	}
 	coldwar_ship_torpedo_launcher = {
-		research_cost = 1.5
+		research_cost = 1.25
 		start_year = 1949
 
 		enable_equipment_modules = {
@@ -1890,7 +1890,7 @@ technologies = {
 
 	damage_control_1 = {
 
-		research_cost = 1
+		research_cost = 0.75
 		path = {
 			leads_to_tech = damage_control_2
 			research_cost_coeff = 1
@@ -1930,7 +1930,7 @@ technologies = {
 
 	damage_control_2 = {
 
-		research_cost = 1.25
+		research_cost = 0.75
 		path = {
 			leads_to_tech = damage_control_3
 			research_cost_coeff = 1
@@ -1970,7 +1970,7 @@ technologies = {
 
 	damage_control_3 = {
 
-		research_cost = 1.5
+		research_cost = 1
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
@@ -2014,7 +2014,7 @@ technologies = {
 
 	fire_control_methods_1 = {
 
-		research_cost = 1.5
+		research_cost = 1
 		path = {
 			leads_to_tech = fire_control_methods_2
 			research_cost_coeff = 1
@@ -2065,7 +2065,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 2
+		research_cost = 1
 		path = {
 			leads_to_tech = fire_control_methods_3
 			research_cost_coeff = 1
@@ -2122,7 +2122,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 2
+		research_cost = 1
 		SH_battleship = {
 			lg_attack = 0.1
 			hg_attack = 0.1
@@ -2190,7 +2190,7 @@ technologies = {
 
 	basic_naval_mines = {
 
-		research_cost = 1
+		research_cost = 0.5
 
 		start_year = 1922
 
@@ -2231,7 +2231,7 @@ technologies = {
 
 	submarine_mine_laying = {
 
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1922
 
@@ -2291,7 +2291,7 @@ technologies = {
 
 	improved_naval_mines = {
 
-		research_cost = 1.25
+		research_cost = 1
 
 		start_year = 1936
 
@@ -2364,7 +2364,7 @@ technologies = {
 
 	advanced_naval_mines = {
 
-		research_cost = 1.5
+		research_cost = 1.25
 
 		start_year = 1942
 
@@ -2405,7 +2405,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1942
 
@@ -2440,7 +2440,7 @@ technologies = {
 			has_dlc = "By Blood Alone"
 		}
 
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1942
 
@@ -2502,7 +2502,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1944
 
@@ -2535,7 +2535,7 @@ technologies = {
 			has_dlc = "By Blood Alone"
 		}
 
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1944
 
@@ -2573,7 +2573,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1922
 
 		folder = {
@@ -2632,7 +2632,7 @@ technologies = {
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1940
 
 		folder = {
@@ -2699,7 +2699,7 @@ technologies = {
 		amphibious_invasion_defence = 0.5
 		naval_invasion_capacity = 100
 
-		research_cost = 1.75
+		research_cost = 1.5
 		start_year = 1944
 		folder = {
 			name = mtgnavalsupportfolder
