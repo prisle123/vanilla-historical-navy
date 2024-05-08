@@ -138,6 +138,11 @@ equipments = {
 			count < 3
 		}
 
+		module_count_limit = {
+			category = ship_anti_air
+			count < 3
+		}
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -281,6 +286,11 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_3
 		}
 		naval_speed = 32
+
+		module_count_limit = {
+			category = ship_anti_air
+			count < 4
+		}
 	}
 
 	vnr_ship_hull_light_5 = {
@@ -350,6 +360,11 @@ equipments = {
 		}
 		manpower = 500
 		naval_speed = 34
+
+		module_count_limit = {
+			category = ship_anti_air
+			count < 4
+		}
 	}
 
 	vnr_ship_hull_light_6 = {
@@ -470,6 +485,10 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 3
+		}
+		module_count_limit = {
+			category = ship_anti_air
+			count < 4
 		}
 	}
 }

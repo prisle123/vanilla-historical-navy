@@ -5843,7 +5843,7 @@ equipment_modules = {
 		category = generic_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
-			anti_air_attack = 0.05
+			anti_air_attack = 0.2
 		}
 		add_stats = {
 			build_cost_ic = 100
