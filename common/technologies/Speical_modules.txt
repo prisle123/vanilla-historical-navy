@@ -23,4 +23,16 @@ technologies = {
             usa_8in_mk9_secondaries
         }
     }
+
+    ger_11in_c34 = {
+        research_cost = 1
+        start_year = 1930
+
+        allow = {
+            always = no
+        }
+        enable_equipment_modules = {
+            ger_11in_c34_triple
+        }
+    }
 }
