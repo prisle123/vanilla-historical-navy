@@ -218,7 +218,7 @@ naval_unit_role_ratios_minors_defensive = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 	
@@ -264,7 +264,7 @@ naval_unit_role_ratios_minors_offensive = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 
@@ -315,7 +315,7 @@ naval_unit_role_ratios_minors_global = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 
@@ -365,7 +365,7 @@ naval_unit_role_ratios_GER_prewar_early = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 	
@@ -408,7 +408,7 @@ naval_unit_role_ratios_GER_prewar_late = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 	
@@ -493,7 +493,7 @@ naval_unit_role_ratios_GER_atwar_knock_USA = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 30
 	}
 	
@@ -549,7 +549,7 @@ naval_unit_role_ratios_GER_atwar_No_Naval_Competitor = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 30
 	}
 	
@@ -608,7 +608,7 @@ naval_unit_role_ratios_GER_late_peace = {
 	
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 10
 	}
 
@@ -669,7 +669,7 @@ naval_unit_role_ratios_ENG_prewar_early = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = -30
 	}
 	ai_strategy = {
@@ -728,7 +728,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = -30
 	}
 
@@ -855,7 +855,7 @@ naval_unit_role_ratios_FRA_prewar = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 15
 	}
 	ai_strategy = {
@@ -897,7 +897,7 @@ naval_unit_role_ratios_FRA_atwar = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 15
 	}
 	ai_strategy = {
@@ -1030,7 +1030,7 @@ naval_unit_role_ratios_SOV_need_to_watch_germany_peace = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 10
 	}
 }
@@ -1067,7 +1067,7 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 	ai_strategy = {
@@ -1113,7 +1113,7 @@ naval_unit_role_ratios_SOV_atwar_with_Germany = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = -100
 	}
 	ai_strategy = {
@@ -1156,7 +1156,7 @@ naval_unit_role_ratios_SOV_atwar_with_major = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 	ai_strategy = {
@@ -1211,7 +1211,7 @@ naval_unit_role_ratios_JAP_prewar_build_carriers = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 	ai_strategy = {
@@ -1260,7 +1260,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 30
 	}
 	ai_strategy = {
@@ -1307,7 +1307,7 @@ naval_unit_role_ratios_JAP_atwar = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 30
 	}
 	ai_strategy = {
@@ -1429,7 +1429,7 @@ naval_unit_role_ratios_USA_great_depression = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 30
 	}
 }
@@ -1469,7 +1469,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 
@@ -1518,7 +1518,7 @@ naval_unit_role_ratios_USA_atwar = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 35
 	}
 
@@ -1574,7 +1574,7 @@ naval_unit_role_ratios_ITA_prewar_build_battleships = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 25
 	}
 
@@ -1619,7 +1619,7 @@ naval_unit_role_ratios_ITA_prewar_enough_battleships = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 10
 	}
 
@@ -1720,7 +1720,7 @@ naval_unit_role_ratios_ITA_atwar_with_major = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 30
 	}
 	ai_strategy = {
@@ -1767,7 +1767,7 @@ naval_unit_role_ratios_ITA_late_peace = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 25
 	}
 
@@ -2308,7 +2308,7 @@ build_more_missile_cruisers = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_cruiser_heavy
+		id = vnr_naval_cruiser_medium
 		value = 20
 	}
 
