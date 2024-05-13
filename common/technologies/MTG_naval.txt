@@ -1287,6 +1287,9 @@ technologies = {
 		heavy_cruiser = {
 			build_cost_ic = -0.1
 		}
+		medium_cruiser = {
+			build_cost_ic = -0.1
+		}
 		light_cruiser = {
 			build_cost_ic = -0.1
 		}
@@ -1706,6 +1709,10 @@ technologies = {
 			build_cost_ic = -0.05
 			armor_value = 0.1
 		}
+		medium_cruiser = {
+			build_cost_ic = -0.05
+			armor_value = 0.1
+		}
 		light_cruiser = {
 			build_cost_ic = -0.05
 			naval_speed = 0.05
@@ -1747,6 +1754,10 @@ technologies = {
 			lg_attack = 0.075
 			lg_armor_piercing = 0.05
 		}
+		medium_cruiser = {
+			lg_attack = 0.075
+			lg_armor_piercing = 0.05
+		}
 		light_cruiser = {
 			lg_attack = 0.05
 		}
@@ -1771,6 +1782,9 @@ technologies = {
 		research_cost = 0.3
 
 		heavy_cruiser = {
+			anti_air_attack = 0.1
+		}
+		medium_cruiser = {
 			anti_air_attack = 0.1
 		}
 		light_cruiser = {
@@ -1830,6 +1844,9 @@ technologies = {
 		start_year = 1944
 
 		heavy_cruiser = {
+			surface_detection = 0.05
+		}
+		medium_cruiser = {
 			surface_detection = 0.05
 		}
 		light_cruiser = {
@@ -2130,6 +2147,9 @@ technologies = {
 		battlecarrier = {
 			armor_value = 0.01
 		}
+		##! armored_cruiser = {
+		##! 	armor_value = 0.01
+		##! }
 
 		folder = {
 			name = mtgnavalfolder
@@ -2171,6 +2191,9 @@ technologies = {
 		battlecarrier = {
 			armor_value = 0.04
 		}
+		##! armored_cruiser = {
+		##! 	armor_value = 0.04
+		##! }
 
 		folder = {
 			name = mtgnavalfolder
@@ -2216,6 +2239,9 @@ technologies = {
 		battlecarrier = {
 			armor_value = 0.05
 		}
+		##! armored_cruiser = {
+		##! 	armor_value = 0.05
+		##! }
 
 		folder = {
 			name = mtgnavalfolder
@@ -2241,6 +2267,9 @@ technologies = {
 		start_year = 1932
 
 		heavy_cruiser = {
+			armor_value = 0.05
+		}
+		medium_cruiser = {
 			armor_value = 0.05
 		}
 		light_cruiser = {

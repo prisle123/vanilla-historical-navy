@@ -22,6 +22,9 @@ technologies = {
 		heavy_cruiser = {
 			max_organisation = 5
 		}
+		medium_cruiser = {
+			max_organisation = 5
+		}
 		light_cruiser = {
 			surface_detection = 0.10
 		}
@@ -98,6 +101,9 @@ technologies = {
 		##! 	max_organisation = 10
 		##! }
 		heavy_cruiser = {
+			max_organisation = 10
+		}
+		medium_cruiser = {
 			max_organisation = 10
 		}
 		strike_force_movement_org_loss = -0.1
@@ -213,6 +219,9 @@ technologies = {
 		##! 	surface_detection = 0.05
 		##! }
 		heavy_cruiser = {
+			surface_detection = 0.05
+		}
+		medium_cruiser = {
 			surface_detection = 0.05
 		}
 		SH_battleship = {
@@ -425,6 +434,9 @@ technologies = {
 		heavy_cruiser = {
 			max_organisation = 20
 		}
+		medium_cruiser = {
+			max_organisation = 20
+		}
 		##! armored_cruiser = {
 		##! 	max_organisation = 20
 		##! }
@@ -523,6 +535,10 @@ technologies = {
 		##! }
 
 		heavy_cruiser = {
+			max_organisation = 20
+		}
+
+		medium_cruiser = {
 			max_organisation = 20
 		}
 		
@@ -1069,6 +1085,11 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
+
+		medium_cruiser = {
+			max_organisation = 10
+			surface_detection = 0.05
+		}
 		#######
 
 		xor = { fleet_in_being base_strike }
@@ -1511,6 +1532,11 @@ technologies = {
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.15
 		}
+		medium_cruiser = {
+			max_organisation = 10
+			convoy_raiding_coordination = 0.15
+			surface_detection = 0.15
+		}
 
 		##! armored_cruiser = {
 		##! 	max_organisation = 10
@@ -1572,6 +1598,11 @@ technologies = {
 		}
 
 		heavy_cruiser = {
+			max_organisation = 10
+			convoy_raiding_coordination = 0.1
+			surface_detection = 0.10
+		}
+		medium_cruiser = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.1
 			surface_detection = 0.10
@@ -1683,6 +1714,10 @@ technologies = {
 			surface_visibility = -0.1
 		}
 
+		medium_cruiser = {
+			surface_visibility = -0.1
+		}
+
 		##! armored_cruiser = {
 		##! 	surface_visibility = -0.1
 		##! }
@@ -1744,6 +1779,9 @@ technologies = {
 		##! 	max_organisation = 10
 		##! }
 		heavy_cruiser = {
+			max_organisation = 10
+		}
+		medium_cruiser = {
 			max_organisation = 10
 		}
 		strike_force_movement_org_loss = -0.1
@@ -2243,6 +2281,10 @@ technologies = {
 			max_organisation = 10
 			anti_air_attack = 0.05
 		}
+		medium_cruiser = {
+			max_organisation = 10
+			anti_air_attack = 0.05
+		}
 		light_cruiser = {
 			max_organisation = 10
 			surface_detection = 0.1
@@ -2610,6 +2652,10 @@ technologies = {
 			surface_detection = 0.1
 		}
 		heavy_cruiser = {
+			max_organisation = 10
+			surface_detection = 0.1
+		}
+		medium_cruiser = {
 			max_organisation = 10
 			surface_detection = 0.1
 		}
@@ -3121,6 +3167,9 @@ technologies = {
 			max_organisation = 5
 		}
 		heavy_cruiser = {
+			max_organisation = 10
+		}
+		medium_cruiser = {
 			max_organisation = 10
 		}
 		##! armored_cruiser = {
