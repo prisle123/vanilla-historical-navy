@@ -2318,3 +2318,18 @@ build_more_missile_cruisers = {
 		value = -80
 	}
 }
+
+restrict_early_landing = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		enemies_naval_strength_ratio > 1.5
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = -1000
+	}
+}
