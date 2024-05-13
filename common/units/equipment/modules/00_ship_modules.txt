@@ -1191,7 +1191,6 @@ equipment_modules = {
 		category = ship_medium_battery
 		gui_category = ship_medium_battery_multi
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 3
 			lg_attack = 1.5
@@ -1218,7 +1217,6 @@ equipment_modules = {
 		parent = ship_medium_battery_1
 		sfx = sfx_ui_sd_module_turret
 
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 4
 			lg_attack = 2.5
@@ -1243,7 +1241,6 @@ equipment_modules = {
 		category = ship_medium_battery
 		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_2
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -1270,7 +1267,6 @@ equipment_modules = {
 		category = ship_medium_battery
 		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_3
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -1298,7 +1294,6 @@ equipment_modules = {
 		category = ship_medium_battery_double
 		gui_category = ship_medium_battery_multi
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 2
 			lg_attack = 1.2
@@ -1325,7 +1320,6 @@ equipment_modules = {
 		parent = ship_medium_battery_1_double
 		sfx = sfx_ui_sd_module_turret
 
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 3
 			lg_attack = 2.2
@@ -1350,7 +1344,6 @@ equipment_modules = {
 		category = ship_medium_battery_double
 		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_2_double
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -1377,7 +1370,6 @@ equipment_modules = {
 		category = ship_medium_battery_double
 		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_3_double
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -1405,7 +1397,6 @@ equipment_modules = {
 		category = ship_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 1.5
 			lg_attack = 0.8
@@ -1431,7 +1422,6 @@ equipment_modules = {
 		parent = ship_medium_battery_1_single
 		sfx = sfx_ui_sd_module_turret
 
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 2
 			lg_attack = 1.5
@@ -1455,7 +1445,6 @@ equipment_modules = {
 		category = ship_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 		parent = ship_medium_battery_2_single
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -1481,7 +1470,6 @@ equipment_modules = {
 		category = ship_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 		parent = ship_medium_battery_3_single
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -3359,7 +3347,6 @@ equipment_modules = {
 		gui_category = heavy_ship_engine
 		gfx = heavy_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
-		parent = super_heavy_ship_engine_1
 
 		add_stats = {
 			fuel_consumption = 30
@@ -3386,7 +3373,6 @@ equipment_modules = {
 		gui_category = heavy_ship_engine
 		gfx = heavy_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
-		parent = super_heavy_ship_engine_2
 
 		add_stats = {
 			fuel_consumption = 40
@@ -5096,6 +5082,7 @@ equipment_modules = {
 ### carrier flight deck
 	carrier_armor_deck = {
 		category = ship_flight_deck
+		add_equipment_type = capital_ship
 		
 		add_stats = {
 			reliability = 0.1
@@ -5115,6 +5102,7 @@ equipment_modules = {
 	}
 	carrier_wooden_deck = {
 		category = ship_flight_deck
+		add_equipment_type = capital_ship
 
 		multiply_stats = {
 			naval_speed = 0.01
@@ -5177,7 +5165,6 @@ equipment_modules = {
 	}
 	ship_carrier_armor_heavy = {
 		category = ship_carrier_armor_heavy
-		add_equipment_type = capital_ship
 		gfx = ship_heavy_armor
 		
 		multiply_stats = {
@@ -5512,6 +5499,19 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_c = {
 		category = c_role
+		add_equipment_type = screen_ship
+		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_cruiser_heavy_armor
+			ship_missile
+			ship_missile_aa
+			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_ca = {
+		category = c_role
+		add_equipment_type = capital_ship
 		forbid_module_categories = {
 			ship_medium_heavy_battery_triple
 			ship_medium_heavy_battery_double
@@ -5523,6 +5523,7 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_cb = {
 		category = c_role
+		add_equipment_type = capital_ship
 		multiply_stats = {
 			naval_range = 0.1
 			surface_visibility = 0.1
@@ -5623,6 +5624,7 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_ac = {
 		category = cds_role
+		add_equipment_type = capital_ship
 		multiply_stats = {
 			naval_range = 0.5
 		}
@@ -5845,7 +5847,7 @@ equipment_modules = {
 		category = generic_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
-			anti_air_attack = 0.2
+			anti_air_attack = 0.05
 		}
 		add_stats = {
 			build_cost_ic = 100
