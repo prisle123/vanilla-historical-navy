@@ -13,7 +13,6 @@ navy_rework_category = {
                 tag = USA
             }
         }
-		visible = { has_game_rule = { rule = allow_never_built option = FREE } }
         complete_effect = {
             FROM = {
                 if = {
