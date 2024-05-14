@@ -123,7 +123,6 @@ spriteTypes = {
 		name = "GFX_unit_auxiliary_ship_icon_medium_black"
 		texturefile = "gfx/interface/counters/ships_small/onmap_auxiliary_ship_inverted.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_ship_auxiliary_ship_icon_small"
 		texturefile = "gfx/texticons/ship_auxiliary_ship_icon_small.dds"
@@ -138,6 +137,30 @@ spriteTypes = {
 		name = "GFX_unit_auxiliary_ship_icon_medium"
 		texturefile = "gfx/interface/navalcombat/ships/auxiliary.dds"
 		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_unit_medium_cruiser_icon_medium_white"
+		texturefile = "gfx/interface/counters/ships_small/onmap_heavy_cruiser.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_medium_cruiser_icon_medium_black"
+		texturefile = "gfx/interface/counters/ships_small/onmap_heavy_cruiser_inverted.dds"
+	}
+	spriteType = {
+		name = "GFX_navalcombat_ship_icon_medium_cruiser"
+		texturefile = "gfx/interface/navalcombat/ships/heavy_cruiser.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_medium_cruiser_icon_small"
+		texturefile = "gfx/texticons/ship_heavy_cruiser_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_medium_cruiser_icon_small"
+		texturefile = "gfx/texticons/ship_heavy_cruiser_icon_small.dds"
+		legacy_lazy_load = no
 	}
 
 	spriteType = {
