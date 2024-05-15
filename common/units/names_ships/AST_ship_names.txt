@@ -89,7 +89,8 @@ AST_BB_HISTORICAL = {
 	fallback_name = "Battleship %s"
 
 	unique = {
-		"Princess Elizabeth" "New South Wales" "Queensland" "South Australia" "Tasmania" "Victoria" "Western Australia"
+		"Australia" "Princess Elizabeth" "New South Wales" "Queensland" "South Australia" "Tasmania" "Victoria" "Western Australia"
+		"Timor Sea" "Tasman Sea" "Great Australian Blight"
 	}
 }
 
@@ -106,7 +107,7 @@ AST_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser %s"
 
 	unique = {
-		"New South Wales" "Queensland" "South Australia" "Tasmania" "Victoria" "Western Australia"
+		"Australia" "New South Wales" "Queensland" "South Australia" "Tasmania" "Victoria" "Western Australia" "Timor Sea" "Tasman Sea" "Great Australian Blight"
 	}
 }
 
