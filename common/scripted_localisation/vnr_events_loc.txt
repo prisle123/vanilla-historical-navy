@@ -56,6 +56,10 @@ defined_text = {
 		}
 		localization_key = chi_naval_history
 	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = ast_naval_history
+	}
 }
 
 defined_text = {
@@ -96,6 +100,10 @@ defined_text = {
 			}
 		}
 		localization_key = naval_lore_title_1_chi
+	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = naval_lore_title_1_ast
 	}
 }
 
@@ -138,6 +146,10 @@ defined_text = {
 		}
 		localization_key = naval_lore_title_2_chi
 	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = naval_lore_title_2_ast
+	}
 }
 
 defined_text = {
@@ -178,6 +190,10 @@ defined_text = {
 			}
 		}
 		localization_key = naval_lore_desc_1_chi
+	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = naval_lore_desc_1_ast
 	}
 }
 
@@ -220,6 +236,10 @@ defined_text = {
 		}
 		localization_key = naval_lore_desc_2_chi
 	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = naval_lore_desc_2_ast
+	}
 }
 
 defined_text = {
@@ -260,6 +280,10 @@ defined_text = {
 			}
 		}
 		localization_key = GFX_naval_lore_chi
+	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = GFX_naval_lore_ast
 	}
 }
 

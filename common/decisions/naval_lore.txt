@@ -44,6 +44,11 @@ navy_rework_category = {
 		}
 		complete_effect = { set_global_flag = naval_lore_gui_show }
 	}
+	ast_naval_history = {
+		icon = GFX_vnr_ast_flag
+		allowed = { tag = AST }
+		complete_effect = { set_global_flag = naval_lore_gui_show }
+	}
 	
 	# not needed anymore
     # ship_hull_description = {
