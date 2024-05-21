@@ -5,7 +5,7 @@ equipments = {
 		is_buildable = no
 		type = capital_ship
 		group_by = archetype
-        model = destroyer
+        model = transport
 		priority = 300
 
         interface_category = interface_category_capital_ships
@@ -97,6 +97,7 @@ equipments = {
     vnr_ship_hull_civilian_1 = {
         year = 1918
         archetype = ship_hull_civilian
+		model = transport
         priority = 1000
         can_convert_from = { vnr_ship_hull_civilian_1 }
 
@@ -106,6 +107,7 @@ equipments = {
     vnr_ship_hull_civilian_2 = {
         year = 1936
         archetype = ship_hull_civilian
+		model = transport
         priority = 1000
         can_convert_from = { vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 
@@ -146,6 +148,7 @@ equipments = {
     vnr_ship_hull_civilian_3 = {
         year = 1936
         archetype = ship_hull_civilian
+		model = transport
         priority = 1000
         can_convert_from = { vnr_ship_hull_civilian_2 vnr_ship_hull_civilian_3 }
 

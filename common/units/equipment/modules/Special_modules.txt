@@ -87,6 +87,7 @@ equipment_modules = {
 		category = ship_heavy_battery_triple
 		gfx = ship_heavy_battery_big_1_triple
 		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
 		add_stats = {
 			surface_visibility = 0.6
 			hg_attack = 7

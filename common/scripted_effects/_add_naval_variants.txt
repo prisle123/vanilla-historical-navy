@@ -680,14 +680,14 @@ GER_start_naval_variants = {
         type = vnr_ship_hull_pre_dreadnought
         name_group = GER_BB_HISTORICAL
         modules = {
-            fixed_ship_battery_slot = ger_11in_c34_triple
+            fixed_ship_battery_slot = ship_heavy_battery_small_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_bb_1
 			mid_1_custom_slot = ship_secondaries_1
-			rear_1_custom_slot = ger_11in_c34_triple
+			rear_1_custom_slot = ship_heavy_battery_small_1
         }
         obsolete = yes
     }
@@ -720,7 +720,7 @@ GER_start_naval_variants = {
         type = vnr_ship_hull_cruiser_panzerschiff
         name_group = GER_CA_HISTORICAL
         modules = {
-            fixed_ship_battery_slot = ship_heavy_battery_small_1_triple
+            fixed_ship_battery_slot = ger_11in_c34_triple
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 			fixed_ship_engine_slot = cruiser_ship_engine_2_diesel
@@ -728,7 +728,7 @@ GER_start_naval_variants = {
 			fixed_ship_armor_slot = ship_armor_cruiser_2
 			mid_1_custom_slot = ship_airplane_launcher_1
             mid_2_custom_slot = ship_secondaries_2
-			rear_1_custom_slot = ship_heavy_battery_small_1_triple
+			rear_1_custom_slot = ger_11in_c34_triple
             rear_2_custom_slot = ship_torpedo_1
         }
     }
