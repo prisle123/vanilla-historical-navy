@@ -10,7 +10,7 @@ units= {
 			location = 241  # Wilhemshaven
 			ship = { name = "Deutschland" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }	
 			ship = { name = "Admiral Scheer" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
-			ship = { name = "Graf Spee" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "Admiral Graf Spee" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
 			ship = { name = "Nürnberg" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Leipzig Class" } } } 		
 			ship = { name = "Leipzig" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Leipzig Class" } } }		
 			ship = { name = "Königsberg" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			

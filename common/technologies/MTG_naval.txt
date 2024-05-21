@@ -945,6 +945,7 @@ technologies = {
 			cruiser_ship_engine_1
 			ship_airplane_launcher_1
 			ship_hull_cruiser_role_c
+			ship_hull_cruiser_role_ca
 			ship_hull_cruiser_role_ac
 			ship_hull_cruiser_role_cd
 			ship_mast_1
@@ -1284,6 +1285,9 @@ technologies = {
 			structural_aluminum
 		}
 		heavy_cruiser = {
+			build_cost_ic = -0.1
+		}
+		medium_cruiser = {
 			build_cost_ic = -0.1
 		}
 		light_cruiser = {
@@ -1705,6 +1709,10 @@ technologies = {
 			build_cost_ic = -0.05
 			armor_value = 0.1
 		}
+		medium_cruiser = {
+			build_cost_ic = -0.05
+			armor_value = 0.1
+		}
 		light_cruiser = {
 			build_cost_ic = -0.05
 			naval_speed = 0.05
@@ -1746,6 +1754,10 @@ technologies = {
 			lg_attack = 0.075
 			lg_armor_piercing = 0.05
 		}
+		medium_cruiser = {
+			lg_attack = 0.075
+			lg_armor_piercing = 0.05
+		}
 		light_cruiser = {
 			lg_attack = 0.05
 		}
@@ -1770,6 +1782,9 @@ technologies = {
 		research_cost = 0.3
 
 		heavy_cruiser = {
+			anti_air_attack = 0.1
+		}
+		medium_cruiser = {
 			anti_air_attack = 0.1
 		}
 		light_cruiser = {
@@ -1829,6 +1844,9 @@ technologies = {
 		start_year = 1944
 
 		heavy_cruiser = {
+			surface_detection = 0.05
+		}
+		medium_cruiser = {
 			surface_detection = 0.05
 		}
 		light_cruiser = {
@@ -2129,6 +2147,9 @@ technologies = {
 		battlecarrier = {
 			armor_value = 0.01
 		}
+		##! armored_cruiser = {
+		##! 	armor_value = 0.01
+		##! }
 
 		folder = {
 			name = mtgnavalfolder
@@ -2170,6 +2191,9 @@ technologies = {
 		battlecarrier = {
 			armor_value = 0.04
 		}
+		##! armored_cruiser = {
+		##! 	armor_value = 0.04
+		##! }
 
 		folder = {
 			name = mtgnavalfolder
@@ -2215,6 +2239,9 @@ technologies = {
 		battlecarrier = {
 			armor_value = 0.05
 		}
+		##! armored_cruiser = {
+		##! 	armor_value = 0.05
+		##! }
 
 		folder = {
 			name = mtgnavalfolder
@@ -2240,6 +2267,9 @@ technologies = {
 		start_year = 1932
 
 		heavy_cruiser = {
+			armor_value = 0.05
+		}
+		medium_cruiser = {
 			armor_value = 0.05
 		}
 		light_cruiser = {
@@ -4987,7 +5017,7 @@ technologies = {
 
 	basic_ballast_tank = {
 		research_cost = 0.5
-		sub_retreat_speed = 0.05
+		sub_retreat_speed = 0.1
 
 		start_year = 1930
 
@@ -5007,7 +5037,7 @@ technologies = {
 	}
 	improved_ballast_tank = {
 		research_cost = 0.5
-		sub_retreat_speed = 0.05
+		sub_retreat_speed = 0.1
 
 		start_year = 1941
 

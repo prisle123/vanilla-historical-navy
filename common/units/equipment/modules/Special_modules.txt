@@ -82,4 +82,30 @@ equipment_modules = {
 		dismantle_cost_ic = 1000
 		critical_parts = { damaged_secondaries }
 	}
+
+	ger_11in_c34_triple = {
+		category = ship_heavy_battery_triple
+		gfx = ship_heavy_battery_big_1_triple
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		add_stats = {
+			surface_visibility = 0.6
+			hg_attack = 7
+			build_cost_ic = 450
+		}
+		multiply_stats = {
+			naval_speed = -0.015
+			max_strength = 0.04
+		}
+		add_average_stats = {
+			hg_armor_piercing = 32
+		}
+		
+		dismantle_cost_ic = 260
+		critical_parts = { damaged_heavy_guns }
+		forbid_module_categories = {
+		    ship_depth_charge
+			ship_mine_layer
+		}
+	}
 }

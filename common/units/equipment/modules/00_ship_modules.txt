@@ -1191,13 +1191,12 @@ equipment_modules = {
 		category = ship_medium_battery
 		gui_category = ship_medium_battery_multi
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 3
 			lg_attack = 1.5
 			build_cost_ic = 600
-			surface_visibility = 0.25
-			max_strength = 15
+			surface_visibility = 0.5
+			max_strength = 7.5
 		}
 		multiply_stats = {
 			naval_speed = -0.03
@@ -1218,13 +1217,12 @@ equipment_modules = {
 		parent = ship_medium_battery_1
 		sfx = sfx_ui_sd_module_turret
 
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 4
 			lg_attack = 2.5
 			build_cost_ic = 700
-			surface_visibility = 0.25
-			max_strength = 18
+			surface_visibility = 0.5
+			max_strength = 9
 		}
 		multiply_stats = {
 			naval_speed = -0.04
@@ -1243,15 +1241,14 @@ equipment_modules = {
 		category = ship_medium_battery
 		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_2
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
 			hg_attack = 5.5
 			lg_attack = 4.5
 			build_cost_ic = 800
-			surface_visibility = 0.25
-			max_strength = 21
+			surface_visibility = 0.5
+			max_strength = 10.5
 		}
 		multiply_stats = {
 			naval_speed = -0.05
@@ -1270,15 +1267,14 @@ equipment_modules = {
 		category = ship_medium_battery
 		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_3
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
 			hg_attack = 7
 			lg_attack = 5.5
 			build_cost_ic = 900
-			surface_visibility = 0.25
-			max_strength = 24
+			surface_visibility = 0.5
+			max_strength = 12
 		}
 		multiply_stats = {
 			naval_speed = -0.06
@@ -1298,13 +1294,12 @@ equipment_modules = {
 		category = ship_medium_battery_double
 		gui_category = ship_medium_battery_multi
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 2
 			lg_attack = 1.2
 			build_cost_ic = 450
-			surface_visibility = 0.25
-			max_strength = 10
+			surface_visibility = 0.5
+			max_strength = 5
 		}
 		multiply_stats = {
 			naval_speed = -0.025
@@ -1325,13 +1320,12 @@ equipment_modules = {
 		parent = ship_medium_battery_1_double
 		sfx = sfx_ui_sd_module_turret
 
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 3
 			lg_attack = 2.2
 			build_cost_ic = 550
-			surface_visibility = 0.25
-			max_strength = 13
+			surface_visibility = 0.5
+			max_strength = 6.5
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -1350,15 +1344,14 @@ equipment_modules = {
 		category = ship_medium_battery_double
 		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_2_double
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
 			hg_attack = 4
 			lg_attack = 3
 			build_cost_ic = 650
-			surface_visibility = 0.25
-			max_strength = 16
+			surface_visibility = 0.5
+			max_strength = 8
 		}
 		multiply_stats = {
 			naval_speed = -0.045
@@ -1377,15 +1370,14 @@ equipment_modules = {
 		category = ship_medium_battery_double
 		gui_category = ship_medium_battery_multi
 		parent = ship_medium_battery_3_double
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
 			hg_attack = 5
 			lg_attack = 3.8
 			build_cost_ic = 750
-			surface_visibility = 0.25
-			max_strength = 19
+			surface_visibility = 0.5
+			max_strength = 9.5
 		}
 		multiply_stats = {
 			naval_speed = -0.055
@@ -1405,13 +1397,12 @@ equipment_modules = {
 		category = ship_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 		sfx = sfx_ui_sd_module_turret
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 1.5
 			lg_attack = 0.8
 			build_cost_ic = 300
-			surface_visibility = 0.2
-			max_strength = 8
+			surface_visibility = 0.4
+			max_strength = 4
 		}
 		multiply_stats = {
 			naval_speed = -0.025
@@ -1431,13 +1422,12 @@ equipment_modules = {
 		parent = ship_medium_battery_1_single
 		sfx = sfx_ui_sd_module_turret
 
-		add_equipment_type = capital_ship
 		add_stats = {
 			hg_attack = 2
 			lg_attack = 1.5
 			build_cost_ic = 400
-			surface_visibility = 0.2
-			max_strength = 10
+			surface_visibility = 0.4
+			max_strength = 5
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -1455,15 +1445,14 @@ equipment_modules = {
 		category = ship_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 		parent = ship_medium_battery_2_single
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
 			hg_attack = 3
 			lg_attack = 2
 			build_cost_ic = 500
-			surface_visibility = 0.2
-			max_strength = 12
+			surface_visibility = 0.4
+			max_strength = 6
 		}
 		multiply_stats = {
 			naval_speed = -0.045
@@ -1481,15 +1470,14 @@ equipment_modules = {
 		category = ship_medium_battery_single
 		gui_category = ship_light_medium_battery_single
 		parent = ship_medium_battery_3_single
-		add_equipment_type = capital_ship
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
 			hg_attack = 4
 			lg_attack = 3
 			build_cost_ic = 600
-			surface_visibility = 0.2
-			max_strength = 14
+			surface_visibility = 0.4
+			max_strength = 7
 		}
 		multiply_stats = {
 			naval_speed = -0.055
@@ -1515,9 +1503,9 @@ equipment_modules = {
 			hg_attack = 4
 			lg_attack = 2
 			build_cost_ic = 750
-			surface_visibility = 0.3
+			surface_visibility = 1
 			reliability = -0.05
-			max_strength = 18
+			max_strength = 15
 		}
 		multiply_stats = {
 			naval_speed = -0.06
@@ -1547,9 +1535,9 @@ equipment_modules = {
 			hg_attack = 5
 			lg_attack = 3
 			build_cost_ic = 850
-			surface_visibility = 0.3
+			surface_visibility = 1
 			reliability = -0.05
-			max_strength = 22
+			max_strength = 18
 		}
 		multiply_stats = {
 			naval_speed = -0.07
@@ -1580,9 +1568,9 @@ equipment_modules = {
 			hg_attack = 6
 			lg_attack = 3
 			build_cost_ic = 900
-			surface_visibility = 0.3
+			surface_visibility = 1
 			reliability = -0.05
-			max_strength = 20
+			max_strength = 16
 		}
 		multiply_stats = {
 			naval_speed = -0.08
@@ -1612,9 +1600,9 @@ equipment_modules = {
 			hg_attack = 7.5
 			lg_attack = 4
 			build_cost_ic = 1000
-			surface_visibility = 0.3
+			surface_visibility = 1
 			reliability = -0.05
-			max_strength = 24
+			max_strength = 20
 		}
 		multiply_stats = {
 			naval_speed = -0.1
@@ -5094,6 +5082,7 @@ equipment_modules = {
 ### carrier flight deck
 	carrier_armor_deck = {
 		category = ship_flight_deck
+		add_equipment_type = capital_ship
 		
 		add_stats = {
 			reliability = 0.1
@@ -5113,6 +5102,7 @@ equipment_modules = {
 	}
 	carrier_wooden_deck = {
 		category = ship_flight_deck
+		add_equipment_type = capital_ship
 
 		multiply_stats = {
 			naval_speed = 0.01
@@ -5175,7 +5165,6 @@ equipment_modules = {
 	}
 	ship_carrier_armor_heavy = {
 		category = ship_carrier_armor_heavy
-		add_equipment_type = capital_ship
 		gfx = ship_heavy_armor
 		
 		multiply_stats = {
@@ -5510,6 +5499,19 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_c = {
 		category = c_role
+		add_equipment_type = screen_ship
+		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_cruiser_heavy_armor
+			ship_missile
+			ship_missile_aa
+			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_ca = {
+		category = c_role
+		add_equipment_type = capital_ship
 		forbid_module_categories = {
 			ship_medium_heavy_battery_triple
 			ship_medium_heavy_battery_double
@@ -5521,9 +5523,9 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_cb = {
 		category = c_role
+		add_equipment_type = capital_ship
 		multiply_stats = {
 			naval_range = 0.1
-			surface_visibility = 0.1
 			build_cost_ic = 0.1
 		}
 		forbid_module_categories = {
@@ -5621,6 +5623,7 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_ac = {
 		category = cds_role
+		add_equipment_type = capital_ship
 		multiply_stats = {
 			naval_range = 0.5
 		}

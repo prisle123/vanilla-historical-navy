@@ -1,4 +1,4 @@
-version="v1.6 - Furinkazan"
+version="v1.7 - Atlantis"
 tags={
 	"Military"
 	"Graphics"

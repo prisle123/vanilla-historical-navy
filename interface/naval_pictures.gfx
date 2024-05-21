@@ -61,6 +61,10 @@ spriteTypes = {
 		name = "GFX_naval_lore_chi"
 		texturefile = "gfx/event_pictures/VNR/chi_ship.png"
 	}
+	spriteType = {
+		name = "GFX_naval_lore_ast"
+		texturefile = "gfx/event_pictures/VNR/ast_ship.png"
+	}
 	
 	spriteType = {
 		name = "GFX_vnr_eng_flag"
@@ -93,5 +97,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_vnr_chi_flag"
 		texturefile = "gfx/event_pictures/flag_icons/chi_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_ast_flag"
+		texturefile = "gfx/event_pictures/flag_icons/ast_flag.png"
 	}
 }

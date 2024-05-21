@@ -161,7 +161,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_front_medium_battery"
+						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery"
 						position = { x=385 y=0 }
 					}
 				}
@@ -172,7 +172,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_front_medium_battery@highlight"
+						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery@highlight"
 						position = { x=385 y=0 }
 					}
 				}
@@ -535,7 +535,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_2_medium_battery"
+						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery"
 						position = { x=330 y=0 }
 					}
 				}
@@ -547,7 +547,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_rear_2_medium_battery@highlight"
+						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery@highlight"
 						position = { x=330 y=0 }
 					}
 				}
@@ -760,7 +760,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_fixed_medium_battery"
+						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery"
 						position = { x=360 y=0 }
 					}
 				}
@@ -772,7 +772,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_fixed_medium_battery@highlight"
+						spriteType = "GFX_SM_cruiser_hull_fixed_triple_medium_battery@highlight"
 						position = { x=360 y=0 }
 					}
 				}
@@ -1460,7 +1460,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_1_medium_battery"
+						spriteType = "GFX_SM_cruiser_hull_rear_triple_medium_battery"
 						position = { x=180 y=0 }
 					}
 				}
@@ -1471,7 +1471,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_rear_1_medium_battery@highlight"
+						spriteType = "GFX_SM_cruiser_hull_rear_triple_medium_battery@highlight"
 						position = { x=180 y=0 }
 					}
 				}
@@ -1930,7 +1930,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_1_medium_battery"
+						spriteType = "GFX_SM_cruiser_hull_rear_triple_medium_battery"
 						position = { x=152 y=0 }
 					}
 				}
@@ -1941,7 +1941,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_rear_1_medium_battery@highlight"
+						spriteType = "GFX_SM_cruiser_hull_rear_triple_medium_battery@highlight"
 						position = { x=152 y=0 }
 					}
 				}
@@ -2562,7 +2562,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_1_medium_battery"
+						spriteType = "GFX_SM_cruiser_hull_rear_triple_medium_battery"
 						position = { x=150 y=0 }
 					}
 				}
@@ -2573,7 +2573,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_1_medium_battery@highlight"
+						spriteType = "GFX_SM_cruiser_hull_rear_triple_medium_battery@highlight"
 						position = { x=150 y=0 }
 					}
 				}
@@ -3031,7 +3031,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_2_medium_battery"
+						spriteType = "GFX_SM_cruiser_hull_rear_triple_medium_battery"
 						position = { x=105 y=0 }
 					}
 				}
@@ -3042,7 +3042,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_2_medium_battery@highlight"
+						spriteType = "GFX_SM_cruiser_hull_rear_triple_medium_battery@highlight"
 						position = { x=105 y=0 }
 					}
 				}
