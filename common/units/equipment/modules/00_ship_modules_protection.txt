@@ -1,16 +1,15 @@
+## armors and protection solutions
+
 equipment_modules = {
     limit = {
         has_dlc = "Man the Guns"
     }
 
 
- ##   ###   #  #   ##   ###         ###   #      ##  #####  #### 
-#  #  #  #  ####  #  #  #  #        #  #  #     #  #   #    #    
-#  #  ###   ####  #  #  ###         ###   #     #  #   #    ###  
-####  # #   #  #  #  #  # #         #     #     ####   #    #    
-#  #  #  #  #  #   ##   #  #        #     ####  #  #   #    ####
-
-	ship_armor_bb_1 = {
+########################
+##  ARMOR PLATE (BB)  ##
+########################
+    ship_armor_bb_1 = {
 		abbreviation = "sde"
 		category = ship_heavy_armor
 		gfx = ship_armor_thick_1
@@ -344,6 +343,10 @@ equipment_modules = {
 		}
 	}
 
+
+#############################
+##  ARMOR PLATE (Cruiser)  ##
+#############################
     ship_armor_cruiser_1 = {
 		abbreviation = "sdl"
 		category = ship_cruiser_armor
@@ -561,12 +564,9 @@ equipment_modules = {
 	}
 
 
- ##   ###   #  #   ##   ###          ###   ###  #  #  ####  #  #  #### 
-#  #  #  #  ####  #  #  #  #        #     #     #  #  #     ####  #    
-#  #  ###   ####  #  #  ###          ##   #     ####  ###   ####  ###  
-####  # #   #  #  #  #  # #            #  #     #  #  #     #  #  #    
-#  #  #  #  #  #   ##   #  #        ###    ###  #  #  ####  #  #  #### 
-
+####################
+##  ARMOR SCHEME  ##
+####################
     ship_scheme_incremental = {
 		category = armor_scheme
 		
@@ -670,12 +670,10 @@ equipment_modules = {
 	}
 
 
-#####  ###    ### 
-  #    #  #  #    
-  #    #  #   ##  
-  #    #  #     # 
-  #    ###   ### 
 
+##############################
+##  TORPEDO DEFENSE SYSTEM  ##
+##############################
     torpedo_bulge = {
 		category = torpedo_defense_system
 		
@@ -743,5 +741,123 @@ equipment_modules = {
 			convert_cost_ic = 1100
 		}
 		dismantle_cost_ic = 3000
+	}
+
+
+######################
+##  SUBMARINE HULL  ##
+######################
+    pressure_hull_1 = {
+		category = pressure_hull
+
+		add_stats = {
+			build_cost_ic = 100
+		}
+		multiply_stats = {
+			max_strength = 0.05
+			sub_visibility = -0.05
+		}
+		can_convert_from = {
+			module_category = pressure_hull
+			convert_cost_ic = 80
+		}
+	}
+	pressure_hull_2 = {
+		category = pressure_hull
+		parent = pressure_hull_1
+
+		add_stats = {
+			build_cost_ic = 150
+		}
+		multiply_stats = {
+			max_strength = 0.1
+			sub_visibility = -0.075
+		}
+
+		can_convert_from = {
+			module_category = pressure_hull
+			convert_cost_ic = 120
+		}
+	}
+	pressure_hull_3 = {
+		category = pressure_hull
+		parent = pressure_hull_2
+
+		add_stats = {
+			build_cost_ic = 200
+		}
+		multiply_stats = {
+			max_strength = 0.15
+			sub_visibility = -0.1
+		}
+		can_convert_from = {
+			module_category = pressure_hull
+			convert_cost_ic = 160
+		}
+	}
+	pressure_hull_4 = {
+		category = pressure_hull
+		parent = pressure_hull_3
+
+		add_stats = {
+			build_cost_ic = 300
+		}
+		multiply_stats = {
+			max_strength = 0.2
+			sub_visibility = -0.125
+		}
+		can_convert_from = {
+			module_category = pressure_hull
+			convert_cost_ic = 240
+		}
+	}
+	anechoic_tile_1 = {
+		category = sub_ship_stealth
+		add_stats = {
+			reliability = -0.15
+		}
+		multiply_stats = {
+			sub_visibility = -0.1
+			build_cost_ic = 0.2
+		}
+		dismantle_cost_ic = 750
+	}
+
+
+
+##################
+##  CAMOUFLAGE  ##
+##################
+    ship_cruiser_camo_1 = {
+		category = raider_kit
+		
+		multiply_stats = {
+			surface_visibility = -0.05
+			build_cost_ic = 0.02
+		}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+		}
+	}
+	ship_cruiser_camo_2 = {
+		category = raider_kit
+		
+		multiply_stats = {
+			lg_attack = -0.2
+			lg_armor_piercing = -0.2
+			hg_attack = -1
+			hg_armor_piercing = -1
+			anti_air_attack = -0.5
+			torpedo_attack = -0.8
+			surface_visibility = -0.2
+			build_cost_ic = 0.02
+		}
+		
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
+		}
 	}
 }

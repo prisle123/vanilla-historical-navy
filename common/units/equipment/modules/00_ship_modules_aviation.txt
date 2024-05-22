@@ -1,14 +1,15 @@
+## Carrier modules related to aviation
+
 equipment_modules = {
     limit = {
         has_dlc = "Man the Guns"
     }
 
-###  ###  ##  # #      ## ###   ##   ##  ### 
-#  # #   #  # # #     #   #  # #  # #  # #   
-#  # ##  #    ##       #  ###  #### #    ##  
-#  # #   #  # # #       # #    #  # #  # #   
-###  ###  ##  # #     ##  #    #  #  ##  ### 
-	ship_deck_space_more = {
+
+##################
+##  DECK SPACE  ##
+##################
+    ship_deck_space_more = {
 		category = ship_deck_space
 
 		add_equipment_type = capital_ship
@@ -127,11 +128,9 @@ equipment_modules = {
 	}
 
 
-####  #     ###    ###  #  # #####        ###   ####   ###  #  # 
-#     #      #    #     #  #   #          #  #  #     #     # #  
-###   #      #    # ##  ####   #          #  #  ###   #     ##   
-#     #      #    #  #  #  #   #          #  #  #     #     # #  
-#     ####  ###    ###  #  #   #          ###   ####   ###  #  # 
+###################
+##  FLIGHT DECK  ##
+###################
     carrier_armor_deck = {
 		category = ship_flight_deck
 		add_equipment_type = capital_ship
@@ -163,15 +162,12 @@ equipment_modules = {
 		dismantle_cost_ic = 1500
 
 		critical_parts = { damaged_wooden_flight_deck }
-	}
+	}	
 
 
-#  #   ##   ###   ####  ###   #  #        ####   ##   #  #  ###   ###  
-####  #  #  #  #  #     #  #  ## #        #     #  #  #  #   #    #  # 
-####  #  #  #  #  ###   ###   # ##        ###   #  #  #  #   #    ###  
-#  #  #  #  #  #  #     # #   #  #        #     #  #  #  #   #    #    
-#  #   ##   ###   ####  #  #  #  #        ####   ##    ##   ###   #    
-                                                  ##                   
+############################
+##  MODERN CARRIER EQUIP  ##
+############################
     ship_airplane_launcher_3 = {
 		category = steam_catapult
 		gui_category = modern_carrier_equipments
@@ -186,6 +182,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 800
 	}
+
+
 	side_lift = {
 		category = carrier_side_lift
 		gui_category = modern_carrier_equipments
@@ -202,6 +200,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 400
 	}
+
 	angled_deck = {
 		category = carrier_angled_deck
 		gui_category = modern_carrier_equipments
@@ -240,5 +239,119 @@ equipment_modules = {
 			reliability = 0.15
 		}
 		dismantle_cost_ic = 4500
+	}
+
+
+
+#############################
+##  CARRIER MISCELLANEOUS  ##
+#############################
+	carrier_aviation_control_unit = {
+		category = carrier_unit
+		add_stats = {
+			max_organisation = 0.2
+		}
+		multiply_stats = {
+			anti_air_attack = 0.05
+			build_cost_ic = 0.05
+		}
+	}
+	carrier_damage_control_unit = {
+		category = carrier_unit
+		add_stats = {
+			reliability = 0.1
+		}
+		multiply_stats = {
+			build_cost_ic = 0.05
+		}
+	}
+	carrier_scouting_unit = {
+		category = carrier_unit
+		add_stats = {
+			build_cost_ic = 400
+		}
+		multiply_stats = {
+			surface_detection = 0.15
+			sub_detection = 0.15
+		}
+	}
+	carrier_spared_squad = {
+		category = carrier_unit
+		add_stats = {
+			carrier_size = 1
+		}
+		manpower = 100
+		multiply_stats = {
+			anti_air_attack = 0.03
+			build_cost_ic = 0.075
+		}
+		add_stats = {
+			reliability = -0.05
+		}
+	}
+	carrier_fuel_storage = {
+		category = carrier_miscellaneous
+		add_stats = {
+			reliability = -0.05
+			supply_consumption = -0.02
+		}
+		multiply_stats = {
+			naval_range = 0.2
+			fuel_consumption = 0.1
+			build_cost_ic = 0.08
+		}
+	}
+	carrier_civilian_material = {
+		category = carrier_miscellaneous
+		add_stats = {
+			reliability = -0.15
+		}
+		multiply_stats = {
+			armor_value = -0.25
+			max_strength = -0.25
+			anti_air_attack = -0.4
+			naval_speed = -0.25
+			naval_range = -0.2
+			build_cost_ic = -0.2
+		}
+	}
+	carrier_secondary_island = {
+		category = carrier_miscellaneous
+		add_stats = {
+			max_organisation = 0.1
+			reliability = -0.05
+			build_cost_ic = 200
+		}
+		multiply_stats = {
+			surface_detection = 0.05
+			anti_air_attack = 0.025
+			naval_speed = -0.025
+			naval_torpedo_damage_reduction_factor = 0.01
+		}
+	}
+	carrier_strength_deck = {
+		category = carrier_miscellaneous
+		add_stats = {
+			reliability = 0.1
+			max_strength = 100
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.025
+			armor_value = 0.1
+			build_cost_ic = 0.1
+		}
+	}
+	carrier_tracing_unit = {
+		category = carrier_unit
+		add_stats = {
+			build_cost_ic = 800
+		}
+		multiply_stats = {
+			surface_detection = 0.3
+			sub_detection = 0.2
+		}
 	}
 }
