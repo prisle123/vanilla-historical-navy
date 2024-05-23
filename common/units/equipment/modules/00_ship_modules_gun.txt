@@ -874,13 +874,13 @@ equipment_modules = {
 			lg_attack = 2
 			build_cost_ic = 350
 			naval_light_gun_hit_chance_factor = 0.005
+			max_strength = 4
 		}
 		multiply_stats = {
 			naval_speed = -0.02
 		}
 		add_average_stats = {
 			lg_armor_piercing = 9
-			max_strength = 10
 		}
 
 		dismantle_cost_ic = 105
@@ -897,13 +897,13 @@ equipment_modules = {
 			lg_attack = 3.5
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.006
+			max_strength = 5.5
 		}
 		multiply_stats = {
 			naval_speed = -0.03
 		}
 		add_average_stats = {
 			lg_armor_piercing = 11
-			max_strength = 12
 		}
 
 		dismantle_cost_ic = 120
@@ -920,13 +920,13 @@ equipment_modules = {
 			lg_attack = 5.5
 			build_cost_ic = 450
 			naval_light_gun_hit_chance_factor = 0.007
+			max_strength = 7
 		}
 		multiply_stats = {
 			naval_speed = -0.04
 		}
 		add_average_stats = {
 			lg_armor_piercing = 13
-			max_strength = 14
 		}
 
 		dismantle_cost_ic = 135
@@ -942,13 +942,13 @@ equipment_modules = {
 			lg_attack = 7
 			build_cost_ic = 500
 			naval_light_gun_hit_chance_factor = 0.008
+			max_strength = 8.5
 		}
 		multiply_stats = {
 			naval_speed = -0.05
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
-			max_strength = 16
 		}
 
 		dismantle_cost_ic = 150
@@ -967,13 +967,13 @@ equipment_modules = {
 			lg_attack = 1.5
 			build_cost_ic = 250
 			naval_light_gun_hit_chance_factor = 0.005
+			max_strength = 3
 		}
 		multiply_stats = {
 			naval_speed = -0.015
 		}
 		add_average_stats = {
 			lg_armor_piercing = 9
-			max_strength = 6
 		}
 
 		dismantle_cost_ic = 75
@@ -990,13 +990,13 @@ equipment_modules = {
 			lg_attack = 2.5
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.006
+			max_strength = 4.5
 		}
 		multiply_stats = {
 			naval_speed = -0.025
 		}
 		add_average_stats = {
 			lg_armor_piercing = 11
-			max_strength = 8
 		}
 
 		dismantle_cost_ic = 97.5
@@ -1013,13 +1013,13 @@ equipment_modules = {
 			lg_attack = 3.5
 			build_cost_ic = 375
 			naval_light_gun_hit_chance_factor = 0.007
+			max_strength = 6
 		}
 		multiply_stats = {
 			naval_speed = -0.035
 		}
 		add_average_stats = {
 			lg_armor_piercing = 13
-			max_strength = 10
 		}
 
 		dismantle_cost_ic = 112.5
@@ -1035,13 +1035,13 @@ equipment_modules = {
 			lg_attack = 4.5
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.008
+			max_strength = 7.5
 		}
 		multiply_stats = {
 			naval_speed = -0.045
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
-			max_strength = 12
 		}
 
 		dismantle_cost_ic = 120
@@ -1060,13 +1060,13 @@ equipment_modules = {
 			lg_attack = 1.2
 			build_cost_ic = 225
 			naval_light_gun_hit_chance_factor = 0.001
+			max_strength = 2
 		}
 		multiply_stats = {
 			naval_speed = -0.015
 		}
 		add_average_stats = {
 			lg_armor_piercing = 7
-			max_strength = 5
 		}
 
 		dismantle_cost_ic = 67.5
@@ -1083,13 +1083,13 @@ equipment_modules = {
 			lg_attack = 2
 			build_cost_ic = 250
 			naval_light_gun_hit_chance_factor = 0.002
+			max_strength = 3.5
 		}
 		multiply_stats = {
 			naval_speed = -0.025
 		}
 		add_average_stats = {
 			lg_armor_piercing = 9
-			max_strength = 7
 		}
 
 		dismantle_cost_ic = 75
@@ -1106,13 +1106,13 @@ equipment_modules = {
 			lg_attack = 3
 			build_cost_ic = 275
 			naval_light_gun_hit_chance_factor = 0.003
+			max_strength = 5
 		}
 		multiply_stats = {
 			naval_speed = -0.035
 		}
 		add_average_stats = {
 			lg_armor_piercing = 11
-			max_strength = 9
 		}
 
 		dismantle_cost_ic = 82.5
@@ -1128,13 +1128,13 @@ equipment_modules = {
 			lg_attack = 4
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.004
+			max_strength = 6.5
 		}
 		multiply_stats = {
 			naval_speed = -0.045
 		}
 		add_average_stats = {
 			lg_armor_piercing = 13
-			max_strength = 11
 		}
 
 		dismantle_cost_ic = 97.5
@@ -1152,6 +1152,7 @@ equipment_modules = {
 			anti_air_attack = 2
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.007
+			max_strength = 8
 		}
 
 		multiply_stats = {
@@ -1160,7 +1161,6 @@ equipment_modules = {
 		
 		add_average_stats = {
 			lg_armor_piercing = 15
-			max_strength = 14
 		}
 		
 		dismantle_cost_ic = 120
