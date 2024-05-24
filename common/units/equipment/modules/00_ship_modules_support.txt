@@ -845,7 +845,7 @@ equipment_modules = {
 ##  MISCELLANEOUS  ##
 #####################
     ship_radar_jammer = {
-		category = heavy_miscellaneous
+		category = generic_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
 			surface_visibility = -0.1
