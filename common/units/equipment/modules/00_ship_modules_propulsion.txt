@@ -975,6 +975,7 @@ equipment_modules = {
 		gui_category = heavy_ship_engine
 		gfx = heavy_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
+		parent = super_heavy_ship_engine_1
 
 		add_stats = {
 			fuel_consumption = 30
@@ -1001,6 +1002,7 @@ equipment_modules = {
 		gui_category = heavy_ship_engine
 		gfx = heavy_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
+		parent = super_heavy_ship_engine_2
 
 		add_stats = {
 			fuel_consumption = 40
