@@ -51,7 +51,7 @@ equipments = {
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
-				allowed_module_categories = { ship_airplane_launcher heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { ship_airplane_launcher generic_miscellaneous }
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
@@ -136,14 +136,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 4
-		}
-		module_count_limit = {
-			category = generic_miscellaneous
-			count < 2
-		}
-		module_count_limit = {
-			category = heavy_miscellaneous
-			count < 2
 		}
 
 		default_modules = {
@@ -307,7 +299,7 @@ equipments = {
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
-				allowed_module_categories = { ship_airplane_launcher heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { ship_airplane_launcher generic_miscellaneous }
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
@@ -638,7 +630,7 @@ equipments = {
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
-				allowed_module_categories = { ship_airplane_launcher heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { ship_airplane_launcher generic_miscellaneous }
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
