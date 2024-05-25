@@ -58,7 +58,7 @@ equipments = {
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
-				allowed_module_categories = { ship_airplane_launcher }
+				allowed_module_categories = { ship_airplane_launcher seaplane_hangar }
 			}
 			fixed_ship_role_slot = {
 				required = yes
@@ -409,7 +409,7 @@ equipments = {
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
-				allowed_module_categories = { ship_airplane_launcher }
+				allowed_module_categories = { ship_airplane_launcher seaplane_hangar }
 			}
 			fixed_ship_role_slot = {
 				required = yes

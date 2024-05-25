@@ -1457,6 +1457,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_airplane_launcher_2
+			seaplane_hangar
 		}
 		on_research_complete = {
 			custom_effect_tooltip = airplane_launcher_advice_tt
