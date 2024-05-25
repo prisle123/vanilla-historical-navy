@@ -887,6 +887,11 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = 0.005
 			build_cost_ic = -0.05
 		}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
+		}
 	}
 	ship_super_heavy_weight_shell = {
 		category = heavy_miscellaneous
@@ -896,6 +901,11 @@ equipment_modules = {
 			hg_armor_piercing = 0.05
 			naval_heavy_gun_hit_chance_factor = -0.01
 			build_cost_ic = 0.05
+		}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 		}
 	}
 	ship_high_velocity_shell = {
@@ -908,6 +918,11 @@ equipment_modules = {
 			hg_armor_piercing = 0.075
 			naval_heavy_gun_hit_chance_factor = 0.01
 			build_cost_ic = 0.065
+		}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 		}
 	}
 	ship_anti_air_shell = {
