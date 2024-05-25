@@ -162,6 +162,7 @@ naval_sub = {
 
 	# expert AI
 	submarine_1936_expert = {
+		name = vnr_ss_1936_expert
 		role_icon_index = 37
 
 		priority = {
@@ -187,6 +188,7 @@ naval_sub = {
 		}
 	}
 	submarine_1940_expert = {
+		name = vnr_ss_1940_expert
 		role_icon_index = 37
 
 		priority = {
@@ -214,6 +216,7 @@ naval_sub = {
 		}
 	}
 	submarine_1944_expert = {
+		name = vnr_ss_1944_expert
 		role_icon_index = 37
 		priority = {
 			base = 50
@@ -241,6 +244,7 @@ naval_sub = {
 		}
 	}
 	submarine_1947_expert = {
+		name = vnr_ss_1947_expert
 		role_icon_index = 37
 		priority = {
 			base = 0

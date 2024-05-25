@@ -179,6 +179,7 @@ naval_cruiser_medium = {
 
 	# expert AI
 	medium_cruiser_1946_expert = {
+		name = vnr_cam_1946_expert
 		role_icon_index = 55
 
 		priority = {
@@ -209,6 +210,7 @@ naval_cruiser_medium = {
 		}
 	}
 	medium_cruiser_1949_expert = {
+		name = vnr_cam_1949_expert
 		role_icon_index = 55
 
 		priority = {

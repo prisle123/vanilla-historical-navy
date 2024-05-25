@@ -208,6 +208,7 @@ naval_cruiser_light = {
 	
 	# expert AI
 	light_cruiser_1936_expert = {
+		name = vnr_cl_1936_expert
 		role_icon_index = 25
 
 		priority = {
@@ -238,6 +239,7 @@ naval_cruiser_light = {
 		}
 	}
 	light_cruiser_1940_expert = {
+		name = vnr_cl_1940_expert
 		role_icon_index = 25
 
 		priority = {
@@ -270,6 +272,7 @@ naval_cruiser_light = {
 		}
 	}
 	light_cruiser_1944_expert = {
+		name = vnr_cl_1944_expert
 		role_icon_index = 25
 
 		priority = {
