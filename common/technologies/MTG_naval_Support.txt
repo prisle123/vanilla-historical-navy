@@ -459,6 +459,8 @@ technologies = {
 			ship_light_medium_battery_2
 			ship_light_medium_battery_2_double
 			ship_light_medium_battery_2_single
+			ship_medium_heavy_battery_1
+			ship_medium_heavy_battery_1_double
 			ship_secondaries_2
 
 			sub_battery_1
@@ -557,9 +559,9 @@ technologies = {
 			ship_light_medium_battery_3
 			ship_light_medium_battery_3_double
 			ship_light_medium_battery_3_single
+			
 			ship_secondaries_3
-			ship_medium_heavy_battery_1
-			ship_medium_heavy_battery_1_double
+			
 		}
 
 
@@ -651,9 +653,9 @@ technologies = {
 			ship_light_medium_battery_4
 			ship_light_medium_battery_4_double
 			ship_light_medium_battery_4_single
-			ship_secondaries_4
 			ship_medium_heavy_battery_2
 			ship_medium_heavy_battery_2_double
+			ship_secondaries_4
 		}
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
