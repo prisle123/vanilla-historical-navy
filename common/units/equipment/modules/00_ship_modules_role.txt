@@ -125,6 +125,9 @@ equipment_modules = {
     ship_hull_cruiser_role_c = {
 		category = c_role
 		add_equipment_type = screen_ship
+		multiply_stats = {
+			naval_heavy_gun_hit_chance_factor = -0.75
+		}
 		forbid_module_categories = {
 			ship_medium_heavy_battery_triple
 			ship_medium_heavy_battery_double
@@ -163,6 +166,7 @@ equipment_modules = {
 		category = c_role
 		multiply_stats = {
 			anti_air_attack = 0.1
+			naval_heavy_gun_hit_chance_factor = -0.75
 			build_cost_ic = 0.1
 		}
 		forbid_module_categories = {
@@ -180,6 +184,7 @@ equipment_modules = {
 			max_strength = -0.1
 			armor_value = -0.1
 			naval_speed = 0.05
+			naval_heavy_gun_hit_chance_factor = -0.75
 			build_cost_ic = -0.1
 		}
 		forbid_module_categories = {
@@ -204,6 +209,7 @@ equipment_modules = {
 			armor_value = -0.2
 			naval_range = 0.4
 			surface_visibility = -0.05
+			naval_heavy_gun_hit_chance_factor = -0.75
 			build_cost_ic = -0.15
 		}
 		forbid_module_categories = {
@@ -238,6 +244,7 @@ equipment_modules = {
 		multiply_stats = {
 			surface_detection = 0.1
 			sub_detection = 0.1
+			naval_heavy_gun_hit_chance_factor = -0.75
 			build_cost_ic = 0.075
 		}
 		forbid_module_categories = {
@@ -257,6 +264,7 @@ equipment_modules = {
 		category = cds_role
 		multiply_stats = {
 			naval_speed = -0.2
+			naval_heavy_gun_hit_chance_factor = -0.75
 			build_cost_ic = -0.2
 		}
 	}
