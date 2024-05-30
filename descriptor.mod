@@ -1,4 +1,4 @@
-version="v1.7 - Atlantis"
+version="v1.8 - Mirage"
 tags={
 	"Military"
 	"Graphics"
