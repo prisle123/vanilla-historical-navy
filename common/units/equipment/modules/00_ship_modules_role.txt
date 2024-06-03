@@ -1,0 +1,270 @@
+## All the roles
+
+equipment_modules = {
+    limit = {
+        has_dlc = "Man the Guns"
+    }
+
+
+######################
+##  DESTROYER ROLE  ##
+######################
+    ship_hull_light_role_dd = {
+    	category = dd_role
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
+			ship_missile_aa
+			ship_missile
+		}
+	}
+	ship_hull_light_role_dl = {
+    	category = dd_role
+    	multiply_stats = {
+        	lg_attack = 0.1
+        	lg_armor_piercing = 0.1
+        	max_strength = 0.1
+			naval_range = 0.2
+			surface_visibility = 0.25
+        	build_cost_ic = 0.1
+    	}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
+			ship_missile_aa
+			ship_missile
+		}
+	}
+	ship_hull_light_role_de = {
+    	category = dd_role
+    	multiply_stats = {
+	        lg_attack = -0.1
+    	    max_strength = -0.05
+			naval_speed = -0.3
+        	sub_detection = 0.1
+			torpedo_attack = -0.6
+			surface_visibility = -0.05
+        	build_cost_ic = -0.2
+    	}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
+			ship_missile_aa
+			ship_missile
+		}
+	}
+	ship_hull_light_role_ff = {
+    	category = dd_role
+    	multiply_stats = {
+	        lg_attack = -0.15
+			lg_armor_piercing = -0.1
+			anti_air_attack = -0.15
+    	    max_strength = -0.1
+			naval_speed = -0.4
+        	surface_visibility = -0.1
+			torpedo_attack = -0.8
+			naval_range = -0.3
+        	build_cost_ic = -0.3
+    	}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
+			ship_missile_aa
+			ship_missile
+		}
+	}
+	ship_hull_light_role_cl = {
+    	category = dd_role
+		add_stats = {
+			armor_value = 6
+		}
+    	multiply_stats = {
+        	max_strength = 0.2
+        	naval_speed = -0.1
+			naval_range = 0.4
+			surface_visibility = 0.5
+        	build_cost_ic = 0.25
+    	}
+		forbid_module_categories = {
+			ship_missile_aa
+			ship_missile
+		}
+	}
+	ship_hull_light_role_dda = {
+    	category = dd_role
+		add_stats = {
+			reliability = 0.1
+		}
+    	multiply_stats = {
+        	build_cost_ic = 0.1
+    	}
+		forbid_module_categories = {
+			ship_missile
+		}
+	}
+	ship_hull_light_role_ddg = {
+		category = dd_role
+		add_stats = {
+			reliability = 0.2
+		}
+		multiply_stats = {
+			naval_speed = 0.05
+			build_cost_ic = 0.1
+		}
+	}
+
+
+
+####################
+##  CRUISER ROLE  ##
+####################
+    ship_hull_cruiser_role_c = {
+		category = c_role
+		add_equipment_type = screen_ship
+		multiply_stats = {
+			naval_heavy_gun_hit_chance_factor = -0.75
+		}
+		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_cruiser_heavy_armor
+			ship_missile
+			ship_missile_aa
+			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_ca = {
+		category = c_role
+		add_equipment_type = capital_ship
+		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_cruiser_heavy_armor
+			ship_missile
+			ship_missile_aa
+			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_cb = {
+		category = c_role
+		add_equipment_type = capital_ship
+		multiply_stats = {
+			naval_range = 0.1
+			build_cost_ic = 0.1
+		}
+		forbid_module_categories = {
+			ship_missile
+			ship_missile_aa
+			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_aa = {
+		category = c_role
+		multiply_stats = {
+			anti_air_attack = 0.1
+			naval_heavy_gun_hit_chance_factor = -0.75
+			build_cost_ic = 0.1
+		}
+		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_cruiser_heavy_armor
+			ship_missile
+			ship_missile_aa
+			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_clc = {
+		category = c_role
+		multiply_stats = {
+			max_strength = -0.1
+			armor_value = -0.1
+			naval_speed = 0.05
+			naval_heavy_gun_hit_chance_factor = -0.75
+			build_cost_ic = -0.1
+		}
+		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_cruiser_heavy_armor
+			ship_missile
+			ship_missile_aa
+			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_rc = {
+		category = c_role
+		multiply_stats = {
+			lg_attack = -0.15
+			lg_armor_piercing = -0.15
+			hg_attack = -0.15
+			hg_armor_piercing = -0.15
+			
+			max_strength = -0.2
+			naval_speed = -0.1
+			armor_value = -0.2
+			naval_range = 0.4
+			surface_visibility = -0.05
+			naval_heavy_gun_hit_chance_factor = -0.75
+			build_cost_ic = -0.15
+		}
+		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_medium_battery
+			ship_medium_battery_double
+			ship_medium_battery_single
+			ship_cruiser_heavy_armor
+			ship_missile
+			ship_missile_aa
+			ship_airplane_launcher
+		}
+	}
+	ship_hull_cruiser_role_cg = {
+		category = c_role
+		add_equipment_type = capital_ship
+		multiply_stats = {
+			anti_air_attack = 0.1
+			build_cost_ic = 0.1
+			reliability = 0.1
+		}
+		add_stats = {
+			max_strength = 200
+		}
+		forbid_module_categories = {
+			raider_kit
+		}
+	}
+	ship_hull_cruiser_role_csr = {
+		category = c_role
+		multiply_stats = {
+			surface_detection = 0.1
+			sub_detection = 0.1
+			naval_heavy_gun_hit_chance_factor = -0.75
+			build_cost_ic = 0.075
+		}
+		forbid_module_categories = {
+			raider_kit
+			ship_missile
+			ship_missile_aa
+		}
+	}
+	ship_hull_cruiser_role_ac = {
+		category = cds_role
+		add_equipment_type = capital_ship
+		multiply_stats = {
+			naval_range = 0.5
+		}
+	}
+	ship_hull_cruiser_role_cd = {
+		category = cds_role
+		multiply_stats = {
+			naval_speed = -0.2
+			build_cost_ic = -0.2
+		}
+	}
+}

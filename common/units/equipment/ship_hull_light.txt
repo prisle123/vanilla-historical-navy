@@ -140,7 +140,7 @@ equipments = {
 
 		module_count_limit = {
 			category = ship_anti_air
-			count < 3
+			count < 4
 		}
 
 		default_modules = {
@@ -289,7 +289,7 @@ equipments = {
 
 		module_count_limit = {
 			category = ship_anti_air
-			count < 4
+			count < 5
 		}
 	}
 
@@ -363,7 +363,7 @@ equipments = {
 
 		module_count_limit = {
 			category = ship_anti_air
-			count < 4
+			count < 5
 		}
 	}
 
@@ -488,7 +488,7 @@ equipments = {
 		}
 		module_count_limit = {
 			category = ship_anti_air
-			count < 4
+			count < 5
 		}
 	}
 }

@@ -51,7 +51,7 @@ equipments = {
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
-				allowed_module_categories = { ship_airplane_launcher }
+				allowed_module_categories = { ship_airplane_launcher generic_miscellaneous }
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
@@ -299,7 +299,7 @@ equipments = {
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
-				allowed_module_categories = { ship_airplane_launcher }
+				allowed_module_categories = { ship_airplane_launcher generic_miscellaneous }
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
@@ -630,7 +630,7 @@ equipments = {
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
-				allowed_module_categories = { ship_airplane_launcher }
+				allowed_module_categories = { ship_airplane_launcher generic_miscellaneous }
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no

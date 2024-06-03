@@ -1,0 +1,289 @@
+## Radar, fire control systems and electronic devices
+
+equipment_modules = {
+    limit = {
+        has_dlc = "Man the Guns"
+    }
+
+
+#############
+##  RADAR  ##
+#############
+    ship_mast_1 = {
+		category = ship_mast
+		gui_category = ship_radar
+		
+		add_stats = {
+			build_cost_ic = 70
+			surface_detection = 1
+		}
+	}
+	ship_radar_1 = {
+		abbreviation = "sbj"
+		category = ship_radar
+		sfx = sfx_ui_sd_module_sonar
+
+		multiply_stats = {
+			anti_air_attack = 0.025
+		}
+		add_stats = {
+			build_cost_ic = 100
+			surface_detection = 5
+		}
+	}
+	ship_radar_2 = {
+		abbreviation = "sbk"
+		category = ship_radar
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_radar_1
+		multiply_stats = {
+			anti_air_attack = 0.05
+		}
+		add_stats = {
+			build_cost_ic = 130
+			surface_detection = 7
+			sub_detection = 2
+		}
+		
+		can_convert_from = {
+			module = ship_radar_1
+			convert_cost_ic = 30
+		}
+	}
+	ship_radar_3 = {
+		abbreviation = "sbl"
+		category = ship_radar
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_radar_2
+		multiply_stats = {
+			anti_air_attack = 0.075
+		}
+		add_stats = {
+			surface_detection = 12
+			sub_detection = 4
+			build_cost_ic = 160
+		}
+		can_convert_from = {
+			module = ship_radar_2
+			convert_cost_ic = 50
+		}
+		can_convert_from = {
+			module_category = ship_radar
+			convert_cost_ic = 80
+		}
+	}
+	ship_radar_4 = {
+		abbreviation = "sbm"
+		category = ship_radar
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_radar_3
+		multiply_stats = {
+			anti_air_attack = 0.1
+		}
+		add_stats = {
+			build_cost_ic = 190
+			surface_detection = 18
+			sub_detection = 6
+		}
+		can_convert_from = {
+			module = ship_radar_3
+			convert_cost_ic = 50
+		}
+		can_convert_from = {
+			module_category = ship_radar
+			convert_cost_ic = 110
+		}
+	}
+	ship_radar_5 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_radar_4
+		multiply_stats = {
+			anti_air_attack = 0.2
+		}
+		add_stats = {
+			build_cost_ic = 600
+			surface_detection = 30
+			sub_detection = 12
+		}
+		can_convert_from = {
+			module_category = ship_radar
+			convert_cost_ic = 1000
+		}
+	}
+
+
+####################
+##  FIRE CONTROL  ##
+####################
+    ship_fire_control_system_0 = {
+		abbreviation = "sbf"
+		category = ship_fire_control_system
+		gfx = ship_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 60
+			naval_light_gun_hit_chance_factor = 0.015
+			naval_heavy_gun_hit_chance_factor = 0.015
+		}
+		
+		multiply_stats = {
+		}
+		critical_parts = { damaged_fire_control }
+	}
+
+	ship_fire_control_system_1 = {
+		abbreviation = "sbg"
+		category = ship_fire_control_system
+		parent = ship_fire_control_system_0
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			build_cost_ic = 135
+			naval_light_gun_hit_chance_factor = 0.025
+			naval_heavy_gun_hit_chance_factor = 0.025
+		}
+		
+		multiply_stats = {
+			anti_air_attack = 0.1
+		}
+
+		can_convert_from = {
+			module = ship_fire_control_system_0
+			convert_cost_ic = 85
+		}
+		critical_parts = { damaged_fire_control }
+	}
+	ship_fire_control_system_2 = {
+		abbreviation = "sbh"
+		category = ship_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_fire_control_system_1
+		
+		add_stats = {
+			build_cost_ic = 165
+			naval_light_gun_hit_chance_factor = 0.05
+			naval_heavy_gun_hit_chance_factor = 0.05
+		}
+		
+		multiply_stats = {
+			anti_air_attack = 0.15
+		}
+		can_convert_from = {
+			module = ship_fire_control_system_1
+			convert_cost_ic = 105
+		}
+		can_convert_from = {
+			module_category = ship_fire_control_system
+			convert_cost_ic = 145
+		}
+		critical_parts = { damaged_fire_control }
+	}
+	ship_fire_control_system_3 = {
+		abbreviation = "sbi"
+		category = ship_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_fire_control_system_2
+		
+		add_stats = {
+			build_cost_ic = 225
+			naval_light_gun_hit_chance_factor = 0.075
+			naval_heavy_gun_hit_chance_factor = 0.075
+		}
+		
+		multiply_stats = {
+			anti_air_attack = 0.2
+		}
+		can_convert_from = {
+			module = ship_fire_control_system_2
+			convert_cost_ic = 110
+		}
+		can_convert_from = {
+			module_category = ship_fire_control_system
+			convert_cost_ic = 145
+		}
+		critical_parts = { damaged_fire_control }
+	}
+	ship_fire_control_system_4 = {
+		category = ship_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_fire_control_system_3
+		
+		add_stats = {
+			build_cost_ic = 600
+			naval_light_gun_hit_chance_factor = 0.1
+			naval_heavy_gun_hit_chance_factor = 0.1
+		}
+		
+		multiply_stats = {
+			anti_air_attack = 0.3
+			surface_detection = 0.05
+		}
+		can_convert_from = {
+			module = ship_fire_control_system_3
+			convert_cost_ic = 150
+		}
+		can_convert_from = {
+			module_category = ship_fire_control_system
+			convert_cost_ic = 200
+		}
+		critical_parts = { damaged_fire_control }
+	}
+	ship_fire_control_system_5 = {
+		category = ship_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_fire_control_system_4
+		
+		add_stats = {
+			build_cost_ic = 1000
+			naval_light_gun_hit_chance_factor = 0.125
+			naval_heavy_gun_hit_chance_factor = 0.125
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+		
+		multiply_stats = {
+			anti_air_attack = 0.3
+			surface_detection = 0.075
+			surface_visibility = -0.05
+		}
+		can_convert_from = {
+			module = ship_fire_control_system_4
+			convert_cost_ic = 250
+		}
+		can_convert_from = {
+			module_category = ship_fire_control_system
+			convert_cost_ic = 300
+		}
+		critical_parts = { damaged_fire_control }
+	}
+	ship_sub_torpedo_computer = {
+		category = sub_fire_control_system
+		gui_category = ship_fire_control_system
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			build_cost_ic = 250
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+	}
+	ship_torpedo_fire_control = {
+		category = ship_fire_control_system
+		multiply_stats = {
+			naval_torpedo_hit_chance_factor = 0.015
+		}
+		add_stats = {
+			build_cost_ic = 150
+		}
+	}
+	ship_aa_fire_control = {
+		category = generic_miscellaneous
+		gui_category = ship_miscellaneous
+		multiply_stats = {
+			anti_air_attack = 0.05
+		}
+		add_stats = {
+			build_cost_ic = 100
+		}
+	}
+}

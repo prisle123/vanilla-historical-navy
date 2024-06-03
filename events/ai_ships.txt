@@ -391,7 +391,6 @@ country_event = {
 					fire_control_methods_3 = 1
 					radar_jammer = 1
 					naval_radio_guiding_system = 1
-					ship_to_ship_missile = 1
 				}
 				ai_get_navy_experience = yes
 			}
@@ -400,13 +399,13 @@ country_event = {
 	}
 }
 
-# unlock some naval techs for major powers in 1945
+# unlock some naval techs for major powers in 1946
 country_event = {
 	id = ai_ships.104
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1945.1.1
+		date > 1946.1.1
 		NOT = { has_global_flag = naval_tech_1945 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -421,8 +420,12 @@ country_event = {
 					cruiser_missile_upgrade = 1
 					destroyer_missile_upgrade = 1
 					sound_surveillance_system = 1
+					ship_to_ship_missile = 1
 					helipad = 1
 					gas_turbine = 1
+					full_armored_carrier = 1
+					carrier_steam_catapult = 1
+					carrier_angled_deck = 1
 				}
 				ai_get_navy_experience = yes
 			}
@@ -431,14 +434,14 @@ country_event = {
 	}
 }
 
-# unlock some naval techs for major powers in 1946
+# unlock some naval techs for major powers in 1949
 country_event = {
 	id = ai_ships.105
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1946.1.1
-		NOT = { has_global_flag = naval_tech_1946 }
+		date > 1949.1.1
+		NOT = { has_global_flag = naval_tech_1949 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -462,25 +465,23 @@ country_event = {
 					tactical_air_navigation_system = 1
 					iff_device = 1
 					wire_guided_torpedo = 1
-					full_armored_carrier = 1
-					carrier_steam_catapult = 1
-					carrier_angled_deck = 1
+					super_carriers = 1
 				}
 				ai_get_navy_experience = yes
 			}
 		}
-		set_global_flag = naval_tech_1946
+		set_global_flag = naval_tech_1949
 	}
 }
 
-# unlock some naval techs for major powers in 1949
+# unlock some naval techs for major powers in 1952
 country_event = {
 	id = ai_ships.106
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1949.1.1
-		NOT = { has_global_flag = naval_tech_1949 }
+		date > 1952.1.1
+		NOT = { has_global_flag = naval_tech_1952 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
@@ -510,11 +511,10 @@ country_event = {
 					unmanned_gun_turret = 1
 					modern_generic_battery = 1
 					missile_submarine = 1
-					super_carriers = 1
 				}
 				ai_get_navy_experience = yes
 			}
 		}
-		set_global_flag = naval_tech_1949
+		set_global_flag = naval_tech_1952
 	}
 }

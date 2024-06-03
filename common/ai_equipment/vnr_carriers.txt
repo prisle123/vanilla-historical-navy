@@ -231,6 +231,7 @@ naval_carrier = {
 
 	# expert AI
 	carrier_1936_expert = {
+		name = vnr_cv_1936_expert
 		role_icon_index = 9
 	
 		priority = { 
@@ -257,6 +258,7 @@ naval_carrier = {
 		}
 	}
 	carrier_1940_expert = {
+		name = vnr_cv_1940_expert
 		role_icon_index = 9
 	
 		priority = {
@@ -287,6 +289,7 @@ naval_carrier = {
 		}
 	}
 	carrier_1944_expert = {
+		name = vnr_cv_1944_expert
 		role_icon_index = 9
 	
 		priority = {
@@ -318,6 +321,7 @@ naval_carrier = {
 		}
 	}
 	carrier_1945_expert = {
+		name = vnr_cv_1945_expert
 		role_icon_index = 9
 	
 		priority = {
@@ -350,6 +354,7 @@ naval_carrier = {
 		}
 	}
 	carrier_1947_expert = {
+		name = vnr_cv_1947_expert
 		role_icon_index = 9
 	
 		priority = {

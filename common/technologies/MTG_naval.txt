@@ -1457,6 +1457,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_airplane_launcher_2
+			seaplane_hangar
 		}
 		on_research_complete = {
 			custom_effect_tooltip = airplane_launcher_advice_tt
@@ -1707,11 +1708,11 @@ technologies = {
 
 		heavy_cruiser = {
 			build_cost_ic = -0.05
-			armor_value = 0.1
+			max_strength = 0.05
 		}
 		medium_cruiser = {
 			build_cost_ic = -0.05
-			armor_value = 0.1
+			max_strength = 0.05
 		}
 		light_cruiser = {
 			build_cost_ic = -0.05

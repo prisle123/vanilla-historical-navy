@@ -121,5 +121,28 @@ naval_light_carrier = {
 			}
 		}
 	}
+
+	escort_carrier_dummy = {
+		name = vnr_cve_dummy
+		role_icon_index = 67
+
+		priority = {
+			base = 0
+		}
+
+		target_variant = {
+			match_value = 10.0
+
+			type = vnr_ship_hull_escort_carrier
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space_small
+				fixed_ship_deck_slot_2 = ship_deck_space_small
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = { upgrade = current any_of = { civilian_ship_engine_2 civilian_ship_engine_1 } }
+				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+			}
+		}
+	}
 }
 

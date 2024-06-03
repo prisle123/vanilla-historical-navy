@@ -1,0 +1,862 @@
+## armors and protection solutions
+
+equipment_modules = {
+    limit = {
+        has_dlc = "Man the Guns"
+    }
+
+
+########################
+##  ARMOR PLATE (BB)  ##
+########################
+    ship_armor_bb_1 = {
+		abbreviation = "sde"
+		category = ship_heavy_armor
+		gfx = ship_armor_thick_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.1
+			naval_speed = -0.23
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 30
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 3500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+	ship_armor_bc_1 = {
+		abbreviation = "sdf"
+		category = ship_heavy_armor
+		gfx = ship_armor_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.08
+			naval_speed = -0.08
+			max_strength = 0.04
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+
+		add_stats = {
+			armor_value = 22
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 3000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+	ship_armor_bb_2 = {
+		abbreviation = "sdg"
+		category = ship_heavy_armor
+		gfx = ship_armor_thick_2
+		parent = ship_armor_bb_1
+		multiply_stats = {
+			build_cost_ic = 0.14
+			naval_speed = -0.25
+			max_strength = 0.1
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 35
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.05
+		}
+		can_convert_from = {
+			module = ship_armor_bb_1
+			convert_cost_ic = 3000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 4500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+	ship_armor_bc_2 = {
+		abbreviation = "sdh"
+		category = ship_heavy_armor
+		gfx = ship_armor_2
+		parent = ship_armor_bc_1
+		multiply_stats = {
+			build_cost_ic = 0.12
+			naval_speed = -0.1
+			max_strength = 0.08
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 26
+			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.05
+		}
+		can_convert_from = {
+			module = ship_armor_bc_1
+			convert_cost_ic = 3000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 4000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+	ship_armor_bb_3 = {
+		abbreviation = "sdi"
+		category = ship_heavy_armor
+		gfx = ship_armor_thick_3
+		parent = ship_armor_bb_2
+		multiply_stats = {
+			build_cost_ic = 0.17
+			naval_speed = -0.3
+			max_strength = 0.15
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 40
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.1
+			reliability = 0.1
+		}
+		can_convert_from = {
+			module = ship_armor_bb_2
+			convert_cost_ic = 4500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 5500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+	ship_armor_bc_3 = {
+		abbreviation = "sdj"
+		category = ship_heavy_armor
+		gfx = ship_armor_3
+		parent = ship_armor_bc_2
+		multiply_stats = {
+			build_cost_ic = 0.15
+			naval_speed = -0.15
+			max_strength = 0.12
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 30
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.1
+			reliability = 0.1
+		}
+		can_convert_from = {
+			module = ship_armor_bc_2
+			convert_cost_ic = 4000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 5000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+	ship_armor_bb_4 = {
+		abbreviation = "sdj1"
+		category = ship_heavy_armor
+		parent = ship_armor_bb_3
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.32
+			max_strength = 0.2
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 45
+			naval_torpedo_enemy_critical_chance_factor = -0.15
+			naval_torpedo_damage_reduction_factor = 0.15
+			reliability = 0.15
+		}
+		can_convert_from = {
+			module = ship_armor_bb_3
+			convert_cost_ic = 5500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 6500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+	ship_armor_bc_4 = {
+		abbreviation = "sdj2"
+		category = ship_heavy_armor
+		parent = ship_armor_bc_3
+		multiply_stats = {
+			build_cost_ic = 0.17
+			naval_speed = -0.2
+			max_strength = 0.16
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 35
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.15
+			reliability = 0.15
+		}
+		can_convert_from = {
+			module = ship_armor_bc_3
+			convert_cost_ic = 5000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 6000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+	ship_armor_shbb = {
+		abbreviation = "sk"
+		category = ship_super_heavy_armor
+		gfx = ship_armor_thick_3
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.25
+			max_strength = 0.1
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 45
+			surface_visibility = 10
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.1
+			reliability = 0.2
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 5000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 7000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+	ship_armor_shbb_2 = {
+		category = ship_super_heavy_armor
+		parent = ship_armor_shbb
+		gfx = ship_armor_bb_4
+		
+		multiply_stats = {
+			build_cost_ic = 0.28
+			naval_speed = -0.35
+			max_strength = 0.2
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 50
+			surface_visibility = 12
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.15
+			reliability = 0.25
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 6000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module = ship_armor_shbb
+			convert_cost_ic = 5000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 8000
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+	}
+
+
+#############################
+##  ARMOR PLATE (Cruiser)  ##
+#############################
+    ship_armor_cruiser_1 = {
+		abbreviation = "sdl"
+		category = ship_cruiser_armor
+		gfx = ship_armor_thin_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.05
+			naval_speed = -0.05
+		}
+		dismantle_cost_ic = 1250
+
+		add_stats = {
+			armor_value = 8
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 600
+		}
+	}
+	ship_armor_cruiser_2 = {
+		abbreviation = "sdm"
+		category = ship_cruiser_armor
+		gfx = ship_armor_thin_2
+		parent = ship_armor_cruiser_1
+		multiply_stats = {
+			build_cost_ic = 0.08
+			naval_speed = -0.075
+			max_strength = 0.05
+		}
+		dismantle_cost_ic = 1500
+		
+		add_stats = {
+			armor_value = 10
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_1
+			convert_cost_ic = 500
+		}
+	}
+	ship_armor_cruiser_3 = {
+		abbreviation = "sdn"
+		category = ship_cruiser_armor
+		gfx = ship_armor_thin_3
+		parent = ship_armor_cruiser_2
+		multiply_stats = {
+			build_cost_ic = 0.12
+			naval_speed = -0.1
+			max_strength = 0.1
+		}
+		dismantle_cost_ic = 1750
+		
+		add_stats = {
+			armor_value = 12
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 1500
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_2
+			convert_cost_ic = 750
+		}
+	}
+	ship_armor_cruiser_4 = {
+		abbreviation = "sdo"
+		category = ship_cruiser_armor
+		gfx = ship_armor_thin_4
+		parent = ship_armor_cruiser_3
+		multiply_stats = {
+			build_cost_ic = 0.15
+			naval_speed = -0.125
+			max_strength = 0.15
+		}
+		dismantle_cost_ic = 2000
+		
+		add_stats = {
+			armor_value = 14
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 2000
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_3
+			convert_cost_ic = 1000
+		}
+	}
+	ship_armor_cruiser_heavy_1 = {
+		category = ship_cruiser_heavy_armor
+		gfx = ship_armor_1
+		add_equipment_type = capital_ship
+		
+		multiply_stats = {
+			build_cost_ic = 0.08
+			naval_speed = -0.08
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+
+		add_stats = {
+			armor_value = 10
+		}
+		dismantle_cost_ic = 1200
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 1500
+		}
+	}
+	ship_armor_cruiser_heavy_2 = {
+		category = ship_cruiser_heavy_armor
+		gfx = ship_armor_2
+		add_equipment_type = capital_ship
+		parent = ship_armor_cruiser_heavy_1
+		multiply_stats = {
+			build_cost_ic = 0.12
+			naval_speed = -0.1
+			max_strength = 0.1
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 15
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.05
+		}
+		dismantle_cost_ic = 1600
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 2000
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_heavy_1
+			convert_cost_ic = 1000
+		}
+	}
+	ship_armor_cruiser_heavy_3 = {
+		category = ship_cruiser_heavy_armor
+		gfx = ship_armor_3
+		add_equipment_type = capital_ship
+		parent = ship_armor_cruiser_heavy_2
+		multiply_stats = {
+			build_cost_ic = 0.15
+			naval_speed = -0.125
+			max_strength = 0.15
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 20
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.05
+		}
+		dismantle_cost_ic = 2000
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 2500
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_heavy_2
+			convert_cost_ic = 1250
+		}
+	}
+	ship_armor_cruiser_heavy_4 = {
+		category = ship_cruiser_heavy_armor
+		gfx = ship_armor_bc_4
+		add_equipment_type = capital_ship
+		parent = ship_armor_cruiser_heavy_3
+		multiply_stats = {
+			build_cost_ic = 0.18
+			naval_speed = -0.15
+			max_strength = 0.2
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 25
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.05
+		}
+		dismantle_cost_ic = 2400
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 3000
+		}
+		can_convert_from = {
+			module = ship_armor_cruiser_heavy_3
+			convert_cost_ic = 1500
+		}
+	}
+
+
+####################
+##  ARMOR SCHEME  ##
+####################
+    ship_scheme_incremental = {
+		category = armor_scheme
+		
+		multiply_stats = {
+			naval_speed = -0.05
+			max_strength = 0.05
+			build_cost_ic = 0.065
+		}
+		dismantle_cost_ic = 3000
+		can_convert_from = {
+			module_category = armor_scheme
+			convert_cost_ic = 1500
+		}
+	}
+	ship_scheme_incremental_post_jutland = {
+		category = armor_scheme
+		parent = ship_scheme_incremental
+		
+		multiply_stats = {
+			naval_speed = -0.05
+			max_strength = 0.065
+			build_cost_ic = 0.075
+		}
+		add_stats = {
+			reliability = 0.025
+		}
+		can_convert_from = {
+			module_category = armor_scheme
+			convert_cost_ic = 1750
+		}
+		can_convert_from = {
+			module = ship_scheme_incremental
+			convert_cost_ic = 1250
+		}
+		dismantle_cost_ic = 3500
+	}
+	ship_scheme_mixed = {
+		category = armor_scheme
+		parent = ship_scheme_incremental_post_jutland
+		
+		multiply_stats = {
+			naval_speed = -0.025
+			max_strength = 0.075
+			armor_value = 0.05
+			build_cost_ic = 0.085
+		}
+		add_stats = {
+			reliability = 0.04
+		}
+		can_convert_from = {
+			module = ship_scheme_incremental_post_jutland
+			convert_cost_ic = 1500
+		}
+		can_convert_from = {
+			module_category = armor_scheme
+			convert_cost_ic = 2000
+		}
+		dismantle_cost_ic = 4000
+	}
+	ship_scheme_all_or_nothing = {
+		category = armor_scheme
+		parent = ship_scheme_mixed
+		
+		multiply_stats = {
+			naval_speed = -0.025
+			max_strength = 0.05
+			armor_value = 0.1
+			build_cost_ic = 0.1
+		}
+		add_stats = {
+			reliability = 0.05
+		}
+		dismantle_cost_ic = 4500
+		can_convert_from = {
+			module_category = armor_scheme
+			convert_cost_ic = 2750
+		}
+	}
+	ship_scheme_all_or_nothing_armor_box = {
+		category = armor_scheme
+		parent = ship_scheme_all_or_nothing
+		
+		multiply_stats = {
+			naval_speed = -0.025
+			armor_value = 0.1
+			max_strength = 0.1
+			build_cost_ic = 0.15
+		}
+		add_stats = {
+			reliability = 0.1
+		}
+		can_convert_from = {
+			module_category = armor_scheme
+			convert_cost_ic = 3500
+		}
+		can_convert_from = {
+			module = ship_scheme_all_or_nothing
+			convert_cost_ic = 2000
+		}
+		dismantle_cost_ic = 5000
+	}
+
+
+
+##############################
+##  TORPEDO DEFENSE SYSTEM  ##
+##############################
+    torpedo_bulge = {
+		category = torpedo_defense_system
+		
+		add_stats = {
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.15
+			reliability = -0.025
+		}
+		multiply_stats = {
+			naval_speed = -0.03
+			build_cost_ic = 0.03
+		}
+		can_convert_from = {
+			module = torpedo_defense_system
+			convert_cost_ic = 500
+		}
+		dismantle_cost_ic = 1000
+	}
+	pugliese_system = {
+		category = torpedo_defense_system
+		
+		add_stats = {
+			naval_torpedo_enemy_critical_chance_factor = -0.2
+			naval_torpedo_damage_reduction_factor = 0.1
+			reliability = -0.05
+		}
+		multiply_stats = {
+			build_cost_ic = 0.07
+		}
+		dismantle_cost_ic = 1500
+	}
+	torpedo_belt = {
+		category = torpedo_defense_system
+		parent = torpedo_bulge
+		
+		add_stats = {
+			naval_torpedo_enemy_critical_chance_factor = -0.2
+			naval_torpedo_damage_reduction_factor = 0.2
+		}
+		multiply_stats = {
+			naval_speed = -0.01
+			max_strength = 0.03
+			build_cost_ic = 0.08
+		}
+		can_convert_from = {
+			module = torpedo_defense_system
+			convert_cost_ic = 800
+		}
+		dismantle_cost_ic = 2000
+	}
+	torpedo_belt_enhanced = {
+    	category = torpedo_defense_system
+		parent = torpedo_belt
+		
+		add_stats = {
+			naval_torpedo_enemy_critical_chance_factor = -0.25
+			naval_torpedo_damage_reduction_factor = 0.25
+		}
+		multiply_stats = {
+			max_strength = 0.05
+			build_cost_ic = 0.1
+		}
+		can_convert_from = {
+			module = torpedo_defense_system
+			convert_cost_ic = 1100
+		}
+		dismantle_cost_ic = 3000
+	}
+
+
+######################
+##  SUBMARINE HULL  ##
+######################
+    pressure_hull_1 = {
+		category = pressure_hull
+
+		add_stats = {
+			build_cost_ic = 100
+		}
+		multiply_stats = {
+			max_strength = 0.05
+			sub_visibility = -0.05
+		}
+		can_convert_from = {
+			module_category = pressure_hull
+			convert_cost_ic = 80
+		}
+	}
+	pressure_hull_2 = {
+		category = pressure_hull
+		parent = pressure_hull_1
+
+		add_stats = {
+			build_cost_ic = 150
+		}
+		multiply_stats = {
+			max_strength = 0.1
+			sub_visibility = -0.075
+		}
+
+		can_convert_from = {
+			module_category = pressure_hull
+			convert_cost_ic = 120
+		}
+	}
+	pressure_hull_3 = {
+		category = pressure_hull
+		parent = pressure_hull_2
+
+		add_stats = {
+			build_cost_ic = 200
+		}
+		multiply_stats = {
+			max_strength = 0.15
+			sub_visibility = -0.1
+		}
+		can_convert_from = {
+			module_category = pressure_hull
+			convert_cost_ic = 160
+		}
+	}
+	pressure_hull_4 = {
+		category = pressure_hull
+		parent = pressure_hull_3
+
+		add_stats = {
+			build_cost_ic = 300
+		}
+		multiply_stats = {
+			max_strength = 0.2
+			sub_visibility = -0.125
+		}
+		can_convert_from = {
+			module_category = pressure_hull
+			convert_cost_ic = 240
+		}
+	}
+	anechoic_tile_1 = {
+		category = sub_ship_stealth
+		add_stats = {
+			reliability = -0.15
+		}
+		multiply_stats = {
+			sub_visibility = -0.1
+			build_cost_ic = 0.2
+		}
+		dismantle_cost_ic = 750
+	}
+
+
+
+##################
+##  CAMOUFLAGE  ##
+##################
+    ship_cruiser_camo_1 = {
+		category = raider_kit
+		
+		multiply_stats = {
+			surface_visibility = -0.05
+			build_cost_ic = 0.02
+		}
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+		}
+	}
+	ship_cruiser_camo_2 = {
+		category = raider_kit
+		
+		multiply_stats = {
+			lg_attack = -0.2
+			lg_armor_piercing = -0.2
+			hg_attack = -1
+			hg_armor_piercing = -1
+			anti_air_attack = -0.5
+			torpedo_attack = -0.8
+			surface_visibility = -0.2
+			build_cost_ic = 0.02
+		}
+		
+		forbid_module_categories = {
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+		}
+	}
+}

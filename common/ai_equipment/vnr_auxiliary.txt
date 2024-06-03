@@ -1,0 +1,78 @@
+naval_auxiliary = {
+	category = naval
+	#available_for = {}
+	#blocked_for = {}
+	roles = { vnr_naval_auxiliary }
+	priority = { base = 0 }
+
+	auxiliary_1936 = {
+		name = vnr_ap_1936
+		role_icon_index = 53
+
+		priority = {
+			base = 0
+		}
+
+		target_variant = {
+			match_value = 10.0
+
+			type = vnr_ship_hull_civilian_1
+			modules = {
+				fixed_ship_secondaries_slot = empty
+                fixed_ship_anti_air_slot = ship_anti_air
+                fixed_ship_engine_slot = { upgrade = current any_of = { civilian_ship_engine_2 civilian_ship_engine_1 } }
+                front_1_custom_slot = fuel_tanker_silo
+                mid_1_custom_slot = fuel_tanker_silo
+                rear_1_custom_slot = dry_cargo_storage
+			}
+		}
+	}
+
+	auxiliary_1942_1 = {
+		name = vnr_ap_1942_1
+		role_icon_index = 53
+
+		priority = {
+			base = 0
+		}
+
+		target_variant = {
+			match_value = 10.0
+
+			type = vnr_ship_hull_civilian_2
+			modules = {
+				fixed_ship_secondaries_slot = ship_civilian_light_battery_1
+                fixed_ship_anti_air_slot = ship_anti_air
+                fixed_ship_engine_slot = { upgrade = current any_of = { civilian_ship_engine_2 civilian_ship_engine_1 } }
+                front_1_custom_slot = fuel_tanker_silo
+                mid_1_custom_slot = supply_hub
+                rear_1_custom_slot = dry_cargo_storage
+			}
+		}
+	}
+
+    auxiliary_1942_2 = {
+		name = vnr_ap_1942_2
+		role_icon_index = 53
+
+		priority = {
+			base = 0
+		}
+
+		target_variant = {
+			match_value = 10.0
+
+			type = vnr_ship_hull_civilian_3
+			modules = {
+				fixed_ship_secondaries_slot = ship_civilian_light_battery_1
+                fixed_ship_anti_air_slot = ship_anti_air
+                fixed_ship_engine_slot = { upgrade = current any_of = { civilian_ship_engine_2 civilian_ship_engine_1 } }
+                front_1_custom_slot = fuel_tanker_silo
+                mid_1_custom_slot = fuel_tanker_silo
+                mid_2_custom_slot = supply_hub
+                rear_1_custom_slot = dry_cargo_storage
+			}
+		}
+	}
+}
+

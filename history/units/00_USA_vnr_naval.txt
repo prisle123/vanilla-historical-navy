@@ -61,7 +61,6 @@ units= {
 			ship = { name = "USS Concord" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }				
 			# Minlayer Division #		
 			ship = { name = "USS Oglala" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Oglala Class" } } }				
-			ship = { name = "USS Aroostook" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Oglala Class" } } }				
 		}					
 		### Destroyer Flotilla 1 ###				
 		task_force = {					
