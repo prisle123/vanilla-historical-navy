@@ -27,7 +27,7 @@ equipment_modules = {
         	max_strength = 0.1
 			naval_range = 0.2
 			surface_visibility = 0.25
-        	build_cost_ic = 0.1
+        	build_cost_ic = 0.15
     	}
 		forbid_module_categories = {
 			ship_light_medium_battery
@@ -125,7 +125,7 @@ equipment_modules = {
     ship_hull_cruiser_role_c = {
 		category = c_role
 		add_equipment_type = screen_ship
-		multiply_stats = {
+		add_stats = {
 			naval_heavy_gun_hit_chance_factor = -0.75
 		}
 		forbid_module_categories = {
@@ -164,9 +164,11 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_aa = {
 		category = c_role
+		add_stats = {
+			naval_heavy_gun_hit_chance_factor = -0.75
+		}
 		multiply_stats = {
 			anti_air_attack = 0.1
-			naval_heavy_gun_hit_chance_factor = -0.75
 			build_cost_ic = 0.1
 		}
 		forbid_module_categories = {
@@ -180,11 +182,13 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_clc = {
 		category = c_role
+		add_stats = {
+			naval_heavy_gun_hit_chance_factor = -0.75
+		}
 		multiply_stats = {
 			max_strength = -0.1
 			armor_value = -0.1
 			naval_speed = 0.05
-			naval_heavy_gun_hit_chance_factor = -0.75
 			build_cost_ic = -0.1
 		}
 		forbid_module_categories = {
@@ -198,6 +202,9 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_rc = {
 		category = c_role
+		add_stats = {
+			naval_heavy_gun_hit_chance_factor = -0.75
+		}
 		multiply_stats = {
 			lg_attack = -0.15
 			lg_armor_piercing = -0.15
@@ -209,7 +216,6 @@ equipment_modules = {
 			armor_value = -0.2
 			naval_range = 0.4
 			surface_visibility = -0.05
-			naval_heavy_gun_hit_chance_factor = -0.75
 			build_cost_ic = -0.15
 		}
 		forbid_module_categories = {
@@ -230,10 +236,10 @@ equipment_modules = {
 		multiply_stats = {
 			anti_air_attack = 0.1
 			build_cost_ic = 0.1
-			reliability = 0.1
 		}
 		add_stats = {
 			max_strength = 200
+			reliability = 0.1
 		}
 		forbid_module_categories = {
 			raider_kit
@@ -241,10 +247,12 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_csr = {
 		category = c_role
+		add_stats = {
+			naval_heavy_gun_hit_chance_factor = -0.75
+		}
 		multiply_stats = {
 			surface_detection = 0.1
 			sub_detection = 0.1
-			naval_heavy_gun_hit_chance_factor = -0.75
 			build_cost_ic = 0.075
 		}
 		forbid_module_categories = {
