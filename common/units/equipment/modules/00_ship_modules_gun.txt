@@ -2155,17 +2155,6 @@ equipment_modules = {
 ######################
 ##  SUPPORT WEAPON  ##
 ######################
-    ship_heavy_mg_1 = {
-		category = civilian_ship_weapons
-		add_stats = {
-			lg_attack = 0.1
-			build_cost_ic = 1
-		}
-		add_average_stats = {
-			lg_armor_piercing = 0.2
-		}
-		critical_parts = { damaged_light_guns }
-	}
 	ship_civilian_light_battery_1 = {
 		category = civilian_ship_weapons
 		add_stats = {
