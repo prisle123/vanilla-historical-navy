@@ -62,20 +62,18 @@ Hi there, this is MrPunk, in this file I will try to explain everything about VN
     Structure
         a. army_icons
             The ship insignia and their tooltips
-        b. entities
-            3D assets, no need to touch it
-        c. event_pictures
+        b. event_pictures
             Nothing special
-        d. interface
-            d.1. counters
+        c. interface
+            c.1. counters
                 Small and green icons shown the number of ships when you hover on your fleet.
-            d.2. equipmentdesigner
+            c.2. equipmentdesigner
                 Stores the icons of ship modules and topviews
-            d.3. navalcomabt
+            c.3. navalcomabt
                 Stores icons of ships shown on the left side of the screen when you select a fleet, it's also used in naval combat panel.
-            d.4. technologies
+            c.4. technologies
                 Stores icons of ships in the tech tree and designer. Tech icons are also put here under navy_tree.
-            d.5. Others
+            c.5. Others
                 Some textures used in tech tree and backgrounds.
 
 4. History
