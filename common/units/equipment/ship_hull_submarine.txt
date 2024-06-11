@@ -135,6 +135,7 @@ equipments = {
 
 	### vnr hulls
 	vnr_ship_hull_submarine_1 = {
+		derived_variant_name = submarine_equipment_1
 		abbreviation = "heb"
 		year = 1922
 
@@ -146,6 +147,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_submarine_2 = {
+		derived_variant_name = submarine_equipment_2
 		abbreviation = "hec"
 		year = 1936
 
@@ -194,6 +196,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_submarine_3 = {
+		derived_variant_name = submarine_equipment_3
 		abbreviation = "hed"
 		year = 1940
 
@@ -249,6 +252,7 @@ equipments = {
 		}
 	}
 	vnr_ship_hull_submarine_4 = {
+		derived_variant_name = submarine_equipment_4
 		abbreviation = "hee"
 		year = 1944
 
@@ -301,6 +305,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_submarine_5 = {
+		derived_variant_name = submarine_equipment_5
 		year = 1944
 
 		archetype = ship_hull_submarine

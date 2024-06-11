@@ -210,6 +210,7 @@ equipments = {
 
 	### vnr hulls
 	vnr_ship_hull_cruiser_coastal_defense_ship = {
+		derived_variant_name = cruiser_equipment_cd
 		abbreviation = "hbg"
 		year = 1910
 		visual_level = 0
@@ -358,6 +359,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_cruiser_panzerschiff = {
+		derived_variant_name = cruiser_equipment_ps
 		abbreviation = "hbf"
 		year = 1929
 		model = heavy_cruiser
@@ -458,6 +460,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_cruiser_1 = {
+		derived_variant_name = cruiser_equipment_1
 		year = 1914
 		visual_level = 0
 		archetype = ship_hull_cruiser
@@ -617,6 +620,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_cruiser_2 = {
+		derived_variant_name = cruiser_equipment_2
 		abbreviation = "hba"
 		parent = vnr_ship_hull_cruiser_1
 		year = 1922
@@ -634,6 +638,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_cruiser_3 = {
+		derived_variant_name = cruiser_equipment_3
 		abbreviation = "hbb"
 		year = 1936
 		visual_level = 1
@@ -658,6 +663,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_cruiser_4 = {
+		derived_variant_name = cruiser_equipment_4
 		abbreviation = "hbc"
 		year = 1940
 		visual_level = 1
@@ -682,6 +688,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_cruiser_5 = {
+		derived_variant_name = cruiser_equipment_5
 		abbreviation = "hbd"
 		year = 1944
 		visual_level = 1
@@ -793,6 +800,7 @@ equipments = {
 		}
 	}
 	vnr_ship_hull_cruiser_6 = {
+		derived_variant_name = cruiser_equipment_6
 		year = 1949
 		visual_level = 1
 		archetype = ship_hull_cruiser
