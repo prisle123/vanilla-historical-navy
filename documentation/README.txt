@@ -107,7 +107,7 @@ Hi there, this is MrPunk, in this file I will try to explain everything about VN
 ###     Post-Loading    ###
 ###########################
 
-The most interesting feature of VNR is the post-loading mechanism. Fos so long, there are many navy mods out there, but they all have to change the files within history/countries, for that's where tank/air/ship designs are defined. In instance of a large naval overhaul mod, you have to modify these files to make new modules and new hulls working. It's very common on mods such as NRM.
+The most interesting feature of VNR is the post-loading mechanism. For so long, there are many navy mods out there, but they all have to change the files within history/countries, for that's where tank/air/ship designs are defined. In instance of a large naval overhaul mod, you have to modify these files to make new modules and new hulls working. It's very common on mods such as NRM.
 
 Despite being the most sraightforward approach, it will bring harms to compatibility and robustness throughout basegame updates. The country history files store more than starting variants, it also has leaders, historical events, political status and national spirits. Overwriting such files is a complete disaster when it comes to compatibility. Even a minor fix on the country's starting stability will be incompatible, depending on the loading order, it may break its variants too.
 
@@ -133,3 +133,8 @@ Reference files:
 
 2. Ship role system
     The ship role system is what creates more variants. Before that, most naval mods simply add a lot of hulls to represent new type of ships, but they in fact are not so different from the base platform. For example, destroyer leader, destroyer and escort destroyer. Offering different bonus, the ship role also allow or disallow certain categories of modules.
+
+3. Dynamic title for ship designer
+    As you may notice, the title of ship designer has dynamic effects in the mod, which it will change according to the tag's historical ship designing organization, such as DNC of Britain and BuC&R of America. Dynamic localisation doesn't work here because the title is an embedded element in UI.
+
+    To change it, you need to edit the original text of the title to an empty string first. Then, make a scripted gui attached to equipment designer with only an instantTextBox. Since scripted gui is the only way to put scripted localisation on UI, you can then modify the gui to make it responsive at last.
