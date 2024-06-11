@@ -2,6 +2,7 @@ ENG_start_naval_variants = {
     # carrier
     create_equipment_variant = {
         name = "Ark Royal Class"
+		parent_version = 0
 		role_icon_index = 9
         type = vnr_ship_hull_carrier_1
         name_group = ENG_CV_QUALITIES
@@ -18,6 +19,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Eagle Class"
+		parent_version = 0
 		role_icon_index = 9
 		icon = "gfx/interface/technologies/England/ENG_carrier1.png"
         type = vnr_ship_hull_carrier_conversion_bb
@@ -33,6 +35,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Courageous Class"
+		parent_version = 0
 		role_icon_index = 9
         type = vnr_ship_hull_carrier_conversion_bb
         name_group = ENG_CV_QUALITIES
@@ -49,6 +52,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Furious Class"
+		parent_version = 0
 		role_icon_index = 9
 		icon = "gfx/interface/technologies/England/ENG_carrier_Furious.png"
         type = vnr_ship_hull_carrier_conversion_bb
@@ -65,6 +69,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Hermes Class"
+		parent_version = 0
 		role_icon_index = 9
 		icon = "gfx/interface/technologies/England/ENG_carrier_Hermes.png"
         type = vnr_ship_hull_carrier_conversion_ca
@@ -80,6 +85,7 @@ ENG_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "King George V Class"
+		parent_version = 0
 		role_icon_index = 1
         type = vnr_ship_hull_heavy_3
         name_group = ENG_BB_HISTORICAL
@@ -101,6 +107,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Nelson Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_2
         name_group = ENG_BB_HISTORICAL
@@ -122,6 +129,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Queen Elizabeth Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_1
         name_group = ENG_BB_HISTORICAL
@@ -145,6 +153,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Revenge Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_1
         name_group = ENG_BB_HISTORICAL
@@ -169,6 +178,7 @@ ENG_start_naval_variants = {
     # battle_cruiser
     create_equipment_variant = {
         name = "Admiral Class"
+		parent_version = 0
 		role_icon_index = 15
 		icon = "gfx/interface/technologies/England/ENG_battleship_Admiral.png"
         type = vnr_ship_hull_heavy_2
@@ -192,6 +202,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Renown Class"
+		parent_version = 0
 		role_icon_index = 15
 		icon = "gfx/interface/technologies/England/ENG_battleship_Renown.png"
         type = vnr_ship_hull_heavy_1
@@ -215,6 +226,7 @@ ENG_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "York Class"
+		parent_version = 0
 		role_icon_index = 27
 		icon = "gfx/interface/technologies/England/ENG_heavy_cruiser_York.png"
         type = vnr_ship_hull_cruiser_2
@@ -234,6 +246,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Norfolk Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = ENG_CA_HISTORICAL
@@ -254,6 +267,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "London Class"
+		parent_version = 0
 		role_icon_index = 27
 		icon = "gfx/interface/technologies/England/ENG_heavy_cruiser3.png"
         type = vnr_ship_hull_cruiser_2
@@ -274,6 +288,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Kent Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = ENG_CA_HISTORICAL
@@ -294,6 +309,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Hawkins Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_1
         name_group = ENG_CA_HISTORICAL
@@ -314,6 +330,7 @@ ENG_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Town Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/England/ENG_light_cruiser4.png"
         type = vnr_ship_hull_cruiser_3
@@ -335,6 +352,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Arethusa Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/England/ENG_light_cruiser_Arethusa.png"
         type = vnr_ship_hull_cruiser_3
@@ -355,6 +373,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Leander Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_3
         name_group = ENG_CL_HISTORICAL
@@ -375,6 +394,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Emerald Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_2
         name_group = ENG_CL_HISTORICAL
@@ -394,6 +414,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Danae Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_2
         name_group = ENG_CL_HISTORICAL
@@ -412,6 +433,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "C Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_2
         name_group = ENG_CL_HISTORICAL
@@ -429,6 +451,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Adventure Class"
+		parent_version = 0
 		role_icon_index = 51
 		icon = "gfx/interface/technologies/England/ENG_light_cruiser_Adventure.png"
         type = vnr_ship_hull_cruiser_2
@@ -452,6 +475,7 @@ ENG_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "E/F/G/H Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = ENG_DD_ALPHABETICAL
@@ -471,6 +495,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "A/B/C/D Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = ENG_DD_ALPHABETICAL
@@ -490,6 +515,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "V/W Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = ENG_DD_ALPHABETICAL
@@ -508,6 +534,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "R/S Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = ENG_DD_ALPHABETICAL
@@ -525,6 +552,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Shakespeare/Scott Class"
+		parent_version = 0
 		role_icon_index = 33
         type = vnr_ship_hull_light_2
         name_group = ENG_DD_ALPHABETICAL
@@ -546,6 +574,7 @@ ENG_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Grampus Class"
+		parent_version = 0
 		role_icon_index = 41
         type = vnr_ship_hull_submarine_2
         name_group = ENG_SS_HISTORICAL
@@ -558,6 +587,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "River Class"
+		parent_version = 0
 		role_icon_index = 39
         type = vnr_ship_hull_cruiser_submarine
         name_group = ENG_SS_HISTORICAL
@@ -571,6 +601,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "S Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = ENG_SS_HISTORICAL
@@ -583,6 +614,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "P/R Class"
+		parent_version = 0
 		role_icon_index = 41
         type = vnr_ship_hull_submarine_2
         name_group = ENG_SS_HISTORICAL
@@ -595,6 +627,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "O Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = ENG_SS_HISTORICAL
@@ -608,6 +641,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "H Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = ENG_SS_HISTORICAL
@@ -621,6 +655,7 @@ ENG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "L Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = ENG_SS_HISTORICAL
@@ -638,6 +673,7 @@ GER_start_naval_variants = {
     # carrier
     create_equipment_variant = {
         name = "Graf Zeppelin Class"
+		parent_version = 0
 		role_icon_index = 9
 		icon = "gfx/interface/technologies/Germany/GER_carrier_conversion_bb.png"
         type = vnr_ship_hull_carrier_1
@@ -653,6 +689,7 @@ GER_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Bismarck Class"
+		parent_version = 0
 		role_icon_index = 1
 		icon = "gfx/interface/technologies/Germany/GER_battleship4.png"
         type = vnr_ship_hull_heavy_3
@@ -676,6 +713,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Deutschland Class"
+		parent_version = 0
 		role_icon_index = 5
         type = vnr_ship_hull_pre_dreadnought
         name_group = GER_BB_HISTORICAL
@@ -694,6 +732,7 @@ GER_start_naval_variants = {
     # battle_cruiser
     create_equipment_variant = {
         name = "Scharnhorst Class"
+		parent_version = 0
 		role_icon_index = 15
         type = vnr_ship_hull_heavy_3
         name_group = GER_BB_HISTORICAL
@@ -716,6 +755,7 @@ GER_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Deutschland Class"
+		parent_version = 0
 		role_icon_index = 21
         type = vnr_ship_hull_cruiser_panzerschiff
         name_group = GER_CA_HISTORICAL
@@ -734,6 +774,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Admiral Hipper Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_3
         name_group = GER_CA_HISTORICAL
@@ -754,6 +795,7 @@ GER_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Leipzig Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
         type = vnr_ship_hull_cruiser_2
@@ -775,6 +817,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Königsberg Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Germany/GER_light_cruiser3.png"
         type = vnr_ship_hull_cruiser_2
@@ -794,6 +837,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Emden Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Germany/GER_light_cruiser2.png"
         type = vnr_ship_hull_cruiser_1
@@ -815,6 +859,7 @@ GER_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Type 1936 Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = GER_DD_HISTORICAL
@@ -834,6 +879,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type 1934A Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = GER_DD_HISTORICAL
@@ -853,6 +899,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type 1934 Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = GER_DD_HISTORICAL
@@ -872,6 +919,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type 23 Class"
+		parent_version = 0
 		role_icon_index = 29
 		icon = "gfx/interface/technologies/Germany/GER_destroyer_1924.png"
         type = vnr_ship_hull_light_2
@@ -891,6 +939,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type 24 Class"
+		parent_version = 0
 		role_icon_index = 29
 		icon = "gfx/interface/technologies/Germany/GER_destroyer_1924.png"
         type = vnr_ship_hull_light_2
@@ -911,6 +960,7 @@ GER_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Type VIIA Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = GER_SS_HISTORICAL
@@ -923,6 +973,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type IIA Class"
+		parent_version = 0
         icon = "gfx/interface/technologies/generic/generic_midget_submarine.png"
 		role_icon_index = 49
         type = vnr_ship_hull_submarine_2
@@ -936,6 +987,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type IIB Class"
+		parent_version = 0
         icon = "gfx/interface/technologies/generic/generic_midget_submarine.png"
 		role_icon_index = 49
         type = vnr_ship_hull_submarine_2
@@ -949,6 +1001,7 @@ GER_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Type IA Class"
+		parent_version = 0
         icon = "gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
@@ -967,6 +1020,7 @@ FRA_start_naval_variants = {
     # carrier
     create_equipment_variant = {
         name = "Béarn Class"
+		parent_version = 0
 		role_icon_index = 9
         type = vnr_ship_hull_carrier_conversion_bb
         name_group = FRA_CV_HISTORICAL
@@ -982,6 +1036,7 @@ FRA_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Richelieu Class"
+		parent_version = 0
 		role_icon_index = 1
 		icon = "gfx/interface/technologies/France/FRA_battleship4.png"
         type = vnr_ship_hull_heavy_3
@@ -1004,6 +1059,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Dunkerque Class"
+		parent_version = 0
 		role_icon_index = 1
         type = vnr_ship_hull_heavy_3
         name_group = FRA_BB_HISTORICAL
@@ -1025,6 +1081,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Bretagne Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_1
         name_group = FRA_BB_HISTORICAL
@@ -1047,6 +1104,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Courbet Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_1
         name_group = FRA_BB_HISTORICAL
@@ -1070,6 +1128,7 @@ FRA_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Algérie Class"
+		parent_version = 0
 		role_icon_index = 27
 		icon = "gfx/interface/technologies/France/FRA_heavy_cruiser1.png"
         type = vnr_ship_hull_cruiser_2
@@ -1091,6 +1150,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Suffren Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = FRA_CA_HISTORICAL
@@ -1111,6 +1171,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Duquesne Class"
+		parent_version = 0
 		role_icon_index = 27
 		icon = "gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
         type = vnr_ship_hull_cruiser_2
@@ -1133,6 +1194,7 @@ FRA_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "La Galissonnière Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/France/FRA_light_cruiser4.png"
         type = vnr_ship_hull_cruiser_3
@@ -1152,6 +1214,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Émile Bertin Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_3
         name_group = FRA_CL_HISTORICAL
@@ -1171,6 +1234,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Jeanne d'Arc Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/France/FRA_light_cruiser_Jeanne.png"
         type = vnr_ship_hull_cruiser_2
@@ -1191,6 +1255,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Duguay-Trouin Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_2
         name_group = FRA_CL_HISTORICAL
@@ -1212,6 +1277,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Pluton Class"
+		parent_version = 0
 		role_icon_index = 51
 		icon = "gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
         type = vnr_ship_hull_cruiser_2
@@ -1234,6 +1300,7 @@ FRA_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Mogador Class"
+		parent_version = 0
 		role_icon_index = 33
 		icon = "gfx/interface/technologies/France/FRA_destroyer4.png"
         type = vnr_ship_hull_light_3
@@ -1254,6 +1321,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Le Fantasque Class"
+		parent_version = 0
 		role_icon_index = 33
         type = vnr_ship_hull_light_3
         name_group = FRA_DD_HISTORICAL
@@ -1273,6 +1341,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Aigle/Vauquelin Class"
+		parent_version = 0
 		role_icon_index = 33
         type = vnr_ship_hull_light_2
         name_group = FRA_DD_HISTORICAL
@@ -1292,6 +1361,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Chacal/Guépard Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = FRA_DD_HISTORICAL
@@ -1311,6 +1381,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Bourrasque/L'Adroit Class"
+		parent_version = 0
 		role_icon_index = 31
 		icon = "gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
         type = vnr_ship_hull_light_3
@@ -1330,6 +1401,7 @@ FRA_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Minerve Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = FRA_SS_HISTORICAL
@@ -1342,6 +1414,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Aurore Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = FRA_SS_HISTORICAL
@@ -1354,6 +1427,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Surcouf Class"
+		parent_version = 0
 		role_icon_index = 39
 		icon = "gfx/interface/technologies/France/FRA_submarine_Surcouf.png"
         type = vnr_ship_hull_cruiser_submarine
@@ -1369,6 +1443,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Redoutable Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = FRA_SS_HISTORICAL
@@ -1381,6 +1456,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Requin Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = FRA_SS_HISTORICAL
@@ -1393,6 +1469,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Diane/Saphir Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = FRA_SS_HISTORICAL
@@ -1405,6 +1482,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Argonaute/Orion Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = FRA_SS_HISTORICAL
@@ -1418,6 +1496,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Ariane/Circé Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = FRA_SS_HISTORICAL
@@ -1431,6 +1510,7 @@ FRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Sirène Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = FRA_SS_HISTORICAL
@@ -1445,6 +1525,7 @@ FRA_start_naval_variants = {
     # seaplane tender
     create_equipment_variant = {
         name = "Commandant Teste Class"
+		parent_version = 0
 		role_icon_index = 61
 		icon = "gfx/interface/technologies/France/FRA_light_cruiser_Teste.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -1471,6 +1552,7 @@ JAP_start_naval_variants = {
     # carrier
     create_equipment_variant = {
         name = "Hiryu Class"
+		parent_version = 0
 		role_icon_index = 9
 		icon = "gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
         type = vnr_ship_hull_carrier_1
@@ -1487,6 +1569,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Soryu Class"
+		parent_version = 0
 		role_icon_index = 9
         type = vnr_ship_hull_carrier_1
         name_group = JAP_CV_HISTORICAL
@@ -1501,6 +1584,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Ryujo Class"
+		parent_version = 0
 		role_icon_index = 11
 		icon = "gfx/interface/technologies/Japan/JAP_carrier1.png"
         type = vnr_ship_hull_carrier_1
@@ -1515,6 +1599,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Kaga Class"
+		parent_version = 0
 		role_icon_index = 13
         type = vnr_ship_hull_carrier_conversion_bb
         name_group = JAP_CV_HISTORICAL
@@ -1533,6 +1618,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Akagi Class"
+		parent_version = 0
 		role_icon_index = 13
         type = vnr_ship_hull_carrier_conversion_bb
         name_group = JAP_CV_HISTORICAL
@@ -1550,6 +1636,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Zuiho Class"
+		parent_version = 0
 		role_icon_index = 11
 		icon = "gfx/interface/technologies/Japan/JAP_carrier_conversion_ca.png"
         type = vnr_ship_hull_carrier_1
@@ -1565,6 +1652,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Hosho Class"
+		parent_version = 0
 		role_icon_index = 11
         type = vnr_ship_hull_carrier_conversion_ca
         name_group = JAP_CVL_HISTORICAL
@@ -1580,6 +1668,7 @@ JAP_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Yamato Class"
+		parent_version = 0
 		role_icon_index = 7
         type = vnr_ship_hull_super_heavy_1
         name_group = JAP_BB_HISTORICAL
@@ -1602,6 +1691,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Nagato Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_2
         name_group = JAP_BB_HISTORICAL
@@ -1625,6 +1715,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Ise Class"
+		parent_version = 0
 		role_icon_index = 3
 		icon = "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
         type = vnr_ship_hull_heavy_1
@@ -1651,6 +1742,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Fuso Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_1
         name_group = JAP_BB_HISTORICAL
@@ -1676,6 +1768,7 @@ JAP_start_naval_variants = {
     # battle_cruiser
     create_equipment_variant = {
         name = "Kongo Class"
+		parent_version = 0
 		role_icon_index = 1
 		icon = "gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
         type = vnr_ship_hull_heavy_1
@@ -1701,6 +1794,7 @@ JAP_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Tone Class"
+		parent_version = 0
 		role_icon_index = 27
 		icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser4.png"
         type = vnr_ship_hull_cruiser_3
@@ -1724,6 +1818,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Takao Class"
+		parent_version = 0
 		role_icon_index = 27
 		icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser3.png"
         type = vnr_ship_hull_cruiser_2
@@ -1747,6 +1842,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Myoko Class"
+		parent_version = 0
 		role_icon_index = 27
 		icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser3.png"
         type = vnr_ship_hull_cruiser_2
@@ -1770,6 +1866,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Aoba Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = JAP_CA_HISTORICAL
@@ -1791,6 +1888,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Furutaka Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = JAP_CA_HISTORICAL
@@ -1812,6 +1910,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Asama/Izumo Class"
+		parent_version = 0
 		role_icon_index = 17
 		icon = "gfx/interface/technologies/Japan/JAP_heavy_cruiser1.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -1835,6 +1934,7 @@ JAP_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Mogami Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_3
         name_group = JAP_CL_HISTORICAL
@@ -1856,6 +1956,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Katori Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Katori.png"
         type = vnr_ship_hull_cruiser_3
@@ -1875,6 +1976,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Sendai Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_2
         name_group = JAP_CL_HISTORICAL
@@ -1896,6 +1998,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Yubari Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Yubari.png"
         type = vnr_ship_hull_cruiser_2
@@ -1918,6 +2021,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Kuma/Nagara Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_1
         name_group = JAP_CL_HISTORICAL
@@ -1938,6 +2042,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Tenryu Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_1
         name_group = JAP_CL_HISTORICAL
@@ -1959,6 +2064,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Chikuma Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = JAP_CL_HISTORICAL
@@ -1979,6 +2085,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Yodo Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/Japan/JAP_light_cruiser_Yodo.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -1997,6 +2104,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Itsukushima/Okinoshima Class"
+		parent_version = 0
 		role_icon_index = 51
         type = vnr_ship_hull_cruiser_1
         name_group = JAP_MINELAYERS_HISTORICAL
@@ -2017,6 +2125,7 @@ JAP_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Asashio Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = JAP_WEATHER
@@ -2035,6 +2144,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Hatsuharu/Shiratsuyu Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = JAP_WEATHER
@@ -2053,6 +2163,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Fubuki/Akatsuki Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = JAP_WEATHER
@@ -2072,6 +2183,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Minekaze/Mutsuki Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = JAP_WEATHER
@@ -2091,6 +2203,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Wakatake Class"
+		parent_version = 0
 		role_icon_index = 35
 		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
         type = vnr_ship_hull_light_1
@@ -2109,6 +2222,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Momo/Momi Class"
+		parent_version = 0
 		role_icon_index = 35
 		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Momo.png"
         type = vnr_ship_hull_light_1
@@ -2127,6 +2241,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Otori Class"
+		parent_version = 0
 		role_icon_index = 29
 		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Otori.png"
         type = vnr_ship_hull_light_3
@@ -2143,6 +2258,7 @@ JAP_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Chidori Class"
+		parent_version = 0
 		role_icon_index = 29
 		icon = "gfx/interface/technologies/Japan/JAP_destroyer_Chidori.png"
         type = vnr_ship_hull_light_3
@@ -2161,6 +2277,7 @@ JAP_start_naval_variants = {
     # submarine
     create_equipment_variant = {
 		name = "Junsen III Class"
+		parent_version = 0
 		role_icon_index = 39
 		type = vnr_ship_hull_cruiser_submarine
 		name_group = JAP_SS_HISTORICAL
@@ -2174,6 +2291,7 @@ JAP_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Junsen II Class"
+		parent_version = 0
 		role_icon_index = 39
 		type = vnr_ship_hull_cruiser_submarine
 		name_group = JAP_SS_HISTORICAL
@@ -2188,6 +2306,7 @@ JAP_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Junsen I Class"
+		parent_version = 0
 		role_icon_index = 39
 		type = vnr_ship_hull_cruiser_submarine
 		name_group = JAP_SS_HISTORICAL
@@ -2202,6 +2321,7 @@ JAP_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Kaidai VI Class"
+		parent_version = 0
 		role_icon_index = 37
 		type = vnr_ship_hull_submarine_2
 		name_group = JAP_SS_HISTORICAL
@@ -2214,6 +2334,7 @@ JAP_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Kaidai V Class"
+		parent_version = 0
 		role_icon_index = 37
 		type = vnr_ship_hull_submarine_2
 		name_group = JAP_SS_HISTORICAL
@@ -2226,6 +2347,7 @@ JAP_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Kaidai IV Class"
+		parent_version = 0
 		role_icon_index = 37
 		type = vnr_ship_hull_submarine_2
 		name_group = JAP_SS_HISTORICAL
@@ -2238,6 +2360,7 @@ JAP_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Kaidai III Class"
+		parent_version = 0
 		role_icon_index = 37
 		type = vnr_ship_hull_submarine_1
 		name_group = JAP_SS_HISTORICAL
@@ -2250,6 +2373,7 @@ JAP_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Kaidai II Class"
+		parent_version = 0
 		role_icon_index = 37
 		type = vnr_ship_hull_submarine_1
 		name_group = JAP_SS_HISTORICAL
@@ -2262,6 +2386,7 @@ JAP_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Kaidai I Class"
+		parent_version = 0
 		role_icon_index = 37
 		type = vnr_ship_hull_submarine_1
 		name_group = JAP_SS_HISTORICAL
@@ -2274,6 +2399,7 @@ JAP_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Kaichū V Class"
+		parent_version = 0
 		role_icon_index = 37
 		type = vnr_ship_hull_submarine_1
 		name_group = JAP_SSC_HISTORICAL
@@ -2286,6 +2412,7 @@ JAP_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Kaichū IV Class"
+		parent_version = 0
 		role_icon_index = 37
 		type = vnr_ship_hull_submarine_1
 		name_group = JAP_SSC_HISTORICAL
@@ -2298,6 +2425,7 @@ JAP_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Kiraisen Class"
+		parent_version = 0
 		role_icon_index = 41
 		type = vnr_ship_hull_submarine_1
 		name_group = JAP_SS_HISTORICAL
@@ -2310,6 +2438,7 @@ JAP_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "L Class"
+		parent_version = 0
 		role_icon_index = 37
 		type = vnr_ship_hull_submarine_1
 		name_group = JAP_SSC_HISTORICAL
@@ -2326,6 +2455,7 @@ ITA_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Littorio Class"
+		parent_version = 0
 		role_icon_index = 1
 		icon = "gfx/interface/technologies/Italy/ITA_battleship4.png"
         type = vnr_ship_hull_heavy_3
@@ -2349,6 +2479,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Andrea Doria Class"
+		parent_version = 0
 		role_icon_index = 3
 		icon = "gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
         type = vnr_ship_hull_heavy_1
@@ -2372,6 +2503,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Conte Di Cavour Class"
+		parent_version = 0
 		role_icon_index = 3
 		icon = "gfx/interface/technologies/Italy/ITA_battleship3.png"
         type = vnr_ship_hull_heavy_1
@@ -2397,6 +2529,7 @@ ITA_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Bolzano Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = ITA_CA_HISTORICAL
@@ -2418,6 +2551,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Zara Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_3
         name_group = ITA_CA_HISTORICAL
@@ -2439,6 +2573,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Trento Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = ITA_CA_HISTORICAL
@@ -2461,6 +2596,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "San Giorgio Class"
+		parent_version = 0
 		role_icon_index = 17
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = ITA_CA_HISTORICAL
@@ -2482,6 +2618,7 @@ ITA_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Duca degli Abruzzi Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Italy/ITA_heavy_cruiser4.png"
         type = vnr_ship_hull_cruiser_3
@@ -2503,6 +2640,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Montecuccoli/Duca d'Aosta Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_3
         name_group = ITA_CL_HISTORICAL
@@ -2522,6 +2660,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Giussano/Cadorna Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Italy/ITA_light_cruiser3.png"
         type = vnr_ship_hull_cruiser_2
@@ -2542,6 +2681,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Taranto/Bari Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/Generic/generic_light_cruiser1.png"
         type = vnr_ship_hull_cruiser_1
@@ -2564,6 +2704,7 @@ ITA_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Maestrale/Oriani Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = ITA_DD_HISTORICAL
@@ -2582,6 +2723,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Freccia/Folgore Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = ITA_DD_HISTORICAL
@@ -2600,6 +2742,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Navigatori Class"
+		parent_version = 0
 		role_icon_index = 31
 		icon = "gfx/interface/technologies/Italy/ITA_destroyer_Navigatori.png"
         type = vnr_ship_hull_light_2
@@ -2619,6 +2762,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Sauro/Turbine Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = ITA_DD_HISTORICAL
@@ -2637,6 +2781,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Sella Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = ITA_DD_HISTORICAL
@@ -2654,6 +2799,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Leone Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = ITA_DD_HISTORICAL
@@ -2673,6 +2819,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Mirabello Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = ITA_DD_HISTORICAL
@@ -2693,6 +2840,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Spica Class"
+		parent_version = 0
 		role_icon_index = 29
 		icon = "gfx/interface/technologies/Italy/ITA_destroyer_Spica.png"
         type = vnr_ship_hull_light_2
@@ -2709,6 +2857,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Generali/Curtatone Class"
+		parent_version = 0
 		role_icon_index = 29
 		icon = "gfx/interface/technologies/Italy/ITA_destroyer_Pilo.png"
         type = vnr_ship_hull_light_1
@@ -2727,6 +2876,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Pilo/Sirtori Class"
+		parent_version = 0
 		role_icon_index = 29
 		icon = "gfx/interface/technologies/Italy/ITA_destroyer_Pilo.png"
         type = vnr_ship_hull_light_1
@@ -2747,6 +2897,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "La Masa/Palestro Class"
+		parent_version = 0
 		role_icon_index = 29
 		icon = "gfx/interface/technologies/Italy/ITA_destroyer_Pilo.png"
         type = vnr_ship_hull_light_1
@@ -2767,6 +2918,7 @@ ITA_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Sirena/Perla Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = ITA_SS_HISTORICAL
@@ -2779,6 +2931,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Argonauta/Settembrini Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = ITA_SS_HISTORICAL
@@ -2791,6 +2944,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Bragadin Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = ITA_SS_HISTORICAL
@@ -2803,6 +2957,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Bandiera/Squalo Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = ITA_SS_HISTORICAL
@@ -2816,6 +2971,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Mameli/Pisani Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = ITA_SS_HISTORICAL
@@ -2829,6 +2985,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "H Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = ITA_SS_HISTORICAL
@@ -2842,6 +2999,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Fieramosca/Calvi Class"
+		parent_version = 0
 		role_icon_index = 39
         type = vnr_ship_hull_cruiser_submarine
         name_group = ITA_SS_HISTORICAL
@@ -2855,6 +3013,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Balilla Class"
+		parent_version = 0
 		role_icon_index = 39
         type = vnr_ship_hull_cruiser_submarine
         name_group = ITA_SS_HISTORICAL
@@ -2869,6 +3028,7 @@ ITA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Glauco/Micca Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = ITA_SS_HISTORICAL
@@ -2885,6 +3045,7 @@ SOV_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Sevastopol Class"
+		parent_version = 0
 		role_icon_index = 3
 		icon = "gfx/interface/technologies/Soviet/SOV_battleship2.png"
         type = vnr_ship_hull_heavy_1
@@ -2909,6 +3070,7 @@ SOV_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Kirov Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_3
         name_group = SOV_CL_HISTORICAL
@@ -2928,6 +3090,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Admiral Nakhimov Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_2
         name_group = SOV_CL_HISTORICAL
@@ -2950,6 +3113,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Svetlana Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Soviet/SOV_light_cruiser2.png"
         type = vnr_ship_hull_cruiser_1
@@ -2973,6 +3137,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Bogatyr Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = SOV_CL_HISTORICAL
@@ -2994,6 +3159,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Marti Class"
+		parent_version = 0
 		role_icon_index = 51
 		icon = "gfx/interface/technologies/Soviet/SOV_light_cruiser_Marti.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -3013,6 +3179,7 @@ SOV_start_naval_variants = {
     }
 	create_equipment_variant = {
 		name = "Pallada Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/Soviet/SOV_light_cruiser1.png"
 		type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -3033,6 +3200,7 @@ SOV_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Gnevny Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = SOV_ADJECTIVES_NAVY
@@ -3051,6 +3219,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Leningrad Class"
+		parent_version = 0
 		role_icon_index = 33
         type = vnr_ship_hull_light_3
         name_group = SOV_CITIES_NAVY
@@ -3071,6 +3240,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Izyaslav/Fidonisi Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = SOV_DD_HISTORICAL
@@ -3090,6 +3260,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Orfey Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = SOV_DD_HISTORICAL
@@ -3109,6 +3280,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Novik/Derzky Class"
+		parent_version = 0
 		role_icon_index = 31
 		icon = "gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
         type = vnr_ship_hull_light_1
@@ -3130,6 +3302,7 @@ SOV_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Srednyaya Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SOV_SS_STALINETS
@@ -3142,6 +3315,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Malyutka Class"
+		parent_version = 0
 		role_icon_index = 49
         type = vnr_ship_hull_midget_submarine
         name_group = SOV_SS_LENINETS
@@ -3154,6 +3328,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Series X Shchuka"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SOV_SS_SHCHUKA
@@ -3166,6 +3341,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Series V-bis Shchuka"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SOV_SS_SHCHUKA
@@ -3178,6 +3354,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Series V Shchuka"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SOV_SS_SHCHUKA
@@ -3190,6 +3367,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Series III Shchuka"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SOV_SS_SHCHUKA
@@ -3203,6 +3381,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Leninets Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SOV_SS_LENINETS
@@ -3216,6 +3395,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Debakrist Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SOV_SS_LENINETS
@@ -3229,6 +3409,7 @@ SOV_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "AG Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = SOV_SS_LENINETS
@@ -3246,6 +3427,7 @@ USA_start_naval_variants = {
     # carrier
     create_equipment_variant = {
 		name = "Yorktown Class"
+		parent_version = 0
 		role_icon_index = 9
 		type = vnr_ship_hull_carrier_1
 		name_group = USA_CV_HISTORICAL
@@ -3263,6 +3445,7 @@ USA_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Wasp Class"
+		parent_version = 0
 		role_icon_index = 9
 		type = vnr_ship_hull_carrier_1
 		name_group = USA_CV_HISTORICAL
@@ -3279,6 +3462,7 @@ USA_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Lexington Class"
+		parent_version = 0
 		role_icon_index = 13
 		type = vnr_ship_hull_carrier_conversion_bb
 		name_group = USA_CV_HISTORICAL
@@ -3296,6 +3480,7 @@ USA_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Ranger Class"
+		parent_version = 0
 		role_icon_index = 9
 		icon = "gfx/interface/technologies/USA/USA_carrier_Ranger.png"
 		type = vnr_ship_hull_carrier_1
@@ -3312,6 +3497,7 @@ USA_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Langley Class"
+		parent_version = 0
 		role_icon_index = 12
 		type = vnr_ship_hull_carrier_conversion_ca
 		name_group = USA_CVL_HISTORICAL
@@ -3328,6 +3514,7 @@ USA_start_naval_variants = {
     # battleship
     create_equipment_variant = {
 		name = "North Carolina Class"
+		parent_version = 0
 		role_icon_index = 1
 		type = vnr_ship_hull_heavy_3
 		name_group = USA_BB_HISTORICAL
@@ -3350,6 +3537,7 @@ USA_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Colorado Class"
+		parent_version = 0
 		role_icon_index = 3
 		type = vnr_ship_hull_heavy_2
 		name_group = USA_BB_HISTORICAL
@@ -3372,6 +3560,7 @@ USA_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Tennessee Class"
+		parent_version = 0
 		role_icon_index = 3
 		icon = "gfx/interface/technologies/USA/USA_battleship_Tennessee.png"
 		type = vnr_ship_hull_heavy_1
@@ -3396,6 +3585,7 @@ USA_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Pennsylvania/New Mexico Class"
+		parent_version = 0
 		role_icon_index = 3
 		icon = "gfx/interface/technologies/USA/USA_battleship_Nevada.png"
 		type = vnr_ship_hull_heavy_1
@@ -3420,6 +3610,7 @@ USA_start_naval_variants = {
 
 	create_equipment_variant = {
 		name = "Nevada Class"
+		parent_version = 0
 		role_icon_index = 3
 		icon = "gfx/interface/technologies/USA/USA_battleship_Nevada.png"
 		type = vnr_ship_hull_heavy_1
@@ -3444,6 +3635,7 @@ USA_start_naval_variants = {
 
 	create_equipment_variant = {
 		name = "New York Class"
+		parent_version = 0
 		role_icon_index = 3
 		icon = "gfx/interface/technologies/USA/USA_battleship_New_York.png"
 		type = vnr_ship_hull_heavy_1
@@ -3468,6 +3660,7 @@ USA_start_naval_variants = {
 
 	create_equipment_variant = {
 		name = "Wyoming Class"
+		parent_version = 0
 		role_icon_index = 3
 		type = vnr_ship_hull_heavy_1
 		name_group = USA_BB_HISTORICAL
@@ -3491,6 +3684,7 @@ USA_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Wichita Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_3
         name_group = USA_CA_HISTORICAL
@@ -3512,6 +3706,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Portland/New Orleans Class"
+		parent_version = 0
 		role_icon_index = 27
 		icon = "gfx/interface/technologies/USA/USA_heavy_cruiser2.png"
         type = vnr_ship_hull_cruiser_3
@@ -3534,6 +3729,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Northampton Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = USA_CA_HISTORICAL
@@ -3554,6 +3750,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Pensacola Class"
+		parent_version = 0
 		role_icon_index = 27
 		icon = "gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
         type = vnr_ship_hull_cruiser_2
@@ -3578,6 +3775,7 @@ USA_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Brooklyn Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_3
         name_group = USA_CL_HISTORICAL
@@ -3599,6 +3797,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Omaha Class"
+		parent_version = 0
 		role_icon_index = 45
         type = vnr_ship_hull_cruiser_1
         name_group = USA_CL_HISTORICAL
@@ -3621,6 +3820,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Oglala Class"
+		parent_version = 0
 		role_icon_index = 51
 		icon = "gfx/interface/technologies/USA/USA_light_cruiser_Oglala.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -3640,6 +3840,7 @@ USA_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Benham/Sims Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = USA_HEROES_NAVY
@@ -3658,6 +3859,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Porter/Somers Class"
+		parent_version = 0
 		role_icon_index = 33
         type = vnr_ship_hull_light_3
         name_group = USA_HEROES_NAVY
@@ -3677,6 +3879,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Gridley/Bagley Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_3
         name_group = USA_HEROES_NAVY
@@ -3695,6 +3898,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Farragut/Mahan Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = USA_HEROES_NAVY
@@ -3714,6 +3918,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Sampson/Wickes/Clemson Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = USA_HEROES_NAVY
@@ -3733,6 +3938,7 @@ USA_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Salmon/Sargo Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = USA_FISH
@@ -3745,6 +3951,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Porpoise Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = USA_FISH
@@ -3757,6 +3964,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Cachalot Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = USA_FISH
@@ -3769,6 +3977,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Barracuda/Narwhal Class"
+		parent_version = 0
 		role_icon_index = 39
         type = vnr_ship_hull_cruiser_submarine
         name_group = USA_FISH
@@ -3782,6 +3991,7 @@ USA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "O/R/S Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = USA_FISH
@@ -3799,6 +4009,7 @@ ARG_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Rivadavia Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_1
         name_group = ARG_BB_HISTORICAL
@@ -3821,6 +4032,7 @@ ARG_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Veinticinco de Mayo Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = ARG_CA_HISTORICAL
@@ -3841,6 +4053,7 @@ ARG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Libertad/Independencia Class"
+		parent_version = 0
 		role_icon_index = 19
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = ARG_CA_HISTORICAL
@@ -3860,6 +4073,7 @@ ARG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Garibaldi Class"
+		parent_version = 0
 		role_icon_index = 17
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = ARG_CA_HISTORICAL
@@ -3881,6 +4095,7 @@ ARG_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Cervantes/Mendoza Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = ARG_DD_HISTORICAL
@@ -3900,6 +4115,7 @@ ARG_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Catamarca/La Plata Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = ARG_DD_HISTORICAL
@@ -3918,6 +4134,7 @@ ARG_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Santa Fe Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = ARG_SS_HISTORICAL
@@ -3933,6 +4150,7 @@ ARG_start_naval_variants = {
 AST_start_naval_variants = {
     create_equipment_variant = {
         name = "Kent Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = AST_CA_HISTORICAL
@@ -3952,6 +4170,7 @@ AST_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Leander Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_3
         name_group = AST_CL_HISTORICAL
@@ -3972,6 +4191,7 @@ AST_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Town Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_1
         name_group = AST_CL_HISTORICAL
@@ -3993,6 +4213,7 @@ AST_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Shakespeare/Scott Class"
+		parent_version = 0
 		role_icon_index = 33
         type = vnr_ship_hull_light_2
         name_group = AST_DD_HISTORICAL
@@ -4013,6 +4234,7 @@ AST_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "V/W Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = AST_DD_HISTORICAL
@@ -4034,6 +4256,7 @@ AST_start_naval_variants = {
 CAN_start_naval_variants = {
     create_equipment_variant = {
         name = "River Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = CAN_DD_HISTORICAL
@@ -4057,6 +4280,7 @@ BRA_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Minas Gerais Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_1
         name_group = BRA_BB_HISTORICAL
@@ -4079,6 +4303,7 @@ BRA_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Bahia Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_1
         name_group = BRA_CL_HISTORICAL
@@ -4097,6 +4322,7 @@ BRA_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Acasta Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = BRA_DD_HISTORICAL
@@ -4114,6 +4340,7 @@ BRA_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Para Class"
+		parent_version = 0
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = BRA_DD_HISTORICAL
@@ -4130,6 +4357,7 @@ BRA_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Humaytá Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = BRA_SS_HISTORICAL
@@ -4146,6 +4374,7 @@ CHI_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Ninghai Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_2
         name_group = CHI_CL_HISTORICAL
@@ -4163,6 +4392,7 @@ CHI_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Yat Sen Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/China/CHI_light_cruiser_Yixian.png"
         type = vnr_ship_hull_cruiser_1
@@ -4181,6 +4411,7 @@ CHI_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Haiqi Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4203,6 +4434,7 @@ CHI_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Hairong Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/China/CHI_light_cruiser1.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4225,6 +4457,7 @@ CHI_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Zhaohe Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/China/CHI_light_cruiser_Zhaohe.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4247,6 +4480,7 @@ CHI_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Chang Feng Class"
+		parent_version = 0
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = CHI_DD_HISTORICAL
@@ -4261,6 +4495,7 @@ CHI_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Jianwei Class"
+		parent_version = 0
 		role_icon_index = 47
         type = vnr_ship_hull_light_1
         name_group = CHI_DD_HISTORICAL
@@ -4277,6 +4512,7 @@ CHI_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Yung Feng/Yung Chi Class"
+		parent_version = 0
 		role_icon_index = 47
 		icon = "gfx/interface/technologies/China/CHI_destroyer_Zhongshan.png"
         type = vnr_ship_hull_light_1
@@ -4294,6 +4530,7 @@ CHI_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Chu Tai/Kiang Yuan Class"
+		parent_version = 0
 		role_icon_index = 47
 		icon = "gfx/interface/technologies/China/CHI_destroyer_Zhongshan.png"
         type = vnr_ship_hull_light_1
@@ -4311,6 +4548,7 @@ CHI_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Chen Hai Class"
+		parent_version = 0
 		allow_without_tech = yes
 		role_icon_index = 61
         type = vnr_ship_hull_civilian_1
@@ -4327,6 +4565,7 @@ CHL_start_naval_variants = {
     # battleship
     create_equipment_variant = {
         name = "Almirante Latorre Class"
+		parent_version = 0
 		role_icon_index = 3
         type = vnr_ship_hull_heavy_1
         name_group = CHL_BB_HISTORICAL
@@ -4349,6 +4588,7 @@ CHL_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "O'Higgins Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = CHL_CA_HISTORICAL
@@ -4369,6 +4609,7 @@ CHL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Chacabuco Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = CHL_CA_HISTORICAL
@@ -4390,6 +4631,7 @@ CHL_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Serrano Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = CHL_DD_HISTORICAL
@@ -4407,6 +4649,7 @@ CHL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Almirante Lynch Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = CHL_DD_HISTORICAL
@@ -4428,6 +4671,7 @@ CHL_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Capitán O'Brien Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = CHL_SS_HISTORICAL
@@ -4440,6 +4684,7 @@ CHL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "H1 Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = CHL_SS_HISTORICAL
@@ -4457,6 +4702,7 @@ DEN_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Niels Iuel Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = DEN_CA_HISTORICAL
@@ -4477,6 +4723,7 @@ DEN_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Herluf Trolle Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/Scandinavia/DEN_heavy_cruiser_Trolle.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4498,6 +4745,7 @@ DEN_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Dragen/Glenten Class"
+		parent_version = 0
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = DEN_DD_HISTORICAL
@@ -4516,6 +4764,7 @@ DEN_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Aegir Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = DEN_SS_HISTORICAL
@@ -4528,6 +4777,7 @@ DEN_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Rota Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = CHL_SS_HISTORICAL
@@ -4541,6 +4791,7 @@ DEN_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Daphne Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = CHL_SS_HISTORICAL
@@ -4558,6 +4809,7 @@ FIN_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Väinämöinen Class"
+		parent_version = 0
 		role_icon_index = 19
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = FIN_CA_HISTORICAL
@@ -4574,6 +4826,7 @@ FIN_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Golub/Filin Class"
+		parent_version = 0
 		role_icon_index = 47
         type = vnr_ship_hull_light_1
         name_group = FIN_DD_HISTORICAL
@@ -4590,6 +4843,7 @@ FIN_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Vesikko Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = DEN_SS_HISTORICAL
@@ -4602,6 +4856,7 @@ FIN_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Vetehinen Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = DEN_SS_HISTORICAL
@@ -4618,6 +4873,7 @@ GRE_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Georgios Averof Class"
+		parent_version = 0
 		role_icon_index = 17
 		icon = "gfx/interface/technologies/Italy/ITA_heavy_cruiser1.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4640,6 +4896,7 @@ GRE_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Elli Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/China/CHI_light_cruiser_Zhaohe.png"
         type = vnr_ship_hull_cruiser_1
@@ -4661,6 +4918,7 @@ GRE_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Freccia/Folgore Class"
+		parent_version = 0
 		role_icon_index = 31
 		icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
         type = vnr_ship_hull_light_3
@@ -4680,6 +4938,7 @@ GRE_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Aetos Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = GRE_DD_HISTORICAL
@@ -4700,6 +4959,7 @@ GRE_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Glafkos Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = DEN_SS_HISTORICAL
@@ -4712,6 +4972,7 @@ GRE_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Katsonis Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = DEN_SS_HISTORICAL
@@ -4728,6 +4989,7 @@ HOL_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Soerabaja Class"
+		parent_version = 0
 		role_icon_index = 17
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = HOL_CA_HISTORICAL
@@ -4743,6 +5005,7 @@ HOL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Jacob van Heemskerck Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = HOL_CA_HISTORICAL
@@ -4762,6 +5025,7 @@ HOL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Koningin Regentes Class"
+		parent_version = 0
 		role_icon_index = 17
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = HOL_CA_HISTORICAL
@@ -4783,6 +5047,7 @@ HOL_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Tromp Class"
+		parent_version = 0
 		role_icon_index = 33
         type = vnr_ship_hull_cruiser_3
         name_group = HOL_CL_HISTORICAL
@@ -4802,6 +5067,7 @@ HOL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "De Ruyter Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Netherlands/HOL_light_cruiser4.png"
         type = vnr_ship_hull_cruiser_3
@@ -4822,6 +5088,7 @@ HOL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Java Class"
+		parent_version = 0
 		role_icon_index = 25
 		icon = "gfx/interface/technologies/Netherlands/HOL_light_cruiser2.png"
         type = vnr_ship_hull_cruiser_1
@@ -4843,6 +5110,7 @@ HOL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Holland Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/Netherlands/HOL_light_cruiser1.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -4866,6 +5134,7 @@ HOL_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Admiralen Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = HOL_DD_HISTORICAL
@@ -4885,6 +5154,7 @@ HOL_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "K Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = HOL_SS_KCLASS
@@ -4897,6 +5167,7 @@ HOL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "O Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = HOL_SS_OCLASS
@@ -4913,6 +5184,7 @@ NOR_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Eidsvold Class"
+		parent_version = 0
 		role_icon_index = 19
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = NOR_CA_HISTORICAL
@@ -4930,6 +5202,7 @@ NOR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Tordenskjold Class"
+		parent_version = 0
 		role_icon_index = 19
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = NOR_CA_HISTORICAL
@@ -4948,6 +5221,7 @@ NOR_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Sleipner Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = NOR_DD_HISTORICAL
@@ -4966,6 +5240,7 @@ NOR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Olaf Tryggvason Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_1
         name_group = NOR_CL_HISTORICAL
@@ -4983,6 +5258,7 @@ NOR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Draug Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_1
         name_group = NOR_DD_HISTORICAL
@@ -5003,6 +5279,7 @@ NOR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Frøya Class"
+		parent_version = 0
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = NOR_DD_HISTORICAL
@@ -5023,6 +5300,7 @@ NOR_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "B Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = NOR_SS_HISTORICAL
@@ -5035,6 +5313,7 @@ NOR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "A Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = NOR_SS_HISTORICAL
@@ -5051,6 +5330,7 @@ POL_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Grom Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = POL_DD_HISTORICAL
@@ -5069,6 +5349,7 @@ POL_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Wicher Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = POL_DD_HISTORICAL
@@ -5088,6 +5369,7 @@ POL_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Wilk Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = POL_SS_HISTORICAL
@@ -5104,6 +5386,7 @@ POR_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Douro Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = POR_DD_HISTORICAL
@@ -5122,6 +5405,7 @@ POR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Guadiana Class"
+		parent_version = 0
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = POR_DD_HISTORICAL
@@ -5137,6 +5421,7 @@ POR_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Delfim Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = POR_SS_HISTORICAL
@@ -5153,6 +5438,7 @@ SPR_start_naval_variants = {
     # battleship
     create_equipment_variant = {
 		name = "España Class"
+		parent_version = 0
 		role_icon_index = 3
 		type = vnr_ship_hull_heavy_1
 		name_group = SPR_BB_HISTORICAL
@@ -5175,6 +5461,7 @@ SPR_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Canarias Class"
+		parent_version = 0
 		role_icon_index = 27
         type = vnr_ship_hull_cruiser_2
         name_group = SPR_CA_HISTORICAL
@@ -5196,6 +5483,7 @@ SPR_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Almirante Cervera Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_2
         name_group = SPR_CL_HISTORICAL
@@ -5215,6 +5503,7 @@ SPR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Méndez Núñes Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_1
         name_group = SPR_CL_HISTORICAL
@@ -5235,6 +5524,7 @@ SPR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "República Class"
+		parent_version = 0
 		role_icon_index = 25
         type = vnr_ship_hull_cruiser_1
         name_group = SPR_CL_HISTORICAL
@@ -5255,6 +5545,7 @@ SPR_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
         name = "Churucca Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = SPR_DD_HISTORICAL
@@ -5273,6 +5564,7 @@ SPR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Júpiter Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = SPR_DD_HISTORICAL
@@ -5291,6 +5583,7 @@ SPR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Alsedo Class"
+		parent_version = 0
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = SPR_DD_HISTORICAL
@@ -5309,6 +5602,7 @@ SPR_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "C Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = SPR_SS_HISTORICAL
@@ -5321,6 +5615,7 @@ SPR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "B Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = SPR_SS_HISTORICAL
@@ -5337,6 +5632,7 @@ SWE_start_naval_variants = {
     # heavy_cruiser
     create_equipment_variant = {
         name = "Sverige Class"
+		parent_version = 0
 		role_icon_index = 19
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = SWE_CA_HISTORICAL
@@ -5356,6 +5652,7 @@ SWE_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Äran/Oscar II Class"
+		parent_version = 0
 		role_icon_index = 19
 		icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Oden.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5375,6 +5672,7 @@ SWE_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Dristigheten Class"
+		parent_version = 0
 		role_icon_index = 19
 		icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Oden.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5396,6 +5694,7 @@ SWE_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Fylgia Class"
+		parent_version = 0
 		role_icon_index = 23
 		icon = "gfx/interface/technologies/Scandinavia/SWE_cruiser_Fylgia.png"
         type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -5417,6 +5716,7 @@ SWE_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
 		name = "Gotland Class"
+		parent_version = 0
 		role_icon_index = 45
 		type = vnr_ship_hull_cruiser_2
 		name_group = SWE_CL_HISTORICAL
@@ -5436,6 +5736,7 @@ SWE_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
 		name = "Göteborg Class"
+		parent_version = 0
 		role_icon_index = 31
 		type = vnr_ship_hull_light_3
 		name_group = SWE_DD_HISTORICAL
@@ -5453,6 +5754,7 @@ SWE_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Ehrensköld Class"
+		parent_version = 0
 		role_icon_index = 31
 		type = vnr_ship_hull_light_2
 		name_group = SWE_DD_HISTORICAL
@@ -5469,6 +5771,7 @@ SWE_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Ragnar/Hugin/Wrangel Class"
+		parent_version = 0
 		role_icon_index = 31
 		type = vnr_ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
@@ -5486,6 +5789,7 @@ SWE_start_naval_variants = {
 	}
 	create_equipment_variant = {
 		name = "Wale Class"
+		parent_version = 0
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
@@ -5501,6 +5805,7 @@ SWE_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Örnen Class"
+		parent_version = 0
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
@@ -5516,6 +5821,7 @@ SWE_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Clas Fleming Class"
+		parent_version = 0
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
@@ -5533,6 +5839,7 @@ SWE_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Delfinen/Sjölejonet Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SWE_SS_HISTORICAL
@@ -5545,6 +5852,7 @@ SWE_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Draken Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = SWE_SS_HISTORICAL
@@ -5557,6 +5865,7 @@ SWE_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Valen Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = SWE_SS_HISTORICAL
@@ -5570,6 +5879,7 @@ SWE_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Hajen/Bävern Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = SWE_SS_HISTORICAL
@@ -5587,6 +5897,7 @@ TUR_start_naval_variants = {
     # battle_cruiser
     create_equipment_variant = {
 		name = "Moltke Class"
+		parent_version = 0
 		role_icon_index = 15
 		type = vnr_ship_hull_heavy_1
 		name_group = TUR_SULTANS
@@ -5609,6 +5920,7 @@ TUR_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
         name = "Mecidiye/Hamidiye Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = TUR_INSPIRATIONAL
@@ -5627,6 +5939,7 @@ TUR_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
 		name = "Zafer Class"
+		parent_version = 0
         icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_2
@@ -5643,6 +5956,7 @@ TUR_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Kocatepe Class"
+		parent_version = 0
         icon = "gfx/interface/technologies/Italy/ITA_destroyer3.png"
 		role_icon_index = 31
 		type = vnr_ship_hull_light_2
@@ -5661,6 +5975,7 @@ TUR_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Peyk Class"
+		parent_version = 0
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
 		name_group = TUR_INSPIRATIONAL
@@ -5679,6 +5994,7 @@ TUR_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Gür Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = TUR_INSPIRATIONAL
@@ -5691,6 +6007,7 @@ TUR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Sakarya Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = TUR_INSPIRATIONAL
@@ -5703,6 +6020,7 @@ TUR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Dumlupinar Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = TUR_INSPIRATIONAL
@@ -5715,6 +6033,7 @@ TUR_start_naval_variants = {
     }
     create_equipment_variant = {
         name = "Birinci Inönü Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = TUR_INSPIRATIONAL
@@ -5731,6 +6050,7 @@ TUR_start_naval_variants = {
 COL_start_naval_variants = {
     create_equipment_variant = {
         name = "Antioquia Class"
+		parent_version = 0
 		icon = "gfx/interface/technologies/Portugal/POR_destroyer2.png"
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
@@ -5753,6 +6073,7 @@ COL_start_naval_variants = {
 MEX_start_naval_variants = {
 	create_equipment_variant = {
         name = "Anahuac Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = MEX_CA_HISTORICAL
@@ -5770,6 +6091,7 @@ MEX_start_naval_variants = {
     }
 	create_equipment_variant = {
         name = "Durango Class"
+		parent_version = 0
 		role_icon_index = 47
         type = vnr_ship_hull_light_1
         name_group = MEX_DD_HISTORICAL
@@ -5786,6 +6108,7 @@ MEX_start_naval_variants = {
     }
 	create_equipment_variant = {
         name = "Guanajuato Class"
+		parent_version = 0
 		role_icon_index = 47
         type = vnr_ship_hull_light_1
         name_group = MEX_DD_HISTORICAL
@@ -5802,6 +6125,7 @@ MEX_start_naval_variants = {
     }
 	create_equipment_variant = {
         name = "Nicolás Bravo Class"
+		parent_version = 0
 		role_icon_index = 47
         type = vnr_ship_hull_light_1
         name_group = MEX_DD_HISTORICAL
@@ -5821,6 +6145,7 @@ MEX_start_naval_variants = {
 ROM_start_naval_variants = {
 	create_equipment_variant = {
         name = "Regele Ferdinand Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = ROM_DD_HISTORICAL
@@ -5839,6 +6164,7 @@ ROM_start_naval_variants = {
     }
 	create_equipment_variant = {
         name = "Marasti Class"
+		parent_version = 0
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = ROM_DD_HISTORICAL
@@ -5855,6 +6181,7 @@ ROM_start_naval_variants = {
     }
 	create_equipment_variant = {
         name = "Delfinul Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = ROM_SS_HISTORICAL
@@ -5870,6 +6197,7 @@ ROM_start_naval_variants = {
 URG_start_naval_variants = {
 	create_equipment_variant = {
         name = "Uruguay Class"
+		parent_version = 0
 		role_icon_index = 29
         type = vnr_ship_hull_light_1
         name_group = URG_DD_HISTORICAL
@@ -5888,6 +6216,7 @@ URG_start_naval_variants = {
 YUG_start_naval_variants = {
 	create_equipment_variant = {
         name = "Dalmacija Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = YUG_CL_HISTORICAL
@@ -5907,6 +6236,7 @@ YUG_start_naval_variants = {
     }
 	create_equipment_variant = {
         name = "Dubrovnik Class"
+		parent_version = 0
 		role_icon_index = 31
         type = vnr_ship_hull_light_2
         name_group = YUG_DD_HISTORICAL
@@ -5924,6 +6254,7 @@ YUG_start_naval_variants = {
     }
 	create_equipment_variant = {
         name = "Hrabri/Smeli Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_2
         name_group = YUG_SS_HISTORICAL
@@ -5939,6 +6270,7 @@ YUG_start_naval_variants = {
 PRU_start_naval_variants = {
     create_equipment_variant = {
         name = "Almirante Grau Class"
+		parent_version = 0
 		role_icon_index = 23
         type = vnr_ship_hull_cruiser_coastal_defense_ship
         name_group = PRU_CL_HISTORICAL
@@ -5955,6 +6287,7 @@ PRU_start_naval_variants = {
     }
 	create_equipment_variant = {
         name = "Almirante Villar Class"
+		parent_version = 0
 		role_icon_index = 31
         icon = "gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
         type = vnr_ship_hull_light_1
@@ -5974,6 +6307,7 @@ PRU_start_naval_variants = {
     }
 	create_equipment_variant = {
         name = "R1 Class"
+		parent_version = 0
 		role_icon_index = 37
         type = vnr_ship_hull_submarine_1
         name_group = PRU_SS_HISTORICAL
@@ -5989,6 +6323,7 @@ PRU_start_naval_variants = {
 CUB_start_naval_variants = {
     create_equipment_variant = {
 		name = "Baire/Patria Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 47
 		type = vnr_ship_hull_light_1
@@ -6005,6 +6340,7 @@ CUB_start_naval_variants = {
 	}
 	create_equipment_variant = {#TBC
 		name = "Cuba Class"
+		parent_version = 0
 		allow_without_tech = yes
 		role_icon_index = 23
 		name_group = CUB_DD_HISTORICAL
@@ -6022,6 +6358,7 @@ CUB_start_naval_variants = {
 PER_start_naval_variants = {
     create_equipment_variant = {
 		name = "Babr Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 47
 		type = vnr_ship_hull_light_1
@@ -6043,6 +6380,7 @@ SIA_start_naval_variants = {
     # heavy cruiser
     create_equipment_variant = {
 		name = "Sri Ayuthia Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 19
 		type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -6059,6 +6397,7 @@ SIA_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Ratanakosindra Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 19
 		type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -6080,6 +6419,7 @@ SIA_start_naval_variants = {
     # destroyer
     create_equipment_variant = {
 		name = "Phra Ruang Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 31
 		type = vnr_ship_hull_light_1
@@ -6096,6 +6436,7 @@ SIA_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Sua Tayanchon Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 31
 		type = vnr_ship_hull_light_1
@@ -6111,6 +6452,7 @@ SIA_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Chao Phraya Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 47
 		type = vnr_ship_hull_light_1
@@ -6127,6 +6469,7 @@ SIA_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Trad Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 35
 		type = vnr_ship_hull_light_2
@@ -6143,6 +6486,7 @@ SIA_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Kantang Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 29
 		type = vnr_ship_hull_light_1
@@ -6158,6 +6502,7 @@ SIA_start_naval_variants = {
     # submarine
     create_equipment_variant = {
         name = "Vilun Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 49
         type = vnr_ship_hull_submarine_2
@@ -6175,6 +6520,7 @@ RAJ_start_naval_variants = {
     # sloop
     create_equipment_variant = {
 		name = "Hasting/Grimsby Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 48
 		type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -6191,6 +6537,7 @@ RAJ_start_naval_variants = {
 	}
     create_equipment_variant = {
 		name = "Lawrence/Clive Class"
+		parent_version = 0
         allow_without_tech = yes
 		role_icon_index = 48
 		type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -6212,6 +6559,7 @@ RAJ_start_naval_variants = {
 VEN_start_naval_variants = {
     create_equipment_variant = {
         name = "General Soublette Class"
+		parent_version = 0
         role_icon_index = 48
         type = vnr_ship_hull_light_1
         modules = {
@@ -6228,6 +6576,7 @@ VEN_start_naval_variants = {
 BEL_start_naval_variants = {
     create_equipment_variant = {
         name = "A1/A22 Class"
+		parent_version = 0
         role_icon_index = 72
         type = vnr_ship_hull_light_1
         name_group = BEL_RIVERS_THEME
@@ -6247,6 +6596,7 @@ BEL_start_naval_variants = {
 LAT_start_naval_variants = {
     create_equipment_variant = {
         name = "Ronis Class"
+		parent_version = 0
         allow_without_tech = yes
         role_icon_index = 49
         type = vnr_ship_hull_submarine_2
