@@ -90,11 +90,7 @@ guiTypes = {
 			}
 		}
 
-		iconType = {
-			name = "ship_category_icon"
-			spriteType = "GFX_ship_category_icon_small"
-			position = { x = 490 y = 56 }
-		}
+
 		iconType = {
 			name = "role_icon_bg"
 			spriteType = "GFX_role_icon_bg"
@@ -257,6 +253,12 @@ guiTypes = {
 				position = { x=@fixed_btn_mod_col_1 y=@extra_fixed_btn_mod_row}
 			}
 
+		}
+		
+		iconType = {
+			name = "ship_category_icon"
+			spriteType = "GFX_ship_category_icon_small"
+			position = { x = 494 y = 198 }
 		}
 		
 		ButtonType = {
@@ -714,6 +716,22 @@ guiTypes = {
 			frame = 1
 		}
 
+		iconType = {
+			name = "nubbin"
+			quadTextureSprite ="GFX_tank_designer_nubbin"
+			position = { x=300 y =65 }
+			scale = 1.0
+		}
+		
+		buttonType = {
+			name = "dynamic_version_checkbox_button"
+			position = { x=308 y =55 }
+			quadTextureSprite ="GFX_generic_checkbox3"
+			pdx_tooltip = "EQUIPMENT_DESIGNER_DYNAMIC_VERSION_CHECKBOX_BUTTON_DESC"
+			clicksound = click_checkbox
+			frame = 1
+		}
+
 		ButtonType = {
 			name = "save_button"
 			position = { x=400 y=502 }
@@ -726,13 +744,13 @@ guiTypes = {
 		# drop down for ship names
 		dropDownBoxType = {
 			name = "equipment_names"
-			position = { x = 245 y = 51 }
-			size = { width = 220 height = 30 }
+			position = { x = 325 y = 51 }
+			size = { width = 180 height = 30 }
 			
 
 			containerWindowType = {
 				name = "equipment_name_bg"
-				size = { width = 220 height = 30 }
+				size = { width = 180 height = 30 }
 
 				
 				background = {
@@ -755,7 +773,7 @@ guiTypes = {
 				position = { x = 45 y = 5 }
 				font = "hoi_18mbs"
 				text = "COMBAT_HEADER"
-				maxWidth = 164
+				maxWidth = 140
 				maxHeight = 20
 				fixedsize = yes
 				format = left
@@ -777,7 +795,7 @@ guiTypes = {
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
 				animation_time = 300
-				size = { width=230 height=260 }	
+				size = { width=190 height=260 }	
 				verticalScrollbar = "right_vertical_slider"
 				scroll_wheel_factor = 40
 				smooth_scrolling = yes
@@ -793,8 +811,8 @@ guiTypes = {
 				gridBoxType = {
 					name = "names_grid"
 					position = { x = 8 y = 0 }
-					size = { width = 199 height = 100%% }
-					slotsize = { width = 186 height = 30 }
+					size = { width = 159 height = 100%% }
+					slotsize = { width = 146 height = 30 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -805,11 +823,11 @@ guiTypes = {
 		dropDownBoxType = {
 			name = "equipments"
 			position = { x = 15 y = 51 }
-			size = { width = 220 height = 30 }
+			size = { width = 272 height = 30 }
 
 			containerWindowType = {
 				name = "equipment_name_bg"
-				size = { width = 220 height = 30 }
+				size = { width = 272 height = 30 }
 
 				background = {
 					name = "name_bg"
@@ -862,6 +880,18 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 				} #TODO remove
 			}
+		}
+		
+		instantTextboxType = {
+			name = "position_version"
+			position = { x = 212 y = 56 }
+			font = "hoi_18mbs"
+			text_color_code = g
+			maxWidth = 71
+			maxHeight = 18
+			alwaystransparent = yes
+			multiline = no
+			format = right
 		}
 		
 		buttonType = {
@@ -1366,7 +1396,7 @@ guiTypes = {
 	#division name entry
 	containerWindowType = {
 		name = "equipment_designer_name_group_entry"
-		size = { width = 196 height = 30 }
+		size = { width = 156 height = 30 }
 		clipping = no
 		
 		background = {
@@ -1382,7 +1412,7 @@ guiTypes = {
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
-			maxWidth = 170
+			maxWidth = 152
 			maxHeight = 30
 			fixedsize = yes
 			format = left
