@@ -10,7 +10,7 @@
 CHI_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -73,7 +73,7 @@ CHI_DD_HISTORICAL = {
 CHI_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -99,7 +99,7 @@ CHI_CL_HISTORICAL = {
 CHI_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -119,7 +119,7 @@ CHI_CA_HISTORICAL = {
 CHI_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship battle_cruiser ship_hull_pre_dreadnought }
@@ -137,7 +137,7 @@ CHI_BB_HISTORICAL = {
 CHI_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -155,7 +155,7 @@ CHI_CV_HISTORICAL = {
 CHI_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -167,7 +167,7 @@ CHI_SS_HISTORICAL = {
 CHI_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 
@@ -189,7 +189,7 @@ CHI_THEME_MOUNTAINS = {
 CHI_THEME_STATES = {
 	name = NAME_THEME_STATES
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 
@@ -211,7 +211,7 @@ CHI_THEME_STATES = {
 CHI_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 
@@ -241,7 +241,7 @@ CHI_THEME_RIVERS = {
 CHI_THEME_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 
@@ -263,7 +263,7 @@ CHI_THEME_CITIES = {
 
 CHYN_THEME_ASTROLOGY = {
 	name = NAME_THEME_ASTROLOGY
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 
@@ -279,7 +279,7 @@ CHYN_THEME_ASTROLOGY = {
 
 CHYN_THEME_ANCIENT_GENERAL = {
 	name = NAME_THEME_GENERAL_CHI
-	for_countries = { CHI SHX PRC GXC XSM SIK YUN }
+	for_countries = { CHI SHX PRC GXC XSM SIK YUN MAN }
 
 	type = ship
 
