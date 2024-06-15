@@ -204,7 +204,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_medium_battery_single }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_medium_battery_single ship_secondaries_special }
 			}
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit

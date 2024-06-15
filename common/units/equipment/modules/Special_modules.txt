@@ -63,7 +63,7 @@ equipment_modules = {
     }
 
 	usa_8in_mk9_secondaries = {
-		category = ship_secondaries
+		category = ship_secondaries_special
 		gfx = ship_medium_battery_2_double
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
