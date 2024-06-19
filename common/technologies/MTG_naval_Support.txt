@@ -1454,6 +1454,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = oxygen_torpedo
+			research_cost_coeff = 1
+		}
+
 		destroyer = {
 			torpedo_attack = 0.1
 		}
@@ -1686,10 +1691,49 @@ technologies = {
 
 		naval_torpedo_reveal_chance_factor = -0.15
 
-
+		xor = { oxygen_torpedo }
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 3 y = 13 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				OR = {
+					tag = JAP
+					tag = USA
+					tag = GER
+				}
+				factor = 5
+			}
+		}
+
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
+	}
+
+	oxygen_torpedo = {
+
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
+		research_cost = 0.75
+
+		start_year = 1940
+
+
+		naval_torpedo_screen_penetration_factor = 0.1
+
+		xor = { electric_torpedo }
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 13 }
 		}
 
 		ai_will_do = {
