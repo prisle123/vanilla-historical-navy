@@ -141,6 +141,7 @@ equipments = {
 
 	### vnr hulls
 	vnr_ship_hull_carrier_conversion_ca = {
+		derived_variant_name = carrier_equipment_ca
 		abbreviation = "hae"
 		year = 1922
 		archetype = ship_hull_carrier
@@ -185,6 +186,7 @@ equipments = {
 	}
 	
 	vnr_ship_hull_carrier_conversion_bb = {
+		derived_variant_name = carrier_equipment_bb
 		abbreviation = "had"
 		year = 1922
 		archetype = ship_hull_carrier
@@ -202,7 +204,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_medium_battery_single }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_medium_battery_single ship_secondaries_special }
 			}
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
@@ -249,6 +251,7 @@ equipments = {
 	}
 	
 	vnr_ship_hull_carrier_1 = {
+		derived_variant_name = carrier_equipment_1
 		abbreviation = "haa"
 		year = 1936
 		can_convert_from = { vnr_ship_hull_carrier_1 }
@@ -317,6 +320,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_carrier_2 = {
+		derived_variant_name = carrier_equipment_2
 		abbreviation = "hab"
 		year = 1940
 		archetype = ship_hull_carrier
@@ -400,6 +404,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_carrier_3 = {
+		derived_variant_name = carrier_equipment_3
 		abbreviation = "hac"
 		year = 1944
 		archetype = ship_hull_carrier
@@ -496,6 +501,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_escort_carrier = {
+		derived_variant_name = carrier_equipment_cve
 		year = 1941
 		archetype = ship_hull_carrier
 		priority = 1200
@@ -553,6 +559,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_super_carrier = {
+		derived_variant_name = carrier_equipment_cvh
 		year = 1944
 		archetype = ship_hull_carrier
 		priority = 1000

@@ -195,6 +195,7 @@ equipments = {
 	
 	### vnr hulls
 	vnr_ship_hull_pre_dreadnought = {
+		derived_variant_name = battleship_equipment_b
 		abbreviation = "hcb"
 		year = 1905
 		archetype = ship_hull_heavy
@@ -262,6 +263,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_heavy_1 = {
+		derived_variant_name = battleship_equipment_1
 		year = 1914
 		archetype = ship_hull_heavy
 		model = battleship
@@ -397,6 +399,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_heavy_2 = {
+		derived_variant_name = battleship_equipment_2
 		abbreviation = "hcc"
 		year = 1922
 		model = battleship
@@ -431,6 +434,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_heavy_3 = {
+		derived_variant_name = battleship_equipment_3
 		abbreviation = "hcd"
 		year = 1936
 
@@ -458,6 +462,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_heavy_4 = {
+		derived_variant_name = battleship_equipment_4
 		abbreviation = "hce"
 		year = 1940
 
@@ -486,6 +491,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_heavy_5 = {
+		derived_variant_name = battleship_equipment_5
 		abbreviation = "hcf"
 		year = 1944
 
@@ -591,6 +597,7 @@ equipments = {
 	}
 
 	vnr_ship_hull_super_heavy_1 = {
+		derived_variant_name = battleship_equipment_shbb
 		abbreviation = "hcg"
 		year = 1940
 

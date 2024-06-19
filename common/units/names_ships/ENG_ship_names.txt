@@ -346,7 +346,7 @@ ENG_CV_QUALITIES = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_heavy carrier }
+	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "HMS "
 	fallback_name = "Carrier %s"
@@ -375,7 +375,7 @@ ENG_CV_MYTHOLOGY = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { ship_hull_heavy carrier }
+	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "HMS "
 	fallback_name = "Carrier %s"
@@ -536,5 +536,26 @@ ENG_KINGS = {
 		"King Henry VII" "King Richard III" "King Edward V" "King Edward IV" "King Henry VI" "King Henry V" "King Henry IV"
 		"King Richard II" "King Edward III" "King Edward II" "King Edward I" "King Henry III" "King John" "King Richard I"
 		"King Henry II" "King Stephen" "King Henry I" "King William II" "King William I"
+	}
+}
+
+ENG_CVE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVE
+
+	for_countries = { ENG }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HMS "
+	fallback_name = "Carrier %s"
+
+	unique = {
+		"Audacity" "Archer" "Avenger" "Biter" "Dasher" "Battler" "Attacker" "Hunter" "Chaser" "Fencer" "Stalker"
+		"Pursuer" "Striker"	"Searcher" "Ravager" "Tracker" "Slinger" "Atheling" "Emperor" "Ameer" "Begum" "Trumpeter"
+		"Empress" "Khedive" "Speaker" "Nabob" "Premier" "Shah" "Patroller" "Rajah" "Ranee" "Trouncer" "Thane"
+		"Queen" "Ruler" "Arbiter" "Smiter" "Puncher" "Reaper" "Activity" "Nairana" "Vindex" "Campania" "Pretoria Castle"
+		"Pounder" "Stomper" "Tackler" "Pecker" "Slingshot" "Deflector" "Spiker" "Monarch" "King" "Prince" "Margrave"
+		"Padishah" "Sultan" "Malik" "Emir" "Tenno" "Khan" "Sultana" "Princess" "Tsar" "Caeser" "Royalty"
 	}
 }
