@@ -1,4 +1,4 @@
-version="v1.8 - Mirage"
+version="v1.9 - Pacific Rim"
 tags={
 	"Military"
 	"Graphics"
