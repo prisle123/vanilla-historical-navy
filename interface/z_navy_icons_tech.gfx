@@ -2077,4 +2077,12 @@ spriteTypes = {
 				name = "GFX_POR_basic_ship_hull_light_medium"
         		texturefile = "gfx/interface/technologies/Portugal/POR_destroyer2.png"
 			}
+
+### GRE ###
+	# destroyer
+
+			spriteType = {
+				name = "GFX_GRE_early_ship_hull_light_medium"
+        		texturefile = "gfx/interface/technologies/Balkan/GRE_destroyer1.png"
+			}
 }

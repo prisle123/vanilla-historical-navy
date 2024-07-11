@@ -323,6 +323,10 @@ spriteTypes = {
         		name = "GFX_ENG_vnr_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
         	}
+			spriteType = {
+        		name = "GFX_ENG_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_escort_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -487,6 +491,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_AST_vnr_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
+        	}
+			spriteType = {
+        		name = "GFX_AST_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_escort_carrier.png"
         	}
 	# submarine
 
@@ -653,6 +661,10 @@ spriteTypes = {
         		name = "GFX_CAN_vnr_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
         	}
+			spriteType = {
+        		name = "GFX_CAN_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_escort_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -817,6 +829,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_NZL_vnr_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
+        	}
+			spriteType = {
+        		name = "GFX_NZL_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_escort_carrier.png"
         	}
 	# submarine
 
@@ -983,6 +999,10 @@ spriteTypes = {
         		name = "GFX_RAJ_vnr_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
         	}
+			spriteType = {
+        		name = "GFX_RAJ_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_escort_carrier.png"
+        	}
 	# submarine
 
         	spriteType = {
@@ -1147,6 +1167,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_SAF_vnr_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/England/ENG_super_carrier.png"
+        	}
+			spriteType = {
+        		name = "GFX_SAF_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/England/ENG_escort_carrier.png"
         	}
 	# submarine
 
@@ -1774,6 +1798,10 @@ spriteTypes = {
         		name = "GFX_JAP_vnr_ship_hull_heavy_5_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_battleship5.png"
         	}
+			spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_pre_dreadnought_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_pre_dreadnought.png"
+        	}
         	spriteType = {
         		name = "GFX_JAP_vnr_ship_hull_super_heavy_1_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_heavy_battleship1.png"
@@ -1803,6 +1831,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_JAP_vnr_ship_hull_super_carrier_medium"
         		texturefile = "gfx/interface/technologies/Japan/JAP_super_carrier.png"
+        	}
+			spriteType = {
+        		name = "GFX_JAP_vnr_ship_hull_escort_carrier_medium"
+        		texturefile = "gfx/interface/technologies/Japan/JAP_escort_carrier.png"
         	}
 	# submarine
 
@@ -2830,6 +2862,14 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_POR_vnr_ship_hull_light_2_medium"
         		texturefile = "gfx/interface/technologies/Portugal/POR_destroyer2.png"
+        	}
+
+### GRE ###
+	# destroyer
+
+        	spriteType = {
+        		name = "GFX_GRE_vnr_ship_hull_light_1_medium"
+        		texturefile = "gfx/interface/technologies/Balkan/GRE_destroyer1.png"
         	}
 }
 
