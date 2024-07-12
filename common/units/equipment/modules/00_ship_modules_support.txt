@@ -680,7 +680,7 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_1
 		
 		add_stats = {
-			surface_detection = 6
+			surface_detection = 4
 			sub_detection = 2.5
 			sub_attack = 1.5
 			build_cost_ic = 150
@@ -695,10 +695,10 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_2
 		parent = ship_airplane_launcher_1
 		add_stats = {
-			surface_detection = 9
+			surface_detection = 7
 			sub_detection = 3.5
-			sub_attack = 3
-			build_cost_ic = 170
+			sub_attack = 2.5
+			build_cost_ic = 200
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher
@@ -712,10 +712,10 @@ equipment_modules = {
 		category = ship_airplane_launcher
 		parent = ship_airplane_launcher_2
 		add_stats = {
-			surface_detection = 6
+			surface_detection = 5
 			sub_detection = 4.5
 			sub_attack = 6
-			build_cost_ic = 180
+			build_cost_ic = 200
 		}
 		multiply_stats = {
 			naval_speed = -0.005
@@ -724,7 +724,7 @@ equipment_modules = {
     recon_drone_1 = {
 		category = ship_airplane_launcher
 		add_stats = {
-			surface_detection = 3
+			surface_detection = 2.5
 			sub_detection = 3
 			build_cost_ic = 10
 		}

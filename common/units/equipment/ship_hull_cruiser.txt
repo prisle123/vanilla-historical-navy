@@ -108,6 +108,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -133,6 +134,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -153,6 +155,14 @@ equipments = {
 		}
 		module_count_limit = {
 			category = ship_missile_aa
+			count < 4
+		}
+		module_count_limit = {
+			category = ship_airplane_launcher
+			count < 4
+		}
+		module_count_limit = {
+			category = seaplane_hangar
 			count < 4
 		}
 
@@ -430,6 +440,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_torpedo
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -444,6 +455,7 @@ equipments = {
 					ship_heavy_battery_triple
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -562,6 +574,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -587,6 +600,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -764,6 +778,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -791,6 +806,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -895,6 +911,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -922,6 +939,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -1012,6 +1030,7 @@ equipments = {
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					seaplane_hangar
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -1032,6 +1051,7 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
+					seaplane_hangar
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -1057,8 +1077,6 @@ equipments = {
 
 		armor_value = 0
 
-
-		surface_detection = 23
 		sub_detection = 1
 		surface_visibility = 15
 		naval_speed = 30
