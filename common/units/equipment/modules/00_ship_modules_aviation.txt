@@ -18,13 +18,13 @@ equipment_modules = {
 			build_cost_ic = 1800
 			reliability = -0.1
 			max_organisation = -0.1
-			surface_detection = 3
+			surface_detection = 5
 		}
 		manpower = 300 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.1
 			anti_air_attack = 0.035
-			max_strength = -0.1
+			max_strength = -0.15
 			fuel_consumption = 0.1
 		}
 		dismantle_cost_ic = 900
@@ -41,13 +41,14 @@ equipment_modules = {
 			carrier_size = 2
 			build_cost_ic = 1300
 			reliability = 0.025
-			surface_detection = 2
+			surface_detection = 4
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.065
 			max_strength = 0.05
 			armor_value = 0.025
+			fuel_consumption = 0.075
 		}
 		dismantle_cost_ic = 700
 		can_convert_from = {
@@ -63,12 +64,13 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 2
 			build_cost_ic = 1000
-			surface_detection = 2
+			surface_detection = 4
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.05
 			anti_air_attack = 0.025
+			fuel_consumption = 0.075
 		}
 		dismantle_cost_ic = 600
 		can_convert_from = {
@@ -83,12 +85,12 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			build_cost_ic = 500
-			surface_detection = 1
+			surface_detection = 2
 		}
 		multiply_stats = {
 			naval_speed = -0.025
 			sub_detection = 0.05
-			fuel_consumption = -0.05
+			fuel_consumption = 0.05
 		}
 		manpower = 100
 		dismantle_cost_ic = 400
@@ -101,7 +103,7 @@ equipment_modules = {
 			carrier_size = 3
 			build_cost_ic = 2000
 			max_organisation = -0.05
-			surface_detection = 3
+			surface_detection = 5
 		}
 		manpower = 300
 		multiply_stats = {
@@ -123,12 +125,13 @@ equipment_modules = {
 			build_cost_ic = 1000
 			reliability = -0.1
 			max_organisation = -0.1
-			surface_detection = 1
+			surface_detection = 2
 		}
 		manpower = 125
 		multiply_stats = {
 			naval_speed = -0.05
 			max_strength = -0.1
+			fuel_consumption = 0.05
 		}
 		dismantle_cost_ic = 2000
 	}
