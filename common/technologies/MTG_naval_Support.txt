@@ -35,6 +35,7 @@ technologies = {
 			ship_heavy_battery_small_1
 			ship_secondaries_1
 			ship_civilian_light_battery_1
+			ship_anti_air_1_h
 			
 			# ship_ap_shell_1
 			# ship_ap_shell_2
@@ -172,6 +173,7 @@ technologies = {
 			dp_light_battery_1
 			dp_light_battery_1_single
 			dp_ship_secondaries_1
+			ship_anti_air_2_h
 		}
 
 
@@ -291,6 +293,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_3
 			ship_light_battery_3_double
+			ship_anti_air_3_h
 		}
 
 		folder = {
@@ -401,6 +404,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_4
 			ship_light_battery_4_double
+			ship_anti_air_4_h
 		}
 
 		on_research_complete = {
