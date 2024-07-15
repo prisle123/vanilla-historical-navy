@@ -270,7 +270,7 @@ equipment_modules = {
 	ship_torpedo_fire_control = {
 		category = ship_fire_control_system
 		multiply_stats = {
-			naval_torpedo_hit_chance_factor = 0.015
+			naval_torpedo_hit_chance_factor = 0.03
 		}
 		add_stats = {
 			build_cost_ic = 150
