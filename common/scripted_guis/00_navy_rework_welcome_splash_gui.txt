@@ -27,7 +27,11 @@ scripted_gui = {
 			navy_rework_options_button_click = {
 				clr_global_flag = navy_rework_splash_show
 				clear_variable = navy_rework_welcome_splash_variable
-				country_event = navy_rework.0
+				if = {
+					limit = { NOT = { has_global_flag = vnr_oob_loaded } }
+					country_event = navy_rework.0
+					set_global_flag = vnr_oob_loaded
+				}
 			}
 		}
 	}
