@@ -35,4 +35,16 @@ technologies = {
             ger_11in_c34_triple
         }
     }
+
+    fra_13in_1931 = {
+        research_cost = 1
+        start_year = 1930
+
+        allow = {
+            always = no
+        }
+        enable_equipment_modules = {
+            fra_11in_1931_quad
+        }
+    }
 }
