@@ -32,6 +32,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 2000
 	}
 	ship_armor_bc_1 = {
 		abbreviation = "sdf"
@@ -57,6 +58,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 1500
 	}
 	ship_armor_bb_2 = {
 		abbreviation = "sdg"
@@ -91,6 +93,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 2800
 	}
 	ship_armor_bc_2 = {
 		abbreviation = "sdh"
@@ -124,6 +127,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 2200
 	}
 	ship_armor_bb_3 = {
 		abbreviation = "sdi"
@@ -159,6 +163,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 3500
 	}
 	ship_armor_bc_3 = {
 		abbreviation = "sdj"
@@ -194,6 +199,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 3000
 	}
 	ship_armor_bb_4 = {
 		abbreviation = "sdj1"
@@ -228,6 +234,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 4000
 	}
 	ship_armor_bc_4 = {
 		abbreviation = "sdj2"
@@ -262,6 +269,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 3500
 	}
 	ship_armor_shbb = {
 		abbreviation = "sk"
@@ -298,6 +306,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 4800
 	}
 	ship_armor_shbb_2 = {
 		category = ship_super_heavy_armor
@@ -341,6 +350,7 @@ equipment_modules = {
 				steel = 1
 			}
 		}
+		dismantle_cost_ic = 5400
 	}
 
 
@@ -575,7 +585,7 @@ equipment_modules = {
 			max_strength = 0.05
 			build_cost_ic = 0.065
 		}
-		dismantle_cost_ic = 3000
+		dismantle_cost_ic = 1000
 		can_convert_from = {
 			module_category = armor_scheme
 			convert_cost_ic = 1500
@@ -601,7 +611,7 @@ equipment_modules = {
 			module = ship_scheme_incremental
 			convert_cost_ic = 1250
 		}
-		dismantle_cost_ic = 3500
+		dismantle_cost_ic = 1500
 	}
 	ship_scheme_mixed = {
 		category = armor_scheme
@@ -624,7 +634,7 @@ equipment_modules = {
 			module_category = armor_scheme
 			convert_cost_ic = 2000
 		}
-		dismantle_cost_ic = 4000
+		dismantle_cost_ic = 2000
 	}
 	ship_scheme_all_or_nothing = {
 		category = armor_scheme
@@ -639,7 +649,7 @@ equipment_modules = {
 		add_stats = {
 			reliability = 0.05
 		}
-		dismantle_cost_ic = 4500
+		dismantle_cost_ic = 2500
 		can_convert_from = {
 			module_category = armor_scheme
 			convert_cost_ic = 2750
@@ -666,7 +676,7 @@ equipment_modules = {
 			module = ship_scheme_all_or_nothing
 			convert_cost_ic = 2000
 		}
-		dismantle_cost_ic = 5000
+		dismantle_cost_ic = 3000
 	}
 
 
