@@ -642,6 +642,22 @@ spriteTypes = {
 		name = "GFX_SMI_ship_anti_air_5"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/anti_air5.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_1_h"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_anti_air1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_2_h"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_anti_air2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_3_h"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_anti_air3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_4_h"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_anti_air4.png"
+	}
 	
 	# ship ap shell
 	spriteType = {
