@@ -13,6 +13,7 @@ equipment_modules = {
 		abbreviation = "sbn"
 		category = light_ship_engine
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_1
 
 		
 		add_stats = {
@@ -37,6 +38,7 @@ equipment_modules = {
 		category = light_ship_engine
 		parent = light_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_2
 
 		
 		add_stats = {
@@ -65,6 +67,7 @@ equipment_modules = {
 		category = light_ship_engine
 		parent = light_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_3
 
 		
 		add_stats = {
@@ -93,6 +96,7 @@ equipment_modules = {
 		category = light_ship_engine
 		parent = light_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_4
 
 		
 		add_stats = {
@@ -121,6 +125,7 @@ equipment_modules = {
 		category = light_ship_engine
 		parent = light_ship_engine_4
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_5
 
 		
 		add_stats = {
@@ -415,6 +420,7 @@ equipment_modules = {
 		abbreviation = "sbv"
 		category = cruiser_ship_engine
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_1
 
 		
 		add_stats = {
@@ -439,6 +445,7 @@ equipment_modules = {
 		category = cruiser_ship_engine
 		parent = cruiser_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_2
 
 		
 		add_stats = {
@@ -468,6 +475,7 @@ equipment_modules = {
 		category = cruiser_ship_engine
 		parent = cruiser_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_3
 
 		
 		add_stats = {
@@ -496,6 +504,7 @@ equipment_modules = {
 		category = cruiser_ship_engine
 		parent = cruiser_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_4
 
 		
 		add_stats = {
@@ -524,6 +533,7 @@ equipment_modules = {
 		parent = cruiser_ship_engine_4
 		gfx = light_ship_engine_5
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_5
 
 		
 		add_stats = {
@@ -662,6 +672,7 @@ equipment_modules = {
 		abbreviation = "sbz"
 		category = heavy_ship_engine
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_1
 
 		
 		add_stats = {
@@ -690,6 +701,7 @@ equipment_modules = {
 		category = heavy_ship_engine
 		parent = heavy_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_2
 
 		
 		add_stats = {
@@ -722,6 +734,7 @@ equipment_modules = {
 		category = heavy_ship_engine
 		parent = heavy_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_3
 
 		
 		add_stats = {
@@ -752,6 +765,7 @@ equipment_modules = {
 		category = heavy_ship_engine
 		parent = heavy_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_4
 
 		
 		add_stats = {
@@ -782,6 +796,7 @@ equipment_modules = {
 		parent = heavy_ship_engine_4
 		gfx = light_ship_engine_5
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_5
 
 		
 		add_stats = {
@@ -951,7 +966,7 @@ equipment_modules = {
 	super_heavy_ship_engine_1 = {
 		category = super_heavy_ship_engine
 		gui_category = heavy_ship_engine
-		gfx = heavy_ship_engine_1
+		gfx = ship_steam_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
@@ -973,7 +988,7 @@ equipment_modules = {
 	super_heavy_ship_engine_2 = {
 		category = super_heavy_ship_engine
 		gui_category = heavy_ship_engine
-		gfx = heavy_ship_engine_2
+		gfx = ship_steam_engine_2
 		sfx = sfx_ui_sd_module_engine
 		parent = super_heavy_ship_engine_1
 
@@ -1000,7 +1015,7 @@ equipment_modules = {
 	super_heavy_ship_engine_3 = {
 		category = super_heavy_ship_engine
 		gui_category = heavy_ship_engine
-		gfx = heavy_ship_engine_3
+		gfx = ship_steam_engine_3
 		sfx = sfx_ui_sd_module_engine
 		parent = super_heavy_ship_engine_2
 
@@ -1033,6 +1048,7 @@ equipment_modules = {
 		abbreviation = "scd"
 		category = carrier_ship_engine
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_1
 		
 		
 		add_stats = {
@@ -1061,6 +1077,7 @@ equipment_modules = {
 		category = carrier_ship_engine
 		parent = carrier_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_2
 
 		
 		add_stats = {
@@ -1093,6 +1110,7 @@ equipment_modules = {
 		category = carrier_ship_engine
 		parent = carrier_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_3
 		
 		
 		add_stats = {
@@ -1124,6 +1142,7 @@ equipment_modules = {
 		category = carrier_ship_engine
 		parent = carrier_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
+		gfx = ship_steam_engine_4
 
 		
 		add_stats = {

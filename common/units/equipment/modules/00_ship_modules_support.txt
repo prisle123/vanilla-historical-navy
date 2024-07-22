@@ -151,6 +151,105 @@ equipment_modules = {
 	}
 
 
+	ship_anti_air_1_h = {
+		category = ship_anti_air
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = anti_air
+		
+		add_stats = {
+			lg_attack = 0.3
+			anti_air_attack = 3
+			build_cost_ic = 120
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.003
+		}
+
+		can_convert_from = {
+			module_category = ship_anti_air
+			convert_cost_ic = 80
+		}
+	}
+
+	ship_anti_air_2_h = {
+		category = ship_anti_air
+		parent = ship_anti_air_1_h
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = anti_air
+		
+		add_stats = {
+			lg_attack = 0.4
+			anti_air_attack = 4
+			build_cost_ic = 180
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.004
+		}
+
+		can_convert_from = {
+			module_category = ship_anti_air
+			convert_cost_ic = 120
+		}
+
+		can_convert_from = {
+			module = ship_anti_air_1_h
+			convert_cost_ic = 80
+		}
+	}
+	ship_anti_air_3_h = {
+		category = ship_anti_air
+		parent = ship_anti_air_2_h
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = anti_air
+		add_stats = {
+			lg_attack = 0.5
+			anti_air_attack = 4.5
+			build_cost_ic = 230
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.005
+		}
+
+		can_convert_from = {
+			module_category = ship_anti_air
+			convert_cost_ic = 140
+		}
+
+		can_convert_from = {
+			module = ship_anti_air_2
+			convert_cost_ic = 90
+		}
+	}
+	ship_anti_air_4_h = {
+		category = ship_anti_air
+		parent = ship_anti_air_3_h
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = anti_air
+		add_stats = {
+			lg_attack = 0.6
+			anti_air_attack = 5.5
+			build_cost_ic = 280
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.006
+		}
+
+		can_convert_from = {
+			module_category = ship_anti_air
+			convert_cost_ic = 180
+		}
+
+		can_convert_from = {
+			module = ship_anti_air_3_h
+			convert_cost_ic = 100
+		}
+	}
+
 ###############
 ##  TORPEDO  ##
 ###############
@@ -680,7 +779,7 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_1
 		
 		add_stats = {
-			surface_detection = 6
+			surface_detection = 4
 			sub_detection = 2.5
 			sub_attack = 1.5
 			build_cost_ic = 150
@@ -695,10 +794,10 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_2
 		parent = ship_airplane_launcher_1
 		add_stats = {
-			surface_detection = 9
+			surface_detection = 7
 			sub_detection = 3.5
-			sub_attack = 3
-			build_cost_ic = 170
+			sub_attack = 2.5
+			build_cost_ic = 200
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher
@@ -712,10 +811,10 @@ equipment_modules = {
 		category = ship_airplane_launcher
 		parent = ship_airplane_launcher_2
 		add_stats = {
-			surface_detection = 6
+			surface_detection = 5
 			sub_detection = 4.5
 			sub_attack = 6
-			build_cost_ic = 180
+			build_cost_ic = 200
 		}
 		multiply_stats = {
 			naval_speed = -0.005
@@ -724,7 +823,7 @@ equipment_modules = {
     recon_drone_1 = {
 		category = ship_airplane_launcher
 		add_stats = {
-			surface_detection = 3
+			surface_detection = 2.5
 			sub_detection = 3
 			build_cost_ic = 10
 		}
@@ -785,7 +884,7 @@ equipment_modules = {
 	supply_hub = {
 		category = ship_auxiliary
 		multiply_stats = {
-			naval_range = 0.1
+			naval_range = 0.2
 			naval_speed = -0.05
 		}
 	}

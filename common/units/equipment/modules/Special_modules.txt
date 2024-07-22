@@ -108,4 +108,32 @@ equipment_modules = {
 			ship_mine_layer
 		}
 	}
+
+	fra_11in_1931_quad = {
+		category = ship_heavy_battery_quad
+		gfx = ship_heavy_battery_big_1_quad
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		add_stats = {
+			surface_visibility = 0.8
+			hg_attack = 11.5
+			build_cost_ic = 900
+			reliability = -0.05
+			naval_heavy_gun_hit_chance_factor = -0.01
+		}
+		multiply_stats = {
+			naval_speed = -0.02
+			max_strength = 0.07
+		}
+		add_average_stats = {
+			hg_armor_piercing = 33
+		}
+		
+		dismantle_cost_ic = 400
+		critical_parts = { damaged_heavy_guns }
+		forbid_module_categories = {
+		    ship_depth_charge
+			ship_mine_layer
+		}
+	}
 }

@@ -2393,7 +2393,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_2
-			super_heavy_ship_engine_1
 		}
 
 		path = {
@@ -2456,7 +2455,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_armor_shbb
-			super_heavy_ship_engine_2
+			super_heavy_ship_engine_1
 		}
 
 		research_cost = 1.5
@@ -2494,6 +2493,7 @@ technologies = {
 		enable_equipment_modules = {
 			heavy_ship_engine_3
 			heavy_ship_engine_2_diesel
+			super_heavy_ship_engine_2
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_heavy
@@ -3173,7 +3173,7 @@ technologies = {
 	}
 
 	fuel_tank_upgrade = {
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1944
 
 		navy_max_range_factor = 0.1
