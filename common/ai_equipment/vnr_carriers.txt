@@ -1,4 +1,3 @@
-# By Pelmen, 1.10.7
 naval_carrier = {
 	category = naval
 	#blocked_for = {}
@@ -41,7 +40,7 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine
-				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
 			}
 		}
@@ -59,7 +58,7 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine
-				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
 				mid_1_custom_slot = ship_deck_space
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
@@ -85,7 +84,7 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
@@ -114,7 +113,7 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
@@ -122,7 +121,7 @@ naval_carrier = {
 				front_1_custom_slot = ship_deck_space
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space
-				mid_2_custom_slot = ship_dp_secondaries
+				mid_2_custom_slot = ship_dp_secondaries_bb
 			}
 		}
 	}
@@ -146,7 +145,7 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = { any_of { ship_anti_air ship_missile_aa } }
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { any_of = { ship_secondaries ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
@@ -155,7 +154,7 @@ naval_carrier = {
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space
 				mid_2_custom_slot = ship_deck_space
-				rear_1_custom_slot = ship_dp_secondaries
+				rear_1_custom_slot = ship_dp_secondaries_bb
 			}
 		}
 	}
@@ -180,7 +179,7 @@ naval_carrier = {
 				fixed_ship_anti_air_slot = { any_of { ship_anti_air ship_missile_aa } }
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
@@ -214,7 +213,7 @@ naval_carrier = {
 				fixed_ship_anti_air_slot = ship_missile_aa
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
 				fixed_ship_engine_slot = carrier_ship_engine_nuclear
-				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
 				fixed_ship_carrier_miscellaneous_slot_2 = economical_nuclear_reactor_carrier
@@ -247,7 +246,7 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island
@@ -276,7 +275,7 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island
@@ -307,7 +306,7 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = { any_of { ship_anti_air ship_missile_aa } }
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island
@@ -340,7 +339,7 @@ naval_carrier = {
 				fixed_ship_anti_air_slot = ship_missile_aa
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
 				fixed_ship_engine_slot = { upgrade > current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
-				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island
@@ -373,7 +372,7 @@ naval_carrier = {
 				fixed_ship_anti_air_slot = ship_missile_aa
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
 				fixed_ship_engine_slot = carrier_ship_engine_nuclear
-				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries } }
+				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_secondary_island

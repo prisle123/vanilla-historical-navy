@@ -48,7 +48,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb }
 			}
 			fixed_ship_armor_slot = {
 				required = no
@@ -74,7 +74,7 @@ equipments = {
 					ship_deck_space_small
 					ship_carrier_armor
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 				}
 			}
 		}
@@ -204,7 +204,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_medium_battery_single ship_secondaries_special }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb ship_medium_battery_single ship_secondaries_special }
 			}
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
@@ -214,7 +214,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
 					ship_carrier_armor
@@ -284,7 +284,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb }
 			}
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
@@ -298,7 +298,7 @@ equipments = {
 					ship_deck_space_small
 					ship_carrier_armor
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 				}
 			}
 			mid_1_custom_slot = {
@@ -308,7 +308,7 @@ equipments = {
 					ship_deck_space_small
 					ship_carrier_armor
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 				}
 			}
 		}
@@ -359,7 +359,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
 					ship_carrier_armor
@@ -372,7 +372,7 @@ equipments = {
 					carrier_side_lift
 					carrier_angled_deck
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
 				}
@@ -446,7 +446,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
 					ship_carrier_armor
@@ -459,7 +459,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
 					ship_carrier_armor
@@ -472,7 +472,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_anti_air
 					carrier_side_lift
 				}
@@ -585,7 +585,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb }
 			}
 			fixed_ship_armor_slot = {
 				required = yes
@@ -614,7 +614,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_big
 					steam_catapult
@@ -627,7 +627,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_anti_air
 					ship_missile_aa
 					carrier_side_lift

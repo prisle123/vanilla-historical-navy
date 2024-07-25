@@ -173,6 +173,7 @@ technologies = {
 			dp_light_battery_1
 			dp_light_battery_1_single
 			dp_ship_secondaries_1
+			dp_ship_secondaries_1_bb
 			ship_anti_air_2_h
 		}
 
@@ -958,6 +959,7 @@ technologies = {
 			dp_light_battery_2
 			dp_light_battery_2_single
 			dp_ship_secondaries_2
+			dp_ship_secondaries_2_bb
 		}
 
 		path = {
@@ -1004,6 +1006,7 @@ technologies = {
 			dp_light_battery_3
 			dp_light_battery_3_single
 			dp_ship_secondaries_3
+			dp_ship_secondaries_3_bb
 		}
 
 		on_research_complete = {
@@ -1050,6 +1053,7 @@ technologies = {
 			dp_light_battery_4
 			dp_light_battery_4_single
 			dp_ship_secondaries_4
+			dp_ship_secondaries_4_bb
 		}
 
 		on_research_complete = {

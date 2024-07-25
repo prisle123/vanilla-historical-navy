@@ -2092,6 +2092,99 @@ equipment_modules = {
 		critical_parts = { damaged_secondaries }
 	}
 
+	dp_ship_secondaries_1_bb = {
+		abbreviation = "sax"
+		category = ship_dp_secondaries_bb
+		gui_category = ship_secondaries
+		gfx = dp_ship_secondaries_1
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 2
+			anti_air_attack = 1.5
+			build_cost_ic = 180
+		}
+		add_average_stats = {
+			lg_armor_piercing = 5
+		}
+
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+		
+		dismantle_cost_ic = 36
+		critical_parts = { damaged_secondaries }
+	}
+
+	dp_ship_secondaries_2_bb = {
+		abbreviation = "say"
+		category = ship_dp_secondaries_bb
+		gui_category = ship_secondaries
+		parent = dp_ship_secondaries_1
+		gfx = dp_ship_secondaries_2
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 3
+			anti_air_attack = 2.5
+			build_cost_ic = 200
+		}
+
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.5
+		}
+		
+		dismantle_cost_ic = 40
+		critical_parts = { damaged_secondaries }
+	}
+
+	dp_ship_secondaries_3_bb = {
+		category = ship_dp_secondaries_bb
+		gui_category = ship_secondaries
+		parent = dp_ship_secondaries_2
+		gfx = dp_ship_secondaries_3
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 4
+			anti_air_attack = 3
+			build_cost_ic = 240
+		}
+
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9
+		}
+		
+		dismantle_cost_ic = 48
+		critical_parts = { damaged_secondaries }
+	}
+
+	dp_ship_secondaries_4_bb = {
+		category = ship_dp_secondaries_bb
+		gui_category = ship_secondaries
+		parent = dp_ship_secondaries_3
+		gfx = dp_ship_secondaries_4
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 5
+			anti_air_attack = 3.5
+			build_cost_ic = 290
+		}
+
+		multiply_stats = {
+			naval_speed = -0.03
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11
+		}
+		
+		dismantle_cost_ic = 58
+		critical_parts = { damaged_secondaries }
+	}
+
 
 ################
 ##  MISSILES  ##

@@ -43,7 +43,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_torpedo_bb }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb ship_torpedo_bb }
 			}
 			fixed_ship_armor_slot = {
 				required = yes
@@ -100,7 +100,7 @@ equipments = {
 					ship_heavy_battery_quad
 					ship_anti_air
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_airplane_launcher
 				}
 			}
@@ -117,7 +117,7 @@ equipments = {
 					ship_heavy_battery_triple
 					ship_heavy_battery_quad
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_airplane_launcher
 					ship_deck_space_bb
 				}
@@ -225,7 +225,7 @@ equipments = {
 					ship_torpedo
 					ship_anti_air
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_airplane_launcher
 				}
 			}
@@ -293,7 +293,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_torpedo_bb }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb ship_torpedo_bb }
 			}
 			fixed_ship_armor_slot = {
 				required = yes
@@ -350,7 +350,7 @@ equipments = {
 					ship_heavy_battery_quad
 					ship_anti_air
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_airplane_launcher
 				}
 			}
@@ -367,7 +367,7 @@ equipments = {
 					ship_heavy_battery_triple
 					ship_heavy_battery_quad
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_airplane_launcher
 					ship_deck_space_bb
 				}
@@ -550,7 +550,7 @@ equipments = {
 					ship_heavy_battery_quad
 					ship_anti_air
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_airplane_launcher
 					ship_missile
 					ship_missile_aa
@@ -569,7 +569,7 @@ equipments = {
 					ship_heavy_battery_triple
 					ship_heavy_battery_quad
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_airplane_launcher
 					ship_missile
 					ship_missile_aa
@@ -629,7 +629,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_torpedo_bb }
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb ship_torpedo_bb }
 			}
 			fixed_ship_armor_slot = {
 				required = yes
@@ -671,7 +671,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_heavy_battery 
 					ship_heavy_battery_triple 
 					ship_heavy_battery_quad
@@ -689,7 +689,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_secondaries
-					ship_dp_secondaries
+					ship_dp_secondaries_bb
 					ship_heavy_battery 
 					ship_heavy_battery_triple 
 					ship_heavy_battery_quad
