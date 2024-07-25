@@ -2093,7 +2093,6 @@ equipment_modules = {
 	}
 
 	dp_ship_secondaries_1_bb = {
-		abbreviation = "sax"
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
 		gfx = dp_ship_secondaries_1
@@ -2116,7 +2115,6 @@ equipment_modules = {
 	}
 
 	dp_ship_secondaries_2_bb = {
-		abbreviation = "say"
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
 		parent = dp_ship_secondaries_1
