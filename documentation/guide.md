@@ -36,7 +36,7 @@ Besides stacking armor, another way to improve your ship's survivability is to i
 
 **Reliability**
 
-The impact of reliability is not superficial, but it determines how likely the ship may suffer a critical hit or damaged in accidents. Many immature or complex modules such as quad guns and missiles will cause loss of reliability, making the ship very vulnerable in combat and training, just like the Swedish warship Wasa. In my opinion, low reliability is somewhat tolerable on platforms with higher HP, but is's definitely not recommended on light hulls.
+The impact of reliability is not superficial, but it determines how likely the ship may suffer a critical hit or damaged in accidents. Many immature or complex modules such as quad guns and missiles will cause loss of reliability, making the ship very vulnerable in combat and training, just like the Swedish warship Wasa. In my opinion, low reliability is somewhat tolerable on platforms with higher HP, but it's definitely not recommended on light hulls.
 
 **Detection**
 
@@ -109,3 +109,35 @@ Panzerschiff in VNR or revived armored cruiser in KRNR, is basically a cruiser w
 The max range of the fleet is calculated by average range of all ships within, so mathematically speaking you can boost it by adding long-range ships to your fleet. However, if you know maths very well, you may notice once the average surpass a certain value, it will bring the increase rate to a stagnation, so it's unwise to put too many auxiliary ships together because the range bonus is reaching the upper limit.
 
 To keep it away from the frontline, auxiliary ship is considered as capital ship, which means it can provide escort efficiency for your carrier just like battleship does. It's weak without doubt, but really really cheap.
+
+## Techtree ##
+
+Techtree is the soul of VNR and also the most interesting part of the game. Compared to base game, the naval techtree has been expanded in width and depth, from bonuses to modules. From the first glance, it may look complicated for people who love short and condensed techtree. It is large but you don't necessarily have to research all of them, and I will try to make your decision easier. Note that not all techs are worthy, you have to choose wisely and try not to overwhelm yourself.
+
+### Naval Tree ###
+
+**Destroyer Branch**
+
+Destroyer is the fundation of any navies, so there is no reason that you should skip this part of the tree, unless you don't want to play navy at all. As I mentioned in designing section, cost is the key element of destroyer variants, so any tech that lowers IC cost of a ship is certainly a must. The research on destroyer should be centered around the job you give them in your fleet. Anti-submarine is one of the most common tasks handled by destroyer, making depth charge and sonar technologies become the theme of this branch. Typically, that's all you need to have to make a decent destroyer. When I say "decent", it stands for "a ship that works under most circumstances regardless of which country you are playing", but there are exceptions that you will be against different enemies.
+
+**Cruiser Branch**
+
+Cruiser can make incredible damage on light ships in the battle when it gets into close combat stage. Therefore, if you want to build a nice surface fleet, don't hesitate to give your cruiser the best guns and armors. Although you have many options in cruiser's tree, the process becomes easier that you only have to choose those improve it in terms of things you really need, including firepower, speed and armor.
+
+**Heavy Armor Branch**
+
+This branch is composed of battleship armor scheme and armor processing technologies. The necessity depends on whether you are going to include heavy ships in your fleet and when you want to exclude them. If heavy ships still hold a place in your fleet, you should update these techs to the latest whenever there's a chance, otherwise just leave it alone.
+
+**Battleship Branch**
+
+Battleship branch is actually quite flexible because you can drop it from anywhere if it's no longer needed in your fleet. But if you want a good cold war era experience, at least research hulls to gain access to cold war fire-control/nuclear-fleet technologies. Back to the base tree, battleship techs prior to the 1930s are very useful despite not being mandatory. Its sub techs during the early 1940s are not recommended for their crummy bonus unless it's out of roleplay. After all, not many people will need excellent battleships but just-okay ones.
+
+**Carrier Branch**
+
+I can't stress more about the dominating power of carrier in reality and mod. Except for some early sub techs of carrier which only apply little bonus, most carrier techs are extremely useful and will definitely give you an upper hand in the battle. My suggestion is to skip techs before 1932, and get all of them after that.
+
+**Submarine Branch**
+
+Submarine is useless against anything but convoys because of AI's ASW improvements. Submarine research should be centered around lowering visibility and improving torpedo attack, other techs remain optional no matter what bonus they offer.
+
+### Naval Support Tree ###
