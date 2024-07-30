@@ -141,3 +141,21 @@ I can't stress more about the dominating power of carrier in reality and mod. Ex
 Submarine is useless against anything but convoys because of AI's ASW improvements. Submarine research should be centered around lowering visibility and improving torpedo attack, other techs remain optional no matter what bonus they offer.
 
 ### Naval Support Tree ###
+
+**Gun Branch**
+
+You need guns everywhere, so there is basically no reason to skip this branch. Except for super heavy guns and rocket artillery, get all techs to the latest if you want to have a decent fleet.
+
+**Torpedo Branch**
+
+Torpedo techs are needed by both submarines and torpedo ships, and overall torpedo weapons are nerfed in accuracy but buffed in damage. Keep it up to date if your fleet is heavily relied on torpedo.
+
+**Auxiliary Branch**
+
+The auxiliary branch is split into three sub-branches, port facilities, auxiliary ships and fuel silos. Basically designed for immersion, you can just skip the whole branch without need to worry about missing important bonus or modules. Of course, if you want to experience this part of the mod, there are some useful techs.
+
+The branch of port facilities aims at accelerating building and repairing speed of naval infrastructure such as shipyard and naval base, but I won't recommended you to finish this line due to poor bonus.
+
+Auxiliary ship branch is centered around the debate over "range or speed". Speed branch is relatively better since it's one of the six dimensions of ship designs and it offers some exclusive modules like raider cruiser.
+
+As for fuel branch, its research cost is insignificant with little bonus, making it an irrelevant factor in your game.
