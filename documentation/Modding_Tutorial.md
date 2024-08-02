@@ -1,19 +1,17 @@
-# Vanilla Navy Rework #
-
-## Modding Tutorial ##
+# Vanilla Navy Rework Modding Tutorial #
 
 Hi there, this is MrPunk, in this file I will try to explain everything about VNR technically.
 
-### Topics ###
+## Topics ##
 
-1. File Structure
-2. Post-loading Mechanism
-3. Interesting Features Breakdown
+1. [File Structure](#file-structure)
+2. [Post-loading Mechanism](#post-loading)
+3. [Interesting Features Breakdown](#interesting-feature-breakdown)
 
 
-### File Structure ###
+## File Structure ##
 
-#### Common ####
+### Common ###
         
 Common is where the fundamental materials of the game are stored, usually it includes technology, national focus， decisions and much more.
 
@@ -23,53 +21,53 @@ The files in this folder will be loaded at game starts (in the loading screen), 
 
 - ai_equipment
 
-The ship design templates are stored here, each file within indicates a type of ship, with specific templates of each level of the hull. AI will replace the template with newer ones if it has enough navy XP, weighted by the AI factors in the file. The variable "role" is the keyword telling AI what to produce in its strategy.
+    The ship design templates are stored here, each file within indicates a type of ship, with specific templates of each level of the hull. AI will replace the template with newer ones if it has enough navy XP, weighted by the AI factors in the file. The variable "role" is the keyword telling AI what to produce in its strategy.
 
 - ai_strategy
 
-AI production strategies are stored here. Using the role defined in ai_equipment, it directly tells AI what to produce, and assigning a value to it determines how AI are willing to produce such templates. Theoretically, any value over 0 will make AI execute the strategy, unless the number of AI's dockyard is too low to make that happen.
+    AI production strategies are stored here. Using the role defined in ai_equipment, it directly tells AI what to produce, and assigning a value to it determines how AI are willing to produce such templates. Theoretically, any value over 0 will make AI execute the strategy, unless the number of AI's dockyard is too low to make that happen.
 
 - decisions
 
-A place where decisions definition is stored. Currently it has the behemoths and naval introduction related decisions.
+    A place where decisions definition is stored. Currently it has the behemoths and naval introduction related decisions.
 
 - defines
 
-Here you modify some static constants in the game mechanism. As the formula set in the code, defines provide a way to scale the effects.
+    Here you modify some static constants in the game mechanism. As the formula set in the code, defines provide a way to scale the effects.
 
 - on_actions
 
-It declares some starting, global and triggering variables, including intro panel display and definition of major naval powers.
+    It declares some starting, global and triggering variables, including intro panel display and definition of major naval powers.
 
 - scripted_effects
 
-Basically they are like functions in programming, purely customized effects. All the starting tech setup and naval variants are stored here.
+    Basically they are like functions in programming, purely customized effects. All the starting tech setup and naval variants are stored here.
 
 - scripted_gui
             
-Just the starting intro panel.
+    Just the starting intro panel.
 
 - scripted_localisation
 
-Defines alternative text for behemoth events. (used by different countries)
+    Defines alternative text for behemoth events. (used by different countries)
 
 - technologies
 
-title says all
+    title says all
 
 - units
 
-Containing units, equipments and modules definition of the mod.
+    Containing units, equipments and modules definition of the mod.
 
-Units are basic combat unit in the game such as carrier, destroyer and battleship. Equipments is more specifically the ship hulls you see in the game. Definition including allowed modules on each slot, and base stats such as speed, armor, fuel consumption. Modules are the parts you put in every slot in ship designers. Plus, ship names are stored in names_ships sorted by country tag.
+    Units are basic combat unit in the game such as carrier, destroyer and battleship. Equipments is more specifically the ship hulls you see in the game. Definition including allowed modules on each slot, and base stats such as speed, armor, fuel consumption. Modules are the parts you put in every slot in ship designers. Plus, ship names are stored in names_ships sorted by country tag.
     
-#### Events ####
+### Events ###
 
 Events are, well, just events..
     
 Nothing to put here, it's very easy to understand.
 
-#### GFX ####
+### GFX ###
 
 All the pictures, icons and 3D assets are put here.
 
@@ -77,41 +75,41 @@ All the pictures, icons and 3D assets are put here.
 
 - army_icons
 
-The ship insignia and their tooltips
+    The ship insignia and their tooltips
 
 - event_pictures
 
-Nothing special
+    Nothing special
 
 - interface
 
     - counters
     
-    Small and green icons shown the number of ships when you hover on your fleet.
+        Small and green icons shown the number of ships when you hover on your fleet.
     
     - equipmentdesigner
     
-    Stores the icons of ship modules and topviews
+        Stores the icons of ship modules and topviews
     
     - navalcomabt
     
-    Stores icons of ships shown on the left side of the screen when you select a fleet, it's also used in naval combat panel.
+        Stores icons of ships shown on the left side of the screen when you select a fleet, it's also used in naval combat panel.
     
     - technologies
     
-    Stores icons of ships in the tech tree and designer. Tech icons are also put here under navy_tree.
+        Stores icons of ships in the tech tree and designer. Tech icons are also put here under navy_tree.
     
     - Others
     
-    Some textures used in tech tree and backgrounds.
+        Some textures used in tech tree and backgrounds.
 
-#### History ####
+### History ###
 
 This part is loaded after you select a country and start the game. Mostly there are country definitions such as leaders/parties/techs and starting military.
     
 All files start with 00_vnr will be loaded as starting navy of that country. The empty files are just for overriding the vanilla ones.
 
-#### Interface ####
+### Interface ###
 
 This folder is in close relation to GFX, which it defines the name of GFX files, the UI lookings and which location the GFX should show up.
 
@@ -129,12 +127,12 @@ Any files end with .gfx is the definitions of picture/icon texture. It directly 
 
 Any files end with .gui is the UI definition, including size and position of these elements.
 
-#### Localisation ####
+### Localisation ###
 
 The texts of events, technologies, etc.
 
 
-### Post-Loading ###
+## Post-Loading ##
 
 The most interesting feature of VNR is the post-loading mechanism. For so long, there are many navy mods out there, but they all have to change the files within history/countries, for that's where tank/air/ship designs are defined. In instance of a large naval overhaul mod, you have to modify these files to make new modules and new hulls working. It's very common on mods such as NRM.
 
@@ -155,22 +153,22 @@ Reference files:
 
     common/scripted_guis/00_navy_rework_welcome_splash_gui.txt
 
-### Interesting Feature Breakdown ###
+## Interesting Feature Breakdown ##
 
-1. Multiple customized ship icons for one hull
+1. **Multiple customized ship icons for one hull**
 
-NSB and BBA have introduced a new style of designer to the game, which you can choose the sprite for your tank/airplane from numerous icon presets. But ship designer still adopts the tradition from MTG that only equipment icons are available. Fortunately, this new feature is actually supported, just not applied. 
+    NSB and BBA have introduced a new style of designer to the game, which you can choose the sprite for your tank/airplane from numerous icon presets. But ship designer still adopts the tradition from MTG that only equipment icons are available. Fortunately, this new feature is actually supported, just not applied. 
 
-This is achieved through graphic_db which is the database for icons in equipment designer. It seems that, even though ship designer owns a standalone UI, the way of accessing database is common among all designers. To do it, create a file for ship icons in gfx/interface/equipmentdesigner/graphic_db, then try to assign pool of icons to each hull and tag. For details, you can refer to tank and air icon files in the same location, the style and grammar are identical.
+    This is achieved through graphic_db which is the database for icons in equipment designer. It seems that, even though ship designer owns a standalone UI, the way of accessing database is common among all designers. To do it, create a file for ship icons in gfx/interface/equipmentdesigner/graphic_db, then try to assign pool of icons to each hull and tag. For details, you can refer to tank and air icon files in the same location, the style and grammar are identical.
 
-As for unique icons of starting variants, that is actually a workaround. You can add a line "icon = xxx.dds" in the variant definition.
+    As for unique icons of starting variants, that is actually a workaround. You can add a line "icon = xxx.dds" in the variant definition.
 
-2. Ship role system
+2. **Ship role system**
 
-The ship role system is what creates more variants. Before that, most naval mods simply add a lot of hulls to represent new type of ships, but they in fact are not so different from the base platform. For example, destroyer leader, destroyer and escort destroyer. Offering different bonus, the ship role also allow or disallow certain categories of modules.
+    The ship role system is what creates more variants. Before that, most naval mods simply add a lot of hulls to represent new type of ships, but they in fact are not so different from the base platform. For example, destroyer leader, destroyer and escort destroyer. Offering different bonus, the ship role also allow or disallow certain categories of modules.
 
-3. Dynamic title for ship designer
+3. **Dynamic title for ship designer**
 
-As you may notice, the title of ship designer has dynamic effects in the mod, which it will change according to the tag's historical ship designing organization, such as DNC of Britain and BuC&R of America. Dynamic localisation doesn't work here because the title is an embedded element in UI.
+    As you may notice, the title of ship designer has dynamic effects in the mod, which it will change according to the tag's historical ship designing organization, such as DNC of Britain and BuC&R of America. Dynamic localisation doesn't work here because the title is an embedded element in UI.
 
-To change it, you need to edit the original text of the title to an empty string first. Then, make a scripted gui attached to equipment designer with only an instantTextBox. Since scripted gui is the only way to put scripted localisation on UI, you can then modify the gui to make it responsive at last.
+    To change it, you need to edit the original text of the title to an empty string first. Then, make a scripted gui attached to equipment designer with only an instantTextBox. Since scripted gui is the only way to put scripted localisation on UI, you can then modify the gui to make it responsive at last.
