@@ -7,7 +7,9 @@ sub_units = {
 		type = { capital_ship carrier }
 		need_equipment = { ship_hull_heavy = 1 }
 		need_equipment_modules = {
-			ship_deck_space_bb = 1
+			any = {
+				ship_deck_space_bb = 1
+			}
 		}
 		max_organisation = 60
 
