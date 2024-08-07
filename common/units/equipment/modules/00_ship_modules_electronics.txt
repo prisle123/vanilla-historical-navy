@@ -324,7 +324,7 @@ equipment_modules = {
 	}
 	ship_torpedo_fire_control_2 = {
 		category = ship_fire_control_system
-		gfx = ship_sub_torpedo_computer_2
+		gfx = ship_sub_torpedo_computer_1
 		add_stats = {
 			build_cost_ic = 160
 			naval_torpedo_hit_chance_factor = 0.75
@@ -340,7 +340,7 @@ equipment_modules = {
 	}
 	ship_torpedo_fire_control_3 = {
 		category = ship_fire_control_system
-		gfx = ship_sub_torpedo_computer_3
+		gfx = ship_sub_torpedo_computer_2
 		add_stats = {
 			build_cost_ic = 200
 			naval_torpedo_hit_chance_factor = 0.1
@@ -358,10 +358,10 @@ equipment_modules = {
 		category = generic_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
-			anti_air_attack = 0.05
+			anti_air_attack = 0.1
 		}
 		add_stats = {
-			build_cost_ic = 100
+			build_cost_ic = 80
 		}
 	}
 }
