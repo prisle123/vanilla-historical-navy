@@ -50,7 +50,7 @@ NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.45;
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.5;
 NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_STR_LOSS = 0.1;
 NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_SUNK = 0.25;
-NDefines.NNavy.BASE_GUN_COOLDOWNS = { 1.0, 10.0, 1.0 };
+NDefines.NNavy.BASE_GUN_COOLDOWNS = { 1.0, 8.0, 1.0 };
 NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_DAMAGE_MULT = 3.0;
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 25;
 NDefines.NNavy.SUBMARINE_ESCAPE_RATIOS = { 90, 15, 3.0, 1.0, 0.1 }
@@ -69,7 +69,7 @@ NDefines.NNavy.AGGRESSION_SETTINGS_VALUES = {
 };
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
 		80.0,	-- big guns
-		130.0,	-- torpedoes
+		120.0,	-- torpedoes
 		45.0,	-- small guns
 };
 NDefines.NNavy.MISSION_SUPREMACY_RATIOS = {
