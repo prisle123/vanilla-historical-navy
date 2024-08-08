@@ -297,6 +297,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 300
 			naval_torpedo_hit_chance_factor = 0.125
+			fuel_consumption = 3
 		}
 		can_convert_from = {
 			module = sub_fire_control_system_2
@@ -321,13 +322,17 @@ equipment_modules = {
 			module = ship_torpedo_fire_control_3
 			convert_cost_ic = 80
 		}
+		can_convert_from = {
+			module = ship_torpedo_fire_control_4
+			convert_cost_ic = 60
+		}
 	}
 	ship_torpedo_fire_control_2 = {
 		category = ship_fire_control_system
 		gfx = ship_sub_torpedo_computer_1
 		add_stats = {
 			build_cost_ic = 160
-			naval_torpedo_hit_chance_factor = 0.75
+			naval_torpedo_hit_chance_factor = 0.075
 		}
 		can_convert_from = {
 			module = ship_torpedo_fire_control_1
@@ -336,6 +341,10 @@ equipment_modules = {
 		can_convert_from = {
 			module = ship_torpedo_fire_control_3
 			convert_cost_ic = 100
+		}
+		can_convert_from = {
+			module = ship_torpedo_fire_control_4
+			convert_cost_ic = 80
 		}
 	}
 	ship_torpedo_fire_control_3 = {
@@ -352,6 +361,31 @@ equipment_modules = {
 		can_convert_from = {
 			module = ship_torpedo_fire_control_2
 			convert_cost_ic = 120
+		}
+		can_convert_from = {
+			module = ship_torpedo_fire_control_4
+			convert_cost_ic = 100
+		}
+	}
+	ship_torpedo_fire_control_4 = {
+		category = ship_fire_control_system
+		gfx = ship_sub_torpedo_computer_3
+		add_stats = {
+			build_cost_ic = 250
+			naval_torpedo_hit_chance_factor = 0.125
+			fuel_consumption = 3
+		}
+		can_convert_from = {
+			module = ship_torpedo_fire_control_1
+			convert_cost_ic = 230
+		}
+		can_convert_from = {
+			module = ship_torpedo_fire_control_2
+			convert_cost_ic = 180
+		}
+		can_convert_from = {
+			module = ship_torpedo_fire_control_3
+			convert_cost_ic = 150
 		}
 	}
 	ship_aa_fire_control = {

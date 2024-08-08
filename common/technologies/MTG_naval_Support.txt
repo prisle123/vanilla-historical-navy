@@ -1542,9 +1542,6 @@ technologies = {
 		##! armored_cruiser = {
 		##! 	naval_torpedo_hit_chance_factor = 0.05
 		##! }
-		enable_equipment_modules = {
-			ship_torpedo_fire_control_2
-		}
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 16 }
@@ -1590,7 +1587,6 @@ technologies = {
 		research_cost = 1
 		enable_equipment_modules = {
 			sub_wire_guided_torpedo
-			ship_torpedo_fire_control_3
 		}
 		naval_torpedo_screen_penetration_factor = 0.1
 
@@ -1899,6 +1895,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_3
 			ship_torpedo_sub_3
+			ship_torpedo_fire_control_2
 		}
 
 
@@ -1933,6 +1930,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_4
 			ship_torpedo_sub_4
+			ship_torpedo_fire_control_3
 		}
 
 		on_research_complete = {
@@ -1972,6 +1970,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_5
 			ship_torpedo_sub_5
+			ship_torpedo_fire_control_4
 		}
 
 		on_research_complete = {
