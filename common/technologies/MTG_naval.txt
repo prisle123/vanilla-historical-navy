@@ -2728,6 +2728,7 @@ technologies = {
 			position = { x = 1 y = @1932_module }
 		}
 		dependencies = {
+			krupp_cemented_steel = 1
 			basic_heavy_armor = 1
 		}
 
@@ -2764,13 +2765,14 @@ technologies = {
 		xp_research_bonus = 1.25
 		research_cost = 1.25
 		
-		start_year = 1942
+		start_year = 1943
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 1 y = @1940_module }
 		}
 		dependencies = {
+			homogeneous_krupp_steel = 1
 			improved_heavy_armor = 1
 		}
 
