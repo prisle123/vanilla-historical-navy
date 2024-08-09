@@ -146,3 +146,32 @@ ai_get_navy_experience = {
 		navy_experience = 100
 	}
 }
+
+set_shipyard_output_boost = {
+	if = {
+		limit = {
+			has_game_rule = { rule = shipyard_output_boost option = FREE_ALL }
+		}
+		every_country = {
+			add_ideas = vnr_shipyard_output_boost
+		}
+	}
+	else_if = {
+		limit = {
+			has_game_rule = { rule = shipyard_output_boost option = FREE_AI }
+		}
+		every_country = {
+			limit = { is_ai = yes }
+			add_ideas = vnr_shipyard_output_boost
+		}
+	}
+	else_if = {
+		limit = {
+			has_game_rule = { rule = shipyard_output_boost option = FREE_PLAYER }
+		}
+		every_country = {
+			limit = { is_ai = no }
+			add_ideas = vnr_shipyard_output_boost
+		}
+	}
+}
