@@ -101,7 +101,7 @@ equipments = {
 		hg_attack = 0
 
 		torpedo_attack = 0
-		sub_attack = 3
+		sub_attack = 1.5
 
 		anti_air_attack = 0
 
@@ -170,7 +170,7 @@ equipments = {
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_secondaries_slot = empty
 		}
-		naval_range = 4000
+		naval_range = 3000
 
 		max_strength = 125
 
@@ -234,9 +234,9 @@ equipments = {
 		}
 		naval_range = 4000
 		reliability = 0.65
-		max_strength = 250
+		max_strength = 220
 		naval_speed = 26.5
-		surface_visibility = 30
+		surface_visibility = 33
 
 
 		build_cost_ic = 2800

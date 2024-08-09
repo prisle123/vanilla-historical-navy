@@ -169,7 +169,7 @@ equipments = {
 
 		surface_detection = 20
 		sub_detection = 1
-		surface_visibility = 26
+		surface_visibility = 36
 		naval_speed = 30
 		reliability = 0.80
 
@@ -203,16 +203,50 @@ equipments = {
 		can_convert_from = { vnr_ship_hull_pre_dreadnought }
 		visual_level = 0
 		module_slots = {
-			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air_slot = inherit
-			fixed_ship_fire_control_system_slot = inherit
-			fixed_ship_radar_slot = inherit
-			fixed_ship_engine_slot = inherit
-			fixed_ship_secondaries_slot = inherit
-			fixed_ship_armor_slot = inherit
-			fixed_ship_airplane_launcher_slot = inherit
-			fixed_ship_extra_secondaries_slot = inherit
-			fixed_ship_armor_scheme_slot = inherit
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_mast }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { heavy_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb ship_torpedo_bb }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_armor }
+			}
+			fixed_ship_airplane_launcher_slot = {
+				required = no
+				allowed_module_categories = { ship_airplane_launcher generic_miscellaneous }
+			}
+			fixed_ship_extra_secondaries_slot = {
+				required = no
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+			}
+			fixed_ship_armor_scheme_slot = { 
+				required = yes
+				allowed_module_categories = { armor_scheme }
+			}
+			fixed_ship_torpedo_defense_system_slot = {
+				required = no
+				allowed_module_categories = { torpedo_defense_system }
+			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -235,8 +269,6 @@ equipments = {
 					ship_anti_air
 					ship_airplane_launcher
 					ship_heavy_battery
-					ship_heavy_battery_triple
-					ship_heavy_battery_quad
 				}
 			}
 		}
@@ -247,7 +279,7 @@ equipments = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 2250
+		naval_range = 2000
 
 		max_strength = 180
 		naval_speed = 21
@@ -395,6 +427,7 @@ equipments = {
 		reliability = 0.70
 		naval_speed = 27
 		fuel_consumption = 63
+		surface_visibility = 38
 		build_cost_ic = 2200
 	}
 
@@ -429,6 +462,7 @@ equipments = {
 		reliability = 0.75
 		naval_speed = 27.5
 		fuel_consumption = 67
+		surface_visibility = 36
 		build_cost_ic = 2600
 		manpower = 2200
 	}
@@ -456,6 +490,7 @@ equipments = {
 		reliability = 0.85
 		fuel_consumption = 67
 		naval_speed = 32
+		surface_visibility = 31
 		build_cost_ic = 2700
 
 		manpower = 2500
@@ -484,7 +519,7 @@ equipments = {
 		max_strength = 320
 		reliability = 0.9
 		fuel_consumption = 67
-
+		surface_visibility = 29
 		build_cost_ic = 3000
 
 		manpower = 2800
@@ -590,6 +625,7 @@ equipments = {
 		max_strength = 350
 		naval_speed = 30.5
 		fuel_consumption = 67
+		surface_visibility = 27
 		reliability = 0.95
 		build_cost_ic = 3300
 
@@ -715,10 +751,10 @@ equipments = {
 		}
 		naval_range = 4500
 		naval_speed = 26.5
-		max_strength = 330
+		max_strength = 350
 		fuel_consumption = 75
 		reliability = 0.9
-		surface_visibility = 35
+		surface_visibility = 42
 		build_cost_ic = 3800
 		resources = {
 			steel = 4
