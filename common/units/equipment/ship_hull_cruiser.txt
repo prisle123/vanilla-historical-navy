@@ -165,6 +165,18 @@ equipments = {
 			category = seaplane_hangar
 			count < 3
 		}
+		module_count_limit = {
+			module = full_missile_upgrade
+			count < 2
+		}
+		module_count_limit = {
+			module = economical_nuclear_reactor_cruiser
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_display_system
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -631,6 +643,11 @@ equipments = {
 		fuel_consumption = 18
 
 		build_cost_ic = 1300
+
+		module_count_limit = {
+			module = ship_hull_cruiser_role_cg
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_cruiser_2 = {
@@ -648,6 +665,11 @@ equipments = {
 		manpower = 1000
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
+		}
+
+		module_count_limit = {
+			module = ship_hull_cruiser_role_cg
+			count < 1
 		}
 	}
 
@@ -674,6 +696,11 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_3
 		}
+
+		module_count_limit = {
+			module = ship_hull_cruiser_role_cg
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_cruiser_4 = {
@@ -698,6 +725,11 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_4
+		}
+
+		module_count_limit = {
+			module = ship_hull_cruiser_role_cg
+			count < 1
 		}
 	}
 
@@ -952,18 +984,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 8
-		}
-		module_count_limit = {
-			module = full_missile_upgrade
-			count < 2
-		}
-		module_count_limit = {
-			module = economical_nuclear_reactor_cruiser
-			count < 2
-		}
-		module_count_limit = {
-			module = ship_display_system
-			count < 2
 		}
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_5

@@ -132,7 +132,10 @@ equipments = {
 			category = ship_sonar
 			count < 2
 		}
-
+		module_count_limit = {
+			category = ship_missile
+			count < 3
+		}
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 3
@@ -212,6 +215,15 @@ equipments = {
 		max_strength = 30
 
 		build_cost_ic = 200
+
+		module_count_limit = {
+			module = ship_hull_light_role_dda
+			count < 1
+		}
+		module_count_limit = {
+			module = ship_hull_light_role_ddg
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_light_2 = {
@@ -226,6 +238,14 @@ equipments = {
 		#alias = destroyer_1
 
 		module_slots = inherit
+		module_count_limit = {
+			module = ship_hull_light_role_dda
+			count < 1
+		}
+		module_count_limit = {
+			module = ship_hull_light_role_ddg
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_light_3 = {
@@ -256,6 +276,14 @@ equipments = {
 			steel = 2
 		}
 		manpower = 325
+		module_count_limit = {
+			module = ship_hull_light_role_dda
+			count < 1
+		}
+		module_count_limit = {
+			module = ship_hull_light_role_ddg
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_light_4 = {
@@ -294,6 +322,14 @@ equipments = {
 		module_count_limit = {
 			category = ship_anti_air
 			count < 5
+		}
+		module_count_limit = {
+			module = ship_hull_light_role_dda
+			count < 1
+		}
+		module_count_limit = {
+			module = ship_hull_light_role_ddg
+			count < 1
 		}
 	}
 
@@ -369,6 +405,10 @@ equipments = {
 		module_count_limit = {
 			category = ship_anti_air
 			count < 5
+		}
+		module_count_limit = {
+			module = ship_hull_light_role_ddg
+			count < 1
 		}
 	}
 
@@ -484,14 +524,6 @@ equipments = {
 		manpower = 600
 		naval_speed = 36.5
 
-		module_count_limit = {
-			category = ship_missile
-			count < 3
-		}
-		module_count_limit = {
-			category = ship_missile_aa
-			count < 3
-		}
 		module_count_limit = {
 			category = ship_anti_air
 			count < 5
