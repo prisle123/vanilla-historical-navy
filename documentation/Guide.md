@@ -28,7 +28,7 @@ When HP gets reduced to 0, the ship will be sunk. Typically, the two ways to avo
 
 Torpedo completely ignores armor and can cause great damage. Even torpedo defense system is not effective enough to save the ship if it gets hit by torpedo. But luckily, with a good escort force, torpedo will have a hard time penetrating the screen line to get your capital ships.
 
-Contrary to most people's impression, anti-air is also a part of protection facing aircrafts and carriers. Good AA provides damage reduction or even evasion when attacked by planes, and it gets more bonus from the overall AA from your fleet, factored to align with the ship's. That means a ship without anti-air gun can also benefits from other ships' AA, but anti-air guns are mandatory if you want to shoot down the plane.
+Contrary to most people's impression, anti-air is also a part of protection facing aircrafts and carriers. Good AA provides damage reduction or even evasion when attacked by planes, and it gets more bonus from the overall AA from your fleet, factored to align with the ship's. That means a ship without anti-air gun can also benefit from other ships' AA, but anti-air guns are mandatory if you want to shoot down the plane.
 
 **Speed**
 
