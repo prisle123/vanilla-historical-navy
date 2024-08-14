@@ -181,7 +181,8 @@ critical_parts = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
         stat_penalties = {
-            max_strength = -0.75
+            navy_org_factor = -0.9
+			naval_morale_factor = -1
         }
         chance = 0.1
         org_damage_multiplier = 3

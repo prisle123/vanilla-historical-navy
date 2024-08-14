@@ -273,6 +273,7 @@ equipment_modules = {
 	}
 	ship_sub_torpedo_computer_2 = {
 		category = sub_fire_control_system
+		parent = ship_sub_torpedo_computer_1
 		gui_category = ship_fire_control_system
 		sfx = sfx_ui_sd_module_sonar
 		
@@ -291,6 +292,7 @@ equipment_modules = {
 	}
 	ship_sub_torpedo_computer_3 = {
 		category = sub_fire_control_system
+		parent = ship_sub_torpedo_computer_2
 		gui_category = ship_fire_control_system
 		sfx = sfx_ui_sd_module_sonar
 		
@@ -329,6 +331,7 @@ equipment_modules = {
 	}
 	ship_torpedo_fire_control_2 = {
 		category = ship_fire_control_system
+		parent = ship_torpedo_fire_control_1
 		gfx = ship_sub_torpedo_computer_1
 		add_stats = {
 			build_cost_ic = 160
@@ -349,6 +352,7 @@ equipment_modules = {
 	}
 	ship_torpedo_fire_control_3 = {
 		category = ship_fire_control_system
+		parent = ship_torpedo_fire_control_2
 		gfx = ship_sub_torpedo_computer_2
 		add_stats = {
 			build_cost_ic = 200
@@ -369,6 +373,7 @@ equipment_modules = {
 	}
 	ship_torpedo_fire_control_4 = {
 		category = ship_fire_control_system
+		parent = ship_torpedo_fire_control_3
 		gfx = ship_sub_torpedo_computer_3
 		add_stats = {
 			build_cost_ic = 250
@@ -392,10 +397,10 @@ equipment_modules = {
 		category = generic_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
-			anti_air_attack = 0.1
+			anti_air_attack = 0.25
 		}
 		add_stats = {
-			build_cost_ic = 80
+			build_cost_ic = 250
 		}
 	}
 }

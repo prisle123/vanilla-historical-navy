@@ -1048,19 +1048,19 @@ equipment_modules = {
 		category = heavy_miscellaneous
 		gui_category = ship_miscellaneous
 		add_stats = {
-			reliability = -0.05
+			reliability = -0.1
 		}
 		multiply_stats = {
-			anti_air_attack = 0.02
-			build_cost_ic = 0.01
+			anti_air_attack = 0.2
+			build_cost_ic = 0.05
 		}
 	}
 	ship_vt_shell = {
 		category = generic_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
-			anti_air_attack = 0.04
-			build_cost_ic = 0.02
+			anti_air_attack = 0.25
+			build_cost_ic = 0.08
 		}
 	}
     crewed_torpedo = {
