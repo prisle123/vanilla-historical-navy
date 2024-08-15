@@ -2207,7 +2207,7 @@ equipment_modules = {
 			naval_speed = -0.1
 			surface_visibility = -0.025
 		}
-		dismantle_cost_ic = 1800
+		dismantle_cost_ic = 1000
 	}
 	ship_cruise_missile_1 = {
 		category = ship_missile
@@ -2221,7 +2221,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.1
 		}
-		dismantle_cost_ic = 1100
+		dismantle_cost_ic = 850
 	}
 	ship_cruise_missile_sub_1 = {
 		category = ship_sub_missile

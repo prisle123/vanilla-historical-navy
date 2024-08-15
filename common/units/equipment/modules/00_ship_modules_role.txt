@@ -100,7 +100,7 @@ equipment_modules = {
 			reliability = 0.1
 		}
     	multiply_stats = {
-        	build_cost_ic = 0.1
+        	build_cost_ic = 0.15
     	}
 		forbid_module_categories = {
 			ship_missile
@@ -113,7 +113,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = 0.05
-			build_cost_ic = 0.1
+			build_cost_ic = 0.25
 		}
 	}
 
@@ -256,7 +256,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		multiply_stats = {
 			anti_air_attack = 0.1
-			build_cost_ic = 0.1
+			build_cost_ic = 0.25
 		}
 		add_stats = {
 			max_strength = 200
