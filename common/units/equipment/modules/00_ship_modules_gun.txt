@@ -2191,7 +2191,7 @@ equipment_modules = {
 		category = ship_missile
 
 		add_stats = {
-			build_cost_ic = 2000
+			build_cost_ic = 1000
 			hg_attack = 30
 			lg_attack = 20
 			naval_heavy_gun_hit_chance_factor = 0.05
@@ -2207,13 +2207,13 @@ equipment_modules = {
 			naval_speed = -0.1
 			surface_visibility = -0.025
 		}
-		dismantle_cost_ic = 1000
+		dismantle_cost_ic = 800
 	}
 	ship_cruise_missile_1 = {
 		category = ship_missile
 
 		add_stats = {
-			build_cost_ic = 1400
+			build_cost_ic = 800
 			hg_attack = 25
 			naval_heavy_gun_hit_chance_factor = -0.8
 			reliability = -0.1
@@ -2221,7 +2221,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.1
 		}
-		dismantle_cost_ic = 850
+		dismantle_cost_ic = 600
 	}
 	ship_cruise_missile_sub_1 = {
 		category = ship_sub_missile
