@@ -95,7 +95,8 @@ equipment_modules = {
 		}
 	}
 	ship_hull_light_role_dda = {
-    	category = dd_role
+    	category = dd_role_missile
+		gui_category = dd_role
 		add_stats = {
 			reliability = 0.1
 		}
@@ -107,7 +108,8 @@ equipment_modules = {
 		}
 	}
 	ship_hull_light_role_ddg = {
-		category = dd_role
+		category = dd_role_missile
+		gui_category = dd_role
 		add_stats = {
 			reliability = 0.2
 		}
@@ -252,7 +254,8 @@ equipment_modules = {
 		}
 	}
 	ship_hull_cruiser_role_cg = {
-		category = c_role
+		category = c_role_missile
+		gui_category = c_role
 		add_equipment_type = capital_ship
 		multiply_stats = {
 			anti_air_attack = 0.1

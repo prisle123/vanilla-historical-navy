@@ -215,15 +215,6 @@ equipments = {
 		max_strength = 30
 
 		build_cost_ic = 200
-
-		module_count_limit = {
-			module = ship_hull_light_role_dda
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_hull_light_role_ddg
-			count < 1
-		}
 	}
 
 	vnr_ship_hull_light_2 = {
@@ -238,14 +229,6 @@ equipments = {
 		#alias = destroyer_1
 
 		module_slots = inherit
-		module_count_limit = {
-			module = ship_hull_light_role_dda
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_hull_light_role_ddg
-			count < 1
-		}
 	}
 
 	vnr_ship_hull_light_3 = {
@@ -276,14 +259,6 @@ equipments = {
 			steel = 2
 		}
 		manpower = 325
-		module_count_limit = {
-			module = ship_hull_light_role_dda
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_hull_light_role_ddg
-			count < 1
-		}
 	}
 
 	vnr_ship_hull_light_4 = {
@@ -323,14 +298,6 @@ equipments = {
 			category = ship_anti_air
 			count < 5
 		}
-		module_count_limit = {
-			module = ship_hull_light_role_dda
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_hull_light_role_ddg
-			count < 1
-		}
 	}
 
 	vnr_ship_hull_light_5 = {
@@ -354,7 +321,10 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { dd_role dd_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
@@ -406,10 +376,6 @@ equipments = {
 			category = ship_anti_air
 			count < 5
 		}
-		module_count_limit = {
-			module = ship_hull_light_role_ddg
-			count < 1
-		}
 	}
 
 	vnr_ship_hull_light_6 = {
@@ -443,7 +409,10 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { dd_role dd_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no

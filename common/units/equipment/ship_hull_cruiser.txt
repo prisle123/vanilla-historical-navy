@@ -643,11 +643,6 @@ equipments = {
 		fuel_consumption = 18
 
 		build_cost_ic = 1300
-
-		module_count_limit = {
-			module = ship_hull_cruiser_role_cg
-			count < 1
-		}
 	}
 
 	vnr_ship_hull_cruiser_2 = {
@@ -665,11 +660,6 @@ equipments = {
 		manpower = 1000
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
-		}
-
-		module_count_limit = {
-			module = ship_hull_cruiser_role_cg
-			count < 1
 		}
 	}
 
@@ -696,11 +686,6 @@ equipments = {
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_3
 		}
-
-		module_count_limit = {
-			module = ship_hull_cruiser_role_cg
-			count < 1
-		}
 	}
 
 	vnr_ship_hull_cruiser_4 = {
@@ -725,11 +710,6 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_4
-		}
-
-		module_count_limit = {
-			module = ship_hull_cruiser_role_cg
-			count < 1
 		}
 	}
 
@@ -763,7 +743,10 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { c_role c_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
@@ -895,7 +878,10 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { c_role c_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			fixed_ship_extra_missile_slot = fixed_ship_extra_secondaries_slot
 			front_1_custom_slot = {
