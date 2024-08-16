@@ -165,6 +165,18 @@ equipments = {
 			category = seaplane_hangar
 			count < 3
 		}
+		module_count_limit = {
+			module = full_missile_upgrade
+			count < 2
+		}
+		module_count_limit = {
+			module = economical_nuclear_reactor_cruiser
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_display_system
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -731,7 +743,10 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { c_role c_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			front_1_custom_slot = {
 				required = no
@@ -863,7 +878,10 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
-			fixed_ship_role_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { c_role c_role_missile }
+			}
 			fixed_ship_extra_secondaries_slot = inherit
 			fixed_ship_extra_missile_slot = fixed_ship_extra_secondaries_slot
 			front_1_custom_slot = {
@@ -952,18 +970,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 8
-		}
-		module_count_limit = {
-			module = full_missile_upgrade
-			count < 2
-		}
-		module_count_limit = {
-			module = economical_nuclear_reactor_cruiser
-			count < 2
-		}
-		module_count_limit = {
-			module = ship_display_system
-			count < 2
 		}
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_5

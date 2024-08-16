@@ -2393,6 +2393,7 @@ technologies = {
 		carrier = {
 			anti_air_attack = 0.1
 			surface_visibility = -0.1
+			surface_detection = 0.1
 		}
 		navy_carrier_air_attack_factor = 0.1
 		sortie_efficiency = 0.1
@@ -2442,8 +2443,8 @@ technologies = {
 	mass_air_raid = {
 
 		# EFFECT #############
-		naval_strike_targetting_factor = 0.1
-		naval_strike_attack_factor = 0.1
+		naval_strike_targetting_factor = 0.15
+		naval_strike_attack_factor = 0.15
 		port_strike = 0.25
 		########
 

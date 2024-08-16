@@ -1022,8 +1022,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fire_control4.png"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_sub_torpedo_computer"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_computer.png"
+		name = "GFX_SMI_ship_sub_torpedo_computer_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_computer1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sub_torpedo_computer_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_computer2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_sub_torpedo_computer_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_computer3.png"
 	}
 	
 	### wunderwaffe modules
@@ -1136,7 +1144,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_smoke_generator.png"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_torpedo_fire_control"
+		name = "GFX_SMI_ship_torpedo_fire_control_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_torpedo_director.png"
 	}
 	spriteType = {
@@ -1347,5 +1355,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_seaplane_hangar"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/seaplane_hangar.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_anti_air_circle"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_anti_air_circle.png"
 	}
 }

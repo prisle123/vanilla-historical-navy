@@ -51,3 +51,33 @@ allow_ai_tech_auto_unlock = {
 		allow_achievements = yes
 	}
 }
+
+shipyard_output_boost = {
+	name = RULE_SHIPYARD_OUTPUT_BOOST
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = FREE_ALL
+		text = RULE_OPTION_FREE
+		desc = RULE_SHIPYARD_OUTPUT_BOOST_FREE_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = FREE_AI
+		text = RULE_OPTION_FREE_AI
+		desc = RULE_SHIPYARD_OUTPUT_BOOST_FREE_AI_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = FREE_PLAYER
+		text = RULE_OPTION_FREE_PLAYER
+		desc = RULE_SHIPYARD_OUTPUT_BOOST_FREE_PLAYER_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_SHIPYARD_OUTPUT_BOOST_BLOCKED_DESC
+		allow_achievements = yes
+	}
+}

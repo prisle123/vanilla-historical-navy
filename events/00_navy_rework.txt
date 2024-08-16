@@ -10,6 +10,8 @@ country_event = {
     immediate = {
         add_starting_techs = yes
         makeup_starting_techs = yes
+		# set shipyard output boost
+        set_shipyard_output_boost = yes
 
          # add starting variants and navy
         ARG = {

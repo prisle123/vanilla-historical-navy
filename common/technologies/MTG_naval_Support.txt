@@ -173,6 +173,7 @@ technologies = {
 			dp_light_battery_1
 			dp_light_battery_1_single
 			dp_ship_secondaries_1
+			dp_ship_secondaries_1_bb
 			ship_anti_air_2_h
 		}
 
@@ -958,6 +959,7 @@ technologies = {
 			dp_light_battery_2
 			dp_light_battery_2_single
 			dp_ship_secondaries_2
+			dp_ship_secondaries_2_bb
 		}
 
 		path = {
@@ -1004,6 +1006,7 @@ technologies = {
 			dp_light_battery_3
 			dp_light_battery_3_single
 			dp_ship_secondaries_3
+			dp_ship_secondaries_3_bb
 		}
 
 		on_research_complete = {
@@ -1050,6 +1053,7 @@ technologies = {
 			dp_light_battery_4
 			dp_light_battery_4_single
 			dp_ship_secondaries_4
+			dp_ship_secondaries_4_bb
 		}
 
 		on_research_complete = {
@@ -1400,7 +1404,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_1
 			torpedo_mounting
-			ship_torpedo_fire_control
+			ship_torpedo_fire_control_1
 			ship_torpedo_bb
 			ship_torpedo_sub_1
 		}
@@ -1891,6 +1895,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_3
 			ship_torpedo_sub_3
+			ship_torpedo_fire_control_2
 		}
 
 
@@ -1925,6 +1930,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_4
 			ship_torpedo_sub_4
+			ship_torpedo_fire_control_3
 		}
 
 		on_research_complete = {
@@ -1964,6 +1970,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_5
 			ship_torpedo_sub_5
+			ship_torpedo_fire_control_4
 		}
 
 		on_research_complete = {

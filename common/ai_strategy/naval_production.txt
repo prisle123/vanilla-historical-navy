@@ -432,6 +432,7 @@ naval_unit_role_ratios_GER_atwar = {
 	}
 	enable = {
 		has_war_with = ENG
+		num_of_naval_factories < 35
 	}
 	abort_when_not_enabled = yes
 	
@@ -457,6 +458,54 @@ naval_unit_role_ratios_GER_atwar = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 5
+	}
+}
+
+naval_unit_role_ratios_GER_atwar_many_shipyard = {
+	allowed = {
+		has_dlc = "Man the Guns"
+		tag = GER
+	}
+	enable = {
+		has_war_with = ENG
+		num_of_naval_factories > 34
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 80
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 300
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_medium
+		value = 30
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = 20
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = 20
 	}
 }
 

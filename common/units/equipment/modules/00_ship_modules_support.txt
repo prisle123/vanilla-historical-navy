@@ -797,14 +797,14 @@ equipment_modules = {
 			surface_detection = 7
 			sub_detection = 3.5
 			sub_attack = 2.5
-			build_cost_ic = 200
+			build_cost_ic = 250
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher
 			convert_cost_ic = 80
 		}
 		multiply_stats = {
-			naval_speed = -0.003
+			naval_speed = -0.004
 		}
 	}
 	ship_helipad = {
@@ -866,6 +866,7 @@ equipment_modules = {
 		gfx = ship_extra_fuel_tank
 		add_stats = {
 			naval_range = 2000
+			build_cost_ic = 250
 		}
 		multiply_stats = {
 			naval_speed = -0.05
@@ -876,6 +877,7 @@ equipment_modules = {
 		category = ship_auxiliary
 		add_stats = {
 			naval_range = 1000
+			build_cost_ic = 100
 		}
 		multiply_stats = {
 			reliability = 0.05
@@ -886,6 +888,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_range = 0.2
 			naval_speed = -0.05
+		}
+		add_stats = {
+			build_cost_ic = 350
 		}
 	}
 
@@ -1043,19 +1048,19 @@ equipment_modules = {
 		category = heavy_miscellaneous
 		gui_category = ship_miscellaneous
 		add_stats = {
-			reliability = -0.05
+			reliability = -0.1
 		}
 		multiply_stats = {
-			anti_air_attack = 0.02
-			build_cost_ic = 0.01
+			anti_air_attack = 0.2
+			build_cost_ic = 0.05
 		}
 	}
 	ship_vt_shell = {
 		category = generic_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
-			anti_air_attack = 0.04
-			build_cost_ic = 0.02
+			anti_air_attack = 0.25
+			build_cost_ic = 0.08
 		}
 	}
     crewed_torpedo = {
@@ -1194,6 +1199,17 @@ equipment_modules = {
 		build_cost_resources = {
 			aluminium = 2
 			steel = -3
+		}
+	}
+	ship_anti_air_circle = {
+		category = heavy_miscellaneous
+		gui_category = ship_anti_air
+		multiply_stats = {
+			anti_air_attack = 0.35
+			build_cost_ic = 0.15
+		}
+		build_cost_resources = {
+			steel = 1
 		}
 	}
 }

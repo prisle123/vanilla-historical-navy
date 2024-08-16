@@ -1,4 +1,4 @@
-version="v1.10 - Tokyo Express"
+version="v1.11 - King's Gambit"
 tags={
 	"Military"
 	"Graphics"

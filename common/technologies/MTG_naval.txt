@@ -2728,6 +2728,7 @@ technologies = {
 			position = { x = 1 y = @1932_module }
 		}
 		dependencies = {
+			krupp_cemented_steel = 1
 			basic_heavy_armor = 1
 		}
 
@@ -2764,13 +2765,14 @@ technologies = {
 		xp_research_bonus = 1.25
 		research_cost = 1.25
 		
-		start_year = 1942
+		start_year = 1943
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 1 y = @1940_module }
 		}
 		dependencies = {
+			homogeneous_krupp_steel = 1
 			improved_heavy_armor = 1
 		}
 
@@ -3089,6 +3091,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_anti_air_shell
+			ship_anti_air_circle
 		}
 
 		folder = {
@@ -4393,7 +4396,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = torpedo_computer
+			leads_to_tech = advanced_torpedo_ballistics
 			research_cost_coeff = 1
 		}
 		path = {
@@ -4437,6 +4440,7 @@ technologies = {
 			sub_ship_engine_3
 			pressure_hull_3
 			diving_plane
+			ship_sub_torpedo_computer_1
 		}
 
 		path = {
@@ -4493,6 +4497,7 @@ technologies = {
 		enable_equipment_modules = {
 			sub_ship_engine_4
 			pressure_hull_4
+			ship_sub_torpedo_computer_2
 		}
 		path = {
 			leads_to_tech = improved_submarine_snorkel
@@ -4543,6 +4548,9 @@ technologies = {
 
 		enable_equipments = {
 			vnr_ship_hull_submarine_5
+		}
+		enable_equipment_modules = {
+			ship_sub_torpedo_computer_3
 		}
 
 		research_cost = 2.0
@@ -4745,17 +4753,16 @@ technologies = {
 		}
 	}
 
-	torpedo_computer = {
-		enable_equipment_modules = {
-			ship_sub_torpedo_computer
-		}
-
+	advanced_torpedo_ballistics = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1
+		research_cost = 0.8
 
 		start_year = 1939
+
+		navy_submarine_attack_factor = 0.1
+		naval_torpedo_screen_penetration_factor = 0.1
 
 		folder = {
 			name = mtgnavalfolder

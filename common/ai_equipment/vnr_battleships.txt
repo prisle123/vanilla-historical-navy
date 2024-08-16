@@ -95,7 +95,7 @@ naval_capital_battleship = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_4 heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { any_of = { ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
@@ -104,7 +104,7 @@ naval_capital_battleship = {
 				front_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				mid_1_custom_slot = ship_secondaries
 				mid_2_custom_slot = ship_anti_air
-				mid_3_custom_slot = ship_dp_secondaries
+				mid_3_custom_slot = ship_dp_secondaries_bb
 				rear_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				rear_2_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 			}
@@ -131,16 +131,16 @@ naval_capital_battleship = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_5 heavy_ship_engine_4 heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { any_of = { ship_armor_bb_4 ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
 				fixed_ship_extra_secondaries_slot = { any_of = { heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
-				mid_1_custom_slot = ship_dp_secondaries
+				mid_1_custom_slot = ship_dp_secondaries_bb
 				mid_2_custom_slot = ship_anti_air
-				mid_3_custom_slot = ship_dp_secondaries
+				mid_3_custom_slot = ship_dp_secondaries_bb
 				rear_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				rear_2_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 			}
@@ -167,16 +167,16 @@ naval_capital_battleship = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = { any_of = { heavy_ship_engine_4_gas heavy_ship_engine_nuclear } }
-				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { any_of = { ship_armor_bb_4 ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
 				fixed_ship_extra_secondaries_slot = { any_of = { heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
-				mid_1_custom_slot = ship_dp_secondaries
+				mid_1_custom_slot = ship_dp_secondaries_bb
 				mid_2_custom_slot = ship_missile_1
-				mid_3_custom_slot = ship_dp_secondaries
+				mid_3_custom_slot = ship_dp_secondaries_bb
 				rear_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				rear_2_custom_slot = ship_missile_aa
 			}
@@ -242,7 +242,7 @@ naval_capital_battleship = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { upgrade > current any_of = { ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_armor_scheme_slot = { upgrade > current any_of = { ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental_post_jutland ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade > current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
@@ -273,7 +273,7 @@ naval_capital_battleship = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = { upgrade > current any_of = { heavy_ship_engine_5 heavy_ship_engine_4 heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { upgrade > current any_of = { ship_armor_bb_4 ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_armor_scheme_slot = { upgrade > current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade > current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
@@ -306,7 +306,7 @@ naval_capital_battleship = {
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = { upgrade > current any_of = { heavy_ship_engine_5 heavy_ship_engine_4 heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
-				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { upgrade > current any_of = { ship_armor_bb_4 ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_armor_scheme_slot = { upgrade > current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade > current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
