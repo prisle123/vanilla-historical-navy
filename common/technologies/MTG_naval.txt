@@ -5297,6 +5297,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_carrier_armor_heavy
 			ship_deck_space_big
+			ship_ski_jump_ramp
 		}
 		folder = {
 			name = mtgnavalfolder
@@ -5319,7 +5320,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1946
+		start_year = 1948
 		
 		dependencies = {
 			full_armored_carrier = 1
