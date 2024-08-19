@@ -1229,7 +1229,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nuclear_reactor_cost_reduction
+			leads_to_tech = nuclear_engine_research
 			research_cost_coeff = 1
 		}
 
@@ -1237,7 +1237,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 4 y = @1948 }
+			position = { x = 0 y = @1948 }
 		}
 
 		ai_will_do = {
@@ -1372,12 +1372,16 @@ technologies = {
 			carrier_ship_engine_nuclear
 			heavy_ship_engine_nuclear
 		}
+		path = {
+			leads_to_tech = nuclear_reactor_cost_reduction
+			research_cost_coeff = 1
+		}
 
 		start_year = 1950
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = 22 }
+			position = { x = -1 y = @1948_module }
 		}
 		dependencies = {
 			nuclear_reactor = 1
@@ -1391,6 +1395,7 @@ technologies = {
 			naval_equipment
 			bb_tech
 			bc_tech
+			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
 		}
@@ -3361,16 +3366,44 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1952_module }
+			position = { x = 1 y = @1952 }
 		}
 		dependencies = {
 			phased_array_radar = 1
+		}
+		path = {
+			leads_to_tech = tactical_data_link
+			research_cost_coeff = 1
 		}
 
 		ai_will_do = {
 			factor = 2
 		}
 
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+			ship_modules_tech
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+	tactical_data_link = {
+		research_cost = 1.5
+		start_year = 1955
+
+		naval_coordination = 0.2
+		navy_org_factor = 0.1
+		navy_visibility = -0.1
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1952_module }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
 		categories = {
 			naval_equipment
 			bb_tech
