@@ -180,7 +180,7 @@ critical_parts = {
     gas_leakage = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
-        stat_penalties = {
+        modifier = {
             navy_org_factor = -0.9
 			naval_morale_factor = -1
         }

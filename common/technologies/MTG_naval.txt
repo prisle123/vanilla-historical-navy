@@ -1267,7 +1267,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 4 y = @1952_module }
+			position = { x = 1 y = @1952_module }
 		}
 		ai_will_do = {
 			factor = 4
@@ -1300,7 +1300,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1948_module }
+			position = { x = -3 y = @1948_module }
 		}
 		on_research_complete = {
 			hidden_effect = { add_ideas = vnr_cruiser_cost_2 }
@@ -1329,7 +1329,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 6 y = @1952 }
+			position = { x = 3 y = @1952 }
 		}
 		ai_will_do = {
 			factor = 2
@@ -1352,7 +1352,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1948_module }
+			position = { x = -5 y = @1948_module }
 		}
 		ai_will_do = {
 			factor = 1
@@ -1412,7 +1412,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = @1952 }
+			position = { x = -1 y = @1952 }
 		}
 		dependencies = {
 			nuclear_engine_research = 1
@@ -1888,7 +1888,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1944_module }
+			position = { x = 1 y = 20 }
 		}
 
 		ai_will_do = {
@@ -1941,7 +1941,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 21 }
+			position = { x = 2 y = 22 }
 		}
 
 		ai_will_do = {
@@ -2635,10 +2635,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nuclear_engine_research
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = modern_ship_hull_cruiser
 			research_cost_coeff = 1
 		}
@@ -3238,7 +3234,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1944_module }
+			position = { x = 1 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -3265,7 +3261,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1944_module }
+			position = { x = -1 y = @1944_module }
 		}
 		path = {
 			leads_to_tech = naval_tactical_data_system
@@ -3294,7 +3290,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1948 }
+			position = { x = -1 y = @1948 }
 		}
 		path = {
 			leads_to_tech = memory_expansion
@@ -3339,7 +3335,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1948_module }
+			position = { x = -4 y = @1948_module }
 		}
 		dependencies = {
 			advanced_computing_machine = 1
@@ -3366,7 +3362,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1952 }
+			position = { x = -1 y = @1952 }
 		}
 		dependencies = {
 			phased_array_radar = 1
@@ -3398,7 +3394,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1952_module }
+			position = { x = -1 y = @1952_module }
 		}
 
 		allow = {
@@ -3439,7 +3435,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1952 }
+			position = { x = -3 y = @1952 }
 		}
 
 		ai_will_do = {
