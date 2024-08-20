@@ -1170,6 +1170,9 @@ equipment_modules = {
 		}
 		forbid_module_categories = {
 			carrier_ship_engine
+			heavy_ship_engine
+			cruiser_ship_engine
+			civilian_ship_engine
 		}
 	}
     ship_display_system = {
