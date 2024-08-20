@@ -70,3 +70,6 @@
  RULE_SHIPYARD_OUTPUT_BOOST_FREE_PLAYER_DESC: "Shipyard output is 4 IC per day, 60% faster than vanilla.\n§GThis is applied to player only.§!"
  RULE_SHIPYARD_OUTPUT_BOOST_BLOCKED_DESC: "Shipyard output is 2.5 IC per day, the same as vanilla."
  vnr_shipyard_output_boost: "VNR Shipyard Output Boost"
+
+ join_tactical_data_link: "Access [ROOT.GetFactionName] Naval Tactical Data Link"
+ join_tactical_data_link_desc: "A joint tactical data link has been deployed by leading members of our faction. Despite a great chance to improve coordination with our allies, we can still choose to develop our own equivalent of data link system independently.\n§YIf access to allies data link is established, we will be unable to research our own data link system but instantly unlock a slightly inferior bonus with following stats:§!\n§YNaval Coordination:§! §G+10%§!\n§YNavy Org:§! §G+7.5%§!\n§YNavy Visibility:§! §G-7.5%§!"

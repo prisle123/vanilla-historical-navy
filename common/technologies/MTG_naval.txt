@@ -3401,6 +3401,10 @@ technologies = {
 			position = { x = 1 y = @1952_module }
 		}
 
+		allow = {
+			NOT = { has_tech = tactical_data_link_for_member }
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -3410,6 +3414,19 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+	tactical_data_link_for_member = {
+		research_cost = 1.5
+		start_year = 1955
+
+		naval_coordination = 0.1
+		navy_org_factor = 0.075
+		navy_visibility = -0.075
+
+		# enabled through decision
+		allow = {
+			always = no
 		}
 	}
 	comprehensive_display_system = {
