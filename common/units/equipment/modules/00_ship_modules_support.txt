@@ -1222,4 +1222,15 @@ equipment_modules = {
 			steel = 1
 		}
 	}
+	ship_radar_finder = {
+		category = generic_miscellaneous
+		gui_category = cold_war_miscellaneous
+		multiply_stats = {
+			surface_detection = 3
+		}
+		add_stats = {
+			build_cost_ic = 80
+			reliability = -0.05
+		}
+	}
 }

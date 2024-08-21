@@ -1232,6 +1232,10 @@ technologies = {
 			leads_to_tech = nuclear_engine_research
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = signal_control
+			research_cost_coeff = 1
+		}
 
 		start_year = 1949
 
@@ -1300,7 +1304,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1948_module }
+			position = { x = 3 y = @1948_module }
 		}
 		on_research_complete = {
 			hidden_effect = { add_ideas = vnr_cruiser_cost_2 }
@@ -1329,7 +1333,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @1952 }
+			position = { x = 2 y = @1952 }
 		}
 		ai_will_do = {
 			factor = 2
@@ -1354,6 +1358,60 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = -5 y = @1948_module }
 		}
+		path = {
+			leads_to_tech = advanced_radar_finder
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+	signal_control = {
+		navy_visibility = -0.1
+
+		research_cost = 0.8
+		start_year = 1951
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -3 y = @1948_module }
+		}
+		path = {
+			leads_to_tech = advanced_radar_finder
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+			mio_cat_tech_all_cruiser_and_modules
+		}
+	}
+	advanced_radar_finder = {
+		enable_equipment_modules = {
+			ship_radar_finder
+		}
+
+		research_cost = 1
+		start_year = 1954
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -4 y = 29 }
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -3479,7 +3537,8 @@ technologies = {
 	}
 	electromagnetic_signature_study = {
 		research_cost = 2
-		navy_visibility = -0.2
+		navy_visibility = -0.1
+		naval_mines_effect_reduction = 0.1
 		
 		start_year = 1952
 
