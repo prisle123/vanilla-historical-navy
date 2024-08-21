@@ -672,4 +672,12 @@ spriteTypes = {
 		name = "GFX_tactical_data_link_for_member_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/tactical_data_link.png"
 	}
+	spriteType = {
+		name = "GFX_signal_control_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/signal_control.png"
+	}
+	spriteType = {
+		name = "GFX_advanced_radar_finder_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/advanced_radar_finder.png"
+	}
 }

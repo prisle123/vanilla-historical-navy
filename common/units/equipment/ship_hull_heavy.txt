@@ -137,6 +137,10 @@ equipments = {
 			category = ship_missile_aa
 			count < 4
 		}
+		module_count_limit = {
+			module = ship_aa_fire_control
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty

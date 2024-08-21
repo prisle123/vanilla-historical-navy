@@ -177,6 +177,10 @@ equipments = {
 			module = ship_display_system
 			count < 2
 		}
+		module_count_limit = {
+			module = ship_aa_fire_control
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
