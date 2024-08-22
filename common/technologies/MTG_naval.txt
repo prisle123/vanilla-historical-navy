@@ -303,11 +303,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = destroyer_hull_improvement
+			leads_to_tech = wave_resistance_design
 			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = modern_sonar
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = close_in_area_air_defense
 			research_cost_coeff = 1
 		}
 
@@ -891,6 +895,10 @@ technologies = {
 		dependencies = {
 			destroyer_missile_upgrade = 1
 		}
+		path = {
+			leads_to_tech = destroyer_hull_improvement
+			research_cost_coeff = 1
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -908,19 +916,73 @@ technologies = {
 
 	destroyer_hull_improvement = {
 		research_cost = 1
-		start_year = 1950
+		start_year = 1954
 
 		destroyer = {
-			max_strength = 0.15
+			max_strength = 0.25
+			naval_range = 0.2
 		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1952_module }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		categories = {
+			dd_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	close_in_area_air_defense = {
+		research_cost = 0.8
+		start_year = 1952
+
+		destroyer = {
+			anti_air_attack = 0.2
+		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1952 }
+		}
+		path = {
+			leads_to_tech = destroyer_hull_improvement
+			research_cost_coeff = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		categories = {
+			dd_tech
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	wave_resistance_design = {
+		research_cost = 1.25
+		start_year = 1951
+
+		screening_efficiency = 0.15
+		navy_weather_penalty = -0.15
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = @1952 }
 		}
-		
+		path = {
+			leads_to_tech = destroyer_hull_improvement
+			research_cost_coeff = 1
+		}
+
 		ai_will_do = {
-			factor = 2
+			factor = 1
 		}
 		categories = {
 			dd_tech
@@ -1304,7 +1366,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @1948_module }
+			position = { x = 4 y = @1948_module }
 		}
 		on_research_complete = {
 			hidden_effect = { add_ideas = vnr_cruiser_cost_2 }
@@ -1333,7 +1395,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = @1952 }
+			position = { x = 3 y = @1952 }
 		}
 		ai_will_do = {
 			factor = 2
@@ -1403,6 +1465,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_radar_finder
 		}
+		naval_enemy_positioning_in_initial_attack = -0.1
 
 		research_cost = 1
 		start_year = 1954
@@ -3370,6 +3433,10 @@ technologies = {
 			leads_to_tech = electromagnetic_signature_study
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = symmetric_key_algorithm
+			research_cost_coeff = 1
+		}
 
 		ai_will_do = {
 			factor = 2
@@ -3381,6 +3448,32 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+
+	symmetric_key_algorithm = {
+		research_cost = 0.8
+		start_year = 1950
+
+		navy_intel_to_others = -0.3
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1948_module }
+		}
+		dependencies = {
+			advanced_computing_machine = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		allow_branch = {
+			has_dlc = "La Resistance"
+		}
+
+		categories = {
+			naval_equipment
 		}
 	}
 
@@ -4333,6 +4426,10 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 0 y = @1948_module }
 		}
+		path = {
+			leads_to_tech = airborne_early_warning
+			research_cost_coeff = 1
+		}
 		
 		ai_will_do = {
 			factor = 1
@@ -4346,7 +4443,7 @@ technologies = {
 	}
 	airborne_early_warning = {
 		research_cost = 1.5
-		start_year = 1948
+		start_year = 1951
 		
 		enable_equipment_modules = {
 			carrier_tracing_unit
@@ -4354,7 +4451,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = @1948_module }
+			position = { x = -1 y = @1952 }
 		}
 		
 		ai_will_do = {
@@ -4404,6 +4501,33 @@ technologies = {
 			factor = 1
 		}
 		
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+		}
+	}
+	luneburg_lens = {
+		research_cost = 1.2
+		start_year = 1952
+
+		carrier = {
+			surface_detection = 0.15
+		}
+		naval_enemy_retreat_chance = -0.1
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = @1948_module }
+		}
+		path = {
+			leads_to_tech = airborne_early_warning
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 3
+		}
+
 		categories = {
 			naval_equipment
 			cv_tech
@@ -5413,7 +5537,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = airborne_early_warning
+			leads_to_tech = luneburg_lens
 			research_cost_coeff = 1
 		}
 		path = {
