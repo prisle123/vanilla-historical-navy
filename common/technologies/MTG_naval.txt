@@ -1465,7 +1465,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_radar_finder
 		}
-		naval_enemy_positioning_in_initial_attack = -0.1
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.2
 
 		research_cost = 1
 		start_year = 1954
@@ -3455,7 +3455,7 @@ technologies = {
 		research_cost = 0.8
 		start_year = 1950
 
-		navy_intel_to_others = -0.3
+		navy_intel_to_others = -20
 
 		folder = {
 			name = mtgnavalfolder

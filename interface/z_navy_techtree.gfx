@@ -680,4 +680,20 @@ spriteTypes = {
 		name = "GFX_advanced_radar_finder_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/advanced_radar_finder.png"
 	}
+	spriteType = {
+		name = "GFX_close_in_area_air_defense_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/close_in_area_air_defense.png"
+	}
+	spriteType = {
+		name = "GFX_wave_resistance_design_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/wave_resistance_design.png"
+	}
+	spriteType = {
+		name = "GFX_symmetric_key_algorithm_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/symmetric_key_algorithm.png"
+	}
+	spriteType = {
+		name = "GFX_luneburg_lens_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/luneburg_lens.png"
+	}
 }
