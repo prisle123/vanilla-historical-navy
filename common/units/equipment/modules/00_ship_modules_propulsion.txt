@@ -157,7 +157,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 12
+			fuel_consumption = 23
 			build_cost_ic = 200
 			reliability = -0.1
 		}
@@ -265,7 +265,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 7
+			fuel_consumption = 5
 			build_cost_ic = 90
 		}
 		
@@ -290,7 +290,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 8
+			fuel_consumption = 7
 			build_cost_ic = 120
 		}
 		
@@ -318,7 +318,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 10
+			fuel_consumption = 9
 			build_cost_ic = 150
 		}
 		
@@ -346,7 +346,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 10
+			fuel_consumption = 11
 			build_cost_ic = 170
 		}
 		
@@ -373,7 +373,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 12
+			fuel_consumption = 15
 			build_cost_ic = 250
 			reliability = -0.3
 		}
@@ -425,7 +425,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 12
+			fuel_consumption = 15
 			build_cost_ic = 400
 		}
 		
@@ -450,7 +450,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 6
-			fuel_consumption = 16
+			fuel_consumption = 19
 			build_cost_ic = 480
 		}
 		
@@ -480,7 +480,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 7
-			fuel_consumption = 20
+			fuel_consumption = 22
 			build_cost_ic = 550
 		}
 		
@@ -509,7 +509,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 7
-			fuel_consumption = 24
+			fuel_consumption = 25
 			build_cost_ic = 670
 		}
 		
@@ -538,7 +538,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 7
-			fuel_consumption = 28
+			fuel_consumption = 29
 			build_cost_ic = 800
 		}
 		
@@ -993,7 +993,7 @@ equipment_modules = {
 		parent = super_heavy_ship_engine_1
 
 		add_stats = {
-			fuel_consumption = 30
+			fuel_consumption = 40
 			build_cost_ic = 3500
 		}
 		multiply_stats = {
@@ -1020,7 +1020,7 @@ equipment_modules = {
 		parent = super_heavy_ship_engine_2
 
 		add_stats = {
-			fuel_consumption = 40
+			fuel_consumption = 50
 			build_cost_ic = 4000
 		}
 		multiply_stats = {
@@ -1053,7 +1053,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 12
+			fuel_consumption = 18
 			build_cost_ic = 1500
 		}
 		
@@ -1082,7 +1082,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 16
+			fuel_consumption = 23
 			build_cost_ic = 2000
 		}
 		
@@ -1115,7 +1115,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 20
+			fuel_consumption = 28
 			build_cost_ic = 2500
 		}
 		
@@ -1147,7 +1147,7 @@ equipment_modules = {
 		
 		add_stats = {
 			#naval_speed = 5
-			fuel_consumption = 24
+			fuel_consumption = 32
 			build_cost_ic = 3000
 		}
 		
