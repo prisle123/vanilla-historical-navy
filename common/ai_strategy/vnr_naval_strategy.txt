@@ -1,0 +1,78 @@
+### ENG ###
+ENG_protect_home_waters = {
+    allowed = {
+        original_tag = ENG
+    }
+    enable = {
+        has_war_with = GER
+        GER = {
+            has_navy_size > 30
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 18
+        value = 800
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 16
+        value = 10
+    }
+}
+
+ENG_secure_mediterranean = {
+    allowed = {
+        original_tag = ENG
+    }
+    enable = {
+        has_war_with = ITA
+        ITA = {
+            has_navy_size > 30
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 29
+        value = 100
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 68
+        value = 20
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 69
+        value = 200
+    }
+}
+
+### JAP ###
+JAP_destroy_China_navy_quick = {
+    allowed = {
+        original_tag = JAP
+    }
+    enable = {
+        has_war_with = CHI
+        NOT = { has_war_with = USA }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 75
+        value = 10
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 76
+        value = 200
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 77
+        value = 200
+    }
+}
