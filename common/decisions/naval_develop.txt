@@ -310,4 +310,32 @@ naval_develop_category = {
 			modifier = { factor = 0 has_political_power < 20 }
 		}
 	}
+
+	join_tactical_data_link = {
+		icon = generic_naval
+		visible = {
+			is_in_faction = yes
+			any_allied_country = {
+				has_tech = tactical_data_link
+			}
+			NOT = { 
+				has_tech = tactical_data_link
+				has_tech = tactical_data_link_for_member
+			}
+		}
+		available = {
+			has_tech = radio
+		}
+		cancel_if_not_visible = yes
+		fire_only_once = yes
+		cost = 15
+		days_remove = 7
+
+		remove_effect = {
+			set_technology = { tactical_data_link_for_member = 1 }
+		}
+		ai_will_do = {
+			factor = 50
+		}
+	}
 }

@@ -191,7 +191,19 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 800
 	}
+	ship_ski_jump_ramp = {
+		category = steam_catapult
+		gui_category = modern_carrier_equipments
 
+		add_stats = {
+			build_cost_ic = 500
+		}
+		multiply_stats = {
+			anti_air_attack = 0.1
+			surface_detection = 0.06
+		}
+		dismantle_cost_ic = 400
+	}
 
 	side_lift = {
 		category = carrier_side_lift

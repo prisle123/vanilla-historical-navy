@@ -145,6 +145,10 @@ equipments = {
 			category = ship_anti_air
 			count < 4
 		}
+		module_count_limit = {
+			module = ship_aa_fire_control
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -482,7 +486,7 @@ equipments = {
 
 
 		surface_detection = 20
-		reliability = 1.5
+		reliability = 1.25
 		naval_range = 3000
 		max_strength = 100
 		build_cost_ic = 800

@@ -1,4 +1,4 @@
-version="v1.11 - King's Gambit"
+version="v1.12 - Overlord"
 tags={
 	"Military"
 	"Graphics"
