@@ -2250,6 +2250,30 @@ we_need_cv_planes_1 = {
 		id = cv_cas
 		value = 20
 	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cv_fighter
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cv_naval_bomber
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cv_cas
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = cv_small_plane_airframe
+		value = 20
+	}
 }
 
 we_need_cv_planes_2 = {
@@ -2297,6 +2321,30 @@ we_need_cv_planes_2 = {
 		id = cv_cas
 		value = 40
 	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cv_fighter
+		value = 2
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cv_naval_bomber
+		value = 2
+	}
+	
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cv_cas
+		value = 2
+	}
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = cv_small_plane_airframe
+		value = 40
+	}
 }
 
 we_need_cv_planes_3 = {
@@ -2342,6 +2390,30 @@ we_need_cv_planes_3 = {
 		type = equipment_production_factor
 		id = cv_cas
 		value = 60
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cv_fighter
+		value = 3
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cv_naval_bomber
+		value = 3
+	}
+	
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cv_cas
+		value = 3
+	}
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = cv_small_plane_airframe
+		value = 50
 	}
 }
 
