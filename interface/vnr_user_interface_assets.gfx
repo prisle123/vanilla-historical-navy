@@ -1,25 +1,19 @@
-spriteTypes = {	
-	spriteType = { # "SH battleship"
-		name = "GFX_navalcombat_ship_icon_SH_battleship"
-		texturefile = "gfx/interface/navalcombat/ships/sh_battleship.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_behemoth"
-		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_battlecarrier"
-		texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_auxiliary_ship"
-		texturefile = "gfx/interface/navalcombat/ships/auxiliary.dds"
-		noOfFrames = 2
-	}
+spriteTypes = {
+	### ship silhouettes in naval combat
+	spriteType = { name = "GFX_navalcombat_ship_icon_SH_battleship"		texturefile = "gfx/interface/navalcombat/ships/sh_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_behemoth"		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_battlecarrier"		texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_auxiliary_ship"		texturefile = "gfx/interface/navalcombat/ships/auxiliary.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_medium_cruiser"		texturefile = "gfx/interface/navalcombat/ships/medium_cruiser.dds" noOfFrames = 2 }
+
+
+	### ship silhouettes in production filter
+	spriteType = { name = "GFX_unit_battlecarrier_icon_medium" texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_auxiliary_ship_icon_medium" texturefile = "gfx/interface/navalcombat/ships/auxiliary.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_behemoth_icon_medium" texturefile = "gfx/interface/navalcombat/ships/behemoth.dds" noOfFrames = 2 }
 	
+
+	### ship silhouettes for each ship, shown when you select a fleet, with level text
 	spriteType = { name = "GFX_unit_battle_cruiser_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_I.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battle_cruiser_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_II.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_battle_cruiser_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battlecruiser_III.dds"	noOfFrames = 2 }
@@ -69,150 +63,43 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_battlecarrier_6_icon_medium" texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_auxiliary_ship_1_icon_medium" texturefile = "gfx/interface/navalcombat/ships/auxiliary.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_submarine_5_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/submarine_V.dds"	noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_SH_battleship_6_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_behemoth_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds" noOfFrames = 2 }
 
 	
-	spriteType = {
-		name = "GFX_unit_SH_battleship_icon_medium_white"
-		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship.dds"
-	}
-	spriteType = {
-		name = "GFX_unit_SH_battleship_icon_medium_black"
-		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship_inverted.dds"
-	}
+	### small ship silhouettes used as counter for each type of ship, shown at top when you select a fleet, with black and white version
+	spriteType = { name = "GFX_unit_SH_battleship_icon_medium_white" texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship.dds" }
+	spriteType = { name = "GFX_unit_SH_battleship_icon_medium_black" texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship_inverted.dds" }
+	spriteType = { name = "GFX_unit_battlecarrier_icon_medium_white" texturefile = "gfx/interface/counters/ships_small/onmap_battlecarrier.dds" }
+	spriteType = { name = "GFX_unit_battlecarrier_icon_medium_black" texturefile = "gfx/interface/counters/ships_small/onmap_battlecarrier_inverted.dds" }
+	spriteType = { name = "GFX_unit_auxiliary_ship_icon_medium_white" texturefile = "gfx/interface/counters/ships_small/onmap_auxiliary_ship.dds" }
+	spriteType = { name = "GFX_unit_auxiliary_ship_icon_medium_black" texturefile = "gfx/interface/counters/ships_small/onmap_auxiliary_ship_inverted.dds" }
+	spriteType = { name = "GFX_unit_medium_cruiser_icon_medium_white" texturefile = "gfx/interface/counters/ships_small/onmap_medium_cruiser.dds" }
+	spriteType = { name = "GFX_unit_medium_cruiser_icon_medium_black" texturefile = "gfx/interface/counters/ships_small/onmap_medium_cruiser_inverted.dds" }
+	spriteType = { name = "GFX_unit_behemoth_icon_medium_white" texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship.dds" }
+	spriteType = { name = "GFX_unit_behemoth_icon_medium_black" texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship_inverted.dds" }
 	
-	spriteType = {
-		name = "GFX_ship_SH_battleship_icon_small"
-		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "unit_SH_battleship_icon_small"
-		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_unit_SH_battleship_6_icon_medium"
-		texturefile = "gfx/interface/navalcombat/ships/battleship_V.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_unit_battlecarrier_icon_medium_white"
-		texturefile = "gfx/interface/counters/ships_small/onmap_battlecarrier.dds"
-	}
-	spriteType = {
-		name = "GFX_unit_battlecarrier_icon_medium_black"
-		texturefile = "gfx/interface/counters/ships_small/onmap_battlecarrier_inverted.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ship_battlecarrier_icon_small"
-		texturefile = "gfx/texticons/ship_battlecarrier_icon_small.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "unit_battlecarrier_icon_small"
-		texturefile = "gfx/texticons/ship_battlecarrier_icon_small.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_unit_battlecarrier_icon_medium"
-		texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_unit_auxiliary_ship_icon_medium_white"
-		texturefile = "gfx/interface/counters/ships_small/onmap_auxiliary_ship.dds"
-	}
-	spriteType = {
-		name = "GFX_unit_auxiliary_ship_icon_medium_black"
-		texturefile = "gfx/interface/counters/ships_small/onmap_auxiliary_ship_inverted.dds"
-	}
-	spriteType = {
-		name = "GFX_ship_auxiliary_ship_icon_small"
-		texturefile = "gfx/texticons/ship_auxiliary_ship_icon_small.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "unit_auxiliary_ship_icon_small"
-		texturefile = "gfx/texticons/ship_auxiliary_ship_icon_small.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_unit_auxiliary_ship_icon_medium"
-		texturefile = "gfx/interface/navalcombat/ships/auxiliary.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_unit_medium_cruiser_icon_medium_white"
-		texturefile = "gfx/interface/counters/ships_small/onmap_medium_cruiser.dds"
-	}
-	spriteType = {
-		name = "GFX_unit_medium_cruiser_icon_medium_black"
-		texturefile = "gfx/interface/counters/ships_small/onmap_medium_cruiser_inverted.dds"
-	}
-	spriteType = {
-		name = "GFX_navalcombat_ship_icon_medium_cruiser"
-		texturefile = "gfx/interface/navalcombat/ships/medium_cruiser.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_unit_medium_cruiser_icon_small"
-		texturefile = "gfx/texticons/ship_medium_cruiser_icon_small.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "unit_medium_cruiser_icon_small"
-		texturefile = "gfx/texticons/ship_medium_cruiser_icon_small.dds"
-		legacy_lazy_load = no
-	}
 
-	spriteType = {
-		name = "GFX_unit_behemoth_icon_medium_white"
-		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship.dds"
-	}
-	spriteType = {
-		name = "GFX_unit_behemoth_icon_medium_black"
-		texturefile = "gfx/interface/counters/ships_small/onmap_SH_battleship_inverted.dds"
-	}
+	### green counter for each type of ship, shown when you hover on a fleet
+	spriteType = { name = "GFX_ship_SH_battleship_icon_small" texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds" legacy_lazy_load = no }
+	spriteType = { name = "unit_SH_battleship_icon_small" texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_battlecarrier_icon_small" texturefile = "gfx/texticons/ship_battlecarrier_icon_small.dds" legacy_lazy_load = no }
+	spriteType = { name = "unit_battlecarrier_icon_small" texturefile = "gfx/texticons/ship_battlecarrier_icon_small.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_auxiliary_ship_icon_small" texturefile = "gfx/texticons/ship_auxiliary_ship_icon_small.dds" legacy_lazy_load = no }
+	spriteType = { name = "unit_auxiliary_ship_icon_small" texturefile = "gfx/texticons/ship_auxiliary_ship_icon_small.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_medium_cruiser_icon_small" texturefile = "gfx/texticons/ship_medium_cruiser_icon_small.dds" legacy_lazy_load = no }
+	spriteType = { name = "unit_medium_cruiser_icon_small" texturefile = "gfx/texticons/ship_medium_cruiser_icon_small.dds" legacy_lazy_load = no }	
+	spriteType = { name = "GFX_ship_behemoth_icon_small" texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds" legacy_lazy_load = no }
+	spriteType = { name = "unit_behemoth_icon_small" texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds" legacy_lazy_load = no }
 	
-	spriteType = {
-		name = "GFX_ship_behemoth_icon_small"
-		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "unit_behemoth_icon_small"
-		texturefile = "gfx/texticons/ship_SH_battleship_icon_small.dds"
-		legacy_lazy_load = no
-	}
 	
-	spriteType = {
-		name = "GFX_unit_behemoth_icon_medium"
-		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_unit_behemoth_1_icon_medium"
-		texturefile = "gfx/interface/navalcombat/ships/behemoth.dds"
-		noOfFrames = 2
-	}
+	### plane type icon, used in the effect panel of dive bomber study technology
+	spriteType = { name = "GFX_unit_cv_fighter_icon_medium" texturefile = "gfx/interface/category_fighter.dds" }
+	spriteType = { name = "GFX_unit_cv_cas_icon_medium" texturefile = "gfx/interface/category_cas.dds" }
+	spriteType = { name = "GFX_unit_cv_nav_bomber_icon_medium" texturefile = "gfx/interface/category_heavy_fighter.dds" }
 	
-	spriteType = {
-		name = "GFX_unit_cv_fighter_icon_medium"
-		texturefile = "gfx/interface/category_fighter.dds"
-	}
-	spriteType = {
-		name = "GFX_unit_cv_cas_icon_medium"
-		texturefile = "gfx/interface/category_cas.dds"
-	}
-	spriteType = {
-		name = "GFX_unit_cv_nav_bomber_icon_medium"
-		texturefile = "gfx/interface/category_heavy_fighter.dds"
-	}
-	
+
+	### the blueprint icon at the bottom right corner of production of ship
 	corneredTileSpriteType = {
 		name = "rework_ship_icon_bg"
 		#texturefile = "gfx/interface/tiles/tiled_paper_bg.dds"
@@ -220,6 +107,8 @@ spriteTypes = {
 		size= { x=32 y=32 }
 		borderSize = { x=5 y=5 }
 	}
+
+	### the red box in techtree
 	corneredTileSpriteType = {
 		name = "GFX_tiled_research_red_bg"
 		size= {x=96 y=96 }
@@ -228,6 +117,8 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	
+
+	### background of starting intro panel
 	spriteType = {
 		name = "GFX_navy_intro"
 		textureFile = "gfx/introscreen/navy_intro.png"
@@ -237,18 +128,21 @@ spriteTypes = {
 		textureFile = "gfx/introscreen/navy_rework_splash.png"
 	}
 	
+
+	### ship role icons definition in ship designer, right next to ship icon
 	spriteType = {
 		name = "GFX_naval_equipment_role_icons"
 		texturefile = "gfx/army_icons/naval_equipment_role_icons.dds"
 		noOfFrames = 84
 	}
-
 	spriteType = {
 		name = "GFX_naval_equipment_role_icons_selected"
 		texturefile = "gfx/army_icons/naval_equipment_role_icons_selected.dds"
 		noOfFrames = 84
 	}
 	
+
+	### panels of technology, use assets from KR to make it wider and taller for more lines of tech description
 	corneredTileSpriteType = {
 		name = "GFX_tiled_window_thin_border_kr"
 		size= { x=192 y=192 }
@@ -257,13 +151,14 @@ spriteTypes = {
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
-
 	SpriteType = {
 		name = "GFX_tech_info_top_win_kr"
 		textureFile = "gfx/interface/tech_info_top_win_kr2.png"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	
+
+	### background of main menu
 	corneredTileSpriteType = {
 		name = "GFX_frontend_bg"
 		texturefile = "gfx/interface/vnr_main_menu_bg.dds"
@@ -273,19 +168,14 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.shader"
 	}
 	
-	spriteType = {
-		name = "GFX_idea_vnr_mad"
-		textureFile = "gfx/interface/vnr_ai_difficulty.png"
-	}
-	spriteType = {
-		name = "GFX_idea_vnr_hard"
-		textureFile = "gfx/interface/vnr_ai_difficulty.png"
-	}
-	spriteType = {
-		name = "GFX_idea_vnr_normal"
-		textureFile = "gfx/interface/vnr_ai_difficulty.png"
-	}
+
+	### idea icon of VNR AI buff
+	spriteType = { name = "GFX_idea_vnr_mad" textureFile = "gfx/interface/vnr_ai_difficulty.png" }
+	spriteType = { name = "GFX_idea_vnr_hard" textureFile = "gfx/interface/vnr_ai_difficulty.png" }
+	spriteType = { name = "GFX_idea_vnr_normal" textureFile = "gfx/interface/vnr_ai_difficulty.png" }
 	
+
+	### a workaround to fix icon becoming huge after an exclusive tech is selected
 	spriteType = {
 		name = "GFX_technology_mtgnavalsupportfolder_branch_item_bg"
 		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
