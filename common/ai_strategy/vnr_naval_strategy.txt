@@ -309,3 +309,104 @@ USA_pacific_war_naval_counterattack = {
         value = 130
     }
 }
+
+### ITA ###
+ITA_avoid_mediterranean = {
+    allowed = {
+        original_tag = ITA
+    }
+    enable = {
+        has_war_with = ENG
+        has_navy_size = { size < 100 }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 29
+        value = -100
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 68
+        value = -100
+    }
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 69
+        value = -100
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 29
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 68
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 69
+        value = 100
+    }
+}
+
+### GER ###
+GER_forget_sealion = {
+    allowed = {
+        original_tag = GER
+    }
+    enable = {
+        has_war_with = ENG
+        naval_strength_ratio = {
+            tag = ENG
+            ratio < 0.7
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 18
+        value = 800
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 16
+        value = 200
+    }
+}
+
+GER_unrestricted_submarine_warfare = {
+    allowed = {
+        original_tag = GER
+    }
+    enable = {
+        has_war_with = ENG
+        naval_strength_ratio = {
+            tag = ENG
+            ratio < 0.7
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 47
+        value = 200
+    }
+    ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 49
+        value = 500
+    }
+    ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 44
+        value = 150
+    }
+    ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 50
+        value = 30
+    }
+}
