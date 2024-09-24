@@ -1,6 +1,7 @@
 ### ENG ###
 ENG_protect_home_waters = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = ENG
     }
     enable = {
@@ -30,6 +31,7 @@ ENG_protect_home_waters = {
 
 ENG_secure_mediterranean = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = ENG
     }
     enable = {
@@ -59,6 +61,7 @@ ENG_secure_mediterranean = {
 
 ENG_avoid_pacific = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = ENG
     }
     enable = {
@@ -87,6 +90,7 @@ ENG_avoid_pacific = {
 ### JAP ###
 JAP_destroy_china_navy_quick = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = JAP
     }
     enable = {
@@ -114,6 +118,7 @@ JAP_destroy_china_navy_quick = {
 
 JAP_pacific_war_naval_stage_one = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = JAP
     }
     enable = {
@@ -149,6 +154,7 @@ JAP_pacific_war_naval_stage_one = {
 
 JAP_pacific_war_naval_stage_two = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = JAP
     }
     enable = {
@@ -211,6 +217,7 @@ JAP_pacific_war_naval_stage_two = {
 ### USA ###
 USA_pacific_war_naval_avoid_first = {
 	allowed = {
+        has_dlc = "Man the Guns"
 		original_tag = USA
 	}
 	enable = {
@@ -262,6 +269,7 @@ USA_pacific_war_naval_avoid_first = {
 
 USA_pacific_war_naval_counterattack = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = USA
     }
     enable = {
@@ -321,6 +329,7 @@ USA_pacific_war_naval_counterattack = {
 ### ITA ###
 ITA_avoid_mediterranean = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = ITA
     }
     enable = {
@@ -364,6 +373,7 @@ ITA_avoid_mediterranean = {
 ### GER ###
 GER_forget_sealion = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = GER
     }
     enable = {
@@ -389,6 +399,7 @@ GER_forget_sealion = {
 
 GER_unrestricted_submarine_warfare = {
     allowed = {
+        has_dlc = "Man the Guns"
         original_tag = GER
     }
     enable = {
