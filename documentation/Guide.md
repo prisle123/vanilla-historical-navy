@@ -188,4 +188,12 @@ To simulate carrier's capability to send over the horizon strikes, the duration 
 
 ### Positioning ###
 
-Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around.
+Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:3, you will need more ships to achieve max screen efficiency.
+
+Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around.
+
+### Supply Consumption ###
+
+Ever since the supply system was added in NSB, navy will also be influenced by port facilities. In vanilla, you rarely feel the consequence of running out of supply in naval combat because ships' supply consumption is too low compared to how much a naval base can provide. To begin with, don't confuse supply consumption with fuel consumption, they are different but will cause similar penalties on your fleet. Fuel is only consumed when your fleet is in action, but supply is a static resource that you can't store.
+
+In the mod, supply consumption of ships are greatly increased, especially on capital ships. This has made strategic islands and frontline engineering corps far more important in simulating the Pacific War. Take US as an example, a large fleet making a sortie from the Midway will definitely suffer heavy attrition during maneuvering and combat. Instead, launching attacks from Hawaii or Australia is a wiser choice.
