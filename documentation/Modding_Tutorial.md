@@ -13,7 +13,7 @@ Hi there, this is MrPunk, in this file I will try to explain everything about VN
 
 ### Common ###
         
-Common is where the fundamental materials of the game are stored, usually it includes technology, national focus， decisions and much more.
+Common is where the fundamental materials of the game are stored, usually it includes technology, national focus, decisions and much more.
 
 The files in this folder will be loaded at game starts (in the loading screen), so if the game never made it to the menu, more likely it's caused by bugs in Common.
     
@@ -134,9 +134,9 @@ The texts of events, technologies, etc.
 
 ## Post-Loading ##
 
-The most interesting feature of VNR is the post-loading mechanism. For so long, there are many navy mods out there, but they all have to change the files within history/countries, for that's where tank/air/ship designs are defined. In instance of a large naval overhaul mod, you have to modify these files to make new modules and new hulls working. It's very common on mods such as NRM.
+The most interesting feature of VNR is the post-loading mechanism. For so long, there are many navy mods out there, but they all have to change the files within history/countries, for that's where tank/air/ship designs are defined. In instance of a large naval overhaul mod, you have to modify these files to make new modules and new hulls work. It's very common on mods such as NRM.
 
-Despite being the most sraightforward approach, it will bring harms to compatibility and robustness throughout basegame updates. The country history files store more than starting variants, it also has leaders, historical events, political status and national spirits. Overwriting such files is a complete disaster when it comes to compatibility. Even a minor fix on the country's starting stability will be incompatible, depending on the loading order, it may break its variants too.
+Despite being the most sraightforward approach, it will bring harms to compatibility and robustness throughout basegame updates. The country history files store more than starting variants, they also have leaders, historical events, political status and national spirits. Overwriting such files is a complete disaster when it comes to compatibility. Even a minor fix on the country's starting stability will be incompatible, depending on the loading order, it may break its variants too.
 
 To counter it, the post-loading mechanism is created. It is not some fancy skill, but I want it recorded, so the late comers know how to do that.
 
@@ -165,7 +165,7 @@ Reference files:
 
 2. **Ship role system**
 
-    The ship role system is what creates more variants. Before that, most naval mods simply add a lot of hulls to represent new type of ships, but they in fact are not so different from the base platform. For example, destroyer leader, destroyer and escort destroyer. Offering different bonus, the ship role also allow or disallow certain categories of modules.
+    The ship role system is what creates more variants. Before that, most naval mods simply add a lot of hulls to represent new type of ships, but they in fact are not so different from the base platform. For example, destroyer leader, destroyer and escort destroyer. Offering different bonus, the ship role also allows or disallows certain categories of modules.
 
 3. **Dynamic title for ship designer**
 
