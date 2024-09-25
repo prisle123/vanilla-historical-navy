@@ -19,6 +19,7 @@ equipment_modules = {
 			reliability = -0.1
 			max_organisation = -0.1
 			surface_detection = 5
+			supply_consumption = 0.02
 		}
 		manpower = 300 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -42,6 +43,7 @@ equipment_modules = {
 			build_cost_ic = 1300
 			reliability = 0.025
 			surface_detection = 4
+			supply_consumption = 0.015
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -65,6 +67,7 @@ equipment_modules = {
 			carrier_size = 2
 			build_cost_ic = 1000
 			surface_detection = 4
+			supply_consumption = 0.015
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -86,6 +89,7 @@ equipment_modules = {
 			carrier_size = 1
 			build_cost_ic = 500
 			surface_detection = 2
+			supply_consumption = 0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.025
@@ -104,6 +108,7 @@ equipment_modules = {
 			build_cost_ic = 2000
 			max_organisation = -0.05
 			surface_detection = 5
+			supply_consumption = 0.025
 		}
 		manpower = 300
 		multiply_stats = {
@@ -126,6 +131,7 @@ equipment_modules = {
 			reliability = -0.1
 			max_organisation = -0.1
 			surface_detection = 2
+			supply_consumption = 0.015
 		}
 		manpower = 125
 		multiply_stats = {
