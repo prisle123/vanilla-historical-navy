@@ -3427,6 +3427,7 @@ SOV_start_naval_variants = {
         name = "AG Class"
 		parent_version = 0
 		role_icon_index = 37
+        icon = "gfx/interface/technologies/Soviet/SOV_submarine_AG.png"
         type = vnr_ship_hull_submarine_1
         name_group = SOV_SS_LENINETS
         modules = {
