@@ -849,7 +849,7 @@ guiTypes = {
 				name = "name"
 				position = { x = 45 y = 5 }
 				font = "hoi_18mbs"
-				size = { x=164 y=20 }
+				size = { x=230 y=20 }
 			}
 
 			#expandButton = {
@@ -885,10 +885,10 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "position_version"
-			position = { x = 212 y = 56 }
+			position = { x = 280 y = 56 }
 			font = "hoi_18mbs"
 			text_color_code = g
-			maxWidth = 71
+			maxWidth = 1
 			maxHeight = 18
 			alwaystransparent = yes
 			multiline = no
