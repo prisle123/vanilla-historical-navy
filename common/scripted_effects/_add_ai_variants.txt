@@ -1108,3 +1108,269 @@ ITA_AI_variants_1943 = {
 		}
 	}
 }
+
+SOV_AI_variants_1940 = {
+	create_equipment_variant = {
+		name = "Sovetsky Soyuz Class"
+		role_icon_index = 1
+		type = vnr_ship_hull_super_heavy_1
+		parent_version = 0
+		name_group = SOV_STATES
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_3_triple
+			fixed_ship_anti_air_slot = ship_anti_air_3_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+			fixed_ship_engine_slot = super_heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_shbb
+			fixed_ship_armor_scheme_slot = ship_scheme_mixed
+			fixed_ship_torpedo_defense_system_slot = pugliese_system
+			fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+			fixed_ship_extra_secondaries_slot = ship_high_velocity_shell
+			front_1_custom_slot = empty
+			front_2_custom_slot = ship_heavy_battery_3_triple
+			mid_1_custom_slot = dp_ship_secondaries_2
+			mid_2_custom_slot = ship_secondaries_2
+			mid_3_custom_slot = dp_ship_secondaries_2
+			rear_1_custom_slot = ship_heavy_battery_3_triple
+		}
+	}
+	create_equipment_variant = {
+		name = "Object 71 Class"
+		role_icon_index = 11
+		type = vnr_ship_hull_carrier_conversion_ca
+		parent_version = 0
+		name_group = SOV_CV_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space_small
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_engine_slot = carrier_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+		}
+  	}
+	create_equipment_variant = {
+		name = "Kronshtadt Class"
+		role_icon_index = 21
+		type = vnr_ship_hull_heavy_3
+		parent_version = 0
+		name_group = SOV_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1_triple
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = heavy_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bc_3
+			front_1_custom_slot = empty
+			front_2_custom_slot = ship_heavy_battery_1_triple
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = empty
+			mid_3_custom_slot = ship_anti_air_3
+			rear_1_custom_slot = ship_heavy_battery_1_triple
+		}
+	}
+	create_equipment_variant = {
+		name = "Chapayev Class"
+		role_icon_index = 25
+		type = vnr_ship_hull_cruiser_4
+		parent_version = 0
+		name_group = SOV_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_3
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = cruiser_ship_engine_4
+			fixed_ship_armor_slot = ship_armor_cruiser_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_2
+			front_1_custom_slot = empty
+			front_2_custom_slot = ship_light_medium_battery_3
+			mid_1_custom_slot = ship_anti_air_3
+			mid_2_custom_slot = ship_torpedo_3
+			mid_3_custom_slot = dp_ship_secondaries_2
+			rear_1_custom_slot = ship_light_medium_battery_3
+			rear_2_custom_slot = ship_light_medium_battery_3
+		}
+	}
+	create_equipment_variant = {
+		name = "Ognevoy Class"
+		role_icon_index = 31
+		type = vnr_ship_hull_light_4
+		parent_version = 0
+		name_group = SOV_ADJECTIVES_NAVY
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_3_double
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = light_ship_engine_4
+			front_1_custom_slot = empty
+			front_2_custom_slot = ship_anti_air_3
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_light_battery_3_double
+			rear_2_custom_slot = ship_depth_charge_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Tashkent Class"
+		role_icon_index = 33
+		type = vnr_ship_hull_light_4
+		parent_version = 0
+		name_group = SOV_CITIES_NAVY
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_3_double
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = light_ship_engine_6
+			fixed_ship_torpedo_slot = ship_torpedo_3
+			fixed_ship_role_slot = ship_hull_light_role_dl
+			front_1_custom_slot = ship_light_battery_3_double
+			front_2_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_3
+			mid_2_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_light_battery_3_double
+			rear_2_custom_slot = ship_depth_charge_1
+		}
+	}
+}
+
+SOV_AI_variants_1943 = {
+	create_equipment_variant = {
+		name = "Object 24 Class"
+		role_icon_index = 1
+		type = vnr_ship_hull_heavy_5
+		parent_version = 0
+		name_group = SOV_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_4_triple
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+			fixed_ship_radar_slot = ship_radar_4
+			fixed_ship_engine_slot = heavy_ship_engine_5
+			fixed_ship_secondaries_slot = dp_ship_secondaries_4
+			fixed_ship_armor_slot = ship_armor_shbb_2
+			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
+			fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
+			fixed_ship_extra_secondaries_slot = ship_high_velocity_shell
+			front_1_custom_slot = ship_anti_air_4
+			front_2_custom_slot = ship_heavy_battery_4_triple
+			mid_1_custom_slot = dp_ship_secondaries_4
+			mid_2_custom_slot = ship_anti_air_4
+			mid_3_custom_slot = dp_ship_secondaries_4
+			rear_1_custom_slot = ship_heavy_battery_4_triple
+			rear_2_custom_slot = ship_airplane_launcher_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Object 72 Class"
+		role_icon_index = 9
+		type = vnr_ship_hull_carrier_3
+		parent_version = 0
+		name_group = SOV_CV_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_radar_slot = ship_radar_3
+			fixed_ship_engine_slot = carrier_ship_engine_4
+			fixed_ship_secondaries_slot = dp_ship_secondaries_3
+			fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+			front_1_custom_slot = ship_anti_air_3
+			mid_1_custom_slot = ship_deck_space
+			mid_2_custom_slot = dp_ship_secondaries_3
+			rear_1_custom_slot = ship_anti_air_3
+		}
+	}
+	create_equipment_variant = {
+		name = "Stalingrad Class"
+		role_icon_index = 21
+		type = vnr_ship_hull_cruiser_5
+		parent_version = 0
+		name_group = SOV_CITIES_NAVY
+		modules = {
+			fixed_ship_battery_slot = ship_medium_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+			fixed_ship_radar_slot = ship_radar_4
+			fixed_ship_engine_slot = cruiser_ship_engine_5
+			fixed_ship_secondaries_slot = dp_ship_secondaries_4
+			fixed_ship_armor_slot = ship_armor_cruiser_heavy_4
+			fixed_ship_role_slot = ship_hull_cruiser_role_cb
+			fixed_ship_extra_secondaries_slot = ship_high_velocity_shell
+			front_1_custom_slot = ship_anti_air_4
+			front_2_custom_slot = ship_medium_heavy_battery_2
+			mid_1_custom_slot = dp_ship_secondaries_4
+			mid_2_custom_slot = dp_ship_secondaries_4
+			mid_3_custom_slot = ship_anti_air_4
+			rear_1_custom_slot = ship_medium_heavy_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Moskow Class"
+		role_icon_index = 27
+		type = vnr_ship_hull_cruiser_5
+		parent_version = 0
+		name_group = SOV_CITIES_NAVY
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+			fixed_ship_radar_slot = ship_radar_4
+			fixed_ship_engine_slot = cruiser_ship_engine_5
+			fixed_ship_secondaries_slot = dp_ship_secondaries_4
+			fixed_ship_armor_slot = ship_armor_cruiser_4
+			fixed_ship_role_slot = ship_hull_cruiser_role_ca
+			fixed_ship_extra_secondaries_slot = ship_high_velocity_shell
+			front_1_custom_slot = ship_anti_air_4
+			front_2_custom_slot = ship_medium_battery_4
+			mid_1_custom_slot = dp_ship_secondaries_4
+			mid_2_custom_slot = dp_ship_secondaries_4
+			mid_3_custom_slot = ship_anti_air_4
+			rear_1_custom_slot = ship_medium_battery_4
+		}
+	}
+	create_equipment_variant = {
+		name = "Sverdlov Class"
+		role_icon_index = 25
+		type = vnr_ship_hull_cruiser_5
+		parent_version = 0
+		name_group = SOV_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_3
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+			fixed_ship_engine_slot = cruiser_ship_engine_5
+			fixed_ship_armor_slot = ship_armor_cruiser_4
+			fixed_ship_secondaries_slot = dp_ship_secondaries_4
+			front_1_custom_slot = empty
+			front_2_custom_slot = ship_light_medium_battery_4
+			mid_1_custom_slot = ship_anti_air_3
+			mid_2_custom_slot = ship_torpedo_3
+			mid_3_custom_slot = dp_ship_secondaries_4
+			rear_1_custom_slot = ship_light_medium_battery_4
+			rear_2_custom_slot = ship_light_medium_battery_4
+		}
+	}
+	create_equipment_variant = {
+		name = "Object 41/56 Class"
+		role_icon_index = 31
+		type = vnr_ship_hull_light_5
+		parent_version = 0
+		name_group = SOV_ADJECTIVES_NAVY
+		modules = {
+			fixed_ship_battery_slot = dp_light_battery_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_sonar_2
+			fixed_ship_radar_slot = ship_radar_3
+			fixed_ship_engine_slot = light_ship_engine_5
+			fixed_ship_extra_secondaries_slot = ship_bulbous_bow
+			front_1_custom_slot = empty
+			front_2_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_4
+			mid_2_custom_slot = ship_anti_air_4
+			rear_1_custom_slot = ship_depth_charge_4
+			rear_2_custom_slot = dp_light_battery_4
+		}
+	}
+}

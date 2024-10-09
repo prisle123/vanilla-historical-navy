@@ -8,6 +8,9 @@ country_event = {
     hidden = yes
     is_triggered_only = yes
     immediate = {
+		# delete all ships first just in case
+		delete_starting_naval_oob = yes
+		
         add_starting_techs = yes
         makeup_starting_techs = yes
 		# set shipyard output boost

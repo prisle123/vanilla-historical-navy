@@ -59,8 +59,8 @@
  vnr_normal_production: "AI Production Buff: §GNormal§!"
 
  RULE_ALLOW_AI_TECH_AUTO_UNLOCK: "Allow AI Auto Research"
- RULE_ALLOW_AI_TECH_AUTO_UNLOCK_FREE_DESC: "AI will automatically unlock a group of technologies in the run."
- RULE_ALLOW_AI_TECH_AUTO_UNLOCK_BLOCKED_DESC: "AI won't automatically unlock technologies in the run.\n§RThis changes AI's behavior of picking tech, and may also affect its research in other fields.§!"
+ RULE_ALLOW_AI_TECH_AUTO_UNLOCK_FREE_DESC: "AI will automatically unlock a group of naval technologies in the run."
+ RULE_ALLOW_AI_TECH_AUTO_UNLOCK_BLOCKED_DESC: "AI won't automatically unlock naval technologies in the run.\n§RThis changes AI's behavior of picking tech, and may also affect its research in other fields.§!"
 
  RULE_SHIPYARD_OUTPUT_BOOST: "Allow Shipyard Output Boost"
  RULE_OPTION_FREE_AI: "For AI Only"
@@ -73,3 +73,7 @@
 
  join_tactical_data_link: "Access [ROOT.GetFactionName] Naval Tactical Data Link"
  join_tactical_data_link_desc: "A joint tactical data link has been deployed by leading members of our faction. Despite a great chance to improve coordination with our allies, we can still choose to develop our own equivalent of data link system independently.\n§CIf access to allies data link is established, we will be unable to research our own data link system but instantly unlock a slightly inferior bonus with following stats:§!\n§YNaval Coordination:§! §G+10%§!\n§YNavy Org:§! §G+7.5%§!\n§YNavy Visibility:§! §G-7.5%§!"
+
+ RULE_AI_NAVAL_MANAGEMENT: "Enable VNR Naval AI"
+ RULE_AI_NAVAL_MANAGEMENT_FREE_DESC: "§GEnable§! naval AI management of combat designed for each specific major country in vanilla environment."
+ RULE_AI_NAVAL_MANAGEMENT_BLOCKED_DESC: "§RDisable§! naval AI management of combat designed for each specific major country in vanilla environment.\n§YUse AI from base game or other mods you play along with VNR.§!"

@@ -1,0 +1,10 @@
+delete_starting_naval_oob = {
+    every_country = {
+        limit = { has_navy_size = { size > 0 } }
+        destroy_ships = { type = ship_hull_light count = all }
+        destroy_ships = { type = ship_hull_cruiser count = all }
+        destroy_ships = { type = ship_hull_heavy count = all }
+        destroy_ships = { type = ship_hull_carrier count = all }
+        destroy_ships = { type = ship_hull_submarine count = all }
+    }
+}

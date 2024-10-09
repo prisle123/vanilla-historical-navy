@@ -159,3 +159,41 @@ The branch of port facilities aims at accelerating building and repairing speed 
 Auxiliary ship branch is centered around the debate over "range or speed". Speed branch is relatively better since it's one of the six dimensions of ship designs and it offers some exclusive modules like raider cruiser.
 
 As for fuel branch, its research cost is insignificant with little bonus, making it an irrelevant factor in your game.
+
+## Naval Battle ##
+
+### Overview ###
+
+Speaking of the mechanism of naval combat, it's mostly untouched in this mod, so your experience from vanilla still applies here. If you are not familiar with navy, I'd recommend you to read naval sections of HOI4 official wiki which owns a lot of details of basic concepts and advanced formulas of naval combat. [HOI4 wiki](https://hoi4.paradoxwikis.com/Naval_battle)
+
+VNR modifies some parts of naval game to make it more intense and realistic, and the following introduction will only include things changed from vanilla. I will assume you know the basic concepts about naval combat such as screen efficiency, positioning and combat duration, otherwise please refer to the link above first.
+
+### Fleet Composition ###
+
+The question of fleet composition is based on the concept of screen ratio. This part is identical in VNR and vanilla, which is 1:3. This means a capital ship (heavy ships and carriers) needs at least three screen ships (destroyers and light cruisers, basically anything in the first line of combat) to achieve max screen efficiency. Furthermore, carrier has its own version of screen efficiency that requires not only light ships but also heavy ships. This ratio is 1 to 1.
+
+For example, let's say you have 1 carrier, then you need at least 1 battleship and 6 destroyers or light cruisers (3 for carrier, 3 for battleship) to get 100% efficiency for every ship. However, this is only the lowest standard for a fleet, because you can't avoid losses of ships in the combat. As a result, this ratio has to be expanded to allow some redundancy, like 1:1.5:8.
+
+Besides, make sure your fleet has a min speed over 30kn, this is extremely important to strike forces.
+
+### Sea Supremacy ###
+
+One of the major roles that navy plays in the game is securing sea supremacy to create opportunity for a naval invasion. Compared to vanilla, supremacy factor of different missions are changed. Among them, the factor of convoy raiding is greatly nerfed, meaning even though you have twice the ships in convoy raiding, they will lose in securing sea supremacy against a smaller strike force. The best way to gain control of a piece of waters is by naval invasion support or strike force.
+
+Type of ship also affects efficiency in this area. Decent ships are required in the action, that means you can't secure the sea just with submarines.
+
+### Combat Duration ###
+
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 2-3 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship got to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
+
+### Positioning ###
+
+Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:3, you will need more ships to achieve max screen efficiency.
+
+Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around.
+
+### Supply Consumption ###
+
+Ever since the supply system was added in NSB, navy will also be influenced by port facilities. In vanilla, you rarely feel the consequence of running out of supply in naval combat because ships' supply consumption is too low compared to how much a naval base can provide. To begin with, don't confuse supply consumption with fuel consumption, they are different but will cause similar penalties on your fleet. Fuel is only consumed when your fleet is in action, but supply is a static resource that you can't store.
+
+In the mod, supply consumption of ships are greatly increased, especially on capital ships. This has made strategic islands and frontline engineering corps far more important in simulating the Pacific War. Take US as an example, a large fleet making a sortie from the Midway will definitely suffer heavy attrition during maneuvering and combat. Instead, launching attacks from Hawaii or Australia is a wiser choice.

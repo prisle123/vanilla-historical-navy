@@ -20,3 +20,8 @@ expert_ai_style = {
 		tag = USA
 	}
 }
+
+enable_vnr_naval_ai = {
+	has_global_flag = vnr_enabled
+	has_game_rule = { rule = vnr_ai_naval_management option = FREE }
+}
