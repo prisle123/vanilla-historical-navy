@@ -52,6 +52,15 @@ ARG = {
         }
 
     }
+	
+	vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ARG_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+    }
 
     vnr_ship_hull_heavy_1 = {
         pool = {
@@ -1559,6 +1568,28 @@ CHL = {
             }
         }
 
+		pool = {
+			icons = {
+				"gfx/interface/technologies/South_America/CHL_light_cruiser_Chacabuco.png"
+			}
+		}
+
+    }
+	
+	vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHL_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+
+		pool = {
+			icons = {
+				"gfx/interface/technologies/South_America/CHL_light_cruiser_Chacabuco.png"
+			}
+		}
+
     }
 
     vnr_ship_hull_pre_dreadnought = {
@@ -1880,6 +1911,7 @@ ENG = {
         pool = {
             icons = {
                 "gfx/interface/technologies/England/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
             }
         }
 
@@ -1898,6 +1930,7 @@ ENG = {
                 "gfx/interface/technologies/England/ENG_battleship_Admiral.png"
 				GFX_ENG_vnr_ship_hull_heavy_1_medium
 				"gfx/interface/technologies/England/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
             }
         }
 
@@ -1917,6 +1950,7 @@ ENG = {
 				GFX_ENG_vnr_ship_hull_heavy_2_medium
 				"gfx/interface/technologies/England/ENG_battleship_Admiral.png"
 				"gfx/interface/technologies/England/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
             }
         }
 
@@ -1937,6 +1971,7 @@ ENG = {
 				GFX_ENG_vnr_ship_hull_heavy_3_medium
 				"gfx/interface/technologies/England/ENG_battleship_Admiral.png"
 				"gfx/interface/technologies/England/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
             }
         }
 
@@ -1958,6 +1993,7 @@ ENG = {
 				GFX_ENG_vnr_ship_hull_heavy_4_medium
 				"gfx/interface/technologies/England/ENG_battleship_Admiral.png"
 				"gfx/interface/technologies/England/ENG_battleship_Renown.png"
+				"gfx/interface/technologies/England/ENG_battleship_Revenge.png"
             }
         }
 
@@ -4176,6 +4212,7 @@ ITA = {
             icons = {
                 GFX_ITA_vnr_ship_hull_cruiser_1_medium
 				GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
+				"gfx/interface/technologies/Italy/ITA_heavy_cruiser_Garibaldi.png"
             }
         }
 
