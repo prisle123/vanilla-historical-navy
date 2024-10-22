@@ -21,9 +21,9 @@ ideas = {
             visible = { original_tag = USA }
             modifier = {
                 naval_doctrine_cost_factor = -0.05
-                assign_navy_leader_cp_cost = -0.3
+                assign_navy_leader_cp_cost = -3
                 trait_air_controller_xp_gain_factor = 0.25
-                trait_fleet_protector_xp_gain_factor = -0.25
+                trait_fleet_protector_xp_gain_factor = 0.25
             }
             ai_will_do = {
                 factor = 1.5
@@ -69,6 +69,7 @@ ideas = {
         }
         kiel_standard = {
             ledger = navy
+			visible = { original_tag = GER }
             equipment_bonus = {
                 ship_hull_heavy = {
                     instant = yes
@@ -130,7 +131,7 @@ ideas = {
             ledger = navy
             modifier = {
                 navy_org_factor = 0.05
-                navy_morale_factor = 0.05
+                naval_morale_factor = 0.05
             }
             ai_will_do = {
                 factor = 1
@@ -218,7 +219,10 @@ ideas = {
         recovering_from_naval_race = {  # saved for KR/KX
             ledger = navy
             available = {
-                NOT = { has_global_flag = vnr_enabled }
+				custom_trigger_tooltip = {
+					tooltip = recovering_from_naval_race_tt
+					NOT = { has_global_flag = vnr_enabled }
+				}
             }
             modifier = {
                 ship_hull_carrier_design_cost_factor = 0.2
