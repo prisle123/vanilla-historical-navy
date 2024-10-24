@@ -21,7 +21,7 @@ ideas = {
             visible = { original_tag = USA }
             modifier = {
                 naval_doctrine_cost_factor = -0.05
-                assign_navy_leader_cp_cost = -3
+                navy_advisor_cost_factor = -0.33
                 trait_air_controller_xp_gain_factor = 0.25
                 trait_fleet_protector_xp_gain_factor = 0.25
             }
@@ -61,7 +61,7 @@ ideas = {
                 bc_tech = 0.05
             }
             modifier = {
-                ship_hull_heavy_design_cost_factor = 0.4
+                ship_hull_heavy_design_cost_factor = 0.5
             }
             ai_will_do = {
                 factor = 0
@@ -192,8 +192,8 @@ ideas = {
             ledger = navy
             modifier = {
                 political_power_factor = 0.05
-                navy_advisor_cost_factor = -0.25
-                navy_leader_cost_factor = -0.25
+                navy_advisor_cost_factor = 0.25
+                navy_leader_cost_factor = 0.25
                 navy_intel_to_others = 20
                 experience_gain_navy_factor = -0.15
             }
