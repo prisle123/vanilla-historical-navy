@@ -1,0 +1,9 @@
+equipments = {
+    ocean_liner = {
+        year = 1910
+        archetype = convoy
+        priority = 10
+
+        build_cost_ic = 2500
+    }
+}

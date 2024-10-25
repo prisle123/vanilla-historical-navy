@@ -338,4 +338,51 @@ naval_develop_category = {
 			factor = 50
 		}
 	}
+
+	convert_civilian_ship_at_war = {
+		icon = GFX_decision_generic_construction
+		visible = {
+			has_tech = early_ship_hull_carrier
+		}
+		available = {
+			has_equipment = { ocean_liner > 0 }
+			has_war = yes
+		}
+		cancel_trigger = {
+			has_equipment = { ocean_liner < 1 }
+		}
+		days_remove = 180
+		modifier = {
+            civilian_factory_use = 5
+        }
+		cost = 25
+		remove_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = converted_carrier_design_added }
+					hidden_effect = {
+						set_country_flag = converted_carrier_design_added
+						create_equipment_variant = {
+    					    name = "Converted Carrier"
+							role_icon_index = 9
+    					    type = vnr_ship_hull_carrier_conversion_ca
+    					    modules = {
+    					        fixed_ship_deck_slot_1 = ship_deck_space
+    					        fixed_ship_deck_slot_2 = ship_deck_space
+    					        fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_engine_slot = carrier_ship_engine_1
+								fixed_ship_secondaries_slot = empty
+    					    }
+    					}
+					}
+				}
+			}
+
+			custom_effect_tooltip = convert_civilian_ship_at_war_tt
+			hidden_effect = {
+				add_equipment_to_stockpile = { type = ocean_liner amount = -1 }
+				create_ship = { type = vnr_ship_hull_carrier_conversion_ca equipment_variant = "Converted Carrier" creator = ROOT }
+			}
+		}
+	}
 }
