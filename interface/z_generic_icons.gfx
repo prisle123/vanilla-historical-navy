@@ -329,4 +329,15 @@ spriteTypes = {
 				name = "GFX_vnr_ship_hull_space_yamato_medium"
 				texturefile = "gfx/interface/technologies/Generic/generic_space_yamato.png"
 			}
+
+	# convoy
+	
+			spriteType = {
+				name = "GFX_convoy_medium"
+				texturefile = "gfx/interface/technologies/Generic/convoy.png"
+			}
+			spriteType = {
+				name = "GFX_ocean_liner_medium"
+				texturefile = "gfx/interface/technologies/Generic/ocean_liner.png"
+			}
 }
