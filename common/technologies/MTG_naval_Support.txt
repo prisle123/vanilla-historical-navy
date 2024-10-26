@@ -2685,6 +2685,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		enable_equipments = {
+			ocean_liner
+		}
+
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
+
 		research_cost = 0.5
 		start_year = 1922
 

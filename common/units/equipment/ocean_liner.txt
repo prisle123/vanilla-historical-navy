@@ -1,0 +1,15 @@
+equipments = {
+    ocean_liner = {
+        year = 1910
+
+		archetype = floating_harbor_equipment
+
+		active = no
+		priority = 1
+
+		build_cost_ic = 1500
+		resources = {
+			steel = 1
+		}
+    }
+}
