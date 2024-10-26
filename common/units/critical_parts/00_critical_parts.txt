@@ -154,12 +154,8 @@ critical_parts = {
 		modifier = {
 			navy_org_factor = -0.3
 		}
-        chance = 0.8
         org_damage_multiplier = 1.25
         str_damage_multiplier = 1.25
-		base_damage_instance = 1
-		damage_instance_per_added_module = 1
-		max_damage_instance = 3
     }
 	damaged_armored_flight_deck = {
         icon = "GFX_default_critical_damage_icons"
@@ -170,12 +166,9 @@ critical_parts = {
 		modifier = {
 			navy_org_factor = -0.15
 		}
-        chance = 0.4
+        chance = 0.75
         org_damage_multiplier = 1
         str_damage_multiplier = 1
-		base_damage_instance = 1
-		damage_instance_per_added_module = 1
-		max_damage_instance = 6
     }
     gas_leakage = {
         icon = "GFX_default_critical_damage_icons"
