@@ -439,7 +439,7 @@ naval_unit_role_ratios_GER_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 500
+		value = 800
 	}
 
 	ai_strategy = {
@@ -475,7 +475,7 @@ naval_unit_role_ratios_GER_atwar_many_shipyard = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 180
+		value = 1000
 	}
 
 	ai_strategy = {
