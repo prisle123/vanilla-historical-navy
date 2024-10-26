@@ -343,6 +343,7 @@ naval_develop_category = {
 		icon = GFX_decision_generic_construction
 		visible = {
 			has_tech = early_ship_hull_carrier
+			num_of_naval_factories > 20
 		}
 		available = {
 			has_war = yes
@@ -360,7 +361,7 @@ naval_develop_category = {
 		days_remove = 90
 		days_re_enable = 14
 		cost = 25
-		modifer = {
+		modifier = {
 			civilian_factory_use = 5
 		}
 
@@ -394,6 +395,18 @@ naval_develop_category = {
 			hidden_effect = {
 				add_equipment_to_stockpile = { type = convoy amount = 1 }
 				create_ship = { type = vnr_ship_hull_escort_carrier equipment_variant = "Converted Carrier" creator = ROOT }
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				tag = JAP
+				add = 10
+			}
+			modifier = {
+				tag = USA
+				add = 50
 			}
 		}
 	}
