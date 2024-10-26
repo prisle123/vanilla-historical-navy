@@ -338,4 +338,63 @@ naval_develop_category = {
 			factor = 50
 		}
 	}
+
+	wartime_carrier_conversion = {
+		icon = GFX_decision_generic_construction
+		visible = {
+			has_tech = early_ship_hull_carrier
+		}
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				has_navy_size = {
+					type = carrier
+					size > 5
+				}
+			}
+			stockpile_ratio = { archetype = convoy ratio > 0 }
+		}
+		cancel_trigger = {
+			stockpile_ratio = { archetype = convoy ratio < 1 }
+		}
+		days_remove = 90
+		days_re_enable = 14
+		cost = 25
+		modifer = {
+			civilian_factory_use = 5
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_country_flag = converted_carrier_design_added } }
+					set_country_flag = converted_carrier_design_added
+					set_technology = {
+						escort_carriers_ship = 1
+						popup = no
+					}
+					create_equipment_variant = {
+    				    name = "Converted Carrier"
+						role_icon_index = 67
+    				    type = vnr_ship_hull_escort_carrier
+    				    modules = {
+    				        fixed_ship_deck_slot_1 = ship_deck_space_small
+    				        fixed_ship_deck_slot_2 = ship_deck_space_small
+    				        fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_engine_slot = civilian_ship_engine_1
+							fixed_ship_secondaries_slot = empty
+							fixed_ship_extra_secondaries_slot = carrier_civilian_material
+    				    }
+    				}
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = wartime_carrier_conversion_tt
+			hidden_effect = {
+				add_equipment_to_stockpile = { type = convoy amount = 1 }
+				create_ship = { type = vnr_ship_hull_escort_carrier equipment_variant = "Converted Carrier" creator = ROOT }
+			}
+		}
+	}
 }
