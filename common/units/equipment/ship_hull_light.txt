@@ -418,6 +418,7 @@ equipments = {
 				allowed_module_categories = { dd_role dd_role_missile }
 			}
 			fixed_ship_extra_secondaries_slot = inherit
+			fixed_ship_extra_missile_slot = fixed_ship_extra_secondaries_slot
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
