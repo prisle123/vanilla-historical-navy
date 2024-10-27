@@ -353,10 +353,10 @@ naval_develop_category = {
 					size > 5
 				}
 			}
-			stockpile_ratio = { archetype = convoy ratio > 0 }
+			has_equipment = { convoy > 0 }
 		}
 		cancel_trigger = {
-			stockpile_ratio = { archetype = convoy ratio < 1 }
+			has_equipment = { convoy < 1 }
 		}
 		days_remove = 90
 		days_re_enable = 14
