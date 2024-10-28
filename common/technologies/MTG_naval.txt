@@ -5510,6 +5510,18 @@ technologies = {
 			always = no
 		}
 	}
+	merchant_carrier = {
+		enable_equipments = {
+			vnr_ship_hull_merchant_carrier
+		}
+
+		research_cost = 1
+		start_year = 1940
+
+		allow = {
+			always = no
+		}
+	}
 	cruiser_submarines = {
 
 		enable_equipments = {

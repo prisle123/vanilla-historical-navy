@@ -339,14 +339,14 @@ naval_develop_category = {
 		}
 	}
 
-	wartime_carrier_conversion = {
+	wartime_convoy_conversion = {
 		icon = GFX_decision_generic_construction
 		visible = {
 			has_tech = early_ship_hull_carrier
-			num_of_naval_factories > 20
+			has_war = yes
+			num_of_naval_factories > 15
 		}
 		available = {
-			has_war = yes
 			any_enemy_country = {
 				has_navy_size = {
 					type = carrier
@@ -358,6 +358,67 @@ naval_develop_category = {
 		cancel_trigger = {
 			has_equipment = { convoy < 1 }
 		}
+		days_remove = 60
+		days_re_enable = 28
+		cost = 15
+		modifier = {
+			civilian_factory_use = 2
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_country_flag = merchant_carrier_design_added } }
+					set_country_flag = merchant_carrier_design_added
+					set_technology = {
+						merchant_carrier = 1
+						popup = no
+					}
+					create_equipment_variant = {
+    				    name = "Converted Merchant Carrier"
+						role_icon_index = 67
+    				    type = vnr_ship_hull_merchant_carrier
+    				    modules = {
+    				        fixed_ship_deck_slot_1 = ship_deck_space_small
+    				        fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_engine_slot = civilian_ship_engine_1
+    				    }
+    				}
+				}
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = wartime_carrier_conversion_tt_1
+			hidden_effect = {
+				add_equipment_to_stockpile = { type = convoy amount = -1 }
+				create_ship = { type = vnr_ship_hull_merchant_carrier equipment_variant = "Converted Merchant Carrier" creator = ROOT }
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	wartime_liner_conversion = {
+		icon = GFX_decision_generic_construction
+		visible = {
+			has_tech = early_ship_hull_carrier
+			has_war = yes
+			num_of_naval_factories > 20
+		}
+		available = {
+			any_enemy_country = {
+				has_navy_size = {
+					type = carrier
+					size > 5
+				}
+			}
+			has_equipment = { ocean_liner_equipment > 0 }
+		}
+		cancel_trigger = {
+			has_equipment = { ocean_liner_equipment < 1 }
+		}
 		days_remove = 90
 		days_re_enable = 14
 		cost = 25
@@ -368,14 +429,14 @@ naval_develop_category = {
 		complete_effect = {
 			hidden_effect = {
 				if = {
-					limit = { NOT = { has_country_flag = converted_carrier_design_added } }
-					set_country_flag = converted_carrier_design_added
+					limit = { NOT = { has_country_flag = escort_carrier_design_added } }
+					set_country_flag = escort_carrier_design_added
 					set_technology = {
 						escort_carriers_ship = 1
 						popup = no
 					}
 					create_equipment_variant = {
-    				    name = "Converted Carrier"
+    				    name = "Converted Escort Carrier"
 						role_icon_index = 67
     				    type = vnr_ship_hull_escort_carrier
     				    modules = {
@@ -384,30 +445,21 @@ naval_develop_category = {
     				        fixed_ship_anti_air_slot = ship_anti_air_1
 							fixed_ship_engine_slot = civilian_ship_engine_1
 							fixed_ship_secondaries_slot = empty
-							fixed_ship_extra_secondaries_slot = carrier_civilian_material
     				    }
     				}
 				}
 			}
 		}
 		remove_effect = {
-			custom_effect_tooltip = wartime_carrier_conversion_tt
+			custom_effect_tooltip = wartime_carrier_conversion_tt_2
 			hidden_effect = {
-				add_equipment_to_stockpile = { type = convoy amount = 1 }
-				create_ship = { type = vnr_ship_hull_escort_carrier equipment_variant = "Converted Carrier" creator = ROOT }
+				add_equipment_to_stockpile = { type = ocean_liner_equipment amount = -1 }
+				create_ship = { type = vnr_ship_hull_escort_carrier equipment_variant = "Converted Escort Carrier" creator = ROOT }
 			}
 		}
 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				tag = JAP
-				add = 10
-			}
-			modifier = {
-				tag = USA
-				add = 50
-			}
+			factor = 0
 		}
 	}
 }

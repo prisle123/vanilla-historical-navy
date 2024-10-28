@@ -17,9 +17,12 @@
  gen_naval_research_budget: "Increase Naval R&D Budget"
  gen_naval_research_budget_desc: "We need to invest more money in improving our naval technologies."
  vnr_research_budget: "Naval R&D Investment"
- wartime_carrier_conversion: "Wartime Carrier Conversion"
- wartime_carrier_conversion_desc: "We can buy a ship from private owners and convert it to aircraft carrier."
- wartime_carrier_conversion_tt: "§GAn aircraft carrier will be converted in 3 months.§!"
+ wartime_convoy_conversion: "Merchant Carrier Conversion"
+ wartime_convoy_conversion_desc: "We can buy a merchantman from private owners and convert it to aircraft carrier."
+ wartime_carrier_conversion_tt_1: "§GAn aircraft carrier will be converted in 2 months.§!"
+ wartime_liner_conversion: "Escort Carrier Conversion"
+ wartime_liner_conversion_desc: "We can buy a passenger liner from private owners and convert it to aircraft carrier."
+ wartime_carrier_conversion_tt_2: "§GAn aircraft carrier will be converted in 3 months.§!"
 
  # officer corps spirits
  etajima_naval_academy: "Naval Academy Etajima"
