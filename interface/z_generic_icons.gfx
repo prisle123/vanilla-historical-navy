@@ -340,4 +340,8 @@ spriteTypes = {
 				name = "GFX_ocean_liner_medium"
 				texturefile = "gfx/interface/technologies/Generic/ocean_liner.png"
 			}
+			spriteType = {
+				name = "GFX_vnr_ship_hull_merchant_carrier_medium"
+				texturefile = "gfx/interface/technologies/Generic/generic_merchant_carrier.png"
+			}
 }
