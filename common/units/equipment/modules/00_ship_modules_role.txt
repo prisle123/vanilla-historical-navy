@@ -298,5 +298,8 @@ equipment_modules = {
 			naval_speed = -0.2
 			build_cost_ic = -0.2
 		}
+		forbid_module_categories = {
+			ship_cruiser_heavy_armor
+		}
 	}
 }
