@@ -177,7 +177,7 @@ ideas = {
         merchant_fleet = {
             ledger = navy
             available = {
-                stockpile_ratio = { archetype = convoy ratio > 200 }
+                has_equipment = { convoy > 199 }
             }
             modifier = {
                 convoy_retreat_speed = 0.3
