@@ -1,0 +1,35 @@
+equipments = {
+	ocean_liner_equipment = {
+		year = 1910
+
+		is_archetype = yes
+		is_buildable = no
+		type = floating_harbor
+		
+		group_by = archetype
+		sprite = floating_harbor
+
+		interface_category = interface_category_other_ships
+
+		build_cost_ic = 1500
+		resources = {
+			steel = 1
+		}
+
+		can_be_lend_leased = {
+			always = no
+		}
+
+		can_be_produced = {
+			has_dlc = "No Step Back"
+		}
+	}
+    ocean_liner = {
+        year = 1910
+
+		archetype = ocean_liner_equipment
+
+		active = no
+		priority = 1
+    }
+}

@@ -520,10 +520,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine civilian_ship_engine }
 			}
-			fixed_ship_carrier_miscellaneous_slot_1 = { 
-				required = no
-				allowed_module_categories = { carrier_unit }
-			}
+			# fixed_ship_carrier_miscellaneous_slot_1 = { 
+			# 	required = no
+			# 	allowed_module_categories = { carrier_unit }
+			# }
 			fixed_ship_carrier_miscellaneous_slot_2 = { 
 				required = no
 				allowed_module_categories = { carrier_miscellaneous }
@@ -552,6 +552,51 @@ equipments = {
 			steel = 1
 		}
 		manpower = 700
+	}
+
+	vnr_ship_hull_merchant_carrier = {
+		derived_variant_name = carrier_equipment_cve
+		year = 1941
+		archetype = ship_hull_carrier
+		priority = 1000
+		can_convert_from = { vnr_ship_hull_merchant_carrier }
+		module_slots = {
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { ship_deck_space_small }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { civilian_ship_engine }
+			}
+			fixed_ship_flight_deck_slot = inherit
+		}
+
+		default_modules = {
+			fixed_ship_deck_slot_1 = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = civilian_ship_engine_1
+		}
+		naval_range = 2000
+
+		max_strength = 35
+		fuel_consumption = 23
+
+		reliability = 0.5
+		naval_speed = 18
+		sub_detection = 4
+		surface_visibility = 16
+		build_cost_ic = 180
+		resources = {
+			steel = 1
+		}
+		manpower = 400
 	}
 
 	vnr_ship_hull_super_carrier = {

@@ -56,3 +56,20 @@ add_article_xix = {
 		}
 	}
 }
+
+add_starting_navy_spirits = {
+	JAP = {
+		add_ideas = etajima_naval_academy
+		add_ideas = inflexible_headquarter
+	}
+	GER = {
+		add_ideas = kiel_standard
+	}
+	USA = {
+		add_ideas = annapolis_naval_academy
+		add_ideas = panama_standard
+	}
+	ENG = {
+		add_ideas = dartmouth_naval_academy
+	}
+}

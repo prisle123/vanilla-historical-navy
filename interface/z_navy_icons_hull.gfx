@@ -2465,6 +2465,10 @@ spriteTypes = {
         		name = "GFX_USA_vnr_ship_hull_cruiser_6_capital_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_heavy_cruiser6.png"
         	}
+			spriteType = {
+        		name = "GFX_USA_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_cruiser_coastal_defense_ship.png"
+        	}
         	spriteType = {
         		name = "GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_panzerschiff.png"
