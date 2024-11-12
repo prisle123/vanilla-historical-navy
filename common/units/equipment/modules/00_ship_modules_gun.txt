@@ -432,7 +432,7 @@ equipment_modules = {
 			lg_attack = 3
 			build_cost_ic = 600
 			surface_visibility = 0.5
-			max_strength = 7.5
+			max_strength = 19.5
 			armor_value = 0.2
 		}
 		multiply_stats = {
@@ -458,7 +458,7 @@ equipment_modules = {
 			lg_attack = 4.5
 			build_cost_ic = 700
 			surface_visibility = 0.5
-			max_strength = 9
+			max_strength = 23.5
 			armor_value = 0.2
 		}
 		multiply_stats = {
@@ -484,7 +484,7 @@ equipment_modules = {
 			lg_attack = 6.5
 			build_cost_ic = 800
 			surface_visibility = 0.5
-			max_strength = 10.5
+			max_strength = 27.5
 			armor_value = 0.2
 		}
 		multiply_stats = {
@@ -510,7 +510,7 @@ equipment_modules = {
 			lg_attack = 8.5
 			build_cost_ic = 900
 			surface_visibility = 0.5
-			max_strength = 12
+			max_strength = 31
 			armor_value = 0.2
 		}
 		multiply_stats = {
@@ -535,7 +535,7 @@ equipment_modules = {
 			lg_attack = 2
 			build_cost_ic = 450
 			surface_visibility = 0.5
-			max_strength = 5
+			max_strength = 15.5
 			armor_value = 0.15
 		}
 		multiply_stats = {
@@ -561,7 +561,7 @@ equipment_modules = {
 			lg_attack = 3.5
 			build_cost_ic = 550
 			surface_visibility = 0.5
-			max_strength = 6.5
+			max_strength = 19
 			armor_value = 0.15
 		}
 		multiply_stats = {
@@ -587,7 +587,7 @@ equipment_modules = {
 			lg_attack = 4
 			build_cost_ic = 650
 			surface_visibility = 0.5
-			max_strength = 8
+			max_strength = 22
 			armor_value = 0.15
 		}
 		multiply_stats = {
@@ -613,7 +613,7 @@ equipment_modules = {
 			lg_attack = 5.5
 			build_cost_ic = 750
 			surface_visibility = 0.5
-			max_strength = 9.5
+			max_strength = 25
 			armor_value = 0.15
 		}
 		multiply_stats = {
@@ -638,7 +638,7 @@ equipment_modules = {
 			lg_attack = 1.5
 			build_cost_ic = 300
 			surface_visibility = 0.4
-			max_strength = 4
+			max_strength = 12
 			armor_value = 0.1
 		}
 		multiply_stats = {
@@ -663,7 +663,7 @@ equipment_modules = {
 			lg_attack = 2.5
 			build_cost_ic = 400
 			surface_visibility = 0.4
-			max_strength = 5
+			max_strength = 14
 			armor_value = 0.1
 		}
 		multiply_stats = {
@@ -688,7 +688,7 @@ equipment_modules = {
 			lg_attack = 3.5
 			build_cost_ic = 500
 			surface_visibility = 0.4
-			max_strength = 6
+			max_strength = 16.5
 			armor_value = 0.1
 		}
 		multiply_stats = {
@@ -713,7 +713,7 @@ equipment_modules = {
 			lg_attack = 4.5
 			build_cost_ic = 600
 			surface_visibility = 0.4
-			max_strength = 7
+			max_strength = 18.5
 			armor_value = 0.1
 		}
 		multiply_stats = {
@@ -740,11 +740,11 @@ equipment_modules = {
 			lg_attack = 4
 			build_cost_ic = 750
 			surface_visibility = 1
-			max_strength = 15
+			max_strength = 13
 			armor_value = 0.2
 		}
 		multiply_stats = {
-			naval_speed = -0.06
+			naval_speed = -0.015
 		}
 		add_average_stats = {
 			hg_armor_piercing = 32
@@ -772,11 +772,11 @@ equipment_modules = {
 			lg_attack = 6
 			build_cost_ic = 850
 			surface_visibility = 1
-			max_strength = 18
+			max_strength = 16
 			armor_value = 0.2
 		}
 		multiply_stats = {
-			naval_speed = -0.07
+			naval_speed = -0.02
 		}
 		add_average_stats = {
 			hg_armor_piercing = 36
@@ -805,11 +805,11 @@ equipment_modules = {
 			lg_attack = 5
 			build_cost_ic = 900
 			surface_visibility = 1
-			max_strength = 16
+			max_strength = 14
 			armor_value = 0.3
 		}
 		multiply_stats = {
-			naval_speed = -0.08
+			naval_speed = -0.02
 		}
 		add_average_stats = {
 			hg_armor_piercing = 32
@@ -837,11 +837,11 @@ equipment_modules = {
 			lg_attack = 7
 			build_cost_ic = 1000
 			surface_visibility = 1
-			max_strength = 20
+			max_strength = 18
 			armor_value = 0.3
 		}
 		multiply_stats = {
-			naval_speed = -0.1
+			naval_speed = -0.025
 		}
 		add_average_stats = {
 			hg_armor_piercing = 36
@@ -870,7 +870,7 @@ equipment_modules = {
 			lg_attack = 4
 			build_cost_ic = 350
 			naval_light_gun_hit_chance_factor = 0.005
-			max_strength = 4
+			max_strength = 14
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -893,7 +893,7 @@ equipment_modules = {
 			lg_attack = 5.5
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.006
-			max_strength = 5.5
+			max_strength = 19
 		}
 		multiply_stats = {
 			naval_speed = -0.04
@@ -916,7 +916,7 @@ equipment_modules = {
 			lg_attack = 8
 			build_cost_ic = 450
 			naval_light_gun_hit_chance_factor = 0.007
-			max_strength = 7
+			max_strength = 24.5
 		}
 		multiply_stats = {
 			naval_speed = -0.05
@@ -938,7 +938,7 @@ equipment_modules = {
 			lg_attack = 11
 			build_cost_ic = 500
 			naval_light_gun_hit_chance_factor = 0.008
-			max_strength = 8.5
+			max_strength = 30
 		}
 		multiply_stats = {
 			naval_speed = -0.06
@@ -963,7 +963,7 @@ equipment_modules = {
 			lg_attack = 2.5
 			build_cost_ic = 250
 			naval_light_gun_hit_chance_factor = 0.005
-			max_strength = 3
+			max_strength = 11
 		}
 		multiply_stats = {
 			naval_speed = -0.015
@@ -986,7 +986,7 @@ equipment_modules = {
 			lg_attack = 4
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.006
-			max_strength = 4.5
+			max_strength = 15
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -1009,7 +1009,7 @@ equipment_modules = {
 			lg_attack = 5
 			build_cost_ic = 375
 			naval_light_gun_hit_chance_factor = 0.007
-			max_strength = 6
+			max_strength = 20
 		}
 		multiply_stats = {
 			naval_speed = -0.045
@@ -1031,7 +1031,7 @@ equipment_modules = {
 			lg_attack = 7
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.008
-			max_strength = 7.5
+			max_strength = 24
 		}
 		multiply_stats = {
 			naval_speed = -0.055
@@ -1056,7 +1056,7 @@ equipment_modules = {
 			lg_attack = 2
 			build_cost_ic = 225
 			naval_light_gun_hit_chance_factor = 0.001
-			max_strength = 2
+			max_strength = 8.5
 		}
 		multiply_stats = {
 			naval_speed = -0.015
@@ -1079,7 +1079,7 @@ equipment_modules = {
 			lg_attack = 3
 			build_cost_ic = 250
 			naval_light_gun_hit_chance_factor = 0.002
-			max_strength = 3.5
+			max_strength = 11.5
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -1102,7 +1102,7 @@ equipment_modules = {
 			lg_attack = 4
 			build_cost_ic = 275
 			naval_light_gun_hit_chance_factor = 0.003
-			max_strength = 5
+			max_strength = 15
 		}
 		multiply_stats = {
 			naval_speed = -0.045
@@ -1124,7 +1124,7 @@ equipment_modules = {
 			lg_attack = 5.5
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.004
-			max_strength = 6.5
+			max_strength = 18
 		}
 		multiply_stats = {
 			naval_speed = -0.055
@@ -1148,7 +1148,7 @@ equipment_modules = {
 			anti_air_attack = 2
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.007
-			max_strength = 8
+			max_strength = 28
 		}
 
 		multiply_stats = {
@@ -2193,7 +2193,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = 0.05
 			naval_light_gun_hit_chance_factor = 0.05
 			reliability = -0.15
-			max_strength = 15
+			max_strength = 35
 		}
 		add_average_stats = {
 			hg_armor_piercing = 65
@@ -2213,6 +2213,7 @@ equipment_modules = {
 			hg_attack = 25
 			naval_heavy_gun_hit_chance_factor = -0.8
 			reliability = -0.1
+			max_strength = 28
 		}
 		multiply_stats = {
 			naval_speed = -0.1
