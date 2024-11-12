@@ -312,4 +312,15 @@ equipment_modules = {
 			ship_cruiser_heavy_armor
 		}
 	}
+	ship_hull_cruiser_role_mo = {
+		category = cds_role
+		add_equipment_type = capital_ship
+		add_stats = {
+			max_strength = 80
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1
+			naval_range = 0.5
+		}
+	}
 }
