@@ -125,4 +125,21 @@ navy_rework_category = {
             factor = 1
         }
     }
+
+    add_km_never_built_blueprints = {
+        allowed = {
+            tag = GER
+        }
+        available = {
+            num_of_naval_factories > 0
+        }
+        cost = 50
+        fire_only_once = yes
+        complete_effect = {
+            km_never_built_blueprints = yes
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
 }

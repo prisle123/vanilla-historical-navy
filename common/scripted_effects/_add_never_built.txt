@@ -633,3 +633,254 @@ KuK_never_built_blueprints = {
 		obsolete = yes
 	}
 }
+
+km_never_built_blueprints = {
+	create_equipment_variant = {
+		name = "Graudenz/Cöln/Königsberg Class"
+		role_icon_index = 24
+		type = vnr_ship_hull_cruiser_1
+		name_group = GER_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1_single
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_light_medium_battery_1_single
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			mid_3_custom_slot = ship_light_medium_battery_1_single
+			rear_1_custom_slot = ship_light_medium_battery_1_single
+			rear_2_custom_slot = ship_light_medium_battery_1_single
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Kaiser Class"  
+		role_icon_index = 4
+		icon = "gfx/interface/technologies/Fun/GER_pre_dreadnought.png"
+		type = vnr_ship_hull_heavy_1
+		name_group = GER_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_heavy_battery_small_1
+			mid_3_custom_slot = ship_heavy_battery_small_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+			rear_2_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "König Class"  
+		role_icon_index = 4
+		icon = "gfx/interface/technologies/Fun/GER_pre_dreadnought.png"
+		type = vnr_ship_hull_heavy_1
+		name_group = GER_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_small_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			mid_3_custom_slot = ship_heavy_battery_small_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+			rear_2_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Bayern Class"
+		role_icon_index = 4
+		type = vnr_ship_hull_heavy_1
+		name_group = GER_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_big_1
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+			front_1_custom_slot = ship_heavy_battery_big_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_big_1
+			rear_2_custom_slot = ship_heavy_battery_big_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Von Der Tann Class" # decommissioned
+		role_icon_index = 16
+		icon = "gfx/interface/technologies/Fun/GER_battleship_Von.png"
+		type = vnr_ship_hull_heavy_1
+		name_group = GER_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_heavy_battery_small_1
+			mid_2_custom_slot = ship_heavy_battery_small_1					# strange turret layout means unable to launch seaplane
+			rear_1_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Moltke Class" # Placed in reserve / close to decommissioning
+		role_icon_index = 16
+		icon = "gfx/interface/technologies/Fun/GER_battleship_Moltke.png"
+		type = vnr_ship_hull_heavy_1
+		name_group = GER_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_heavy_battery_small_1					# strange turret layout means unable to launch seaplane
+			mid_3_custom_slot = ship_heavy_battery_small_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+			rear_2_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Seydlitz Class" # Placed in reserve / close to decommissioning
+		role_icon_index = 16
+		icon = "gfx/interface/technologies/Fun/GER_battleship_Moltke.png"
+		type = vnr_ship_hull_heavy_1
+		name_group = GER_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_heavy_battery_small_1					# strange turret layout means unable to launch seaplane
+			mid_3_custom_slot = ship_heavy_battery_small_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+			rear_2_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Derfflinger Class"  # Refitted
+		role_icon_index = 16
+		icon = "gfx/interface/technologies/Fun/GER_battleship_Derfflinger.png"
+		type = vnr_ship_hull_heavy_1
+		name_group = GER_BC_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_small_1
+			fixed_ship_anti_air_slot = ship_anti_air_1_h
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			fixed_ship_torpedo_defense_system_slot = torpedo_bulge
+			front_1_custom_slot = ship_heavy_battery_small_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1 	# Capable of launching a seaplane from turret X
+			mid_3_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_heavy_battery_small_1
+			rear_2_custom_slot = ship_heavy_battery_small_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "B97 Class"
+		icon = "gfx/interface/technologies/Fun/GER_destroyer_G7.png"
+		role_icon_index = 32
+		type = vnr_ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+			rear_2_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "V25 Class"
+		icon = "gfx/interface/technologies/Fun/GER_destroyer_V25.png"
+		role_icon_index = 30
+		type = vnr_ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "V1/G7 Class"
+		role_icon_index = 30
+		icon = "gfx/interface/technologies/Fun/GER_destroyer_G7.png"
+		type = vnr_ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_light_battery_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "S113 Class"
+		role_icon_index = 32
+		type = vnr_ship_hull_light_1
+		name_group = GER_DD_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			front_1_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_light_battery_2
+		}
+		obsolete = yes
+	}
+}
