@@ -1263,4 +1263,15 @@ equipment_modules = {
 			reliability = -0.05
 		}
 	}
+	sub_nuclear_torpedo = {
+		category = submarine_miscellaneous
+		add_stats = {
+			torpedo_attack = 50
+			naval_torpedo_hit_chance_factor = 0.015
+			reliability = -0.4
+		}
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+	}
 }
