@@ -843,6 +843,38 @@ equipment_modules = {
 		}
 		manpower = 100
 	}
+	sub_airplane_launcher_1 = {
+		category = sub_airplane_launcher
+		gfx = ship_airplane_launcher_1
+		
+		add_stats = {
+			surface_detection = 4
+			naval_torpedo_hit_chance_factor = 0.01
+			build_cost_ic = 150
+		}
+		multiply_stats = {
+			naval_speed = -0.003
+		}
+	}
+	sub_airplane_launcher_2 = {
+		category = sub_airplane_launcher
+		gfx = ship_airplane_launcher_2
+		parent = sub_airplane_launcher_1
+		add_stats = {
+			surface_detection = 7
+			naval_torpedo_hit_chance_factor = 0.02
+			hg_attack = 2
+			lg_attack = 1
+			build_cost_ic = 250
+		}
+		can_convert_from = {
+			module_category = sub_airplane_launcher
+			convert_cost_ic = 80
+		}
+		multiply_stats = {
+			naval_speed = -0.004
+		}
+	}
 
 
 #################
