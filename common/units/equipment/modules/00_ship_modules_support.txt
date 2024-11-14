@@ -405,6 +405,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			sub_visibility = 0.05
 			naval_speed = -0.01			
 		}
 		
@@ -428,6 +429,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			sub_visibility = 0.035
 			naval_speed = -0.02			
 		}
 		
@@ -455,6 +457,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			sub_visibility = 0.02
 			naval_speed = -0.03			
 		}
 
@@ -479,6 +482,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			sub_visibility = 0.01
 			naval_speed = -0.04			
 		}
 
@@ -748,6 +752,7 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 50
+			reliability = -0.05
 		}
 	}
 	ship_sub_snorkel_2 = {
@@ -761,6 +766,7 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 70
+			reliability = -0.025
 		}
 
 		can_convert_from = {

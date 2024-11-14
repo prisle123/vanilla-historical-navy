@@ -763,7 +763,6 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			max_strength = 0.05
-			sub_visibility = -0.05
 		}
 		can_convert_from = {
 			module_category = pressure_hull
@@ -779,7 +778,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			max_strength = 0.1
-			sub_visibility = -0.075
+			sub_visibility = -0.025
 		}
 
 		can_convert_from = {
@@ -796,7 +795,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			max_strength = 0.15
-			sub_visibility = -0.1
+			sub_visibility = -0.05
 		}
 		can_convert_from = {
 			module_category = pressure_hull
@@ -812,7 +811,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			max_strength = 0.2
-			sub_visibility = -0.125
+			sub_visibility = -0.075
 		}
 		can_convert_from = {
 			module_category = pressure_hull
