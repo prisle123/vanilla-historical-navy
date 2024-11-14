@@ -851,7 +851,6 @@ equipment_modules = {
 	}
 	sub_airplane_launcher_1 = {
 		category = sub_airplane_launcher
-		gfx = ship_airplane_launcher_1
 		
 		add_stats = {
 			surface_detection = 4
@@ -864,7 +863,6 @@ equipment_modules = {
 	}
 	sub_airplane_launcher_2 = {
 		category = sub_airplane_launcher
-		gfx = ship_airplane_launcher_2
 		parent = sub_airplane_launcher_1
 		add_stats = {
 			surface_detection = 7
