@@ -1135,6 +1135,10 @@ technologies = {
 
 		start_year = 1921
 
+		allow = {
+			always = no
+		}
+
 		path = {
 			leads_to_tech = experimental_super_heavy_battery
 			research_cost_coeff = 1
@@ -2684,6 +2688,10 @@ technologies = {
 			leads_to_tech = naval_combat_support
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = sp_multi_product_supply_ships
+			research_cost_coeff = 1
+		}
 
 		enable_equipments = {
 			ocean_liner
@@ -3437,6 +3445,75 @@ technologies = {
 		categories = {
 			naval_equipment
 		}
+	}
+
+	sp_multi_product_supply_ships = {
+
+		underway_replenishment_range = 0.5
+		underway_replenishment_convoy_cost = -0.25
+
+		allow_branch = {
+			has_dlc = "Gotterdammerung"
+		}
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_naval_underway_replenishment
+			}
+		}
+
+		path = {
+			leads_to_tech = sp_standard_tenshioned_replenishment_alongside_method
+			research_cost_coeff = 1
+		}
+		force_use_small_tech_layout = yes
+		is_special_project_tech = yes	
+		xp_research_type = navy
+		xp_boost_cost = 75
+		xp_research_bonus = 1.75
+		research_cost = 2.0
+		start_year = 1938
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 10 }
+		}
+
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
+
+	sp_standard_tenshioned_replenishment_alongside_method = {
+
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_naval_underway_replenishment
+			}
+		}
+
+		underway_replenishment_range = 0.5
+		underway_replenishment_convoy_cost = -0.25	
+		
+		force_use_small_tech_layout = yes
+		is_special_project_tech = yes		
+		xp_research_type = navy
+		xp_boost_cost = 75
+		xp_research_bonus = 1.5
+		research_cost = 2.5
+		start_year = 1943
+		folder = {
+			name = mtgnavalsupportfolder
+			position = { x = 1 y = 18 }
+		}
+
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+		special_project_specialization = { specialization_naval }	
 	}
 
 

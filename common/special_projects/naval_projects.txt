@@ -1,0 +1,135 @@
+sp_battlecarrier = {
+    specialization = specialization_naval
+    allowed = {
+        has_dlc = "Man the Guns"
+    }
+    visible = {
+        has_tech = early_ship_hull_carrier
+        has_tech = early_ship_hull_heavy
+    }
+    available = {
+        has_navy_size = {
+            archetype = ship_hull_heavy
+            size > 0
+        }
+    }
+    breakthrough_cost = {
+		specialization_naval = 1
+	}
+
+    prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+    project_output = {
+        enable_equipment_modules = {
+            ship_deck_space_bb
+        }
+    }
+}
+
+sp_subcarrier = {
+    specialization = specialization_naval
+    allowed = {
+        has_dlc = "Man the Guns"
+    }
+    visible = {
+        has_tech = cruiser_submarines
+        has_tech = prototype_airplane_launcher
+    }
+    breakthrough_cost = {
+		specialization_naval = 1
+	}
+    prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+    project_output = {
+        enable_equipment_modules = {
+            sub_airplane_launcher_2
+        }
+    }
+}
+
+sp_nuclear_torpedo = {
+    specialization = specialization_naval
+    allowed = {
+        has_dlc = "Man the Guns"
+    }
+    visible = {
+        has_tech = modern_ship_hull_submarine
+    }
+    available = {
+        # nuke tech needed
+    }
+    breakthrough_cost = {
+		specialization_naval = 2
+	}
+    prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+    project_output = {
+        enable_equipment_modules = {
+            sub_nuclear_torpedo
+        }
+    }
+}
+
+sp_vt_shell = {
+    specialization = specialization_naval
+    allowed = {
+        has_dlc = "Man the Guns"
+    }
+    visible = {
+        has_tech = radio
+    }
+    available = {
+        # radar tech needed
+    }
+    breakthrough_cost = {
+		specialization_naval = 2
+	}
+    prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+    project_output = {
+        enable_equipment_modules = {
+            ship_vt_shell
+        }
+    }
+}
+
+sp_super_heavy_guns = {
+    specialization = specialization_naval
+    allowed = {
+        has_dlc = "Man the Guns"
+    }
+    available = {
+        has_tech = early_ship_hull_heavy
+        has_tech = basic_heavy_battery
+    }
+    breakthrough_cost = {
+		specialization_naval = 1
+	}
+    prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+    project_output = {
+        country_effects = {
+            custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = basic_super_heavy_battery
+			}
+			custom_override_tooltip = {	
+				tooltip = tech_effect|basic_super_heavy_battery
+				set_technology = {
+					basic_super_heavy_battery = 1
+					popup = no
+				}
+			}
+        }
+    }
+}
