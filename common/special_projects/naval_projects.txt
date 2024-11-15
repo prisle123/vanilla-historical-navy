@@ -60,7 +60,7 @@ sp_nuclear_torpedo = {
         has_tech = modern_ship_hull_submarine
     }
     available = {
-        # nuke tech needed
+        has_tech = nukes
     }
     breakthrough_cost = {
 		specialization_naval = 2
@@ -82,10 +82,10 @@ sp_vt_shell = {
         has_dlc = "Man the Guns"
     }
     visible = {
-        has_tech = radio
+        has_tech = radio_detection
     }
     available = {
-        # radar tech needed
+        has_tech = naval_radio_guiding_system
     }
     breakthrough_cost = {
 		specialization_naval = 2
