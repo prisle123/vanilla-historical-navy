@@ -36,7 +36,7 @@ technologies = {
 			ship_secondaries_1
 			ship_civilian_light_battery_1
 			ship_anti_air_1_h
-			
+
 			# ship_ap_shell_1
 			# ship_ap_shell_2
 			# ship_ap_shell_3
@@ -61,6 +61,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -105,7 +106,7 @@ technologies = {
 			leads_to_tech = ship_rocket_artillery
 			research_cost_coeff = 1
 		}
-		
+
 		enable_equipment_modules = {
 			ship_light_battery_1_double
 			ship_medium_battery_1
@@ -139,6 +140,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -191,6 +193,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -203,7 +206,7 @@ technologies = {
 	}
 
 	basic_light_shell = {
-		
+
 		research_cost = 0.5
 
 		start_year = 1936
@@ -268,6 +271,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -310,6 +314,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -388,6 +393,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -430,6 +436,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -485,6 +492,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -503,7 +511,7 @@ technologies = {
 			leads_to_tech = improved_medium_battery
 			research_cost_coeff = 1
 		}
-		
+
 
 		light_cruiser = {
 			lg_attack = 0.05
@@ -535,6 +543,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			mio_cat_tech_all_cruiser_and_modules
@@ -551,8 +560,8 @@ technologies = {
 			leads_to_tech = improved_medium_shell
 			research_cost_coeff = 1
 		}
-		
-		
+
+
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
@@ -563,9 +572,9 @@ technologies = {
 			ship_light_medium_battery_3
 			ship_light_medium_battery_3_double
 			ship_light_medium_battery_3_single
-			
+
 			ship_secondaries_3
-			
+
 		}
 
 
@@ -583,6 +592,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -638,6 +648,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			mio_cat_tech_all_cruiser_and_modules
@@ -683,6 +694,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -736,6 +748,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -784,6 +797,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -806,8 +820,8 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
-		
-		
+
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 19 }
@@ -828,6 +842,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -836,8 +851,8 @@ technologies = {
 		}
 	}
 
-	
-	
+
+
 	basic_heavy_shell = {
 
 		research_cost = 0.5
@@ -888,6 +903,7 @@ technologies = {
 
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			mio_cat_tech_all_capital_ship_and_modules
@@ -943,6 +959,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			mio_cat_tech_all_capital_ship_and_modules
@@ -988,6 +1005,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1035,6 +1053,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1082,6 +1101,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1121,6 +1141,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1136,8 +1157,12 @@ technologies = {
 		start_year = 1921
 
 		allow = {
-			always = no
+			ROOT = {
+				is_special_project_completed = sp:sp_super_heavy_guns
+			}
 		}
+		force_use_small_tech_layout = yes
+		is_special_project_tech = yes
 
 		path = {
 			leads_to_tech = experimental_super_heavy_battery
@@ -1178,6 +1203,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1215,6 +1241,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1251,6 +1278,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1286,6 +1314,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1335,6 +1364,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1372,6 +1402,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1384,9 +1415,9 @@ technologies = {
 	}
 
 ###  ##  ###  ###  ### ###   ##      #   #  ##  ###   ##  ### ###  ###
- #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #  
- #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ## 
- #  #  # #  # #    #   #  # #  #     # # # #  # #  # #  # #   #  # #  
+ #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #
+ #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ##
+ #  #  # #  # #    #   #  # #  #     # # # #  # #  # #  # #   #  # #
  #   ##  #  # #    ### ###   ##       # #  #  # #  # #  # #   #  # ###
 
 	basic_torpedo = {
@@ -1439,6 +1470,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1512,6 +1544,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1576,6 +1609,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1622,6 +1656,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ss_tech
@@ -1677,6 +1712,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1697,7 +1733,7 @@ technologies = {
 
 
 		naval_torpedo_reveal_chance_factor = -0.15
-		
+
 		path = {
 			leads_to_tech = homing_torpedo
 			research_cost_coeff = 1
@@ -1721,6 +1757,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1741,7 +1778,7 @@ technologies = {
 
 
 		naval_torpedo_screen_penetration_factor = 0.1
-		
+
 		path = {
 			leads_to_tech = homing_torpedo
 			research_cost_coeff = 1
@@ -1765,6 +1802,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1830,6 +1868,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1874,6 +1913,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1918,6 +1958,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1960,6 +2001,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2030,6 +2072,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2070,6 +2113,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2106,6 +2150,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2163,6 +2208,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2224,6 +2270,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2291,6 +2338,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2337,6 +2385,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minelaying
@@ -2369,6 +2418,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minelaying
@@ -2396,6 +2446,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minelaying
@@ -2433,6 +2484,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minelaying
@@ -2467,6 +2519,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minesweeping
@@ -2508,6 +2561,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minelaying
@@ -2544,6 +2598,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minelaying
@@ -2573,6 +2628,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minelaying
@@ -2605,6 +2661,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minelaying
@@ -2639,6 +2696,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minesweeping
@@ -2668,6 +2726,7 @@ technologies = {
 			factor = 1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_mines
 			naval_minesweeping
@@ -2736,6 +2795,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			tp_tech
@@ -2814,6 +2874,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			tp_tech
@@ -2860,6 +2921,7 @@ technologies = {
 			}
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			tp_tech
@@ -2914,6 +2976,7 @@ technologies = {
 			dry_cargo_storage
 			civilian_ship_engine_1
 		}
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			logistics_tech
@@ -2946,6 +3009,7 @@ technologies = {
 		}
 
 		production_speed_naval_base_factor = 0.1
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			industry
@@ -2969,6 +3033,7 @@ technologies = {
 		}
 
 		production_speed_dockyard_factor = 0.1
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			industry
@@ -2987,6 +3052,7 @@ technologies = {
 		}
 
 		refit_speed = 0.1
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			industry
@@ -3001,10 +3067,11 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 1 y = 5 }
+			position = { x = 4 y = 3 }
 		}
 
 		repair_speed_factor = 0.1
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			industry
@@ -3029,6 +3096,7 @@ technologies = {
 
 		repair_speed_naval_base_factor = 0.1
 		repair_speed_dockyard_factor = 0.1
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			logistics_tech
@@ -3047,6 +3115,7 @@ technologies = {
 		}
 
 		industrial_capacity_dockyard = 0.1
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			industry
@@ -3075,6 +3144,7 @@ technologies = {
 		auxiliary_ship = {
 			naval_speed = 0.2
 		}
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			logistics_tech
@@ -3101,6 +3171,7 @@ technologies = {
 		auxiliary_ship = {
 			naval_range = 0.2
 		}
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			logistics_tech
@@ -3129,6 +3200,7 @@ technologies = {
 		enable_equipment_modules = {
 			civilian_ship_engine_2
 		}
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			logistics_tech
@@ -3152,6 +3224,7 @@ technologies = {
 		ai_will_do = {
 			factor = 0
 		}
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			logistics_tech
@@ -3180,6 +3253,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_cruiser_camo_2
 		}
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			logistics_tech
@@ -3204,6 +3278,7 @@ technologies = {
 			supply_hub
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			logistics_tech
@@ -3236,6 +3311,7 @@ technologies = {
 		light_cruiser = {
 			reliability = 0.1
 		}
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 		}
@@ -3268,6 +3344,7 @@ technologies = {
 			reliability = 0.1
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			industry
@@ -3294,7 +3371,8 @@ technologies = {
 		submarine = {
 			reliability = 0.1
 		}
-		
+
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			logistics_tech
@@ -3311,13 +3389,14 @@ technologies = {
 			leads_to_tech = surgery_at_sea
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 9 y = 4 }
 		}
 
 		naval_morale_factor = 0.05
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			hospital_tech
@@ -3345,6 +3424,7 @@ technologies = {
 
 		naval_morale_factor = 0.1
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			hospital_tech
@@ -3362,6 +3442,7 @@ technologies = {
 		}
 
 		naval_invasion_penalty = -0.1
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			hospital_tech
@@ -3380,6 +3461,7 @@ technologies = {
 		}
 
 		experience_loss_factor = -0.1
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			hospital_tech
@@ -3408,6 +3490,7 @@ technologies = {
 		}
 
 		production_speed_fuel_silo_factor = 0.2
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 		}
@@ -3425,6 +3508,7 @@ technologies = {
 		}
 
 		repair_speed_fuel_silo_factor = 0.2
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 		}
@@ -3442,6 +3526,7 @@ technologies = {
 		}
 
 		max_fuel_factor = 0.1
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 		}
@@ -3467,7 +3552,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		force_use_small_tech_layout = yes
-		is_special_project_tech = yes	
+		is_special_project_tech = yes
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.75
@@ -3478,11 +3563,11 @@ technologies = {
 			position = { x = 1 y = 10 }
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			tp_tech
 		}
-		special_project_specialization = { specialization_naval }
 	}
 
 
@@ -3495,10 +3580,10 @@ technologies = {
 		}
 
 		underway_replenishment_range = 0.5
-		underway_replenishment_convoy_cost = -0.25	
-		
+		underway_replenishment_convoy_cost = -0.25
+
 		force_use_small_tech_layout = yes
-		is_special_project_tech = yes		
+		is_special_project_tech = yes
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.5
@@ -3509,11 +3594,34 @@ technologies = {
 			position = { x = 1 y = 18 }
 		}
 
+		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
 			tp_tech
 		}
-		special_project_specialization = { specialization_naval }	
+	}
+	
+	sp_naval_underway_replenishment_pick_a = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		underway_replenishment_range = 0.2
+		underway_replenishment_convoy_cost = 0.1
+		research_cost = 1
+		start_year = 1940
+
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_underway_replenishment_pick_b = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		underway_replenishment_range = -0.1
+		underway_replenishment_convoy_cost = -0.2
+		research_cost = 1
+		start_year = 1940
+
+		allow = {
+			always = no
+		}
 	}
 
 
