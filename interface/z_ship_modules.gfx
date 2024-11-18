@@ -875,6 +875,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_hull_cruiser_role_pc"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_pc.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_mo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_mo.png"
+	}
 	
 	## scheme & TDS
 	spriteType = {
@@ -1367,5 +1371,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_radar_finder"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_radar_finder.png"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_sub_nuclear_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_nuclear_torpedo.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_airplane_launcher_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_airplane_launcher_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_airplane_launcher_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_airplane_launcher_2.png"
 	}
 }

@@ -405,6 +405,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			sub_visibility = 0.05
 			naval_speed = -0.01			
 		}
 		
@@ -428,6 +429,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			sub_visibility = 0.035
 			naval_speed = -0.02			
 		}
 		
@@ -455,6 +457,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			sub_visibility = 0.02
 			naval_speed = -0.03			
 		}
 
@@ -479,6 +482,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			sub_visibility = 0.01
 			naval_speed = -0.04			
 		}
 
@@ -748,6 +752,7 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 50
+			reliability = -0.05
 		}
 	}
 	ship_sub_snorkel_2 = {
@@ -761,6 +766,7 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 70
+			reliability = -0.025
 		}
 
 		can_convert_from = {
@@ -842,6 +848,36 @@ equipment_modules = {
 			reliability = -0.05
 		}
 		manpower = 100
+	}
+	sub_airplane_launcher_1 = {
+		category = sub_airplane_launcher
+		
+		add_stats = {
+			surface_detection = 4
+			naval_torpedo_hit_chance_factor = 0.01
+			build_cost_ic = 150
+		}
+		multiply_stats = {
+			naval_speed = -0.003
+		}
+	}
+	sub_airplane_launcher_2 = {
+		category = sub_airplane_launcher
+		parent = sub_airplane_launcher_1
+		add_stats = {
+			surface_detection = 7
+			naval_torpedo_hit_chance_factor = 0.02
+			hg_attack = 2
+			lg_attack = 1
+			build_cost_ic = 250
+		}
+		can_convert_from = {
+			module_category = sub_airplane_launcher
+			convert_cost_ic = 80
+		}
+		multiply_stats = {
+			naval_speed = -0.004
+		}
 	}
 
 
@@ -1229,6 +1265,17 @@ equipment_modules = {
 			surface_detection = 3
 			build_cost_ic = 80
 			reliability = -0.05
+		}
+	}
+	sub_nuclear_torpedo = {
+		category = submarine_miscellaneous
+		add_stats = {
+			torpedo_attack = 50
+			naval_torpedo_hit_chance_factor = 0.015
+			reliability = -0.4
+		}
+		multiply_stats = {
+			naval_speed = -0.01
 		}
 	}
 }

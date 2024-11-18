@@ -535,7 +535,7 @@ equipments = {
 		year = 1944
 
 		archetype = ship_hull_heavy
-		model = battleship
+		model = ship_hull_modern_super_battleship
 		priority = 1500
 		can_convert_from = { vnr_ship_hull_heavy_5 }
 		parent = vnr_ship_hull_heavy_4

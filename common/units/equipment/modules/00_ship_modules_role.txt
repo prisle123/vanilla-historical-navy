@@ -175,11 +175,21 @@ equipment_modules = {
 	ship_hull_cruiser_role_cb = {
 		category = c_role
 		add_equipment_type = capital_ship
+		add_stats = {
+			max_strength = 100
+		}
 		multiply_stats = {
 			naval_range = 0.1
+			naval_speed = -0.2
 			build_cost_ic = 0.1
 		}
 		forbid_module_categories = {
+			ship_medium_battery
+			ship_medium_battery_double
+			ship_medium_battery_single
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
 			ship_missile
 			ship_missile_aa
 			raider_kit
@@ -300,6 +310,17 @@ equipment_modules = {
 		}
 		forbid_module_categories = {
 			ship_cruiser_heavy_armor
+		}
+	}
+	ship_hull_cruiser_role_mo = {
+		category = cds_role
+		add_equipment_type = capital_ship
+		add_stats = {
+			max_strength = 80
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1
+			naval_range = 0.5
 		}
 	}
 }

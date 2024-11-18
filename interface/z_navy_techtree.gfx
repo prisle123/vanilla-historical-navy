@@ -696,4 +696,23 @@ spriteTypes = {
 		name = "GFX_luneburg_lens_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/luneburg_lens.png"
 	}
+	
+	
+	### special projects
+	spriteType = {
+		name = "GFX_sp_battlecarrier"
+		textureFile = "gfx/interface/special_project/project_icons/sp_battlecarrier.png"
+	}
+	spriteType = {
+		name = "GFX_sp_nuclear_torpedo"
+		textureFile = "gfx/interface/special_project/project_icons/sp_naval_nuclear_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_super_heavy_guns"
+		textureFile = "gfx/interface/special_project/project_icons/sp_super_heavy_guns.png"
+	}
+	spriteType = {
+		name = "GFX_sp_subcarrier"
+		textureFile = "gfx/interface/special_project/project_icons/sp_subcarrier.png"
+	}
 }

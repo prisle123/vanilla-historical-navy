@@ -216,7 +216,7 @@ equipments = {
 
 		naval_range = 2500
 
-		max_strength = 130
+		max_strength = 65
 
 
 		fuel_consumption = 20
@@ -251,6 +251,7 @@ equipments = {
 		}
 
 		hg_attack = 0
+		max_strength = 45
 		naval_speed = 20
 		reliability = 0.80
 		surface_visibility = 20
@@ -478,6 +479,8 @@ equipments = {
 					ship_anti_air
 					ship_airplane_launcher
 					ship_torpedo
+					ship_heavy_battery
+					ship_heavy_battery_triple
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double
 					seaplane_hangar
@@ -674,7 +677,7 @@ equipments = {
 
 		naval_range = 2200
 
-		max_strength = 100
+		max_strength = 50
 
 
 		fuel_consumption = 18
@@ -714,7 +717,7 @@ equipments = {
 		reliability = 0.85
 		build_cost_ic = 1700
 		naval_range = 3000
-		max_strength = 150
+		max_strength = 75
 		resources = {
 			steel = 2
 		}
@@ -737,7 +740,7 @@ equipments = {
 		naval_speed = 32
 		build_cost_ic = 1800
 		reliability = 0.90
-		max_strength = 165
+		max_strength = 85
 		naval_range = 4000
 		manpower = 1400
 		resources = {
@@ -764,7 +767,7 @@ equipments = {
 		manpower = 1600
 		build_cost_ic = 2000
 		naval_range = 4500
-		max_strength = 180
+		max_strength = 90
 		resources = {
 			steel = 3
 		}
@@ -879,7 +882,7 @@ equipments = {
 		manpower = 1800
 		build_cost_ic = 2500
 		naval_range = 5000
-		max_strength = 200
+		max_strength = 100
 		resources = {
 			steel = 3
 		}
@@ -1127,7 +1130,7 @@ equipments = {
 
 		naval_range = 3000
 
-		max_strength = 140
+		max_strength = 60
 
 		module_count_limit = {
 			module = ship_hull_cruiser_role_c

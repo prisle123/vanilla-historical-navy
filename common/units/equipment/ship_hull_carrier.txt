@@ -603,6 +603,7 @@ equipments = {
 		derived_variant_name = carrier_equipment_cvh
 		year = 1944
 		archetype = ship_hull_carrier
+		model = ship_hull_super_carrier
 		priority = 1000
 		can_convert_from = { vnr_ship_hull_super_carrier }
 		parent = vnr_ship_hull_carrier_3
