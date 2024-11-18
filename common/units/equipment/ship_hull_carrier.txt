@@ -699,5 +699,103 @@ equipments = {
 		}
 		manpower = 5000
 	}
+
+	vnr_ship_hull_mega_carrier = {
+		year = 1950
+		archetype = ship_hull_carrier
+		model = ship_hull_super_carrier
+		priority = 1000
+		can_convert_from = { vnr_ship_hull_mega_carrier }
+		parent = vnr_ship_hull_super_carrier
+		module_slots = {
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { ship_deck_space_mega }
+			}
+			fixed_ship_deck_slot_2 = {
+				required = yes
+				allowed_module_categories = { ship_deck_space_mega }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air ship_missile_aa }
+			}
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { carrier_ship_engine carrier_ship_engine_nuclear }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_carrier_armor_heavy }
+			}
+			fixed_ship_carrier_miscellaneous_slot_1 = { 
+				required = no
+				allowed_module_categories = { carrier_unit }
+			}
+			fixed_ship_carrier_miscellaneous_slot_2 = { 
+				required = no
+				allowed_module_categories = { carrier_miscellaneous }
+			}
+			fixed_ship_flight_deck_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_missile_aa
+					steam_catapult
+					carrier_side_lift
+					carrier_angled_deck
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_missile_aa
+					ship_secondaries
+					ship_dp_secondaries_bb
+					steam_catapult
+					carrier_side_lift
+					carrier_angled_deck
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_missile_aa
+					ship_secondaries
+					ship_dp_secondaries_bb
+				}
+			}
+		}
+		default_modules = {
+			fixed_ship_engine_slot = carrier_ship_engine_4
+			fixed_ship_armor_slot = ship_carrier_armor_heavy
+		}
+
+		naval_range = 6000
+		reliability = 1.3
+		max_strength = 330
+		naval_speed = 28
+		surface_visibility = 32
+
+		module_count_limit = {
+			category = carrier_angled_deck
+			count < 2
+		}
+
+		build_cost_ic = 6500
+		resources = {
+			steel = 4
+			chromium = 2
+		}
+		manpower = 6500
+	}
 }
 

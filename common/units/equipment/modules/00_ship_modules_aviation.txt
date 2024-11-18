@@ -141,6 +141,25 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2000
 	}
+	ship_deck_space_mega = {
+		category = ship_deck_space_mega
+		gui_category = ship_deck_space
+		add_equipment_type = capital_ship
+		mega_carrier = yes
+		add_stats = {
+			carrier_size = 2
+			build_cost_ic = 2000
+			surface_detection = 8
+			supply_consumption = 0.03
+		}
+		manpower = 450 #outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.075
+			anti_air_attack = 0.035
+			fuel_consumption = 0.1
+		}
+		dismantle_cost_ic = 1600
+	}
 
 
 ###################
