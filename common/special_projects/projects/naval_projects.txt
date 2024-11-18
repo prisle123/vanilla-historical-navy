@@ -14,6 +14,11 @@ sp_battlecarrier = {
 			}
 		}
     }
+	resource_cost = {
+		resources = { 
+			steel = 5
+		}
+	}
     breakthrough_cost = {
 		specialization_naval = 1
 	}
@@ -59,6 +64,11 @@ sp_subcarrier = {
     breakthrough_cost = {
 		specialization_naval = 1
 	}
+	resource_cost = {
+		resources = { 
+			steel = 3
+		}
+	}
     prototype_time = sp_time.prototype.short
 
 	complexity = sp_complexity.small
@@ -97,6 +107,9 @@ sp_nuclear_torpedo = {
 			has_tech = nukes
 		}
     }
+	resource_cost = {
+		resources = { steel=6 tungsten=3 chromium=6 }
+	}
     breakthrough_cost = {
 		specialization_naval = 3
 	}
@@ -138,6 +151,9 @@ sp_naval_proximity_fuze = {
 			has_tech = naval_radio_guiding_system
 		}
     }
+	resource_cost = {
+		resources = { steel=4 tungsten=2 }
+	}
     breakthrough_cost = {
 		specialization_naval = 2
 	}
@@ -188,11 +204,9 @@ sp_super_heavy_guns = {
 		specialization_naval = 2
 	}
 	resource_cost = {
-		resources = { 
-			steel = 5
-		}
+		resources = { steel=6 tungsten=3 }
 	}
-    prototype_time = sp_time.prototype.long
+    prototype_time = sp_time.prototype.medium
 
 	complexity = sp_complexity.large
 
