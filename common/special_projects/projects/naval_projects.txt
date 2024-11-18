@@ -126,7 +126,7 @@ sp_nuclear_torpedo = {
 	}
 }
 
-sp_vt_shell = {
+sp_naval_proximity_fuze = {
     specialization = specialization_naval
 	project_tags = { sp_tag_surface_ship }
     allowed = {
