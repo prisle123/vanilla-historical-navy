@@ -1540,6 +1540,12 @@ technologies = {
 	}
 	nuclear_engine_research = {
 		research_cost = 1.25
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_nuclear_engines
+			}
+		}
 		enable_equipment_modules = {
 			cruiser_ship_engine_nuclear
 			carrier_ship_engine_nuclear
@@ -4468,6 +4474,12 @@ technologies = {
 	}
 
 	carrier_steam_catapult = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_next_gen_carrier_equipments
+			}
+		}
 		research_cost = 1
 		start_year = 1944
 
@@ -4504,6 +4516,12 @@ technologies = {
 	}
 
 	full_armored_carrier = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_next_gen_carrier_equipments
+			}
+		}
 		research_cost = 1.25
 		start_year = 1944
 
@@ -4545,6 +4563,12 @@ technologies = {
 	}
 
 	carrier_angled_deck = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_next_gen_carrier_equipments
+			}
+		}
 		research_cost = 0.7
 		start_year = 1944
 
@@ -5290,6 +5314,12 @@ technologies = {
 	}
 
 	sub_nuclear_engine = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_nuclear_engines
+			}
+		}
 		enable_equipment_modules = {
 			sub_ship_engine_nuclear
 		}
