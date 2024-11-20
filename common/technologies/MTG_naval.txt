@@ -4474,12 +4474,6 @@ technologies = {
 	}
 
 	carrier_steam_catapult = {
-		is_special_project_tech = yes
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_next_gen_carrier_equipments
-			}
-		}
 		research_cost = 1
 		start_year = 1944
 
@@ -4516,13 +4510,7 @@ technologies = {
 	}
 
 	full_armored_carrier = {
-		is_special_project_tech = yes
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_next_gen_carrier_equipments
-			}
-		}
-		research_cost = 1.25
+		research_cost = 0.7
 		start_year = 1944
 
 		carrier = {
@@ -4563,13 +4551,7 @@ technologies = {
 	}
 
 	carrier_angled_deck = {
-		is_special_project_tech = yes
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_next_gen_carrier_equipments
-			}
-		}
-		research_cost = 0.7
+		research_cost = 0.5
 		start_year = 1944
 
 		enable_equipment_modules = {
