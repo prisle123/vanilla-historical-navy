@@ -333,7 +333,7 @@ equipments = {
 			}
 			rear_1_custom_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo_sub ship_mine_layer_sub ship_rocket ship_nuclear_rocket }
+				allowed_module_categories = { ship_torpedo_sub ship_mine_layer_sub sub_rocket }
 			}
 			rear_2_custom_slot = rear_1_custom_slot
 		}

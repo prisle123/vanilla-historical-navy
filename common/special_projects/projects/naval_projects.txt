@@ -568,19 +568,14 @@ sp_naval_nuclear_missile_submarine = {
 		}
 	}	
 	complexity = sp_complexity.large 
-	prototype_time = sp_time.prototype.very_long 
+	prototype_time = sp_time.prototype.long 
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
 
 	special_project_parent = {
 		sp_naval_rocket_launching_submarine
-	}
-
-	available = { 
-		FROM = {
-			has_tech = sub_nuclear_engine
-		}
+		sp_nuclear_warheads
 	}
 
 	breakthrough_cost = {
@@ -685,7 +680,7 @@ sp_next_gen_carrier_equipments = {
 
     prototype_time = sp_time.prototype.medium
 
-	complexity = sp_complexity.large
+	complexity = sp_complexity.medium
 
     project_output = {
 		country_effects = {
@@ -738,6 +733,58 @@ sp_next_gen_carrier_equipments = {
 				uses = 1
 				technology = carrier_steam_catapult
 			}
+        }
+    }
+
+	generic_prototype_rewards = {
+		sp_naval_generic_reward_scientist_xp_1
+		sp_naval_generic_reward_scientist_xp_2
+		sp_naval_generic_reward_scientist_xp_3
+		sp_naval_generic_reward_navy_xp_1
+		sp_naval_generic_reward_navy_xp_2
+		sp_naval_generic_reward_navy_xp_3
+		sp_naval_generic_reward_major_progress_1
+		sp_naval_generic_reward_major_progress_2
+		sp_naval_generic_reward_major_progress_3
+		sp_naval_generic_reward_test_failure_1
+		sp_naval_generic_reward_test_failure_2
+		sp_naval_generic_reward_test_failure_3			
+	}
+}
+
+sp_arsenal_ship = {
+	specialization = specialization_naval
+	project_tags = { sp_tag_surface_ship }
+	allowed = {
+        has_dlc = "Gotterdammerung"
+    }
+    available = {
+		FROM = {
+			has_tech = full_missile_ship
+		}
+    }
+	resource_cost = {
+		resources = { 
+			steel = 12
+			tungsten = 10
+			chromium = 14
+		}
+	}	
+    breakthrough_cost = {
+		specialization_naval = 2
+	}
+
+    prototype_time = sp_time.prototype.medium
+
+	complexity = sp_complexity.large
+
+    project_output = {
+		enable_equipments = {
+			vnr_ship_hull_arsenal_ship
+		}
+        enable_equipment_modules = {
+            ship_missile_launcher
+			ship_slbm_launcher
         }
     }
 
