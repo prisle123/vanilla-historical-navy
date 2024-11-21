@@ -166,6 +166,9 @@ sp_subcarrier = {
 sp_nuclear_torpedo = {
     specialization = specialization_naval
 	project_tags = { sp_tag_submarine }
+	ai_will_do = {
+		base = 1
+	}
     allowed = {
         has_dlc = "Man the Guns"
     }
@@ -244,6 +247,9 @@ sp_nuclear_torpedo = {
 sp_naval_proximity_fuze = {
     specialization = specialization_naval
 	project_tags = { sp_tag_surface_ship }
+	ai_will_do = {
+		base = 1
+	}
     allowed = {
         has_dlc = "Man the Guns"
     }
@@ -288,6 +294,9 @@ sp_naval_proximity_fuze = {
 sp_super_heavy_guns = {
     specialization = specialization_naval
 	project_tags = { sp_tag_surface_ship }
+	ai_will_do = {
+		base = 1
+	}
     allowed = {
         has_dlc = "Man the Guns"
     }
@@ -310,7 +319,7 @@ sp_super_heavy_guns = {
 	}
     prototype_time = sp_time.prototype.medium
 
-	complexity = sp_complexity.large
+	complexity = sp_complexity.medium
 
     project_output = {
         country_effects = {
