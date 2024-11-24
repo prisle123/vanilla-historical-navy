@@ -2338,7 +2338,7 @@ equipment_modules = {
 	}
 
 	ship_missile_launcher = {
-		abbreviation = "sml"
+		gfx = sub_missile_launcher
 		category = ship_rocket
 		add_equipment_type = missile_launcher
 		allow_equipment_type = { missile ballistic_missile }
@@ -2355,7 +2355,7 @@ equipment_modules = {
 	}
 
 	ship_slbm_launcher = {
-		abbreviation = "slb"
+		gfx = slbm_launcher
 		category = ship_rocket
 		add_equipment_type = missile_launcher
 		allow_equipment_type = { nuclear_missile }

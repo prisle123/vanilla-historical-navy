@@ -170,6 +170,10 @@ spriteTypes = {
 		name = "GFX_SMI_cold_war_miscellaneous"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/full_missile_upgrade.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_sub_airplane_launcher"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/airplane_launcher_icn.dds"
+	}
 	
 	# topview images
 	spriteType = {

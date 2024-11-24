@@ -144,6 +144,7 @@ equipment_modules = {
 	ship_deck_space_mega = {
 		category = ship_deck_space_mega
 		gui_category = ship_deck_space
+		gfx = big_ship_deck_space
 		add_equipment_type = capital_ship
 		mega_carrier = yes
 		add_stats = {

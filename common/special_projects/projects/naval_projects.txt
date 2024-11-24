@@ -44,7 +44,7 @@ sp_battlecarrier = {
 			option = {
 				token = sp_battlecarrier_perference_a
 				iteration_output = {
-					unit_bonus = {
+					sub_unit_bonus = {
 						battlecarrier = {
 							anti_air_attack = 0.1
 							armor_value = 0.1
@@ -56,7 +56,7 @@ sp_battlecarrier = {
 			option = {
 				token = sp_battlecarrier_perference_b
 				iteration_output = {
-					unit_bonus = {
+					sub_unit_bonus = {
 						battlecarrier = {
 							max_organisation = 15
 						}
@@ -182,7 +182,7 @@ sp_nuclear_torpedo = {
 		resources = { steel=6 tungsten=3 chromium=6 }
 	}
     breakthrough_cost = {
-		specialization_naval = 3
+		specialization_naval = 2
 	}
     prototype_time = sp_time.prototype.long
 
@@ -263,7 +263,7 @@ sp_naval_proximity_fuze = {
 		resources = { steel=4 tungsten=2 }
 	}
     breakthrough_cost = {
-		specialization_naval = 2
+		specialization_naval = 1
 	}
     prototype_time = sp_time.prototype.medium
 
@@ -312,7 +312,7 @@ sp_super_heavy_guns = {
 		}
     }
     breakthrough_cost = {
-		specialization_naval = 2
+		specialization_naval = 1
 	}
 	resource_cost = {
 		resources = { steel=6 tungsten=3 }
