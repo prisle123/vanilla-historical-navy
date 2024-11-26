@@ -232,7 +232,7 @@ naval_sub = {
 				mid_1_custom_slot = sub_ship_periscope
 				mid_2_custom_slot = ship_sub_snorkel
 				mid_3_custom_slot = sub_ship_stealth
-				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_4 sub_ship_engine_3 sub_ship_engine_2 sub_ship_engine_1 } }
+				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_5 sub_ship_engine_4 sub_ship_engine_3 sub_ship_engine_2 sub_ship_engine_1 } }
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
@@ -260,7 +260,7 @@ naval_sub = {
 				mid_1_custom_slot = sub_ship_periscope
 				mid_2_custom_slot = ship_sub_snorkel
 				mid_3_custom_slot = sub_ship_stealth
-				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_4 sub_ship_engine_3 sub_ship_engine_2 sub_ship_engine_1 } }
+				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_5 sub_ship_engine_4 sub_ship_engine_3 sub_ship_engine_2 sub_ship_engine_1 } }
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
