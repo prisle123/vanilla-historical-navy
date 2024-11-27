@@ -383,6 +383,31 @@ equipments = {
 			fixed_ship_radar_slot = ship_mast_1
 			fixed_ship_role_slot = ship_hull_cruiser_role_cd
 		}
+
+		module_count_limit = {
+			module = ship_heavy_battery_2
+			count < 1
+		}
+		module_count_limit = {
+			module = ship_heavy_battery_3
+			count < 1
+		}
+		module_count_limit = {
+			module = ship_heavy_battery_4
+			count < 1
+		}
+		module_count_limit = {
+			module = ship_heavy_battery_2_triple
+			count < 1
+		}
+		module_count_limit = {
+			module = ship_heavy_battery_3_triple
+			count < 1
+		}
+		module_count_limit = {
+			module = ship_heavy_battery_4_triple
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_cruiser_panzerschiff = {
