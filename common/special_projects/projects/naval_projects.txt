@@ -336,6 +336,35 @@ sp_super_heavy_guns = {
 			}
         }
     }
+
+	unique_prototype_rewards = {
+		sp_super_heavy_guns_unique_reward_a = {
+			fire_only_once = yes
+			threshold = {
+				min = 60
+				max = 90
+			}
+			weight = {
+				base = 100
+			}
+			option = {
+				token = sp_super_heavy_guns_preference_a
+				iteration_output = {
+					country_effects = {
+						add_tech_bonus = {
+							bonus = 0.75
+							uses = 1
+							technology = experimental_super_heavy_battery
+						}
+						sp:sp_super_heavy_guns = { add_project_progress_ratio = -0.25 }
+					}
+				}
+			}
+			option = {
+				token = sp_super_heavy_guns_preference_b
+			}
+		}
+	}
 	
 	generic_prototype_rewards = {
 		sp_naval_generic_reward_scientist_xp_1
