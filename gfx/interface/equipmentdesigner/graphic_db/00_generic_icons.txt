@@ -213,6 +213,13 @@ default = {
             }
         }
     }
+	vnr_ship_hull_arsenal_ship = {
+        pool = {
+            icons = {
+				GFX_vnr_ship_hull_arsenal_ship_medium
+            }
+        }
+    }
     vnr_ship_hull_carrier_conversion_ca = {
         pool = {
             icons = {
@@ -286,6 +293,19 @@ default = {
 				GFX_vnr_ship_hull_carrier_2_medium
 				GFX_vnr_ship_hull_carrier_3_medium
 				GFX_vnr_ship_hull_super_carrier_medium
+            }
+        }
+    }
+	vnr_ship_hull_mega_carrier = {
+        pool = {
+            icons = {
+                GFX_vnr_ship_hull_carrier_conversion_ca_medium
+                GFX_vnr_ship_hull_carrier_conversion_bb_medium
+				GFX_vnr_ship_hull_carrier_1_medium
+				GFX_vnr_ship_hull_carrier_2_medium
+				GFX_vnr_ship_hull_carrier_3_medium
+				GFX_vnr_ship_hull_super_carrier_medium
+				GFX_vnr_ship_hull_mega_carrier_medium
             }
         }
     }

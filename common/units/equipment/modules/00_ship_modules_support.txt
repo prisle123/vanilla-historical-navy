@@ -429,7 +429,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.035
+			sub_visibility = 0.045
 			naval_speed = -0.02			
 		}
 		
@@ -457,7 +457,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.02
+			sub_visibility = 0.04
 			naval_speed = -0.03			
 		}
 
@@ -482,7 +482,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.01
+			sub_visibility = 0.035
 			naval_speed = -0.04			
 		}
 
@@ -507,6 +507,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
+			sub_visibility = 0.03
 			naval_speed = -0.05	
 		}
 

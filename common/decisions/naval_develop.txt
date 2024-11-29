@@ -344,13 +344,13 @@ naval_develop_category = {
 		visible = {
 			has_tech = early_ship_hull_carrier
 			has_war = yes
-			num_of_naval_factories > 15
+			num_of_naval_factories > 10
 		}
 		available = {
 			any_enemy_country = {
 				has_navy_size = {
 					type = carrier
-					size > 5
+					size > 1
 				}
 			}
 			has_equipment = { convoy > 0 }
@@ -405,13 +405,13 @@ naval_develop_category = {
 		visible = {
 			has_tech = early_ship_hull_carrier
 			has_war = yes
-			num_of_naval_factories > 20
+			num_of_naval_factories > 15
 		}
 		available = {
 			any_enemy_country = {
 				has_navy_size = {
 					type = carrier
-					size > 5
+					size > 3
 				}
 			}
 			has_equipment = { ocean_liner_equipment > 0 }

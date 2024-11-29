@@ -2305,7 +2305,7 @@ equipment_modules = {
 ################
 	sub_missile_launcher = {
 		abbreviation = "sml"
-		category = ship_rocket
+		category = sub_rocket
 		add_equipment_type = missile_launcher
 		allow_equipment_type = { missile ballistic_missile }
 
@@ -2315,13 +2315,14 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			sub_visibility = 0.15
+			naval_speed = -0.1
 		}
 		dismantle_cost_ic = 700 
 	}
 
 	slbm_launcher = {
 		abbreviation = "slb"
-		category = ship_nuclear_rocket
+		category = sub_rocket
 		add_equipment_type = missile_launcher
 		allow_equipment_type = { nuclear_missile }
 
@@ -2331,7 +2332,42 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			sub_visibility = 0.2 
+			naval_speed = -0.15
 		}
 		dismantle_cost_ic = 1000 
+	}
+
+	ship_missile_launcher = {
+		gfx = sub_missile_launcher
+		category = ship_rocket
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
+
+		add_stats = {
+			build_cost_ic = 2000
+			reliability = -0.2
+		}
+		multiply_stats = {
+			surface_visibility = 0.15
+			naval_speed = -0.1
+		}
+		dismantle_cost_ic = 1000
+	}
+
+	ship_slbm_launcher = {
+		gfx = slbm_launcher
+		category = ship_rocket
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { nuclear_missile }
+
+		add_stats = {
+			build_cost_ic = 3000
+			reliability = -0.3
+		}
+		multiply_stats = {
+			surface_visibility = 0.2 
+			naval_speed = -0.15
+		}
+		dismantle_cost_ic = 1800 
 	}
 }

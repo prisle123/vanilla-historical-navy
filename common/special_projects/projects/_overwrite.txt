@@ -1,0 +1,79 @@
+sp_naval_fleet_submarine = {
+	specialization = specialization_naval
+	
+
+	project_tags = sp_tag_submarine
+
+	allowed = {
+		#FREE PROJECT
+	}
+	visible = {
+		always = no
+	}
+
+	complexity = sp_complexity.medium
+	prototype_time = sp_time.prototype.long
+
+	breakthrough_cost = {
+		specialization_naval = 1
+	}
+
+	project_output = {
+				
+	}
+	
+}
+
+sp_naval_cruiser_submarine = {
+	specialization = specialization_naval 
+
+	project_tags = sp_tag_submarine
+	
+	complexity = sp_complexity.medium
+	prototype_time = sp_time.prototype.medium 
+	allowed = {
+		#FREE PROJECT
+	}
+	visible = {
+		always = no
+	}
+
+	special_project_parent = {
+		
+	}
+
+
+	breakthrough_cost = {
+		specialization_naval = 1
+	}
+
+	
+	project_output = {
+
+	}
+	
+}
+
+sp_naval_super_heavy_battleship = {
+	specialization = specialization_naval
+ 
+
+	project_tags = sp_tag_surface_ship
+
+	allowed = {
+		#FREE
+	}
+
+	visible = {
+		always = no
+	}
+	complexity = sp_complexity.medium
+	prototype_time = sp_time.prototype.medium
+
+	breakthrough_cost = {
+		specialization_naval = 1
+	}
+	project_output = {
+
+	}
+}
