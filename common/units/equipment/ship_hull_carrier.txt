@@ -40,7 +40,7 @@ equipments = {
 			}
 			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = { ship_radar }
+				allowed_module_categories = { carrier_mast ship_radar }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -276,7 +276,7 @@ equipments = {
 			}
 			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = { ship_radar }
+				allowed_module_categories = { carrier_mast ship_radar }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
