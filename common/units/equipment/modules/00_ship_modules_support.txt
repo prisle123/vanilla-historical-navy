@@ -476,7 +476,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 28
+			torpedo_attack = 26
 			build_cost_ic = 140
 			naval_torpedo_hit_chance_factor = 0.02
 		}
@@ -500,7 +500,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 34
+			torpedo_attack = 30
 			sub_attack = 5
 			build_cost_ic = 180
 			naval_torpedo_hit_chance_factor = 0.025
@@ -1274,6 +1274,7 @@ equipment_modules = {
 			torpedo_attack = 50
 			naval_torpedo_hit_chance_factor = 0.015
 			reliability = -0.4
+			build_cost_ic = 1000
 		}
 		multiply_stats = {
 			naval_speed = -0.01

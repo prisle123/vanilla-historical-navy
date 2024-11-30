@@ -374,7 +374,7 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 15
-			build_cost_ic = 250
+			build_cost_ic = 500
 			reliability = -0.3
 		}
 		
@@ -385,7 +385,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = sub_ship_engine
-			convert_cost_ic = 350
+			convert_cost_ic = 450
 		}
 	}
 	sub_ship_engine_nuclear = {
