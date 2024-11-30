@@ -3,7 +3,7 @@ naval_cruiser_light = {
 	#available_for = {}
 	#blocked_for = {}
 	roles = { vnr_naval_cruiser_light }
-	priority = { base = 10 }
+	priority = { base = 100 }
 
 	light_cruiser_1922_upgrade = {
 		name = vnr_cl_1922

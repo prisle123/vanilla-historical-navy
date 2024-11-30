@@ -2,7 +2,7 @@ naval_carrier = {
 	category = naval
 	#blocked_for = {}
 	roles = { vnr_naval_carrier }
-	priority = { base = 10 }
+	priority = { base = 80 }
 
 	# carrier_1936 = {
 	# 	role_icon_index = 9
