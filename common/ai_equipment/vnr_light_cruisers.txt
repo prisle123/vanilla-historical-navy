@@ -229,6 +229,7 @@ naval_cruiser_light = {
 				fixed_ship_armor_slot = { upgrade > current any_of = { ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = empty
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_light_medium_battery
@@ -261,6 +262,8 @@ naval_cruiser_light = {
 				fixed_ship_armor_slot = { upgrade > current any_of = { ship_armor_cruiser_4 ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = empty
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_extra_secondaries_slot = ship_aa_fire_control
 				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = ship_anti_air
 				mid_1_custom_slot = ship_light_medium_battery
@@ -294,6 +297,8 @@ naval_cruiser_light = {
 				fixed_ship_armor_slot = { upgrade > current any_of = { ship_armor_cruiser_4 ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = empty
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_extra_secondaries_slot = ship_aa_fire_control
 				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = ship_anti_air
 				mid_1_custom_slot = ship_light_medium_battery
