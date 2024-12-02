@@ -73,7 +73,7 @@ NDefines.NNavy.AGGRESSION_SETTINGS_VALUES = {
 		10000,	-- I am death incarnate!
 };
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
-		80.0,	-- big guns
+		75.0,	-- big guns
 		105.0,	-- torpedoes
 		45.0,	-- small guns
 };
