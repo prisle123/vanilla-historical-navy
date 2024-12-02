@@ -786,8 +786,8 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_1
 		
 		add_stats = {
-			surface_detection = 4
-			sub_detection = 2.5
+			surface_detection = 2.5
+			sub_detection = 2
 			sub_attack = 1.5
 			build_cost_ic = 150
 		}
@@ -801,7 +801,7 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_2
 		parent = ship_airplane_launcher_1
 		add_stats = {
-			surface_detection = 7
+			surface_detection = 5
 			sub_detection = 3.5
 			sub_attack = 2.5
 			build_cost_ic = 250
@@ -818,7 +818,7 @@ equipment_modules = {
 		category = ship_airplane_launcher
 		parent = ship_airplane_launcher_2
 		add_stats = {
-			surface_detection = 5
+			surface_detection = 3.5
 			sub_detection = 4.5
 			sub_attack = 6
 			build_cost_ic = 200
@@ -854,7 +854,7 @@ equipment_modules = {
 		category = sub_airplane_launcher
 		
 		add_stats = {
-			surface_detection = 4
+			surface_detection = 2
 			naval_torpedo_hit_chance_factor = 0.01
 			build_cost_ic = 150
 		}
@@ -866,7 +866,7 @@ equipment_modules = {
 		category = sub_airplane_launcher
 		parent = sub_airplane_launcher_1
 		add_stats = {
-			surface_detection = 7
+			surface_detection = 4.5
 			naval_torpedo_hit_chance_factor = 0.02
 			hg_attack = 2
 			lg_attack = 1
