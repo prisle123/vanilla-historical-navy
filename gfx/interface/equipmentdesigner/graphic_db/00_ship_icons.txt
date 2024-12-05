@@ -1826,6 +1826,7 @@ ENG = {
 				"gfx/interface/technologies/England/ENG_heavy_cruiser_York.png"
 				"gfx/interface/technologies/England/ENG_light_cruiser_Arethusa.png"
 				"gfx/interface/technologies/England/ENG_light_cruiser_Adventure.png"
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
             }
         }
 
@@ -1853,6 +1854,7 @@ ENG = {
 				"gfx/interface/technologies/England/ENG_heavy_cruiser_York.png"
 				"gfx/interface/technologies/England/ENG_light_cruiser_Arethusa.png"
 				"gfx/interface/technologies/England/ENG_light_cruiser_Adventure.png"
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
             }
         }
 
@@ -1882,6 +1884,7 @@ ENG = {
 				"gfx/interface/technologies/England/ENG_heavy_cruiser_York.png"
 				"gfx/interface/technologies/England/ENG_light_cruiser_Arethusa.png"
 				"gfx/interface/technologies/England/ENG_light_cruiser_Adventure.png"
+				"gfx/interface/technologies/extra/ENG_light_cruiser_Tiger.png"
             }
         }
 
@@ -2087,6 +2090,7 @@ ENG = {
 				GFX_ENG_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_ENG_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_ENG_vnr_ship_hull_carrier_1_medium
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
 
@@ -2106,6 +2110,7 @@ ENG = {
 				GFX_ENG_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_ENG_vnr_ship_hull_carrier_1_medium
 				GFX_ENG_vnr_ship_hull_carrier_2_medium
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
 
@@ -2128,6 +2133,7 @@ ENG = {
 				GFX_ENG_vnr_ship_hull_carrier_3_medium
 				"gfx/interface/technologies/England/ENG_carrier_Furious.png"
 				"gfx/interface/technologies/England/ENG_carrier_Hermes.png"
+				"gfx/interface/technologies/extra/ENG_carrier_Colossus.png"
             }
         }
 
@@ -4881,6 +4887,7 @@ JAP = {
 
         pool = {
             icons = {
+				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
                 "gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
             }
@@ -4898,6 +4905,7 @@ JAP = {
 
         pool = {
             icons = {
+				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
                 GFX_JAP_vnr_ship_hull_super_heavy_1_medium
                 GFX_JAP_vnr_ship_hull_heavy_1_medium
 				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
@@ -4917,11 +4925,13 @@ JAP = {
 
         pool = {
             icons = {
+				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
                 GFX_JAP_vnr_ship_hull_super_heavy_1_medium
                 GFX_JAP_vnr_ship_hull_heavy_1_medium
 				GFX_JAP_vnr_ship_hull_heavy_2_medium
 				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
+				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
             }
         }
 
@@ -4937,12 +4947,14 @@ JAP = {
 
         pool = {
             icons = {
+				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
                 GFX_JAP_vnr_ship_hull_super_heavy_1_medium
                 GFX_JAP_vnr_ship_hull_heavy_1_medium
 				GFX_JAP_vnr_ship_hull_heavy_2_medium
 				GFX_JAP_vnr_ship_hull_heavy_3_medium
 				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
+				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
             }
         }
 
@@ -4958,6 +4970,7 @@ JAP = {
 
         pool = {
             icons = {
+				"gfx/interface/technologies/extra/JAP_battlecarrier_Ise.png"
                 GFX_JAP_vnr_ship_hull_super_heavy_1_medium
                 GFX_JAP_vnr_ship_hull_heavy_1_medium
 				GFX_JAP_vnr_ship_hull_heavy_2_medium
@@ -4965,6 +4978,7 @@ JAP = {
 				GFX_JAP_vnr_ship_hull_heavy_4_medium
 				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
+				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
             }
         }
 
@@ -5031,6 +5045,7 @@ JAP = {
 				GFX_JAP_vnr_ship_hull_carrier_conversion_bb_medium
                 "gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_conversion_ca.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
             }
         }
 
@@ -5051,6 +5066,8 @@ JAP = {
                 GFX_JAP_vnr_ship_hull_carrier_1_medium
 				"gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_conversion_ca.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Unryu.png"
             }
         }
 
@@ -5072,6 +5089,8 @@ JAP = {
 				GFX_JAP_vnr_ship_hull_carrier_2_medium
 				"gfx/interface/technologies/Japan/JAP_carrier_Hiryu.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_conversion_ca.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Unryu.png"
             }
         }
 
@@ -5096,6 +5115,8 @@ JAP = {
 				"gfx/interface/technologies/Japan/JAP_carrier_Shinano.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_Kaga.png"
 				"gfx/interface/technologies/Japan/JAP_carrier_conversion_ca.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Hiyo.png"
+				"gfx/interface/technologies/extra/JAP_carrier_Unryu.png"
             }
         }
 
@@ -8519,6 +8540,7 @@ USA = {
 				GFX_USA_vnr_ship_hull_light_2_medium
 				GFX_USA_vnr_ship_hull_light_3_medium
 				GFX_USA_vnr_ship_hull_light_4_medium
+				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
             }
         }
 
@@ -8539,6 +8561,7 @@ USA = {
 				GFX_USA_vnr_ship_hull_light_3_medium
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
+				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
             }
         }
 
@@ -8613,8 +8636,10 @@ USA = {
 				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_USA_vnr_ship_hull_cruiser_3_capital_medium
+				"gfx/interface/technologies/extra/USA_light_cruiser_Fargo.png"
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
             }
         }
 
@@ -8639,8 +8664,10 @@ USA = {
 				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_USA_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_USA_vnr_ship_hull_cruiser_4_capital_medium
+				"gfx/interface/technologies/extra/USA_light_cruiser_Fargo.png"
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
             }
         }
 
@@ -8667,8 +8694,11 @@ USA = {
 				GFX_USA_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_USA_vnr_ship_hull_cruiser_4_capital_medium
 				GFX_USA_vnr_ship_hull_cruiser_5_capital_medium
+				"gfx/interface/technologies/extra/USA_light_cruiser_Fargo.png"
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				"gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Long_Beach.png"
             }
         }
 
@@ -8699,6 +8729,7 @@ USA = {
 				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
 				"gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
+				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
             }
         }
 
@@ -8814,6 +8845,7 @@ USA = {
 				"gfx/interface/technologies/USA/USA_battleship_Tennessee.png"
 				"gfx/interface/technologies/USA/USA_battleship_Nevada.png"
 				"gfx/interface/technologies/USA/USA_battleship_New_York.png"
+				"gfx/interface/technologies/extra/USA_battleship_Iowa.png"
             }
         }
 
@@ -8922,6 +8954,8 @@ USA = {
 				GFX_USA_vnr_ship_hull_carrier_2_medium
 				GFX_USA_vnr_ship_hull_carrier_3_medium
 				"gfx/interface/technologies/USA/USA_carrier_Ranger.png"
+				"gfx/interface/technologies/extra/USA_carrier_Enterprise.png"
+				"gfx/interface/technologies/extra/USA_carrier_Forrestal.png"
             }
         }
 

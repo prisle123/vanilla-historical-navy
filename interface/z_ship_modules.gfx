@@ -292,6 +292,22 @@ spriteTypes = {
 		name = "GFX_SD_tv_civilian"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/topview_civilian.dds"
 	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_missile_launcher"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_missile_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_missile_launcher@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_missile_launcher@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_missile_launcher"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_rear_missile_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_missile_launcher@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_rear_missile_launcher@highlight.dds"
+	}
 
 
 	# double heavy battery
@@ -1388,5 +1404,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_sub_airplane_launcher_2"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_airplane_launcher_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_no_island"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_no_island.png"
 	}
 }
