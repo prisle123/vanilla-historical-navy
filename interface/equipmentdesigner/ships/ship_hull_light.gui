@@ -1222,6 +1222,29 @@ guiTypes = {
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
+				#### MODULE: Airplane Launcher ####
+				containerWindowType = {
+					name = "ship_airplane_launcher"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_mid_1_airplane_launcher"
+						position = { x=70 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_airplane_launcher@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_mid_1_airplane_launcher@highlight"
+						position = { x=70 y=0 }
+					}
+				}
 				#### MODULE: Torpedo ####
 				containerWindowType = {
 					name = "ship_torpedo"
