@@ -1,4 +1,4 @@
-version="v1.15 - Trafalgar"
+version="v1.16 - The Art of Ships"
 tags={
 	"Military"
 	"Graphics"
