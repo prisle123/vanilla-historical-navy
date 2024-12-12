@@ -360,7 +360,21 @@ equipments = {
 			mid_1_custom_slot = inherit
 			mid_2_custom_slot = inherit
 			rear_1_custom_slot = inherit
-			rear_2_custom_slot = inherit
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
+					ship_airplane_launcher
+				}
+			}
 		}
 
 
@@ -482,7 +496,23 @@ equipments = {
 					ship_missile_aa
 				}
 			}
-			rear_2_custom_slot = mid_1_custom_slot
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_light_battery 
+					ship_light_battery_double
+					dp_light_battery 
+					dp_light_battery_single
+					ship_airplane_launcher
+					ship_missile
+					ship_missile_aa
+				}
+			}
 		}
 
 

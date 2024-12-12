@@ -723,7 +723,7 @@ naval_unit_role_ratios_ENG_prewar_early = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 30
+		value = 50
 	}
 }
 
@@ -783,7 +783,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 50
+		value = 90
 	}
 }
 
@@ -829,7 +829,7 @@ naval_unit_role_ratios_ENG_atwar = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 65
+		value = 100
 	}
 }
 
@@ -1324,7 +1324,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 30
+		value = 55
 	}
 }
 
@@ -1374,7 +1374,7 @@ naval_unit_role_ratios_JAP_atwar = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 60
+		value = 90
 	}
 }
 
@@ -1432,7 +1432,7 @@ naval_unit_role_ratios_JAP_late_peace = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 30
+		value = 100
 	}
 }
 
@@ -1594,7 +1594,7 @@ naval_unit_role_ratios_USA_atwar = {
 	
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 90
+		value = 150
 	}
 }
 
@@ -1736,7 +1736,7 @@ naval_unit_role_ratios_ITA_atwar_with_England = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 40
+		value = 75
 	}
 }
 
@@ -1793,7 +1793,7 @@ naval_unit_role_ratios_ITA_atwar_with_major = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 50
+		value = 90
 	}
 }
 

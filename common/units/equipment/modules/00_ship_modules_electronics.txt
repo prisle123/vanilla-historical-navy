@@ -18,6 +18,21 @@ equipment_modules = {
 			surface_detection = 1
 		}
 	}
+	carrier_no_island = {
+		category = carrier_mast
+		gui_category = ship_radar
+
+		add_stats = {
+			build_cost_ic = -150
+			max_organisation = -0.1
+		}
+		multiply_stats = {
+			surface_detection = -0.1
+			surface_visibility = -0.01
+			naval_speed = 0.03
+		}
+		dismantle_cost_ic = 150
+	}
 	ship_radar_1 = {
 		abbreviation = "sbj"
 		category = ship_radar
