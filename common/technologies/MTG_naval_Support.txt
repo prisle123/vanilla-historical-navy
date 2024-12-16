@@ -3534,8 +3534,8 @@ technologies = {
 
 	sp_multi_product_supply_ships = {
 
-		underway_replenishment_range = 0.5
-		underway_replenishment_convoy_cost = -0.25
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.1
 
 		allow_branch = {
 			has_dlc = "Gotterdammerung"
@@ -3556,7 +3556,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.75
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1938
 		folder = {
 			name = mtgnavalsupportfolder
@@ -3579,15 +3579,15 @@ technologies = {
 			}
 		}
 
-		underway_replenishment_range = 0.5
-		underway_replenishment_convoy_cost = -0.25
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.1
 
 		force_use_small_tech_layout = yes
 		is_special_project_tech = yes
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.5
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1943
 		folder = {
 			name = mtgnavalsupportfolder
