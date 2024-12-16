@@ -375,6 +375,23 @@ equipment_modules = {
 			naval_torpedo_damage_reduction_factor = 0.01
 		}
 	}
+	carrier_no_island = {
+		category = carrier_miscellaneous
+
+		add_stats = {
+			build_cost_ic = -150
+			max_organisation = -0.1
+		}
+		multiply_stats = {
+			surface_detection = -0.1
+			surface_visibility = -0.01
+			naval_speed = 0.03
+		}
+		dismantle_cost_ic = 150
+		forbid_module_categories = {
+			ship_radar
+		}
+	}
 	carrier_strength_deck = {
 		category = carrier_miscellaneous
 		add_stats = {
