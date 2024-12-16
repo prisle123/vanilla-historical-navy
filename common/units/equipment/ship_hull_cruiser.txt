@@ -1030,11 +1030,11 @@ equipments = {
 
 		module_count_limit = {
 			category = ship_missile
-			count < 6
+			count < 5
 		}
 		module_count_limit = {
 			category = ship_missile_aa
-			count < 8
+			count < 5
 		}
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_5
