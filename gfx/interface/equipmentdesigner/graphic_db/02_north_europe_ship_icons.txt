@@ -1,0 +1,327 @@
+DEN = {
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_DEN_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Scandinavia/DEN_heavy_cruiser_Trolle.png"
+            }
+        }
+
+    }
+
+}
+
+
+SWE = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_light_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_light_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_light_1_medium
+				GFX_SWE_vnr_ship_hull_light_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_light_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_light_1_medium
+				GFX_SWE_vnr_ship_hull_light_2_medium
+				GFX_SWE_vnr_ship_hull_light_3_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_5 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_light_5_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_light_1_medium
+				GFX_SWE_vnr_ship_hull_light_2_medium
+				GFX_SWE_vnr_ship_hull_light_3_medium
+				GFX_SWE_vnr_ship_hull_light_4_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_cruiser_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_cruiser_1_medium
+				GFX_SWE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_cruiser_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_cruiser_1_medium
+				GFX_SWE_vnr_ship_hull_cruiser_2_medium
+				GFX_SWE_vnr_ship_hull_cruiser_3_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/Scandinavia/SWE_cruiser_Fylgia.png"
+				"gfx/interface/technologies/Scandinavia/SWE_cruiser_Oden.png"
+				GFX_SWE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_heavy_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_heavy_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_heavy_1_medium
+				GFX_SWE_vnr_ship_hull_heavy_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_4 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SWE_vnr_ship_hull_heavy_4_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_SWE_vnr_ship_hull_heavy_1_medium
+				GFX_SWE_vnr_ship_hull_heavy_2_medium
+				GFX_SWE_vnr_ship_hull_heavy_3_medium
+            }
+        }
+
+    }
+
+}
+
+
+NOR = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_NOR_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_NOR_vnr_ship_hull_light_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_NOR_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_3 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_NOR_vnr_ship_hull_light_3_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_NOR_vnr_ship_hull_light_1_medium
+				GFX_NOR_vnr_ship_hull_light_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_NOR_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+
+    }
+
+}
+
+
+FIN = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_FIN_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_FIN_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+
+    }
+
+}
