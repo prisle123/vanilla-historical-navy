@@ -512,6 +512,8 @@ makeup_starting_techs = {
 		set_technology = {
 			dry_dock = 1
 			heavy_crane = 1
+            repair_ship = 1
+            hospital_ship = 1
 			popup = no
 		}
 	}
