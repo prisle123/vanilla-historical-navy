@@ -482,7 +482,7 @@ naval_develop_category = {
 
 		remove_effect = {
 			set_technology = {
-				super_heavy_carrier_conversion = 1
+				converted_super_heavy_carrier = 1
 			}
 		}
 	}
