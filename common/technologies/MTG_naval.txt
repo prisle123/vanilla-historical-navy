@@ -3850,6 +3850,8 @@ technologies = {
 			ship_deck_space_more
 			carrier_spared_squad
 			carrier_wooden_deck
+			carrier_bb_conversion
+			carrier_bc_conversion
 		}
 		ship_hull_carrier_design_cost_factor = -0.1
 		path = {
@@ -5691,6 +5693,18 @@ technologies = {
 	merchant_carrier = {
 		enable_equipments = {
 			vnr_ship_hull_merchant_carrier
+		}
+
+		research_cost = 1
+		start_year = 1940
+
+		allow = {
+			always = no
+		}
+	}
+	converted_super_heavy_carrier = {
+		enable_equipments = {
+			carrier_shbb_conversion
 		}
 
 		research_cost = 1

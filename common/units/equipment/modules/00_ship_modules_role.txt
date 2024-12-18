@@ -323,4 +323,45 @@ equipment_modules = {
 			naval_range = 0.5
 		}
 	}
+
+
+
+#######################
+##  BB Carrier ROLE  ##
+#######################
+	carrier_bb_conversion = {
+		category = bb_carrier_role
+		multiply_stats = {
+			build_cost_ic = 0.1
+		}
+		dismantle_cost_ic = 100000
+		forbid_module_categories = {
+			ship_super_heavy_armor
+		}
+	}
+	carrier_bc_conversion = {
+		category = bb_carrier_role
+		add_stats = {
+			reliability = -0.1
+		}
+		multiply_stats = {
+			max_strength = -0.1
+			armor_value = -0.1
+		}
+		dismantle_cost_ic = 100000
+		forbid_module_categories = {
+			ship_super_heavy_armor
+		}
+	}
+	carrier_shbb_conversion = {
+		category = bb_carrier_role
+		add_stats = {
+			reliability = 0.1
+		}
+		multiply_stats = {
+			build_cost_ic = 0.2
+			max_strength = 0.1
+		}
+		dismantle_cost_ic = 100000
+	}
 }
