@@ -6,6 +6,10 @@ spriteTypes = {
         		name = "GFX_CHI_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_CHI_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -15,6 +19,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_CHI_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_CHI_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser6.png"
         	}
 	# heavy cruiser
 
@@ -29,6 +37,10 @@ spriteTypes = {
         		name = "GFX_PRC_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_PRC_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -38,6 +50,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_PRC_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_PRC_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser6.png"
         	}
 	# heavy cruiser
 
@@ -52,6 +68,10 @@ spriteTypes = {
         		name = "GFX_SHX_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_SHX_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -61,6 +81,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_SHX_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_SHX_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser6.png"
         	}
 	# heavy cruiser
 
@@ -75,6 +99,10 @@ spriteTypes = {
         		name = "GFX_MAN_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_MAN_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -84,6 +112,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_MAN_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_MAN_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser6.png"
         	}
 	# heavy cruiser
 
@@ -98,6 +130,10 @@ spriteTypes = {
         		name = "GFX_GXC_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_GXC_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -107,6 +143,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_GXC_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_GXC_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser6.png"
         	}
 	# heavy cruiser
 
@@ -121,6 +161,10 @@ spriteTypes = {
         		name = "GFX_XSM_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_XSM_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -130,6 +174,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_XSM_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_XSM_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser6.png"
         	}
 	# heavy cruiser
 
@@ -144,6 +192,10 @@ spriteTypes = {
         		name = "GFX_SIK_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_SIK_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -153,6 +205,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_SIK_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_SIK_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser6.png"
         	}
 	# heavy cruiser
 
@@ -167,6 +223,10 @@ spriteTypes = {
         		name = "GFX_YUN_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_destroyer1.png"
         	}
+			spriteType = {
+        		name = "GFX_YUN_vnr_ship_hull_light_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_destroyer6.png"
+        	}
 	# light cruiser
 
         	spriteType = {
@@ -176,6 +236,10 @@ spriteTypes = {
         	spriteType = {
         		name = "GFX_YUN_vnr_ship_hull_cruiser_2_medium"
         		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser2.png"
+        	}
+			spriteType = {
+        		name = "GFX_YUN_vnr_ship_hull_cruiser_6_medium"
+        		texturefile = "gfx/interface/technologies/China/CHI_light_cruiser6.png"
         	}
 	# heavy cruiser
 
