@@ -1,4 +1,4 @@
-version="v1.16 - The Art of Ships"
+version="v1.17 - Across Suez"
 tags={
 	"Military"
 	"Graphics"
