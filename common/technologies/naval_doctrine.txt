@@ -645,9 +645,6 @@ technologies = {
 			max_organisation = 20
 			sub_detection = 0.1
 		}
-		convoy = {
-			lg_attack = 1
-		}
 		navy_submarine_detection_factor = 0.1
 		convoy_escort_efficiency = 0.05
 		#####
@@ -3067,9 +3064,6 @@ technologies = {
 		destroyer = {
 			max_organisation = 5
 			naval_range = 0.1
-		}
-		convoy = {
-			lg_attack = 1
 		}
 		convoy_retreat_speed = 0.1
 		convoy_escort_efficiency = 0.05
