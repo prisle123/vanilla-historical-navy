@@ -142,7 +142,12 @@ update_ai_production_bonus = {
 
 ai_get_navy_experience = {
 	if = {
-		limit = { has_navy_experience < 50 }
+		limit = {
+			expert_ai_style = yes
+		}
+		navy_experience = 500
+	}
+	else = {
 		navy_experience = 100
 	}
 }
