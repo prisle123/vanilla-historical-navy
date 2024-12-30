@@ -128,5 +128,11 @@ ideas = {
                 industrial_capacity_dockyard = 0.6
             }
         }
+        vnr_shipyard_output_boost_half = {
+            name = vnr_shipyard_output_boost
+            modifier = {
+                industrial_capacity_dockyard = 0.3
+            }
+        }
     }
 }
