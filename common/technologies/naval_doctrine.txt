@@ -1664,7 +1664,7 @@ technologies = {
 		##! 	surface_detection = 0.15
 		##! }
 
-		screening_without_screens = 0.15
+		screening_without_screens = 0.1
 		#######
 
 		path = {
@@ -2348,8 +2348,8 @@ technologies = {
 			air_range = 0.2
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.1
-			naval_strike_attack_factor = 0.1
+			naval_strike_targetting_factor = 0.15
+			naval_strike_attack_factor = 0.15
 		}
 		##########
 		path = {
@@ -2445,7 +2445,7 @@ technologies = {
 		# EFFECT #############
 		naval_strike_targetting_factor = 0.15
 		naval_strike_attack_factor = 0.15
-		port_strike = 0.25
+		port_strike = 0.35
 		########
 
 		path = {
