@@ -698,7 +698,7 @@ equipment_modules = {
 			module = torpedo_defense_system
 			convert_cost_ic = 500
 		}
-		dismantle_cost_ic = 1000
+		dismantle_cost_ic = 2500
 	}
 	pugliese_system = {
 		category = torpedo_defense_system
@@ -711,7 +711,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.07
 		}
-		dismantle_cost_ic = 1500
+		dismantle_cost_ic = 3500
 	}
 	torpedo_belt = {
 		category = torpedo_defense_system
@@ -730,7 +730,7 @@ equipment_modules = {
 			module = torpedo_defense_system
 			convert_cost_ic = 800
 		}
-		dismantle_cost_ic = 2000
+		dismantle_cost_ic = 4500
 	}
 	torpedo_belt_enhanced = {
     	category = torpedo_defense_system
@@ -748,7 +748,7 @@ equipment_modules = {
 			module = torpedo_defense_system
 			convert_cost_ic = 1100
 		}
-		dismantle_cost_ic = 3000
+		dismantle_cost_ic = 5500
 	}
 
 
