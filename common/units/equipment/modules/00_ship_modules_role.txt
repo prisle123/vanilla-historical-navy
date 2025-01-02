@@ -356,12 +356,19 @@ equipment_modules = {
 	carrier_shbb_conversion = {
 		category = bb_carrier_role
 		add_stats = {
+			carrier_size = 2
 			reliability = 0.1
 		}
 		multiply_stats = {
-			build_cost_ic = 0.2
+			build_cost_ic = 0.5
 			max_strength = 0.1
+			naval_speed = -0.15
+			naval_range = 0.15
 		}
 		dismantle_cost_ic = 100000
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
 	}
 }
