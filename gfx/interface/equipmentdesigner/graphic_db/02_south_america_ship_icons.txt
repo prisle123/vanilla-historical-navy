@@ -1,0 +1,178 @@
+ARG = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ARG_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ARG_vnr_ship_hull_light_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_ARG_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ARG_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ARG_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_ARG_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_ARG_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+	vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ARG_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+    }
+
+    vnr_ship_hull_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_ARG_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+    }
+
+}
+
+
+BRA = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_BRA_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_BRA_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_BRA_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+    }
+
+}
+
+
+CHL = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHL_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHL_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_CHL_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+		pool = {
+			icons = {
+				"gfx/interface/technologies/South_America/CHL_light_cruiser_Chacabuco.png"
+			}
+		}
+
+    }
+
+	vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHL_vnr_ship_hull_cruiser_coastal_defense_ship_medium
+            }
+        }
+
+		pool = {
+			icons = {
+				"gfx/interface/technologies/South_America/CHL_light_cruiser_Chacabuco.png"
+			}
+		}
+
+    }
+
+    vnr_ship_hull_pre_dreadnought = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHL_vnr_ship_hull_pre_dreadnought_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_heavy_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_CHL_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+    }
+
+}

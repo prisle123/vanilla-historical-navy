@@ -2,7 +2,7 @@ sub_units = {
 	auxiliary_ship = {
 		sprite = auxiliary_ship
 		map_icon_category = ship
-		priority = 0
+		priority = 1
 		active = yes
 		type = { capital_ship }
 		need_equipment = { ship_hull_civilian = 1 }

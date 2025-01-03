@@ -2029,6 +2029,14 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 23 }
 		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
 	}
 
 
@@ -3033,6 +3041,7 @@ technologies = {
 		}
 
 		production_speed_dockyard_factor = 0.1
+		repair_speed_factor = 0.15
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
@@ -3534,8 +3543,8 @@ technologies = {
 
 	sp_multi_product_supply_ships = {
 
-		underway_replenishment_range = 0.5
-		underway_replenishment_convoy_cost = -0.25
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.1
 
 		allow_branch = {
 			has_dlc = "Gotterdammerung"
@@ -3556,7 +3565,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.75
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1938
 		folder = {
 			name = mtgnavalsupportfolder
@@ -3579,15 +3588,15 @@ technologies = {
 			}
 		}
 
-		underway_replenishment_range = 0.5
-		underway_replenishment_convoy_cost = -0.25
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.1
 
 		force_use_small_tech_layout = yes
 		is_special_project_tech = yes
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.5
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1943
 		folder = {
 			name = mtgnavalsupportfolder

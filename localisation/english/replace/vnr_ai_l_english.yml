@@ -43,12 +43,12 @@
  RULE_ALLOW_AI_TECH_AUTO_UNLOCK_FREE_DESC: "AI will automatically unlock a group of naval technologies in the run."
  RULE_ALLOW_AI_TECH_AUTO_UNLOCK_BLOCKED_DESC: "AI won't automatically unlock naval technologies in the run.\n§RThis changes AI's behavior of picking tech, and may also affect its research in other fields.§!"
 
- RULE_SHIPYARD_OUTPUT_BOOST: "Allow Shipyard Output Boost"
- RULE_OPTION_FREE_AI: "For AI Only"
- RULE_OPTION_FREE_PLAYER: "For Player Only"
- RULE_SHIPYARD_OUTPUT_BOOST_FREE_DESC: "Shipyard output is 4 IC per day, 60% faster than vanilla.\n§GThis is applied to both AI and player.§!"
- RULE_SHIPYARD_OUTPUT_BOOST_FREE_AI_DESC: "Shipyard output is 4 IC per day, 60% faster than vanilla.\n§GThis is applied to AI only.§!"
- RULE_SHIPYARD_OUTPUT_BOOST_FREE_PLAYER_DESC: "Shipyard output is 4 IC per day, 60% faster than vanilla.\n§GThis is applied to player only.§!"
+ RULE_SHIPYARD_OUTPUT_BOOST_PLAYER: "Player Shipyard Output Boost"
+ RULE_SHIPYARD_OUTPUT_BOOST_AI: "AI Shipyard Output Boost"
+ RULE_OPTION_BUFF_60: "Full"
+ RULE_OPTION_BUFF_30: "Half"
+ RULE_SHIPYARD_OUTPUT_BOOST_BUFF_60_DESC: "Shipyard output is 4 IC per day, §G60% faster§! than vanilla."
+ RULE_SHIPYARD_OUTPUT_BOOST_BUFF_30_DESC: "Shipyard output is 3.25 IC per day, §G30% faster§! than vanilla."
  RULE_SHIPYARD_OUTPUT_BOOST_BLOCKED_DESC: "Shipyard output is 2.5 IC per day, the same as vanilla."
  vnr_shipyard_output_boost: "VNR Shipyard Output Boost"
 

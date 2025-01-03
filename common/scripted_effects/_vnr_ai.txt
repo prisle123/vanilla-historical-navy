@@ -142,7 +142,12 @@ update_ai_production_bonus = {
 
 ai_get_navy_experience = {
 	if = {
-		limit = { has_navy_experience < 50 }
+		limit = {
+			expert_ai_style = yes
+		}
+		navy_experience = 500
+	}
+	else = {
 		navy_experience = 100
 	}
 }
@@ -150,15 +155,26 @@ ai_get_navy_experience = {
 set_shipyard_output_boost = {
 	if = {
 		limit = {
-			has_game_rule = { rule = shipyard_output_boost option = FREE_ALL }
+			has_game_rule = { rule = shipyard_output_boost_player option = BUFF_60 }
 		}
 		every_country = {
+			limit = { is_ai = no }
 			add_ideas = vnr_shipyard_output_boost
 		}
 	}
 	else_if = {
 		limit = {
-			has_game_rule = { rule = shipyard_output_boost option = FREE_AI }
+			has_game_rule = { rule = shipyard_output_boost_player option = BUFF_30 }
+		}
+		every_country = {
+			limit = { is_ai = no }
+			add_ideas = vnr_shipyard_output_boost_half
+		}
+	}
+	
+	if = {
+		limit = {
+			has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_60 }
 		}
 		every_country = {
 			limit = { is_ai = yes }
@@ -167,11 +183,11 @@ set_shipyard_output_boost = {
 	}
 	else_if = {
 		limit = {
-			has_game_rule = { rule = shipyard_output_boost option = FREE_PLAYER }
+			has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_30 }
 		}
 		every_country = {
-			limit = { is_ai = no }
-			add_ideas = vnr_shipyard_output_boost
+			limit = { is_ai = yes }
+			add_ideas = vnr_shipyard_output_boost_half
 		}
 	}
 }

@@ -131,11 +131,11 @@ equipments = {
 		}
 		module_count_limit = {
 			category = ship_missile
-			count < 3
+			count < 7
 		}
 		module_count_limit = {
 			category = ship_missile_aa
-			count < 4
+			count < 7
 		}
 		module_count_limit = {
 			module = ship_aa_fire_control

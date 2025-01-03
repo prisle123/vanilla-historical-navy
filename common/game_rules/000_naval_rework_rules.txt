@@ -52,26 +52,44 @@ allow_ai_tech_auto_unlock = {
 	}
 }
 
-shipyard_output_boost = {
-	name = RULE_SHIPYARD_OUTPUT_BOOST
+shipyard_output_boost_player = {
+	name = RULE_SHIPYARD_OUTPUT_BOOST_PLAYER
 	group = RULE_GROUP_NAVY_REWORK
 
 	default = {
-		name = FREE_ALL
-		text = RULE_OPTION_FREE
-		desc = RULE_SHIPYARD_OUTPUT_BOOST_FREE_DESC
+		name = BUFF_60
+		text = RULE_OPTION_BUFF_60
+		desc = RULE_SHIPYARD_OUTPUT_BOOST_BUFF_60_DESC
 		allow_achievements = yes
 	}
 	option = {
-		name = FREE_AI
-		text = RULE_OPTION_FREE_AI
-		desc = RULE_SHIPYARD_OUTPUT_BOOST_FREE_AI_DESC
+		name = BUFF_30
+		text = RULE_OPTION_BUFF_30
+		desc = RULE_SHIPYARD_OUTPUT_BOOST_BUFF_30_DESC
 		allow_achievements = yes
 	}
 	option = {
-		name = FREE_PLAYER
-		text = RULE_OPTION_FREE_PLAYER
-		desc = RULE_SHIPYARD_OUTPUT_BOOST_FREE_PLAYER_DESC
+		name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_SHIPYARD_OUTPUT_BOOST_BLOCKED_DESC
+		allow_achievements = yes
+	}
+}
+
+shipyard_output_boost_ai = {
+	name = RULE_SHIPYARD_OUTPUT_BOOST_AI
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = BUFF_60
+		text = RULE_OPTION_BUFF_60
+		desc = RULE_SHIPYARD_OUTPUT_BOOST_BUFF_60_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = BUFF_30
+		text = RULE_OPTION_BUFF_30
+		desc = RULE_SHIPYARD_OUTPUT_BOOST_BUFF_30_DESC
 		allow_achievements = yes
 	}
 	option = {
