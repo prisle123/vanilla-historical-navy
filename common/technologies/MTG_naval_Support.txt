@@ -2029,6 +2029,14 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 23 }
 		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			cat_torpedoes
+			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
+		}
 	}
 
 
