@@ -162,6 +162,37 @@ equipment_modules = {
 		dismantle_cost_ic = 1600
 	}
 
+##########################
+##  CARRIER HELICOPTER  ##
+##########################
+	carrier_helipad_asw = {
+		category = carrier_helipad
+		add_stats = {
+			surface_detection = 0.5
+			sub_detection = 6
+			sub_attack = 6
+			build_cost_ic = 350
+		}
+		multiply_stats = {
+			naval_speed = -0.005
+		}
+		dismantle_cost_ic = 100
+	}
+	carrier_helipad_aew = {
+		category = carrier_helipad
+		add_stats = {
+			surface_detection = 7
+			sub_detection = 1
+			sub_attack = 0.5
+			build_cost_ic = 350
+		}
+		multiply_stats = {
+			anti_air_attack = 0.05
+			naval_speed = -0.005
+		}
+		dismantle_cost_ic = 100
+	}
+
 
 ###################
 ##  FLIGHT DECK  ##
