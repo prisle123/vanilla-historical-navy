@@ -1280,4 +1280,17 @@ equipment_modules = {
 			naval_speed = -0.01
 		}
 	}
+	ship_armor_extra = {
+		category = heavy_miscellaneous
+		
+		multiply_stats = {
+			build_cost_ic = 0.025
+			naval_speed = -0.02
+		}
+		dismantle_cost_ic = 1000
+
+		add_stats = {
+			armor_value = 3
+		}
+	}
 }
