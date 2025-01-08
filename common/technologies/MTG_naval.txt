@@ -1562,9 +1562,6 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = -1 y = @1948_module }
 		}
-		dependencies = {
-			nuclear_reactor = 1
-		}
 
 		ai_will_do = {
 			factor = 2
