@@ -114,8 +114,14 @@ ideas = {
         }
         advanced_supply_fleet = {
             ledger = navy
+            available = {
+                has_navy_size = {
+                    archetype = ship_hull_civilian
+                    size > 30
+                }
+            }
             modifier = {
-                naval_attrition = -0.15
+                navy_fuel_consumption_factor = -0.15
                 navy_max_range_factor = 0.1
                 floating_harbor_supply = 0.4
                 floating_harbor_range = 0.4
