@@ -1370,6 +1370,12 @@ technologies = {
 	}
 
 	phased_array_radar = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_early_informatization_system
+			}
+		}
 		enable_equipment_modules = {
 			ship_radar_5
 		}
@@ -3646,6 +3652,12 @@ technologies = {
 		}
 	}
 	integrated_combat_system = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_early_informatization_system
+			}
+		}
 		research_cost = 1.5
 		enable_equipment_modules = {
 			ship_fire_control_system_5
