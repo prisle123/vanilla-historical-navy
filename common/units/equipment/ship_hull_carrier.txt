@@ -233,6 +233,12 @@ equipments = {
 					ship_deck_space_small
 				}
 			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_deck_space_converted
+				}
+			}
 		}
 
 		default_modules = {
