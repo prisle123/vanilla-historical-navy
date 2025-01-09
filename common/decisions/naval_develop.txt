@@ -467,6 +467,7 @@ naval_develop_category = {
 			has_tech = basic_ship_hull_carrier
 			has_tech = ship_hull_super_heavy
 			num_of_naval_factories > 12
+			NOT = { has_tech = converted_super_heavy_carrier }
 		}
 		available = {
 			has_navy_size = {
