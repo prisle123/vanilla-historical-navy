@@ -50,6 +50,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_sub
 					ship_mine_layer_sub
+					ship_extra_fuel_tank
 				}
 			}
 		}
@@ -225,7 +226,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
-			rear_1_custom_slot = front_1_custom_slot
+			rear_1_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -276,7 +277,7 @@ equipments = {
 					sub_ship_stealth
 				}
 			}
-			rear_1_custom_slot = front_1_custom_slot
+			rear_1_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -333,7 +334,7 @@ equipments = {
 			}
 			rear_1_custom_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo_sub ship_mine_layer_sub sub_rocket }
+				allowed_module_categories = { ship_torpedo_sub ship_mine_layer_sub sub_rocket ship_extra_fuel_tank }
 			}
 			rear_2_custom_slot = rear_1_custom_slot
 		}
