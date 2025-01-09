@@ -907,6 +907,7 @@ technologies = {
 			dd_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_capital_ship_and_modules
+			rocketry
 		}
 	}
 
@@ -1398,6 +1399,7 @@ technologies = {
 			cl_tech
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
+			electronics
 		}
 	}
 	new_ship_materials = {
@@ -1516,6 +1518,7 @@ technologies = {
 			cl_tech
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
+			electronics
 		}
 	}
 	advanced_radar_finder = {
@@ -1542,6 +1545,8 @@ technologies = {
 			cl_tech
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
+			electronics
+			radar_tech
 		}
 	}
 	nuclear_engine_research = {
@@ -1609,6 +1614,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
+			nuclear
 			bb_tech
 			bc_tech
 			ship_modules_tech
@@ -3483,6 +3489,8 @@ technologies = {
 			bb_tech
 			bc_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			radar_tech
 		}
 	}
 
@@ -3543,6 +3551,7 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
 		}
 	}
 
@@ -3593,6 +3602,8 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 
@@ -3620,6 +3631,8 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
+			electronics
+			computing_tech
 		}
 	}
 
@@ -3649,6 +3662,8 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 	integrated_combat_system = {
@@ -3687,6 +3702,8 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 	tactical_data_link = {
@@ -3716,6 +3733,8 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 	tactical_data_link_for_member = {
@@ -3754,6 +3773,8 @@ technologies = {
 			bb_tech
 			bc_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 	recon_drones = {
@@ -4624,6 +4645,8 @@ technologies = {
 			naval_equipment
 			cv_tech
 			mio_cat_tech_all_carrier_and_modules
+			electronics
+			radar_tech
 		}
 	}
 	airborne_early_warning = {
@@ -4648,6 +4671,8 @@ technologies = {
 			naval_equipment
 			cv_tech
 			mio_cat_tech_all_carrier_and_modules
+			electronics
+			radar_tech
 		}
 	}
 	iff_device = {
@@ -4670,6 +4695,7 @@ technologies = {
 			naval_equipment
 			cv_tech
 			mio_cat_tech_all_carrier_and_modules
+			electronics
 		}
 	}
 	optical_landing_system = {
@@ -4721,6 +4747,8 @@ technologies = {
 			naval_equipment
 			cv_tech
 			mio_cat_tech_all_carrier_and_modules
+			electronics
+			radar_tech
 		}
 	}
 
@@ -5551,6 +5579,7 @@ technologies = {
 			naval_equipment
 			ss_tech
 			mio_cat_tech_all_submarine_and_modules
+			rocketry
 		}
 	}
 	rescue_submarine = {
@@ -5873,6 +5902,8 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
+			electronics
+			radar_tech
 		}
 	}
 
