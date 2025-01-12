@@ -3683,9 +3683,6 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = -1 y = @1952 }
 		}
-		dependencies = {
-			phased_array_radar = 1
-		}
 		path = {
 			leads_to_tech = tactical_data_link
 			research_cost_coeff = 1

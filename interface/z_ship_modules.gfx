@@ -174,6 +174,10 @@ spriteTypes = {
 		name = "GFX_SMI_sub_airplane_launcher"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/airplane_launcher_icn.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_carrier_helipad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_helipad.png"
+	}
 	
 	# topview images
 	spriteType = {
@@ -1420,5 +1424,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_carrier_shbb_conversion"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_shbb_conversion.png"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_carrier_helipad_asw"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_helipad_asw.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_helipad_aew"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_helipad_aew.png"
 	}
 }

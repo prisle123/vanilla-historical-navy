@@ -692,6 +692,7 @@ equipments = {
 					carrier_helipad
 				}
 			}
+			rear_2_custom_slot = rear_1_custom_slot
 		}
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_4
@@ -790,9 +791,11 @@ equipments = {
 					ship_missile_aa
 					ship_secondaries
 					ship_dp_secondaries_bb
+					carrier_side_lift
 					carrier_helipad
 				}
 			}
+			rear_2_custom_slot = rear_1_custom_slot
 		}
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_4

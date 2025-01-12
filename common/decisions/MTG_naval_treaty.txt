@@ -695,7 +695,7 @@ MTG_naval_treaties = {
 		icon = generic_naval	
 		
 		available = {
-
+			always = no
 		}
 		days_mission_timeout = 86
 		
@@ -709,17 +709,19 @@ MTG_naval_treaties = {
 			has_naval_treaty_trigger = yes
 		}
 		timeout_effect = {
-			effect_tooltip = MTG_treaty_renew_mission_tt
+			custom_effect_tooltip = MTG_treaty_renew_mission_tt
 			if = {
 				limit = {
 					has_global_flag = { flag = MTG_naval_treaty_violator value > 0 }
 				}
+				custom_effect_tooltip = MTG_treaty_renew_mission_tt_a
 				activate_mission = MTG_escalator_clause_invocation_mission
 			}
 			if = {
 				limit = {
 					NOT = { has_country_flag = MTG_second_london_treaty_signed }
 				}
+				custom_effect_tooltip = MTG_treaty_renew_mission_tt_b
 				unlock_decision_tooltip = { decision = MTG_treaty_rejoin_mission }
 			}
             
