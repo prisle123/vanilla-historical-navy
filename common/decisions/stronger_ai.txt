@@ -11,4 +11,83 @@ navy_rework_category = {
             FROM = { country_event = vnr_ai.1 }
         }
 	}
+
+    shipyard_boost_for_new_tag_player = {
+        allowed = {
+            OR = {
+                has_game_rule = { rule = shipyard_output_boost_player option = BUFF_60 }
+                has_game_rule = { rule = shipyard_output_boost_player option = BUFF_30 }
+            }
+        }
+        available = {
+            always = no
+        }
+        days_mission_timeout = 1
+        activation = {
+            is_ai = no
+            OR = {
+                AND = {
+                    has_game_rule = { rule = shipyard_output_boost_player option = BUFF_60 }
+                    NOT = { has_idea = vnr_shipyard_output_boost }
+                }
+                AND = {
+                    has_game_rule = { rule = shipyard_output_boost_player option = BUFF_30 }
+                    NOT = { has_idea = vnr_shipyard_output_boost_half }
+                }
+            }
+        }
+        timeout_effect = {
+            if = {
+	        	limit = {
+	        		has_game_rule = { rule = shipyard_output_boost_player option = BUFF_60 }
+	        	}
+	        	add_ideas = vnr_shipyard_output_boost
+	        }
+	        else_if = {
+	        	limit = {
+	        		has_game_rule = { rule = shipyard_output_boost_player option = BUFF_30 }
+	        	}
+	        	add_ideas = vnr_shipyard_output_boost_half
+	        }
+        }
+    }
+    shipyard_boost_for_new_tag_ai = {
+        allowed = {
+            OR = {
+                has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_60 }
+                has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_30 }
+            }
+        }
+        available = {
+            always = no
+        }
+        days_mission_timeout = 1
+        activation = {
+            is_ai = yes
+            OR = {
+                AND = {
+                    has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_60 }
+                    NOT = { has_idea = vnr_shipyard_output_boost }
+                }
+                AND = {
+                    has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_30 }
+                    NOT = { has_idea = vnr_shipyard_output_boost_half }
+                }
+            }
+        }
+        timeout_effect = {
+            if = {
+	        	limit = {
+	        		has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_60 }
+	        	}
+	        	add_ideas = vnr_shipyard_output_boost
+	        }
+	        else_if = {
+	        	limit = {
+	        		has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_30 }
+	        	}
+	        	add_ideas = vnr_shipyard_output_boost_half
+	        }
+        }
+    }
 }
