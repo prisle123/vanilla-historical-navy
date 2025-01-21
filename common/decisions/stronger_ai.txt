@@ -24,6 +24,7 @@ navy_rework_category = {
         }
         days_mission_timeout = 1
         activation = {
+            date > 1936.1.2
             is_ai = no
             OR = {
                 AND = {
@@ -63,6 +64,7 @@ navy_rework_category = {
         }
         days_mission_timeout = 1
         activation = {
+            date > 1936.1.2
             is_ai = yes
             OR = {
                 AND = {
