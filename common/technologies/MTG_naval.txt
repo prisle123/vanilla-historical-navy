@@ -907,6 +907,7 @@ technologies = {
 			dd_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_capital_ship_and_modules
+			rocketry
 		}
 	}
 
@@ -1370,6 +1371,12 @@ technologies = {
 	}
 
 	phased_array_radar = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_early_informatization_system
+			}
+		}
 		enable_equipment_modules = {
 			ship_radar_5
 		}
@@ -1392,6 +1399,7 @@ technologies = {
 			cl_tech
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
+			electronics
 		}
 	}
 	new_ship_materials = {
@@ -1510,6 +1518,7 @@ technologies = {
 			cl_tech
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
+			electronics
 		}
 	}
 	advanced_radar_finder = {
@@ -1536,6 +1545,8 @@ technologies = {
 			cl_tech
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
+			electronics
+			radar_tech
 		}
 	}
 	nuclear_engine_research = {
@@ -1603,6 +1614,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
+			nuclear
 			bb_tech
 			bc_tech
 			ship_modules_tech
@@ -2144,6 +2156,8 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			ship_helipad
+			carrier_helipad_asw
+			carrier_helipad_aew
 		}
 
 		folder = {
@@ -3475,6 +3489,8 @@ technologies = {
 			bb_tech
 			bc_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			radar_tech
 		}
 	}
 
@@ -3535,6 +3551,7 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
 		}
 	}
 
@@ -3585,6 +3602,8 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 
@@ -3612,6 +3631,8 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
+			electronics
+			computing_tech
 		}
 	}
 
@@ -3641,9 +3662,17 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 	integrated_combat_system = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_early_informatization_system
+			}
+		}
 		research_cost = 1.5
 		enable_equipment_modules = {
 			ship_fire_control_system_5
@@ -3653,9 +3682,6 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -1 y = @1952 }
-		}
-		dependencies = {
-			phased_array_radar = 1
 		}
 		path = {
 			leads_to_tech = tactical_data_link
@@ -3673,6 +3699,8 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 	tactical_data_link = {
@@ -3702,6 +3730,8 @@ technologies = {
 			bc_tech
 			ship_modules_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 	tactical_data_link_for_member = {
@@ -3740,6 +3770,8 @@ technologies = {
 			bb_tech
 			bc_tech
 			mio_cat_tech_all_capital_ship_and_modules
+			electronics
+			computing_tech
 		}
 	}
 	recon_drones = {
@@ -4610,6 +4642,8 @@ technologies = {
 			naval_equipment
 			cv_tech
 			mio_cat_tech_all_carrier_and_modules
+			electronics
+			radar_tech
 		}
 	}
 	airborne_early_warning = {
@@ -4634,6 +4668,8 @@ technologies = {
 			naval_equipment
 			cv_tech
 			mio_cat_tech_all_carrier_and_modules
+			electronics
+			radar_tech
 		}
 	}
 	iff_device = {
@@ -4656,6 +4692,7 @@ technologies = {
 			naval_equipment
 			cv_tech
 			mio_cat_tech_all_carrier_and_modules
+			electronics
 		}
 	}
 	optical_landing_system = {
@@ -4707,6 +4744,8 @@ technologies = {
 			naval_equipment
 			cv_tech
 			mio_cat_tech_all_carrier_and_modules
+			electronics
+			radar_tech
 		}
 	}
 
@@ -5537,6 +5576,7 @@ technologies = {
 			naval_equipment
 			ss_tech
 			mio_cat_tech_all_submarine_and_modules
+			rocketry
 		}
 	}
 	rescue_submarine = {
@@ -5702,6 +5742,7 @@ technologies = {
 	converted_super_heavy_carrier = {
 		enable_equipment_modules = {
 			carrier_shbb_conversion
+			ship_deck_space_converted
 		}
 
 		research_cost = 1
@@ -5858,6 +5899,8 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
+			electronics
+			radar_tech
 		}
 	}
 

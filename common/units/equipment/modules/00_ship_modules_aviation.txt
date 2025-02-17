@@ -161,6 +161,61 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1600
 	}
+	ship_deck_space_converted = {
+		category = ship_deck_space_converted
+		gui_category = ship_deck_space
+		gfx = ship_deck_space
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 2
+			build_cost_ic = 2000
+			surface_detection = 4
+			supply_consumption = 0.015
+		}
+		manpower = 200 #outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.05
+			anti_air_attack = 0.025
+			fuel_consumption = 0.075
+		}
+		dismantle_cost_ic = 600
+		can_convert_from = {
+			module_category = ship_deck_space
+			convert_cost_ic = 1000
+		}
+	}
+
+##########################
+##  CARRIER HELICOPTER  ##
+##########################
+	carrier_helipad_asw = {
+		category = carrier_helipad
+		add_stats = {
+			surface_detection = 0.5
+			sub_detection = 6
+			sub_attack = 6
+			build_cost_ic = 350
+		}
+		multiply_stats = {
+			naval_speed = -0.005
+		}
+		dismantle_cost_ic = 100
+	}
+	carrier_helipad_aew = {
+		category = carrier_helipad
+		add_stats = {
+			surface_detection = 7
+			sub_detection = 1
+			sub_attack = 0.5
+			build_cost_ic = 350
+		}
+		multiply_stats = {
+			anti_air_attack = 0.05
+			naval_speed = -0.005
+		}
+		dismantle_cost_ic = 100
+	}
 
 
 ###################

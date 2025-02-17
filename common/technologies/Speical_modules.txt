@@ -47,4 +47,16 @@ technologies = {
             fra_11in_1931_quad
         }
     }
+
+    ita_extra_armor = {
+        research_cost = 1
+        start_year = 1936
+
+        allow = {
+            always = no
+        }
+        enable_equipment_modules = {
+            ship_armor_extra
+        }
+    }
 }

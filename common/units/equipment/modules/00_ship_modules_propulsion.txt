@@ -374,7 +374,7 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 15
-			build_cost_ic = 500
+			build_cost_ic = 1500
 			reliability = -0.3
 		}
 		
@@ -395,14 +395,14 @@ equipment_modules = {
 
 		add_stats = {
 			#naval_speed = 5
-			build_cost_ic = 3000
+			build_cost_ic = 4000
 			naval_range = 50000
 			reliability = -0.3
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.3
-			sub_visibility = -0.3
+			sub_visibility = -0.2
 			max_strength = -0.1
 			fuel_consumption = -1
 		}

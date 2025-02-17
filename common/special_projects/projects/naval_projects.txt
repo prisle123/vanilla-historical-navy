@@ -749,3 +749,105 @@ sp_arsenal_ship = {
 		sp_naval_generic_reward_test_failure_3			
 	}
 }
+
+sp_early_informatization_system = {
+	specialization = specialization_naval
+	project_tags = { sp_tag_surface_ship }
+    available = {
+		FROM = {
+			has_tech = naval_tactical_data_system
+		}
+    }
+	resource_cost = {
+		resources = { 
+			steel = 12
+			tungsten = 10
+			chromium = 14
+		}
+	}	
+    breakthrough_cost = {
+		specialization_naval = 2
+	}
+
+    prototype_time = sp_time.prototype.medium
+
+	complexity = sp_complexity.large
+
+	project_output = {
+		country_effects = {
+            custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = phased_array_radar
+			}
+			custom_override_tooltip = {	
+				tooltip = tech_effect|phased_array_radar
+				set_technology = {
+					phased_array_radar = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = integrated_combat_system
+			}
+			custom_override_tooltip = {	
+				tooltip = tech_effect|integrated_combat_system
+				set_technology = {
+					integrated_combat_system = 1
+					popup = no
+				}
+			}
+        }
+    }
+
+	unique_prototype_rewards = {
+		sp_early_informatization_system_unique_reward_a = {
+			fire_only_once = yes
+			threshold = {
+				min = 25
+				max = 75
+			}
+			weight = { base = 100 }
+			option = {
+				token = sp_early_informatization_system_perference_a
+				iteration_output = {
+					country_effects = {
+						add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							technology = tactical_data_link
+						}
+					}
+				}
+			}
+			option = {
+				token = sp_early_informatization_system_perference_b
+				iteration_output = {
+					country_effects = {
+						add_tech_bonus = {
+							bonus = 1
+							uses = 1
+							technology = tactical_data_link
+						}
+						sp:sp_early_informatization_system = { add_project_progress_ratio = -0.25 }
+					}
+				}
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_naval_generic_reward_scientist_xp_1
+		sp_naval_generic_reward_scientist_xp_2
+		sp_naval_generic_reward_scientist_xp_3
+		sp_naval_generic_reward_navy_xp_1
+		sp_naval_generic_reward_navy_xp_2
+		sp_naval_generic_reward_navy_xp_3
+		sp_naval_generic_reward_major_progress_1
+		sp_naval_generic_reward_major_progress_2
+		sp_naval_generic_reward_major_progress_3
+		sp_naval_generic_reward_test_failure_1
+		sp_naval_generic_reward_test_failure_2
+		sp_naval_generic_reward_test_failure_3			
+	}
+}

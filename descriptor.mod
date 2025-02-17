@@ -1,4 +1,4 @@
-version="v1.17 - Across Suez"
+version="v1.18 - Cape Matapan"
 tags={
 	"Military"
 	"Graphics"

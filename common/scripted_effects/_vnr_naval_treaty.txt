@@ -73,3 +73,13 @@ add_starting_navy_spirits = {
 		add_ideas = dartmouth_naval_academy
 	}
 }
+
+sign_naval_treaty = {
+	every_country = {
+		limit = { has_naval_treaty_trigger = yes }
+		country_event = {
+			id = MTG_naval_treaty.12
+			days = 60
+		}
+	}
+}

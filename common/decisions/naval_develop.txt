@@ -464,15 +464,17 @@ naval_develop_category = {
 	super_heavy_carrier_conversion = {
 		icon = GFX_decision_generic_construction
 		visible = {
-			has_tech = improved_ship_hull_carrier
+			has_tech = basic_ship_hull_carrier
 			has_tech = ship_hull_super_heavy
 			num_of_naval_factories > 12
+			NOT = { has_tech = converted_super_heavy_carrier }
 		}
 		available = {
 			has_navy_size = {
 				unit = SH_battleship
 				size > 0
 			}
+			has_tech = improved_ship_hull_carrier
 		}
 		fire_only_once = yes
 		days_remove = 90

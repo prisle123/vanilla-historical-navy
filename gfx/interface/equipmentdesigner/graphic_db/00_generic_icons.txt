@@ -378,27 +378,55 @@ default = {
     }
     vnr_ship_hull_civilian_1 = {
         pool = {
+			weight = 5
             icons = {
                 GFX_vnr_ship_hull_civilian_1_medium
             }
         }
+		pool = {
+			icons = {
+				"gfx/interface/technologies/extra/ENG_auxiliary_ship_Ben_my_Chree.png"
+				"gfx/interface/technologies/extra/ENG_auxiliary_ship_Empire_Faith.png"
+				"gfx/interface/technologies/extra/GER_auxiliary_ship_Otto.png"
+			}
+		}
     }
     vnr_ship_hull_civilian_2 = {
         pool = {
+			weight = 5
             icons = {
                 GFX_vnr_ship_hull_civilian_1_medium
                 GFX_vnr_ship_hull_civilian_3_medium
 				GFX_vnr_ship_hull_civilian_2_medium
             }
         }
+		pool = {
+			icons = {
+				"gfx/interface/technologies/extra/ENG_auxiliary_ship_Ben_my_Chree.png"
+				"gfx/interface/technologies/extra/ENG_auxiliary_ship_Empire_Faith.png"
+				"gfx/interface/technologies/extra/GER_auxiliary_ship_Otto.png"
+				"gfx/interface/technologies/extra/USA_auxiliary_ship_Currituck.png"
+				"gfx/interface/technologies/extra/USA_auxiliary_ship_Blue_Ridge.png"
+			}
+		}
     }
     vnr_ship_hull_civilian_3 = {
         pool = {
+			weight = 5
             icons = {
 				GFX_vnr_ship_hull_civilian_1_medium
 				GFX_vnr_ship_hull_civilian_2_medium
                 GFX_vnr_ship_hull_civilian_3_medium
             }
         }
+		pool = {
+			icons = {
+				"gfx/interface/technologies/extra/ENG_auxiliary_ship_Ben_my_Chree.png"
+				"gfx/interface/technologies/extra/ENG_auxiliary_ship_Empire_Faith.png"
+				"gfx/interface/technologies/extra/GER_auxiliary_ship_Otto.png"
+				"gfx/interface/technologies/extra/USA_auxiliary_ship_Currituck.png"
+				"gfx/interface/technologies/extra/USA_auxiliary_ship_Blue_Ridge.png"
+			}
+		}
     }
 }
