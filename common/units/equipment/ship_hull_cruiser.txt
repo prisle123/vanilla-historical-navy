@@ -189,6 +189,10 @@ equipments = {
 			module = structural_aluminum
 			count < 2
 		}
+		module_count_limit = {
+			module = ship_bulbous_bow
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
