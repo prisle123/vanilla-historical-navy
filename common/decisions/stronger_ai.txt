@@ -13,12 +13,6 @@ navy_rework_category = {
 	}
 
     shipyard_boost_for_new_tag_player = {
-        allowed = {
-            OR = {
-                has_game_rule = { rule = shipyard_output_boost_player option = BUFF_60 }
-                has_game_rule = { rule = shipyard_output_boost_player option = BUFF_30 }
-            }
-        }
         available = {
             always = no
         }
@@ -53,12 +47,6 @@ navy_rework_category = {
         }
     }
     shipyard_boost_for_new_tag_ai = {
-        allowed = {
-            OR = {
-                has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_60 }
-                has_game_rule = { rule = shipyard_output_boost_ai option = BUFF_30 }
-            }
-        }
         available = {
             always = no
         }

@@ -1282,6 +1282,7 @@ equipment_modules = {
 	}
 	ship_armor_extra = {
 		category = heavy_miscellaneous
+		gfx = ship_cruiser_armor
 		
 		multiply_stats = {
 			build_cost_ic = 0.025
