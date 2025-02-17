@@ -4765,6 +4765,7 @@ technologies = {
 			sub_ship_engine_1
 			pressure_hull_1
 			sub_ship_periscope_0
+			sub_conning_tower_0
 		}
 
 		sub_technologies = {
@@ -4944,6 +4945,7 @@ technologies = {
 			sub_ship_engine_4
 			pressure_hull_4
 			ship_sub_torpedo_computer_2
+			sub_conning_tower_1
 		}
 		path = {
 			leads_to_tech = improved_submarine_snorkel

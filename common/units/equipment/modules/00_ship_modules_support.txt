@@ -932,6 +932,29 @@ equipment_modules = {
 	}
 
 
+#####################
+##  CONNING TOWER  ##
+#####################
+	sub_conning_tower_0 = {
+		category = sub_conning_tower
+		add_stats = {
+			build_cost_ic = 50
+		}
+		dismantle_cost_ic = 100
+		forbid_module_categories = {
+			ship_radar
+			ship_sonar
+		}
+	}
+	sub_conning_tower_1 = {
+		category = sub_conning_tower
+		add_stats = {
+			build_cost_ic = 150
+		}
+		dismantle_cost_ic = 200
+	}
+
+
 #################
 ##  PERISCOPE  ##
 #################
