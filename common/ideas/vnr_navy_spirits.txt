@@ -148,6 +148,22 @@ ideas = {
 				}
             }
         }
+        lack_maintainence_facilities = {
+            ledger = navy
+            available = {
+				custom_trigger_tooltip = {
+					tooltip = recovering_from_naval_race_tt
+					NOT = { has_global_flag = vnr_enabled }
+				}
+            }
+            modifier = {
+                repair_speed_factor = -0.25
+                naval_morale_factor = -0.25
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
     }
 
     naval_command_spirit = {
