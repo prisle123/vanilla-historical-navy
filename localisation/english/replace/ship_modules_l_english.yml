@@ -38,6 +38,7 @@
  EQ_MOD_SLOT_fixed_ship_radar_slot_TITLE: "Radar/Sonar"
  EQ_MOD_SLOT_fixed_ship_engine_slot_TITLE: "Engine"
  EQ_MOD_SLOT_fixed_ship_armor_slot_TITLE: "Armor"
+ EQ_MOD_SLOT_fixed_ship_conning_tower_slot_TITLE: "Conning Tower"
  EQ_MOD_SLOT_front_1_custom_slot_TITLE: "Front 1 Custom"
  EQ_MOD_SLOT_front_2_custom_slot_TITLE: "Front 2 Custom"
  EQ_MOD_SLOT_mid_1_custom_slot_TITLE: "Mid 1 Custom"
@@ -1169,6 +1170,7 @@
  ship_armor_extra_desc: "The armoring of this ship is slightly strengthened."
 
  EQ_MOD_CAT_sub_conning_tower_TITLE: "Conning Tower"
+ EQ_MOD_CAT_ap_role_TITLE: "Auxiliary Role"
  sub_conning_tower_0: "Conning Tower"
  sub_conning_tower_0_desc: "A simple structure on submarine where commanding HQ is located."
  sub_conning_tower_1: "Improved Conning Tower"
