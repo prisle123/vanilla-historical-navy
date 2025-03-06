@@ -320,28 +320,6 @@ equipment_modules = {
 
 		dismantle_cost_ic = 1250
 	}
-	ship_carrier_armor_heavy = {
-		category = ship_carrier_armor_heavy
-		gfx = ship_heavy_armor
-		
-		multiply_stats = {
-			build_cost_ic = 0.2
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		multiply_stats = {
-			naval_speed = -0.1
-			max_strength = 0.3
-		}
-		add_stats = {
-			armor_value = 20
-			naval_torpedo_damage_reduction_factor = 0.2
-			naval_torpedo_enemy_critical_chance_factor = -0.15
-			reliability = 0.15
-		}
-		dismantle_cost_ic = 4500
-	}
 
 
 

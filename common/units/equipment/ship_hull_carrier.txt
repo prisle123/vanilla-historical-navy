@@ -52,7 +52,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor }
+				allowed_module_categories = { ship_carrier_armor }
 			}
 			fixed_ship_carrier_miscellaneous_slot_1 = { 
 				required = no
@@ -207,7 +207,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_super_heavy_armor ship_heavy_armor ship_cruiser_armor ship_cruiser_heavy_armor }
+				allowed_module_categories = { ship_carrier_armor ship_carrier_armor_heavy }
 			}
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = inherit
@@ -299,7 +299,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor }
+				allowed_module_categories = { ship_carrier_armor ship_carrier_armor_heavy }
 			}
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = inherit
@@ -645,7 +645,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = yes
-				allowed_module_categories = { ship_carrier_armor_heavy }
+				allowed_module_categories = { ship_carrier_armor ship_carrier_armor_heavy }
 			}
 			fixed_ship_carrier_miscellaneous_slot_1 = { 
 				required = no
@@ -696,7 +696,7 @@ equipments = {
 		}
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_4
-			fixed_ship_armor_slot = ship_carrier_armor_heavy
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_5
 		}
 
 		naval_range = 6000
@@ -749,7 +749,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = yes
-				allowed_module_categories = { ship_carrier_armor_heavy }
+				allowed_module_categories = { ship_carrier_armor ship_carrier_armor_heavy }
 			}
 			fixed_ship_carrier_miscellaneous_slot_1 = { 
 				required = no
@@ -799,7 +799,7 @@ equipments = {
 		}
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_4
-			fixed_ship_armor_slot = ship_carrier_armor_heavy
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_5
 		}
 
 		naval_range = 6000
