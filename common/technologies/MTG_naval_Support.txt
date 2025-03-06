@@ -2983,6 +2983,7 @@ technologies = {
 			fuel_tanker_silo
 			dry_cargo_storage
 			civilian_ship_engine_1
+			ship_hull_civilian_role_ap
 		}
 		special_project_specialization = { specialization_naval }
 		categories = {
@@ -3224,6 +3225,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			supply_hub
+			ship_hull_civilian_role_ao
 		}
 		folder = {
 			name = mtgnavalsupportfolder
@@ -3285,6 +3287,7 @@ technologies = {
 		enable_equipment_modules = {
 			civilian_ship_engine_2
 			supply_hub
+			ship_hull_civilian_role_ao
 		}
 
 		special_project_specialization = { specialization_naval }
