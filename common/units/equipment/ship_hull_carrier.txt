@@ -207,7 +207,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_carrier_armor ship_carrier_armor_heavy }
+				allowed_module_categories = { ship_carrier_armor ship_carrier_armor_heavy ship_armor_carrier_shbb }
 			}
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = inherit

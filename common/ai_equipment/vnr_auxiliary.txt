@@ -21,7 +21,6 @@ naval_auxiliary = {
 				fixed_ship_secondaries_slot = empty
                 fixed_ship_anti_air_slot = ship_anti_air
                 fixed_ship_engine_slot = { upgrade = current any_of = { civilian_ship_engine_2 civilian_ship_engine_1 } }
-				fixed_ship_role_slot = ship_hull_civilian_ap
                 front_1_custom_slot = fuel_tanker_silo
                 mid_1_custom_slot = fuel_tanker_silo
                 rear_1_custom_slot = dry_cargo_storage
@@ -45,7 +44,6 @@ naval_auxiliary = {
 				fixed_ship_secondaries_slot = ship_civilian_light_battery_1
                 fixed_ship_anti_air_slot = ship_anti_air
                 fixed_ship_engine_slot = { upgrade = current any_of = { civilian_ship_engine_2 civilian_ship_engine_1 } }
-				fixed_ship_role_slot = ship_hull_civilian_ap
                 front_1_custom_slot = fuel_tanker_silo
                 mid_1_custom_slot = supply_hub
                 rear_1_custom_slot = dry_cargo_storage
@@ -69,7 +67,6 @@ naval_auxiliary = {
 				fixed_ship_secondaries_slot = ship_civilian_light_battery_1
                 fixed_ship_anti_air_slot = ship_anti_air
                 fixed_ship_engine_slot = { upgrade = current any_of = { civilian_ship_engine_2 civilian_ship_engine_1 } }
-				fixed_ship_role_slot = ship_hull_civilian_ap
                 front_1_custom_slot = fuel_tanker_silo
                 mid_1_custom_slot = fuel_tanker_silo
                 mid_2_custom_slot = supply_hub
