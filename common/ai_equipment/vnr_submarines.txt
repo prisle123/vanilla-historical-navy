@@ -181,7 +181,6 @@ naval_sub = {
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_extra_secondaries_slot = oxygen_generator
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
-				fixed_ship_radar_slot = ship_radar
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -209,7 +208,6 @@ naval_sub = {
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				fixed_ship_extra_secondaries_slot = oxygen_generator
-				fixed_ship_radar_slot = ship_radar
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -237,7 +235,6 @@ naval_sub = {
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				fixed_ship_extra_secondaries_slot = vlf_receiver
-				fixed_ship_radar_slot = ship_radar
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}

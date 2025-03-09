@@ -178,6 +178,10 @@ spriteTypes = {
 		name = "GFX_SMI_carrier_helipad"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_helipad.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_carrier_armor_heavy"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_icn.dds"
+	}
 	
 	# topview images
 	spriteType = {
@@ -1433,5 +1437,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_carrier_helipad_aew"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_helipad_aew.png"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_hull_civilian_role_ap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_civilian_role_ap.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_civilian_role_ao"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_civilian_role_ao.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_civilian_role_av"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_civilian_role_av.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_conning_tower_0"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_conning_tower_0.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_conning_tower_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_conning_tower_1.png"
 	}
 }

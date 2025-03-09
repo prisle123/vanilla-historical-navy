@@ -2339,19 +2339,19 @@ we_need_cv_planes_2 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_fighter
-		value = 2
+		value = 3
 	}
 
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 2
+		value = 5
 	}
 	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 2
+		value = 5
 	}
 
 	ai_strategy = {
@@ -2409,19 +2409,19 @@ we_need_cv_planes_3 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_fighter
-		value = 3
+		value = 5
 	}
 
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 3
+		value = 8
 	}
 	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 3
+		value = 8
 	}
 
 	ai_strategy = {

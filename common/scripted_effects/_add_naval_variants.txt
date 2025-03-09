@@ -12,7 +12,7 @@ ENG_start_naval_variants = {
             fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_engine_slot = carrier_ship_engine_2
 			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_2
             fixed_ship_flight_deck_slot = carrier_armor_deck
 			front_1_custom_slot = ship_deck_space
         }
@@ -29,7 +29,7 @@ ENG_start_naval_variants = {
             fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_engine_slot = heavy_ship_engine_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_1
 			mid_1_custom_slot = ship_deck_space_small
         }
     }
@@ -44,7 +44,7 @@ ENG_start_naval_variants = {
             fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_engine_slot = heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
             fixed_ship_role_slot = carrier_bc_conversion
 			mid_1_custom_slot = ship_deck_space
             mid_2_custom_slot = ship_deck_space_small
@@ -64,7 +64,7 @@ ENG_start_naval_variants = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
             fixed_ship_carrier_miscellaneous_slot_2 = carrier_no_island
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
             fixed_ship_role_slot = carrier_bc_conversion
 			mid_1_custom_slot = ship_deck_space
         }
@@ -1045,7 +1045,7 @@ FRA_start_naval_variants = {
             fixed_ship_engine_slot = heavy_ship_engine_1
             fixed_ship_secondaries_slot = ship_secondaries_1
             fixed_ship_anti_air_slot = ship_anti_air_1_h
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_1
         }
     }
     # battleship
@@ -1579,7 +1579,7 @@ JAP_start_naval_variants = {
             fixed_ship_engine_slot = carrier_ship_engine_2
             fixed_ship_anti_air_slot = ship_anti_air_2
             fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
             front_1_custom_slot = ship_deck_space
         }
     }
@@ -1627,7 +1627,7 @@ JAP_start_naval_variants = {
             fixed_ship_engine_slot = carrier_ship_engine_2
             fixed_ship_anti_air_slot = ship_anti_air_2_h
             fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
-			fixed_ship_armor_slot = ship_armor_cruiser_heavy_2
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_2
             fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
             mid_1_custom_slot = ship_deck_space
             mid_2_custom_slot = ship_deck_space
@@ -1646,7 +1646,7 @@ JAP_start_naval_variants = {
             fixed_ship_engine_slot = carrier_ship_engine_2
             fixed_ship_anti_air_slot = ship_anti_air_2_h
             fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_cruiser_heavy_2
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_2
             mid_1_custom_slot = ship_deck_space
             mid_2_custom_slot = ship_deck_space
         }
@@ -1656,7 +1656,7 @@ JAP_start_naval_variants = {
         name = "Zuiho Class"
 		parent_version = 0
 		role_icon_index = 11
-		icon = "gfx/interface/technologies/Japan/JAP_carrier_conversion_ca.png"
+		icon = "gfx/interface/technologies/extra/JAP_carrier_Zuiho.png"
         type = vnr_ship_hull_carrier_1
         name_group = JAP_CVL_HISTORICAL
         modules = {
@@ -1699,7 +1699,7 @@ JAP_start_naval_variants = {
 			fixed_ship_engine_slot = super_heavy_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_2
 			fixed_ship_armor_slot = ship_armor_shbb
-            fixed_ship_armor_scheme_slot = ship_scheme_mixed
+            fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
 			fixed_ship_torpedo_defense_system_slot = torpedo_belt
 			front_1_custom_slot = ship_anti_air_2
 			front_2_custom_slot = ship_super_heavy_battery_1_triple
@@ -3471,7 +3471,7 @@ USA_start_naval_variants = {
             fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 			front_1_custom_slot = ship_deck_space
 			mid_1_custom_slot = ship_deck_space
-			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_armor_slot = ship_armor_carrier_1
 		}
 	}
     create_equipment_variant = {
@@ -3505,7 +3505,7 @@ USA_start_naval_variants = {
 			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_secondaries_slot = usa_8in_mk9_secondaries
-			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_armor_slot = ship_armor_carrier_heavy_2
             fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 		}
 	}

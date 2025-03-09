@@ -801,7 +801,7 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_2
 		parent = ship_airplane_launcher_1
 		add_stats = {
-			surface_detection = 5
+			surface_detection = 4
 			sub_detection = 3.5
 			sub_attack = 2.5
 			build_cost_ic = 250
@@ -818,7 +818,7 @@ equipment_modules = {
 		category = ship_airplane_launcher
 		parent = ship_airplane_launcher_2
 		add_stats = {
-			surface_detection = 3.5
+			surface_detection = 3
 			sub_detection = 4.5
 			sub_attack = 6
 			build_cost_ic = 200
@@ -830,7 +830,7 @@ equipment_modules = {
     recon_drone_1 = {
 		category = ship_airplane_launcher
 		add_stats = {
-			surface_detection = 2.5
+			surface_detection = 2
 			sub_detection = 3
 			build_cost_ic = 10
 		}
@@ -839,8 +839,8 @@ equipment_modules = {
 		category = seaplane_hangar
 		gui_category = ship_airplane_launcher
 		multiply_stats = {
-			surface_detection = 0.15
-			sub_detection = 0.15
+			surface_detection = 0.25
+			sub_detection = 0.25
 			naval_speed = -0.05
 			fuel_consumption = 0.05
 		}
@@ -866,7 +866,7 @@ equipment_modules = {
 		category = sub_airplane_launcher
 		parent = sub_airplane_launcher_1
 		add_stats = {
-			surface_detection = 4.5
+			surface_detection = 3.5
 			naval_torpedo_hit_chance_factor = 0.02
 			hg_attack = 2
 			lg_attack = 1
@@ -929,6 +929,29 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 350
 		}
+	}
+
+
+#####################
+##  CONNING TOWER  ##
+#####################
+	sub_conning_tower_0 = {
+		category = sub_conning_tower
+		add_stats = {
+			build_cost_ic = 50
+		}
+		dismantle_cost_ic = 100
+		forbid_module_categories = {
+			ship_radar
+			ship_sonar
+		}
+	}
+	sub_conning_tower_1 = {
+		category = sub_conning_tower
+		add_stats = {
+			build_cost_ic = 150
+		}
+		dismantle_cost_ic = 200
 	}
 
 

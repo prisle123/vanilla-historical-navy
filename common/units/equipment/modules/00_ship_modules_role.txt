@@ -370,4 +370,33 @@ equipment_modules = {
 			chromium = 1
 		}
 	}
+
+######################
+##  Auxiliary Role  ##
+######################
+	ship_hull_civilian_role_ap = {
+		category = ap_role
+		forbid_module_categories = {
+			seaplane_hangar
+		}
+	}
+	ship_hull_civilian_role_ao = {
+		category = ap_role
+		multiply_stats = {
+			build_cost_ic = 0.15
+			naval_range = 0.5
+			fuel_consumption = 0.1
+		}
+		forbid_module_categories = {
+			seaplane_hangar
+		}
+	}
+	ship_hull_civilian_role_av = {
+		category = ap_role
+		multiply_stats = {
+			build_cost_ic = 0.15
+			surface_detection = 0.1
+			sub_detection = 0.1
+		}
+	}
 }

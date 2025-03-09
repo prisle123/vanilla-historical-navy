@@ -572,6 +572,462 @@ equipment_modules = {
 	}
 
 
+#####################
+##  CARRIER ARMOR  ##
+#####################
+	ship_armor_carrier_1 = {
+		category = ship_carrier_armor
+		gfx = ship_armor_thin_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.05
+			naval_speed = -0.05
+		}
+		dismantle_cost_ic = 1500
+
+		add_stats = {
+			armor_value = 8
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 600
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 800
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor 
+			convert_cost_ic = 2500
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 3000
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 800
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 1000
+		}
+	}
+	ship_armor_carrier_2 = {
+		category = ship_carrier_armor
+		gfx = ship_armor_thin_2
+		parent = ship_armor_carrier_1
+		multiply_stats = {
+			build_cost_ic = 0.08
+			naval_speed = -0.075
+			max_strength = 0.05
+		}
+		dismantle_cost_ic = 1750
+		
+		add_stats = {
+			armor_value = 10
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 1200
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 3000
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 3500
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 1300
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 1500
+		}
+		can_convert_from = {
+			module = ship_armor_carrier_1
+			convert_cost_ic = 500
+		}
+	}
+	ship_armor_carrier_3 = {
+		category = ship_carrier_armor
+		gfx = ship_armor_thin_3
+		parent = ship_armor_carrier_2
+		multiply_stats = {
+			build_cost_ic = 0.12
+			naval_speed = -0.1
+			max_strength = 0.1
+		}
+		dismantle_cost_ic = 2000
+		
+		add_stats = {
+			armor_value = 12
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 1500
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 1700
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 3500
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 4000
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 1900
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 2100
+		}
+		can_convert_from = {
+			module = ship_armor_carrier_2
+			convert_cost_ic = 750
+		}
+	}
+	ship_armor_carrier_4 = {
+		category = ship_carrier_armor
+		gfx = ship_armor_thin_4
+		parent = ship_armor_carrier_3
+		multiply_stats = {
+			build_cost_ic = 0.15
+			naval_speed = -0.125
+			max_strength = 0.15
+		}
+		dismantle_cost_ic = 2250
+		
+		add_stats = {
+			armor_value = 14
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 2000
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 2200
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 4000
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 4500
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 2500
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 2700
+		}
+		can_convert_from = {
+			module = ship_armor_carrier_3
+			convert_cost_ic = 1000
+		}
+	}
+	ship_armor_carrier_heavy_1 = {
+		category = ship_carrier_armor_heavy
+		gfx = ship_armor_1
+		add_equipment_type = capital_ship
+		
+		multiply_stats = {
+			build_cost_ic = 0.08
+			naval_speed = -0.07
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+
+		add_stats = {
+			armor_value = 10
+		}
+		dismantle_cost_ic = 1500
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 1800
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 1500
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor 
+			convert_cost_ic = 2000
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 2500
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 1600
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 1800
+		}
+	}
+	ship_armor_carrier_heavy_2 = {
+		category = ship_carrier_armor_heavy
+		gfx = ship_armor_2
+		add_equipment_type = capital_ship
+		parent = ship_armor_cruiser_heavy_1
+		multiply_stats = {
+			build_cost_ic = 0.12
+			naval_speed = -0.1
+			max_strength = 0.1
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 15
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.05
+		}
+		dismantle_cost_ic = 2000
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 2400
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 2000
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor 
+			convert_cost_ic = 3000
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 3500
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 2000
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 2200
+		}
+		can_convert_from = {
+			module = ship_armor_carrier_heavy_1
+			convert_cost_ic = 1200
+		}
+	}
+	ship_armor_carrier_heavy_3 = {
+		category = ship_carrier_armor_heavy
+		gfx = ship_armor_3
+		add_equipment_type = capital_ship
+		parent = ship_armor_cruiser_heavy_2
+		multiply_stats = {
+			build_cost_ic = 0.15
+			naval_speed = -0.125
+			max_strength = 0.15
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 20
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.05
+		}
+		dismantle_cost_ic = 2500
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 2800
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 2500
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor 
+			convert_cost_ic = 3800
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 4300
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 2600
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 3000
+		}
+		can_convert_from = {
+			module = ship_armor_carrier_heavy_2
+			convert_cost_ic = 1800
+		}
+	}
+	ship_armor_carrier_heavy_4 = {
+		category = ship_carrier_armor_heavy
+		gfx = ship_armor_bc_4
+		add_equipment_type = capital_ship
+		parent = ship_armor_cruiser_heavy_3
+		multiply_stats = {
+			build_cost_ic = 0.18
+			naval_speed = -0.15
+			max_strength = 0.2
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 25
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.05
+			reliability = 0.05
+		}
+		dismantle_cost_ic = 3000
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 3300
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 3000
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor 
+			convert_cost_ic = 4500
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 5000
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 3000
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 3400
+		}
+		can_convert_from = {
+			module = ship_armor_carrier_heavy_3
+			convert_cost_ic = 2300
+		}
+	}
+	ship_armor_carrier_heavy_5 = {
+		category = ship_carrier_armor_heavy
+		gfx = ship_heavy_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.18
+			max_strength = 0.3
+		}
+		add_stats = {
+			armor_value = 30
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.15
+			reliability = 0.15
+		}
+		dismantle_cost_ic = 4500
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 4200
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 4000
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor 
+			convert_cost_ic = 5000
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 5500
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 4000
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 4500
+		}
+		can_convert_from = {
+			module = ship_armor_carrier_heavy_4
+			convert_cost_ic = 3000
+		}
+	}
+	ship_armor_carrier_shbb = {
+		category = ship_carrier_armor_shbb
+		gui_category = ship_carrier_armor_heavy
+		gfx = ship_heavy_armor
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.2
+			max_strength = 0.15
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 35
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.1
+		}
+		dismantle_cost_ic = 5500
+		can_convert_from = {
+			module_category = ship_heavy_armor 
+			convert_cost_ic = 5000
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 4000
+		}
+	}
+
+
 ####################
 ##  ARMOR SCHEME  ##
 ####################

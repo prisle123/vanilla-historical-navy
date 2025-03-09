@@ -3881,6 +3881,7 @@ technologies = {
 			carrier_wooden_deck
 			carrier_bb_conversion
 			carrier_bc_conversion
+			ship_hull_civilian_role_av
 		}
 		ship_hull_carrier_design_cost_factor = -0.1
 		path = {
@@ -3925,6 +3926,8 @@ technologies = {
 			ship_deck_space_armored
 			carrier_scouting_unit
 			carrier_no_island
+			ship_armor_carrier_1
+			ship_armor_carrier_heavy_1
 		}
 
 		path = {
@@ -3984,6 +3987,8 @@ technologies = {
 			carrier_ship_engine_2
 			carrier_ship_engine_2_diesel
 			carrier_secondary_island
+			ship_armor_carrier_2
+			ship_armor_carrier_heavy_2
 		}
 		path = {
 			leads_to_tech = dive_bomber_study
@@ -4042,6 +4047,8 @@ technologies = {
 			carrier_ship_engine_3
 			carrier_ship_engine_3_diesel
 			side_lift
+			ship_armor_carrier_3
+			ship_armor_carrier_heavy_3
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_carrier
@@ -4112,6 +4119,8 @@ technologies = {
 		enable_equipment_modules = {
 			carrier_ship_engine_4
 			carrier_ship_engine_4_diesel
+			ship_armor_carrier_4
+			ship_armor_carrier_heavy_4
 		}
 		research_cost = 1.75
 		path = {
@@ -4765,6 +4774,7 @@ technologies = {
 			sub_ship_engine_1
 			pressure_hull_1
 			sub_ship_periscope_0
+			sub_conning_tower_0
 		}
 
 		sub_technologies = {
@@ -4944,6 +4954,7 @@ technologies = {
 			sub_ship_engine_4
 			pressure_hull_4
 			ship_sub_torpedo_computer_2
+			sub_conning_tower_1
 		}
 		path = {
 			leads_to_tech = improved_submarine_snorkel
@@ -5743,6 +5754,7 @@ technologies = {
 		enable_equipment_modules = {
 			carrier_shbb_conversion
 			ship_deck_space_converted
+			ship_armor_carrier_shbb
 		}
 
 		research_cost = 1
@@ -5819,7 +5831,7 @@ technologies = {
 			vnr_ship_hull_super_carrier
 		}
 		enable_equipment_modules = {
-			ship_carrier_armor_heavy
+			ship_armor_carrier_heavy_5
 			ship_deck_space_big
 			ship_ski_jump_ramp
 		}

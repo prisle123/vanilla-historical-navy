@@ -92,13 +92,25 @@ Battlecarrier is a hybrid ship with features from both battleship and carrier, y
 
 In fact, super heavy battleship has no fundamental difference from ordinary battleships. It's just larger and more expensive with dedicated armor and engines.
 
+**Arsenal Ship**
+
+Basically a super expensive shore bombardment ship. Arsenal ship can carry all types of missiles including anti-ship, anti-air and ballistic missiles, which makes it the core of a battlefleet, only if you are wealthy enough to build one.
+
 **Escort Carrier**
 
 A cheap but very weak carrier. Escort carrier is unlocked around 1940-1941 in the techtree, it's basically a toy for major powers as the carrier count limit largely restricts its usage scenario, but it's still a perfect choice for anti-submarine missions in secondary theaters.
 
+**Merchant Carrier**
+
+Merchant carrier is an even cheaper option than escort carrier. In reality, it was simply a merchantman, with a crude flight deck glued to it. Cost is the only reason why you can add the ship into your list. By using conversion decision, you can turn convoys into a merchant carrier in a few months.
+
 **Super Carrier**
 
 Just like Essex or Midway post-refit, super carrier is a weapon with no shortcoming. By combining with modern carrier modules such as large armored hangar, steamed catapult and side lifts, a super carrier can possess a capacity of 130-150 planes. Except for its incredible cost, super carrier is the best type of carrier in the mod.
+
+**Strategic Strike Carrier**
+
+An equivalent to ice carrier in vanilla but with an actual historical background. The strategic strike carrier is based on USS United States planned right after WWII, it can carry 20 heavy jet bombers to carry out intercontinental nuclear strike. The design of this ship also reflects its duty in history. Its capacity might not be impressive in naval battle, but still useful if you need a sea-based airport against countries across the ocean. 
 
 **Panzerschiff**
 
@@ -170,9 +182,9 @@ VNR modifies some parts of naval game to make it more intense and realistic, and
 
 ### Fleet Composition ###
 
-The question of fleet composition is based on the concept of screen ratio. This part is identical in VNR and vanilla, which is 1:3. This means a capital ship (heavy ships and carriers) needs at least three screen ships (destroyers and light cruisers, basically anything in the first line of combat) to achieve max screen efficiency. Furthermore, carrier has its own version of screen efficiency that requires not only light ships but also heavy ships. This ratio is 1 to 1.
+The question of fleet composition is based on the concept of screen ratio. This part is changed in VNR, which is 1:2. This means a capital ship (heavy ships and carriers) needs at least two screen ships (destroyers and light cruisers, basically anything in the first line of combat) to achieve max screen efficiency. Furthermore, carrier has its own version of screen efficiency that requires not only light ships but also heavy ships. This ratio is 1 to 1.
 
-For example, let's say you have 1 carrier, then you need at least 1 battleship and 6 destroyers or light cruisers (3 for carrier, 3 for battleship) to get 100% efficiency for every ship. However, this is only the lowest standard for a fleet, because you can't avoid losses of ships in the combat. As a result, this ratio has to be expanded to allow some redundancy, like 1:1.5:8.
+For example, let's say you have 1 carrier, then you need at least 1 battleship and 4 destroyers or light cruisers (2 for carrier, 2 for battleship) to get 100% efficiency for every ship. However, this is only the lowest standard for a fleet, because you can't avoid losses of ships in the combat. As a result, this ratio has to be expanded to allow some redundancy, like 1:1.5:8.
 
 Besides, make sure your fleet has a min speed over 30kn, this is extremely important to strike forces.
 
@@ -188,7 +200,7 @@ To simulate carrier's capability to send over the horizon strikes, the duration 
 
 ### Positioning ###
 
-Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:3, you will need more ships to achieve max screen efficiency.
+Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:2, you will need more ships to achieve max screen efficiency.
 
 Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around.
 
