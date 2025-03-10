@@ -5260,11 +5260,11 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.25
+		research_cost = 0.7
 
 		start_year = 1939
 
-		naval_torpedo_cooldown_factor = -0.2
+		naval_torpedo_cooldown_factor = -0.125
 
 		folder = {
 			name = mtgnavalfolder
