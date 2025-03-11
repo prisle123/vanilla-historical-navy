@@ -1274,6 +1274,23 @@ equipment_modules = {
 			convert_cost_ic = 240
 		}
 	}
+	pressure_hull_5 = {
+		category = pressure_hull
+		parent = pressure_hull_4
+
+		add_stats = {
+			build_cost_ic = 600
+		}
+		multiply_stats = {
+			max_strength = 0.3
+			sub_visibility = -0.085
+			naval_speed = 0.1
+		}
+		can_convert_from = {
+			module_category = pressure_hull
+			convert_cost_ic = 400
+		}
+	}
 	anechoic_tile_1 = {
 		category = sub_ship_stealth
 		add_stats = {
