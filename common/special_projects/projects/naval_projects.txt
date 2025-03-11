@@ -558,6 +558,9 @@ sp_naval_rocket_launching_submarine = {
 			}
 			sub_missile_launcher
 		}
+		enable_equipment_modules = {
+			ship_cruise_missile_sub_1
+		}
 		country_effects = {
             custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH

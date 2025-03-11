@@ -5021,7 +5021,7 @@ technologies = {
 			position = { x = -1 y = 25 }
 		}
 		path = {
-			leads_to_tech = missile_submarine
+			leads_to_tech = modern_periscope
 			research_cost_coeff = 1
 		}
 		path = {
@@ -5560,17 +5560,12 @@ technologies = {
 		}
 	}
 
-	missile_submarine = {
-		research_cost = 1
+	modern_periscope = {
+		research_cost = 0.75
 		enable_equipment_modules = {
-			ship_cruise_missile_sub_1
+			sub_ship_periscope_4
+			sub_conning_tower_2
 		}
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_naval_rocket_launching_submarine
-			}
-		}
-		is_special_project_tech = yes
 
 		start_year = 1951
 
@@ -5587,8 +5582,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ss_tech
+			ship_modules_tech
 			mio_cat_tech_all_submarine_and_modules
-			rocketry
 		}
 	}
 	rescue_submarine = {

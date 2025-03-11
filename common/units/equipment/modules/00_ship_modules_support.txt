@@ -949,10 +949,23 @@ equipment_modules = {
 	}
 	sub_conning_tower_1 = {
 		category = sub_conning_tower
+		parent = sub_conning_tower_0
 		add_stats = {
 			build_cost_ic = 150
 		}
 		dismantle_cost_ic = 200
+	}
+	sub_conning_tower_2 = {
+		category = sub_conning_tower
+		parent = sub_conning_tower_1
+		add_stats = {
+			build_cost_ic = 250
+			reliability = 0.05
+		}
+		multiply_stats = {
+			naval_speed = 0.03
+		}
+		dismantle_cost_ic = 300
 	}
 
 
@@ -965,7 +978,7 @@ equipment_modules = {
 			sub_visibility = 0.06
 		}
 		add_stats = {
-			surface_detection = 8
+			surface_detection = 3
 			build_cost_ic = 10
 		}
 		can_convert_from = {
@@ -980,7 +993,7 @@ equipment_modules = {
 			sub_visibility = 0.05
 		}
 		add_stats = {
-			surface_detection = 10
+			surface_detection = 5
 			build_cost_ic = 30
 		}
 		can_convert_from = {
@@ -995,7 +1008,7 @@ equipment_modules = {
 			sub_visibility = 0.025
 		}
 		add_stats = {
-			surface_detection = 12
+			surface_detection = 8
 			build_cost_ic = 50
 		}
 		can_convert_from = {
@@ -1010,12 +1023,27 @@ equipment_modules = {
 			sub_visibility = 0.01
 		}
 		add_stats = {
-			surface_detection = 14
+			surface_detection = 11
 			build_cost_ic = 70
 		}
 		can_convert_from = {
 			module_category = sub_ship_periscope
 			convert_cost_ic = 56
+		}
+	}
+	sub_ship_periscope_4 = {
+		category = sub_ship_periscope
+		parent = sub_ship_periscope_3
+		multiply_stats = {
+			sub_visibility = 0.01
+		}
+		add_stats = {
+			surface_detection = 14
+			build_cost_ic = 120
+		}
+		can_convert_from = {
+			module_category = sub_ship_periscope
+			convert_cost_ic = 75
 		}
 	}
 
