@@ -738,6 +738,16 @@ equipment_modules = {
 			reliability = -0.15
 		}
 	}
+	sub_bow_sonar = {
+		category = submarine_miscellaneous
+		add_stats = {
+			sub_detection = 13
+			surface_detection = 5
+			reliability = -0.05
+			build_cost_ic = 150
+		}
+		dismantle_cost_ic = 600
+	}
 
 
 ###############

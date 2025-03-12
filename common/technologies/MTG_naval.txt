@@ -5641,6 +5641,9 @@ technologies = {
 		submarine = {
 			convoy_raiding_coordination = 0.1
 		}
+		enable_equipment_modules = {
+			sub_bow_sonar
+		}
 
 		start_year = 1953
 
