@@ -827,7 +827,7 @@ equipment_modules = {
 	}
 	ship_helipad = {
 		category = ship_airplane_launcher
-		parent = ship_airplane_launcher_2
+		gui_category = carrier_helipad
 		add_stats = {
 			surface_detection = 3
 			sub_detection = 4.5
