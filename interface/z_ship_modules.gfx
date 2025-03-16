@@ -1031,6 +1031,10 @@ spriteTypes = {
 		name = "GFX_SMI_sub_ship_periscope_3"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/periscope3.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_periscope_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/periscope4.png"
+	}
 	
 	spriteType = {
 		name = "GFX_SMI_ship_medium_heavy_battery_1_double"
@@ -1458,5 +1462,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_sub_conning_tower_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_conning_tower_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_conning_tower_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_conning_tower_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_bow_sonar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_bow_sonar.png"
 	}
 }
