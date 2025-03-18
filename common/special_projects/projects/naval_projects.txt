@@ -561,19 +561,6 @@ sp_naval_rocket_launching_submarine = {
 		enable_equipment_modules = {
 			ship_cruise_missile_sub_1
 		}
-		country_effects = {
-            custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH
-				TECH = missile_submarine
-			}
-			custom_override_tooltip = {	
-				tooltip = tech_effect|missile_submarine
-				set_technology = {
-					missile_submarine = 1
-					popup = no
-				}
-			}
-        }
 	}
 
 	generic_prototype_rewards = {
