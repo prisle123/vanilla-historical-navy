@@ -14,7 +14,7 @@
  advanced_sonar_desc: "Towed sonar is also known as variable depth sonar. It can operate in deeper waters to avoid the interference of ship noise.\n\nMounting this module in an §YElectronics Slot§! on §YLight Ships§! or §YCruisers§! will help them detect enemy §YSubmarines§!."
  naval_radio_guiding_system: "Naval Radio Guiding System"
  naval_radio_guiding_system_desc: "The idea of controlling objects remotely predates the invention of radio, but radio guidance exploits its feature of long-range transmission and makes the process wireless. Compared to inertial and preset guidance methods, radio guidance is more conducive to attacking moving ships by taking location of the target into consideration."
- ship_to_ship_missile: "Radio-Guided Anti-Ship Missile"
+ ship_to_ship_missile: "Radio-Guided Missile"
  ship_to_ship_missile_desc: "Based on antecedent breakthoughs in radio guided weapons, the radio guidance technology has become the last piece of puzzle in making a self-driven weapon to send powerful payloads from a long distance accurately. Either guided by remote or internal radio source, anti-ship missile is way more effective than conventional artillery and has attarcted most nations in the world to fill their arsenals with it."
  high_speed_light_engine: "High-Pressure Boiler"
  high_speed_light_engine_desc: "The ultra-high pressure boiler with superheaters can provide a stronger power of about 75,000 hp for the steam turbine. However, due to its unstable performance, it is currently only used on small ships such as destroyers."
@@ -397,3 +397,5 @@
  luneburg_lens_desc: "A Luneburg lens is a spherically symmetric gradient-index lens and can be made for use with electromagnetic radiation from visible light to radio waves. First introduced by Prof. Rudolf Luneburg, this device can be used in manufacture of microwave antenna. Compared to parabolic dish, the antenna with Luneburg lens possesses quite an advantage, which it can be steered by moving the feed around the lens without having to bodily rotate the whole antenna."
 
  converted_super_heavy_carrier: "Converted Super Heavy Carrier"
+ advanced_missile_system: "Active Radar Homing Missile"
+ advanced_missile_system_desc: "The post-war revolution in electronics has made smaller guidance system possible. The active radar homing technology allows missile to carry radar transceiver and electronics necessary to find and track its target autonomously, which becomes prototype of the later fire-and-forget technologies."

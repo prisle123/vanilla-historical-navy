@@ -875,17 +875,10 @@ technologies = {
 	}
 
 	destroyer_missile_upgrade = {
-		research_cost = 1.25
+		research_cost = 1
 		start_year = 1946
-		is_special_project_tech = yes
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_rockets_ballistic_missile
-			}
-		}
 
 		enable_equipment_modules = {
-			ship_missile_aa_1
 			ship_hull_light_role_dda
 		}
 
@@ -5928,7 +5921,11 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 4 }
+		}
+		path = {
+			leads_to_tech = advanced_missile_system
+			research_cost_coeff = 1
 		}
 
 		ai_will_do = {
@@ -5938,6 +5935,33 @@ technologies = {
 		enable_equipment_modules = {
 			ship_missile_1
 			ship_cruise_missile_1
+			ship_missile_aa_1
+		}
+
+		special_project_specialization = { specialization_naval }
+		categories = {
+			rocketry
+			naval_equipment
+			ship_modules_tech
+		}
+	}
+
+	advanced_missile_system = {
+		research_cost = 2
+		start_year = 1949
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		enable_equipment_modules = {
+			ship_missile_2
+			ship_missile_aa_2
 		}
 
 		special_project_specialization = { specialization_naval }

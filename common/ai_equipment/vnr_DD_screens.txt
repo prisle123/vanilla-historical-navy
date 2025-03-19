@@ -196,7 +196,7 @@ naval_screen = {
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_missile_aa
 				mid_1_custom_slot = ship_torpedo
-				mid_2_custom_slot = ship_missile_1
+				mid_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				rear_1_custom_slot = ship_depth_charge
 				rear_2_custom_slot = dp_light_battery
 			}
@@ -344,7 +344,7 @@ naval_screen = {
 			type = vnr_ship_hull_light_6
 			modules = {
 				fixed_ship_engine_slot = { upgrade > current any_of = { light_ship_engine_5 light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
-				fixed_ship_battery_slot = ship_missile_1
+				fixed_ship_battery_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_sonar
@@ -353,7 +353,7 @@ naval_screen = {
 				fixed_ship_extra_secondaries_slot = ship_radar_jammer
 				front_1_custom_slot = ship_missile_aa
 				mid_1_custom_slot = ship_torpedo
-				mid_2_custom_slot = ship_missile_1
+				mid_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				rear_1_custom_slot = ship_depth_charge
 				rear_2_custom_slot = ship_depth_charge
 			}

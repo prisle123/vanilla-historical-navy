@@ -134,6 +134,27 @@ equipment_modules = {
 		gui_category = ship_missile
 
 		add_stats = {
+			build_cost_ic = 700
+			hg_attack = 3
+			lg_attack = 3
+			anti_air_attack = 8
+			naval_heavy_gun_hit_chance_factor = 0.015
+			naval_light_gun_hit_chance_factor = 0.015
+			reliability = -0.05
+			max_strength = 3
+		}
+		multiply_stats = {
+			naval_speed = -0.03
+			surface_visibility = -0.01
+		}
+		dismantle_cost_ic = 400
+	}
+	ship_missile_aa_2 = {
+		category = ship_missile_aa
+		gui_category = ship_missile
+		parent = ship_missile_aa_1
+
+		add_stats = {
 			build_cost_ic = 1000
 			hg_attack = 5
 			lg_attack = 5
