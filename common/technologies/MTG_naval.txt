@@ -886,6 +886,9 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 3 y = 22 }
 		}
+		dependencies = {
+			ship_to_ship_missile = 1
+		}
 
 		ai_will_do = {
 			factor = 1
