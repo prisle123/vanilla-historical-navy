@@ -956,7 +956,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "module_selector_window"
 			position = { x=2 y=40 }
-			size = { width=538 height=500 }
+			size = { width=538 height=600 }
 			verticalScrollbar = "right_vertical_slider"
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
