@@ -50,6 +50,22 @@ ideas = {
 				}
             }
         }
+        murwik_naval_academy = {
+            ledger = navy
+            visible = { original_tag = GER }
+            modifier = {
+                navy_leader_start_level = 1
+                trait_ironside_xp_gain_factor = 0.15
+                trait_seawolf_xp_gain_factor = 0.15
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
     }
 
     navy_spirit = {

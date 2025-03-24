@@ -30,7 +30,7 @@ equipments = {
             }
             fixed_ship_airplane_launcher_slot = {
                 required = no
-                allowed_module_categories = { ship_airplane_launcher seaplane_hangar }
+                allowed_module_categories = { ship_airplane_launcher seaplane_hangar carrier_helipad }
             }
             fixed_ship_role_slot = {
                 required = yes
@@ -42,15 +42,15 @@ equipments = {
             }
             mid_1_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad }
             }
             mid_2_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad }
             }
             rear_1_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar civilian_ship_weapons }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad civilian_ship_weapons }
             }
         }
 
@@ -139,7 +139,7 @@ equipments = {
             }
             fixed_ship_airplane_launcher_slot = {
                 required = no
-                allowed_module_categories = { ship_airplane_launcher seaplane_hangar }
+                allowed_module_categories = { ship_airplane_launcher seaplane_hangar carrier_helipad }
             }
             fixed_ship_role_slot = {
                 required = yes
@@ -151,11 +151,11 @@ equipments = {
             }
             mid_1_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad }
             }
             rear_1_custom_slot = {
                 required = no
-                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar civilian_ship_weapons }
+                allowed_module_categories = { ship_auxiliary ship_airplane_launcher seaplane_hangar carrier_helipad civilian_ship_weapons }
             }
         }
 

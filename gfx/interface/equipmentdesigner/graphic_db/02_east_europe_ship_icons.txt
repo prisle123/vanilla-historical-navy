@@ -907,26 +907,6 @@ SOV = {
 
     }
 
-    vnr_ship_hull_carrier_conversion_ca = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
-            }
-        }
-
-    }
-
-    vnr_ship_hull_carrier_conversion_bb = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
-            }
-        }
-
-    }
-
     vnr_ship_hull_carrier_1 = {
         pool = {
             weight = 5
@@ -934,12 +914,6 @@ SOV = {
                 GFX_SOV_vnr_ship_hull_carrier_1_medium
             }
         }
-		pool = {
-			icons = {
-				GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
-			}
-		}
     }
 
     vnr_ship_hull_carrier_2 = {
@@ -952,8 +926,6 @@ SOV = {
 
         pool = {
             icons = {
-				GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_SOV_vnr_ship_hull_carrier_1_medium
             }
         }
@@ -970,8 +942,6 @@ SOV = {
 
         pool = {
             icons = {
-				GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_SOV_vnr_ship_hull_carrier_1_medium
 				GFX_SOV_vnr_ship_hull_carrier_2_medium
             }
@@ -989,8 +959,6 @@ SOV = {
 
         pool = {
             icons = {
-                GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium
-				GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium
 				GFX_SOV_vnr_ship_hull_carrier_1_medium
 				GFX_SOV_vnr_ship_hull_carrier_2_medium
 				GFX_SOV_vnr_ship_hull_carrier_3_medium

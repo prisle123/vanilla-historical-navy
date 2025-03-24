@@ -2330,14 +2330,6 @@ spriteTypes = {
 	# carrier
 
         	spriteType = {
-        		name = "GFX_SOV_vnr_ship_hull_carrier_conversion_ca_medium"
-        		texturefile = "gfx/interface/technologies/Soviet/SOV_carrier_conversion_ca.png"
-        	}
-        	spriteType = {
-        		name = "GFX_SOV_vnr_ship_hull_carrier_conversion_bb_medium"
-        		texturefile = "gfx/interface/technologies/Soviet/SOV_carrier_conversion_bb.png"
-        	}
-        	spriteType = {
         		name = "GFX_SOV_vnr_ship_hull_carrier_1_medium"
         		texturefile = "gfx/interface/technologies/Soviet/SOV_carrier2.png"
         	}

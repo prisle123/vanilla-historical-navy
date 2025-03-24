@@ -175,7 +175,7 @@ naval_capital_battleship = {
 				fixed_ship_extra_secondaries_slot = { any_of = { heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				mid_1_custom_slot = ship_dp_secondaries_bb
-				mid_2_custom_slot = ship_missile_1
+				mid_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				mid_3_custom_slot = ship_dp_secondaries_bb
 				rear_1_custom_slot = { any_of = { ship_heavy_battery_triple ship_super_heavy_battery } }
 				rear_2_custom_slot = ship_missile_aa

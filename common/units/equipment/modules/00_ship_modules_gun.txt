@@ -2187,7 +2187,30 @@ equipment_modules = {
 		category = ship_missile
 
 		add_stats = {
-			build_cost_ic = 1000
+			build_cost_ic = 800
+			hg_attack = 22
+			lg_attack = 16
+			naval_heavy_gun_hit_chance_factor = 0.025
+			naval_light_gun_hit_chance_factor = 0.025
+			reliability = -0.1
+			max_strength = 25
+		}
+		add_average_stats = {
+			hg_armor_piercing = 50
+			lg_armor_piercing = 24
+		}
+		multiply_stats = {
+			naval_speed = -0.08
+			surface_visibility = -0.02
+		}
+		dismantle_cost_ic = 600
+	}
+	ship_missile_2 = {
+		category = ship_missile
+		parent = ship_missile_1
+
+		add_stats = {
+			build_cost_ic = 1300
 			hg_attack = 30
 			lg_attack = 20
 			naval_heavy_gun_hit_chance_factor = 0.05
@@ -2203,7 +2226,7 @@ equipment_modules = {
 			naval_speed = -0.1
 			surface_visibility = -0.025
 		}
-		dismantle_cost_ic = 800
+		dismantle_cost_ic = 950
 	}
 	ship_cruise_missile_1 = {
 		category = ship_missile

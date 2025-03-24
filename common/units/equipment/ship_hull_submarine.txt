@@ -44,7 +44,7 @@ equipments = {
 				allowed_module_categories = { submarine_miscellaneous }
 			}
 			mid_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					sub_ship_periscope
 				}
@@ -407,7 +407,7 @@ equipments = {
 				}
 			}
 			mid_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					sub_ship_periscope
 				}
@@ -472,7 +472,7 @@ equipments = {
 			fixed_ship_conning_tower_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
 			mid_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					sub_ship_periscope
 				}

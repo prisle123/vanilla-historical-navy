@@ -336,7 +336,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 100000
 		forbid_module_categories = {
-			ship_super_heavy_armor
+			ship_carrier_armor_shbb
 			ship_deck_space_converted
 		}
 	}
@@ -351,7 +351,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 100000
 		forbid_module_categories = {
-			ship_super_heavy_armor
+			ship_carrier_armor_shbb
 			ship_deck_space_converted
 		}
 	}

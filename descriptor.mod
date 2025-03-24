@@ -1,4 +1,4 @@
-version="v1.19 - Armada"
+version="v1.20 - Nuclear Might"
 tags={
 	"Military"
 	"Graphics"

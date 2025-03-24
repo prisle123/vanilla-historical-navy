@@ -875,23 +875,19 @@ technologies = {
 	}
 
 	destroyer_missile_upgrade = {
-		research_cost = 1.25
+		research_cost = 1
 		start_year = 1946
-		is_special_project_tech = yes
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_rockets_ballistic_missile
-			}
-		}
 
 		enable_equipment_modules = {
-			ship_missile_aa_1
 			ship_hull_light_role_dda
 		}
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 3 y = 22 }
+		}
+		dependencies = {
+			ship_to_ship_missile = 1
 		}
 
 		ai_will_do = {
@@ -5008,6 +5004,7 @@ technologies = {
 			vnr_ship_hull_submarine_5
 		}
 		enable_equipment_modules = {
+			pressure_hull_5
 			ship_sub_torpedo_computer_3
 		}
 
@@ -5020,7 +5017,7 @@ technologies = {
 			position = { x = -1 y = 25 }
 		}
 		path = {
-			leads_to_tech = missile_submarine
+			leads_to_tech = modern_periscope
 			research_cost_coeff = 1
 		}
 		path = {
@@ -5260,11 +5257,11 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1.25
+		research_cost = 0.7
 
 		start_year = 1939
 
-		naval_torpedo_cooldown_factor = -0.2
+		naval_torpedo_cooldown_factor = -0.125
 
 		folder = {
 			name = mtgnavalfolder
@@ -5559,17 +5556,12 @@ technologies = {
 		}
 	}
 
-	missile_submarine = {
-		research_cost = 1
+	modern_periscope = {
+		research_cost = 0.75
 		enable_equipment_modules = {
-			ship_cruise_missile_sub_1
+			sub_ship_periscope_4
+			sub_conning_tower_2
 		}
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_naval_rocket_launching_submarine
-			}
-		}
-		is_special_project_tech = yes
 
 		start_year = 1951
 
@@ -5586,8 +5578,8 @@ technologies = {
 		categories = {
 			naval_equipment
 			ss_tech
+			ship_modules_tech
 			mio_cat_tech_all_submarine_and_modules
-			rocketry
 		}
 	}
 	rescue_submarine = {
@@ -5644,6 +5636,9 @@ technologies = {
 		research_cost = 0.6
 		submarine = {
 			convoy_raiding_coordination = 0.1
+		}
+		enable_equipment_modules = {
+			sub_bow_sonar
 		}
 
 		start_year = 1953
@@ -5929,7 +5924,11 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 4 }
+		}
+		path = {
+			leads_to_tech = advanced_missile_system
+			research_cost_coeff = 1
 		}
 
 		ai_will_do = {
@@ -5939,6 +5938,33 @@ technologies = {
 		enable_equipment_modules = {
 			ship_missile_1
 			ship_cruise_missile_1
+			ship_missile_aa_1
+		}
+
+		special_project_specialization = { specialization_naval }
+		categories = {
+			rocketry
+			naval_equipment
+			ship_modules_tech
+		}
+	}
+
+	advanced_missile_system = {
+		research_cost = 2
+		start_year = 1949
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 6 }
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		enable_equipment_modules = {
+			ship_missile_2
+			ship_missile_aa_2
 		}
 
 		special_project_specialization = { specialization_naval }

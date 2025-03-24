@@ -134,6 +134,27 @@ equipment_modules = {
 		gui_category = ship_missile
 
 		add_stats = {
+			build_cost_ic = 700
+			hg_attack = 3
+			lg_attack = 3
+			anti_air_attack = 8
+			naval_heavy_gun_hit_chance_factor = 0.015
+			naval_light_gun_hit_chance_factor = 0.015
+			reliability = -0.05
+			max_strength = 3
+		}
+		multiply_stats = {
+			naval_speed = -0.03
+			surface_visibility = -0.01
+		}
+		dismantle_cost_ic = 400
+	}
+	ship_missile_aa_2 = {
+		category = ship_missile_aa
+		gui_category = ship_missile
+		parent = ship_missile_aa_1
+
+		add_stats = {
 			build_cost_ic = 1000
 			hg_attack = 5
 			lg_attack = 5
@@ -402,6 +423,7 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 14
 			build_cost_ic = 80
+			naval_torpedo_hit_chance_factor = 0.01
 		}
 
 		multiply_stats = {
@@ -425,7 +447,7 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 18
 			build_cost_ic = 100
-			naval_torpedo_hit_chance_factor = 0.01
+			naval_torpedo_hit_chance_factor = 0.02
 		}
 
 		multiply_stats = {
@@ -453,7 +475,7 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 22
 			build_cost_ic = 120
-			naval_torpedo_hit_chance_factor = 0.015
+			naval_torpedo_hit_chance_factor = 0.03
 		}
 
 		multiply_stats = {
@@ -478,7 +500,7 @@ equipment_modules = {
 		add_stats = {
 			torpedo_attack = 26
 			build_cost_ic = 140
-			naval_torpedo_hit_chance_factor = 0.02
+			naval_torpedo_hit_chance_factor = 0.04
 		}
 
 		multiply_stats = {
@@ -503,7 +525,7 @@ equipment_modules = {
 			torpedo_attack = 30
 			sub_attack = 5
 			build_cost_ic = 180
-			naval_torpedo_hit_chance_factor = 0.025
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 
 		multiply_stats = {
@@ -737,6 +759,16 @@ equipment_modules = {
 			reliability = -0.15
 		}
 	}
+	sub_bow_sonar = {
+		category = submarine_miscellaneous
+		add_stats = {
+			sub_detection = 13
+			surface_detection = 5
+			reliability = -0.05
+			build_cost_ic = 150
+		}
+		dismantle_cost_ic = 600
+	}
 
 
 ###############
@@ -816,7 +848,7 @@ equipment_modules = {
 	}
 	ship_helipad = {
 		category = ship_airplane_launcher
-		parent = ship_airplane_launcher_2
+		gui_category = carrier_helipad
 		add_stats = {
 			surface_detection = 3
 			sub_detection = 4.5
@@ -948,10 +980,23 @@ equipment_modules = {
 	}
 	sub_conning_tower_1 = {
 		category = sub_conning_tower
+		parent = sub_conning_tower_0
 		add_stats = {
 			build_cost_ic = 150
 		}
 		dismantle_cost_ic = 200
+	}
+	sub_conning_tower_2 = {
+		category = sub_conning_tower
+		parent = sub_conning_tower_1
+		add_stats = {
+			build_cost_ic = 250
+			reliability = 0.05
+		}
+		multiply_stats = {
+			naval_speed = 0.03
+		}
+		dismantle_cost_ic = 300
 	}
 
 
@@ -964,7 +1009,7 @@ equipment_modules = {
 			sub_visibility = 0.06
 		}
 		add_stats = {
-			surface_detection = 8
+			surface_detection = 3
 			build_cost_ic = 10
 		}
 		can_convert_from = {
@@ -979,7 +1024,7 @@ equipment_modules = {
 			sub_visibility = 0.05
 		}
 		add_stats = {
-			surface_detection = 10
+			surface_detection = 5
 			build_cost_ic = 30
 		}
 		can_convert_from = {
@@ -994,7 +1039,7 @@ equipment_modules = {
 			sub_visibility = 0.025
 		}
 		add_stats = {
-			surface_detection = 12
+			surface_detection = 8
 			build_cost_ic = 50
 		}
 		can_convert_from = {
@@ -1009,12 +1054,27 @@ equipment_modules = {
 			sub_visibility = 0.01
 		}
 		add_stats = {
-			surface_detection = 14
+			surface_detection = 11
 			build_cost_ic = 70
 		}
 		can_convert_from = {
 			module_category = sub_ship_periscope
 			convert_cost_ic = 56
+		}
+	}
+	sub_ship_periscope_4 = {
+		category = sub_ship_periscope
+		parent = sub_ship_periscope_3
+		multiply_stats = {
+			sub_visibility = 0.01
+		}
+		add_stats = {
+			surface_detection = 14
+			build_cost_ic = 120
+		}
+		can_convert_from = {
+			module_category = sub_ship_periscope
+			convert_cost_ic = 75
 		}
 	}
 
