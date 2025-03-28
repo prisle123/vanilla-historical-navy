@@ -84,7 +84,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 2.5
+			lg_attack = 2
 			build_cost_ic = 40
 		}
 		multiply_stats = {
@@ -172,7 +172,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 4
+			lg_attack = 3.5
 			build_cost_ic = 80	
 		}
 		multiply_stats = {
@@ -265,7 +265,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			lg_attack = 4
+			lg_attack = 3.5
 			anti_air_attack = 1.25
 			build_cost_ic = 200
 		}
@@ -288,7 +288,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 6
+			lg_attack = 5
 			anti_air_attack = 1.75
 			naval_light_gun_hit_chance_factor = 0.01
 			build_cost_ic = 140
@@ -379,7 +379,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			lg_attack = 2.5
+			lg_attack = 2
 			anti_air_attack = 1
 			build_cost_ic = 100
 		}
@@ -402,7 +402,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 4
+			lg_attack = 3.5
 			anti_air_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.01
 			build_cost_ic = 100
