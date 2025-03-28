@@ -1377,4 +1377,21 @@ equipment_modules = {
 			armor_value = 3
 		}
 	}
+	ship_superheater = {
+		category = light_miscellaneous
+
+		add_stats = {
+			build_cost_ic = 350
+			reliability = -0.05
+		}
+		multiply_stats = {
+			naval_speed = 0.1
+		}
+		dismantle_cost_ic = 50
+		forbid_module_categories = {
+			light_ship_engine
+			civilian_ship_engine
+			cruiser_ship_engine
+		}
+	}
 }
