@@ -12,13 +12,14 @@ delete_starting_naval_oob = {
 
 special_project_workaround = {
 	USA = {
-		complete_special_project = {
-			project = sp:sp_naval_cruiser_submarine
-		}
+		complete_special_project = sp:sp_naval_cruiser_submarine
+		complete_special_project = sp:sp_super_heavy_guns
 	}
 	JAP = {
-		complete_special_project = {
-			project = sp:sp_naval_super_heavy_battleship
-		}
+		complete_special_project = sp_naval_super_heavy_battleship
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	ENG = {
+		complete_special_project = sp:sp_super_heavy_guns
 	}
 }
