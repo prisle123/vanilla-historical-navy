@@ -2913,8 +2913,14 @@ technologies = {
 			ship_armor_bc_2
 		}
 
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = basic_cruiser_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
+			custom_effect_tooltip = heavy_armor_research_tt
+			set_technology = { basic_cruiser_armor = 1 }
 		}
 
 		xp_research_type = navy
@@ -2954,8 +2960,14 @@ technologies = {
 			ship_armor_bc_3
 		}
 
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = improved_cruiser_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
+			custom_effect_tooltip = heavy_armor_research_tt
+			set_technology = { improved_cruiser_armor = 1 }
 		}
 
 		start_year = 1936
@@ -2999,8 +3011,14 @@ technologies = {
 			ship_armor_shbb_2
 		}
 
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = advanced_cruiser_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
+			custom_effect_tooltip = heavy_armor_research_tt
+			set_technology = { advanced_cruiser_armor = 1 }
 		}
 
 		xp_research_type = navy
