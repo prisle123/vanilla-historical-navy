@@ -1698,9 +1698,6 @@ technologies = {
 			ship_armor_cruiser_1
 			ship_armor_cruiser_heavy_1
 		}
-		on_research_complete = {
-			custom_effect_tooltip = cruiser_armor_advice_tt
-		}
 
 		xp_research_type = navy
 		xp_boost_cost = 20
@@ -1741,8 +1738,18 @@ technologies = {
 			ship_armor_cruiser_2
 			ship_armor_cruiser_heavy_2
 		}
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = basic_heavy_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = cruiser_armor_advice_tt
+			custom_effect_tooltip = cruiser_armor_research_tt
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				technology = basic_heavy_armor
+			}
 		}
 
 		xp_research_type = navy
@@ -1787,8 +1794,18 @@ technologies = {
 			ship_armor_cruiser_3
 			ship_armor_cruiser_heavy_3
 		}
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = improved_heavy_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = cruiser_armor_advice_tt
+			custom_effect_tooltip = cruiser_armor_research_tt
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				technology = improved_heavy_armor
+			}
 		}
 
 		xp_research_type = navy
@@ -1833,8 +1850,18 @@ technologies = {
 			ship_armor_cruiser_4
 			ship_armor_cruiser_heavy_4
 		}
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = advanced_heavy_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = cruiser_armor_advice_tt
+			custom_effect_tooltip = cruiser_armor_research_tt
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				technology = advanced_heavy_armor
+			}
 		}
 
 		xp_research_type = navy
