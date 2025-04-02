@@ -754,7 +754,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 80
+		value = 50
 	}
 
 	ai_strategy = {
@@ -772,7 +772,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 70
+		value = 150
 	}
 
 	ai_strategy = {
@@ -818,7 +818,7 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 50
+		value = 150
 	}
 
 	ai_strategy = {
@@ -1522,7 +1522,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 40
+		value = 120
 	}
 
 	ai_strategy = {
@@ -1572,7 +1572,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 80
+		value = 150
 	}
 	ai_strategy = {
 		type = role_ratio
