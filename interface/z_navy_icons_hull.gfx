@@ -2945,5 +2945,12 @@ spriteTypes = {
         		name = "GFX_GRE_vnr_ship_hull_light_1_medium"
         		texturefile = "gfx/interface/technologies/Balkan/GRE_destroyer1.png"
         	}
-}
 
+### MEX ###
+	# heavy cruiser
+	
+			spriteType = {
+        		name = "GFX_MEX_vnr_ship_hull_cruiser_coastal_defense_ship_medium"
+        		texturefile = "gfx/interface/technologies/South_America/MEX_cruiser_coastal_defense_ship.png"
+        	}
+}
