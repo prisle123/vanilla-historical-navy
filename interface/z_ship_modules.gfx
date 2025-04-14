@@ -907,6 +907,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_hull_cruiser_role_mo"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_mo.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_cruiser_role_cgaa"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_cgaa.png"
+	}
 	
 	## scheme & TDS
 	spriteType = {
@@ -1482,5 +1486,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_sub_bow_sonar"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_bow_sonar.png"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_superheater"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_superheater.png"
 	}
 }
