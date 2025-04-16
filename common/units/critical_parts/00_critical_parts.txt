@@ -136,13 +136,16 @@ critical_parts = {
 
     damaged_fire_control = {
         icon = "GFX_default_critical_damage_icons"
-		frame = 6
+		frame = 3
         stat_penalties = {
             naval_light_gun_hit_chance_factor = -0.5
             naval_heavy_gun_hit_chance_factor = -0.5
         }
         chance = 0.15
+		org_damage_multiplier = 0.25
+		str_damage_multiplier = 0.25
         base_damage_instance = 1
+		damage_instance_per_added_module = 1
         max_damage_instance = 1
     }
     damaged_wooden_flight_deck = {
@@ -154,8 +157,12 @@ critical_parts = {
 		modifier = {
 			navy_org_factor = -0.3
 		}
-        org_damage_multiplier = 1.25
-        str_damage_multiplier = 1.25
+		chance = 0.75
+        org_damage_multiplier = 1
+        str_damage_multiplier = 1
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
     }
 	damaged_armored_flight_deck = {
         icon = "GFX_default_critical_damage_icons"
@@ -166,9 +173,12 @@ critical_parts = {
 		modifier = {
 			navy_org_factor = -0.15
 		}
-        chance = 0.75
-        org_damage_multiplier = 1
-        str_damage_multiplier = 1
+        chance = 0.5
+        org_damage_multiplier = 0.75
+        str_damage_multiplier = 0.75
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
     }
     gas_leakage = {
         icon = "GFX_default_critical_damage_icons"
