@@ -262,11 +262,9 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_heavy_battery
 					ship_anti_air
 				}
 			}
-			front_2_custom_slot = front_1_custom_slot
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -277,7 +275,6 @@ equipments = {
 					ship_airplane_launcher
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -286,7 +283,6 @@ equipments = {
 					ship_heavy_battery
 				}
 			}
-			rear_2_custom_slot = rear_1_custom_slot
 		}
 
 		default_modules = {
@@ -297,10 +293,10 @@ equipments = {
 		}
 		naval_range = 2000
 
-		max_strength = 180
+		max_strength = 120
 		naval_speed = 21
 		fuel_consumption = 67
-		reliability = 0.65
+		reliability = 0.5
 		build_cost_ic = 2000
 		resources = {
 			steel = 2
@@ -308,71 +304,8 @@ equipments = {
 		}
 
 		manpower = 1500
-		module_count_limit = {
-			module = ship_heavy_battery_big_1
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_heavy_battery_2
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_heavy_battery_3
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_heavy_battery_4
-			count < 1
-		}
-		module_count_limit = {
-			module = heavy_ship_engine_2
-			count < 1
-		}
-		module_count_limit = {
-			module = heavy_ship_engine_3
-			count < 1
-		}
-		module_count_limit = {
-			module = heavy_ship_engine_4
-			count < 1
-		}
-		module_count_limit = {
-			module = heavy_ship_engine_5
-			count < 1
-		}
-		module_count_limit = {
-			module = heavy_ship_engine_2_diesel
-			count < 1
-		}
-		module_count_limit = {
-			module = heavy_ship_engine_3_diesel
-			count < 1
-		}
-		module_count_limit = {
-			module = heavy_ship_engine_4_diesel
-			count < 1
-		}
-		module_count_limit = {
-			module = heavy_ship_engine_4_gas
-			count < 1
-		}
-		module_count_limit = {
-			module = heavy_ship_engine_nuclear
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_scheme_incremental_post_jutland
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_scheme_all_or_nothing
-			count < 1
-		}
-		module_count_limit = {
-			module = ship_scheme_all_or_nothing_armor_box
-			count < 1
-		}
 	}
+
 
 	vnr_ship_hull_heavy_1 = {
 		derived_variant_name = battleship_equipment_1
