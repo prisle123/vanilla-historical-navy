@@ -52,7 +52,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { light_ship_engine }
+				allowed_module_categories = { light_ship_engine light_ship_engine_high_speed }
 			}
 			fixed_ship_role_slot = {
 				required = yes
