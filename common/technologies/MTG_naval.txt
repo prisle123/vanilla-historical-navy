@@ -760,6 +760,12 @@ technologies = {
 	}
 
 	high_speed_light_engine = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_high_speed_light_engine
+			}
+		}
 		research_cost = 0.8
 		enable_equipment_modules = {
 			light_ship_engine_6
