@@ -1492,4 +1492,12 @@ spriteTypes = {
 		name = "GFX_SMI_ship_superheater"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_superheater.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_secondaries_light_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries_light1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_secondaries_light_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries_light2.png"
+	}
 }
