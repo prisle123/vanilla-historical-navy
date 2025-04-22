@@ -2009,6 +2009,51 @@ equipment_modules = {
 		critical_parts = { damaged_secondaries }
 	}
 
+	ship_secondaries_1_light = {
+		category = ship_secondaries_light
+		gui_category = ship_secondaries
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			lg_attack = 1.5
+			build_cost_ic = 180
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 5
+		}
+		
+		dismantle_cost_ic = 54
+		critical_parts = { damaged_secondaries }
+	}
+
+	ship_secondaries_2_light = {
+		category = ship_secondaries_light
+		gui_category = ship_secondaries
+		parent = ship_secondaries_1_light
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 2.5
+			build_cost_ic = 240
+		}
+		multiply_stats = {
+			naval_speed = -0.015
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 7
+		}
+		
+		dismantle_cost_ic = 72
+		critical_parts = { damaged_secondaries }
+	}
+
 	dp_ship_secondaries_1 = {
 		abbreviation = "sax"
 		category = ship_dp_secondaries

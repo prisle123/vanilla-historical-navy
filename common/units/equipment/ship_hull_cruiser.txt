@@ -50,7 +50,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+				allowed_module_categories = { ship_secondaries_light ship_dp_secondaries }
 			}
 			fixed_ship_armor_slot = {
 				required = no
@@ -104,7 +104,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
-					ship_secondaries
+					ship_secondaries_light
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
@@ -342,7 +342,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_anti_air
-					ship_secondaries
+					ship_secondaries_light
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
@@ -480,7 +480,7 @@ equipments = {
 					ship_anti_air
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double
-					ship_secondaries
+					ship_secondaries_light
 					ship_dp_secondaries
 				}
 			}
@@ -489,7 +489,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_secondaries
+					ship_secondaries_light
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_torpedo
@@ -606,7 +606,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+				allowed_module_categories = { ship_secondaries_light ship_dp_secondaries }
 			}
 			fixed_ship_armor_slot = {
 				required = no
@@ -660,7 +660,7 @@ equipments = {
 					dp_light_battery_single
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double 
-					ship_secondaries
+					ship_secondaries_light
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
@@ -853,7 +853,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_anti_air
-					ship_secondaries
+					ship_secondaries_light
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
@@ -990,7 +990,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_anti_air
-					ship_secondaries
+					ship_secondaries_light
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
@@ -1112,7 +1112,7 @@ equipments = {
 					ship_light_battery_double
 					dp_light_battery
 					dp_light_battery_single
-					ship_secondaries
+					ship_secondaries_light
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_mine_layer

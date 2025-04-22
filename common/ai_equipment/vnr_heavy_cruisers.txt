@@ -26,7 +26,7 @@ naval_cruiser_heavy = {
 					module = empty
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_torpedo
@@ -57,7 +57,7 @@ naval_cruiser_heavy = {
 					module = empty
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				front_1_custom_slot = ship_medium_battery

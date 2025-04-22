@@ -27,7 +27,7 @@ naval_cruiser_medium = {
 					module = empty
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_medium_battery
 				mid_1_custom_slot = ship_anti_air

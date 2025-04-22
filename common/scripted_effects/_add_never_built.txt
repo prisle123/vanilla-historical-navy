@@ -564,7 +564,7 @@ KuK_never_built_blueprints = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = empty
-			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_secondaries_slot = ship_secondaries_1_light
 			front_1_custom_slot = ship_light_battery_1
 			front_2_custom_slot = ship_light_battery_1
 			mid_1_custom_slot = ship_torpedo_1
@@ -656,7 +656,7 @@ km_never_built_blueprints = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Kaiser Class"  
+		name = "Kaiser Class"
 		role_icon_index = 4
 		icon = "gfx/interface/technologies/Fun/GER_pre_dreadnought.png"
 		type = vnr_ship_hull_heavy_1
@@ -679,7 +679,7 @@ km_never_built_blueprints = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "König Class"  
+		name = "König Class"
 		role_icon_index = 4
 		icon = "gfx/interface/technologies/Fun/GER_pre_dreadnought.png"
 		type = vnr_ship_hull_heavy_1

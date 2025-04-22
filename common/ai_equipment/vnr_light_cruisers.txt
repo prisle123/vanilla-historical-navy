@@ -25,7 +25,7 @@ naval_cruiser_light = {
 				fixed_ship_engine_slot = { upgrade = current module = cruiser_ship_engine_1 }
 				fixed_ship_radar_slot = { module = empty }
 				fixed_ship_armor_slot = { upgrade = current module = ship_armor_cruiser_1 }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				mid_1_custom_slot = ship_torpedo
@@ -55,7 +55,7 @@ naval_cruiser_light = {
 				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_2 cruiser_ship_engine_1 } }
 				fixed_ship_radar_slot = { any_of = { ship_radar ship_sonar } }
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot > ship_light_medium_battery_1
