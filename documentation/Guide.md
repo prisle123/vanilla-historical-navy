@@ -52,31 +52,38 @@ If you can fully understand the six dimensions, now it's time to design your fir
 
 **Carrier**
 
-Carrier serves as the main source of damage in battle, and it's heavily relied on its aircrafts. The most important thing about it is the capacity, which requires you to mount as many hangars as possible. However, having too many hangars will certainly degrade speed and other metrics, especially that organisation and HP will impact sortie efficiency. Thus, you should keep the degradation under control.
+Carrier serves as the main source of damage in battle, and it heavily relies on its aircrafts. Despite CV plane templates, the most important thing about a carrier is its capacity, which requires you to mount as many hangars as possible. However, having too many hangars will certainly degrade speed and other metrics, especially that organisation and HP will impact sortie efficiency. Thus you should keep the degradation under control, and take caution in the usage of large open hangar which harms these stats to a large extent.
 
 **Heavy Ship**
 
-You can't skip heavy ships, such as battleships and battlecruisers, in your fleet. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing aircrafts' attack.  It's hard to summarize the key to such ship because it literally needs every aspect to be perfectly balanced. Firepower may not be the keypoint on battleships since their maximum HP is almost immortal compared to guns' heavy attack, but armor and AA are needed to protect itself and other ships, especially carriers. In that case, a historical battleship is more than sufficient to be included in a strike taskforce.
+You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts.  It's hard to summarize the key to this type of ship because it literally needs every aspect to be perfectly balanced. Among them, firepower could be the most irrelevant factor in battleship designs since their maximum HP is almost immortal compared to guns' heavy attack, but armor and AA are definitely needed to protect itself and other ships, especially carriers. In that case, a historical battleship is more than sufficient to fit in any taskforce in the mod.
 
-On the other hand, battlecruiser is not a good option despite its advantage of speed. Its chance to receive critical hit is higher than battleship, which battleship with high speed engine is already fast enough.
+On the contrary, battlecruiser is not a good option despite its advantage of speed. Except a higher chance to receive critical hits, battlecruiser in 1936 is starting to show marginal utilities (positive effect from speed gradually reduces as you keep investing in it).
 
 As for super heavy battleships, you can mount one gun on it to fully utilize its high HP, but normally it's not recommended.
 
 **Cruiser**
 
-Unlike vanilla, heavy cruiser and light cruiser in VNR are not defined by its gun caliber but by role. Yet there are still differences between cruiser guns. Light medium guns are similar to their origins, but medium guns have bonus on HP and armor to simulate a linear relation between survivability and tonnage. In VNR, heavy cruiser plays the role of cruiser killer instead of being useless in capital line, it's more flexible and can perform actions in both capital line and screen line based on the role you give it. As mentioned above, cruisers use light attack to eliminate screen ships and crush enemy's screen efficiency, creating a more favorable situation for your fleet to fire on the enemy. To achieve that, you need to pursue a fast and light-gun-centric design in order to keep up with destroyers and wipe out enemy's screen line as fast as you can.
+Unlike vanilla, the traditional definition of light or heavy cruiser has been replaced by a role system, but caliber still has some influence, which it roughly puts all cruisers into 3 categories:
+- Heavy capital cruiser is the same as heavy cruiser in basegame with a capital ship related role.
+- Heavy fleet cruiser is a screen ship version of heavy cruiser with medium guns and a screen ship related role.
+- Light cruiser is the same as its origin in basegame with light medium guns and a screen ship related role.
 
-Cruiser is not only used for attack, but also some supporting jobs, such as scouting, and sometimes it can be a luxurious option for anti-submarine and mine warfare. That's where the role system gonna help you to fully dig out all its potentials. Radar picket cruiser is perfect for spotting enemy fleet. Colonial cruiser is cheaper, good supplement to colonial empire like UK and also a second best choice for minor countries. Then you have large cruiser and missile cruiser if there are sufficient IC power within your nation. The list goes on, but one thing for sure is that cruiser offers the most possibilities in all kinds of ships.
+In VNR, heavy cruiser can play role of either cruiser killer (heavy fleet cruiser) or economical capital ship (heavy capital cruiser), it's more flexible and can perform actions in both capital line and screen line based on the role you give it.
+
+While light medium guns are similar to their origins, medium guns have bonus on HP and armor to simulate a linear relation between survivability and tonnage. As mentioned above, cruisers use light attack to eliminate screen ships and crush enemy's screen efficiency, creating a more favorable situation for your fleet to fire on the enemy. To achieve that, you need to pursue a fast and light-gun-centric design in order to keep up with destroyers and wipe out enemy's screen line as fast as you can.
+
+Cruiser is not only used for attacking, but also some supporting jobs, such as reconnaissance, and sometimes it can be a luxurious option for anti-submarine and mine warfare. That's where the role system gonna help you fully dig out the potential. Radar picket cruiser is perfect for spotting enemy fleet. Colonial cruiser is cheaper, good supplement to colonial empire like UK and also a second best choice for minor countries. Then you have large cruiser and missile cruiser if there are sufficient IC power within your nation. The list goes on, but one thing for sure is that cruiser offers the most possibilities in all kinds of ships.
 
 **Destroyer**
 
-Destroyer is weak at the first glance, but it has the best speed and visibility in the game. Since destroyer's gun is almost useless against any ships but itself, torpedo is often used as the main weapon of destroyer, making destroyer heavily depending on the diminishment of your enemy's screen efficiency. Besides, destroyers also shoulder the most important mission in the fleet, which is to maintain screen efficiency by their numbers. Therefore, cost should always be the top priority when designing a destroyer, and there are a series of roles to achieve that. 
+Destroyer is weak at the first glance, but it has the best speed and visibility in the game. Since destroyer's gun is almost useless against anything but itself, torpedo is often used as its main weapon, a source of damage that heavily depends on the diminishment of your enemy's screen efficiency. Besides, destroyers also shoulder the most important mission in the fleet, which is to maintain screen efficiency by their numbers. Therefore, cost should always be the top priority when designing a destroyer, and there are a series of roles to achieve that. 
 
-Typically, the generic destroyer role can handle most scenarios. Escort destroyer is cheaper and expert at anti-submarine, and frigate can reduce the cost even more with numerous degradations in other aspects. Of course, you can also try to go another way to improve quality of your destroyer. Roles like destroyer leader and super destroyer can both enhance its performance in terms of firepower and protection at the cost of a sharp increase in IC. Destroyer leader may look redundant in the list, you are correct, that's also the reason why this type of ships was eventually outdated in history.
+Typically, the generic destroyer role can handle most scenarios. Escort destroyer is cheaper and expert at anti-submarine, and frigate can reduce the cost even more with numerous degradations in other aspects. Of course, you can also try other ways to improve quality of destroyer. Roles like destroyer leader and super destroyer can both enhance its performance in terms of firepower and protection at the cost of a sharp increase in IC. Destroyer leader may look redundant in the list, you are correct, that's also the reason why this type of ship eventually disappeared in history.
 
 **Submarine**
 
-Subs are greatly nerfed compared to vanilla in terms of competing with a proper fleet, but they are still lethal towards convoys. There isn't much choice for each slot on submarine like other ships, and that makes the design of submarines quite linear and easier since all you have to do is updating it with new hulls or new modules.
+Subs are greatly nerfed compared to vanilla in terms of competing with a proper fleet, but they are still lethal towards convoys. There aren't many choices for each slot on submarine like other ships, and that makes the design of submarines quite linear and easier since all you have to do is updating it with new hulls or new modules.
 
 AI in VNR has been enhanced to carry more depth charges and sonars, which is a major challenge to sub-centric games. As a result, you should try to lower your sub visibility as much as possible. Mount every useful module, including snorkel and pressure hull, on your sub and keep them updated to the latest.
 
@@ -86,7 +93,7 @@ Special hulls are ships that can't be simply represented by generic ship hulls. 
 
 **Battlecarrier**
 
-Battlecarrier is a hybrid ship with features from both battleship and carrier, you can make one by putting conversion deck on rear slots of the heavy hull. Although it has heavy guns, battlecarrier is considered as carrier and is in the carrier line, and it's restricted by the max carrier limit. Furthermore, battlecarrier can't get any bonus from doctrines, and its high conversion cost also blocks the possibility to build the fleet around it.
+Battlecarrier is a hybrid ship with features from both battleship and carrier. To make one, you will have to unlock it through special projects, and then put conversion decks on rear slots of a heavy ship hull. Although it has heavy guns, battlecarrier is considered as carrier and is in the carrier line, which means it's restricted by the max carrier limit. Furthermore, battlecarrier can't get any bonus from doctrines, and its high conversion cost also blocks the possibility to build the fleet around it.
 
 **Super Heavy Battleship**
 
@@ -94,7 +101,7 @@ In fact, super heavy battleship has no fundamental difference from ordinary batt
 
 **Arsenal Ship**
 
-Basically a super expensive shore bombardment ship. Arsenal ship can carry all types of missiles including anti-ship, anti-air and ballistic missiles, which makes it the core of a battlefleet, only if you are wealthy enough to build one.
+Basically a super expensive shore bombardment ship. Arsenal ship can carry all types of missiles including anti-ship, anti-air and ballistic missiles. It has the ability to be the core of battlefleet, only if you are wealthy enough to build one.
 
 **Escort Carrier**
 
@@ -106,19 +113,19 @@ Merchant carrier is an even cheaper option than escort carrier. In reality, it w
 
 **Super Carrier**
 
-Just like Essex or Midway post-refit, super carrier is a weapon with no shortcoming. By combining with modern carrier modules such as large armored hangar, steamed catapult and side lifts, a super carrier can possess a capacity of 130-150 planes. Except for its incredible cost, super carrier is the best type of carrier in the mod.
+Just like Essex or Midway post-refit, super carrier is a weapon with no shortcoming. By combining it with modern carrier modules such as large armored hangar, steamed catapult and side lifts, a super carrier can possess a capacity of 130-150 planes. Except for its incredible cost, super carrier is the best type of carrier in the mod.
 
 **Strategic Strike Carrier**
 
-An equivalent to ice carrier in vanilla but with an actual historical background. The strategic strike carrier is based on USS United States planned right after WWII, it can carry 20 heavy jet bombers to carry out intercontinental nuclear strike. The design of this ship also reflects its duty in history. Its capacity might not be impressive in naval battle, but still useful if you need a sea-based airport against countries across the ocean. 
+An equivalent to ice carrier in vanilla but with an actual historical background. The strategic strike carrier is based on USS United States planned right after WWII, it can carry 20 heavy jet bombers to carry out intercontinental nuclear strike. The design of this ship also reflects its duty in history. Its capacity might not be impressive, but it has access to all kinds of land-based aircrafts in the arsenal and can be useful if you need a sea-based airport against countries across the ocean. 
 
 **Panzerschiff**
 
-Panzerschiff in VNR or revived armored cruiser in KRNR, is basically a cruiser with heavy guns, though there is a limit set to prevent super heavy guns being installed on it. Just like the real armored ship in history, it has some advantages in one-on-one combat against cruisers, such as better guns and armor, making it an intermediate option between battlecruiser and heavy cruiser. The problem is, panzerschiff is stuck in the middle, so it can't fully cover either's job.
+Panzerschiff in VNR or revived armored cruiser in KRNR, is basically a cruiser with heavy guns, though there is a limit set to prevent super heavy guns being used. Just like the real armored ship in history, it has some advantages in one-on-one combat against cruisers, such as better guns and armor, making it an intermediate option between battlecruiser and heavy cruiser. The problem is, panzerschiff is stuck in the middle, so it can't fully cover either's job.
 
 **Auxiliary Ship**
 
-The max range of the fleet is calculated by average range of all ships within, so mathematically speaking you can boost it by adding long-range ships to your fleet. However, if you know maths very well, you may notice once the average surpass a certain value, it will bring the increase rate to a stagnation, so it's unwise to put too many auxiliary ships together because the range bonus is reaching the upper limit.
+Max range of the fleet is calculated by average range of all ships within, so mathematically speaking you can boost it by adding long-range ships to your fleet. However, if you know maths very well, you may notice once the average has surpassed a certain value, it will bring the increase rate to a stagnation (also known as margin utilities). As a result, it's unwise to put too many auxiliary ships together because the range bonus is reaching the upper limit.
 
 To keep it away from the frontline, auxiliary ship is considered as capital ship, which means it can provide escort efficiency for your carrier just like battleship does. It's weak without doubt, but really really cheap.
 
@@ -130,27 +137,27 @@ Techtree is the soul of VNR and also the most interesting part of the game. Comp
 
 **Destroyer Branch**
 
-Destroyer is the fundation of any navies, so there is no reason that you should skip this part of the tree, unless you don't want to play navy at all. As I mentioned in designing section, cost is the key element of destroyer variants, so any tech that lowers IC cost of a ship is certainly a must. The research on destroyer should be centered around the job you give them in your fleet. Anti-submarine is one of the most common tasks handled by destroyer, making depth charge and sonar technologies become the theme of this branch. Typically, that's all you need to have to make a decent destroyer. When I say "decent", it stands for "a ship that works under most circumstances regardless of which country you are playing", but there are exceptions that you will be against different enemies.
+Destroyer is the fundation of any navies, so there is no reason that you should skip this part of the tree, unless you don't want to play navy at all. As I mentioned in designing section, cost is the key element of destroyer variants, so any tech that lowers IC cost is certainly a must. The research on destroyer should be centered around the job you give them in your fleet. Anti-submarine is one of the most common tasks handled by destroyer, promoting depth charge and sonar technologies as the theme of this branch. Typically, that's all you need to make a decent destroyer. When I say "decent", it stands for "a ship that works under most circumstances regardless of which country you are playing", but there are exceptions that you will be against different enemies.
 
 **Cruiser Branch**
 
-Cruiser can make incredible damage on light ships in the battle when it gets into close combat stage. Therefore, if you want to build a nice surface fleet, don't hesitate to give your cruiser the best guns and armors. Although you have many options in cruiser's tree, the process becomes easier that you only have to choose those improve it in terms of things you really need, including firepower, speed and armor.
+Cruiser can make incredible damage on light ships in the battle when it gets into close combat stage. Therefore, if you want to build a nice surface fleet, don't hesitate to give your cruiser the best guns and armors. Although you have many options in cruiser's tree, the process becomes easier that you only have to choose things boosting firepower, speed and armor.
 
 **Heavy Armor Branch**
 
-This branch is composed of battleship armor scheme and armor processing technologies. The necessity depends on whether you are going to include heavy ships in your fleet and when you want to exclude them. If heavy ships still hold a place in your fleet, you should update these techs to the latest whenever there's a chance, otherwise just leave it alone.
+This branch is composed of battleship armor schemes and armor processing technologies. The necessity depends on whether you are going to include heavy ships in your fleet and when you want to exclude them. If heavy ships still hold a place in your fleet, you should update these techs to the latest whenever there's a chance, otherwise just leave them alone.
 
 **Battleship Branch**
 
-Battleship branch is actually quite flexible because you can drop it from anywhere if it's no longer needed in your fleet. But if you want a good cold war era experience, at least research hulls to gain access to cold war fire-control/nuclear-fleet technologies. Back to the base tree, battleship techs prior to the 1930s are very useful despite not being mandatory. Its sub techs during the early 1940s are not recommended for their crummy bonus unless it's out of roleplay. After all, not many people will need excellent battleships but just-okay ones.
+Battleship branch is actually quite flexible because you can drop it from anywhere if it's no longer needed in your fleet. But if you want a good cold war era experience, at least research hulls to gain access to cold war fire-control/nuclear-fleet technologies. Back to the base tree, battleship techs prior to the 1930s are very useful despite not being mandatory. Its sub-techs during the early 1940s are not recommended for their crummy bonus unless it's out of roleplay. After all, not many people will need excellent battleships but just-okay ones.
 
 **Carrier Branch**
 
-I can't stress more about the dominating power of carrier in reality and mod. Except for some early sub techs of carrier which only apply little bonus, most carrier techs are extremely useful and will definitely give you an upper hand in the battle. My suggestion is to skip techs before 1932, and get all of them after that.
+I can't stress more about the dominating power of carrier in reality and mod. Except for some early sub-techs which only offer little bonus, most carrier techs are extremely useful and will definitely give you an upper hand in the battle. My suggestion is to skip techs before 1932, and get all of them after that.
 
 **Submarine Branch**
 
-Submarine is useless against anything but convoys because of AI's ASW improvements. Submarine research should be centered around lowering visibility and improving torpedo attack, other techs remain optional no matter what bonus they offer.
+Submarine is useless against anything but convoys because of AI's ASW improvements. Its research should be centered around visibility and torpedo, and other techs remain optional no matter what bonus they offer.
 
 ### Naval Support Tree ###
 
@@ -160,13 +167,13 @@ You need guns everywhere, so there is basically no reason to skip this branch. E
 
 **Torpedo Branch**
 
-Torpedo techs are needed by both submarines and torpedo ships, and overall torpedo weapons are nerfed in accuracy but buffed in damage. Keep it up to date if your fleet is heavily relied on torpedo.
+Torpedo techs are needed by both submarines and torpedo ships. In general, torpedo weapons are nerfed in accuracy and buffed in damage, but they are still considered as poor damage sources in the mod. Only keep it up to date if your fleet is heavily relied on torpedo.
 
 **Auxiliary Branch**
 
 The auxiliary branch is split into three sub-branches, port facilities, auxiliary ships and fuel silos. Basically designed for immersion, you can just skip the whole branch without need to worry about missing important bonus or modules. Of course, if you want to experience this part of the mod, there are some useful techs.
 
-The branch of port facilities aims at accelerating building and repairing speed of naval infrastructure such as shipyard and naval base, but I won't recommended you to finish this line due to poor bonus.
+The branch of port facilities aims at accelerating building and repairing of naval infrastructure such as shipyard and naval base, but I won't recommended you to finish this line due to poor bonus.
 
 Auxiliary ship branch is centered around the debate over "range or speed". Speed branch is relatively better since it's one of the six dimensions of ship designs and it offers some exclusive modules like raider cruiser.
 
@@ -194,9 +201,11 @@ One of the major roles that navy plays in the game is securing sea supremacy to 
 
 Type of ship also affects efficiency in this area. Decent ships are required in the action, that means you can't secure the sea just with submarines.
 
+Above all, the supremacy weight of each ship is calculated by a formula between IC and manpower. Big and expensive ships will always have an edge in the fight for sea supremacy.
+
 ### Combat Duration ###
 
-To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 2-3 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship got to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 2-3 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
 
 ### Positioning ###
 
@@ -206,6 +215,6 @@ Positioning is affected by several factors including relative size of fleet, spe
 
 ### Supply Consumption ###
 
-Ever since the supply system was added in NSB, navy will also be influenced by port facilities. In vanilla, you rarely feel the consequence of running out of supply in naval combat because ships' supply consumption is too low compared to how much a naval base can provide. To begin with, don't confuse supply consumption with fuel consumption, they are different but will cause similar penalties on your fleet. Fuel is only consumed when your fleet is in action, but supply is a static resource that you can't store.
+Ever since the supply system was added in NSB, navy will also be influenced by port facilities. In vanilla, you rarely feel the consequence of running out of supply in naval combat because ships' supply consumption is too low compared to how much a naval base can provide. To begin with, don't confuse supply consumption with fuel consumption, they are different but will cause similar penalties on your fleet. Fuel is only consumed when your fleet is in action, while supply is a static resource that you can't store.
 
 In the mod, supply consumption of ships are greatly increased, especially on capital ships. This has made strategic islands and frontline engineering corps far more important in simulating the Pacific War. Take US as an example, a large fleet making a sortie from the Midway will definitely suffer heavy attrition during maneuvering and combat. Instead, launching attacks from Hawaii or Australia is a wiser choice.
