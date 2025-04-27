@@ -182,6 +182,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_carrier_armor_heavy"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_icn.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_sub_rocket"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_missile_launcher.dds"
+	}
 	
 	# topview images
 	spriteType = {
