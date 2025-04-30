@@ -15,6 +15,7 @@ naval_cruiser_light = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 1000.0
 			type = vnr_ship_hull_cruiser_1
@@ -45,6 +46,7 @@ naval_cruiser_light = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 1500.0
 			type = vnr_ship_hull_cruiser_2
@@ -77,6 +79,7 @@ naval_cruiser_light = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 2000.0
 			type = vnr_ship_hull_cruiser_3
@@ -110,6 +113,7 @@ naval_cruiser_light = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 4000.0
 
@@ -144,6 +148,7 @@ naval_cruiser_light = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 6000.0
 
@@ -178,6 +183,7 @@ naval_cruiser_light = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 7000.0
 
@@ -217,6 +223,7 @@ naval_cruiser_light = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 2000.0
 			type = vnr_ship_hull_cruiser_3
@@ -249,6 +256,7 @@ naval_cruiser_light = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 4000.0
 
@@ -284,6 +292,7 @@ naval_cruiser_light = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 6000.0
 

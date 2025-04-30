@@ -53,6 +53,7 @@ naval_light_carrier = {
 		priority = { 
 			base = 0
 		}
+		is_history = yes
 		target_variant = {
 			match_value = 100.0
 			type = vnr_ship_hull_carrier_1
@@ -78,6 +79,7 @@ naval_light_carrier = {
 			base = 0
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 300.0
 
@@ -104,6 +106,7 @@ naval_light_carrier = {
 			base = 0
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 800.0
 
@@ -130,6 +133,7 @@ naval_light_carrier = {
 			base = 0
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 10.0
 

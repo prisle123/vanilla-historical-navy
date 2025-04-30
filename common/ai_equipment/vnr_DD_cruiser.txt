@@ -14,6 +14,7 @@ naval_screen_cruiser = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 500.0
 
@@ -45,6 +46,7 @@ naval_screen_cruiser = {
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 600.0
 
@@ -76,6 +78,7 @@ naval_screen_cruiser = {
 			modifier = { add = 100 has_tech = advanced_ship_hull_light }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 800.0
 

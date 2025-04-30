@@ -33,6 +33,7 @@ naval_carrier = {
 		role_icon_index = 9
 
 		priority = { base = 0 }
+		is_history = yes
 		target_variant = {
 			type = vnr_ship_hull_carrier_conversion_ca
 			modules = {
@@ -51,6 +52,7 @@ naval_carrier = {
 		role_icon_index = 9
 
 		priority = { base = 0 }
+		is_history = yes
 		target_variant = {
 			type = vnr_ship_hull_carrier_conversion_bb
 			modules = {
@@ -76,6 +78,7 @@ naval_carrier = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
+		is_history = yes
 		target_variant = {
 			match_value = 1000.0
 			type = vnr_ship_hull_carrier_1
@@ -105,6 +108,7 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 1000.0
 
@@ -138,6 +142,7 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 1000.0
 
@@ -172,6 +177,7 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 2000.0
 
@@ -206,6 +212,7 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 2000.0
 
@@ -241,6 +248,7 @@ naval_carrier = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
 			modifier = { factor = 0 expert_ai_style = no }
 		}
+		is_history = yes
 		target_variant = {
 			match_value = 2000.0
 			type = vnr_ship_hull_carrier_1
@@ -270,6 +278,7 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
+		is_history = yes
 		target_variant = {
 			match_value = 3000.0
 	
@@ -302,6 +311,7 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
+		is_history = yes
 		target_variant = {
 			match_value = 5500.0
 	
@@ -335,6 +345,7 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
+		is_history = yes
 		target_variant = {
 			match_value = 6500.0
 	
@@ -368,6 +379,7 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
+		is_history = yes
 		target_variant = {
 			match_value = 8000.0
 	

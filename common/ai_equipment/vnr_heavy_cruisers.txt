@@ -13,6 +13,7 @@ naval_cruiser_heavy = {
 			base = 0
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 100.0
 			type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -44,6 +45,7 @@ naval_cruiser_heavy = {
 			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 500.0
 			type = vnr_ship_hull_cruiser_2
@@ -78,6 +80,7 @@ naval_cruiser_heavy = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 800.0
 			type = vnr_ship_hull_cruiser_3
@@ -113,6 +116,7 @@ naval_cruiser_heavy = {
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 2500.0
 
@@ -147,6 +151,7 @@ naval_cruiser_heavy = {
 			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 5000.0
 
