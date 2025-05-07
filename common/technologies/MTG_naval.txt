@@ -3608,6 +3608,10 @@ technologies = {
 		naval_coordination = 0.1
 		positioning = 0.1
 
+		enable_equipment_modules = {
+			coldwar_upgrade_bb
+		}
+
 		start_year = 1950
 
 		folder = {

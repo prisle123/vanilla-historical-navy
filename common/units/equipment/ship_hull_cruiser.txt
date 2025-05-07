@@ -193,6 +193,10 @@ equipments = {
 			module = ship_bulbous_bow
 			count < 2
 		}
+		module_count_limit = {
+			module = coldwar_upgrade_bb
+			count < 1
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
