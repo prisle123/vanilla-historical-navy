@@ -480,7 +480,7 @@ equipments = {
 					ship_anti_air
 					ship_medium_heavy_battery_triple
 					ship_medium_heavy_battery_double
-					ship_secondaries_light
+					ship_secondaries
 					ship_dp_secondaries
 				}
 			}
@@ -489,7 +489,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_secondaries_light
+					ship_secondaries
 					ship_dp_secondaries
 					ship_airplane_launcher
 					ship_torpedo
