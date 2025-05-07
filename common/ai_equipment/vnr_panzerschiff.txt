@@ -13,6 +13,7 @@ naval_cruiser_armor = {
 			base = 0
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 500.0
 			type = vnr_ship_hull_cruiser_panzerschiff
@@ -43,6 +44,7 @@ naval_cruiser_armor = {
 			base = 0
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 1000.0
 
@@ -71,6 +73,7 @@ naval_cruiser_armor = {
 			base = 0
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 1000.0
 

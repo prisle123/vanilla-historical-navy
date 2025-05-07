@@ -17,7 +17,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 0.5
-			build_cost_ic = 10	
+			build_cost_ic = 30	
 		}
 		multiply_stats = {
 			naval_speed = -0.001
@@ -39,7 +39,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1
-			build_cost_ic = 20
+			build_cost_ic = 40
 			
 		}
 		multiply_stats = {
@@ -62,7 +62,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1.5
-			build_cost_ic = 30	
+			build_cost_ic = 50	
 		}
 		
 		add_average_stats = {
@@ -84,8 +84,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 2.5
-			build_cost_ic = 40
+			lg_attack = 2
+			build_cost_ic = 60
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -106,7 +106,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1
-			build_cost_ic = 20	
+			build_cost_ic = 45	
 		}
 		multiply_stats = {
 			naval_speed = -0.001
@@ -128,7 +128,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1.5
-			build_cost_ic = 40
+			build_cost_ic = 60
 			
 		}
 		multiply_stats = {
@@ -151,7 +151,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 2.5
-			build_cost_ic = 60	
+			build_cost_ic = 80
 		}
 		
 		add_average_stats = {
@@ -172,8 +172,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 4
-			build_cost_ic = 80	
+			lg_attack = 3.5
+			build_cost_ic = 100
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -219,7 +219,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 1.5
 			anti_air_attack = 0.75
-			build_cost_ic = 100
+			build_cost_ic = 85
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -243,7 +243,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 2.5
 			anti_air_attack = 1
-			build_cost_ic = 150
+			build_cost_ic = 100
 		}
 		multiply_stats = {
 			naval_speed = -0.015
@@ -265,9 +265,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			lg_attack = 4
+			lg_attack = 3.5
 			anti_air_attack = 1.25
-			build_cost_ic = 200
+			build_cost_ic = 130
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -288,10 +288,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 6
+			lg_attack = 5
 			anti_air_attack = 1.75
 			naval_light_gun_hit_chance_factor = 0.01
-			build_cost_ic = 140
+			build_cost_ic = 200
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -312,7 +312,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 0.5
 			anti_air_attack = 0.25
-			build_cost_ic = 25
+			build_cost_ic = 40
 		}
 		multiply_stats = {
 			naval_speed = -0.005
@@ -335,7 +335,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 1
 			anti_air_attack = 0.5
-			build_cost_ic = 50
+			build_cost_ic = 65
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -358,7 +358,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 1.5
 			anti_air_attack = 0.75
-			build_cost_ic = 75
+			build_cost_ic = 80
 		}
 		multiply_stats = {
 			naval_speed = -0.015
@@ -379,9 +379,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 	
 		add_stats = {
-			lg_attack = 2.5
+			lg_attack = 2
 			anti_air_attack = 1
-			build_cost_ic = 100
+			build_cost_ic = 110
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -402,10 +402,10 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 4
+			lg_attack = 3.5
 			anti_air_attack = 1.5
 			naval_light_gun_hit_chance_factor = 0.01
-			build_cost_ic = 100
+			build_cost_ic = 160
 		}
 		multiply_stats = {
 			naval_speed = -0.015
@@ -2006,6 +2006,51 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 105
+		critical_parts = { damaged_secondaries }
+	}
+
+	ship_secondaries_1_light = {
+		category = ship_secondaries_light
+		gui_category = ship_secondaries
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			lg_attack = 1.5
+			build_cost_ic = 180
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 5
+		}
+		
+		dismantle_cost_ic = 54
+		critical_parts = { damaged_secondaries }
+	}
+
+	ship_secondaries_2_light = {
+		category = ship_secondaries_light
+		gui_category = ship_secondaries
+		parent = ship_secondaries_1_light
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 2.5
+			build_cost_ic = 240
+		}
+		multiply_stats = {
+			naval_speed = -0.015
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 7
+		}
+		
+		dismantle_cost_ic = 72
 		critical_parts = { damaged_secondaries }
 	}
 

@@ -158,6 +158,7 @@ equipment_modules = {
 			ship_missile
 			ship_missile_aa
 			raider_kit
+			heavy_miscellaneous
 		}
 	}
 	ship_hull_cruiser_role_ca = {
@@ -211,6 +212,7 @@ equipment_modules = {
 			ship_missile
 			ship_missile_aa
 			raider_kit
+			heavy_miscellaneous
 		}
 	}
 	ship_hull_cruiser_role_clc = {
@@ -231,6 +233,7 @@ equipment_modules = {
 			ship_missile
 			ship_missile_aa
 			raider_kit
+			heavy_miscellaneous
 		}
 	}
 	ship_hull_cruiser_role_rc = {
@@ -261,6 +264,7 @@ equipment_modules = {
 			ship_missile
 			ship_missile_aa
 			ship_airplane_launcher
+			heavy_miscellaneous
 		}
 	}
 	ship_hull_cruiser_role_cg = {
@@ -279,6 +283,24 @@ equipment_modules = {
 			raider_kit
 		}
 	}
+	ship_hull_cruiser_role_cgaa = {
+		category = c_role_missile
+		gui_category = c_role
+		multiply_stats = {
+			anti_air_attack = 0.1
+			build_cost_ic = 0.15
+		}
+		add_stats = {
+			max_strength = 65
+		}
+		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_cruiser_heavy_armor
+			ship_missile
+			raider_kit
+		}
+	}
 	ship_hull_cruiser_role_csr = {
 		category = c_role
 		add_stats = {
@@ -293,6 +315,7 @@ equipment_modules = {
 			raider_kit
 			ship_missile
 			ship_missile_aa
+			heavy_miscellaneous
 		}
 	}
 	ship_hull_cruiser_role_ac = {

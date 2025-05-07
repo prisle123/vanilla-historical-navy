@@ -1,4 +1,4 @@
-version="v1.20 - Nuclear Might"
+version="v2.0 - Hunt For Red October"
 tags={
 	"Military"
 	"Graphics"

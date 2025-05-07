@@ -451,7 +451,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.045
+			sub_visibility = 0.055
 			naval_speed = -0.02			
 		}
 		
@@ -479,7 +479,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.04
+			sub_visibility = 0.06
 			naval_speed = -0.03			
 		}
 
@@ -504,7 +504,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.035
+			sub_visibility = 0.065
 			naval_speed = -0.04			
 		}
 
@@ -523,13 +523,13 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 30
-			sub_attack = 5
+			sub_attack = 2.5
 			build_cost_ic = 180
 			naval_torpedo_hit_chance_factor = 0.05
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.03
+			sub_visibility = 0.07
 			naval_speed = -0.05	
 		}
 
@@ -1375,6 +1375,23 @@ equipment_modules = {
 
 		add_stats = {
 			armor_value = 3
+		}
+	}
+	ship_superheater = {
+		category = light_miscellaneous
+
+		add_stats = {
+			build_cost_ic = 350
+			reliability = -0.05
+		}
+		multiply_stats = {
+			naval_speed = 0.1
+		}
+		dismantle_cost_ic = 50
+		forbid_module_categories = {
+			light_ship_engine
+			civilian_ship_engine
+			cruiser_ship_engine
 		}
 	}
 }

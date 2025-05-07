@@ -760,7 +760,13 @@ technologies = {
 	}
 
 	high_speed_light_engine = {
-		research_cost = 0.6
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_high_speed_light_engine
+			}
+		}
+		research_cost = 0.8
 		enable_equipment_modules = {
 			light_ship_engine_6
 		}
@@ -1698,9 +1704,6 @@ technologies = {
 			ship_armor_cruiser_1
 			ship_armor_cruiser_heavy_1
 		}
-		on_research_complete = {
-			custom_effect_tooltip = cruiser_armor_advice_tt
-		}
 
 		xp_research_type = navy
 		xp_boost_cost = 20
@@ -1741,8 +1744,18 @@ technologies = {
 			ship_armor_cruiser_2
 			ship_armor_cruiser_heavy_2
 		}
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = basic_heavy_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = cruiser_armor_advice_tt
+			custom_effect_tooltip = cruiser_armor_research_tt
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				technology = basic_heavy_armor
+			}
 		}
 
 		xp_research_type = navy
@@ -1787,8 +1800,18 @@ technologies = {
 			ship_armor_cruiser_3
 			ship_armor_cruiser_heavy_3
 		}
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = improved_heavy_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = cruiser_armor_advice_tt
+			custom_effect_tooltip = cruiser_armor_research_tt
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				technology = improved_heavy_armor
+			}
 		}
 
 		xp_research_type = navy
@@ -1833,8 +1856,18 @@ technologies = {
 			ship_armor_cruiser_4
 			ship_armor_cruiser_heavy_4
 		}
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = advanced_heavy_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = cruiser_armor_advice_tt
+			custom_effect_tooltip = cruiser_armor_research_tt
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				technology = advanced_heavy_armor
+			}
 		}
 
 		xp_research_type = navy
@@ -2111,6 +2144,7 @@ technologies = {
 		start_year = 1946
 		enable_equipment_modules = {
 			ship_hull_cruiser_role_cg
+			ship_hull_cruiser_role_cgaa
 		}
 		dependencies = {
 			ship_to_ship_missile = 1
@@ -2912,8 +2946,14 @@ technologies = {
 			ship_armor_bc_2
 		}
 
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = basic_cruiser_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
+			custom_effect_tooltip = heavy_armor_research_tt
+			set_technology = { basic_cruiser_armor = 1 }
 		}
 
 		xp_research_type = navy
@@ -2953,8 +2993,14 @@ technologies = {
 			ship_armor_bc_3
 		}
 
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = improved_cruiser_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
+			custom_effect_tooltip = heavy_armor_research_tt
+			set_technology = { improved_cruiser_armor = 1 }
 		}
 
 		start_year = 1936
@@ -2998,8 +3044,14 @@ technologies = {
 			ship_armor_shbb_2
 		}
 
+		on_research_complete_limit = {
+			NOT = {
+				has_tech = advanced_cruiser_armor
+			}
+		}
 		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
+			custom_effect_tooltip = heavy_armor_research_tt
+			set_technology = { advanced_cruiser_armor = 1 }
 		}
 
 		xp_research_type = navy

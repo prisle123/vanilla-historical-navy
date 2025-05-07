@@ -229,7 +229,7 @@ equipments = {
 			}
 			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = { ship_radar ship_mast }
+				allowed_module_categories = { ship_mast }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -293,10 +293,10 @@ equipments = {
 		}
 		naval_range = 2000
 
-		max_strength = 180
+		max_strength = 120
 		naval_speed = 21
 		fuel_consumption = 67
-		reliability = 0.65
+		reliability = 0.5
 		build_cost_ic = 2000
 		resources = {
 			steel = 2
@@ -305,6 +305,7 @@ equipments = {
 
 		manpower = 1500
 	}
+
 
 	vnr_ship_hull_heavy_1 = {
 		derived_variant_name = battleship_equipment_1
@@ -874,7 +875,7 @@ equipments = {
 		naval_speed = 32
 		fuel_consumption = 70
 		surface_visibility = 30
-		reliability = 1.4
+		reliability = 1.25
 		build_cost_ic = 3500
 		resources = {
 			steel = 4

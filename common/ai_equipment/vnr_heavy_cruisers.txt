@@ -13,6 +13,7 @@ naval_cruiser_heavy = {
 			base = 0
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 100.0
 			type = vnr_ship_hull_cruiser_coastal_defense_ship
@@ -26,7 +27,7 @@ naval_cruiser_heavy = {
 					module = empty
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_torpedo
@@ -44,6 +45,7 @@ naval_cruiser_heavy = {
 			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 500.0
 			type = vnr_ship_hull_cruiser_2
@@ -57,7 +59,7 @@ naval_cruiser_heavy = {
 					module = empty
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
-				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				front_1_custom_slot = ship_medium_battery
@@ -78,6 +80,7 @@ naval_cruiser_heavy = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 800.0
 			type = vnr_ship_hull_cruiser_3
@@ -113,6 +116,7 @@ naval_cruiser_heavy = {
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 2500.0
 
@@ -147,6 +151,7 @@ naval_cruiser_heavy = {
 			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
 		}
 
+		is_history = yes
 		target_variant = {
 			match_value = 5000.0
 
