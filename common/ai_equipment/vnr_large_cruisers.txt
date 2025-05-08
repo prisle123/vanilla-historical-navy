@@ -14,7 +14,8 @@ naval_cruiser_large = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 500.0
 			type = vnr_ship_hull_cruiser_3
@@ -50,7 +51,8 @@ naval_cruiser_large = {
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 1000.0
 
@@ -84,7 +86,8 @@ naval_cruiser_large = {
 			modifier = { add = 50 has_tech = advanced_ship_hull_cruiser }
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 1000.0
 

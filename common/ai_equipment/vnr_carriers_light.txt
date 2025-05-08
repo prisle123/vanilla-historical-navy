@@ -4,48 +4,6 @@ naval_light_carrier = {
 	roles = { vnr_naval_carrier_light }
 	priority = { base = 10 }
 
-	# carrier_1936 = {
-	# 	role_icon_index = 9
-
-	# 	priority = {
-	# 		base = 10
-	# 		modifier = { factor = 0 has_tech = improved_ship_hull_carrier }
-	# 	}
-
-	# 	target_variant = {
-	# 		match_value = 1000.0
-
-	# 		type = vnr_ship_hull_carrier_1
-	# 		modules = {
-	# 			fixed_ship_deck_slot_1 = ship_deck_space
-	# 			fixed_ship_deck_slot_2 = { any_of = { ship_deck_space ship_carrier_armor } }
-	# 			fixed_ship_anti_air_slot = ship_anti_air
-	# 			fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_2 carrier_ship_engine_1 } }
-	# 			fixed_ship_secondaries_slot = ship_secondaries
-	# 			fixed_ship_radar_slot = empty
-	# 			front_1_custom_slot = { any_of = { ship_deck_space ship_carrier_armor } }
-	# 		}
-	# 	}
-	# }
-
-	# carrier_conv_ca_dummy = {
-		# role_icon_index = 9
-
-		# priority = { base = 0 }
-		# target_variant = {
-			# type = vnr_ship_hull_carrier_conversion_ca
-		# }
-	# }
-
-	# carrier_conv_bb_dummy = {
-		# role_icon_index = 9
-
-		# priority = { base = 0 }
-		# target_variant = {
-			# type = vnr_ship_hull_carrier_conversion_bb
-		# }
-	# }
-
 	light_carrier_1936 = {
 		name = vnr_cvl_1936
 		role_icon_index = 11
@@ -53,7 +11,8 @@ naval_light_carrier = {
 		priority = { 
 			base = 0
 		}
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 100.0
 			type = vnr_ship_hull_carrier_1
@@ -79,7 +38,8 @@ naval_light_carrier = {
 			base = 0
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 300.0
 
@@ -106,7 +66,8 @@ naval_light_carrier = {
 			base = 0
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 800.0
 
@@ -133,7 +94,8 @@ naval_light_carrier = {
 			base = 0
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 10.0
 
