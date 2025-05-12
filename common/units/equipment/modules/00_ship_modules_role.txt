@@ -394,6 +394,30 @@ equipment_modules = {
 		}
 	}
 
+
+####################
+##  Carrier ROLE  ##
+####################
+	ship_hull_carrier_role_cv = {
+		category = cv_role
+		dismantle_cost_ic = 100000
+	}
+	ship_hull_carrier_role_cvl = {
+		category = cv_role
+		multiply_stats = {
+			build_cost_ic = -0.1
+			max_strength = -0.25
+			naval_speed = -0.15
+			anti_air_attack = -0.15
+		}
+		dismantle_cost_ic = 100000
+		forbid_module_categories = {
+			ship_deck_space
+			ship_deck_space_mega
+		}
+	}
+
+
 ######################
 ##  Auxiliary Role  ##
 ######################

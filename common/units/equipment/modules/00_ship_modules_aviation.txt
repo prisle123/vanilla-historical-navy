@@ -60,7 +60,6 @@ equipment_modules = {
 	}
 	ship_deck_space = {
 		category = ship_deck_space
-		parent = ship_deck_space_armored
 
 		add_equipment_type = capital_ship
 		add_stats = {

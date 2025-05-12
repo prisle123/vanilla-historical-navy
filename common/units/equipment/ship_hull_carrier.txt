@@ -304,6 +304,10 @@ equipments = {
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = inherit
 			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { cv_role }
+			}
 
 			front_1_custom_slot = {
 				required = no
@@ -328,6 +332,7 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 	}
 
@@ -350,6 +355,7 @@ equipments = {
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = inherit
 			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_role_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -393,6 +399,7 @@ equipments = {
 			front_1_custom_slot = empty
 			mid_1_custom_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_3
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 		naval_range = 4000
 		reliability = 0.75
@@ -435,6 +442,7 @@ equipments = {
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = inherit
 			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_role_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -490,6 +498,7 @@ equipments = {
 		}
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_4
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
 		}
 
 		naval_range = 5000
@@ -619,7 +628,7 @@ equipments = {
 		archetype = ship_hull_carrier
 		model = ship_hull_super_carrier
 		priority = 1000
-		can_convert_from = { vnr_ship_hull_super_carrier vnr_ship_hull_carrier_3 }
+		can_convert_from = { vnr_ship_hull_super_carrier }
 		parent = vnr_ship_hull_carrier_3
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
