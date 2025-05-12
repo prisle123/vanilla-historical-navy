@@ -96,6 +96,10 @@ leader_traits = {
 				
 		ai_will_do = {
 			factor = 0
+			modifier = {
+				has_navy_size = { size > 50 }
+				add = 1
+			}
 		}
 		
 		slot = navy_chief
@@ -120,6 +124,10 @@ leader_traits = {
 				
 		ai_will_do = {
 			factor = 0
+			modifier = {
+				has_navy_size = { size > 50 }
+				add = 1
+			}
 		}
 		
 		trait_type = assignable_trait
@@ -137,6 +145,10 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 0
+			modifier = {
+				has_navy_size = { size > 50 }
+				add = 1
+			}
 		}
 		
 		trait_type = assignable_trait
@@ -157,6 +169,10 @@ leader_traits = {
 				
 		ai_will_do = {
 			factor = 0
+			modifier = {
+				has_navy_size = { size > 50 }
+				add = 1
+			}
 		}
 		
 		trait_type = assignable_trait
@@ -179,6 +195,10 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 0
+			modifier = {
+				has_navy_size = { size > 50 }
+				add = 10
+			}
 		}
 		
 		trait_type = assignable_trait
@@ -198,6 +218,10 @@ leader_traits = {
 				
 		ai_will_do = {
 			factor = 0
+			modifier = {
+				has_navy_size = { size > 50 }
+				add = 5
+			}
 		}
 		
 		trait_type = assignable_trait
@@ -385,7 +409,7 @@ leader_traits = {
 		trait_type = status_trait
 		
 		non_shared_modifier = {
-			experience_gain_factor = 0.15
+			experience_gain_factor = 0.3
 		}
 	}
 }
