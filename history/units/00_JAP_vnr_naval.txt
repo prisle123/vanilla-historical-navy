@@ -375,12 +375,12 @@ units = {
 #########################
 ## STARTING PRODUCTION ##
 #########################
-instant_effect = 
+instant_effect =
 {
-	
+
 ### Ongoing Naval Production Jan 1 1936 ###
 		# BB (x1): "Hiei"
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_heavy_1
 				creator = "JAP"
@@ -390,12 +390,13 @@ instant_effect =
 			requested_factories = 5
 			progress = 0.95
 			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
 		}
 		# CV (x1): "Soryu"
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_carrier_1
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Soryu Class"
 			}
 			name = "Soryu"
@@ -403,11 +404,12 @@ instant_effect =
 			progress = 0.36
 
 			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_carrier_1
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Zuiho Class"
 			}
 			name = "Zuiho"
@@ -415,11 +417,12 @@ instant_effect =
 			progress = 0.10
 
 			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_carrier_1
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Zuiho Class"
 			}
 			name = "Shoho"
@@ -427,324 +430,354 @@ instant_effect =
 			progress = 0.26
 
 			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
 		}
 		# CA (x1): "Suzuya"
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_cruiser_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Mogami Class"
 			}
 			name = "Suzuya"
 			requested_factories = 2
 			progress = 0.53
 			amount = 1
-		}		
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_cruiser_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Mogami Class"
 			}
 			name = "Kumano"
 			requested_factories = 2
 			progress = 0.49
 			amount = 1
-		}	
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_cruiser_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Tone Class"
 			}
 			name = "Tone"
 			requested_factories = 2
 			progress = 0.27
 			amount = 1
-		}		
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_cruiser_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Tone Class"
 			}
 			name = "Chikuma"
 			requested_factories = 2
 			progress = 0.07
 			amount = 1
-		}	
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
 		# CL(CM) (x1): "Okinoshima"
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_cruiser_1
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Itsukushima/Okinoshima Class"
 			}
 			name = "Itsukushima"
 			requested_factories = 2
 			progress = 0.75
 			amount = 1
-		}		
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
+		}
 		# DD (x5): "Shiratsuyu" "Shigure" "Murasame" "Harusame" "Samidare"
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Shiratsuyu"
 			requested_factories = 1
 			progress = 0.79
 			amount = 1
-		}		
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Shigure"
 			requested_factories = 1
 			progress = 0.76
 			amount = 1
-		}		
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Murasame"
 			requested_factories = 1
 			progress = 0.66
 			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Harusame"
 			requested_factories = 1
 			progress = 0.56
 			amount = 1
-		}	
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Samidare"
 			requested_factories = 1
 			progress = 0.42
 			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Yudachi"
 			requested_factories = 1
 			progress = 0.37
 			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Umikaze"
 			requested_factories = 1
 			progress = 0.31
 			amount = 1
-		}	
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Yamakaze"
 			requested_factories = 1
 			progress = 0.38
 			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Kawakaze"
 			requested_factories = 1
 			progress = 0.34
 			amount = 1
-		}		
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Hatsuharu/Shiratsuyu Class"
 			}
 			name = "Suzukaze"
 			requested_factories = 1
 			progress = 0.24
 			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Asashio Class"
 			}
 			name = "Asashio"
 			requested_factories = 1
 			progress = 0.17
 			amount = 1
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Asashio Class"
 			}
 			name = "Michishio"
 			requested_factories = 1
 			progress = 0.09
 			amount = 1
-		}	
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Asashio Class"
 			}
 			name = "Arashio"
 			requested_factories = 1
 			progress = 0.14
 			amount = 1
-		}	
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
 		# TB (x4): Otori Class
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Otori Class"
 			}
 			name = "Otori"
 			requested_factories = 1
 			progress = 0.14
 			amount = 1
-		}	
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Otori Class"
 			}
 			name = "Hiyodori"
 			requested_factories = 1
 			progress = 0.05
 			amount = 1
-		}	
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Otori Class"
 			}
 			name = "Hayabusa"
 			requested_factories = 1
 			progress = 0.05
 			amount = 1
-		}	
-		add_equipment_production = {				
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Otori Class"
 			}
 			name = "Kasasagi"
 			requested_factories = 1
 			progress = 0.01
 			amount = 1
-		}	
+			industrial_manufacturer = mio:JAP_maizuru_naval_arsenal_organization
+		}
 		# SS (x4): "I-172" "I-73" "I-174" "I-175"
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_submarine_2
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Kaidai VI Class"
 			}
 			requested_factories = 1
 			progress = 0.68
 			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_submarine_2
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Kaidai VI Class"
 			}
 			requested_factories = 1
 			progress = 0.64
 			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_submarine_2
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Kaidai VI Class"
 			}
 			requested_factories = 1
 			progress = 0.33
 			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_submarine_2
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Kaidai VI Class"
 			}
 			requested_factories = 1
 			progress = 0.29
 			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
 		}
 		# SS (x2): "I-7" "I-8"
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_cruiser_submarine
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Junsen III Class"
 			}
 			requested_factories = 1
 			progress = 0.53
 			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
 		}
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_cruiser_submarine
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Junsen III Class"
 			}
 			requested_factories = 1
 			progress = 0.3
 			amount = 1
+			industrial_manufacturer = mio:JAP_yokosuka_naval_arsenal_organization
 		}
 		# SS (x1): "Ro-34"
-		add_equipment_production = {				
+		add_equipment_production = {
 			equipment = {
 				type = vnr_ship_hull_submarine_1
-				creator = "JAP" 
+				creator = "JAP"
 				version_name = "Kaichū V Class"
 			}
 			requested_factories = 1
 			progress = 0.57
 			amount = 1
+			industrial_manufacturer = mio:JAP_sasebo_naval_arsenal_organization
 		}
 }

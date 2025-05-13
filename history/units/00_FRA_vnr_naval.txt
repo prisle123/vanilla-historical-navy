@@ -284,6 +284,7 @@ instant_effect = {
 		requested_factories = 5
 		progress = 0.69
 		amount = 1
+		industrial_manufacturer = mio:FRA_acl_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -295,6 +296,7 @@ instant_effect = {
 		requested_factories = 5
 		progress = 0.25
 		amount = 1
+		industrial_manufacturer = mio:FRA_acl_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -306,6 +308,7 @@ instant_effect = {
 		requested_factories = 5
 		progress = 0.05
 		amount = 1
+		industrial_manufacturer = mio:FRA_acl_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -317,6 +320,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.93
 		amount = 1
+		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -328,6 +332,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.98
 		amount = 1
+		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -339,6 +344,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.96
 		amount = 1
+		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -350,6 +356,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.93
 		amount = 1
+		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -361,6 +368,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.30
 		amount = 1
+		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -372,6 +380,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.26
 		amount = 1
+		industrial_manufacturer = mio:FRA_fcm_organization
 	}
 	 # CL: La Galissonnière class (x4) ("Jean de Vienne" "Marseillaise" "Gloire" "Montcalm") ("Georges Leygues" launched 24-Mar 1936)
 	add_equipment_production = {
@@ -384,6 +393,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.78
 		amount = 1
+		industrial_manufacturer = mio:FRA_aeb_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -395,6 +405,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.55
 		amount = 1
+		industrial_manufacturer = mio:FRA_aeb_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -406,6 +417,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.53
 		amount = 1
+		industrial_manufacturer = mio:FRA_aeb_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -417,6 +429,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.53
 		amount = 1
+		industrial_manufacturer = mio:FRA_aeb_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -428,6 +441,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.53
 		amount = 1
+		industrial_manufacturer = mio:FRA_aeb_organization
 	}
 	# SS: Redoutable variant (x7) ("Le Héros" "Le Conquérant" "Le Tonnant" "Agosta" "Sfax" "Casabianca" "Bévéziers")
 	add_equipment_production = {
@@ -440,6 +454,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.91
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -451,6 +466,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.81
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -462,6 +478,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.9
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -473,6 +490,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.85
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -484,6 +502,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.88
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -495,6 +514,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.83
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -506,6 +526,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.78
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -517,6 +538,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.62
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -528,6 +550,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.62
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	# SS: Minerve class (x4) ("Iris" "Minerve" "Vénus" "Junon")
 	add_equipment_production = {
@@ -540,6 +563,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.86
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -551,6 +575,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.88
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -562,6 +587,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.83
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -573,6 +599,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.71
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -584,6 +611,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.02
 		amount = 1
+		industrial_manufacturer = mio:FRA_acf_organization
 	}
 }
 
