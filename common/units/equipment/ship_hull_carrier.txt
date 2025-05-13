@@ -440,7 +440,10 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
-			fixed_ship_carrier_miscellaneous_slot_2 = inherit
+			fixed_ship_carrier_miscellaneous_slot_2 = {
+				required = no
+				allowed_module_categories = { carrier_miscellaneous coldwar_upgrade_cv }
+			}
 			fixed_ship_flight_deck_slot = inherit
 			fixed_ship_role_slot = inherit
 			front_1_custom_slot = {
