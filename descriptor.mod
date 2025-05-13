@@ -1,4 +1,4 @@
-version="v2.0 - Hunt For Red October"
+version="v2.1 - Coral Sea"
 tags={
 	"Military"
 	"Graphics"
