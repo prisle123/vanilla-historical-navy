@@ -1504,4 +1504,13 @@ spriteTypes = {
 		name = "GFX_SMI_ship_secondaries_2_light"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries_light2.png"
 	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_hull_carrier_role_cv"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_carrier_role_cv.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_carrier_role_cvl"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_carrier_role_cvl.png"
+	}
 }
