@@ -291,7 +291,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { carrier_ship_engine }
+				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine }
 			}
 			fixed_ship_secondaries_slot = {
 				required = no

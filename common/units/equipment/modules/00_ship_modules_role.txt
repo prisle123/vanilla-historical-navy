@@ -423,6 +423,9 @@ equipment_modules = {
 	ship_hull_carrier_role_cv = {
 		category = cv_role
 		dismantle_cost_ic = 100000
+		forbid_module_categories = {
+			cruiser_ship_engine
+		}
 	}
 	ship_hull_carrier_role_cvl = {
 		category = cv_role
