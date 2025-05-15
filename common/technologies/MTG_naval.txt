@@ -5732,6 +5732,9 @@ technologies = {
 		research_cost = 0.6
 
 		start_year = 1932
+		dependencies = {
+			basic_ship_hull_heavy = 1
+		}
 
 		ai_will_do = {
 			factor = 0
