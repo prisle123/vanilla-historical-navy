@@ -1,0 +1,210 @@
+vnr_cv_fighter = {
+    category = air
+    roles = { air_cv_fighter }
+
+    priority = {
+        factor = 9999
+        modifier = {
+            factor = 0
+            has_game_rule = { rule = RULE_AI_AIR_DESIGN option = BLOCKED }
+        }
+    }
+
+    1936_cv_fighter = {
+        priority = {
+            factor = 100
+        }
+
+        target_variant = {
+            match_value = 2000
+            type = cv_small_plane_airframe_1
+            modules = {
+                engine_type_slot = engine_2_1x
+                fixed_main_weapon_slot = light_mg_4x
+                fixed_auxiliary_weapon_slot_1 = light_mg_4x
+            }
+        }
+    }
+
+    1940_cv_fighter = {
+        priority = {
+            factor = 20
+            modifier = {
+                factor = 10
+                has_tech = improved_small_airframe 
+            }
+        }
+
+        target_variant = {
+            match_value = 3000
+            type = cv_small_plane_airframe_2
+            modules = {
+                engine_type_slot = engine_3_1x
+                fixed_main_weapon_slot = heavy_mg_4x
+                fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+            }
+        }
+    }
+
+    1944_cv_fighter = {
+        priority = {
+            factor = 30
+            modifier = {
+                factor = 10
+                has_tech = advanced_small_airframe
+            }
+        }
+
+        target_variant = {
+            match_value = 4000
+            type = cv_small_plane_airframe_3
+            modules = {
+                engine_type_slot = engine_4_1x
+                fixed_main_weapon_slot = heavy_mg_4x
+                fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+                fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
+            }
+        }
+    }
+}
+
+
+vnr_cv_naval_bomber = {
+    category = air
+    roles = { air_cv_naval_bomber }
+
+    priority = {
+        factor = 9999
+        modifier = {
+            factor = 0
+            has_game_rule = { rule = RULE_AI_AIR_DESIGN option = BLOCKED }
+        }
+    }
+
+    1936_cv_naval_bomber = {
+        priority = {
+            factor = 100
+        }
+
+        target_variant = {
+            match_value = 2000
+            type = cv_small_plane_naval_bomber_airframe_1
+            modules = {
+                engine_type_slot = engine_2_1x
+                fixed_main_weapon_slot = torpedo_mounting
+            }
+        }
+    }
+
+    1940_cv_naval_bomber = {
+        priority = {
+            factor = 20
+            modifier = {
+                factor = 10
+                has_tech = improved_small_airframe 
+            }
+        }
+
+        target_variant = {
+            match_value = 3000
+            type = cv_small_plane_naval_bomber_airframe_2
+            modules = {
+                engine_type_slot = engine_3_1x
+                fixed_main_weapon_slot = torpedo_mounting_2
+            }
+        }
+    }
+
+    1944_cv_naval_bomber = {
+        priority = {
+            factor = 30
+            modifier = {
+                factor = 10
+                has_tech = advanced_small_airframe
+            }
+        }
+
+        target_variant = {
+            match_value = 4000
+            type = cv_small_plane_naval_bomber_airframe_3
+            modules = {
+                engine_type_slot = engine_4_1x
+                fixed_main_weapon_slot = torpedo_mounting_3
+            }
+        }
+    }
+}
+
+
+vnr_cv_cas = {
+    category = air
+    roles = { air_cv_cas }
+
+    priority = {
+        factor = 9999
+        modifier = {
+            factor = 0
+            has_game_rule = { rule = RULE_AI_AIR_DESIGN option = BLOCKED }
+        }
+    }
+
+    1936_cv_cas = {
+        priority = {
+            factor = 100
+        }
+
+        target_variant = {
+            match_value = 2000
+            type = cv_small_plane_cas_airframe_1
+            modules = {
+                engine_type_slot = engine_2_2x
+                fixed_main_weapon_slot = armor_piercing_bomb_locks
+                fixed_auxiliary_weapon_slot_1 = armor_piercing_bomb_locks
+                special_type_slot_1 = dive_brakes_small
+            }
+        }
+    }
+
+    1940_cv_cas = {
+        priority = {
+            factor = 20
+            modifier = {
+                factor = 10
+                has_tech = improved_small_airframe 
+            }
+        }
+
+        target_variant = {
+            match_value = 3000
+            type = cv_small_plane_naval_bomber_airframe_2
+            modules = {
+                engine_type_slot = engine_3_2x
+                fixed_main_weapon_slot = armor_piercing_bomb_locks
+                fixed_auxiliary_weapon_slot_1 = armor_piercing_bomb_locks
+                special_type_slot_1 = dive_brakes_small
+            }
+        }
+    }
+
+    1944_cv_cas = {
+        priority = {
+            factor = 30
+            modifier = {
+                factor = 10
+                has_tech = advanced_small_airframe
+            }
+        }
+
+        target_variant = {
+            match_value = 4000
+            type = cv_small_plane_naval_bomber_airframe_3
+            modules = {
+                engine_type_slot = engine_4_2x
+                fixed_main_weapon_slot = armor_piercing_bomb_locks
+                fixed_auxiliary_weapon_slot_1 = armor_piercing_bomb_locks
+                fixed_auxiliary_weapon_slot_2 = armor_piercing_bomb_locks
+                special_type_slot_1 = dive_brakes_small
+            }
+        }
+    }
+}
