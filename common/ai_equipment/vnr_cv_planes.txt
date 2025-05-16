@@ -16,7 +16,7 @@ vnr_cv_fighter = {
         }
 
         target_variant = {
-            match_value = 2000
+            match_value = 5000
             type = cv_small_plane_airframe_1
             modules = {
                 engine_type_slot = engine_2_1x
@@ -36,7 +36,7 @@ vnr_cv_fighter = {
         }
 
         target_variant = {
-            match_value = 3000
+            match_value = 6000
             type = cv_small_plane_airframe_2
             modules = {
                 engine_type_slot = engine_3_1x
@@ -56,7 +56,7 @@ vnr_cv_fighter = {
         }
 
         target_variant = {
-            match_value = 4000
+            match_value = 7000
             type = cv_small_plane_airframe_3
             modules = {
                 engine_type_slot = engine_4_1x
@@ -87,7 +87,7 @@ vnr_cv_naval_bomber = {
         }
 
         target_variant = {
-            match_value = 2000
+            match_value = 5000
             type = cv_small_plane_naval_bomber_airframe_1
             modules = {
                 engine_type_slot = engine_2_1x
@@ -106,7 +106,7 @@ vnr_cv_naval_bomber = {
         }
 
         target_variant = {
-            match_value = 3000
+            match_value = 6000
             type = cv_small_plane_naval_bomber_airframe_2
             modules = {
                 engine_type_slot = engine_3_1x
@@ -125,7 +125,7 @@ vnr_cv_naval_bomber = {
         }
 
         target_variant = {
-            match_value = 4000
+            match_value = 7000
             type = cv_small_plane_naval_bomber_airframe_3
             modules = {
                 engine_type_slot = engine_4_1x
@@ -154,7 +154,7 @@ vnr_cv_cas = {
         }
 
         target_variant = {
-            match_value = 2000
+            match_value = 5000
             type = cv_small_plane_cas_airframe_1
             modules = {
                 engine_type_slot = engine_2_2x
@@ -175,7 +175,7 @@ vnr_cv_cas = {
         }
 
         target_variant = {
-            match_value = 3000
+            match_value = 6000
             type = cv_small_plane_naval_bomber_airframe_2
             modules = {
                 engine_type_slot = engine_3_2x
@@ -196,7 +196,7 @@ vnr_cv_cas = {
         }
 
         target_variant = {
-            match_value = 4000
+            match_value = 7000
             type = cv_small_plane_naval_bomber_airframe_3
             modules = {
                 engine_type_slot = engine_4_2x
