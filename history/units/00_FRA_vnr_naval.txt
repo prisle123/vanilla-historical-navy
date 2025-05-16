@@ -39,21 +39,21 @@ units= {
 			ship = { name = "Léopard" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Chacal/Guépard Class" } } }
 			ship = { name = "Panthère" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Chacal/Guépard Class" } } }
 			# 2e Légère Division des Contre-Torpilleurs
-			ship = { name = "Fougueux" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Frondeur" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "L'Adroit" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Fougueux" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Frondeur" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "L'Adroit" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
 			# 4e Légère Division des Contre-Torpilleurs
-			ship = { name = "Bourrasque" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Ouragan" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
-			ship = { name = "Orage" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Bourrasque" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Ouragan" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
+			ship = { name = "Orage" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
 			# 5e Légère Division des Contre-Torpilleurs
-			ship = { name = "Brestois" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Le Foudroyant" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Boulonnais" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Brestois" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Le Foudroyant" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Boulonnais" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
 			# 6e Légère Division des Contre-Torpilleurs
-			ship = { name = "Cyclone" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
-			ship = { name = "Siroco" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Mistral" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Cyclone" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
+			ship = { name = "Siroco" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Mistral" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
 		}				
 		task_force = {				
 			name = "4ème Escadron Sous-Marins"			
@@ -152,24 +152,24 @@ units= {
 			ship = { name = "Bretagne" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }			
 			ship = { name = "Pluton" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Pluton Class" } } }
 			# 1e Légère Division des Contre-Torpilleurs
-			ship = { name = "La Palme" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Le Mars" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Tempête" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "La Palme" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Le Mars" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Tempête" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
 			# 3e Légère Division des Contre-Torpilleurs
-			ship = { name = "La Railleuse" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Le Fortune" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Simoun" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
+			ship = { name = "La Railleuse" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Le Fortune" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Simoun" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
 			# 7e Légère Division des Contre-Torpilleurs
-			ship = { name = "Tramontane" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
-			ship = { name = "Typhon" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
-			ship = { name = "Tornade" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Tramontane" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
+			ship = { name = "Typhon" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }
+			ship = { name = "Tornade" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
 			# 8e Légère Division des Contre-Torpilleurs
-			ship = { name = "Le Bordelais" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "L'Alcyon" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Trombe" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Le Bordelais" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "L'Alcyon" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Trombe" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
 			# 9e Légère Division des Contre-Torpilleurs
-			ship = { name = "Forbin" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
-			ship = { name = "Basque" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Forbin" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Basque" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Bourrasque/L'Adroit Class" } } }	
 			# Commandant Teste
 			ship = { name = "Commandant Teste" definition = auxiliary_ship start_experience_factor = 0.005 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FRA version_name = "Commandant Teste Class" } } }
 		}				
