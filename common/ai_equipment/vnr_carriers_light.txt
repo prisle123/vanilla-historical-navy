@@ -4,48 +4,6 @@ naval_light_carrier = {
 	roles = { vnr_naval_carrier_light }
 	priority = { base = 10 }
 
-	# carrier_1936 = {
-	# 	role_icon_index = 9
-
-	# 	priority = {
-	# 		base = 10
-	# 		modifier = { factor = 0 has_tech = improved_ship_hull_carrier }
-	# 	}
-
-	# 	target_variant = {
-	# 		match_value = 1000.0
-
-	# 		type = vnr_ship_hull_carrier_1
-	# 		modules = {
-	# 			fixed_ship_deck_slot_1 = ship_deck_space
-	# 			fixed_ship_deck_slot_2 = { any_of = { ship_deck_space ship_carrier_armor } }
-	# 			fixed_ship_anti_air_slot = ship_anti_air
-	# 			fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_2 carrier_ship_engine_1 } }
-	# 			fixed_ship_secondaries_slot = ship_secondaries
-	# 			fixed_ship_radar_slot = empty
-	# 			front_1_custom_slot = { any_of = { ship_deck_space ship_carrier_armor } }
-	# 		}
-	# 	}
-	# }
-
-	# carrier_conv_ca_dummy = {
-		# role_icon_index = 9
-
-		# priority = { base = 0 }
-		# target_variant = {
-			# type = vnr_ship_hull_carrier_conversion_ca
-		# }
-	# }
-
-	# carrier_conv_bb_dummy = {
-		# role_icon_index = 9
-
-		# priority = { base = 0 }
-		# target_variant = {
-			# type = vnr_ship_hull_carrier_conversion_bb
-		# }
-	# }
-
 	light_carrier_1936 = {
 		name = vnr_cvl_1936
 		role_icon_index = 11
@@ -53,19 +11,21 @@ naval_light_carrier = {
 		priority = { 
 			base = 0
 		}
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 100.0
 			type = vnr_ship_hull_carrier_1
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_small
+				fixed_ship_deck_slot_2 = ship_deck_space_small
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_radar_slot = { upgrade = current any_of = { carrier_ship_engine_2 carrier_ship_engine_1 } }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_miscellaneous
+				fixed_ship_role_slot = ship_hull_carrier_role_cvl
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
 			}
 		}
@@ -79,14 +39,15 @@ naval_light_carrier = {
 			base = 0
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 300.0
 
 			type = vnr_ship_hull_carrier_2
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_small
+				fixed_ship_deck_slot_2 = ship_deck_space_small
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
@@ -94,6 +55,10 @@ naval_light_carrier = {
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cvl
+				front_1_custom_slot = ship_deck_space_small
+				mid_1_custom_slot = ship_deck_space_small
+				mid_2_custom_slot = ship_deck_space_small
 			}
 		}
 	}
@@ -106,14 +71,15 @@ naval_light_carrier = {
 			base = 0
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 800.0
 
 			type = vnr_ship_hull_carrier_3
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_deck_slot_1 = ship_deck_space_small
+				fixed_ship_deck_slot_2 = ship_deck_space_small
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_4 carrier_ship_engine_3 carrier_ship_engine_2 carrier_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries
@@ -121,6 +87,10 @@ naval_light_carrier = {
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_unit
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cvl
+				front_1_custom_slot = ship_deck_space_small
+				mid_1_custom_slot = ship_deck_space_small
+				mid_2_custom_slot = ship_deck_space_small
 			}
 		}
 	}
@@ -133,7 +103,8 @@ naval_light_carrier = {
 			base = 0
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 10.0
 

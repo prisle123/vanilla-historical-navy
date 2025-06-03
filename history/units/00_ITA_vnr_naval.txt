@@ -317,365 +317,396 @@ units= {
 ## STARTING PRODUCTION ##
 #########################
 instant_effect = {
-	if = { 
-		limit = { is_tutorial = no } 
-		
+	if = {
+		limit = { is_tutorial = no }
+
 		##### Ships #####
-		
-		add_equipment_production = { 
-			equipment = { 
+
+		add_equipment_production = {
+			equipment = {
 				type = vnr_ship_hull_heavy_1
-				creator = "ITA" 
-				version_name = "Andrea Doria Class" 
-			} 
+				creator = "ITA"
+				version_name = "Andrea Doria Class"
+			}
 			name = "RN Andrea Doria"
 			requested_factories = 5
 			progress = 0.35
-			amount = 1 
-		} 
+			amount = 1
+			industrial_manufacturer = mio:ITA_crda_organization
+		}
 
-		# BB: "RN Giulio Cesare" 
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_heavy_1 
-				creator = "ITA" 
-				version_name = "Andrea Doria Class" 
-			} 
+		# BB: "RN Giulio Cesare"
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_heavy_1
+				creator = "ITA"
+				version_name = "Andrea Doria Class"
+			}
 			name = "RN Caio Duilio"
 			requested_factories = 5
 			progress = 0.35
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_crda_organization
 		}
 
-		add_equipment_production = { 
-			equipment = { 
+		add_equipment_production = {
+			equipment = {
 				type = vnr_ship_hull_heavy_3
-				creator = "ITA" 
-				version_name = "Littorio Class" 
-			} 
+				creator = "ITA"
+				version_name = "Littorio Class"
+			}
 			name = "RN Vittorio Veneto"
 			requested_factories = 5
-			progress = 0.21 
-			amount = 1 
-		} 
-		
-		add_equipment_production = { 
-			equipment = { 
+			progress = 0.21
+			amount = 1
+			industrial_manufacturer = mio:ITA_crda_organization
+		}
+
+		add_equipment_production = {
+			equipment = {
 				type = vnr_ship_hull_heavy_3
-				creator = "ITA" 
-				version_name = "Littorio Class" 
-			} 
+				creator = "ITA"
+				version_name = "Littorio Class"
+			}
 			name = "RN Littorio"
 			requested_factories = 5
-			progress = 0.21 
-			amount = 1 
-		} 
+			progress = 0.21
+			amount = 1
+			industrial_manufacturer = mio:ITA_crda_organization
+		}
 
-		# CL: "RN Eugenio di Savoia" 
-		add_equipment_production = { 
-			equipment = { 
+		# CL: "RN Eugenio di Savoia"
+		add_equipment_production = {
+			equipment = {
 				type = vnr_ship_hull_cruiser_3
-				creator = "ITA" 
-				version_name = "Montecuccoli/Duca d'Aosta Class" 
-			} 
+				creator = "ITA"
+				version_name = "Montecuccoli/Duca d'Aosta Class"
+			}
 			name = "RN Eugenio di Savoia"
 			requested_factories = 2
 			progress = 0.98
-			amount = 1 
-		} 
-		
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_cruiser_3 
-				creator = "ITA" 
-				version_name = "Duca degli Abruzzi Class" 
-			} 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_cruiser_3
+				creator = "ITA"
+				version_name = "Duca degli Abruzzi Class"
+			}
 			name = "RN Duca degli Abruzzi"
 			requested_factories = 2
 			progress = 0.51
-			amount = 1 
-		} 
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_cruiser_3 
-				creator = "ITA" 
-				version_name = "Duca degli Abruzzi Class" 
-			} 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_cruiser_3
+				creator = "ITA"
+				version_name = "Duca degli Abruzzi Class"
+			}
 			name = "RN Giuseppe Garibaldi"
 			requested_factories = 2
 			progress = 0.51
-			amount = 1 
-		} 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
 
 		# DD: "RN Perseo", "RN Sirio"
-		add_equipment_production = { 
-			equipment = { 
+		add_equipment_production = {
+			equipment = {
 				type = vnr_ship_hull_light_3
-				creator = "ITA" 
-				version_name = "Maestrale/Oriani Class" 
-			} 
+				creator = "ITA"
+				version_name = "Maestrale/Oriani Class"
+			}
 			name = "RN Alfredo Oriani"
-			requested_factories = 1 
-			progress = 0.14 
+			requested_factories = 1
+			progress = 0.14
 			amount = 1
-		} 
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Perseo"
-			requested_factories = 1 
-			progress = 0.93 
+			requested_factories = 1
+			progress = 0.93
 			amount = 1
-		} 
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Sirio"
 			requested_factories = 1
 			progress = 0.88
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Canopo"
-			requested_factories = 1 
+			requested_factories = 1
 			progress = 0.07
 			amount = 1
-		} 
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Cassiopea"
 			requested_factories = 1
 			progress = 0.06
-			amount = 1 
-		} 
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Centauro"
-			requested_factories = 1 
+			requested_factories = 1
 			progress = 0.80
 			amount = 1
-		} 
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Climene"
 			requested_factories = 1
 			progress = 0.86
-			amount = 1 
-		} 
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Aldebaran"
 			requested_factories = 1
 			progress = 0.22
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Altair"
 			requested_factories = 1
 			progress = 0.22
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Andromeda"
 			requested_factories = 1
 			progress = 0.22
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Andares"
 			requested_factories = 1
 			progress = 0.22
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Sagittario"
 			requested_factories = 1
 			progress = 0.18
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_light_2 
-				creator = "ITA" 
-				version_name = "Spica Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_light_2
+				creator = "ITA"
+				version_name = "Spica Class"
+			}
 			name = "RN Vega"
 			requested_factories = 1
 			progress = 0.18
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
 		}
 
 		# SS: "RN Enrico Tazzoli"
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_cruiser_submarine 
-				creator = "ITA" 
-				version_name = "Fieramosca/Calvi Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_cruiser_submarine
+				creator = "ITA"
+				version_name = "Fieramosca/Calvi Class"
+			}
 			name = "RN Enrico Tazzoli"
-			requested_factories = 1 
-			progress = 0.93 
-			amount = 1 
-		} 
-		
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+			requested_factories = 1
+			progress = 0.93
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantiere_oto_organization
+		}
+
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Ambra"
-			requested_factories = 1 
-			progress = 0.42 
-			amount = 1 
+			requested_factories = 1
+			progress = 0.42
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Berillo"
-			requested_factories = 1 
-			progress = 0.36 
-			amount = 1 
+			requested_factories = 1
+			progress = 0.36
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Corallo"
-			requested_factories = 1 
+			requested_factories = 1
 			progress = 0.33
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Diaspro"
-			requested_factories = 1 
-			progress = 0.36 
-			amount = 1 
+			requested_factories = 1
+			progress = 0.36
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Gemma"
-			requested_factories = 1 
+			requested_factories = 1
 			progress = 0.4
-			amount = 1 
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Iride"
-			requested_factories = 1 
-			progress = 0.29 
-			amount = 1 
+			requested_factories = 1
+			progress = 0.29
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Malacite"
-			requested_factories = 1 
-			progress = 0.33 
-			amount = 1 
+			requested_factories = 1
+			progress = 0.33
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Onice"
-			requested_factories = 1 
-			progress = 0.39 
-			amount = 1 
+			requested_factories = 1
+			progress = 0.39
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Perla"
-			requested_factories = 1 
-			progress = 0.46 
-			amount = 1 
+			requested_factories = 1
+			progress = 0.46
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-		add_equipment_production = { 
-			equipment = { 
-				type = vnr_ship_hull_submarine_2 
-				creator = "ITA" 
-				version_name = "Sirena/Perla Class" 
-			} 
+		add_equipment_production = {
+			equipment = {
+				type = vnr_ship_hull_submarine_2
+				creator = "ITA"
+				version_name = "Sirena/Perla Class"
+			}
 			name = "RN Turchese"
-			requested_factories = 1 
-			progress = 0.33 
-			amount = 1 
+			requested_factories = 1
+			progress = 0.33
+			amount = 1
+			industrial_manufacturer = mio:ITA_cantieri_navali_tosi_organization
 		}
-	} 
+	}
 }
 
 #####################

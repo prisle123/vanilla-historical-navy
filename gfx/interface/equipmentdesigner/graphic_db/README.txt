@@ -1,4 +1,4 @@
-# Ship icon database is arranged as separate files to ensure good robustness and easy maintainence throughout updates and migrations
+# Ship icon database is arranged as separate files to ensure good robustness and easy maintenance throughout updates and migrations
 
 # For power with multiple tags, it is grouped in one file with all related tags
 # Other countries are grouped by region/continent

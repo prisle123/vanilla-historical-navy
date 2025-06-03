@@ -1,0 +1,86 @@
+leader_traits = {
+    dive_bomber = { 
+		type = navy
+		sub_unit_modifiers = {
+			cv_cas = {
+				naval_strike_attack_factor = 0.05
+				air_nav_efficiency = 0.1
+				naval_strike_targetting_factor = 0.1
+			}
+		}	
+		ai_will_do = {
+			factor = 0
+		}
+		
+		slot = navy_chief
+		specialist_advisor_trait = navy_chief_naval_aviation_1
+		expert_advisor_trait = navy_chief_naval_aviation_2
+		genius_advisor_trait = navy_chief_naval_aviation_3
+		
+		trait_type = assignable_trait
+		mutually_exclusive = fighter_director
+		mutually_exclusive = torpedo_bomber
+		any_parent = { flight_deck_manager }
+		
+		gui_row = 8
+		gui_column = 2
+	}
+
+    cruiser_captain = { 
+		type = navy
+		modifier = {
+			
+		}
+		sub_unit_modifiers = {
+			light_cruiser = {
+				naval_damage_factor = 0.05
+				naval_speed_factor = 0.05
+			}
+            medium_cruiser = {
+				naval_damage_factor = 0.05
+				naval_speed_factor = 0.05
+			}
+			heavy_cruiser = {
+				naval_damage_factor = 0.05
+				naval_speed_factor = 0.05
+			}
+		}	
+		ai_will_do = {
+			factor = 0
+		}
+		
+		trait_type = assignable_trait
+		any_parent = { fleet_protector superior_tactician }
+		
+		gui_row = 6
+		gui_column = 1
+	}
+
+    destroyer_leader = {
+		type = navy
+		modifier = {
+			#destroyer = {
+			#	units = {
+			#		attack = 0.1
+			#		defence = 0.1
+			#	}
+			#}
+		}
+		sub_unit_modifiers = {
+			destroyer = {
+				naval_damage_factor = 0.05
+				naval_torpedo_hit_chance_factor = 0.1
+				navy_visibility = -0.05
+			}
+		}	
+		ai_will_do = {
+			factor = 0
+		}
+		
+		trait_type = assignable_trait
+		any_parent = { fleet_protector superior_tactician }
+		
+		gui_row = 5
+		gui_column = 1
+	}
+}

@@ -336,6 +336,8 @@ country_event = {
 
 					damage_control_1 = 1
 					fire_control_methods_1 = 1
+					basic_ballast_tank = 1
+					improved_ballast_tank = 1
 				}
 				ai_get_navy_experience = yes
 			}
@@ -555,5 +557,82 @@ country_event = {
 			}
 		}
 		set_global_flag = naval_tech_1952
+	}
+}
+
+# unlock free cv air techs 1936
+country_event = {
+	id = ai_ships.107
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1936.1.1
+		NOT = { has_global_flag = cv_air_tech_1936 }
+		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+	}
+	immediate = {
+		for_each_scope_loop = {
+			array = global.vnr_naval_powers
+			if = {
+				limit = { is_ai = yes }
+				set_technology = {
+					armor_piercing_bombs = 1
+					aircraft_construction = 1
+				}
+				add_ideas = vnr_cv_plane_output_boost
+			}
+		}
+		set_global_flag = cv_air_tech_1936
+	}
+}
+
+# unlock free cv air techs 1939
+country_event = {
+	id = ai_ships.107
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1939.1.1
+		NOT = { has_global_flag = cv_air_tech_1939 }
+		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+	}
+	immediate = {
+		for_each_scope_loop = {
+			array = global.vnr_naval_powers
+			if = {
+				limit = { is_ai = yes }
+				set_technology = {
+					improved_small_airframe = 1
+					aa_hmg = 1
+					air_torpedoe_2 = 1
+				}
+			}
+		}
+		set_global_flag = cv_air_tech_1939
+	}
+}
+
+# unlock free cv air techs 1944
+country_event = {
+	id = ai_ships.107
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1944.1.1
+		NOT = { has_global_flag = cv_air_tech_1944 }
+		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+	}
+	immediate = {
+		for_each_scope_loop = {
+			array = global.vnr_naval_powers
+			if = {
+				limit = { is_ai = yes }
+				set_technology = {
+					advanced_small_airframe = 1
+					air_torpedoe_3 = 1
+				}
+			}
+		}
+		set_global_flag = cv_air_tech_1944
 	}
 }

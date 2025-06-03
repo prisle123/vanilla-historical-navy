@@ -1239,7 +1239,7 @@ equipment_modules = {
 		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
 		add_stats = {
-			reliability = 0.3
+			reliability = 0.2
 		}
 		multiply_stats = {
 			build_cost_ic = 0.05
@@ -1365,6 +1365,7 @@ equipment_modules = {
 	}
 	ship_armor_extra = {
 		category = heavy_miscellaneous
+		gui_category = ship_miscellaneous
 		gfx = ship_cruiser_armor
 		
 		multiply_stats = {
@@ -1379,6 +1380,7 @@ equipment_modules = {
 	}
 	ship_superheater = {
 		category = light_miscellaneous
+		gui_category = ship_miscellaneous
 
 		add_stats = {
 			build_cost_ic = 350
@@ -1392,6 +1394,27 @@ equipment_modules = {
 			light_ship_engine
 			civilian_ship_engine
 			cruiser_ship_engine
+		}
+	}
+	coldwar_upgrade_bb = {
+		category = coldwar_upgrade_bb
+		gui_category = cold_war_miscellaneous
+
+		multiply_stats = {
+			build_cost_ic = 0.2
+			lg_attack = 0.1
+			hg_attack = 0.1
+			anti_air_attack = 0.15
+		}
+		add_stats = {
+			reliability = 0.05
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.05
+		}
+		dismantle_cost_ic = 50000
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
 		}
 	}
 }

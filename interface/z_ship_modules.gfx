@@ -186,6 +186,26 @@ spriteTypes = {
 		name = "GFX_SMI_sub_rocket"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_missile_launcher.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_light_ship_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_light.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_light_ship_engine_high_speed"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_light.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_cruiser_ship_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_heavy_ship_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_large.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_carrier_ship_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_large.png"
+	}
 	
 	# topview images
 	spriteType = {
@@ -828,6 +848,62 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_steam_engine_5"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_light_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_light_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_light_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_light_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_light_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_light_3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_light_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_light_4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_light_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_light_5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_large_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_large_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_large_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_large_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_large_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_large_3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_large_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_large_4.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_large_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_large_5.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_super_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_super_1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_super_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_super_2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_steam_engine_super_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_super_3.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_gas_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/gas_engine.png"
 	}
 	spriteType = {
 		name = "GFX_SMI_light_ship_engine_6"
@@ -1503,5 +1579,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_secondaries_2_light"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries_light2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_SMI_ship_hull_carrier_role_cv"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_carrier_role_cv.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_hull_carrier_role_cvl"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_carrier_role_cvl.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_coldwar_upgrade_bb"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/coldwar_upgrade_bb.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_coldwar_upgrade_cv"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/coldwar_upgrade_cv.png"
 	}
 }

@@ -4,36 +4,13 @@ naval_carrier = {
 	roles = { vnr_naval_carrier }
 	priority = { base = 80 }
 
-	# carrier_1936 = {
-	# 	role_icon_index = 9
-
-	# 	priority = {
-	# 		base = 10
-	# 		modifier = { factor = 0 has_tech = improved_ship_hull_carrier }
-	# 	}
-
-	# 	target_variant = {
-	# 		match_value = 1000.0
-
-	# 		type = vnr_ship_hull_carrier_1
-	# 		modules = {
-	# 			fixed_ship_deck_slot_1 = ship_deck_space
-	# 			fixed_ship_deck_slot_2 = { any_of = { ship_deck_space ship_carrier_armor } }
-	# 			fixed_ship_anti_air_slot = ship_anti_air
-	# 			fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_2 carrier_ship_engine_1 } }
-	# 			fixed_ship_secondaries_slot = ship_secondaries
-	# 			fixed_ship_radar_slot = empty
-	# 			front_1_custom_slot = { any_of = { ship_deck_space ship_carrier_armor } }
-	# 		}
-	# 	}
-	# }
-
 	carrier_conv_ca_dummy = {
 		name = vnr_cv_ca
 		role_icon_index = 9
 
 		priority = { base = 0 }
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			type = vnr_ship_hull_carrier_conversion_ca
 			modules = {
@@ -52,7 +29,8 @@ naval_carrier = {
 		role_icon_index = 9
 
 		priority = { base = 0 }
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			type = vnr_ship_hull_carrier_conversion_bb
 			modules = {
@@ -78,7 +56,8 @@ naval_carrier = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 1000.0
 			type = vnr_ship_hull_carrier_1
@@ -93,6 +72,7 @@ naval_carrier = {
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space
 			}
 		}
@@ -108,7 +88,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 1000.0
 
@@ -124,6 +105,7 @@ naval_carrier = {
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space
@@ -142,7 +124,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 1000.0
 
@@ -158,6 +141,7 @@ naval_carrier = {
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_armor_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space
@@ -177,7 +161,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 2000.0
 
@@ -212,7 +197,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 2000.0
 
@@ -248,7 +234,8 @@ naval_carrier = {
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
 			modifier = { factor = 0 expert_ai_style = no }
 		}
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 2000.0
 			type = vnr_ship_hull_carrier_1
@@ -263,6 +250,7 @@ naval_carrier = {
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space
 				mid_1_custom_slot = ship_deck_space
 			}
@@ -278,7 +266,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 3000.0
 	
@@ -294,6 +283,7 @@ naval_carrier = {
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space
@@ -311,7 +301,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 5500.0
 	
@@ -327,6 +318,7 @@ naval_carrier = {
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 				fixed_ship_carrier_miscellaneous_slot_2 = carrier_strength_deck
 				fixed_ship_flight_deck_slot = carrier_armor_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space
 				front_2_custom_slot = carrier_angled_deck
 				mid_1_custom_slot = ship_deck_space
@@ -345,7 +337,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 6500.0
 	
@@ -379,7 +372,8 @@ naval_carrier = {
 			modifier = { factor = 0 expert_ai_style = no }
 		}
 	
-		is_history = yes
+		
+		history = yes
 		target_variant = {
 			match_value = 8000.0
 	

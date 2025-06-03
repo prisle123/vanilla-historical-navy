@@ -419,6 +419,9 @@ technologies = {
 			carrier = 1.5
 			naval_air = 0.75
 		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
+		}
 	}
 
 	decisive_battle = {
@@ -579,6 +582,9 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 2.0
+		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
 		}
 	}
 
@@ -1462,6 +1468,9 @@ technologies = {
 			naval_doctrine = -1.0
 			submarine = 2.0
 		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
+		}
 	}
 
 	advanced_submarine_warfare = {
@@ -1588,6 +1597,9 @@ technologies = {
 			naval_doctrine = -1.0
 			cruiser = 1.5
 			submarine = 1.0
+		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
 		}
 	}
 
@@ -2642,6 +2654,9 @@ technologies = {
 			naval_doctrine = -1.0
 			battleship = 2.0
 		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
+		}
 	}
 
 	carrier_battlegroups = {
@@ -2717,6 +2732,9 @@ technologies = {
 			carrier = 1.5
 			naval_air = 0.75
 			naval_equipment = 1.0
+		}
+		on_research_complete = {
+			add_vnr_exp_traits = yes
 		}
 	}
 

@@ -1,0 +1,26 @@
+add_vnr_exp_traits = {
+    if = {
+        limit = {
+            all_navy_leader = {
+                NOT = { has_unit_leader_flag = admiral_exp_boost_1 }
+            }
+        }
+        every_navy_leader = {
+            set_unit_leader_flag = admiral_exp_boost_1
+            add_unit_leader_trait = theoretic_breakthrough_1
+        }
+    }
+    else_if = {
+        limit = {
+            all_navy_leader = {
+                has_unit_leader_flag = admiral_exp_boost_1
+                NOT = { has_unit_leader_flag = admiral_exp_boost_2 }
+            }
+        }
+        every_navy_leader = {
+            set_unit_leader_flag = admiral_exp_boost_2
+            remove_unit_leader_trait = theoretic_breakthrough_1
+            add_unit_leader_trait = theoretic_breakthrough_2
+        }
+    }
+}
