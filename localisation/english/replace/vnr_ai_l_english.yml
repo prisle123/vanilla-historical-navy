@@ -58,3 +58,7 @@
  RULE_AI_NAVAL_MANAGEMENT: "Enable VNR Naval AI"
  RULE_AI_NAVAL_MANAGEMENT_FREE_DESC: "§GEnable§! naval AI management of combat designed for each specific major country in vanilla environment."
  RULE_AI_NAVAL_MANAGEMENT_BLOCKED_DESC: "§RDisable§! naval AI management of combat designed for each specific major country in vanilla environment.\n§YUse AI from base game or other mods you play along with VNR.§!"
+ RULE_AI_AIR_DESIGN: "Enable Improved AI Air Templates"
+ RULE_AI_AIR_DESIGN_FREE_DESC: "§GEnable§! improved CV plane designs for AI countries.\n§RDon't mix this option with mods changing air techs.§!"
+ RULE_AI_AIR_DESIGN_BLOCKED_DESC: "§RDisable§! improved CV plane designs for AI countries.\n§YUse AI from base game or other mods you play along with VNR.§!"
+ vnr_cv_plane_output_boost: "VNR CV Plane Output Boost"

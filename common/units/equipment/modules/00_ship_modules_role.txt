@@ -48,6 +48,7 @@ equipment_modules = {
 			surface_visibility = -0.05
         	build_cost_ic = -0.2
     	}
+		dismantle_cost_ic = 3000
 		forbid_module_categories = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
@@ -69,6 +70,7 @@ equipment_modules = {
 			naval_range = -0.3
         	build_cost_ic = -0.3
     	}
+		dismantle_cost_ic = 2500
 		forbid_module_categories = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
@@ -89,6 +91,7 @@ equipment_modules = {
 			surface_visibility = 0.5
         	build_cost_ic = 0.25
     	}
+		dismantle_cost_ic = 4500
 		forbid_module_categories = {
 			ship_missile_aa
 			ship_missile
@@ -151,6 +154,7 @@ equipment_modules = {
 			max_strength = -0.15
 			armor_value = -0.1
 		}
+		dismantle_cost_ic = 5500
 		forbid_module_categories = {
 			ship_medium_heavy_battery_triple
 			ship_medium_heavy_battery_double
@@ -183,6 +187,11 @@ equipment_modules = {
 			naval_range = 0.1
 			naval_speed = -0.2
 			build_cost_ic = 0.1
+		}
+		dismantle_cost_ic = 7500
+		can_convert_from = {
+			module_category = c_role_missile
+			convert_cost_ic = 0
 		}
 		forbid_module_categories = {
 			ship_medium_battery
@@ -226,6 +235,7 @@ equipment_modules = {
 			naval_speed = 0.05
 			build_cost_ic = -0.1
 		}
+		dismantle_cost_ic = 1000
 		forbid_module_categories = {
 			ship_medium_heavy_battery_triple
 			ship_medium_heavy_battery_double
@@ -254,6 +264,7 @@ equipment_modules = {
 			surface_visibility = -0.05
 			build_cost_ic = -0.15
 		}
+		dismantle_cost_ic = 2500
 		forbid_module_categories = {
 			ship_medium_heavy_battery_triple
 			ship_medium_heavy_battery_double
@@ -279,6 +290,10 @@ equipment_modules = {
 			max_strength = 200
 			reliability = 0.1
 		}
+		can_convert_from = {
+			module = ship_hull_cruiser_role_cb
+			convert_cost_ic = 500
+		}
 		forbid_module_categories = {
 			raider_kit
 		}
@@ -292,6 +307,10 @@ equipment_modules = {
 		}
 		add_stats = {
 			max_strength = 65
+		}
+		can_convert_from = {
+			module = ship_hull_cruiser_role_cb
+			convert_cost_ic = 500
 		}
 		forbid_module_categories = {
 			ship_medium_heavy_battery_triple
@@ -324,6 +343,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_range = 0.5
 		}
+		dismantle_cost_ic = 3000
 	}
 	ship_hull_cruiser_role_cd = {
 		category = cds_role
@@ -331,6 +351,7 @@ equipment_modules = {
 			naval_speed = -0.2
 			build_cost_ic = -0.2
 		}
+		dismantle_cost_ic = 3000
 		forbid_module_categories = {
 			ship_cruiser_heavy_armor
 		}
@@ -341,6 +362,7 @@ equipment_modules = {
 		add_stats = {
 			max_strength = 80
 		}
+		dismantle_cost_ic = 3000
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_range = 0.5
@@ -394,6 +416,33 @@ equipment_modules = {
 		}
 	}
 
+
+####################
+##  Carrier ROLE  ##
+####################
+	ship_hull_carrier_role_cv = {
+		category = cv_role
+		dismantle_cost_ic = 100000
+		forbid_module_categories = {
+			cruiser_ship_engine
+		}
+	}
+	ship_hull_carrier_role_cvl = {
+		category = cv_role
+		multiply_stats = {
+			build_cost_ic = -0.1
+			max_strength = -0.3
+			naval_speed = -0.1
+			anti_air_attack = -0.15
+		}
+		dismantle_cost_ic = 100000
+		forbid_module_categories = {
+			ship_deck_space
+			ship_deck_space_mega
+		}
+	}
+
+
 ######################
 ##  Auxiliary Role  ##
 ######################
@@ -410,6 +459,7 @@ equipment_modules = {
 			naval_range = 0.5
 			fuel_consumption = 0.1
 		}
+		dismantle_cost_ic = 1200
 		forbid_module_categories = {
 			seaplane_hangar
 		}
@@ -421,5 +471,6 @@ equipment_modules = {
 			surface_detection = 0.1
 			sub_detection = 0.1
 		}
+		dismantle_cost_ic = 1000
 	}
 }

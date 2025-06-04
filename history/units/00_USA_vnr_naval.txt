@@ -439,10 +439,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Yorktown Class"
 		}
-		name = "USS Yorktown" 
+		name = "USS Yorktown"
 		requested_factories = 2
 		progress = 0.54
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -450,10 +451,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Yorktown Class"
 		}
-		name = "USS Enterprise" 
+		name = "USS Enterprise"
 		requested_factories = 2
 		progress = 0.38
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -465,6 +467,7 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.03
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	# CA: Quincy (New Orleans class, Comm. 9-Jun, 1936)
 	add_equipment_production = {
@@ -473,10 +476,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Portland/New Orleans Class"
 		}
-		name = "USS Quincy" 
+		name = "USS Quincy"
 		requested_factories = 3
 		progress = 0.83
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -484,10 +488,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Portland/New Orleans Class"
 		}
-		name = "USS Vincennes" 
+		name = "USS Vincennes"
 		requested_factories = 3
 		progress = 0.63
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	# CA: Wichita
 	add_equipment_production = {
@@ -496,10 +501,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Wichita Class"
 		}
-		name = "USS Wichita" 
+		name = "USS Wichita"
 		requested_factories = 3
 		progress = 0.05
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 
 	add_equipment_production = {
@@ -512,6 +518,7 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.17
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -523,6 +530,7 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.16
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -534,6 +542,7 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.15
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -545,6 +554,7 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.14
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -556,6 +566,7 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.13
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -567,6 +578,7 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.12
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -578,6 +590,7 @@ instant_effect = {
 		requested_factories = 3
 		progress = 0.11
 		amount = 1
+		industrial_manufacturer = mio:USA_newport_news_shipbuilding_organization
 	}
 	# DD: Porter (x4) ("USS Porter" "USS Phelps" "USS Clark" "USS Moffett")
 	add_equipment_production = {
@@ -586,10 +599,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS Porter" 
+		name = "USS Porter"
 		requested_factories = 2
 		progress = 0.78
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -597,10 +611,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS Phelps" 
+		name = "USS Phelps"
 		requested_factories = 2
 		progress = 0.96
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -608,10 +623,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS Clark" 
+		name = "USS Clark"
 		requested_factories = 2
 		progress = 0.86
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -619,10 +635,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS Moffett" 
+		name = "USS Moffett"
 		requested_factories = 2
 		progress = 0.77
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -630,10 +647,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS Selfridge" 
+		name = "USS Selfridge"
 		requested_factories = 2
 		progress = 0.71
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -641,10 +659,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS McDougal" 
+		name = "USS McDougal"
 		requested_factories = 2
 		progress = 0.69
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -652,10 +671,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS Winslow" 
+		name = "USS Winslow"
 		requested_factories = 2
 		progress = 0.66
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -663,10 +683,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS Balch" 
+		name = "USS Balch"
 		requested_factories = 2
 		progress = 0.69
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	# DD: Somers (x2)
 	add_equipment_production = {
@@ -675,10 +696,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS Somers" 
+		name = "USS Somers"
 		requested_factories = 2
 		progress = 0.23
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -686,10 +708,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porter/Somers Class"
 		}
-		name = "USS Warrington" 
+		name = "USS Warrington"
 		requested_factories = 2
 		progress = 0.11
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -701,6 +724,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.00
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -712,6 +736,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.00
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -723,6 +748,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.00
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	# DD: Mahan class (x9) ("USS Mahan" "USS Cummings" "USS Flusser" "USS Case" "USS Conyngham" "USS Cassin" "USS Shaw" "USS Cushing" "USS Perkins")
 	add_equipment_production = {
@@ -731,10 +757,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Mahan" 
+		name = "USS Mahan"
 		requested_factories = 2
 		progress = 0.70
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -742,10 +769,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Cummings" 
+		name = "USS Cummings"
 		requested_factories = 2
 		progress = 0.65
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -753,10 +781,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Drayton" 
+		name = "USS Drayton"
 		requested_factories = 2
 		progress = 0.73
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -764,10 +793,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Lamson" 
+		name = "USS Lamson"
 		requested_factories = 2
 		progress = 0.71
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -775,10 +805,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Flusser" 
+		name = "USS Flusser"
 		requested_factories = 2
 		progress = 0.68
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -786,10 +817,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Case" 
+		name = "USS Case"
 		requested_factories = 2
 		progress = 0.67
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -797,10 +829,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Conyngham" 
+		name = "USS Conyngham"
 		requested_factories = 2
 		progress = 0.61
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -808,10 +841,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Cassin" 
+		name = "USS Cassin"
 		requested_factories = 2
 		progress = 0.68
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -819,10 +853,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Shaw" 
+		name = "USS Shaw"
 		requested_factories = 2
 		progress = 0.65
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -830,10 +865,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Tucker" 
+		name = "USS Tucker"
 		requested_factories = 2
 		progress = 0.74
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -841,10 +877,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Downes" 
+		name = "USS Downes"
 		requested_factories = 2
 		progress = 0.59
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -852,10 +889,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Cushing" 
+		name = "USS Cushing"
 		requested_factories = 2
 		progress = 0.71
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -863,10 +901,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Perkins" 
+		name = "USS Perkins"
 		requested_factories = 2
 		progress = 0.68
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -874,10 +913,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Smith" 
+		name = "USS Smith"
 		requested_factories = 2
 		progress = 0.65
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -885,10 +925,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Preston" 
+		name = "USS Preston"
 		requested_factories = 2
 		progress = 0.63
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -896,10 +937,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Dunlap" 
+		name = "USS Dunlap"
 		requested_factories = 2
 		progress = 0.35
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -907,10 +949,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Fanning" 
+		name = "USS Fanning"
 		requested_factories = 2
 		progress = 0.3
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -918,10 +961,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Farragut/Mahan Class"
 		}
-		name = "USS Reid" 
+		name = "USS Reid"
 		requested_factories = 2
 		progress = 0.65
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	# DD: Gridley class (x4)
 	add_equipment_production = {
@@ -930,10 +974,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Gridley" 
+		name = "USS Gridley"
 		requested_factories = 2
 		progress = 0.29
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -941,10 +986,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Craven" 
+		name = "USS Craven"
 		requested_factories = 2
 		progress = 0.26
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -956,6 +1002,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.00
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -967,6 +1014,7 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.00
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	# DD: Bagley class (x8)
 	add_equipment_production = {
@@ -975,10 +1023,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Bagley" 
+		name = "USS Bagley"
 		requested_factories = 2
 		progress = 0.26
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -986,10 +1035,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Blue" 
+		name = "USS Blue"
 		requested_factories = 2
 		progress = 0.17
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -997,10 +1047,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Helm" 
+		name = "USS Helm"
 		requested_factories = 2
 		progress = 0.16
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1008,10 +1059,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Mugford" 
+		name = "USS Mugford"
 		requested_factories = 2
 		progress = 0.14
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1019,10 +1071,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Ralph Talbot" 
+		name = "USS Ralph Talbot"
 		requested_factories = 2
 		progress = 0.13
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1030,10 +1083,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Henley" 
+		name = "USS Henley"
 		requested_factories = 2
 		progress = 0.14
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1041,10 +1095,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Patterson" 
+		name = "USS Patterson"
 		requested_factories = 2
 		progress = 0.23
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1052,10 +1107,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Gridley/Bagley Class"
 		}
-		name = "USS Jarvis" 
+		name = "USS Jarvis"
 		requested_factories = 2
 		progress = 0.19
 		amount = 1
+		industrial_manufacturer = mio:USA_brooklyn_naval_yard_organization
 	}
 	# SS: Shark class (x1) ("USS Tarpon")
 	add_equipment_production = {
@@ -1064,10 +1120,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porpoise Class"
 		}
-		name = "USS Tarpon" 
+		name = "USS Tarpon"
 		requested_factories = 1
 		progress = 0.93
 		amount = 1
+		industrial_manufacturer = mio:USA_electric_boat_company_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1075,10 +1132,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porpoise Class"
 		}
-		name = "USS Perch" 
+		name = "USS Perch"
 		requested_factories = 1
 		progress = 0.52
 		amount = 1
+		industrial_manufacturer = mio:USA_electric_boat_company_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1086,10 +1144,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porpoise Class"
 		}
-		name = "USS Pickerel" 
+		name = "USS Pickerel"
 		requested_factories = 1
 		progress = 0.46
 		amount = 1
+		industrial_manufacturer = mio:USA_electric_boat_company_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1097,10 +1156,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porpoise Class"
 		}
-		name = "USS Permit" 
+		name = "USS Permit"
 		requested_factories = 1
 		progress = 0.33
 		amount = 1
+		industrial_manufacturer = mio:USA_electric_boat_company_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1108,10 +1168,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porpoise Class"
 		}
-		name = "USS Plunger" 
+		name = "USS Plunger"
 		requested_factories = 1
 		progress = 0.38
 		amount = 1
+		industrial_manufacturer = mio:USA_electric_boat_company_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1119,10 +1180,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porpoise Class"
 		}
-		name = "USS Pollack" 
+		name = "USS Pollack"
 		requested_factories = 1
 		progress = 0.2
 		amount = 1
+		industrial_manufacturer = mio:USA_electric_boat_company_organization
 	}
 	add_equipment_production = {
 		equipment = {
@@ -1130,10 +1192,11 @@ instant_effect = {
 			creator = "USA"
 			version_name = "Porpoise Class"
 		}
-		name = "USS Pompano" 
+		name = "USS Pompano"
 		requested_factories = 1
 		progress = 0.05
 		amount = 1
+		industrial_manufacturer = mio:USA_electric_boat_company_organization
 	}
 }
 

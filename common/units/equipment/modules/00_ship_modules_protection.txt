@@ -949,6 +949,8 @@ equipment_modules = {
 	ship_armor_carrier_heavy_5 = {
 		category = ship_carrier_armor_heavy
 		gfx = ship_heavy_armor
+		add_equipment_type = capital_ship
+		parent = ship_armor_cruiser_heavy_4
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
