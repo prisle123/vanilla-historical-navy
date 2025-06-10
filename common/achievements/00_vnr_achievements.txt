@@ -1,0 +1,59 @@
+unique_id = vnr_achievements
+
+00_better_than_yankees_achievement = {
+    possible = {
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = { archetype = ship_hull_carrier size > 99 }
+        has_navy_size = { archetype = ship_hull_heavy size > 23 }
+        has_navy_size = { archetype = ship_hull_cruiser size > 72 }
+        has_navy_size = { archetype = ship_hull_light size > 940 }
+        has_navy_size = { archetype = ship_hull_submarine size > 232 }
+    }
+}
+
+00_age_of_information_achievement = {
+    possible = {
+        game_rules_allow_achievements
+    }
+    happened = {
+        has_tech = naval_tactical_data_system
+        OR = {
+            has_tech = tactical_data_link
+            has_tech = tactical_data_link_for_member
+        }
+    }
+}
+
+00_modernday_nelson_achievement = {
+    possible = {
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        any_navy_leader = {
+            skill > 8
+        }
+    }
+}
+
+00_bathtub_war_achievement = {
+    possible = {
+        always = yes
+    }
+    happened = {
+        custom_trigger_tooltip = {
+            tooltip = bathtub_war_trigger_tt
+            check_variable = { num_ships_with_type@behemoth > 0 }
+        }
+    }
+}
+
+00_monopoly_achievement = {
+    possible = {
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        stockpile_ratio = { archetype = convoy ratio > 2999 }
+    }
+}
