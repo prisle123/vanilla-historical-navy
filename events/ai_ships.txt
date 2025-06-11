@@ -606,6 +606,7 @@ country_event = {
 					aa_hmg = 1
 					air_torpedoe_2 = 1
 				}
+				air_experience = 80
 			}
 		}
 		set_global_flag = cv_air_tech_1939
@@ -631,6 +632,7 @@ country_event = {
 					advanced_small_airframe = 1
 					air_torpedoe_3 = 1
 				}
+				air_experience = 80
 			}
 		}
 		set_global_flag = cv_air_tech_1944
