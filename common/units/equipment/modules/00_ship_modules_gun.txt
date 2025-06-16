@@ -2438,4 +2438,28 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1800 
 	}
+
+###################
+##  ASW Battery  ##
+###################
+	ship_asw_battery_1 = {
+		category = ship_light_battery
+		gui_category = ship_light_battery_all
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 1.5
+			sub_attack = 12
+			build_cost_ic = 120
+		}
+		multiply_stats = {
+			naval_speed = -0.015
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6
+		}
+		dismantle_cost_ic = 10
+		
+		critical_parts = { damaged_light_guns }
+	}
 }

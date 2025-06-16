@@ -503,6 +503,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_depth_charge_4
+			ship_asw_battery_1
 		}
 		on_research_complete = {
 			custom_effect_tooltip = depth_charges_advice_tt
