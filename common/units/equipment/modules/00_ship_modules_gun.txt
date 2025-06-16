@@ -2133,6 +2133,26 @@ equipment_modules = {
 		critical_parts = { damaged_secondaries }
 	}
 
+	dp_ship_secondaries_5 = {
+		category = ship_dp_secondaries
+		gui_category = ship_secondaries
+		parent = dp_ship_secondaries_4
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 5
+			anti_air_attack = 4
+			naval_light_gun_hit_chance_factor = 0.005
+			build_cost_ic = 330
+		}
+
+		multiply_stats = {
+			naval_speed = -0.035
+		}
+		
+		dismantle_cost_ic = 75
+		critical_parts = { damaged_secondaries }
+	}
+
 	dp_ship_secondaries_1_bb = {
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
@@ -2158,7 +2178,7 @@ equipment_modules = {
 	dp_ship_secondaries_2_bb = {
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
-		parent = dp_ship_secondaries_1
+		parent = dp_ship_secondaries_1_bb
 		gfx = dp_ship_secondaries_2
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -2181,7 +2201,7 @@ equipment_modules = {
 	dp_ship_secondaries_3_bb = {
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
-		parent = dp_ship_secondaries_2
+		parent = dp_ship_secondaries_2_bb
 		gfx = dp_ship_secondaries_3
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -2204,7 +2224,7 @@ equipment_modules = {
 	dp_ship_secondaries_4_bb = {
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
-		parent = dp_ship_secondaries_3
+		parent = dp_ship_secondaries_3_bb
 		gfx = dp_ship_secondaries_4
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -2221,6 +2241,30 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 58
+		critical_parts = { damaged_secondaries }
+	}
+
+	dp_ship_secondaries_5_bb = {
+		category = ship_dp_secondaries_bb
+		gui_category = ship_secondaries
+		parent = dp_ship_secondaries_4_bb
+		gfx = dp_ship_secondaries_5
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 5
+			anti_air_attack = 4
+			naval_light_gun_hit_chance_factor = 0.005
+			build_cost_ic = 330
+		}
+
+		multiply_stats = {
+			naval_speed = -0.035
+		}
+		add_average_stats = {
+			lg_armor_piercing = 13
+		}
+		
+		dismantle_cost_ic = 75
 		critical_parts = { damaged_secondaries }
 	}
 
