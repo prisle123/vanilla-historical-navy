@@ -1,4 +1,4 @@
-version="v2.1 - Coral Sea"
+version="v2.2 - Midway"
 tags={
 	"Military"
 	"Graphics"
