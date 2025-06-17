@@ -68,6 +68,10 @@ equipments = {
 				required = no
 				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous }
 			}
+			fixed_ship_extra_electronics_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar ship_fire_control_system }
+			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -147,6 +151,10 @@ equipments = {
 
 		module_count_limit = {
 			category = ship_sonar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_fire_control_system
 			count < 2
 		}
 		module_count_limit = {
@@ -628,6 +636,10 @@ equipments = {
 				required = no
 				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous }
 			}
+			fixed_ship_extra_electronics_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar ship_fire_control_system }
+			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -831,6 +843,7 @@ equipments = {
 				allowed_module_categories = { c_role c_role_missile }
 			}
 			fixed_ship_extra_secondaries_slot = inherit
+			fixed_ship_extra_electronics_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -961,11 +974,11 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
-			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_role_slot = {
 				required = yes
 				allowed_module_categories = { c_role c_role_missile }
 			}
+			fixed_ship_extra_electronics_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
 			fixed_ship_extra_missile_slot = fixed_ship_extra_secondaries_slot
 			front_1_custom_slot = {
@@ -1090,6 +1103,7 @@ equipments = {
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_role_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
+			fixed_ship_extra_electronics_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {

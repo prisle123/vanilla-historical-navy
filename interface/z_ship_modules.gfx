@@ -24,6 +24,10 @@ spriteTypes = {
 		name = "GFX_EMSI_fixed_ship_torpedo_defense_system_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
 	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_extra_electronics_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
 
 	# category
 	spriteType = {
