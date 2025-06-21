@@ -247,12 +247,32 @@ USA_pacific_war_naval_avoid_first = {
 	}
 	ai_strategy = {
 		type = naval_avoid_region
+		id = 78
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
 		id = 79
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_avoid_region
+		id = 84
+		value = 50
+	}
+	ai_strategy = {
+		type = naval_avoid_region
 		id = 90
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 94
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 97
 		value = 100
 	}
 	ai_strategy = {
