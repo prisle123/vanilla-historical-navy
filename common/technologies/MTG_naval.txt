@@ -3640,7 +3640,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = symmetric_key_algorithm
+			leads_to_tech = cryptography_revolution
 			research_cost_coeff = 1
 		}
 
@@ -3660,11 +3660,13 @@ technologies = {
 		}
 	}
 
-	symmetric_key_algorithm = {
+	cryptography_revolution = {
 		research_cost = 0.8
 		start_year = 1950
 
-		navy_intel_to_others = -20
+		army_intel_to_others = -25
+		navy_intel_to_others = -25
+		airforce_intel_to_others = -25
 
 		folder = {
 			name = mtgnavalfolder
