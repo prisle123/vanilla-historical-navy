@@ -210,6 +210,10 @@ spriteTypes = {
 		name = "GFX_SMI_carrier_ship_engine"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_large.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_carrier_miscellaneous"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_miscellaneous.png"
+	}
 	
 	# topview images
 	spriteType = {
@@ -343,6 +347,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SM_cruiser_hull_rear_missile_launcher@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_rear_missile_launcher@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_angled_deck"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/carrier_hull_angled_deck.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_angled_deck@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/carrier_hull_angled_deck@highlight.dds"
 	}
 
 
