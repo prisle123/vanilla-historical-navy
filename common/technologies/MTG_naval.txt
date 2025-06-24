@@ -4329,7 +4329,10 @@ technologies = {
 			}
 		}
 		on_research_complete = {
-			add_political_power = -20
+			if = {
+				limit = { NOT = { has_tech = aviation_dawn } }
+				add_political_power = -20
+			}
 		}
 
 		folder = {
