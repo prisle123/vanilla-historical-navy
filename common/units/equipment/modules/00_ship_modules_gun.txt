@@ -894,6 +894,7 @@ equipment_modules = {
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.006
 			max_strength = 19
+			reliability = -0.03
 		}
 		multiply_stats = {
 			naval_speed = -0.04
@@ -917,6 +918,7 @@ equipment_modules = {
 			build_cost_ic = 450
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 24.5
+			reliability = -0.04
 		}
 		multiply_stats = {
 			naval_speed = -0.05
@@ -939,6 +941,7 @@ equipment_modules = {
 			build_cost_ic = 500
 			naval_light_gun_hit_chance_factor = 0.008
 			max_strength = 30
+			reliability = -0.05
 		}
 		multiply_stats = {
 			naval_speed = -0.06
@@ -987,6 +990,7 @@ equipment_modules = {
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.006
 			max_strength = 15
+			reliability = -0.02
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -1010,6 +1014,7 @@ equipment_modules = {
 			build_cost_ic = 375
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 20
+			reliability = -0.03
 		}
 		multiply_stats = {
 			naval_speed = -0.045
@@ -1032,6 +1037,7 @@ equipment_modules = {
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.008
 			max_strength = 24
+			reliability = -0.04
 		}
 		multiply_stats = {
 			naval_speed = -0.055
@@ -1080,6 +1086,7 @@ equipment_modules = {
 			build_cost_ic = 250
 			naval_light_gun_hit_chance_factor = 0.002
 			max_strength = 11.5
+			reliability = -0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -1103,6 +1110,7 @@ equipment_modules = {
 			build_cost_ic = 275
 			naval_light_gun_hit_chance_factor = 0.003
 			max_strength = 15
+			reliability = -0.02
 		}
 		multiply_stats = {
 			naval_speed = -0.045
@@ -1125,6 +1133,7 @@ equipment_modules = {
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.004
 			max_strength = 18
+			reliability = -0.03
 		}
 		multiply_stats = {
 			naval_speed = -0.055
@@ -1149,6 +1158,7 @@ equipment_modules = {
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 28
+			reliability = -0.045
 		}
 
 		multiply_stats = {
@@ -1854,7 +1864,7 @@ equipment_modules = {
 			surface_visibility = 1
 			hg_attack = 18
 			build_cost_ic = 1650
-			reliability = -0.12
+			reliability = -0.08
 		}
 		multiply_stats = {
 			naval_speed = -0.065
