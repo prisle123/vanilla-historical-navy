@@ -472,7 +472,7 @@ sp_naval_underway_replenishment = {
 				
 				iteration_output = {
 					country_effects = { 
-						custom_effect_tooltip = sp_naval_underway_replenishment_pick_a_tt
+						custom_effect_tooltip = tech_effect|sp_naval_underway_replenishment_pick_a
 						hidden_effect = {
 							set_technology = {
 								sp_naval_underway_replenishment_pick_a = 1
@@ -499,7 +499,7 @@ sp_naval_underway_replenishment = {
 				
 				iteration_output = {
 					country_effects = { 
-						custom_effect_tooltip = sp_naval_underway_replenishment_pick_b_tt
+						custom_effect_tooltip = tech_effect|sp_naval_underway_replenishment_pick_b
 						hidden_effect = {
 							set_technology = {
 								sp_naval_underway_replenishment_pick_b = 1
