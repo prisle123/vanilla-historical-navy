@@ -1302,6 +1302,9 @@ equipment_modules = {
 			sub_visibility = -0.1
 			build_cost_ic = 0.2
 		}
+		build_cost_resources = {
+			rubber = 1
+		}
 		dismantle_cost_ic = 750
 	}
 
