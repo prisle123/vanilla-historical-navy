@@ -1322,7 +1322,7 @@ equipment_modules = {
 		gui_category = cold_war_miscellaneous
 		multiply_stats = {
 			reliability = -0.1
-			armor_value = -0.3
+			armor_value = -1
 			max_strength = -0.3
 			naval_speed = 0.3
 			build_cost_ic = 0.2
@@ -1330,6 +1330,10 @@ equipment_modules = {
 		build_cost_resources = {
 			aluminium = 2
 			steel = -3
+		}
+		forbid_module_categories = {
+			ship_cruiser_armor
+			ship_cruiser_heavy_armor
 		}
 	}
 	ship_anti_air_circle = {
