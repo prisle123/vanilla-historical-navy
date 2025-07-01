@@ -347,9 +347,9 @@ equipment_modules = {
 	carrier_scouting_unit = {
 		category = carrier_unit
 		add_stats = {
-			surface_detection = 8
-			sub_detection = 5
-			build_cost_ic = 400
+			surface_detection = 5
+			sub_detection = 4
+			build_cost_ic = 350
 		}
 	}
 	carrier_spared_squad = {
@@ -442,10 +442,8 @@ equipment_modules = {
 		category = carrier_unit
 		add_stats = {
 			build_cost_ic = 800
-		}
-		multiply_stats = {
-			surface_detection = 0.3
-			sub_detection = 0.2
+			surface_detection = 10
+			sub_detection = 8
 		}
 	}
 	coldwar_upgrade_cv = {

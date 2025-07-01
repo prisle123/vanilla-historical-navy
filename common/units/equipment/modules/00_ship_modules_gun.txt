@@ -894,6 +894,7 @@ equipment_modules = {
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.006
 			max_strength = 19
+			reliability = -0.03
 		}
 		multiply_stats = {
 			naval_speed = -0.04
@@ -917,9 +918,10 @@ equipment_modules = {
 			build_cost_ic = 450
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 24.5
+			reliability = -0.04
 		}
 		multiply_stats = {
-			naval_speed = -0.05
+			naval_speed = -0.06
 		}
 		add_average_stats = {
 			lg_armor_piercing = 13
@@ -939,9 +941,10 @@ equipment_modules = {
 			build_cost_ic = 500
 			naval_light_gun_hit_chance_factor = 0.008
 			max_strength = 30
+			reliability = -0.05
 		}
 		multiply_stats = {
-			naval_speed = -0.06
+			naval_speed = -0.08
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
@@ -987,6 +990,7 @@ equipment_modules = {
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.006
 			max_strength = 15
+			reliability = -0.02
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -1010,9 +1014,10 @@ equipment_modules = {
 			build_cost_ic = 375
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 20
+			reliability = -0.03
 		}
 		multiply_stats = {
-			naval_speed = -0.045
+			naval_speed = -0.05
 		}
 		add_average_stats = {
 			lg_armor_piercing = 13
@@ -1032,9 +1037,10 @@ equipment_modules = {
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.008
 			max_strength = 24
+			reliability = -0.04
 		}
 		multiply_stats = {
-			naval_speed = -0.055
+			naval_speed = -0.065
 		}
 		add_average_stats = {
 			lg_armor_piercing = 15
@@ -1080,6 +1086,7 @@ equipment_modules = {
 			build_cost_ic = 250
 			naval_light_gun_hit_chance_factor = 0.002
 			max_strength = 11.5
+			reliability = -0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.035
@@ -1103,6 +1110,7 @@ equipment_modules = {
 			build_cost_ic = 275
 			naval_light_gun_hit_chance_factor = 0.003
 			max_strength = 15
+			reliability = -0.02
 		}
 		multiply_stats = {
 			naval_speed = -0.045
@@ -1125,6 +1133,7 @@ equipment_modules = {
 			build_cost_ic = 325
 			naval_light_gun_hit_chance_factor = 0.004
 			max_strength = 18
+			reliability = -0.03
 		}
 		multiply_stats = {
 			naval_speed = -0.055
@@ -1149,10 +1158,11 @@ equipment_modules = {
 			build_cost_ic = 400
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 28
+			reliability = -0.045
 		}
 
 		multiply_stats = {
-			naval_speed = -0.055
+			naval_speed = -0.065
 		}
 		
 		add_average_stats = {
@@ -1854,7 +1864,7 @@ equipment_modules = {
 			surface_visibility = 1
 			hg_attack = 18
 			build_cost_ic = 1650
-			reliability = -0.12
+			reliability = -0.08
 		}
 		multiply_stats = {
 			naval_speed = -0.065
@@ -2133,6 +2143,26 @@ equipment_modules = {
 		critical_parts = { damaged_secondaries }
 	}
 
+	dp_ship_secondaries_5 = {
+		category = ship_dp_secondaries
+		gui_category = ship_secondaries
+		parent = dp_ship_secondaries_4
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 5
+			anti_air_attack = 4
+			naval_light_gun_hit_chance_factor = 0.005
+			build_cost_ic = 330
+		}
+
+		multiply_stats = {
+			naval_speed = -0.035
+		}
+		
+		dismantle_cost_ic = 75
+		critical_parts = { damaged_secondaries }
+	}
+
 	dp_ship_secondaries_1_bb = {
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
@@ -2158,7 +2188,7 @@ equipment_modules = {
 	dp_ship_secondaries_2_bb = {
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
-		parent = dp_ship_secondaries_1
+		parent = dp_ship_secondaries_1_bb
 		gfx = dp_ship_secondaries_2
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -2181,7 +2211,7 @@ equipment_modules = {
 	dp_ship_secondaries_3_bb = {
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
-		parent = dp_ship_secondaries_2
+		parent = dp_ship_secondaries_2_bb
 		gfx = dp_ship_secondaries_3
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -2204,7 +2234,7 @@ equipment_modules = {
 	dp_ship_secondaries_4_bb = {
 		category = ship_dp_secondaries_bb
 		gui_category = ship_secondaries
-		parent = dp_ship_secondaries_3
+		parent = dp_ship_secondaries_3_bb
 		gfx = dp_ship_secondaries_4
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -2221,6 +2251,30 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 58
+		critical_parts = { damaged_secondaries }
+	}
+
+	dp_ship_secondaries_5_bb = {
+		category = ship_dp_secondaries_bb
+		gui_category = ship_secondaries
+		parent = dp_ship_secondaries_4_bb
+		gfx = dp_ship_secondaries_5
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 5
+			anti_air_attack = 4
+			naval_light_gun_hit_chance_factor = 0.005
+			build_cost_ic = 330
+		}
+
+		multiply_stats = {
+			naval_speed = -0.035
+		}
+		add_average_stats = {
+			lg_armor_piercing = 13
+		}
+		
+		dismantle_cost_ic = 75
 		critical_parts = { damaged_secondaries }
 	}
 
@@ -2437,5 +2491,29 @@ equipment_modules = {
 			naval_speed = -0.15
 		}
 		dismantle_cost_ic = 1800 
+	}
+
+###################
+##  ASW Battery  ##
+###################
+	ship_asw_battery_1 = {
+		category = ship_light_battery
+		gui_category = ship_light_battery_all
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 1.5
+			sub_attack = 6
+			build_cost_ic = 120
+		}
+		multiply_stats = {
+			naval_speed = -0.015
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6
+		}
+		dismantle_cost_ic = 10
+		
+		critical_parts = { damaged_light_guns }
 	}
 }

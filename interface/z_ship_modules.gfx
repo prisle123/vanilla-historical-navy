@@ -24,6 +24,10 @@ spriteTypes = {
 		name = "GFX_EMSI_fixed_ship_torpedo_defense_system_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
 	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_extra_electronics_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
 
 	# category
 	spriteType = {
@@ -206,6 +210,10 @@ spriteTypes = {
 		name = "GFX_SMI_carrier_ship_engine"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_large.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_carrier_miscellaneous"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_miscellaneous.png"
+	}
 	
 	# topview images
 	spriteType = {
@@ -339,6 +347,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SM_cruiser_hull_rear_missile_launcher@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/cruiser_hull_rear_missile_launcher@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_angled_deck"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/carrier_hull_angled_deck.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_angled_deck@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/extra/carrier_hull_angled_deck@highlight.dds"
 	}
 
 
@@ -750,6 +766,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_dp_ship_secondaries_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries6.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_secondaries9.png"
 	}
 	spriteType = {
 		name = "GFX_SMI_ship_secondaries_3"
@@ -1596,5 +1616,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_coldwar_upgrade_cv"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/coldwar_upgrade_cv.png"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_ship_asw_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_asw_battery_1.png"
 	}
 }

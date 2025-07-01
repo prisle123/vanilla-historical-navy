@@ -172,7 +172,7 @@ equipment_modules = {
 		parent = ship_armor_bc_2
 		multiply_stats = {
 			build_cost_ic = 0.15
-			naval_speed = -0.15
+			naval_speed = -0.2
 			max_strength = 0.12
 		}
 		build_cost_resources = {
@@ -242,7 +242,7 @@ equipment_modules = {
 		parent = ship_armor_bc_3
 		multiply_stats = {
 			build_cost_ic = 0.17
-			naval_speed = -0.2
+			naval_speed = -0.27
 			max_strength = 0.16
 		}
 		build_cost_resources = {
@@ -801,7 +801,7 @@ equipment_modules = {
 		category = ship_carrier_armor_heavy
 		gfx = ship_armor_2
 		add_equipment_type = capital_ship
-		parent = ship_armor_cruiser_heavy_1
+		parent = ship_armor_carrier_heavy_1
 		multiply_stats = {
 			build_cost_ic = 0.12
 			naval_speed = -0.1
@@ -850,7 +850,7 @@ equipment_modules = {
 		category = ship_carrier_armor_heavy
 		gfx = ship_armor_3
 		add_equipment_type = capital_ship
-		parent = ship_armor_cruiser_heavy_2
+		parent = ship_armor_carrier_heavy_2
 		multiply_stats = {
 			build_cost_ic = 0.15
 			naval_speed = -0.125
@@ -900,7 +900,7 @@ equipment_modules = {
 		category = ship_carrier_armor_heavy
 		gfx = ship_armor_bc_4
 		add_equipment_type = capital_ship
-		parent = ship_armor_cruiser_heavy_3
+		parent = ship_armor_carrier_heavy_3
 		multiply_stats = {
 			build_cost_ic = 0.18
 			naval_speed = -0.15
@@ -950,7 +950,7 @@ equipment_modules = {
 		category = ship_carrier_armor_heavy
 		gfx = ship_heavy_armor
 		add_equipment_type = capital_ship
-		parent = ship_armor_cruiser_heavy_4
+		parent = ship_armor_carrier_heavy_4
 		
 		multiply_stats = {
 			build_cost_ic = 0.2
@@ -1301,6 +1301,9 @@ equipment_modules = {
 		multiply_stats = {
 			sub_visibility = -0.1
 			build_cost_ic = 0.2
+		}
+		build_cost_resources = {
+			rubber = 1
 		}
 		dismantle_cost_ic = 750
 	}

@@ -137,6 +137,14 @@ spriteTypes = {
 		name = "GFX_navy_splash_intro"
 		textureFile = "gfx/introscreen/navy_rework_splash.png"
 	}
+	spriteType = {
+		name = "GFX_navy_splash_intro_1"
+		textureFile = "gfx/introscreen/navy_rework_splash_1.png"
+	}
+	spriteType = {
+		name = "GFX_navy_splash_title"
+		textureFile = "gfx/introscreen/title.png"
+	}
 	
 
 	### ship role icons definition in ship designer, right next to ship icon

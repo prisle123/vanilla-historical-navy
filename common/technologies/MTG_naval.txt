@@ -503,6 +503,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_depth_charge_4
+			ship_asw_battery_1
 		}
 		on_research_complete = {
 			custom_effect_tooltip = depth_charges_advice_tt
@@ -3639,7 +3640,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = symmetric_key_algorithm
+			leads_to_tech = cryptography_revolution
 			research_cost_coeff = 1
 		}
 
@@ -3659,11 +3660,13 @@ technologies = {
 		}
 	}
 
-	symmetric_key_algorithm = {
+	cryptography_revolution = {
 		research_cost = 0.8
 		start_year = 1950
 
-		navy_intel_to_others = -20
+		army_intel_to_others = -25
+		navy_intel_to_others = -25
+		airforce_intel_to_others = -25
 
 		folder = {
 			name = mtgnavalfolder
@@ -4326,7 +4329,10 @@ technologies = {
 			}
 		}
 		on_research_complete = {
-			add_political_power = -20
+			if = {
+				limit = { NOT = { has_tech = aviation_dawn } }
+				add_political_power = -20
+			}
 		}
 
 		folder = {
@@ -4365,7 +4371,7 @@ technologies = {
 		xp_research_bonus = 1.25
 
 		cv_cas = {
-			naval_strike_attack = 0.3
+			naval_strike_attack = 0.2
 			naval_strike_targetting = 0.15
 			air_agility = 0.15
 			maximum_speed = 0.1

@@ -10,6 +10,12 @@ scripted_gui = {
 			has_global_flag = navy_rework_splash_show
 		}
 
+		properties = {
+			naval_rework_logo = {
+				image = "[get_naval_rework_logo]"
+			}
+		}
+
 		triggers = {
 
 			tab_1_click_enabled = { NOT = { check_variable = { navy_rework_welcome_splash_variable = 1 } } }

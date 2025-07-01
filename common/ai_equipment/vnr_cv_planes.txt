@@ -141,11 +141,7 @@ vnr_cv_cas = {
     roles = { air_cv_cas }
 
     priority = {
-        factor = 9999
-        modifier = {
-            factor = 0
-            has_game_rule = { rule = RULE_AI_AIR_DESIGN option = BLOCKED }
-        }
+        factor = 0
     }
 
     1936_cv_cas = {

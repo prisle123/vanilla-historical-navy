@@ -46,6 +46,10 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_radar ship_sonar ship_mast }
 			}
+			fixed_ship_extra_electronics_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar ship_fire_control_system }
+			}
 			fixed_ship_torpedo_slot = {
 				required = no
 				allowed_module_categories = { ship_torpedo }
@@ -127,7 +131,10 @@ equipments = {
 			category = ship_radar
 			count < 2
 		}
-
+		module_count_limit = {
+			category = ship_fire_control_system
+			count < 2
+		}
 		module_count_limit = {
 			category = ship_sonar
 			count < 2
@@ -335,6 +342,7 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_extra_electronics_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_role_slot = {
@@ -437,6 +445,7 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_extra_electronics_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_role_slot = {
