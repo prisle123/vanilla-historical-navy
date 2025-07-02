@@ -82,6 +82,10 @@ equipments = {
 			category = ship_radar
 			count < 2
 		}
+		module_count_limit = {
+			module = carrier_civilian_material
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_deck_slot_1 = empty
