@@ -78,7 +78,7 @@ NDefines.NNavy.AGGRESSION_SETTINGS_VALUES = {
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
 		75.0,	-- big guns
 		105.0,	-- torpedoes
-		45.0,	-- small guns
+		55.0,	-- small guns
 };
 NDefines.NNavy.MISSION_SUPREMACY_RATIOS = {
 		0.0, -- HOLD
