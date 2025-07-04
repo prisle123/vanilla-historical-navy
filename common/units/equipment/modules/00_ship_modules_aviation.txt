@@ -394,7 +394,8 @@ equipment_modules = {
 		dismantle_cost_ic = 1500
 	}
 	carrier_secondary_island = {
-		category = carrier_miscellaneous
+		category = carrier_island
+		gui_category = carrier_miscellaneous
 		add_stats = {
 			max_organisation = 0.1
 			reliability = -0.05
@@ -407,7 +408,8 @@ equipment_modules = {
 		}
 	}
 	carrier_no_island = {
-		category = carrier_miscellaneous
+		category = carrier_island
+		gui_category = carrier_miscellaneous
 
 		add_stats = {
 			build_cost_ic = -150
