@@ -12,6 +12,11 @@ naval_develop_category = {
 		visible = {
 			has_navy_size = { size < 1 }
 			num_of_naval_factories > 0
+			NOT = {
+				is_in_array = {
+					global.vnr_naval_powers = ROOT
+				}
+			}
 		}
 
 		cancel_trigger = {
@@ -52,6 +57,11 @@ naval_develop_category = {
 		visible = {
 			has_navy_size = { size < 50 }
 			num_of_naval_factories > 0
+			NOT = {
+				is_in_array = {
+					global.vnr_naval_powers = ROOT
+				}
+			}
 		}
 
 		cost = 15
@@ -93,6 +103,11 @@ naval_develop_category = {
 				size < 15
 			}
 			num_of_naval_factories > 0
+			NOT = {
+				is_in_array = {
+					global.vnr_naval_powers = ROOT
+				}
+			}
 		}
 
 		cost = 30
@@ -132,6 +147,11 @@ naval_develop_category = {
 				size < 30
 			}
 			num_of_naval_factories > 1
+			NOT = {
+				is_in_array = {
+					global.vnr_naval_powers = ROOT
+				}
+			}
 		}
 
 		cost = 30
@@ -176,6 +196,11 @@ naval_develop_category = {
 				archetype = ship_hull_heavy
 			}
 			num_of_naval_factories > 1
+			NOT = {
+				is_in_array = {
+					global.vnr_naval_powers = ROOT
+				}
+			}
 		}
 
 		cost = 50
@@ -219,6 +244,11 @@ naval_develop_category = {
 				type = carrier
 			}
 			num_of_naval_factories > 1
+			NOT = {
+				is_in_array = {
+					global.vnr_naval_powers = ROOT
+				}
+			}
 		}
 
 		cost = 50
@@ -259,6 +289,11 @@ naval_develop_category = {
 				size < 10
 			}
 			num_of_naval_factories > 0
+			NOT = {
+				is_in_array = {
+					global.vnr_naval_powers = ROOT
+				}
+			}
 		}
 
 		cost = 15
