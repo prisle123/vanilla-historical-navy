@@ -49,6 +49,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.065
 			armor_value = 0.025
+			anti_air_attack = 0.035
 			fuel_consumption = 0.075
 		}
 		dismantle_cost_ic = 700
@@ -94,6 +95,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.025
 			sub_detection = 0.05
+			anti_air_attack = 0.01
 			fuel_consumption = 0.05
 		}
 		manpower = 100
@@ -157,7 +159,7 @@ equipment_modules = {
 		manpower = 450 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.075
-			anti_air_attack = 0.035
+			anti_air_attack = 0.05
 			fuel_consumption = 0.1
 		}
 		dismantle_cost_ic = 1600
