@@ -4059,6 +4059,10 @@ technologies = {
 			leads_to_tech = aviation_dawn
 			research_cost_coeff = 1
 		}
+		dependencies = {
+			landing_aid_system = 1
+			arresting_gear = 1
+		}
 
 		research_cost = 1.5
 
