@@ -222,7 +222,7 @@ USA_pacific_war_naval_avoid_first = {
 	}
 	enable = {
 		has_war_with = JAP
-		date < 1943.1.1
+		date < 1942.5.1
 		naval_strength_ratio = {
 			tag = JAP
 			ratio < 5
@@ -295,7 +295,7 @@ USA_pacific_war_naval_counterattack = {
     enable = {
         has_war_with = JAP
 		OR = {
-			date > 1942.12.31
+			date > 1942.4.30
 			naval_strength_ratio = {
 				tag = JAP
 				ratio > 5
