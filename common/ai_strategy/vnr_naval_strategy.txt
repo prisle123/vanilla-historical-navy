@@ -15,17 +15,17 @@ ENG_protect_home_waters = {
     ai_strategy = {
         type = strike_force_home_base
         id = 18
-        value = 800
+        value = 1000
     }
     ai_strategy = {
         type = strike_force_home_base
         id = 16
-        value = 100
+        value = 1000
     }
 	ai_strategy = {
         type = naval_avoid_region
         id = 18
-        value = -300
+        value = -1000
     }
 }
 
@@ -45,18 +45,23 @@ ENG_secure_mediterranean = {
     ai_strategy = {
         type = strike_force_home_base
         id = 29
-        value = 100
+        value = 150
     }
     ai_strategy = {
         type = strike_force_home_base
         id = 68
-        value = 20
+        value = 100
     }
     ai_strategy = {
         type = strike_force_home_base
         id = 69
         value = 200
     }
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 168
+		value = 800
+	}
 }
 
 ENG_avoid_pacific = {
@@ -66,24 +71,74 @@ ENG_avoid_pacific = {
     }
     enable = {
         has_war_with = JAP
-		has_war_with = GER
+		has_war_with = ITA
+		ITA = { has_navy_size = { size > 99 } }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
     ai_strategy = {
         type = naval_avoid_region
         id = 75
-        value = 100
+        value = 1000
     }
     ai_strategy = {
         type = naval_avoid_region
         id = 72
-        value = 20
+        value = 50
     }
     ai_strategy = {
         type = naval_avoid_region
         id = 73
         value = 200
+    }
+}
+
+ENG_reinforce_pacific = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = ENG
+    }
+    enable = {
+        has_war_with = JAP
+		OR = {
+			NOT = { has_war_with = ITA }
+			ITA = { has_navy_size = { size < 100 } }
+		}
+		336 = {
+			is_controlled_by_ROOT_or_ally = yes
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = strike_force_home_base
+        id = 72
+        value = 1000
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 91
+        value = 50
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 92
+        value = 50
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 93
+        value = 50
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 84
+        value = 300
+    }
+	ai_strategy = {
+        type = strike_force_home_base
+        id = 83
+        value = 300
     }
 }
 
@@ -221,7 +276,10 @@ USA_pacific_war_naval_avoid_first = {
 		original_tag = USA
 	}
 	enable = {
-		has_war_with = JAP
+		OR = {
+			has_war_with = JAP
+			threat > 0.7
+		}
 		date < 1942.5.1
 		naval_strength_ratio = {
 			tag = JAP
@@ -233,27 +291,32 @@ USA_pacific_war_naval_avoid_first = {
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 75
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 76
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 77
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 78
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 79
-		value = 100
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 80
+		value = 1000
 	}
 	ai_strategy = {
 		type = naval_avoid_region
@@ -263,21 +326,84 @@ USA_pacific_war_naval_avoid_first = {
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 90
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 94
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 177
-		value = 100
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 95
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 97
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 105
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 180
+		value = 500
 	}
 }
 
-USA_pacific_war_naval_counterattack = {
+USA_do_not_waste_fleet_in_north_pacific = {
+	allowed = {
+        has_dlc = "Man the Guns"
+		original_tag = USA
+	}
+	enable = {
+		has_war_with = JAP
+        enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 87
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 88
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 96
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 176
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 114
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 171
+		value = -1000
+	}
+}
+
+USA_pacific_war_naval_counterattack_1 = {
     allowed = {
         has_dlc = "Man the Guns"
         original_tag = USA
@@ -291,49 +417,312 @@ USA_pacific_war_naval_counterattack = {
 				ratio > 5
 			}
 		}
+		NOT = {
+			controls_state = 633
+			controls_state = 684
+		}
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
-    ai_strategy = {
-        type = strike_force_home_base
-        id = 75
-        value = 50
-    }
-    ai_strategy = {
-        type = strike_force_home_base
-        id = 78
-        value = 50
-    }
-    ai_strategy = {
-        type = strike_force_home_base
-        id = 94
-        value = 50
-    }
 	ai_strategy = {
-        type = strike_force_home_base
-        id = 84
-        value = 150
-    }
+		type = naval_avoid_region
+		id = 75
+		value = 1000
+	}
 	ai_strategy = {
-        type = strike_force_home_base
-        id = 95
-        value = 200
-    }
-    ai_strategy = {
-        type = strike_force_home_base
-        id = 97
-        value = 200
-    }
-    ai_strategy = {
-        type = strike_force_home_base
-        id = 180
-        value = 100
-    }
+		type = naval_avoid_region
+		id = 76
+		value = 1000
+	}
 	ai_strategy = {
-        type = strike_force_home_base
-        id = 83
-        value = 130
+		type = naval_avoid_region
+		id = 77
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 78
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 79
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 80
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 90
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 94
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 177
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 84
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 95
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 97
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 105
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 180
+		value = 500
+	}
+	ai_strategy = {
+		type = invade
+		id = JAP
+		value = 500
+	}
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 94
+		value = 300
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 97
+		value = 300
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 84
+		value = 300
+	}
+}
+
+USA_pacific_war_naval_counterattack_2 = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = USA
     }
+    enable = {
+        has_war_with = JAP
+		OR = {
+			date > 1942.4.30
+			naval_strength_ratio = {
+				tag = JAP
+				ratio > 5
+			}
+		}
+		controls_state = 633
+		controls_state = 684
+		NOT = {
+			controls_state = 645
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 75
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 76
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 77
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 79
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 80
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 90
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 177
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 84
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 95
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 97
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 94
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 78
+		value = 1000
+	}
+	ai_strategy = {
+		type = invade
+		id = JAP
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 94
+		value = 300
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 97
+		value = 300
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 84
+		value = 300
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 78
+		value = 300
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 76
+		value = 300
+	}
+}
+
+USA_pacific_war_naval_counterattack_3 = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = USA
+    }
+    enable = {
+        has_war_with = JAP
+		OR = {
+			date > 1942.4.30
+			naval_strength_ratio = {
+				tag = JAP
+				ratio > 5
+			}
+		}
+		controls_state = 633
+		controls_state = 684
+		controls_state = 645
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 77
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 79
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 75
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 80
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 76
+		value = 1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 94
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 78
+		value = 500
+	}
+	ai_strategy = {
+		type = invade
+		id = JAP
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = 1000
+	}
+	
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 78
+		value = 300
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 76
+		value = 300
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 90
+		value = 300
+	}
 }
 
 ### ITA ###
