@@ -3,7 +3,7 @@ naval_sub = {
 	#available_for = {}
 	#blocked_for = {}
 	roles = { vnr_naval_submarine }
-	priority = { base = 70 }
+	priority = { base = 80 }
 
 	submarine_cruiser_dummy = {
 		name = vnr_ss_cruiser
@@ -19,6 +19,7 @@ naval_sub = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_extra_secondaries_slot = submarine_miscellaneous
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				front_1_custom_slot = ship_torpedo_sub
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
@@ -47,6 +48,7 @@ naval_sub = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_extra_secondaries_slot = submarine_miscellaneous
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -66,7 +68,7 @@ naval_sub = {
 		
 		history = yes
 		target_variant = {
-			match_value = 4000.0
+			match_value = 3000.0
 
 			type = vnr_ship_hull_submarine_2
 			modules = {
@@ -74,6 +76,7 @@ naval_sub = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_extra_secondaries_slot = submarine_miscellaneous
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -93,7 +96,7 @@ naval_sub = {
 		
 		history = yes
 		target_variant = {
-			match_value = 4500.0
+			match_value = 4000.0
 
 			type = vnr_ship_hull_submarine_3
 			modules = {
@@ -103,6 +106,7 @@ naval_sub = {
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				fixed_ship_extra_secondaries_slot = submarine_miscellaneous
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -137,6 +141,7 @@ naval_sub = {
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				fixed_ship_extra_secondaries_slot = submarine_miscellaneous
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -167,6 +172,7 @@ naval_sub = {
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				fixed_ship_extra_secondaries_slot = sub_wire_guided_torpedo
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -198,6 +204,7 @@ naval_sub = {
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_extra_secondaries_slot = oxygen_generator
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
 			}
@@ -225,6 +232,7 @@ naval_sub = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				fixed_ship_extra_secondaries_slot = oxygen_generator
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
@@ -258,6 +266,7 @@ naval_sub = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				fixed_ship_extra_secondaries_slot = vlf_receiver
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
@@ -288,6 +297,7 @@ naval_sub = {
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				fixed_ship_extra_secondaries_slot = vlf_receiver
+				fixed_ship_conning_tower_slot = sub_conning_tower
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 				rear_2_custom_slot = ship_torpedo_sub

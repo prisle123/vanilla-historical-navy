@@ -6,11 +6,11 @@ vnr_cv_fighter = {
         factor = 9999
         modifier = {
             factor = 0
-            has_game_rule = { rule = RULE_AI_AIR_DESIGN option = BLOCKED }
+            has_game_rule = { rule = vnr_cv_air_ai option = BLOCKED }
         }
     }
 
-    1936_cv_fighter = {
+    basic_cv_fighter = {
         priority = {
             factor = 100
         }
@@ -26,7 +26,7 @@ vnr_cv_fighter = {
         }
     }
 
-    1940_cv_fighter = {
+    improved_cv_fighter = {
         priority = {
             factor = 20
             modifier = {
@@ -46,7 +46,7 @@ vnr_cv_fighter = {
         }
     }
 
-    1944_cv_fighter = {
+    advanced_cv_fighter = {
         priority = {
             factor = 30
             modifier = {
@@ -77,11 +77,11 @@ vnr_cv_naval_bomber = {
         factor = 9999
         modifier = {
             factor = 0
-            has_game_rule = { rule = RULE_AI_AIR_DESIGN option = BLOCKED }
+            has_game_rule = { rule = vnr_cv_air_ai option = BLOCKED }
         }
     }
 
-    1936_cv_naval_bomber = {
+    basic_cv_naval_bomber = {
         priority = {
             factor = 100
         }
@@ -96,7 +96,7 @@ vnr_cv_naval_bomber = {
         }
     }
 
-    1940_cv_naval_bomber = {
+    improved_cv_naval_bomber = {
         priority = {
             factor = 20
             modifier = {
@@ -115,7 +115,7 @@ vnr_cv_naval_bomber = {
         }
     }
 
-    1944_cv_naval_bomber = {
+    advanced_cv_naval_bomber = {
         priority = {
             factor = 30
             modifier = {
@@ -144,7 +144,7 @@ vnr_cv_cas = {
         factor = 0
     }
 
-    1936_cv_cas = {
+    basic_cv_cas = {
         priority = {
             factor = 100
         }
@@ -161,7 +161,7 @@ vnr_cv_cas = {
         }
     }
 
-    1940_cv_cas = {
+    improved_cv_cas = {
         priority = {
             factor = 20
             modifier = {
@@ -182,7 +182,7 @@ vnr_cv_cas = {
         }
     }
 
-    1944_cv_cas = {
+    advanced_cv_cas = {
         priority = {
             factor = 30
             modifier = {

@@ -60,8 +60,9 @@ equipment_modules = {
 			convert_cost_ic = 1200
 		}
 	}
-	ship_deck_space = {
+	ship_deck_space_open = {
 		category = ship_deck_space
+		gfx = ship_deck_space
 
 		add_equipment_type = capital_ship
 		add_stats = {

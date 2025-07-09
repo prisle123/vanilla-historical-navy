@@ -301,6 +301,7 @@ country_event = {
 					improved_ship_hull_heavy = 1 
 					improved_ship_hull_light = 1 
 					improved_ship_hull_cruiser = 1 
+					improved_ship_hull_submarine = 1
 					antiair2 = 1 
 					antiair3 = 1 
 					improved_fire_control_system = 1 
@@ -588,7 +589,7 @@ country_event = {
 
 # unlock free cv air techs 1939
 country_event = {
-	id = ai_ships.107
+	id = ai_ships.108
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
@@ -615,7 +616,7 @@ country_event = {
 
 # unlock free cv air techs 1944
 country_event = {
-	id = ai_ships.107
+	id = ai_ships.109
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
