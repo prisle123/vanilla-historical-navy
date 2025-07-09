@@ -16,6 +16,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 3
 			build_cost_ic = 1800
+			anti_air_attack = 2
 			reliability = -0.1
 			max_organisation = -0.2
 			surface_detection = 5
@@ -24,7 +25,6 @@ equipment_modules = {
 		manpower = 300 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.1
-			anti_air_attack = 0.035
 			fuel_consumption = 0.1
 		}
 		dismantle_cost_ic = 900
@@ -42,6 +42,7 @@ equipment_modules = {
 			build_cost_ic = 1300
 			reliability = 0.025
 			max_strength = 40
+			anti_air_attack = 2.5
 			surface_detection = 4
 			supply_consumption = 0.015
 		}
@@ -49,7 +50,6 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.065
 			armor_value = 0.025
-			anti_air_attack = 0.035
 			fuel_consumption = 0.075
 		}
 		dismantle_cost_ic = 700
@@ -67,12 +67,12 @@ equipment_modules = {
 			build_cost_ic = 1000
 			surface_detection = 4
 			max_strength = 30
+			anti_air_attack = 1.5
 			supply_consumption = 0.015
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.05
-			anti_air_attack = 0.025
 			fuel_consumption = 0.075
 		}
 		dismantle_cost_ic = 600
@@ -90,12 +90,12 @@ equipment_modules = {
 			build_cost_ic = 500
 			surface_detection = 2
 			max_strength = 20
+			anti_air_attack = 0.5
 			supply_consumption = 0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.025
 			sub_detection = 0.05
-			anti_air_attack = 0.01
 			fuel_consumption = 0.05
 		}
 		manpower = 100
@@ -111,12 +111,12 @@ equipment_modules = {
 			max_organisation = -0.05
 			surface_detection = 5
 			max_strength = 55
+			anti_air_attack = 3
 			supply_consumption = 0.025
 		}
 		manpower = 300
 		multiply_stats = {
 			naval_speed = -0.075
-			anti_air_attack = 0.05
 			armor_value = 0.025
 			fuel_consumption = 0.1
 		}
@@ -154,12 +154,12 @@ equipment_modules = {
 			build_cost_ic = 2000
 			surface_detection = 8
 			max_strength = 80
+			anti_air_attack = 3
 			supply_consumption = 0.03
 		}
 		manpower = 450 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.075
-			anti_air_attack = 0.05
 			fuel_consumption = 0.1
 		}
 		dismantle_cost_ic = 1600
@@ -175,12 +175,12 @@ equipment_modules = {
 			build_cost_ic = 2000
 			surface_detection = 4
 			max_strength = 30
+			anti_air_attack = 1.5
 			supply_consumption = 0.015
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.05
-			anti_air_attack = 0.025
 			fuel_consumption = 0.075
 		}
 		dismantle_cost_ic = 600
