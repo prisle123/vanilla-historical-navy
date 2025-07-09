@@ -2468,3 +2468,83 @@ restrict_early_landing = {
 		value = -1000
 	}
 }
+
+upgrade_cv_plane_strategy_1 = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = improved_small_airframe
+		NOT = { has_tech = advanced_small_airframe }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_airframe_2
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_naval_bomber_airframe_2
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_cas_airframe_2
+		value = 1000
+	}
+}
+
+upgrade_cv_plane_strategy_2 = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = advanced_small_airframe
+		NOT = { has_tech = modern_small_airframe }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_airframe_3
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_naval_bomber_airframe_3
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_cas_airframe_3
+		value = 1000
+	}
+}
+
+upgrade_cv_plane_strategy_3 = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = modern_small_airframe
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_airframe_4
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_naval_bomber_airframe_4
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_cas_airframe_4
+		value = 1000
+	}
+}
