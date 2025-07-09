@@ -520,6 +520,17 @@ USA_pacific_war_naval_counterattack_1 = {
 		id = 84
 		value = 300
 	}
+
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 633
+		value = 500
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 684
+		value = 500
+	}
 }
 
 USA_pacific_war_naval_counterattack_2 = {
@@ -640,6 +651,12 @@ USA_pacific_war_naval_counterattack_2 = {
 		id = 76
 		value = 300
 	}
+
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 645
+		value = 500
+	}
 }
 
 USA_pacific_war_naval_counterattack_3 = {
@@ -722,6 +739,12 @@ USA_pacific_war_naval_counterattack_3 = {
 		type = naval_convoy_raid_region
 		id = 90
 		value = 300
+	}
+
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 526
+		value = 500
 	}
 }
 
