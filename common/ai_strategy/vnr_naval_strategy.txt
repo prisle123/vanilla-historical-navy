@@ -118,17 +118,17 @@ ENG_reinforce_pacific = {
 	ai_strategy = {
         type = strike_force_home_base
         id = 91
-        value = 50
+        value = 10
     }
 	ai_strategy = {
         type = strike_force_home_base
         id = 92
-        value = 50
+        value = 10
     }
 	ai_strategy = {
         type = strike_force_home_base
         id = 93
-        value = 50
+        value = 10
     }
 	ai_strategy = {
         type = strike_force_home_base
@@ -157,7 +157,7 @@ JAP_destroy_china_navy_quick = {
     ai_strategy = {
         type = strike_force_home_base
         id = 75
-        value = 10
+        value = 100
     }
     ai_strategy = {
         type = strike_force_home_base
@@ -166,6 +166,22 @@ JAP_destroy_china_navy_quick = {
     }
     ai_strategy = {
         type = strike_force_home_base
+        id = 77
+        value = 200
+    }
+
+	ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 75
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 76
+        value = 200
+    }
+    ai_strategy = {
+        type = naval_convoy_raid_region
         id = 77
         value = 200
     }
@@ -766,17 +782,17 @@ ITA_avoid_mediterranean = {
     ai_strategy = {
         type = strike_force_home_base
         id = 29
-        value = -100
+        value = -1000
     }
     ai_strategy = {
         type = strike_force_home_base
         id = 68
-        value = -100
+        value = -1000
     }
     ai_strategy = {
         type = strike_force_home_base
         id = 69
-        value = -100
+        value = -1000
     }
 
 	ai_strategy = {
@@ -803,6 +819,12 @@ ITA_avoid_mediterranean = {
 		type = naval_convoy_raid_region
 		id = 29
 		value = 100
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 29
+		value = 800
 	}
 }
 
