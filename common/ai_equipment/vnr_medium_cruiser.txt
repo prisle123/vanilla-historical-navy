@@ -103,7 +103,7 @@ naval_cruiser_medium = {
 				front_1_custom_slot = ship_medium_battery
 				front_2_custom_slot = ship_medium_battery
 				mid_1_custom_slot = ship_anti_air
-				mid_2_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_dp_secondaries
 				mid_3_custom_slot = ship_airplane_launcher
 				rear_1_custom_slot = ship_medium_battery
 				rear_2_custom_slot = ship_medium_battery
@@ -139,7 +139,7 @@ naval_cruiser_medium = {
 				front_1_custom_slot = ship_medium_battery
 				front_2_custom_slot = ship_medium_battery
 				mid_1_custom_slot = ship_anti_air
-				mid_2_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_dp_secondaries
 				mid_3_custom_slot = ship_airplane_launcher
 				rear_1_custom_slot = ship_medium_battery
 				rear_2_custom_slot = ship_medium_battery
@@ -177,7 +177,7 @@ naval_cruiser_medium = {
 				front_1_custom_slot = dp_light_battery
 				front_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				mid_1_custom_slot = ship_missile_aa
-				mid_2_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_dp_secondaries
 				mid_3_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				rear_1_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				rear_2_custom_slot = ship_missile_aa

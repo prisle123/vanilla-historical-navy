@@ -43,7 +43,7 @@ naval_cruiser_light = {
 
 		priority = {
 			base = 10
-			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+			modifier = { factor = 0 has_tech = interwar_ship_hull_cruiser }
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
@@ -98,7 +98,7 @@ naval_cruiser_light = {
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot > ship_light_medium_battery_1
 				mid_1_custom_slot = ship_torpedo
-				mid_2_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_anti_air
 				mid_3_custom_slot = ship_airplane_launcher
 				rear_1_custom_slot > ship_light_medium_battery_1
 				rear_2_custom_slot > ship_light_medium_battery_1
@@ -134,7 +134,7 @@ naval_cruiser_light = {
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot > ship_light_medium_battery_2
 				mid_1_custom_slot = ship_torpedo
-				mid_2_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_anti_air
 				mid_3_custom_slot = ship_airplane_launcher
 				rear_1_custom_slot > ship_light_medium_battery_2
 				rear_2_custom_slot > ship_light_medium_battery_2
@@ -170,7 +170,7 @@ naval_cruiser_light = {
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot > ship_light_medium_battery_3
 				mid_1_custom_slot = ship_torpedo
-				mid_2_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_anti_air
 				mid_3_custom_slot = ship_airplane_launcher
 				rear_1_custom_slot > ship_light_medium_battery_3
 				rear_2_custom_slot > ship_light_medium_battery_3
