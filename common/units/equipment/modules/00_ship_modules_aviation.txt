@@ -461,6 +461,9 @@ equipment_modules = {
 			surface_detection = 10
 			sub_detection = 8
 		}
+		multiply_stats = {
+			surface_detection = 0.1
+		}
 	}
 	coldwar_upgrade_cv = {
 		category = coldwar_upgrade_cv
