@@ -441,7 +441,7 @@ equipments = {
 		naval_speed = 27
 		fuel_consumption = 63
 		surface_visibility = 38
-		build_cost_ic = 2200
+		build_cost_ic = 2000
 	}
 
 	vnr_ship_hull_heavy_2 = {
@@ -476,7 +476,7 @@ equipments = {
 		naval_speed = 27.5
 		fuel_consumption = 67
 		surface_visibility = 36
-		build_cost_ic = 2600
+		build_cost_ic = 2300
 		manpower = 2200
 	}
 
@@ -504,7 +504,7 @@ equipments = {
 		fuel_consumption = 67
 		naval_speed = 32
 		surface_visibility = 34
-		build_cost_ic = 2700
+		build_cost_ic = 2500
 
 		manpower = 2500
 	}
@@ -533,7 +533,7 @@ equipments = {
 		reliability = 0.9
 		fuel_consumption = 67
 		surface_visibility = 32
-		build_cost_ic = 3000
+		build_cost_ic = 2800
 		resources = {
 			steel = 4
 			chromium = 1
@@ -647,7 +647,7 @@ equipments = {
 		fuel_consumption = 67
 		surface_visibility = 30
 		reliability = 0.95
-		build_cost_ic = 3300
+		build_cost_ic = 3100
 		resources = {
 			steel = 5
 			chromium = 1
@@ -779,7 +779,7 @@ equipments = {
 		fuel_consumption = 75
 		reliability = 0.9
 		surface_visibility = 46
-		build_cost_ic = 3800
+		build_cost_ic = 3500
 		resources = {
 			steel = 5
 			chromium = 1
@@ -884,7 +884,7 @@ equipments = {
 		fuel_consumption = 70
 		surface_visibility = 30
 		reliability = 1.25
-		build_cost_ic = 3500
+		build_cost_ic = 3200
 		resources = {
 			steel = 4
 			chromium = 2

@@ -16,6 +16,7 @@ equipment_modules = {
 			build_cost_ic = 430
 		}
 		multiply_stats = {
+			build_cost_ic = 0.015
 			naval_speed = -0.015
 		}
 		add_average_stats = {
@@ -47,6 +48,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
+			build_cost_ic = 0.025
 			naval_speed = -0.02
 		}
 		add_average_stats = {
@@ -97,6 +99,7 @@ equipment_modules = {
 			build_cost_ic = 450
 		}
 		multiply_stats = {
+			build_cost_ic = 0.02
 			naval_speed = -0.015
 		}
 		add_average_stats = {
@@ -125,6 +128,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.01
 		}
 		multiply_stats = {
+			build_cost_ic = 0.03
 			naval_speed = -0.02
 		}
 		add_average_stats = {
