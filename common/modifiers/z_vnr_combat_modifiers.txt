@@ -3,6 +3,7 @@ night = { # On province. Multiplied by amount of darkness.
 	carrier_traffic = -1.0
 	naval_retreat_speed = 0.25
     sub_retreat_speed = 0.35
+    naval_retreat_chance = 0.1
 	air_attack_factor = -0.50
     naval_light_gun_hit_chance_factor = -0.5
     naval_heavy_gun_hit_chance_factor = -0.25
