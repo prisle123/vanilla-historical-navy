@@ -4242,6 +4242,11 @@ technologies = {
 			position = { x = 0 y = @1924_module }
 		}
 
+		path = {
+			leads_to_tech = basic_ship_hull_carrier
+			research_cost_coeff = 1
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -4267,6 +4272,11 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = @1924_module }
+		}
+
+		path = {
+			leads_to_tech = basic_ship_hull_carrier
+			research_cost_coeff = 1
 		}
 
 		ai_will_do = {
