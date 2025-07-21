@@ -2362,6 +2362,7 @@ equipment_modules = {
 			lg_armor_piercing = 24
 		}
 		multiply_stats = {
+			build_cost_ic = 0.06
 			naval_speed = -0.08
 			surface_visibility = -0.02
 		}
@@ -2385,6 +2386,7 @@ equipment_modules = {
 			lg_armor_piercing = 30
 		}
 		multiply_stats = {
+			build_cost_ic = 0.08
 			naval_speed = -0.1
 			surface_visibility = -0.025
 		}
@@ -2401,6 +2403,7 @@ equipment_modules = {
 			max_strength = 28
 		}
 		multiply_stats = {
+			build_cost_ic = 0.05
 			naval_speed = -0.1
 		}
 		dismantle_cost_ic = 600
