@@ -146,7 +146,7 @@ The basis of post-loading is achieved in following steps:
 
 2. Overwrite all vanilla OOBs with empty files. OOB, or Order of Battle, is the definition of starting military forces in history/units. Unlike country history files, unit files are less sensitive since they only take effects when loaded in your script. Combining step 1 and step 2 will give a clean state on game start, no country has naval variant or fleet. Then you may load your own version.
 
-2.1. An alternative way to clear starting fleets will be the effect "destroy_ships". If you find overwriting all OOBs is too complicated, you can also create a scripted effect which iterates every starting country and deletes its navy.
+        2.1. An alternative way to clear starting fleets will be the effect "destroy_ships". If you find overwriting all OOBs is too complicated, you can also create a scripted effect which iterates every starting country and deletes its navy.
 
 3. Loading customized units and designs is the last step. It is achieved through hidden events. Some people say game is an art of interaction, and here is how I load everything without you even noticing it. By completing step 2, no country has navy upon game start, but as you may notice, there is an intro panel. The intro panel draws your attention, and your first reaction is to click continue. A trigger is set there, when it is clicked, it will fire a loading event which gives every country variants and fleets (If you choose step 2.1, this is where you can use it). Its effects are modified to have no popup, and done in an instant. Then you get everything set.
 
