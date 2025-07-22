@@ -783,7 +783,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 90
+		value = 120
 	}
 }
 
@@ -829,7 +829,7 @@ naval_unit_role_ratios_ENG_atwar = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 100
+		value = 150
 	}
 }
 
@@ -1540,7 +1540,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 100
+		value = 130
 	}
 }
 
