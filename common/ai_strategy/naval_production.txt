@@ -2233,13 +2233,13 @@ we_need_cv_planes_1 = {
 	ai_strategy = {
 		type = unit_ratio
 		id = cv_naval_bomber
-		value = 10
+		value = 20
 	}
 	
 	ai_strategy = {
 		type = unit_ratio
 		id = cv_cas
-		value = 1
+		value = 15
 	}
 	
 	ai_strategy = {
@@ -2257,7 +2257,7 @@ we_need_cv_planes_1 = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cv_cas
-		value = 1
+		value = 30
 	}
 
 	ai_strategy = {
@@ -2310,7 +2310,7 @@ we_need_cv_planes_2 = {
 	ai_strategy = {
 		type = unit_ratio
 		id = cv_cas
-		value = 1
+		value = 30
 	}
 	
 	ai_strategy = {
@@ -2328,7 +2328,7 @@ we_need_cv_planes_2 = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cv_cas
-		value = 1
+		value = 35
 	}
 
 	ai_strategy = {
@@ -2346,7 +2346,7 @@ we_need_cv_planes_2 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 1
+		value = 3
 	}
 
 	ai_strategy = {
@@ -2380,7 +2380,7 @@ we_need_cv_planes_3 = {
 	ai_strategy = {
 		type = unit_ratio
 		id = cv_cas
-		value = 1
+		value = 45
 	}
 	
 	ai_strategy = {
@@ -2398,7 +2398,7 @@ we_need_cv_planes_3 = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cv_cas
-		value = 1
+		value = 50
 	}
 
 	ai_strategy = {
@@ -2416,7 +2416,7 @@ we_need_cv_planes_3 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 1
+		value = 5
 	}
 
 	ai_strategy = {
