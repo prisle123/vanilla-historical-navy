@@ -238,7 +238,7 @@ naval_cruiser_light = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade > current any_of = { cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_engine_slot = { upgrade > current any_of = { cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
 				fixed_ship_radar_slot = { upgrade > current any_of = { ship_radar ship_mast } }
 				fixed_ship_armor_slot = { upgrade > current any_of = { ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = empty
@@ -246,7 +246,7 @@ naval_cruiser_light = {
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = ship_anti_air
-				mid_2_custom_slot = ship_light_medium_battery
+				mid_2_custom_slot = ship_anti_air
 				mid_3_custom_slot = ship_light_medium_battery
 				rear_1_custom_slot = ship_light_medium_battery
 				rear_2_custom_slot = ship_light_medium_battery
@@ -273,7 +273,7 @@ naval_cruiser_light = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade > current any_of = { cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_engine_slot = { upgrade > current any_of = { cruiser_ship_engine_5 cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
 				fixed_ship_radar_slot = { upgrade > current any_of = { ship_radar } }
 				fixed_ship_armor_slot = { upgrade > current any_of = { ship_armor_cruiser_4 ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = empty
@@ -283,8 +283,8 @@ naval_cruiser_light = {
 				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = ship_anti_air
 				mid_1_custom_slot = ship_light_medium_battery
-				mid_2_custom_slot = ship_light_medium_battery
-				mid_3_custom_slot = ship_light_medium_battery
+				mid_2_custom_slot = ship_anti_air
+				mid_3_custom_slot = ship_dp_secondaries
 				rear_1_custom_slot = ship_light_medium_battery
 				rear_2_custom_slot = ship_light_medium_battery
 			}
@@ -320,8 +320,8 @@ naval_cruiser_light = {
 				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = ship_anti_air
 				mid_1_custom_slot = ship_light_medium_battery
-				mid_2_custom_slot = ship_light_medium_battery
-				mid_3_custom_slot = ship_light_medium_battery
+				mid_2_custom_slot = ship_anti_air
+				mid_3_custom_slot = ship_dp_secondaries
 				rear_1_custom_slot = ship_light_medium_battery
 				rear_2_custom_slot = ship_light_medium_battery
 			}
