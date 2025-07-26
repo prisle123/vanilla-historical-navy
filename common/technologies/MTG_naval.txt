@@ -4241,10 +4241,10 @@ technologies = {
 	}
 
 	arresting_gear = {
-		research_cost = 0.5
+		research_cost = 0.75
 		start_year = 1925
 
-		sortie_efficiency = 0.05
+		sortie_efficiency = 0.1
 
 		folder = {
 			name = mtgnavalfolder
@@ -4269,11 +4269,13 @@ technologies = {
 	}
 
 	landing_aid_system = {
-		research_cost = 0.5
+		research_cost = 0.75
 		start_year = 1925
 
-		carrier_traffic = 0.1
-		carrier_night_traffic = 0.05
+		air_accidents_factor = -0.05
+		carrier = {
+			reliability = 0.05
+		}
 		enable_equipment_modules = {
 			carrier_aviation_control_unit
 		}
@@ -4308,7 +4310,8 @@ technologies = {
 		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
-		air_carrier_night_penalty_reduction_factor = 0.1
+		air_carrier_night_penalty_reduction_factor = 0.05
+		carrier_night_traffic = 0.05
 
 		folder = {
 			name = mtgnavalfolder
@@ -4565,9 +4568,7 @@ technologies = {
 		xp_research_bonus = 1.25
 
 		carrier_capacity_penalty_reduction = -0.1
-		carrier = {
-			anti_air_attack = 0.1
-		}
+		fighter_sortie_efficiency = 0.15
 
 		folder = {
 			name = mtgnavalfolder
@@ -4641,6 +4642,7 @@ technologies = {
 			armor_value = 0.2
 			anti_air_attack = 0.05
 			reliability = 0.05
+			max_organisation = 10
 		}
 		enable_equipment_modules = {
 			carrier_strength_deck
@@ -4791,7 +4793,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1951
 
-		carrier_traffic = 0.1
+		air_accidents_factor = -0.1
 		carrier_night_traffic = 0.1
 
 		folder = {
