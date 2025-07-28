@@ -2051,7 +2051,7 @@ technologies = {
 ###  #  # #   # #  #  ##  ###      ##   ##  #  #  #  #  #  ##  ###
 
 	damage_control_1 = {
-
+		start_year = 1918
 		research_cost = 0.75
 		path = {
 			leads_to_tech = damage_control_2
@@ -2092,7 +2092,7 @@ technologies = {
 	}
 
 	damage_control_2 = {
-
+		start_year = 1938
 		research_cost = 0.75
 		path = {
 			leads_to_tech = damage_control_3
@@ -2133,7 +2133,7 @@ technologies = {
 	}
 
 	damage_control_3 = {
-
+		start_year = 1940
 		research_cost = 1
 		critical_receive_chance = -0.05
 		naval_critical_effect_factor = -0.1
