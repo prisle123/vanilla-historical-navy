@@ -493,6 +493,7 @@ equipment_modules = {
 	}
 	ship_hull_cruiser_role_pbb = {
 		category = pz_role
+		gfx = ship_hull_cruiser_role_cb
 
 		forbid_module_categories = {
 			ship_heavy_battery
