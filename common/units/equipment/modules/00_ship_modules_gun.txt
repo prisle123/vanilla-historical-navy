@@ -884,13 +884,13 @@ equipment_modules = {
 
 		add_stats = {	
 			lg_attack = 4
-			build_cost_ic = 200
+			build_cost_ic = 150
 			naval_light_gun_hit_chance_factor = 0.005
 			max_strength = 14
 			surface_visibility = 0.3
 		}
 		multiply_stats = {
-			build_cost_ic = 0.08
+			build_cost_ic = 0.06
 			naval_speed = -0.02
 		}
 		add_average_stats = {
@@ -909,14 +909,14 @@ equipment_modules = {
 
 		add_stats = {	
 			lg_attack = 5.5
-			build_cost_ic = 300
+			build_cost_ic = 225
 			naval_light_gun_hit_chance_factor = 0.006
 			max_strength = 19
 			reliability = -0.03
 			surface_visibility = 0.4
 		}
 		multiply_stats = {
-			build_cost_ic = 0.1
+			build_cost_ic = 0.08
 			naval_speed = -0.04
 		}
 		add_average_stats = {
@@ -935,14 +935,14 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 8
-			build_cost_ic = 400
+			build_cost_ic = 300
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 24.5
 			reliability = -0.04
 			surface_visibility = 0.5
 		}
 		multiply_stats = {
-			build_cost_ic = 0.12
+			build_cost_ic = 0.1
 			naval_speed = -0.06
 		}
 		add_average_stats = {
@@ -960,14 +960,14 @@ equipment_modules = {
 		parent = ship_light_medium_battery_3
 		add_stats = {
 			lg_attack = 11
-			build_cost_ic = 500
+			build_cost_ic = 375
 			naval_light_gun_hit_chance_factor = 0.008
 			max_strength = 30
 			reliability = -0.05
 			surface_visibility = 0.6
 		}
 		multiply_stats = {
-			build_cost_ic = 0.14
+			build_cost_ic = 0.12
 			naval_speed = -0.08
 		}
 		add_average_stats = {
@@ -988,13 +988,13 @@ equipment_modules = {
 
 		add_stats = {	
 			lg_attack = 2.5
-			build_cost_ic = 150
+			build_cost_ic = 125
 			naval_light_gun_hit_chance_factor = 0.005
 			max_strength = 11
 			surface_visibility = 0.2
 		}
 		multiply_stats = {
-			build_cost_ic = 0.06
+			build_cost_ic = 0.04
 			naval_speed = -0.015
 		}
 		add_average_stats = {
@@ -1013,14 +1013,14 @@ equipment_modules = {
 
 		add_stats = {	
 			lg_attack = 4
-			build_cost_ic = 250
+			build_cost_ic = 200
 			naval_light_gun_hit_chance_factor = 0.006
 			max_strength = 15
 			reliability = -0.02
 			surface_visibility = 0.3
 		}
 		multiply_stats = {
-			build_cost_ic = 0.08
+			build_cost_ic = 0.06
 			naval_speed = -0.035
 		}
 		add_average_stats = {
@@ -1039,14 +1039,14 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 5
-			build_cost_ic = 350
+			build_cost_ic = 275
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 20
 			reliability = -0.03
 			surface_visibility = 0.4
 		}
 		multiply_stats = {
-			build_cost_ic = 0.1
+			build_cost_ic = 0.08
 			naval_speed = -0.05
 		}
 		add_average_stats = {
@@ -1064,14 +1064,14 @@ equipment_modules = {
 		parent = ship_light_medium_battery_3_double
 		add_stats = {
 			lg_attack = 7
-			build_cost_ic = 450
+			build_cost_ic = 350
 			naval_light_gun_hit_chance_factor = 0.008
 			max_strength = 24
 			reliability = -0.04
 			surface_visibility = 0.5
 		}
 		multiply_stats = {
-			build_cost_ic = 0.12
+			build_cost_ic = 0.1
 			naval_speed = -0.065
 		}
 		add_average_stats = {
@@ -1092,7 +1092,7 @@ equipment_modules = {
 
 		add_stats = {	
 			lg_attack = 2
-			build_cost_ic = 150
+			build_cost_ic = 125
 			max_strength = 8.5
 			surface_visibility = 0.25
 		}
@@ -1116,13 +1116,13 @@ equipment_modules = {
 
 		add_stats = {	
 			lg_attack = 3
-			build_cost_ic = 250
+			build_cost_ic = 200
 			max_strength = 11.5
 			reliability = -0.01
 			surface_visibility = 0.35
 		}
 		multiply_stats = {
-			build_cost_ic = 0.065
+			build_cost_ic = 0.07
 			naval_speed = -0.035
 		}
 		add_average_stats = {
@@ -1141,13 +1141,13 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 4
-			build_cost_ic = 350
+			build_cost_ic = 275
 			max_strength = 15
 			reliability = -0.02
 			surface_visibility = 0.45
 		}
 		multiply_stats = {
-			build_cost_ic = 0.08
+			build_cost_ic = 0.09
 			naval_speed = -0.045
 		}
 		add_average_stats = {
@@ -1165,13 +1165,13 @@ equipment_modules = {
 		parent = ship_light_medium_battery_3_single
 		add_stats = {
 			lg_attack = 5.5
-			build_cost_ic = 450
+			build_cost_ic = 350
 			max_strength = 18
 			reliability = -0.03
 			surface_visibility = 0.55
 		}
 		multiply_stats = {
-			build_cost_ic = 0.095
+			build_cost_ic = 0.11
 			naval_speed = -0.055
 		}
 		add_average_stats = {
@@ -1191,7 +1191,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 9.5
 			anti_air_attack = 2
-			build_cost_ic = 450
+			build_cost_ic = 350
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 28
 			reliability = -0.045

@@ -91,6 +91,10 @@ ideas = {
                     instant = yes
                     build_cost_ic = 0.1
                 }
+				ship_hull_cruiser = {
+					instant = yes
+					build_cost_ic = 0.1
+				}
             }
             modifier = {
                 ship_hull_heavy_design_cost_factor = 0.4
