@@ -13,6 +13,7 @@ vnr_cv_fighter = {
     basic_cv_fighter = {
         priority = {
             factor = 100
+            modifer = { factor = 0.1 has_tech = improved_small_airframe }
         }
 
         target_variant = {
@@ -32,6 +33,10 @@ vnr_cv_fighter = {
             modifier = {
                 factor = 10
                 has_tech = improved_small_airframe 
+            }
+            modifer = {
+                factor = 0.1
+                has_tech = advanced_small_airframe
             }
         }
 
@@ -84,6 +89,7 @@ vnr_cv_naval_bomber = {
     basic_cv_naval_bomber = {
         priority = {
             factor = 100
+            modifer = { factor = 0.1 has_tech = improved_small_airframe }
         }
 
         target_variant = {
@@ -102,6 +108,10 @@ vnr_cv_naval_bomber = {
             modifier = {
                 factor = 10
                 has_tech = improved_small_airframe 
+            }
+            modifer = {
+                factor = 0.1
+                has_tech = advanced_small_airframe
             }
         }
 
@@ -151,6 +161,7 @@ vnr_cv_cas = {
     basic_cv_cas = {
         priority = {
             factor = 100
+            modifer = { factor = 0.1 has_tech = improved_small_airframe }
         }
 
         target_variant = {
@@ -171,6 +182,10 @@ vnr_cv_cas = {
             modifier = {
                 factor = 10
                 has_tech = improved_small_airframe 
+            }
+            modifer = {
+                factor = 0.1
+                has_tech = advanced_small_airframe
             }
         }
 
