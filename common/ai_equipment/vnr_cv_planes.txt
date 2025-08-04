@@ -23,6 +23,8 @@ vnr_cv_fighter = {
                 engine_type_slot = engine_2_1x
                 fixed_main_weapon_slot = light_mg_4x
                 fixed_auxiliary_weapon_slot_1 = light_mg_4x
+                special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = armor_plate_small
             }
         }
     }
@@ -47,6 +49,8 @@ vnr_cv_fighter = {
                 engine_type_slot = engine_3_1x
                 fixed_main_weapon_slot = heavy_mg_4x
                 fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+                special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = armor_plate_small
             }
         }
     }
@@ -68,6 +72,8 @@ vnr_cv_fighter = {
                 fixed_main_weapon_slot = heavy_mg_4x
                 fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
                 fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
+                special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = armor_plate_small
             }
         }
     }
@@ -98,6 +104,8 @@ vnr_cv_naval_bomber = {
             modules = {
                 engine_type_slot = engine_2_1x
                 fixed_main_weapon_slot = torpedo_mounting
+                special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = armor_plate_small
             }
         }
     }
@@ -121,6 +129,8 @@ vnr_cv_naval_bomber = {
             modules = {
                 engine_type_slot = engine_3_1x
                 fixed_main_weapon_slot = torpedo_mounting_2
+                special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = armor_plate_small
             }
         }
     }
@@ -140,6 +150,8 @@ vnr_cv_naval_bomber = {
             modules = {
                 engine_type_slot = engine_4_1x
                 fixed_main_weapon_slot = torpedo_mounting_3
+                special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = armor_plate_small
             }
         }
     }
@@ -172,6 +184,8 @@ vnr_cv_cas = {
                 fixed_main_weapon_slot = armor_piercing_bomb_locks
                 fixed_auxiliary_weapon_slot_1 = armor_piercing_bomb_locks
                 special_type_slot_1 = dive_brakes_small
+                special_type_slot_2 = self_sealing_fuel_tanks_small
+                special_type_slot_3 = armor_plate_small
             }
         }
     }
@@ -197,6 +211,8 @@ vnr_cv_cas = {
                 fixed_main_weapon_slot = armor_piercing_bomb_locks
                 fixed_auxiliary_weapon_slot_1 = armor_piercing_bomb_locks
                 special_type_slot_1 = dive_brakes_small
+                special_type_slot_2 = self_sealing_fuel_tanks_small
+                special_type_slot_3 = armor_plate_small
             }
         }
     }
@@ -219,6 +235,8 @@ vnr_cv_cas = {
                 fixed_auxiliary_weapon_slot_1 = armor_piercing_bomb_locks
                 fixed_auxiliary_weapon_slot_2 = armor_piercing_bomb_locks
                 special_type_slot_1 = dive_brakes_small
+                special_type_slot_2 = self_sealing_fuel_tanks_small
+                special_type_slot_3 = armor_plate_small
             }
         }
     }
