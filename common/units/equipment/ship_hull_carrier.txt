@@ -592,6 +592,11 @@ equipments = {
 			steel = 1
 		}
 		manpower = 700
+
+		module_count_limit = {
+			module = carrier_secondary_island
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_merchant_carrier = {
@@ -637,6 +642,10 @@ equipments = {
 			steel = 1
 		}
 		manpower = 400
+		module_count_limit = {
+			module = carrier_secondary_island
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_super_carrier = {
