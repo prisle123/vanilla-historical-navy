@@ -2263,19 +2263,19 @@ we_need_cv_planes_1 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_fighter
-		value = 1
+		value = 3
 	}
 
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 1
+		value = 3
 	}
 	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 1
+		value = 3
 	}
 
 	ai_strategy = {
@@ -2334,19 +2334,19 @@ we_need_cv_planes_2 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_fighter
-		value = 3
+		value = 4
 	}
 
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 5
+		value = 4
 	}
 	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 3
+		value = 4
 	}
 
 	ai_strategy = {
@@ -2410,7 +2410,7 @@ we_need_cv_planes_3 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 8
+		value = 5
 	}
 	
 	ai_strategy = {
@@ -2568,5 +2568,34 @@ upgrade_cv_plane_strategy_3 = {
 		type = production_upgrade_desire_offset
 		id = cv_small_plane_cas_airframe_4
 		value = 1000
+	}
+}
+
+stupid_ai_stop_deploying_cv_plane_on_land = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_navy_size = {
+			type = carrier
+			size > 0
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = save_equipment
+		id = cv_small_plane_airframe
+		value = 2000
+	}
+	ai_strategy = {
+		type = save_equipment
+		id = cv_small_plane_cas_airframe
+		value = 2000
+	}
+	ai_strategy = {
+		type = save_equipment
+		id = cv_small_plane_naval_bomber_airframe
+		value = 2000
 	}
 }
