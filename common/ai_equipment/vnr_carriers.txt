@@ -74,7 +74,6 @@ naval_carrier = {
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
 				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space_open
-				mid_1_custom_slot = ship_deck_space_open
 			}
 		}
 	}
@@ -110,7 +109,7 @@ naval_carrier = {
 				front_1_custom_slot = ship_deck_space_open
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space_open
-				mid_2_custom_slot = ship_deck_space_open
+				mid_2_custom_slot = ship_dp_secondaries_bb
 			}
 		}
 	}

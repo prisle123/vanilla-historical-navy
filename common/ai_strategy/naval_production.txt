@@ -2570,32 +2570,3 @@ upgrade_cv_plane_strategy_3 = {
 		value = 1000
 	}
 }
-
-stupid_ai_stop_deploying_cv_plane_on_land = {
-	allowed = {
-		always = yes
-	}
-	enable = {
-		has_navy_size = {
-			type = carrier
-			size > 0
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = save_equipment
-		id = cv_small_plane_airframe
-		value = 2000
-	}
-	ai_strategy = {
-		type = save_equipment
-		id = cv_small_plane_cas_airframe
-		value = 2000
-	}
-	ai_strategy = {
-		type = save_equipment
-		id = cv_small_plane_naval_bomber_airframe
-		value = 2000
-	}
-}
