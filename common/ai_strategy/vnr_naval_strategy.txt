@@ -889,4 +889,59 @@ GER_unrestricted_submarine_warfare = {
         id = 50
         value = 30
     }
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 173
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 207
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 9
+		value = 500
+	}
+}
+
+GER_avoid_mediterranean = {
+	allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = GER
+    }
+    enable = {
+        country_exists = ENG
+		NOT = { is_ally_with = ENG }
+		enable_vnr_naval_ai = yes
+    }
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 29
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 68
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 69
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 168
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 169
+		value = 1000
+	}
 }

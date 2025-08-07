@@ -13,7 +13,7 @@ ideas = {
 			picture = MTG_naval_treaty_adherent
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 6800
+				production_cost_max_ship_hull_cruiser = 6000
 				production_cost_max_ship_hull_heavy = 9800
 				production_cost_max_ship_hull_carrier = 9800
 				convoy_raiding_efficiency_factor = -0.5
@@ -32,7 +32,7 @@ ideas = {
 			picture = MTG_naval_treaty_adherent
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 6700
+				production_cost_max_ship_hull_cruiser = 5850
 				production_cost_max_ship_hull_heavy = 9600
 				production_cost_max_ship_hull_carrier = 9400
 				production_cost_max_ship_hull_submarine = 800
@@ -51,7 +51,7 @@ ideas = {
 			picture = MTG_naval_treaty_adherent_reduced
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 7300
+				production_cost_max_ship_hull_cruiser = 6300
 				production_cost_max_ship_hull_heavy = 11000
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_submarine = 900
@@ -71,7 +71,7 @@ ideas = {
 			picture = MTG_naval_treaty_adherent
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 6900
+				production_cost_max_ship_hull_cruiser = 6300
 				production_cost_max_ship_hull_heavy = 10000
 				production_cost_max_ship_hull_carrier = 10000
 			}
@@ -89,7 +89,7 @@ ideas = {
 			picture = MTG_naval_treaty_adherent_reduced
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 7500
+				production_cost_max_ship_hull_cruiser = 7000
 				production_cost_max_ship_hull_heavy = 18000
 				production_cost_max_ship_hull_carrier = 11000
 			}

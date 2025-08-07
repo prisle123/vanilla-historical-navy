@@ -2263,19 +2263,19 @@ we_need_cv_planes_1 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_fighter
-		value = 1
+		value = 3
 	}
 
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 1
+		value = 3
 	}
 	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 1
+		value = 3
 	}
 
 	ai_strategy = {
@@ -2334,19 +2334,19 @@ we_need_cv_planes_2 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_fighter
-		value = 3
+		value = 4
 	}
 
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 5
+		value = 4
 	}
 	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_cas
-		value = 3
+		value = 4
 	}
 
 	ai_strategy = {
@@ -2410,7 +2410,7 @@ we_need_cv_planes_3 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = cv_naval_bomber
-		value = 8
+		value = 5
 	}
 	
 	ai_strategy = {
@@ -2461,6 +2461,33 @@ restrict_early_landing = {
 	ai_strategy = {
 		type = naval_invasion_focus
 		value = -1000
+	}
+}
+
+upgrade_cv_plane_strategy_0 = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_tech = basic_small_airframe
+		NOT = { has_tech = improved_small_airframe }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_airframe_1
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_naval_bomber_airframe_1
+		value = 1000
+	}
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = cv_small_plane_cas_airframe_1
+		value = 1000
 	}
 }
 

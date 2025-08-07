@@ -3,6 +3,10 @@
 		cv_small_plane_airframe_0 =  { owner = "USA" amount = 8 version_name = "F4B"} # historical: 36
 		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 10 version_name = "SBU Corsair" } # historical: 15
 		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 4 version_name = "SBU Corsair" } # historical: 15
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "USA" amount = 8 version_name = "BM-2" } # historical: 12
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 8 version_name = "F4B"} # historical: 36
+		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 10 version_name = "SBU Corsair" } # historical: 15
+		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 4 version_name = "SBU Corsair" } # historical: 15
 		cv_small_plane_naval_bomber_airframe_0 =  { owner = "USA" amount = 8 version_name = "BM-2" } # historical: 12			
 	}
 	"USS Lexington" = {
@@ -10,11 +14,21 @@
 		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 10 version_name = "SBU Corsair" } # historical: 30
 		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 4 version_name = "SBU Corsair" } # historical: 30
 		cv_small_plane_naval_bomber_airframe_0 =  { owner = "USA" amount = 8 version_name = "BM-2" } # historical: 12
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 8 version_name = "F4B"} # historical: 16
+		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 10 version_name = "SBU Corsair" } # historical: 30
+		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 4 version_name = "SBU Corsair" } # historical: 30
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "USA" amount = 8 version_name = "BM-2" } # historical: 12
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "USA" amount = 8 version_name = "BM-2" } # historical: 12
 	}
 	"USS Saratoga" = {
 		cv_small_plane_airframe_0 =  { owner = "USA" amount = 8 version_name = "F4B"} # historical: 16
 		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 10 version_name = "SBU Corsair" } # historical: 30
 		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 4 version_name = "SBU Corsair" } # historical: 30
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "USA" amount = 8 version_name = "BM-2" } # historical: 12
+		cv_small_plane_airframe_0 =  { owner = "USA" amount = 8 version_name = "F4B"} # historical: 16
+		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 10 version_name = "SBU Corsair" } # historical: 30
+		cv_small_plane_cas_airframe_0 =  { owner = "USA" amount = 4 version_name = "SBU Corsair" } # historical: 30
+		cv_small_plane_naval_bomber_airframe_0 =  { owner = "USA" amount = 8 version_name = "BM-2" } # historical: 12
 		cv_small_plane_naval_bomber_airframe_0 =  { owner = "USA" amount = 8 version_name = "BM-2" } # historical: 12
 	}
 }

@@ -572,6 +572,7 @@ country_event = {
 				set_technology = {
 					armor_piercing_bombs = 1
 					aircraft_construction = 1
+					engines_2 = 1
 				}
 				add_ideas = vnr_cv_plane_output_boost
 			}
@@ -599,6 +600,8 @@ country_event = {
 					improved_small_airframe = 1
 					aa_hmg = 1
 					air_torpedoe_2 = 1
+					engines_3 = 1
+					survivability_studies = 1
 				}
 				air_experience = 80
 			}
@@ -625,6 +628,7 @@ country_event = {
 				set_technology = {
 					advanced_small_airframe = 1
 					air_torpedoe_3 = 1
+					engines_4 = 1
 				}
 				air_experience = 80
 			}
@@ -658,6 +662,8 @@ country_event = {
 					damage_control_2 = 1
 					damage_control_3 = 1
 					fire_control_methods_2 = 1
+					battleship_aa_upgrade = 1
+					escort_carriers_ship = 1
 				}
 				ai_get_navy_experience = yes
 			}
