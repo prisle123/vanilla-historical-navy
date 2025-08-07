@@ -60,7 +60,7 @@ equipments = {
 			}
 			fixed_ship_carrier_miscellaneous_slot_2 = { 
 				required = no
-				allowed_module_categories = { carrier_miscellaneous }
+				allowed_module_categories = { carrier_miscellaneous carrier_island }
 			}
 			fixed_ship_flight_deck_slot = {
 				required = yes
@@ -80,6 +80,14 @@ equipments = {
 
 		module_count_limit = {
 			category = ship_radar
+			count < 2
+		}
+		module_count_limit = {
+			module = carrier_civilian_material
+			count < 2
+		}
+		module_count_limit = {
+			category = carrier_island
 			count < 2
 		}
 
@@ -116,7 +124,7 @@ equipments = {
 
 		naval_range = 3000
 
-		max_strength = 205
+		max_strength = 105
 
 
 		fuel_consumption = 60
@@ -172,7 +180,7 @@ equipments = {
 		}
 		naval_range = 3000
 
-		max_strength = 125
+		max_strength = 80
 
 		reliability = 0.65
 		naval_speed = 20
@@ -236,6 +244,8 @@ equipments = {
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					ship_secondaries
+					ship_anti_air
 					ship_deck_space_converted
 				}
 			}
@@ -248,7 +258,7 @@ equipments = {
 		}
 		naval_range = 4000
 		reliability = 0.65
-		max_strength = 220
+		max_strength = 110
 		naval_speed = 26.5
 		surface_visibility = 33
 
@@ -392,6 +402,7 @@ equipments = {
 					ship_deck_space
 					ship_deck_space_small
 					carrier_miscellaneous
+					carrier_island
 				}
 			}
 		}
@@ -404,7 +415,7 @@ equipments = {
 		}
 		naval_range = 4000
 		reliability = 0.75
-		max_strength = 245
+		max_strength = 125
 		naval_speed = 28
 
 		module_count_limit = {
@@ -443,7 +454,7 @@ equipments = {
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = {
 				required = no
-				allowed_module_categories = { carrier_miscellaneous coldwar_upgrade_cv }
+				allowed_module_categories = { carrier_miscellaneous carrier_island coldwar_upgrade_cv }
 			}
 			fixed_ship_flight_deck_slot = inherit
 			fixed_ship_role_slot = inherit
@@ -489,6 +500,7 @@ equipments = {
 					carrier_angled_deck
 					carrier_helipad
 					carrier_miscellaneous
+					carrier_island
 				}
 			}
 			rear_1_custom_slot = {
@@ -508,7 +520,7 @@ equipments = {
 
 		naval_range = 5000
 		reliability = 0.8
-		max_strength = 275
+		max_strength = 140
 		naval_speed = 28
 
 		module_count_limit = {
@@ -554,7 +566,7 @@ equipments = {
 			# }
 			fixed_ship_carrier_miscellaneous_slot_2 = { 
 				required = no
-				allowed_module_categories = { carrier_miscellaneous }
+				allowed_module_categories = { carrier_miscellaneous carrier_island }
 			}
 			fixed_ship_flight_deck_slot = inherit
 		}
@@ -568,7 +580,7 @@ equipments = {
 		}
 		naval_range = 3000
 
-		max_strength = 75
+		max_strength = 35
 		fuel_consumption = 38
 
 		reliability = 0.7
@@ -580,6 +592,11 @@ equipments = {
 			steel = 1
 		}
 		manpower = 700
+
+		module_count_limit = {
+			module = carrier_secondary_island
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_merchant_carrier = {
@@ -613,7 +630,7 @@ equipments = {
 		}
 		naval_range = 2000
 
-		max_strength = 35
+		max_strength = 15
 		fuel_consumption = 23
 
 		reliability = 0.5
@@ -625,6 +642,10 @@ equipments = {
 			steel = 1
 		}
 		manpower = 400
+		module_count_limit = {
+			module = carrier_secondary_island
+			count < 1
+		}
 	}
 
 	vnr_ship_hull_super_carrier = {
@@ -667,7 +688,7 @@ equipments = {
 			}
 			fixed_ship_carrier_miscellaneous_slot_2 = { 
 				required = no
-				allowed_module_categories = { carrier_miscellaneous }
+				allowed_module_categories = { carrier_miscellaneous carrier_island }
 			}
 			fixed_ship_flight_deck_slot = inherit
 			front_1_custom_slot = {
@@ -693,6 +714,7 @@ equipments = {
 					carrier_angled_deck
 					carrier_helipad
 					carrier_miscellaneous
+					carrier_island
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -717,7 +739,7 @@ equipments = {
 
 		naval_range = 6000
 		reliability = 1.5
-		max_strength = 300
+		max_strength = 150
 		naval_speed = 29
 		surface_visibility = 30
 
@@ -773,7 +795,7 @@ equipments = {
 			}
 			fixed_ship_carrier_miscellaneous_slot_2 = { 
 				required = no
-				allowed_module_categories = { carrier_miscellaneous }
+				allowed_module_categories = { carrier_miscellaneous carrier_island }
 			}
 			fixed_ship_flight_deck_slot = inherit
 			front_1_custom_slot = {
@@ -820,7 +842,7 @@ equipments = {
 
 		naval_range = 6000
 		reliability = 1.3
-		max_strength = 330
+		max_strength = 170
 		naval_speed = 28
 		surface_visibility = 32
 

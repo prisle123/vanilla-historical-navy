@@ -47,7 +47,6 @@ naval_screen_leader = {
 
 		priority = {
 			base = 1
-			modifier = { factor = 10 tag = USA }
 			modifier = { factor = 25 tag = FRA }
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
 		}
@@ -59,7 +58,7 @@ naval_screen_leader = {
 
 			type = vnr_ship_hull_light_3
 			modules = {
-				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_engine_slot = { upgrade = current any_of = { light_ship_engine_6 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
 				fixed_ship_battery_slot = ship_light_battery
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
@@ -81,9 +80,8 @@ naval_screen_leader = {
 		role_icon_index = 33
 
 		priority = {
-			base = 1
-			modifier = { factor = 10 tag = USA }
-			modifier = { factor = 25 tag = FRA }
+			base = 0
+			modifier = { add = 25 tag = FRA }
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
 		}
 
@@ -116,9 +114,8 @@ naval_screen_leader = {
 		role_icon_index = 33
 
 		priority = {
-			base = 1
-			modifier = { factor = 10 tag = USA }
-			modifier = { factor = 25 tag = FRA }
+			base = 0
+			modifier = { add = 25 tag = FRA }
 		}
 
 		

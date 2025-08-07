@@ -1,4 +1,4 @@
-version="v2.2 - Midway"
+version="v2.3 - Eastern Solomons"
 tags={
 	"Military"
 	"Graphics"

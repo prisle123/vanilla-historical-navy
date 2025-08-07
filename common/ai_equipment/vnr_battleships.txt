@@ -3,7 +3,7 @@ naval_capital_battleship = {
 	#available_for = {}
 	#blocked_for = {}
 	roles = { vnr_naval_capital_bb }
-	priority = { base = 50 }
+	priority = { base = 75 }
 
 	capital_battleship_1924 = {
 		name = vnr_bb_1924
@@ -61,8 +61,8 @@ naval_capital_battleship = {
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
+				fixed_ship_fire_control_system_slot = { upgrade > current any_of = { ship_fire_control_system } }
+				fixed_ship_radar_slot = { upgrade > current any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_bb_2 ship_armor_bb_1 } }
@@ -97,8 +97,8 @@ naval_capital_battleship = {
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { upgrade > current any_of = { ship_fire_control_system } }
+				fixed_ship_radar_slot = { upgrade > current any_of = { ship_radar } }
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_4 heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { any_of = { ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
@@ -135,8 +135,8 @@ naval_capital_battleship = {
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { upgrade > current any_of = { ship_fire_control_system } }
+				fixed_ship_radar_slot = { upgrade > current any_of = { ship_radar } }
 				fixed_ship_engine_slot = { upgrade = current any_of = { heavy_ship_engine_5 heavy_ship_engine_4 heavy_ship_engine_3 heavy_ship_engine_2 heavy_ship_engine_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { any_of = { ship_armor_bb_4 ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
@@ -173,8 +173,8 @@ naval_capital_battleship = {
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_missile_aa
-				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { upgrade > current any_of = { ship_fire_control_system } }
+				fixed_ship_radar_slot = { upgrade > current any_of = { ship_radar } }
 				fixed_ship_engine_slot = { any_of = { heavy_ship_engine_4_gas heavy_ship_engine_nuclear } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = { any_of = { ship_armor_bb_4 ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
@@ -199,7 +199,7 @@ naval_capital_battleship = {
 		priority = {
 			base = 0
 			modifier = { add = 50 tag = JAP }
-			modifier = { factor = 0 has_navy_size = { unit = SH_battleship size > 3 } }
+			modifier = { factor = 0 has_navy_size = { unit = SH_battleship size > 2 } }
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 

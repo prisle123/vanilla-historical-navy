@@ -16,6 +16,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 3
 			build_cost_ic = 1800
+			anti_air_attack = 2
 			reliability = -0.1
 			max_organisation = -0.2
 			surface_detection = 5
@@ -24,9 +25,8 @@ equipment_modules = {
 		manpower = 300 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.1
-			anti_air_attack = 0.035
-			max_strength = -0.15
 			fuel_consumption = 0.1
+			surface_visibility = 0.05
 		}
 		dismantle_cost_ic = 900
 		can_convert_from = {
@@ -42,15 +42,17 @@ equipment_modules = {
 			carrier_size = 2
 			build_cost_ic = 1300
 			reliability = 0.025
+			max_strength = 40
+			anti_air_attack = 2.5
 			surface_detection = 4
 			supply_consumption = 0.015
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.065
-			max_strength = 0.05
 			armor_value = 0.025
 			fuel_consumption = 0.075
+			surface_visibility = 0.03
 		}
 		dismantle_cost_ic = 700
 		can_convert_from = {
@@ -58,21 +60,24 @@ equipment_modules = {
 			convert_cost_ic = 1200
 		}
 	}
-	ship_deck_space = {
+	ship_deck_space_open = {
 		category = ship_deck_space
+		gfx = ship_deck_space
 
 		add_equipment_type = capital_ship
 		add_stats = {
 			carrier_size = 2
 			build_cost_ic = 1000
 			surface_detection = 4
+			max_strength = 30
+			anti_air_attack = 1.5
 			supply_consumption = 0.015
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.05
-			anti_air_attack = 0.025
 			fuel_consumption = 0.075
+			surface_visibility = 0.025
 		}
 		dismantle_cost_ic = 600
 		can_convert_from = {
@@ -88,12 +93,15 @@ equipment_modules = {
 			carrier_size = 1
 			build_cost_ic = 500
 			surface_detection = 2
+			max_strength = 20
+			anti_air_attack = 0.5
 			supply_consumption = 0.01
 		}
 		multiply_stats = {
 			naval_speed = -0.025
 			sub_detection = 0.05
 			fuel_consumption = 0.05
+			surface_visibility = 0.015
 		}
 		manpower = 100
 		dismantle_cost_ic = 400
@@ -107,15 +115,16 @@ equipment_modules = {
 			build_cost_ic = 2000
 			max_organisation = -0.05
 			surface_detection = 5
+			max_strength = 55
+			anti_air_attack = 3
 			supply_consumption = 0.025
 		}
 		manpower = 300
 		multiply_stats = {
 			naval_speed = -0.075
-			anti_air_attack = 0.05
-			max_strength = 0.05
 			armor_value = 0.025
 			fuel_consumption = 0.1
+			surface_visibility = 0.05
 		}
 		dismantle_cost_ic = 1100
 	}
@@ -137,6 +146,7 @@ equipment_modules = {
 			naval_speed = -0.05
 			max_strength = -0.1
 			fuel_consumption = 0.05
+			surface_visibility = 0.05
 		}
 		dismantle_cost_ic = 2000
 	}
@@ -150,13 +160,15 @@ equipment_modules = {
 			carrier_size = 2
 			build_cost_ic = 2000
 			surface_detection = 8
+			max_strength = 80
+			anti_air_attack = 3
 			supply_consumption = 0.03
 		}
 		manpower = 450 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.075
-			anti_air_attack = 0.035
 			fuel_consumption = 0.1
+			surface_visibility = 0.05
 		}
 		dismantle_cost_ic = 1600
 	}
@@ -170,13 +182,15 @@ equipment_modules = {
 			carrier_size = 2
 			build_cost_ic = 2000
 			surface_detection = 4
+			max_strength = 30
+			anti_air_attack = 1.5
 			supply_consumption = 0.015
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.05
-			anti_air_attack = 0.025
 			fuel_consumption = 0.075
+			surface_visibility = 0.03
 		}
 		dismantle_cost_ic = 600
 		can_convert_from = {
@@ -264,10 +278,10 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1000
+			max_organisation = 0.1
 		}
 		multiply_stats = {
-			anti_air_attack = 0.2
-			surface_detection = 0.1
+			anti_air_attack = 0.15
 		}
 		dismantle_cost_ic = 800
 	}
@@ -291,8 +305,11 @@ equipment_modules = {
 		gfx = ship_side_lift
 
 		add_stats = {
-			build_cost_ic = 800
-			carrier_size = 1
+			build_cost_ic = 500
+			max_organisation = 0.05
+		}
+		multiply_stats = {
+			anti_air_attack = 0.05
 		}
 
 		build_cost_resources = {
@@ -309,7 +326,7 @@ equipment_modules = {
 
 		add_stats = {
 			carrier_size = 1
-			max_organisation = 0.1
+			max_organisation = 0.2
 			build_cost_ic = 2000
 		}
 
@@ -328,7 +345,7 @@ equipment_modules = {
 	carrier_aviation_control_unit = {
 		category = carrier_unit
 		add_stats = {
-			max_organisation = 0.2
+			max_organisation = 0.1
 		}
 		multiply_stats = {
 			anti_air_attack = 0.05
@@ -341,6 +358,7 @@ equipment_modules = {
 			reliability = 0.1
 		}
 		multiply_stats = {
+			max_strength = 0.05
 			build_cost_ic = 0.05
 		}
 	}
@@ -382,6 +400,7 @@ equipment_modules = {
 		category = carrier_miscellaneous
 		add_stats = {
 			reliability = -0.15
+			max_organisation = -0.2
 		}
 		multiply_stats = {
 			armor_value = -0.25
@@ -394,7 +413,8 @@ equipment_modules = {
 		dismantle_cost_ic = 1500
 	}
 	carrier_secondary_island = {
-		category = carrier_miscellaneous
+		category = carrier_island
+		gui_category = carrier_miscellaneous
 		add_stats = {
 			max_organisation = 0.1
 			reliability = -0.05
@@ -407,7 +427,8 @@ equipment_modules = {
 		}
 	}
 	carrier_no_island = {
-		category = carrier_miscellaneous
+		category = carrier_island
+		gui_category = carrier_miscellaneous
 
 		add_stats = {
 			build_cost_ic = -150
@@ -444,6 +465,10 @@ equipment_modules = {
 			build_cost_ic = 800
 			surface_detection = 10
 			sub_detection = 8
+		}
+		multiply_stats = {
+			surface_detection = 0.1
+			sub_detection = 0.1
 		}
 	}
 	coldwar_upgrade_cv = {

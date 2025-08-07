@@ -214,7 +214,7 @@ MTG_naval_treaties = {
 	
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 3
+			factor = 50
 			modifier = {
 				tag = JAP
 				factor = 5 #The Yamato is a 35,000 ton ship what are you talking about

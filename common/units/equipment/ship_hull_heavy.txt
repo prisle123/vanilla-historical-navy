@@ -293,7 +293,7 @@ equipments = {
 		}
 		naval_range = 2000
 
-		max_strength = 120
+		max_strength = 90
 		naval_speed = 21
 		fuel_consumption = 67
 		reliability = 0.5
@@ -436,12 +436,12 @@ equipments = {
 
 		naval_range = 2700
 
-		max_strength = 220
+		max_strength = 165
 		reliability = 0.70
 		naval_speed = 27
 		fuel_consumption = 63
 		surface_visibility = 38
-		build_cost_ic = 2200
+		build_cost_ic = 2000
 	}
 
 	vnr_ship_hull_heavy_2 = {
@@ -471,12 +471,12 @@ equipments = {
 
 		naval_range = 3000
 
-		max_strength = 220
+		max_strength = 165
 		reliability = 0.75
 		naval_speed = 27.5
 		fuel_consumption = 67
 		surface_visibility = 36
-		build_cost_ic = 2600
+		build_cost_ic = 2300
 		manpower = 2200
 	}
 
@@ -499,12 +499,12 @@ equipments = {
 		}
 		naval_range = 3500
 
-		max_strength = 280
+		max_strength = 210
 		reliability = 0.85
 		fuel_consumption = 67
 		naval_speed = 32
-		surface_visibility = 31
-		build_cost_ic = 2700
+		surface_visibility = 34
+		build_cost_ic = 2500
 
 		manpower = 2500
 	}
@@ -529,11 +529,11 @@ equipments = {
 		}
 		naval_range = 4000
 		naval_speed = 31
-		max_strength = 320
+		max_strength = 240
 		reliability = 0.9
 		fuel_consumption = 67
-		surface_visibility = 29
-		build_cost_ic = 3000
+		surface_visibility = 32
+		build_cost_ic = 2800
 		resources = {
 			steel = 4
 			chromium = 1
@@ -642,12 +642,12 @@ equipments = {
 		}
 		naval_range = 4500
 
-		max_strength = 350
+		max_strength = 265
 		naval_speed = 30.5
 		fuel_consumption = 67
-		surface_visibility = 27
+		surface_visibility = 30
 		reliability = 0.95
-		build_cost_ic = 3300
+		build_cost_ic = 3100
 		resources = {
 			steel = 5
 			chromium = 1
@@ -775,11 +775,11 @@ equipments = {
 		}
 		naval_range = 4500
 		naval_speed = 26.5
-		max_strength = 350
+		max_strength = 265
 		fuel_consumption = 75
 		reliability = 0.9
 		surface_visibility = 46
-		build_cost_ic = 3800
+		build_cost_ic = 3500
 		resources = {
 			steel = 5
 			chromium = 1
@@ -815,13 +815,15 @@ equipments = {
 				required = yes
 				allowed_module_categories = { ship_heavy_armor }
 			}
-			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_extra_secondaries_slot = {
 				required = no
 				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
 			}
-			fixed_ship_armor_scheme_slot = inherit
-			fixed_ship_torpedo_defense_system_slot = inherit
+			fixed_ship_extra_missile_slot = {
+				required = no
+				allowed_module_categories = { generic_miscellaneous }
+			}
+			fixed_ship_airplane_launcher_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -877,12 +879,12 @@ equipments = {
 		}
 		naval_range = 5000
 
-		max_strength = 300
+		max_strength = 225
 		naval_speed = 32
 		fuel_consumption = 70
 		surface_visibility = 30
 		reliability = 1.25
-		build_cost_ic = 3500
+		build_cost_ic = 3200
 		resources = {
 			steel = 4
 			chromium = 2
@@ -898,6 +900,22 @@ equipments = {
 		module_count_limit = {
 			category = ship_missile_aa
 			count < 8
+		}
+		module_count_limit = {
+			module = full_missile_upgrade
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_display_system
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_bulbous_bow
+			count < 2
+		}
+		module_count_limit = {
+			module = ship_decoy_launcher
+			count < 2
 		}
 	}
 }

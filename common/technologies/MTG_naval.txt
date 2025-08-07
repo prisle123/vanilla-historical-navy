@@ -416,6 +416,7 @@ technologies = {
 			asw_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	improved_depth_charges = {
@@ -457,6 +458,7 @@ technologies = {
 			asw_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	advanced_depth_charges = {
@@ -497,6 +499,7 @@ technologies = {
 			asw_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	modern_depth_charges = {
@@ -539,6 +542,7 @@ technologies = {
 			asw_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	rocket_depth_charges = {
@@ -579,6 +583,7 @@ technologies = {
 			asw_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 	sonar = {
@@ -613,13 +618,13 @@ technologies = {
 			asw_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
 	improved_sonar = {
 		enable_equipment_modules = {
 			ship_sonar_2
-			ship_bulbous_bow
 		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
@@ -651,12 +656,14 @@ technologies = {
 			asw_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
 	advanced_sonar = {
 		enable_equipment_modules = {
 			ship_sonar_3
+			ship_bulbous_bow
 		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
@@ -692,6 +699,7 @@ technologies = {
 			asw_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -729,6 +737,7 @@ technologies = {
 			asw_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
+			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -3306,7 +3315,7 @@ technologies = {
 		research_cost = 0.6
 
 
-		refit_ic_cost = -0.2
+		refit_speed = 0.15
 
 		start_year = 1930
 
@@ -3437,13 +3446,13 @@ technologies = {
 		research_cost = 0.75
 		start_year = 1940
 
-		naval_retreat_speed_after_initial_combat = 0.1
+		naval_retreat_speed_after_initial_combat = 0.25
 		SH_battleship = {
 			water_fjords = {
-				movement = 0.025
+				movement = 0.05
 			}
 			water_shallow_sea = {
-				movement = 0.025
+				movement = 0.05
 			}
 			water_deep_ocean = {
 				movement = 0.05
@@ -3929,7 +3938,7 @@ technologies = {
 
 	early_carrier_study = {
 		enable_equipment_modules = {
-			ship_deck_space
+			ship_deck_space_open
 			ship_deck_space_small
 			ship_deck_space_more
 			carrier_spared_squad
@@ -4058,6 +4067,10 @@ technologies = {
 		path = {
 			leads_to_tech = aviation_dawn
 			research_cost_coeff = 1
+		}
+		dependencies = {
+			landing_aid_system = 1
+			arresting_gear = 1
 		}
 
 		research_cost = 1.5
@@ -4228,14 +4241,19 @@ technologies = {
 	}
 
 	arresting_gear = {
-		research_cost = 0.5
+		research_cost = 0.75
 		start_year = 1925
 
-		sortie_efficiency = 0.05
+		sortie_efficiency = 0.1
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = @1924_module }
+		}
+
+		path = {
+			leads_to_tech = basic_ship_hull_carrier
+			research_cost_coeff = 1
 		}
 
 		ai_will_do = {
@@ -4251,11 +4269,13 @@ technologies = {
 	}
 
 	landing_aid_system = {
-		research_cost = 0.5
+		research_cost = 0.75
 		start_year = 1925
 
-		carrier_traffic = 0.1
-		carrier_night_traffic = 0.05
+		air_accidents_factor = -0.05
+		carrier = {
+			reliability = 0.05
+		}
 		enable_equipment_modules = {
 			carrier_aviation_control_unit
 		}
@@ -4263,6 +4283,11 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = @1924_module }
+		}
+
+		path = {
+			leads_to_tech = basic_ship_hull_carrier
+			research_cost_coeff = 1
 		}
 
 		ai_will_do = {
@@ -4285,7 +4310,8 @@ technologies = {
 		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
-		air_carrier_night_penalty_reduction_factor = 0.1
+		air_carrier_night_penalty_reduction_factor = 0.05
+		carrier_night_traffic = 0.05
 
 		folder = {
 			name = mtgnavalfolder
@@ -4403,13 +4429,18 @@ technologies = {
 
 	carrier_damage_control = {
 		research_cost = 1.25
-		start_year = 1940
+		start_year = 1941
 
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
+		dependencies = {
+			damage_control_3 = 1
+		}
+
 		carrier = {
+			max_organisation = 10
 			max_strength = 0.1
 			reliability = 0.05
 		}
@@ -4542,9 +4573,7 @@ technologies = {
 		xp_research_bonus = 1.25
 
 		carrier_capacity_penalty_reduction = -0.1
-		carrier = {
-			anti_air_attack = 0.1
-		}
+		fighter_sortie_efficiency = 0.15
 
 		folder = {
 			name = mtgnavalfolder
@@ -4618,6 +4647,7 @@ technologies = {
 			armor_value = 0.2
 			anti_air_attack = 0.05
 			reliability = 0.05
+			max_organisation = 10
 		}
 		enable_equipment_modules = {
 			carrier_strength_deck
@@ -4768,7 +4798,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1951
 
-		carrier_traffic = 0.1
+		air_accidents_factor = -0.1
 		carrier_night_traffic = 0.1
 
 		folder = {
@@ -5733,6 +5763,8 @@ technologies = {
 		enable_equipment_modules = {
 			ship_hull_cruiser_role_rc
 			ship_cruiser_camo_1
+			ship_hull_cruiser_role_pz
+			ship_hull_cruiser_role_pbb
 		}
 
 		research_cost = 0.6
