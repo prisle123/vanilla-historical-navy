@@ -27,7 +27,11 @@ Carrier, on the other hand, is very different from all kinds of firepower mentio
 
 Protection varies on different hulls. For example, destroyer has close to zero protection, cruiser has armor plates, while battleship possesses armor plates, armor schemes and torpedo defense systems.
 
-When HP gets reduced to 0, the ship will be sunk. Typically, there are two ways to avoid it. Having more HP brings obvious benefits to the ship, and allows it to take more damage before sunk. Armor improves survivability with a different approach by reducing damage received each time it's hit. Based on the formula listed in intro panel, if armor piercing of a gun is lower than half of the armor, its damage is reduced to 20% of its original value. In a scenario where battleships fight toe-to-toe combat, armor is extremely useful against guns.
+When HP gets reduced to 0, the ship will be sunk. Typically, there are two ways to avoid it.
+
+Having more HP brings obvious benefits to the ship, and allows it to take more damage before sunk. HP comes from many things, such as armor plates and advanced hulls, and more importantly, turrets. Except for light guns, all turrets have HP bonus to simulate a linear relation between tonnage and survivability, which is crucial on cruiser and heavy hulls in terms of protection.
+
+Armor improves survivability with a different approach by reducing damage received each time it's hit. Based on the formula listed in intro panel, if armor piercing of a gun is lower than half of the armor, its damage is reduced to 20% of its original value. In a scenario where battleships fight toe-to-toe combat, armor is extremely useful against guns.
 
 However, armor is not invincible if you take other types of firepower into consideration. For example, torpedo completely ignores armor, and it can do so much damage that even torpedo defense system is not effective enough to save the ship when it's hit. Luckily, with a good escort force, torpedo will have a hard time penetrating the screen line to get your capital ships.
 
@@ -55,15 +59,15 @@ If you can fully understand the six dimensions, now it's time to design your fir
 
 **Carrier**
 
-Carrier serves as the main source of damage in battle, and it heavily relies on its aircrafts. Despite CV plane templates, the most important thing about a carrier is its capacity, which requires you to mount as many hangars as possible. However, having too many hangars will certainly degrade speed and other metrics, especially that organisation and HP will impact sortie efficiency. Thus you should keep the degradation under control, and take caution in the usage of large open hangar which harms these stats to a large extent.
+Carrier serves as the main source of damage in battle, and it heavily relies on its aircrafts. Despite CV plane templates, the most important thing about a carrier is its capacity, which requires you to mount as many hangars as possible. However, having too many hangars will certainly degrade speed and other metrics, especially that organisation and HP will impact sortie efficiency. You should keep the degradation under control, and take caution in the usage of large open hangar which harms these stats to a large extent. The logic behind this is, without organisation, planes won't take off, thus rendering your effort on capacity completely useless.
 
 **Heavy Ship**
 
-You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts.  It's hard to summarize the key to this type of ship because it literally needs every aspect to be perfectly balanced. Among them, firepower could be the most irrelevant factor in battleship designs since their maximum HP is almost immortal compared to guns' heavy attack, but armor and AA are definitely needed to protect itself and other ships, especially carriers. In that case, a historical battleship is more than sufficient to fit in any taskforce in the mod.
+You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. Since HP is deeply bounded with HP, a battleship needs as many guns as possible to boost its survivability and protect the fleet. However, that has raised another question, is it worthy in exchange for lower speed and incredible cost. As a result, I strongly recommend historical design with adequate guns and AAs for all your heavy ships.
 
-On the contrary, battlecruiser is not a good option despite its advantage of speed. Except a higher chance to receive critical hits, battlecruiser in 1936 is starting to show marginal utilities (positive effect from speed gradually reduces as you keep investing in it).
+On the contrary, battlecruiser is not a good option despite its advantage of speed. Except a higher chance to receive critical hits (50% more than battleship regardless of armor). In 1936, it has started to show marginal utilities (positive effect from speed gradually reduces as you keep investing in it).
 
-As for super heavy battleships, you can mount one gun on it to fully utilize its high HP, but normally it's not recommended.
+As for super heavy battleships, the notion of generic battleship still applies here. The only problem is always the cost.
 
 **Cruiser**
 
@@ -71,10 +75,14 @@ Unlike vanilla, the traditional definition of light or heavy cruiser has been re
 - Heavy capital cruiser is the same as heavy cruiser in basegame with a capital ship related role.
 - Heavy fleet cruiser is a screen ship version of heavy cruiser with medium guns and a screen ship related role.
 - Light cruiser is the same as its origin in basegame with light medium guns and a screen ship related role.
+and it prompts to 3 types of cruiser guns:
+- Heavy medium gun: for large cruiser exclusively, heavy attack oriented, firepower slightly inferior to WWI dreadnoughts
+- Medium gun: balanced between heavy and light attack, universal but not very effective to heavy ships (half penetration)
+- Light medium gun: light attack oriented, unable to pierce heavy armor, almost useless towards heavy ships (it can hit but only leave scratches)
 
 In VNR, heavy cruiser can play role of either cruiser killer (heavy fleet cruiser) or economical capital ship (heavy capital cruiser), it's more flexible and can perform actions in both capital line and screen line based on the role you give it.
 
-While light medium guns are similar to their origins, medium guns have bonus on HP and armor to simulate a linear relation between survivability and tonnage. As mentioned above, cruisers use light attack to eliminate screen ships and crush enemy's screen efficiency, creating a more favorable situation for your fleet to fire on the enemy. To achieve that, you need to pursue a fast and light-gun-centric design in order to keep up with destroyers and wipe out enemy's screen line as fast as you can.
+As mentioned above, cruisers use light attack to eliminate screen ships and crush enemy's screen efficiency, creating a more favorable situation for your fleet to fire on the enemy. To achieve that, you need to pursue a fast and light-gun-centric design in order to keep up with destroyers and wipe out enemy's screen line as fast as you can.
 
 Cruiser is not only used for attacking, but also some supporting jobs, such as reconnaissance, and sometimes it can be a luxurious option for anti-submarine and mine warfare. That's where the role system gonna help you fully dig out the potential. Radar picket cruiser is perfect for spotting enemy fleet. Colonial cruiser is cheaper, good supplement to colonial empire like UK and also a second best choice for minor countries. Then you have large cruiser and missile cruiser if there are sufficient IC power within your nation. The list goes on, but one thing for sure is that cruiser offers the most possibilities in all kinds of ships.
 
@@ -156,7 +164,7 @@ Battleship branch is actually quite flexible because you can drop it from anywhe
 
 **Carrier Branch**
 
-I can't stress more about the dominating power of carrier in reality and mod. Except for some early sub-techs which only offer little bonus, most carrier techs are extremely useful and will definitely give you an upper hand in the battle. My suggestion is to skip techs before 1932, and get all of them after that.
+I can't stress more about the dominating power of carrier in reality and mod. Most carrier techs are extremely useful or even mandatory, and will definitely give you an upper hand in the battle. My suggestion is to skip techs before 1932, and get all of them after that.
 
 **Submarine Branch**
 
@@ -210,11 +218,19 @@ Above all, the supremacy weight of each ship is calculated by a formula between 
 
 To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 2-3 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
 
+### Night Combat ###
+
+VNR expands experience of night combat by providing exclusive bonus or debuff at night. Torpedoes will turn the table at night with a 25% bonus on hit chance and 35% on penetration.
+
+### Retreat Process ###
+
+Retreating is made faster in VNR to simulate the quick disengagement in real naval war, leading to more frequent but indecisive battles. Of course, you can still have Midway kind of victory because of luck.
+
 ### Positioning ###
 
 Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:2, you will need more ships to achieve max screen efficiency.
 
-Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around.
+Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 65 ships have a chance to get penalized for high relative size, which is -30% positioning with every doubling of ships than the other side, capped to -150%.
 
 ### Supply Consumption ###
 
