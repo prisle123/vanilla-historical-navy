@@ -620,6 +620,10 @@ equipments = {
 				allowed_module_categories = { civilian_ship_engine }
 			}
 			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_carrier_miscellaneous_slot_2 = {
+				required = yes
+				allowed_module_categories = { carrier_miscellaneous }
+			}
 		}
 
 		default_modules = {
@@ -627,6 +631,7 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = civilian_ship_engine_1
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_civilian_material
 		}
 		naval_range = 2000
 
@@ -645,6 +650,10 @@ equipments = {
 		module_count_limit = {
 			module = carrier_secondary_island
 			count < 1
+		}
+		module_count_limit = {
+			module = carrier_civilian_material
+			count > 0
 		}
 	}
 
