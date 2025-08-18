@@ -190,4 +190,20 @@ set_shipyard_output_boost = {
 			add_ideas = vnr_shipyard_output_boost_half
 		}
 	}
+
+	if = {
+		limit = {
+			expert_ai_style = no
+		}
+		every_country = {
+			limit = { is_ai = yes }
+			add_ideas = vnr_ai_dd_output_boost_1
+		}
+	}
+	else = {
+		every_country = {
+			limit = { is_ai = yes }
+			add_ideas = vnr_ai_dd_output_boost_2
+		}
+	}
 }

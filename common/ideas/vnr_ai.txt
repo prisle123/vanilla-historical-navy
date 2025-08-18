@@ -162,5 +162,23 @@ ideas = {
 				}
             }
         }
+        vnr_ai_dd_output_boost_1 = {
+            # for historical mode
+            equipment_bonus = {
+				ship_hull_light = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+			}
+        }
+        vnr_ai_dd_output_boost_2 = {
+            # for expert mode
+            equipment_bonus = {
+				ship_hull_light = {
+					instant = yes
+					build_cost_ic = -0.5
+				}
+			}
+        }
     }
 }
