@@ -163,8 +163,6 @@ naval_unit_role_ratios_minors_coastal = {
 		}
 	}
 	enable = { 
-		num_of_naval_factories > 0 
-		num_of_naval_factories < 10
 		has_navy_size = { size < 50 }
 	}
 
@@ -197,8 +195,6 @@ naval_unit_role_ratios_minors_defensive = {
 		}
 	}
 	enable = { 
-		num_of_naval_factories > 9 
-		num_of_naval_factories < 20
 		has_navy_size = { size < 100 }
 	}
 
@@ -243,8 +239,6 @@ naval_unit_role_ratios_minors_offensive = {
 		}
 	}
 	enable = { 
-		num_of_naval_factories > 19 
-		num_of_naval_factories < 30
 		has_navy_size = { size < 200 }
 	}
 
@@ -294,8 +288,7 @@ naval_unit_role_ratios_minors_global = {
 			tag = SOV
 		}
 	}
-	enable = { 
-		num_of_naval_factories > 29
+	enable = {
 		has_navy_size = { size < 300 }
 	}
 
@@ -423,6 +416,11 @@ naval_unit_role_ratios_GER_prewar_late = {
 		id = vnr_naval_submarine
 		value = 1500
 	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 50
+	}
 }
 
 naval_unit_role_ratios_GER_atwar = {
@@ -458,6 +456,11 @@ naval_unit_role_ratios_GER_atwar = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 5
+	}
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 50
 	}
 }
 
@@ -560,7 +563,7 @@ naval_unit_role_ratios_GER_atwar_knock_USA = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 50
+		value = 80
 	}
 }
 
@@ -723,7 +726,7 @@ naval_unit_role_ratios_ENG_prewar_early = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 50
+		value = 100
 	}
 }
 
@@ -783,7 +786,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 120
+		value = 150
 	}
 }
 
@@ -829,7 +832,7 @@ naval_unit_role_ratios_ENG_atwar = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 150
+		value = 120
 	}
 }
 
@@ -1324,7 +1327,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 55
+		value = 80
 	}
 }
 
@@ -1374,7 +1377,7 @@ naval_unit_role_ratios_JAP_atwar = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 90
+		value = 150
 	}
 }
 
