@@ -17,6 +17,9 @@ equipment_modules = {
 			build_cost_ic = 70
 			surface_detection = 1
 		}
+		forbid_module_categories = {
+			ship_radar
+		}
 	}
 	ship_radar_1 = {
 		abbreviation = "sbj"
