@@ -417,13 +417,13 @@ equipment_modules = {
 		category = carrier_island
 		gui_category = carrier_miscellaneous
 		add_stats = {
-			max_organisation = 0.1
+			max_organisation = 0.05
 			reliability = -0.05
 			build_cost_ic = 200
 		}
 		multiply_stats = {
 			surface_detection = 0.01
-			naval_speed = -0.025
+			naval_speed = -0.05
 			naval_torpedo_damage_reduction_factor = 0.01
 		}
 	}
