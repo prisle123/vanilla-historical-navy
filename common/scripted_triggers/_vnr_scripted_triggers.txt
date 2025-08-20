@@ -9,7 +9,26 @@ has_naval_treaty_trigger = {
 }
 
 expert_ai_style = {
-	has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+	OR = {
+		has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+		has_global_flag = manual_enable_expert_ship
+	}
+	OR = {
+		tag = ENG
+		tag = FRA
+		tag = GER
+		tag = ITA
+		tag = JAP
+		tag = SOV
+		tag = USA
+	}
+}
+
+expert_ai_plane = {
+	OR = {
+		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+		has_global_flag = manual_enable_expert_plane
+	}
 	OR = {
 		tag = ENG
 		tag = FRA
@@ -24,4 +43,17 @@ expert_ai_style = {
 enable_vnr_naval_ai = {
 	has_global_flag = vnr_enabled
 	has_game_rule = { rule = vnr_ai_naval_management option = FREE }
+}
+
+is_ai_naval_major = {
+	OR = {
+		tag = ENG
+		tag = FRA
+		tag = GER
+		tag = ITA
+		tag = JAP
+		tag = SOV
+		tag = USA
+	}
+	is_ai = yes
 }

@@ -150,6 +150,9 @@ ideas = {
             }
         }
         vnr_cv_plane_output_boost = {
+            cancel = {
+                is_ai = no
+            }
             equipment_bonus = {
                 cv_small_plane_airframe = {
 					build_cost_ic = -0.1 instant = yes
@@ -163,6 +166,9 @@ ideas = {
             }
         }
         vnr_ai_dd_output_boost_1 = {
+            cancel = {
+                is_ai = no
+            }
             # for historical mode
             equipment_bonus = {
 				ship_hull_light = {
@@ -172,6 +178,9 @@ ideas = {
 			}
         }
         vnr_ai_dd_output_boost_2 = {
+            cancel = {
+                is_ai = no
+            }
             # for expert mode
             equipment_bonus = {
 				ship_hull_light = {

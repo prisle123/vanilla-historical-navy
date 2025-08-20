@@ -420,3 +420,79 @@ country_event = {
 		update_ai_production_bonus = yes
 	}
 }
+country_event = {
+	id = vnr_ai.2
+	title = vnr_ai.2.t
+	desc = vnr_ai.2.d
+	is_triggered_only = yes
+
+	option = {
+		#exprt
+		trigger = {
+			NOT = { has_global_flag = manual_enable_expert_ship }
+		}
+		name = vnr_ai.2.1
+		set_global_flag = manual_enable_expert_ship
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai_naval_major = yes }
+				remove_ideas = vnr_ai_dd_output_boost_1
+				remove_ideas = vnr_ai_dd_output_boost_2
+				add_ideas = vnr_ai_dd_output_boost_2
+				navy_experience = 200
+			}
+		}
+	}
+	option = {
+		#historical
+		trigger = {
+			has_global_flag = manual_enable_expert_ship
+		}
+		name = vnr_ai.2.2
+		clr_global_flag = manual_enable_expert_ship
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai_naval_major = yes }
+				remove_ideas = vnr_ai_dd_output_boost_1
+				remove_ideas = vnr_ai_dd_output_boost_2
+				add_ideas = vnr_ai_dd_output_boost_1
+			}
+		}
+	}
+}
+country_event = {
+	id = vnr_ai.3
+	title = vnr_ai.3.t
+	desc = vnr_ai.3.d
+	is_triggered_only = yes
+
+	option = {
+		#exprt
+		trigger = {
+			NOT = { has_global_flag = manual_enable_expert_plane }
+		}
+		name = vnr_ai.3.1
+		set_global_flag = manual_enable_expert_plane
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai_naval_major = yes }
+				add_ideas = vnr_cv_plane_output_boost
+				air_experience = 150
+			}
+		}
+	}
+	option = {
+		#historical
+		trigger = {
+			has_global_flag = manual_enable_expert_plane
+		}
+		name = vnr_ai.3.2
+		clr_global_flag = manual_enable_expert_plane
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai_naval_major = yes }
+				remove_ideas = vnr_cv_plane_output_boost
+			}
+		}
+	}
+}

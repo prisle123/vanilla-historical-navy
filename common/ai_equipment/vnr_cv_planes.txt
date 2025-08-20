@@ -6,7 +6,7 @@ vnr_cv_fighter = {
         factor = 9999
         modifier = {
             factor = 0
-            has_game_rule = { rule = vnr_cv_air_ai option = BLOCKED }
+            expert_ai_plane = no
         }
     }
 
@@ -88,7 +88,7 @@ vnr_cv_naval_bomber = {
         factor = 9999
         modifier = {
             factor = 0
-            has_game_rule = { rule = vnr_cv_air_ai option = BLOCKED }
+            expert_ai_plane = no
         }
     }
 
@@ -166,7 +166,7 @@ vnr_cv_cas = {
         factor = 9999
         modifier = {
             factor = 0
-            has_game_rule = { rule = vnr_cv_air_ai option = BLOCKED }
+            expert_ai_plane = no
         }
     }
 
