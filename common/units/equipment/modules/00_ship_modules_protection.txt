@@ -967,7 +967,7 @@ equipment_modules = {
 			armor_value = 30
 			naval_torpedo_enemy_critical_chance_factor = -0.1
 			naval_torpedo_damage_reduction_factor = 0.15
-			reliability = 0.15
+			reliability = 0.05
 		}
 		dismantle_cost_ic = 4500
 		can_convert_from = {
