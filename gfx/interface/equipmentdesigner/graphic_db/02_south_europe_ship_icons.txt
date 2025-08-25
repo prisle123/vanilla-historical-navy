@@ -300,6 +300,7 @@ ITA = {
 
         pool = {
             icons = {
+				"gfx/interface/technologies/Italy/ITA_battleship_Andrea_1926.png"
                 "gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
             }
         }
@@ -318,6 +319,7 @@ ITA = {
             icons = {
                 GFX_ITA_vnr_ship_hull_super_heavy_1_medium
                 GFX_ITA_vnr_ship_hull_heavy_1_medium
+				"gfx/interface/technologies/Italy/ITA_battleship_Andrea_1926.png"
 				"gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
             }
         }
@@ -336,8 +338,9 @@ ITA = {
             icons = {
                 GFX_ITA_vnr_ship_hull_super_heavy_1_medium
                 GFX_ITA_vnr_ship_hull_heavy_1_medium
-				GFX_ITA_vnr_ship_hull_heavy_2_medium
+				"gfx/interface/technologies/Italy/ITA_battleship_Andrea_1926.png"
 				"gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
+				GFX_ITA_vnr_ship_hull_heavy_2_medium
             }
         }
 
@@ -355,9 +358,10 @@ ITA = {
             icons = {
                 GFX_ITA_vnr_ship_hull_super_heavy_1_medium
                 GFX_ITA_vnr_ship_hull_heavy_1_medium
+				"gfx/interface/technologies/Italy/ITA_battleship_Andrea_1926.png"
+				"gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
 				GFX_ITA_vnr_ship_hull_heavy_2_medium
 				GFX_ITA_vnr_ship_hull_heavy_3_medium
-				"gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
             }
         }
 
@@ -375,10 +379,11 @@ ITA = {
             icons = {
                 GFX_ITA_vnr_ship_hull_super_heavy_1_medium
                 GFX_ITA_vnr_ship_hull_heavy_1_medium
+				"gfx/interface/technologies/Italy/ITA_battleship_Andrea_1926.png"
+				"gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
 				GFX_ITA_vnr_ship_hull_heavy_2_medium
 				GFX_ITA_vnr_ship_hull_heavy_3_medium
 				GFX_ITA_vnr_ship_hull_heavy_4_medium
-				"gfx/interface/technologies/Italy/ITA_battleship_Andrea.png"
             }
         }
 
