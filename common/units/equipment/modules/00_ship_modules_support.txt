@@ -1376,7 +1376,7 @@ equipment_modules = {
 		gfx = ship_cruiser_armor
 		
 		multiply_stats = {
-			build_cost_ic = 0.025
+			build_cost_ic = 0.1
 			naval_speed = -0.02
 		}
 		dismantle_cost_ic = 1000
