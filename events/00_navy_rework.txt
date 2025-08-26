@@ -445,9 +445,6 @@ country_event = {
 	}
 	option = {
 		#historical
-		trigger = {
-			has_global_flag = manual_enable_expert_ship
-		}
 		name = vnr_ai.2.2
 		clr_global_flag = manual_enable_expert_ship
 		hidden_effect = {
@@ -483,9 +480,6 @@ country_event = {
 	}
 	option = {
 		#historical
-		trigger = {
-			has_global_flag = manual_enable_expert_plane
-		}
 		name = vnr_ai.3.2
 		clr_global_flag = manual_enable_expert_plane
 		hidden_effect = {
