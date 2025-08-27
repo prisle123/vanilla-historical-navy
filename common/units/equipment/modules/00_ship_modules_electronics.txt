@@ -24,6 +24,7 @@ equipment_modules = {
 	ship_radar_1 = {
 		abbreviation = "sbj"
 		category = ship_radar
+		parent = ship_mast_1
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {

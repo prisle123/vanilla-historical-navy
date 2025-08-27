@@ -25,6 +25,11 @@ naval_sub = {
 				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
+		allowed_modules = {
+			ship_torpedo_sub
+			sub_conning_tower
+			sub_ship_periscope
+		}
 	}
 
 	submarine_1922 = {
@@ -53,6 +58,11 @@ naval_sub = {
 				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
+		allowed_modules = {
+			ship_torpedo_sub
+			sub_conning_tower
+			sub_ship_periscope
+		}
 	}
 
 	submarine_1936 = {
@@ -80,6 +90,11 @@ naval_sub = {
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
 			}
+		}
+		allowed_modules = {
+			ship_torpedo_sub
+			sub_conning_tower
+			sub_ship_periscope
 		}
 	}
 
@@ -113,7 +128,10 @@ naval_sub = {
 		}
 
 		allowed_modules = {
+			ship_torpedo_sub
 			ship_sub_snorkel
+			sub_conning_tower
+			sub_ship_periscope
 		}
 	}
 
@@ -146,6 +164,12 @@ naval_sub = {
 				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
+		allowed_modules = {
+			ship_torpedo_sub
+			ship_sub_snorkel
+			sub_conning_tower
+			sub_ship_periscope
+		}
 	}
 
 	submarine_1947 = {
@@ -176,6 +200,12 @@ naval_sub = {
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
 			}
+		}
+		allowed_modules = {
+			ship_torpedo_sub
+			ship_sub_snorkel
+			sub_conning_tower
+			sub_ship_periscope
 		}
 	}
 
@@ -209,6 +239,12 @@ naval_sub = {
 				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
+		allowed_modules = {
+			ship_torpedo_sub
+			ship_sub_snorkel
+			sub_conning_tower
+			sub_ship_periscope
+		}
 	}
 	submarine_1940_expert = {
 		name = vnr_ss_1940_expert
@@ -240,7 +276,10 @@ naval_sub = {
 		}
 
 		allowed_modules = {
+			ship_torpedo_sub
 			ship_sub_snorkel
+			sub_conning_tower
+			sub_ship_periscope
 		}
 	}
 	submarine_1944_expert = {
@@ -272,6 +311,12 @@ naval_sub = {
 				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
+		allowed_modules = {
+			ship_torpedo_sub
+			ship_sub_snorkel
+			sub_conning_tower
+			sub_ship_periscope
+		}
 	}
 	submarine_1947_expert = {
 		name = vnr_ss_1947_expert
@@ -302,6 +347,12 @@ naval_sub = {
 				rear_1_custom_slot = ship_torpedo_sub
 				rear_2_custom_slot = ship_torpedo_sub
 			}
+		}
+		allowed_modules = {
+			ship_torpedo_sub
+			ship_sub_snorkel
+			sub_conning_tower
+			sub_ship_periscope
 		}
 	}
 }
