@@ -751,7 +751,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 30
+		value = 70
 	}
 
 	ai_strategy = {
@@ -764,12 +764,6 @@ naval_unit_role_ratios_ENG_prewar_late = {
 		type = role_ratio
 		id = vnr_naval_screen
 		value = 350
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_screen_leader
-		value = 10
 	}
 
 	ai_strategy = {
@@ -809,7 +803,7 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 35
+		value = 100
 	}
 
 	ai_strategy = {
@@ -832,7 +826,7 @@ naval_unit_role_ratios_ENG_atwar = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 120
+		value = 180
 	}
 }
 
@@ -1538,7 +1532,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 60
+		value = 90
 	}
 	
 	ai_strategy = {
@@ -1587,7 +1581,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 90
+		value = 120
 	}
 	
 	ai_strategy = {
