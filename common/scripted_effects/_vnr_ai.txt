@@ -152,6 +152,26 @@ ai_get_navy_experience = {
 	}
 }
 
+ai_get_mio_upgrade = {
+	every_military_industrial_organization = {
+		limit = {
+			OR = {
+				has_mio_equipment_type = mio_cat_eq_all_carrier
+				has_mio_equipment_type = mio_cat_eq_all_battleship
+				has_mio_equipment_type = mio_cat_eq_all_cruiser
+				has_mio_equipment_type = mio_cat_eq_all_destroyer
+			}
+		}
+		if = {
+			limit = { expert_ai_style = yes }
+			add_mio_size = 2
+		}
+		else = {
+			add_mio_size = 1
+		}
+	}
+}
+
 set_shipyard_output_boost = {
 	if = {
 		limit = {
