@@ -13,7 +13,7 @@ vnr_cv_fighter = {
     basic_cv_fighter = {
         priority = {
             factor = 100
-            modifer = { factor = 0.1 has_tech = improved_small_airframe }
+            modifier = { factor = 0.1 has_tech = improved_small_airframe }
         }
 
         target_variant = {
@@ -23,7 +23,6 @@ vnr_cv_fighter = {
                 engine_type_slot = engine_2_1x
                 fixed_main_weapon_slot = light_mg_4x
                 fixed_auxiliary_weapon_slot_1 = light_mg_4x
-                fixed_auxiliary_weapon_slot_2 = light_mg_4x
                 special_type_slot_1 = self_sealing_fuel_tanks_small
                 special_type_slot_2 = armor_plate_small
             }
@@ -37,7 +36,7 @@ vnr_cv_fighter = {
                 factor = 10
                 has_tech = improved_small_airframe 
             }
-            modifer = {
+            modifier = {
                 factor = 0.1
                 has_tech = advanced_small_airframe
             }
@@ -97,7 +96,7 @@ vnr_cv_naval_bomber = {
     basic_cv_naval_bomber = {
         priority = {
             factor = 100
-            modifer = { factor = 0.1 has_tech = improved_small_airframe }
+            modifier = { factor = 0.1 has_tech = improved_small_airframe }
         }
 
         target_variant = {
@@ -119,7 +118,7 @@ vnr_cv_naval_bomber = {
                 factor = 10
                 has_tech = improved_small_airframe 
             }
-            modifer = {
+            modifier = {
                 factor = 0.1
                 has_tech = advanced_small_airframe
             }
@@ -175,7 +174,7 @@ vnr_cv_cas = {
     basic_cv_cas = {
         priority = {
             factor = 100
-            modifer = { factor = 0.1 has_tech = improved_small_airframe }
+            modifier = { factor = 0.1 has_tech = improved_small_airframe }
         }
 
         target_variant = {
@@ -186,8 +185,7 @@ vnr_cv_cas = {
                 fixed_main_weapon_slot = armor_piercing_bomb_locks
                 fixed_auxiliary_weapon_slot_1 = armor_piercing_bomb_locks
                 special_type_slot_1 = dive_brakes_small
-                special_type_slot_2 = self_sealing_fuel_tanks_small
-                special_type_slot_3 = armor_plate_small
+                special_type_slot_2 = armor_plate_small
             }
         }
     }
@@ -199,7 +197,7 @@ vnr_cv_cas = {
                 factor = 10
                 has_tech = improved_small_airframe 
             }
-            modifer = {
+            modifier = {
                 factor = 0.1
                 has_tech = advanced_small_airframe
             }
