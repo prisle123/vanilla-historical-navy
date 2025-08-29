@@ -41,12 +41,11 @@ equipment_modules = {
     	category = dd_role
     	multiply_stats = {
 	        lg_attack = -0.1
-    	    max_strength = -0.15
+    	    max_strength = -0.05
 			naval_speed = -0.3
         	sub_detection = 0.1
 			torpedo_attack = -0.6
 			surface_visibility = -0.05
-			naval_range = -0.1
         	build_cost_ic = -0.2
     	}
 		dismantle_cost_ic = 3000
@@ -64,7 +63,7 @@ equipment_modules = {
 	        lg_attack = -0.15
 			lg_armor_piercing = -0.1
 			anti_air_attack = -0.15
-    	    max_strength = -0.25
+    	    max_strength = -0.1
 			naval_speed = -0.4
         	surface_visibility = -0.1
 			torpedo_attack = -0.8
@@ -169,10 +168,6 @@ equipment_modules = {
 	ship_hull_cruiser_role_ca = {
 		category = c_role
 		add_equipment_type = capital_ship
-		add_stats = {
-			naval_heavy_gun_hit_chance_factor = 0.05
-			naval_light_gun_hit_chance_factor = 0.05
-		}
 		forbid_module_categories = {
 			ship_medium_heavy_battery_triple
 			ship_medium_heavy_battery_double
@@ -205,10 +200,6 @@ equipment_modules = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
 			ship_light_medium_battery_single
-			ship_light_battery
-			ship_light_battery_double
-			dp_light_battery
-			dp_light_battery_single
 			ship_missile
 			ship_missile_aa
 			raider_kit
@@ -354,10 +345,6 @@ equipment_modules = {
 			naval_range = 0.5
 		}
 		dismantle_cost_ic = 3000
-		forbid_module_categories = {
-			ship_medium_heavy_battery_double
-			ship_medium_heavy_battery_triple
-		}
 	}
 	ship_hull_cruiser_role_cd = {
 		category = cds_role
@@ -368,8 +355,6 @@ equipment_modules = {
 		dismantle_cost_ic = 3000
 		forbid_module_categories = {
 			ship_cruiser_heavy_armor
-			ship_medium_heavy_battery_double
-			ship_medium_heavy_battery_triple
 		}
 	}
 	ship_hull_cruiser_role_mo = {
@@ -382,10 +367,6 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_range = 0.5
-		}
-		forbid_module_categories = {
-			ship_medium_heavy_battery_double
-			ship_medium_heavy_battery_triple
 		}
 	}
 
