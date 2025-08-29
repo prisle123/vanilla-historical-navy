@@ -1315,7 +1315,7 @@ equipment_modules = {
 			ship_light_medium_battery_double
 		}
 	}
-	ship_cruiser_camo_2 = {
+	ship_cruiser_camo_2 = {	# civilian ship disguise, merchant raider/auxiliary cruiser
 		category = raider_kit
 		
 		multiply_stats = {
@@ -1326,6 +1326,7 @@ equipment_modules = {
 			anti_air_attack = -0.5
 			torpedo_attack = -0.8
 			surface_visibility = -0.2
+			max_strength = -0.25
 			build_cost_ic = 0.02
 		}
 		

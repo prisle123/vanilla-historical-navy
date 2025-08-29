@@ -823,9 +823,11 @@ equipment_modules = {
 			sub_detection = 2
 			sub_attack = 1.5
 			build_cost_ic = 150
+			surface_visibility = 0.5
 		}
 		multiply_stats = {
 			naval_speed = -0.003
+			surface_visibility = 0.025
 		}
 	}
 	ship_airplane_launcher_2 = {
@@ -838,6 +840,7 @@ equipment_modules = {
 			sub_detection = 3.5
 			sub_attack = 2.5
 			build_cost_ic = 250
+			surface_visibility = 1
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher
@@ -845,6 +848,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.004
+			surface_visibility = 0.05
 		}
 	}
 	ship_helipad = {
@@ -855,6 +859,7 @@ equipment_modules = {
 			sub_detection = 4.5
 			sub_attack = 6
 			build_cost_ic = 200
+			surface_visibility = 0.025
 		}
 		multiply_stats = {
 			naval_speed = -0.005
@@ -863,7 +868,7 @@ equipment_modules = {
     recon_drone_1 = {
 		category = ship_airplane_launcher
 		add_stats = {
-			surface_detection = 2
+			surface_detection = 1
 			sub_detection = 3
 			build_cost_ic = 10
 		}
@@ -889,10 +894,12 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 2
 			naval_torpedo_hit_chance_factor = 0.01
+			reliability = -0.05
 			build_cost_ic = 150
 		}
 		multiply_stats = {
 			naval_speed = -0.003
+			sub_visibility = 0.05
 		}
 	}
 	sub_airplane_launcher_2 = {
@@ -903,6 +910,7 @@ equipment_modules = {
 			naval_torpedo_hit_chance_factor = 0.02
 			hg_attack = 2
 			lg_attack = 1
+			reliability = -0.05
 			build_cost_ic = 250
 		}
 		can_convert_from = {
@@ -911,6 +919,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.004
+			sub_visibility = 0.05
 		}
 	}
 
