@@ -100,6 +100,11 @@ ideas = {
                 industrial_capacity_dockyard = 1
                 production_speed_dockyard_factor = 1
                 repair_speed_factor = 1
+                ship_hull_carrier_design_cost_factor = -0.75
+                ship_hull_heavy_design_cost_factor = -0.75
+                ship_hull_cruiser_design_cost_factor = -0.75
+                ship_hull_light_design_cost_factor = -0.75
+                ship_hull_submarine_design_cost_factor = -0.75
             }
         }
         vnr_hard_production = {
@@ -111,6 +116,11 @@ ideas = {
                 industrial_capacity_dockyard = 0.6
                 production_speed_dockyard_factor = 0.6
                 repair_speed_factor = 0.6
+                ship_hull_carrier_design_cost_factor = -0.6
+                ship_hull_heavy_design_cost_factor = -0.6
+                ship_hull_cruiser_design_cost_factor = -0.6
+                ship_hull_light_design_cost_factor = -0.6
+                ship_hull_submarine_design_cost_factor = -0.6
 			}
         }
         vnr_normal_production = {
@@ -122,6 +132,11 @@ ideas = {
                 industrial_capacity_dockyard = 0.3
                 production_speed_dockyard_factor = 0.3
                 repair_speed_factor = 0.3
+                ship_hull_carrier_design_cost_factor = -0.3
+                ship_hull_heavy_design_cost_factor = -0.3
+                ship_hull_cruiser_design_cost_factor = -0.3
+                ship_hull_light_design_cost_factor = -0.3
+                ship_hull_submarine_design_cost_factor = -0.3
 			}
         }
 		
