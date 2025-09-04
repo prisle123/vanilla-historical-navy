@@ -1,4 +1,4 @@
-version="v2.4 - Ironbottom Sound"
+version="v2.3 - Eastern Solomons"
 tags={
 	"Military"
 	"Graphics"
