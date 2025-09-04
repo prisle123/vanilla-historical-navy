@@ -288,14 +288,32 @@ country_event = {
 	trigger = {
 		OR = {
 			date > 1939.1.1
-			any_country = {
-				is_ai = no
-				count_triggers = {
-					amount = 2
-					has_tech = improved_ship_hull_heavy
-					has_tech = improved_ship_hull_light
-					has_tech = improved_ship_hull_cruiser
-					has_tech = improved_ship_hull_submarine
+			OR = {
+				AND = {
+					expert_ai_style = no
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 2
+							has_tech = improved_ship_hull_heavy
+							has_tech = improved_ship_hull_light
+							has_tech = improved_ship_hull_cruiser
+							has_tech = improved_ship_hull_submarine
+						}
+					}
+				}
+				AND = {
+					expert_ai_style = yes
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 1
+							has_tech = improved_ship_hull_heavy
+							has_tech = improved_ship_hull_light
+							has_tech = improved_ship_hull_cruiser
+							has_tech = improved_ship_hull_submarine
+						}
+					}
 				}
 			}
 		}
@@ -368,15 +386,34 @@ country_event = {
 	trigger = {
 		OR = {
 			date > 1943.1.1
-			any_country = {
-				is_ai = no
-				count_triggers = {
-					amount = 2
-					has_tech = advanced_ship_hull_carrier
-					has_tech = advanced_ship_hull_heavy
-					has_tech = advanced_ship_hull_cruiser
-					has_tech = advanced_ship_hull_light
-					has_tech = advanced_ship_hull_submarine
+			OR = {
+				AND = {
+					expert_ai_style = no
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 2
+							has_tech = advanced_ship_hull_carrier
+							has_tech = advanced_ship_hull_heavy
+							has_tech = advanced_ship_hull_cruiser
+							has_tech = advanced_ship_hull_light
+							has_tech = advanced_ship_hull_submarine
+						}
+					}
+				}
+				AND = {
+					expert_ai_style = yes
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 1
+							has_tech = advanced_ship_hull_carrier
+							has_tech = advanced_ship_hull_heavy
+							has_tech = advanced_ship_hull_cruiser
+							has_tech = advanced_ship_hull_light
+							has_tech = advanced_ship_hull_submarine
+						}
+					}
 				}
 			}
 		}
@@ -516,14 +553,32 @@ country_event = {
 	trigger = {
 		OR = {
 			date > 1949.1.1
-			any_country = {
-				is_ai = no
-				count_triggers = {
-					amount = 2
-					has_tech = modern_ship_hull_light
-					has_tech = modern_ship_hull_cruiser
-					has_tech = modern_ship_hull_submarine
-					has_tech = super_carriers
+			OR = {
+				AND = {
+					expert_ai_style = no
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 2
+							has_tech = modern_ship_hull_light
+							has_tech = modern_ship_hull_cruiser
+							has_tech = modern_ship_hull_submarine
+							has_tech = super_carriers
+						}
+					}
+				}
+				AND = {
+					expert_ai_style = yes
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 1
+							has_tech = modern_ship_hull_light
+							has_tech = modern_ship_hull_cruiser
+							has_tech = modern_ship_hull_submarine
+							has_tech = super_carriers
+						}
+					}
 				}
 			}
 		}
