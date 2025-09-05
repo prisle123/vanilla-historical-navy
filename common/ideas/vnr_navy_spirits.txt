@@ -66,6 +66,20 @@ ideas = {
 				}
             }
         }
+        russia_naval_academy = {
+            ledger = navy
+            visible = {
+                OR = {
+                    original_tag = SOV
+                    original_tag = RUS
+                }
+            }
+            modifier = {
+                trait_arctic_water_expert_xp_gain_factor = 0.25
+                modifier_army_sub_unit_marines_attack_factor = 0.05
+                modifier_army_sub_unit_marines_defence_factor = 0.05
+            }
+        }
     }
 
     navy_spirit = {
