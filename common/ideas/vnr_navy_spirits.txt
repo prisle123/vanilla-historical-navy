@@ -66,18 +66,52 @@ ideas = {
 				}
             }
         }
-        russia_naval_academy = {
+        voroshilov_naval_academy = {
             ledger = navy
             visible = {
                 OR = {
                     original_tag = SOV
                     original_tag = RUS
                 }
+                has_global_flag = vnr_enabled
+                has_government = communism
             }
             modifier = {
                 trait_arctic_water_expert_xp_gain_factor = 0.25
                 modifier_army_sub_unit_marine_attack_factor = 0.05
                 modifier_army_sub_unit_marine_defence_factor = 0.05
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        nakhimov_naval_academy = {
+            ledger = navy
+            visible = {
+                OR = {
+                    original_tag = SOV
+                    original_tag = RUS
+                }
+                OR = {
+                    NOT = { has_global_flag = vnr_enabled }
+                    NOT = { has_government = communism }
+                }
+            }
+            modifier = {
+                trait_arctic_water_expert_xp_gain_factor = 0.25
+                modifier_army_sub_unit_marine_attack_factor = 0.05
+                modifier_army_sub_unit_marine_defence_factor = 0.05
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
             }
         }
     }
