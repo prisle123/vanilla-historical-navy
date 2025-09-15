@@ -115,6 +115,7 @@ naval_light_carrier = {
 				fixed_ship_anti_air_slot = empty
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = { upgrade = current any_of = { civilian_ship_engine_2 civilian_ship_engine_1 } }
+				fixed_ship_role_slot = ship_hull_carrier_role_cve
 			}
 		}
 	}

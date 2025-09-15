@@ -569,6 +569,10 @@ equipments = {
 				allowed_module_categories = { carrier_miscellaneous carrier_island }
 			}
 			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { cve_role }
+			}
 		}
 
 		default_modules = {
@@ -577,6 +581,7 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_role_slot = ship_hull_carrier_role_cve
 		}
 		naval_range = 3000
 
@@ -624,6 +629,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { carrier_miscellaneous }
 			}
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { cve_role }
+			}
 		}
 
 		default_modules = {
@@ -632,6 +641,7 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = civilian_ship_engine_1
 			fixed_ship_carrier_miscellaneous_slot_2 = carrier_civilian_material
+			fixed_ship_role_slot = ship_hull_carrier_role_cve
 		}
 		naval_range = 2000
 
