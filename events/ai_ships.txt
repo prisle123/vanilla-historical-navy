@@ -675,7 +675,7 @@ country_event = {
 	trigger = {
 		date > 1936.1.1
 		NOT = { has_global_flag = cv_air_tech_1936 }
-		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+		expert_ai_plane = yes
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -702,7 +702,7 @@ country_event = {
 	trigger = {
 		date > 1939.1.1
 		NOT = { has_global_flag = cv_air_tech_1939 }
-		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+		expert_ai_plane = yes
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -731,7 +731,7 @@ country_event = {
 	trigger = {
 		date > 1944.1.1
 		NOT = { has_global_flag = cv_air_tech_1944 }
-		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+		expert_ai_plane = yes
 	}
 	immediate = {
 		for_each_scope_loop = {
