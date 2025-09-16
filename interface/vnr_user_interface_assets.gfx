@@ -224,50 +224,50 @@ spriteTypes = {
 	spriteType = { name = "GFX_idea_voroshilov_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/voroshilov_academy.png" }
 	spriteType = { name = "GFX_idea_nakhimov_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/nakhimov_academy.png" }
 	
-	# unit text icons
+	# unit banners
 	spriteType = {
 		name = "GFX_cv_desc_icon"
-		textureFile = "gfx/texticons/cv_desc_icon.png"
+		textureFile = "gfx/texticons/unit_banner/cv_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_shbb_desc_icon"
-		textureFile = "gfx/texticons/shbb_desc_icon.png"
+		textureFile = "gfx/texticons/unit_banner/shbb_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_desc_icon"
-		textureFile = "gfx/texticons/bb_desc_icon.png"
+		textureFile = "gfx/texticons/unit_banner/bb_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bc_desc_icon"
-		textureFile = "gfx/texticons/bc_desc_icon.png"
+		textureFile = "gfx/texticons/unit_banner/bc_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_desc_icon"
-		textureFile = "gfx/texticons/ca_desc_icon.png"
+		textureFile = "gfx/texticons/unit_banner/ca_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cl_desc_icon"
-		textureFile = "gfx/texticons/cl_desc_icon.png"
+		textureFile = "gfx/texticons/unit_banner/cl_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_desc_icon"
-		textureFile = "gfx/texticons/dd_desc_icon.png"
+		textureFile = "gfx/texticons/unit_banner/dd_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ss_desc_icon"
-		textureFile = "gfx/texticons/ss_desc_icon.png"
+		textureFile = "gfx/texticons/unit_banner/ss_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bbv_desc_icon"
-		textureFile = "gfx/texticons/bbv_desc_icon.png"
+		textureFile = "gfx/texticons/unit_banner/bbv_desc_icon.png"
 		legacy_lazy_load = no
 	}
 }
