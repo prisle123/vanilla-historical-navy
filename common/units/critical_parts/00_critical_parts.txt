@@ -187,8 +187,8 @@ critical_parts = {
             navy_org_factor = -0.9
 			naval_morale_factor = -1
         }
-        chance = 0.1
-        org_damage_multiplier = 3
-        str_damage_multiplier = 3
+        chance = 0.05
+        org_damage_multiplier = 10
+        str_damage_multiplier = 10
     }
 }
