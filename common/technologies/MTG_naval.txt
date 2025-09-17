@@ -24,7 +24,7 @@ technologies = {
 
 	early_ship_hull_light = {
 		on_research_complete = {
-			custom_effect_tooltip = dd_tech_7_tt
+			custom_effect_tooltip = dd_tech_9_tt
 		}
 
 		enable_equipments = {
@@ -885,6 +885,9 @@ technologies = {
 	}
 
 	escort_destroyer_trend = {
+		on_research_complete = {
+			custom_effect_tooltip = dd_tech_9_tt
+		}
 		research_cost = 0.7
 		enable_equipment_modules = {
 			ship_hull_light_role_de
@@ -3855,6 +3858,9 @@ technologies = {
 	}
 
 	memory_expansion = {
+		on_research_complete = {
+			custom_effect_tooltip = cw_tech_2_tt
+		}
 		research_cost = 1.5
 		naval_hit_chance = 0.05
 		naval_critical_score_chance_factor = 0.05
@@ -3926,7 +3932,7 @@ technologies = {
 	}
 	tactical_data_link = {
 		on_research_complete = {
-			custom_effect_tooltip = dd_tech_4_tt
+			custom_effect_tooltip = cw_tech_1_tt
 		}
 		research_cost = 1.5
 		start_year = 1955
@@ -5014,6 +5020,9 @@ technologies = {
 		}
 	}
 	luneburg_lens = {
+		on_research_complete = {
+			custom_effect_tooltip = cw_tech_2_tt
+		}
 		research_cost = 1.2
 		start_year = 1952
 
@@ -5302,7 +5311,7 @@ technologies = {
 
 	modern_ship_hull_submarine = {
 		on_research_complete = {
-			custom_effect_tooltip = ss_tech_4_tt
+			custom_effect_tooltip = ss_tech_7_tt
 		}
 
 		enable_equipments = {
@@ -6244,6 +6253,9 @@ technologies = {
 	}
 
 	ship_to_ship_missile = {
+		on_research_complete = {
+			custom_effect_tooltip = ca_tech_10_tt
+		}
 		research_cost = 1.5
 		start_year = 1945
 		is_special_project_tech = yes
@@ -6282,6 +6294,9 @@ technologies = {
 	}
 
 	advanced_missile_system = {
+		on_research_complete = {
+			custom_effect_tooltip = ca_tech_11_tt
+		}
 		research_cost = 2
 		start_year = 1949
 

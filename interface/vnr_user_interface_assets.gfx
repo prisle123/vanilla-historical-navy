@@ -388,6 +388,16 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_ca_tech_8"
+		textureFile = "gfx/texticons/tech_banner/ca_8_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ca_tech_9"
+		textureFile = "gfx/texticons/tech_banner/ca_9_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_dd_tech_1"
 		textureFile = "gfx/texticons/tech_banner/dd_1_desc_icon.png"
 		legacy_lazy_load = no
@@ -423,6 +433,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_dd_tech_8"
+		textureFile = "gfx/texticons/tech_banner/dd_8_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_ss_tech_1"
 		textureFile = "gfx/texticons/tech_banner/ss_1_desc_icon.png"
 		legacy_lazy_load = no
@@ -445,6 +460,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ss_tech_5"
 		textureFile = "gfx/texticons/tech_banner/ss_5_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ss_tech_6"
+		textureFile = "gfx/texticons/tech_banner/ss_6_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cw_tech_1"
+		textureFile = "gfx/texticons/tech_banner/cw_1_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cw_tech_2"
+		textureFile = "gfx/texticons/tech_banner/cw_2_desc_icon.png"
 		legacy_lazy_load = no
 	}
 }
