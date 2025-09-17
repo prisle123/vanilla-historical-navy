@@ -8,7 +8,7 @@ night = { # On province. Multiplied by amount of darkness.
     naval_light_gun_hit_chance_factor = -0.5
     naval_heavy_gun_hit_chance_factor = -0.25
     naval_torpedo_hit_chance_factor = 0.15
-    naval_torpedo_screen_penetration_factor = 0.25
+    naval_torpedo_screen_penetration_factor = 0.35
 }
 
 ship_experience_bonus_max = {
@@ -29,12 +29,6 @@ carrier_experience_bonus_max = {
 
 carrier_experience_malus_min = {
 	navy_org_factor = -0.1
-}
-
-screening_bonus = {
-    naval_retreat_speed = 0.2
-    convoy_retreat_speed = 0.2
-    naval_hit_chance = 0.1
 }
 
 capital_screening_bonus = {
