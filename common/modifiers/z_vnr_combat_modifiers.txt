@@ -9,6 +9,7 @@ night = { # On province. Multiplied by amount of darkness.
     naval_heavy_gun_hit_chance_factor = -0.25
     naval_torpedo_hit_chance_factor = 0.15
     naval_torpedo_screen_penetration_factor = 0.35
+    naval_torpedo_enemy_critical_chance_factor = 0.2
 }
 
 ship_experience_bonus_max = {
