@@ -144,6 +144,8 @@ ideas = {
 			picture = liberty_ships_focus
 			modifier = {
 				consumer_goods_factor = 0.1
+                ai_focus_naval_factor = 0.5
+                ai_focus_naval_air_factor = 0.5
 			}
 			
 			research_bonus = {

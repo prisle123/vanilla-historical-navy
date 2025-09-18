@@ -327,7 +327,7 @@ naval_develop_category = {
 		}
 		ai_will_do = {
 			factor = 30
-			modifier = { factor = 0 expert_ai_style = yes }
+			modifier = { factor = 0 has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE } }
 			modifier = { factor = 0 has_political_power < 20 }
 			modifier = { factor = 0 has_navy_size = { size < 100 } }
 		}
