@@ -946,6 +946,9 @@ technologies = {
 	}
 
 	destroyer_missile_upgrade = {
+		on_research_complete = {
+			custom_effect_tooltip = dd_tech_9_tt
+		}
 		research_cost = 1
 		start_year = 1946
 
@@ -979,6 +982,9 @@ technologies = {
 	}
 
 	destroyer_guided_missile_upgrade = {
+		on_research_complete = {
+			custom_effect_tooltip = ca_tech_10_tt
+		}
 		research_cost = 1.25
 		start_year = 1950
 
@@ -1045,6 +1051,9 @@ technologies = {
 	}
 
 	close_in_area_air_defense = {
+		on_research_complete = {
+			custom_effect_tooltip = dd_tech_9_tt
+		}
 		research_cost = 0.8
 		start_year = 1952
 
@@ -2298,6 +2307,9 @@ technologies = {
 	}
 
 	helipad = {
+		on_research_complete = {
+			custom_effect_tooltip = ca_tech_11_tt
+		}
 		research_cost = 0.75
 		start_year = 1945
 		is_special_project_tech = yes
@@ -2341,7 +2353,7 @@ technologies = {
 			custom_effect_tooltip = heavy_armor_advice_tt
 		}
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_2_tt
+			custom_effect_tooltip = bb_tech_9_tt
 		}
 		path = {
 			leads_to_tech = mixed_armor_scheme
@@ -2389,7 +2401,7 @@ technologies = {
 			custom_effect_tooltip = heavy_armor_advice_tt
 		}
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_2_tt
+			custom_effect_tooltip = bb_tech_9_tt
 		}
 		path = {
 			leads_to_tech = all_or_nothing_armor_scheme
@@ -2434,7 +2446,7 @@ technologies = {
 			custom_effect_tooltip = heavy_armor_advice_tt
 		}
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_2_tt
+			custom_effect_tooltip = bb_tech_9_tt
 		}
 		path = {
 			leads_to_tech = all_or_nothing_armor_box_armor_scheme
@@ -2479,7 +2491,7 @@ technologies = {
 			custom_effect_tooltip = heavy_armor_advice_tt
 		}
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_2_tt
+			custom_effect_tooltip = bb_tech_9_tt
 		}
 
 		xp_research_type = navy
@@ -2521,6 +2533,9 @@ technologies = {
 	}
 
 	harvey_steel = {
+		on_research_complete = {
+			custom_effect_tooltip = bb_tech_10_tt
+		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
@@ -2568,6 +2583,9 @@ technologies = {
 	}
 
 	krupp_steel = {
+		on_research_complete = {
+			custom_effect_tooltip = bb_tech_10_tt
+		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
@@ -2615,6 +2633,9 @@ technologies = {
 	}
 
 	krupp_cemented_steel = {
+		on_research_complete = {
+			custom_effect_tooltip = bb_tech_10_tt
+		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
@@ -2666,6 +2687,9 @@ technologies = {
 	}
 
 	ducol_steel = {
+		on_research_complete = {
+			custom_effect_tooltip = bb_tech_10_tt
+		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
@@ -2702,6 +2726,9 @@ technologies = {
 	}
 
 	homogeneous_krupp_steel = {
+		on_research_complete = {
+			custom_effect_tooltip = bb_tech_10_tt
+		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
@@ -3485,7 +3512,7 @@ technologies = {
 
 	enhanced_horizontal_defense = {
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_3_tt
+			custom_effect_tooltip = bb_tech_10_tt
 		}
 		xp_research_type = navy
 		xp_boost_cost = 20
@@ -4147,7 +4174,7 @@ technologies = {
 
 	early_ship_hull_carrier = {
 		on_research_complete = {
-			custom_effect_tooltip = cv_tech_0_tt
+			custom_effect_tooltip = cv_tech_9_tt
 		}
 
 		enable_equipments = {
@@ -6144,6 +6171,9 @@ technologies = {
 		}
 		enable_equipments = {
 			vnr_ship_hull_escort_carrier
+		}
+		enable_equipment_modules = {
+			ship_hull_carrier_role_cve
 		}
 		research_cost = 0.4
 		start_year = 1940

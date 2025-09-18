@@ -405,6 +405,7 @@ naval_develop_category = {
     				        fixed_ship_anti_air_slot = ship_anti_air_1
 							fixed_ship_engine_slot = civilian_ship_engine_1
 							fixed_ship_carrier_miscellaneous_slot_2 = carrier_civilian_material
+							fixed_ship_role_slot = ship_hull_carrier_role_cve
     				    }
     				}
 				}
@@ -467,6 +468,7 @@ naval_develop_category = {
     				        fixed_ship_deck_slot_2 = ship_deck_space_small
     				        fixed_ship_anti_air_slot = ship_anti_air_1
 							fixed_ship_engine_slot = civilian_ship_engine_1
+							fixed_ship_role_slot = ship_hull_carrier_role_cve
     				    }
     				}
 				}
