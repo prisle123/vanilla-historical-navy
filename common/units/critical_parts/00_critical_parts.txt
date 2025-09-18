@@ -152,14 +152,14 @@ critical_parts = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
         stat_penalties = {
-            carrier_size = -0.2
+            carrier_size = -0.4
         }
 		modifier = {
 			navy_org_factor = -0.3
 		}
 		chance = 0.75
-        org_damage_multiplier = 1
-        str_damage_multiplier = 1
+        org_damage_multiplier = 1.25
+        str_damage_multiplier = 1.25
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
 		max_damage_instance = 1
@@ -168,14 +168,14 @@ critical_parts = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
         stat_penalties = {
-            carrier_size = -0.1
+            carrier_size = -0.2
         }
 		modifier = {
 			navy_org_factor = -0.15
 		}
         chance = 0.5
-        org_damage_multiplier = 0.75
-        str_damage_multiplier = 0.75
+        org_damage_multiplier = 1
+        str_damage_multiplier = 1
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
 		max_damage_instance = 1
