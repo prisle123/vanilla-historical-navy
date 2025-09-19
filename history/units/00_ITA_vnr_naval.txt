@@ -87,7 +87,7 @@ units= {
 			ship = { name = "RN Giovanni dalle Bande Nere" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Giussano/Cadorna Class" } } } 
 			ship = { name = "RN Bartolomeo Colleoni" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Giussano/Cadorna Class" } } } 
 			# III Divisione Incrociatori
-			ship = { name = "RN Bolzano" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Bolzano Class" } } } 
+			ship = { name = "RN Bolzano" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ITA version_name = "Bolzano Class" } } } 
 			ship = { name = "RN Trento" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Trento Class" } } } 
 			ship = { name = "RN Trieste" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = ITA version_name = "Trento Class" } } } 
 			# VI Divisione Incrociatori
