@@ -407,6 +407,7 @@ JAP = {
 				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
 				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
+				"gfx/interface/technologies/extra/JAP_battleship_Yamato_1965.png"
             }
         }
 
@@ -429,6 +430,12 @@ JAP = {
                 GFX_JAP_vnr_ship_hull_super_heavy_1_medium
             }
         }
+
+		pool = {
+			icons = {
+				"gfx/interface/technologies/extra/JAP_battleship_Yamato_1965.png"
+			}
+		}
 
     }
 

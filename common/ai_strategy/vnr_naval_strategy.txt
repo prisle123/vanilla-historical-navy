@@ -73,6 +73,10 @@ ENG_avoid_pacific = {
         has_war_with = JAP
 		has_war_with = ITA
 		ITA = { has_navy_size = { size > 99 } }
+		war_length_with = {
+			tag = JAP
+			months < 24
+		}
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -100,6 +104,13 @@ ENG_reinforce_pacific = {
     }
     enable = {
         has_war_with = JAP
+		OR = {
+			war_length_with = {
+				tag = JAP
+				months > 23
+			}
+			NOT = { has_war_with = ITA }
+		}
 		OR = {
 			NOT = { has_war_with = ITA }
 			ITA = { has_navy_size = { size < 100 } }

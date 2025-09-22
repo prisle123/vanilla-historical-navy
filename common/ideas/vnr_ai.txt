@@ -16,9 +16,12 @@ ideas = {
                 navy_submarine_attack_factor = 0.3
                 navy_submarine_defence_factor = 0.3
                 naval_detection = 0.3
+                navy_org_factor = 0.3
                 naval_morale_factor = 0.3
                 naval_retreat_speed = 0.3
                 naval_torpedo_screen_penetration_factor = 0.3 
+                naval_light_gun_hit_chance_factor = 0.3
+                naval_heavy_gun_hit_chance_factor = 0.3
                 positioning = 0.3
                 screening_efficiency = 0.3
                 navy_carrier_air_agility_factor = 0.3
@@ -43,9 +46,12 @@ ideas = {
                 navy_submarine_attack_factor = 0.2
                 navy_submarine_defence_factor = 0.2
                 naval_detection = 0.2
+                navy_org_factor = 0.2
                 naval_morale_factor = 0.2
                 naval_retreat_speed = 0.2
                 naval_torpedo_screen_penetration_factor = 0.2 
+                naval_light_gun_hit_chance_factor = 0.2
+                naval_heavy_gun_hit_chance_factor = 0.2
                 positioning = 0.2
                 screening_efficiency = 0.2
                 navy_carrier_air_agility_factor = 0.2
@@ -70,9 +76,12 @@ ideas = {
                 navy_submarine_attack_factor = 0.1
                 navy_submarine_defence_factor = 0.1
                 naval_detection = 0.1
+                navy_org_factor = 0.1
                 naval_morale_factor = 0.1
                 naval_retreat_speed = 0.1
-                naval_torpedo_screen_penetration_factor = 0.1 
+                naval_torpedo_screen_penetration_factor = 0.1
+                naval_light_gun_hit_chance_factor = 0.1
+                naval_heavy_gun_hit_chance_factor = 0.1
                 positioning = 0.1
                 screening_efficiency = 0.1
                 navy_carrier_air_agility_factor = 0.1
@@ -89,6 +98,13 @@ ideas = {
 			picture = generic_navy_bonus
             modifier = {
                 industrial_capacity_dockyard = 1
+                production_speed_dockyard_factor = 1
+                repair_speed_factor = 1
+                ship_hull_carrier_design_cost_factor = -0.75
+                ship_hull_heavy_design_cost_factor = -0.75
+                ship_hull_cruiser_design_cost_factor = -0.75
+                ship_hull_light_design_cost_factor = -0.75
+                ship_hull_submarine_design_cost_factor = -0.75
             }
         }
         vnr_hard_production = {
@@ -98,6 +114,13 @@ ideas = {
 			picture = generic_navy_bonus
 			modifier = {
                 industrial_capacity_dockyard = 0.6
+                production_speed_dockyard_factor = 0.6
+                repair_speed_factor = 0.6
+                ship_hull_carrier_design_cost_factor = -0.6
+                ship_hull_heavy_design_cost_factor = -0.6
+                ship_hull_cruiser_design_cost_factor = -0.6
+                ship_hull_light_design_cost_factor = -0.6
+                ship_hull_submarine_design_cost_factor = -0.6
 			}
         }
         vnr_normal_production = {
@@ -107,6 +130,13 @@ ideas = {
 			picture = generic_navy_bonus
 			modifier = {
                 industrial_capacity_dockyard = 0.3
+                production_speed_dockyard_factor = 0.3
+                repair_speed_factor = 0.3
+                ship_hull_carrier_design_cost_factor = -0.3
+                ship_hull_heavy_design_cost_factor = -0.3
+                ship_hull_cruiser_design_cost_factor = -0.3
+                ship_hull_light_design_cost_factor = -0.3
+                ship_hull_submarine_design_cost_factor = -0.3
 			}
         }
 		
@@ -114,6 +144,8 @@ ideas = {
 			picture = liberty_ships_focus
 			modifier = {
 				consumer_goods_factor = 0.1
+                ai_focus_naval_factor = 0.5
+                ai_focus_naval_air_factor = 0.5
 			}
 			
 			research_bonus = {
@@ -135,6 +167,9 @@ ideas = {
             }
         }
         vnr_cv_plane_output_boost = {
+            cancel = {
+                is_ai = no
+            }
             equipment_bonus = {
                 cv_small_plane_airframe = {
 					build_cost_ic = -0.1 instant = yes
@@ -146,6 +181,30 @@ ideas = {
 					build_cost_ic = -0.1 instant = yes
 				}
             }
+        }
+        vnr_ai_dd_output_boost_1 = {
+            cancel = {
+                is_ai = no
+            }
+            # for historical mode
+            equipment_bonus = {
+				ship_hull_light = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+			}
+        }
+        vnr_ai_dd_output_boost_2 = {
+            cancel = {
+                is_ai = no
+            }
+            # for expert mode
+            equipment_bonus = {
+				ship_hull_light = {
+					instant = yes
+					build_cost_ic = -0.5
+				}
+			}
         }
     }
 }

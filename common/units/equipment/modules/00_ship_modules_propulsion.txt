@@ -264,7 +264,7 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 5
-			build_cost_ic = 90
+			build_cost_ic = 50
 		}
 		
 		multiply_stats = {
@@ -289,7 +289,7 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 7
-			build_cost_ic = 120
+			build_cost_ic = 80
 		}
 		
 		multiply_stats = {
@@ -317,7 +317,7 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 9
-			build_cost_ic = 150
+			build_cost_ic = 120
 		}
 		
 		multiply_stats = {
@@ -345,7 +345,7 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 11
-			build_cost_ic = 170
+			build_cost_ic = 150
 		}
 		
 		multiply_stats = {
@@ -372,8 +372,8 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 5
 			fuel_consumption = 15
-			build_cost_ic = 1500
-			reliability = -0.3
+			build_cost_ic = 750
+			reliability = -0.2
 		}
 		
 		multiply_stats = {
@@ -383,7 +383,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = sub_ship_engine
-			convert_cost_ic = 450
+			convert_cost_ic = 900
 		}
 	}
 	sub_ship_engine_nuclear = {
@@ -393,7 +393,7 @@ equipment_modules = {
 
 		add_stats = {
 			#naval_speed = 5
-			build_cost_ic = 4000
+			build_cost_ic = 3000
 			naval_range = 50000
 			reliability = -0.3
 		}

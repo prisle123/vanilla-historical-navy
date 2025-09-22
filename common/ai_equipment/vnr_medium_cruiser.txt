@@ -38,6 +38,12 @@ naval_cruiser_medium = {
 				rear_2_custom_slot = ship_medium_battery
 			}
 		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
+		}
 	}
 
 	medium_cruiser_1932 = {
@@ -74,6 +80,12 @@ naval_cruiser_medium = {
 				rear_2_custom_slot = ship_medium_battery
 			}
 		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
+		}
 	}
 
 	medium_cruiser_1940 = {
@@ -108,6 +120,12 @@ naval_cruiser_medium = {
 				rear_1_custom_slot = ship_medium_battery
 				rear_2_custom_slot = ship_medium_battery
 			}
+		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
 		}
 	}
 
@@ -144,6 +162,12 @@ naval_cruiser_medium = {
 				rear_1_custom_slot = ship_medium_battery
 				rear_2_custom_slot = ship_medium_battery
 			}
+		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
 		}
 	}
 
@@ -183,6 +207,12 @@ naval_cruiser_medium = {
 				rear_2_custom_slot = ship_missile_aa
 			}
 		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
+		}
 	}
 
 
@@ -220,6 +250,12 @@ naval_cruiser_medium = {
 				mid_3_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 			}
 		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
+		}
 	}
 	medium_cruiser_1949_expert = {
 		name = vnr_cam_1949_expert
@@ -254,6 +290,12 @@ naval_cruiser_medium = {
 				rear_1_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				rear_2_custom_slot = empty
 			}
+		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
 		}
 	}
 }

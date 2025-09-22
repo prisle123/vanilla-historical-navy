@@ -80,4 +80,22 @@ navy_rework_category = {
 	        }
         }
     }
+    enable_ai_ship_design = {
+        icon = generic_civil_support
+        visible = {
+            has_game_rule = { rule = ai_ship_design_style option = HISTORICAL }
+        }
+        complete_effect = {
+            FROM = { country_event = vnr_ai.2 }
+        }
+    }
+    enable_ai_plane_design = {
+        icon = generic_civil_support
+        visible = {
+            has_game_rule = { rule = vnr_cv_air_ai option = BLOCKED }
+        }
+        complete_effect = {
+            FROM = { country_event = vnr_ai.3 }
+        }
+    }
 }

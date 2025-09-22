@@ -40,7 +40,7 @@ equipments = {
 			}
 			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = { carrier_mast ship_radar }
+				allowed_module_categories = { ship_radar }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -257,7 +257,7 @@ equipments = {
 			mid_1_custom_slot = empty
 		}
 		naval_range = 4000
-		reliability = 0.65
+		reliability = 0.7
 		max_strength = 110
 		naval_speed = 26.5
 		surface_visibility = 33
@@ -297,7 +297,7 @@ equipments = {
 			}
 			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = { carrier_mast ship_radar }
+				allowed_module_categories = { ship_radar }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -569,6 +569,10 @@ equipments = {
 				allowed_module_categories = { carrier_miscellaneous carrier_island }
 			}
 			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { cve_role }
+			}
 		}
 
 		default_modules = {
@@ -620,6 +624,14 @@ equipments = {
 				allowed_module_categories = { civilian_ship_engine }
 			}
 			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_carrier_miscellaneous_slot_2 = {
+				required = yes
+				allowed_module_categories = { carrier_miscellaneous }
+			}
+			fixed_ship_role_slot = {
+				required = yes
+				allowed_module_categories = { cve_role }
+			}
 		}
 
 		default_modules = {
@@ -627,17 +639,18 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = civilian_ship_engine_1
+			fixed_ship_carrier_miscellaneous_slot_2 = carrier_civilian_material
 		}
 		naval_range = 2000
 
-		max_strength = 15
+		max_strength = 25
 		fuel_consumption = 23
 
 		reliability = 0.5
-		naval_speed = 18
+		naval_speed = 20
 		sub_detection = 4
 		surface_visibility = 16
-		build_cost_ic = 180
+		build_cost_ic = 220
 		resources = {
 			steel = 1
 		}
@@ -645,6 +658,10 @@ equipments = {
 		module_count_limit = {
 			module = carrier_secondary_island
 			count < 1
+		}
+		module_count_limit = {
+			module = carrier_civilian_material
+			count > 0
 		}
 	}
 
@@ -738,7 +755,7 @@ equipments = {
 		}
 
 		naval_range = 6000
-		reliability = 1.5
+		reliability = 1.2
 		max_strength = 150
 		naval_speed = 29
 		surface_visibility = 30
@@ -841,7 +858,7 @@ equipments = {
 		}
 
 		naval_range = 6000
-		reliability = 1.3
+		reliability = 1.2
 		max_strength = 170
 		naval_speed = 28
 		surface_visibility = 32

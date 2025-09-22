@@ -41,7 +41,6 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 2
 			build_cost_ic = 1300
-			reliability = 0.025
 			max_strength = 40
 			anti_air_attack = 2.5
 			surface_detection = 4
@@ -72,6 +71,7 @@ equipment_modules = {
 			max_strength = 30
 			anti_air_attack = 1.5
 			supply_consumption = 0.015
+			reliability = -0.025
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -115,6 +115,7 @@ equipment_modules = {
 			build_cost_ic = 2000
 			max_organisation = -0.05
 			surface_detection = 5
+			reliability = -0.05
 			max_strength = 55
 			anti_air_attack = 3
 			supply_consumption = 0.025
@@ -161,6 +162,7 @@ equipment_modules = {
 			build_cost_ic = 2000
 			surface_detection = 8
 			max_strength = 80
+			reliability = -0.1
 			anti_air_attack = 3
 			supply_consumption = 0.03
 		}
@@ -183,6 +185,7 @@ equipment_modules = {
 			build_cost_ic = 2000
 			surface_detection = 4
 			max_strength = 30
+			reliability = -0.025
 			anti_air_attack = 1.5
 			supply_consumption = 0.015
 		}
@@ -356,10 +359,11 @@ equipment_modules = {
 		category = carrier_unit
 		add_stats = {
 			reliability = 0.1
+			max_organisation = 0.1
 		}
 		multiply_stats = {
 			max_strength = 0.05
-			build_cost_ic = 0.05
+			build_cost_ic = 0.075
 		}
 	}
 	carrier_scouting_unit = {
@@ -416,13 +420,13 @@ equipment_modules = {
 		category = carrier_island
 		gui_category = carrier_miscellaneous
 		add_stats = {
-			max_organisation = 0.1
+			max_organisation = 0.05
 			reliability = -0.05
 			build_cost_ic = 200
 		}
 		multiply_stats = {
 			surface_detection = 0.01
-			naval_speed = -0.025
+			naval_speed = -0.05
 			naval_torpedo_damage_reduction_factor = 0.01
 		}
 	}
@@ -456,7 +460,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.025
 			armor_value = 0.1
-			build_cost_ic = 0.1
+			build_cost_ic = 0.15
 		}
 	}
 	carrier_tracing_unit = {

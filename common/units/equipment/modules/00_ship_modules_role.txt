@@ -442,6 +442,19 @@ equipment_modules = {
 			ship_deck_space_mega
 		}
 	}
+	ship_hull_carrier_role_cve = {
+		category = cve_role
+		gui_category = cv_role
+		multiply_stats = {
+			anti_air_attack = -0.1
+			max_organisation = -0.2
+		}
+		dismantle_cost_ic = 100000
+		forbid_module_categories = {
+			ship_deck_space
+			ship_deck_space_mega
+		}
+	}
 
 
 ######################

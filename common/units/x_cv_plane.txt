@@ -1,0 +1,38 @@
+sub_units = {
+	# Small airframe
+	cv_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { cv_small_plane_airframe = 1 }
+		categories = { category_fighter }
+		carrier_air_wing_size = 10
+		land_air_wing_size = 10
+		mega_carrier_air_wing_size = 10
+	}
+
+	cv_cas = {
+		sprite = light_plane
+		priority = 2
+		active = yes
+		type = cas
+		need = { cv_small_plane_cas_airframe = 1 }
+		categories = { category_cas }
+		carrier_air_wing_size = 10
+		land_air_wing_size = 10
+		mega_carrier_air_wing_size = 10
+	}
+
+	cv_nav_bomber = {
+		sprite = light_plane
+		priority = 3
+		active = yes
+		type = naval_bomber
+		need = { cv_small_plane_naval_bomber_airframe = 1 }
+		categories = { category_nav_bomber }
+		carrier_air_wing_size = 10
+		land_air_wing_size = 10
+		mega_carrier_air_wing_size = 10
+	}
+}

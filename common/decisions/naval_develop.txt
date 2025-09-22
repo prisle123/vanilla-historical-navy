@@ -12,6 +12,9 @@ naval_develop_category = {
 		visible = {
 			has_navy_size = { size < 1 }
 			num_of_naval_factories > 0
+			NOT = {
+				is_in_array = { global.vnr_naval_powers = ROOT }
+			}
 		}
 
 		cancel_trigger = {
@@ -52,6 +55,9 @@ naval_develop_category = {
 		visible = {
 			has_navy_size = { size < 50 }
 			num_of_naval_factories > 0
+			NOT = {
+				is_in_array = { global.vnr_naval_powers = ROOT }
+			}
 		}
 
 		cost = 15
@@ -93,6 +99,9 @@ naval_develop_category = {
 				size < 15
 			}
 			num_of_naval_factories > 0
+			NOT = {
+				is_in_array = { global.vnr_naval_powers = ROOT }
+			}
 		}
 
 		cost = 30
@@ -132,6 +141,9 @@ naval_develop_category = {
 				size < 30
 			}
 			num_of_naval_factories > 1
+			NOT = {
+				is_in_array = { global.vnr_naval_powers = ROOT }
+			}
 		}
 
 		cost = 30
@@ -176,6 +188,9 @@ naval_develop_category = {
 				archetype = ship_hull_heavy
 			}
 			num_of_naval_factories > 1
+			NOT = {
+				is_in_array = { global.vnr_naval_powers = ROOT }
+			}
 		}
 
 		cost = 50
@@ -219,6 +234,9 @@ naval_develop_category = {
 				type = carrier
 			}
 			num_of_naval_factories > 1
+			NOT = {
+				is_in_array = { global.vnr_naval_powers = ROOT }
+			}
 		}
 
 		cost = 50
@@ -259,6 +277,9 @@ naval_develop_category = {
 				size < 10
 			}
 			num_of_naval_factories > 0
+			NOT = {
+				is_in_array = { global.vnr_naval_powers = ROOT }
+			}
 		}
 
 		cost = 15
@@ -306,8 +327,9 @@ naval_develop_category = {
 		}
 		ai_will_do = {
 			factor = 30
-			modifier = { factor = 0 expert_ai_style = yes }
+			modifier = { factor = 0 has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE } }
 			modifier = { factor = 0 has_political_power < 20 }
+			modifier = { factor = 0 has_navy_size = { size < 100 } }
 		}
 	}
 
@@ -382,6 +404,8 @@ naval_develop_category = {
     				        fixed_ship_deck_slot_1 = ship_deck_space_small
     				        fixed_ship_anti_air_slot = ship_anti_air_1
 							fixed_ship_engine_slot = civilian_ship_engine_1
+							fixed_ship_carrier_miscellaneous_slot_2 = carrier_civilian_material
+							fixed_ship_role_slot = ship_hull_carrier_role_cve
     				    }
     				}
 				}
@@ -444,6 +468,7 @@ naval_develop_category = {
     				        fixed_ship_deck_slot_2 = ship_deck_space_small
     				        fixed_ship_anti_air_slot = ship_anti_air_1
 							fixed_ship_engine_slot = civilian_ship_engine_1
+							fixed_ship_role_slot = ship_hull_carrier_role_cve
     				    }
     				}
 				}

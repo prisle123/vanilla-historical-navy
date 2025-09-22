@@ -286,7 +286,37 @@ country_event = {
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1939.1.1
+		OR = {
+			date > 1939.1.1
+			OR = {
+				AND = {
+					expert_ai_style = no
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 2
+							has_tech = improved_ship_hull_heavy
+							has_tech = improved_ship_hull_light
+							has_tech = improved_ship_hull_cruiser
+							has_tech = improved_ship_hull_submarine
+						}
+					}
+				}
+				AND = {
+					expert_ai_style = yes
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 1
+							has_tech = improved_ship_hull_heavy
+							has_tech = improved_ship_hull_light
+							has_tech = improved_ship_hull_cruiser
+							has_tech = improved_ship_hull_submarine
+						}
+					}
+				}
+			}
+		}
 		NOT = { has_global_flag = naval_tech_1940 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -341,6 +371,7 @@ country_event = {
 					improved_ballast_tank = 1
 				}
 				ai_get_navy_experience = yes
+				ai_get_mio_upgrade = yes
 			}
 		}
 		set_global_flag = naval_tech_1940
@@ -353,7 +384,40 @@ country_event = {
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1943.1.1
+		OR = {
+			date > 1943.1.1
+			OR = {
+				AND = {
+					expert_ai_style = no
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 2
+							has_tech = advanced_ship_hull_carrier
+							has_tech = advanced_ship_hull_heavy
+							has_tech = advanced_ship_hull_cruiser
+							has_tech = advanced_ship_hull_light
+							has_tech = advanced_ship_hull_submarine
+						}
+					}
+				}
+				AND = {
+					expert_ai_style = yes
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 1
+							has_tech = advanced_ship_hull_carrier
+							has_tech = advanced_ship_hull_heavy
+							has_tech = advanced_ship_hull_cruiser
+							has_tech = advanced_ship_hull_light
+							has_tech = advanced_ship_hull_submarine
+						}
+					}
+				}
+			}
+		}
+		
 		NOT = { has_global_flag = naval_tech_1943 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -396,6 +460,7 @@ country_event = {
 					fire_control_methods_3 = 1
 				}
 				ai_get_navy_experience = yes
+				ai_get_mio_upgrade = yes
 			}
 		}
 		set_global_flag = naval_tech_1943
@@ -408,7 +473,14 @@ country_event = {
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1944.6.1
+		OR = {
+			has_global_flag = {
+				flag = naval_tech_1943
+				value > 0
+				days > 545
+			}
+			has_global_flag = naval_tech_1949
+		}
 		NOT = { has_global_flag = naval_tech_1944 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -428,6 +500,7 @@ country_event = {
 					full_armored_carrier = 1
 				}
 				ai_get_navy_experience = yes
+				ai_get_mio_upgrade = yes
 			}
 		}
 		set_global_flag = naval_tech_1944
@@ -440,7 +513,10 @@ country_event = {
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1946.1.1
+		OR = {
+			date > 1946.1.1
+			has_global_flag = naval_tech_1949
+		}
 		NOT = { has_global_flag = naval_tech_1945 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -462,6 +538,7 @@ country_event = {
 					carrier_angled_deck = 1
 				}
 				ai_get_navy_experience = yes
+				ai_get_mio_upgrade = yes
 			}
 		}
 		set_global_flag = naval_tech_1945
@@ -474,7 +551,37 @@ country_event = {
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1949.1.1
+		OR = {
+			date > 1949.1.1
+			OR = {
+				AND = {
+					expert_ai_style = no
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 2
+							has_tech = modern_ship_hull_light
+							has_tech = modern_ship_hull_cruiser
+							has_tech = modern_ship_hull_submarine
+							has_tech = super_carriers
+						}
+					}
+				}
+				AND = {
+					expert_ai_style = yes
+					any_country = {
+						is_ai = no
+						count_triggers = {
+							amount = 1
+							has_tech = modern_ship_hull_light
+							has_tech = modern_ship_hull_cruiser
+							has_tech = modern_ship_hull_submarine
+							has_tech = super_carriers
+						}
+					}
+				}
+			}
+		}
 		NOT = { has_global_flag = naval_tech_1949 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -502,6 +609,7 @@ country_event = {
 					super_carriers = 1
 				}
 				ai_get_navy_experience = yes
+				ai_get_mio_upgrade = yes
 			}
 		}
 		set_global_flag = naval_tech_1949
@@ -514,7 +622,11 @@ country_event = {
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1952.1.1
+		has_global_flag = {
+			flag = naval_tech_1949
+			value > 1
+			days > 1095
+		}
 		NOT = { has_global_flag = naval_tech_1952 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -548,6 +660,7 @@ country_event = {
 					advanced_missile_system = 1
 				}
 				ai_get_navy_experience = yes
+				ai_get_mio_upgrade = yes
 			}
 		}
 		set_global_flag = naval_tech_1952
@@ -562,7 +675,7 @@ country_event = {
 	trigger = {
 		date > 1936.1.1
 		NOT = { has_global_flag = cv_air_tech_1936 }
-		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+		expert_ai_plane = yes
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -589,7 +702,7 @@ country_event = {
 	trigger = {
 		date > 1939.1.1
 		NOT = { has_global_flag = cv_air_tech_1939 }
-		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+		expert_ai_plane = yes
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -618,7 +731,7 @@ country_event = {
 	trigger = {
 		date > 1944.1.1
 		NOT = { has_global_flag = cv_air_tech_1944 }
-		has_game_rule = { rule = vnr_cv_air_ai option = FREE }
+		expert_ai_plane = yes
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -643,7 +756,15 @@ country_event = {
 	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1940.6.1
+		OR = {
+			has_global_flag = {
+				flag = naval_tech_1940
+				value > 0
+				days > 545
+			}
+			has_global_flag = naval_tech_1943
+		}
+		
 		NOT = { has_global_flag = naval_tech_1941 }
 		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
@@ -666,6 +787,7 @@ country_event = {
 					escort_carriers_ship = 1
 				}
 				ai_get_navy_experience = yes
+				ai_get_mio_upgrade = yes
 			}
 		}
 		set_global_flag = naval_tech_1941

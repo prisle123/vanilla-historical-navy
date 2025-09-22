@@ -967,7 +967,7 @@ equipment_modules = {
 			armor_value = 30
 			naval_torpedo_enemy_critical_chance_factor = -0.1
 			naval_torpedo_damage_reduction_factor = 0.15
-			reliability = 0.15
+			reliability = 0.05
 		}
 		dismantle_cost_ic = 4500
 		can_convert_from = {
@@ -1216,10 +1216,8 @@ equipment_modules = {
     pressure_hull_1 = {
 		category = pressure_hull
 
-		add_stats = {
-			build_cost_ic = 100
-		}
 		multiply_stats = {
+			build_cost_ic = 0.05
 			max_strength = 0.05
 		}
 		can_convert_from = {
@@ -1231,10 +1229,8 @@ equipment_modules = {
 		category = pressure_hull
 		parent = pressure_hull_1
 
-		add_stats = {
-			build_cost_ic = 150
-		}
 		multiply_stats = {
+			build_cost_ic = 0.075
 			max_strength = 0.1
 			sub_visibility = -0.025
 		}
@@ -1248,10 +1244,8 @@ equipment_modules = {
 		category = pressure_hull
 		parent = pressure_hull_2
 
-		add_stats = {
-			build_cost_ic = 200
-		}
 		multiply_stats = {
+			build_cost_ic = 0.1
 			max_strength = 0.15
 			sub_visibility = -0.05
 		}
@@ -1264,10 +1258,8 @@ equipment_modules = {
 		category = pressure_hull
 		parent = pressure_hull_3
 
-		add_stats = {
-			build_cost_ic = 300
-		}
 		multiply_stats = {
+			build_cost_ic = 0.125
 			max_strength = 0.2
 			sub_visibility = -0.075
 		}
@@ -1280,10 +1272,8 @@ equipment_modules = {
 		category = pressure_hull
 		parent = pressure_hull_4
 
-		add_stats = {
-			build_cost_ic = 600
-		}
 		multiply_stats = {
+			build_cost_ic = 0.15
 			max_strength = 0.3
 			sub_visibility = -0.085
 			naval_speed = 0.1
