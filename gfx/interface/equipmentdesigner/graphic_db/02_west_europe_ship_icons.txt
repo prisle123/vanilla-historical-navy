@@ -37,10 +37,10 @@ FRA = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
-                "gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
 				GFX_FRA_vnr_ship_hull_light_1_medium
+                "gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
 				GFX_FRA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
             }
         }
 
@@ -56,11 +56,11 @@ FRA = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
                 GFX_FRA_vnr_ship_hull_light_1_medium
+                "gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
 				GFX_FRA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
 				GFX_FRA_vnr_ship_hull_light_3_medium
-				"gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
             }
         }
 
@@ -76,12 +76,12 @@ FRA = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
                 GFX_FRA_vnr_ship_hull_light_1_medium
+                "gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
 				GFX_FRA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
 				GFX_FRA_vnr_ship_hull_light_3_medium
 				GFX_FRA_vnr_ship_hull_light_4_medium
-				"gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
             }
         }
 
@@ -97,13 +97,13 @@ FRA = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
                 GFX_FRA_vnr_ship_hull_light_1_medium
+                "gfx/interface/technologies/extra/FRA_destroyer_Le_Hardi.png"
 				GFX_FRA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
 				GFX_FRA_vnr_ship_hull_light_3_medium
 				GFX_FRA_vnr_ship_hull_light_4_medium
 				GFX_FRA_vnr_ship_hull_light_5_medium
-				"gfx/interface/technologies/France/FRA_destroyer_Bourrasque.png"
             }
         }
 
@@ -131,11 +131,11 @@ FRA = {
 
         pool = {
             icons = {
+				GFX_FRA_vnr_ship_hull_cruiser_1_medium
+				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
                 "gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Jeanne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
-				GFX_FRA_vnr_ship_hull_cruiser_1_medium
-				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
             }
         }
 
@@ -153,12 +153,12 @@ FRA = {
         pool = {
             icons = {
                 GFX_FRA_vnr_ship_hull_cruiser_1_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_medium
 				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
-				"gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
+                "gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Jeanne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 
@@ -176,14 +176,14 @@ FRA = {
         pool = {
             icons = {
                 GFX_FRA_vnr_ship_hull_cruiser_1_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_medium
-				GFX_FRA_vnr_ship_hull_cruiser_3_medium
 				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
-				"gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
+                "gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Jeanne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
             }
         }
 
@@ -201,16 +201,16 @@ FRA = {
         pool = {
             icons = {
                 GFX_FRA_vnr_ship_hull_cruiser_1_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_medium
-				GFX_FRA_vnr_ship_hull_cruiser_3_medium
-				GFX_FRA_vnr_ship_hull_cruiser_4_medium
 				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_4_capital_medium
-				"gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
+                "gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Jeanne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_4_medium
+				GFX_FRA_vnr_ship_hull_cruiser_4_capital_medium
             }
         }
 
@@ -228,18 +228,18 @@ FRA = {
         pool = {
             icons = {
                 GFX_FRA_vnr_ship_hull_cruiser_1_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_medium
-				GFX_FRA_vnr_ship_hull_cruiser_3_medium
-				GFX_FRA_vnr_ship_hull_cruiser_4_medium
-				GFX_FRA_vnr_ship_hull_cruiser_5_medium
 				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_4_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_5_capital_medium
-				"gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
+                "gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Jeanne.png"
 				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
+				GFX_FRA_vnr_ship_hull_cruiser_2_medium
+				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_medium
+				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_4_medium
+				GFX_FRA_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_FRA_vnr_ship_hull_cruiser_5_medium
+				GFX_FRA_vnr_ship_hull_cruiser_5_capital_medium
 				"gfx/interface/technologies/extra/FRA_light_cruiser_Colbert.png"
             }
         }
@@ -278,9 +278,6 @@ FRA = {
 				GFX_FRA_vnr_ship_hull_cruiser_2_medium
 				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
-				"gfx/interface/technologies/France/FRA_heavy_cruiser_Duquesne.png"
-				"gfx/interface/technologies/France/FRA_light_cruiser_Jeanne.png"
-				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
             }
         }
 
@@ -290,7 +287,6 @@ FRA = {
         pool = {
             weight = 5
             icons = {
-                GFX_FRA_vnr_ship_hull_super_heavy_1_medium
                 GFX_FRA_vnr_ship_hull_heavy_1_medium
             }
         }
@@ -580,7 +576,6 @@ FRA = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/France/FRA_submarine_Surcouf.png"
 				GFX_FRA_vnr_ship_hull_submarine_1_medium
 				GFX_FRA_vnr_ship_hull_submarine_2_medium
 				GFX_FRA_vnr_ship_hull_submarine_3_medium
