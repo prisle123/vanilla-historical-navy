@@ -39,6 +39,9 @@ ENG_secure_mediterranean = {
         ITA = {
             has_navy_size = { size > 30 }
         }
+		all_core_state = {
+			is_controlled_by_ROOT_or_ally = yes
+		}
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -64,6 +67,41 @@ ENG_secure_mediterranean = {
 	}
 }
 
+ENG_avoid_mediterranean = {
+    allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = ENG
+    }
+    enable = {
+		has_war = yes
+		any_core_state = {
+			is_controlled_by_ROOT_or_ally = no
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 29
+        value = 1000
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 68
+        value = 1000
+    }
+    ai_strategy = {
+        type = naval_avoid_region
+        id = 69
+        value = 1000
+    }
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 168
+		value = 1000
+	}
+}
+
 ENG_avoid_pacific = {
     allowed = {
         has_dlc = "Man the Guns"
@@ -76,6 +114,9 @@ ENG_avoid_pacific = {
 		war_length_with = {
 			tag = JAP
 			months < 24
+		}
+		any_core_state = {
+			is_controlled_by_ROOT_or_ally = no
 		}
         enable_vnr_naval_ai = yes
     }
@@ -116,6 +157,9 @@ ENG_reinforce_pacific = {
 			ITA = { has_navy_size = { size < 100 } }
 		}
 		336 = {
+			is_controlled_by_ROOT_or_ally = yes
+		}
+		all_core_state = {
 			is_controlled_by_ROOT_or_ally = yes
 		}
         enable_vnr_naval_ai = yes
@@ -315,6 +359,16 @@ USA_pacific_war_naval_avoid_first = {
         enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = put_unit_buffer
+		ratio = 0.15
+		states = {
+			629
+		}
+		subtract_invasions_from_need = yes
+	}
+
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 75
@@ -379,7 +433,7 @@ USA_pacific_war_naval_avoid_first = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 105
-		value = 500
+		value = 9999
 	}
 	ai_strategy = {
 		type = strike_force_home_base
@@ -451,6 +505,16 @@ USA_pacific_war_naval_counterattack_1 = {
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = put_unit_buffer
+		ratio = 0.15
+		states = {
+			629
+		}
+		subtract_invasions_from_need = yes
+	}
+
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 75
@@ -515,7 +579,7 @@ USA_pacific_war_naval_counterattack_1 = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 105
-		value = 500
+		value = 9999
 	}
 	ai_strategy = {
 		type = strike_force_home_base
@@ -557,6 +621,13 @@ USA_pacific_war_naval_counterattack_1 = {
 		type = invasion_unit_request
 		state = 684
 		value = 500
+	}
+
+	ai_strategy = {
+		type = front_control
+		area = pacific
+		ordertype = invasion
+    	execute_order = yes
 	}
 }
 
@@ -684,6 +755,20 @@ USA_pacific_war_naval_counterattack_2 = {
 		state = 645
 		value = 500
 	}
+
+	ai_strategy = {
+		type = front_control
+		area = pacific
+		ordertype = invasion
+    	execute_order = yes
+	}
+
+	ai_strategy = {
+		type = front_control
+		area = pacific
+		ordertype = home_islands
+    	execute_order = yes
+	}
 }
 
 USA_pacific_war_naval_counterattack_3 = {
@@ -772,6 +857,20 @@ USA_pacific_war_naval_counterattack_3 = {
 		type = invasion_unit_request
 		state = 526
 		value = 500
+	}
+
+	ai_strategy = {
+		type = front_control
+		area = pacific
+		ordertype = invasion
+    	execute_order = yes
+	}
+
+	ai_strategy = {
+		type = front_control
+		area = pacific
+		ordertype = home_islands
+    	execute_order = yes
 	}
 }
 
@@ -953,6 +1052,26 @@ GER_avoid_mediterranean = {
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 169
+		value = 1000
+	}
+}
+
+GER_invade_norway = {
+	allowed = {
+        has_dlc = "Man the Guns"
+        original_tag = GER
+    }
+	enable = {
+		has_war_with = NOR
+		NOR = {
+			has_capitulated = no
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = invade
+		id = NOR
 		value = 1000
 	}
 }
