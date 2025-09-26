@@ -826,6 +826,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.003
+			surface_detection = -0.03
 		}
 	}
 	ship_airplane_launcher_2 = {
@@ -845,6 +846,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.004
+			surface_detection = -0.04
 		}
 	}
 	ship_helipad = {
@@ -858,14 +860,18 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.005
+			surface_detection = -0.035
 		}
 	}
     recon_drone_1 = {
 		category = ship_airplane_launcher
 		add_stats = {
-			surface_detection = 2
+			surface_detection = 1
 			sub_detection = 3
 			build_cost_ic = 10
+		}
+		multiply_stats = {
+			surface_detection = -0.01
 		}
 	}
 	seaplane_hangar = {
