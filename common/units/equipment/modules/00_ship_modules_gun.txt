@@ -445,7 +445,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 180
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	ship_medium_battery_2 = {
 		abbreviation = "sao"
@@ -472,7 +472,7 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 210
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	ship_medium_battery_3 = {
 		abbreviation = "sap"
@@ -499,7 +499,7 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 240
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	ship_medium_battery_4 = {
 		abbreviation = "saq"
@@ -526,7 +526,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 270
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	
 	ship_medium_battery_1_double = {
@@ -552,7 +552,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 135
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	ship_medium_battery_2_double = {
 		abbreviation = "saod"
@@ -579,7 +579,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 165
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	ship_medium_battery_3_double = {
 		abbreviation = "sapd"
@@ -606,7 +606,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 195
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	ship_medium_battery_4_double = {
 		abbreviation = "saqd"
@@ -633,7 +633,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 225
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 
 	# single medium battery
@@ -659,7 +659,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 90
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	ship_medium_battery_2_single = {
 		category = ship_medium_battery_single
@@ -685,7 +685,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 120
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	ship_medium_battery_3_single = {
 		category = ship_medium_battery_single
@@ -711,7 +711,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 150
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 	ship_medium_battery_4_single = {
 		category = ship_medium_battery_single
@@ -737,7 +737,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 180
-		critical_parts = { damaged_heavy_guns }
+		critical_parts = { damaged_light_guns }
 	}
 
 	# double medium heavy battery
