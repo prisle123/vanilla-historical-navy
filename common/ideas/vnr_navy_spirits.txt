@@ -122,12 +122,19 @@ ideas = {
                 original_tag = USA
                 has_tech = super_carriers
             }
-        }
-        modifier = {
-            fighter_sortie_efficiency = 0.15
-            navy_anti_air_attack_factor = 0.15
-            air_ace_generation_chance_factor = 0.25
-        }
+			modifier = {
+				fighter_sortie_efficiency = 0.15
+				navy_anti_air_attack_factor = 0.15
+				air_ace_generation_chance_factor = 0.25
+			}
+			ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        } 
     }
 
     navy_spirit = {

@@ -141,7 +141,7 @@ critical_parts = {
         stat_penalties = {
             naval_light_gun_hit_chance_factor = -0.5
             naval_heavy_gun_hit_chance_factor = -0.5
-			naval_torpedo_gun_hit_chance_factor = -0.5
+			naval_torpedo_hit_chance_factor = -0.5
         }
         chance = 0.15
 		org_damage_multiplier = 0.25
