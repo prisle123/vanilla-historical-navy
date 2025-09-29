@@ -160,8 +160,8 @@ GER = {
         pool = {
             icons = {
                 GFX_GER_vnr_ship_hull_cruiser_1_medium
+                GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
@@ -180,10 +180,10 @@ GER = {
         pool = {
             icons = {
                 GFX_GER_vnr_ship_hull_cruiser_1_medium
+                GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_3_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_GER_vnr_ship_hull_cruiser_3_medium
 				GFX_GER_vnr_ship_hull_cruiser_3_capital_medium
             }
         }
@@ -202,12 +202,12 @@ GER = {
         pool = {
             icons = {
                 GFX_GER_vnr_ship_hull_cruiser_1_medium
+                GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_3_medium
-				GFX_GER_vnr_ship_hull_cruiser_4_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_GER_vnr_ship_hull_cruiser_3_medium
 				GFX_GER_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_GER_vnr_ship_hull_cruiser_4_medium
 				GFX_GER_vnr_ship_hull_cruiser_4_capital_medium
             }
         }
@@ -225,14 +225,14 @@ GER = {
         pool = {
             icons = {
                 GFX_GER_vnr_ship_hull_cruiser_1_medium
+                GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_3_medium
-				GFX_GER_vnr_ship_hull_cruiser_4_medium
-				GFX_GER_vnr_ship_hull_cruiser_5_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_GER_vnr_ship_hull_cruiser_3_medium
 				GFX_GER_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_GER_vnr_ship_hull_cruiser_4_medium
 				GFX_GER_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_GER_vnr_ship_hull_cruiser_5_medium
 				GFX_GER_vnr_ship_hull_cruiser_5_capital_medium
             }
         }
@@ -272,12 +272,17 @@ GER = {
         pool = {
             weight = 5
             icons = {
-                GFX_GER_vnr_ship_hull_super_heavy_1_medium
+                GFX_GER_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
                 "gfx/interface/technologies/Fun/GER_battleship_Von.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Moltke.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Derfflinger.png"
-                GFX_GER_vnr_ship_hull_heavy_1_medium
             }
+
         }
 
     }
@@ -292,10 +297,10 @@ GER = {
 
         pool = {
             icons = {
-                GFX_GER_vnr_ship_hull_super_heavy_1_medium
                 "gfx/interface/technologies/Fun/GER_battleship_Von.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Moltke.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Derfflinger.png"
+                GFX_GER_vnr_ship_hull_super_heavy_1_medium
                 GFX_GER_vnr_ship_hull_heavy_1_medium
                 "gfx/interface/technologies/Fun/Yorck.png"
                 "gfx/interface/technologies/Fun/L20e.png"
@@ -314,10 +319,10 @@ GER = {
 
         pool = {
             icons = {
-                GFX_GER_vnr_ship_hull_super_heavy_1_medium
                 "gfx/interface/technologies/Fun/GER_battleship_Von.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Moltke.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Derfflinger.png"
+                GFX_GER_vnr_ship_hull_super_heavy_1_medium
                 GFX_GER_vnr_ship_hull_heavy_1_medium
                 "gfx/interface/technologies/Fun/Yorck.png"
                 "gfx/interface/technologies/Fun/L20e.png"
@@ -337,10 +342,10 @@ GER = {
 
         pool = {
             icons = {
-                GFX_GER_vnr_ship_hull_super_heavy_1_medium
                 "gfx/interface/technologies/Fun/GER_battleship_Von.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Moltke.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Derfflinger.png"
+                GFX_GER_vnr_ship_hull_super_heavy_1_medium
                 GFX_GER_vnr_ship_hull_heavy_1_medium
                 "gfx/interface/technologies/Fun/Yorck.png"
                 "gfx/interface/technologies/Fun/L20e.png"
@@ -361,10 +366,10 @@ GER = {
 
         pool = {
             icons = {
-                GFX_GER_vnr_ship_hull_super_heavy_1_medium
                 "gfx/interface/technologies/Fun/GER_battleship_Von.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Moltke.png"
                 "gfx/interface/technologies/Fun/GER_battleship_Derfflinger.png"
+                GFX_GER_vnr_ship_hull_super_heavy_1_medium
                 GFX_GER_vnr_ship_hull_heavy_1_medium
                 "gfx/interface/technologies/Fun/Yorck.png"
                 "gfx/interface/technologies/Fun/L20e.png"
@@ -418,7 +423,6 @@ GER = {
             icons = {
 				GFX_GER_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_GER_vnr_ship_hull_carrier_conversion_bb_medium
-                "gfx/interface/technologies/Germany/GER_carrier_conversion_bb.png"
             }
         }
 
@@ -437,7 +441,6 @@ GER = {
 				GFX_GER_vnr_ship_hull_carrier_conversion_ca_medium
 				GFX_GER_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_GER_vnr_ship_hull_carrier_1_medium
-				"gfx/interface/technologies/Germany/GER_carrier_conversion_bb.png"
             }
         }
 
@@ -457,7 +460,6 @@ GER = {
 				GFX_GER_vnr_ship_hull_carrier_conversion_bb_medium
                 GFX_GER_vnr_ship_hull_carrier_1_medium
 				GFX_GER_vnr_ship_hull_carrier_2_medium
-				"gfx/interface/technologies/Germany/GER_carrier_conversion_bb.png"
             }
         }
 
@@ -489,10 +491,10 @@ GER = {
 
         pool = {
             icons = {
-                "gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
-				"gfx/interface/technologies/extra/GER_submarine_Type_IX.png"
 				GFX_GER_vnr_ship_hull_submarine_1_medium
 				GFX_GER_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
+				"gfx/interface/technologies/extra/GER_submarine_Type_IX.png"
             }
         }
 
@@ -509,10 +511,10 @@ GER = {
         pool = {
             icons = {
                 GFX_GER_vnr_ship_hull_submarine_1_medium
+                "gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
+				"gfx/interface/technologies/extra/GER_submarine_Type_IX.png"
 				GFX_GER_vnr_ship_hull_submarine_2_medium
 				GFX_GER_vnr_ship_hull_cruiser_submarine_medium
-				"gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
-				"gfx/interface/technologies/extra/GER_submarine_Type_IX.png"
 				"gfx/interface/technologies/extra/GER_submarine_Type_X.png"
             }
         }
@@ -530,12 +532,12 @@ GER = {
         pool = {
             icons = {
                 GFX_GER_vnr_ship_hull_submarine_1_medium
+                "gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
+				"gfx/interface/technologies/extra/GER_submarine_Type_IX.png"
 				GFX_GER_vnr_ship_hull_submarine_2_medium
+                "gfx/interface/technologies/extra/GER_submarine_Type_X.png"
 				GFX_GER_vnr_ship_hull_submarine_3_medium
 				GFX_GER_vnr_ship_hull_cruiser_submarine_medium
-				"gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
-				"gfx/interface/technologies/extra/GER_submarine_Type_IX.png"
-				"gfx/interface/technologies/extra/GER_submarine_Type_X.png"
             }
         }
 
@@ -552,13 +554,13 @@ GER = {
         pool = {
             icons = {
                 GFX_GER_vnr_ship_hull_submarine_1_medium
-				GFX_GER_vnr_ship_hull_submarine_2_medium
-				GFX_GER_vnr_ship_hull_submarine_3_medium
-				GFX_GER_vnr_ship_hull_submarine_4_medium
-				GFX_GER_vnr_ship_hull_cruiser_submarine_medium
-				"gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
+                "gfx/interface/technologies/Germany/GER_submarine_TypeI.png"
 				"gfx/interface/technologies/extra/GER_submarine_Type_IX.png"
-				"gfx/interface/technologies/extra/GER_submarine_Type_X.png"
+				GFX_GER_vnr_ship_hull_submarine_2_medium
+                "gfx/interface/technologies/extra/GER_submarine_Type_X.png"
+				GFX_GER_vnr_ship_hull_submarine_3_medium
+                GFX_GER_vnr_ship_hull_submarine_4_medium
+				GFX_GER_vnr_ship_hull_cruiser_submarine_medium
             }
         }
 

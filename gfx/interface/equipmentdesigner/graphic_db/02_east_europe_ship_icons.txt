@@ -575,8 +575,8 @@ SOV = {
         pool = {
             icons = {
                 GFX_SOV_vnr_ship_hull_light_1_medium
-				GFX_SOV_vnr_ship_hull_light_2_medium
 				"gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
+				GFX_SOV_vnr_ship_hull_light_2_medium
             }
         }
 
@@ -593,9 +593,9 @@ SOV = {
         pool = {
             icons = {
                 GFX_SOV_vnr_ship_hull_light_1_medium
+				"gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
 				GFX_SOV_vnr_ship_hull_light_2_medium
 				GFX_SOV_vnr_ship_hull_light_3_medium
-				"gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
             }
         }
 
@@ -612,10 +612,10 @@ SOV = {
         pool = {
             icons = {
                 GFX_SOV_vnr_ship_hull_light_1_medium
+				"gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
 				GFX_SOV_vnr_ship_hull_light_2_medium
 				GFX_SOV_vnr_ship_hull_light_3_medium
 				GFX_SOV_vnr_ship_hull_light_4_medium
-				"gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
             }
         }
 
@@ -632,11 +632,11 @@ SOV = {
         pool = {
             icons = {
                 GFX_SOV_vnr_ship_hull_light_1_medium
+				"gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
 				GFX_SOV_vnr_ship_hull_light_2_medium
 				GFX_SOV_vnr_ship_hull_light_3_medium
 				GFX_SOV_vnr_ship_hull_light_4_medium
 				GFX_SOV_vnr_ship_hull_light_5_medium
-				"gfx/interface/technologies/Soviet/SOV_destroyer_Novik.png"
                 "gfx/interface/technologies/extra/SOV_destroyer_Kanin.png"
             }
         }
@@ -684,8 +684,8 @@ SOV = {
         pool = {
             icons = {
                 GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
 				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_SOV_vnr_ship_hull_cruiser_2_medium
 				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
@@ -704,10 +704,10 @@ SOV = {
         pool = {
             icons = {
                 GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_medium
 				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_SOV_vnr_ship_hull_cruiser_2_medium
 				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_SOV_vnr_ship_hull_cruiser_3_medium
 				GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
             }
         }
@@ -726,12 +726,12 @@ SOV = {
         pool = {
             icons = {
                 GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_medium
-				GFX_SOV_vnr_ship_hull_cruiser_4_medium
 				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_SOV_vnr_ship_hull_cruiser_2_medium
 				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_SOV_vnr_ship_hull_cruiser_3_medium
 				GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_SOV_vnr_ship_hull_cruiser_4_medium
 				GFX_SOV_vnr_ship_hull_cruiser_4_capital_medium
             }
         }
@@ -750,14 +750,14 @@ SOV = {
         pool = {
             icons = {
                 GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_3_medium
-				GFX_SOV_vnr_ship_hull_cruiser_4_medium
-				GFX_SOV_vnr_ship_hull_cruiser_5_medium
 				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_SOV_vnr_ship_hull_cruiser_2_medium
 				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
+				GFX_SOV_vnr_ship_hull_cruiser_3_medium
 				GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
+				GFX_SOV_vnr_ship_hull_cruiser_4_medium
 				GFX_SOV_vnr_ship_hull_cruiser_4_capital_medium
+				GFX_SOV_vnr_ship_hull_cruiser_5_medium
 				GFX_SOV_vnr_ship_hull_cruiser_5_capital_medium
 				"gfx/interface/technologies/extra/SOV_heavy_cruiser_Moskva.png"
 				"gfx/interface/technologies/extra/SOV_heavy_cruiser_Frunze.png"
@@ -817,7 +817,6 @@ SOV = {
         pool = {
             weight = 5
             icons = {
-                GFX_SOV_vnr_ship_hull_super_heavy_1_medium
                 GFX_SOV_vnr_ship_hull_heavy_1_medium
             }
         }

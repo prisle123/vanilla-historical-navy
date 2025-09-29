@@ -45,9 +45,9 @@ Besides stacking armor, another way to improve your ship's survivability is to i
 
 The impact of reliability is not superficial, but it determines how likely the ship may suffer a critical hit or damaged in accidents. Moreover, ships with low reliability get a damage multiplier when they are hit, which it's 8 times higher at 0% reliability. Many immature or complex modules, such as quad guns and missiles, will cause loss of reliability, making the ship very vulnerable in combat and training, just like the Swedish warship Wasa. In my opinion, low reliability is somewhat tolerable on platforms with higher HP, but it's definitely not recommended on light hulls.
 
-**Detection**
+**Detection & Visibility**
 
-Detection, or recon, is a very important factor in initiativeness on the sea. It is divided into surface detection and sub detection, with influence on spotting enemy fleets or submarines respectively. Greater detection is always good, but it's also too expensive to make the advantage universal. Only vanguard fleet is usually composed of fast and dedicated scout ships. Other than that, a set of radar will be all you need.
+Detection and visibility are an interesting duo in gaining initiativeness. They are divided into surface and sub, with influence on surface fleets or submarines respectively. Greater detection is always good, but it's also too expensive to make the advantage universal. Only vanguard fleet is usually composed of fast and dedicated scout ships. Other than that, a set of radar will be all you need. Reducing visibility is another approach to achieve lower hit profile just like speed, and it can be very crucial to submarine which is depending on it to run away from ASW ships.
 
 **Cost**
 
@@ -63,9 +63,9 @@ Carrier serves as the main source of damage in battle, and it heavily relies on 
 
 **Heavy Ship**
 
-You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. Since HP is deeply bounded with HP, a battleship needs as many guns as possible to boost its survivability and protect the fleet. However, that has raised another question, is it worthy in exchange for lower speed and incredible cost. As a result, I strongly recommend historical design with adequate guns and AAs for all your heavy ships.
+You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. Since HP is deeply bounded with number of guns, a battleship needs as many guns as possible to boost its survivability and protect the fleet. However, that has raised another question, is it worthy in exchange for lower speed and incredible cost (consider that the cost of a super battleship can be used to arm two conventional battleships or advanced carriers). As a result, I strongly recommend historical design with adequate guns and AAs for all your heavy ships.
 
-On the contrary, battlecruiser is not a good option despite its advantage of speed. Except a higher chance to receive critical hits (50% more than battleship regardless of armor). In 1936, it has started to show marginal utilities (positive effect from speed gradually reduces as you keep investing in it).
+On the contrary, battlecruiser is not a good option despite its advantage of speed. Its armor is too weak to withstand a direct hit by heavy gun of its type, even some advanced cruisers can inflict damage on it. In 1936, battlecruiser has also started to show marginal utilities on speed. (positive effect from speed gradually reduces as you keep investing in it).
 
 As for super heavy battleships, the notion of generic battleship still applies here. The only problem is always the cost.
 
@@ -80,7 +80,7 @@ and it prompts to 3 types of cruiser guns:
 - Medium gun: balanced between heavy and light attack, universal but not very effective to heavy ships (half penetration)
 - Light medium gun: light attack oriented, unable to pierce heavy armor, almost useless towards heavy ships (it can hit but only leave scratches)
 
-In VNR, heavy cruiser can play role of either cruiser killer (heavy fleet cruiser) or economical capital ship (heavy capital cruiser), it's more flexible and can perform actions in both capital line and screen line based on the role you give it.
+In VNR, heavy cruiser can play the role of either cruiser killer (heavy fleet cruiser) or economical capital ship (heavy capital cruiser), it's more flexible and can perform actions in both capital line and screen line based on the role you give it.
 
 As mentioned above, cruisers use light attack to eliminate screen ships and crush enemy's screen efficiency, creating a more favorable situation for your fleet to fire on the enemy. To achieve that, you need to pursue a fast and light-gun-centric design in order to keep up with destroyers and wipe out enemy's screen line as fast as you can.
 
@@ -90,7 +90,7 @@ Cruiser is not only used for attacking, but also some supporting jobs, such as r
 
 Destroyer is weak at the first glance, but it has the best speed and visibility in the game. Since destroyer's gun is almost useless against anything but itself, torpedo is often used as its main weapon, a source of damage that heavily depends on the diminishment of your enemy's screen efficiency. Besides, destroyers also shoulder the most important mission in the fleet, which is to maintain screen efficiency by their numbers. Therefore, cost should always be the top priority when designing a destroyer, and there are a series of roles to achieve that. 
 
-Typically, the generic destroyer role can handle most scenarios. Escort destroyer is cheaper and expert at anti-submarine, and frigate can reduce the cost even more with numerous degradations in other aspects. Of course, you can also try other ways to improve quality of destroyer. Roles like destroyer leader and super destroyer can both enhance its performance in terms of firepower and protection at the cost of a sharp increase in IC. Destroyer leader may look redundant in the list, you are correct, that's also the reason why this type of ship eventually disappeared in history.
+Typically, the generic destroyer role is capable of handling most scenarios. Escort destroyer is cheaper and expert at anti-submarine, and frigate can reduce the cost even more with numerous degradations in other aspects. Of course, you can also try other ways to improve quality of destroyer. Roles like destroyer leader and super destroyer will both enhance its performance in terms of firepower and protection at the cost of a sharp increase in IC. Destroyer leader may look redundant in the list, you are correct, that's also the reason why this type of ship was eventually removed in history.
 
 **Submarine**
 
@@ -160,15 +160,15 @@ This branch is composed of battleship armor schemes and armor processing technol
 
 **Battleship Branch**
 
-Battleship branch is actually quite flexible because you can drop it from anywhere if it's no longer needed in your fleet. But if you want a good cold war era experience, at least research hulls to gain access to cold war fire-control/nuclear-fleet technologies. Back to the base tree, battleship techs prior to the 1930s are very useful despite not being mandatory. Its sub-techs during the early 1940s are not recommended for their crummy bonus unless it's out of roleplay. After all, not many people will need excellent battleships but just-okay ones.
+Battleship branch is actually quite flexible because you can drop it from anywhere if it's no longer needed in your fleet. But if you want a good cold war era experience, at least research hulls to gain access to cold war fire-control/electronics technologies. Back to the base tree, battleship techs prior to the 1930s are very useful despite not being mandatory. Its sub-techs during the early 1940s are not recommended for their crummy bonus unless it's out of roleplay. After all, not many people will need excellent battleships but moderate ones.
 
 **Carrier Branch**
 
-I can't stress more about the dominating power of carrier in reality and mod. Most carrier techs are extremely useful or even mandatory, and will definitely give you an upper hand in the battle. My suggestion is to skip techs before 1932, and get all of them after that.
+I can't stress more about the dominating power of carrier in reality and mod. Most carrier techs are extremely useful or even mandatory, and will definitely give you an upper hand in the battle. My suggestion is to take everything mentioning sortie efficiency, HP, and org.
 
 **Submarine Branch**
 
-Submarine is useless against anything but convoys because of AI's ASW improvements. Its research should be centered around visibility and torpedo, and other techs remain optional no matter what bonus they offer.
+Submarine, except its late-WWII and cold-war variants, is useless against anything but convoys because of AI's ASW improvements. Its research should be centered around visibility and torpedo, and other techs remain optional no matter what bonus they offer.
 
 ### Naval Support Tree ###
 
@@ -178,7 +178,7 @@ You need guns everywhere, so there is basically no reason to skip this branch. E
 
 **Torpedo Branch**
 
-Torpedo techs are needed by both submarines and torpedo ships. In general, torpedo weapons are nerfed in accuracy and buffed in damage, but they are still considered as poor damage sources in the mod. Only keep it up to date if your fleet is heavily relied on torpedo.
+Torpedo techs are needed by both submarines and torpedo ships. In general, torpedo is nerfed in accuracy and buffed in damage, but this will be changed at night when torpedo gets tons of bonus, which may lead to instant kills of enemy's valuable assets like battleship or even carrier if you're lucky. In general, it's still considered incompetent because of the unstable damage inflicted. Only keep it up to date if your fleet is heavily relied on torpedo.
 
 **Auxiliary Branch**
 
@@ -221,6 +221,16 @@ To simulate carrier's capability to send over the horizon strikes, the duration 
 ### Night Combat ###
 
 VNR expands experience of night combat by providing exclusive bonus or debuff at night. Torpedoes will turn the table at night with a 25% bonus on hit chance and 35% on penetration.
+
+### Armor & Damage ###
+
+IN HOI4, an armor piercing array is used to determine how much damage each hit can make. The array, by its definition as a step function, maps the division of armor piercing and armor value to actual damage. As introduced in the intro panel at the start of game, it indicates that armor piercing lower than half of the armor will bring heavy debuff on its final damage.
+
+This feature differentiates light gun from heavy gun by a huge gap between their piercing, rendering light guns completely poor at hurting heavy ships with good armors. With higher piercing, however, it can inflict double damage on light-armored targets.
+
+### Critical Hits ###
+
+Critical hit chance has a close relation to piercing. With higher piercing vs armor ratio, the chance gets increased to 3x at maximum, which will 100% cause destruction of critical parts putting heavy debuff on the ship.
 
 ### Retreat Process ###
 

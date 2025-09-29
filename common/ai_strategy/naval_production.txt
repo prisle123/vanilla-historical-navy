@@ -1495,7 +1495,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 		tag = USA
 	}
 	enable = {
-		date > 1937.12.31
+		date > 1937.3.1
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1538,6 +1538,11 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
 		value = 200
+	}
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 150
 	}
 }
 
@@ -1586,6 +1591,11 @@ naval_unit_role_ratios_USA_atwar = {
 	
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
+		value = 250
+	}
+	ai_strategy = {
+		type = building_target
+		id = dockyard
 		value = 250
 	}
 }
