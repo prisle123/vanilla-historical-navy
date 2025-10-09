@@ -315,10 +315,6 @@ equipment_modules = {
 			anti_air_attack = 0.05
 		}
 
-		build_cost_resources = {
-			steel = 1
-		}
-
 		dismantle_cost_ic = 400
 	}
 
@@ -331,10 +327,6 @@ equipment_modules = {
 			carrier_size = 1
 			max_organisation = 0.2
 			build_cost_ic = 2000
-		}
-
-		build_cost_resources = {
-			steel = 1
 		}
 
 		dismantle_cost_ic = 1250
@@ -454,9 +446,6 @@ equipment_modules = {
 			reliability = 0.1
 			max_strength = 100
 		}
-		build_cost_resources = {
-			steel = 1
-		}
 		multiply_stats = {
 			naval_speed = -0.025
 			armor_value = 0.1
@@ -490,9 +479,5 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 50000
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
 	}
 }

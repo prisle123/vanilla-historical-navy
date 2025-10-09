@@ -198,7 +198,7 @@ equipments = {
 		build_cost_ic = 150
 		resources = {
 			#oil = 1
-			steel = 2
+			steel = 1
 		}
 	}
 
@@ -256,7 +256,7 @@ equipments = {
 
 		build_cost_ic = 200
 		resources = {
-			steel = 2
+			steel = 1
 		}
 	}
 	vnr_ship_hull_submarine_4 = {
@@ -308,8 +308,7 @@ equipments = {
 
 		build_cost_ic = 275
 		resources = {
-			steel = 3
-			chromium = 1
+			steel = 1
 		}
 	}
 
@@ -366,8 +365,7 @@ equipments = {
 
 		build_cost_ic = 400
 		resources = {
-			steel = 3
-			chromium = 1
+			steel = 2
 		}
 	}
 
@@ -454,7 +452,7 @@ equipments = {
 
 		build_cost_ic = 250
 		resources = {
-			steel = 2
+			steel = 1
 		}
 	}
 

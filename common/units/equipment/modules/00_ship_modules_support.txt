@@ -1337,7 +1337,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			aluminium = 2
-			steel = -3
+			steel = -2
 		}
 		forbid_module_categories = {
 			ship_cruiser_armor
@@ -1350,9 +1350,6 @@ equipment_modules = {
 		multiply_stats = {
 			anti_air_attack = 0.35
 			build_cost_ic = 0.15
-		}
-		build_cost_resources = {
-			steel = 1
 		}
 	}
 	ship_radar_finder = {
@@ -1414,7 +1411,7 @@ equipment_modules = {
 		gui_category = cold_war_miscellaneous
 
 		multiply_stats = {
-			build_cost_ic = 0.2
+			build_cost_ic = 0.1
 			lg_attack = 0.1
 			hg_attack = 0.1
 			anti_air_attack = 0.15
@@ -1425,9 +1422,5 @@ equipment_modules = {
 			naval_torpedo_damage_reduction_factor = 0.05
 		}
 		dismantle_cost_ic = 50000
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
 	}
 }
