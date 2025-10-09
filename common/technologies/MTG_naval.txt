@@ -1138,6 +1138,7 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = treaty_cruiser_trend
+			##! leads_to_tech = large_cruiser_trend
 			research_cost_coeff = 1
 		}
 		path = {
@@ -2099,6 +2100,55 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
+
+	##! large_cruiser_trend = {
+	##! 	xp_research_type = navy
+	##! 	xp_boost_cost = 20
+	##! 	xp_research_bonus = 1.50
+	##! 	start_year = 1925
+	##! 	research_cost = 0.5
+	##! 
+	##! 	enable_equipment_modules = {
+	##! 		ship_hull_cruiser_role_cb
+	##! 	}
+	##! 
+	##! 	heavy_cruiser = {
+	##! 		max_strength = 0.1
+	##! 		armor_value = 0.1
+	##! 	}
+	##! 	medium_cruiser = {
+	##! 		max_strength = 0.1
+	##! 		armor_value = 0.1
+	##! 	}
+	##! 	light_cruiser = {
+	##! 		max_strength = 0.1
+	##! 	}
+	##! 	path = {
+	##! 		leads_to_tech = basic_ship_hull_cruiser
+	##! 		research_cost_coeff = 1
+	##! 	}
+	##! 
+	##! 	folder = {
+	##! 		name = mtgnavalfolder
+	##! 		position = { x = -1 y = @1914_module_2 }
+	##! 	}
+	##! 
+	##! 	ai_will_do = {
+	##! 		factor = 1
+	##! 		modifier = {
+	##! 			num_of_naval_factories > 5
+	##! 			factor = 3
+	##! 		}
+	##! 	}
+	##! 
+	##! 	special_project_specialization = { specialization_naval }
+	##! 	categories = {
+	##! 		naval_equipment
+	##! 		cl_tech
+	##! 		ca_tech
+	##! 		mio_cat_tech_all_cruiser_and_modules
+	##! 	}
+	##! }
 
 	cruiser_gun_upgrade = {
 		on_research_complete = {
