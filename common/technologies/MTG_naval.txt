@@ -2685,6 +2685,11 @@ technologies = {
 	krupp_cemented_steel = {
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_10_tt
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = improved_heavy_armor
+			}
 		}
 		xp_research_type = navy
 		xp_boost_cost = 20
@@ -2778,6 +2783,11 @@ technologies = {
 	homogeneous_krupp_steel = {
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_10_tt
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = advanced_heavy_armor
+			}
 		}
 		xp_research_type = navy
 		xp_boost_cost = 20
@@ -4360,6 +4370,7 @@ technologies = {
 	improved_ship_hull_carrier = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_1_tt
+			set_technology = { escort_carriers_ship = 1 }
 		}
 
 		enable_equipments = {
@@ -6202,7 +6213,7 @@ technologies = {
 		enable_equipment_modules = {
 			crewed_torpedo
 		}
-		research_cost = 0.6
+		research_cost = 0.1
 		start_year = 1930
 
 		ai_will_do = {
