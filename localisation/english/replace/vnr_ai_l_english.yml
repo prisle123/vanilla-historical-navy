@@ -73,3 +73,9 @@
  vnr_ai.3.d: "§RAlthough it is recommended to enable expert AI in rule setup before you start the game§!, you can always enable it in mid-game by using this decision, just in case that you miss the feature. To give AI a kickstart, transitioning from historical designs to expert designs, it will be granted some free xp.\n\n§RPlease note that this option should not be mixed with mods changing plane techs and modules. If you have such mods, do not switch this to expert.§!"
  vnr_ai.3.1: "§RSwitch to Expert§!"
  vnr_ai.3.2: "§GSwitch to Vanilla§!"
+
+ RULE_ENG_EXPERT_NAVY: "@ENG Expert Royal Navy"
+ RULE_USA_EXPERT_NAVY: "@USA Expert United States Navy"
+ RULE_JAP_EXPERT_NAVY: "@JAP Expert Imperial Japanese Navy"
+ RULE_AI_EXPERT_NAVY_BLOCKED_DESC: "Starting ships of this country will not be changed."
+ RULE_AI_EXPERT_NAVY_FREE_DESC: "Switch all starting ships of this country to expert AI designs.\n\nThis rule only takes effect when §YAI Ship Design Style§! is set to §CExpert§! and this country is §RAI controlled§!."

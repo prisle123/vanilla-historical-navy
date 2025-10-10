@@ -46,8 +46,17 @@ country_event = {
         	load_oob = 00_DEN_vnr_naval
         }
         ENG = {
-        	ENG_start_naval_variants = yes
-        	load_oob = 00_ENG_vnr_naval
+			if = {
+				limit = {
+					allow_to_use_expert_navy = yes
+				}
+				ENG_expert_AI_variants = yes
+				load_oob = 03_ENG_vnr_expert
+			}
+			else = {
+				ENG_start_naval_variants = yes
+        		load_oob = 00_ENG_vnr_naval
+			}
 			if = {
 				limit = { has_dlc = "By Blood Alone" }
 				load_oob = 01_ENG_vnr_air_bba
@@ -88,8 +97,17 @@ country_event = {
         	load_oob = 00_ITA_vnr_naval
         }
         JAP = {
-        	JAP_start_naval_variants = yes
-        	load_oob = 00_JAP_vnr_naval
+        	if = {
+				limit = {
+					allow_to_use_expert_navy = yes
+				}
+				JAP_expert_AI_variants = yes
+				load_oob = 03_JAP_vnr_expert
+			}
+			else = {
+				JAP_start_naval_variants = yes
+        		load_oob = 00_JAP_vnr_naval
+			}
 			if = {
 				limit = { has_dlc = "By Blood Alone" }
 				load_oob = 01_JAP_vnr_air_bba
@@ -127,8 +145,17 @@ country_event = {
         	load_oob = 00_TUR_vnr_naval
         }
         USA = {
-        	USA_start_naval_variants = yes
-        	load_oob = 00_USA_vnr_naval
+        	if = {
+				limit = {
+					allow_to_use_expert_navy = yes
+				}
+				USA_expert_AI_variants = yes
+				load_oob = 03_USA_vnr_expert
+			}
+			else = {
+				USA_start_naval_variants = yes
+        		load_oob = 00_USA_vnr_naval
+			}
 			if = {
 				limit = { has_dlc = "By Blood Alone" }
 				load_oob = 01_USA_vnr_air_bba
