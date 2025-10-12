@@ -364,6 +364,8 @@ country_event = {
 					basic_light_shell = 1
 					basic_medium_shell = 1
 					basic_heavy_shell = 1
+					magnetic_detonator = 1
+					oxygen_torpedo = 1
 
 					damage_control_1 = 1
 					fire_control_methods_1 = 1
@@ -456,6 +458,7 @@ country_event = {
 					homogeneous_krupp_steel = 1
 
 					modern_ship_torpedo_launcher = 1
+					proximity_detonator = 1
 					
 					fire_control_methods_3 = 1
 				}
@@ -607,6 +610,7 @@ country_event = {
 					iff_device = 1
 					wire_guided_torpedo = 1
 					super_carriers = 1
+					coldwar_ship_torpedo_launcher = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
@@ -787,6 +791,12 @@ country_event = {
 					fire_control_methods_2 = 1
 					battleship_aa_upgrade = 1
 					escort_carriers_ship = 1
+
+					improved_light_shell = 1
+					improved_medium_shell = 1
+					improved_heavy_shell = 1
+					improved_dp_light_battery = 1
+					homing_torpedo = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
