@@ -4506,7 +4506,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_2_tt
 		}
-		research_cost = 0.75
+		research_cost = 0.35
 		start_year = 1925
 
 		sortie_efficiency = 0.1
@@ -4661,7 +4661,7 @@ technologies = {
 			custom_effect_tooltip = cv_tech_1_tt
 		}
 		research_cost = 1.25
-		start_year = 1938
+		start_year = 1939
 
 		xp_research_type = navy
 		xp_boost_cost = 10
@@ -4688,6 +4688,10 @@ technologies = {
 				}
 				factor = 4
 			}
+		}
+
+		dependencies = {
+			armor_piercing_bombs = 1
 		}
 
 		special_project_specialization = { specialization_naval specialization_air }
