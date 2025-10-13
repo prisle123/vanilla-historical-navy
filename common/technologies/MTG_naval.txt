@@ -6233,8 +6233,8 @@ technologies = {
 		}
 	}
 	escort_carriers_ship = {
-		on_research_complete = {
-			custom_effect_tooltip = cv_tech_6_tt
+		allow = {
+			always = no
 		}
 		enable_equipments = {
 			vnr_ship_hull_escort_carrier
@@ -6246,13 +6246,7 @@ technologies = {
 		start_year = 1940
 
 		ai_will_do = {
-			factor = 0
-		}
-		special_project_specialization = { specialization_naval }
-		categories = {
-			cv_tech
-			naval_equipment
-			mio_cat_tech_all_carrier_and_modules
+			factor = 1
 		}
 	}
 	super_carriers = {
