@@ -4320,7 +4320,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = night_air_strike
+			leads_to_tech = carrier_radio_range
 			research_cost_coeff = 1
 		}
 		path = {
@@ -4509,7 +4509,9 @@ technologies = {
 		research_cost = 0.35
 		start_year = 1925
 
-		sortie_efficiency = 0.1
+		sortie_efficiency = 0.05
+		carrier_capacity_penalty_reduction = -0.05
+		air_accidents_factor = -0.05
 
 		folder = {
 			name = mtgnavalfolder
@@ -4570,20 +4572,24 @@ technologies = {
 		}
 	}
 
-	night_air_strike = {
-		research_cost = 0.75
+	carrier_radio_range = {
+		research_cost = 0.5
 		start_year = 1934
 
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
-		air_carrier_night_penalty_reduction_factor = 0.05
-		carrier_night_traffic = 0.05
+		air_accidents_factor = -0.1
+		fighter_sortie_efficiency = 0.1
 
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 1 y = @1932_module }
+		}
+
+		dependencies = {
+			radio = 1
 		}
 
 		ai_will_do = {
@@ -5088,7 +5094,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1951
 
-		air_accidents_factor = -0.1
+		air_carrier_night_penalty_reduction_factor = -0.1
 		carrier_night_traffic = 0.1
 
 		folder = {
