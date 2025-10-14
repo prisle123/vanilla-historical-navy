@@ -4627,12 +4627,10 @@ technologies = {
 				type = capital_ship
 				archetype = ship_hull_heavy
 			}
+			NOT = { has_tech = aviation_dawn }
 		}
 		on_research_complete = {
-			if = {
-				limit = { NOT = { has_tech = aviation_dawn } }
-				add_political_power = -20
-			}
+			add_political_power = -20
 		}
 
 		folder = {
@@ -4712,7 +4710,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_5_tt
 		}
-		research_cost = 1.25
+		research_cost = 1
 		start_year = 1941
 
 		xp_research_type = navy
@@ -4724,7 +4722,7 @@ technologies = {
 		}
 
 		carrier = {
-			max_organisation = 10
+			max_organisation = 5
 			max_strength = 0.1
 			reliability = 0.05
 		}
