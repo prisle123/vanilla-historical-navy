@@ -775,13 +775,27 @@ equipment_modules = {
 ###############
 ##  SNORKEL  ##
 ###############
+	ship_sub_snorkel_0 = {
+		abbreviation = "scw"
+		category = ship_sub_snorkel
+		
+		multiply_stats = {
+			sub_visibility = -0.03
+		}
+		
+		add_stats = {
+			build_cost_ic = 30
+			reliability = -0.15
+		}
+	}
     ship_sub_snorkel_1 = {
 		abbreviation = "scw"
 		category = ship_sub_snorkel
 		gfx = ship_sub_snorkel_1
+		parent = ship_sub_snorkel_0
 		
 		multiply_stats = {
-			sub_visibility = -0.05
+			sub_visibility = -0.075
 		}
 		
 		add_stats = {

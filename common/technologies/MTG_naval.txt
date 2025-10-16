@@ -5456,6 +5456,12 @@ technologies = {
 	}
 
 	basic_submarine_snorkel = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_submarine_snorkel
+			}
+		}
 
 		enable_equipment_modules = {
 			ship_sub_snorkel_1
@@ -5490,6 +5496,12 @@ technologies = {
 	}
 
 	improved_submarine_snorkel = {
+		is_special_project_tech = yes
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_submarine_snorkel
+			}
+		}
 
 		enable_equipment_modules = {
 			ship_sub_snorkel_2

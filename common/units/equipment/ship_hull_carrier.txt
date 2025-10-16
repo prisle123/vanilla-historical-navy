@@ -60,7 +60,7 @@ equipments = {
 			}
 			fixed_ship_carrier_miscellaneous_slot_2 = { 
 				required = no
-				allowed_module_categories = { carrier_miscellaneous carrier_island }
+				allowed_module_categories = { carrier_miscellaneous carrier_island carrier_civilian_material }
 			}
 			fixed_ship_flight_deck_slot = {
 				required = yes
@@ -80,10 +80,6 @@ equipments = {
 
 		module_count_limit = {
 			category = ship_radar
-			count < 2
-		}
-		module_count_limit = {
-			module = carrier_civilian_material
 			count < 2
 		}
 		module_count_limit = {
@@ -451,7 +447,7 @@ equipments = {
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = {
 				required = no
-				allowed_module_categories = { carrier_miscellaneous carrier_island coldwar_upgrade_cv }
+				allowed_module_categories = { carrier_miscellaneous carrier_island coldwar_upgrade_cv carrier_civilian_material }
 			}
 			fixed_ship_flight_deck_slot = inherit
 			fixed_ship_role_slot = inherit
@@ -556,13 +552,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine civilian_ship_engine }
 			}
-			# fixed_ship_carrier_miscellaneous_slot_1 = { 
-			# 	required = no
-			# 	allowed_module_categories = { carrier_unit }
-			# }
+			fixed_ship_carrier_miscellaneous_slot_1 = { 
+				required = no
+				allowed_module_categories = { carrier_island }
+			}
 			fixed_ship_carrier_miscellaneous_slot_2 = { 
 				required = no
-				allowed_module_categories = { carrier_miscellaneous carrier_island }
+				allowed_module_categories = { carrier_miscellaneous carrier_civilian_material }
 			}
 			fixed_ship_flight_deck_slot = inherit
 			fixed_ship_role_slot = {
@@ -620,9 +616,13 @@ equipments = {
 				allowed_module_categories = { civilian_ship_engine }
 			}
 			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_carrier_miscellaneous_slot_1 = {
+				required = no
+				allowed_module_categories = { carrier_island }
+			}
 			fixed_ship_carrier_miscellaneous_slot_2 = {
 				required = yes
-				allowed_module_categories = { carrier_miscellaneous }
+				allowed_module_categories = { carrier_civilian_material }
 			}
 			fixed_ship_role_slot = {
 				required = yes
@@ -653,10 +653,6 @@ equipments = {
 		module_count_limit = {
 			module = carrier_secondary_island
 			count < 1
-		}
-		module_count_limit = {
-			module = carrier_civilian_material
-			count > 0
 		}
 	}
 

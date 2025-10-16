@@ -171,6 +171,8 @@
  ship_depth_charge_4: "Advanced Anti-submarine Mortar"
  ship_depth_charge_4_short: "Depth Charge IV"
  ship_depth_charge_4_desc: "An evolution of the previous model, this mortar can fire a significantly larger charge over a longer distance."
+ ship_sub_snorkel_0: "Schnorkel Prototype"
+ ship_sub_snorkel_0_desc: "A device that allows the submarine to run its main engines underwater, but it's still very unstable."
  ship_sub_snorkel_1: "Basic Schnorkel"
  ship_sub_snorkel_1_desc: "A device that allows the submarine to run its main engines underwater, enabling it to recharge its batteries without exposing itself to attack by surfacing."
  ship_sub_snorkel_2: "Improved Schnorkel"
@@ -1258,3 +1260,5 @@
  ship_hull_carrier_role_cve: "Escort Carrier Role"
  ship_hull_carrier_role_cve_short: "Escort Carrier"
  ship_hull_carrier_role_cve_desc: "A small carrier used for convoy escort and anti-submarine warfare.\n\n§RMax Org Penalty: -20%§!"
+
+ EQ_MOD_CAT_carrier_civilian_material_TITLE: "Civilian Materials"

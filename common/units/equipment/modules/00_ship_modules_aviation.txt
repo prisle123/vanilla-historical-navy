@@ -393,7 +393,8 @@ equipment_modules = {
 		}
 	}
 	carrier_civilian_material = {
-		category = carrier_miscellaneous
+		category = carrier_civilian_material
+		gui_category = carrier_miscellaneous
 		add_stats = {
 			reliability = -0.15
 			max_organisation = -0.2

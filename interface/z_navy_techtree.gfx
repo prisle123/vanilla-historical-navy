@@ -700,6 +700,14 @@ spriteTypes = {
 		name = "GFX_advanced_missile_system_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/advanced_missile_system.png"
 	}
+	spriteType = {
+		name = "GFX_basic_submarine_snorkel_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/basic_submarine_snorkel.png"
+	}
+	spriteType = {
+		name = "GFX_improved_submarine_snorkel_medium"
+		textureFile = "gfx/interface/technologies/navy_techtree/improved_submarine_snorkel.png"
+	}
 	
 	
 	### special projects
@@ -734,5 +742,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_sp_high_speed_light_engine"
 		textureFile = "gfx/interface/special_project/project_icons/sp_high_speed_light_engine.png"
+	}
+	spriteType = {
+		name = "GFX_sp_submarine_snorkel"
+		textureFile = "gfx/interface/special_project/project_icons/sp_naval_anechoic_tiles.dds"
 	}
 }
