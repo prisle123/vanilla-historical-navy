@@ -938,13 +938,6 @@ sp_submarine_snorkel = {
 				localization_key = SP_UNLOCK_TECH
 				TECH = basic_submarine_snorkel
 			}
-			custom_override_tooltip = {	
-				tooltip = tech_effect|basic_submarine_snorkel
-				set_technology = {
-					basic_submarine_snorkel = 1
-					popup = no
-				}
-			}
         }
     }
 
