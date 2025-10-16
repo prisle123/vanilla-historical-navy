@@ -310,6 +310,7 @@ naval_capital_battleship = {
 				front_1_custom_slot = ship_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_anti_air
+				mid_3_custom_slot = ship_dp_secondaries_bb
 				rear_1_custom_slot = ship_heavy_battery_triple
 				rear_2_custom_slot = ship_heavy_battery_triple
 			}
@@ -318,6 +319,8 @@ naval_capital_battleship = {
 			ship_anti_air
 			ship_fire_control_system
 			ship_radar
+			ship_anti_air_circle
+			ship_super_heavy_weight_shell
 		}
 	}
 	capital_battleship_1944_expert = {
@@ -347,10 +350,10 @@ naval_capital_battleship = {
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_bb_4 ship_armor_bb_3 ship_armor_bb_2 ship_armor_bb_1 } }
 				fixed_ship_armor_scheme_slot = { upgrade = current any_of = { ship_scheme_all_or_nothing_armor_box ship_scheme_all_or_nothing ship_scheme_mixed ship_scheme_incremental } }
 				fixed_ship_torpedo_defense_system_slot = { upgrade = current any_of = { torpedo_belt_enhanced torpedo_belt torpedo_bulge } }
-				fixed_ship_extra_secondaries_slot = ship_super_heavy_weight_shell
 				front_1_custom_slot = ship_heavy_battery_triple
 				mid_1_custom_slot = ship_anti_air
 				mid_2_custom_slot = ship_anti_air
+				mid_3_custom_slot = ship_dp_secondaries_bb
 				rear_1_custom_slot = ship_heavy_battery_triple
 				rear_2_custom_slot = ship_heavy_battery_triple
 			}
@@ -359,6 +362,8 @@ naval_capital_battleship = {
 			ship_anti_air
 			ship_fire_control_system
 			ship_radar
+			ship_anti_air_circle
+			ship_super_heavy_weight_shell
 		}
 	}
 }
