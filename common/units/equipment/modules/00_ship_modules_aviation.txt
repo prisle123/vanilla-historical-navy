@@ -396,7 +396,7 @@ equipment_modules = {
 		category = carrier_civilian_material
 		gui_category = carrier_miscellaneous
 		add_stats = {
-			reliability = -0.15
+			reliability = -0.3
 			max_organisation = -0.2
 		}
 		multiply_stats = {
@@ -407,7 +407,7 @@ equipment_modules = {
 			naval_range = -0.2
 			build_cost_ic = -0.2
 		}
-		dismantle_cost_ic = 1500
+		dismantle_cost_ic = 100000
 	}
 	carrier_secondary_island = {
 		category = carrier_island

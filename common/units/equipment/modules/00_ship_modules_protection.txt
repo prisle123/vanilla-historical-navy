@@ -77,7 +77,6 @@ equipment_modules = {
 			armor_value = 35
 			naval_torpedo_enemy_critical_chance_factor = -0.05
 			naval_torpedo_damage_reduction_factor = 0.05
-			reliability = 0.05
 		}
 		can_convert_from = {
 			module = ship_armor_bb_1
@@ -111,7 +110,6 @@ equipment_modules = {
 		add_stats = {
 			armor_value = 26
 			naval_torpedo_damage_reduction_factor = 0.05
-			reliability = 0.05
 		}
 		can_convert_from = {
 			module = ship_armor_bc_1
@@ -146,7 +144,6 @@ equipment_modules = {
 			armor_value = 40
 			naval_torpedo_enemy_critical_chance_factor = -0.1
 			naval_torpedo_damage_reduction_factor = 0.1
-			reliability = 0.1
 		}
 		can_convert_from = {
 			module = ship_armor_bb_2
@@ -181,7 +178,6 @@ equipment_modules = {
 			armor_value = 30
 			naval_torpedo_enemy_critical_chance_factor = -0.05
 			naval_torpedo_damage_reduction_factor = 0.1
-			reliability = 0.1
 		}
 		can_convert_from = {
 			module = ship_armor_bc_2
@@ -215,7 +211,6 @@ equipment_modules = {
 			armor_value = 45
 			naval_torpedo_enemy_critical_chance_factor = -0.15
 			naval_torpedo_damage_reduction_factor = 0.15
-			reliability = 0.15
 		}
 		can_convert_from = {
 			module = ship_armor_bb_3
@@ -249,7 +244,6 @@ equipment_modules = {
 			armor_value = 35
 			naval_torpedo_enemy_critical_chance_factor = -0.1
 			naval_torpedo_damage_reduction_factor = 0.15
-			reliability = 0.15
 		}
 		can_convert_from = {
 			module = ship_armor_bc_3

@@ -580,11 +580,11 @@ equipment_modules = {
 			#naval_speed = 7
 			build_cost_ic = 3200
 			naval_range = 50000
-			reliability = -0.5
+			reliability = -0.3
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.55
+			naval_speed = 0.5
 			fuel_consumption = -1
 		}
 		build_cost_resources = {
@@ -961,7 +961,7 @@ equipment_modules = {
 			#naval_speed = 12
 			fuel_consumption = 38
 			build_cost_ic = 4000
-			reliability = -0.3
+			reliability = -0.2
 		}
 		
 		multiply_stats = {
@@ -991,7 +991,7 @@ equipment_modules = {
 			#naval_speed = 12
 			naval_range = 50000
 			build_cost_ic = 6000
-			reliability = -0.3
+			reliability = -0.25
 		}
 		
 		multiply_stats = {

@@ -445,7 +445,7 @@ equipment_modules = {
 		category = cve_role
 		gui_category = cv_role
 		multiply_stats = {
-			anti_air_attack = -0.1
+			anti_air_attack = -0.25
 			max_organisation = -0.2
 		}
 		dismantle_cost_ic = 100000

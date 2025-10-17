@@ -573,6 +573,7 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_role_slot = ship_hull_carrier_role_cve
 		}
 		naval_range = 3000
 
@@ -635,6 +636,7 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = civilian_ship_engine_1
+			fixed_ship_role_slot = ship_hull_carrier_role_cve
 		}
 		naval_range = 2000
 
