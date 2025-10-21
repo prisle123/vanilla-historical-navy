@@ -839,7 +839,7 @@ equipment_modules = {
 			build_cost_ic = 150
 		}
 		multiply_stats = {
-			naval_speed = -0.003
+			naval_speed = -0.005
 			surface_detection = -0.03
 		}
 	}
@@ -859,7 +859,7 @@ equipment_modules = {
 			convert_cost_ic = 80
 		}
 		multiply_stats = {
-			naval_speed = -0.004
+			naval_speed = -0.02
 			surface_detection = -0.04
 		}
 	}
@@ -894,7 +894,7 @@ equipment_modules = {
 		multiply_stats = {
 			surface_detection = 0.25
 			sub_detection = 0.25
-			naval_speed = -0.05
+			naval_speed = -0.1
 			fuel_consumption = 0.05
 		}
 		add_stats = {
