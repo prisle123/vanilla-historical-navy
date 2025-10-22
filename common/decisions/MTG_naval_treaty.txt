@@ -85,6 +85,7 @@ MTG_naval_treaties = {
 							has_idea = MTG_naval_treaty_adherent
 							has_idea = MTG_naval_treaty_adherent_1936
 						}
+						NOT = { has_active_mission = MTG_escalator_clause_invocation_mission }
 					}
 					activate_mission = MTG_escalator_clause_invocation_mission
 					custom_effect_tooltip = MTG_escalator_clause_tt
@@ -195,6 +196,7 @@ MTG_naval_treaties = {
 							has_idea = MTG_naval_treaty_adherent
 							has_idea = MTG_naval_treaty_adherent_1936
 						}
+						NOT = { has_active_mission = MTG_escalator_clause_invocation_mission }
 					}
 					activate_mission = MTG_escalator_clause_invocation_mission
 					custom_effect_tooltip = MTG_escalator_clause_tt
@@ -800,7 +802,7 @@ MTG_naval_treaties = {
 				always = no
 			}
 		}
-		days_mission_timeout = 365
+		days_mission_timeout = 300
 	
 		visible = {
 			has_naval_treaty_trigger = yes
