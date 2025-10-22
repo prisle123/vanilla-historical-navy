@@ -1472,14 +1472,8 @@ naval_unit_role_ratios_USA_great_depression = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_leader
-		value = 1
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 40
+		value = 150
 	}
 
 	ai_strategy = {
@@ -1514,7 +1508,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 120
+		value = 250
 	}
 
 	ai_strategy = {
@@ -1565,7 +1559,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 150
+		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
