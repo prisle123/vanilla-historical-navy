@@ -1032,6 +1032,9 @@ technologies = {
 			max_strength = 0.25
 			naval_range = 0.2
 		}
+		enable_equipment_modules = {
+			light_ship_engine_4_gas
+		}
 
 		folder = {
 			name = mtgnavalfolder
@@ -1509,6 +1512,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			structural_aluminum
+			cruiser_ship_engine_4_gas
 		}
 		heavy_cruiser = {
 			build_cost_ic = -0.1
@@ -3133,11 +3137,6 @@ technologies = {
 		research_cost = 1.5
 
 		path = {
-			leads_to_tech = gas_turbine
-			research_cost_coeff = 1
-		}
-
-		path = {
 			leads_to_tech = fuel_tank_upgrade
 			research_cost_coeff = 1
 		}
@@ -3745,7 +3744,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @1944_module }
+			position = { x = 2 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -3772,7 +3771,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1944_module }
+			position = { x = -2 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -3790,34 +3789,6 @@ technologies = {
 		}
 	}
 
-	gas_turbine = {
-		research_cost = 1.5
-
-		enable_equipment_modules = {
-			heavy_ship_engine_4_gas
-		}
-
-		start_year = 1945
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 1 y = @1944_module }
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			bb_tech
-			bc_tech
-			ship_modules_tech
-			mio_cat_tech_all_capital_ship_and_modules
-		}
-	}
-
 	combat_information_center = {
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_4_tt
@@ -3832,7 +3803,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1944_module }
+			position = { x = 0 y = @1944_module }
 		}
 		path = {
 			leads_to_tech = naval_tactical_data_system
@@ -3870,7 +3841,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1948 }
+			position = { x = 0 y = @1948 }
 		}
 		path = {
 			leads_to_tech = memory_expansion
