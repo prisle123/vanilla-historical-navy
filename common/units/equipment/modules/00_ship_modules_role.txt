@@ -444,9 +444,11 @@ equipment_modules = {
 	ship_hull_carrier_role_cve = {
 		category = cve_role
 		gui_category = cv_role
+		add_stats = {
+			max_organisation = -0.2
+		}
 		multiply_stats = {
 			anti_air_attack = -0.25
-			max_organisation = -0.2
 		}
 		dismantle_cost_ic = 100000
 		forbid_module_categories = {
