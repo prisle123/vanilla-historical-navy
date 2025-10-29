@@ -1145,7 +1145,7 @@ equipment_modules = {
 		category = torpedo_defense_system
 		
 		add_stats = {
-			naval_torpedo_enemy_critical_chance_factor = -0.2
+			naval_torpedo_enemy_critical_chance_factor = -0.1
 			naval_torpedo_damage_reduction_factor = 0.1
 			reliability = -0.05
 		}
@@ -1159,7 +1159,7 @@ equipment_modules = {
 		parent = torpedo_bulge
 		
 		add_stats = {
-			naval_torpedo_enemy_critical_chance_factor = -0.2
+			naval_torpedo_enemy_critical_chance_factor = -0.15
 			naval_torpedo_damage_reduction_factor = 0.2
 		}
 		multiply_stats = {
@@ -1178,7 +1178,7 @@ equipment_modules = {
 		parent = torpedo_belt
 		
 		add_stats = {
-			naval_torpedo_enemy_critical_chance_factor = -0.25
+			naval_torpedo_enemy_critical_chance_factor = -0.2
 			naval_torpedo_damage_reduction_factor = 0.25
 		}
 		multiply_stats = {
