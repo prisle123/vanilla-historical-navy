@@ -1381,6 +1381,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_deck_space_big"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space_big_armored.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_deck_space_special"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_deck_space.png"
+	}
 	
 	# carrier miscellaneous
 	spriteType = {
