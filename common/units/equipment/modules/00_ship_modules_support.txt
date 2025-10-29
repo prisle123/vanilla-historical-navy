@@ -123,10 +123,10 @@ equipment_modules = {
 			anti_air_attack = 6
 			reliability = -0.025
 			build_cost_ic = 300
-			naval_light_gun_hit_chance_factor = -0.01
+			naval_light_gun_hit_chance_factor = -0.025
 		}
 		multiply_stats = {
-			naval_speed = -0.003
+			naval_speed = -0.01
 		}
 	}
     ship_missile_aa_1 = {

@@ -197,7 +197,7 @@ equipments = {
 
 		surface_detection = 20
 		sub_detection = 1
-		surface_visibility = 10
+		surface_visibility = 15
 		naval_speed = 32
 		reliability = 0.80
 
@@ -248,6 +248,7 @@ equipments = {
 
 		archetype = ship_hull_light
 		priority = 2000
+		surface_visibility = 14
 		can_convert_from = { vnr_ship_hull_light_2 }
 		#alias = destroyer_1
 
@@ -277,6 +278,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 1800
 		max_strength = 55
+		surface_visibility = 13
 		build_cost_ic = 400
 		resources = {
 			steel = 2
@@ -303,7 +305,7 @@ equipments = {
 		}
 
 		surface_detection = 20
-		surface_visibility = 10
+		surface_visibility = 12
 		reliability = 0.90
 		naval_range = 2000
 		max_strength = 65
@@ -402,6 +404,7 @@ equipments = {
 		reliability = 0.92
 		naval_range = 2500
 		max_strength = 75
+		surface_visibility = 11
 		build_cost_ic = 650
 		resources = {
 			steel = 2
@@ -540,6 +543,7 @@ equipments = {
 		reliability = 1.25
 		naval_range = 3000
 		max_strength = 100
+		surface_visibility = 10
 		build_cost_ic = 800
 		resources = {
 			steel = 2

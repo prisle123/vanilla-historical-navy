@@ -411,6 +411,7 @@ equipments = {
 		reliability = 0.75
 		max_strength = 125
 		naval_speed = 28
+		surface_visibility = 25
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -515,6 +516,7 @@ equipments = {
 		reliability = 0.8
 		max_strength = 140
 		naval_speed = 28
+		surface_visibility = 27
 
 		module_count_limit = {
 			category = carrier_angled_deck
