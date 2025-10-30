@@ -55,7 +55,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -151,6 +151,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = ship_anti_air_circle
+			count < 2
+		}
+		module_count_limit = {
+			category = ap_shell
 			count < 2
 		}
 
@@ -252,7 +256,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -353,7 +357,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -577,7 +581,7 @@ equipments = {
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous coldwar_upgrade_bb }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous coldwar_upgrade_bb ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = inherit
 			fixed_ship_torpedo_defense_system_slot = inherit
@@ -702,7 +706,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_armor_scheme_slot = { 
 				required = yes
@@ -817,7 +821,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous ap_shell }
 			}
 			fixed_ship_extra_missile_slot = {
 				required = no
