@@ -227,7 +227,7 @@
 			location = 9458 # 9458 # Portsmouth
 			# Submarine Division 51
 			ship = { name = "HMS Oberon" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "Grampus Class" } } }
-			ship = { name = "HMS Thames" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "River Class" } } }
+			ship = { name = "HMS Thames" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "Grampus Class" } } }
 			# Submarine Division 52
 			ship = { name = "HMS L23" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "Grampus Class" } } }
 			ship = { name = "HMS H28" definition = submarine start_experience_factor = 0.04 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "Grampus Class" } } }
@@ -352,8 +352,8 @@
 			name = "3rd Submarine Flotilla"
 			location = 2038 # 2038 # Sierra Leone
 			# Submarine Division 71
-			ship = { name = "HMS Severn" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "River Class" } } }
-			ship = { name = "HMS Clyde" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "River Class" } } }
+			ship = { name = "HMS Severn" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "Grampus Class" } } }
+			ship = { name = "HMS Clyde" definition = submarine start_experience_factor = 0.10 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "Grampus Class" } } }
 		}
 	}
 

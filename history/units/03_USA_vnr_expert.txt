@@ -196,7 +196,7 @@ units= {
 		task_force = {
 			name = "4th Submarine Squadron"
 			location = 4180 # 4180 # Pearl Harbor, HI
-			ship = { name = "USS Argonaut" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "USS Argonaut" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
 			# 7th Submarine Division
 			ship = { name = "USS S-1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
 			ship = { name = "USS S-18" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
@@ -214,13 +214,13 @@ units= {
 			name = "6th Submarine Squadron"
 			location = 1562 # 1562 # San Diego
 			# 12th Submarine Division
-			ship = { name = "USS Barracuda" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Barracuda/Narwhal Class" } } }
-			ship = { name = "USS Bass" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Barracuda/Narwhal Class" } } }
-			ship = { name = "USS Bonita" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Barracuda/Narwhal Class" } } }
-			ship = { name = "USS Narwhal" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Barracuda/Narwhal Class" } } }
-			ship = { name = "USS Dolphin" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "USS Barracuda" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
+			ship = { name = "USS Bass" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
+			ship = { name = "USS Bonita" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
+			ship = { name = "USS Narwhal" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
+			ship = { name = "USS Dolphin" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
 			# 13th Submarine Division
-			ship = { name = "USS Nautilus" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "USS Nautilus" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
 			ship = { name = "USS Cachalot" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
 			ship = { name = "USS Cuttlefish" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }
 			ship = { name = "USS Porpoise" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Porpoise Class" } } }

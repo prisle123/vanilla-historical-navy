@@ -153,12 +153,12 @@ units = {
 			#Flagship
 			ship = { name = "Kinu" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = {amount = 1 owner = JAP version_name = "Mogami Class"} } }
 			#Junsen-class Submarines
-			ship = { name = "I-1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = {amount = 1 owner = JAP version_name = "Junsen I Class"} } }
-			ship = { name = "I-2" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = {amount = 1 owner = JAP version_name = "Junsen I Class"} } }
-			ship = { name = "I-3" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = {amount = 1 owner = JAP version_name = "Junsen I Class"} } }
-			ship = { name = "I-4" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = {amount = 1 owner = JAP version_name = "Junsen I Class"} } }
-			ship = { name = "I-5" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = {amount = 1 owner = JAP version_name = "Junsen I Class"} } }
-			ship = { name = "I-6" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = {amount = 1 owner = JAP version_name = "Junsen II Class"} } }
+			ship = { name = "I-1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = {amount = 1 owner = JAP version_name = "Kaidai IV Class"} } }
+			ship = { name = "I-2" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = {amount = 1 owner = JAP version_name = "Kaidai IV Class"} } }
+			ship = { name = "I-3" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = {amount = 1 owner = JAP version_name = "Kaidai IV Class"} } }
+			ship = { name = "I-4" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = {amount = 1 owner = JAP version_name = "Kaidai IV Class"} } }
+			ship = { name = "I-5" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = {amount = 1 owner = JAP version_name = "Kaidai IV Class"} } }
+			ship = { name = "I-6" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = {amount = 1 owner = JAP version_name = "Kaidai IV Class"} } }
 		}
 		task_force = {
 			name = "3 Sensui Sentai"
