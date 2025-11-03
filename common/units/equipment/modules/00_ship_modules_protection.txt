@@ -17,7 +17,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_speed = -0.23
-			max_strength = 0.065
+			max_strength = 0.05
 		}
 		build_cost_resources = {
 			steel = 1
@@ -42,7 +42,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.08
 			naval_speed = -0.08
-			max_strength = 0.05
+			max_strength = 0.03
 		}
 		build_cost_resources = {
 			steel = 1
@@ -68,7 +68,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.14
 			naval_speed = -0.25
-			max_strength = 0.13
+			max_strength = 0.1
 		}
 		build_cost_resources = {
 			steel = 1
@@ -102,7 +102,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.12
 			naval_speed = -0.1
-			max_strength = 0.1
+			max_strength = 0.08
 		}
 		build_cost_resources = {
 			steel = 1
@@ -135,7 +135,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.17
 			naval_speed = -0.3
-			max_strength = 0.2
+			max_strength = 0.15
 		}
 		build_cost_resources = {
 			steel = 1
@@ -169,7 +169,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.15
 			naval_speed = -0.2
-			max_strength = 0.16
+			max_strength = 0.12
 		}
 		build_cost_resources = {
 			steel = 1
@@ -202,7 +202,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.2
 			naval_speed = -0.32
-			max_strength = 0.25
+			max_strength = 0.2
 		}
 		build_cost_resources = {
 			steel = 1
@@ -235,7 +235,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.17
 			naval_speed = -0.27
-			max_strength = 0.2
+			max_strength = 0.16
 		}
 		build_cost_resources = {
 			steel = 1
@@ -305,7 +305,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.28
 			naval_speed = -0.35
-			max_strength = 0.25
+			max_strength = 0.225
 		}
 		build_cost_resources = {
 			steel = 1
@@ -1021,7 +1021,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = -0.05
-			max_strength = 0.065
+			max_strength = 0.05
 			build_cost_ic = 0.065
 		}
 		dismantle_cost_ic = 1000
@@ -1036,7 +1036,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = -0.05
-			max_strength = 0.085
+			max_strength = 0.075
 			build_cost_ic = 0.075
 		}
 		add_stats = {
@@ -1058,7 +1058,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = -0.025
-			max_strength = 0.075
+			max_strength = 0.065
 			armor_value = 0.05
 			build_cost_ic = 0.1
 		}
@@ -1081,7 +1081,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = -0.025
-			max_strength = 0.065
+			max_strength = 0.05
 			armor_value = 0.1
 			build_cost_ic = 0.1
 		}
@@ -1099,9 +1099,9 @@ equipment_modules = {
 		parent = ship_scheme_all_or_nothing
 		
 		multiply_stats = {
-			naval_speed = -0.025
+			naval_speed = -0.03
 			armor_value = 0.1
-			max_strength = 0.13
+			max_strength = 0.08
 			build_cost_ic = 0.15
 		}
 		add_stats = {
