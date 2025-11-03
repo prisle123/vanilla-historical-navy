@@ -150,7 +150,7 @@ equipment_modules = {
 			surface_visibility = 0.05
 		}
 		dismantle_cost_ic = 2000
-		critical_parts = { damaged_wooden_flight_deck }
+		critical_parts = { damaged_bb_flight_deck }
 	}
 	ship_deck_space_mega = {
 		category = ship_deck_space_mega
