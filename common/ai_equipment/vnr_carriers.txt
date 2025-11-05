@@ -188,8 +188,7 @@ naval_carrier = {
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_strength_deck
-				fixed_ship_flight_deck_slot = carrier_armor_deck
+				fixed_ship_flight_deck_slot = carrier_strength_deck
 				front_1_custom_slot = steam_catapult
 				front_2_custom_slot = carrier_angled_deck
 				mid_1_custom_slot = ship_deck_space_big
@@ -228,8 +227,8 @@ naval_carrier = {
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = { any_of = { economical_nuclear_reactor_carrier carrier_strength_deck } }
-				fixed_ship_flight_deck_slot = carrier_armor_deck
+				fixed_ship_carrier_miscellaneous_slot_2 = { any_of = { economical_nuclear_reactor_carrier } }
+				fixed_ship_flight_deck_slot = carrier_strength_deck
 				front_1_custom_slot = steam_catapult
 				front_2_custom_slot = carrier_angled_deck
 				mid_1_custom_slot = ship_deck_space_big
@@ -344,8 +343,7 @@ naval_carrier = {
 				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_strength_deck
-				fixed_ship_flight_deck_slot = carrier_armor_deck
+				fixed_ship_flight_deck_slot = { any_of = { carrier_armor_deck carrier_strength_deck } }
 				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space_armored
 				mid_1_custom_slot = ship_deck_space_armored
@@ -385,8 +383,7 @@ naval_carrier = {
 				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_strength_deck
-				fixed_ship_flight_deck_slot = carrier_armor_deck
+				fixed_ship_flight_deck_slot = carrier_strength_deck
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space_big
 				mid_2_custom_slot = ship_deck_space_big
@@ -425,8 +422,8 @@ naval_carrier = {
 				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = carrier_strength_deck
-				fixed_ship_flight_deck_slot = carrier_armor_deck
+				fixed_ship_carrier_miscellaneous_slot_2 = { any_of = { economical_nuclear_reactor_carrier } }
+				fixed_ship_flight_deck_slot = carrier_strength_deck
 				front_1_custom_slot = carrier_angled_deck
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space_big
