@@ -52,7 +52,7 @@ naval_sub = {
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
-				fixed_ship_extra_secondaries_slot = submarine_miscellaneous
+				fixed_ship_extra_secondaries_slot = oxygen_generator
 				fixed_ship_conning_tower_slot = sub_conning_tower
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
@@ -85,7 +85,7 @@ naval_sub = {
 				fixed_ship_engine_slot = sub_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
-				fixed_ship_extra_secondaries_slot = submarine_miscellaneous
+				fixed_ship_extra_secondaries_slot = oxygen_generator
 				fixed_ship_conning_tower_slot = sub_conning_tower
 				mid_1_custom_slot = sub_ship_periscope
 				rear_1_custom_slot = ship_torpedo_sub
@@ -120,7 +120,7 @@ naval_sub = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
-				fixed_ship_extra_secondaries_slot = submarine_miscellaneous
+				fixed_ship_extra_secondaries_slot = oxygen_generator
 				fixed_ship_conning_tower_slot = sub_conning_tower
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
@@ -158,7 +158,7 @@ naval_sub = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
-				fixed_ship_extra_secondaries_slot = submarine_miscellaneous
+				fixed_ship_extra_secondaries_slot = oxygen_generator
 				fixed_ship_conning_tower_slot = sub_conning_tower
 				front_1_custom_slot = ship_torpedo_sub
 				rear_1_custom_slot = ship_torpedo_sub
@@ -232,7 +232,6 @@ naval_sub = {
 				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_2 sub_ship_engine_1 } }
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
-				fixed_ship_extra_secondaries_slot = oxygen_generator
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				fixed_ship_conning_tower_slot = sub_conning_tower
 				mid_1_custom_slot = sub_ship_periscope
@@ -244,6 +243,7 @@ naval_sub = {
 			ship_sub_snorkel
 			sub_conning_tower
 			sub_ship_periscope
+			sub_fire_control_system
 		}
 	}
 	submarine_1940_expert = {

@@ -66,7 +66,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous ap_shell }
 			}
 			fixed_ship_extra_electronics_slot = {
 				required = no
@@ -205,6 +205,14 @@ equipments = {
 			module = coldwar_upgrade_bb
 			count < 1
 		}
+		module_count_limit = {
+			module = ship_anti_air_circle
+			count < 2
+		}
+		module_count_limit = {
+			category = ap_shell
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -247,7 +255,7 @@ equipments = {
 
 		build_cost_ic = 1400
 		resources = {
-			steel = 2
+			steel = 1
 		}
 
 		manpower = 800
@@ -278,7 +286,7 @@ equipments = {
 		max_strength = 45
 		naval_speed = 20
 		reliability = 0.80
-		surface_visibility = 20
+		surface_visibility = 28
 		naval_range = 1500
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -448,7 +456,7 @@ equipments = {
 		manpower = 1000
 		build_cost_ic = 3500
 		naval_speed = 26
-		surface_visibility = 22
+		surface_visibility = 26
 		naval_range = 5000
 		max_strength = 140
 		reliability = 0.7
@@ -474,7 +482,7 @@ equipments = {
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous ap_shell }
 			}
 			fixed_ship_role_slot = {
 				required = yes
@@ -639,7 +647,7 @@ equipments = {
 			}
 			fixed_ship_extra_secondaries_slot = {
 				required = no
-				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous }
+				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous ap_shell }
 			}
 			fixed_ship_extra_electronics_slot = {
 				required = no
@@ -730,6 +738,7 @@ equipments = {
 		}
 
 		surface_detection = 15
+		surface_visibility = 27
 		sub_detection = 1
 		naval_speed = 28
 		reliability = 0.65
@@ -758,6 +767,7 @@ equipments = {
 		naval_speed = 31
 		build_cost_ic = 1800
 		manpower = 1000
+		surface_visibility = 26
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 		}
@@ -775,11 +785,12 @@ equipments = {
 		manpower = 1200
 		naval_speed = 32
 		reliability = 0.8
+		surface_visibility = 25
 		build_cost_ic = 2100
 		naval_range = 3000
 		max_strength = 75
 		resources = {
-			steel = 3
+			steel = 1
 		}
 		module_slots = inherit
 
@@ -800,11 +811,12 @@ equipments = {
 		naval_speed = 32
 		build_cost_ic = 2300
 		reliability = 0.85
+		surface_visibility = 23
 		max_strength = 85
 		naval_range = 4000
 		manpower = 1400
 		resources = {
-			steel = 4
+			steel = 2
 		}
 		module_slots = inherit
 
@@ -826,11 +838,11 @@ equipments = {
 		reliability = 0.9
 		manpower = 1600
 		build_cost_ic = 2500
+		surface_visibility = 21
 		naval_range = 4500
 		max_strength = 90
 		resources = {
-			steel = 4
-			chromium = 1
+			steel = 2
 		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -943,11 +955,11 @@ equipments = {
 		reliability = 0.95
 		manpower = 1800
 		build_cost_ic = 3000
+		surface_visibility = 20
 		naval_range = 5000
 		max_strength = 100
 		resources = {
-			steel = 4
-			chromium = 1
+			steel = 2
 		}
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -1188,7 +1200,7 @@ equipments = {
 		armor_value = 0
 
 		sub_detection = 1
-		surface_visibility = 15
+		surface_visibility = 26
 		naval_speed = 30
 		reliability = 0.6
 
@@ -1204,7 +1216,7 @@ equipments = {
 		build_cost_ic = 1700
 		resources = {
 			#oil = 2
-			steel = 3
+			steel = 1
 		}
 
 		manpower = 800

@@ -86,9 +86,9 @@ critical_parts = {
 			lg_attack = -0.7
 			torpedo_attack = -0.7
 		}
-		chance = 0.1
-		str_damage_multiplier = 10
-		org_damage_multiplier = 10
+		chance = 0.05
+		str_damage_multiplier = 30
+		org_damage_multiplier = 30
 	}
 	
 
@@ -107,9 +107,10 @@ critical_parts = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 7
 		modifier = {
+			naval_retreat_chance = -0.95
 			naval_speed_factor = -0.9
 		}
-		chance = 0.5
+		chance = 0.25
 		org_damage_multiplier = 0.5
 		str_damage_multiplier = 0.5
 	}
@@ -120,7 +121,7 @@ critical_parts = {
 			naval_retreat_chance = -0.9
 			naval_speed_factor = -0.5
 		}
-		chance = 0.25
+		chance = 0.5
 		org_damage_multiplier = 0.25
 		str_damage_multiplier = 0.25
 	}
@@ -182,6 +183,22 @@ critical_parts = {
 		damage_instance_per_added_module = 1
 		max_damage_instance = 1
     }
+	damaged_bb_flight_deck = {
+        icon = "GFX_default_critical_damage_icons"
+		frame = 6
+        stat_penalties = {
+            carrier_size = -1
+        }
+		modifier = {
+			navy_org_factor = -0.3
+		}
+        chance = 1
+        org_damage_multiplier = 1.5
+        str_damage_multiplier = 0.75
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+    }
     gas_leakage = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
@@ -190,7 +207,7 @@ critical_parts = {
 			naval_morale_factor = -1
         }
         chance = 0.05
-        org_damage_multiplier = 10
-        str_damage_multiplier = 10
+        org_damage_multiplier = 50
+        str_damage_multiplier = 50
     }
 }

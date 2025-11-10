@@ -1,4 +1,4 @@
-version="v2.4 - Ironbottom Sound"
+version="v2.5 - Santa Cruz"
 tags={
 	"Military"
 	"Graphics"

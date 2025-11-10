@@ -29,6 +29,7 @@ naval_cruiser_medium = {
 					module = empty
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_medium_battery
@@ -70,6 +71,7 @@ naval_cruiser_medium = {
 					module = empty
 				}
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_medium_battery
@@ -110,6 +112,7 @@ naval_cruiser_medium = {
 				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
 				fixed_ship_radar_slot = { any_of = { ship_radar } }
 				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_medium_battery
@@ -151,7 +154,7 @@ naval_cruiser_medium = {
 				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_5 cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
 				fixed_ship_radar_slot = { any_of = { ship_radar } }
 				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_4 ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
-				fixed_ship_role_slot = { any_of = { ship_hull_cruiser_role_c  ship_hull_cruiser_role_aa ship_hull_cruiser_role_cg } }
+				fixed_ship_role_slot = { any_of = { ship_hull_cruiser_role_c  ship_hull_cruiser_role_aa ship_hull_cruiser_role_cgaa } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				front_1_custom_slot = ship_medium_battery

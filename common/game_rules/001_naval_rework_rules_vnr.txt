@@ -1,0 +1,71 @@
+vnr_ai_naval_management = {
+	name = RULE_AI_NAVAL_MANAGEMENT
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = FREE
+		text = RULE_OPTION_FREE
+		desc = RULE_AI_NAVAL_MANAGEMENT_FREE_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_AI_NAVAL_MANAGEMENT_BLOCKED_DESC
+		allow_achievements = yes
+	}
+}
+
+eng_start_expert_navy = {
+	name = RULE_ENG_EXPERT_NAVY
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_AI_EXPERT_NAVY_BLOCKED_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = FREE
+		text = RULE_OPTION_FREE
+		desc = RULE_AI_EXPERT_NAVY_FREE_DESC
+		allow_achievements = yes
+	}
+}
+
+jap_start_expert_navy = {
+	name = RULE_JAP_EXPERT_NAVY
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_AI_EXPERT_NAVY_BLOCKED_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = FREE
+		text = RULE_OPTION_FREE
+		desc = RULE_AI_EXPERT_NAVY_FREE_DESC
+		allow_achievements = yes
+	}
+}
+
+usa_start_expert_navy = {
+	name = RULE_USA_EXPERT_NAVY
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_AI_EXPERT_NAVY_BLOCKED_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = FREE
+		text = RULE_OPTION_FREE
+		desc = RULE_AI_EXPERT_NAVY_FREE_DESC
+		allow_achievements = yes
+	}
+}

@@ -797,13 +797,13 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 80
+		value = 100
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 100
+		value = 120
 	}
 
 	ai_strategy = {
@@ -844,13 +844,13 @@ naval_unit_role_ratios_ENG_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 5
+		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 10
+		value = 40
 	}
 
 	ai_strategy = {
@@ -1317,7 +1317,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 60
+		value = 100
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
@@ -1362,12 +1362,12 @@ naval_unit_role_ratios_JAP_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 40
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 65
+		value = 100
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
@@ -1472,14 +1472,8 @@ naval_unit_role_ratios_USA_great_depression = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_leader
-		value = 1
-	}
-
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 40
+		value = 150
 	}
 
 	ai_strategy = {
@@ -1514,7 +1508,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 120
+		value = 250
 	}
 
 	ai_strategy = {
@@ -1532,17 +1526,18 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 120
+		value = 150
 	}
 	
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 200
+		type = building_target
+		id = dockyard
+		value = 50
 	}
 	ai_strategy = {
 		type = building_target
-		id = dockyard
-		value = 150
+		id = arms_factory
+		value = 80
 	}
 }
 
@@ -1569,7 +1564,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 150
+		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1580,23 +1575,24 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 60
+		value = 120
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 120
+		value = 150
 	}
 	
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 250
+		type = building_target
+		id = dockyard
+		value = 100
 	}
 	ai_strategy = {
 		type = building_target
-		id = dockyard
-		value = 250
+		id = arms_factory
+		value = 300
 	}
 }
 
@@ -2446,7 +2442,7 @@ build_more_missile_cruisers = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_medium
-		value = 20
+		value = 120
 	}
 
 	ai_strategy = {

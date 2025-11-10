@@ -1384,3 +1384,377 @@ SOV_AI_variants_1943 = {
 		}
 	}
 }
+
+
+### Expert AI template
+JAP_expert_AI_variants = {
+    create_equipment_variant = {
+		name = "Nagato Class"
+		role_icon_index = 3
+		type = vnr_ship_hull_heavy_3
+		parent_version = 0
+		name_group = JAP_PREFECTURES
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2_triple
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = heavy_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
+			fixed_ship_armor_slot = ship_armor_bb_3
+			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+			fixed_ship_torpedo_defense_system_slot = torpedo_belt
+			front_1_custom_slot = ship_heavy_battery_2_triple
+			mid_1_custom_slot = ship_anti_air_2
+			mid_2_custom_slot = ship_anti_air_2
+			mid_3_custom_slot = ship_anti_air_2
+			rear_1_custom_slot = ship_heavy_battery_2_triple
+		}
+	}
+	create_equipment_variant = {
+		name = "Soryu Class"
+		role_icon_index = 13
+		type = vnr_ship_hull_carrier_1
+		parent_version = 0
+		name_group = JAP_CV_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space_open
+			fixed_ship_deck_slot_2 = ship_deck_space_open
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_carrier_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
+			fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+			fixed_ship_flight_deck_slot = carrier_armor_deck
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
+			front_1_custom_slot = ship_deck_space_open
+			mid_1_custom_slot = ship_deck_space_open
+		}
+	}
+	create_equipment_variant = {
+		name = "Takao Class"
+		role_icon_index = 27
+		type = vnr_ship_hull_cruiser_3
+		parent_version = 0
+		name_group = JAP_MOUNTAIN 
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = cruiser_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_role_slot = ship_hull_cruiser_role_ca
+			front_2_custom_slot = ship_medium_battery_2
+			mid_1_custom_slot = ship_anti_air_2
+			mid_2_custom_slot = ship_anti_air_2
+			mid_3_custom_slot = ship_anti_air_3
+			rear_1_custom_slot = ship_medium_battery_2
+			rear_2_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Mogami Class"
+		role_icon_index = 25
+		type = vnr_ship_hull_cruiser_3
+		parent_version = 0
+		name_group = JAP_RIVER
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = cruiser_ship_engine_3
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_light_medium_battery_2
+			front_2_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_airplane_launcher_1
+			mid_3_custom_slot = ship_anti_air_2
+			rear_1_custom_slot = ship_light_medium_battery_2
+			rear_2_custom_slot = ship_light_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Fubuki Class"
+		role_icon_index = 31
+		type = vnr_ship_hull_light_3
+		parent_version = 0
+		name_group = JAP_WEATHER 
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2_double
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_3
+			front_1_custom_slot = ship_light_battery_2_double
+			mid_1_custom_slot = ship_anti_air_2
+			mid_2_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Kaidai VI Class"
+		parent_version = 0
+		show_position = no
+		role_icon_index = 37
+		type = vnr_ship_hull_submarine_2
+		name_group = JAP_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+            fixed_ship_armor_slot = pressure_hull_2
+			fixed_ship_extra_secondaries_slot = oxygen_generator
+			mid_1_custom_slot = sub_ship_periscope_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+}
+
+USA_expert_AI_variants = {
+    create_equipment_variant = {
+		name = "Colorado Class"
+		role_icon_index = 3
+		type = vnr_ship_hull_heavy_3
+		parent_version = 0
+		name_group = USA_STATES
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2_triple
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = heavy_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
+			fixed_ship_armor_slot = ship_armor_bb_3
+			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+			fixed_ship_torpedo_defense_system_slot = torpedo_belt
+			front_1_custom_slot = ship_heavy_battery_2_triple
+			mid_1_custom_slot = ship_anti_air_2
+			mid_2_custom_slot = ship_anti_air_2
+			mid_3_custom_slot = ship_anti_air_2
+			rear_1_custom_slot = ship_heavy_battery_2_triple
+		}
+	}
+	create_equipment_variant = {
+		name = "Yorktown Class"
+		role_icon_index = 13
+		type = vnr_ship_hull_carrier_1
+		parent_version = 0
+		name_group = USA_CV_HISTORICAL
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space_open
+			fixed_ship_deck_slot_2 = ship_deck_space_open
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_carrier_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
+			fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+			fixed_ship_flight_deck_slot = carrier_armor_deck
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
+			front_1_custom_slot = ship_deck_space_open
+			mid_1_custom_slot = ship_deck_space_open
+		}
+	}
+	create_equipment_variant = {
+		name = "Wichita Class"
+		role_icon_index = 27
+		type = vnr_ship_hull_cruiser_3
+		parent_version = 0
+		name_group = USA_CA_HISTORICAL 
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = cruiser_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_role_slot = ship_hull_cruiser_role_ca
+			front_2_custom_slot = ship_medium_battery_2
+			mid_1_custom_slot = ship_anti_air_2
+			mid_2_custom_slot = ship_anti_air_2
+			mid_3_custom_slot = ship_anti_air_3
+			rear_1_custom_slot = ship_medium_battery_2
+			rear_2_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Brooklyn Class"
+		role_icon_index = 25
+		type = vnr_ship_hull_cruiser_3
+		parent_version = 0
+		name_group = USA_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = cruiser_ship_engine_3
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_light_medium_battery_2
+			front_2_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_airplane_launcher_1
+			mid_3_custom_slot = ship_anti_air_2
+			rear_1_custom_slot = ship_light_medium_battery_2
+			rear_2_custom_slot = ship_light_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Porter Class"
+		role_icon_index = 31
+		type = vnr_ship_hull_light_3
+		parent_version = 0
+		name_group = USA_HEROES_NAVY 
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2_double
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_3
+			front_1_custom_slot = ship_light_battery_2_double
+			mid_1_custom_slot = ship_anti_air_2
+			mid_2_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Porpoise Class"
+		parent_version = 0
+		show_position = no
+		role_icon_index = 37
+		type = vnr_ship_hull_submarine_2
+		name_group = USA_FISH
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+            fixed_ship_armor_slot = pressure_hull_2
+			fixed_ship_extra_secondaries_slot = oxygen_generator
+			mid_1_custom_slot = sub_ship_periscope_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+}
+
+ENG_expert_AI_variants = {
+    create_equipment_variant = {
+		name = "King George V Class"
+		role_icon_index = 3
+		type = vnr_ship_hull_heavy_3
+		parent_version = 0
+		name_group = ENG_BB_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2_triple
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = heavy_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
+			fixed_ship_armor_slot = ship_armor_bb_3
+			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+			fixed_ship_torpedo_defense_system_slot = torpedo_belt
+			front_1_custom_slot = ship_heavy_battery_2_triple
+			mid_1_custom_slot = ship_anti_air_2
+			mid_2_custom_slot = ship_anti_air_2
+			mid_3_custom_slot = ship_anti_air_2
+			rear_1_custom_slot = ship_heavy_battery_2_triple
+		}
+	}
+	create_equipment_variant = {
+		name = "Ark Royal Class"
+		role_icon_index = 13
+		type = vnr_ship_hull_carrier_1
+		parent_version = 0
+		name_group = ENG_CV_QUALITIES
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space_open
+			fixed_ship_deck_slot_2 = ship_deck_space_open
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_carrier_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
+			fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
+			fixed_ship_flight_deck_slot = carrier_armor_deck
+			fixed_ship_role_slot = ship_hull_carrier_role_cv
+			front_1_custom_slot = ship_deck_space_open
+			mid_1_custom_slot = ship_deck_space_open
+		}
+	}
+	create_equipment_variant = {
+		name = "York Class"
+		role_icon_index = 27
+		type = vnr_ship_hull_cruiser_3
+		parent_version = 0
+		name_group = ENG_CA_HISTORICAL 
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = cruiser_ship_engine_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_role_slot = ship_hull_cruiser_role_ca
+			front_2_custom_slot = ship_medium_battery_2
+			mid_1_custom_slot = ship_anti_air_2
+			mid_2_custom_slot = ship_anti_air_2
+			mid_3_custom_slot = ship_anti_air_3
+			rear_1_custom_slot = ship_medium_battery_2
+			rear_2_custom_slot = ship_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Town Class"
+		role_icon_index = 25
+		type = vnr_ship_hull_cruiser_3
+		parent_version = 0
+		name_group = ENG_CL_HISTORICAL
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_engine_slot = cruiser_ship_engine_3
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_light_medium_battery_2
+			front_2_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_torpedo_2
+			mid_2_custom_slot = ship_airplane_launcher_1
+			mid_3_custom_slot = ship_anti_air_2
+			rear_1_custom_slot = ship_light_medium_battery_2
+			rear_2_custom_slot = ship_light_medium_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "E/F/G/H Class"
+		role_icon_index = 31
+		type = vnr_ship_hull_light_3
+		parent_version = 0
+		name_group = ENG_DD_ALPHABETICAL 
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2_double
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_3
+			front_1_custom_slot = ship_light_battery_2_double
+			mid_1_custom_slot = ship_anti_air_2
+			mid_2_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = ship_depth_charge_1
+			rear_2_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Grampus Class"
+		parent_version = 0
+		show_position = no
+		role_icon_index = 37
+		type = vnr_ship_hull_submarine_2
+		name_group = ENG_SS_HISTORICAL
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+            fixed_ship_armor_slot = pressure_hull_2
+			fixed_ship_extra_secondaries_slot = oxygen_generator
+			mid_1_custom_slot = sub_ship_periscope_1
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+}

@@ -123,10 +123,10 @@ equipment_modules = {
 			anti_air_attack = 6
 			reliability = -0.025
 			build_cost_ic = 300
-			naval_light_gun_hit_chance_factor = -0.01
+			naval_light_gun_hit_chance_factor = -0.025
 		}
 		multiply_stats = {
-			naval_speed = -0.003
+			naval_speed = -0.01
 		}
 	}
     ship_missile_aa_1 = {
@@ -630,7 +630,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = -0.01
+			naval_speed = -0.02
 		}
 	}
 
@@ -651,7 +651,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.03
 		}
 	}
 
@@ -672,7 +672,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.04
 		}
 	}
 
@@ -688,7 +688,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.06
 		}
 	}
 
@@ -775,13 +775,27 @@ equipment_modules = {
 ###############
 ##  SNORKEL  ##
 ###############
+	ship_sub_snorkel_0 = {
+		abbreviation = "scw"
+		category = ship_sub_snorkel
+		
+		multiply_stats = {
+			sub_visibility = -0.03
+		}
+		
+		add_stats = {
+			build_cost_ic = 30
+			reliability = -0.1
+		}
+	}
     ship_sub_snorkel_1 = {
 		abbreviation = "scw"
 		category = ship_sub_snorkel
 		gfx = ship_sub_snorkel_1
+		parent = ship_sub_snorkel_0
 		
 		multiply_stats = {
-			sub_visibility = -0.05
+			sub_visibility = -0.075
 		}
 		
 		add_stats = {
@@ -825,7 +839,7 @@ equipment_modules = {
 			build_cost_ic = 150
 		}
 		multiply_stats = {
-			naval_speed = -0.003
+			naval_speed = -0.005
 			surface_detection = -0.03
 		}
 	}
@@ -845,7 +859,7 @@ equipment_modules = {
 			convert_cost_ic = 80
 		}
 		multiply_stats = {
-			naval_speed = -0.004
+			naval_speed = -0.02
 			surface_detection = -0.04
 		}
 	}
@@ -880,7 +894,7 @@ equipment_modules = {
 		multiply_stats = {
 			surface_detection = 0.25
 			sub_detection = 0.25
-			naval_speed = -0.05
+			naval_speed = -0.1
 			fuel_consumption = 0.05
 		}
 		add_stats = {
@@ -895,6 +909,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 2
 			naval_torpedo_hit_chance_factor = 0.01
+			reliability = -0.05
 			build_cost_ic = 150
 		}
 		multiply_stats = {
@@ -909,6 +924,7 @@ equipment_modules = {
 			naval_torpedo_hit_chance_factor = 0.02
 			hg_attack = 2
 			lg_attack = 1
+			reliability = -0.1
 			build_cost_ic = 250
 		}
 		can_convert_from = {
@@ -1127,50 +1143,53 @@ equipment_modules = {
 		}
 	}
 	ship_light_weight_shell = {
-		category = heavy_miscellaneous
+		category = ap_shell
 		gui_category = ship_miscellaneous
 		multiply_stats = {
 			hg_attack = -0.05
 			hg_armor_piercing = -0.05
-			naval_heavy_gun_hit_chance_factor = 0.005
+			naval_heavy_gun_hit_chance_factor = 0.025
 			build_cost_ic = -0.05
 		}
 		forbid_module_categories = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
 			ship_light_medium_battery_single
+			ship_missile
 		}
 	}
 	ship_super_heavy_weight_shell = {
-		category = heavy_miscellaneous
+		category = ap_shell
 		gui_category = ship_miscellaneous
 		multiply_stats = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
-			naval_heavy_gun_hit_chance_factor = -0.01
+			naval_heavy_gun_hit_chance_factor = -0.05
 			build_cost_ic = 0.05
 		}
 		forbid_module_categories = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
 			ship_light_medium_battery_single
+			ship_missile
 		}
 	}
 	ship_high_velocity_shell = {
-		category = heavy_miscellaneous
+		category = ap_shell
 		gui_category = ship_miscellaneous
 		add_stats = {
 			reliability = -0.1
 		}
 		multiply_stats = {
 			hg_armor_piercing = 0.075
-			naval_heavy_gun_hit_chance_factor = 0.01
+			naval_heavy_gun_hit_chance_factor = 0.05
 			build_cost_ic = 0.065
 		}
 		forbid_module_categories = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
 			ship_light_medium_battery_single
+			ship_missile
 		}
 	}
 	ship_anti_air_shell = {
@@ -1183,11 +1202,16 @@ equipment_modules = {
 			anti_air_attack = 0.2
 			build_cost_ic = 0.05
 		}
+		forbid_module_categories = {
+			ship_missile_aa
+		}
 	}
 	ship_vt_shell = {
 		category = generic_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
+			naval_light_gun_hit_chance_factor = 0.025
+			naval_heavy_gun_hit_chance_factor = 0.025
 			anti_air_attack = 0.25
 			build_cost_ic = 0.08
 		}
@@ -1310,12 +1334,12 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 5
 			max_organisation = 0.1
-			naval_light_gun_hit_chance_factor = 0.015
-			naval_heavy_gun_hit_chance_factor = 0.015
-			naval_torpedo_hit_chance_factor = 0.015
+			naval_light_gun_hit_chance_factor = 0.025
+			naval_heavy_gun_hit_chance_factor = 0.025
+			naval_torpedo_hit_chance_factor = 0.025
 		}
 		multiply_stats = {
-			build_cost_ic = 0.025
+			build_cost_ic = 0.05
 		}
 	}
     sub_wire_guided_torpedo = {
@@ -1337,7 +1361,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			aluminium = 2
-			steel = -3
+			steel = -2
 		}
 		forbid_module_categories = {
 			ship_cruiser_armor
@@ -1349,10 +1373,11 @@ equipment_modules = {
 		gui_category = ship_anti_air
 		multiply_stats = {
 			anti_air_attack = 0.35
+			naval_speed = -0.05
 			build_cost_ic = 0.15
 		}
-		build_cost_resources = {
-			steel = 1
+		forbid_module_categories = {
+			ship_missile_aa
 		}
 	}
 	ship_radar_finder = {
@@ -1414,7 +1439,7 @@ equipment_modules = {
 		gui_category = cold_war_miscellaneous
 
 		multiply_stats = {
-			build_cost_ic = 0.2
+			build_cost_ic = 0.1
 			lg_attack = 0.1
 			hg_attack = 0.1
 			anti_air_attack = 0.15
@@ -1425,9 +1450,5 @@ equipment_modules = {
 			naval_torpedo_damage_reduction_factor = 0.05
 		}
 		dismantle_cost_ic = 50000
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
 	}
 }

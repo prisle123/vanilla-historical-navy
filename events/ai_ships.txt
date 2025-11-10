@@ -327,6 +327,7 @@ country_event = {
 				limit = {
 					is_ai = yes
 				}
+				complete_special_project = sp:sp_air_radar
 				set_technology = {
 					improved_ship_hull_heavy = 1 
 					improved_ship_hull_light = 1 
@@ -335,8 +336,7 @@ country_event = {
 					antiair2 = 1 
 					antiair3 = 1 
 					improved_fire_control_system = 1 
-					decimetric_radar = 1 
-					improved_decimetric_radar = 1 
+					cavity_magnatron = 1 
 					basic_dp_light_battery = 1 
 					improved_heavy_battery = 1
 					improved_super_heavy_battery = 1
@@ -364,11 +364,15 @@ country_event = {
 					basic_light_shell = 1
 					basic_medium_shell = 1
 					basic_heavy_shell = 1
+					magnetic_detonator = 1
+					oxygen_torpedo = 1
 
 					damage_control_1 = 1
 					fire_control_methods_1 = 1
 					basic_ballast_tank = 1
 					improved_ballast_tank = 1
+					dive_bomber_study = 1
+					carrier_radio_range = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
@@ -437,7 +441,7 @@ country_event = {
 					antiair4 = 1 
 					antiair5 = 1 
 					advanced_fire_control_system = 1 
-					centimetric_radar = 1 
+					monopulse_radar = 1 
 					advanced_dp_light_battery = 1 
 					advanced_heavy_battery = 1 
 					advanced_medium_battery = 1 
@@ -456,6 +460,7 @@ country_event = {
 					homogeneous_krupp_steel = 1
 
 					modern_ship_torpedo_launcher = 1
+					proximity_detonator = 1
 					
 					fire_control_methods_3 = 1
 				}
@@ -607,6 +612,7 @@ country_event = {
 					iff_device = 1
 					wire_guided_torpedo = 1
 					super_carriers = 1
+					coldwar_ship_torpedo_launcher = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
@@ -760,7 +766,7 @@ country_event = {
 			has_global_flag = {
 				flag = naval_tech_1940
 				value > 0
-				days > 545
+				days > 900
 			}
 			has_global_flag = naval_tech_1943
 		}
@@ -776,6 +782,8 @@ country_event = {
 					is_ai = yes
 				}
 				set_technology = {
+					centimetric_radar = 1
+					phased_array = 1
 					folding_wing = 1
 					carrier_mass_production = 1
 					carrier_damage_control = 1
@@ -785,6 +793,12 @@ country_event = {
 					fire_control_methods_2 = 1
 					battleship_aa_upgrade = 1
 					escort_carriers_ship = 1
+
+					improved_light_shell = 1
+					improved_medium_shell = 1
+					improved_heavy_shell = 1
+					improved_dp_light_battery = 1
+					homing_torpedo = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes

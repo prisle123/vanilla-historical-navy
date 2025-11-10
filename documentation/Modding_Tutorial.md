@@ -1,6 +1,6 @@
 # Vanilla Navy Rework Modding Tutorial #
 
-Hi there, this is MrPunk, in this file I will try to explain everything about VNR technically.
+Hi there, this is MrPunk. In this file, I will try to explain everything about VNR technically.
 
 ## Topics ##
 
@@ -15,7 +15,7 @@ Hi there, this is MrPunk, in this file I will try to explain everything about VN
         
 Common is where the fundamental materials of the game are stored, usually it includes technology, national focus, decisions and much more.
 
-The files in this folder will be loaded at game starts (in the loading screen), so if the game never made it to the menu, more likely it's caused by bugs in Common.
+The files in this folder will be loaded once you boot up HOI4 (in the loading screen), so if the game never made it to the menu, more likely it's caused by bugs in Common.
     
 **Structure**
 
@@ -25,7 +25,7 @@ The files in this folder will be loaded at game starts (in the loading screen), 
 
 - ai_strategy
 
-    AI production strategies are stored here. Using roles defined in ai_equipment, it directly tells AI what to produce, and assigning a value to it determines how willing AI is to produce such templates. Theoretically, any value over 0 will make AI execute the strategy, unless the number of AI's dockyards is too low to make that happen.
+    AI strategies are stored here. Production AI uses roles defined in ai_equipment, it directly tells AI what to produce, and assigning a value to it determines how willing AI is to produce such templates. Theoretically, any value over 0 will make AI execute the strategy, unless the number of AI's dockyards is too low to make that happen. Naval Management AI will decide where and how to concentrate its fleet in different scenarios of war.
 
 - decisions
 
@@ -33,7 +33,23 @@ The files in this folder will be loaded at game starts (in the loading screen), 
 
 - defines
 
-    Here you modify some static constants in the game mechanism. Since formulas are set in bottom-level codes, editing these values is the only way to scale the effects.
+    Here you modify some static constants in the game mechanism. Since formulas are hard-coded in bottom-level and can not be modded, editing these values is the only way to scale their effects.
+
+- dynamic_modifiers
+
+    The dynamic modifiers are customized spirits with constantly changing effects, and it can be applied to not only countries but also states.
+
+- game_rules
+
+    All starting rules available in country selection menu are stored here.
+
+- ideas
+
+    These are national spirits.
+
+- modifiers
+
+    Static modifiers applied by weather, time, and unit experience.
 
 - on_actions
 
@@ -51,9 +67,25 @@ The files in this folder will be loaded at game starts (in the loading screen), 
 
     Defines alternative text for behemoth events. (used by different countries)
 
+- scripted_triggers
+
+    Customized triggers that will be evaluated before firing a certain effect such as event or decision.
+
+- special_projects
+
+    All special projects introduced by the mod.
+
 - technologies
 
     Title says all
+
+- terrain
+
+    Specifically terrain modifiers, used by the mod to edit sea regions.
+
+- unit_leader
+
+    Traits and abilities of admirals.
 
 - units
 
@@ -75,11 +107,15 @@ All the pictures, icons and 3D assets are put here.
 
 - army_icons
 
-    The ship insignia and their tooltips
+    The ship insignia and their tooltips.
+
+-entities
+
+    3D assets definitions (they are not models).
 
 - event_pictures
 
-    Nothing special
+    Pictures used by in-game events.
 
 - interface
 
@@ -89,12 +125,19 @@ All the pictures, icons and 3D assets are put here.
     
     - equipmentdesigner
     
-        Icons of ship modules and topviews.
-        Definition of ship icon database.
+        It contains icons of ship modules, topviews, and definition of ship icon database.
+
+    - ideas
+
+        Icons of national spirits and officer corps.
     
     - navalcomabt
     
         Black silhouettes of ships shown on the ship list when you select a fleet. They are also used in naval combat UI.
+
+    - special_project
+
+        Icons of special projects.
     
     - technologies
     
@@ -112,7 +155,7 @@ All files start with 00_vnr will be loaded as starting navy of that country. The
 
 ### Interface ###
 
-This folder is in close relation to GFX, which it defines the name of GFX files, the UI lookings and which location the GFX should show up.
+This folder is in close relation to GFX, which it defines the name of GFX files, the UI appearance, and which location the GFX should show up.
 
 **Structure**
 
@@ -135,20 +178,20 @@ The texts of events, technologies, etc.
 
 ## Post-Loading ##
 
-The most interesting feature of VNR is the post-loading mechanism. For so long, there are many navy mods out there, but they all have to change the files under history/countries, which tank/air/ship designs are defined. In instance of a large naval overhaul mod, you have to modify these files to make new modules and new hulls work. It's very common on mods such as NRM.
+The most interesting feature of VNR is the post-loading mechanism. For so long, there have been many navy mods out there, but they without exception have to change files under history/countries, where tank/air/ship designs are defined (if you don't do that, vanilla variants still hold a place in the production menu, making it untidy for people with OCD). In instance of a large naval overhaul mod (e.g. adding/replacing slots on ship hulls, or creating new hulls), this method seems essential in making your variants appear as available at the begining. It's very common on mods such as NRM.
 
 Despite the most sraightforward approach, it will bring harms to compatibility and robustness throughout basegame updates. The country history files store more than starting variants, they also have leaders, historical events, political status, and national spirits. Overwriting such files is a complete disaster when it comes to compatibility. Even a minor fix on the country's starting stability will be incompatible, and depending on the loading order, it may break variants too.
 
 To counter it, the post-loading mechanism is created. It is not some fancy skill, but I want it recorded, so the late comers know how to do that.
 
 The basis of post-loading is achieved in following steps:
-1. Put all vanilla ship hulls to a hidden and disallowed techs. This blocks any variants using these hulls from appearing and won't cause any crash/error, because variants using blocked tech will be unlocked after the tech is researched. But in this case, it will never be researched. Then simply replacing them with hulls of different IDs, and these hulls become totally independent from literally everything from basegame or other mods.
+1. Put all vanilla ship hulls to a hidden and disallowed tech. This blocks any variants using these hulls from appearing and won't cause any crash/error, because variants using blocked tech will be unlocked after the tech is researched. But in this case, it will never be researched. Then simply replacing them with hulls of different IDs, and these hulls become totally independent from literally everything from basegame or other mods.
 
-2. Overwrite all vanilla OOBs with empty files. OOB, or Order of Battle, is the definition of starting military forces in history/units. Unlike country history files, unit files are less sensitive since they only take effects when loaded in your script. Combining step 1 and step 2 will give a clean state on game start, no country has naval variant or fleet. Then you may load your own version.
+2. Overwrite all vanilla OOBs with empty files. OOB, or Order of Battle, is the definition of starting military forces in history/units. Unlike country history files, unit files are less sensitive since they only take effect when loaded in your script. Combining step 1 and step 2 will give you a clean state on game start, no country has naval variant or fleet. Then you got to paint your stuff on a blank sheet.
 
         2.1. An alternative way to clear starting fleets will be the effect "destroy_ships". If you find overwriting all OOBs is too complicated, you can also create a scripted effect which iterates every starting country and deletes its navy.
 
-3. Loading customized units and designs is the last step. It is achieved through hidden events. Some people say game is an art of interaction, and here is how I load everything without you even noticing it. By completing step 2, no country has navy upon game start, but as you may notice, there is an intro panel. The intro panel draws your attention, and your first reaction is to click continue. A trigger is set there, when it is clicked, it will fire a loading event which gives every country variants and fleets (If you choose step 2.1, this is where you can use it). Its effects are modified to have no popup, and done in an instant. Then you get everything set.
+3. Loading customized designs and units is the last step, which is achieved through hidden events. Some people say game is an art of interaction, and here is how I load everything without you even noticing it. By completing step 2, no country has navy upon game start, but as you may notice, there is an intro panel. The intro panel draws your attention, and your first reaction is to click continue. A trigger is set there, when it is clicked, it will fire a loading event which gives every country variants and fleets (If you choose step 2.1, this is where you can use it). Its effects are modified to have no popup, and done in an instant. Then you get everything set.
 
 Reference files:
 
@@ -160,9 +203,9 @@ Reference files:
 
 1. **Multiple customized ship icons for one hull**
 
-    NSB and BBA have introduced a new style of designer to the game, which you can choose the sprite for your tank/airplane from numerous icon presets. But ship designer still adopts the tradition from MTG that only equipment icons are available. Fortunately, this new feature is actually supported, just not applied. 
+    NSB and BBA have introduced a new style of designer to the game, which you can choose the sprite for your tank/airplane from numerous icon presets. But ship designer still adopts the tradition from MTG that only equipment/tech icons are available, rendering your choices quite limited. Fortunately, this new feature is actually supported, just not applied. 
 
-    This is achieved through graphic_db which is the database for icons in equipment designer. It seems that, even though ship designer owns a standalone UI, the way of accessing database is common among all designers. To do it, create a file for ship icons in gfx/interface/equipmentdesigner/graphic_db, then try to assign a pool of icons to each hull and each tag. For details, you can refer to tank and air icon files in the same location, which share the same style and grammar.
+    This is achieved through graphic_db which is the database for icons in equipment designer. It seems that, even though ship designer owns a standalone UI, the way of accessing database is common among all designers. To do it, create a file for ship icons in gfx/interface/equipmentdesigner/graphic_db, then try to assign a pool of icons to each hull and each tag. For details, you can refer to tank and air icon files in the same location, which share the same style of coding.
 
     As for unique icons for starting variants, that is actually a workaround. You can add a line "icon = xxx.dds" in the variant definition.
 

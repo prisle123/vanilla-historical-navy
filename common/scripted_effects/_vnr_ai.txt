@@ -226,4 +226,33 @@ set_shipyard_output_boost = {
 			add_ideas = vnr_ai_dd_output_boost_2
 		}
 	}
+	
+	### expert country treaty workaround
+	ENG = {
+		if = {
+			limit = { allow_to_use_expert_navy = yes }
+			add_timed_idea = {
+				idea = vnr_expert_navy_treaty_workaround
+				days = 730
+			}
+		}
+	}
+	USA = {
+		if = {
+			limit = { allow_to_use_expert_navy = yes }
+			add_timed_idea = {
+				idea = vnr_expert_navy_treaty_workaround
+				days = 730
+			}
+		}
+	}
+	JAP = {
+		if = {
+			limit = { allow_to_use_expert_navy = yes }
+			add_timed_idea = {
+				idea = vnr_expert_navy_treaty_workaround
+				days = 730
+			}
+		}
+	}
 }

@@ -413,7 +413,6 @@ equipment_modules = {
 		dismantle_cost_ic = 100000
 		build_cost_resources = {
 			steel = 1
-			chromium = 1
 		}
 	}
 
@@ -430,11 +429,15 @@ equipment_modules = {
 	}
 	ship_hull_carrier_role_cvl = {
 		category = cv_role
+		add_stats = {
+			max_organisation = -0.1
+		}
 		multiply_stats = {
 			build_cost_ic = -0.1
 			max_strength = -0.3
 			naval_speed = -0.1
 			anti_air_attack = -0.15
+			surface_visibility = -0.1
 		}
 		dismantle_cost_ic = 100000
 		forbid_module_categories = {
@@ -445,9 +448,11 @@ equipment_modules = {
 	ship_hull_carrier_role_cve = {
 		category = cve_role
 		gui_category = cv_role
-		multiply_stats = {
-			anti_air_attack = -0.1
+		add_stats = {
 			max_organisation = -0.2
+		}
+		multiply_stats = {
+			anti_air_attack = -0.25
 		}
 		dismantle_cost_ic = 100000
 		forbid_module_categories = {

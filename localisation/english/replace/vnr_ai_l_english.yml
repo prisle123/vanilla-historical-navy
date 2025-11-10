@@ -19,8 +19,8 @@
  RULE_AI_SHIP_DESIGN_STYLE: "AI Ship Design Style"
  RULE_OPTION_HISTORICAL: "Historical"
  RULE_OPTION_EXPERT: "Expert"
- RULE_AI_SHIP_DESIGN_STYLE_HISTORICAL_DESC: "AI will design historical ships, this is the old and default naval rework style."
- RULE_AI_SHIP_DESIGN_STYLE_EXPERT_DESC: "AI will design ships based on efficiency and produce meta ships.\n§RThis will make the naval battle more intense and break role play elements in this mod.§!"
+ RULE_AI_SHIP_DESIGN_STYLE_HISTORICAL_DESC: "AI will design historical ships with reasonable modules.\n\n§CThis is the old and default naval rework style.§!"
+ RULE_AI_SHIP_DESIGN_STYLE_EXPERT_DESC: "AI will design ships based on efficiency and produce meta ships.\n\nThis will §Rmake the naval battle more intense§! and §Rbreak role play elements in this mod§!. §YRecommended for players who want challenges§!."
  
  buff_ai_production: "AI Naval Production Buff"
  buff_ai_production_desc: "This is too easy."
@@ -40,8 +40,8 @@
  vnr_normal_production: "AI Production Buff: §GNormal§!"
 
  RULE_ALLOW_AI_TECH_AUTO_UNLOCK: "Allow AI Auto Research"
- RULE_ALLOW_AI_TECH_AUTO_UNLOCK_FREE_DESC: "AI will automatically unlock a group of naval technologies in the run."
- RULE_ALLOW_AI_TECH_AUTO_UNLOCK_BLOCKED_DESC: "AI won't automatically unlock naval technologies in the run.\n§RThis changes AI's behavior of picking tech, and may also affect its research in other fields.§!"
+ RULE_ALLOW_AI_TECH_AUTO_UNLOCK_FREE_DESC: "AI §Gwill automatically unlock§! a group of naval technologies in the run.\n\nThis option contains §RAI cheating§! that will §Yadvance unlocking certain techs§! if player chooses to §Crush future techs in either normal or cheating way§!."
+ RULE_ALLOW_AI_TECH_AUTO_UNLOCK_BLOCKED_DESC: "AI §Rwill not automatically unlock§! naval technologies in the run.\n\nThis will §Ychange§! AI's behavior with a §Ybalanced tendency§! to §Ypick different techs§!, but unavoidably making its naval research §Rslower§! than player's §Cdedicated naval run§!, and may §Raffect AI's research in other fields§!."
 
  RULE_SHIPYARD_OUTPUT_BOOST_PLAYER: "Player Shipyard Output Boost"
  RULE_SHIPYARD_OUTPUT_BOOST_AI: "AI Shipyard Output Boost"
@@ -56,11 +56,11 @@
  join_tactical_data_link_desc: "A joint tactical data link has been deployed by leading members of our faction. Despite a great chance to improve coordination with our allies, we can still choose to develop our own equivalent of data link system independently.\n§CIf access to allies data link is established, we will be unable to research our own data link system but instantly unlock a slightly inferior bonus with following stats:§!\n§YNaval Coordination:§! §G+10%§!\n§YNavy Org:§! §G+7.5%§!\n§YNavy Visibility:§! §G-7.5%§!"
 
  RULE_AI_NAVAL_MANAGEMENT: "Enable VNR Naval AI"
- RULE_AI_NAVAL_MANAGEMENT_FREE_DESC: "§GEnable§! naval AI management of combat designed for each specific major country in vanilla environment.\n§RDon't mix this option with mods changing states or regions.§!"
- RULE_AI_NAVAL_MANAGEMENT_BLOCKED_DESC: "§RDisable§! naval AI management of combat designed for each specific major country in vanilla environment.\n§YUse AI from base game or other mods you play along with VNR.§!"
+ RULE_AI_NAVAL_MANAGEMENT_FREE_DESC: "§GEnable§! naval management AI designed for each specific major country in vanilla environment.\n\nThis option is designed for §YHistorical Mode§! to make AI majors act §Yhistorically and competively§! in a §Chistorical WWII scenario§!, by making AI simulate well-known naval strategies such as §CUnrestricted Submarine Warfare§! and §CIsland Hopping§! in real history.\n\n§RThis option is not recommended for the followings:§!\n£white_dot Alt-history mods (even with compatch)\n£white_dot State/Region mods with changes about seas and oceans\n£white_dot Non-default WWII scenarios (random path/alt-history, anything not leading to Axis vs Allies)"
+ RULE_AI_NAVAL_MANAGEMENT_BLOCKED_DESC: "§RDisable§! naval management AI designed for each specific major country in vanilla environment.\n\n§YUse AI from base game or from other mods you play along with VNR.§!"
  RULE_AI_AIR_DESIGN: "Enable Improved AI Air Templates"
- RULE_AI_AIR_DESIGN_FREE_DESC: "§GEnable§! improved CV plane designs for AI countries.\n§RDon't mix this option with mods changing air techs.§!"
- RULE_AI_AIR_DESIGN_BLOCKED_DESC: "§RDisable§! improved CV plane designs for AI countries.\n§YUse AI from base game or other mods you play along with VNR.§!"
+ RULE_AI_AIR_DESIGN_FREE_DESC: "§GEnable§! improved CV plane designs for AI countries.\n\n§RThis option is not recommended for mods modifying air techs and plane designer.§!"
+ RULE_AI_AIR_DESIGN_BLOCKED_DESC: "§RDisable§! improved CV plane designs for AI countries.\n\n§YUse air AI from base game or from other mods you play along with VNR.§!"
  vnr_cv_plane_output_boost: "VNR CV Plane Output Boost"
 
  enable_ai_ship_design: "Select AI Ship Design"
@@ -73,3 +73,9 @@
  vnr_ai.3.d: "§RAlthough it is recommended to enable expert AI in rule setup before you start the game§!, you can always enable it in mid-game by using this decision, just in case that you miss the feature. To give AI a kickstart, transitioning from historical designs to expert designs, it will be granted some free xp.\n\n§RPlease note that this option should not be mixed with mods changing plane techs and modules. If you have such mods, do not switch this to expert.§!"
  vnr_ai.3.1: "§RSwitch to Expert§!"
  vnr_ai.3.2: "§GSwitch to Vanilla§!"
+
+ RULE_ENG_EXPERT_NAVY: "@ENG Expert Royal Navy"
+ RULE_USA_EXPERT_NAVY: "@USA Expert United States Navy"
+ RULE_JAP_EXPERT_NAVY: "@JAP Expert Imperial Japanese Navy"
+ RULE_AI_EXPERT_NAVY_BLOCKED_DESC: "Starting ships of this country will not be changed."
+ RULE_AI_EXPERT_NAVY_FREE_DESC: "Switch all starting ships of this country to expert AI designs.\n\nThis rule only takes effect when §YAI Ship Design Style§! is set to §CExpert§! and this country is §RAI controlled§!."

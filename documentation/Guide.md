@@ -75,7 +75,9 @@ Unlike vanilla, the traditional definition of light or heavy cruiser has been re
 - Heavy capital cruiser is the same as heavy cruiser in basegame with a capital ship related role.
 - Heavy fleet cruiser is a screen ship version of heavy cruiser with medium guns and a screen ship related role.
 - Light cruiser is the same as its origin in basegame with light medium guns and a screen ship related role.
+
 and it prompts to 3 types of cruiser guns:
+
 - Heavy medium gun: for large cruiser exclusively, heavy attack oriented, firepower slightly inferior to WWI dreadnoughts
 - Medium gun: balanced between heavy and light attack, universal but not very effective to heavy ships (half penetration)
 - Light medium gun: light attack oriented, unable to pierce heavy armor, almost useless towards heavy ships (it can hit but only leave scratches)

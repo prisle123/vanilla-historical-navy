@@ -60,7 +60,7 @@ equipments = {
 			}
 			fixed_ship_carrier_miscellaneous_slot_2 = { 
 				required = no
-				allowed_module_categories = { carrier_miscellaneous carrier_island }
+				allowed_module_categories = { carrier_miscellaneous carrier_island carrier_civilian_material }
 			}
 			fixed_ship_flight_deck_slot = {
 				required = yes
@@ -80,10 +80,6 @@ equipments = {
 
 		module_count_limit = {
 			category = ship_radar
-			count < 2
-		}
-		module_count_limit = {
-			module = carrier_civilian_material
 			count < 2
 		}
 		module_count_limit = {
@@ -134,8 +130,7 @@ equipments = {
 
 		build_cost_ic = 1600
 		resources = {
-			steel = 2
-			chromium = 1
+			steel = 1
 		}
 
 		manpower = 3000
@@ -180,14 +175,14 @@ equipments = {
 		}
 		naval_range = 3000
 
-		max_strength = 80
+		max_strength = 60
 
 		reliability = 0.65
 		naval_speed = 20
 		surface_visibility = 22
 		build_cost_ic = 1200
 		resources = {
-			steel = 2
+			steel = 1
 		}
 		manpower = 1300
 	}
@@ -265,8 +260,7 @@ equipments = {
 
 		build_cost_ic = 2800
 		resources = {
-			steel = 3
-			chromium = 1
+			steel = 1
 		}
 		manpower = 3500
 	}
@@ -417,6 +411,7 @@ equipments = {
 		reliability = 0.75
 		max_strength = 125
 		naval_speed = 28
+		surface_visibility = 25
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -426,8 +421,7 @@ equipments = {
 
 		build_cost_ic = 2200
 		resources = {
-			steel = 3
-			chromium = 1
+			steel = 2
 		}
 		manpower = 3100
 	}
@@ -454,7 +448,7 @@ equipments = {
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
 			fixed_ship_carrier_miscellaneous_slot_2 = {
 				required = no
-				allowed_module_categories = { carrier_miscellaneous carrier_island coldwar_upgrade_cv }
+				allowed_module_categories = { carrier_miscellaneous carrier_island coldwar_upgrade_cv carrier_civilian_material }
 			}
 			fixed_ship_flight_deck_slot = inherit
 			fixed_ship_role_slot = inherit
@@ -522,6 +516,7 @@ equipments = {
 		reliability = 0.8
 		max_strength = 140
 		naval_speed = 28
+		surface_visibility = 27
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -530,8 +525,7 @@ equipments = {
 
 		build_cost_ic = 2600
 		resources = {
-			steel = 3
-			chromium = 2
+			steel = 2
 		}
 		manpower = 3500
 	}
@@ -560,13 +554,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = { carrier_ship_engine cruiser_ship_engine civilian_ship_engine }
 			}
-			# fixed_ship_carrier_miscellaneous_slot_1 = { 
-			# 	required = no
-			# 	allowed_module_categories = { carrier_unit }
-			# }
+			fixed_ship_carrier_miscellaneous_slot_1 = { 
+				required = no
+				allowed_module_categories = { carrier_island }
+			}
 			fixed_ship_carrier_miscellaneous_slot_2 = { 
 				required = no
-				allowed_module_categories = { carrier_miscellaneous carrier_island }
+				allowed_module_categories = { carrier_miscellaneous carrier_civilian_material }
 			}
 			fixed_ship_flight_deck_slot = inherit
 			fixed_ship_role_slot = {
@@ -581,6 +575,7 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_role_slot = ship_hull_carrier_role_cve
 		}
 		naval_range = 3000
 
@@ -624,9 +619,13 @@ equipments = {
 				allowed_module_categories = { civilian_ship_engine }
 			}
 			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_carrier_miscellaneous_slot_1 = {
+				required = no
+				allowed_module_categories = { carrier_island }
+			}
 			fixed_ship_carrier_miscellaneous_slot_2 = {
 				required = yes
-				allowed_module_categories = { carrier_miscellaneous }
+				allowed_module_categories = { carrier_civilian_material }
 			}
 			fixed_ship_role_slot = {
 				required = yes
@@ -639,7 +638,7 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = civilian_ship_engine_1
-			fixed_ship_carrier_miscellaneous_slot_2 = carrier_civilian_material
+			fixed_ship_role_slot = ship_hull_carrier_role_cve
 		}
 		naval_range = 2000
 
@@ -658,10 +657,6 @@ equipments = {
 		module_count_limit = {
 			module = carrier_secondary_island
 			count < 1
-		}
-		module_count_limit = {
-			module = carrier_civilian_material
-			count > 0
 		}
 	}
 
@@ -767,8 +762,7 @@ equipments = {
 
 		build_cost_ic = 3000
 		resources = {
-			steel = 4
-			chromium = 2
+			steel = 2
 		}
 		manpower = 5000
 	}
@@ -870,8 +864,7 @@ equipments = {
 
 		build_cost_ic = 6500
 		resources = {
-			steel = 4
-			chromium = 2
+			steel = 2
 		}
 		manpower = 6500
 	}

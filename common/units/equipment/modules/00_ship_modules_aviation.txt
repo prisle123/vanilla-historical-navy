@@ -88,10 +88,10 @@ equipment_modules = {
 	ship_deck_space_small = {
 		category = ship_deck_space_small
 		add_equipment_type = capital_ship
-		gui_category = ship_deck_space
+		gui_category = ship_deck_space_special
 		add_stats = {
 			carrier_size = 1
-			build_cost_ic = 500
+			build_cost_ic = 700
 			surface_detection = 2
 			max_strength = 20
 			anti_air_attack = 0.5
@@ -131,7 +131,7 @@ equipment_modules = {
 	}
 	ship_deck_space_bb = {
 		category = ship_deck_space_bb
-		gui_category = ship_deck_space
+		gui_category = ship_deck_space_special
 		add_equipment_type = carrier
 		gfx = ship_deck_space
 		add_stats = {
@@ -145,11 +145,12 @@ equipment_modules = {
 		manpower = 125
 		multiply_stats = {
 			naval_speed = -0.05
-			max_strength = -0.1
+			max_strength = -0.25
 			fuel_consumption = 0.05
 			surface_visibility = 0.05
 		}
 		dismantle_cost_ic = 2000
+		critical_parts = { damaged_bb_flight_deck }
 	}
 	ship_deck_space_mega = {
 		category = ship_deck_space_mega
@@ -249,7 +250,7 @@ equipment_modules = {
 			steel = 1
 		}
 		multiply_stats = {
-			naval_speed = -0.05
+			naval_speed = -0.1
 			anti_air_attack = 0.06
 			build_cost_ic = 0.15
 		}
@@ -268,7 +269,29 @@ equipment_modules = {
 		dismantle_cost_ic = 1500
 
 		critical_parts = { damaged_wooden_flight_deck }
-	}	
+	}
+	carrier_strength_deck = {
+		category = ship_flight_deck
+		add_equipment_type = capital_ship
+		parent = carrier_armor_deck
+		add_stats = {
+			reliability = 0.15
+			max_strength = 80
+		}
+		build_cost_resources = {
+			steel = 1
+			chromium = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.125
+			armor_value = 0.1
+			anti_air_attack = 0.1
+			build_cost_ic = 0.25
+		}
+		dismantle_cost_ic = 3500
+
+		critical_parts = { damaged_armored_flight_deck }
+	}
 
 
 ############################
@@ -315,10 +338,6 @@ equipment_modules = {
 			anti_air_attack = 0.05
 		}
 
-		build_cost_resources = {
-			steel = 1
-		}
-
 		dismantle_cost_ic = 400
 	}
 
@@ -331,10 +350,6 @@ equipment_modules = {
 			carrier_size = 1
 			max_organisation = 0.2
 			build_cost_ic = 2000
-		}
-
-		build_cost_resources = {
-			steel = 1
 		}
 
 		dismantle_cost_ic = 1250
@@ -401,9 +416,10 @@ equipment_modules = {
 		}
 	}
 	carrier_civilian_material = {
-		category = carrier_miscellaneous
+		category = carrier_civilian_material
+		gui_category = carrier_miscellaneous
 		add_stats = {
-			reliability = -0.15
+			reliability = -0.3
 			max_organisation = -0.2
 		}
 		multiply_stats = {
@@ -414,7 +430,12 @@ equipment_modules = {
 			naval_range = -0.2
 			build_cost_ic = -0.2
 		}
-		dismantle_cost_ic = 1500
+		dismantle_cost_ic = 100000
+		forbid_module_categories = {
+			ship_carrier_armor
+			ship_carrier_armor_heavy
+			ship_carrier_armor_shbb
+		}
 	}
 	carrier_secondary_island = {
 		category = carrier_island
@@ -448,21 +469,6 @@ equipment_modules = {
 			ship_radar
 		}
 	}
-	carrier_strength_deck = {
-		category = carrier_miscellaneous
-		add_stats = {
-			reliability = 0.1
-			max_strength = 100
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		multiply_stats = {
-			naval_speed = -0.025
-			armor_value = 0.1
-			build_cost_ic = 0.15
-		}
-	}
 	carrier_tracing_unit = {
 		category = carrier_unit
 		add_stats = {
@@ -490,9 +496,5 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 50000
-		build_cost_resources = {
-			steel = 1
-			chromium = 1
-		}
 	}
 }
