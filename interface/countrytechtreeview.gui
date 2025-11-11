@@ -2377,8 +2377,8 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "tiled_research_bg_3"
-				position = { x=1270 y=625 }
-				size = { width = 230 height = 270 }
+				position = { x=1320 y=645 }
+				size = { width = 570 height = 150 }
 				clipping = no
 
 				background = {
@@ -2397,9 +2397,9 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "naval_radio_guiding_system_tree"
-				position = { x = 1270 y = 625 }
+				position = { x = 1370 y = 630 }
 				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 35 }
+				slotsize = { width = 65 height = 35 }
 				format = "LEFT"
 			}
 
