@@ -2039,17 +2039,7 @@ guiTypes = {
 					quadTextureSprite ="GFX_tiled_research_bg"
 				}
 			}
-			containerWindowType = {
-				name = "tiled_research_bg_3"
-				position = { x=550 y=955 }
-				size = { width = 230 height = 270 }
-				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_research_red_bg"
-				}
-			}
+			
 			containerWindowType = {
 				name = "tiled_research_bg_4"
 				position = { x=95 y=1225 }
@@ -2383,6 +2373,17 @@ guiTypes = {
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_tiled_window_transparent_transparent"
+				}
+			}
+			containerWindowType = {
+				name = "tiled_research_bg_3"
+				position = { x=1270 y=625 }
+				size = { width = 230 height = 270 }
+				clipping = no
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_red_bg"
 				}
 			}
 
