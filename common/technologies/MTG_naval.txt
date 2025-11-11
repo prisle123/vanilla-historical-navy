@@ -4635,18 +4635,17 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_1_tt
 		}
-		research_cost = 1.25
+		research_cost = 1.5
 		start_year = 1939
 
-		xp_research_type = navy
-		xp_boost_cost = 10
+		xp_research_type = air
+		xp_boost_cost = 50
 		xp_research_bonus = 1.25
 
 		cv_cas = {
 			naval_strike_attack = 0.2
 			naval_strike_targetting = 0.15
 			air_agility = 0.15
-			maximum_speed = 0.1
 		}
 
 		folder = {
@@ -4663,10 +4662,6 @@ technologies = {
 				}
 				factor = 4
 			}
-		}
-
-		dependencies = {
-			armor_piercing_bombs = 1
 		}
 
 		special_project_specialization = { specialization_naval specialization_air }
