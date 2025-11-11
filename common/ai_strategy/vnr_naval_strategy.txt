@@ -27,6 +27,16 @@ ENG_protect_home_waters = {
         id = 18
         value = -1000
     }
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 173
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 207
+		value = 500
+	}
 }
 
 ENG_secure_mediterranean = {
@@ -1073,5 +1083,20 @@ GER_invade_norway = {
 		type = invade
 		id = NOR
 		value = 1000
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		tag = NOR
+		value = 50
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 173
+		value = 50
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 207
+		value = 300
 	}
 }
