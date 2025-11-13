@@ -902,7 +902,7 @@ ITA_avoid_mediterranean = {
     ai_strategy = {
         type = strike_force_home_base
         id = 29
-        value = -1000
+        value = 50
     }
     ai_strategy = {
         type = strike_force_home_base
@@ -938,13 +938,7 @@ ITA_avoid_mediterranean = {
 	ai_strategy = {
 		type = naval_convoy_raid_region
 		id = 29
-		value = 100
-	}
-
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 29
-		value = 800
+		value = 1000
 	}
 }
 
@@ -986,13 +980,14 @@ GER_unrestricted_submarine_warfare = {
             tag = ENG
             ratio < 0.7
         }
+		FRA = { has_capitulated = yes }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
     ai_strategy = {
         type = naval_convoy_raid_region
         id = 47
-        value = 200
+        value = 500
     }
     ai_strategy = {
         type = naval_convoy_raid_region
@@ -1002,12 +997,17 @@ GER_unrestricted_submarine_warfare = {
     ai_strategy = {
         type = naval_convoy_raid_region
         id = 44
-        value = 150
+        value = 500
     }
     ai_strategy = {
         type = naval_convoy_raid_region
         id = 50
-        value = 30
+        value = 300
+    }
+	ai_strategy = {
+        type = naval_convoy_raid_region
+        id = 42
+        value = 300
     }
 
 	ai_strategy = {
