@@ -415,7 +415,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = ca_tech_6_tt
+			custom_effect_tooltip = dd_tech_11_tt
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
@@ -670,7 +670,7 @@ technologies = {
 			ship_secondaries_4
 		}
 		on_research_complete = {
-			custom_effect_tooltip = ca_tech_6_tt
+			custom_effect_tooltip = ca_tech_12_tt
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
 
@@ -818,7 +818,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_3_tt
+			custom_effect_tooltip = bb_tech_11_tt
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
 
@@ -986,6 +986,7 @@ technologies = {
 		}
 
 		on_research_complete = {
+			custom_effect_tooltip = dd_tech_10_tt
 			custom_effect_tooltip = secondary_battery_advice_tt
 		}
 
@@ -1029,6 +1030,7 @@ technologies = {
 		}
 
 		on_research_complete = {
+			custom_effect_tooltip = dd_tech_10_tt
 			custom_effect_tooltip = secondary_battery_advice_tt
 		}
 
@@ -1077,6 +1079,7 @@ technologies = {
 		}
 
 		on_research_complete = {
+			custom_effect_tooltip = dd_tech_11_tt
 			custom_effect_tooltip = secondary_battery_advice_tt
 		}
 
@@ -1122,6 +1125,7 @@ technologies = {
 		}
 
 		on_research_complete = {
+			custom_effect_tooltip = ca_tech_12_tt
 			custom_effect_tooltip = secondary_battery_advice_tt
 		}
 
@@ -1181,7 +1185,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_3_tt
+			custom_effect_tooltip = bb_tech_8_tt
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
 
@@ -1227,7 +1231,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_3_tt
+			custom_effect_tooltip = bb_tech_8_tt
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
 
@@ -1265,7 +1269,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_3_tt
+			custom_effect_tooltip = bb_tech_8_tt
 			custom_effect_tooltip = heavy_battery_advice_tt
 		}
 
@@ -1345,6 +1349,10 @@ technologies = {
 			naval_light_gun_hit_chance_factor = 0.05
 		}
 
+		on_research_complete = {
+			custom_effect_tooltip = dd_tech_12_tt
+		}
+
 		dependencies = {
 			advanced_fire_control_system = 1
 			radio = 1
@@ -1385,6 +1393,7 @@ technologies = {
 		start_year = 1949
 
 		on_research_complete = {
+			custom_effect_tooltip = dd_tech_12_tt
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
