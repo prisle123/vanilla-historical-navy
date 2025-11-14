@@ -1,7 +1,6 @@
 ### ENG ###
 ENG_protect_home_waters = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = ENG
     }
     enable = {
@@ -41,7 +40,6 @@ ENG_protect_home_waters = {
 
 ENG_secure_mediterranean = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = ENG
     }
     enable = {
@@ -79,7 +77,6 @@ ENG_secure_mediterranean = {
 
 ENG_avoid_mediterranean = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = ENG
     }
     enable = {
@@ -114,7 +111,6 @@ ENG_avoid_mediterranean = {
 
 ENG_avoid_pacific = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = ENG
     }
     enable = {
@@ -150,7 +146,6 @@ ENG_avoid_pacific = {
 
 ENG_reinforce_pacific = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = ENG
     }
     enable = {
@@ -210,7 +205,6 @@ ENG_reinforce_pacific = {
 ### JAP ###
 JAP_destroy_china_navy_quick = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = JAP
     }
     enable = {
@@ -254,7 +248,6 @@ JAP_destroy_china_navy_quick = {
 
 JAP_pacific_war_naval_stage_one = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = JAP
     }
     enable = {
@@ -290,7 +283,6 @@ JAP_pacific_war_naval_stage_one = {
 
 JAP_pacific_war_naval_stage_two = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = JAP
     }
     enable = {
@@ -353,7 +345,6 @@ JAP_pacific_war_naval_stage_two = {
 ### USA ###
 USA_pacific_war_naval_avoid_first = {
 	allowed = {
-        has_dlc = "Man the Guns"
 		original_tag = USA
 	}
 	enable = {
@@ -454,7 +445,6 @@ USA_pacific_war_naval_avoid_first = {
 
 USA_do_not_waste_fleet_in_north_pacific = {
 	allowed = {
-        has_dlc = "Man the Guns"
 		original_tag = USA
 	}
 	enable = {
@@ -463,40 +453,39 @@ USA_do_not_waste_fleet_in_north_pacific = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_avoid_region
 		id = 87
-		value = -1000
+		value = 1000
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_avoid_region
 		id = 88
-		value = -1000
+		value = 1000
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_avoid_region
 		id = 96
-		value = -1000
+		value = 1000
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_avoid_region
 		id = 176
-		value = -1000
+		value = 1000
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_avoid_region
 		id = 114
-		value = -1000
+		value = 1000
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_avoid_region
 		id = 171
-		value = -1000
+		value = 1000
 	}
 }
 
 USA_pacific_war_naval_counterattack_1 = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = USA
     }
     enable = {
@@ -643,7 +632,6 @@ USA_pacific_war_naval_counterattack_1 = {
 
 USA_pacific_war_naval_counterattack_2 = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = USA
     }
     enable = {
@@ -775,15 +763,14 @@ USA_pacific_war_naval_counterattack_2 = {
 
 	ai_strategy = {
 		type = front_control
-		area = pacific
-		ordertype = home_islands
+		area = home_islands
+		ordertype = invasion
     	execute_order = yes
 	}
 }
 
 USA_pacific_war_naval_counterattack_3 = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = USA
     }
     enable = {
@@ -878,8 +865,8 @@ USA_pacific_war_naval_counterattack_3 = {
 
 	ai_strategy = {
 		type = front_control
-		area = pacific
-		ordertype = home_islands
+		area = home_islands
+		ordertype = invasion
     	execute_order = yes
 	}
 }
@@ -887,7 +874,6 @@ USA_pacific_war_naval_counterattack_3 = {
 ### ITA ###
 ITA_avoid_mediterranean = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = ITA
     }
     enable = {
@@ -945,7 +931,6 @@ ITA_avoid_mediterranean = {
 ### GER ###
 GER_forget_sealion = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = GER
     }
     enable = {
@@ -967,11 +952,15 @@ GER_forget_sealion = {
         id = 16
         value = 200
     }
+	ai_strategy = {
+		type = invade
+		tag = ENG
+		value = -500
+	}
 }
 
 GER_unrestricted_submarine_warfare = {
     allowed = {
-        has_dlc = "Man the Guns"
         original_tag = GER
     }
     enable = {
@@ -1029,7 +1018,6 @@ GER_unrestricted_submarine_warfare = {
 
 GER_avoid_mediterranean = {
 	allowed = {
-        has_dlc = "Man the Guns"
         original_tag = GER
     }
     enable = {
@@ -1068,7 +1056,6 @@ GER_avoid_mediterranean = {
 
 GER_invade_norway = {
 	allowed = {
-        has_dlc = "Man the Guns"
         original_tag = GER
     }
 	enable = {
