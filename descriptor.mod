@@ -1,4 +1,4 @@
-version="v2.5 - Santa Cruz"
+version="v2.6 - Tarawa Thunder"
 tags={
 	"Military"
 	"Graphics"
