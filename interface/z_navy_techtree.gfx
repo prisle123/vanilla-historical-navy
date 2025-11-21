@@ -397,7 +397,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Generic/generic_auxiliary_ship3.png"
 	}
 	spriteType = {
-		name = "GFX_repair_ship_medium"
+		name = "GFX_support_fleet_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/repair_ship.png"
 	}
 	spriteType = {
@@ -406,6 +406,18 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_logistic_system_redundancy_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/logistic_system_redundancy.png"
+	}
+	spriteType = {
+		name = "GFX_support_fleet_ncns_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/repair_ship.png"
+	}
+	spriteType = {
+		name = "GFX_floating_dry_dock_ncns_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/floating_dry_dock.png"
+	}
+	spriteType = {
+		name = "GFX_logistic_system_redundancy_ncns_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/logistic_system_redundancy.png"
 	}
 	spriteType = {
