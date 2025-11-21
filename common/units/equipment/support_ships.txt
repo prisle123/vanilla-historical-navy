@@ -45,7 +45,7 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 10
-		naval_speed = 32
+		naval_speed = 18
 		reliability = 0.80
 		
 		naval_range = 3000
@@ -96,6 +96,7 @@ equipments = {
 		}
 		max_strength = 40
 		naval_range = 4000
+		naval_speed = 20
 		build_cost_ic = 650
 		manpower = 350
 		module_slots = inherit

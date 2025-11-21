@@ -47,11 +47,12 @@ capital_screening_bonus = {
 # This is scaled based on support ratio
 naval_general_support = {
 	navy_max_range_factor = 0.2
-	naval_morale_factor = 0.1
+    navy_fuel_consumption_factor = -0.1
 }
 
 # This is scaled based on support ratio
 naval_repair_support = {
-	naval_critical_effect_factor = -0.1
+	naval_critical_effect_factor = -0.25
 	naval_ship_recovery_chance = 0.1
+	naval_attrition = -0.075
 }
