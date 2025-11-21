@@ -43,3 +43,15 @@ capital_screening_bonus = {
     naval_retreat_speed = 0.2
     navy_anti_air_attack_factor = 0.15
 }
+
+# This is scaled based on support ratio
+naval_general_support = {
+	navy_max_range_factor = 0.2
+	naval_morale_factor = 0.1
+}
+
+# This is scaled based on support ratio
+naval_repair_support = {
+	naval_critical_effect_factor = -0.1
+	naval_ship_recovery_chance = 0.1
+}
