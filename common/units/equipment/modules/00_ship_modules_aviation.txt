@@ -21,7 +21,6 @@ equipment_modules = {
 			max_organisation = -0.2
 			carrier_surface_detection = 5
 			supply_consumption = 0.02
-			naval_dominance_factor = 15
 		}
 		manpower = 300 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -46,7 +45,6 @@ equipment_modules = {
 			anti_air_attack = 2.5
 			carrier_surface_detection = 4
 			supply_consumption = 0.015
-			naval_dominance_factor = 10
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -74,7 +72,6 @@ equipment_modules = {
 			anti_air_attack = 1.5
 			supply_consumption = 0.015
 			reliability = -0.025
-			naval_dominance_factor = 10
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -99,7 +96,6 @@ equipment_modules = {
 			max_strength = 20
 			anti_air_attack = 0.5
 			supply_consumption = 0.01
-			naval_dominance_factor = 5
 		}
 		multiply_stats = {
 			naval_speed = -0.025
@@ -123,7 +119,6 @@ equipment_modules = {
 			max_strength = 55
 			anti_air_attack = 3
 			supply_consumption = 0.025
-			naval_dominance_factor = 15
 		}
 		manpower = 300
 		multiply_stats = {
@@ -146,7 +141,6 @@ equipment_modules = {
 			max_organisation = -0.1
 			carrier_surface_detection = 2
 			supply_consumption = 0.015
-			naval_dominance_factor = 5
 		}
 		manpower = 125
 		multiply_stats = {
@@ -172,7 +166,6 @@ equipment_modules = {
 			reliability = -0.1
 			anti_air_attack = 3
 			supply_consumption = 0.03
-			naval_dominance_factor = 15
 		}
 		manpower = 450 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -196,7 +189,6 @@ equipment_modules = {
 			reliability = -0.025
 			anti_air_attack = 1.5
 			supply_consumption = 0.015
-			naval_dominance_factor = 10
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
