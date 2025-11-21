@@ -3527,6 +3527,8 @@ technologies = {
 	support_fleet_ncns = {
 		research_cost = 0.3
 		start_year = 1920
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
 
 		ai_will_do = {
 			factor = 0.25
@@ -3600,6 +3602,8 @@ technologies = {
 	logistic_system_redundancy_ncns = {
 		research_cost = 0.8
 		start_year = 1942
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
 
 		ai_will_do = {
 			factor = 0.25
@@ -3618,7 +3622,7 @@ technologies = {
 		submarine = {
 			reliability = 0.1
 		}
-		enable_equipment_modules = {
+		enable_equipments = {
 			support_ship_2
 			repair_ship_2
 		}
