@@ -214,6 +214,7 @@ equipments = {
 		}
 
 		manpower = 250
+		naval_dominance_factor = 20
 	}
 
 	### vnr hulls
@@ -238,6 +239,7 @@ equipments = {
 		max_strength = 30
 
 		build_cost_ic = 200
+		naval_dominance_factor = 20
 	}
 
 	vnr_ship_hull_light_2 = {
@@ -253,6 +255,7 @@ equipments = {
 		#alias = destroyer_1
 
 		module_slots = inherit
+		naval_dominance_factor = 24
 	}
 
 	vnr_ship_hull_light_3 = {
@@ -284,6 +287,7 @@ equipments = {
 			steel = 2
 		}
 		manpower = 325
+		naval_dominance_factor = 28
 	}
 
 	vnr_ship_hull_light_4 = {
@@ -323,6 +327,7 @@ equipments = {
 			category = ship_anti_air
 			count < 5
 		}
+		naval_dominance_factor = 32
 	}
 
 	vnr_ship_hull_light_5 = {
@@ -416,6 +421,7 @@ equipments = {
 			category = ship_anti_air
 			count < 5
 		}
+		naval_dominance_factor = 36
 	}
 
 	vnr_ship_hull_light_6 = {
@@ -555,5 +561,6 @@ equipments = {
 			category = ship_anti_air
 			count < 5
 		}
+		naval_dominance_factor = 40
 	}
 }

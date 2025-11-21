@@ -206,7 +206,7 @@ equipments = {
 
 		manpower = 2000
 
-		naval_supremacy_factor = 2.6
+		naval_dominance_factor = 300
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
 		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
@@ -311,6 +311,7 @@ equipments = {
 		}
 
 		manpower = 1500
+		naval_dominance_factor = 250
 	}
 
 
@@ -449,6 +450,7 @@ equipments = {
 		fuel_consumption = 63
 		surface_visibility = 38
 		build_cost_ic = 2000
+		naval_dominance_factor = 300
 	}
 
 	vnr_ship_hull_heavy_2 = {
@@ -485,6 +487,7 @@ equipments = {
 		surface_visibility = 37
 		build_cost_ic = 2300
 		manpower = 2200
+		naval_dominance_factor = 310
 	}
 
 	vnr_ship_hull_heavy_3 = {
@@ -514,6 +517,7 @@ equipments = {
 		build_cost_ic = 2500
 
 		manpower = 2500
+		naval_dominance_factor = 320
 	}
 
 	vnr_ship_hull_heavy_4 = {
@@ -546,6 +550,7 @@ equipments = {
 		}
 
 		manpower = 2800
+		naval_dominance_factor = 330
 	}
 
 	vnr_ship_hull_heavy_5 = {
@@ -659,6 +664,7 @@ equipments = {
 		}
 
 		manpower = 3800
+		naval_dominance_factor = 340
 	}
 
 	vnr_ship_hull_super_heavy_1 = {
@@ -789,6 +795,7 @@ equipments = {
 			steel = 3
 		}
 		manpower = 3500
+		naval_dominance_factor = 330
 	}
 
 	vnr_ship_hull_arsenal_ship = {
@@ -920,5 +927,6 @@ equipments = {
 			module = ship_decoy_launcher
 			count < 2
 		}
+		naval_dominance_factor = 350
 	}
 }
