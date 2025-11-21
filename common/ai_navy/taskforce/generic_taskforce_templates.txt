@@ -217,43 +217,6 @@ ConvoyEscort_1 = {
 		}
 	}
 }
-
-MineLaying_1 = {
-	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { mines_planting }
-	min_composition = {
-		destroyer = {
-			amount = 1
-			role = 4
-		}
-	}
-	
-	optimal_composition = {
-		destroyer = {
-			amount = 4
-			role = 4
-		}
-		
-		light_cruiser = {
-			amount = 2
-			role = 4
-		}
-	}
-}
-
 #NavalInvasionSupport_1 = { #Commented out for now as it throws the error, for some reason
 #	allowed = {
 #		NOT = {

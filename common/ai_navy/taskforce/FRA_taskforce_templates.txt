@@ -138,31 +138,3 @@ FRA_ConvoyEscort_1 = {
 		}
 	}
 }
-
-FRA_MineLaying_1 = {
-	allowed = {
-		original_tag = FRA
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	mission = { mines_planting }
-	min_composition = {
-		destroyer = {
-			amount = 1
-			role = 4
-		}
-	}
-	
-	optimal_composition = {
-		destroyer = {
-			amount = 4
-			role = 4
-		}
-		
-		light_cruiser = {
-			amount = 1
-			role = 4
-		}
-	}
-}

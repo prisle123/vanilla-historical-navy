@@ -169,31 +169,3 @@ GER_ConvoyEscort_1 = {
 		}
 	}
 }
-
-GER_MineLaying_1 = {
-	allowed = {
-		original_tag = GER
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { mines_planting }
-	min_composition = {
-		destroyer = {
-			amount = 1
-			role = 4
-		}
-	}
-	
-	optimal_composition = {
-		destroyer = {
-			amount = 4
-			role = 4
-		}
-		
-		light_cruiser = {
-			amount = 1
-			role = 4
-		}
-	}
-}
