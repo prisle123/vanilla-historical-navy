@@ -9,4 +9,9 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/doctrine_tree/torpedo_groups.png"
 		alwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_doctrine_naval_airforce_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/naval_airforce.png"
+		alwaystransparent = yes
+	}
 }

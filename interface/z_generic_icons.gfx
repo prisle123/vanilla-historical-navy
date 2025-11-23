@@ -352,4 +352,20 @@ spriteTypes = {
 				name = "GFX_vnr_ship_hull_merchant_carrier_medium"
 				texturefile = "gfx/interface/technologies/Generic/generic_merchant_carrier.png"
 			}
+			spriteType = {
+				name = "GFX_support_ship_1_medium"
+				texturefile = "gfx/interface/technologies/Generic/support_ship1.png"
+			}
+			spriteType = {
+				name = "GFX_support_ship_2_medium"
+				texturefile = "gfx/interface/technologies/Generic/support_ship2.png"
+			}
+			spriteType = {
+				name = "GFX_repair_ship_1_medium"
+				texturefile = "gfx/interface/technologies/Generic/repair_ship1.png"
+			}
+			spriteType = {
+				name = "GFX_repair_ship_2_medium"
+				texturefile = "gfx/interface/technologies/Generic/repair_ship2.png"
+			}
 }

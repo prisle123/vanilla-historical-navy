@@ -28,11 +28,18 @@ convoy_escort = {
 			destroyer = {
 				sub_detection = 0.10
 			}
+			light_cruiser = {
+				sub_detection = 0.10
+			}
 		}
         escort_reclassification = {
 			destroyer = {
 				max_organisation = 10
 			}
+			light_cruiser = {
+				max_organisation = 5
+			}
+			convoy_escort_efficiency = 0.05
 		}
 		sweeping_duty = {
 			mines_sweeping_by_fleets_factor = 0.15
@@ -42,11 +49,18 @@ convoy_escort = {
 				sub_detection = 0.10
 				lg_attack = 0.05
 			}
+			light_cruiser = {
+				surface_detection = 0.1
+			}
 		}
 		as_below_so_above = {
 			destroyer = {
 				anti_air_attack = 0.15
 			}
+			light_cruiser = {
+				anti_air_attack = 0.15
+			}
+			convoy_escort_efficiency = 0.05
 		}
     }
 }
@@ -83,6 +97,7 @@ support_integrated_operations = {
         first_line_of_defense = {
 			destroyer = {
 				max_organisation = 5
+				anti_air_attack = 0.1
 			}
 			modifier = {
 				convoy_retreat_speed = 0.1
@@ -94,27 +109,32 @@ support_integrated_operations = {
 				surface_detection = 0.05
 			}
 		}
-		blue_water_training = {
-			equipment_bonus ={
-                ship_hull_cruiser = {
-				    naval_weather_penalty_factor = -0.25
-                }
-            }
+		rescue_mission = {
+			modifier = {
+				navy_casualty_on_hit = -0.2
+				navy_casualty_on_sink = -0.35
+			}
 		}
 		fleet_coordination = {
 			light_cruiser = {
 				max_organisation = 5
+				sub_detection = 0.1
 			}
 			destroyer = {
 				max_organisation = 5
+				sub_detection = 0.1
 			}
 			screening_efficiency = 0.10
 		}
 		early_warning = {
 			destroyer = {
+				max_organisation = 5
+				anti_air_attack = 0.1
 				surface_detection = 0.10
 			}
 			light_cruiser = {
+				max_organisation = 5
+				anti_air_attack = 0.1
 				surface_detection = 0.10
 			}
 		}
@@ -172,14 +192,17 @@ hunter_killers = {
 		convoy_escort = {
 			modifier = {
 				convoy_escort_efficiency = 0.1
+				convoy_retreat_speed = 0.1
 			}
 		}
 		light_force = {
 			light_cruiser = {
 				max_organisation = 5
+				sub_detection = 0.05
 			}
 			destroyer = {
 				max_organisation = 5
+				sub_detection = 0.05
 			}
 			modifier = {
 				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
@@ -256,7 +279,13 @@ jeune_ecole = {
    		always = yes
     }
 
-    convoy_raiding_efficiency_factor = 0.3
+    convoy_raiding_efficiency_factor = 0.1
+	destroyer = {
+		torpedo_attack = 0.1
+	}
+	light_cruiser = {
+		torpedo_attack = 0.1
+	}
 
     rewards = {
 
