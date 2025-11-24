@@ -32,3 +32,66 @@ special_project_workaround = {
 		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 }
+
+ai_doctrine_workaround = {
+	ENG = {
+		if = {
+			limit = { is_ai = yes }
+			set_sub_doctrine = fast_battleship_primacy
+			set_sub_doctrine = floating_airfields
+			set_sub_doctrine = hunter_killers
+			set_sub_doctrine = submarine_fleet_operations
+		}
+	}
+	USA = {
+		if = {
+			limit = { is_ai = yes }
+			set_sub_doctrine = battleship_antiair_screen
+			set_sub_doctrine = carrier_battlegroups
+			set_sub_doctrine = support_integrated_operations
+			set_sub_doctrine = submarine_fleet_operations
+		}
+	}
+	JAP = {
+		if = {
+			limit = { is_ai = yes }
+			set_sub_doctrine = fast_battleship_primacy
+			set_sub_doctrine = carrier_concentration
+			set_sub_doctrine = torpedo_primacy
+			set_sub_doctrine = capital_hunters
+		}
+	}
+	GER = {
+		if = {
+			limit = { is_ai = yes }
+			set_sub_doctrine = armored_raiders
+			set_sub_doctrine = jeune_ecole
+			set_sub_doctrine = wolfpacks
+		}
+	}
+	FRA = {
+		if = {
+			limit = { is_ai = yes }
+			set_sub_doctrine = battlecruiser_primacy
+			set_sub_doctrine = subsidiary_carrier_support
+			set_sub_doctrine = jeune_ecole
+			set_sub_doctrine = capital_hunters
+		}
+	}
+	ITA = {
+		if = {
+			limit = { is_ai = yes }
+			set_sub_doctrine = fast_battleship_primacy
+			set_sub_doctrine = convoy_escort
+			set_sub_doctrine = capital_hunters
+		}
+	}
+	SOV = {
+		if = {
+			limit = { is_ai = yes }
+			set_sub_doctrine = armored_raiders
+			set_sub_doctrine = jeune_ecole
+			set_sub_doctrine = submarine_coastal_defense
+		}
+	}
+}
