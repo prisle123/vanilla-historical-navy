@@ -12,14 +12,14 @@ ENG_protect_home_waters = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 18
-        value = 9999
+        value = 100
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 16
-        value = 9999
+        value = 100
     }
 	ai_strategy = {
         type = naval_avoid_region
@@ -54,19 +54,19 @@ ENG_secure_mediterranean = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 29
-        value = 150
-    }
-    ai_strategy = {
-        type = strike_force_home_base
-        id = 68
         value = 100
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
+        id = 68
+        value = 60
+    }
+    ai_strategy = {
+        type = naval_dominance
         id = 69
-        value = 200
+        value = 100
     }
 	ai_strategy = {
 		type = naval_avoid_region
@@ -171,34 +171,34 @@ ENG_reinforce_pacific = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 72
-        value = 1000
+        value = 100
     }
 	ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 91
         value = 10
     }
 	ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 92
         value = 10
     }
 	ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 93
         value = 10
     }
 	ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 84
-        value = 300
+        value = 50
     }
 	ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 83
-        value = 300
+        value = 50
     }
 }
 
@@ -214,35 +214,25 @@ JAP_destroy_china_navy_quick = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 75
         value = 100
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 76
-        value = 200
+        value = 100
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 77
-        value = 200
+        value = 100
     }
 
 	ai_strategy = {
-        type = naval_convoy_raid_region
-        id = 75
+        type = convoy_raiding_target
+        id = CHI
         value = 100
-    }
-    ai_strategy = {
-        type = naval_convoy_raid_region
-        id = 76
-        value = 200
-    }
-    ai_strategy = {
-        type = naval_convoy_raid_region
-        id = 77
-        value = 200
     }
 }
 
@@ -260,24 +250,24 @@ JAP_pacific_war_naval_stage_one = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 75
-        value = 200
+        value = 100
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 78
-        value = 200
+        value = 80
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 94
         value = 50
     }
 	ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 84
-        value = 130
+        value = 100
     }
 }
 
@@ -301,44 +291,44 @@ JAP_pacific_war_naval_stage_two = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 75
         value = 50
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 78
         value = 50
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 94
         value = 50
     }
 	ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 84
         value = 50
     }
 	ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 95
-        value = 200
-    }
-    ai_strategy = {
-        type = strike_force_home_base
-        id = 97
-        value = 200
-    }
-    ai_strategy = {
-        type = strike_force_home_base
-        id = 180
         value = 100
     }
+    ai_strategy = {
+        type = naval_dominance
+        id = 97
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_dominance
+        id = 180
+        value = 75
+    }
 	ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 83
-        value = 130
+        value = 85
     }
 }
 
@@ -422,24 +412,24 @@ USA_pacific_war_naval_avoid_first = {
 	}
 	
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 95
-		value = 500
+		value = 60
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 97
-		value = 500
+		value = 60
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 105
-		value = 9999
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 180
-		value = 500
+		value = 100
 	}
 }
 
@@ -453,34 +443,34 @@ USA_do_not_waste_fleet_in_north_pacific = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 87
-		value = 1000
+		value = 0
 	}
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 88
-		value = 1000
+		value = 0
 	}
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 96
-		value = 1000
+		value = 0
 	}
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 176
-		value = 1000
+		value = 0
 	}
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 114
-		value = 1000
+		value = 0
 	}
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 171
-		value = 1000
+		value = 0
 	}
 }
 
@@ -561,29 +551,29 @@ USA_pacific_war_naval_counterattack_1 = {
 	}
 	
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 84
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 95
-		value = 500
+		value = 80
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 97
-		value = 500
+		value = 80
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 105
-		value = 9999
+		value = 80
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 180
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
 		type = invade
@@ -596,19 +586,9 @@ USA_pacific_war_naval_counterattack_1 = {
 	}
 	
 	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 94
-		value = 300
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 97
-		value = 300
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 84
-		value = 300
+		type = convoy_raiding_target
+		id = JAP
+		value = 100
 	}
 
 	ai_strategy = {
@@ -688,29 +668,29 @@ USA_pacific_war_naval_counterattack_2 = {
 	}
 	
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 84
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 95
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 97
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 94
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 78
-		value = 1000
+		value = 100
 	}
 	ai_strategy = {
 		type = invade
@@ -723,29 +703,9 @@ USA_pacific_war_naval_counterattack_2 = {
 	}
 	
 	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 94
-		value = 300
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 97
-		value = 300
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 84
-		value = 300
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 78
-		value = 300
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 76
-		value = 300
+		type = convoy_raiding_target
+		id = JAP
+		value = 100
 	}
 
 	ai_strategy = {
@@ -800,29 +760,29 @@ USA_pacific_war_naval_counterattack_3 = {
 	}
 	
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 75
-		value = 500
+		value = 80
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 80
-		value = 500
+		value = 80
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 76
-		value = 1000
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 94
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 78
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
 		type = invade
@@ -835,19 +795,9 @@ USA_pacific_war_naval_counterattack_3 = {
 	}
 	
 	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 78
-		value = 300
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 76
-		value = 300
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 90
-		value = 300
+		type = convoy_raiding_target
+		id = JAP
+		value = 100
 	}
 
 	ai_strategy = {
@@ -886,45 +836,53 @@ ITA_avoid_mediterranean = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 29
         value = 50
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 68
-        value = -1000
+        value = 0
     }
     ai_strategy = {
-        type = strike_force_home_base
+        type = naval_dominance
         id = 69
-        value = -1000
+        value = 0
     }
 
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 168
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 169
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = naval_convoy_raid_region
+		type = naval_blockade
+		target_country = ENG
 		id = 68
 		value = 100
 	}
 	ai_strategy = {
-		type = naval_convoy_raid_region
+		type = naval_blockade
+		target_country = ENG
 		id = 69
 		value = 100
 	}
 	ai_strategy = {
-		type = naval_convoy_raid_region
+		type = naval_blockade
+		target_country = ENG
 		id = 29
-		value = 1000
+		value = 60
+	}
+	ai_strategy = {
+		type = convoy_raiding_target
+		id = ENG
+		value = 50
 	}
 }
 
@@ -943,14 +901,14 @@ GER_forget_sealion = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = naval_avoid_region
+        type = naval_dominance
         id = 18
-        value = 800
+        value = 0
     }
     ai_strategy = {
-        type = naval_avoid_region
+        type = naval_dominance
         id = 16
-        value = 200
+        value = 10
     }
 	ai_strategy = {
 		type = invade
@@ -974,45 +932,55 @@ GER_unrestricted_submarine_warfare = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = naval_convoy_raid_region
+        type = naval_blockade
+		target_country = ENG
         id = 47
-        value = 500
+        value = 70
     }
     ai_strategy = {
-        type = naval_convoy_raid_region
+        type = naval_blockade
+		target_country = ENG
         id = 49
-        value = 500
+        value = 70
     }
     ai_strategy = {
-        type = naval_convoy_raid_region
+        type = naval_blockade
+		target_country = ENG
         id = 44
-        value = 500
+        value = 70
     }
     ai_strategy = {
-        type = naval_convoy_raid_region
+        type = naval_blockade
+		target_country = ENG
         id = 50
-        value = 300
+        value = 70
     }
 	ai_strategy = {
-        type = naval_convoy_raid_region
+        type = naval_blockade
+		target_country = ENG
         id = 42
-        value = 300
+        value = 70
     }
+	ai_strategy = {
+		type = convoy_raiding_target
+		id = ENG
+		value = 100
+	}
 
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 173
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 207
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 9
-		value = 500
+		value = 50
 	}
 }
 
@@ -1028,29 +996,29 @@ GER_avoid_mediterranean = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 29
-		value = 1000
+		value = 0
 	}
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 68
-		value = 1000
+		value = 0
 	}
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 69
-		value = 1000
+		value = 0
 	}
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 168
-		value = 1000
+		value = 0
 	}
 	ai_strategy = {
-		type = naval_avoid_region
+		type = naval_dominance
 		id = 169
-		value = 1000
+		value = 0
 	}
 }
 
@@ -1077,13 +1045,13 @@ GER_invade_norway = {
 		value = 50
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 173
 		value = 50
 	}
 	ai_strategy = {
-		type = strike_force_home_base
+		type = naval_dominance
 		id = 207
-		value = 300
+		value = 100
 	}
 }
