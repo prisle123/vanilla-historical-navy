@@ -26,7 +26,7 @@ equipments = {
 		#alias = support_ship
 		priority = 2000
 
-
+		max_dockyard_factories = 5 
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -42,9 +42,9 @@ equipments = {
 		armor_value = 0
 
 		
-		surface_detection = 20
+		surface_detection = 3
 		sub_detection = 1
-		surface_visibility = 10
+		surface_visibility = 20
 		naval_speed = 18
 		reliability = 0.80
 		
@@ -53,7 +53,7 @@ equipments = {
 		max_strength = 25
 		
 
-		fuel_consumption = 0
+		fuel_consumption = 8
 		
 		build_cost_ic = 500
 		resources = {
