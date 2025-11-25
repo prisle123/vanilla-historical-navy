@@ -1178,7 +1178,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -1237,7 +1237,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -1298,7 +1298,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -1350,7 +1350,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -1405,7 +1405,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -1450,7 +1450,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1948 }
+			position = { x = -1 y = @1948 }
 		}
 
 		ai_will_do = {
@@ -1465,7 +1465,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -1500,7 +1500,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			radar_tech
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 			electronics
@@ -1541,7 +1541,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -1571,7 +1571,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -1599,7 +1599,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -1626,7 +1626,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 			electronics
@@ -1653,7 +1653,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 			electronics
@@ -1764,7 +1764,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_cruiser_and_modules
@@ -1810,7 +1810,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_cruiser_and_modules
@@ -1852,7 +1852,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_cruiser_and_modules
@@ -1908,7 +1908,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_cruiser_and_modules
@@ -1964,7 +1964,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_cruiser_and_modules
@@ -2020,7 +2020,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_cruiser_and_modules
@@ -2049,7 +2049,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 		}
 	}
@@ -2099,7 +2099,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -2148,7 +2148,7 @@ technologies = {
 	##! 	special_project_specialization = { specialization_naval }
 	##! 	categories = {
 	##! 		naval_equipment
-	##! 		cl_tech
+	##! 		
 	##! 		ca_tech
 	##! 		mio_cat_tech_all_cruiser_and_modules
 	##! 	}
@@ -2185,7 +2185,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -2223,7 +2223,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_cruiser_and_modules
@@ -2253,7 +2253,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
@@ -2292,7 +2292,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			mio_cat_tech_all_cruiser_and_modules
 		}
@@ -2306,7 +2306,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = 20 }
+			position = { x = -4 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -2316,7 +2316,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 		}
 	}
@@ -2337,7 +2337,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 21 }
+			position = { x = 1 y = 22 }
 		}
 
 		ai_will_do = {
@@ -2352,7 +2352,7 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
-			cl_tech
+			
 			ca_tech
 			ship_modules_tech
 			mio_cat_tech_all_cruiser_and_modules
@@ -2380,7 +2380,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = 22 }
+			position = { x = -2 y = @1944_module }
 		}
 
 		ai_will_do = {
@@ -4635,18 +4635,17 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_1_tt
 		}
-		research_cost = 1.25
+		research_cost = 1.5
 		start_year = 1939
 
-		xp_research_type = navy
-		xp_boost_cost = 10
+		xp_research_type = air
+		xp_boost_cost = 50
 		xp_research_bonus = 1.25
 
 		cv_cas = {
 			naval_strike_attack = 0.2
 			naval_strike_targetting = 0.15
 			air_agility = 0.15
-			maximum_speed = 0.1
 		}
 
 		folder = {
@@ -4663,10 +4662,6 @@ technologies = {
 				}
 				factor = 4
 			}
-		}
-
-		dependencies = {
-			armor_piercing_bombs = 1
 		}
 
 		special_project_specialization = { specialization_naval specialization_air }
@@ -6287,113 +6282,6 @@ technologies = {
 			cv_tech
 			naval_equipment
 			mio_cat_tech_all_carrier_and_modules
-		}
-	}
-
-	naval_radio_guiding_system = {
-		dependencies = {
-			radio_detection = 1
-			improved_computing_machine = 1
-		}
-		path = {
-			leads_to_tech = ship_to_ship_missile
-			research_cost_coeff = 1
-		}
-		start_year = 1943
-		research_cost = 1
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = 0 }
-		}
-
-		enable_equipment_modules = {
-			vlf_receiver
-		}
-
-		naval_coordination = 0.05
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 7
-				has_navy_size = { size > 100 }
-			}
-		}
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			electronics
-			radar_tech
-		}
-	}
-
-	ship_to_ship_missile = {
-		on_research_complete = {
-			custom_effect_tooltip = ca_tech_8_tt
-		}
-		research_cost = 1.5
-		start_year = 1945
-		is_special_project_tech = yes
-		
-		allow = {
-			ROOT = {
-				is_special_project_completed = sp:sp_rockets_ballistic_missile
-			}
-		}
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = 4 }
-		}
-		path = {
-			leads_to_tech = advanced_missile_system
-			research_cost_coeff = 1
-		}
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		enable_equipment_modules = {
-			ship_missile_1
-			ship_cruise_missile_1
-			ship_missile_aa_1
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			rocketry
-			naval_equipment
-			ship_modules_tech
-		}
-	}
-
-	advanced_missile_system = {
-		on_research_complete = {
-			custom_effect_tooltip = ca_tech_9_tt
-		}
-		research_cost = 2
-		start_year = 1949
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = 6 }
-		}
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		enable_equipment_modules = {
-			ship_missile_2
-			ship_missile_aa_2
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			rocketry
-			naval_equipment
-			ship_modules_tech
 		}
 	}
 

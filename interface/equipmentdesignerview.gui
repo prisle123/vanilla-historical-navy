@@ -303,6 +303,33 @@ guiTypes = {
 			name = "info"
 			position = { x=536 y=13}
 			size = { width=100% height=100%% }
+			
+			instantTextboxType = {
+				name = "ship_designer_naval_dominance_name"
+				position = { x = 315 y = 303 }
+				font = "hoi_18mbs"
+				text = "SHIP_DESIGNER_NAVAL_DOMINANCE_NAME"
+				maxWidth = 150
+				maxHeight = 20
+				format = left
+			}
+
+			iconType ={
+				name ="ship_designer_naval_dominance_icon"
+				spriteType = "GFX_naval_dominance_texticon"
+				position = { x = 435 y = 303 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextboxType = {
+				name = "ship_designer_naval_dominance_value"
+				position = { x = 434 y = 303 }
+				font = "hoi_18mbs"
+				text = "SHIP_DESIGNER_NAVAL_DOMINANCE_VALUE"
+				maxWidth = 66
+				maxHeight = 20
+				format = right
+			}
 
 			instantTextboxType = {
 					name = "base_stats_label"
@@ -577,12 +604,12 @@ guiTypes = {
 			position = { x=538 y=40 }
 			size = { width=567 height=460 }
 			
-			
 			background = {
 				name = "Background"		
 				spriteType ="GFX_tiled_window"
 				position = { x=-16 y=0 }
 			}
+
 			ButtonType = {
 				name = "import_preset_button"
 				position = { x=34 y=408 }
@@ -648,6 +675,7 @@ guiTypes = {
 					
 				}
 			}
+
 			containerWindowType = {
 				name = "folder_container"
 				position = {x=3 y=28}
@@ -681,6 +709,7 @@ guiTypes = {
 					format = "UPPER_RIGHT"
 				}
 			}
+
 		}
 		
 		containerWindowType = {

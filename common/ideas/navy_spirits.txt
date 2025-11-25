@@ -1,0 +1,843 @@
+ideas = {
+	naval_academy_spirit = {
+		instilled_aggression_spirit = {
+			ledger = navy
+			available = { has_naval_academy = yes }
+			modifier = {
+				custom_modifier_tooltip = instilled_aggression_spirit_tt
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		calculated_restraint_spirit = {
+			ledger = navy
+			available = { has_naval_academy = yes }
+			modifier = {
+				custom_modifier_tooltip = calculated_restraint_spirit_tt
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		signals_training_spirit = {
+			ledger = navy
+			available = { has_naval_academy = yes }
+			modifier = {
+				custom_modifier_tooltip = signals_training_spirit_tt
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		fleet_in_being_academy_spirit = {
+			ledger = navy
+			available = {
+				AND = { 
+				has_naval_academy = yes
+				has_doctrine = new_fleet_in_being
+				}
+			}
+
+			modifier = {
+				custom_modifier_tooltip = fleet_in_being_academy_spirit_tt
+				trait_ironside_xp_gain_factor = 0.2
+				trait_superior_tactician_xp_gain_factor = 0.2
+			}
+			ai_will_do = {
+				factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					has_doctrine = new_fleet_in_being
+					}
+			}
+		}
+		trade_interdiction_academy_spirit = {
+			ledger = navy
+			available = {
+				AND = { 
+				has_naval_academy = yes
+				has_doctrine = new_convoy_raiding
+				}
+			}
+
+			modifier = {
+				custom_modifier_tooltip = trade_interdiction_academy_spirit_tt
+				trait_seawolf_xp_gain_factor = 0.2
+				trait_blockade_runner_xp_gain_factor = 0.2
+			}
+			ai_will_do = {
+				factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					has_doctrine = new_convoy_raiding
+					}
+			}
+		}
+		base_strike_academy_spirit = {
+			ledger = navy
+			available = {
+				AND = { 
+				has_naval_academy = yes
+				has_doctrine = new_base_strike
+				}
+			}
+
+			modifier = {
+				custom_modifier_tooltip = base_strike_academy_spirit_tt
+				trait_air_controller_xp_gain_factor = 0.2
+				trait_fleet_protector_xp_gain_factor = 0.2
+			}
+			ai_will_do = {
+				factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					has_doctrine = new_base_strike
+					}
+			}
+		}
+		best_of_the_best_naval_academy_spirit = {
+			ledger = navy
+			available = { has_naval_academy = yes }
+			modifier = {
+				navy_leader_start_level = 2
+				navy_intel_to_others = -5.0
+				custom_modifier_tooltip = best_of_the_best_naval_academy_spirit_tt
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		ship_to_shore_navy_spirit = {
+			ledger = navy
+			visible = { has_dlc = "No Compromise, No Surrender" }
+			available = { 
+				has_doctrine = naval_gunfire_support
+			}
+
+			modifier = {
+				trait_ironside_xp_gain_factor = 0.35
+				shore_bombardment_collateral_damage_factor = 0.50
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Compromise, No Surrender" }
+				}
+				modifier = {
+					factor = 2
+					has_doctrine = naval_gunfire_support
+				}
+			}
+		}
+		stay_at_your_posts_navy_spirit = {
+			ledger = navy
+			visible = { has_dlc = "No Compromise, No Surrender" }
+			available = { 
+
+			}
+
+			modifier = {
+				trait_blockade_runner_xp_gain_factor = 0.35
+				naval_accidents_chance = -0.15
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Compromise, No Surrender" }
+				}
+				modifier = {
+					factor = 2
+					has_doctrine = screen_support_focus
+				}
+			}
+		}
+        etajima_naval_academy = {
+            ledger = navy
+            visible = { original_tag = JAP }
+            modifier = {
+                navy_leader_start_level = 1
+                trait_air_controller_xp_gain_factor = 0.15
+                trait_superior_tactician_xp_gain_factor = 0.15
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        annapolis_naval_academy = {
+            ledger = navy
+            visible = { original_tag = USA }
+            modifier = {
+                trait_blue_water_expert_xp_gain_factor = 0.15
+                trait_air_controller_xp_gain_factor = 0.25
+                trait_fleet_protector_xp_gain_factor = 0.25
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        dartmouth_naval_academy = {
+            ledger = navy
+            visible = { original_tag = ENG }
+            modifier = {
+                navy_leader_start_level = 2
+                trait_air_controller_xp_gain_factor = 0.1
+                trait_ironside_xp_gain_factor = 0.1
+                trait_superior_tactician_xp_gain_factor = 0.3
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        murwik_naval_academy = {
+            ledger = navy
+            visible = { original_tag = GER }
+            modifier = {
+                navy_leader_start_level = 1
+                trait_ironside_xp_gain_factor = 0.15
+                trait_seawolf_xp_gain_factor = 0.15
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        voroshilov_naval_academy = {
+            ledger = navy
+            visible = {
+                OR = {
+                    original_tag = SOV
+                    original_tag = RUS
+                }
+                has_global_flag = vnr_enabled
+                has_government = communism
+            }
+			cancel = {
+				NOT = { has_government = communism }
+			}
+            modifier = {
+                trait_arctic_water_expert_xp_gain_factor = 0.25
+                modifier_army_sub_unit_marine_attack_factor = 0.05
+                modifier_army_sub_unit_marine_defence_factor = 0.05
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        nakhimov_naval_academy = {
+            ledger = navy
+            visible = {
+                OR = {
+                    original_tag = SOV
+                    original_tag = RUS
+                }
+                OR = {
+                    NOT = { has_global_flag = vnr_enabled }
+                    NOT = { has_government = communism }
+                }
+            }
+            modifier = {
+                trait_arctic_water_expert_xp_gain_factor = 0.25
+                modifier_army_sub_unit_marine_attack_factor = 0.05
+                modifier_army_sub_unit_marine_defence_factor = 0.05
+            }
+            ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        usn_fighter_weapons_school = {
+            ledger = navy
+            visible = {
+                original_tag = USA
+                has_tech = super_carriers
+            }
+			modifier = {
+				fighter_sortie_efficiency = 0.15
+				navy_anti_air_attack_factor = 0.15
+				air_ace_generation_chance_factor = 0.25
+			}
+			ai_will_do = {
+                factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        } 
+	}
+
+	navy_spirit = {
+		jeune_ecole_spirit = {
+			ledger = navy
+			available = {
+				has_doctrine = jeune_ecole
+			}
+			research_bonus = {
+				dd_tech = 0.20
+			}
+			modifier = {
+				ship_hull_light_design_cost_factor = -0.4
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					OR = { 
+					has_doctrine = jeune_ecole
+					has_doctrine = patrol_boats
+					}
+				}
+			}
+		}
+		flexible_contracts_spirit = {
+			ledger = navy
+			modifier = {
+				naval_manufacturer_cost_factor = -0.4
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					OR = { 
+					has_doctrine = coastal_defence_fleet
+					has_doctrine = screen_support_focus
+					}
+				}
+			}
+		}
+		integrated_designers_spirit = {
+			ledger = navy
+			available = { has_doctrine = new_convoy_raiding }
+			visible = { has_dlc = "Man the Guns" }
+			research_bonus = {
+				ship_modules_tech = 0.20
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					OR = {
+					has_doctrine = anti_aircraft_cruisers
+					has_doctrine = battlecruiser_supremacy
+					has_doctrine = escort_carrier_support
+					}
+				}
+			}
+		}
+		naval_reform_spirit = {
+			ledger = navy
+			available = { has_doctrine = new_base_strike }
+			modifier = {
+				experience_gain_navy_factor = 0.15
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					OR = {
+					has_doctrine = submarine_fleet_operations
+					has_doctrine = massed_carrier_fleet
+					has_doctrine = hunter_killers
+					}
+				}
+			}
+		}
+		naval_refit_yards_spirit = {
+			ledger = navy
+			modifier = {
+				refit_speed = 0.15
+				repair_speed_factor = 0.15
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					OR = {
+					has_doctrine = naval_gunfire_support
+					has_doctrine = broad_naval_support
+					has_doctrine = screen_support_focus
+					}
+				}
+			}
+		}
+		
+        panama_standard = {
+            ledger = navy
+            visible = { original_tag = USA }
+            research_bonus = {
+                bb_tech = 0.05
+                bc_tech = 0.05
+            }
+            modifier = {
+                ship_hull_heavy_design_cost_factor = 0.5
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        kiel_standard = {
+            ledger = navy
+			visible = { original_tag = GER }
+            equipment_bonus = {
+                ship_hull_heavy = {
+                    instant = yes
+                    build_cost_ic = 0.1
+                }
+				ship_hull_cruiser = {
+					instant = yes
+					build_cost_ic = 0.1
+				}
+            }
+            modifier = {
+                ship_hull_heavy_design_cost_factor = 0.4
+                navy_capital_ship_defence_factor = 0.05
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        professional_damage_control = {
+            ledger = navy
+            modifier = {
+                critical_receive_chance = -0.1
+                naval_critical_effect_factor = -0.15
+            }
+            ai_will_do = {
+                factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        advancing_base = {
+            ledger = navy
+            modifier = {
+                production_speed_naval_base_factor = 0.2
+                navy_fuel_consumption_factor = -0.1
+            }
+            ai_will_do = {
+                factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        advanced_supply_fleet = {
+            ledger = navy
+            available = {
+                has_navy_size = {
+                    archetype = ship_hull_civilian
+                    size > 30
+                }
+            }
+            modifier = {
+                navy_fuel_consumption_factor = -0.15
+                navy_max_range_factor = 0.1
+                floating_harbor_supply = 0.4
+                floating_harbor_range = 0.4
+            }
+            ai_will_do = {
+                factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        disciplined_crewmen = {
+            ledger = navy
+            modifier = {
+                navy_org_factor = 0.05
+                naval_morale_factor = 0.1
+            }
+            ai_will_do = {
+                factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        lack_maintenance_facilities = {
+            ledger = navy
+            available = {
+				custom_trigger_tooltip = {
+					tooltip = recovering_from_naval_race_tt
+					NOT = { has_global_flag = vnr_enabled }
+				}
+            }
+            modifier = {
+                repair_speed_factor = -0.25
+                naval_morale_factor = -0.25
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+	}
+
+	naval_command_spirit = {
+		close_combat_navy_spirit = {
+			ledger = navy
+			modifier = {
+                critical_receive_chance	= 0.05
+				naval_torpedo_screen_penetration_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		night_fighting_spirit = {
+			ledger = navy
+			available = {
+				has_doctrine = torpedo_primacy
+			}
+			modifier = {
+				night_spotting_chance = 0.1
+				naval_night_attack = 0.1
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					OR = {
+					has_doctrine = wolfpacks
+					has_doctrine = torpedo_primacy
+					has_doctrine = floating_airfields
+					}
+				}
+			}
+		}
+		surprise_attacks_spirit = { 
+			ledger = navy
+			available = { 
+
+			}
+			modifier = {
+				naval_retreat_speed_after_initial_combat = 0.1
+				naval_retreat_chance_after_initial_combat = 0.1
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					OR = {
+					has_doctrine = wolfpacks
+					has_doctrine = battlecruiser_supremacy
+					has_doctrine = massed_carrier_fleet
+					}	
+				}			
+			}
+		}
+		efficient_communications_spirit = {
+			ledger = navy
+			available = { 
+
+			}
+			modifier = {
+				naval_coordination = 0.1
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		
+		surface_raiders_spirit = {
+			ledger = navy
+			available = {
+				has_doctrine = armored_raiders
+			}
+			modifier = {
+				screening_without_screens = 0.1
+                convoy_raiding_efficiency_factor = 0.05
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		decisive_battle_spirit = {
+			ledger = navy
+			available = { has_doctrine = new_fleet_in_being }
+			modifier = {
+				naval_retreat_chance = -0.1
+				naval_retreat_speed = -0.1
+				naval_torpedo_hit_chance_factor = 0.1
+				naval_hit_chance = 0.1
+			}
+			ai_will_do = {
+				factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		inclimate_weather_experience_spirit = {
+			ledger = navy
+			modifier = {
+				navy_weather_penalty = -0.15
+			}
+			ai_will_do = {
+				factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+		brave_commanders_spirit = {
+			ledger = navy
+			available = {
+
+			}
+			modifier = {
+				naval_critical_score_chance_factor = 0.05
+                critical_receive_chance	= 0.05
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+				modifier = {
+					factor = 2
+					OR = {
+					has_doctrine = line_of_battle
+					has_doctrine = capital_hunters
+					has_doctrine = convoy_escort
+					}
+				}
+			}
+		} 
+		bureau_of_ordnance_spirit = {
+			ledger = navy
+			visible = { tag = USA }
+			modifier = {
+				naval_torpedo_hit_chance_factor = -0.1
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		naval_tripwire_navy_spirit = {
+			ledger = navy
+			visible = { has_dlc = "No Compromise, No Surrender" }
+			available = { 
+				OR = {
+					has_doctrine = new_convoy_raiding
+					has_doctrine = coastal_defence_fleet
+				}
+			}
+			modifier = {
+				naval_enemy_fleet_size_ratio_penalty_factor = 0.10
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Compromise, No Surrender" }
+				}
+				modifier = {
+					factor = 2
+					has_doctrine = coastal_defence_fleet
+				}
+			}
+		}
+		
+        underwater_death = {
+            ledger = navy
+            modifier = {
+                navy_submarine_attack_factor = 0.1
+                navy_submarine_defence_factor = 0.05
+                sub_retreat_speed = 0.05
+            }
+            ai_will_do = {
+                factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        efficient_escort = {
+            ledger = navy
+            modifier = {
+                screening_efficiency = 0.1
+                convoy_escort_efficiency = 0.1
+            }
+            ai_will_do = {
+                factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        merchant_fleet = {
+            ledger = navy
+            available = {
+                has_equipment = { convoy > 199 }
+            }
+            modifier = {
+                convoy_retreat_speed = 0.3
+                trade_opinion_factor = 0.3
+                local_resources_factor = 0.05
+            }
+            ai_will_do = {
+                factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+            }
+        }
+        inflexible_headquarter = {
+            ledger = navy
+            modifier = {
+                political_power_factor = 0.05
+                navy_advisor_cost_factor = 0.25
+                navy_leader_cost_factor = 0.25
+                navy_intel_to_others = 20
+                experience_gain_navy_factor = -0.15
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        win_or_die = {
+            ledger = navy
+            available = {
+                has_war = yes
+                enemies_naval_strength_ratio > 2
+            }
+            modifier = {
+                naval_damage_factor = 0.25
+                naval_defense_factor = -0.25
+                critical_receive_chance = 0.33
+            }
+            ai_will_do = {
+                factor = 0
+            }
+        }
+        recovering_from_naval_race = {  # saved for KR/KX
+            ledger = navy
+            available = {
+				custom_trigger_tooltip = {
+					tooltip = recovering_from_naval_race_tt
+					NOT = { 
+						has_global_flag = vnr_enabled
+						has_country_flag = recovered_from_naval_race
+					}
+				}
+            }
+            allowed_to_remove = {
+                always = no
+            }
+            modifier = {
+                ship_hull_carrier_design_cost_factor = 0.2
+                ship_hull_heavy_design_cost_factor = 0.2
+                production_speed_dockyard_factor = -0.25
+            }
+        }
+	}
+}

@@ -42,11 +42,11 @@ equipment_modules = {
 		parent = ship_radar_1
 		multiply_stats = {
 			anti_air_attack = 0.05
+			sub_detection = 0.025
 		}
 		add_stats = {
 			build_cost_ic = 130
 			surface_detection = 7
-			sub_detection = 2
 		}
 		
 		can_convert_from = {
@@ -61,10 +61,10 @@ equipment_modules = {
 		parent = ship_radar_2
 		multiply_stats = {
 			anti_air_attack = 0.075
+			sub_detection = 0.05
 		}
 		add_stats = {
 			surface_detection = 12
-			sub_detection = 4
 			build_cost_ic = 160
 		}
 		can_convert_from = {
@@ -83,11 +83,11 @@ equipment_modules = {
 		parent = ship_radar_3
 		multiply_stats = {
 			anti_air_attack = 0.1
+			sub_detection = 0.075
 		}
 		add_stats = {
 			build_cost_ic = 190
 			surface_detection = 18
-			sub_detection = 6
 		}
 		can_convert_from = {
 			module = ship_radar_3
@@ -104,11 +104,11 @@ equipment_modules = {
 		parent = ship_radar_4
 		multiply_stats = {
 			anti_air_attack = 0.2
+			sub_detection = 0.1
 		}
 		add_stats = {
 			build_cost_ic = 600
 			surface_detection = 30
-			sub_detection = 12
 		}
 		can_convert_from = {
 			module_category = ship_radar

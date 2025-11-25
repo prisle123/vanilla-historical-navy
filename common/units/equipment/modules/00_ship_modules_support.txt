@@ -711,7 +711,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		parent = ship_sonar_1
 		add_stats = {
-			sub_detection = 12
+			sub_detection = 10
 			build_cost_ic = 60
 		}
 		can_convert_from = {
@@ -726,7 +726,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		parent = ship_sonar_2
 		add_stats = {
-			sub_detection = 20
+			sub_detection = 15
 			build_cost_ic = 80
 		}
 		can_convert_from = {
@@ -740,7 +740,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		parent = ship_sonar_3
 		add_stats = {
-			sub_detection = 26
+			sub_detection = 20
 			build_cost_ic = 150
 		}
 		can_convert_from = {
@@ -752,9 +752,9 @@ equipment_modules = {
 		category = light_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
-			sub_detection = 0.15
+			sub_detection = 0.1
 			naval_speed = 0.05
-			build_cost_ic = 0.2
+			build_cost_ic = 0.15
 		}
 		add_stats = {
 			reliability = -0.15
@@ -763,10 +763,13 @@ equipment_modules = {
 	sub_bow_sonar = {
 		category = submarine_miscellaneous
 		add_stats = {
-			sub_detection = 13
+			sub_detection = 10
 			surface_detection = 5
 			reliability = -0.05
 			build_cost_ic = 150
+		}
+		multiply_stats = {
+			sub_visibility = 0.1
 		}
 		dismantle_cost_ic = 600
 	}
@@ -834,7 +837,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_detection = 2.5
-			sub_detection = 2
+			sub_detection = 0.5
 			sub_attack = 1.5
 			build_cost_ic = 150
 		}
@@ -850,7 +853,7 @@ equipment_modules = {
 		parent = ship_airplane_launcher_1
 		add_stats = {
 			surface_detection = 4
-			sub_detection = 3.5
+			sub_detection = 1.5
 			sub_attack = 2.5
 			build_cost_ic = 250
 		}
@@ -898,7 +901,7 @@ equipment_modules = {
 			fuel_consumption = 0.05
 		}
 		add_stats = {
-			build_cost_ic = 500
+			build_cost_ic = 800
 			reliability = -0.05
 		}
 		manpower = 100

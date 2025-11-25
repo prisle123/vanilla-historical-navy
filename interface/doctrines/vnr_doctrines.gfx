@@ -1,0 +1,17 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_doctrine_fast_battleship_primacy_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/fast_battleship_primacy.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_doctrine_torpedo_groups_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/torpedo_groups.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_doctrine_naval_airforce_medium"
+		textureFile = "gfx/interface/technologies/doctrine_tree/naval_airforce.png"
+		alwaystransparent = yes
+	}
+}

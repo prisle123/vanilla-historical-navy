@@ -1,0 +1,300 @@
+carrier_battlegroups = {
+    track = carriers
+    name = SUBDOCTRINE_CARRIER_BATTLEGROUPS
+    description = SUBDOCTRINE_CARRIER_BATTLEGROUPS_DESC
+    icon = GFX_doctrine_carrier_battlegroups_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 50
+            original_tag = USA
+        }
+    }
+
+    available = {
+        has_tech = aviation_dawn
+    }
+
+    ai_will_do = { }
+
+    # EFFECTS
+	port_strike = 0.20
+    strike_force_movement_org_loss = -0.1
+
+    rewards = {
+		long_distance_logistics = {
+            carrier = {
+                max_organisation = 10
+            }
+			modifier = {
+                navy_max_range_factor = 0.1
+                navy_fuel_consumption_factor = -0.05
+            }
+		}
+        bomber_scouting = {
+			carrier = {
+                carrier_surface_detection = 0.15
+            }
+            modifier = {
+                navy_carrier_air_agility_factor = 0.1
+            }
+		}
+		professional_deck_management = {
+			carrier = {
+				max_organisation = 15
+			}
+            modifier = {
+                sortie_efficiency = 0.1
+            }
+		}
+		fleet_antiair = {
+			carrier = {
+                max_organisation = 15
+				anti_air_attack = 0.15
+			}
+            modifier = {
+                sortie_efficiency = 0.1
+            }
+		}
+		alpha_strike = {
+            modifier = {
+                sortie_efficiency = 0.1
+                navy_carrier_air_targetting_factor = 0.1
+                carrier_capacity_penalty_reduction = -0.1
+            }
+		}
+    }
+}
+
+floating_airfields = {
+    track = carriers
+    name = SUBDOCTRINE_CARRIER_AIRFIELDS
+    description = SUBDOCTRINE_CARRIER_AIRFIELDS_DESC
+    icon = GFX_doctrine_floating_airfield_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        has_tech = aviation_dawn
+    }
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 25
+            OR = {
+                original_tag = ENG
+                original_tag = FRA
+            }
+        }
+        modifier = {
+            factor = 2
+            is_major = yes 
+        }
+        modifier = {
+            factor = 0
+            is_major = no 
+        }
+    }
+
+    # EFFECTS
+	navy_anti_air_attack_factor = 0.10
+	
+    rewards = {
+       enclosed_hangar = {
+			carrier = {
+                max_organisation = 10
+                reliability = 0.1
+            }
+	   }
+	   fleet_antiair = {
+			carrier = {
+				max_organisation = 15
+                anti_air_attack = 0.15
+			}
+	   }
+	   reserved_fighters = {
+			fighter_sortie_efficiency = 0.15
+	   }
+	   dogfight_training = {
+			navy_carrier_air_agility_factor = 0.1
+            sortie_efficiency = 0.05
+            carrier = {
+                anti_air_attack = 0.05
+            }
+	   }
+	   rough_weather_procedures = {
+            sortie_efficiency = 0.1
+			equipment_bonus = {
+                carrier = {
+				    naval_weather_penalty_factor = -0.15
+			    }
+            }
+	   }
+    }
+}
+
+subsidiary_carrier_support = {
+    track = carriers
+    name = SUBDOCTRINE_SUBSIDIARY_CARRIER_SUPPORT
+    description = SUBDOCTRINE_SUBSIDIARY_CARRIER_SUPPORT_DESC
+    icon = GFX_doctrine_escort_carriers_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        has_tech = early_ship_hull_carrier
+    }
+    
+    convoy_escort_efficiency = 0.2
+
+    rewards = {
+    	evasive_convoy_maneuvers = {
+    		convoy_retreat_speed = 0.2
+    	}
+    	anti_submarine_escorts = {
+    		carrier = {
+    		    carrier_sub_detection = 0.2
+    		}
+    	}
+    	fleet_antiair = {
+            carrier = {
+				max_organisation = 15
+                anti_air_attack = 0.15
+			}
+        }
+    	integrated_convoy_escorts = {
+			modifier = {
+                navy_carrier_air_targetting_factor = 0.05
+                convoy_escort_efficiency = 0.1
+            }
+    	}
+    	carrier_support_groups = {
+            modifier = {
+                fighter_sortie_efficiency = 0.15
+            }
+    	}
+   	}
+}
+
+carrier_concentration = {
+    track = carriers
+    name = SUBDOCTRINE_CARRIER_CONCENTRATION
+    description = SUBDOCTRINE_CARRIER_CONCENTRATION_DESC
+    icon = GFX_doctrine_carrier_primacy_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 50
+            original_tag = JAP
+        }
+    }
+    available = {
+        has_tech = aviation_dawn
+    }
+
+    sortie_efficiency = 0.1
+    strike_force_movement_org_loss = -0.05
+
+    rewards = {
+    	deep_operative_support = {
+    		carrier = {
+    			reliability = 0.05
+    			naval_range = 0.2
+    		}
+    	}
+    	mobile_force = {
+    		carrier = {
+                max_organisation = 15
+            }
+            modifier = {
+                navy_carrier_air_targetting_factor = 0.1
+            }
+    	}
+    	improved_mission_oriented = {
+    		carrier = {
+                max_organisation = 10
+                anti_air_attack = 0.15
+            }
+            fighter_sortie_efficiency = 0.05
+    	}
+    	efficient_rearming = {
+    		carrier = {
+                max_organisation = 5
+    			supply_consumption = -0.15
+    			fuel_consumption = -0.1
+    		}
+    	}
+    	massed_air_raid = {
+    		modifier = {
+                sortie_efficiency = 0.1
+                carrier_capacity_penalty_reduction = -0.1
+                navy_carrier_air_attack_factor = 0.1
+            }
+    	}
+    }
+}
+
+
+naval_airfoce = {
+    track = carriers
+    name = SUBDOCTRINE_NAVAL_AIRFOCE
+    description = SUBDOCTRINE_NAVAL_AIRFOCE_DESC
+    icon = GFX_doctrine_naval_airforce_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    ai_will_do = { 
+        base = 1
+    }
+    available = {
+        has_tech = early_ship_hull_carrier
+    }
+
+    naval_retreat_speed_after_initial_combat = 0.1
+    naval_strike_attack_factor = 0.05
+
+    rewards = {
+    	direct_fire_avoidance = {
+    		carrier = {
+    			surface_visibility = -0.1
+    		}
+    	}
+    	land_based_support = {
+    		category_nav_bomber = {
+                air_range = 0.2
+            }
+    	}
+    	air_raiders = {
+    		carrier = {
+                max_organisation = 10
+            }
+            modifier = {
+                sortie_efficiency = 0.05
+                navy_carrier_air_targetting_factor = 0.05
+            }
+    	}
+    	evasive_engagements_focus = {
+    		carrier = {
+    			max_organisation = 10
+    		}
+            naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+    	}
+    	airpower = {
+    		naval_strike_attack_factor = 0.1
+            naval_strike_agility_factor = 0.1
+    	}
+    }
+
+}
