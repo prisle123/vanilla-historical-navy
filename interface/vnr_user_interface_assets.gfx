@@ -185,6 +185,14 @@ spriteTypes = {
 		tilingCenter = no
 		effectFile = "gfx/FX/buttonstate.shader"
 	}
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg_simp_chinese"
+		texturefile = "gfx/interface/vnr_main_menu_bg.dds"
+		borderSize = { x = 0 y = 0 }
+		size = { x = 1920 y = 1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
 	
 
 	### idea icon of VNR AI buff

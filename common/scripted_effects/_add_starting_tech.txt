@@ -515,9 +515,21 @@ makeup_starting_techs = {
 		set_technology = {
 			dry_dock = 1
 			heavy_crane = 1
-            repair_ship = 1
             hospital_ship = 1
 			popup = no
+		}
+		if = {
+			limit = { has_dlc = "No Compromise, No Surrender" }
+			set_technology = {
+				support_fleet_ncns = 1
+				popup = no
+			}
+		}
+		else = {
+			set_technology = {
+				support_fleet = 1
+				popup = no
+			}
 		}
 	}
 }
