@@ -117,15 +117,7 @@ PatrolDominanceForce_2 = {
 
 ConvoyRaiding_1 = {
 	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
+
 	}
 	ai_will_do = {
 		factor = 1
@@ -146,15 +138,7 @@ ConvoyRaiding_1 = {
 
 ConvoyEscort_1 = {
 	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
+
 	}
 	ai_will_do = {
 		factor = 5
