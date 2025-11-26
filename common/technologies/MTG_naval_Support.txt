@@ -96,11 +96,6 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = basic_medium_battery
-			research_cost_coeff = 1
-		}
-
-		path = {
 			leads_to_tech = basic_heavy_battery
 			research_cost_coeff = 1
 		}
@@ -182,6 +177,11 @@ technologies = {
 			dp_ship_secondaries_1_bb
 			ship_secondaries_2_light
 			ship_anti_air_2_h
+
+			ship_light_medium_battery_2
+			ship_light_medium_battery_2_double
+			ship_light_medium_battery_2_single
+			ship_secondaries_2
 		}
 
 
@@ -228,12 +228,15 @@ technologies = {
 		}
 		light_cruiser = {
 			lg_attack = 0.05
+			lg_armor_piercing = 0.05
 		}
 		heavy_cruiser = {
 			lg_attack = 0.05
+			lg_armor_piercing = 0.05
 		}
 		medium_cruiser = {
 			lg_attack = 0.05
+			lg_armor_piercing = 0.05
 		}
 		##! armored_cruiser = {
 		##! 	lg_attack = 0.05
@@ -302,6 +305,12 @@ technologies = {
 			ship_light_battery_3
 			ship_light_battery_3_double
 			ship_anti_air_3_h
+
+			ship_light_medium_battery_3
+			ship_light_medium_battery_3_double
+			ship_light_medium_battery_3_single
+
+			ship_secondaries_3
 		}
 
 		folder = {
@@ -344,12 +353,15 @@ technologies = {
 		}
 		light_cruiser = {
 			lg_attack = 0.05
+			lg_armor_piercing = 0.05
 		}
 		heavy_cruiser = {
 			lg_attack = 0.05
+			lg_armor_piercing = 0.05
 		}
 		medium_cruiser = {
 			lg_attack = 0.05
+			lg_armor_piercing = 0.05
 		}
 		##! armored_cruiser = {
 		##! 	lg_attack = 0.05
@@ -412,6 +424,11 @@ technologies = {
 			ship_light_battery_4
 			ship_light_battery_4_double
 			ship_anti_air_4_h
+			ship_light_medium_battery_4
+			ship_light_medium_battery_4_double
+			ship_light_medium_battery_4_single
+
+			ship_secondaries_4
 		}
 
 		on_research_complete = {
@@ -447,260 +464,6 @@ technologies = {
 		}
 	}
 
-	basic_medium_battery = {
-
-		research_cost = 0.5
-
-		start_year = 1936
-
-
-		on_research_complete = {
-			custom_effect_tooltip = ca_tech_6_tt
-			custom_effect_tooltip = medium_battery_advice_tt
-			custom_effect_tooltip = secondary_battery_advice_tt
-		}
-
-		path = {
-			leads_to_tech = basic_medium_shell
-			research_cost_coeff = 1
-		}
-
-		enable_equipment_modules = {
-			ship_medium_battery_2
-			ship_medium_battery_2_double
-			ship_medium_battery_2_single
-			ship_light_medium_battery_2
-			ship_light_medium_battery_2_double
-			ship_light_medium_battery_2_single
-			ship_medium_heavy_battery_1
-			ship_medium_heavy_battery_1_double
-			ship_secondaries_2
-
-			sub_battery_1
-		}
-
-
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 0 y = 7 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_tech = interwar_ship_hull_cruiser
-				factor = 10
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			cat_ship_medium_battery
-			mio_cat_tech_all_cruiser_and_modules
-		}
-	}
-
-	basic_medium_shell = {
-
-		research_cost = 0.5
-
-		start_year = 1936
-
-		path = {
-			leads_to_tech = improved_medium_battery
-			research_cost_coeff = 1
-		}
-
-
-		light_cruiser = {
-			lg_armor_piercing = 0.05
-		}
-		heavy_cruiser = {
-			lg_armor_piercing = 0.05
-		}
-		medium_cruiser = {
-			lg_armor_piercing = 0.05
-		}
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x =0 y = 10 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_tech = interwar_ship_hull_cruiser
-				has_navy_size = {
-					archetype = ship_hull_cruiser
-					size > 5
-				}
-				factor = 7
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			mio_cat_tech_all_cruiser_and_modules
-		}
-	}
-
-	improved_medium_battery = {
-
-		research_cost = 0.5
-
-		start_year = 1939
-
-		path = {
-			leads_to_tech = improved_medium_shell
-			research_cost_coeff = 1
-		}
-
-
-		on_research_complete = {
-			custom_effect_tooltip = ca_tech_6_tt
-			custom_effect_tooltip = medium_battery_advice_tt
-		}
-		enable_equipment_modules = {
-			ship_medium_battery_3
-			ship_medium_battery_3_double
-			ship_medium_battery_3_single
-			ship_light_medium_battery_3
-			ship_light_medium_battery_3_double
-			ship_light_medium_battery_3_single
-
-			ship_secondaries_3
-
-		}
-
-
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 0 y = 13 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_tech = improved_ship_hull_cruiser
-				factor = 20
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			cat_ship_medium_battery
-			mio_cat_tech_all_cruiser_and_modules
-		}
-	}
-
-	improved_medium_shell = {
-
-		research_cost = 0.5
-
-		start_year = 1942
-
-		path = {
-			leads_to_tech = advanced_medium_battery
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = basic_dp_medium_battery
-			research_cost_coeff = 1
-		}
-
-		light_cruiser = {
-			lg_armor_piercing = 0.05
-		}
-		heavy_cruiser = {
-			lg_armor_piercing = 0.05
-		}
-		medium_cruiser = {
-			lg_armor_piercing = 0.05
-		}
-
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 0 y = 16 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_tech = improved_ship_hull_cruiser
-				factor = 3
-			}
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			mio_cat_tech_all_cruiser_and_modules
-		}
-	}
-
-	advanced_medium_battery = {
-
-		research_cost = 0.5
-
-		start_year = 1944
-
-		enable_equipment_modules = {
-			ship_medium_battery_4
-			ship_medium_battery_4_double
-			ship_medium_battery_4_single
-			ship_light_medium_battery_4
-			ship_light_medium_battery_4_double
-			ship_light_medium_battery_4_single
-			ship_medium_heavy_battery_2
-			ship_medium_heavy_battery_2_double
-			ship_secondaries_4
-		}
-		on_research_complete = {
-			custom_effect_tooltip = ca_tech_12_tt
-			custom_effect_tooltip = medium_battery_advice_tt
-		}
-
-		path = {
-			leads_to_tech = unmanned_gun_turret
-			research_cost_coeff = 1
-		}
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 0 y = 19 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_tech = advanced_ship_hull_cruiser
-				factor = 7
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			cat_ship_medium_battery
-			mio_cat_tech_all_cruiser_and_modules
-		}
-	}
-
 	basic_heavy_battery = {
 
 		research_cost = 0.75
@@ -720,6 +483,13 @@ technologies = {
 			ship_heavy_battery_2
 			ship_heavy_battery_2_triple
 			ship_heavy_battery_2_quad
+			ship_medium_battery_2
+			ship_medium_battery_2_double
+			ship_medium_battery_2_single
+			ship_medium_heavy_battery_1
+			ship_medium_heavy_battery_1_double
+
+			sub_battery_1
 		}
 
 		on_research_complete = {
@@ -770,6 +540,9 @@ technologies = {
 			ship_heavy_battery_3
 			ship_heavy_battery_3_triple
 			ship_heavy_battery_3_quad
+			ship_medium_battery_3
+			ship_medium_battery_3_double
+			ship_medium_battery_3_single
 		}
 
 		on_research_complete = {
@@ -815,6 +588,11 @@ technologies = {
 			ship_heavy_battery_4
 			ship_heavy_battery_4_triple
 			ship_heavy_battery_4_quad
+			ship_medium_battery_4
+			ship_medium_battery_4_double
+			ship_medium_battery_4_single
+			ship_medium_heavy_battery_2
+			ship_medium_heavy_battery_2_double
 		}
 
 		on_research_complete = {
@@ -885,6 +663,12 @@ technologies = {
 		##! 	hg_attack = 0.05
 		##! 	hg_armor_piercing = 0.05
 		##! }
+		heavy_cruiser = {
+			hg_armor_piercing = 0.05
+		}
+		medium_cruiser = {
+			hg_armor_piercing = 0.05
+		}
 
 		enable_equipment_modules = {
 			ship_high_velocity_shell
@@ -941,6 +725,12 @@ technologies = {
 		##! 	hg_attack = 0.05
 		##! 	hg_armor_piercing = 0.05
 		##! }
+		heavy_cruiser = {
+			hg_armor_piercing = 0.05
+		}
+		medium_cruiser = {
+			hg_armor_piercing = 0.05
+		}
 
 		enable_equipment_modules = {
 			ship_super_heavy_weight_shell
@@ -1072,6 +862,7 @@ technologies = {
 		start_year = 1944
 
 		enable_equipment_modules = {
+			dp_ship_medium_1
 			dp_light_battery_4
 			dp_light_battery_4_single
 			dp_ship_secondaries_4
@@ -1111,47 +902,6 @@ technologies = {
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_destroyer_and_modules
-		}
-	}
-
-	basic_dp_medium_battery = {
-
-		research_cost = 0.5
-
-		start_year = 1944
-
-		enable_equipment_modules = {
-			dp_ship_medium_1
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = ca_tech_12_tt
-			custom_effect_tooltip = secondary_battery_advice_tt
-		}
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 3 y = 19 }
-		}
-
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 20
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
