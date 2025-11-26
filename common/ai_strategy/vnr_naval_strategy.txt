@@ -228,6 +228,24 @@ JAP_destroy_china_navy_quick = {
         id = 77
         value = 100
     }
+	ai_strategy = {
+        type = naval_blockade
+		target_country = CHI
+        id = 75
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_blockade
+		target_country = CHI
+        id = 76
+        value = 100
+    }
+    ai_strategy = {
+        type = naval_blockade
+		target_country = CHI
+        id = 77
+        value = 100
+    }
 
 	ai_strategy = {
         type = convoy_raiding_target
