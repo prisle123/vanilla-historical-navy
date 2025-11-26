@@ -7,7 +7,7 @@ StrikeForce_1 = {
 	}	
 	mission = { naval_strike }
 	min_composition = {
-		heavy_cruiser = {
+		battleship = {
 			amount = 4
 		}
 		destroyer = {
@@ -21,9 +21,6 @@ StrikeForce_1 = {
 		}
 		battleship = {
 			amount = 8
-		}
-		heavy_cruiser = {
-			amount = 4
 		}
 		medium_cruiser = {
 			amount = 4
@@ -78,7 +75,7 @@ PatrolDominanceForce_1 = {
 			amount = 4
 		}
 		light_cruiser = {
-			amount = 10
+			amount = 6
 		}
 		destroyer = {
 			amount = 20
@@ -107,10 +104,39 @@ PatrolDominanceForce_2 = {
 			amount = 4
 		}
 		light_cruiser = {
-			amount = 10
+			amount = 6
 		}
 		destroyer = {
 			amount = 20
+		}
+	}
+}
+
+PatrolDominanceForce_3 = {
+	allowed = {
+		
+	}
+	ai_will_do = {
+		factor = 1
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 4
+		}
+		destroyer = {
+			amount = 10
+		}
+	}
+	optimal_composition = {
+		heavy_cruiser = {
+			amount = 4
+		}
+		light_cruiser = {
+			amount = 5
+		}
+		destroyer = {
+			amount = 14
 		}
 	}
 }
