@@ -287,7 +287,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		OR = {
-			date > 1939.1.1
+			date > 1938.1.1
 			OR = {
 				AND = {
 					expert_ai_style = no
