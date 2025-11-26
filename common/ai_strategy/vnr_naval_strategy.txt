@@ -432,7 +432,7 @@ USA_pacific_war_naval_avoid_first = {
 	ai_strategy = {
 		type = naval_dominance
 		id = 95
-		value = 60
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
@@ -570,18 +570,23 @@ USA_pacific_war_naval_counterattack_1 = {
 	
 	ai_strategy = {
 		type = naval_dominance
+		id = 83
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_dominance
 		id = 84
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
 		id = 95
-		value = 80
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
 		id = 97
-		value = 80
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
@@ -591,7 +596,7 @@ USA_pacific_war_naval_counterattack_1 = {
 	ai_strategy = {
 		type = naval_dominance
 		id = 180
-		value = 100
+		value = 80
 	}
 	ai_strategy = {
 		type = invade
@@ -698,7 +703,7 @@ USA_pacific_war_naval_counterattack_2 = {
 	ai_strategy = {
 		type = naval_dominance
 		id = 97
-		value = 100
+		value = 70
 	}
 	ai_strategy = {
 		type = naval_dominance
