@@ -2,14 +2,13 @@ generic_dominance_fleet_1 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolDominanceForce_1 = 2
-		PatrolReconForce_1 = 4
+		PatrolReconForce_1 = 3
 	}	
 	optional_taskforces = {
 		StrikeForce_1 = 1
-		PatrolDominanceForce_1 = 1
 		PatrolDominanceForce_2 = 1
-		PatrolDominanceForce_3 = 2
-		PatrolReconForce_1 = 2
+		PatrolDominanceForce_3 = 1
+		PatrolReconForce_1 = 1
 	}
 }
 

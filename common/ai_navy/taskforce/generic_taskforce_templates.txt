@@ -1,6 +1,6 @@
 StrikeForce_1 = {
 	allowed = {
-		
+		always = yes
 	}
 	ai_will_do = {
 		factor = 100
@@ -36,7 +36,7 @@ StrikeForce_1 = {
 
 PatrolReconForce_1 = {
 	allowed = {
-		
+		always = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -56,7 +56,7 @@ PatrolReconForce_1 = {
 
 PatrolDominanceForce_1 = {
 	allowed = {
-		
+		always = yes
 	}
 	ai_will_do = {
 		factor = 5
@@ -85,7 +85,9 @@ PatrolDominanceForce_1 = {
 
 PatrolDominanceForce_2 = {
 	allowed = {
-		
+		original_tag = ENG
+		original_tag = JAP
+		original_tag = GER
 	}
 	ai_will_do = {
 		factor = 1
@@ -114,7 +116,7 @@ PatrolDominanceForce_2 = {
 
 PatrolDominanceForce_3 = {
 	allowed = {
-		
+		always = yes
 	}
 	ai_will_do = {
 		factor = 1
@@ -143,7 +145,7 @@ PatrolDominanceForce_3 = {
 
 ConvoyRaiding_1 = {
 	allowed = {
-
+		always = yes
 	}
 	ai_will_do = {
 		factor = 1
@@ -164,7 +166,7 @@ ConvoyRaiding_1 = {
 
 ConvoyEscort_1 = {
 	allowed = {
-
+		always = yes
 	}
 	ai_will_do = {
 		factor = 5
