@@ -262,6 +262,9 @@ torpedo_primacy = {
 			heavy_cruiser = {
 				torpedo_attack = 0.1
 			}
+			medium_cruiser = {
+				torpedo_attack = 0.1
+			}
     	}
     }
 }
@@ -314,6 +317,7 @@ jeune_ecole = {
     	coastal_patrol = {
     		modifier = {
 				mines_planting_by_fleets_factor = 0.2
+				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
 			}
     	}
     }

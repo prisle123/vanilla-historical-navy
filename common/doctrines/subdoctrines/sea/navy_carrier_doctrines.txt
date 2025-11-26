@@ -49,6 +49,7 @@ carrier_battlegroups = {
 			}
             modifier = {
                 sortie_efficiency = 0.1
+                carrier_capacity_penalty_reduction = -0.1
             }
 		}
 		fleet_antiair = {
@@ -58,6 +59,7 @@ carrier_battlegroups = {
 			}
             modifier = {
                 sortie_efficiency = 0.1
+                fighter_sortie_efficiency = 0.1
             }
 		}
 		alpha_strike = {
