@@ -1,157 +1,147 @@
 StrikeForce_1 = {
 	allowed = {
-		always = yes
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 1
 	}	
 	mission = { naval_strike }
 	min_composition = {
-		battleship = {
-			amount = 4
-		}
 		destroyer = {
-			amount = 12
+			amount = 8
 		}
 	}
 	
 	optimal_composition = {
 		carrier = {
-			amount = 6
+			amount = 2
 		}
 		battleship = {
-			amount = 8
+			amount = 4
+		}
+		heavy_cruiser = {
+			amount = 4
 		}
 		light_cruiser = {
-			amount = 16
+			amount = 4
 		}
 		destroyer = {
-			amount = 24
+			amount = 28
 		}
 	}
 }
 
 PatrolReconForce_1 = {
 	allowed = {
-		always = yes
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
 	}
 	ai_will_do = {
 		factor = 5
 	}
 	mission = { naval_patrol }
 	min_composition = {
-		destroyer = {
+		light_cruiser = {
 			amount = 1
 		}
 	}	
 	optimal_composition = {
-		destroyer = {
-			amount = 5
+		light_cruiser = {
+			amount = 3
 		}
 	}
 }
 
-PatrolDominanceForce_1 = {
+PatrolDominanceForce_CA_1 = {
 	allowed = {
-		always = yes
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
 	}
 	ai_will_do = {
-		factor = 6
+		factor = 5
 	}	
 	mission = { naval_patrol }
 	min_composition = {
-		light_cruiser = {
-			amount = 4
-		}
 		destroyer = {
-			amount = 6
+			amount = 4
 		}
 	}
-	optimal_composition = {
-		battleship = {
-			amount = 4
-		}
-		medium_cruiser = {
-			amount = 4
-		}
-		light_cruiser = {
-			amount = 6
-		}
-		destroyer = {
-			amount = 10
-		}
-	}
-}
 
-PatrolDominanceForce_2 = {
-	allowed = {
-		original_tag = ENG
-		original_tag = JAP
-		original_tag = GER
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 4
-		}
-		destroyer = {
-			amount = 6
-		}
-	}
-	optimal_composition = {
-		battle_cruiser = {
-			amount = 4
-		}
-		medium_cruiser = {
-			amount = 4
-		}
-		light_cruiser = {
-			amount = 6
-		}
-		destroyer = {
-			amount = 10
-		}
-	}
-}
-
-PatrolDominanceForce_3 = {
-	allowed = {
-		always = yes
-	}
-	ai_will_do = {
-		factor = 4
-	}	
-	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 6
-		}
-	}
 	optimal_composition = {
 		heavy_cruiser = {
-			amount = 4
-		}
-		medium_cruiser = {
-			amount = 2
-		}
-		light_cruiser = {
-			amount = 4
+			amount = 3
 		}
 		destroyer = {
-			amount = 10
+			amount = 12
+		}
+	}
+}
+
+PatrolDominanceForce_BC_1 = {
+	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		destroyer = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		battle_cruiser = {
+			amount = 3
+		}
+		destroyer = {
+			amount = 12
 		}
 	}
 }
 
 ConvoyRaiding_1 = {
 	allowed = {
-		always = yes
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
 	}
 	ai_will_do = {
 		factor = 1
@@ -170,9 +160,46 @@ ConvoyRaiding_1 = {
 	}
 }
 
+ConvoySurfaceRaiding_1 = {
+	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { convoy_raiding }
+	min_composition = {
+		battle_cruiser = {
+			amount = 1
+		}
+	}
+
+	optimal_composition = {
+		battle_cruiser = {
+			amount = 2
+		}
+	}
+}
+
 ConvoyEscort_1 = {
 	allowed = {
-		always = yes
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
 	}
 	ai_will_do = {
 		factor = 5
@@ -180,13 +207,99 @@ ConvoyEscort_1 = {
 	mission = { convoy_escort }
 	min_composition = {
 		destroyer = {
-			amount = 5
+			amount = 4
 		}
 	}
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 8
+			amount = 10
 		}
 	}
 }
+
+MineLaying_1 = {
+	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
+	}
+	ai_will_do = {
+		factor = 1
+	}	
+	mission = { mines_planting }
+	min_composition = {
+		destroyer = {
+			amount = 1
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		destroyer = {
+			amount = 4
+			role = 4
+		}
+		
+		light_cruiser = {
+			amount = 2
+			role = 4
+		}
+	}
+}
+
+#NavalInvasionSupport_1 = { #Commented out for now as it throws the error, for some reason
+#	allowed = {
+#		NOT = {
+#			original_tag = JAP
+#			original_tag = ENG
+#			original_tag = SOV
+#			original_tag = USA
+#			original_tag = ITA
+#			original_tag = GER
+#			original_tag = FRA
+#		}		
+#	}
+#	ai_will_do = {
+#	 factor = 1
+#	}
+
+#	mission = { naval_invasion_support }
+
+
+#	min_composition = {
+#		heavy_cruiser = {
+#			amount = 2
+#		}
+#		battleship = {
+#			amount = 2
+#		}
+#	}
+	
+#	optimal_composition = {
+#		carrier = {
+#			amount = 2
+#		}
+#		battleship = {
+#			amount = 2
+#		}
+#		heavy_cruiser = {
+#			amount = 5
+#		}
+#		destroyer = {
+#			amount = 12
+#		}
+#		battle_cruiser = {
+#			amount = 4
+#		}
+#		light_cruiser = {
+#			amount = 4
+#		}
+#	}
+#}
