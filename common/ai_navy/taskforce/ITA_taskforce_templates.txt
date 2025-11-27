@@ -24,7 +24,6 @@ ITA_StrikeForce_1 = {
 		}
 		destroyer = {
 			amount = 28
-
 		}
 	}
 }
@@ -49,15 +48,11 @@ ITA_StrikeForceCarrier_1 = {
 		battleship = {
 			amount = 4
 		}
-		heavy_cruiser = {
-			amount = 4
-		}
 		light_cruiser = {
-			amount = 4
+			amount = 10
 		}
 		destroyer = {
-			amount = 28
-
+			amount = 20
 		}
 	}
 }
@@ -71,13 +66,13 @@ ITA_PatrolReconForce_1 = {
 	}
 	mission = { naval_patrol }
 	min_composition = {
-		light_cruiser = {
+		destroyer = {
 			amount = 1
 		}
 	}	
 	optimal_composition = {
-		light_cruiser = {
-			amount = 3
+		destroyer = {
+			amount = 5
 		}
 	}
 }
@@ -91,6 +86,9 @@ ITA_PatrolDominanceForce_1 = {
 	}	
 	mission = { naval_patrol }
 	min_composition = {
+		light_cruiser = {
+			amount = 2
+		}
 		destroyer = {
 			amount = 4
 		}
@@ -99,6 +97,12 @@ ITA_PatrolDominanceForce_1 = {
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 3
+		}
+		medium_cruiser = {
+			amount = 2
+		}
+		light_cruiser = {
+			amount = 4
 		}
 		destroyer = {
 			amount = 12
@@ -164,34 +168,6 @@ ITA_ConvoyEscort_1 = {
 	optimal_composition = {
 		destroyer = {
 			amount = 10
-		}
-	}
-}
-
-ITA_MineLaying_1 = {
-	allowed = {
-		original_tag = ITA
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	mission = { mines_planting }
-	min_composition = {
-		destroyer = {
-			amount = 2
-			role = 4
-		}
-	}
-	
-	optimal_composition = {
-		destroyer = {
-			amount = 4
-			role = 4
-		}
-		
-		light_cruiser = {
-			amount = 1
-			role = 4
 		}
 	}
 }

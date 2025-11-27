@@ -16,8 +16,8 @@ GER_mine_sweeping = {
         GER
     }
 
-    min_priority = 3
-    max_priority = 8
+    min_priority = 0
+    max_priority = 2
 }
 
 GER_invasion_defense = {
@@ -38,8 +38,8 @@ GER_coast_defense = {
         GER
     }
 
-    min_priority = 5
-    max_priority = 10
+    min_priority = 10
+    max_priority = 15
 }
 
 GER_convoy_protection = {
@@ -60,8 +60,8 @@ GER_convoy_raiding = {
         GER
     }
 
-    min_priority = 3
-    max_priority = 7
+    min_priority = 10
+    max_priority = 20
 }
 
 GER_naval_dominance = {
@@ -82,8 +82,8 @@ GER_mine_laying = {
         GER
     }
 
-    min_priority = 2
-    max_priority = 8
+    min_priority = 0
+    max_priority = 1
 }
 
 GER_training = {

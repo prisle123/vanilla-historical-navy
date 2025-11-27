@@ -16,8 +16,8 @@ FRA_mine_sweeping = {
         FRA
     }
 
-    min_priority = 2
-    max_priority = 8
+    min_priority = 0
+    max_priority = 1
 }
 
 FRA_invasion_defense = {
@@ -38,7 +38,7 @@ FRA_coast_defense = {
         FRA
     }
 
-    min_priority = 1
+    min_priority = 5
     max_priority = 16
 }
 
@@ -61,7 +61,7 @@ FRA_convoy_raiding = {
     }
 
     min_priority = 3
-    max_priority = 7
+    max_priority = 15
 }
 
 FRA_naval_dominance = {
@@ -71,8 +71,8 @@ FRA_naval_dominance = {
         FRA
     }
 
-    min_priority = 1
-    max_priority = 13
+    min_priority = 12
+    max_priority = 20
 }
 
 FRA_mine_laying = {
@@ -82,8 +82,8 @@ FRA_mine_laying = {
         FRA
     }
 
-    min_priority = 2
-    max_priority = 8
+    min_priority = 0
+    max_priority = 1
 }
 
 FRA_training = {

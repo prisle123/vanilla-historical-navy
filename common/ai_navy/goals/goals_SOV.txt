@@ -16,8 +16,8 @@ SOV_mine_sweeping = {
         SOV
     }
 
-    min_priority = 3
-    max_priority = 8
+    min_priority = 0
+    max_priority = 1
 }
 
 SOV_invasion_defense = {
@@ -27,8 +27,8 @@ SOV_invasion_defense = {
         SOV
     }
 
-    min_priority = 5
-    max_priority = 12
+    min_priority = 10
+    max_priority = 15
 }
 
 SOV_coast_defense = {
@@ -38,8 +38,8 @@ SOV_coast_defense = {
         SOV
     }
 
-    min_priority = 1
-    max_priority = 10
+    min_priority = 10
+    max_priority = 20
 }
 
 SOV_convoy_protection = {
@@ -82,8 +82,8 @@ SOV_mine_laying = {
         SOV
     }
 
-    min_priority = 3
-    max_priority = 8
+    min_priority = 0
+    max_priority = 1
 }
 
 SOV_training = {

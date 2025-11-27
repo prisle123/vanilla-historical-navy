@@ -16,8 +16,8 @@ JAP_mine_sweeping = {
         JAP
     }
 
-    min_priority = 3
-    max_priority = 8
+    min_priority = 0
+    max_priority = 0
 }
 
 JAP_invasion_defense = {
@@ -28,7 +28,7 @@ JAP_invasion_defense = {
     }
 
     min_priority = 5
-    max_priority = 15
+    max_priority = 14
 }
 
 JAP_coast_defense = {
@@ -61,7 +61,7 @@ JAP_convoy_raiding = {
     }
 
     min_priority = 3
-    max_priority = 7
+    max_priority = 10
 }
 
 JAP_naval_dominance = {
@@ -71,8 +71,8 @@ JAP_naval_dominance = {
         JAP
     }
 
-    min_priority = 1
-    max_priority = 13
+    min_priority = 12
+    max_priority = 20
 }
 
 JAP_mine_laying = {
@@ -82,8 +82,8 @@ JAP_mine_laying = {
         JAP
     }
 
-    min_priority = 1
-    max_priority = 5
+    min_priority = 0
+    max_priority = 0
 }
 
 JAP_training = {

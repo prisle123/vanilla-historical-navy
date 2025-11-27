@@ -56,13 +56,13 @@ PatrolReconForce_1 = {
 	}
 	mission = { naval_patrol }
 	min_composition = {
-		light_cruiser = {
+		destroyer = {
 			amount = 1
 		}
 	}	
 	optimal_composition = {
-		light_cruiser = {
-			amount = 3
+		destroyer = {
+			amount = 5
 		}
 	}
 }
