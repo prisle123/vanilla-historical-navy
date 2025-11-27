@@ -287,6 +287,11 @@ JAP_pacific_war_naval_stage_one = {
         id = 84
         value = 100
     }
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_STRIKE_FORCE
+		value = -500
+	}
 }
 
 JAP_pacific_war_naval_stage_two = {
@@ -348,6 +353,11 @@ JAP_pacific_war_naval_stage_two = {
         id = 83
         value = 85
     }
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_STRIKE_FORCE
+		value = -500
+	}
 }
 
 ### USA ###
@@ -631,6 +641,12 @@ USA_pacific_war_naval_counterattack_1 = {
 		ordertype = invasion
     	execute_order = yes
 	}
+
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_STRIKE_FORCE
+		value = -500
+	}
 }
 
 USA_pacific_war_naval_counterattack_2 = {
@@ -750,6 +766,12 @@ USA_pacific_war_naval_counterattack_2 = {
 		ordertype = invasion
     	execute_order = yes
 	}
+
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_STRIKE_FORCE
+		value = -500
+	}
 }
 
 USA_pacific_war_naval_counterattack_3 = {
@@ -841,6 +863,12 @@ USA_pacific_war_naval_counterattack_3 = {
 		area = home_islands
 		ordertype = invasion
     	execute_order = yes
+	}
+
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_STRIKE_FORCE
+		value = -500
 	}
 }
 
@@ -1076,5 +1104,52 @@ GER_invade_norway = {
 		type = naval_dominance
 		id = 207
 		value = 100
+	}
+}
+
+major_train_fleet_strategy = {
+	allowed = {
+		OR = {
+			original_tag = JAP
+			original_tag = USA
+			original_tag = ENG
+			original_tag = ITA
+			original_tag = FRA
+			original_tag = GER
+		}
+	}
+	enable = {
+		has_war = no
+		date < 1939.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_TRAINING
+		value = -500
+	}
+}
+
+major_dont_hold_fleet = {
+	allowed = {
+		OR = {
+			original_tag = JAP
+			original_tag = USA
+			original_tag = ENG
+			original_tag = ITA
+			original_tag = FRA
+			original_tag = GER
+		}
+	}
+	enable = {
+		has_war = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_HOLD
+		value = 1000
 	}
 }

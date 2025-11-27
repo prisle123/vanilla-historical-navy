@@ -3,7 +3,7 @@ StrikeForce_1 = {
 		always = yes
 	}
 	ai_will_do = {
-		factor = 100
+		factor = 10
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -11,7 +11,7 @@ StrikeForce_1 = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 20
+			amount = 12
 		}
 	}
 	
@@ -22,14 +22,11 @@ StrikeForce_1 = {
 		battleship = {
 			amount = 8
 		}
-		medium_cruiser = {
-			amount = 4
-		}
 		light_cruiser = {
-			amount = 15
+			amount = 16
 		}
 		destroyer = {
-			amount = 25
+			amount = 24
 		}
 	}
 }
@@ -59,7 +56,7 @@ PatrolDominanceForce_1 = {
 		always = yes
 	}
 	ai_will_do = {
-		factor = 5
+		factor = 6
 	}	
 	mission = { naval_patrol }
 	min_composition = {
@@ -67,18 +64,21 @@ PatrolDominanceForce_1 = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 10
+			amount = 6
 		}
 	}
 	optimal_composition = {
 		battleship = {
 			amount = 4
 		}
+		medium_cruiser = {
+			amount = 4
+		}
 		light_cruiser = {
 			amount = 6
 		}
 		destroyer = {
-			amount = 20
+			amount = 10
 		}
 	}
 }
@@ -98,18 +98,21 @@ PatrolDominanceForce_2 = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 10
+			amount = 6
 		}
 	}
 	optimal_composition = {
 		battle_cruiser = {
 			amount = 4
 		}
+		medium_cruiser = {
+			amount = 4
+		}
 		light_cruiser = {
 			amount = 6
 		}
 		destroyer = {
-			amount = 20
+			amount = 10
 		}
 	}
 }
@@ -119,26 +122,29 @@ PatrolDominanceForce_3 = {
 		always = yes
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 4
 	}	
 	mission = { naval_patrol }
 	min_composition = {
 		light_cruiser = {
-			amount = 4
+			amount = 2
 		}
 		destroyer = {
-			amount = 10
+			amount = 6
 		}
 	}
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 4
 		}
+		medium_cruiser = {
+			amount = 2
+		}
 		light_cruiser = {
-			amount = 5
+			amount = 4
 		}
 		destroyer = {
-			amount = 14
+			amount = 10
 		}
 	}
 }
@@ -180,7 +186,7 @@ ConvoyEscort_1 = {
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }
