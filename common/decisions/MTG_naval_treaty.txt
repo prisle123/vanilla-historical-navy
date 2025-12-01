@@ -21,6 +21,7 @@ MTG_naval_treaties = {
 				has_government = democratic
 				has_government = neutrality
 			}
+			NOT = { tag = JAP }
 		}
 	
 		complete_effect = {
@@ -137,6 +138,7 @@ MTG_naval_treaties = {
 			OR = {
 				has_government = fascism
 				has_government = communism
+				tag = JAP
 			}
 		}
 	
@@ -232,6 +234,7 @@ MTG_naval_treaties = {
 			OR = {
 				has_government = fascism
 				has_government = communism
+				tag = JAP
 			}
 		}
 	
