@@ -60,7 +60,7 @@ convoy_escort = {
 			light_cruiser = {
 				anti_air_attack = 0.15
 			}
-			convoy_escort_efficiency = 0.05
+			convoy_escort_efficiency = 0.1
 		}
     }
 }
@@ -92,6 +92,7 @@ support_integrated_operations = {
 
     # EFFECTS
 	screening_efficiency = 0.05
+	convoy_escort_efficiency = 0.05
 	
     rewards = {
         first_line_of_defense = {
@@ -231,7 +232,7 @@ torpedo_primacy = {
    		always = yes
     }
     naval_torpedo_hit_chance_factor = 0.1
-	convoy_raiding_efficiency_factor = 0.05
+	naval_torpedo_cooldown_factor = -0.125
 
     rewards = {
 
@@ -253,7 +254,7 @@ torpedo_primacy = {
     	}
     	torpedo_rearming = {
     		modifier = {
-				naval_torpedo_cooldown_factor = -0.25
+				naval_torpedo_cooldown_factor = -0.125
 			}
     	}
     	night_combat_training = {

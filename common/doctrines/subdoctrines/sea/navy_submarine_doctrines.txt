@@ -24,11 +24,12 @@ wolfpacks = {
 		max_organisation = 10
         torpedo_attack = 0.05
 	}
+    sub_retreat_speed = 0.05
 
     rewards = {
 		predictive_expertise = {
 			submarine = {
-                torpedo_attack = 0.05
+                torpedo_attack = 0.1
 				naval_torpedo_hit_chance_factor = 0.05
 			}
             modifier = {
@@ -57,7 +58,7 @@ wolfpacks = {
 		}
 		wolfpack_coordination = {
 			submarine = {
-                max_organisation = 5
+                max_organisation = 10
 				surface_detection = 0.1
 				convoy_raiding_coordination = 0.15
 			}
@@ -99,7 +100,9 @@ submarine_fleet_operations = {
     }
 
     # EFFECTS
-    navy_submarine_attack_factor = 0.05
+    submarine = {
+        naval_torpedo_hit_chance_factor = 0.1
+    }
 	naval_torpedo_screen_penetration_factor = 0.05
 
     rewards = {

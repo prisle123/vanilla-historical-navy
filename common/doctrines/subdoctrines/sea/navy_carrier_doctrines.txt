@@ -236,6 +236,9 @@ carrier_concentration = {
     			supply_consumption = -0.15
     			fuel_consumption = -0.1
     		}
+            modifier = {
+                navy_carrier_air_agility_factor = 0.1
+            }
     	}
     	massed_air_raid = {
     		modifier = {
