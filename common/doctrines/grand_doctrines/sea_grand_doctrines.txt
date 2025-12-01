@@ -55,7 +55,7 @@ new_fleet_in_being = {
         }
 		{
             #Screens
-			navy_anti_air_attack_factor = 0.10
+			convoy_escort_efficiency = 0.10
             screening_efficiency = 0.05
             effect = {
                 if = {

@@ -63,9 +63,6 @@ wolfpacks = {
 			}
 		}
     }
-    mastery = {
-        multiplier = 2
-    }
 }
 
 submarine_fleet_operations = {
@@ -133,9 +130,6 @@ submarine_fleet_operations = {
 			}
 		}
     }
-    mastery = {
-        multiplier = 2
-    }
 }
 
 capital_hunters = {
@@ -183,9 +177,6 @@ capital_hunters = {
                 sub_retreat_speed = 0.15
             }
     	}
-    }
-    mastery = {
-        multiplier = 2
     }
 }
 
@@ -238,8 +229,5 @@ submarine_coastal_defense = {
     			torpedo_attack = 0.1
     		}
     	}
-    }
-    mastery = {
-        multiplier = 2
     }
 }

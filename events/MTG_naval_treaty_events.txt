@@ -377,6 +377,7 @@ country_event = { #notification about 2nd London Naval Conference
 				OR = {
 					has_government = fascism 
 					has_government = communism
+					tag = JAP
 				}
 				factor = 0
 			}
@@ -394,6 +395,10 @@ country_event = { #notification about 2nd London Naval Conference
 					has_government = communism
 				}
 				factor = 0
+			}
+			modifier = {
+				tag = JAP
+				add = 100
 			}
 		}
 	}

@@ -1455,7 +1455,7 @@ naval_unit_role_ratios_USA_great_depression = {
 		tag = USA
 	}
 	enable = {
-		date < 1938.1.1
+		date < 1937.2.1
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1503,7 +1503,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 		tag = USA
 	}
 	enable = {
-		date > 1937.3.1
+		date > 1937.1.31
 		has_war_with_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1551,7 +1551,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = building_target
 		id = arms_factory
-		value = 80
+		value = 35
 	}
 }
 
