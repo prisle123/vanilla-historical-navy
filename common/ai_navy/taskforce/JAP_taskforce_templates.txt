@@ -150,6 +150,46 @@ JAP_PatrolDominanceForce_3 = {
 	}
 }
 
+JAP_PatrolDominanceForce_4 = {
+	allowed = {
+		original_tag = JAP
+	}
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			add = 3
+			has_navy_size = {
+				unit = SH_battleship
+				size > 0
+			}
+		}
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 6
+		}
+	}
+
+	optimal_composition = {
+		SH_battleship = {
+			amount = 2
+		}
+		medium_cruiser = {
+			amount = 2
+		}
+		light_cruiser = {
+			amount = 4
+		}
+		destroyer = {
+			amount = 10
+		}
+	}
+}
+
 JAP_ConvoyRaiding_1 = {
 	allowed = {
 		original_tag = JAP
