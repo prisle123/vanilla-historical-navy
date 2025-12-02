@@ -741,7 +741,7 @@ GER_start_naval_variants = {
         type = vnr_ship_hull_heavy_3
         name_group = GER_BB_HISTORICAL
         modules = {
-            fixed_ship_battery_slot = ship_heavy_battery_big_1
+            fixed_ship_battery_slot = ger_15in_c34_double
 			fixed_ship_anti_air_slot = ship_anti_air_1_h
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 			fixed_ship_engine_slot = heavy_ship_engine_2
@@ -751,11 +751,11 @@ GER_start_naval_variants = {
 			fixed_ship_torpedo_defense_system_slot = torpedo_belt
             fixed_ship_extra_secondaries_slot = ship_light_weight_shell
 			front_1_custom_slot = ship_anti_air_1
-			front_2_custom_slot = ship_heavy_battery_big_1
+			front_2_custom_slot = ger_15in_c34_double
 			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = ship_secondaries_2
-			rear_1_custom_slot = ship_heavy_battery_big_1
-            rear_2_custom_slot = ship_heavy_battery_big_1
+			rear_1_custom_slot = ger_15in_c34_double
+            rear_2_custom_slot = ger_15in_c34_double
         }
     }
     create_equipment_variant = {

@@ -22,11 +22,8 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 33
 		}
-		can_convert_from = {
-			module_category = ship_heavy_battery
-			convert_cost_ic = 200
-		}
-		dismantle_cost_ic = 1040
+
+		dismantle_cost_ic = 250
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -54,11 +51,8 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 33
 		}
-		can_convert_from = {
-			module_category = ship_heavy_battery
-			convert_cost_ic = 300
-		}
-		dismantle_cost_ic = 2250
+		
+		dismantle_cost_ic = 320
 		critical_parts = { damaged_heavy_guns }
 		forbid_module_categories = {
 		    ship_depth_charge
@@ -83,7 +77,7 @@ equipment_modules = {
 			hg_armor_piercing = 22
 			lg_armor_piercing = 9
 		}
-		dismantle_cost_ic = 1000
+		dismantle_cost_ic = 180
 		critical_parts = { damaged_secondaries }
 	}
 
@@ -142,4 +136,32 @@ equipment_modules = {
 			ship_mine_layer
 		}
 	}
+
+	ger_15in_c34_double = {
+        category = ship_heavy_battery
+		gfx = ship_heavy_battery_2
+        sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+
+        add_stats = {
+			surface_visibility = 0.5
+			hg_attack = 7.5
+			max_strength = 30
+			build_cost_ic = 500
+		}
+		multiply_stats = {
+			build_cost_ic = 0.02
+			naval_speed = -0.02
+		}
+		add_average_stats = {
+			hg_armor_piercing = 35
+		}
+
+		dismantle_cost_ic = 280
+		critical_parts = { damaged_heavy_guns }
+		forbid_module_categories = {
+		    ship_depth_charge
+			ship_mine_layer
+		}
+    }
 }
