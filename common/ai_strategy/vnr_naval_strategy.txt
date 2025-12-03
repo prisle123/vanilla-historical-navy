@@ -22,6 +22,16 @@ ENG_protect_home_waters = {
         value = 100
     }
 	ai_strategy = {
+		type = strike_force_home_base
+		id = 16
+		value = 70
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 18
+		value = 100
+	}
+	ai_strategy = {
         type = naval_avoid_region
         id = 18
         value = -1000
@@ -983,34 +993,24 @@ GER_unrestricted_submarine_warfare = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = naval_blockade
-		target_country = ENG
+        type = naval_convoy_raid_region
         id = 47
-        value = 70
+        value = 200
     }
     ai_strategy = {
-        type = naval_blockade
-		target_country = ENG
+        type = naval_convoy_raid_region
         id = 49
-        value = 70
+        value = 500
     }
     ai_strategy = {
-        type = naval_blockade
-		target_country = ENG
+        type = naval_convoy_raid_region
         id = 44
-        value = 70
+        value = 150
     }
     ai_strategy = {
-        type = naval_blockade
-		target_country = ENG
+        type = naval_convoy_raid_region
         id = 50
-        value = 70
-    }
-	ai_strategy = {
-        type = naval_blockade
-		target_country = ENG
-        id = 42
-        value = 70
+        value = 30
     }
 	ai_strategy = {
 		type = convoy_raiding_target
