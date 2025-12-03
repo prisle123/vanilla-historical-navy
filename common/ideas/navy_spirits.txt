@@ -591,6 +591,10 @@ ideas = {
 					has_doctrine = floating_airfields
 					}
 				}
+				modifier = {
+					factor = 100
+					tag = JAP
+				}
 			}
 		}
 		surprise_attacks_spirit = { 
@@ -794,7 +798,7 @@ ideas = {
         inflexible_headquarter = {
             ledger = navy
             modifier = {
-                political_power_factor = 0.05
+                political_power_gain = 0.05
                 navy_advisor_cost_factor = 0.25
                 navy_leader_cost_factor = 0.25
                 navy_intel_to_others = 20
