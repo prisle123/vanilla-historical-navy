@@ -1396,6 +1396,7 @@ equipment_modules = {
 		gui_category = ship_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 5
 		
 		add_stats = {
 			surface_visibility = 1
@@ -1423,6 +1424,7 @@ equipment_modules = {
 		gui_category = ship_heavy_battery
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 6
 		
 		add_stats = {
 			surface_visibility = 1.2
@@ -1623,6 +1625,7 @@ equipment_modules = {
 		gui_category = ship_heavy_battery_triple
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 5
 		
 		add_stats = {
 			surface_visibility = 1.1
@@ -1651,6 +1654,7 @@ equipment_modules = {
 		gui_category = ship_heavy_battery_triple
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 6
 		
 		add_stats = {
 			surface_visibility = 1.3
@@ -1863,6 +1867,7 @@ equipment_modules = {
 		gui_category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 8
 		
 		add_stats = {
 			surface_visibility = 1.2
@@ -1892,6 +1897,7 @@ equipment_modules = {
 		gui_category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 10
 		
 		add_stats = {
 			surface_visibility = 1.5
@@ -1919,6 +1925,7 @@ equipment_modules = {
 		parent = ship_super_heavy_battery_big_1
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 7
 		
 		add_stats = {
 			surface_visibility = 1
@@ -1944,6 +1951,7 @@ equipment_modules = {
 		parent = ship_super_heavy_battery_big_1_triple
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 9
 		
 		add_stats = {
 			surface_visibility = 1.1
@@ -1969,6 +1977,7 @@ equipment_modules = {
 		parent = ship_super_heavy_battery_big_1_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 15
 		
 		add_stats = {
 			surface_visibility = 1.2
@@ -2366,6 +2375,7 @@ equipment_modules = {
 			naval_speed = -0.08
 			surface_visibility = -0.02
 		}
+		xp_cost = 5
 		dismantle_cost_ic = 600
 	}
 	ship_missile_2 = {
@@ -2390,6 +2400,7 @@ equipment_modules = {
 			naval_speed = -0.1
 			surface_visibility = -0.025
 		}
+		xp_cost = 8
 		dismantle_cost_ic = 950
 	}
 	ship_cruise_missile_1 = {
@@ -2406,6 +2417,7 @@ equipment_modules = {
 			build_cost_ic = 0.05
 			naval_speed = -0.1
 		}
+		xp_cost = 3
 		dismantle_cost_ic = 600
 	}
 	ship_cruise_missile_sub_1 = {
@@ -2423,6 +2435,7 @@ equipment_modules = {
 			naval_speed = -0.1
 			sub_visibility = 0.15
 		}
+		xp_cost = 3
 		dismantle_cost_ic = 1100
 	}
 

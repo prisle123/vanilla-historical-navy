@@ -28,6 +28,10 @@ ideas = {
                 navy_carrier_air_attack_factor = 0.3
                 navy_carrier_air_targetting_factor = 0.3
                 sortie_efficiency = 0.3
+                capital_ships_track_mastery_gain_factor = 0.6
+                carriers_track_mastery_gain_factor = 0.6
+                screens_track_mastery_gain_factor = 0.6
+                submarines_track_mastery_gain_factor = 0.6
             }
         }
         vnr_hard = {
@@ -58,6 +62,10 @@ ideas = {
                 navy_carrier_air_attack_factor = 0.2
                 navy_carrier_air_targetting_factor = 0.2
                 sortie_efficiency = 0.2
+                capital_ships_track_mastery_gain_factor = 0.4
+                carriers_track_mastery_gain_factor = 0.4
+                screens_track_mastery_gain_factor = 0.4
+                submarines_track_mastery_gain_factor = 0.4
 			}
         }
         vnr_normal = {
@@ -88,6 +96,10 @@ ideas = {
                 navy_carrier_air_attack_factor = 0.1
                 navy_carrier_air_targetting_factor = 0.1
                 sortie_efficiency = 0.1
+                capital_ships_track_mastery_gain_factor = 0.2
+                carriers_track_mastery_gain_factor = 0.2
+                screens_track_mastery_gain_factor = 0.2
+                submarines_track_mastery_gain_factor = 0.2
 			}
         }
 		
@@ -100,11 +112,11 @@ ideas = {
                 industrial_capacity_dockyard = 1
                 production_speed_dockyard_factor = 1
                 repair_speed_factor = 1
-                ship_hull_carrier_design_cost_factor = -0.75
-                ship_hull_heavy_design_cost_factor = -0.75
-                ship_hull_cruiser_design_cost_factor = -0.75
-                ship_hull_light_design_cost_factor = -0.75
-                ship_hull_submarine_design_cost_factor = -0.75
+                ship_hull_carrier_design_cost_factor = -0.9
+                ship_hull_heavy_design_cost_factor = -0.9
+                ship_hull_cruiser_design_cost_factor = -0.9
+                ship_hull_light_design_cost_factor = -0.9
+                ship_hull_submarine_design_cost_factor = -0.9
             }
         }
         vnr_hard_production = {
