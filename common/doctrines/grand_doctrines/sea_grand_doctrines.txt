@@ -192,9 +192,9 @@ new_convoy_raiding = {
         {
             #Carriers
 	        carrier = {
-                sub_detection = 0.1
+                carrier_surface_detection = 0.05
+                carrier_sub_detection = 0.1
             }
-            screening_efficiency = 0.1
             effect = {
                 if = {
                     limit = {
@@ -266,7 +266,8 @@ new_base_strike = {
 		{
             #Submarines
 	        submarine = {
-                convoy_raiding_coordination = 0.1
+                surface_detection = 0.05
+                convoy_raiding_coordination = 0.05
             }
             naval_torpedo_screen_penetration_factor = 0.1
             effect = {

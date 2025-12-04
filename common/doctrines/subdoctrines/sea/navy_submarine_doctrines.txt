@@ -108,7 +108,7 @@ submarine_fleet_operations = {
     rewards = {
 		long_range_patrol_schedule = {
 			submarine = {
-				naval_range = 0.1 #TODO: does this work?
+				naval_range = 0.15 #TODO: does this work?
 			}
 		}
 		sustained_operations = {
@@ -156,6 +156,7 @@ capital_hunters = {
     }
 
     naval_torpedo_reveal_chance_factor = -0.1
+    naval_torpedo_screen_penetration_factor = 0.05
 
     rewards = {
     	fire_protocol_drills = {
@@ -198,6 +199,7 @@ submarine_coastal_defense = {
 
     submarine = {
         supply_consumption = -0.02
+        naval_range = -0.2
     }
 
     rewards = {
@@ -224,12 +226,13 @@ submarine_coastal_defense = {
     	locals_knowledge = {
     		submarine = {
                 max_organisation = 5
-                convoy_raiding_coordination = 0.05
+                convoy_raiding_coordination = 0.1
             }
     	}
     	high_explosive_torpedo = {
     		submarine = {
     			torpedo_attack = 0.1
+                naval_torpedo_hit_chance_factor = 0.05
     		}
     	}
     }

@@ -17,7 +17,6 @@ fast_battleship_primacy = {
             factor = 75
             OR = {
                 original_tag = ENG
-                original_tag = USA
                 original_tag = JAP
                 original_tag = ITA
                 original_tag = SOV
@@ -315,7 +314,9 @@ coastal_defence_fleet = {
     xp_cost = 50
     xp_type = navy
 
-    ai_will_do = { }
+    ai_will_do = {
+        factor = 0.5
+    }
 
 	naval_supply_consumption_factor = -0.15
 	navy_max_range_factor = -0.25
@@ -372,14 +373,19 @@ naval_gunfire_support = {
     description = SUBDOCTRINE_NAVAL_GUNFIRE_SUPPORT_DESC
     icon = GFX_doctrine_naval_gunfire_support_medium 
 
-    xp_cost = 100
+    xp_cost = 75
     xp_type = navy
 
     available = {
         always = yes
     }
+    visible = {
+        has_dlc = "No Compromise, No Surrender"
+    }
 
-    ai_will_do = { }
+    ai_will_do = {
+        factor = 0
+    }
 
 	shore_bombardment_bonus = 0.25
     navy_capital_ship_attack_factor = -0.1
@@ -452,8 +458,12 @@ battleship_antiair_screen = {
         always = yes
     }
 
-    visible = {
-    	has_dlc = "No Compromise, No Surrender"
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            factor = 100
+            original_tag = USA
+        }
     }
 
     navy_anti_air_attack_factor = 0.1
