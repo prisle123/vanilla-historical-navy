@@ -213,7 +213,7 @@ set_shipyard_output_boost = {
 
 	if = {
 		limit = {
-			expert_ai_style = no
+			has_game_rule = { rule = ai_ship_design_style option = EXPERT }
 		}
 		every_country = {
 			limit = { is_ai_naval_major = yes }
