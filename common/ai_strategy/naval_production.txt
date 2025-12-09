@@ -1516,7 +1516,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 250
+		value = 300
 	}
 	
 	ai_strategy = {
@@ -1546,7 +1546,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 50
+		value = 75
 	}
 	ai_strategy = {
 		type = building_target
@@ -1573,12 +1573,12 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 400
+		value = 600
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 200
+		value = 250
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1601,12 +1601,32 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 100
+		value = 125
 	}
 	ai_strategy = {
 		type = building_target
 		id = arms_factory
 		value = 300
+	}
+	ai_strategy = {
+		type = build_ship
+		id = capital_ship
+		value = 100
+	}
+	ai_strategy = {
+		type = build_ship
+		id = carrier
+		value = 100
+	}
+	ai_strategy = {
+		type = build_ship
+		id = submarine
+		value = 100
+	}
+	ai_strategy = {
+		type = build_ship
+		id = screen_ship
+		value = 100
 	}
 }
 
