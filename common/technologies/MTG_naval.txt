@@ -6218,6 +6218,10 @@ technologies = {
 	super_carriers = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_8_tt
+			if = {
+				limit = { original_tag = USA }
+				custom_effect_tooltip = topgun_spirit_tt
+			}
 		}
 		enable_equipments = {
 			vnr_ship_hull_super_carrier
