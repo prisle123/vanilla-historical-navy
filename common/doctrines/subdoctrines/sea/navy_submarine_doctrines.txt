@@ -192,6 +192,9 @@ submarine_coastal_defense = {
 
     xp_cost = 100
     xp_type = navy
+    ai_will_do = {
+        base = 1
+    }
 
     available = {
         has_tech = midget_submarines
@@ -235,5 +238,60 @@ submarine_coastal_defense = {
                 naval_torpedo_hit_chance_factor = 0.05
     		}
     	}
+    }
+}
+
+submarine_area_denial = {
+    track = submarines
+    name = SUBDOCTRINE_SUBMARINE_AREA_DENIAL
+    description = SUBDOCTRINE_SUBMARINE_AREA_DENIAL_DESC
+    icon = GFX_doctrine_submarine_area_denial_medium
+
+    xp_cost = 75
+    xp_type = navy
+    ai_will_do = {
+        factor = 0
+    }
+
+    submarine = {
+        naval_range = -0.2
+    }
+    mines_planting_by_fleets_factor = 0.1
+
+    rewards = {
+        silent_sailing = {
+            submarine = {
+                naval_speed = -0.15
+                sub_visibility = -0.05
+            }
+        }
+        fortress_seas = {
+            modifier = {
+                mines_planting_by_fleets_factor = 0.15
+                naval_mine_hit_chance = 0.1
+                naval_mines_damage_factor = 0.1
+            }
+        }
+        low_echo_hull = {
+            submarine = {
+                max_strength = -0.3
+                sub_visibility = -0.1
+            }
+        }
+        slow_electric_torpedo = {
+            submarine = {
+                naval_torpedo_hit_chance_factor = -0.15
+            }
+            modifier = {
+                naval_torpedo_reveal_chance_factor = -0.15
+            }
+        }
+        simplified_launching_protocal = {
+            submarine = {
+                sub_visibility = -0.1
+                naval_torpedo_hit_chance_factor = -0.1
+            }
+            sub_retreat_speed = 0.15
+        }
     }
 }

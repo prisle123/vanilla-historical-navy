@@ -27,8 +27,6 @@ carrier_battlegroups = {
         }
     }
 
-    ai_will_do = { }
-
     # EFFECTS
 	port_strike = 0.20
     strike_force_movement_org_loss = -0.1
@@ -175,6 +173,13 @@ subsidiary_carrier_support = {
         has_navy_size = {
             unit = carrier
             size > 0
+        }
+    }
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            is_major = no
+            factor = 100
         }
     }
     
@@ -337,5 +342,4 @@ naval_airfoce = {
             naval_strike_agility_factor = 0.1
     	}
     }
-
 }

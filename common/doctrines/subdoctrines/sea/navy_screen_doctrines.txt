@@ -228,7 +228,7 @@ torpedo_primacy = {
     xp_type = navy
 
     ai_will_do = { 
-        base = 0
+        base = 1
         modifier = {
             factor = 95
             original_tag = JAP
@@ -288,6 +288,9 @@ jeune_ecole = {
     	#TODO: special project
    		always = yes
     }
+	ai_will_do = {
+		factor = 1
+	}
 
 	destroyer = {
 		convoy_raiding_coordination = 0.1
