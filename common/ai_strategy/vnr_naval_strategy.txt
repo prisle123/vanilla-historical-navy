@@ -22,6 +22,16 @@ ENG_protect_home_waters = {
         value = 100
     }
 	ai_strategy = {
+		type = coast_defense
+		id = 18
+		value = 100
+	}
+	ai_strategy = {
+		type = coast_defense
+		id = 16
+		value = 100
+	}
+	ai_strategy = {
 		type = strike_force_home_base
 		id = 16
 		value = 70
