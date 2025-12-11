@@ -7,7 +7,6 @@ NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.3   -- factors speed value when dete
 NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.08   -- base chance for hit (was 0.1)
 NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.2   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.9   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
-NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 1   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
 NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.2   -- base % of convoys that get intercepted (was 0.15)
 NDefines.NNavy.CONVOY_HIT_PROFILE = 95   -- convoys has this contant hit profile (was 85)
@@ -82,8 +81,8 @@ NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 3   -- each taskfo
 
 --Naval Aviation / Carriers
 NDefines.NNavy.NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 1   -- how much score factor from low AA guns (scales between 0->this number) (was 5, AA doesn't matter in cv plane target selection)
-NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_BASE = 100   -- base scoring for target picking for planes inside naval combat based on screening efficency, one define per ship type (was 10)
-NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_BASE = 30   -- base scoring for target picking for planes inside naval combat based on screening efficency, one define per ship type (was 10)
+NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_BASE = 500   -- base scoring for target picking for planes inside naval combat based on screening efficency, one define per ship type (was 10)
+NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_BASE = 80   -- base scoring for target picking for planes inside naval combat based on screening efficency, one define per ship type (was 10)
 NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCALE = 1000   -- scaled scoring for target picking for planes inside naval combat, max value when zero screening efficency, one define per ship type (was 200)
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO  = 1.0   -- total sum of fleet's anti air will be multiplied with this ratio and added to calculations anti-air of individual ships while air damage reduction (was 0.25, more AA contribution from other ships)
 NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.66   -- damage reduction for incoming air attacks is clamped to this value at maximum. (was 0.75)
@@ -94,10 +93,11 @@ NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0.25, 0.37, 0.50, 0.62, 
 NDefines.NNavy.NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 180   -- How many planes flying in a naval combat before penalties are introduced (was 80)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns (was 0.005)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 500   --For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract) (was 16)
-NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 40   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 20   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 12   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 10)
-NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 3   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
-NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
+NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.5   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
+NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
+NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 25.0   -- multiplier on disruption damage to scale its effects on carrier vs carrier planes (was 6, doesn't seem to work)
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 0.25   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction. (was 1.5)
 NDefines.NAir.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.06   -- conversion factor to bring agility in line with ship AA (was 0.02)
@@ -258,13 +258,13 @@ NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.1  
 --Intel Defines--
 -----------------
 
-NDefines.NIntel.NAVY_SHIP_COUNT_INTEL_MIN = 0
-NDefines.NIntel.NAVY_SHIP_COUNT_INTEL_MAX = 0.4
-NDefines.NIntel.NAVY_MIN_INTEL_TO_SHOW_EXISTING_CATEGORY_TYPES = 0.01
-NDefines.NIntel.NAVY_SHIP_TYPE_COUNT_INTEL_MIN = 0.01
-NDefines.NIntel.NAVY_SHIP_TYPE_COUNT_INTEL_MAX = 0.3
-NDefines.NIntel.NAVY_MIN_INTEL_TO_SHOW_SHIP_CLASSES = 0.15
-NDefines.NIntel.NAVY_MIN_INTEL_TO_SHOW_SHIP_DESIGN_DETAILS = 0.5
+NDefines.NIntel.NAVY_SHIP_COUNT_INTEL_MIN = 0   -- unlocks how many ships target has (was 0.1)
+NDefines.NIntel.NAVY_SHIP_COUNT_INTEL_MAX = 0.4   -- works together with above one (was 0.8)
+NDefines.NIntel.NAVY_MIN_INTEL_TO_SHOW_EXISTING_CATEGORY_TYPES = 0.01   --this is about disaplying ships by class category (was 0.1)
+NDefines.NIntel.NAVY_SHIP_TYPE_COUNT_INTEL_MIN = 0.01   --this range is used both when for disaplying counts by class and counts by variant (was 0.3)
+NDefines.NIntel.NAVY_SHIP_TYPE_COUNT_INTEL_MAX = 0.3   -- works together with above one (was 0.7)
+NDefines.NIntel.NAVY_MIN_INTEL_TO_SHOW_SHIP_CLASSES = 0.15   --this unclocks the display of a given variant (was 0.5)
+NDefines.NIntel.NAVY_MIN_INTEL_TO_SHOW_SHIP_DESIGN_DETAILS = 0.5   -- unlocks ship designs (was 0.8)
 
 -------------------
 --Country Defines--
