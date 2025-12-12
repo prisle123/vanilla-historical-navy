@@ -192,6 +192,46 @@ Auxiliary ship branch is centered around the debate over "range or speed". Speed
 
 As for fuel branch, its research cost is insignificant with little bonus, making it an irrelevant factor in your game.
 
+## Doctrine Tree ##
+
+With doctrines totally overhauled in NCNS update, previous VNR doctrines are also reworked to fit in the grand-sub strategy system. Some doctrines from vanilla are removed or merged into others to create more condensed doctrine tree. Grand strategy sets the tone for your entire navy experience and thus has to be chosen wisely based on the fleet you have or plan to build. After that, you can choose subdoctrines for four tracks: carrier, capital ship, screen ship, and submarine. Typically, there are five levels of mastery on each subdoctrine, providing different bonuses (or debuffs) when mastery is achieved, and it also unlocks special bonuses with a track completed.
+
+### Grand Strategy ###
+
+**Decisive Battle**
+
+Decisive battle strategy offers the best fleet operation bonuses among all. Historically, it is adopted by many major powers in the 1910s which aims at building a fleet around capable battleships, by consolidating formation training. The most important bonus of decisive battle is the positioning bonus that allows you to operate a bigger fleet without penalty.
+
+**Commerce Raiding**
+
+To countries with ambitions to dominate seven seas, commerce raiding may not be the top pick as it offers limited improvements to surface ships. However, it has potential to salvage the underdog. Submarine is the most benefited ship with convoy raiding rewards from the strategy, promoting your ability to harrass stronger powers in their soft spots.
+
+**Air-Sea Operation**
+
+If you are patient enough, air-sea operation will give you ample rewards better than any other strategies when fully mastered. The only problem is that it has a relatively weak start. To unleash the power of this strategy, you will need a massive carrier fleet and strong industrial power, which can only be achieved by few countries in the game.
+
+### Sub Doctrine - Carrier ###
+
+**Carrier Taskforce**
+
+This is the authentic USN carrier tactics, with every features designed to showcase its success in history, such as leading sortie rate, deck management, and aerial attack capabilities. Just like air-sea operation strategy itself, *carrier taskforce* also has a humble start, but becomes horrible at the end. It provides the best sortie efficiency, reconnaissance, and carrier overfilling in all doctrines.
+
+**Carrier Concentration**
+
+As the rival to *carrier taskforce*, this strategy is adopted by IJN in real history at the early stage of the Pacific War. Unlike its counterpart, *carrier concentration* emphasizes on maximizing damage done by aircrafts, simulating elitism of Japan's naval aviation, which leads to lower sortie efficiency but a 15% bonus on aircraft attack.
+
+**Floating Airfields**
+
+This strategy is designed to represent how the Royal Navy use carrier in history. It potrays carrier more as a protector of fleet rather than a sole attacker. As a result, it unlocks many protection bonuses to carrier.
+
+**Subsidiary Carrier Support**
+
+For people who don't believe in air power, this doctrine depicts another possibility for carrier, which is to play a supportive role in fleet operations alongside other ships. You can get some non-combat bonuses from it to strengthen carrier's detection and air protection.
+
+**Naval Airforce**
+
+Contrary to prior ones, this is the most radical doctrines among all, stressing 
+
 ## Naval Battle ##
 
 ### Overview ###
@@ -208,17 +248,9 @@ For example, let's say you have 1 carrier, then you need at least 1 battleship a
 
 Besides, make sure your fleet has a min speed over 30kn, this is extremely important to strike forces.
 
-### Sea Supremacy ###
-
-One of the major roles that navy plays in the game is securing sea supremacy to create opportunity for a naval invasion. Compared to vanilla, supremacy factor of different missions are changed. Among them, the factor of convoy raiding is greatly nerfed, meaning even though you have twice the ships in convoy raiding, they will lose in securing sea supremacy against a smaller strike force. The best way to gain control of a piece of waters is by naval invasion support or strike force.
-
-Type of ship also affects efficiency in this area. Decent ships are required in the action, that means you can't secure the sea just with submarines.
-
-Above all, the supremacy weight of each ship is calculated by a formula between IC and manpower. Big and expensive ships will always have an edge in the fight for sea supremacy.
-
 ### Combat Duration ###
 
-To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 2-3 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 4 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
 
 ### Night Combat ###
 
