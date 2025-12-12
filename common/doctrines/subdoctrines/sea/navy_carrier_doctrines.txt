@@ -29,21 +29,22 @@ carrier_battlegroups = {
 
     # EFFECTS
 	port_strike = 0.20
-    strike_force_movement_org_loss = -0.1
+    carrier_capacity_penalty_reduction = -0.1
 
     rewards = {
 		long_distance_logistics = {
             carrier = {
                 max_organisation = 10
+                naval_range = 0.1
             }
 			modifier = {
-                navy_max_range_factor = 0.1
                 navy_fuel_consumption_factor = -0.05
             }
 		}
         bomber_scouting = {
 			carrier = {
                 carrier_surface_detection = 0.15
+                carrier_sub_detection = 0.05
             }
             modifier = {
                 navy_carrier_air_agility_factor = 0.1
@@ -55,7 +56,6 @@ carrier_battlegroups = {
 			}
             modifier = {
                 sortie_efficiency = 0.1
-                carrier_capacity_penalty_reduction = -0.1
             }
 		}
 		fleet_antiair = {
@@ -148,7 +148,7 @@ floating_airfields = {
                 anti_air_attack = 0.05
             }
 	   }
-	   rough_weather_procedures = {
+	   all_weather_combat = {
             sortie_efficiency = 0.1
 			equipment_bonus = {
                 carrier = {
@@ -341,5 +341,13 @@ naval_airfoce = {
     		naval_strike_attack_factor = 0.1
             naval_strike_agility_factor = 0.1
     	}
+    }
+    mastery = {
+        equipment = {
+            carrier
+        }
+        categories = {
+            category_nav_bomber
+        }
     }
 }

@@ -26,6 +26,7 @@ fast_battleship_primacy = {
 
     # EFFECTS
 	strike_force_movement_org_loss = -0.1
+    naval_enemy_retreat_chance = -0.1
 
     rewards = {
         fast_squad = {
@@ -123,11 +124,22 @@ battlecruiser_supremacy = {
     }
 
     # EFFECTS
-	navy_max_range_factor = 0.1
+	battle_cruiser = {
+        naval_range = 0.1
+    }
+    heavy_cruiser = {
+        naval_range = 0.1
+    }
+    medium_cruiser = {
+        naval_range = 0.1
+    }
     strike_force_movement_org_loss = -0.05
 
     rewards = {
         scouting_fleet = {
+            SH_battleship = {
+                max_organisation = 5
+            }
             battleship = {
                 max_organisation = 10
             }
@@ -142,6 +154,9 @@ battlecruiser_supremacy = {
 			}
         }
         coordinated_communication = {
+            SH_battleship = {
+                naval_heavy_gun_hit_chance_factor = 0.05
+            }
 			battleship = {
                 naval_heavy_gun_hit_chance_factor = 0.05
             }
@@ -178,6 +193,9 @@ battlecruiser_supremacy = {
             }
         }
         decoy_tactics = {
+            SH_battleship = {
+                max_organisation = 5
+            }
             battleship = {
                 max_organisation = 10
             }
@@ -223,30 +241,31 @@ armored_raiders = {
 
     # EFFECTS
 	screening_without_screens = 0.10
-    navy_max_range_factor = 0.05
+    ships_at_battle_start = -0.1
 
     rewards = {
         expert_reconnaissance = {
             battle_cruiser = {
+                naval_range = 0.1
                 surface_detection = 0.05
             }
 			battleship = {
+                naval_range = 0.1
 				surface_detection = 0.05
 			}
             heavy_cruiser = {
+                naval_range = 0.1
                 surface_detection = 0.05
             }
             medium_cruiser = {
+                naval_range = 0.1
                 surface_detection = 0.05
             }
         }
         speed_trials = {
-            equipment_bonus = {
-                capital_ship = {
-                    naval_range = 0.10
-                    instant = yes
-                }
-            }
+            naval_retreat_chance = 0.1
+            naval_retreat_speed = 0.05
+            positioning = 0.05
         }
         modernized_officer_education = {
             battle_cruiser= {
@@ -274,12 +293,12 @@ armored_raiders = {
 				surface_detection = 0.1
 			}
 			heavy_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
                 convoy_raiding_coordination = 0.15
                 surface_detection = 0.1
 			}
             medium_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
                 convoy_raiding_coordination = 0.15
                 surface_detection = 0.1
 			}
@@ -357,11 +376,13 @@ coastal_defence_fleet = {
             modifier = {
 				mines_planting_by_fleets_factor = 0.1
                 screening_without_screens = 0.05
+                navy_max_range_factor = -0.1
 			}
         }
         spare_part_logistics = {
             modifier = {
 				refit_ic_cost = -0.15
+                repair_speed_factor = 0.1
 			}
         }
     }
@@ -425,7 +446,7 @@ naval_gunfire_support = {
                 max_organisation = 5
             }
             modifier = {
-    			convoy_escort_efficiency = 0.1
+    			shore_bombardment_collateral_damage_factor = 0.15
         	}
         }
 
@@ -467,6 +488,7 @@ battleship_antiair_screen = {
     }
 
     navy_anti_air_attack_factor = 0.1
+    naval_retreat_chance_after_initial_combat = 0.1
 
     rewards = {
 
