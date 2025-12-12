@@ -2993,8 +2993,8 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 
-		repair_speed_naval_base_factor = 0.1
-		repair_speed_dockyard_factor = 0.1
+		repair_speed_naval_base_factor = 0.2
+		repair_speed_dockyard_factor = 0.2
 		special_project_specialization = { specialization_naval }
 		categories = {
 			naval_equipment
@@ -3148,7 +3148,6 @@ technologies = {
 		auxiliary_ship = {
 			max_strength = 0.1
 		}
-		navy_submarine_detection_factor = 0.05
 
 		enable_equipment_modules = {
 			ship_cruiser_camo_2
@@ -3392,7 +3391,7 @@ technologies = {
 		}
 	}
 	hospital_ship = {
-		research_cost = 0.35
+		research_cost = 0.15
 		start_year = 1918
 
 		ai_will_do = {
@@ -3509,7 +3508,7 @@ technologies = {
 		}
 	}
 	retardant_silo = {
-		research_cost = 0.75
+		research_cost = 0.4
 		start_year = 1936
 
 		ai_will_do = {
@@ -3527,7 +3526,7 @@ technologies = {
 		}
 	}
 	integrated_fuel_base = {
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1938
 
 		ai_will_do = {
