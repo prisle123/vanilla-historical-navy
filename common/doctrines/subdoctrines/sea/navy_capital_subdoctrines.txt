@@ -124,14 +124,11 @@ battlecruiser_supremacy = {
     }
 
     # EFFECTS
-	battle_cruiser = {
-        naval_range = 0.1
-    }
-    heavy_cruiser = {
-        naval_range = 0.1
-    }
-    medium_cruiser = {
-        naval_range = 0.1
+	equipment_bonus = {
+        capital_ship = {
+            naval_range = 0.1
+            instant = yes
+        }
     }
     strike_force_movement_org_loss = -0.05
 

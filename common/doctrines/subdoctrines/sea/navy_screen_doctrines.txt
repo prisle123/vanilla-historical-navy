@@ -100,11 +100,11 @@ support_integrated_operations = {
 
     # EFFECTS
 	screening_efficiency = 0.05
-	destroyer = {
-		naval_range = 0.1
-	}
-	light_cruiser = {
-		naval_range = 0.1
+	equipment_bonus = {
+		screen_ship = {
+			naval_range = 0.1
+			instant = yes
+		}
 	}
 	
     rewards = {

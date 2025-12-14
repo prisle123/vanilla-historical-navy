@@ -35,7 +35,12 @@ carrier_battlegroups = {
 		long_distance_logistics = {
             carrier = {
                 max_organisation = 10
-                naval_range = 0.1
+            }
+            equipment_bonus = {
+                carrier = {
+                    naval_range = 0.1
+                    instant = yes
+                }
             }
 			modifier = {
                 navy_fuel_consumption_factor = -0.05
@@ -253,9 +258,14 @@ carrier_concentration = {
     	deep_operative_support = {
     		carrier = {
     			reliability = 0.1
-    			naval_range = 0.2
                 supply_consumption = -0.05
     		}
+            equipment_bonus = {
+                carrier = {
+                    naval_range = 0.2
+                    instant = yes
+                }
+            }
     	}
     	mobile_force = {
     		carrier = {
