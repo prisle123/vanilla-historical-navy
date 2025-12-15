@@ -17,16 +17,16 @@ JAP_StrikeForce_1 = {
 	
 	optimal_composition = {
 		carrier = {
-			amount = 6
+			amount = 4
 		}
 		battleship = {
-			amount = 8
+			amount = 6
 		}
 		light_cruiser = {
-			amount = 14
+			amount = 10
 		}
 		destroyer = {
-			amount = 25
+			amount = 16
 		}
 	}
 }
@@ -112,7 +112,7 @@ JAP_PatrolDominanceForce_2 = {
 			amount = 2
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }
@@ -145,7 +145,7 @@ JAP_PatrolDominanceForce_3 = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }
@@ -227,7 +227,7 @@ JAP_ConvoyEscort_1 = {
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }

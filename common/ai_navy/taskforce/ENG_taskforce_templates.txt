@@ -3,7 +3,7 @@ ENG_StrikeForce_1 = {
 		original_tag = ENG 
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 20
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -17,16 +17,16 @@ ENG_StrikeForce_1 = {
 	
 	optimal_composition = {
 		carrier = {
-			amount = 6
+			amount = 4
 		}
 		battleship = {
-			amount = 8
+			amount = 6
 		}
 		light_cruiser = {
-			amount = 14
+			amount = 10
 		}
 		destroyer = {
-			amount = 24
+			amount = 16
 		}
 	}
 }
@@ -88,7 +88,7 @@ ENG_PatrolDominanceForce_2 = {
 		original_tag = ENG
 	}
 	ai_will_do = {
-		factor = 5
+		factor = 3
 	}	
 	mission = { naval_patrol }
 	min_composition = {
@@ -107,10 +107,10 @@ ENG_PatrolDominanceForce_2 = {
 			amount = 2
 		}
 		light_cruiser = {
-			amount = 3
+			amount = 2
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }
@@ -142,7 +142,7 @@ ENG_PatrolDominanceForce_3 = {
 			amount = 3
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }
@@ -152,7 +152,7 @@ ENG_ConvoyRaiding_1 = {
 		original_tag = ENG
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 5
 	}	
 	mission = { convoy_raiding }
 	min_composition = {
@@ -184,7 +184,7 @@ ENG_ConvoyEscort_1 = {
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }

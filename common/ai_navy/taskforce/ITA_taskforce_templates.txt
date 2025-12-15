@@ -23,7 +23,7 @@ ITA_StrikeForce_1 = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 28
+			amount = 15
 		}
 	}
 }
@@ -52,7 +52,7 @@ ITA_StrikeForceCarrier_1 = {
 			amount = 10
 		}
 		destroyer = {
-			amount = 20
+			amount = 16
 		}
 	}
 }
@@ -167,7 +167,7 @@ ITA_ConvoyEscort_1 = {
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 10
+			amount = 6
 		}
 	}
 }
