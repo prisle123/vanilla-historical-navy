@@ -230,7 +230,77 @@ For people who don't believe in air power, this doctrine depicts another possibi
 
 **Naval Airforce**
 
-Contrary to prior ones, this is the most radical doctrines among all, stressing 
+Contrary to prior ones, this is the most radical doctrines among all, stressing land-based naval bombers more than anything else, but weaker on usage of carriers compared to others. This can be an interesting but unstable option to explore.
+
+### Sub Doctrine - Battle Line ###
+
+**Fast Battleship Primacy**
+
+This is a very authentic WWII main battle fleet doctrine that only the most powerful naval power can afford. Since its bonus only works on battleships, the doctrine has not been very friendly to battlecruiser users. Usually used together with decisive battle grand strategy, *fast battleship primacy* offers the best buffs on fleet positioning and organization.
+
+**Specialized Scouting Fleet**
+
+This is an old-school doctrine applied by many naval powers back in the WWI, which appeals to having a scouting fleet with dedicated and fast battlecruisers to provide early-warning and vanguard combat for the main battle fleet. Inferior to *fast battleship primacy* in terms of formation, it is the only doctrine that strengthens battlecruiser in conventional surface warfare.
+
+**Armored Raiders**
+
+*Armored Raiders* is a very specialized doctrine designed only for historically accurate Kriegsmarine, and the only one to boost convoy raiding efficiency of capital ships. Choosing this branch typically means you give up taking on fights against enemy battleships on the sea.
+
+**Coastal Defense Fleet**
+
+This doctrine can make refitting and repairing faster without giving battleships any benefits on combat. Instead, the combat bonuses are mostly about heavy cruisers and mines, and oriented around defending coastal provinces.
+
+**Monitor Support**
+
+Again, another meme doctrine, and it only improves invasion support in a quite awkward way. You can only unlock this doctrine with NCNS DLC.
+
+**Taskforce Guardian**
+
+Focusing on anti-air battleships, *Taskforce Guardian* is the historical strategy of USN in late-WWII period which offers fleet organization bonuses only next to *Fast Battleship Primacy* and a series of anti-air buffs. It begins being backward, but will be worth it when you achieve mastery, which turns out to be more balanced than others.
+
+### Sub Doctrine - Screen Line ###
+
+**Convoy Escort**
+
+This is an all-round doctrine that offers moderate and balanced bonuses to every aspect you can think of about screen ships, including organization, anti-air, anti-submarine, reconnaissance, and most importantly, the convoy escort efficiency (means you can cover more merchantmen and sea areas in convoy escorting missions).
+
+**Integrated Operations**
+
+This is an authentic USN strategy adopted during WWII, which makes screen ships perfect helpers in fleet operations instead of convoy defenders. The bonuses it offers are less diverse, but more concentrated on screening and patrolling.
+
+**Hunter Killer Groups**
+
+*Hunter Killer Groups* is a doctrine which prioritizes anti-submarine warfare with generous buffs on detection and counter-measures against submarines, while still being able to shoulder other responsibilities like convoy escort.
+
+**Torpedo Primacy**
+
+*Torpedo Primacy* is a doctrine full of Japanese characteristics including its priority of torpedoes on various ships. Its reduction of torpedo loading by 2 hours is the greatest bonus on torpedo among all, and together with other rewards builds an interesting method around torpedoes.
+
+**The New School**
+
+*The New School*, or *Jeune Ecole* in French, was a doctrine developed with the advent of torpedo in reality. In the mod, it also emphasizes the importance of torpedo attacks but inferior to Japanese pratice. Instead, it is the only doctrine enabling screen ship convoy raiding with dedicated bonuses, mixed with other rewards on coastal defense and mine warfare.
+
+### Sub Doctrine - Submarine ###
+
+**Wolfpacks**
+
+This is the most infamous submarine tactics in human history, and just like its name and historical impression potrays, it encourages concentrating and using submarines as a key factor to disable enemy's economy. *Wolfpacks* offers the best convoy raiding coordination to submarines, which makes them react and muster in a shorter period against convoys.
+
+**Fleet Operations**
+
+Despite less emphasis on commerce raiding and coordination, *Fleet Operations* turns submarines into long-range pickets operating out of core areas, providing extra spotting chance with conventional surface patrol force.
+
+**Capital Hunters**
+
+Another Japanese-style doctrine that buffs torpedo more than the equipment itself. It can expand usage scenario of torpedo further if used with *torpedo primacy*.
+
+**Coastal Defense**
+
+As its name suggests, the doctrine gives moderate and balanced bonuses on submarines at the cost of max range.
+
+**Area Defense**
+
+A unique double-edge-sword type of doctrine that offers reduction of visibility at great cost of HP and combat capabilities.
 
 ## Naval Battle ##
 

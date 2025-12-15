@@ -199,7 +199,7 @@ submarine_coastal_defense = {
     description = SUBDOCTRINE_SUBMARINE_COASTAL_DEFENSE_DESC
     icon = GFX_doctrine_undersea_blockade_medium
 
-    xp_cost = 100
+    xp_cost = 50
     xp_type = navy
     ai_will_do = {
         base = 1
