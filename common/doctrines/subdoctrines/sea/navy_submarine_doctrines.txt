@@ -309,12 +309,7 @@ submarine_area_denial = {
         low_echo_hull = {
             submarine = {
                 sub_visibility = -0.1
-            }
-            equipment_bonus = {
-                submarine = {
-                    max_strength = -0.3
-                    instant = yes
-                }
+                max_organisation = -20
             }
         }
         slow_electric_torpedo = {
@@ -325,10 +320,12 @@ submarine_area_denial = {
         }
         simplified_launching_protocal = {
             submarine = {
-                sub_visibility = -0.1
+                sub_visibility = -0.05
             }
-            sub_retreat_speed = 0.15
-            naval_torpedo_hit_chance_factor = -0.1
+            modifier = {
+                sub_retreat_speed = 0.3
+                navy_submarine_attack_factor = -0.15
+            }
         }
     }
 }
