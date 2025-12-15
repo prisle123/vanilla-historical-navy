@@ -12,15 +12,10 @@ ENG_protect_home_waters = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = naval_dominance
-        id = 18
-        value = 100
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 16
-        value = 100
-    }
+		type = naval_dominance
+		id = vnr_eng_home_waters
+		value = 100
+	}
 	ai_strategy = {
 		type = coast_defense
 		id = 18
@@ -29,16 +24,6 @@ ENG_protect_home_waters = {
 	ai_strategy = {
 		type = coast_defense
 		id = 16
-		value = 100
-	}
-	ai_strategy = {
-		type = strike_force_home_base
-		id = 16
-		value = 70
-	}
-	ai_strategy = {
-		type = strike_force_home_base
-		id = 18
 		value = 100
 	}
 	ai_strategy = {
@@ -75,18 +60,8 @@ ENG_secure_mediterranean = {
     abort_when_not_enabled = yes
     ai_strategy = {
         type = naval_dominance
-        id = 29
-        value = 100
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 68
-        value = 60
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 69
-        value = 100
+        id = vnr_eng_med_zones
+        value = 80
     }
 	ai_strategy = {
 		type = naval_avoid_region
@@ -127,6 +102,11 @@ ENG_avoid_mediterranean = {
 		id = 168
 		value = 1000
 	}
+	ai_strategy = {
+        type = naval_dominance
+        id = vnr_eng_med_zones
+        value = 0
+    }
 }
 
 ENG_avoid_pacific = {
@@ -162,6 +142,11 @@ ENG_avoid_pacific = {
         id = 73
         value = 200
     }
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_eng_south_china_sea
+		value = 0
+	}
 }
 
 ENG_reinforce_pacific = {
@@ -191,35 +176,15 @@ ENG_reinforce_pacific = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = naval_dominance
-        id = 72
-        value = 100
-    }
+		type = naval_dominance
+		id = vnr_eng_south_china_sea
+		value = 30
+	}
 	ai_strategy = {
-        type = naval_dominance
-        id = 91
-        value = 10
-    }
-	ai_strategy = {
-        type = naval_dominance
-        id = 92
-        value = 10
-    }
-	ai_strategy = {
-        type = naval_dominance
-        id = 93
-        value = 10
-    }
-	ai_strategy = {
-        type = naval_dominance
-        id = 84
-        value = 50
-    }
-	ai_strategy = {
-        type = naval_dominance
-        id = 83
-        value = 50
-    }
+		type = naval_dominance
+		id = vnr_eng_pacific_zone
+		value = 65
+	}
 }
 
 ### JAP ###
@@ -248,25 +213,7 @@ JAP_destroy_china_navy_quick = {
         id = 77
         value = 100
     }
-	ai_strategy = {
-        type = naval_blockade
-		target_country = CHI
-        id = 75
-        value = 100
-    }
-    ai_strategy = {
-        type = naval_blockade
-		target_country = CHI
-        id = 76
-        value = 100
-    }
-    ai_strategy = {
-        type = naval_blockade
-		target_country = CHI
-        id = 77
-        value = 100
-    }
-
+	
 	ai_strategy = {
         type = convoy_raiding_target
         id = CHI
@@ -288,29 +235,29 @@ JAP_pacific_war_naval_stage_one = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = naval_dominance
-        id = 75
-        value = 100
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 78
-        value = 80
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 94
-        value = 50
-    }
+		type = naval_dominance
+		id = vnr_pacific_3
+		value = 80
+	}
 	ai_strategy = {
-        type = naval_dominance
-        id = 84
-        value = 100
-    }
+		type = naval_dominance
+		id = vnr_pacific_2
+		value = 100
+	}
 	ai_strategy = {
-		type = naval_mission_threshold
-		id = MISSION_STRIKE_FORCE
-		value = -500
+		type = invade
+		id = AST
+		value = 100
+	}
+	ai_strategy = {
+		type = invade
+		id = PHI
+		value = 1000
+	}
+	ai_strategy = {
+		type = invade
+		id = MAL
+		value = 1000
 	}
 }
 
@@ -323,60 +270,36 @@ JAP_pacific_war_naval_stage_two = {
 		OR = {
 			naval_strength_ratio = {
 				tag = USA
-				ratio = 0.5
-			}
-			naval_strength_ratio = {
-				tag = USA
 				ratio > 0.5
+			}
+			AND = {
+				PHI = { has_capitulated = yes }
+				MAL = { has_capitulated = yes }
 			}
 		}
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = naval_dominance
-        id = 75
-        value = 50
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 78
-        value = 50
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 94
-        value = 50
-    }
+		type = naval_dominance
+		id = vnr_pacific_2
+		value = 100
+	}
 	ai_strategy = {
-        type = naval_dominance
-        id = 84
-        value = 50
-    }
+		type = naval_dominance
+		id = vnr_pacific_1
+		value = 100
+	}
 	ai_strategy = {
-        type = naval_dominance
-        id = 95
-        value = 100
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 97
-        value = 100
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 180
-        value = 75
-    }
+		type = invade
+		id = USA
+		value = 1000
+	}
 	ai_strategy = {
-        type = naval_dominance
-        id = 83
-        value = 85
-    }
-	ai_strategy = {
-		type = naval_mission_threshold
-		id = MISSION_STRIKE_FORCE
-		value = -500
+		type = front_control
+		area = pacific
+		ordertype = invasion
+    	execute_order = yes
 	}
 }
 
@@ -461,22 +384,7 @@ USA_pacific_war_naval_avoid_first = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = 95
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 97
-		value = 60
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 105
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 180
+		id = vnr_pacific_1
 		value = 100
 	}
 }
@@ -600,32 +508,12 @@ USA_pacific_war_naval_counterattack_1 = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = 83
+		id = vnr_pacific_2
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = 84
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 95
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 97
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 105
-		value = 80
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 180
+		id = vnr_pacific_1
 		value = 80
 	}
 	ai_strategy = {
@@ -728,28 +616,18 @@ USA_pacific_war_naval_counterattack_2 = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = 84
+		id = vnr_pacific_3
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = 95
-		value = 100
+		id = vnr_pacific_2
+		value = 60
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = 97
-		value = 70
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 94
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 78
-		value = 100
+		id = vnr_pacific_1
+		value = 35
 	}
 	ai_strategy = {
 		type = invade
@@ -826,28 +704,18 @@ USA_pacific_war_naval_counterattack_3 = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = 75
-		value = 80
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 80
-		value = 80
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 76
+		id = vnr_pacific_4
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = 94
-		value = 100
+		id = vnr_pacific_3
+		value = 90
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = 78
-		value = 100
+		id = vnr_pacific_1
+		value = 20
 	}
 	ai_strategy = {
 		type = invade
@@ -907,36 +775,9 @@ ITA_avoid_mediterranean = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = naval_dominance
-        id = 29
-        value = 50
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 68
-        value = 0
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 69
-        value = 0
-    }
-
-	ai_strategy = {
 		type = naval_dominance
-		id = 168
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 169
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_blockade
-		target_country = ENG
-		id = 68
-		value = 100
+		id = vnr_ita_med_zones
+		value = 60
 	}
 	ai_strategy = {
 		type = naval_blockade
@@ -972,15 +813,10 @@ GER_forget_sealion = {
     }
     abort_when_not_enabled = yes
     ai_strategy = {
-        type = naval_dominance
-        id = 18
-        value = 0
-    }
-    ai_strategy = {
-        type = naval_dominance
-        id = 16
-        value = 10
-    }
+		type = naval_dominance
+		id = vnr_eng_home_waters
+		value = 0
+	}
 	ai_strategy = {
 		type = invade
 		tag = ENG
@@ -1058,27 +894,12 @@ GER_avoid_mediterranean = {
 
 	ai_strategy = {
 		type = naval_dominance
-		id = 29
+		id = vnr_eng_med_zones
 		value = 0
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = 68
-		value = 0
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 69
-		value = 0
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 168
-		value = 0
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = 169
+		id = vnr_ita_med_zones
 		value = 0
 	}
 }

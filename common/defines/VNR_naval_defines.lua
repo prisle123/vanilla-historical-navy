@@ -93,13 +93,14 @@ NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0.25, 0.37, 0.50, 0.62, 
 NDefines.NNavy.NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 180   -- How many planes flying in a naval combat before penalties are introduced (was 80)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns (was 0.005)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 500   --For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract) (was 16)
-NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 20   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 40   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 12   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 10)
-NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.5   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
-NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
-NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
+NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 1   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
+--NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
+--NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 25.0   -- multiplier on disruption damage to scale its effects on carrier vs carrier planes (was 6, doesn't seem to work)
-NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 0.25   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction. (was 1.5)
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 2   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction. (was 1)
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 0.5   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction. (was 1.5)
 NDefines.NAir.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.06   -- conversion factor to bring agility in line with ship AA (was 0.02)
 NDefines.NAir.CAPACITY_PENALTY = 3   -- scales penalty of having overcrowded bases. (was 2)
 NDefines.NAir.CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 180   -- below this amount of planes on a carrier we no longer get max benefit on enemy positioning (was 50)
@@ -154,8 +155,8 @@ NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts
 --------------
 
 --AI Fleet Composition (these seem not to work with ai_navy applied)
-NDefines.NAI.NAVY_PREFERED_MAX_SIZE = 65   -- AI will generally attempt to merge fleets into this size, but as a soft limit. (was 25)
-NDefines.NAI.CARRIER_TASKFORCE_MAX_CARRIER_COUNT = 6   -- optimum carrier count for carrier taskforces (was 4)
+NDefines.NAI.NAVY_PREFERED_MAX_SIZE = 40   -- AI will generally attempt to merge fleets into this size, but as a soft limit. (was 25)
+NDefines.NAI.CARRIER_TASKFORCE_MAX_CARRIER_COUNT = 4   -- optimum carrier count for carrier taskforces (was 4)
 NDefines.NAI.CAPITAL_TASKFORCE_MAX_CAPITAL_COUNT = 6   -- optimum capital count for capital taskforces (was 12)
 NDefines.NAI.SCREEN_TASKFORCE_MAX_SHIP_COUNT = 5   -- optimum screen count for screen taskforces (was 12)
 NDefines.NAI.SCREENS_TO_CAPITAL_RATIO = 3   -- screens to capital/carrier count in carrier & capital taskforces (was 4)
@@ -195,7 +196,7 @@ NDefines.NAI.MIN_NAVAL_MISSION_PRIO_TO_ASSIGN = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 	200, -- PATROL
 	200, -- STRIKE FORCE
-	100, -- CONVOY RAIDING
+	200, -- CONVOY RAIDING
 	100, -- CONVOY ESCORT
 	100, -- MINES PLANTING
 	100, -- MINES SWEEPING
@@ -203,22 +204,22 @@ NDefines.NAI.MIN_NAVAL_MISSION_PRIO_TO_ASSIGN = {
 	0, -- RESERVE_FLEET
 	100, -- NAVAL INVASION SUPPORT
 }
-NDefines.NAI.HIGH_PRIO_NAVAL_MISSION_SCORES = {
+NDefines.NAI.HIGH_PRIO_NAVAL_MISSION_SCORES = {  -- priorities for regions to get assigned to a mission
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
-	10000, -- PATROL
-	8000, -- STRIKE FORCE
-	4000, -- CONVOY RAIDING
-	1500, -- CONVOY ESCORT
+	100000, -- PATROL
+	1000, -- STRIKE FORCE
+	1500, -- CONVOY RAIDING
+	1000, -- CONVOY ESCORT
 	-1, -- MINES PLANTING
 	300, -- MINES SWEEPING
 	0, -- TRAIN
 	0, -- RESERVE_FLEET
-	3000, -- NAVAL INVASION SUPPORT
+	1000, -- NAVAL INVASION SUPPORT
 }
 NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 	2, -- PATROL
-	3, -- STRIKE FORCE
+	4, -- STRIKE FORCE
 	2, -- CONVOY RAIDING
 	3, -- CONVOY ESCORT
 	2, -- MINES PLANTING
@@ -269,5 +270,5 @@ NDefines.NIntel.NAVY_MIN_INTEL_TO_SHOW_SHIP_DESIGN_DETAILS = 0.5   -- unlocks sh
 -------------------
 --Country Defines--
 -------------------
-NDefines.NCountry.NAVY_USE_HOME_BASE_FOR_RANGE = false   -- Fleet can use supply from nearby port (was true)
+--NDefines.NCountry.NAVY_USE_HOME_BASE_FOR_RANGE = false   -- Fleet can use supply from nearby port (was true)
 
