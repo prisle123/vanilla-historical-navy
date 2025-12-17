@@ -166,12 +166,12 @@ NDefines.NAI.MIN_CAPITALS_FOR_CARRIER_TASKFORCE = 8   -- carrier fleets will at 
 NDefines.NAI.REPAIR_TASKFORCE_SIZE = 5   -- repair taskforce sizes are limited to this many ships (was 4)
 NDefines.NAI.MAIN_SHIP_RATIO_TO_SPLIT = 1.6   -- if main ship ratio in a task force is larger than this, split it. (If a carrier TF wants 4 carriers (see defines above), but it has more than [this * 4] carriers, then we try to split the TF.) (was 1.8)
 NDefines.NAI.MIN_MAIN_SHIP_RATIO = 0.6   -- if main ship ratio is below this, steal other ships. (was 0.3)
-NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MIN = 0.00   -- maximum ratio of all screen-ships forces to be used in convoy defense (increases up to max as AI loses convoys). (was 0.2)
+NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MIN = 0.10   -- maximum ratio of all screen-ships forces to be used in convoy defense (increases up to max as AI loses convoys). (was 0.2)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MAX = 0.25   -- maximum ratio of all screen-ships forces to be used in convoy defense (increases up to max as AI loses convoys). (was 0.7)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_LAYING = 0.0   -- maximum ratio of screens forces to be used in mine laying (was 0.1)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO = 0.20   -- if you have mines near your owned states, you will start priotize mine missions and will assign this ratio of screens (was 0.8)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO_MIN_MINES = 250   -- if there are at least this many mines near our owned states, we will prioritize mine sweeping (was 10)
-NDefines.NAI.SUGGESTED_NUM_MAX_CARRIERS = 6   -- We don't know exactly how many planes we should use when evaluating AI build so we need a suggested number to start things off. ALso used for task force suggestions list. (was 4)
+NDefines.NAI.SUGGESTED_NUM_MAX_CARRIERS = 4   -- We don't know exactly how many planes we should use when evaluating AI build so we need a suggested number to start things off. ALso used for task force suggestions list. (was 4)
 
 
 --AI Production / Designs
@@ -232,8 +232,8 @@ NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 }
 NDefines.NAI.CONVOY_ESCORT_SCORE_FROM_CONVOYS = 25   -- score for each convoy you have in area (was 15)
 NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 500   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
-NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 2.5   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
-NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 2.5   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
+NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 5   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
+NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 1.5   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
 
 
 --AI Misc
