@@ -9,7 +9,7 @@ NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.2   -- Base chance for receiving 
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.9   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
 NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.2   -- base % of convoys that get intercepted (was 0.15)
-NDefines.NNavy.CONVOY_HIT_PROFILE = 95   -- convoys has this contant hit profile (was 85)
+NDefines.NNavy.CONVOY_HIT_PROFILE = 90   -- convoys has this contant hit profile (was 85)
 NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.4   -- chance for critical hit from torpedo. (was 0.1, torpedo needs more love)
 NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = { 2.0, 1.0, 0.85, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.3, 0.0 }   -- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 3.0, 1.25, 1.0, 0.65, 0.55, 0.3, 0.15, 0.1, 0.05, 0.01, 0.0 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
@@ -78,7 +78,7 @@ NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 1   -- Before we resign chasing 
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.15   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
 NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 2   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
-NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 3   -- each taskforce in convoy defense mission can at most cover this many regions without losing efficiency (was 5)
+NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 4   -- each taskforce in convoy defense mission can at most cover this many regions without losing efficiency (was 5)
 
 
 --Naval Aviation / Carriers
@@ -126,7 +126,7 @@ NDefines.NNavy.SPOTTING_MULTIPLIER_FOR_SUB = 0.9   -- task force sub spotting va
 
 
 --Experience
-NDefines.NNavy.EXPERIENCE_FACTOR_CONVOY_ATTACK = 0.1   -- xp from attacking convoys (was 0.04)
+NDefines.NNavy.EXPERIENCE_FACTOR_CONVOY_ATTACK = 0.05   -- xp from attacking convoys (was 0.04)
 NDefines.NNavy.TRAINING_DAILY_COUNTRY_EXP_FACTOR = 0.005   -- Factor used to scale the Daily Country Navy XP gain from training (was 0.001)
 NDefines.NNavy.TRAINING_MAX_DAILY_COUNTRY_EXP = 1   -- Maximum army XP gained per day from training (was 1)
 NDefines.NNavy.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 5   -- Unit xp gain per combat hour (was 10)
@@ -223,7 +223,7 @@ NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	2, -- PATROL
 	4, -- STRIKE FORCE
 	2, -- CONVOY RAIDING
-	3, -- CONVOY ESCORT
+	4, -- CONVOY ESCORT
 	2, -- MINES PLANTING
 	2, -- MINES SWEEPING
 	0, -- TRAIN
