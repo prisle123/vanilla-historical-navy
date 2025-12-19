@@ -10,7 +10,7 @@ naval_capital_battleship = {
 		role_icon_index = 3
 
 		priority = {
-			base = 10
+			base = 0
 			modifier = { factor = 0.1 has_tech = interwar_ship_hull_heavy }
 			modifier = { factor = 0 expert_ai_style = yes }
 		}

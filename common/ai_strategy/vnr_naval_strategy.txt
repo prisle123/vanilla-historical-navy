@@ -435,17 +435,17 @@ USA_do_not_waste_fleet_in_north_pacific = {
 	ai_strategy = {
 		type = naval_dominance
 		id = 87
-		value = 0
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
 		id = 88
-		value = 0
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
 		id = 96
-		value = 0
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
@@ -461,6 +461,16 @@ USA_do_not_waste_fleet_in_north_pacific = {
 		type = naval_dominance
 		id = 171
 		value = 0
+	}
+	ai_strategy = {
+		type = coast_defense
+		id = 88
+		value = 0
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = us_west_coast
+		value = -100
 	}
 }
 

@@ -703,7 +703,7 @@ naval_unit_role_ratios_ENG_prewar_early = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_leader
+		id = vnr_naval_capital_bb
 		value = 10
 	}
 
@@ -738,7 +738,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 100
+		value = 80
 	}
 
 	ai_strategy = {
@@ -756,7 +756,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 250
+		value = 350
 	}
 
 	ai_strategy = {
@@ -801,7 +801,7 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 300
+		value = 450
 	}
 
 	ai_strategy = {
