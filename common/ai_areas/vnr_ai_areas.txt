@@ -1,0 +1,77 @@
+areas = {
+    vnr_eng_home_waters = { # Home Island
+        strategic_regions = {
+            16
+            18
+        }
+    }
+    vnr_eng_med_zones = { # Med
+        strategic_regions = {
+            29
+            68
+            69
+        }
+    }
+    vnr_ger_baltic = {
+        strategic_regions = {
+            173
+            207
+            9
+        }
+    }
+    vnr_ita_med_zones = { # Mid Mediterranean and Italian coast
+        strategic_regions = {
+            29
+            168
+            169
+        }
+    }
+    vnr_eng_south_china_sea = { # South China Sea
+        strategic_regions = {
+            75
+            72
+            73
+        }
+    }
+    vnr_eng_pacific_zone = { # Indonesia, Aussie
+        strategic_regions = {
+            91
+            92
+            93
+        }
+    }
+    vnr_chi_coast = { # China coast
+        strategic_regions = {
+            75
+            76
+            77
+        }
+    }
+    vnr_pacific_1 = { # Hawaii, Midway
+        strategic_regions = {
+            95
+            97
+            105
+            180
+        }
+    }
+    vnr_pacific_2 = { # Solomon Islands
+        strategic_regions = {
+            83
+            84
+        }
+    }
+    vnr_pacific_3 = { # Iow Jima, Gulf Leyte
+        strategic_regions = {
+            94
+            78
+        }
+    }
+    vnr_pacific_4 = { # the Philippines
+        strategic_regions = {
+            75
+            80
+            76
+        }
+    }
+}

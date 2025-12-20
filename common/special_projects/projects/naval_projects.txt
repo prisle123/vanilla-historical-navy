@@ -396,13 +396,9 @@ sp_naval_underway_replenishment = {
 	}
 	
 	available = {
-		FROM = {
-			OR = {
-				has_tech = base_strike
-				has_tech = fleet_in_being
-			}
+		has_navy_size = {
+			size > 200
 		}
- 
 	}
 
 	resource_cost = {

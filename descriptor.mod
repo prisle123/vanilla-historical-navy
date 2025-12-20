@@ -1,4 +1,4 @@
-version="v2.6 - Tarawa Thunder"
+version="v2.7 - Mariana Storm"
 tags={
 	"Military"
 	"Graphics"

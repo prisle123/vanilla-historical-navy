@@ -17,16 +17,16 @@ USA_StrikeForce_1 = {
 	
 	optimal_composition = {
 		carrier = {
-			amount = 6
+			amount = 4
 		}
 		battleship = {
-			amount = 8
+			amount = 6
 		}
 		light_cruiser = {
-			amount = 14
+			amount = 10
 		}
 		destroyer = {
-			amount = 20
+			amount = 18
 		}
 	}
 }
@@ -112,7 +112,7 @@ USA_PatrolDominanceForce_2 = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }

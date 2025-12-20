@@ -192,33 +192,135 @@ Auxiliary ship branch is centered around the debate over "range or speed". Speed
 
 As for fuel branch, its research cost is insignificant with little bonus, making it an irrelevant factor in your game.
 
+## Doctrine Tree ##
+
+With doctrines totally overhauled in NCNS update, previous VNR doctrines are also reworked to fit in the grand-sub strategy system. Some doctrines from vanilla are removed or merged into others to create more condensed doctrine tree. Grand strategy sets the tone for your entire navy experience and thus has to be chosen wisely based on the fleet you have or plan to build. After that, you can choose subdoctrines for four tracks: carrier, capital ship, screen ship, and submarine. Typically, there are five levels of mastery on each subdoctrine, providing different bonuses (or debuffs) when mastery is achieved, and it also unlocks special bonuses with a track completed.
+
+### Grand Strategy ###
+
+**Decisive Battle**
+
+*Decisive battle* strategy offers a quick start and the best fleet operation bonuses among all. Historically, it was adopted by many major powers in the 1910s which aims at building a fleet around capable battleships, by consolidating formation trainings. The most important bonus of *Decisive Battle* is the positioning bonus that allows you to operate a bigger fleet without penalty.
+
+**Commerce Raiding**
+
+For countries with ambitions to dominate seven seas, *Commerce Raiding* may not be the top pick as it offers limited improvements to surface ships. However, it has potential to salvage the underdog. Submarine is the most benefited ship with convoy raiding rewards from the strategy, promoting your ability to harrass stronger powers in their soft spots.
+
+**Air-Sea Operation**
+
+If you are patient enough, *Air-Sea Operation* will give you ample rewards better than any other strategies when fully mastered. The only problem is that it has a relatively weak start. To unleash the power of this strategy, you will need a massive carrier fleet and strong industrial power, which can only be achieved by few countries in the game.
+
+### Sub Doctrine - Carrier ###
+
+**Carrier Taskforce**
+
+This is the authentic USN carrier tactics, with every features designed to showcase its success in history, such as leading sortie rate, deck management, and aerial attack capabilities. Just like *air-sea operation* strategy itself, *carrier taskforce* also has a humble start, but becomes horrible at the end. It provides the best sortie efficiency, reconnaissance, and carrier overfilling in all doctrines.
+
+**Carrier Concentration**
+
+As the rival to *carrier taskforce*, this strategy is adopted by IJN in real history at the early stage of the Pacific War. Unlike its counterpart, *carrier concentration* emphasizes on maximizing damage done by aircrafts, simulating elitism of Japan's naval aviation, which leads to lower sortie efficiency but a 15% bonus on aircraft attack.
+
+**Floating Airfields**
+
+This strategy is designed to represent how the Royal Navy used carrier in history. It potrays carrier more as a protector of fleet rather than a sole attacker. As a result, it unlocks many protection bonuses to carrier.
+
+**Subsidiary Carrier Support**
+
+For people who don't believe in air power, this doctrine depicts another possibility for carrier, which is to play a supportive role in fleet operations alongside other ships. You can get some non-combat bonuses from it to strengthen carrier's detection and air protection.
+
+**Naval Airforce**
+
+Contrary to prior ones, this is the most radical doctrines among all, stressing land-based naval bombers more than anything else, but weaker on usage of carriers compared to others. This can be an interesting but unstable option to explore.
+
+### Sub Doctrine - Battle Line ###
+
+**Fast Battleship Primacy**
+
+This is a very authentic WWII main battle fleet doctrine that only the most powerful naval power can afford. Since its bonus only works on battleships, the doctrine has not been very friendly to battlecruiser enjoyers. Usually used together with *decisive battle* grand strategy, *fast battleship primacy* offers the best buffs on fleet positioning and organization.
+
+**Specialized Scouting Fleet**
+
+This is an old-school doctrine applied by many naval powers back in the WWI, which appeals to having a scouting fleet with dedicated and fast battlecruisers to provide early-warning and vanguard combat for the main battle fleet. Inferior to *fast battleship primacy* in terms of formation, it is the only doctrine that strengthens battlecruiser in conventional surface warfare.
+
+**Armored Raiders**
+
+*Armored Raiders* is a very specialized doctrine designed only for historically accurate Kriegsmarine, and the only one to boost convoy raiding efficiency of capital ships. Choosing this branch typically means you give up taking on fights against enemy battleships on the sea.
+
+**Coastal Defense Fleet**
+
+This doctrine can make refitting and repairing faster without giving battleships any benefits on combat. Instead, the combat bonuses are mostly about heavy cruisers and mines, and oriented around defending coastal provinces.
+
+**Monitor Support**
+
+Again, another meme doctrine, and it only improves invasion support in a quite awkward way. You can only unlock this doctrine with NCNS DLC.
+
+**Taskforce Guardian**
+
+Focusing on anti-air battleships, *Taskforce Guardian* is the historical strategy of USN in late-WWII period which offers fleet organization bonuses only next to *Fast Battleship Primacy* and a series of anti-air buffs. It begins being backward, but will be worth it when you achieve mastery, which turns out to be more balanced than others.
+
+### Sub Doctrine - Screen Line ###
+
+**Convoy Escort**
+
+This is an all-round doctrine that offers moderate and balanced bonuses to every aspect you can think of about screen ships, including organization, anti-air, anti-submarine, reconnaissance, and most importantly, the convoy escort efficiency (means you can cover more merchantmen and sea areas in convoy escorting missions).
+
+**Integrated Operations**
+
+This is an authentic USN strategy adopted during WWII, which makes screen ships perfect helpers in fleet operations instead of convoy defenders. The bonuses it offers are less diverse, but more concentrated on screening and patrolling.
+
+**Hunter Killer Groups**
+
+*Hunter Killer Groups* is a doctrine which prioritizes anti-submarine warfare with generous buffs on detection and counter-measures against submarines, while still being able to shoulder other responsibilities like convoy escort.
+
+**Torpedo Primacy**
+
+*Torpedo Primacy* is a doctrine full of Japanese characteristics with its priority of torpedoes on various ships. Its reduction of torpedo loading by 2 hours is the greatest bonus on torpedo among all, and together with other rewards builds an interesting method around torpedoes.
+
+**The New School**
+
+*The New School*, or *Jeune Ecole* in French, was a doctrine developed with the advent of torpedo in reality. In the mod, it also emphasizes the importance of torpedo attacks but inferior to Japanese pratice. Instead, it is the only doctrine enabling screen ship convoy raiding with dedicated bonuses, mixed with other rewards on coastal defense and mine warfare.
+
+### Sub Doctrine - Submarine ###
+
+**Wolfpacks**
+
+This is the most infamous submarine tactics in human history, and just like its name and historical impression potrays, it encourages concentrating and using submarines as a key factor to disable enemy's economy. *Wolfpacks* offers the best convoy raiding coordination to submarines, which makes them react and muster in a shorter period against convoys.
+
+**Fleet Operations**
+
+Despite less emphasis on commerce raiding and coordination, *Fleet Operations* turns submarines into long-range pickets operating out of core areas, providing extra spotting chance with conventional surface patrol force.
+
+**Capital Hunters**
+
+Another Japanese-style doctrine that buffs torpedo more than the equipment itself. It can expand usage scenario of torpedo further if used with *torpedo primacy*.
+
+**Coastal Defense**
+
+As its name suggests, the doctrine gives moderate and balanced bonuses on submarines at the cost of max range.
+
+**Area Defense**
+
+A unique double-edge-sword type of doctrine that offers reduction of visibility at great cost of HP and combat capabilities.
+
 ## Naval Battle ##
 
 ### Overview ###
 
-Speaking of the mechanism of naval combat, it's mostly untouched in this mod, so your experience from vanilla still applies here. If you are not familiar with navy, I'd recommend you to read naval sections of HOI4 official wiki which owns a lot of details of basic concepts and advanced formulas of naval combat. [HOI4 wiki](https://hoi4.paradoxwikis.com/Naval_battle)
+Speaking of the mechanism of naval combat, it's mostly untouched in this mod, so your experience from vanilla still applies here. If you are not familiar with navy, I'd recommend you to read naval sections of HOI4 official wiki which owns a lot of details from basic concepts to advanced formulas. [HOI4 wiki](https://hoi4.paradoxwikis.com/Naval_battle)
 
-VNR modifies some parts of naval game to make it more intense and realistic, and the following introduction will only include things changed from vanilla. I will assume you know the basic concepts about naval combat such as screen efficiency, positioning and combat duration, otherwise please refer to the link above first.
+VNR modifies some parts of naval game to make it more intense and realistic, and the following introduction will only include things changed from vanilla. I will assume you know the basic concepts about naval combat such as screen efficiency, positioning, and combat duration, otherwise please refer to the link above first.
 
 ### Fleet Composition ###
 
-The question of fleet composition is based on the concept of screen ratio. This part is changed in VNR, which is 1:2. This means a capital ship (heavy ships and carriers) needs at least two screen ships (destroyers and light cruisers, basically anything in the first line of combat) to achieve max screen efficiency. Furthermore, carrier has its own version of screen efficiency that requires not only light ships but also heavy ships. This ratio is 1 to 1.
+The question of fleet composition is based on the concept of screen ratio. This part is changed in VNR, which is 1:2. This means a capital ship (heavy ships and carriers) needs at least two screen ships (destroyers and light cruisers, basically anything in the first line of combat) to achieve max screen efficiency. Furthermore, carrier has its own version of screen efficiency that requires not only light ships (1:2) but also heavy ships (1:1).
 
 For example, let's say you have 1 carrier, then you need at least 1 battleship and 4 destroyers or light cruisers (2 for carrier, 2 for battleship) to get 100% efficiency for every ship. However, this is only the lowest standard for a fleet, because you can't avoid losses of ships in the combat. As a result, this ratio has to be expanded to allow some redundancy, like 1:1.5:8.
 
 Besides, make sure your fleet has a min speed over 30kn, this is extremely important to strike forces.
 
-### Sea Supremacy ###
-
-One of the major roles that navy plays in the game is securing sea supremacy to create opportunity for a naval invasion. Compared to vanilla, supremacy factor of different missions are changed. Among them, the factor of convoy raiding is greatly nerfed, meaning even though you have twice the ships in convoy raiding, they will lose in securing sea supremacy against a smaller strike force. The best way to gain control of a piece of waters is by naval invasion support or strike force.
-
-Type of ship also affects efficiency in this area. Decent ships are required in the action, that means you can't secure the sea just with submarines.
-
-Above all, the supremacy weight of each ship is calculated by a formula between IC and manpower. Big and expensive ships will always have an edge in the fight for sea supremacy.
-
 ### Combat Duration ###
 
-To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 2-3 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
 
 ### Night Combat ###
 
@@ -242,7 +344,15 @@ Retreating is made faster in VNR to simulate the quick disengagement in real nav
 
 Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:2, you will need more ships to achieve max screen efficiency.
 
-Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 65 ships have a chance to get penalized for high relative size, which is -30% positioning with every doubling of ships than the other side, capped to -150%.
+Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 40 ships have a chance to get penalized for high relative size, which is -50% positioning with every doubling of ships than the other side, capped to -300%.
+
+To be more specific, I will provide you with a list to illustrate: 
+
+- 10 vs 1: threshold of 41 ships not reached, no positioning penalty
+- 45 vs 10: more than 4 times bigger, 4 x (-50%) = -200% positioning
+- 100 vs 70: doubling relative size not achieved, no positioning penalty
+
+When positioning reaches 0%, you will have to face harsh debuffs such as -90% damage, -75% AA, and -125% screening efficiency.
 
 ### Supply Consumption ###
 

@@ -38,7 +38,7 @@ USA_coast_defense = {
         USA
     }
 
-    min_priority = 1
+    min_priority = 3
     max_priority = 6
 }
 
@@ -49,8 +49,8 @@ USA_convoy_protection = {
         USA
     }
 
-    min_priority = 1
-    max_priority = 7
+    min_priority = 7
+    max_priority = 10
 }
 
 USA_convoy_raiding = {

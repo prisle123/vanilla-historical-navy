@@ -42,11 +42,17 @@ convoy_escort = {
 			convoy_escort_efficiency = 0.05
 		}
 		sweeping_duty = {
+			light_cruiser = {
+				mines_sweeping = 0.25
+			}
+			destroyer = {
+				mines_sweeping = 0.25
+			}
 			mines_sweeping_by_fleets_factor = 0.15
 		}
 		creeping_attack = {
 			destroyer = {
-				sub_detection = 0.10
+				surface_detection = 0.05
 				lg_attack = 0.05
 			}
 			light_cruiser = {
@@ -55,12 +61,14 @@ convoy_escort = {
 		}
 		as_below_so_above = {
 			destroyer = {
-				anti_air_attack = 0.15
+				max_organisation = 5
+				anti_air_attack = 0.1
 			}
 			light_cruiser = {
-				anti_air_attack = 0.15
+				max_organisation = 5
+				anti_air_attack = 0.1
 			}
-			convoy_escort_efficiency = 0.05
+			convoy_escort_efficiency = 0.1
 		}
     }
 }
@@ -92,15 +100,21 @@ support_integrated_operations = {
 
     # EFFECTS
 	screening_efficiency = 0.05
+	equipment_bonus = {
+		screen_ship = {
+			naval_range = 0.1
+			instant = yes
+		}
+	}
 	
     rewards = {
         first_line_of_defense = {
 			destroyer = {
-				max_organisation = 5
+				max_organisation = 10
 				anti_air_attack = 0.1
 			}
 			modifier = {
-				convoy_retreat_speed = 0.1
+				naval_retreat_speed = 0.1
 			}
 		}
 		first_line_of_attack = {
@@ -166,17 +180,18 @@ hunter_killers = {
     }
 
     # EFFECTS
-	naval_coordination = 0.10 
+	naval_coordination = 0.10
+	naval_torpedo_enemy_critical_chance_factor = -0.1
 	
     rewards = {
 		search_and_destroy = {
 			destroyer = {
-				sub_detection = 0.1
+				sub_detection = 0.15
 			}
 		}
 		flotilla_leader = {
 			light_cruiser = {
-				sub_detection = 0.1
+				sub_detection = 0.15
 			}
 		}
 		group_operations = {
@@ -221,7 +236,7 @@ torpedo_primacy = {
     xp_type = navy
 
     ai_will_do = { 
-        base = 0
+        base = 1
         modifier = {
             factor = 95
             original_tag = JAP
@@ -231,7 +246,7 @@ torpedo_primacy = {
    		always = yes
     }
     naval_torpedo_hit_chance_factor = 0.1
-	convoy_raiding_efficiency_factor = 0.05
+	naval_torpedo_cooldown_factor = -0.125
 
     rewards = {
 
@@ -243,6 +258,7 @@ torpedo_primacy = {
     	coordinated_fire_patterns = {
     		destroyer = {
     			max_organisation = 10
+				naval_torpedo_hit_chance_factor = 0.05
     		}
     	}	
     	dedicated_torpedo_task_forces = {
@@ -253,7 +269,7 @@ torpedo_primacy = {
     	}
     	torpedo_rearming = {
     		modifier = {
-				naval_torpedo_cooldown_factor = -0.25
+				naval_torpedo_cooldown_factor = -0.125
 			}
     	}
     	night_combat_training = {
@@ -281,12 +297,16 @@ jeune_ecole = {
     	#TODO: special project
    		always = yes
     }
+	ai_will_do = {
+		factor = 1
+	}
 
-    convoy_raiding_efficiency_factor = 0.1
 	destroyer = {
+		convoy_raiding_coordination = 0.1
 		torpedo_attack = 0.1
 	}
 	light_cruiser = {
+		convoy_raiding_coordination = 0.1
 		torpedo_attack = 0.1
 	}
 
@@ -312,11 +332,13 @@ jeune_ecole = {
     	convoy_escort = {
     		modifier = {
 				convoy_escort_efficiency = 0.1
+				convoy_retreat_speed = 0.1
 			}
     	}
     	coastal_patrol = {
     		modifier = {
 				mines_planting_by_fleets_factor = 0.2
+				naval_mines_damage_factor = 0.1
 				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
 			}
     	}

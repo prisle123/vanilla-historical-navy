@@ -97,13 +97,13 @@ JAP_training = {
     max_priority = 20
 }
 
-JAP_naval_blockade = {
-    objective_type = naval_blockade
-
-    available_for = {
-        JAP
-    }
-
-    min_priority = 10
-    max_priority = 20
-}
+#JAP_naval_blockade = {
+#    objective_type = naval_blockade
+#
+#    available_for = {
+#        JAP
+#    }
+#
+#    min_priority = 10
+#    max_priority = 20
+#}

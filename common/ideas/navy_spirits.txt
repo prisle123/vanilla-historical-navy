@@ -178,10 +178,6 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Compromise, No Surrender" }
 				}
-				modifier = {
-					factor = 2
-					has_doctrine = screen_support_focus
-				}
 			}
 		}
         etajima_naval_academy = {
@@ -339,13 +335,6 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-				modifier = {
-					factor = 2
-					OR = { 
-					has_doctrine = jeune_ecole
-					has_doctrine = patrol_boats
-					}
-				}
 			}
 		}
 		flexible_contracts_spirit = {
@@ -359,19 +348,10 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-				modifier = {
-					factor = 2
-					OR = { 
-					has_doctrine = coastal_defence_fleet
-					has_doctrine = screen_support_focus
-					}
-				}
 			}
 		}
 		integrated_designers_spirit = {
 			ledger = navy
-			available = { has_doctrine = new_convoy_raiding }
-			visible = { has_dlc = "Man the Guns" }
 			research_bonus = {
 				ship_modules_tech = 0.20
 			}
@@ -380,14 +360,6 @@ ideas = {
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
-				}
-				modifier = {
-					factor = 2
-					OR = {
-					has_doctrine = anti_aircraft_cruisers
-					has_doctrine = battlecruiser_supremacy
-					has_doctrine = escort_carrier_support
-					}
 				}
 			}
 		}
@@ -403,35 +375,19 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-				modifier = {
-					factor = 2
-					OR = {
-					has_doctrine = submarine_fleet_operations
-					has_doctrine = massed_carrier_fleet
-					has_doctrine = hunter_killers
-					}
-				}
 			}
 		}
 		naval_refit_yards_spirit = {
 			ledger = navy
 			modifier = {
-				refit_speed = 0.15
-				repair_speed_factor = 0.15
+				refit_speed = 0.1
+				repair_speed_factor = 0.1
 			}
 			ai_will_do = {
 				factor = 1
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
-				}
-				modifier = {
-					factor = 2
-					OR = {
-					has_doctrine = naval_gunfire_support
-					has_doctrine = broad_naval_support
-					has_doctrine = screen_support_focus
-					}
 				}
 			}
 		}
@@ -504,7 +460,7 @@ ideas = {
             available = {
                 has_navy_size = {
                     archetype = ship_hull_civilian
-                    size > 30
+                    size > 29
                 }
             }
             modifier = {
@@ -584,12 +540,8 @@ ideas = {
 					NOT = { has_dlc = "No Step Back" }
 				}
 				modifier = {
-					factor = 2
-					OR = {
-					has_doctrine = wolfpacks
-					has_doctrine = torpedo_primacy
-					has_doctrine = floating_airfields
-					}
+					factor = 100
+					tag = JAP
 				}
 			}
 		}
@@ -608,14 +560,6 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-				modifier = {
-					factor = 2
-					OR = {
-					has_doctrine = wolfpacks
-					has_doctrine = battlecruiser_supremacy
-					has_doctrine = massed_carrier_fleet
-					}	
-				}			
 			}
 		}
 		efficient_communications_spirit = {
@@ -659,7 +603,7 @@ ideas = {
 				naval_retreat_chance = -0.1
 				naval_retreat_speed = -0.1
 				naval_torpedo_hit_chance_factor = 0.1
-				naval_hit_chance = 0.1
+				naval_hit_chance = 0.05
 			}
 			ai_will_do = {
 				factor = 1.5
@@ -697,14 +641,6 @@ ideas = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
-				modifier = {
-					factor = 2
-					OR = {
-					has_doctrine = line_of_battle
-					has_doctrine = capital_hunters
-					has_doctrine = convoy_escort
-					}
-				}
 			}
 		} 
 		bureau_of_ordnance_spirit = {
@@ -720,7 +656,6 @@ ideas = {
 
 		naval_tripwire_navy_spirit = {
 			ledger = navy
-			visible = { has_dlc = "No Compromise, No Surrender" }
 			available = { 
 				OR = {
 					has_doctrine = new_convoy_raiding
@@ -736,10 +671,6 @@ ideas = {
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Compromise, No Surrender" }
-				}
-				modifier = {
-					factor = 2
-					has_doctrine = coastal_defence_fleet
 				}
 			}
 		}
@@ -794,7 +725,7 @@ ideas = {
         inflexible_headquarter = {
             ledger = navy
             modifier = {
-                political_power_factor = 0.05
+                political_power_gain = 0.05
                 navy_advisor_cost_factor = 0.25
                 navy_leader_cost_factor = 0.25
                 navy_intel_to_others = 20
@@ -838,6 +769,9 @@ ideas = {
                 ship_hull_heavy_design_cost_factor = 0.2
                 production_speed_dockyard_factor = -0.25
             }
+			ai_will_do = {
+				factor = 0
+			}
         }
 	}
 }

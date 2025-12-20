@@ -122,7 +122,7 @@
  arresting_gear: "Arresting Gear"
  arresting_gear_desc: "The landing arrestment system is an auxiliary equipment used on flight deck that achieves safe landing of aircraft. As the most important part of this device, arresting gear catches tailhook of the plane with a high-strength rope. If it fails, barricade will become the last measure."
  aviation_dawn: "Aviation Dawn"
- aviation_dawn_desc: "From Wright Flyer to monoplane nowadays, aircraft has been through many revolutions with stronger and corrosion-resistant materials, which the improvements bring it with a more critical role in fleet operations. Navies of Japan, Britain and US have organized a large number of exercises at the turn of the 1930s, culminating in a series of advancements in naval and air tactics. Due to its heavy reliance on cutting-edge technologies and seasoned personnel, a functional naval aviation force must go through lots of practices.\n\nYet it is not easy for any country possessing a large battleship fleet to change the course. Resistance from vested interests is expected.\n\n§RThe age of airplanes is here, guns and armors were the past......§!"
+ aviation_dawn_desc: "From Wright Flyer to monoplane nowadays, aircraft has been through many revolutions with stronger and corrosion-resistant materials, which the improvements bring it with a more critical role in fleet operations. A large number of exercises have been conducted at the turn of the 1930s, culminating in a series of advancements in naval and air tactics. Due to its heavy reliance on cutting-edge technologies and seasoned personnel, a functional naval aviation must go through lots of practices.\n\nYet it is not easy for any country possessing a large battleship fleet to change the course. Resistance from vested interests is expected.\n\n§RThe age of airplanes is here, guns and armors were the past......§!"
  carrier_radio_range: "Navigation Radio Range"
  carrier_radio_range_desc: "As aircraft becomes heavier and flies farther, a major challenge has emerged: how can pilots reliably find their moving carrier at sea after a mission. The answer is found in revolutional breakthrough of radio homing technology, which the carrier transmits radio signals on a specific frequency, acting as a beacon to guide fighter aircrafts with receivers back to the ship. The technology allows for safer recovery in poor weather, extended operational range, and is crucial for coordinating large-scale attacks in a durative war."
  dive_bomber_study: "Dive Bomber Study"
@@ -350,8 +350,9 @@
  advanced_missile_system: "Active Radar Homing Missile"
  advanced_missile_system_desc: "The post-war revolution in electronics has made smaller guidance system possible. The active radar homing technology allows missile to carry radar transceiver and electronics necessary to find and track its target autonomously, which becomes prototype of the later fire-and-forget technologies."
 
- heavy_armor_research_tt: "§HBreakthrough in heavy armor plate will benefit research on cruiser armor in return.§!"
- cruiser_armor_research_tt: "§HBreakthrough in cruiser armor plate will benefit research on heavy armor in return.§!"
+ heavy_armor_research_tt: "\n§GBreakthrough in heavy armor plate will benefit research on cruiser armor in return.§!"
+ cruiser_armor_research_tt: "\n§GBreakthrough in cruiser armor plate will benefit research on heavy armor in return.§!"
+ topgun_spirit_tt: "§HUnlock a special navy officer corps spirits§!"
 
 
  # tech banners

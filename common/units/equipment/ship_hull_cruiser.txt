@@ -458,7 +458,7 @@ equipments = {
 		build_cost_ic = 3500
 		naval_speed = 26
 		surface_visibility = 26
-		naval_range = 5000
+		naval_range = 3000
 		max_strength = 140
 		reliability = 0.7
 		armor_value = 5
@@ -768,6 +768,7 @@ equipments = {
 
 		module_slots = inherit
 		naval_speed = 31
+		naval_range = 2500
 		build_cost_ic = 1800
 		manpower = 1000
 		surface_visibility = 26
