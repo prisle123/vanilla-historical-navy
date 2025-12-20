@@ -43,6 +43,18 @@ NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 1.25   -- s
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.75   -- AA penalty at 0% positioning (was 0.7)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.25   -- this screen ratio to num convoys is needed for full screening beyond screen line (was 0.5)
 NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.1   -- this capital ratio to num convoys is needed for full screening beyond screen line (was 0.25)
+NDefines.NNavy.MISSION_SPREADS = {  -- mission spreads in the case a ship join combat, which is calculated for number of ships that will be in combat. 1 means no ship will be at start
+	0.0, -- HOLD
+	0.0, -- PATROL
+	0.0, -- STRIKE FORCE
+	0.5, -- CONVOY RAIDING
+	0.0, -- CONVOY ESCORT
+	0.7, -- MINES PLANTING
+	0.7, -- MINES SWEEPING
+	0.5, -- TRAIN
+	0.0, -- RESERVE_FLEET
+	0.0, -- NAVAL_INVASION_SUPPORT
+}
 
 
 --Dominance

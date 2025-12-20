@@ -820,8 +820,18 @@ ITA_avoid_mediterranean = {
 		value = 100
 	}
 	ai_strategy = {
-		type = convoy_raiding_target
-		id = ENG
+		type = naval_convoy_raid_region
+		id = 29
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 68
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 69
 		value = 100
 	}
 }
@@ -862,7 +872,6 @@ GER_unrestricted_submarine_warfare = {
             tag = ENG
             ratio < 0.7
         }
-		FRA = { has_capitulated = yes }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -886,11 +895,6 @@ GER_unrestricted_submarine_warfare = {
         id = 50
         value = 30
     }
-	ai_strategy = {
-		type = convoy_raiding_target
-		id = ENG
-		value = 100
-	}
 }
 
 GER_avoid_mediterranean = {
