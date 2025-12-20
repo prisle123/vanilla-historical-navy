@@ -53,6 +53,7 @@ carrier_battlegroups = {
             }
             modifier = {
                 navy_carrier_air_agility_factor = 0.1
+				naval_strike_agility_factor = 0.1
             }
 		}
 		professional_deck_management = {
@@ -76,7 +77,7 @@ carrier_battlegroups = {
 		alpha_strike = {
             modifier = {
                 sortie_efficiency = 0.1
-                navy_carrier_air_targetting_factor = 0.1
+                naval_strike_targetting_factor = 0.15
                 carrier_capacity_penalty_reduction = -0.1
             }
 		}
@@ -252,7 +253,7 @@ carrier_concentration = {
     }
 
     sortie_efficiency = 0.1
-    navy_carrier_air_attack_factor = 0.05
+    naval_strike_attack_factor = 0.05
 
     rewards = {
     	deep_operative_support = {
@@ -272,7 +273,7 @@ carrier_concentration = {
                 max_organisation = 15
             }
             modifier = {
-                navy_carrier_air_targetting_factor = 0.1
+                naval_strike_targetting_factor = 0.1
             }
     	}
     	improved_mission_oriented = {
@@ -289,14 +290,14 @@ carrier_concentration = {
     			fuel_consumption = -0.1
     		}
             modifier = {
-                navy_carrier_air_agility_factor = 0.1
+                naval_strike_agility_factor = 0.1
             }
     	}
     	massed_air_raid = {
     		modifier = {
                 sortie_efficiency = 0.1
                 carrier_capacity_penalty_reduction = -0.1
-                navy_carrier_air_attack_factor = 0.1
+                naval_strike_attack_factor = 0.1
             }
     	}
     }
