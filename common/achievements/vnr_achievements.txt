@@ -45,7 +45,10 @@ unique_id = vnr_achievements
         game_rules_allow_achievements = yes
     }
     happened = {
-        has_tech = super_carriers
+        custom_override_tooltip = {
+            tooltip = 00_vnr_topgun_tt
+            has_tech = super_carriers
+        }
     }
 }
 
@@ -77,6 +80,7 @@ unique_id = vnr_achievements
 
 00_vnr_eight_eight_fleet = {
     possible = {
+        tag = JAP
         difficulty > 1
         game_rules_allow_achievements = yes
     }

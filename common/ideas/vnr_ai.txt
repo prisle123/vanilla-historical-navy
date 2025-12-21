@@ -184,6 +184,7 @@ ideas = {
         vnr_cv_plane_output_boost = {
             cancel = {
                 is_ai = no
+                is_debug = no
             }
             equipment_bonus = {
                 cv_small_plane_airframe = {
@@ -200,6 +201,7 @@ ideas = {
         vnr_ai_dd_output_boost_1 = {
             cancel = {
                 is_ai = no
+                is_debug = no
             }
             # for historical mode
             equipment_bonus = {
@@ -212,6 +214,7 @@ ideas = {
         vnr_ai_dd_output_boost_2 = {
             cancel = {
                 is_ai = no
+                is_debug = no
             }
             # for expert mode
             equipment_bonus = {

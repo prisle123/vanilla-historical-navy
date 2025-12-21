@@ -396,8 +396,10 @@ sp_naval_underway_replenishment = {
 	}
 	
 	available = {
-		has_navy_size = {
-			size > 200
+		FROM = {
+			has_navy_size = {
+				size > 199
+			}
 		}
 	}
 
