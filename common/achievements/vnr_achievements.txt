@@ -78,18 +78,6 @@ unique_id = vnr_achievements
     }
 }
 
-00_vnr_eight_eight_fleet = {
-    possible = {
-        tag = JAP
-        difficulty > 1
-        game_rules_allow_achievements = yes
-    }
-    happened = {
-        has_navy_size = { unit = battleship size > 7 }
-        has_navy_size = { unit = battle_cruiser size > 7 }
-    }
-}
-
 00_vnr_carrier_liaoning = {
     possible = {
         custom_override_tooltip = {

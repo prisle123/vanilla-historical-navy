@@ -3,6 +3,7 @@ ideas = {
         vnr_mad = {
 			cancel = {
 				is_ai = no
+                is_debug = no
 			}
             modifier = {
                 convoy_raiding_efficiency_factor = 0.3
@@ -38,6 +39,7 @@ ideas = {
         vnr_hard = {
 			cancel = {
 				is_ai = no
+                is_debug = no
 			}
 			modifier = {
                 convoy_raiding_efficiency_factor = 0.2
@@ -73,6 +75,7 @@ ideas = {
         vnr_normal = {
 			cancel = {
 				is_ai = no
+                is_debug = no
 			}
 			modifier = {
                 convoy_raiding_efficiency_factor = 0.1
@@ -109,6 +112,7 @@ ideas = {
 		vnr_mad_production = {
 			cancel = {
 				is_ai = no
+                is_debug = no
 			}
 			picture = generic_navy_bonus
             modifier = {
@@ -125,6 +129,7 @@ ideas = {
         vnr_hard_production = {
 			cancel = {
 				is_ai = no
+                is_debug = no
 			}
 			picture = generic_navy_bonus
 			modifier = {
@@ -141,6 +146,7 @@ ideas = {
         vnr_normal_production = {
 			cancel = {
 				is_ai = no
+                is_debug = no
 			}
 			picture = generic_navy_bonus
 			modifier = {

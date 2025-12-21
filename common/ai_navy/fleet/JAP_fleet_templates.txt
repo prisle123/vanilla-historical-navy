@@ -33,9 +33,9 @@ JAP_raiding_fleet_2 = {
 
 JAP_escort_fleet_3 = {
 	required_taskforces = {
-		JAP_ConvoyEscort_1 = 2
+		JAP_ConvoyEscort_1 = 1
 	}
 	optional_taskforces = {
-		JAP_ConvoyEscort_1 = 2
+		JAP_ConvoyEscort_1 = 1
 	}
 }

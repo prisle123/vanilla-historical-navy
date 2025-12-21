@@ -17,9 +17,8 @@ USA_dominance_fleet_2 = {
 		USA_PatrolReconForce_1 = 1
 	}	
 	optional_taskforces = {
-		USA_StrikeForce_1 = 1
 		USA_PatrolDominanceForce_2 = 1
-		USA_PatrolReconForce_1 = 2
+		USA_PatrolReconForce_1 = 1
 	}
 }
 
@@ -34,9 +33,9 @@ USA_raiding_fleet_1 = {
 
 USA_escort_fleet_1 = {
 	required_taskforces = {
-		USA_ConvoyEscort_1 = 2
+		USA_ConvoyEscort_1 = 1
 	}
 	optional_taskforces = {
-		USA_ConvoyEscort_1 = 2
+		USA_ConvoyEscort_1 = 1
 	}
 }
