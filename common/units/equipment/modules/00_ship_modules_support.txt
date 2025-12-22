@@ -978,6 +978,16 @@ equipment_modules = {
 			reliability = 0.05
 		}
 	}
+	shipping_container = {
+		category = ship_auxiliary
+		add_stats = {
+			naval_range = 1000
+			build_cost_ic = 10
+		}
+		multiply_stats = {
+			reliability = 0.05
+		}
+	}
 	supply_hub = {
 		category = ship_auxiliary
 		multiply_stats = {

@@ -954,3 +954,56 @@ sp_submarine_snorkel = {
 		sp_naval_generic_reward_test_failure_3			
 	}
 }
+
+sp_shipping_container = {
+	specialization = specialization_naval
+	project_tags = { sp_tag_surface_ship }
+	allowed = {
+        has_dlc = "Man the Guns"
+    }
+    available = {
+		FROM = {
+			has_tech = mtg_tank_landing_craft
+		}
+    }
+	resource_cost = {
+		resources = { 
+			steel = 2
+			chromium = 1
+		}
+	}	
+    breakthrough_cost = {
+		specialization_naval = 1
+	}
+
+    prototype_time = sp_time.prototype.medium
+
+	complexity = sp_complexity.small
+
+    project_output = {
+		enable_equipment_modules = {
+			shipping_container
+		}
+		equipment_bonus = {
+			convoy_1 = {
+				instant = yes
+				build_cost_ic = -0.3
+			}
+		}
+    }
+
+	generic_prototype_rewards = {
+		sp_naval_generic_reward_scientist_xp_1
+		sp_naval_generic_reward_scientist_xp_2
+		sp_naval_generic_reward_scientist_xp_3
+		sp_naval_generic_reward_navy_xp_1
+		sp_naval_generic_reward_navy_xp_2
+		sp_naval_generic_reward_navy_xp_3
+		sp_naval_generic_reward_major_progress_1
+		sp_naval_generic_reward_major_progress_2
+		sp_naval_generic_reward_major_progress_3
+		sp_naval_generic_reward_test_failure_1
+		sp_naval_generic_reward_test_failure_2
+		sp_naval_generic_reward_test_failure_3			
+	}
+}
