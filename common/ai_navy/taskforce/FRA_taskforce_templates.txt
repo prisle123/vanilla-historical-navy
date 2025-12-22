@@ -73,7 +73,7 @@ FRA_PatrolDominanceForce_1 = {
 		battleship = {
 			amount = 2
 		}
-		medium_cruiser = {
+		heavy_cruiser = {
 			amount = 2
 		}
 		light_cruiser = {
@@ -104,9 +104,6 @@ FRA_PatrolDominanceForce_2 = {
 
 	optimal_composition = {
 		heavy_cruiser = {
-			amount = 4
-		}
-		medium_cruiser = {
 			amount = 4
 		}
 		light_cruiser = {

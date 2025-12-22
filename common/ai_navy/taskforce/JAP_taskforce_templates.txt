@@ -3,7 +3,7 @@ JAP_StrikeForce_1 = {
 		original_tag = JAP 
 	}
 	ai_will_do = {
-		factor = 15
+		factor = 30
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -17,10 +17,13 @@ JAP_StrikeForce_1 = {
 	
 	optimal_composition = {
 		carrier = {
-			amount = 4
+			amount = 6
 		}
 		battleship = {
 			amount = 6
+		}
+		heavy_cruiser = {
+			amount = 2
 		}
 		light_cruiser = {
 			amount = 10
@@ -72,9 +75,6 @@ JAP_PatrolDominanceForce_1 = {
 		battleship = {
 			amount = 4
 		}
-		medium_cruiser = {
-			amount = 2
-		}
 		light_cruiser = {
 			amount = 4
 		}
@@ -103,9 +103,6 @@ JAP_PatrolDominanceForce_2 = {
 
 	optimal_composition = {
 		battle_cruiser = {
-			amount = 2
-		}
-		medium_cruiser = {
 			amount = 2
 		}
 		light_cruiser = {
@@ -137,9 +134,6 @@ JAP_PatrolDominanceForce_3 = {
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 4
-		}
-		medium_cruiser = {
-			amount = 2
 		}
 		light_cruiser = {
 			amount = 4
@@ -178,7 +172,7 @@ JAP_PatrolDominanceForce_4 = {
 		SH_battleship = {
 			amount = 2
 		}
-		medium_cruiser = {
+		heavy_cruiser = {
 			amount = 2
 		}
 		light_cruiser = {

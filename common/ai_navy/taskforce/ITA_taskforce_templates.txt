@@ -48,6 +48,9 @@ ITA_StrikeForceCarrier_1 = {
 		battleship = {
 			amount = 4
 		}
+		heavy_cruiser = {
+			amount = 2
+		}
 		light_cruiser = {
 			amount = 10
 		}
@@ -97,9 +100,6 @@ ITA_PatrolDominanceForce_1 = {
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 3
-		}
-		medium_cruiser = {
-			amount = 2
 		}
 		light_cruiser = {
 			amount = 4
