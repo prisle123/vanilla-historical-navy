@@ -104,6 +104,7 @@ NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.15   -- received air dam
 NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.25   -- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support (was 0.07)
 NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.4   -- factor of planes that can sortie by default from a carrier (was 0.5)
 NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0.25, 0.37, 0.50, 0.62, 0.75}   -- The defensive stance sortie is 1.0 - value in index so their sum equals 1
+NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_DEFAULT_INDEX = 4   -- The default offensive sortie index in CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO (was 2)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 180   -- How many planes flying in a naval combat before penalties are introduced (was 80)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns (was 0.005)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 500   --For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract) (was 16)
