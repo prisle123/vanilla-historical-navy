@@ -330,6 +330,14 @@ coastal_defence_fleet = {
     xp_cost = 50
     xp_type = navy
 
+    available = {
+        NOT = {
+            has_doctrine = carrier_battlegroups
+            has_doctrine = floating_airfields
+            has_doctrine = carrier_concentration
+        }
+    }
+
     ai_will_do = {
         factor = 0.5
     }
@@ -395,7 +403,11 @@ naval_gunfire_support = {
     xp_type = navy
 
     available = {
-        always = yes
+        NOT = {
+            has_doctrine = carrier_battlegroups
+            has_doctrine = floating_airfields
+            has_doctrine = carrier_concentration
+        }
     }
     visible = {
         has_dlc = "No Compromise, No Surrender"
