@@ -7,6 +7,9 @@ JAP_StrikeForce_1 = {
 	}	
 	mission = { naval_strike }
 	min_composition = {
+		carrier = {
+			amount = 2
+		}
 		battleship = {
 			amount = 4
 		}
@@ -22,11 +25,8 @@ JAP_StrikeForce_1 = {
 		battleship = {
 			amount = 6
 		}
-		heavy_cruiser = {
-			amount = 2
-		}
 		light_cruiser = {
-			amount = 10
+			amount = 12
 		}
 		destroyer = {
 			amount = 16
@@ -72,14 +72,14 @@ JAP_PatrolDominanceForce_1 = {
 	}
 
 	optimal_composition = {
-		battleship = {
+		heavy_cruiser = {
 			amount = 4
 		}
 		light_cruiser = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }
@@ -93,11 +93,8 @@ JAP_PatrolDominanceForce_2 = {
 	}
 	mission = { naval_patrol }
 	min_composition = {
-		light_cruiser = {
+		battle_cruiser = {
 			amount = 2
-		}
-		destroyer = {
-			amount = 6
 		}
 	}
 
@@ -119,36 +116,6 @@ JAP_PatrolDominanceForce_3 = {
 		original_tag = JAP
 	}
 	ai_will_do = {
-		factor = 5
-	}
-	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 6
-		}
-	}
-
-	optimal_composition = {
-		heavy_cruiser = {
-			amount = 4
-		}
-		light_cruiser = {
-			amount = 4
-		}
-		destroyer = {
-			amount = 8
-		}
-	}
-}
-
-JAP_PatrolDominanceForce_4 = {
-	allowed = {
-		original_tag = JAP
-	}
-	ai_will_do = {
 		factor = 0
 		modifier = {
 			add = 3
@@ -160,11 +127,8 @@ JAP_PatrolDominanceForce_4 = {
 	}
 	mission = { naval_patrol }
 	min_composition = {
-		light_cruiser = {
+		SH_battleship = {
 			amount = 2
-		}
-		destroyer = {
-			amount = 6
 		}
 	}
 
@@ -179,7 +143,7 @@ JAP_PatrolDominanceForce_4 = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }
@@ -215,13 +179,13 @@ JAP_ConvoyEscort_1 = {
 	mission = { convoy_escort }
 	min_composition = {
 		destroyer = {
-			amount = 4
+			amount = 2
 		}
 	}
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 8
+			amount = 5
 		}
 	}
 }

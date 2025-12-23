@@ -6,14 +6,12 @@ ENG_dominance_fleet_1 = {
 	}	
 	optional_taskforces = {
 		ENG_PatrolReconForce_1 = 1
-		ENG_PatrolDominanceForce_3 = 1
 	}
 }
 
 ENG_dominance_fleet_2 = {
 	required_taskforces = {
 		ENG_PatrolDominanceForce_2 = 1
-		ENG_PatrolReconForce_1 = 1
 	}	
 	optional_taskforces = {
 		ENG_PatrolReconForce_1 = 1

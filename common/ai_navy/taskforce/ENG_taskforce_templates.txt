@@ -22,9 +22,6 @@ ENG_StrikeForce_1 = {
 		battleship = {
 			amount = 6
 		}
-		heavy_cruiser = {
-			amount = 2
-		}
 		light_cruiser = {
 			amount = 10
 		}
@@ -71,14 +68,14 @@ ENG_PatrolDominanceForce_1 = {
 		}
 	}
 	optimal_composition = {
-		battleship = {
+		heavy_cruiser = {
 			amount = 4
 		}
 		light_cruiser = {
 			amount = 4
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }
@@ -88,12 +85,12 @@ ENG_PatrolDominanceForce_2 = {
 		original_tag = ENG
 	}
 	ai_will_do = {
-		factor = 3
+		factor = 1
 	}	
 	mission = { naval_patrol }
 	min_composition = {
-		light_cruiser = {
-			amount = 2
+		battle_cruiser = {
+			amount = 3
 		}
 		destroyer = {
 			amount = 5
@@ -108,35 +105,6 @@ ENG_PatrolDominanceForce_2 = {
 		}
 		light_cruiser = {
 			amount = 2
-		}
-		destroyer = {
-			amount = 8
-		}
-	}
-}
-
-ENG_PatrolDominanceForce_3 = {
-	allowed = {
-		original_tag = ENG
-	}
-	ai_will_do = {
-		factor = 5
-	}	
-	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 5
-		}
-	}
-	optimal_composition = {
-		heavy_cruiser = {
-			amount = 4
-		}
-		light_cruiser = {
-			amount = 3
 		}
 		destroyer = {
 			amount = 8
@@ -175,13 +143,13 @@ ENG_ConvoyEscort_1 = {
 	mission = { convoy_escort }
 	min_composition = {
 		destroyer = {
-			amount = 5
+			amount = 2
 		}
 	}
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 8
+			amount = 5
 		}
 	}
 }
