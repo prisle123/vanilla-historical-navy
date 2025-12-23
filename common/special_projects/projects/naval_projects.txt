@@ -312,14 +312,14 @@ sp_super_heavy_guns = {
 		}
     }
     breakthrough_cost = {
-		specialization_naval = 1
+		specialization_naval = 2
 	}
 	resource_cost = {
 		resources = { steel=6 tungsten=3 }
 	}
     prototype_time = sp_time.prototype.medium
 
-	complexity = sp_complexity.medium
+	complexity = sp_complexity.large
 
     project_output = {
         country_effects = {
@@ -410,7 +410,7 @@ sp_naval_underway_replenishment = {
 	}
 
 	breakthrough_cost = {
-		specialization_naval = 2
+		specialization_naval = 1
 	}
 	
 	complexity = sp_complexity.medium
@@ -968,8 +968,8 @@ sp_shipping_container = {
     }
 	resource_cost = {
 		resources = { 
-			steel = 2
-			chromium = 1
+			steel = 4
+			chromium = 2
 		}
 	}	
     breakthrough_cost = {

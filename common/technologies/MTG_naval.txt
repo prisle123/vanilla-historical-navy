@@ -4262,6 +4262,9 @@ technologies = {
 	}
 
 	basic_ship_hull_carrier = {
+		allow = {
+			has_subdoctrine_in_track = carriers
+		}
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_0_tt
 		}
