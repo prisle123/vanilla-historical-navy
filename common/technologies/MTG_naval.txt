@@ -4199,7 +4199,6 @@ technologies = {
 		}
 
 		enable_equipments = {
-			vnr_ship_hull_carrier_conversion_bb
 			vnr_ship_hull_carrier_conversion_ca
 		}
 
@@ -6213,10 +6212,6 @@ technologies = {
 		}
 		research_cost = 0.4
 		start_year = 1940
-
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	super_carriers = {
 		on_research_complete = {
@@ -6277,6 +6272,17 @@ technologies = {
 			naval_equipment
 			mio_cat_tech_all_carrier_and_modules
 		}
+	}
+
+	bb_conversion_carrier = {
+		allow = {
+			always = no
+		}
+		enable_equipments = {
+			vnr_ship_hull_carrier_conversion_bb
+		}
+		research_cost = 1
+		start_year = 1918
 	}
 
 	obsolete_vanilla_hulls = {
