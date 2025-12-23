@@ -1,5 +1,6 @@
 navy_rework_category = {
 	picture = GFX_decision_cat_navy_rework
+	scripted_gui = vnr_manual_handbook_gui
 	allowed = { has_dlc = "Man the Guns" }
 	priority = 12
 }

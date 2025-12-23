@@ -89,5 +89,10 @@ scripted_gui = {
 			check_variable = { navy_rework_welcome_splash_variable = 4 }
 		}
 	}
+
+	vnr_manual_handbook_gui = {
+		context_type = decision_category
+		window_name = vnr_manual_handbook_gui_window
+	}
 }
 
