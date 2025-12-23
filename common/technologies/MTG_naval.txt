@@ -4780,6 +4780,7 @@ technologies = {
 		}
 
 		on_research_complete = {
+			custom_effect_tooltip = cv_tech_6_tt
 			hidden_effect = { add_ideas = vnr_carrier_cost_1 }
 		}
 
