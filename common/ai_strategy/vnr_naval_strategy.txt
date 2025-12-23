@@ -602,6 +602,10 @@ USA_pacific_war_naval_counterattack_1 = {
 		ordertype = invasion
     	execute_order = yes
 	}
+	ai_strategy = {
+		type = naval_invasion_dominance_weight
+		value = 60
+	}
 }
 
 USA_pacific_war_naval_counterattack_2 = {
@@ -711,6 +715,10 @@ USA_pacific_war_naval_counterattack_2 = {
 		ordertype = invasion
     	execute_order = yes
 	}
+	ai_strategy = {
+		type = naval_invasion_dominance_weight
+		value = 60
+	}
 }
 
 USA_pacific_war_naval_counterattack_3 = {
@@ -797,6 +805,10 @@ USA_pacific_war_naval_counterattack_3 = {
 		area = home_islands
 		ordertype = invasion
     	execute_order = yes
+	}
+	ai_strategy = {
+		type = naval_invasion_dominance_weight
+		value = 100
 	}
 }
 
