@@ -5,7 +5,7 @@ scripted_gui = {
 
         ai_enabled = { always = no }
 
-        visible = { has_global_flag = naval_lore_gui_show }
+        visible = { has_country_flag = naval_lore_gui_show }
 
         effects = {
             naval_lore_gui_option_button_click = {
@@ -21,7 +21,7 @@ scripted_gui = {
 
         ai_enabled = { always = no }
 
-        visible = { has_global_flag = naval_lore_gui_show }
+        visible = { has_country_flag = naval_lore_gui_show }
 
         properties = {
             naval_lore_intro_icon = {

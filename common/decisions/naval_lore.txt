@@ -2,37 +2,37 @@ navy_rework_category = {
 	eng_naval_history = {
 		icon = GFX_vnr_eng_flag
 		allowed = { tag = ENG }
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	usa_naval_history = {
 		icon = GFX_vnr_usa_flag
 		allowed = { tag = USA }
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	jap_naval_history = {
 		icon = GFX_vnr_jap_flag
 		allowed = { tag = JAP }
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	fra_naval_history = {
 		icon = GFX_vnr_fra_flag
 		allowed = { tag = FRA }
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	ita_naval_history = {
 		icon = GFX_vnr_ita_flag
 		allowed = { tag = ITA }
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	ger_naval_history = {
 		icon = GFX_vnr_ger_flag
 		allowed = { tag = GER }
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	sov_naval_history = {
 		icon = GFX_vnr_sov_flag
 		allowed = { tag = SOV }
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	chi_naval_history = {
 		icon = GFX_vnr_chi_flag
@@ -42,20 +42,20 @@ navy_rework_category = {
 				tag = PRC
 			}
 		}
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	ast_naval_history = {
 		icon = GFX_vnr_ast_flag
 		allowed = { tag = AST }
-		complete_effect = { set_global_flag = naval_lore_gui_show }
+		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}
 	
 	show_intro_panel = {
 		visible = {
-			NOT = { has_global_flag = navy_rework_splash_show }
+			NOT = { has_country_flag = navy_rework_splash_show }
 		}
 		complete_effect = {
-			set_global_flag = navy_rework_splash_show
+			set_country_flag = navy_rework_splash_show
 			set_variable = { navy_rework_welcome_splash_variable = 1 }
 		}
 	}
