@@ -287,8 +287,8 @@ guiTypes = {
 		size = { width = 100% height= 50 }
 
 		buttonType = {
-			name = "navy_rework_manual_button"
-			position = { x = 15 y = 0 }
+			name = "navy_rework_manual_button_english"
+			position = { x = 15 y = -10 }
 
 			quadTextureSprite = "GFX_main_lobby_button"
 			buttonText = "navy_rework_manual_button_text"
@@ -296,6 +296,19 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 			pdx_tooltip = navy_rework_manual_button_tt
+			web_link = "https://docs.google.com/document/u/0/d/16inMWQ2u25Rc79-vdva-XhHRw6VqSzbpkVAO5ZfN_4k"
+		}
+		buttonType = {
+			name = "navy_rework_manual_button_chinese"
+			position = { x = 15 y = -10 }
+
+			quadTextureSprite = "GFX_main_lobby_button"
+			buttonText = "navy_rework_manual_button_text"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip = navy_rework_manual_button_tt
+			web_link = "https://docs.qq.com/doc/DZkRRSHJyWHNKWXRY"
 		}
 	}
 }
