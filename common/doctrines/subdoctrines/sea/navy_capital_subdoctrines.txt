@@ -330,14 +330,6 @@ coastal_defence_fleet = {
     xp_cost = 50
     xp_type = navy
 
-    available = {
-        NOT = {
-            has_doctrine = carrier_battlegroups
-            has_doctrine = floating_airfields
-            has_doctrine = carrier_concentration
-        }
-    }
-
     ai_will_do = {
         factor = 0.5
     }
@@ -402,13 +394,6 @@ naval_gunfire_support = {
     xp_cost = 75
     xp_type = navy
 
-    available = {
-        NOT = {
-            has_doctrine = carrier_battlegroups
-            has_doctrine = floating_airfields
-            has_doctrine = carrier_concentration
-        }
-    }
     visible = {
         has_dlc = "No Compromise, No Surrender"
     }
@@ -429,8 +414,11 @@ naval_gunfire_support = {
         }
 
         inshore_aa_screen = {
-			modifier = {
-                navy_anti_air_attack_factor = 0.1
+			heavy_cruiser = {
+                anti_air_attack = 0.1
+            }
+            medium_cruiser = {
+                anti_air_attack = 0.1
             }
         }
 

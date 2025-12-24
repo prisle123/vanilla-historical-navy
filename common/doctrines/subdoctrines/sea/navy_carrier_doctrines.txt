@@ -21,10 +21,6 @@ carrier_battlegroups = {
             unit = carrier
             size > 4
         }
-        NOT = {
-            has_doctrine = coastal_defence_fleet
-            has_doctrine = naval_gunfire_support
-        }
     }
 
     # EFFECTS
@@ -52,7 +48,6 @@ carrier_battlegroups = {
                 carrier_sub_detection = 0.05
             }
             modifier = {
-                navy_carrier_air_agility_factor = 0.1
 				naval_strike_agility_factor = 0.1
             }
 		}
@@ -64,19 +59,18 @@ carrier_battlegroups = {
                 sortie_efficiency = 0.1
             }
 		}
-		fleet_antiair = {
+		early_warning_system = {
 			carrier = {
                 max_organisation = 15
 				anti_air_attack = 0.15
 			}
             modifier = {
-                sortie_efficiency = 0.1
                 fighter_sortie_efficiency = 0.1
             }
 		}
 		alpha_strike = {
             modifier = {
-                sortie_efficiency = 0.1
+                sortie_efficiency = 0.2
                 naval_strike_targetting_factor = 0.15
                 carrier_capacity_penalty_reduction = -0.1
             }
@@ -98,10 +92,6 @@ floating_airfields = {
         has_navy_size = {
             unit = carrier
             size > 4
-        }
-        NOT = {
-            has_doctrine = coastal_defence_fleet
-            has_doctrine = naval_gunfire_support
         }
     }
 
@@ -129,7 +119,7 @@ floating_airfields = {
         carrier_surface_detection = 0.05
         carrier_sub_detection = 0.05
     }
-	navy_anti_air_attack_factor = 0.10
+	navy_carrier_air_attack_factor = 0.10
 	
     rewards = {
        enclosed_hangar = {
@@ -149,10 +139,8 @@ floating_airfields = {
 	   }
 	   dogfight_training = {
 			navy_carrier_air_agility_factor = 0.1
+            navy_carrier_air_attack_factor = 0.05
             sortie_efficiency = 0.05
-            carrier = {
-                anti_air_attack = 0.05
-            }
 	   }
 	   all_weather_combat = {
             sortie_efficiency = 0.1
@@ -245,10 +233,6 @@ carrier_concentration = {
         has_navy_size = {
             unit = carrier
             size > 5
-        }
-        NOT = {
-            has_doctrine = coastal_defence_fleet
-            has_doctrine = naval_gunfire_support
         }
     }
 
