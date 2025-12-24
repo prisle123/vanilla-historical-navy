@@ -487,9 +487,9 @@ USA_pacific_war_naval_counterattack_1 = {
 				ratio > 5
 			}
 		}
-		NOT = {
-			controls_state = 633
-			controls_state = 684
+		OR = {
+			633 = { is_controlled_by_ROOT_or_ally = no }
+			684 = { is_controlled_by_ROOT_or_ally = no }
 		}
         enable_vnr_naval_ai = yes
     }
@@ -621,11 +621,9 @@ USA_pacific_war_naval_counterattack_2 = {
 				ratio > 5
 			}
 		}
-		controls_state = 633
-		controls_state = 684
-		NOT = {
-			controls_state = 645
-		}
+		633 = { is_controlled_by_ROOT_or_ally = yes }
+		684 = { is_controlled_by_ROOT_or_ally = yes }
+		645 = { is_controlled_by_ROOT_or_ally = no }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -734,9 +732,9 @@ USA_pacific_war_naval_counterattack_3 = {
 				ratio > 5
 			}
 		}
-		controls_state = 633
-		controls_state = 684
-		controls_state = 645
+		633 = { is_controlled_by_ROOT_or_ally = yes }
+		684 = { is_controlled_by_ROOT_or_ally = yes }
+		645 = { is_controlled_by_ROOT_or_ally = yes }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
