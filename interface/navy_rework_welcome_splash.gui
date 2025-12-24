@@ -288,11 +288,11 @@ guiTypes = {
 
 		buttonType = {
 			name = "navy_rework_manual_button_english"
-			position = { x = 15 y = -10 }
+			position = { x = 15 y = 10 }
 
-			quadTextureSprite = "GFX_main_lobby_button"
+			quadTextureSprite = "GFX_strategic_air_sort"
 			buttonText = "navy_rework_manual_button_text"
-			buttonFont = "hoi_24header"
+			buttonFont = "hoi_18mbs"
 			clicksound = click_default
 			oversound = ui_menu_over
 			pdx_tooltip = navy_rework_manual_button_tt
@@ -300,11 +300,11 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "navy_rework_manual_button_chinese"
-			position = { x = 15 y = -10 }
+			position = { x = 15 y = 10 }
 
-			quadTextureSprite = "GFX_main_lobby_button"
+			quadTextureSprite = "GFX_strategic_air_sort"
 			buttonText = "navy_rework_manual_button_text"
-			buttonFont = "hoi_24header"
+			buttonFont = "hoi_18mbs"
 			clicksound = click_default
 			oversound = ui_menu_over
 			pdx_tooltip = navy_rework_manual_button_tt
