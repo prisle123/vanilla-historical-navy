@@ -8,7 +8,7 @@ NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.08   -- base chance for hit (was 0.1)
 NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.2   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.9   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
-NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.2   -- base % of convoys that get intercepted (was 0.15)
+NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.1   -- base % of convoys that get intercepted (was 0.15)
 NDefines.NNavy.CONVOY_HIT_PROFILE = 90   -- convoys has this contant hit profile (was 85)
 NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.4   -- chance for critical hit from torpedo. (was 0.1, torpedo needs more love)
 NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = { 2.0, 1.0, 0.85, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.3, 0.0 }   -- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
