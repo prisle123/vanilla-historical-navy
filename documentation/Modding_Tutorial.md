@@ -19,9 +19,21 @@ The files in this folder will be loaded once you boot up HOI4 (in the loading sc
     
 **Structure**
 
+- achievements
+
+    Customized achievements
+
+- ai_areas
+
+    Pre-defined areas, usually contain a collection of several strategic areas. These areas are only visible to AI, and can be used to merge similar AI strategies on different regions into one.
+
 - ai_equipment
 
     AI's ship design templates are stored here. Each file within indicates a type of ship, with specific templates of each level that gradually evolve. AI will replace the template with newer ones if it has enough navy XP, weighted by factors in the file to simulate its desire. The variable "role" is the keyword telling AI what to produce in its strategy.
+
+- ai_navy
+
+    Introduced with NCNS DLC, ai_navy is a new goal-based AI system to direct its behaviors in assigning naval missions and creating fleets. The folder is split into 3 parts, with fleet composition, taskforce template, and priority of different naval missions, on a country base.
 
 - ai_strategy
 
@@ -29,11 +41,15 @@ The files in this folder will be loaded once you boot up HOI4 (in the loading sc
 
 - decisions
 
-    A place where decisions are stored. Everything about decision categories of naval rework, naval development, and naval treaty are put here.
+    A place where decisions are stored. Everything about decision categories of naval rework, naval development, and naval treaty is put here.
 
 - defines
 
     Here you modify some static constants in the game mechanism. Since formulas are hard-coded in bottom-level and can not be modded, editing these values is the only way to scale their effects.
+
+- doctrines
+
+    Doctrine tree definitions, introduced by NCNS DLC.
 
 - dynamic_modifiers
 
@@ -49,11 +65,11 @@ The files in this folder will be loaded once you boot up HOI4 (in the loading sc
 
 - modifiers
 
-    Static modifiers applied by weather, time, and unit experience.
+    Static modifiers applied by weather, time, unit experience, etc.
 
 - on_actions
 
-    It declares some starting, global and triggering variables, including intro panel display and definition of major naval powers.
+    It declares some starting, global, or triggering variables that are used by the mod.
 
 - scripted_effects
 
@@ -61,11 +77,11 @@ The files in this folder will be loaded once you boot up HOI4 (in the loading sc
 
 - scripted_gui
             
-    Just the starting intro panel.
+    Definitions of non-default UIs. It now includes intro panel, lore panel, and other stuff.
 
 - scripted_localisation
 
-    Defines alternative text for behemoth events. (used by different countries)
+    It defines alternative text of events (or country-specific GFX used by scripted GUI), changing based on the country triggering the event.
 
 - scripted_triggers
 
@@ -91,7 +107,9 @@ The files in this folder will be loaded once you boot up HOI4 (in the loading sc
 
     Defining units, equipments and modules.
 
-    Unit is the smallest element of combat in the game, such as carrier, destroyer, and battleship. Equipment is more specifically the ship hull you see in the game, with other definitions including allowed modules on each slot, and base stats such as speed, armor, and fuel consumption. To summarize their relations, equipment is the variant you can produce in the production menu, and it becomes a unit once deployed. Modules are the parts you put in every slot in ship designers. Plus, ship names are stored in names_ships, sorted by country tag.
+    Unit is the smallest element of combat in the game, such as carrier, destroyer, and battleship. Equipment is more specifically the ship hull you see in the game, with other definitions including allowed modules on each slot, and base stats such as speed, armor, and fuel consumption. To summarize their relations, equipment is the variant you can produce in the production menu, and it becomes a unit once deployed. Modules are the parts you put in every slot in ship designers.
+    
+    Plus, ship names are stored in names_ships, sorted by country tag.
     
 ### Events ###
 
@@ -109,13 +127,13 @@ All the pictures, icons and 3D assets are put here.
 
     The ship insignia and their tooltips.
 
--entities
+- entities
 
     3D assets definitions (they are not models).
 
 - event_pictures
 
-    Pictures used by in-game events.
+    Pictures used by in-game events/decisions.
 
 - interface
 
@@ -159,17 +177,21 @@ This folder is in close relation to GFX, which it defines the name of GFX files,
 
 **Structure**
 
+- doctrines
+
+    Icon definitions of sub-doctrines.
+
 - equipmentdesigner
 
-The topviews in ship designers are defined here. Each hull and module has its texture defined in these files, or it won't show up in designer.
+    The topviews in ship designers are defined here. Each hull and module has its texture defined in these files, or it won't show up in designer.
 
 - .gfx files
 
-Any files end with .gfx is the definitions of picture/icon texture. It directly points to the location where these icons are stored.
+    Any files end with .gfx is the definitions of picture/icon texture. It directly points to the location where these icons are stored.
 
 - .gui files
 
-Any files end with .gui is the UI definition, including size and position of these elements.
+    Any files end with .gui is the UI definition, including size and position of these elements.
 
 ### Localisation ###
 
@@ -184,8 +206,9 @@ Despite the most sraightforward approach, it will bring harms to compatibility a
 
 To counter it, the post-loading mechanism is created. It is not some fancy skill, but I want it recorded, so the late comers know how to do that.
 
-The basis of post-loading is achieved in following steps:
-1. Put all vanilla ship hulls to a hidden and disallowed tech. This blocks any variants using these hulls from appearing and won't cause any crash/error, because variants using blocked tech will be unlocked after the tech is researched. But in this case, it will never be researched. Then simply replacing them with hulls of different IDs, and these hulls become totally independent from literally everything from basegame or other mods.
+The post-loading is achieved by following steps:
+
+1. Put all vanilla ship hulls to a hidden and disallowed tech. This blocks any variants using these hulls from appearing and won't cause any crash/error, because variants using blocked tech will be unlocked after the tech is researched. But in this case, it will never be researched. Then simply replacing them with hulls of different IDs, and these hulls become totally independent from literally everything in basegame or other mods.
 
 2. Overwrite all vanilla OOBs with empty files. OOB, or Order of Battle, is the definition of starting military forces in history/units. Unlike country history files, unit files are less sensitive since they only take effect when loaded in your script. Combining step 1 and step 2 will give you a clean state on game start, no country has naval variant or fleet. Then you got to paint your stuff on a blank sheet.
 
