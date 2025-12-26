@@ -1596,7 +1596,9 @@ technologies = {
 	}
 
 	electric_torpedo = {
-
+		allow = {
+			NOT = { has_tech = oxygen_torpedo }
+		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
@@ -1641,7 +1643,9 @@ technologies = {
 	}
 
 	oxygen_torpedo = {
-
+		allow = {
+			NOT = { has_tech = electric_torpedo }
+		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
