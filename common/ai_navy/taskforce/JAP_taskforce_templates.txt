@@ -6,17 +6,17 @@ JAP_StrikeForce_1 = {
 		factor = 30
 	}	
 	mission = { naval_strike }
-	min_composition = {
-		carrier = {
-			amount = 2
-		}
-		battleship = {
-			amount = 4
-		}
-		destroyer = {
-			amount = 12
-		}
-	}
+	# min_composition = {
+	# 	carrier = {
+	# 		amount = 2
+	# 	}
+	# 	battleship = {
+	# 		amount = 4
+	# 	}
+	# 	destroyer = {
+	# 		amount = 12
+	# 	}
+	# }
 	
 	optimal_composition = {
 		carrier = {
@@ -42,11 +42,11 @@ JAP_PatrolReconForce_1 = {
 		factor = 10
 	}
 	mission = { naval_patrol }
-	min_composition = {
-		destroyer = {
-			amount = 1
-		}
-	}	
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 1
+	# 	}
+	# }	
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -62,14 +62,14 @@ JAP_PatrolDominanceForce_1 = {
 		factor = 10
 	}
 	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 6
-		}
-	}
+	# min_composition = {
+	# 	light_cruiser = {
+	# 		amount = 2
+	# 	}
+	# 	destroyer = {
+	# 		amount = 6
+	# 	}
+	# }
 
 	optimal_composition = {
 		heavy_cruiser = {
@@ -90,13 +90,20 @@ JAP_PatrolDominanceForce_2 = {
 	}
 	ai_will_do = {
 		factor = 10
-	}
-	mission = { naval_patrol }
-	min_composition = {
-		battle_cruiser = {
-			amount = 2
+		modifier = {
+			factor = 0
+			has_navy_size = {
+				unit = battle_cruiser
+				size < 1
+			}
 		}
 	}
+	mission = { naval_patrol }
+	# min_composition = {
+	# 	battle_cruiser = {
+	# 		amount = 2
+	# 	}
+	# }
 
 	optimal_composition = {
 		battle_cruiser = {
@@ -116,21 +123,21 @@ JAP_PatrolDominanceForce_3 = {
 		original_tag = JAP
 	}
 	ai_will_do = {
-		factor = 0
+		factor = 10
 		modifier = {
-			add = 3
+			factor = 0
 			has_navy_size = {
 				unit = SH_battleship
-				size > 0
+				size < 1
 			}
 		}
 	}
 	mission = { naval_patrol }
-	min_composition = {
-		SH_battleship = {
-			amount = 2
-		}
-	}
+	# min_composition = {
+	# 	SH_battleship = {
+	# 		amount = 2
+	# 	}
+	# }
 
 	optimal_composition = {
 		SH_battleship = {
@@ -156,11 +163,11 @@ JAP_ConvoyRaiding_1 = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
-	min_composition = {
-		submarine = {
-			amount = 4
-		}
-	}
+	# min_composition = {
+	# 	submarine = {
+	# 		amount = 4
+	# 	}
+	# }
 
 	optimal_composition = {
 		submarine = {
@@ -177,12 +184,11 @@ JAP_ConvoyEscort_1 = {
 		factor = 5
 	}
 	mission = { convoy_escort }
-	min_composition = {
-		destroyer = {
-			amount = 2
-		}
-	}
-	
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 2
+	# 	}
+	# }
 	optimal_composition = {
 		destroyer = {
 			amount = 5

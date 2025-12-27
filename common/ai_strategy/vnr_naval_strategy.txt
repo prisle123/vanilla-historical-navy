@@ -250,12 +250,12 @@ JAP_pacific_war_naval_stage_one = {
     abort_when_not_enabled = yes
     ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
-		value = 80
+		id = vnr_pacific_philippines
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_4
+		id = vnr_pacific_solomons
 		value = 100
 	}
 	ai_strategy = {
@@ -296,13 +296,18 @@ JAP_pacific_war_naval_stage_two = {
     abort_when_not_enabled = yes
     ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_2
+		id = vnr_pacific_midway
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_1
-		value = 85
+		id = vnr_pacific_hawaii
+		value = 90
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_solomons
+		value = 75
 	}
 	ai_strategy = {
 		type = invade
@@ -408,18 +413,28 @@ USA_pacific_war_naval_avoid_first = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_1
+		id = vnr_pacific_hawaii
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
-		value = 0
+		id = vnr_pacific_midway
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_4
-		value = 0
+		id = vnr_pacific_philippines
+		value = -100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_iwo_jima
+		value = -100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_okinawa
+		value = -100
 	}
 }
 
@@ -552,24 +567,30 @@ USA_pacific_war_naval_counterattack_1 = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_2
+		id = vnr_pacific_solomons
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_1
-		value = 80
+		id = vnr_pacific_midway
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
-		value = 0
+		id = vnr_pacific_iwo_jima
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_4
-		value = 0
+		id = vnr_pacific_philippines
+		value = -100
 	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_okinawa
+		value = -100
+	}
+	
 	ai_strategy = {
 		type = invade
 		id = JAP
@@ -665,18 +686,18 @@ USA_pacific_war_naval_counterattack_2 = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
+		id = vnr_pacific_philippines
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_2
-		value = 40
+		id = vnr_pacific_iwo_jima
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_1
-		value = 10
+		id = vnr_pacific_midway
+		value = 70
 	}
 	ai_strategy = {
 		type = invade
@@ -751,22 +772,22 @@ USA_pacific_war_naval_counterattack_3 = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_4
+		id = vnr_pacific_okinawa
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
+		id = vnr_pacific_iwo_jima
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_philippines
 		value = 75
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_2
-		value = 10
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = vnr_pacific_1
+		id = vnr_pacific_hawaii
 		value = 0
 	}
 	ai_strategy = {

@@ -6,14 +6,14 @@ ENG_StrikeForce_1 = {
 		factor = 20
 	}	
 	mission = { naval_strike }
-	min_composition = {
-		battleship = {
-			amount = 4
-		}
-		destroyer = {
-			amount = 12
-		}
-	}
+	# min_composition = {
+	# 	battleship = {
+	# 		amount = 4
+	# 	}
+	# 	destroyer = {
+	# 		amount = 12
+	# 	}
+	# }
 	
 	optimal_composition = {
 		carrier = {
@@ -39,11 +39,11 @@ ENG_PatrolReconForce_1 = {
 		factor = 5
 	}
 	mission = { naval_patrol }
-	min_composition = {
-		destroyer = {
-			amount = 1
-		}
-	}	
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 1
+	# 	}
+	# }	
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -59,14 +59,14 @@ ENG_PatrolDominanceForce_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 6
-		}
-	}
+	# min_composition = {
+	# 	light_cruiser = {
+	# 		amount = 2
+	# 	}
+	# 	destroyer = {
+	# 		amount = 6
+	# 	}
+	# }
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 4
@@ -88,14 +88,14 @@ ENG_PatrolDominanceForce_2 = {
 		factor = 1
 	}	
 	mission = { naval_patrol }
-	min_composition = {
-		battle_cruiser = {
-			amount = 3
-		}
-		destroyer = {
-			amount = 5
-		}
-	}
+	# min_composition = {
+	# 	battle_cruiser = {
+	# 		amount = 3
+	# 	}
+	# 	destroyer = {
+	# 		amount = 5
+	# 	}
+	# }
 	optimal_composition = {
 		battle_cruiser = {
 			amount = 3
@@ -120,11 +120,11 @@ ENG_ConvoyRaiding_1 = {
 		factor = 5
 	}	
 	mission = { convoy_raiding }
-	min_composition = {
-		submarine = {
-			amount = 4
-		}
-	}
+	# min_composition = {
+	# 	submarine = {
+	# 		amount = 4
+	# 	}
+	# }
 
 	optimal_composition = {
 		submarine = {
@@ -141,11 +141,11 @@ ENG_ConvoyEscort_1 = {
 		factor = 5
 	}	
 	mission = { convoy_escort }
-	min_composition = {
-		destroyer = {
-			amount = 2
-		}
-	}
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 2
+	# 	}
+	# }
 	
 	optimal_composition = {
 		destroyer = {
