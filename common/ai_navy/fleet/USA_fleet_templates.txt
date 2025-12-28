@@ -12,10 +12,10 @@ USA_dominance_fleet_1 = {
 
 USA_raiding_fleet_1 = {
 	required_taskforces = {
-		USA_ConvoyRaiding_1 = 2
+		USA_ConvoyRaiding_1 = 1
 	}	
 	optional_taskforces = {
-		USA_ConvoyRaiding_1 = 2
+		USA_ConvoyRaiding_1 = 1
 	}
 }
 

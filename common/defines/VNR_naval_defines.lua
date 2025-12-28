@@ -147,6 +147,18 @@ NDefines.NNavy.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 5   -- Unit xp gain per combat 
 NDefines.NNavy.UNIT_EXPERIENCE_SCALE = 0.8   -- total unit xp factor (was 1)
 
 
+--Aggression
+NDefines.NNavy.AGGRESSION_ARMOR_EFFICIENCY_MULTIPLIER = 1.0		-- armor to enemy piercing ratio is multiplied by this value, which will increase the strength of ships while considering them for aggression
+NDefines.NNavy.AGGRESSION_MIN_ARMOR_EFFICIENCY = 1.0              -- armor multiplier has a min and max caps while being factored in aggression (was 0.5)
+NDefines.NNavy.AGGRESSION_MAX_ARMOR_EFFICIENCY = 1.5              -- armor multiplier has a min and max caps while being factored in aggression
+NDefines.NNavy.AGGRESSION_LIGHT_GUN_EFFICIENCY_ON_LIGHT_SHIPS = 1.0 -- ratio for scoring for different gun types against light ships
+NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_LIGHT_SHIPS = 0.75   -- ratio for scoring for different gun types against light ships (was 0.25)
+NDefines.NNavy.AGGRESSION_TORPEDO_EFFICIENCY_ON_LIGHT_SHIPS = 0.5   -- ratio for scoring for different gun types against light ships (was 0.1)
+NDefines.NNavy.AGGRESSION_LIGHT_GUN_EFFICIENCY_ON_HEAVY_SHIPS = 0.1  -- ratio for scoring for different gun types against heavy ships
+NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_HEAVY_SHIPS = 1.0  -- ratio for scoring for different gun types against heavy ships
+NDefines.NNavy.AGGRESSION_TORPEDO_EFFICIENCY_ON_HEAVY_SHIPS = 1.1   -- ratio for scoring for different gun types against heavy ships
+
+
 --Naval Misc
 NDefines.NNavy.CONVOY_EFFICIENCY_MIN_VALUE = 0   -- To avoid complete 0% efficiency, set the lower limit. (was 0.05)
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 25   -- cost to unassign/replace pride of the fleet (was 100)
@@ -163,7 +175,7 @@ NDefines.NNavy.AGGRESSION_SETTINGS_VALUES = {
 	10000,	-- I am death incarnate!
 }
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
-NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 5000   -- Tuning parameter for homebase calculation. Distance to normalize against. Everything above said value will be treated as score = 0. (was 1000)
+NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 3000   -- Tuning parameter for homebase calculation. Distance to normalize against. Everything above said value will be treated as score = 0. (was 1000)
 
 
 
@@ -206,7 +218,7 @@ NDefines.NAI.VARIANT_CREATION_XP_RESERVE_AIR = 30   -- If the AI lacks air XP to
 
 
 --AI Mission
-NDefines.NAI.NAVAL_MISSION_DISTANCE_BASE = 5000   -- Base value when AI is evaluating distance score to places (was 3500)
+NDefines.NAI.NAVAL_MISSION_DISTANCE_BASE = 4200   -- Base value when AI is evaluating distance score to places (was 3500)
 NDefines.NAI.NAVAL_MISSION_ESCORT_NEAR_OWNED = 0   -- Extra escort mission score near owned provinces (was 300)
 NDefines.NAI.NAVAL_MISSION_ESCORT_NEAR_CONTROLLED = 0   -- Extra escort mission score near controlled provinces (was 200)
 NDefines.NAI.AI_MIN_DOMINANCE_MARGIN = 100   -- When trying to get control of a region, AI will try to exceed the required dominance by at least this amount (was 200)

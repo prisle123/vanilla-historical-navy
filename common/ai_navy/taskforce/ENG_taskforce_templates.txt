@@ -6,14 +6,11 @@ ENG_StrikeForce_1 = {
 		factor = 20
 	}	
 	mission = { naval_strike }
-	# min_composition = {
-	# 	battleship = {
-	# 		amount = 4
-	# 	}
-	# 	destroyer = {
-	# 		amount = 12
-	# 	}
-	# }
+	min_composition = {
+		carrier = {
+			amount = 2
+		}
+	}
 	
 	optimal_composition = {
 		carrier = {

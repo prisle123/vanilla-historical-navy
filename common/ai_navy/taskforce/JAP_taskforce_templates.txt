@@ -6,17 +6,11 @@ JAP_StrikeForce_1 = {
 		factor = 30
 	}	
 	mission = { naval_strike }
-	# min_composition = {
-	# 	carrier = {
-	# 		amount = 2
-	# 	}
-	# 	battleship = {
-	# 		amount = 4
-	# 	}
-	# 	destroyer = {
-	# 		amount = 12
-	# 	}
-	# }
+	min_composition = {
+		carrier = {
+			amount = 2
+		}
+	}
 	
 	optimal_composition = {
 		carrier = {
