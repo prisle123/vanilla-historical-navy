@@ -8,7 +8,11 @@ wolfpacks = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
+        has_tech = basic_ship_hull_submarine
     }
 
     ai_will_do = { 
@@ -76,7 +80,10 @@ submarine_fleet_operations = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
     }
 
     ai_will_do = { 
@@ -155,7 +162,10 @@ capital_hunters = {
         }
     }
     available = {
-        always = yes
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
     }
 
     naval_torpedo_reveal_chance_factor = -0.1
@@ -206,6 +216,10 @@ submarine_coastal_defense = {
     }
 
     available = {
+        has_navy_size = {
+            type = submarine
+            size > 0
+        }
         has_tech = midget_submarines
     }
 
@@ -272,6 +286,13 @@ submarine_area_denial = {
     name = SUBDOCTRINE_SUBMARINE_AREA_DENIAL
     description = SUBDOCTRINE_SUBMARINE_AREA_DENIAL_DESC
     icon = GFX_doctrine_submarine_area_denial_medium
+
+    available = {
+        has_navy_size = {
+            type = submarine
+            size > 9
+        }
+    }
 
     xp_cost = 100
     xp_type = navy

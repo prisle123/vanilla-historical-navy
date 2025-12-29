@@ -8,7 +8,10 @@ fast_battleship_primacy = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_navy_size = {
+            archetype = ship_hull_heavy
+            size > 7
+        }
     }
 
     ai_will_do = { 
@@ -112,7 +115,14 @@ battlecruiser_supremacy = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_navy_size = {
+            unit = battle_cruiser
+            size > 3
+        }
+        has_navy_size = {
+            unit = battleship
+            size > 3
+        }
     }
 
     ai_will_do = { 
@@ -225,7 +235,10 @@ armored_raiders = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_navy_size = {
+            archetype = ship_hull_heavy
+            size > 0
+        }
     }
 
     ai_will_do = { 
@@ -473,7 +486,11 @@ battleship_antiair_screen = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_navy_size = {
+            archetype = ship_hull_heavy
+            size > 3
+        }
+        has_tech = aviation_dawn
     }
 
     ai_will_do = {

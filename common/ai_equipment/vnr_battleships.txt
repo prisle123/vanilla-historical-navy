@@ -209,7 +209,7 @@ naval_capital_battleship = {
 		priority = {
 			base = 0
 			modifier = { add = 50 tag = JAP }
-			modifier = { factor = 0 has_navy_size = { unit = SH_battleship size > 2 } }
+			modifier = { factor = 0 has_navy_size = { unit = SH_battleship size > 1 } }
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 

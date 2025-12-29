@@ -19,7 +19,7 @@ carrier_battlegroups = {
         has_tech = aviation_dawn
         has_navy_size = {
             unit = carrier
-            size > 4
+            size > 3
         }
     }
 
@@ -91,7 +91,7 @@ floating_airfields = {
         has_tech = aviation_dawn
         has_navy_size = {
             unit = carrier
-            size > 4
+            size > 3
         }
     }
 

@@ -8,7 +8,10 @@ convoy_escort = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_navy_size = {
+			type = screen_ship
+			size > 9
+		}
     }
 
     ai_will_do = { 
@@ -83,7 +86,14 @@ support_integrated_operations = {
     xp_type = navy
 
     available = {
-        always = yes
+        has_navy_size = {
+			unit = light_cruiser
+			size > 3
+		}
+		has_navy_size = {
+			unit = destroyer
+			size > 9
+		}
     }
 
     ai_will_do = { 
@@ -165,7 +175,11 @@ hunter_killers = {
     xp_type = navy
 
     available = {
-    
+		has_navy_size = {
+			type = screen_ship
+			size > 9
+		}
+		has_tech = sonar
     }
 
     ai_will_do = { 
@@ -243,7 +257,11 @@ torpedo_primacy = {
         }
     }
     available = {
-   		always = yes
+   		has_navy_size = {
+			type = screen_ship
+			size > 9
+		}
+		has_tech = basic_torpedo
     }
     naval_torpedo_hit_chance_factor = 0.1
 	naval_torpedo_cooldown_factor = -0.125
@@ -294,8 +312,11 @@ jeune_ecole = {
     xp_type = navy
 
     available = {
-    	#TODO: special project
-   		always = yes
+    	has_navy_size = {
+			type = screen_ship
+			size > 9
+		}
+		has_tech = basic_torpedo
     }
 	ai_will_do = {
 		factor = 1

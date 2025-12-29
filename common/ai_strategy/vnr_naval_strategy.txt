@@ -467,11 +467,6 @@ USA_pacific_war_naval_avoid_first = {
 	}
 	ai_strategy = {
 		type = naval_avoid_region
-		id = 84
-		value = 50
-	}
-	ai_strategy = {
-		type = naval_avoid_region
 		id = 90
 		value = 1000
 	}
@@ -1000,10 +995,6 @@ GER_unrestricted_submarine_warfare = {
     }
     enable = {
         has_war_with = ENG
-        naval_strength_ratio = {
-            tag = ENG
-            ratio < 0.7
-        }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -1043,12 +1034,12 @@ GER_avoid_mediterranean = {
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_eng_med_zones
-		value = 0
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_ita_med_zones
-		value = 0
+		value = -100
 	}
 }
 
