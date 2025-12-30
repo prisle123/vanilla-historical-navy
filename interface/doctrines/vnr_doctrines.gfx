@@ -1,22 +1,39 @@
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_doctrine_fast_battleship_primacy_medium"
-		textureFile = "gfx/interface/technologies/doctrine_tree/fast_battleship_primacy.png"
+		textureFile = "gfx/interface/doctrines/icons/fast_battleship_primacy.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_torpedo_groups_medium"
-		textureFile = "gfx/interface/technologies/doctrine_tree/torpedo_groups.png"
+		textureFile = "gfx/interface/doctrines/icons/torpedo_groups.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_naval_airforce_medium"
-		textureFile = "gfx/interface/technologies/doctrine_tree/naval_airforce.png"
+		textureFile = "gfx/interface/doctrines/icons/naval_airforce.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_submarine_area_denial_medium"
-		textureFile = "gfx/interface/technologies/doctrine_tree/submarine_area_denial.png"
+		textureFile = "gfx/interface/doctrines/icons/submarine_area_denial.png"
 		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_fleet_in_being_bg"
+		textureFile = "gfx/interface/doctrines/background/battleship.png"
+	}
+	spriteType = {
+		name = "GFX_base_strike_bg"
+		textureFile = "gfx/interface/doctrines/background/carrier.png"
+	}
+	spriteType = {
+		name = "GFX_screens_bg"
+		textureFile = "gfx/interface/doctrines/background/screen.png"
+	}
+	spriteType = {
+		name = "GFX_trade_interdiction_bg"
+		textureFile = "gfx/interface/doctrines/background/submarine.png"
 	}
 }
