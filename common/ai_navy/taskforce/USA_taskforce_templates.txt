@@ -7,11 +7,8 @@ USA_StrikeForce_1 = {
 	}	
 	mission = { naval_strike }
 	min_composition = {
-		battleship = {
-			amount = 4
-		}
-		destroyer = {
-			amount = 12
+		carrier = {
+			amount = 2
 		}
 	}
 	
@@ -23,7 +20,7 @@ USA_StrikeForce_1 = {
 			amount = 6
 		}
 		light_cruiser = {
-			amount = 10
+			amount = 14
 		}
 		destroyer = {
 			amount = 18
@@ -39,11 +36,11 @@ USA_PatrolReconForce_1 = {
 		factor = 5
 	}
 	mission = { naval_patrol }
-	min_composition = {
-		destroyer = {
-			amount = 1
-		}
-	}	
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 1
+	# 	}
+	# }	
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -59,53 +56,17 @@ USA_PatrolDominanceForce_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 8
-		}
-	}
-
-	optimal_composition = {
-		battleship = {
-			amount = 4
-		}
-		medium_cruiser = {
-			amount = 4
-		}
-		light_cruiser = {
-			amount = 4
-		}
-		destroyer = {
-			amount = 10
-		}
-	}
-}
-
-USA_PatrolDominanceForce_2 = {
-	allowed = {
-		original_tag = USA
-	}
-	ai_will_do = {
-		factor = 3
-	}	
-	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 8
-		}
-	}
+	# min_composition = {
+	# 	light_cruiser = {
+	# 		amount = 2
+	# 	}
+	# 	destroyer = {
+	# 		amount = 4
+	# 	}
+	# }
 
 	optimal_composition = {
 		heavy_cruiser = {
-			amount = 4
-		}
-		medium_cruiser = {
 			amount = 4
 		}
 		light_cruiser = {
@@ -125,11 +86,11 @@ USA_ConvoyRaiding_1 = {
 		factor = 5
 	}	
 	mission = { convoy_raiding }
-	min_composition = {
-		submarine = {
-			amount = 4
-		}
-	}
+	# min_composition = {
+	# 	submarine = {
+	# 		amount = 4
+	# 	}
+	# }
 
 	optimal_composition = {
 		submarine = {
@@ -146,15 +107,15 @@ USA_ConvoyEscort_1 = {
 		factor = 1
 	}	
 	mission = { convoy_escort }
-	min_composition = {
-		destroyer = {
-			amount = 4
-		}
-	}
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 2
+	# 	}
+	# }
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 8
+			amount = 5
 		}
 	}
 }

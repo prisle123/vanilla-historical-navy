@@ -48,7 +48,7 @@ naval_cruiser_heavy = {
 		role_icon_index = 27
 
 		priority = {
-			base = 0
+			base = 1
 			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
 		}
 
@@ -90,7 +90,7 @@ naval_cruiser_heavy = {
 		role_icon_index = 27
 
 		priority = {
-			base = 0
+			base = 10
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
 		}
 
@@ -133,7 +133,7 @@ naval_cruiser_heavy = {
 		role_icon_index = 27
 
 		priority = {
-			base = 0
+			base = 20
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
 		}
 
@@ -175,7 +175,7 @@ naval_cruiser_heavy = {
 		role_icon_index = 27
 
 		priority = {
-			base = 0
+			base = 30
 			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
 		}
 
@@ -202,6 +202,47 @@ naval_cruiser_heavy = {
 				mid_3_custom_slot = ship_airplane_launcher
 				rear_1_custom_slot = ship_medium_battery
 				rear_2_custom_slot = ship_medium_battery
+			}
+		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
+		}
+	}
+
+	capital_cruiser_1949 = {
+		name = vnr_cam_1949
+		role_icon_index = 55
+
+		priority = {
+			base = 50
+		}
+
+		
+		history = yes
+		target_variant = {
+			match_value = 9000.0
+
+			type = vnr_ship_hull_cruiser_6
+			modules = {
+				fixed_ship_battery_slot = dp_light_battery
+				fixed_ship_anti_air_slot = ship_missile_aa
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = { any_of = { cruiser_ship_engine cruiser_ship_engine_nuclear } }
+				fixed_ship_radar_slot = { any_of = { ship_radar } }
+				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_4 ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_role_slot = ship_hull_cruiser_role_cg
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_missile_slot = full_missile_upgrade
+				front_1_custom_slot = dp_light_battery
+				front_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
+				mid_1_custom_slot = ship_missile_aa
+				mid_2_custom_slot = ship_dp_secondaries
+				mid_3_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
+				rear_1_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
+				rear_2_custom_slot = ship_missile_aa
 			}
 		}
 		allowed_modules = {

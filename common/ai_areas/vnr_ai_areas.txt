@@ -12,6 +12,13 @@ areas = {
             69
         }
     }
+    vnr_eng_atlantic_route = {
+        strategic_regions = {
+            47
+            48
+            49
+        }
+    }
     vnr_ger_baltic = {
         strategic_regions = {
             173
@@ -47,31 +54,40 @@ areas = {
             77
         }
     }
-    vnr_pacific_1 = { # Hawaii, Midway
+    vnr_pacific_hawaii = { # Hawaii
         strategic_regions = {
-            95
-            97
             105
             180
         }
     }
-    vnr_pacific_2 = { # Solomon Islands
+    vnr_pacific_midway = { # Midway
+        strategic_regions = {
+            95
+            97
+        }
+    }
+    vnr_pacific_solomons = { # Solomon Islands
         strategic_regions = {
             83
             84
         }
     }
-    vnr_pacific_3 = { # Iow Jima, Gulf Leyte
+    vnr_pacific_iwo_jima = { # Iow Jima, Gulf Leyte
         strategic_regions = {
             94
             78
         }
     }
-    vnr_pacific_4 = { # the Philippines
+    vnr_pacific_philippines = {
         strategic_regions = {
             75
             80
+        }
+    }
+    vnr_pacific_okinawa = {
+        strategic_regions = {
             76
+            90
         }
     }
 }

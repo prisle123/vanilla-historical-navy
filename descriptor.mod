@@ -1,4 +1,4 @@
-version="v2.7 - Mariana Storm"
+version="v2.8 - Leyte Gulf"
 tags={
 	"Military"
 	"Graphics"

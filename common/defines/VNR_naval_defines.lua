@@ -8,7 +8,7 @@ NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.08   -- base chance for hit (was 0.1)
 NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.2   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.9   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
-NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.2   -- base % of convoys that get intercepted (was 0.15)
+NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.1   -- base % of convoys that get intercepted (was 0.15)
 NDefines.NNavy.CONVOY_HIT_PROFILE = 90   -- convoys has this contant hit profile (was 85)
 NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.4   -- chance for critical hit from torpedo. (was 0.1, torpedo needs more love)
 NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = { 2.0, 1.0, 0.85, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.3, 0.0 }   -- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
@@ -37,7 +37,8 @@ NDefines.NNavy.POSITIONING_PENALTY_FOR_SHIPS_JOINED_COMBAT_AFTER_IT_STARTS = 0.0
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS = 0.2   -- the accumulated penalty from new ships will be clamped to this value (was 0.25)
 NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR = 0.5   -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has (was 0.25)
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO = 3   -- maximum penalty to get from larger fleets (was 0.75, aggressively punish deathstacking)
-NDefines.NNavy.MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.2   -- max penalty from stronger carrier air force
+NDefines.NNavy.HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.05   -- penalty if other side has stronger carrier air force (was 0.2)
+NDefines.NNavy.MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.15   -- max penalty from stronger carrier air force (was 0.2)
 NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.9   -- damage penalty at 0% positioning (was 0.5)
 NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 1.25   -- screening efficiency (screen to capital ratio) at 0% positioning (was 0.5)
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.75   -- AA penalty at 0% positioning (was 0.7)
@@ -61,7 +62,7 @@ NDefines.NNavy.MISSION_SPREADS = {  -- mission spreads in the case a ship join c
 NDefines.NNavy.NAVAL_DOMINANCE_STRIKE_FORCE_MULTIREGION_DECAY = 0.1   -- Percentage that the strike force mission's naval dominance multiplier decreases with for each additional assigned region (was 0.05)
 NDefines.NNavy.NAVAL_DOMINANCE_MINES_PLANTING_BONUS = 0.1   -- Naval planting bonus when having naval dominance in the region (was 0.2)
 NDefines.NNavy.NAVAL_DOMINANCE_MINES_SWEEPING_BONUS = 0.1   -- Naval sweeping bonus when having naval dominance in the region (was 0.2)
-NDefines.NNavy.NAVAL_DOMINANCE_SHIP_RECOVERY_CHANCE = 0.05   -- Sunk ship recovery chance (does this require repair ship or not?) (was 0.1)
+NDefines.NNavy.NAVAL_DOMINANCE_SHIP_RECOVERY_CHANCE = 0.0   -- Sunk ship recovery chance (does this require repair ship or not?) (was 0.1)
 NDefines.NNavy.MISSION_DOMINANCE_RATIOS = {
 	0.0, -- HOLD
 	1.0, -- PATROL
@@ -104,6 +105,7 @@ NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.15   -- received air dam
 NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.25   -- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support (was 0.07)
 NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.4   -- factor of planes that can sortie by default from a carrier (was 0.5)
 NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0.25, 0.37, 0.50, 0.62, 0.75}   -- The defensive stance sortie is 1.0 - value in index so their sum equals 1
+NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_DEFAULT_INDEX = 4   -- The default offensive sortie index in CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO (was 2)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 180   -- How many planes flying in a naval combat before penalties are introduced (was 80)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns (was 0.005)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 500   --For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract) (was 16)
@@ -145,6 +147,18 @@ NDefines.NNavy.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 5   -- Unit xp gain per combat 
 NDefines.NNavy.UNIT_EXPERIENCE_SCALE = 0.8   -- total unit xp factor (was 1)
 
 
+--Aggression
+NDefines.NNavy.AGGRESSION_ARMOR_EFFICIENCY_MULTIPLIER = 1.0		-- armor to enemy piercing ratio is multiplied by this value, which will increase the strength of ships while considering them for aggression
+NDefines.NNavy.AGGRESSION_MIN_ARMOR_EFFICIENCY = 1.0              -- armor multiplier has a min and max caps while being factored in aggression (was 0.5)
+NDefines.NNavy.AGGRESSION_MAX_ARMOR_EFFICIENCY = 1.5              -- armor multiplier has a min and max caps while being factored in aggression
+NDefines.NNavy.AGGRESSION_LIGHT_GUN_EFFICIENCY_ON_LIGHT_SHIPS = 1.0 -- ratio for scoring for different gun types against light ships
+NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_LIGHT_SHIPS = 0.75   -- ratio for scoring for different gun types against light ships (was 0.25)
+NDefines.NNavy.AGGRESSION_TORPEDO_EFFICIENCY_ON_LIGHT_SHIPS = 0.5   -- ratio for scoring for different gun types against light ships (was 0.1)
+NDefines.NNavy.AGGRESSION_LIGHT_GUN_EFFICIENCY_ON_HEAVY_SHIPS = 0.1  -- ratio for scoring for different gun types against heavy ships
+NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_HEAVY_SHIPS = 1.0  -- ratio for scoring for different gun types against heavy ships
+NDefines.NNavy.AGGRESSION_TORPEDO_EFFICIENCY_ON_HEAVY_SHIPS = 1.1   -- ratio for scoring for different gun types against heavy ships
+
+
 --Naval Misc
 NDefines.NNavy.CONVOY_EFFICIENCY_MIN_VALUE = 0   -- To avoid complete 0% efficiency, set the lower limit. (was 0.05)
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 25   -- cost to unassign/replace pride of the fleet (was 100)
@@ -161,6 +175,7 @@ NDefines.NNavy.AGGRESSION_SETTINGS_VALUES = {
 	10000,	-- I am death incarnate!
 }
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
+NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 3000   -- Tuning parameter for homebase calculation. Distance to normalize against. Everything above said value will be treated as score = 0. (was 1000)
 
 
 
@@ -203,6 +218,7 @@ NDefines.NAI.VARIANT_CREATION_XP_RESERVE_AIR = 30   -- If the AI lacks air XP to
 
 
 --AI Mission
+NDefines.NAI.NAVAL_MISSION_DISTANCE_BASE = 4200   -- Base value when AI is evaluating distance score to places (was 3500)
 NDefines.NAI.NAVAL_MISSION_ESCORT_NEAR_OWNED = 0   -- Extra escort mission score near owned provinces (was 300)
 NDefines.NAI.NAVAL_MISSION_ESCORT_NEAR_CONTROLLED = 0   -- Extra escort mission score near controlled provinces (was 200)
 NDefines.NAI.AI_MIN_DOMINANCE_MARGIN = 100   -- When trying to get control of a region, AI will try to exceed the required dominance by at least this amount (was 200)
@@ -243,9 +259,10 @@ NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	6, -- NAVAL INVASION SUPPORT
 }
 NDefines.NAI.CONVOY_ESCORT_SCORE_FROM_CONVOYS = 25   -- score for each convoy you have in area (was 15)
-NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 500   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
+NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 200   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
 NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 5   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
 NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 1.5   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
+NDefines.NAI.DANGEROUS_ENEMY_ARMY_SIZE = 10000   -- If the size of the enemy's army of the attacking country is more than this value, the AI will add naval invasion defense importance (was 100)
 
 
 --AI Misc

@@ -6,11 +6,11 @@ ITA_StrikeForce_1 = {
 		factor = 1
 	}	
 	mission = { naval_strike }
-	min_composition = {
-		destroyer = {
-			amount = 8
-		}
-	}
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 8
+	# 	}
+	# }
 	
 	optimal_composition = {
 		battleship = {
@@ -32,14 +32,21 @@ ITA_StrikeForceCarrier_1 = {
 		original_tag = ITA 
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 10
+		modifier = {
+			factor = 0
+			has_navy_size = {
+				type = carrier
+				size < 1
+			}
+		}
 	}	
 	mission = { naval_strike }
-	min_composition = {
-		destroyer = {
-			amount = 8
-		}
-	}
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 8
+	# 	}
+	# }
 	
 	optimal_composition = {
 		carrier = {
@@ -47,6 +54,9 @@ ITA_StrikeForceCarrier_1 = {
 		}
 		battleship = {
 			amount = 4
+		}
+		heavy_cruiser = {
+			amount = 2
 		}
 		light_cruiser = {
 			amount = 10
@@ -65,11 +75,11 @@ ITA_PatrolReconForce_1 = {
 		factor = 5
 	}
 	mission = { naval_patrol }
-	min_composition = {
-		destroyer = {
-			amount = 1
-		}
-	}	
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 1
+	# 	}
+	# }	
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -85,21 +95,18 @@ ITA_PatrolDominanceForce_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 4
-		}
-	}
+	# min_composition = {
+	# 	light_cruiser = {
+	# 		amount = 2
+	# 	}
+	# 	destroyer = {
+	# 		amount = 4
+	# 	}
+	# }
 
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 3
-		}
-		medium_cruiser = {
-			amount = 2
 		}
 		light_cruiser = {
 			amount = 4
@@ -118,35 +125,14 @@ ITA_ConvoyRaiding_1 = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
-	min_composition = {
-		submarine = {
-			amount = 4
-		}
-	}
+	# min_composition = {
+	# 	submarine = {
+	# 		amount = 4
+	# 	}
+	# }
 	optimal_composition = {
 		submarine = {
 			amount = 12
-		}
-	}
-}
-
-ITA_ConvoySurfaceRaiding_1 = {
-	allowed = {
-		original_tag = ITA
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { convoy_raiding }
-	min_composition = {
-		battle_cruiser = {
-			amount = 1
-		}
-	}
-
-	optimal_composition = {
-		battle_cruiser = {
-			amount = 2
 		}
 	}
 }
@@ -167,7 +153,7 @@ ITA_ConvoyEscort_1 = {
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 6
+			amount = 5
 		}
 	}
 }

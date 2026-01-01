@@ -2,7 +2,7 @@ naval_light_carrier = {
 	category = naval
 	#blocked_for = {}
 	roles = { vnr_naval_carrier_light }
-	priority = { base = 10 }
+	priority = { base = 0 }
 
 	light_carrier_1936 = {
 		name = vnr_cvl_1936

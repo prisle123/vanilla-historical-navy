@@ -7,7 +7,7 @@ scripted_gui = {
 		ai_enabled = { always = no }
 		
 		visible = {
-			has_global_flag = navy_rework_splash_show
+			has_country_flag = navy_rework_splash_show
 		}
 
 		properties = {
@@ -31,7 +31,7 @@ scripted_gui = {
 			tab_4_click = { set_variable = { navy_rework_welcome_splash_variable = 4 } }
 
 			navy_rework_options_button_click = {
-				clr_global_flag = navy_rework_splash_show
+				clr_country_flag = navy_rework_splash_show
 				clear_variable = navy_rework_welcome_splash_variable
 				if = {
 					limit = { NOT = { has_global_flag = vnr_oob_loaded } }
@@ -87,6 +87,20 @@ scripted_gui = {
 
 		visible = {
 			check_variable = { navy_rework_welcome_splash_variable = 4 }
+		}
+	}
+
+	vnr_manual_handbook_gui = {
+		context_type = decision_category
+		window_name = vnr_manual_handbook_gui_window
+
+		triggers = {
+			navy_rework_manual_button_english_visible = {
+				has_global_flag = navy_rework_english
+			}
+			navy_rework_manual_button_chinese_visible = {
+				has_global_flag = navy_rework_chinese
+			}
 		}
 	}
 }

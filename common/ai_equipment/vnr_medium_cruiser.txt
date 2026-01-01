@@ -3,14 +3,14 @@ naval_cruiser_medium = {
 	#available_for = {}
 	#blocked_for = {}
 	roles = { vnr_naval_cruiser_medium }
-	priority = { base = 75 }
+	priority = { base = 0 }
 
 	medium_cruiser_1924 = {
 		name = vnr_cam_1924
 		role_icon_index = 27
 
 		priority = {
-			base = 10
+			base = 0
 			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
 		}
 
@@ -52,7 +52,7 @@ naval_cruiser_medium = {
 		role_icon_index = 27
 
 		priority = {
-			base = 20
+			base = 0
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
 		}
 
@@ -95,7 +95,7 @@ naval_cruiser_medium = {
 		role_icon_index = 27
 
 		priority = {
-			base = 50
+			base = 0
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
 		}
 
@@ -137,7 +137,7 @@ naval_cruiser_medium = {
 		role_icon_index = 27
 
 		priority = {
-			base = 70
+			base = 0
 			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
 		}
 
@@ -180,7 +180,6 @@ naval_cruiser_medium = {
 
 		priority = {
 			base = 0
-			modifier = { add = 100 has_tech = modern_ship_hull_cruiser }
 			modifier = { factor = 0 expert_ai_style = yes }
 		}
 
@@ -227,9 +226,6 @@ naval_cruiser_medium = {
 
 		priority = {
 			base = 0
-			modifier = { add = 80 has_tech = cruiser_missile_upgrade }
-			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = no }
 		}
 
 		
@@ -266,8 +262,6 @@ naval_cruiser_medium = {
 
 		priority = {
 			base = 0
-			modifier = { add = 100 has_tech = modern_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = no }
 		}
 
 		

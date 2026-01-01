@@ -55,7 +55,10 @@ is_ai_naval_major = {
 		tag = SOV
 		tag = USA
 	}
-	is_ai = yes
+	OR = {
+		is_ai = yes
+		is_debug = yes
+	}
 }
 
 allow_to_use_expert_navy = {
@@ -73,6 +76,9 @@ allow_to_use_expert_navy = {
 			has_game_rule = { rule = usa_start_expert_navy option = FREE }
 		}
 	}
-	is_ai = yes
+	OR = {
+		is_ai = yes
+		is_debug = yes
+	}
 	has_game_rule = { rule = ai_ship_design_style option = EXPERT }
 }

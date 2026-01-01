@@ -59,7 +59,7 @@ ENG_avoid_baltic = {
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_ger_baltic
-		value = 0
+		value = -100
 	}
 }
 
@@ -220,6 +220,9 @@ JAP_destroy_china_navy_quick = {
     enable = {
         has_war_with = CHI
         NOT = { has_war_with = USA }
+		CHI = {
+			has_navy_size = { size > 9 }
+		}
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -235,33 +238,72 @@ JAP_destroy_china_navy_quick = {
     }
 }
 
+JAP_turuk_base = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		684 = { is_controlled_by_ROOT_or_ally = yes }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 84
+		value = 100
+	}
+}
+
+JAP_pacific_war_naval_stage_zero = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		NOT = { has_war_with = USA }
+		threat > 0.65
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_okinawa
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_iwo_jima
+		value = 100
+	}
+}
+
 JAP_pacific_war_naval_stage_one = {
     allowed = {
         original_tag = JAP
     }
     enable = {
         has_war_with = USA
-		naval_strength_ratio = {
-			tag = USA
-			ratio < 0.5
-		}
+		has_war_with = PHI
+		has_war_with = MAL
+		has_war_with = AST
+		PHI = { has_capitulated = no }
+		MAL = { has_capitulated = no }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
     ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
-		value = 80
+		id = vnr_pacific_philippines
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_4
+		id = vnr_pacific_solomons
 		value = 100
 	}
 	ai_strategy = {
-		type = invade
-		id = AST
-		value = 100
+		type = naval_dominance
+		id = vnr_pacific_iwo_jima
+		value = 70
 	}
 	ai_strategy = {
 		type = invade
@@ -273,6 +315,22 @@ JAP_pacific_war_naval_stage_one = {
 		id = MAL
 		value = 1000
 	}
+	ai_strategy = {
+		type = invade
+		id = USA
+		value = 500
+	}
+	ai_strategy = {
+		type = invade
+		id = AST
+		value = 100
+	}
+	ai_strategy = {
+		type = front_control
+		area = pacific
+		ordertype = invasion
+    	execute_order = yes
+	}
 }
 
 JAP_pacific_war_naval_stage_two = {
@@ -281,28 +339,28 @@ JAP_pacific_war_naval_stage_two = {
     }
     enable = {
         has_war_with = USA
-		OR = {
-			naval_strength_ratio = {
-				tag = USA
-				ratio > 0.5
-			}
-			AND = {
-				PHI = { has_capitulated = yes }
-				MAL = { has_capitulated = yes }
-			}
-		}
+		has_war_with = PHI
+		has_war_with = MAL
+		has_war_with = AST
+		PHI = { has_capitulated = yes }
+		MAL = { has_capitulated = yes }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
     ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_2
+		id = vnr_pacific_midway
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_1
-		value = 85
+		id = vnr_pacific_hawaii
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_solomons
+		value = 75
 	}
 	ai_strategy = {
 		type = invade
@@ -317,7 +375,7 @@ JAP_pacific_war_naval_stage_two = {
 	ai_strategy = {
 		type = invade
 		id = INS
-		value = 500
+		value = 800
 	}
 	ai_strategy = {
 		type = front_control
@@ -328,6 +386,28 @@ JAP_pacific_war_naval_stage_two = {
 }
 
 ### USA ###
+USA_pacific_fleet_command = {
+	allowed = {
+		original_tag = USA
+	}
+
+	enable = {
+		629 = { is_controlled_by_ROOT_or_ally = yes }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 105
+		value = 1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 89
+		value = -100
+	}
+}
+
 USA_pacific_war_naval_avoid_first = {
 	allowed = {
 		original_tag = USA
@@ -387,11 +467,6 @@ USA_pacific_war_naval_avoid_first = {
 	}
 	ai_strategy = {
 		type = naval_avoid_region
-		id = 84
-		value = 50
-	}
-	ai_strategy = {
-		type = naval_avoid_region
 		id = 90
 		value = 1000
 	}
@@ -408,18 +483,28 @@ USA_pacific_war_naval_avoid_first = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_1
+		id = vnr_pacific_hawaii
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
-		value = 0
+		id = vnr_pacific_midway
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_4
-		value = 0
+		id = vnr_pacific_philippines
+		value = -100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_iwo_jima
+		value = -100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_okinawa
+		value = -100
 	}
 }
 
@@ -487,9 +572,9 @@ USA_pacific_war_naval_counterattack_1 = {
 				ratio > 5
 			}
 		}
-		NOT = {
-			controls_state = 633
-			controls_state = 684
+		OR = {
+			633 = { is_controlled_by_ROOT_or_ally = no }
+			684 = { is_controlled_by_ROOT_or_ally = no }
 		}
         enable_vnr_naval_ai = yes
     }
@@ -552,24 +637,30 @@ USA_pacific_war_naval_counterattack_1 = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_2
+		id = vnr_pacific_solomons
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_1
-		value = 80
+		id = vnr_pacific_midway
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
-		value = 0
+		id = vnr_pacific_iwo_jima
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_4
-		value = 0
+		id = vnr_pacific_philippines
+		value = -100
 	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_okinawa
+		value = -100
+	}
+	
 	ai_strategy = {
 		type = invade
 		id = JAP
@@ -602,6 +693,10 @@ USA_pacific_war_naval_counterattack_1 = {
 		ordertype = invasion
     	execute_order = yes
 	}
+	ai_strategy = {
+		type = naval_invasion_dominance_weight
+		value = 60
+	}
 }
 
 USA_pacific_war_naval_counterattack_2 = {
@@ -617,11 +712,9 @@ USA_pacific_war_naval_counterattack_2 = {
 				ratio > 5
 			}
 		}
-		controls_state = 633
-		controls_state = 684
-		NOT = {
-			controls_state = 645
-		}
+		633 = { is_controlled_by_ROOT_or_ally = yes }
+		684 = { is_controlled_by_ROOT_or_ally = yes }
+		645 = { is_controlled_by_ROOT_or_ally = no }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -663,18 +756,18 @@ USA_pacific_war_naval_counterattack_2 = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
+		id = vnr_pacific_philippines
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_2
-		value = 40
+		id = vnr_pacific_iwo_jima
+		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_1
-		value = 10
+		id = vnr_pacific_midway
+		value = 70
 	}
 	ai_strategy = {
 		type = invade
@@ -711,6 +804,10 @@ USA_pacific_war_naval_counterattack_2 = {
 		ordertype = invasion
     	execute_order = yes
 	}
+	ai_strategy = {
+		type = naval_invasion_dominance_weight
+		value = 60
+	}
 }
 
 USA_pacific_war_naval_counterattack_3 = {
@@ -726,9 +823,9 @@ USA_pacific_war_naval_counterattack_3 = {
 				ratio > 5
 			}
 		}
-		controls_state = 633
-		controls_state = 684
-		controls_state = 645
+		633 = { is_controlled_by_ROOT_or_ally = yes }
+		684 = { is_controlled_by_ROOT_or_ally = yes }
+		645 = { is_controlled_by_ROOT_or_ally = yes }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -745,22 +842,22 @@ USA_pacific_war_naval_counterattack_3 = {
 	
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_4
+		id = vnr_pacific_okinawa
 		value = 100
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_3
+		id = vnr_pacific_iwo_jima
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_philippines
 		value = 75
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_pacific_2
-		value = 10
-	}
-	ai_strategy = {
-		type = naval_dominance
-		id = vnr_pacific_1
+		id = vnr_pacific_hawaii
 		value = 0
 	}
 	ai_strategy = {
@@ -797,6 +894,36 @@ USA_pacific_war_naval_counterattack_3 = {
 		area = home_islands
 		ordertype = invasion
     	execute_order = yes
+	}
+	ai_strategy = {
+		type = naval_invasion_dominance_weight
+		value = 100
+	}
+}
+
+USA_atlantic_war = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		is_ally_with = ENG
+		has_war_with = GER
+		has_navy_size = {
+			type = carrier
+			size > 19
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 43
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_eng_atlantic_route
+		value = 90
 	}
 }
 
@@ -868,10 +995,6 @@ GER_unrestricted_submarine_warfare = {
     }
     enable = {
         has_war_with = ENG
-        naval_strength_ratio = {
-            tag = ENG
-            ratio < 0.7
-        }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -911,12 +1034,12 @@ GER_avoid_mediterranean = {
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_eng_med_zones
-		value = 0
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_ita_med_zones
-		value = 0
+		value = -100
 	}
 }
 

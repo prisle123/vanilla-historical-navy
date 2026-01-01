@@ -930,7 +930,17 @@ technologies = {
 		}
 
 		on_research_complete = {
-			hidden_effect = { add_ideas = vnr_destroyer_cost_1 }
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = vnr_destroyer_cost_1
+					bonus = {
+						ship_hull_light = {
+							instant = yes
+							build_cost_ic = -0.1
+						}
+					}
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -1532,10 +1542,20 @@ technologies = {
 			position = { x = 4 y = @1948_module }
 		}
 		on_research_complete = {
-			hidden_effect = { add_ideas = vnr_cruiser_cost_2 }
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = vnr_cruiser_cost_2
+					bonus = {
+						ship_hull_cruiser = {
+							instant = yes
+							build_cost_ic = -0.1
+						}
+					}
+				}
+			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 0.5
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -2085,7 +2105,17 @@ technologies = {
 		}
 
 		on_research_complete = {
-			hidden_effect = { add_ideas = vnr_cruiser_cost_1 }
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = vnr_cruiser_cost_1
+					bonus = {
+						ship_hull_cruiser = {
+							instant = yes
+							build_cost_ic = -0.05
+						}
+					}
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -4157,8 +4187,6 @@ technologies = {
 			ship_deck_space_more
 			carrier_spared_squad
 			carrier_wooden_deck
-			carrier_bb_conversion
-			carrier_bc_conversion
 			ship_hull_civilian_role_av
 			ship_hull_carrier_role_cv
 			ship_hull_carrier_role_cvl
@@ -4199,7 +4227,6 @@ technologies = {
 		}
 
 		enable_equipments = {
-			vnr_ship_hull_carrier_conversion_bb
 			vnr_ship_hull_carrier_conversion_ca
 		}
 
@@ -4293,7 +4320,7 @@ technologies = {
 			arresting_gear = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2
 
 		start_year = 1932
 
@@ -4778,7 +4805,18 @@ technologies = {
 		}
 
 		on_research_complete = {
-			hidden_effect = { add_ideas = vnr_carrier_cost_1 }
+			custom_effect_tooltip = cv_tech_6_tt
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = vnr_carrier_cost_1
+					bonus = {
+						ship_hull_carrier = {
+							instant = yes
+							build_cost_ic = -0.1
+						}
+					}
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -5669,7 +5707,17 @@ technologies = {
 		}
 
 		on_research_complete = {
-			hidden_effect = { add_ideas = vnr_submarine_cost_1 }
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = vnr_submarine_cost_1
+					bonus = {
+						ship_hull_submarine = {
+							instant = yes
+							build_cost_ic = -0.15
+						}
+					}
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -6137,10 +6185,15 @@ technologies = {
 		}
 	}
 	converted_super_heavy_carrier = {
+		enable_equipments = {
+			vnr_ship_hull_carrier_conversion_bb
+		}
 		enable_equipment_modules = {
 			carrier_shbb_conversion
 			ship_deck_space_converted
 			ship_armor_carrier_shbb
+			carrier_bb_conversion
+			carrier_bc_conversion
 		}
 
 		research_cost = 1
@@ -6210,10 +6263,6 @@ technologies = {
 		}
 		research_cost = 0.4
 		start_year = 1940
-
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	super_carriers = {
 		on_research_complete = {
@@ -6274,6 +6323,21 @@ technologies = {
 			naval_equipment
 			mio_cat_tech_all_carrier_and_modules
 		}
+	}
+
+	bb_conversion_carrier = {
+		allow = {
+			always = no
+		}
+		enable_equipments = {
+			vnr_ship_hull_carrier_conversion_bb
+		}
+		enable_equipment_modules = {
+			carrier_bb_conversion
+			carrier_bc_conversion
+		}
+		research_cost = 1
+		start_year = 1918
 	}
 
 	obsolete_vanilla_hulls = {

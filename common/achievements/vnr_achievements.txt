@@ -1,0 +1,119 @@
+unique_id = vnr_achievements
+
+00_vnr_bathtub_war = {
+    possible = {
+        has_game_rule = { rule = allow_never_built option = FREE }
+    }
+    happened = {
+        custom_override_tooltip = {
+            tooltip = 00_vnr_bathtub_war_tt
+            has_tech = wunderwaffe_modules
+        }
+    }
+}
+
+00_vnr_outbuild_the_yankees = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        custom_override_tooltip = {
+            tooltip = 00_vnr_outbuild_the_yankees_tt
+            has_navy_size = { archetype = ship_hull_carrier size > 100 }
+            has_navy_size = { archetype = ship_hull_heavy size > 20 }
+            has_navy_size = { archetype = ship_hull_cruiser size > 70 }
+        }
+    }
+}
+
+00_vnr_the_yamato = {
+    possible = {
+        tag = JAP
+        difficulty > 1
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = { unit = SH_battleship size > 0 }
+    }
+}
+
+00_vnr_topgun = {
+    possible = {
+        tag = USA
+        difficulty > 1
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        custom_override_tooltip = {
+            tooltip = 00_vnr_topgun_tt
+            has_tech = super_carriers
+        }
+    }
+}
+
+00_vnr_seapower_theory = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_completed_track = capital_ships
+        has_completed_track = carriers
+        has_completed_track = screens
+        has_completed_track = submarines
+    }
+}
+
+00_vnr_john_fisher_adherent = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = {
+            unit = battle_cruiser
+            size > 99
+        }
+    }
+}
+
+00_vnr_carrier_liaoning = {
+    possible = {
+        custom_override_tooltip = {
+            tooltip = 00_vnr_carrier_liaoning_tt
+            has_global_flag = vnr_enabled
+        }
+        difficulty > 1
+        game_rules_allow_achievements = yes
+        tag = PRC
+    }
+    happened = {
+        has_navy_size = { type = carrier size > 0 }
+    }
+}
+
+00_vnr_i_love_destroyers = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_navy_size = { unit = destroyer size > 499 }
+    }
+}
+
+00_vnr_nelson_reborn = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        custom_override_tooltip = {
+            tooltip = 00_vnr_nelson_reborn_tt
+            any_navy_leader = {
+                skill > 6
+            }
+        }
+    }
+}

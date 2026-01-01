@@ -360,6 +360,7 @@ country_event = { #notification about 2nd London Naval Conference
 				OR = {
 					has_government = fascism 
 					has_government = communism
+					tag = JAP
 				}
 			}
 			custom_effect_tooltip = fascism_renew_naval_treaty_tt

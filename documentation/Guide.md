@@ -214,7 +214,7 @@ If you are patient enough, *Air-Sea Operation* will give you ample rewards bette
 
 **Carrier Taskforce**
 
-This is the authentic USN carrier tactics, with every features designed to showcase its success in history, such as leading sortie rate, deck management, and aerial attack capabilities. Just like *air-sea operation* strategy itself, *carrier taskforce* also has a humble start, but becomes horrible at the end. It provides the best sortie efficiency, reconnaissance, and carrier overfilling in all doctrines.
+This is the authentic USN carrier tactics, with every feature designed to showcase its success in history, such as leading sortie rate, deck management, and aerial attack capabilities. Just like *air-sea operation* strategy itself, *carrier taskforce* also has a humble start, but becomes horrible at the end. It provides the best sortie efficiency, reconnaissance, and carrier overfilling in all doctrines.
 
 **Carrier Concentration**
 
@@ -278,7 +278,7 @@ This is an authentic USN strategy adopted during WWII, which makes screen ships 
 
 **The New School**
 
-*The New School*, or *Jeune Ecole* in French, was a doctrine developed with the advent of torpedo in reality. In the mod, it also emphasizes the importance of torpedo attacks but inferior to Japanese pratice. Instead, it is the only doctrine enabling screen ship convoy raiding with dedicated bonuses, mixed with other rewards on coastal defense and mine warfare.
+*The New School*, or *Jeune Ecole* in French, was a doctrine developed with the advent of torpedo in reality. In the mod, it also emphasizes the importance of torpedo attacks but inferior to Japanese practice. Instead, it is the only doctrine enabling screen ship convoy raiding with dedicated bonuses, mixed with other rewards on coastal defense and mine warfare.
 
 ### Sub Doctrine - Submarine ###
 

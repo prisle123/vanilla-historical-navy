@@ -3,12 +3,15 @@ on_actions = {
         effect = {
             # VNR enable flag, so that other mods will load oob designed for VNR 
 			set_global_flag = vnr_enabled
-            # show welcome splash
-			set_global_flag = navy_rework_splash_show
+            # VNR language
+            set_global_flag = navy_rework_english
+            # set_global_flag = navy_rework_chinese
 			
             # show the first panel of intro splash
 			every_country = {
                 limit = { is_ai = no }
+                # show welcome splash
+			    set_country_flag = navy_rework_splash_show
 				set_variable = { navy_rework_welcome_splash_variable = 1 }
 			}
 

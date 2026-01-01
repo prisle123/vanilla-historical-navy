@@ -3,6 +3,7 @@ ideas = {
         vnr_mad = {
 			cancel = {
 				is_ai = no
+				is_debug = no
 			}
             modifier = {
                 convoy_raiding_efficiency_factor = 0.3
@@ -38,6 +39,7 @@ ideas = {
         vnr_hard = {
 			cancel = {
 				is_ai = no
+				is_debug = no
 			}
 			modifier = {
                 convoy_raiding_efficiency_factor = 0.2
@@ -73,6 +75,7 @@ ideas = {
         vnr_normal = {
 			cancel = {
 				is_ai = no
+				is_debug = no
 			}
 			modifier = {
                 convoy_raiding_efficiency_factor = 0.1
@@ -109,6 +112,7 @@ ideas = {
 		vnr_mad_production = {
 			cancel = {
 				is_ai = no
+				is_debug = no
 			}
 			picture = generic_navy_bonus
             modifier = {
@@ -125,6 +129,7 @@ ideas = {
         vnr_hard_production = {
 			cancel = {
 				is_ai = no
+				is_debug = no
 			}
 			picture = generic_navy_bonus
 			modifier = {
@@ -141,6 +146,7 @@ ideas = {
         vnr_normal_production = {
 			cancel = {
 				is_ai = no
+				is_debug = no
 			}
 			picture = generic_navy_bonus
 			modifier = {
@@ -184,6 +190,7 @@ ideas = {
         vnr_cv_plane_output_boost = {
             cancel = {
                 is_ai = no
+				is_debug = no
             }
             equipment_bonus = {
                 cv_small_plane_airframe = {
@@ -200,24 +207,26 @@ ideas = {
         vnr_ai_dd_output_boost_1 = {
             cancel = {
                 is_ai = no
+				is_debug = no
             }
             # for historical mode
             equipment_bonus = {
 				ship_hull_light = {
 					instant = yes
-					build_cost_ic = -0.25
+					build_cost_ic = -0.35
 				}
 			}
         }
         vnr_ai_dd_output_boost_2 = {
             cancel = {
                 is_ai = no
+				is_debug = no
             }
             # for expert mode
             equipment_bonus = {
 				ship_hull_light = {
 					instant = yes
-					build_cost_ic = -0.5
+					build_cost_ic = -0.65
 				}
 			}
         }
