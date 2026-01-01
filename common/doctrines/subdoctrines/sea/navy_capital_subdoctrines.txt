@@ -10,7 +10,7 @@ fast_battleship_primacy = {
     available = {
         has_navy_size = {
             archetype = ship_hull_heavy
-            size > 7
+            size > 3
         }
     }
 
@@ -117,11 +117,11 @@ battlecruiser_supremacy = {
     available = {
         has_navy_size = {
             unit = battle_cruiser
-            size > 3
+            size > 1
         }
         has_navy_size = {
             unit = battleship
-            size > 3
+            size > 1
         }
     }
 
