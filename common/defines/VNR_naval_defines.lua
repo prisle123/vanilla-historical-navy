@@ -76,9 +76,9 @@ NDefines.NNavy.MISSION_DOMINANCE_RATIOS = {
 	0.85, -- NAVAL_INVASION_SUPPORT
 }
 NDefines.NNavy.DOMINANCE_PER_SHIP_PER_RANGE_NEUTRAL = 3000   -- ship range where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0 (was 2000, range should not matter this much)
-NDefines.NNavy.DOMINANCE_PER_SHIP_PER_SPEED_NEUTRAL = 25   -- ship speed where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0 (was 20, lower speed impact)
-NDefines.NNavy.DOMINANCE_PER_SHIP_PER_CARRIER_SIZE = 0.15   -- bonus to dominance based on the carrier size - e.g. regular carrier hangar has carrier_size of 2, so it would be a bonus of 2 * DOMINANCE_PER_SHIP_PER_CARRIER_SIZE, min value is 0 (was 0.1, carrier stronger)
-NDefines.NNavy.DOMINANCE_PER_SHIP_PER_HEAVY_GUN_ATTACK = 0.05   -- bonus to dominance based on the heavy attack, min value is 0 (was 0.01, differentiate big gun ships and smaller counterparts)
+NDefines.NNavy.DOMINANCE_PER_SHIP_PER_SPEED_NEUTRAL = 27   -- ship speed where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0 (was 20, lower speed impact)
+NDefines.NNavy.DOMINANCE_PER_SHIP_PER_CARRIER_SIZE = 0.2   -- bonus to dominance based on the carrier size - e.g. regular carrier hangar has carrier_size of 2, so it would be a bonus of 2 * DOMINANCE_PER_SHIP_PER_CARRIER_SIZE, min value is 0 (was 0.1, carrier stronger)
+NDefines.NNavy.DOMINANCE_PER_SHIP_PER_HEAVY_GUN_ATTACK = 0.02   -- bonus to dominance based on the heavy attack, min value is 0 (was 0.01, differentiate big gun ships and smaller counterparts)
 NDefines.NNavy.DOMINANCE_DAILY_GAIN_FACTOR = 0.05   -- Daily dominance gain, as a fraction of target value (was 0.02)
 NDefines.NNavy.DOMINANCE_DAILY_LOSS_FACTOR = 0.01   -- Daily dominance loss, as a fraction of previous target value (was 0.04)
 
