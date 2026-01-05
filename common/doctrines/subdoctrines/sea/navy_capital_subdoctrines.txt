@@ -252,24 +252,28 @@ armored_raiders = {
     # EFFECTS
 	screening_without_screens = 0.10
     ships_at_battle_start = -0.1
+    effect = {
+        add_tech_bonus = {
+            bonus = 0.5
+            uses = 1
+            technology = panzerschiffe
+            name = SUBDOCTRINE_ARMORED_RAIDERS
+        }
+    }
 
     rewards = {
         expert_reconnaissance = {
             battle_cruiser = {
-                naval_range = 0.1
-                surface_detection = 0.05
+                surface_detection = 0.1
             }
 			battleship = {
-                naval_range = 0.1
-				surface_detection = 0.05
+				surface_detection = 0.1
 			}
             heavy_cruiser = {
-                naval_range = 0.1
-                surface_detection = 0.05
+                surface_detection = 0.1
             }
             medium_cruiser = {
-                naval_range = 0.1
-                surface_detection = 0.05
+                surface_detection = 0.1
             }
         }
         speed_trials = {
@@ -294,41 +298,39 @@ armored_raiders = {
         capital_raiders = {
             battleship = {
 				max_organisation = 5
-				convoy_raiding_coordination = 0.15
-				surface_detection = 0.1
+				convoy_raiding_coordination = 0.1
 			}
 			battle_cruiser = {
 				max_organisation = 5
-				convoy_raiding_coordination = 0.15
-				surface_detection = 0.1
+				convoy_raiding_coordination = 0.1
 			}
 			heavy_cruiser = {
 				max_organisation = 10
-                convoy_raiding_coordination = 0.15
-                surface_detection = 0.1
+                convoy_raiding_coordination = 0.1
 			}
             medium_cruiser = {
 				max_organisation = 10
-                convoy_raiding_coordination = 0.15
-                surface_detection = 0.1
+                convoy_raiding_coordination = 0.1
 			}
         }
-        crisis_management = {
+        trade_route_sabotage = {
+            equipment_bonus = {
+                capital_ship = {
+                    naval_range = 0.1
+                    instant = yes
+                }
+            }
             battleship = {
-                reliability = 0.1
-            }
-            battle_cruiser = {
-                reliability = 0.1
-            }
-            heavy_cruiser = {
-                reliability = 0.1
-            }
+				convoy_raiding_coordination = 0.1
+			}
+			battle_cruiser = {
+				convoy_raiding_coordination = 0.1
+			}
+			heavy_cruiser = {
+                convoy_raiding_coordination = 0.1
+			}
             medium_cruiser = {
-                reliability = 0.1
-            }
-            modifier = {
-				navy_casualty_on_hit = -0.1
-				navy_casualty_on_sink = -0.1
+                convoy_raiding_coordination = 0.1
 			}
         }
     }
