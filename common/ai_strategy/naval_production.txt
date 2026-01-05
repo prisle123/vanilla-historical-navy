@@ -2435,3 +2435,19 @@ upgrade_cv_plane_strategy_3 = {
 		value = 1000
 	}
 }
+
+we_dont_need_ocean_liner = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = ocean_liner_equipment
+		value = -1000
+	}
+}
