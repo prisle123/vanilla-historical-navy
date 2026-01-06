@@ -15,8 +15,8 @@ StrikeForce_1 = {
 	}	
 	mission = { naval_strike }
 	min_composition = {
-		destroyer = {
-			amount = 8
+		carrier = {
+			amount = 2
 		}
 	}
 	
@@ -55,11 +55,6 @@ PatrolReconForce_1 = {
 		factor = 5
 	}
 	mission = { naval_patrol }
-	min_composition = {
-		destroyer = {
-			amount = 1
-		}
-	}	
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -83,11 +78,6 @@ PatrolDominanceForce_CA_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
-	min_composition = {
-		destroyer = {
-			amount = 4
-		}
-	}
 
 	optimal_composition = {
 		heavy_cruiser = {
@@ -115,11 +105,6 @@ PatrolDominanceForce_BC_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
-	min_composition = {
-		destroyer = {
-			amount = 4
-		}
-	}
 
 	optimal_composition = {
 		battle_cruiser = {
@@ -147,11 +132,6 @@ ConvoyRaiding_1 = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
-	min_composition = {
-		submarine = {
-			amount = 4
-		}
-	}
 
 	optimal_composition = {
 		submarine = {
@@ -176,11 +156,6 @@ ConvoySurfaceRaiding_1 = {
 		factor = 1
 	}
 	mission = { convoy_raiding }
-	min_composition = {
-		battle_cruiser = {
-			amount = 1
-		}
-	}
 
 	optimal_composition = {
 		battle_cruiser = {
@@ -205,15 +180,10 @@ ConvoyEscort_1 = {
 		factor = 5
 	}	
 	mission = { convoy_escort }
-	min_composition = {
-		destroyer = {
-			amount = 4
-		}
-	}
-	
+
 	optimal_composition = {
 		destroyer = {
-			amount = 10
+			amount = 5
 		}
 	}
 }
