@@ -1329,6 +1329,7 @@ equipment_modules = {
 			surface_visibility = 0.7
 			hg_attack = 8
 			max_strength = 32
+			reliability = -0.01
 			build_cost_ic = 750
 		}
 		multiply_stats = {
@@ -1358,6 +1359,7 @@ equipment_modules = {
 			surface_visibility = 0.8
 			hg_attack = 9
 			max_strength = 40
+			reliability = -0.03
 			build_cost_ic = 800
 		}
 		multiply_stats = {
@@ -1387,6 +1389,7 @@ equipment_modules = {
 			surface_visibility = 0.9
 			hg_attack = 12
 			max_strength = 52
+			reliability = -0.05
 			build_cost_ic = 850
 		}
 		multiply_stats = {
@@ -1558,6 +1561,7 @@ equipment_modules = {
 			surface_visibility = 0.8
 			hg_attack = 12
 			max_strength = 40
+			reliability = -0.03
 			build_cost_ic = 875
 		}
 		multiply_stats = {
@@ -1587,6 +1591,7 @@ equipment_modules = {
 			surface_visibility = 0.9
 			hg_attack = 13
 			max_strength = 50
+			reliability = -0.05
 			build_cost_ic = 950
 		}
 		multiply_stats = {
@@ -1616,6 +1621,7 @@ equipment_modules = {
 			surface_visibility = 1
 			hg_attack = 16
 			max_strength = 64
+			reliability = -0.07
 			build_cost_ic = 1050	
 		}
 		multiply_stats = {

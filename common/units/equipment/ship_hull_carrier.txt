@@ -26,12 +26,12 @@ equipments = {
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
-				allowed_module_categories = { ship_deck_space ship_deck_space_small }
+				allowed_module_categories = { ship_deck_space ship_deck_space_small ship_deck_space_reinforced }
 				gfx = ship_deck_space_slot
 			}
 			fixed_ship_deck_slot_2 = {
 				required = no
-				allowed_module_categories = { ship_deck_space ship_deck_space_small }
+				allowed_module_categories = { ship_deck_space ship_deck_space_small ship_deck_space_reinforced }
 				gfx = ship_deck_space_slot
 			}
 			fixed_ship_anti_air_slot = {
@@ -72,6 +72,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 					ship_secondaries
 					ship_dp_secondaries_bb
 				}
@@ -227,6 +228,7 @@ equipments = {
 					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 				}
 			}
 			mid_2_custom_slot = {
@@ -235,6 +237,7 @@ equipments = {
 					ship_secondaries
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 				}
 			}
 			rear_1_custom_slot = {
@@ -279,12 +282,12 @@ equipments = {
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
-				allowed_module_categories = { ship_deck_space ship_deck_space_small }
+				allowed_module_categories = { ship_deck_space ship_deck_space_small ship_deck_space_reinforced }
 				gfx = ship_deck_space_slot
 			}
 			fixed_ship_deck_slot_2 = {
 				required = no
-				allowed_module_categories = { ship_deck_space ship_deck_space_small }
+				allowed_module_categories = { ship_deck_space ship_deck_space_small ship_deck_space_reinforced }
 				gfx = ship_deck_space_slot
 			}
 			fixed_ship_anti_air_slot = {
@@ -320,6 +323,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 					ship_secondaries
 					ship_dp_secondaries_bb
 				}
@@ -329,6 +333,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 					ship_secondaries
 					ship_dp_secondaries_bb
 				}
@@ -369,6 +374,7 @@ equipments = {
 					ship_anti_air
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 				}
 			}
 			front_2_custom_slot = {
@@ -386,6 +392,7 @@ equipments = {
 					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 				}
 			}
 			mid_2_custom_slot = {
@@ -398,6 +405,7 @@ equipments = {
 					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 					carrier_miscellaneous
 					carrier_island
 				}
@@ -462,6 +470,7 @@ equipments = {
 					ship_anti_air
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 					carrier_helipad
 				}
 			}
@@ -480,6 +489,7 @@ equipments = {
 					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 					steam_catapult
 					carrier_side_lift
 					carrier_angled_deck
@@ -493,6 +503,7 @@ equipments = {
 					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
+					ship_deck_space_reinforced
 					steam_catapult
 					carrier_side_lift
 					carrier_angled_deck
@@ -680,11 +691,11 @@ equipments = {
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
-				allowed_module_categories = { ship_deck_space_big ship_deck_space }
+				allowed_module_categories = { ship_deck_space_reinforced ship_deck_space }
 			}
 			fixed_ship_deck_slot_2 = {
 				required = yes
-				allowed_module_categories = { ship_deck_space_big ship_deck_space }
+				allowed_module_categories = { ship_deck_space_reinforced ship_deck_space }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -729,7 +740,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries_bb
 					ship_deck_space
-					ship_deck_space_big
+					ship_deck_space_reinforced
 					steam_catapult
 					carrier_side_lift
 					carrier_angled_deck

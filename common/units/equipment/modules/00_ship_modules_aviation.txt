@@ -36,7 +36,8 @@ equipment_modules = {
 		}
 	}
 	ship_deck_space_armored = {
-		category = ship_deck_space
+		category = ship_deck_space_reinforced
+		gui_category = ship_deck_space
 
 		add_equipment_type = capital_ship
 		add_stats = {
@@ -59,6 +60,11 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1200
+		}
+		forbid_module_categories = {
+			ship_deck_space
+			ship_deck_space_small
+			ship_deck_space_converted
 		}
 	}
 	ship_deck_space_open = {
@@ -111,7 +117,7 @@ equipment_modules = {
 		dismantle_cost_ic = 400
 	}
 	ship_deck_space_big = {
-		category = ship_deck_space_big
+		category = ship_deck_space_reinforced
 		gui_category = ship_deck_space
 		add_equipment_type = capital_ship
 		add_stats = {
@@ -133,6 +139,11 @@ equipment_modules = {
 			surface_visibility = 0.05
 		}
 		dismantle_cost_ic = 1100
+		forbid_module_categories = {
+			ship_deck_space
+			ship_deck_space_small
+			ship_deck_space_converted
+		}
 	}
 	ship_deck_space_bb = {
 		category = ship_deck_space_bb
