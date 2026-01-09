@@ -43,6 +43,19 @@ critical_parts = {
 		max_damage_instance = -1
 	}
 	
+	damaged_missiles = {
+		icon = "GFX_default_critical_damage_icons"
+		frame = 2
+		stat_penalties = {
+			hg_attack = -0.33
+			lg_attack = -0.33
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = -1
+		str_damage = 25
+	}
+	
 	damaged_light_guns = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 3
