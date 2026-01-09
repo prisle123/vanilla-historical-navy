@@ -126,7 +126,7 @@ equipment_modules = {
 			max_organisation = -0.05
 			carrier_surface_detection = 5
 			carrier_sub_detection = 3
-			reliability = -0.05
+			reliability = -0.075
 			max_strength = 55
 			anti_air_attack = 3
 			supply_consumption = 0.025
@@ -322,26 +322,26 @@ equipment_modules = {
 		gfx = ship_airplane_launcher_3
 
 		add_stats = {
-			build_cost_ic = 1000
+			build_cost_ic = 700
 			max_organisation = 0.1
 		}
 		multiply_stats = {
 			anti_air_attack = 0.15
 		}
-		dismantle_cost_ic = 800
+		dismantle_cost_ic = 500
 	}
 	ship_ski_jump_ramp = {
 		category = steam_catapult
 		gui_category = modern_carrier_equipments
 
 		add_stats = {
-			build_cost_ic = 500
+			build_cost_ic = 400
 		}
 		multiply_stats = {
 			anti_air_attack = 0.1
 			surface_detection = 0.06
 		}
-		dismantle_cost_ic = 400
+		dismantle_cost_ic = 250
 	}
 
 	side_lift = {
@@ -350,14 +350,14 @@ equipment_modules = {
 		gfx = ship_side_lift
 
 		add_stats = {
-			build_cost_ic = 500
+			build_cost_ic = 350
 			max_organisation = 0.05
 		}
 		multiply_stats = {
 			anti_air_attack = 0.05
 		}
 
-		dismantle_cost_ic = 400
+		dismantle_cost_ic = 300
 	}
 
 	angled_deck = {
@@ -368,10 +368,10 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			max_organisation = 0.2
-			build_cost_ic = 2000
+			build_cost_ic = 1200
 		}
 
-		dismantle_cost_ic = 1250
+		dismantle_cost_ic = 1000
 	}
 
 
