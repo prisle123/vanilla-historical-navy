@@ -1287,6 +1287,9 @@ equipment_modules = {
     ship_cruiser_camo_1 = {
 		category = raider_kit
 		
+		add_stats = {
+			convoy_raiding_coordination = 0.05
+		}
 		multiply_stats = {
 			surface_visibility = -0.05
 			build_cost_ic = 0.02
@@ -1299,6 +1302,9 @@ equipment_modules = {
 	ship_cruiser_camo_2 = {
 		category = raider_kit
 		
+		add_stats = {
+			convoy_raiding_coordination = 0.1
+		}
 		multiply_stats = {
 			lg_attack = -0.2
 			lg_armor_piercing = -0.2

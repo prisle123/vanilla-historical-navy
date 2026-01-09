@@ -148,6 +148,7 @@ equipment_modules = {
 			surface_visibility = -0.01
 		}
 		dismantle_cost_ic = 400
+		critical_parts = { damaged_aa_missiles }
 	}
 	ship_missile_aa_2 = {
 		category = ship_missile_aa
@@ -169,6 +170,7 @@ equipment_modules = {
 			surface_visibility = -0.015
 		}
 		dismantle_cost_ic = 600
+		critical_parts = { damaged_aa_missiles }
 	}
 
 
@@ -1265,6 +1267,7 @@ equipment_modules = {
 		category = submarine_miscellaneous
 		add_stats = {
 			build_cost_ic = 200
+			convoy_raiding_coordination = 0.1
 		}
 		multiply_stats = {
 			surface_detection = 0.1

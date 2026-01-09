@@ -33,6 +33,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 100
 			surface_detection = 5
+			fuel_consumption = 0.5
 		}
 	}
 	ship_radar_2 = {
@@ -47,6 +48,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 130
 			surface_detection = 7
+			fuel_consumption = 1
 		}
 		
 		can_convert_from = {
@@ -66,6 +68,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 12
 			build_cost_ic = 160
+			fuel_consumption = 1.5
 		}
 		can_convert_from = {
 			module = ship_radar_2
@@ -88,6 +91,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 190
 			surface_detection = 18
+			fuel_consumption = 2
 		}
 		can_convert_from = {
 			module = ship_radar_3
@@ -108,7 +112,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 600
-			surface_detection = 30
+			surface_detection = 25
+			fuel_consumption = 2.5
 		}
 		can_convert_from = {
 			module_category = ship_radar
@@ -222,7 +227,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			anti_air_attack = 0.3
-			surface_detection = 0.05
+			surface_detection = 0.025
 		}
 		can_convert_from = {
 			module = ship_fire_control_system_3
@@ -248,7 +253,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			anti_air_attack = 0.3
-			surface_detection = 0.075
+			surface_detection = 0.05
 			surface_visibility = -0.05
 		}
 		can_convert_from = {

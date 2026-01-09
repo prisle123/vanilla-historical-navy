@@ -2399,6 +2399,7 @@ equipment_modules = {
 		}
 		xp_cost = 5
 		dismantle_cost_ic = 600
+		critical_parts = { damaged_missiles }
 	}
 	ship_missile_2 = {
 		category = ship_missile
@@ -2424,6 +2425,7 @@ equipment_modules = {
 		}
 		xp_cost = 8
 		dismantle_cost_ic = 950
+		critical_parts = { damaged_missiles }
 	}
 	ship_cruise_missile_1 = {
 		category = ship_missile
@@ -2441,6 +2443,7 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		dismantle_cost_ic = 600
+		critical_parts = { damaged_missiles }
 	}
 	ship_cruise_missile_sub_1 = {
 		category = ship_sub_missile

@@ -21,10 +21,11 @@ equipment_modules = {
 	}
 	ship_hull_light_role_dl = {
     	category = dd_role
+		add_stats = {
+			patrol_coordination = 0.1
+		}
     	multiply_stats = {
-        	lg_attack = 0.1
-        	lg_armor_piercing = 0.1
-        	max_strength = 0.1
+        	max_strength = 0.15
 			naval_range = 0.2
 			surface_visibility = 0.25
         	build_cost_ic = 0.15
@@ -39,6 +40,9 @@ equipment_modules = {
 	}
 	ship_hull_light_role_de = {
     	category = dd_role
+		add_stats = {
+			patrol_coordination = -0.1
+		}
     	multiply_stats = {
 	        lg_attack = -0.1
     	    max_strength = -0.05
@@ -59,6 +63,9 @@ equipment_modules = {
 	}
 	ship_hull_light_role_ff = {
     	category = dd_role
+		add_stats = {
+			patrol_coordination = -0.2
+		}
     	multiply_stats = {
 	        lg_attack = -0.15
 			lg_armor_piercing = -0.1
@@ -83,6 +90,7 @@ equipment_modules = {
     	category = dd_role
 		add_stats = {
 			armor_value = 6
+			patrol_coordination = 0.15
 		}
     	multiply_stats = {
         	max_strength = 0.2
@@ -250,6 +258,7 @@ equipment_modules = {
 		category = c_role
 		add_stats = {
 			naval_heavy_gun_hit_chance_factor = -0.75
+			convoy_raiding_coordination = 0.1
 		}
 		multiply_stats = {
 			lg_attack = -0.15
