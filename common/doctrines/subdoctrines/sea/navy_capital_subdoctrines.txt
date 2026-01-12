@@ -8,6 +8,10 @@ fast_battleship_primacy = {
     xp_type = navy
 
     available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_base_strike
+        }
         has_navy_size = {
             archetype = ship_hull_heavy
             size > 3
@@ -115,6 +119,10 @@ battlecruiser_supremacy = {
     xp_type = navy
 
     available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_convoy_raiding
+        }
         has_navy_size = {
             unit = battle_cruiser
             size > 1
@@ -235,6 +243,10 @@ armored_raiders = {
     xp_type = navy
 
     available = {
+        OR = {
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_littoral_defense
+        }
         has_navy_size = {
             archetype = ship_hull_heavy
             size > 0
@@ -345,6 +357,14 @@ coastal_defence_fleet = {
     xp_cost = 50
     xp_type = navy
 
+    available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_littoral_defense
+            has_doctrine = new_convoy_raiding
+        }
+    }
+
     ai_will_do = {
         factor = 0.5
     }
@@ -411,6 +431,10 @@ naval_gunfire_support = {
 
     visible = {
         has_dlc = "No Compromise, No Surrender"
+    }
+
+    available = {
+        has_doctrine = new_fleet_in_being
     }
 
     ai_will_do = {
@@ -488,6 +512,7 @@ battleship_antiair_screen = {
     xp_type = navy
 
     available = {
+        has_doctrine = new_base_strike
         has_navy_size = {
             archetype = ship_hull_heavy
             size > 3

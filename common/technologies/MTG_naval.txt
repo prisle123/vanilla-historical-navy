@@ -6355,6 +6355,15 @@ technologies = {
 		start_year = 1918
 	}
 
+	auxiliary_submarine_tech = {
+		allow = {
+			always = no
+		}
+		enable_equipment_modules = {}
+		research_cost = 1
+		start_year = 1920
+	}
+
 	obsolete_vanilla_hulls = {
 		enable_equipments = {
 			ship_hull_light_1

@@ -8,6 +8,11 @@ convoy_escort = {
     xp_type = navy
 
     available = {
+		OR = {
+			has_doctrine = new_fleet_in_being
+			has_doctrine = new_base_strike
+			has_doctrine = new_littoral_defense
+		}
         has_navy_size = {
 			type = screen_ship
 			size > 9
@@ -86,6 +91,11 @@ support_integrated_operations = {
     xp_type = navy
 
     available = {
+		OR = {
+			has_doctrine = new_fleet_in_being
+			has_doctrine = new_base_strike
+			has_doctrine = new_convoy_raiding
+		}
         has_navy_size = {
 			unit = light_cruiser
 			size > 3
@@ -175,6 +185,10 @@ hunter_killers = {
     xp_type = navy
 
     available = {
+		OR = {
+			has_doctrine = new_fleet_in_being
+			has_doctrine = new_base_strike
+		}
 		has_navy_size = {
 			type = screen_ship
 			size > 9
@@ -257,6 +271,11 @@ torpedo_primacy = {
         }
     }
     available = {
+		OR = {
+			has_doctrine = new_fleet_in_being
+			has_doctrine = new_base_strike
+			has_doctrine = new_littoral_defense
+		}
    		has_navy_size = {
 			type = screen_ship
 			size > 9
@@ -312,6 +331,10 @@ jeune_ecole = {
     xp_type = navy
 
     available = {
+		OR = {
+			has_doctrine = new_convoy_raiding
+			has_doctrine = new_littoral_defense
+		}
     	has_navy_size = {
 			type = screen_ship
 			size > 9
@@ -364,4 +387,75 @@ jeune_ecole = {
 			}
     	}
     }
+}
+
+mosquito_fleet = {
+	track = screens
+    name = SUBDOCTRINE_SCREEN_MOSQUITO_FLEET
+    description = SUBDOCTRINE_SCREEN_MOSQUITO_FLEET_DESC
+    icon = GFX_doctrine_mosquito_fleet_medium
+
+    xp_cost = 25
+    xp_type = navy
+
+	available = {
+		has_doctrine = new_littoral_defense
+		has_tech = basic_torpedo
+	}
+	ai_will_do = {
+		factor = 0
+	}
+
+	screening_efficiency = -0.50
+	equipment_bonus = {
+		ship_hull_light = {
+			build_cost_ic = -0.15
+			instant = yes
+		}
+	}
+	
+	rewards = {
+		concealment_measure = {
+			destroyer = {
+				surface_visibility = -0.1
+				max_organisation = -10
+				lg_attack = -0.5
+			}
+		}
+		mini_hull = {
+			equipment_bonus = {
+				ship_hull_light = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+			destroyer = {
+				max_strength = -0.5
+				max_organisation = -10
+				fuel_consumption = -0.25
+			}
+		}
+		high_speed_maneuver = {
+			modifier = {
+				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+				naval_retreat_speed_after_initial_combat = 0.25
+			}
+		}
+		echelon_salvo = {
+			destroyer = {
+				naval_torpedo_hit_chance_factor = 0.1
+				torpedo_attack = 0.1
+			}
+			destroyer = {
+				max_organisation = -10
+			}
+		}
+		swarm_attack = {
+			modifier = {
+				ships_at_battle_start = 0.25
+				naval_torpedo_cooldown_factor = -0.25
+				screening_efficiency = -0.25
+			}
+		}
+	}
 }

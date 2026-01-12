@@ -958,16 +958,28 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 700
 	}
+	ship_extra_fuel_tank_large = {
+		category = ship_extra_fuel_tank
+		
+		add_stats = {
+			naval_range = 2000
+			reliability = -0.05
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1
+		}
+		dismantle_cost_ic = 1000
+	}
     fuel_tanker_silo = {
 		category = ship_auxiliary
 		gfx = ship_extra_fuel_tank
 		add_stats = {
 			naval_range = 2000
 			build_cost_ic = 250
+			reliability = -0.05
 		}
 		multiply_stats = {
 			naval_speed = -0.05
-			reliability = -0.05
 		}
 	}
 	dry_cargo_storage = {
@@ -976,17 +988,12 @@ equipment_modules = {
 			naval_range = 1000
 			build_cost_ic = 100
 		}
-		multiply_stats = {
-			reliability = 0.05
-		}
 	}
 	shipping_container = {
 		category = ship_auxiliary
 		add_stats = {
 			naval_range = 1000
 			build_cost_ic = 10
-		}
-		multiply_stats = {
 			reliability = 0.05
 		}
 	}
@@ -1368,8 +1375,10 @@ equipment_modules = {
 	structural_aluminum = {
 		category = generic_miscellaneous
 		gui_category = cold_war_miscellaneous
-		multiply_stats = {
+		add_stats = {
 			reliability = -0.1
+		}
+		multiply_stats = {
 			armor_value = -1
 			max_strength = -0.3
 			naval_speed = 0.3

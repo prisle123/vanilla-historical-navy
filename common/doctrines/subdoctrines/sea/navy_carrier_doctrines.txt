@@ -16,6 +16,7 @@ carrier_battlegroups = {
     }
 
     available = {
+        has_doctrine = new_base_strike
         has_tech = aviation_dawn
         has_navy_size = {
             unit = carrier
@@ -88,6 +89,10 @@ floating_airfields = {
     xp_type = navy
 
     available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_base_strike
+        }
         has_tech = aviation_dawn
         has_navy_size = {
             unit = carrier
@@ -125,7 +130,12 @@ floating_airfields = {
        enclosed_hangar = {
 			carrier = {
                 max_organisation = 10
-                reliability = 0.1
+            }
+            equipment_bonus = {
+                carrier = {
+                    reliability = 0.1
+                    instant = yes
+                }
             }
 	   }
 	   fleet_antiair = {
@@ -163,6 +173,11 @@ subsidiary_carrier_support = {
     xp_type = navy
 
     available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_littoral_defense
+        }
         has_tech = early_ship_hull_carrier
         has_navy_size = {
             unit = carrier
@@ -229,6 +244,7 @@ carrier_concentration = {
         }
     }
     available = {
+        has_doctrine = new_base_strike
         has_tech = aviation_dawn
         has_navy_size = {
             unit = carrier
@@ -242,12 +258,12 @@ carrier_concentration = {
     rewards = {
     	deep_operative_support = {
     		carrier = {
-    			reliability = 0.1
                 supply_consumption = -0.05
     		}
             equipment_bonus = {
                 carrier = {
                     naval_range = 0.2
+                    reliability = 0.1
                     instant = yes
                 }
             }
@@ -301,6 +317,11 @@ naval_airfoce = {
         base = 0
     }
     available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_littoral_defense
+        }
         has_tech = early_ship_hull_carrier
     }
 
@@ -350,6 +371,75 @@ naval_airfoce = {
         }
         categories = {
             category_nav_bomber
+        }
+    }
+}
+
+airspace_denial = {
+    track = carriers
+    name = SUBDOCTRINE_AIRSPACE_DENIAL
+    description = SUBDOCTRINE_AIRSPACE_DENIAL_DESC
+    icon = GFX_doctrine_airspace_denial_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    ai_will_do = { 
+        base = 0
+    }
+    available = {
+        OR = {
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_littoral_defense
+        }
+        has_navy_size = {
+            type = carrier
+            size > 0
+        }
+    }
+
+    carrier = {
+        anti_air_attack = 0.1
+    }
+    equipment_bonus = {
+        carrier = {
+            instant = yes
+            naval_range = -0.15
+        }
+    }
+
+    rewards = {
+        scout_carrier = {
+            carrier = {
+                carrier_surface_detection = 0.1
+                carrier_sub_detection = 0.1
+            }
+        }
+        airspace_competition = {
+            modifier = {
+                fighter_sortie_efficiency = 0.1
+                navy_carrier_air_attack_factor = 0.1
+            }
+        }
+        core_of_seapower = {
+            carrier = {
+                max_organisation = 10
+            }
+            modifier = {
+                naval_morale_factor = 0.1
+            }
+        } 
+        land_based_support = {
+    		category_nav_bomber = {
+                air_range = 0.25
+                naval_strike_attack = 0.05
+            }
+    	}
+        land_sea_coordination = {
+            modifier = {
+                port_strike = 0.2
+                air_nav_efficiency = 0.1
+            }
         }
     }
 }

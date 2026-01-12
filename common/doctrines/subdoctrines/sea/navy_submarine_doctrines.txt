@@ -8,6 +8,7 @@ wolfpacks = {
     xp_type = navy
 
     available = {
+        has_doctrine = new_convoy_raiding
         has_navy_size = {
             type = submarine
             size > 9
@@ -48,9 +49,14 @@ wolfpacks = {
 		}
 		improvisation = {
 			submarine = {
-				reliability = 0.1
 				max_organisation = 10
 			}
+            equipment_bonus = {
+                submarine = {
+                    reliability = 0.1
+                    instant = yes
+                }
+            }
             sub_retreat_speed = 0.1
 		}
         rough_weather_procedure = {
@@ -80,6 +86,10 @@ submarine_fleet_operations = {
     xp_type = navy
 
     available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_base_strike
+        }
         has_navy_size = {
             type = submarine
             size > 9
@@ -162,6 +172,10 @@ capital_hunters = {
         }
     }
     available = {
+        OR = {
+            has_doctrine = new_base_strike
+            has_doctrine = new_fleet_in_being
+        }
         has_navy_size = {
             type = submarine
             size > 9
@@ -216,6 +230,7 @@ submarine_coastal_defense = {
     }
 
     available = {
+        has_doctrine = new_littoral_defense
         has_navy_size = {
             type = submarine
             size > 0
@@ -288,6 +303,10 @@ submarine_area_denial = {
     icon = GFX_doctrine_submarine_area_denial_medium
 
     available = {
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_littoral_defense
+        }
         has_navy_size = {
             type = submarine
             size > 9
@@ -346,6 +365,76 @@ submarine_area_denial = {
             modifier = {
                 sub_retreat_speed = 0.3
                 navy_submarine_attack_factor = -0.15
+            }
+        }
+    }
+}
+
+operation_autonomy = {
+    track = submarines
+    name = SUBDOCTRINE_SUBMARINE_OPERATION_AUTONOMY
+    description = SUBDOCTRINE_SUBMARINE_OPERATION_AUTONOMY_DESC
+    icon = GFX_doctrine_undersea_blockade_medium
+
+    xp_cost = 100
+    xp_type = navy
+    ai_will_do = {
+        base = 0
+    }
+
+    available = {
+        OR = {
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_base_strike
+        }
+        has_navy_size = {
+            type = submarine
+            size > 0
+        }
+    }
+
+    equipment_bonus = {
+        submarine = {
+            naval_range = 0.25
+            instant = yes
+        }
+    }
+    rewards = {
+        leadership_autonomy = {
+            submarine = {
+                max_organisation = 5
+                convoy_raiding_coordination = 0.05
+            }
+        }
+        disguised_submarine_tender = {
+            auxiliary_ship = {
+                surface_visibility = -0.1
+            }
+            modifier = {
+                sub_retreat_speed = 0.1
+            }
+        }
+        radio_silence = {
+            submarine = {
+                surface_detection = -0.15
+                sub_visibility = -0.1
+            }
+        }
+        submarine_kampfgruppe = {
+            submarine = {
+                max_organisation = 5
+                convoy_raiding_coordination = 0.1
+            }
+        }
+        auxiliary_submarine = {
+            effect = {
+                set_technology = { auxiliary_submarine_tech = 1 }
+            }
+            equipment_bonus = {
+                submarine = {
+                    reliability = 0.1
+                    instant = yes
+                }
             }
         }
     }
