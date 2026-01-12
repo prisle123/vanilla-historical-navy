@@ -143,7 +143,6 @@ NDefines.NNavy.SPOTTING_MULTIPLIER_FOR_SUB = 0.9   -- task force sub spotting va
 NDefines.NNavy.EXPERIENCE_FACTOR_CONVOY_ATTACK = 0.05   -- xp from attacking convoys (was 0.04)
 NDefines.NNavy.TRAINING_DAILY_COUNTRY_EXP_FACTOR = 0.005   -- Factor used to scale the Daily Country Navy XP gain from training (was 0.001)
 NDefines.NNavy.TRAINING_MAX_DAILY_COUNTRY_EXP = 1   -- Maximum army XP gained per day from training (was 1)
-NDefines.NNavy.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 5   -- Unit xp gain per combat hour (was 10)
 NDefines.NNavy.UNIT_EXPERIENCE_SCALE = 0.8   -- total unit xp factor (was 1)
 
 
