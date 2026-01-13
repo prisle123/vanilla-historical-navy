@@ -213,18 +213,91 @@ Naval Aviation
 Surface Fleet
 - Fast Battleship Primacy
 - Specialized Scouting Fleet
+- Coastal Defense Fleet
+- Monitor Support
+
+Escort Force
+- Convoy Escort
+- Integrated Operations
+- Hunter Killer Groups
+- Torpedo Primacy
+
+Submarine Flotilla
+- Fleet Operations
+- Capital Hunters
+- Covert Denial
 
 **Commerce Raiding**
 
 For countries with ambitions to dominate seven seas, *Commerce Raiding* may not be the top pick as it offers limited improvements to surface ships. However, it has potential to salvage the underdog. Submarine is the most benefited ship with convoy raiding rewards from the strategy, promoting your ability to harrass stronger powers in their soft spots.
 
+Naval Aviation
+- Floating Airfields
+- Subsidiary Carrier Support
+- Naval Airforce
+- Airspace Denial
+
+Surface Fleet
+- Specialized Scouting Fleet
+- Armored Raiders
+- Coastal Defense Fleet
+
+Escort Force
+- Convoy Escort
+- Integrated Operations
+- The New School
+
+Submarine Flotilla
+- Wolfpacks
+- Covert Denial
+- Operational Autonomy
+
 **Air-Sea Operation**
 
 If you are patient enough, *Air-Sea Operation* will give you ample rewards better than any other strategies when fully mastered. The only problem is that it has a relatively weak start. To unleash the power of this strategy, you will need a massive carrier fleet and strong industrial power, which can only be achieved by few countries in the game.
 
+Naval Aviation
+- Carrier Taskforce
+- Floating Airfields
+- Carrier Concentration
+- Airspace Denial
+
+Surface Fleet
+- Fast Battleship Primacy
+- Taskforce Guardian
+
+Escort Force
+- Convoy Escort
+- Integrated Operations
+- Hunter Killer Groups
+- Torpedo Primacy
+
+Submarine Flotilla
+- Fleet Operations
+- Capital Hunters
+- Operational Autonomy
+
 **Littoral Defense**
 
 *Littoral Defense* is a strategy designed for countries with weak or close to none navy to protect their coastlines. Subdoctrines attached to this strategy are usually cheaper in xp usage, but give inadequate bonuses to limited types of ships.
+
+Naval Aviation
+- Subsidiary Carrier Support
+- Naval Airforce
+
+Surface Fleet
+- Armored Raiders
+- Coastal Defense Fleet
+- Monitor Support
+
+Escort Force
+- Torpedo Primacy
+- The New School
+- Mosquito Fleet
+
+Submarine Flotilla
+- Coastal Defense
+- Covert Denial
 
 ### Sub Doctrine - Carrier ###
 
@@ -247,6 +320,10 @@ For people who don't believe in air power, this doctrine depicts another possibi
 **Naval Airforce**
 
 Contrary to prior ones, this is the most radical doctrines among all, stressing land-based naval bombers more than anything else, but weaker on usage of carriers compared to others. This can be an interesting but unstable option to explore.
+
+**Airspace Denial**
+
+Often used by underdog with a rather weaker carrier fleet, this strategy combines parts of dedicated carrier doctrines with land-based support doctrines, which it should work well for those who looks to establish area denial capabilities at doorstep instead of projecting influence overseas.
 
 ### Sub Doctrine - Battle Line ###
 
@@ -296,6 +373,10 @@ This is an authentic USN strategy adopted during WWII, which makes screen ships 
 
 *The New School*, or *Jeune Ecole* in French, was a doctrine developed with the advent of torpedo in reality. In the mod, it also emphasizes the importance of torpedo attacks but inferior to Japanese practice. Instead, it is the only doctrine enabling screen ship convoy raiding with dedicated bonuses, mixed with other rewards on coastal defense and mine warfare.
 
+**Mosquito Fleet**
+
+Once you choose this branch, you completely give up regular fleet in result of range and org debuffs from this doctrine. Its bonuses are centered around reduced cost and torpedo attacks, while eliminating your screening efficiency to non-existence.
+
 ### Sub Doctrine - Submarine ###
 
 **Wolfpacks**
@@ -314,7 +395,7 @@ Another Japanese-style doctrine that buffs torpedo more than the equipment itsel
 
 As its name suggests, the doctrine gives moderate and balanced bonuses on submarines at the cost of max range.
 
-**Area Defense**
+**Covert Denial**
 
 A unique double-edge-sword type of doctrine that offers reduction of visibility at great cost of HP and combat capabilities.
 
