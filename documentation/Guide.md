@@ -194,13 +194,25 @@ As for fuel branch, its research cost is insignificant with little bonus, making
 
 ## Doctrine Tree ##
 
-With doctrines totally overhauled in NCNS update, previous VNR doctrines are also reworked to fit in the grand-sub strategy system. Some doctrines from vanilla are removed or merged into others to create more condensed doctrine tree. Grand strategy sets the tone for your entire navy experience and thus has to be chosen wisely based on the fleet you have or plan to build. After that, you can choose subdoctrines for four tracks: carrier, capital ship, screen ship, and submarine. Typically, there are five levels of mastery on each subdoctrine, providing different bonuses (or debuffs) when mastery is achieved, and it also unlocks special bonuses with a track completed.
+With doctrines totally overhauled in NCNS update, previous VNR doctrines are also reworked to fit in the grand-sub strategy system. Some doctrines from vanilla are removed or merged into others to create more condensed doctrine tree. Grand strategy sets the tone for your entire navy experience and thus it has to be chosen wisely based on the fleet you have or plan to build. After that, you can choose subdoctrines, corresponding to different grand strategies, for four tracks: Naval Aviation, Surface Fleet, Escort Force, and Submarine Flotilla. Typically, there are five levels of mastery on each subdoctrine, providing different bonuses (or debuffs) when mastery is achieved, and it also unlocks special bonuses with a track completed.
 
 ### Grand Strategy ###
 
 **Decisive Battle**
 
 *Decisive battle* strategy offers a quick start and the best fleet operation bonuses among all. Historically, it was adopted by many major powers in the 1910s which aims at building a fleet around capable battleships, by consolidating formation trainings. The most important bonus of *Decisive Battle* is the positioning bonus that allows you to operate a bigger fleet without penalty.
+
+Unlocks following doctrines:
+
+Naval Aviation
+- Floating Airfields
+- Subsidiary Carrier Support
+- Naval Airforce
+- Airspace Denial
+
+Surface Fleet
+- Fast Battleship Primacy
+- Specialized Scouting Fleet
 
 **Commerce Raiding**
 
@@ -209,6 +221,10 @@ For countries with ambitions to dominate seven seas, *Commerce Raiding* may not 
 **Air-Sea Operation**
 
 If you are patient enough, *Air-Sea Operation* will give you ample rewards better than any other strategies when fully mastered. The only problem is that it has a relatively weak start. To unleash the power of this strategy, you will need a massive carrier fleet and strong industrial power, which can only be achieved by few countries in the game.
+
+**Littoral Defense**
+
+*Littoral Defense* is a strategy designed for countries with weak or close to none navy to protect their coastlines. Subdoctrines attached to this strategy are usually cheaper in xp usage, but give inadequate bonuses to limited types of ships.
 
 ### Sub Doctrine - Carrier ###
 
