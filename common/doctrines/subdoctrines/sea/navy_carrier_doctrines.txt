@@ -92,6 +92,7 @@ floating_airfields = {
         OR = {
             has_doctrine = new_fleet_in_being
             has_doctrine = new_base_strike
+            has_doctrine = new_convoy_raiding
         }
         has_tech = aviation_dawn
         has_navy_size = {
@@ -389,8 +390,9 @@ airspace_denial = {
     }
     available = {
         OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_base_strike
             has_doctrine = new_convoy_raiding
-            has_doctrine = new_littoral_defense
         }
         has_navy_size = {
             type = carrier

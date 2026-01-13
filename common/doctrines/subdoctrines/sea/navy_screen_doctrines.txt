@@ -11,7 +11,7 @@ convoy_escort = {
 		OR = {
 			has_doctrine = new_fleet_in_being
 			has_doctrine = new_base_strike
-			has_doctrine = new_littoral_defense
+			has_doctrine = new_convoy_raiding
 		}
         has_navy_size = {
 			type = screen_ship

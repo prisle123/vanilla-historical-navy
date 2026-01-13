@@ -434,7 +434,10 @@ naval_gunfire_support = {
     }
 
     available = {
-        has_doctrine = new_fleet_in_being
+        OR = {
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_littoral_defense
+        }
     }
 
     ai_will_do = {

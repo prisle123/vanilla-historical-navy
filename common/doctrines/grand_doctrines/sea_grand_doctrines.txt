@@ -26,6 +26,9 @@ new_fleet_in_being = {
     }
 
     # EFFECTS
+    effect = {
+        custom_effect_tooltip = new_fleet_in_being_sub_tt
+    }
     SH_battleship = {
         max_organisation = 5
     }
@@ -155,7 +158,9 @@ new_convoy_raiding = {
 
     # EFFECTS
 	
-	
+	effect = {
+        custom_effect_tooltip = new_convoy_raiding_sub_tt
+    }
 	submarine = {
 		max_organisation = 10
 		surface_detection = 0.05
@@ -272,7 +277,9 @@ new_base_strike = {
 
     # EFFECTS
 	
-	
+	effect = {
+        custom_effect_tooltip = new_base_strike_sub_tt
+    }
 	carrier = {
 		max_organisation = 10
 	}
@@ -386,7 +393,9 @@ new_littoral_defense = {
     }
 
     # EFFECTS
-	
+	effect = {
+        custom_effect_tooltip = new_littoral_defense_sub_tt
+    }
 	navy_max_range_factor = -0.5
     navy_visibility = -0.1
 	

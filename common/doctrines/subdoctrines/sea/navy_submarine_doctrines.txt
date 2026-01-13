@@ -305,6 +305,7 @@ submarine_area_denial = {
     available = {
         OR = {
             has_doctrine = new_fleet_in_being
+            has_doctrine = new_convoy_raiding
             has_doctrine = new_littoral_defense
         }
         has_navy_size = {
