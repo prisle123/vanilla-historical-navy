@@ -370,7 +370,12 @@ coastal_defence_fleet = {
     }
 
 	naval_supply_consumption_factor = -0.15
-	navy_max_range_factor = -0.25
+	equipment_bonus = {
+        capital_ship = {
+            instant = yes
+            naval_range = -0.15
+        }
+    }
 
     rewards = {
         mixed_squad = {
@@ -408,7 +413,6 @@ coastal_defence_fleet = {
             modifier = {
 				mines_planting_by_fleets_factor = 0.1
                 screening_without_screens = 0.05
-                navy_max_range_factor = -0.1
 			}
         }
         spare_part_logistics = {

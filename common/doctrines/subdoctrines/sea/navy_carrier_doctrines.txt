@@ -170,7 +170,7 @@ subsidiary_carrier_support = {
     description = SUBDOCTRINE_SUBSIDIARY_CARRIER_SUPPORT_DESC
     icon = GFX_doctrine_escort_carriers_medium
 
-    xp_cost = 75
+    xp_cost = 50
     xp_type = navy
 
     available = {
@@ -197,7 +197,12 @@ subsidiary_carrier_support = {
         carrier_surface_detection = 0.1
         surface_visibility = -0.1
     }
-    sortie_efficiency = -0.1
+    equipment_bonus = {
+        carrier = {
+            naval_range = -0.2
+            instant = yes
+        }
+    }
 
     rewards = {
     	evasive_convoy_maneuvers = {
@@ -440,6 +445,8 @@ airspace_denial = {
         land_sea_coordination = {
             modifier = {
                 port_strike = 0.2
+            }
+            category_nav_bomber = {
                 air_nav_efficiency = 0.1
             }
         }

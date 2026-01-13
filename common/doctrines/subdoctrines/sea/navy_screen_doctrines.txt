@@ -438,7 +438,7 @@ mosquito_fleet = {
 		high_speed_maneuver = {
 			modifier = {
 				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
-				naval_retreat_speed_after_initial_combat = 0.25
+				naval_retreat_speed = 0.25
 			}
 		}
 		echelon_salvo = {
@@ -448,6 +448,9 @@ mosquito_fleet = {
 			}
 			destroyer = {
 				max_organisation = -10
+			}
+			modifier = {
+				naval_retreat_chance = 0.15
 			}
 		}
 		swarm_attack = {
