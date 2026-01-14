@@ -418,7 +418,7 @@ naval_unit_role_ratios_GER_prewar_late = {
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 35
+		value = 25
 	}
 }
 
@@ -612,11 +612,6 @@ naval_unit_role_ratios_GER_atwar_No_Naval_Competitor = {
 		id = vnr_naval_carrier
 		value = 20
 	}
-
-	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 30
-	}
 }
 
 naval_unit_role_ratios_GER_late_peace = {
@@ -698,7 +693,7 @@ naval_unit_role_ratios_ENG_prewar_early = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 200
+		value = 300
 	}
 
 	ai_strategy = {
@@ -719,8 +714,9 @@ naval_unit_role_ratios_ENG_prewar_early = {
 		value = -30
 	}
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 100
+		type = building_target
+		id = dockyard
+		value = 30
 	}
 }
 
@@ -772,8 +768,9 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	}
 
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 150
+		type = building_target
+		id = dockyard
+		value = 45
 	}
 }
 
@@ -823,8 +820,9 @@ naval_unit_role_ratios_ENG_atwar = {
 	}
 
 	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 180
+		type = building_target
+		id = dockyard
+		value = 55
 	}
 }
 
