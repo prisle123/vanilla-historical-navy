@@ -489,12 +489,6 @@ makeup_starting_techs = {
 		}
 	}
     every_country = {
-        set_technology = {
-            vnr_less_fuel_consumption = 1
-            popup = no
-        }
-    }
-    every_country = {
         limit = { has_tech = mtg_transport }
         set_technology = {
             naval_combat_support = 1
