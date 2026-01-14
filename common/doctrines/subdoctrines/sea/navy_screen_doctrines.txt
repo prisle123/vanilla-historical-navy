@@ -421,6 +421,9 @@ mosquito_fleet = {
 				max_organisation = -10
 				lg_attack = -0.5
 			}
+			modifier = {
+				naval_torpedo_screen_penetration_factor = 0.1
+			}
 		}
 		mini_hull = {
 			equipment_bonus = {
