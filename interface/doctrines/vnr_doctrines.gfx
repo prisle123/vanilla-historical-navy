@@ -1,5 +1,10 @@
 spriteTypes = {	
 	spriteType = {
+		name = "GFX_doctrine_base_strike_medium"
+		textureFile = "gfx/interface/doctrines/icons/air_sea_operation.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_doctrine_fast_battleship_primacy_medium"
 		textureFile = "gfx/interface/doctrines/icons/fast_battleship_primacy.png"
 		alwaystransparent = yes
