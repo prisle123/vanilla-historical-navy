@@ -417,7 +417,7 @@ mosquito_fleet = {
 	rewards = {
 		concealment_measure = {
 			destroyer = {
-				surface_visibility = -0.1
+				surface_visibility = -0.15
 				max_organisation = -10
 				lg_attack = -0.5
 			}
@@ -460,6 +460,7 @@ mosquito_fleet = {
 			modifier = {
 				ships_at_battle_start = 0.25
 				naval_torpedo_cooldown_factor = -0.25
+				naval_torpedo_screen_penetration_factor = 0.1
 				screening_efficiency = -0.25
 			}
 		}

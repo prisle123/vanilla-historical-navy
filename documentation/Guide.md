@@ -231,6 +231,8 @@ Submarine Flotilla
 
 For countries with ambitions to dominate seven seas, *Commerce Raiding* may not be the top pick as it offers limited improvements to surface ships. However, it has potential to salvage the underdog. Submarine is the most benefited ship with convoy raiding rewards from the strategy, promoting your ability to harrass stronger powers in their soft spots.
 
+Unlocks following doctrines:
+
 Naval Aviation
 - Floating Airfields
 - Subsidiary Carrier Support
@@ -256,6 +258,8 @@ Submarine Flotilla
 
 If you are patient enough, *Air-Sea Operation* will give you ample rewards better than any other strategies when fully mastered. The only problem is that it has a relatively weak start. To unleash the power of this strategy, you will need a massive carrier fleet and strong industrial power, which can only be achieved by few countries in the game.
 
+Unlocks following doctrines:
+
 Naval Aviation
 - Carrier Taskforce
 - Floating Airfields
@@ -264,6 +268,7 @@ Naval Aviation
 
 Surface Fleet
 - Fast Battleship Primacy
+- Specialized Scouting Fleet
 - Taskforce Guardian
 
 Escort Force
@@ -280,6 +285,8 @@ Submarine Flotilla
 **Littoral Defense**
 
 *Littoral Defense* is a strategy designed for countries with weak or close to none navy to protect their coastlines. Subdoctrines attached to this strategy are usually cheaper in xp usage, but give inadequate bonuses to limited types of ships.
+
+Unlocks following doctrines:
 
 Naval Aviation
 - Subsidiary Carrier Support

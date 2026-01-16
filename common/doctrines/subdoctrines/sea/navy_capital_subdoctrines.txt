@@ -122,6 +122,7 @@ battlecruiser_supremacy = {
         OR = {
             has_doctrine = new_fleet_in_being
             has_doctrine = new_convoy_raiding
+            has_doctrine = new_base_strike
         }
         has_navy_size = {
             unit = battle_cruiser

@@ -4254,6 +4254,7 @@ technologies = {
 			ship_armor_carrier_1
 			ship_armor_carrier_heavy_1
 		}
+		sortie_efficiency = 0.1
 
 		path = {
 			leads_to_tech = basic_ship_hull_carrier
@@ -4318,6 +4319,7 @@ technologies = {
 			ship_armor_carrier_2
 			ship_armor_carrier_heavy_2
 		}
+		sortie_efficiency = 0.1
 		path = {
 			leads_to_tech = dive_bomber_study
 			research_cost_coeff = 1
@@ -4546,9 +4548,6 @@ technologies = {
 		start_year = 1925
 
 		air_accidents_factor = -0.05
-		carrier = {
-			reliability = 0.05
-		}
 		enable_equipment_modules = {
 			carrier_aviation_control_unit
 		}
@@ -4607,6 +4606,9 @@ technologies = {
 	}
 
 	aviation_dawn = {
+		allow = {
+			has_subdoctrine_in_track = carriers
+		}
 		research_cost = 2
 		start_year = 1932
 
@@ -4616,8 +4618,8 @@ technologies = {
 
 		experience_gain_carrier_training_factor = 0.1
 		experience_gain_carrier_combat_factor = 0.1
-		carriers_track_mastery_gain_factor = 0.1
 		ship_hull_carrier_design_cost_factor = -0.1
+		sortie_efficiency = 0.2
 
 		path = {
 			leads_to_tech = improved_ship_hull_carrier
@@ -4720,9 +4722,8 @@ technologies = {
 		}
 
 		carrier = {
-			max_organisation = 5
 			max_strength = 0.1
-			reliability = 0.05
+			reliability = 0.1
 		}
 		enable_equipment_modules = {
 			carrier_damage_control_unit
@@ -4940,7 +4941,6 @@ technologies = {
 		carrier = {
 			armor_value = 0.2
 			anti_air_attack = 0.05
-			reliability = 0.05
 			max_organisation = 10
 		}
 		enable_equipment_modules = {
@@ -6031,8 +6031,16 @@ technologies = {
 	rescue_submarine = {
 		research_cost = 1
 		naval_accidents_chance = -0.15
-		submarine = {
-			reliability = 0.2
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = rescue_submarine
+				bonus = {
+					ship_hull_submarine = {
+						reliability = 0.2
+						instant = yes
+					}
+				}
+			}
 		}
 
 		start_year = 1951
