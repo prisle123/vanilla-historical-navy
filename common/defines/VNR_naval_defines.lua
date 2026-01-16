@@ -135,8 +135,12 @@ NDefines.NNavy.NAVAL_INVASION_SPOTTING_SPEED_MULT = 30   -- spotting speed mult 
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 0.5   -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval transfer convoys (was 0.12)
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.5   -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys (was 0.12)
 NDefines.NNavy.NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.6   -- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible. (was 0.9)
-NDefines.NNavy.SPOTTING_MULTIPLIER_FOR_SURFACE = 2.5   -- task force surface spotting value is multiplied by this and added to spotting percentage every hour (was 1)
-NDefines.NNavy.SPOTTING_MULTIPLIER_FOR_SUB = 0.9   -- task force sub spotting value is multiplied by this and added to spotting percentage every hour (was 1)
+NDefines.NNavy.MIN_SPOTTING_PROGRESS = 0.1   -- Minimum spotting progress (in percent) per hourly tick (was 0.01)
+NDefines.NNavy.BASE_SPOTTING = 5   -- base spotting percentage for navy	(was 1)
+NDefines.NNavy.BASE_SPOTTING_FROM_NAVY = 15   -- base spotting percentage that comes from task forces in area (was 10)
+NDefines.NNavy.BASE_SPOTTING_SPEED = 1   -- daily base spotting speed (was 0)
+NDefines.NNavy.SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.2   -- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio (was 0.5)	
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 1   -- A global factor that applies after all others, right before the sub detection contributed by plane is added to the global sub detection of a combatant (was 0)
 
 
 --Experience
@@ -174,7 +178,6 @@ NDefines.NNavy.SHIP_SUPPORT_NEED_FACTOR = 0.25   -- The support need for a ship.
 NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for naval strike mission in port (was 0.25, ease the cost of assigning strike force)
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 3000   -- Tuning parameter for homebase calculation. Distance to normalize against. Everything above said value will be treated as score = 0. (was 1000)
-NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 1   -- A global factor that applies after all others, right before the sub detection contributed by plane is added to the global sub detection of a combatant (was 0)
 
 
 
