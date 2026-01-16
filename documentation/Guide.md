@@ -222,7 +222,7 @@ Unlocks following doctrines:
     - Hunter Killer Groups
     - Torpedo Primacy
 
--Submarine Flotilla
+- Submarine Flotilla
     - Fleet Operations
     - Capital Hunters
     - Covert Denial
