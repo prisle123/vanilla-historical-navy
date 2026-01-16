@@ -603,6 +603,7 @@ equipment_modules = {
 		add_stats = {
 			sub_attack = 15
 			build_cost_ic = 90
+			reliability = -0.01
 		}
 
 		can_convert_from = {
@@ -624,6 +625,7 @@ equipment_modules = {
 		add_stats = {
 			sub_attack = 20
 			build_cost_ic = 120
+			reliability = -0.03
 		}
 
 		can_convert_from = {
@@ -645,6 +647,7 @@ equipment_modules = {
 		add_stats = {
 			sub_attack = 24
 			build_cost_ic = 150
+			reliability = -0.05
 		}
 
 		can_convert_from = {
@@ -666,6 +669,7 @@ equipment_modules = {
 		add_stats = {
 			sub_attack = 30
 			build_cost_ic = 180
+			reliability = -0.07
 		}
 
 		can_convert_from = {
@@ -686,7 +690,7 @@ equipment_modules = {
 		add_stats = {
 			sub_attack = 35
 			build_cost_ic = 300
-			reliability = -0.025
+			reliability = -0.085
 		}
 
 		multiply_stats = {

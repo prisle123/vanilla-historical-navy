@@ -34,6 +34,7 @@ equipment_modules = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1600
 		}
+		critical_parts = { gas_leakage_heavy }
 	}
 	ship_deck_space_armored = {
 		category = ship_deck_space_reinforced
@@ -48,6 +49,10 @@ equipment_modules = {
 			carrier_surface_detection = 4
 			carrier_sub_detection = 2
 			supply_consumption = 0.015
+			max_organisation = -0.05
+		}
+		add_average_stats = {
+			naval_weather_penalty_factor = -0.1
 		}
 		manpower = 200 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -66,6 +71,7 @@ equipment_modules = {
 			ship_deck_space_small
 			ship_deck_space_converted
 		}
+		critical_parts = { gas_leakage_light }
 	}
 	ship_deck_space_open = {
 		category = ship_deck_space
@@ -93,6 +99,7 @@ equipment_modules = {
 			module_category = ship_deck_space
 			convert_cost_ic = 1000
 		}
+		critical_parts = { gas_leakage_heavy }
 	}
 	ship_deck_space_small = {
 		category = ship_deck_space_small
@@ -115,6 +122,7 @@ equipment_modules = {
 		}
 		manpower = 100
 		dismantle_cost_ic = 400
+		critical_parts = { gas_leakage_heavy }
 	}
 	ship_deck_space_big = {
 		category = ship_deck_space_reinforced
@@ -131,6 +139,9 @@ equipment_modules = {
 			anti_air_attack = 3
 			supply_consumption = 0.025
 		}
+		add_average_stats = {
+			naval_weather_penalty_factor = -0.2
+		}
 		manpower = 300
 		multiply_stats = {
 			naval_speed = -0.075
@@ -144,6 +155,7 @@ equipment_modules = {
 			ship_deck_space_small
 			ship_deck_space_converted
 		}
+		critical_parts = { gas_leakage_light }
 	}
 	ship_deck_space_bb = {
 		category = ship_deck_space_bb
@@ -192,6 +204,7 @@ equipment_modules = {
 			surface_visibility = 0.05
 		}
 		dismantle_cost_ic = 1600
+		critical_parts = { gas_leakage_light }
 	}
 	ship_deck_space_converted = {
 		category = ship_deck_space_converted

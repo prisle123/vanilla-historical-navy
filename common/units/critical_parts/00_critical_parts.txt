@@ -229,7 +229,21 @@ critical_parts = {
 		damage_instance_per_added_module = 1
 		max_damage_instance = 1
     }
-    gas_leakage = {
+    gas_leakage_light = {
+        icon = "GFX_default_critical_damage_icons"
+		frame = 6
+        modifier = {
+            navy_org_factor = -0.9
+			naval_morale_factor = -1
+        }
+        chance = 0.05
+        org_damage_multiplier = 40
+        str_damage = 200
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+    }
+	gas_leakage_heavy = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
         modifier = {
@@ -238,6 +252,9 @@ critical_parts = {
         }
         chance = 0.05
         org_damage_multiplier = 50
-        str_damage = 200
+        str_damage = 250
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
     }
 }
