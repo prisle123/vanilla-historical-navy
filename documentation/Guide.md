@@ -204,28 +204,28 @@ With doctrines totally overhauled in NCNS update, previous VNR doctrines are als
 
 Unlocks following doctrines:
 
-Naval Aviation
-- Floating Airfields
-- Subsidiary Carrier Support
-- Naval Airforce
-- Airspace Denial
+- Naval Aviation
+    - Floating Airfields
+    - Subsidiary Carrier Support
+    - Naval Airforce
+    - Airspace Denial
 
-Surface Fleet
-- Fast Battleship Primacy
-- Specialized Scouting Fleet
-- Coastal Defense Fleet
-- Monitor Support
+- Surface Fleet
+    - Fast Battleship Primacy
+    - Specialized Scouting Fleet
+    - Coastal Defense Fleet
+    - Monitor Support
 
-Escort Force
-- Convoy Escort
-- Integrated Operations
-- Hunter Killer Groups
-- Torpedo Primacy
+- Escort Force
+    - Convoy Escort
+    - Integrated Operations
+    - Hunter Killer Groups
+    - Torpedo Primacy
 
-Submarine Flotilla
-- Fleet Operations
-- Capital Hunters
-- Covert Denial
+-Submarine Flotilla
+    - Fleet Operations
+    - Capital Hunters
+    - Covert Denial
 
 **Commerce Raiding**
 
@@ -233,26 +233,26 @@ For countries with ambitions to dominate seven seas, *Commerce Raiding* may not 
 
 Unlocks following doctrines:
 
-Naval Aviation
-- Floating Airfields
-- Subsidiary Carrier Support
-- Naval Airforce
-- Airspace Denial
+- Naval Aviation
+    - Floating Airfields
+    - Subsidiary Carrier Support
+    - Naval Airforce
+    - Airspace Denial
 
-Surface Fleet
-- Specialized Scouting Fleet
-- Armored Raiders
-- Coastal Defense Fleet
+- Surface Fleet
+    - Specialized Scouting Fleet
+    - Armored Raiders
+    - Coastal Defense Fleet
 
-Escort Force
-- Convoy Escort
-- Integrated Operations
-- The New School
+- Escort Force
+    - Convoy Escort
+    - Integrated Operations
+    - The New School
 
-Submarine Flotilla
-- Wolfpacks
-- Covert Denial
-- Operational Autonomy
+- Submarine Flotilla
+    - Wolfpacks
+    - Covert Denial
+    - Operational Autonomy
 
 **Air-Sea Operation**
 
@@ -260,27 +260,27 @@ If you are patient enough, *Air-Sea Operation* will give you ample rewards bette
 
 Unlocks following doctrines:
 
-Naval Aviation
-- Carrier Taskforce
-- Floating Airfields
-- Carrier Concentration
-- Airspace Denial
+- Naval Aviation
+    - Carrier Taskforce
+    - Floating Airfields
+    - Carrier Concentration
+    - Airspace Denial
 
-Surface Fleet
-- Fast Battleship Primacy
-- Specialized Scouting Fleet
-- Taskforce Guardian
+- Surface Fleet
+    - Fast Battleship Primacy
+    - Specialized Scouting Fleet
+    - Taskforce Guardian
 
-Escort Force
-- Convoy Escort
-- Integrated Operations
-- Hunter Killer Groups
-- Torpedo Primacy
+- Escort Force
+    - Convoy Escort
+    - Integrated Operations
+    - Hunter Killer Groups
+    - Torpedo Primacy
 
-Submarine Flotilla
-- Fleet Operations
-- Capital Hunters
-- Operational Autonomy
+- Submarine Flotilla
+    - Fleet Operations
+    - Capital Hunters
+    - Operational Autonomy
 
 **Littoral Defense**
 
@@ -288,23 +288,23 @@ Submarine Flotilla
 
 Unlocks following doctrines:
 
-Naval Aviation
-- Subsidiary Carrier Support
-- Naval Airforce
+- Naval Aviation
+    - Subsidiary Carrier Support
+    - Naval Airforce
 
-Surface Fleet
-- Armored Raiders
-- Coastal Defense Fleet
-- Monitor Support
+- Surface Fleet
+    - Armored Raiders
+    - Coastal Defense Fleet
+    - Monitor Support
 
-Escort Force
-- Torpedo Primacy
-- The New School
-- Mosquito Fleet
+- Escort Force
+    - Torpedo Primacy
+    - The New School
+    - Mosquito Fleet
 
-Submarine Flotilla
-- Coastal Defense
-- Covert Denial
+- Submarine Flotilla
+    - Coastal Defense
+    - Covert Denial
 
 ### Sub Doctrine - Carrier ###
 
@@ -444,6 +444,12 @@ This feature differentiates light gun from heavy gun by a huge gap between their
 
 Critical hit chance has a close relation to piercing. With higher piercing vs armor ratio, the chance gets increased to 3x at maximum, which will 100% cause destruction of critical parts putting heavy debuff on the ship.
 
+Critical part is a module- or hull-based component that's used to depict how injury can impact combat performance of ships. You can try to understand it as something like a turret blown, or flight deck bombed, which it not only causes damage to HP but also decline in combat readiness. In vanilla, the chance to inflict critical part destruction is very low even when a critical hit takes place, but it's been ascended to an inevitable consequence due to poor armor or low reliability here.
+
+To be more specific, each time your ship is critically hit, a critical part breaks. The hull-based critical part is a fixed property of the ship hull and can only be damaged once, with a fixed chance and effect, such as heavy fire, damaged rudder, and broken propeller, which there is no way to prevent them from happening unless you boost armor and reliability to maximum (though not very effective facing aerial attacks). And there's module-based part, which it can be damaged multiple times (e.g. heavy battery, each damaged critical part of it means a turret just got blown) based on the amount of instances you have, causing a series of related debuffs in its wake.
+
+There are also exceptions that your choice of modules can lead to different consequences when a critical part is damaged. The most representative ones are flight deck and hangar, with armored ones having less chance to trigger horrifying blast.
+
 ### Retreat Process ###
 
 Retreating is made faster in VNR to simulate the quick disengagement in real naval war, leading to more frequent but indecisive battles. Of course, you can still have Midway kind of victory because of luck.
@@ -452,13 +458,13 @@ Retreating is made faster in VNR to simulate the quick disengagement in real nav
 
 Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:2, you will need more ships to achieve max screen efficiency.
 
-Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 40 ships have a chance to get penalized for high relative size, which is -50% positioning with every doubling of ships than the other side, capped to -300%.
+Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 40 ships have a chance to get penalized for high relative size, which is -40% positioning with every doubling of ships than the other side, capped to -200%.
 
 To be more specific, I will provide you with a list to illustrate: 
 
 - 10 vs 1: threshold of 41 ships not reached, no positioning penalty
-- 45 vs 10: more than 4 times bigger, 4 x (-50%) = -200% positioning
-- 100 vs 70: doubling relative size not achieved, no positioning penalty
+- 80 vs 20: fleet is four times bigger, threshold of 41 ships reached, (80 - 20) / 20 x (-40%) = -120% positioning
+- 100 vs 70: doubling relative size not achieved, threshold of 41 ships reached, partial positioning penalty, (100 - 70) / 70 x (-40%) = -17.15% positioning
 
 When positioning reaches 0%, you will have to face harsh debuffs such as -90% damage, -75% AA, and -125% screening efficiency.
 
