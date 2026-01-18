@@ -3362,11 +3362,13 @@ technologies = {
 		repair_speed_factor = 0.1
 		naval_accidents_chance = -0.05
 		on_research_complete = {
-			name = floating_dry_dock_ncns
-			bonus = {
-				ship_hull_heavy = {
-					reliability = 0.1
-					instant = yes
+			add_equipment_bonus = {
+				name = floating_dry_dock
+				bonus = {
+					ship_hull_heavy = {
+						reliability = 0.1
+						instant = yes
+					}
 				}
 			}
 		}

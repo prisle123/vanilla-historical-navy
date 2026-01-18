@@ -451,6 +451,7 @@ equipment_modules = {
 		dismantle_cost_ic = 100000
 		forbid_module_categories = {
 			ship_deck_space
+			ship_deck_space_reinforced
 			ship_deck_space_mega
 		}
 	}
@@ -466,6 +467,7 @@ equipment_modules = {
 		dismantle_cost_ic = 100000
 		forbid_module_categories = {
 			ship_deck_space
+			ship_deck_space_reinforced
 			ship_deck_space_mega
 		}
 	}
