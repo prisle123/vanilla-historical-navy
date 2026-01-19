@@ -754,6 +754,64 @@ equipment_modules = {
 			convert_cost_ic = 50
 		}
 	}
+	sub_sonar_1 = {
+		category = sub_sonar
+		gfx = ship_sonar_1
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			surface_detection = 3
+			sub_detection = 2
+			build_cost_ic = 40
+		}
+	}
+
+	sub_sonar_2 = {
+		category = sub_sonar
+		gfx = ship_sonar_2
+		sfx = sfx_ui_sd_module_sonar
+		parent = sub_sonar_1
+		add_stats = {
+			surface_detection = 5
+			sub_detection = 5
+			build_cost_ic = 60
+		}
+		can_convert_from = {
+			module_category = sub_sonar
+			convert_cost_ic = 25
+		}
+	}
+	
+	sub_sonar_3 = {
+		category = sub_sonar
+		gfx = ship_sonar_3
+		sfx = sfx_ui_sd_module_sonar
+		parent = sub_sonar_2
+		add_stats = {
+			surface_detection = 7
+			sub_detection = 8
+			build_cost_ic = 80
+		}
+		can_convert_from = {
+			module_category = sub_sonar
+			convert_cost_ic = 25
+		}
+	}
+    sub_sonar_4 = {
+		category = sub_sonar
+		gfx = ship_sonar_4
+		sfx = sfx_ui_sd_module_sonar
+		parent = sub_sonar_3
+		add_stats = {
+			surface_detection = 9
+			sub_detection = 11
+			build_cost_ic = 150
+		}
+		can_convert_from = {
+			module_category = sub_sonar
+			convert_cost_ic = 50
+		}
+	}
     ship_bulbous_bow = {
 		category = light_miscellaneous
 		gui_category = ship_miscellaneous
@@ -770,7 +828,7 @@ equipment_modules = {
 		category = submarine_miscellaneous
 		add_stats = {
 			sub_detection = 10
-			surface_detection = 5
+			surface_detection = 20
 			reliability = -0.05
 			build_cost_ic = 150
 		}
@@ -1034,7 +1092,6 @@ equipment_modules = {
 		dismantle_cost_ic = 100
 		forbid_module_categories = {
 			ship_radar
-			ship_sonar
 		}
 	}
 	sub_conning_tower_1 = {
@@ -1068,12 +1125,12 @@ equipment_modules = {
 			sub_visibility = 0.06
 		}
 		add_stats = {
-			surface_detection = 3
-			build_cost_ic = 10
+			surface_detection = 1
+			build_cost_ic = 5
 		}
 		can_convert_from = {
 			module_category = sub_ship_periscope
-			convert_cost_ic = 8
+			convert_cost_ic = 3
 		}
 	}
 	sub_ship_periscope_1 = {
@@ -1083,12 +1140,12 @@ equipment_modules = {
 			sub_visibility = 0.05
 		}
 		add_stats = {
-			surface_detection = 5
-			build_cost_ic = 30
+			surface_detection = 3
+			build_cost_ic = 15
 		}
 		can_convert_from = {
 			module_category = sub_ship_periscope
-			convert_cost_ic = 24
+			convert_cost_ic = 8
 		}
 	}
 	sub_ship_periscope_2 = {
@@ -1098,12 +1155,12 @@ equipment_modules = {
 			sub_visibility = 0.025
 		}
 		add_stats = {
-			surface_detection = 8
-			build_cost_ic = 50
+			surface_detection = 5
+			build_cost_ic = 30
 		}
 		can_convert_from = {
 			module_category = sub_ship_periscope
-			convert_cost_ic = 40
+			convert_cost_ic = 15
 		}
 	}
 	sub_ship_periscope_3 = {
@@ -1113,12 +1170,12 @@ equipment_modules = {
 			sub_visibility = 0.01
 		}
 		add_stats = {
-			surface_detection = 11
-			build_cost_ic = 70
+			surface_detection = 7
+			build_cost_ic = 50
 		}
 		can_convert_from = {
 			module_category = sub_ship_periscope
-			convert_cost_ic = 56
+			convert_cost_ic = 30
 		}
 	}
 	sub_ship_periscope_4 = {
@@ -1128,12 +1185,12 @@ equipment_modules = {
 			sub_visibility = 0.01
 		}
 		add_stats = {
-			surface_detection = 14
-			build_cost_ic = 120
+			surface_detection = 9
+			build_cost_ic = 80
 		}
 		can_convert_from = {
 			module_category = sub_ship_periscope
-			convert_cost_ic = 75
+			convert_cost_ic = 50
 		}
 	}
 

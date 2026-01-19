@@ -623,6 +623,7 @@ technologies = {
 	sonar = {
 		enable_equipment_modules = {
 			ship_sonar_1
+			sub_sonar_1
 		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
@@ -662,6 +663,7 @@ technologies = {
 	improved_sonar = {
 		enable_equipment_modules = {
 			ship_sonar_2
+			sub_sonar_2
 		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
@@ -703,6 +705,7 @@ technologies = {
 	advanced_sonar = {
 		enable_equipment_modules = {
 			ship_sonar_3
+			sub_sonar_3
 			ship_bulbous_bow
 		}
 		on_research_complete = {
@@ -749,6 +752,7 @@ technologies = {
 	modern_sonar = {
 		enable_equipment_modules = {
 			ship_sonar_4
+			sub_sonar_4
 		}
 		on_research_complete = {
 			custom_effect_tooltip = sonar_advice_tt
@@ -5332,7 +5336,6 @@ technologies = {
 			sub_ship_engine_4
 			pressure_hull_4
 			ship_sub_torpedo_computer_2
-			sub_conning_tower_1
 		}
 		path = {
 			leads_to_tech = improved_submarine_snorkel
@@ -5821,6 +5824,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			sub_ship_periscope_1
+			sub_conning_tower_0
 		}
 		research_cost = 0.5
 
@@ -5891,10 +5895,11 @@ technologies = {
 
 		enable_equipment_modules = {
 			sub_ship_periscope_3
+			sub_conning_tower_1
 		}
 		research_cost = 0.5
 
-		start_year = 1941
+		start_year = 1943
 
 		dependencies = {
 			improved_periscope = 1
