@@ -450,6 +450,26 @@ To be more specific, each time your ship is critically hit, a critical part brea
 
 There are also exceptions that your choice of modules can lead to different consequences when a critical part is damaged. The most representative ones are flight deck and hangar, with armored ones having less chance to trigger horrifying blast.
 
+Since it is very hard to preview critical part effects in the game, a list will be provided here for your reference.
+
+1. Damaged Heavy Gun: -33% heavy attack, can be destroyed multiple times based on turrets in presence
+2. Damaged Light Gun: -25% light attack, can be destroyed multiple times based on turrets in presence
+3. Damaged Secondaries: -10% light attack, -33% anti-air attack, can be destroyed multiple times based on secondary turrets in presence
+4. Damaged Torpedo: -50% torpedo attack, can be destroyed multiple times based on torpedo tubes in presence
+5. Damaged Missile Launcher: -33% heavy attack and light attack, can be destroyed multiple times based on missile launchers in presence
+6. Damaged AA Missile Launcher: -15% light attack, -33% anti-air attack, can be destroyed multiple times based on AA missile launchers in presence
+7. Magazine Hit: -70% heavy attack, -70% light attack, -70% torpedo attack, an extra 500 points of HP damage and 100 points of org damage, can only happen once, extremely low probability
+8. Heavy Fire: +100% surface visibility, -50% org, -80% org recovery, can only happen once
+9. Broken Propeller: -95% retreat chance, -90% speed, can only happen once
+10. Rudder Jammed: -90% retreat chance, -50% speed, can only happen once
+11. Ballast Tank Inoperable: +100% sub visibility, submarine exclusive, can only happen once
+12. Damaged Fire Control: -50% hit chance for all weapons, can only happen once if you have fire control in presence
+13. Damaged Flight Deck (Wooden): -40% carrier capacity, -30% org, can only happen once on carrier with wooden flight deck
+14. Damaged Flight Deck (Armored): -20% carrier capacity, -15% org, can only happen once on carrier with armored flight deck, 25% lower probability than the wooden one
+15. Damaged Battlecarrier Flight Deck: -100% carrier capacity, -30% org, battlecarrier exclusive, can only happen once
+16. Air Fuel Flashover (wth. unarmored hangar): -90% org, -100% org recovery, an extra 250 points of HP damage and 50 points of org damage, can only happen once, very low probability
+17. Air Fuel Flashover (wth. armored hangar): -90% org, -100% org recovery, an extra 200 points of HP damage and 40 points of org damage, can only happen once, very low probability
+
 ### Retreat Process ###
 
 Retreating is made faster in VNR to simulate the quick disengagement in real naval war, leading to more frequent but indecisive battles. Of course, you can still have Midway kind of victory because of luck.
