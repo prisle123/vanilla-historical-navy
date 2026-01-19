@@ -1371,8 +1371,10 @@ equipment_modules = {
 	}
     sub_wire_guided_torpedo = {
 		category = submarine_miscellaneous
+		add_stats = {
+			naval_torpedo_hit_chance_factor = 0.15
+		}
 		multiply_stats = {
-			torpedo_attack = 0.15
 			build_cost_ic = 0.1
 		}
 	}

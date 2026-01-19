@@ -920,24 +920,18 @@ technologies = {
 		research_cost = 1
 		start_year = 1942
 
-		destroyer = {
-			build_cost_ic = -0.1
-		}
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 3 y = @1940_module }
 		}
 
 		on_research_complete = {
-			hidden_effect = {
-				add_equipment_bonus = {
-					name = vnr_destroyer_cost_1
-					bonus = {
-						ship_hull_light = {
-							instant = yes
-							build_cost_ic = -0.1
-						}
+			add_equipment_bonus = {
+				name = destroyer_mass_production
+				bonus = {
+					ship_hull_light = {
+						instant = yes
+						build_cost_ic = -0.1
 					}
 				}
 			}
@@ -1524,15 +1518,6 @@ technologies = {
 			structural_aluminum
 			cruiser_ship_engine_4_gas
 		}
-		heavy_cruiser = {
-			build_cost_ic = -0.1
-		}
-		medium_cruiser = {
-			build_cost_ic = -0.1
-		}
-		light_cruiser = {
-			build_cost_ic = -0.1
-		}
 
 		research_cost = 1
 		start_year = 1949
@@ -1542,14 +1527,12 @@ technologies = {
 			position = { x = 4 y = @1948_module }
 		}
 		on_research_complete = {
-			hidden_effect = {
-				add_equipment_bonus = {
-					name = vnr_cruiser_cost_2
-					bonus = {
-						ship_hull_cruiser = {
-							instant = yes
-							build_cost_ic = -0.1
-						}
+			add_equipment_bonus = {
+				name = new_ship_materials
+				bonus = {
+					ship_hull_cruiser = {
+						instant = yes
+						build_cost_ic = -0.1
 					}
 				}
 			}
@@ -2082,15 +2065,12 @@ technologies = {
 		research_cost = 0.5
 
 		heavy_cruiser = {
-			build_cost_ic = -0.05
 			max_strength = 0.05
 		}
 		medium_cruiser = {
-			build_cost_ic = -0.05
 			max_strength = 0.05
 		}
 		light_cruiser = {
-			build_cost_ic = -0.05
 			naval_speed = 0.025
 			surface_visibility = -0.03
 		}
@@ -2105,14 +2085,12 @@ technologies = {
 		}
 
 		on_research_complete = {
-			hidden_effect = {
-				add_equipment_bonus = {
-					name = vnr_cruiser_cost_1
-					bonus = {
-						ship_hull_cruiser = {
-							instant = yes
-							build_cost_ic = -0.05
-						}
+			add_equipment_bonus = {
+				name = treaty_cruiser_trend
+				bonus = {
+					ship_hull_cruiser = {
+						instant = yes
+						build_cost_ic = -0.05
 					}
 				}
 			}
@@ -4808,9 +4786,6 @@ technologies = {
 		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
-		carrier = {
-			build_cost_ic = -0.1
-		}
 		enable_equipment_modules = {
 			carrier_civilian_material
 		}
@@ -4822,14 +4797,12 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_6_tt
-			hidden_effect = {
-				add_equipment_bonus = {
-					name = vnr_carrier_cost_1
-					bonus = {
-						ship_hull_carrier = {
-							instant = yes
-							build_cost_ic = -0.1
-						}
+			add_equipment_bonus = {
+				name = carrier_mass_production
+				bonus = {
+					ship_hull_carrier = {
+						instant = yes
+						build_cost_ic = -0.1
 					}
 				}
 			}
@@ -5713,23 +5686,18 @@ technologies = {
 
 		start_year = 1941
 
-		submarine = {
-			build_cost_ic = -0.15
-		}
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -2 y = @1944 }
 		}
 
 		on_research_complete = {
-			hidden_effect = {
-				add_equipment_bonus = {
-					name = vnr_submarine_cost_1
-					bonus = {
-						ship_hull_submarine = {
-							instant = yes
-							build_cost_ic = -0.15
-						}
+			add_equipment_bonus = {
+				name = submarine_mass_production
+				bonus = {
+					ship_hull_submarine = {
+						instant = yes
+						build_cost_ic = -0.15
 					}
 				}
 			}
