@@ -429,7 +429,10 @@ operation_autonomy = {
         }
         auxiliary_submarine = {
             effect = {
-                set_technology = { auxiliary_submarine_tech = 1 }
+                custom_effect_tooltip = auxiliary_submarine_tt
+                hidden_effect = {
+                    set_technology = { auxiliary_submarine_tech = 1 }
+                }
             }
             equipment_bonus = {
                 submarine = {
