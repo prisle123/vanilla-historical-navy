@@ -220,7 +220,7 @@ Unlocks following doctrines:
     - Convoy Escort
     - Integrated Operations
     - Hunter Killer Groups
-    - Torpedo Primacy
+    - Torpedo Flotilla
 
 - Submarine Flotilla
     - Fleet Operations
@@ -275,7 +275,7 @@ Unlocks following doctrines:
     - Convoy Escort
     - Integrated Operations
     - Hunter Killer Groups
-    - Torpedo Primacy
+    - Torpedo Flotilla
 
 - Submarine Flotilla
     - Fleet Operations
@@ -298,7 +298,7 @@ Unlocks following doctrines:
     - Monitor Support
 
 - Escort Force
-    - Torpedo Primacy
+    - Torpedo Flotilla
     - The New School
     - Mosquito Fleet
 
@@ -372,9 +372,9 @@ This is an authentic USN strategy adopted during WWII, which makes screen ships 
 
 *Hunter Killer Groups* is a doctrine which prioritizes anti-submarine warfare with generous buffs on detection and counter-measures against submarines, while still being able to shoulder other responsibilities like convoy escort.
 
-**Torpedo Primacy**
+**Torpedo Flotilla**
 
-*Torpedo Primacy* is a doctrine full of Japanese characteristics with its priority of torpedoes on various ships. Its reduction of torpedo loading by 2 hours is the greatest bonus on torpedo among all, and together with other rewards builds an interesting method around torpedoes.
+*Torpedo Flotilla* is a doctrine full of Japanese characteristics with its priority of torpedoes on various ships. Its reduction of torpedo loading by 2 hours is the greatest bonus on torpedo among all, and together with other rewards builds an interesting method around torpedoes.
 
 **The New School**
 
