@@ -1,4 +1,4 @@
-version="v2.8 - Leyte Gulf"
+version="v2.9 - Iwo Jima"
 tags={
 	"Military"
 	"Graphics"
