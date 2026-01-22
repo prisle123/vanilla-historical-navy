@@ -899,7 +899,7 @@ equipment_modules = {
 		category = ship_airplane_launcher
 		gfx = ship_airplane_launcher_1
 		
-		add_avergae_stats = {
+		add_average_stats = {
 			surface_detection = 1
 			sub_detection = 0.25
 		}
@@ -918,7 +918,7 @@ equipment_modules = {
 		category = ship_airplane_launcher
 		gfx = ship_airplane_launcher_2
 		parent = ship_airplane_launcher_1
-		add_avergae_stats = {
+		add_average_stats = {
 			surface_detection = 2
 			sub_detection = 1
 		}
@@ -939,7 +939,7 @@ equipment_modules = {
 	ship_helipad = {
 		category = ship_airplane_launcher
 		gui_category = carrier_helipad
-		add_avergae_stats = {
+		add_average_stats = {
 			surface_detection = 1
 			sub_detection = 2
 		}
@@ -955,7 +955,7 @@ equipment_modules = {
 	}
     recon_drone_1 = {
 		category = ship_airplane_launcher
-		add_avergae_stats = {
+		add_average_stats = {
 			surface_detection = 0.5
 			sub_detection = 2
 		}
