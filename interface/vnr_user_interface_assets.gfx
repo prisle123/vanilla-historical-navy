@@ -109,7 +109,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_cv_nav_bomber_icon_medium" texturefile = "gfx/interface/category_heavy_fighter.dds" }
 	
 
-	### the blueprint icon at the bottom right corner of production of ship
+	### the blueprint background on ship sprite in ship designer
 	corneredTileSpriteType = {
 		name = "rework_ship_icon_bg"
 		#texturefile = "gfx/interface/tiles/tiled_paper_bg.dds"
