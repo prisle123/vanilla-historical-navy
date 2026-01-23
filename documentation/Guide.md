@@ -51,7 +51,9 @@ Detection and visibility are an interesting duo in gaining initiativeness. They 
 
 **Cost**
 
-Unless you are playing as US or UK, building a large fleet takes too much time and IC, and it may hamper your army production as well. This is especially true for countries like Germany or Soviet Union which require army focus more than anyone else. As a result, keeping the cost of shipbuilding programs under control can make the whole experience of your game smoother.
+When you try to achieve engineering perfection, you'll find more efforts are needed to get from 90% to 100% than from 0% to 50%. This is known as diminishing returns. Cost of ships in VNR also adopts a model based on this theory to encourage historical designing. With each new turret, the cost goes up not only in total, but also in average. For example, the first turret costs 800 ic, while the second may cost you 900 ic, and it goes on as you put more turrets on the ship until it gets overwhelming.
+
+Unless you are playing as US or UK, building a large fleet of super warships takes too much time and IC, and it may hamper your army production as well. This is especially true for countries like Germany or Soviet Union which require army focus more than anyone else. As a result, keeping the cost of shipbuilding programs under control can make the whole experience of your game smoother.
 
 ### How to Design Your Ship ###
 
@@ -63,7 +65,9 @@ Carrier serves as the main source of damage in battle, and it heavily relies on 
 
 **Heavy Ship**
 
-You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. Since HP is deeply bounded with number of guns, a battleship needs as many guns as possible to boost its survivability and protect the fleet. However, that has raised another question, is it worthy in exchange for lower speed and incredible cost (consider that the cost of a super battleship can be used to arm two conventional battleships or advanced carriers). As a result, I strongly recommend historical design with adequate guns and AAs for all your heavy ships.
+You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. 
+
+In VNR, HP is deeply bounded with number of guns since the turret module directly provides HP. With hull's HP reduced, a battleship needs as many guns as possible to boost its survivability and protect the fleet. However, that has raised another question: is it worthy in exchange for lower speed and incredible cost, consider that the cost of a super battleship can be used to arm two conventional battleships or advanced carriers? The answer can vary, but I strongly recommend historical design with adequate guns and AAs for all your heavy ships for cost-efficiency.
 
 On the contrary, battlecruiser is not a good option despite its advantage of speed. Its armor is too weak to withstand a direct hit by heavy gun of its type, even some advanced cruisers can inflict damage on it. In 1936, battlecruiser has also started to show marginal utilities on speed. (positive effect from speed gradually reduces as you keep investing in it).
 
@@ -428,7 +432,7 @@ Besides, make sure your fleet has a min speed over 30kn, this is extremely impor
 
 ### Combat Duration ###
 
-To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
 
 ### Night Combat ###
 
@@ -476,7 +480,7 @@ Retreating is made faster in VNR to simulate the quick disengagement in real nav
 
 ### Positioning ###
 
-Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:2, you will need more ships to achieve max screen efficiency.
+Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:2, you will need more ships to achieve max screen efficiency, which in return it hurts positioning even more due to expansion of fleet and thus creates a vicious circle.
 
 Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 40 ships have a chance to get penalized for high relative size, which is -40% positioning with every doubling of ships than the other side, capped to -200%.
 
