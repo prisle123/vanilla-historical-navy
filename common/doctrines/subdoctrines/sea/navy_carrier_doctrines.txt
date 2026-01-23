@@ -434,6 +434,7 @@ airspace_denial = {
             }
             modifier = {
                 naval_morale_factor = 0.1
+				sortie_efficiency = 0.1
             }
         } 
         land_based_support = {
@@ -445,9 +446,12 @@ airspace_denial = {
         land_sea_coordination = {
             modifier = {
                 port_strike = 0.2
+				air_nav_efficiency = 0.1
             }
-            category_nav_bomber = {
-                air_nav_efficiency = 0.1
+			category_nav_bomber = {
+                naval_strike_attack = 0.05
+                naval_strike_targetting = 0.05
+                air_agility = 0.05
             }
         }
     }
