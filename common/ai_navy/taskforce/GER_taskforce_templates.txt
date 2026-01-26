@@ -5,7 +5,7 @@ GER_StrikeForce_1 = {
 	ai_will_do = {
 		factor = 5
 	}	
-	mission = { naval_strike }
+	mission = { naval_strike naval_patrol }
 	min_composition = {
 		light_cruiser = {
 			amount = 2
@@ -38,7 +38,7 @@ GER_StrikeForceCarrier_1 = {
 	ai_will_do = {
 		factor = 1
 	}		
-	mission = { naval_strike }
+	mission = { naval_strike naval_patrol }
 	min_composition = {
 		destroyer = {
 			amount = 8
@@ -68,7 +68,7 @@ GER_PatrolReconForce_1 = {
 	ai_will_do = {
 		factor = 10
 	}	
-	mission = { naval_patrol }
+	mission = { naval_patrol convoy_escort }
 	min_composition = {
 		destroyer = {
 			amount = 1
@@ -160,7 +160,7 @@ GER_ConvoyEscort_1 = {
 	ai_will_do = {
 		factor = 5
 	}		
-	mission = { convoy_escort }
+	mission = { convoy_escort naval_patrol }
 	min_composition = {
 		destroyer = {
 			amount = 3
