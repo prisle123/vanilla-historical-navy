@@ -419,8 +419,8 @@ mosquito_fleet = {
 			destroyer = {
 				surface_visibility = -0.15
 				max_organisation = -10
-				lg_attack = -0.5
 			}
+			navy_screen_attack_factor = -0.5
 			modifier = {
 				naval_torpedo_screen_penetration_factor = 0.1
 			}
@@ -429,11 +429,11 @@ mosquito_fleet = {
 			equipment_bonus = {
 				ship_hull_light = {
 					build_cost_ic = -0.15
+					max_strength = -0.5
 					instant = yes
 				}
 			}
 			destroyer = {
-				max_strength = -0.5
 				max_organisation = -10
 				fuel_consumption = -0.25
 			}
