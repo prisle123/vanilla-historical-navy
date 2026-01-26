@@ -756,6 +756,7 @@ equipment_modules = {
 	}
 	sub_sonar_1 = {
 		category = sub_sonar
+		gui_category = ship_sonar
 		gfx = ship_sonar_1
 		sfx = sfx_ui_sd_module_sonar
 		
@@ -768,6 +769,7 @@ equipment_modules = {
 
 	sub_sonar_2 = {
 		category = sub_sonar
+		gui_category = ship_sonar
 		gfx = ship_sonar_2
 		sfx = sfx_ui_sd_module_sonar
 		parent = sub_sonar_1
@@ -784,6 +786,7 @@ equipment_modules = {
 	
 	sub_sonar_3 = {
 		category = sub_sonar
+		gui_category = ship_sonar
 		gfx = ship_sonar_3
 		sfx = sfx_ui_sd_module_sonar
 		parent = sub_sonar_2
@@ -799,6 +802,7 @@ equipment_modules = {
 	}
     sub_sonar_4 = {
 		category = sub_sonar
+		gui_category = ship_sonar
 		gfx = ship_sonar_4
 		sfx = sfx_ui_sd_module_sonar
 		parent = sub_sonar_3
