@@ -406,6 +406,9 @@ operation_autonomy = {
                 max_organisation = 5
                 convoy_raiding_coordination = 0.05
             }
+            modifier = {
+                naval_torpedo_reveal_chance_factor = -0.05
+            }
         }
         disguised_submarine_tender = {
             auxiliary_ship = {
@@ -417,8 +420,13 @@ operation_autonomy = {
         }
         radio_silence = {
             submarine = {
-                surface_detection = -0.15
                 sub_visibility = -0.1
+            }
+            equipment_bonus = {
+                submarine = {
+                    surface_detection = -0.2
+                    instant = yes
+                }
             }
         }
         submarine_kampfgruppe = {
