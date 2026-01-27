@@ -186,8 +186,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.17
+			naval_speed = 0.13
 			naval_range = 0.6
+			surface_visibility = -0.03
 		}
 		
 		can_convert_from = {
@@ -210,8 +211,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.22
-			naval_range = 0.7
+			naval_speed = 0.17
+			naval_range = 0.65
+			surface_visibility = -0.04
 		}
 		
 		can_convert_from = {
@@ -238,8 +240,9 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = 0.27
+			naval_speed = 0.21
 			naval_range = 0.8
+			surface_visibility = -0.05
 		}
 		
 		can_convert_from = {
@@ -641,6 +644,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.25
 			naval_range = 0.6
+			surface_visibility = -0.03
 		}
 		
 		can_convert_from = {
@@ -663,8 +667,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.3
+			naval_speed = 0.275
 			naval_range = 0.7
+			surface_visibility = -0.04
 		}
 		build_cost_resources = {
 			chromium = 1
@@ -694,8 +699,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.35
+			naval_speed = 0.3
 			naval_range = 0.8
+			surface_visibility = -0.05
 		}
 		build_cost_resources = {
 			chromium = 1
@@ -928,8 +934,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.35
+			naval_speed = 0.25
 			naval_range = 0.6
+			surface_visibility = -0.03
 		}
 		build_cost_resources = {
 			chromium = 1
@@ -959,8 +966,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.4
+			naval_speed = 0.3
 			naval_range = 0.7
+			surface_visibility = -0.04
 		}
 		build_cost_resources = {
 			chromium = 1
@@ -993,8 +1001,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.45
+			naval_speed = 0.35
 			naval_range = 0.8
+			surface_visibility = -0.05
 		}
 		build_cost_resources = {
 			chromium = 2
@@ -1106,6 +1115,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = 0.7
+			naval_range = 0.2
 		}
 		build_cost_resources = {
 			chromium = 2
@@ -1303,8 +1313,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.35
+			naval_speed = 0.25
 			naval_range = 0.6
+			surface_visibility = -0.03
 		}
 		build_cost_resources = {
 			chromium = 1
@@ -1334,8 +1345,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.45
+			naval_speed = 0.3
 			naval_range = 0.7
+			surface_visibility = -0.04
 		}
 		build_cost_resources = {
 			chromium = 1
@@ -1368,8 +1380,9 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.5
+			naval_speed = 0.35
 			naval_range = 0.8
+			surface_visibility = -0.05
 		}
 		build_cost_resources = {
 			chromium = 2
