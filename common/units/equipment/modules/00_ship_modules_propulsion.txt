@@ -438,13 +438,16 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.3
-			sub_visibility = -0.1
+			naval_speed = 0.4
+			sub_visibility = -0.2
 			max_strength = -0.1
 			fuel_consumption = -1
 		}
 		build_cost_resources = {
 			chromium = 1
+		}
+		forbid_module_categories = {
+			ship_sub_snorkel
 		}
 
 		can_convert_from = {
