@@ -400,7 +400,7 @@ Despite less emphasis on commerce raiding and coordination, *Fleet Operations* t
 
 **Capital Hunters**
 
-Another Japanese-style doctrine that buffs torpedo more than the equipment itself. It can expand usage scenario of torpedo further if used with *torpedo primacy*.
+Another Japanese-style doctrine that buffs torpedo more than the equipment itself. It can expand usage scenario of torpedo further if used with *torpedo flotilla*.
 
 **Coastal Defense**
 
