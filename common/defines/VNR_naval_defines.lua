@@ -162,12 +162,40 @@ NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_HEAVY_SHIPS = 1.0  -- ratio fo
 NDefines.NNavy.AGGRESSION_TORPEDO_EFFICIENCY_ON_HEAVY_SHIPS = 1.1   -- ratio for scoring for different gun types against heavy ships
 NDefines.NNavy.AGGRESSION_SETTINGS_VALUES = {
 	0,		-- do not engage
-	1.0,	-- low
+	0.8,	-- low
 	1.4,	-- medium
 	2.2,	-- high
 	10000,	-- I am death incarnate!
 }
-NDefines.NNavy.AGGRESION_MULTIPLIER_FOR_COMBAT = 4   -- ships are more aggresive in combat (was 1.2)
+NDefines.NNavy.AGGRESION_MULTIPLIER_FOR_COMBAT = 2.3   -- ships are more aggresive in combat (was 1.2)
+NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_WEAKER = { -- the aggression level per mission when the AI has a weaker navy than its opponent
+	---- values correspond to the indexes of the AGGRESSION_SETTINGS_VALUES. 0 = do not engage, 1 = low, 2 = medium, etc. 
+	---- If set to (-1), will use the hardcoded behavior (low if navy is generally weaker than opponent, medium if stronger)
+	-1, -- HOLD
+	0, -- PATROL
+	2, -- STRIKE FORCE (was 1)
+	1, -- CONVOY RAIDING
+	1, -- CONVOY ESCORT
+	-1, -- MINES PLANTING
+	-1, -- MINES SWEEPING
+	-1, -- TRAINING
+	-1, -- RESERVE_FLEET
+	2, -- NAVAL_INVASION_SUPPORT
+}
+NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggression level per mission when the AI has a stronger navy than its opponent
+	---- values correspond to the indexes of the AGGRESSION_SETTINGS_VALUES. 0 = do not engage, 1 = low, 2 = medium, etc. 
+	---- If set to (-1), will use the hardcoded behavior (low if navy is generally weaker than opponent, medium if stronger)
+	-1, -- HOLD
+	1, -- PATROL
+	3, -- STRIKE FORCE
+	1, -- CONVOY RAIDING
+	1, -- CONVOY ESCORT
+	-1, -- MINES PLANTING
+	-1, -- MINES SWEEPING
+	-1, -- TRAINING
+	-1, -- RESERVE_FLEET
+	3, -- NAVAL_INVASION_SUPPORT
+}
 
 
 --Naval Misc
@@ -265,6 +293,15 @@ NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 200   -- AI will ignore naval paths that
 NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 5   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
 NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 1.5   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
 NDefines.NAI.DANGEROUS_ENEMY_ARMY_SIZE = 10000   -- If the size of the enemy's army of the attacking country is more than this value, the AI will add naval invasion defense importance (was 100)
+NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this list is important!
+	0.1875,	-- invasion suppport
+	0.25,	-- invasion defense
+	0,0,	-- others ( MineSweeping, MineLaying )
+	0.0625,	-- generic coast defense
+	0,0,	-- others ( ConvoyRaiding, ConvoyProtection )
+	0.25,	-- naval dominance strategy (was 0.125)
+	0,0,0	-- others ( Training, NavalBlockade, StrikeForce )
+}
 
 
 --AI Misc
