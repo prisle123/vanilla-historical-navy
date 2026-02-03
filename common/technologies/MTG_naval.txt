@@ -928,14 +928,19 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 3 y = @1940_module }
 		}
+		destroyer = {
+			build_cost_ic = -0.1
+		}
 
 		on_research_complete = {
-			add_equipment_bonus = {
-				name = destroyer_mass_production
-				bonus = {
-					ship_hull_light = {
-						instant = yes
-						build_cost_ic = -0.1
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = destroyer_mass_production
+					bonus = {
+						ship_hull_light = {
+							instant = yes
+							build_cost_ic = -0.1
+						}
 					}
 				}
 			}
@@ -1530,13 +1535,24 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 4 y = @1948_module }
 		}
+		heavy_cruiser = {
+			build_cost_ic = -0.1
+		}
+		medium_cruiser = {
+			build_cost_ic = -0.1
+		}
+		light_cruiser = {
+			build_cost_ic = -0.1
+		}
 		on_research_complete = {
-			add_equipment_bonus = {
-				name = new_ship_materials
-				bonus = {
-					ship_hull_cruiser = {
-						instant = yes
-						build_cost_ic = -0.1
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = new_ship_materials
+					bonus = {
+						ship_hull_cruiser = {
+							instant = yes
+							build_cost_ic = -0.1
+						}
 					}
 				}
 			}
@@ -2070,13 +2086,16 @@ technologies = {
 
 		heavy_cruiser = {
 			max_strength = 0.05
+			build_cost_ic = -0.05
 		}
 		medium_cruiser = {
 			max_strength = 0.05
+			build_cost_ic = -0.05
 		}
 		light_cruiser = {
 			naval_speed = 0.025
 			surface_visibility = -0.03
+			build_cost_ic = -0.05
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_cruiser
@@ -2089,12 +2108,14 @@ technologies = {
 		}
 
 		on_research_complete = {
-			add_equipment_bonus = {
-				name = treaty_cruiser_trend
-				bonus = {
-					ship_hull_cruiser = {
-						instant = yes
-						build_cost_ic = -0.05
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = treaty_cruiser_trend
+					bonus = {
+						ship_hull_cruiser = {
+							instant = yes
+							build_cost_ic = -0.05
+						}
 					}
 				}
 			}
@@ -4798,15 +4819,20 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = -2 y = @1944 }
 		}
+		carrier = {
+			build_cost_ic = -0.1
+		}
 
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_6_tt
-			add_equipment_bonus = {
-				name = carrier_mass_production
-				bonus = {
-					ship_hull_carrier = {
-						instant = yes
-						build_cost_ic = -0.1
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = carrier_mass_production
+					bonus = {
+						ship_hull_carrier = {
+							instant = yes
+							build_cost_ic = -0.1
+						}
 					}
 				}
 			}
@@ -5693,14 +5719,19 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = -2 y = @1944 }
 		}
+		submarine = {
+			build_cost_ic = -0.15
+		}
 
 		on_research_complete = {
-			add_equipment_bonus = {
-				name = submarine_mass_production
-				bonus = {
-					ship_hull_submarine = {
-						instant = yes
-						build_cost_ic = -0.15
+			hidden_effect = {
+				add_equipment_bonus = {
+					name = submarine_mass_production
+					bonus = {
+						ship_hull_submarine = {
+							instant = yes
+							build_cost_ic = -0.15
+						}
 					}
 				}
 			}
