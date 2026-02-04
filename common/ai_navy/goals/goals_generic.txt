@@ -100,12 +100,12 @@ generic_training = {
 generic_naval_blockade = {
     objective_type = naval_blockade
 
-     blocked_for = {
-        ENG FRA GER ITA JAP SOV USA
-    }
+    # blocked_for = {
+    #     ENG FRA GER ITA JAP SOV USA
+    # }
 
-    min_priority = 10
-    max_priority = 20
+    min_priority = 0
+    max_priority = 3
 }
 
 generic_strike_force = {
