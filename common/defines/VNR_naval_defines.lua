@@ -206,6 +206,7 @@ NDefines.NNavy.SHIP_SUPPORT_NEED_FACTOR = 0.25   -- The support need for a ship.
 NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for naval strike mission in port (was 0.25, ease the cost of assigning strike force)
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 3000   -- Tuning parameter for homebase calculation. Distance to normalize against. Everything above said value will be treated as score = 0. (was 1000)
+NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
 
 
 
@@ -237,7 +238,8 @@ NDefines.NAI.NAVAL_DOCKYARDS_SHIP_FACTOR = 2.5   -- The extent to which number o
 NDefines.NAI.PRODUCTION_MAX_PROGRESS_TO_SWITCH_NAVAL = 0   -- AI will not replace ships being built by newer types if progress is above this (was 0.1, disable this so that AI won't cancel starting production)
 NDefines.NAI.PRODUCTION_WAIT_TO_FINISH_IF_EXPENSIVE = 0.02   -- If produced item is expensive (producing less than one/week), wait to finish item if progress is above this (was 0.1)
 NDefines.NAI.WANTED_CARRIER_PLANES_PER_CARRIER_CAPACITY_FACTOR = 2   -- Scales how many carrier planes the AI want per carrier deck space. (was 1.5)
-NDefines.NAI.WANTED_CARRIER_PLANES_PER_CARRIER_CAPACITY_IN_PRODUCTION_FACTOR = 1.5   -- Scales how many carrier planes the AI want per deck space of carriers in production. (was 1)
+NDefines.NAI.WANTED_CARRIER_PLANES_PER_CARRIER_CAPACITY_IN_PRODUCTION_FACTOR = 1.2   -- Scales how many carrier planes the AI want per deck space of carriers in production. (was 1)
+NDefines.NAI.CARRIER_CAPACITY_IN_PRODUCTION_MAX_DAYS_LEFT_TO_INCLUDE_FACTOR = 180   -- Carriers in production that will take more days to complete than this value will be ignored when calculating the above. (was 365)
 NDefines.NAI.AI_WANTED_CARRIER_BASED_PLANES_FACTOR = 1.5   -- Factor applied to desire for carrier based planes (total carrier space * define) (was 1)
 NDefines.NAI.DESIRE_USE_XP_TO_UNLOCK_NAVAL_DOCTRINE = 1   -- How quickly is desire to unlock naval doctrines accumulated? (was 0.5)
 NDefines.NAI.DESIRE_USE_XP_TO_UPGRADE_NAVAL_EQUIPMENT = 1   -- How quickly is desire to update/create naval equipment variants accumulated?
@@ -245,6 +247,7 @@ NDefines.NAI.DEFAULT_MODULE_VARIANT_CREATION_XP_CUTOFF_NAVY = 30   -- Navy XP ne
 NDefines.NAI.VARIANT_CREATION_XP_RESERVE_NAVY = 30   -- If the AI lacks navy XP to create a variant it will reserve this much XP for variant creation so that it will eventually be able to create a variant. (was 50)
 NDefines.NAI.DEFAULT_MODULE_VARIANT_CREATION_XP_CUTOFF_AIR = 15   -- Air XP needed before attempting to create a variant of a type (was 25)
 NDefines.NAI.VARIANT_CREATION_XP_RESERVE_AIR = 30   -- If the AI lacks air XP to create a variant it will reserve this much XP for variant creation so that it will eventually be able to create a variant. (was 50)
+NDefines.NAI.CONVOY_NEED_SAFETY_BUFFER = 1.60   -- AI will try and keep 15% more convoys than what it needs. (was 1.3)
 
 
 --AI Mission
@@ -302,6 +305,10 @@ NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this 
 	0.25,	-- naval dominance strategy (was 0.125)
 	0,0,0	-- others ( Training, NavalBlockade, StrikeForce )
 }
+NDefines.NAI.CONVOY_RAIDING_TARGET_RECALC_DAYS = 30   -- Each X days, the AI will reevaluate which regions to convoy raid (because enemy convoy usage or trade routes might change) (was 3)
+NDefines.NAI.STRIKE_FORCE_TARGET_RECALC_DAYS = 30   -- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change) (was 1)
+NDefines.NAI.AI_OBJECTIVE_DEFAULT_TARGET_RECALC_DAYS = 20   -- Each X days, the AI will reevaluate which regions to target for naval missions (this is the default value, but can be overriden by specific objectives, see CONVOY_RAIDING_TARGET_RECALC_DAYS) (was 0)
+NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.9   -- ai will not train a taskforce if fully trained ships are above this ratio (was 0.7)
 
 
 --AI Misc
