@@ -306,7 +306,7 @@ NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this 
 	0,0,0	-- others ( Training, NavalBlockade, StrikeForce )
 }
 NDefines.NAI.CONVOY_RAIDING_TARGET_RECALC_DAYS = 30   -- Each X days, the AI will reevaluate which regions to convoy raid (because enemy convoy usage or trade routes might change) (was 3)
-NDefines.NAI.STRIKE_FORCE_TARGET_RECALC_DAYS = 30   -- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change) (was 1)
+NDefines.NAI.STRIKE_FORCE_TARGET_RECALC_DAYS = 20   -- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change) (was 1)
 NDefines.NAI.AI_OBJECTIVE_DEFAULT_TARGET_RECALC_DAYS = 20   -- Each X days, the AI will reevaluate which regions to target for naval missions (this is the default value, but can be overriden by specific objectives, see CONVOY_RAIDING_TARGET_RECALC_DAYS) (was 0)
 NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.9   -- ai will not train a taskforce if fully trained ships are above this ratio (was 0.7)
 
