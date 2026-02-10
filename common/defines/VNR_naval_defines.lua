@@ -87,8 +87,8 @@ NDefines.NNavy.DOMINANCE_DAILY_LOSS_FACTOR = 0.01   -- Daily dominance loss, as 
 NDefines.NNavy.COMBAT_MIN_DURATION = 20   -- Min combat duration before we can retreat. It's a balancing variable so it's not possible to always run with our weak ships agains big flotillas. (was 8, longer activation time creates time for carrier attack)
 NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 22   -- hours from start of combat when only carriers, capitals and subs get to attack (was 6)
 NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 30   -- hours where all get to attack (was 8)
-NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 1   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
-NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.15   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
+NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 3   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
+NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.1   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
 NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 2   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
 NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 4   -- each taskforce in convoy defense mission can at most cover this many regions without losing efficiency (was 5)
@@ -172,7 +172,7 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_WEAKER = { -- the aggression level pe
 	---- values correspond to the indexes of the AGGRESSION_SETTINGS_VALUES. 0 = do not engage, 1 = low, 2 = medium, etc. 
 	---- If set to (-1), will use the hardcoded behavior (low if navy is generally weaker than opponent, medium if stronger)
 	-1, -- HOLD
-	0, -- PATROL
+	1, -- PATROL (was 0)
 	2, -- STRIKE FORCE (was 1)
 	1, -- CONVOY RAIDING
 	1, -- CONVOY ESCORT
