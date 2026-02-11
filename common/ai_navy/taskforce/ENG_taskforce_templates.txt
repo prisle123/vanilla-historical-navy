@@ -83,6 +83,13 @@ ENG_PatrolDominanceForce_2 = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			factor = 0
+			has_navy_size = {
+				unit = battle_cruiser
+				size < 1
+			}
+		}
 	}	
 	mission = { naval_patrol }
 	# min_composition = {

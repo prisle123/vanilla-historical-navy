@@ -5,7 +5,7 @@ JAP_naval_invasion_support = {
         JAP
     }
 
-    min_priority = 5
+    min_priority = 10
     max_priority = 20
 }
 
@@ -27,8 +27,8 @@ JAP_invasion_defense = {
         JAP
     }
 
-    min_priority = 5
-    max_priority = 14
+    min_priority = 9
+    max_priority = 18
 }
 
 JAP_coast_defense = {
