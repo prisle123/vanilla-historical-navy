@@ -63,7 +63,6 @@ critical_parts = {
 			lg_attack = -0.15
 			anti_air_attack = -0.33
 		}
-		chance = 0.5
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
 		max_damage_instance = -1
@@ -237,7 +236,7 @@ critical_parts = {
 			naval_morale_factor = -1
         }
         chance = 0.05
-        org_damage_multiplier = 40
+        org_damage = 40
         str_damage = 200
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
@@ -251,7 +250,7 @@ critical_parts = {
 			naval_morale_factor = -1
         }
         chance = 0.05
-        org_damage_multiplier = 50
+        org_damage = 50
         str_damage = 250
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
