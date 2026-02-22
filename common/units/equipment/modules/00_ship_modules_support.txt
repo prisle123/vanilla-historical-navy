@@ -283,7 +283,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			torpedo_attack = 20
+			torpedo_attack = 15
 			build_cost_ic = 90
 		}
 		multiply_stats = {
@@ -303,7 +303,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 25
+			torpedo_attack = 20
 			naval_torpedo_hit_chance_factor = 0.01
 			build_cost_ic = 120
 		}
@@ -334,7 +334,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 30
+			torpedo_attack = 25
 			build_cost_ic = 150
 			naval_torpedo_hit_chance_factor = 0.015
 		}
@@ -358,7 +358,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 35
+			torpedo_attack = 30
 			build_cost_ic = 180
 			naval_torpedo_hit_chance_factor = 0.02
 		}
@@ -381,7 +381,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 40
+			torpedo_attack = 35
 			sub_attack = 12
 			build_cost_ic = 220
 			naval_torpedo_hit_chance_factor = 0.025
@@ -424,7 +424,7 @@ equipment_modules = {
 
 		
 		add_stats = {
-			torpedo_attack = 18
+			torpedo_attack = 15
 			build_cost_ic = 50
 			naval_torpedo_hit_chance_factor = 0.01
 		}
@@ -448,7 +448,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 23
+			torpedo_attack = 20
 			build_cost_ic = 70
 			naval_torpedo_hit_chance_factor = 0.02
 		}
@@ -476,7 +476,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 28
+			torpedo_attack = 24
 			build_cost_ic = 90
 			naval_torpedo_hit_chance_factor = 0.03
 		}
@@ -501,7 +501,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 33
+			torpedo_attack = 28
 			build_cost_ic = 110
 			naval_torpedo_hit_chance_factor = 0.04
 		}
@@ -525,7 +525,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 38
+			torpedo_attack = 32
 			sub_attack = 8
 			build_cost_ic = 150
 			naval_torpedo_hit_chance_factor = 0.05
