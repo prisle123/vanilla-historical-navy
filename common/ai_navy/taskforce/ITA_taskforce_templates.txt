@@ -6,11 +6,14 @@ ITA_StrikeForce_1 = {
 		factor = 1
 	}	
 	mission = { naval_strike naval_patrol }
-	# min_composition = {
-	# 	destroyer = {
-	# 		amount = 8
-	# 	}
-	# }
+	min_composition = {
+		battleship = {
+			amount = 1
+		}
+		destroyer = {
+			amount = 8
+		}
+	}
 	
 	optimal_composition = {
 		battleship = {
@@ -42,11 +45,17 @@ ITA_StrikeForceCarrier_1 = {
 		}
 	}	
 	mission = { naval_strike naval_patrol }
-	# min_composition = {
-	# 	destroyer = {
-	# 		amount = 8
-	# 	}
-	# }
+	min_composition = {
+		carrier = {
+			amount = 2
+		}
+		battleship = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 8
+		}
+	}
 	
 	optimal_composition = {
 		carrier = {

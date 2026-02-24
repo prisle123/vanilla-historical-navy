@@ -31,12 +31,6 @@ ENG_protect_home_waters = {
         id = 18
         value = -1000
     }
-
-	ai_strategy = {
-        type = convoy_raiding_target
-        id = GER
-        value = 100
-    }
 }
 
 ENG_protect_atlantic_route = {
@@ -108,7 +102,7 @@ ENG_secure_mediterranean = {
     ai_strategy = {
         type = naval_dominance
         id = vnr_eng_med_zones
-        value = 80
+        value = 100
     }
 	ai_strategy = {
 		type = naval_avoid_region
@@ -116,10 +110,20 @@ ENG_secure_mediterranean = {
 		value = 800
 	}
 	ai_strategy = {
-        type = convoy_raiding_target
-        id = ITA
-        value = 70
-    }
+		type = naval_convoy_raid_region
+		id = 29
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 68
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 69
+		value = 100
+	}
 }
 
 ENG_avoid_mediterranean = {
@@ -969,7 +973,6 @@ ITA_avoid_mediterranean = {
 			has_war_with = ENG
 			threat > 0.4
 		}
-        has_navy_size = { size < 250 }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes

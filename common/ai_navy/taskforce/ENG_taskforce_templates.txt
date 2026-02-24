@@ -10,6 +10,12 @@ ENG_StrikeForce_1 = {
 		carrier = {
 			amount = 2
 		}
+		battleship = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 6
+		}
 	}
 	
 	optimal_composition = {
@@ -18,6 +24,52 @@ ENG_StrikeForce_1 = {
 		}
 		battleship = {
 			amount = 6
+		}
+		light_cruiser = {
+			amount = 10
+		}
+		destroyer = {
+			amount = 16
+		}
+	}
+}
+
+ENG_StrikeForce_BC_1 = {
+	allowed = {
+		original_tag = ENG 
+	}
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			add = 20
+			has_navy_size = {
+				unit = battle_cruiser
+				size > 1
+			}
+		}
+	}	
+	mission = { naval_strike naval_patrol }
+	min_composition = {
+		carrier = {
+			amount = 2
+		}
+		battle_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 6
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 4
+		}
+		battle_cruiser = {
+			amount = 3
+		}
+		heavy_cruiser = {
+			amount = 3
 		}
 		light_cruiser = {
 			amount = 10
@@ -48,6 +100,33 @@ ENG_PatrolReconForce_1 = {
 	}
 }
 
+ENG_PatrolReconForce_BC_1 = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_navy_size = {
+				unit = battle_cruiser
+				size > 1
+			}
+		}
+	}
+	mission = { naval_patrol convoy_escort }
+	# min_composition = {
+	# 	destroyer = {
+	# 		amount = 1
+	# 	}
+	# }	
+	optimal_composition = {
+		destroyer = {
+			amount = 5
+		}
+	}
+}
+
 ENG_PatrolDominanceForce_1 = {
 	allowed = {
 		original_tag = ENG
@@ -56,14 +135,14 @@ ENG_PatrolDominanceForce_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
-	# min_composition = {
-	# 	light_cruiser = {
-	# 		amount = 2
-	# 	}
-	# 	destroyer = {
-	# 		amount = 6
-	# 	}
-	# }
+	min_composition = {
+		light_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 4
@@ -77,38 +156,35 @@ ENG_PatrolDominanceForce_1 = {
 	}
 }
 
-ENG_PatrolDominanceForce_2 = {
+ENG_PatrolDominanceForce_BC_1 = {
 	allowed = {
 		original_tag = ENG
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 0
 		modifier = {
-			factor = 0
+			add = 5
 			has_navy_size = {
 				unit = battle_cruiser
-				size < 1
+				size > 1
 			}
 		}
 	}	
 	mission = { naval_patrol }
-	# min_composition = {
-	# 	battle_cruiser = {
-	# 		amount = 3
-	# 	}
-	# 	destroyer = {
-	# 		amount = 5
-	# 	}
-	# }
-	optimal_composition = {
-		battle_cruiser = {
-			amount = 3
-		}
-		heavy_cruiser = {
-			amount = 2
-		}
+	min_composition = {
 		light_cruiser = {
 			amount = 2
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
+	optimal_composition = {
+		heavy_cruiser = {
+			amount = 4
+		}
+		light_cruiser = {
+			amount = 4
 		}
 		destroyer = {
 			amount = 8

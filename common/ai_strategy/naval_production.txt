@@ -816,7 +816,7 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 80
+		value = 120
 	}
 
 	ai_strategy = {
@@ -1299,12 +1299,12 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 80
+		value = 120
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 50
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1314,7 +1314,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 90
+		value = 60
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
@@ -1348,7 +1348,7 @@ naval_unit_role_ratios_JAP_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 60
+		value = 80
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1502,7 +1502,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 60
+		value = 90
 	}
 
 	ai_strategy = {

@@ -41,6 +41,7 @@ critical_parts = {
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
 		max_damage_instance = -1
+		str_damage = 40
 	}
 	
 	damaged_missiles = {
@@ -53,7 +54,7 @@ critical_parts = {
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
 		max_damage_instance = -1
-		str_damage = 25
+		str_damage = 30
 	}
 
 	damaged_aa_missiles = {
@@ -78,6 +79,7 @@ critical_parts = {
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1
 		max_damage_instance = -1
+		str_damage = 15
 	}
 	damaged_secondaries = {
 		icon = "GFX_default_critical_damage_icons"
@@ -128,6 +130,7 @@ critical_parts = {
 			navy_org_factor = -0.5
 			naval_morale_factor = -0.8
 		}
+		str_damage = 30
 		org_damage = 5
 		org_damage_multiplier = 2
 	}

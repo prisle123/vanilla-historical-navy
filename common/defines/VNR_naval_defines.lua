@@ -5,19 +5,19 @@
 --Hit Chance and Damage
 NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.45   -- factors speed value when determining it profile (Vis * HIT_PROFILE_MULT * Ship Hit Profile Mult) (was 0.5, set to 0.45 to lower impact from speed)
 NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.08   -- base chance for hit (was 0.1)
-NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.2   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
-NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.9   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
+NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.13   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
+NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.65   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
 NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.1   -- base % of convoys that get intercepted (was 0.15)
 NDefines.NNavy.CONVOY_HIT_PROFILE = 90   -- convoys has this contant hit profile (was 85)
-NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.4   -- chance for critical hit from torpedo. (was 0.1, torpedo needs more love)
+NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.3   -- chance for critical hit from torpedo. (was 0.1, torpedo needs more love)
 NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = { 2.0, 1.0, 0.85, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.3, 0.0 }   -- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 3.0, 1.25, 1.0, 0.65, 0.55, 0.3, 0.15, 0.1, 0.05, 0.01, 0.0 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_DAMAGE_VALUES = { 2.0, 1.0, 0.7, 0.6, 0.45, 0.35, 0.2, 0.1, 0.05, 0.02, 0.01 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
 NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 0.3   -- random factor in damage. So if max damage is fe. 10, and randomness is 30%, then damage will be between 7-10. (was 0.5)
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
-	75.0,	-- big guns
-	115.0,	-- torpedoes
+	70.0,	-- big guns
+	110.0,	-- torpedoes
 	55.0,	-- small guns
 }
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { 1.0, 8.0, 1.0 }   -- number of hours for a gun to be ready after shooting
@@ -111,7 +111,7 @@ NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 500   --For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract) (was 16)
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 40   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 12   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 10)
-NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 1   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
+NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.8   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
 --NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
 --NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 25.0   -- multiplier on disruption damage to scale its effects on carrier vs carrier planes (was 6, doesn't seem to work)
@@ -155,7 +155,7 @@ NDefines.NNavy.AGGRESSION_ARMOR_EFFICIENCY_MULTIPLIER = 1.0		-- armor to enemy p
 NDefines.NNavy.AGGRESSION_MIN_ARMOR_EFFICIENCY = 1.0              -- armor multiplier has a min and max caps while being factored in aggression (was 0.5)
 NDefines.NNavy.AGGRESSION_MAX_ARMOR_EFFICIENCY = 1.5              -- armor multiplier has a min and max caps while being factored in aggression
 NDefines.NNavy.AGGRESSION_LIGHT_GUN_EFFICIENCY_ON_LIGHT_SHIPS = 1.0 -- ratio for scoring for different gun types against light ships
-NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_LIGHT_SHIPS = 0.75   -- ratio for scoring for different gun types against light ships (was 0.25)
+NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_LIGHT_SHIPS = 0.5   -- ratio for scoring for different gun types against light ships (was 0.25)
 NDefines.NNavy.AGGRESSION_TORPEDO_EFFICIENCY_ON_LIGHT_SHIPS = 0.5   -- ratio for scoring for different gun types against light ships (was 0.1)
 NDefines.NNavy.AGGRESSION_LIGHT_GUN_EFFICIENCY_ON_HEAVY_SHIPS = 0.1  -- ratio for scoring for different gun types against heavy ships
 NDefines.NNavy.AGGRESSION_HEAVY_GUN_EFFICIENCY_ON_HEAVY_SHIPS = 1.0  -- ratio for scoring for different gun types against heavy ships
@@ -167,12 +167,12 @@ NDefines.NNavy.AGGRESSION_SETTINGS_VALUES = {
 	2.2,	-- high
 	10000,	-- I am death incarnate!
 }
-NDefines.NNavy.AGGRESION_MULTIPLIER_FOR_COMBAT = 2.3   -- ships are more aggresive in combat (was 1.2)
+NDefines.NNavy.AGGRESION_MULTIPLIER_FOR_COMBAT = 1.7   -- ships are more aggresive in combat (was 1.2)
 NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_WEAKER = { -- the aggression level per mission when the AI has a weaker navy than its opponent
 	---- values correspond to the indexes of the AGGRESSION_SETTINGS_VALUES. 0 = do not engage, 1 = low, 2 = medium, etc. 
 	---- If set to (-1), will use the hardcoded behavior (low if navy is generally weaker than opponent, medium if stronger)
 	-1, -- HOLD
-	1, -- PATROL (was 0)
+	0, -- PATROL
 	2, -- STRIKE FORCE (was 1)
 	1, -- CONVOY RAIDING
 	1, -- CONVOY ESCORT
@@ -309,6 +309,7 @@ NDefines.NAI.CONVOY_RAIDING_TARGET_RECALC_DAYS = 30   -- Each X days, the AI wil
 NDefines.NAI.STRIKE_FORCE_TARGET_RECALC_DAYS = 20   -- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change) (was 1)
 NDefines.NAI.AI_OBJECTIVE_DEFAULT_TARGET_RECALC_DAYS = 20   -- Each X days, the AI will reevaluate which regions to target for naval missions (this is the default value, but can be overriden by specific objectives, see CONVOY_RAIDING_TARGET_RECALC_DAYS) (was 0)
 NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.9   -- ai will not train a taskforce if fully trained ships are above this ratio (was 0.7)
+NDefines.NNavy.AI_MAX_TASKFORCES_PER_TRAINING_OBJECTIVE = 20   -- Max number of taskforces we desire for AI to put in each fleet that is training. (was 5)
 
 
 --AI Misc
