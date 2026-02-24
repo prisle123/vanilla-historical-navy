@@ -5,6 +5,7 @@
 --Hit Chance and Damage
 NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.45   -- factors speed value when determining it profile (Vis * HIT_PROFILE_MULT * Ship Hit Profile Mult) (was 0.5, set to 0.45 to lower impact from speed)
 NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.08   -- base chance for hit (was 0.1)
+NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.01   -- never less hit chance then this (in percent) (was 0.02)
 NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.13   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.65   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
@@ -205,7 +206,6 @@ NDefines.NNavy.AMPHIBIOUS_INVADE_SPEED_BASE = 0.25    -- every hour movement pro
 NDefines.NNavy.SHIP_SUPPORT_NEED_FACTOR = 0.25   -- The support need for a ship. This factor is multiplied with the ships dominance value (was 0.1)
 NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for naval strike mission in port (was 0.25, ease the cost of assigning strike force)
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
-NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 3000   -- Tuning parameter for homebase calculation. Distance to normalize against. Everything above said value will be treated as score = 0. (was 1000)
 NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
 
 
@@ -283,7 +283,7 @@ NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 	2, -- PATROL
 	4, -- STRIKE FORCE
-	2, -- CONVOY RAIDING
+	1.5, -- CONVOY RAIDING
 	4, -- CONVOY ESCORT
 	2, -- MINES PLANTING
 	2, -- MINES SWEEPING
@@ -293,8 +293,8 @@ NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 }
 NDefines.NAI.CONVOY_ESCORT_SCORE_FROM_CONVOYS = 25   -- score for each convoy you have in area (was 15)
 NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 200   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
-NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 5   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
-NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 1.5   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
+NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 10   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
+NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 2   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
 NDefines.NAI.DANGEROUS_ENEMY_ARMY_SIZE = 10000   -- If the size of the enemy's army of the attacking country is more than this value, the AI will add naval invasion defense importance (was 100)
 NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this list is important!
 	0.1875,	-- invasion suppport
