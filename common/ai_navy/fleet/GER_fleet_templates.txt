@@ -5,17 +5,7 @@ GER_dominance_fleet_1 = {
 		GER_PatrolReconForce_1 = 2
 	}	
 	optional_taskforces = {
-		GER_PatrolReconForce_1 = 1
-	}
-}
-
-GER_dominance_fleet_2 = {
-	required_taskforces = {
 		GER_StrikeForceCarrier_1 = 1
-		GER_PatrolDominanceForce_1 = 1
-		GER_PatrolReconForce_1 = 1
-	}	
-	optional_taskforces = {
 		GER_PatrolReconForce_1 = 1
 	}
 }

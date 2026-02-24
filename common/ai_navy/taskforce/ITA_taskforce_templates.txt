@@ -35,19 +35,19 @@ ITA_StrikeForceCarrier_1 = {
 		original_tag = ITA 
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 		modifier = {
-			factor = 0
+			add = 0
 			has_navy_size = {
 				type = carrier
-				size < 1
+				size > 0
 			}
 		}
 	}	
 	mission = { naval_strike naval_patrol }
 	min_composition = {
 		carrier = {
-			amount = 2
+			amount = 1
 		}
 		battleship = {
 			amount = 2
@@ -104,14 +104,14 @@ ITA_PatrolDominanceForce_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
-	# min_composition = {
-	# 	light_cruiser = {
-	# 		amount = 2
-	# 	}
-	# 	destroyer = {
-	# 		amount = 4
-	# 	}
-	# }
+	min_composition = {
+		light_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
 
 	optimal_composition = {
 		heavy_cruiser = {

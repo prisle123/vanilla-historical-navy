@@ -36,10 +36,20 @@ GER_StrikeForceCarrier_1 = {
 		original_tag = GER
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 0
+		modifier = {
+			add = 10
+			has_navy_size = {
+				unit = carrier
+				size > 0
+			}
+		}
 	}		
 	mission = { naval_strike naval_patrol }
 	min_composition = {
+		battleship = {
+			amount = 2
+		}
 		destroyer = {
 			amount = 8
 		}
@@ -139,7 +149,7 @@ GER_ConvoySurfaceRaiding_1 = {
 	ai_will_do = {
 		factor = 1
 	}	
-	mission = { convoy_raiding}
+	mission = { convoy_raiding naval_patrol }
 	min_composition = {
 		battle_cruiser = {
 			amount = 1
