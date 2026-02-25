@@ -2220,7 +2220,17 @@ we_need_screen_1 = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 500
+		value = 2000
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = -200
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -200
 	}
 }
 
@@ -2239,7 +2249,17 @@ we_need_screen_2 = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 200
+		value = 1000
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_capital_bb
+		value = -200
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_carrier
+		value = -200
 	}
 }
 
