@@ -26,7 +26,7 @@ sub_units = {
 		max_organisation = 40
 		
 		supply_consumption = 0.15
-		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire_medium }
 		critical_part_damage_chance_mult = 1
 		
 		hit_profile_mult = 1.0
@@ -43,7 +43,7 @@ sub_units = {
 		max_organisation = 40
 		
 		supply_consumption = 0.15
-		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire_medium }
 		critical_part_damage_chance_mult = 1
 		
 		hit_profile_mult = 1.0

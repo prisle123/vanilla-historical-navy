@@ -120,7 +120,33 @@ critical_parts = {
 	}
 	
 
-	on_fire = {
+	on_fire_light = {
+		icon = "GFX_default_critical_damage_icons"
+		frame = 6
+		stat_penalties = {
+			surface_visibility = 1
+		}
+		modifier = {
+			navy_org_factor = -0.5
+			naval_morale_factor = -0.8
+		}
+		str_damage = 10
+		org_damage = 10
+	}
+	on_fire_medium = {
+		icon = "GFX_default_critical_damage_icons"
+		frame = 6
+		stat_penalties = {
+			surface_visibility = 1
+		}
+		modifier = {
+			navy_org_factor = -0.5
+			naval_morale_factor = -0.8
+		}
+		str_damage = 20
+		org_damage = 10
+	}
+	on_fire_heavy = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 6
 		stat_penalties = {
@@ -131,8 +157,7 @@ critical_parts = {
 			naval_morale_factor = -0.8
 		}
 		str_damage = 30
-		org_damage = 5
-		org_damage_multiplier = 2
+		org_damage = 15
 	}
 
 	broken_propeller = {
