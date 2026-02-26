@@ -10,6 +10,17 @@ USA_dominance_fleet_1 = {
 	}
 }
 
+USA_dominance_fleet_2 = {
+	required_taskforces = {
+		USA_StrikeForce_2 = 3
+		USA_PatrolDominanceForce_1 = 2
+		USA_PatrolReconForce_1 = 2
+	}	
+	optional_taskforces = {
+		USA_PatrolReconForce_1 = 1
+	}
+}
+
 USA_raiding_fleet_1 = {
 	required_taskforces = {
 		USA_ConvoyRaiding_1 = 1
