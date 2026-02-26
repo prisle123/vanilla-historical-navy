@@ -52,8 +52,8 @@ ideas = {
 			
 			modifier = {
 				production_cost_max_ship_hull_cruiser = 6800
-				production_cost_max_ship_hull_heavy = 12000
-				production_cost_max_ship_hull_carrier = 11000
+				production_cost_max_ship_hull_heavy = 12500
+				production_cost_max_ship_hull_carrier = 13000
 				production_cost_max_ship_hull_submarine = 900
 				convoy_raiding_efficiency_factor = -0.5
 			}
@@ -91,7 +91,7 @@ ideas = {
 			modifier = {
 				production_cost_max_ship_hull_cruiser = 7200
 				production_cost_max_ship_hull_heavy = 18000
-				production_cost_max_ship_hull_carrier = 12000
+				production_cost_max_ship_hull_carrier = 14000
 			}
 		}
 	}

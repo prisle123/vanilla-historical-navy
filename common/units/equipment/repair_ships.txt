@@ -3,20 +3,8 @@ equipments = {
 	repair_ship_hull = {
 		year = 1936
 
-		can_be_produced = {
-			if = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				NOT = {
-					has_idea = BUL_army_restrictions_aat
-				}
-			}
-			else = {
-				NOT = {
-					has_idea = BUL_army_restrictions
-				}
-			}
+		can_be_produced = {			# Commented until flag 'cannot_produce_ships' is used by any tag
+			NOT = { has_country_flag = cannot_produce_ships }
 		}
 
 		is_archetype = yes

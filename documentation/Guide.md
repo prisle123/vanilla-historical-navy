@@ -51,7 +51,9 @@ Detection and visibility are an interesting duo in gaining initiativeness. They 
 
 **Cost**
 
-Unless you are playing as US or UK, building a large fleet takes too much time and IC, and it may hamper your army production as well. This is especially true for countries like Germany or Soviet Union which require army focus more than anyone else. As a result, keeping the cost of shipbuilding programs under control can make the whole experience of your game smoother.
+When you try to achieve engineering perfection, you'll find more efforts are needed to get from 90% to 100% than from 0% to 50%. This is known as diminishing returns. Cost of ships in VNR also adopts a model based on this theory to encourage historical designing. With each new turret, the cost goes up not only in total, but also in average. For example, the first turret costs 800 ic, while the second may cost you 900 ic, and it goes on as you put more turrets on the ship until it gets overwhelming.
+
+Unless you are playing as US or UK, building a large fleet of super warships takes too much time and IC, and it may hamper your army production as well. This is especially true for countries like Germany or Soviet Union which require army focus more than anyone else. As a result, keeping the cost of shipbuilding programs under control can make the whole experience of your game smoother.
 
 ### How to Design Your Ship ###
 
@@ -63,7 +65,9 @@ Carrier serves as the main source of damage in battle, and it heavily relies on 
 
 **Heavy Ship**
 
-You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. Since HP is deeply bounded with number of guns, a battleship needs as many guns as possible to boost its survivability and protect the fleet. However, that has raised another question, is it worthy in exchange for lower speed and incredible cost (consider that the cost of a super battleship can be used to arm two conventional battleships or advanced carriers). As a result, I strongly recommend historical design with adequate guns and AAs for all your heavy ships.
+You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. 
+
+In VNR, HP is deeply bounded with number of guns since the turret module directly provides HP. With hull's HP reduced, a battleship needs as many guns as possible to boost its survivability and protect the fleet. However, that has raised another question: is it worthy in exchange for lower speed and incredible cost, consider that the cost of a super battleship can be used to arm two conventional battleships or advanced carriers? The answer can vary, but I strongly recommend historical design with adequate guns and AAs for all your heavy ships for cost-efficiency.
 
 On the contrary, battlecruiser is not a good option despite its advantage of speed. Its armor is too weak to withstand a direct hit by heavy gun of its type, even some advanced cruisers can inflict damage on it. In 1936, battlecruiser has also started to show marginal utilities on speed. (positive effect from speed gradually reduces as you keep investing in it).
 
@@ -194,7 +198,7 @@ As for fuel branch, its research cost is insignificant with little bonus, making
 
 ## Doctrine Tree ##
 
-With doctrines totally overhauled in NCNS update, previous VNR doctrines are also reworked to fit in the grand-sub strategy system. Some doctrines from vanilla are removed or merged into others to create more condensed doctrine tree. Grand strategy sets the tone for your entire navy experience and thus has to be chosen wisely based on the fleet you have or plan to build. After that, you can choose subdoctrines for four tracks: carrier, capital ship, screen ship, and submarine. Typically, there are five levels of mastery on each subdoctrine, providing different bonuses (or debuffs) when mastery is achieved, and it also unlocks special bonuses with a track completed.
+With doctrines totally overhauled in NCNS update, previous VNR doctrines are also reworked to fit in the grand-sub strategy system. Some doctrines from vanilla are removed or merged into others to create more condensed doctrine tree. Grand strategy sets the tone for your entire navy experience and thus it has to be chosen wisely based on the fleet you have or plan to build. After that, you can choose subdoctrines, corresponding to different grand strategies, for four tracks: Naval Aviation, Surface Fleet, Escort Force, and Submarine Flotilla. Typically, there are five levels of mastery on each subdoctrine, providing different bonuses (or debuffs) when mastery is achieved, and it also unlocks special bonuses with a track completed.
 
 ### Grand Strategy ###
 
@@ -202,13 +206,109 @@ With doctrines totally overhauled in NCNS update, previous VNR doctrines are als
 
 *Decisive battle* strategy offers a quick start and the best fleet operation bonuses among all. Historically, it was adopted by many major powers in the 1910s which aims at building a fleet around capable battleships, by consolidating formation trainings. The most important bonus of *Decisive Battle* is the positioning bonus that allows you to operate a bigger fleet without penalty.
 
+Unlocks following doctrines:
+
+- Naval Aviation
+    - Floating Airfields
+    - Subsidiary Carrier Support
+    - Naval Airforce
+    - Airspace Denial
+
+- Surface Fleet
+    - Fast Battleship Primacy
+    - Specialized Scouting Fleet
+    - Coastal Defense Fleet
+    - Monitor Support
+
+- Escort Force
+    - Convoy Escort
+    - Integrated Operations
+    - Hunter Killer Groups
+    - Torpedo Flotilla
+
+- Submarine Flotilla
+    - Fleet Operations
+    - Capital Hunters
+    - Covert Denial
+
 **Commerce Raiding**
 
 For countries with ambitions to dominate seven seas, *Commerce Raiding* may not be the top pick as it offers limited improvements to surface ships. However, it has potential to salvage the underdog. Submarine is the most benefited ship with convoy raiding rewards from the strategy, promoting your ability to harrass stronger powers in their soft spots.
 
+Unlocks following doctrines:
+
+- Naval Aviation
+    - Floating Airfields
+    - Subsidiary Carrier Support
+    - Naval Airforce
+    - Airspace Denial
+
+- Surface Fleet
+    - Specialized Scouting Fleet
+    - Armored Raiders
+    - Coastal Defense Fleet
+
+- Escort Force
+    - Convoy Escort
+    - Integrated Operations
+    - The New School
+
+- Submarine Flotilla
+    - Wolfpacks
+    - Covert Denial
+    - Operational Autonomy
+
 **Air-Sea Operation**
 
 If you are patient enough, *Air-Sea Operation* will give you ample rewards better than any other strategies when fully mastered. The only problem is that it has a relatively weak start. To unleash the power of this strategy, you will need a massive carrier fleet and strong industrial power, which can only be achieved by few countries in the game.
+
+Unlocks following doctrines:
+
+- Naval Aviation
+    - Carrier Taskforce
+    - Floating Airfields
+    - Carrier Concentration
+    - Airspace Denial
+
+- Surface Fleet
+    - Fast Battleship Primacy
+    - Specialized Scouting Fleet
+    - Taskforce Guardian
+
+- Escort Force
+    - Convoy Escort
+    - Integrated Operations
+    - Hunter Killer Groups
+    - Torpedo Flotilla
+
+- Submarine Flotilla
+    - Fleet Operations
+    - Capital Hunters
+    - Operational Autonomy
+
+**Littoral Defense**
+
+*Littoral Defense* is a strategy designed for countries with weak or close to none navy to protect their coastlines. Subdoctrines attached to this strategy are usually cheaper in xp usage, but give inadequate bonuses to limited types of ships.
+
+Unlocks following doctrines:
+
+- Naval Aviation
+    - Subsidiary Carrier Support
+    - Naval Airforce
+
+- Surface Fleet
+    - Armored Raiders
+    - Coastal Defense Fleet
+    - Monitor Support
+
+- Escort Force
+    - Torpedo Flotilla
+    - The New School
+    - Mosquito Fleet
+
+- Submarine Flotilla
+    - Coastal Defense
+    - Covert Denial
 
 ### Sub Doctrine - Carrier ###
 
@@ -231,6 +331,10 @@ For people who don't believe in air power, this doctrine depicts another possibi
 **Naval Airforce**
 
 Contrary to prior ones, this is the most radical doctrines among all, stressing land-based naval bombers more than anything else, but weaker on usage of carriers compared to others. This can be an interesting but unstable option to explore.
+
+**Airspace Denial**
+
+Often used by underdog with a rather weaker carrier fleet, this strategy combines parts of dedicated carrier doctrines with land-based support doctrines, which it should work well for those who looks to establish area denial capabilities at doorstep instead of projecting influence overseas.
 
 ### Sub Doctrine - Battle Line ###
 
@@ -272,13 +376,17 @@ This is an authentic USN strategy adopted during WWII, which makes screen ships 
 
 *Hunter Killer Groups* is a doctrine which prioritizes anti-submarine warfare with generous buffs on detection and counter-measures against submarines, while still being able to shoulder other responsibilities like convoy escort.
 
-**Torpedo Primacy**
+**Torpedo Flotilla**
 
-*Torpedo Primacy* is a doctrine full of Japanese characteristics with its priority of torpedoes on various ships. Its reduction of torpedo loading by 2 hours is the greatest bonus on torpedo among all, and together with other rewards builds an interesting method around torpedoes.
+*Torpedo Flotilla* is a doctrine full of Japanese characteristics with its priority of torpedoes on various ships. Its reduction of torpedo loading by 2 hours is the greatest bonus on torpedo among all, and together with other rewards builds an interesting method around torpedoes.
 
 **The New School**
 
 *The New School*, or *Jeune Ecole* in French, was a doctrine developed with the advent of torpedo in reality. In the mod, it also emphasizes the importance of torpedo attacks but inferior to Japanese practice. Instead, it is the only doctrine enabling screen ship convoy raiding with dedicated bonuses, mixed with other rewards on coastal defense and mine warfare.
+
+**Mosquito Fleet**
+
+Once you choose this branch, you completely give up regular fleet in result of range and org debuffs from this doctrine. Its bonuses are centered around reduced cost and torpedo attacks, while eliminating your screening efficiency to non-existence.
 
 ### Sub Doctrine - Submarine ###
 
@@ -292,15 +400,19 @@ Despite less emphasis on commerce raiding and coordination, *Fleet Operations* t
 
 **Capital Hunters**
 
-Another Japanese-style doctrine that buffs torpedo more than the equipment itself. It can expand usage scenario of torpedo further if used with *torpedo primacy*.
+Another Japanese-style doctrine that buffs torpedo more than the equipment itself. It can expand usage scenario of torpedo further if used with *torpedo flotilla*.
 
 **Coastal Defense**
 
 As its name suggests, the doctrine gives moderate and balanced bonuses on submarines at the cost of max range.
 
-**Area Defense**
+**Covert Denial**
 
 A unique double-edge-sword type of doctrine that offers reduction of visibility at great cost of HP and combat capabilities.
+
+**Operational Autonomy**
+
+A doctrine that fully authorizes submarine capitans commanding privilege while raiding in distant waters. This is a weakened version of *Wolfpacks*, but has more bonuses on range and visibility and can unlock a special submarine module after mastered.
 
 ## Naval Battle ##
 
@@ -320,7 +432,7 @@ Besides, make sure your fleet has a min speed over 30kn, this is extremely impor
 
 ### Combat Duration ###
 
-To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I still kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
 
 ### Night Combat ###
 
@@ -336,21 +448,47 @@ This feature differentiates light gun from heavy gun by a huge gap between their
 
 Critical hit chance has a close relation to piercing. With higher piercing vs armor ratio, the chance gets increased to 3x at maximum, which will 100% cause destruction of critical parts putting heavy debuff on the ship.
 
+Critical part is a module- or hull-based component that's used to depict how injury can impact combat performance of ships. You can try to understand it as something like a turret blown, or flight deck bombed, which it not only causes damage to HP but also decline in combat readiness. In vanilla, the chance to inflict critical part destruction is very low even when a critical hit takes place, but it's been ascended to an inevitable consequence due to poor armor or low reliability here.
+
+To be more specific, each time your ship is critically hit, a critical part breaks. The hull-based critical part is a fixed property of the ship hull and can only be damaged once, with a fixed chance and effect, such as heavy fire, damaged rudder, and broken propeller, which there is no way to prevent them from happening unless you boost armor and reliability to maximum (though not very effective facing aerial attacks or torpedoes). And there's module-based part, which it can be damaged multiple times (e.g. heavy battery, each damaged critical part of it means a turret just got blown) based on the amount of instances you have, causing a series of related debuffs in its wake.
+
+There are also exceptions that your choice of modules can lead to different consequences when a critical part is damaged. The most representative ones are flight deck and hangar, with armored ones having less chance to trigger horrifying blast.
+
+Since it is very hard to preview critical part effects in the game, a list will be provided here for your reference.
+
+1. Damaged Heavy Gun: -33% heavy attack, can be destroyed multiple times based on turrets in presence
+2. Damaged Light Gun: -25% light attack, can be destroyed multiple times based on turrets in presence
+3. Damaged Secondaries: -10% light attack, -33% anti-air attack, can be destroyed multiple times based on secondary turrets in presence
+4. Damaged Torpedo: -50% torpedo attack, can be destroyed multiple times based on torpedo tubes in presence
+5. Damaged Missile Launcher: -33% heavy attack and light attack, can be destroyed multiple times based on missile launchers in presence
+6. Damaged AA Missile Launcher: -15% light attack, -33% anti-air attack, can be destroyed multiple times based on AA missile launchers in presence
+7. Magazine Hit: -70% heavy attack, -70% light attack, -70% torpedo attack, an extra 500 points of HP damage and 100 points of org damage, can only happen once, extremely low probability
+8. Heavy Fire: +100% surface visibility, -50% org, -80% org recovery, can only happen once
+9. Broken Propeller: -95% retreat chance, -90% speed, can only happen once
+10. Rudder Jammed: -90% retreat chance, -50% speed, can only happen once
+11. Ballast Tank Inoperable: +100% sub visibility, submarine exclusive, can only happen once
+12. Damaged Fire Control: -50% hit chance for all weapons, can only happen once if you have fire control in presence
+13. Damaged Flight Deck (Wooden): -40% carrier capacity, -30% org, can only happen once on carrier with wooden flight deck
+14. Damaged Flight Deck (Armored): -20% carrier capacity, -15% org, can only happen once on carrier with armored flight deck, 25% lower probability than the wooden one
+15. Damaged Battlecarrier Flight Deck: -100% carrier capacity, -30% org, battlecarrier exclusive, can only happen once
+16. Air Fuel Flashover (wth. unarmored hangar): -90% org, -100% org recovery, an extra 250 points of HP damage and 50 points of org damage, can only happen once, very low probability
+17. Air Fuel Flashover (wth. armored hangar): -90% org, -100% org recovery, an extra 200 points of HP damage and 40 points of org damage, can only happen once, very low probability
+
 ### Retreat Process ###
 
 Retreating is made faster in VNR to simulate the quick disengagement in real naval war, leading to more frequent but indecisive battles. Of course, you can still have Midway kind of victory because of luck.
 
 ### Positioning ###
 
-Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:2, you will need more ships to achieve max screen efficiency.
+Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:2, you will need more ships to achieve max screen efficiency, which in return it hurts positioning even more due to expansion of fleet and thus creates a vicious circle.
 
-Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 40 ships have a chance to get penalized for high relative size, which is -50% positioning with every doubling of ships than the other side, capped to -300%.
+Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 40 ships have a chance to get penalized for high relative size, which is -40% positioning with every doubling of ships than the other side, capped to -200%.
 
 To be more specific, I will provide you with a list to illustrate: 
 
 - 10 vs 1: threshold of 41 ships not reached, no positioning penalty
-- 45 vs 10: more than 4 times bigger, 4 x (-50%) = -200% positioning
-- 100 vs 70: doubling relative size not achieved, no positioning penalty
+- 80 vs 20: fleet is four times bigger, threshold of 41 ships reached, (80 - 20) / 20 x (-40%) = -120% positioning
+- 100 vs 70: doubling relative size not achieved, threshold of 41 ships reached, partial positioning penalty, (100 - 70) / 70 x (-40%) = -17.15% positioning
 
 When positioning reaches 0%, you will have to face harsh debuffs such as -90% damage, -75% AA, and -125% screening efficiency.
 

@@ -38,6 +38,9 @@ USA = {
             icons = {
                 GFX_USA_vnr_ship_hull_light_1_medium
 				GFX_USA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/extra/USA_destroyer_Buckley.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Cannon.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Evarts.png"
             }
         }
 
@@ -55,6 +58,9 @@ USA = {
             icons = {
                 GFX_USA_vnr_ship_hull_light_1_medium
 				GFX_USA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/extra/USA_destroyer_Buckley.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Cannon.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Evarts.png"
 				GFX_USA_vnr_ship_hull_light_3_medium
             }
         }
@@ -73,6 +79,9 @@ USA = {
             icons = {
                 GFX_USA_vnr_ship_hull_light_1_medium
 				GFX_USA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/extra/USA_destroyer_Buckley.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Cannon.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Evarts.png"
 				GFX_USA_vnr_ship_hull_light_3_medium
 				GFX_USA_vnr_ship_hull_light_4_medium
 				"gfx/interface/technologies/extra/USA_destroyer_Sumner.png"
@@ -95,6 +104,9 @@ USA = {
             icons = {
                 GFX_USA_vnr_ship_hull_light_1_medium
 				GFX_USA_vnr_ship_hull_light_2_medium
+                "gfx/interface/technologies/extra/USA_destroyer_Buckley.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Cannon.png"
+                "gfx/interface/technologies/extra/USA_destroyer_Evarts.png"
 				GFX_USA_vnr_ship_hull_light_3_medium
 				GFX_USA_vnr_ship_hull_light_4_medium
 				GFX_USA_vnr_ship_hull_light_5_medium
@@ -384,6 +396,7 @@ USA = {
 				GFX_USA_vnr_ship_hull_heavy_3_medium
 				GFX_USA_vnr_ship_hull_heavy_4_medium
 				"gfx/interface/technologies/extra/USA_battleship_Iowa.png"
+                "gfx/interface/technologies/extra/USA_battleship_Montana.png"
             }
         }
 
@@ -397,6 +410,12 @@ USA = {
             }
         }
 
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_battleship_Montana.png"
+            }
+        }
+
     }
 
     vnr_ship_hull_carrier_conversion_ca = {
@@ -404,6 +423,12 @@ USA = {
             weight = 5
             icons = {
                 GFX_USA_vnr_ship_hull_carrier_conversion_ca_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Langley.png"
             }
         }
 
@@ -639,6 +664,54 @@ USA = {
                 "gfx/interface/technologies/USA/USA_light_cruiser_Oglala.png"
 				GFX_USA_vnr_ship_hull_cruiser_1_medium
 				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_civilian_1 = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Langley.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_civilian_2 = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Langley.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_civilian_3 = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/extra/USA_carrier_Langley.png"
             }
         }
 

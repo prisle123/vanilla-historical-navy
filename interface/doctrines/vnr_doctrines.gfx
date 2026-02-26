@@ -1,5 +1,10 @@
 spriteTypes = {	
 	spriteType = {
+		name = "GFX_doctrine_base_strike_medium"
+		textureFile = "gfx/interface/doctrines/icons/air_sea_operation.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_doctrine_fast_battleship_primacy_medium"
 		textureFile = "gfx/interface/doctrines/icons/fast_battleship_primacy.png"
 		alwaystransparent = yes
@@ -17,6 +22,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_doctrine_submarine_area_denial_medium"
 		textureFile = "gfx/interface/doctrines/icons/submarine_area_denial.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_doctrine_littoral_defense_medium"
+		textureFile = "gfx/interface/doctrines/icons/littoral_defense.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_doctrine_mosquito_fleet_medium"
+		textureFile = "gfx/interface/doctrines/icons/mosquito_fleet.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_doctrine_airspace_denial_medium"
+		textureFile = "gfx/interface/doctrines/icons/airspace_denial.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_doctrine_operation_autonomy_medium"
+		textureFile = "gfx/interface/doctrines/icons/operation_autonomy.png"
 		alwaystransparent = yes
 	}
 

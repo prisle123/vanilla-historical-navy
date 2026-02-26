@@ -109,7 +109,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_cv_nav_bomber_icon_medium" texturefile = "gfx/interface/category_heavy_fighter.dds" }
 	
 
-	### the blueprint icon at the bottom right corner of production of ship
+	### the blueprint background on ship sprite in ship designer
 	corneredTileSpriteType = {
 		name = "rework_ship_icon_bg"
 		#texturefile = "gfx/interface/tiles/tiled_paper_bg.dds"
@@ -176,29 +176,24 @@ spriteTypes = {
 	}
 	
 
-	### background of main menu
-	corneredTileSpriteType = {
-		name = "GFX_frontend_bg"
-		texturefile = "gfx/interface/vnr_main_menu_bg.dds"
-		borderSize = { x = 0 y = 0 }
-		size = { x = 1920 y = 1440 }
-		tilingCenter = no
-		effectFile = "gfx/FX/buttonstate.shader"
-	}
-	corneredTileSpriteType = {
-		name = "GFX_frontend_bg_simp_chinese"
-		texturefile = "gfx/interface/vnr_main_menu_bg.dds"
-		borderSize = { x = 0 y = 0 }
-		size = { x = 1920 y = 1440 }
-		tilingCenter = no
-		effectFile = "gfx/FX/buttonstate.shader"
-	}
-	
-
 	### idea icon of VNR AI buff
 	spriteType = { name = "GFX_idea_vnr_mad" textureFile = "gfx/interface/vnr_ai_difficulty.png" }
 	spriteType = { name = "GFX_idea_vnr_hard" textureFile = "gfx/interface/vnr_ai_difficulty.png" }
 	spriteType = { name = "GFX_idea_vnr_normal" textureFile = "gfx/interface/vnr_ai_difficulty.png" }
+	
+	
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/loadingscreens/vnr_main_menu_bg.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	spriteType = {
+		name = "GFX_frontend_game_logo"
+		texturefile = "gfx/interface/vnr_logo.dds"
+	}
 	
 
 	### a workaround to fix icon becoming huge after an exclusive tech is selected

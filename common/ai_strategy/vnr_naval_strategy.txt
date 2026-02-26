@@ -31,6 +31,33 @@ ENG_protect_home_waters = {
         id = 18
         value = -1000
     }
+
+	ai_strategy = {
+        type = convoy_raiding_target
+        id = GER
+        value = 100
+    }
+}
+
+ENG_protect_atlantic_route = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		OR = {
+			has_war_with = GER
+			has_war_with = ITA
+		}
+		convoy_threat > 0.1
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_CONVOY_ESCORT 
+		value = -1000
+	}
 }
 
 ENG_avoid_baltic = {
@@ -88,6 +115,11 @@ ENG_secure_mediterranean = {
 		id = 168
 		value = 800
 	}
+	ai_strategy = {
+        type = convoy_raiding_target
+        id = ITA
+        value = 70
+    }
 }
 
 ENG_avoid_mediterranean = {
@@ -250,7 +282,7 @@ JAP_turuk_base = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 84
-		value = 100
+		value = 500
 	}
 }
 
