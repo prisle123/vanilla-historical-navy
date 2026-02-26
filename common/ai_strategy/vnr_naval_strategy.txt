@@ -435,7 +435,17 @@ USA_pacific_fleet_command = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 105
-		value = 1000
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 97
+		value = 300
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 95
+		value = 300
 	}
 	ai_strategy = {
 		type = strike_force_home_base
@@ -731,7 +741,7 @@ USA_pacific_war_naval_counterattack_1 = {
 	}
 	ai_strategy = {
 		type = naval_invasion_dominance_weight
-		value = 60
+		value = 100
 	}
 }
 
@@ -803,7 +813,7 @@ USA_pacific_war_naval_counterattack_2 = {
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_pacific_midway
-		value = 70
+		value = 100
 	}
 	ai_strategy = {
 		type = invade
@@ -842,7 +852,7 @@ USA_pacific_war_naval_counterattack_2 = {
 	}
 	ai_strategy = {
 		type = naval_invasion_dominance_weight
-		value = 60
+		value = 100
 	}
 }
 
