@@ -5,11 +5,8 @@ USA_StrikeForce_1 = {
 	ai_will_do = {
 		factor = 30
 	}	
-	mission = { naval_strike naval_patrol }
+	mission = { naval_strike }
 	min_composition = {
-		carrier = {
-			amount = 2
-		}
 		battleship = {
 			amount = 2
 		}
@@ -44,11 +41,8 @@ USA_StrikeForce_2 = {
 	ai_will_do = {
 		factor = 20
 	}	
-	mission = { naval_strike naval_patrol }
+	mission = { naval_strike }
 	min_composition = {
-		carrier = {
-			amount = 1
-		}
 		heavy_cruiser = {
 			amount = 2
 		}
@@ -83,7 +77,7 @@ USA_PatrolReconForce_1 = {
 	ai_will_do = {
 		factor = 5
 	}
-	mission = { naval_patrol convoy_escort }
+	mission = { naval_patrol }
 	min_composition = {
 		destroyer = {
 			amount = 1
@@ -134,11 +128,11 @@ USA_ConvoyRaiding_1 = {
 		factor = 5
 	}	
 	mission = { convoy_raiding }
-	# min_composition = {
-	# 	submarine = {
-	# 		amount = 4
-	# 	}
-	# }
+	min_composition = {
+		submarine = {
+			amount = 4
+		}
+	}
 
 	optimal_composition = {
 		submarine = {
@@ -154,12 +148,12 @@ USA_ConvoyEscort_1 = {
 	ai_will_do = {
 		factor = 5
 	}	
-	mission = { convoy_escort naval_patrol }
-	# min_composition = {
-	# 	destroyer = {
-	# 		amount = 2
-	# 	}
-	# }
+	mission = { convoy_escort }
+	min_composition = {
+		destroyer = {
+			amount = 2
+		}
+	}
 	
 	optimal_composition = {
 		destroyer = {

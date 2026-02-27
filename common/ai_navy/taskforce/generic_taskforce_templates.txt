@@ -13,7 +13,7 @@ StrikeForce_1 = {
 	ai_will_do = {
 		factor = 10
 	}	
-	mission = { naval_strike naval_patrol }
+	mission = { naval_strike }
 	min_composition = {
 		light_cruiser = {
 			amount = 2
@@ -57,7 +57,7 @@ PatrolReconForce_1 = {
 	ai_will_do = {
 		factor = 5
 	}
-	mission = { naval_patrol convoy_escort }
+	mission = { naval_patrol }
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -167,7 +167,7 @@ ConvoyEscort_1 = {
 	ai_will_do = {
 		factor = 5
 	}	
-	mission = { convoy_escort naval_patrol }
+	mission = { convoy_escort }
 
 	optimal_composition = {
 		destroyer = {

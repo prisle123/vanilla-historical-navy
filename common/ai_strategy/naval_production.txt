@@ -358,7 +358,7 @@ naval_unit_role_ratios_GER_prewar_early = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 10
+		value = 100
 	}
 	
 	ai_strategy = {
@@ -394,7 +394,7 @@ naval_unit_role_ratios_GER_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 20
+		value = 40
 	}
 	
 	ai_strategy = {
@@ -406,7 +406,7 @@ naval_unit_role_ratios_GER_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 30
+		value = 100
 	}
 	
 	ai_strategy = {

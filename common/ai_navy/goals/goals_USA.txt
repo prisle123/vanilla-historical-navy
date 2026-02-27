@@ -5,7 +5,7 @@ USA_naval_invasion_support = {
         USA
     }
 
-    min_priority = 8
+    min_priority = 10
     max_priority = 20
 }
 
@@ -27,8 +27,8 @@ USA_invasion_defense = {
         USA
     }
 
-    min_priority = 10
-    max_priority = 18
+    min_priority = 15
+    max_priority = 22
 }
 
 USA_coast_defense = {
