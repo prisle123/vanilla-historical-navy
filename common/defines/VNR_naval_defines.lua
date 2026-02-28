@@ -230,6 +230,8 @@ NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_LAYING = 0.0   -- maximum ratio of s
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO = 0.20   -- if you have mines near your owned states, you will start priotize mine missions and will assign this ratio of screens (was 0.8)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO_MIN_MINES = 250   -- if there are at least this many mines near our owned states, we will prioritize mine sweeping (was 10)
 NDefines.NAI.SUGGESTED_NUM_MAX_CARRIERS = 4   -- We don't know exactly how many planes we should use when evaluating AI build so we need a suggested number to start things off. ALso used for task force suggestions list. (was 4)
+NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 1   -- define the minimum number of ship that should be in a task force for it to be considered a patrol or an escort task force (used to the insignia assignment, see TASK_FORCE_ROLE_TO_INSIGNIA) (was 2)
+NDefines.NAI.MAX_PATROL_TO_STRIKE_FORCE_RATIO = 2.0	  -- maximum patrol/strike force ratio (was 4)
 
 
 --AI Production / Designs
@@ -251,9 +253,6 @@ NDefines.NAI.CONVOY_NEED_SAFETY_BUFFER = 1.60   -- AI will try and keep 15% more
 
 
 --AI Mission
-NDefines.NAI.NAVAL_MISSION_DISTANCE_BASE = 4200   -- Base value when AI is evaluating distance score to places (was 3500)
-NDefines.NAI.NAVAL_MISSION_ESCORT_NEAR_OWNED = 0   -- Extra escort mission score near owned provinces (was 300)
-NDefines.NAI.NAVAL_MISSION_ESCORT_NEAR_CONTROLLED = 0   -- Extra escort mission score near controlled provinces (was 200)
 NDefines.NAI.AI_MIN_DOMINANCE_MARGIN = 100   -- When trying to get control of a region, AI will try to exceed the required dominance by at least this amount (was 200)
 NDefines.NAI.MIN_NAVAL_MISSION_PRIO_TO_ASSIGN = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
@@ -292,17 +291,17 @@ NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	6, -- NAVAL INVASION SUPPORT
 }
 NDefines.NAI.CONVOY_ESCORT_SCORE_FROM_CONVOYS = 25   -- score for each convoy you have in area (was 15)
-NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 200   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
+NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 90   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
 NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 10   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
 NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 2   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
-NDefines.NAI.DANGEROUS_ENEMY_ARMY_SIZE = 10000   -- If the size of the enemy's army of the attacking country is more than this value, the AI will add naval invasion defense importance (was 100)
+NDefines.NAI.DANGEROUS_ENEMY_ARMY_SIZE = 150   -- If the size of the enemy's army of the attacking country is more than this value, the AI will add naval invasion defense importance (was 100)
 NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this list is important!
 	0.1875,	-- invasion suppport
 	0.25,	-- invasion defense
 	0,0,	-- others ( MineSweeping, MineLaying )
 	0.0625,	-- generic coast defense
 	0,0,	-- others ( ConvoyRaiding, ConvoyProtection )
-	0.25,	-- naval dominance strategy (was 0.125)
+	0.275,	-- naval dominance strategy (was 0.125)
 	0,0,0	-- others ( Training, NavalBlockade, StrikeForce )
 }
 NDefines.NAI.CONVOY_RAIDING_TARGET_RECALC_DAYS = 30   -- Each X days, the AI will reevaluate which regions to convoy raid (because enemy convoy usage or trade routes might change) (was 3)
