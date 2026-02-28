@@ -34,42 +34,6 @@ USA_StrikeForce_1 = {
 	}
 }
 
-USA_StrikeForce_2 = {
-	allowed = {
-		original_tag = USA 
-	}
-	ai_will_do = {
-		factor = 20
-	}	
-	mission = { naval_strike }
-	min_composition = {
-		heavy_cruiser = {
-			amount = 2
-		}
-		destroyer = {
-			amount = 8
-		}
-	}
-	
-	optimal_composition = {
-		carrier = {
-			amount = 3
-		}
-		battleship = {
-			amount = 2
-		}
-		heavy_cruiser = {
-			amount = 6
-		}
-		light_cruiser = {
-			amount = 6
-		}
-		destroyer = {
-			amount = 16
-		}
-	}
-}
-
 USA_PatrolReconForce_1 = {
 	allowed = {
 		original_tag = USA
