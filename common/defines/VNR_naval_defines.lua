@@ -105,7 +105,7 @@ NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.66   -- 
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.15   -- received air damage is calculated using following: 1 - ( (ship_anti_air + fleet_anti_air * SHIP_TO_FLEET_ANTI_AIR_RATIO )^ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE ) * ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE (was 0.18)
 NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.15   -- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support (was 0.07)
 NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.0   -- factor of planes that can sortie by default from a carrier (was 0.5)
-NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0.25, 0.37, 0.50, 0.62, 0.75}   -- The defensive stance sortie is 1.0 - value in index so their sum equals 1
+NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0.25, 0.37, 0.50, 0.75, 1.0}   -- The defensive stance sortie is 1.0 - value in index so their sum equals 1
 NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_DEFAULT_INDEX = 4   -- The default offensive sortie index in CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO (was 2)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 180   -- How many planes flying in a naval combat before penalties are introduced (was 80)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns (was 0.005)
@@ -207,6 +207,7 @@ NDefines.NNavy.SHIP_SUPPORT_NEED_FACTOR = 0.25   -- The support need for a ship.
 NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for naval strike mission in port (was 0.25, ease the cost of assigning strike force)
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
+NDefines.NNavy.PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.0   -- % of experience to retain after being transferred in a peace conference (was 0.25)
 
 
 
@@ -231,7 +232,6 @@ NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO = 0.20   -- if you hav
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO_MIN_MINES = 250   -- if there are at least this many mines near our owned states, we will prioritize mine sweeping (was 10)
 NDefines.NAI.SUGGESTED_NUM_MAX_CARRIERS = 4   -- We don't know exactly how many planes we should use when evaluating AI build so we need a suggested number to start things off. ALso used for task force suggestions list. (was 4)
 NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 1   -- define the minimum number of ship that should be in a task force for it to be considered a patrol or an escort task force (used to the insignia assignment, see TASK_FORCE_ROLE_TO_INSIGNIA) (was 2)
-NDefines.NAI.MAX_PATROL_TO_STRIKE_FORCE_RATIO = 2.0	  -- maximum patrol/strike force ratio (was 4)
 
 
 --AI Production / Designs
@@ -347,5 +347,5 @@ NDefines.NIntel.NAVY_MIN_INTEL_TO_SHOW_SHIP_DESIGN_DETAILS = 0.5   -- unlocks sh
 -------------------
 --Country Defines--
 -------------------
-NDefines.NCountry.NAVY_USE_HOME_BASE_FOR_RANGE = false   -- Fleet can use supply from nearby port (was true)
+--NDefines.NCountry.NAVY_USE_HOME_BASE_FOR_RANGE = false   -- Fleet can use supply from nearby port (was true)
 
