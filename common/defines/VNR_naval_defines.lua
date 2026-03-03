@@ -76,7 +76,7 @@ NDefines.NNavy.MISSION_DOMINANCE_RATIOS = {
 	0.0, -- RESERVE_FLEET
 	0.85, -- NAVAL_INVASION_SUPPORT
 }
-NDefines.NNavy.DOMINANCE_PER_SHIP_PER_RANGE_NEUTRAL = 3000   -- ship range where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0 (was 2000, range should not matter this much)
+NDefines.NNavy.DOMINANCE_PER_SHIP_PER_RANGE_NEUTRAL = 4500   -- ship range where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0 (was 2000, range should not matter this much)
 NDefines.NNavy.DOMINANCE_PER_SHIP_PER_SPEED_NEUTRAL = 27   -- ship speed where there is no penalty nor bonus to naval dominance, below or above this will be scaled accordingly with penalty or bonus, min value is 0 (was 20, lower speed impact)
 NDefines.NNavy.DOMINANCE_PER_SHIP_PER_CARRIER_SIZE = 0.25   -- bonus to dominance based on the carrier size - e.g. regular carrier hangar has carrier_size of 2, so it would be a bonus of 2 * DOMINANCE_PER_SHIP_PER_CARRIER_SIZE, min value is 0 (was 0.1, carrier stronger)
 NDefines.NNavy.DOMINANCE_PER_SHIP_PER_HEAVY_GUN_ATTACK = 0.02   -- bonus to dominance based on the heavy attack, min value is 0 (was 0.01, differentiate big gun ships and smaller counterparts)
@@ -208,7 +208,7 @@ NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for na
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
 NDefines.NNavy.PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.0   -- % of experience to retain after being transferred in a peace conference (was 0.25)
-
+NDefines.NNavy.NAVAL_SPEED_MODIFIER = 0.075   -- basic speed control (was 0.1)
 
 
 --------------

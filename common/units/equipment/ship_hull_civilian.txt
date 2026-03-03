@@ -164,6 +164,7 @@ equipments = {
         max_strength = 60
         reliability = 0.70
         build_cost_ic = 1000
+        naval_range = 10000
         manpower = 600
         resources = {
             steel = 1
@@ -198,7 +199,7 @@ equipments = {
         reliability = 0.70
         build_cost_ic = 1000
         manpower = 800
-		naval_range = 10000
+		naval_range = 14000
         resources = {
             steel = 1
         }
