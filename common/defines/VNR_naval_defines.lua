@@ -109,7 +109,17 @@ NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0.25, 0.37, 0.50, 0.75, 
 NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_DEFAULT_INDEX = 4   -- The default offensive sortie index in CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO (was 2)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 180   -- How many planes flying in a naval combat before penalties are introduced (was 80)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns (was 0.005)
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 500   --For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract) (was 16)
+-- Following defines decide dynamic plane cap in naval combat based on enemy ship count and type
+-- calculated as: attacking plane without penalty = NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY + SHIP_SILHOUETTE_VALUE_PLANES_CARRIER * carrier number + 
+--													SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL * capital ship number + (SHIP_SILHOUETTE_VALUE_PLANES_SCREEN * screen ship number) * (1 / (1 + screen ratio * SCREEN_CAP_REDUCTION_FACTOR))
+NDefines.NNavy.SCREEN_CAP_REDUCTION_FACTOR = 0.02   -- Reduces screen silhouette weight if there are caps present, screenval * 1/(1+caps*weight)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL = 10   -- For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SCREEN = 5   -- As Above. This one would be nice to split by type, but that's problematic.
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 16   -- As Above
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUPPORT = 2   -- As Above (was 3)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CONVOY = 2   -- As Above (was 4)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 4   -- As Above (was 7)
+-- dynamic plane cap ends
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 40   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 12   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 10)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.8   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
@@ -208,7 +218,6 @@ NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for na
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
 NDefines.NNavy.PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.0   -- % of experience to retain after being transferred in a peace conference (was 0.25)
-NDefines.NNavy.NAVAL_SPEED_MODIFIER = 0.075   -- basic speed control (was 0.1)
 
 
 --------------
