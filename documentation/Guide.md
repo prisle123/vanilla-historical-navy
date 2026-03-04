@@ -314,7 +314,7 @@ Unlocks following doctrines:
 
 **Carrier Taskforce**
 
-This is the authentic USN carrier tactics, with every feature designed to showcase its success in history, such as leading sortie rate, deck management, and aerial attack capabilities. Just like *air-sea operation* strategy itself, *carrier taskforce* also has a humble start, but becomes horrible at the end. It provides the best sortie efficiency, reconnaissance, and carrier overfilling in all doctrines.
+This is the authentic USN carrier tactics, with every feature designed to showcase its success in history, such as leading sortie rate, deck management, and aerial attack capabilities. Just like *air-sea operation* strategy itself, *carrier taskforce* also has a humble start, but becomes powerful at the end. It provides the best sortie efficiency, reconnaissance, and carrier overfilling in all doctrines.
 
 **Carrier Concentration**
 
