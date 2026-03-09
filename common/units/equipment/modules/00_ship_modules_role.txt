@@ -1,11 +1,6 @@
 ## All the roles
 
 equipment_modules = {
-    limit = {
-        has_dlc = "Man the Guns"
-    }
-
-
 ######################
 ##  DESTROYER ROLE  ##
 ######################
@@ -45,11 +40,12 @@ equipment_modules = {
 		}
     	multiply_stats = {
 	        lg_attack = -0.1
-    	    max_strength = -0.05
+    	    max_strength = -0.15
 			naval_speed = -0.3
         	sub_detection = 0.1
 			torpedo_attack = -0.6
 			surface_visibility = -0.05
+			naval_range = -0.15
         	build_cost_ic = -0.2
     	}
 		dismantle_cost_ic = 3000
@@ -67,10 +63,10 @@ equipment_modules = {
 			patrol_coordination = -0.2
 		}
     	multiply_stats = {
-	        lg_attack = -0.15
+	        lg_attack = -0.2
 			lg_armor_piercing = -0.1
 			anti_air_attack = -0.15
-    	    max_strength = -0.1
+    	    max_strength = -0.3
 			naval_speed = -0.4
         	surface_visibility = -0.1
 			torpedo_attack = -0.8

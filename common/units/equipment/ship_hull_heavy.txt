@@ -193,7 +193,7 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.80
 
-		naval_range = 3000
+		naval_range = 4500
 
 		max_strength = 350
 
@@ -206,7 +206,7 @@ equipments = {
 
 		manpower = 2000
 
-		naval_dominance_factor = 300
+		naval_dominance_factor = 250
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
 		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
@@ -298,7 +298,7 @@ equipments = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 2000
+		naval_range = 2800
 
 		max_strength = 90
 		naval_speed = 21
@@ -311,7 +311,7 @@ equipments = {
 		}
 
 		manpower = 1500
-		naval_dominance_factor = 250
+		naval_dominance_factor = 125
 	}
 
 
@@ -442,7 +442,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 
-		naval_range = 2700
+		naval_range = 3500
 
 		max_strength = 165
 		reliability = 0.70
@@ -450,7 +450,7 @@ equipments = {
 		fuel_consumption = 63
 		surface_visibility = 38
 		build_cost_ic = 2000
-		naval_dominance_factor = 300
+		naval_dominance_factor = 230
 	}
 
 	vnr_ship_hull_heavy_2 = {
@@ -478,7 +478,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 
-		naval_range = 3000
+		naval_range = 4500
 
 		max_strength = 165
 		reliability = 0.75
@@ -487,7 +487,7 @@ equipments = {
 		surface_visibility = 37
 		build_cost_ic = 2300
 		manpower = 2200
-		naval_dominance_factor = 310
+		naval_dominance_factor = 260
 	}
 
 	vnr_ship_hull_heavy_3 = {
@@ -507,17 +507,17 @@ equipments = {
 			fixed_ship_engine_slot = heavy_ship_engine_3
 			fixed_ship_radar_slot = ship_mast_1
 		}
-		naval_range = 3500
+		naval_range = 5500
 
 		max_strength = 210
-		reliability = 0.8
+		reliability = 0.85
 		fuel_consumption = 67
 		naval_speed = 32
 		surface_visibility = 36
 		build_cost_ic = 2500
 
 		manpower = 2500
-		naval_dominance_factor = 320
+		naval_dominance_factor = 290
 	}
 
 	vnr_ship_hull_heavy_4 = {
@@ -538,10 +538,10 @@ equipments = {
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 4000
+		naval_range = 6500
 		naval_speed = 31
 		max_strength = 240
-		reliability = 0.85
+		reliability = 0.95
 		fuel_consumption = 67
 		surface_visibility = 35
 		build_cost_ic = 2800
@@ -550,7 +550,7 @@ equipments = {
 		}
 
 		manpower = 2800
-		naval_dominance_factor = 330
+		naval_dominance_factor = 310
 	}
 
 	vnr_ship_hull_heavy_5 = {
@@ -651,20 +651,20 @@ equipments = {
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 4500
+		naval_range = 7500
 
 		max_strength = 265
 		naval_speed = 31.5
 		fuel_consumption = 67
 		surface_visibility = 34
-		reliability = 0.9
+		reliability = 1.05
 		build_cost_ic = 3100
 		resources = {
 			steel = 3
 		}
 
 		manpower = 3800
-		naval_dominance_factor = 340
+		naval_dominance_factor = 320
 	}
 
 	vnr_ship_hull_super_heavy_1 = {
@@ -795,7 +795,7 @@ equipments = {
 			steel = 3
 		}
 		manpower = 3500
-		naval_dominance_factor = 330
+		naval_dominance_factor = 315
 	}
 
 	vnr_ship_hull_arsenal_ship = {
@@ -888,7 +888,7 @@ equipments = {
 			front_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		naval_range = 5000
+		naval_range = 7000
 
 		max_strength = 225
 		naval_speed = 32
@@ -927,6 +927,6 @@ equipments = {
 			module = ship_decoy_launcher
 			count < 2
 		}
-		naval_dominance_factor = 350
+		naval_dominance_factor = 330
 	}
 }

@@ -314,7 +314,7 @@ Unlocks following doctrines:
 
 **Carrier Taskforce**
 
-This is the authentic USN carrier tactics, with every feature designed to showcase its success in history, such as leading sortie rate, deck management, and aerial attack capabilities. Just like *air-sea operation* strategy itself, *carrier taskforce* also has a humble start, but becomes horrible at the end. It provides the best sortie efficiency, reconnaissance, and carrier overfilling in all doctrines.
+This is the authentic USN carrier tactics, with every feature designed to showcase its success in history, such as leading sortie rate, deck management, and aerial attack capabilities. Just like *air-sea operation* strategy itself, *carrier taskforce* also has a humble start, but becomes powerful at the end. It provides the best sortie efficiency, reconnaissance, and carrier overfilling in all doctrines.
 
 **Carrier Concentration**
 
@@ -450,7 +450,7 @@ Critical hit chance has a close relation to piercing. With higher piercing vs ar
 
 Critical part is a module- or hull-based component that's used to depict how injury can impact combat performance of ships. You can try to understand it as something like a turret blown, or flight deck bombed, which it not only causes damage to HP but also decline in combat readiness. In vanilla, the chance to inflict critical part destruction is very low even when a critical hit takes place, but it's been ascended to an inevitable consequence due to poor armor or low reliability here.
 
-To be more specific, each time your ship is critically hit, a critical part breaks. The hull-based critical part is a fixed property of the ship hull and can only be damaged once, with a fixed chance and effect, such as heavy fire, damaged rudder, and broken propeller, which there is no way to prevent them from happening unless you boost armor and reliability to maximum (though not very effective facing aerial attacks or torpedoes). And there's module-based part, which it can be damaged multiple times (e.g. heavy battery, each damaged critical part of it means a turret just got blown) based on the amount of instances you have, causing a series of related debuffs in its wake.
+To be more specific, each time your ship is critically hit, a critical part may break (factored by reliability, chance = 65% (80% from air) / reliability). The hull-based critical part is a fixed property of the ship hull and can only be damaged once, with a fixed chance and effect, such as heavy fire, damaged rudder, and broken propeller, which there is no way to prevent them from happening unless you boost armor and reliability to maximum (though not very effective facing aerial attacks or torpedoes). And there's module-based part, which it can be damaged multiple times (e.g. heavy battery, each damaged critical part of it means a turret just got blown) based on the amount of instances you have, causing a series of related debuffs in its wake.
 
 There are also exceptions that your choice of modules can lead to different consequences when a critical part is damaged. The most representative ones are flight deck and hangar, with armored ones having less chance to trigger horrifying blast.
 

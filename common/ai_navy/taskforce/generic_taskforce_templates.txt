@@ -11,12 +11,15 @@ StrikeForce_1 = {
 		}		
 	}
 	ai_will_do = {
-		factor = 1
+		factor = 10
 	}	
-	mission = { naval_strike naval_patrol }
+	mission = { naval_strike }
 	min_composition = {
-		carrier = {
+		light_cruiser = {
 			amount = 2
+		}
+		destroyer = {
+			amount = 8
 		}
 	}
 	
@@ -54,7 +57,7 @@ PatrolReconForce_1 = {
 	ai_will_do = {
 		factor = 5
 	}
-	mission = { naval_patrol convoy_escort }
+	mission = { naval_patrol }
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -79,35 +82,20 @@ PatrolDominanceForce_CA_1 = {
 	}	
 	mission = { naval_patrol }
 
+	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
+
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 3
 		}
-		destroyer = {
-			amount = 12
-		}
-	}
-}
-
-PatrolDominanceForce_BC_1 = {
-	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
-	}
-	ai_will_do = {
-		factor = 5
-	}	
-	mission = { naval_patrol }
-
-	optimal_composition = {
-		battle_cruiser = {
+		light_cruiser = {
 			amount = 3
 		}
 		destroyer = {
@@ -179,47 +167,11 @@ ConvoyEscort_1 = {
 	ai_will_do = {
 		factor = 5
 	}	
-	mission = { convoy_escort naval_patrol }
+	mission = { convoy_escort }
 
 	optimal_composition = {
 		destroyer = {
 			amount = 5
-		}
-	}
-}
-
-MineLaying_1 = {
-	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { mines_planting }
-	min_composition = {
-		destroyer = {
-			amount = 1
-			role = 4
-		}
-	}
-	
-	optimal_composition = {
-		destroyer = {
-			amount = 4
-			role = 4
-		}
-		
-		light_cruiser = {
-			amount = 2
-			role = 4
 		}
 	}
 }

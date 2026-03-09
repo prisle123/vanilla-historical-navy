@@ -5,18 +5,8 @@ SOV_dominance_fleet_1 = {
 		SOV_PatrolReconForce_1 = 1
 	}	
 	optional_taskforces = {
-		SOV_PatrolDominanceForce_2 = 1
-		SOV_PatrolReconForce_1 = 1	
-	}
-}
-
-SOV_dominance_fleet_2 = {
-	required_taskforces = {
 		SOV_StrikeForceCarrier_1 = 1
-		SOV_PatrolReconForce_1 = 2
-	}	
-	optional_taskforces = {
-		SOV_PatrolDominanceForce_2 = 1
+		SOV_PatrolDominanceForce_1 = 1
 		SOV_PatrolReconForce_1 = 1	
 	}
 }
@@ -32,7 +22,7 @@ SOV_raiding_fleet_2 = {
 
 SOV_escort_fleet_3 = {
 	required_taskforces = {
-		SOV_ConvoyEscort_1 = 2
+		SOV_ConvoyEscort_1 = 6
 	}
 	optional_taskforces = {
 		SOV_ConvoyEscort_1 = 2

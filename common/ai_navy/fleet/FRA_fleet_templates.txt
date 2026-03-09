@@ -2,11 +2,11 @@ FRA_dominance_fleet_1 = {
 	required_taskforces = {
 		FRA_StrikeForce_1 = 1
 		FRA_PatrolDominanceForce_1 = 1
-		FRA_PatrolReconForce_1 = 3
+		FRA_PatrolReconForce_1 = 2
 	}	
 	optional_taskforces = {
 		FRA_PatrolReconForce_1 = 1
-		FRA_PatrolDominanceForce_2 = 1
+		FRA_PatrolDominanceForce_1 = 1
 	}
 }
 

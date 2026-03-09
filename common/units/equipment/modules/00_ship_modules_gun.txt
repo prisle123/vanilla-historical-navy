@@ -1,11 +1,6 @@
 ## Main and secondary guns/missiles used on all types of ships
 
 equipment_modules = {
-    limit = {
-        has_dlc = "Man the Guns"
-    }
-
-
 #####################
 ##  LIGHT BATTERY  ##
 #####################
@@ -27,7 +22,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	ship_light_battery_2 = {
@@ -50,7 +45,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 4
 		
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	ship_light_battery_3 = {
@@ -73,7 +68,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 6
 		
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	ship_light_battery_4 = {
@@ -95,7 +90,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 8
 		
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 	
 	ship_light_battery_1_double = {
@@ -116,7 +111,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 4
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	ship_light_battery_2_double = {
@@ -139,7 +134,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 8
 		
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	ship_light_battery_3_double = {
@@ -161,7 +156,7 @@ equipment_modules = {
 			naval_speed = -0.018
 		}
 		dismantle_cost_ic = 12
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	ship_light_battery_4_double = {
@@ -183,7 +178,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 16
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	dp_light_battery_1 = {
@@ -206,7 +201,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 10
 		
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	dp_light_battery_2 = {
@@ -230,7 +225,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 20
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	dp_light_battery_3 = {
@@ -254,7 +249,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 30
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	dp_light_battery_4 = {
@@ -278,7 +273,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 40
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	dp_light_battery_5 = {
@@ -301,7 +296,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 28
 		
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 	
 	dp_light_battery_1_single = {
@@ -323,7 +318,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 5
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	dp_light_battery_2_single = {
@@ -346,7 +341,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 10
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	dp_light_battery_3_single = {
@@ -369,7 +364,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 15
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	dp_light_battery_4_single = {
@@ -392,7 +387,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 20
 
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 	dp_light_battery_5_single = {
@@ -415,7 +410,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 20
 		
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
 	}
 
 

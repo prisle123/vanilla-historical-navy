@@ -121,7 +121,7 @@ equipments = {
 		naval_speed = 13
 		reliability = 0.60
 
-		naval_range = 4000
+		naval_range = 5000
 
 		max_strength = 10
 
@@ -311,7 +311,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
-		naval_dominance_factor = 13
+		naval_dominance_factor = 16
 	}
 
 	vnr_ship_hull_submarine_5 = {
@@ -362,7 +362,7 @@ equipments = {
 		naval_speed = 18
 		reliability = 1.5
 
-		naval_range = 8000
+		naval_range = 9000
 
 		max_strength = 50
 
@@ -370,7 +370,7 @@ equipments = {
 		resources = {
 			steel = 2
 		}
-		naval_dominance_factor = 15
+		naval_dominance_factor = 26
 	}
 
 	vnr_ship_hull_cruiser_submarine = {
@@ -443,7 +443,7 @@ equipments = {
 		naval_speed = 16
 		reliability = 0.75
 
-		naval_range = 6500
+		naval_range = 7500
 
 		max_strength = 30
 
@@ -451,7 +451,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
-		naval_dominance_factor = 10
+		naval_dominance_factor = 14
 	}
 
 	vnr_ship_hull_midget_submarine = {
@@ -492,7 +492,7 @@ equipments = {
 		naval_speed = 8.3
 		reliability = 0.65
 
-		naval_range = 500
+		naval_range = 750
 
 		max_strength = 5
 
