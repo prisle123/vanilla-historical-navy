@@ -1,0 +1,29 @@
+coverted_oceanic_replenishment = {
+    track = naval_logistics
+    name = SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT
+    description = SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT_DESC
+    icon = GFX_doctrine_coverted_oceanic_replenishment_medium
+
+    xp_cost = 60
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_littoral_defense
+        }
+        has_tech = naval_combat_support
+    }
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 75
+            OR = {
+                original_tag = JAP
+                original_tag = GER
+                original_tag = ITA
+            }
+        }
+    }
+}

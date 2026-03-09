@@ -49,3 +49,19 @@ submarines = {
         }
     }
 }
+
+naval_logistics = {
+    name = DOCTRINE_TRACK_NAVAL_LOGISTICS
+    background = "GFX_naval_logistics_bg"
+    icon = "GFX_doctrine_milestone_screens_naval"
+    icon_frame = "GFX_doctrine_decor_naval"
+    mastery = {
+        multiplier = 0.5 # TODO - balance this number
+        equipment = {
+            carrier
+            capital_ship
+            screen_ship
+            submarine
+        }
+    }
+}
