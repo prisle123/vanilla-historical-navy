@@ -211,7 +211,6 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggressi
 
 --Naval Misc
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 25   -- cost to unassign/replace pride of the fleet (was 100)
-NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 4   -- base speed of units on water being transported (was 6)
 NDefines.NNavy.AMPHIBIOUS_INVADE_SPEED_BASE = 0.25    -- every hour movement progress on amphibious invasion (was 0.5)
 NDefines.NNavy.SHIP_SUPPORT_NEED_FACTOR = 0.25   -- The support need for a ship. This factor is multiplied with the ships dominance value (was 0.1)
 NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for naval strike mission in port (was 0.25, ease the cost of assigning strike force)
