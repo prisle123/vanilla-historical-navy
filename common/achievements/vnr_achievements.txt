@@ -2,7 +2,7 @@ unique_id = vnr_achievements
 
 00_vnr_bathtub_war = {
     possible = {
-        has_game_rule = { rule = allow_never_built option = FREE }
+        always = yes
     }
     happened = {
         custom_override_tooltip = {

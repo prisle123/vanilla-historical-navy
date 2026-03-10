@@ -33,27 +33,6 @@ ENG_protect_home_waters = {
     }
 }
 
-ENG_protect_atlantic_route = {
-	allowed = {
-		original_tag = ENG
-	}
-	enable = {
-		OR = {
-			has_war_with = GER
-			has_war_with = ITA
-		}
-		convoy_threat > 0.1
-		enable_vnr_naval_ai = yes
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = naval_mission_threshold
-		id = MISSION_CONVOY_ESCORT 
-		value = -1000
-	}
-}
-
 ENG_avoid_baltic = {
 	allowed = {
         original_tag = ENG
@@ -358,6 +337,11 @@ JAP_pacific_war_naval_stage_one = {
 		ordertype = invasion
     	execute_order = yes
 	}
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 638
+		value = 500
+	}
 }
 
 JAP_pacific_war_naval_stage_two = {
@@ -426,13 +410,17 @@ USA_pacific_fleet_command = {
 
 	enable = {
 		629 = { is_controlled_by_ROOT_or_ally = yes }
+		OR = {
+			633 = { is_controlled_by_ROOT_or_ally = no }
+			684 = { is_controlled_by_ROOT_or_ally = no }
+		}
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 105
-		value = 500
+		value = 1000
 	}
 	ai_strategy = {
 		type = strike_force_home_base
@@ -447,7 +435,27 @@ USA_pacific_fleet_command = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 89
-		value = -100
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 75
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 80
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 72
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 73
+		value = -1000
 	}
 }
 
@@ -458,7 +466,8 @@ USA_pacific_war_naval_avoid_first = {
 	enable = {
 		OR = {
 			has_war_with = JAP
-			threat > 0.7
+			threat > 0.65
+			date > 1941.12.1
 		}
 		date < 1942.5.1
 		naval_strength_ratio = {
@@ -469,13 +478,27 @@ USA_pacific_war_naval_avoid_first = {
 	}
 	abort_when_not_enabled = yes
 
-	ai_strategy = {
+	ai_strategy = { # defend Hawaii
 		type = put_unit_buffer
 		ratio = 0.15
 		states = {
 			629
 		}
 		subtract_invasions_from_need = yes
+	}
+	ai_strategy = { # dont defend Guam
+		type = put_unit_buffer
+		ratio = 0
+		states = {
+			638
+		}
+	}
+	ai_strategy = { # dont defend Philippines
+		type = put_unit_buffer
+		ratio = 0
+		states = {
+			628 623 627 1025 327 624 1026 1027 625 626
+		}
 	}
 
 	ai_strategy = {
@@ -537,7 +560,7 @@ USA_pacific_war_naval_avoid_first = {
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_pacific_solomons
-		value = 60
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
@@ -1129,6 +1152,7 @@ GER_invade_norway = {
 		NOR = {
 			all_core_state = {
 				is_controlled_by_ROOT_or_ally = yes
+				NOT = { has_contested_owner = GER }
 			}
 			has_capitulated = no
 		}
@@ -1174,5 +1198,24 @@ major_train_fleet_strategy = {
 		type = naval_mission_threshold
 		id = MISSION_TRAINING
 		value = -500
+	}
+}
+
+ocean_empire_protects_its_trade = {
+	allowed = {
+		OR = {
+			original_tag = USA
+			original_tag = ENG
+		}
+	}
+	enable = {
+		convoy_threat > 0.15
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_mission_threshold
+		id = MISSION_CONVOY_ESCORT
+		value = -1000
 	}
 }

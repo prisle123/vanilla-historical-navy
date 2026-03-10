@@ -1,12 +1,12 @@
 JAP_dominance_fleet_1 = {
 	required_taskforces = {
-		JAP_StrikeForce_1 = 2
-		JAP_PatrolDominanceForce_1 = 1
-		JAP_PatrolReconForce_1 = 2
+		JAP_StrikeForce_1 = 3
+		JAP_PatrolDominanceForce_1 = 3
+		JAP_PatrolReconForce_1 = 8
 	}	
 	optional_taskforces = {
-		JAP_StrikeForce_1 = 1
-		JAP_PatrolReconForce_1 = 1
+		JAP_StrikeForce_1 = 2
+		JAP_PatrolReconForce_1 = 4
 	}
 }
 
@@ -17,8 +17,7 @@ JAP_dominance_fleet_2 = {
 		JAP_PatrolReconForce_BC_1 = 2
 	}	
 	optional_taskforces = {
-		JAP_StrikeForce_1 = 1
-		JAP_PatrolReconForce_1 = 1
+		JAP_PatrolReconForce_BC_1 = 1
 	}
 }
 
