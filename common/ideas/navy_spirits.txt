@@ -441,20 +441,6 @@ ideas = {
 				}
             }
         }
-        advancing_base = {
-            ledger = navy
-            modifier = {
-                production_speed_naval_base_factor = 0.2
-                navy_fuel_consumption_factor = -0.1
-            }
-            ai_will_do = {
-                factor = 1
-				modifier = {
-					factor = 0
-					NOT = { has_dlc = "No Step Back" }
-				}
-            }
-        }
         advanced_supply_fleet = {
             ledger = navy
             available = {
