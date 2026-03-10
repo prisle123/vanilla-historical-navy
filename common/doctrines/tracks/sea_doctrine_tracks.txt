@@ -56,7 +56,7 @@ naval_logistics = {
     icon = "GFX_doctrine_milestone_screens_naval"
     icon_frame = "GFX_doctrine_decor_naval"
     mastery = {
-        multiplier = 0.5 # TODO - balance this number
+        multiplier = 1 # TODO - balance this number
         equipment = {
             carrier
             capital_ship

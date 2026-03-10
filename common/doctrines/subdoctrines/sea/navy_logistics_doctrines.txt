@@ -192,7 +192,7 @@ defensive_combat_support = {
     description = SUBDOCTRINE_LOGISTICS_DEFENSIVE_COMBAT_SUPPORT_DESC
     icon = GFX_doctrine_defensive_combat_support_medium
 
-    xp_cost = 75
+    xp_cost = 60
     xp_type = navy
 
     available = {
@@ -208,7 +208,7 @@ defensive_combat_support = {
         base = 1
     }
 
-    coastal_bunker_effectiveness_factor = 0.15
+    coastal_bunker_effectiveness_factor = 0.1
     production_speed_coastal_bunker_factor = 0.15
 
     local_supply_network = {
@@ -228,7 +228,7 @@ defensive_combat_support = {
         repair_speed_naval_base_factor = 0.1
     }
     positive_trade_list = {
-        request_lease_tension = -0.15
+        request_lease_tension = -0.25
         offensive_war_stability_factor = -0.1
     }
 }

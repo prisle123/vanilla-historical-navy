@@ -23,6 +23,7 @@ new_fleet_in_being = {
         screens
         carriers
         capital_ships
+        naval_logistics
     }
 
     # EFFECTS
@@ -116,6 +117,25 @@ new_fleet_in_being = {
                 }
             }
         }
+        {
+            #Naval Logistics
+			naval_accidents_chance = -0.1
+            naval_torpedo_damage_reduction_factor = -0.05
+            critical_receive_chance = -0.05
+            effect = {
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = naval_logistics_milestone_var
+                        }
+                    }
+                    set_variable = { naval_logistics_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { naval_logistics_milestone_var = 1 }
+                }
+            }
+        }
     }
 }
 
@@ -154,6 +174,7 @@ new_convoy_raiding = {
         screens
         carriers
         capital_ships
+        naval_logistics
     }
 
     # EFFECTS
@@ -173,7 +194,7 @@ new_convoy_raiding = {
 	        naval_torpedo_reveal_chance_factor = -0.1
 			submarine = {
                 convoy_raiding_coordination = 0.1
-                naval_speed = 0.1
+                sub_visibility = -0.1
             }
             effect = {
                 if = {
@@ -245,6 +266,24 @@ new_convoy_raiding = {
                 }
             }
         }
+        {
+            #Naval Logistics
+			naval_critical_effect_factor = -0.1
+            navy_fuel_consumption_factor = -0.1
+            effect = {
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = naval_logistics_milestone_var
+                        }
+                    }
+                    set_variable = { naval_logistics_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { naval_logistics_milestone_var = 1 }
+                }
+            }
+        }
     }
 }
 
@@ -273,6 +312,7 @@ new_base_strike = {
         screens
         carriers
         capital_ships
+        naval_logistics
     }
 
     # EFFECTS
@@ -365,6 +405,25 @@ new_base_strike = {
                 }
             }
         }
+        {
+            #Naval Logistics
+            critical_receive_chance = -0.05
+            naval_critical_effect_factor = -0.05
+            repair_speed_factor = 0.1
+            effect = {
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = naval_logistics_milestone_var
+                        }
+                    }
+                    set_variable = { naval_logistics_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { naval_logistics_milestone_var = 1 }
+                }
+            }
+        }
     }
 }
 
@@ -390,6 +449,7 @@ new_littoral_defense = {
         screens
         carriers
         capital_ships
+        naval_logistics
     }
 
     # EFFECTS
@@ -470,6 +530,24 @@ new_littoral_defense = {
                 }
                 else = {
                     add_to_variable = { capital_ships_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #Naval Logistics
+			naval_accidents_chance = -0.05
+            repair_speed_dockyard_factor = 0.1
+            effect = {
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = naval_logistics_milestone_var
+                        }
+                    }
+                    set_variable = { naval_logistics_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { naval_logistics_milestone_var = 1 }
                 }
             }
         }
