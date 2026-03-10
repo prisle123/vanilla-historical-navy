@@ -366,8 +366,6 @@ country_event = {
 					magnetic_detonator = 1
 					oxygen_torpedo = 1
 
-					damage_control_1 = 1
-					fire_control_methods_1 = 1
 					basic_ballast_tank = 1
 					improved_ballast_tank = 1
 					dive_bomber_study = 1
@@ -462,7 +460,6 @@ country_event = {
 					modern_ship_torpedo_launcher = 1
 					proximity_detonator = 1
 					
-					fire_control_methods_3 = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
@@ -793,9 +790,6 @@ country_event = {
 					carrier_mass_production = 1
 					carrier_damage_control = 1
 					air_fuel_storage = 1
-					damage_control_2 = 1
-					damage_control_3 = 1
-					fire_control_methods_2 = 1
 					battleship_aa_upgrade = 1
 					escort_carriers_ship = 1
 

@@ -4720,10 +4720,6 @@ technologies = {
 		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
-		dependencies = {
-			damage_control_3 = 1
-		}
-
 		carrier = {
 			max_strength = 0.1
 			reliability = 0.1
