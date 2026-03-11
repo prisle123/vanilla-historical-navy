@@ -28,7 +28,7 @@ NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.5   -- upper limit of shore bombardment
 
 
 --Positioning and Screening
-NDefines.NNavy.BASE_POSITIONING = 0.75   -- base value for positioning (was 1.0)
+NDefines.NNavy.BASE_POSITIONING = 0.6   -- base value for positioning (was 1.0)
 NDefines.NNavy.MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY = 41   -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them (was 4, relative size penalty starts counting from 41)
 NDefines.NNavy.BEST_CAPITALS_TO_SCREENS_RATIO = 0.5   -- capitals / screens ratio used for creating FEX groups in naval combat (was 0.25, screens for max screening cut to half)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 2.0   -- this screen ratio to num capital/carriers is needed for full screening beyond screen line (was 3.0, 2 screens needed to escort a capital ship)
@@ -43,6 +43,7 @@ NDefines.NNavy.MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.15   -- max pena
 NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.9   -- damage penalty at 0% positioning (was 0.5)
 NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 1.25   -- screening efficiency (screen to capital ratio) at 0% positioning (was 0.5)
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.75   -- AA penalty at 0% positioning (was 0.7)
+NDefines.NNavy.SUBMARINE_REVEAL_ON_MINIMUM_POSITIONING = 2.5   -- submarine reveal change on 0% positioning (was 2)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.25   -- this screen ratio to num convoys is needed for full screening beyond screen line (was 0.5)
 NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.1   -- this capital ratio to num convoys is needed for full screening beyond screen line (was 0.25)
 NDefines.NNavy.MISSION_SPREADS = {  -- mission spreads in the case a ship join combat, which is calculated for number of ships that will be in combat. 1 means no ship will be at start
@@ -140,11 +141,12 @@ NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_PRODUCTION_COST_FACTOR = 0.04   -- w
 
 --Spotting
 NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 15   -- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues. (was 11)
-NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.1   -- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection (was 0.035)
+NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.07   -- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection (was 0.035)
+NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 10   -- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide. (was 20)
+NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 6   -- Amount of in-game-hours that makes the submarine visible if it is on the defender side. (was 16)
 NDefines.NNavy.UNIT_TRANSFER_SPOTTING_SPEED_MULT = 15   -- spotting speed mult against unit transfers (was 5)
-NDefines.NNavy.NAVAL_INVASION_SPOTTING_SPEED_MULT = 30   -- spotting speed mult against naval invasion armies (was 10)
-NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 0.5   -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval transfer convoys (was 0.12)
-NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.5   -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys (was 0.12)
+NDefines.NNavy.NAVAL_INVASION_SPOTTING_SPEED_MULT = 50   -- spotting speed mult against naval invasion armies (was 10)
+NDefines.UNIT_TRANSFER_DETECTION_CHANCE_BASE = 15.0   -- unit transfer and naval invasion base chance detection percentage (if this fails, no detection is done on that tick) (was 8.0)
 NDefines.NNavy.NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.6   -- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible. (was 0.9)
 NDefines.NNavy.MIN_SPOTTING_PROGRESS = 0.1   -- Minimum spotting progress (in percent) per hourly tick (was 0.01)
 NDefines.NNavy.BASE_SPOTTING = 5   -- base spotting percentage for navy	(was 1)
