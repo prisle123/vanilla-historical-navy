@@ -185,6 +185,9 @@ battlecruiser_supremacy = {
             medium_cruiser = {
                 surface_detection = 0.1
             }
+            modifier = {
+                positioning = 0.05
+            }
         }
         assualt_operation = {
             modifier = {
@@ -325,6 +328,9 @@ armored_raiders = {
 				max_organisation = 10
                 convoy_raiding_coordination = 0.1
 			}
+            modifier = {
+                positioning = 0.05
+            }
         }
         trade_route_sabotage = {
             equipment_bonus = {
