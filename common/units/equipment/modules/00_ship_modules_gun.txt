@@ -2510,7 +2510,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.05
-			sub_visibility = 0.05
+			sub_visibility = 0.1
 		}
 		add_average_stats = {
 			hg_armor_piercing = 20
@@ -2613,6 +2613,57 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 10
 		
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
+	}
+
+################
+##  Deck Gun  ##
+################
+	sub_deck_gun_1 = {
+		category = sub_deck_gun
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 1
+			build_cost_ic = 10
+		}
+		dismantle_cost_ic = 2
+		critical_parts = { damaged_secondaries }
+	}
+	sub_deck_gun_2 = {
+		category = sub_deck_gun
+		sfx = sfx_ui_sd_module_turret
+		parent = sub_deck_gun_1
+
+		add_stats = {
+			lg_attack = 1
+			build_cost_ic = 10
+		}
+		dismantle_cost_ic = 2
+		critical_parts = { damaged_secondaries }
+	}
+	sub_deck_gun_3 = {
+		category = sub_deck_gun
+		sfx = sfx_ui_sd_module_turret
+		parent = sub_deck_gun_2
+
+		add_stats = {
+			lg_attack = 1
+			build_cost_ic = 10
+		}
+		dismantle_cost_ic = 2
+		critical_parts = { damaged_secondaries }
+	}
+	sub_deck_gun_4 = {
+		category = sub_deck_gun
+		sfx = sfx_ui_sd_module_turret
+		parent = sub_deck_gun_3
+
+		add_stats = {
+			lg_attack = 1
+			build_cost_ic = 10
+		}
+		dismantle_cost_ic = 2
+		critical_parts = { damaged_secondaries }
 	}
 }
