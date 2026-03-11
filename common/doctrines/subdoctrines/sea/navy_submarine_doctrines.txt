@@ -29,7 +29,7 @@ wolfpacks = {
 		max_organisation = 10
         torpedo_attack = 0.05
 	}
-    sub_retreat_speed = 0.05
+    sub_retreat_speed = 0.1
 
     rewards = {
 		predictive_expertise = {
@@ -38,7 +38,7 @@ wolfpacks = {
 				naval_torpedo_hit_chance_factor = 0.05
 			}
             modifier = {
-                naval_torpedo_reveal_chance_factor = -0.05
+                naval_torpedo_reveal_chance_factor = -0.1
             }
 		}
 		pack_search_patterns = {
@@ -65,6 +65,9 @@ wolfpacks = {
 				    naval_weather_penalty_factor = -0.15
 		        }
             }
+            submarine = {
+                sub_visibility = -0.1
+            }
 		}
 		wolfpack_coordination = {
 			submarine = {
@@ -72,6 +75,9 @@ wolfpacks = {
 				surface_detection = 0.1
 				convoy_raiding_coordination = 0.15
 			}
+            modifier = {
+                sub_retreat_speed = 0.1
+            }
 		}
     }
 }
@@ -138,11 +144,20 @@ submarine_fleet_operations = {
 			}
 		}
 		ambush_tactics = {
-			navy_submarine_attack_factor = 0.10
+			submarine = {
+                torpedo_attack = 0.1
+                sub_visibility = -0.05
+            }
+            modifier = {
+                sub_retreat_speed = 0.15
+            }
 		}
 		submarine_picket = {
 			submarine = {
                 surface_detection = 0.15
+            }
+            modifier = {
+                sub_retreat_speed = 0.05
             }
 		}
 		trade_interdiction = {
@@ -257,6 +272,9 @@ submarine_coastal_defense = {
                     instant = yes
                 }
             }
+            submarine = {
+                sub_visibility = -0.1
+            }
     	}
     	patrol_vigilance = {
     		submarine = {
@@ -273,6 +291,7 @@ submarine_coastal_defense = {
     	maneuever_fire = {
             modifier = {
                 naval_torpedo_cooldown_factor = -0.125
+                sub_retreat_speed = 0.1
             }
     	}
     	locals_knowledge = {
@@ -332,6 +351,7 @@ submarine_area_denial = {
         silent_sailing = {
             submarine = {
                 sub_visibility = -0.05
+                surface_detection = -0.15
             }
             equipment_bonus = {
                 submarine = {
@@ -350,22 +370,22 @@ submarine_area_denial = {
         low_echo_hull = {
             submarine = {
                 sub_visibility = -0.1
-                max_organisation = -20
+                convoy_raiding_coordination = -0.2
             }
         }
         slow_electric_torpedo = {
             modifier = {
-                naval_torpedo_hit_chance_factor = -0.15
-                naval_torpedo_reveal_chance_factor = -0.15
+                naval_torpedo_hit_chance_factor = -0.2
+                naval_torpedo_reveal_chance_factor = -0.25
             }
         }
         simplified_launching_protocal = {
             submarine = {
-                sub_visibility = -0.05
+                sub_visibility = -0.1
+                torpedo_attack = -0.15
             }
             modifier = {
                 sub_retreat_speed = 0.3
-                navy_submarine_attack_factor = -0.15
             }
         }
     }
@@ -396,10 +416,11 @@ operation_autonomy = {
 
     equipment_bonus = {
         submarine = {
-            naval_range = 0.25
+            naval_range = 0.15
             instant = yes
         }
     }
+    sub_retreat_speed = 0.1
     rewards = {
         leadership_autonomy = {
             submarine = {
@@ -414,13 +435,16 @@ operation_autonomy = {
             auxiliary_ship = {
                 surface_visibility = -0.1
             }
-            modifier = {
-                sub_retreat_speed = 0.1
+            equipment_bonus = {
+                submarine = {
+                    reliability = 0.1
+                    instant = yes
+                }
             }
         }
         radio_silence = {
             submarine = {
-                sub_visibility = -0.1
+                sub_visibility = -0.2
             }
             equipment_bonus = {
                 submarine = {
@@ -431,7 +455,7 @@ operation_autonomy = {
         }
         submarine_kampfgruppe = {
             submarine = {
-                max_organisation = 5
+                max_organisation = 10
                 convoy_raiding_coordination = 0.1
             }
         }
@@ -447,6 +471,9 @@ operation_autonomy = {
                     reliability = 0.1
                     instant = yes
                 }
+            }
+            submarine = {
+                fuel_consumption = -0.15
             }
         }
     }
