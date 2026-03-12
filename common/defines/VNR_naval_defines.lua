@@ -220,6 +220,9 @@ NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for na
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
 NDefines.NNavy.PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.0   -- % of experience to retain after being transferred in a peace conference (was 0.25)
+NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 800   -- Distance to normalize against. Everything above said value will be treated as score = 0. (was 550)
+NDefines.NNavy.NAVAL_HOMEBASE_BUILDING_SCORE_FACTOR = 0.035   -- Multiplier for how much the level of the naval base impacts its total score.
+NDefines.NNavy.NAVAL_HOMEBASE_OWNERSHIP_BONUS = 0.02   -- Adds to total score based on if the base is owned by the country doing the calculation. (was 0.04)
 
 
 --------------
