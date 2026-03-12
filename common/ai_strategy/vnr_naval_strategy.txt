@@ -403,7 +403,7 @@ JAP_pacific_war_naval_stage_two = {
 }
 
 ### USA ###
-USA_pacific_fleet_command = {
+USA_homebase_strategy_1 = {
 	allowed = {
 		original_tag = USA
 	}
@@ -424,13 +424,107 @@ USA_pacific_fleet_command = {
 	}
 	ai_strategy = {
 		type = strike_force_home_base
-		id = 97
-		value = 300
+		id = 89
+		value = -1000
 	}
 	ai_strategy = {
 		type = strike_force_home_base
-		id = 95
-		value = 300
+		id = 75
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 80
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 72
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 73
+		value = -1000
+	}
+}
+
+USA_homebase_strategy_2 = {
+	allowed = {
+		original_tag = USA
+	}
+
+	enable = {
+		629 = { is_controlled_by_ROOT_or_ally = yes }
+		633 = { is_controlled_by_ROOT_or_ally = yes }
+		684 = { is_controlled_by_ROOT_or_ally = yes }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 105
+		value = 100
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 84
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 89
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 75
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 80
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 72
+		value = -1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 73
+		value = -1000
+	}
+}
+
+USA_homebase_strategy_3 = {
+	allowed = {
+		original_tag = USA
+	}
+
+	enable = {
+		629 = { is_controlled_by_ROOT_or_ally = yes }
+		633 = { is_controlled_by_ROOT_or_ally = yes }
+		684 = { is_controlled_by_ROOT_or_ally = yes }
+		645 = { is_controlled_by_ROOT_or_ally = yes }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 105
+		value = 10
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 84
+		value = 500
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 94
+		value = 1500
 	}
 	ai_strategy = {
 		type = strike_force_home_base
@@ -1013,7 +1107,7 @@ USA_atlantic_war = {
 
 	ai_strategy = {
 		type = strike_force_home_base
-		id = 43
+		id = 18
 		value = 100
 	}
 	ai_strategy = {
