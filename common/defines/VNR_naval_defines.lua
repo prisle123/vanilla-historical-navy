@@ -153,7 +153,8 @@ NDefines.NNavy.BASE_SPOTTING = 5   -- base spotting percentage for navy	(was 1)
 NDefines.NNavy.BASE_SPOTTING_FROM_NAVY = 15   -- base spotting percentage that comes from task forces in area (was 10)
 NDefines.NNavy.BASE_SPOTTING_SPEED = 1   -- daily base spotting speed (was 0)
 NDefines.NNavy.SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.2   -- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio (was 0.5)	
-NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 1   -- A global factor that applies after all others, right before the sub detection contributed by plane is added to the global sub detection of a combatant (was 0)
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 0.025   -- A global factor that applies after all others, right before the sub detection contributed by plane is added to the global sub detection of a combatant (was 0)
+NDefines.NNavy.COMBAT_DETECTED_CONVOYS_FROM_SURFACE_DETECTION_STAT = 0.075   -- Each 1.0 of surface_detection that ship has (equipment stat), gives x% of convoys discovered from total travelling along the route. (was 0.1)
 
 
 --Experience
@@ -301,8 +302,9 @@ NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	6, -- NAVAL INVASION SUPPORT
 }
 NDefines.NAI.CONVOY_ESCORT_SCORE_FROM_CONVOYS = 25   -- score for each convoy you have in area (was 15)
-NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 90   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
-NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 10   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
+NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 100   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
+NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 20   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
+NDefines.NAI.FUEL_TRADE_PRIO_FOR_CONVOY_DEFENSE = 0   -- AI will be less reluctant to cancel convoy missions if it is trading for oil (was 0.3)
 NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 2   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
 NDefines.NAI.DANGEROUS_ENEMY_ARMY_SIZE = 150   -- If the size of the enemy's army of the attacking country is more than this value, the AI will add naval invasion defense importance (was 100)
 NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this list is important!

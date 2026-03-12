@@ -1,8 +1,8 @@
 SOV_dominance_fleet_1 = {
 	required_taskforces = {
 		SOV_StrikeForce_1 = 1
-		SOV_PatrolDominanceForce_1 = 1
-		SOV_PatrolReconForce_1 = 1
+		SOV_PatrolDominanceForce_1 = 4
+		SOV_PatrolReconForce_1 = 8
 	}	
 	optional_taskforces = {
 		SOV_StrikeForceCarrier_1 = 1

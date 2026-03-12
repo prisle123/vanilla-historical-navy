@@ -2,8 +2,8 @@ GER_dominance_fleet_1 = {
 	required_taskforces = {
 		GER_StrikeForceCarrier_1 = 1
 		GER_StrikeForce_1 = 1
-		GER_PatrolDominanceForce_1 = 1
-		GER_PatrolReconForce_1 = 2
+		GER_PatrolDominanceForce_1 = 2
+		GER_PatrolReconForce_1 = 4
 	}	
 	optional_taskforces = {
 		GER_PatrolDominanceForce_1 = 2
