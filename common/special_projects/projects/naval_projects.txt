@@ -172,10 +172,12 @@ sp_nuclear_torpedo = {
     allowed = {
         has_dlc = "Man the Guns"
     }
+	special_project_parent = {
+		sp_nuclear_bomb
+	}
     available = {
 		FROM = {
 			has_tech = modern_ship_hull_submarine
-			has_tech = nukes
 		}
     }
 	resource_cost = {
@@ -265,7 +267,7 @@ sp_naval_proximity_fuze = {
     breakthrough_cost = {
 		specialization_naval = 1
 	}
-    prototype_time = sp_time.prototype.medium
+    prototype_time = sp_time.prototype.short
 
 	complexity = sp_complexity.medium
 
@@ -457,7 +459,7 @@ sp_naval_underway_replenishment = {
 	}
 	
 	complexity = sp_complexity.medium
-	prototype_time = sp_time.prototype.medium 
+	prototype_time = sp_time.prototype.short 
 	
 	project_output = {
 		country_effects = {
@@ -573,8 +575,8 @@ sp_naval_rocket_launching_submarine = {
 			tungsten = 12
 		}
 	}	
-	complexity = sp_complexity.medium 
-	prototype_time = sp_time.prototype.long
+	complexity = sp_complexity.large
+	prototype_time = sp_time.prototype.medium
 
 	special_project_parent = {
 		sp_rockets_ballistic_missile
@@ -697,7 +699,7 @@ sp_mega_carrier = {
 		specialization_naval = 2
 	}
 
-    prototype_time = sp_time.prototype.long
+    prototype_time = sp_time.prototype.medium
 
 	complexity = sp_complexity.large
 
