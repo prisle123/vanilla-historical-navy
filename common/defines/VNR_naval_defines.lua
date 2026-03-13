@@ -28,7 +28,7 @@ NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.5   -- upper limit of shore bombardment
 
 
 --Positioning and Screening
-NDefines.NNavy.BASE_POSITIONING = 0.6   -- base value for positioning (was 1.0)
+NDefines.NNavy.BASE_POSITIONING = 0.7   -- base value for positioning (was 1.0)
 NDefines.NNavy.MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY = 41   -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them (was 4, relative size penalty starts counting from 41)
 NDefines.NNavy.BEST_CAPITALS_TO_SCREENS_RATIO = 0.5   -- capitals / screens ratio used for creating FEX groups in naval combat (was 0.25, screens for max screening cut to half)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 2.0   -- this screen ratio to num capital/carriers is needed for full screening beyond screen line (was 3.0, 2 screens needed to escort a capital ship)
@@ -140,10 +140,10 @@ NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_PRODUCTION_COST_FACTOR = 0.04   -- w
 
 
 --Spotting
-NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 15   -- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues. (was 11)
-NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.07   -- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection (was 0.035)
+NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 13   -- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues. (was 11)
+NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.065   -- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection (was 0.035)
 NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 10   -- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide. (was 20)
-NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 6   -- Amount of in-game-hours that makes the submarine visible if it is on the defender side. (was 16)
+NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 8   -- Amount of in-game-hours that makes the submarine visible if it is on the defender side. (was 16)
 NDefines.NNavy.UNIT_TRANSFER_SPOTTING_SPEED_MULT = 15   -- spotting speed mult against unit transfers (was 5)
 NDefines.NNavy.NAVAL_INVASION_SPOTTING_SPEED_MULT = 50   -- spotting speed mult against naval invasion armies (was 10)
 NDefines.UNIT_TRANSFER_DETECTION_CHANCE_BASE = 15.0   -- unit transfer and naval invasion base chance detection percentage (if this fails, no detection is done on that tick) (was 8.0)
@@ -157,11 +157,12 @@ NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 0.025   -- A global facto
 NDefines.NNavy.COMBAT_DETECTED_CONVOYS_FROM_SURFACE_DETECTION_STAT = 0.075   -- Each 1.0 of surface_detection that ship has (equipment stat), gives x% of convoys discovered from total travelling along the route. (was 0.1)
 
 
---Experience
+--Training
 NDefines.NNavy.EXPERIENCE_FACTOR_CONVOY_ATTACK = 0.05   -- xp from attacking convoys (was 0.04)
-NDefines.NNavy.TRAINING_DAILY_COUNTRY_EXP_FACTOR = 0.005   -- Factor used to scale the Daily Country Navy XP gain from training (was 0.001)
+NDefines.NNavy.TRAINING_DAILY_COUNTRY_EXP_FACTOR = 0.001   -- Factor used to scale the Daily Country Navy XP gain from training (was 0.001)
 NDefines.NNavy.TRAINING_MAX_DAILY_COUNTRY_EXP = 1   -- Maximum army XP gained per day from training (was 1)
 NDefines.NNavy.UNIT_EXPERIENCE_SCALE = 0.8   -- total unit xp factor (was 1)
+NDefines.NNavy.TRAINING_MIN_STRENGTH = 0.0   -- if strength is less than this, the unit will not contribute to training and cant be damaged by training (was 0.1)
 
 
 --Aggression
@@ -214,7 +215,7 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggressi
 
 --Naval Misc
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 25   -- cost to unassign/replace pride of the fleet (was 100)
-NDefines.NNavy.AMPHIBIOUS_INVADE_SPEED_BASE = 0.25    -- every hour movement progress on amphibious invasion (was 0.5)
+NDefines.NNavy.AMPHIBIOUS_INVADE_SPEED_BASE = 0.35    -- every hour movement progress on amphibious invasion (was 0.5)
 NDefines.NNavy.SHIP_SUPPORT_NEED_FACTOR = 0.25   -- The support need for a ship. This factor is multiplied with the ships dominance value (was 0.1)
 NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for naval strike mission in port (was 0.25, ease the cost of assigning strike force)
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)

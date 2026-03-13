@@ -45,8 +45,8 @@ carrier_battlegroups = {
 		}
         bomber_scouting = {
 			carrier = {
-                carrier_surface_detection = 0.15
-                carrier_sub_detection = 0.05
+                surface_detection = 0.15
+                sub_detection = 0.05
             }
             modifier = {
 				naval_strike_agility_factor = 0.1
@@ -122,8 +122,8 @@ floating_airfields = {
 
     # EFFECTS
     carrier = {
-        carrier_surface_detection = 0.05
-        carrier_sub_detection = 0.05
+        surface_detection = 0.05
+        sub_detection = 0.05
     }
 	navy_carrier_air_attack_factor = 0.10
 	
@@ -194,7 +194,7 @@ subsidiary_carrier_support = {
     }
     
     carrier = {
-        carrier_surface_detection = 0.1
+        surface_detection = 0.1
         surface_visibility = -0.1
     }
     equipment_bonus = {
@@ -210,7 +210,7 @@ subsidiary_carrier_support = {
     	}
     	anti_submarine_escorts = {
     		carrier = {
-    		    carrier_sub_detection = 0.2
+    		    sub_detection = 0.2
     		}
     	}
     	fleet_antiair = {
@@ -418,8 +418,8 @@ airspace_denial = {
     rewards = {
         scout_carrier = {
             carrier = {
-                carrier_surface_detection = 0.1
-                carrier_sub_detection = 0.1
+                surface_detection = 0.1
+                sub_detection = 0.1
             }
         }
         airspace_competition = {

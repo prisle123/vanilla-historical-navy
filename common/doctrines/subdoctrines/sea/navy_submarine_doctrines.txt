@@ -125,6 +125,7 @@ submarine_fleet_operations = {
     # EFFECTS
     submarine = {
         naval_torpedo_hit_chance_factor = 0.1
+        surface_detection = 0.05
     }
 	naval_torpedo_screen_penetration_factor = 0.05
 
@@ -143,6 +144,14 @@ submarine_fleet_operations = {
                 convoy_raiding_coordination = 0.1
 			}
 		}
+        submarine_picket = {
+			submarine = {
+                surface_detection = 0.15
+            }
+            modifier = {
+                sub_retreat_speed = 0.05
+            }
+		}
 		ambush_tactics = {
 			submarine = {
                 torpedo_attack = 0.1
@@ -150,14 +159,6 @@ submarine_fleet_operations = {
             }
             modifier = {
                 sub_retreat_speed = 0.15
-            }
-		}
-		submarine_picket = {
-			submarine = {
-                surface_detection = 0.15
-            }
-            modifier = {
-                sub_retreat_speed = 0.05
             }
 		}
 		trade_interdiction = {
@@ -345,12 +346,15 @@ submarine_area_denial = {
 			instant = yes
 		}
 	}
+    submarine = {
+        max_organisation = 10
+    }
     mines_planting_by_fleets_factor = 0.1
 
     rewards = {
         silent_sailing = {
             submarine = {
-                sub_visibility = -0.05
+                sub_visibility = -0.1
                 surface_detection = -0.15
             }
             equipment_bonus = {
@@ -375,17 +379,17 @@ submarine_area_denial = {
         }
         slow_electric_torpedo = {
             modifier = {
-                naval_torpedo_hit_chance_factor = -0.2
+                naval_torpedo_hit_chance_factor = -0.3
                 naval_torpedo_reveal_chance_factor = -0.25
             }
         }
         simplified_launching_protocal = {
             submarine = {
                 sub_visibility = -0.1
-                torpedo_attack = -0.15
+                torpedo_attack = -0.2
             }
             modifier = {
-                sub_retreat_speed = 0.3
+                sub_retreat_speed = 0.2
             }
         }
     }
