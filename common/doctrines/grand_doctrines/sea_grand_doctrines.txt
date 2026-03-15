@@ -120,7 +120,7 @@ new_fleet_in_being = {
         {
             #Naval Logistics
 			naval_accidents_chance = -0.1
-            naval_torpedo_damage_reduction_factor = -0.05
+            naval_torpedo_damage_reduction_factor = 0.05
             critical_receive_chance = -0.05
             effect = {
                 if = {
@@ -250,7 +250,12 @@ new_convoy_raiding = {
         }
         {
             #Capital Ships
-			navy_max_range_factor = 0.1
+			battleship = {
+                surface_visibility = -0.1
+            }
+            battle_cruiser = {
+                surface_visibility = -0.1
+            }
             naval_enemy_fleet_size_ratio_penalty_factor = 0.1
             effect = {
                 if = {
@@ -268,7 +273,7 @@ new_convoy_raiding = {
         }
         {
             #Naval Logistics
-			naval_critical_effect_factor = -0.1
+			navy_max_range_factor = 0.1
             navy_fuel_consumption_factor = -0.1
             effect = {
                 if = {

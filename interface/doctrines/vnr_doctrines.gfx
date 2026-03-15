@@ -44,6 +44,26 @@ spriteTypes = {
 		textureFile = "gfx/interface/doctrines/icons/operation_autonomy.png"
 		alwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_doctrine_coverted_oceanic_replenishment_medium"
+		textureFile = "gfx/interface/doctrines/icons/coverted_oceanic_replenishment.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_doctrine_industrialized_naval_logistics_medium"
+		textureFile = "gfx/interface/doctrines/icons/industrialized_naval_logistics.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_doctrine_trade_supply_network_medium"
+		textureFile = "gfx/interface/doctrines/icons/trade_supply_network.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_doctrine_defensive_combat_support_medium"
+		textureFile = "gfx/interface/doctrines/icons/defensive_combat_support.png"
+		alwaystransparent = yes
+	}
 
 	spriteType = {
 		name = "GFX_fleet_in_being_bg"
@@ -60,5 +80,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_trade_interdiction_bg"
 		textureFile = "gfx/interface/doctrines/background/submarine.png"
+	}
+	spriteType = {
+		name = "GFX_naval_logistics_bg"
+		textureFile = "gfx/interface/doctrines/background/logistics.png"
 	}
 }
