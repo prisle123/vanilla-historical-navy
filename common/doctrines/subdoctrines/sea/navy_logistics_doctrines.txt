@@ -11,6 +11,7 @@ coverted_oceanic_replenishment = {
         OR = {
             has_doctrine = new_convoy_raiding
             has_doctrine = new_littoral_defense
+			has_doctrine = new_base_strike
         }
         has_tech = naval_combat_support
     }
@@ -40,21 +41,40 @@ coverted_oceanic_replenishment = {
 				}
 			}
 		}
-		third_country_connections = {
-			opinion_gain_monthly_same_ideology_factor = 0.1
-			improve_relations_maintain_cost_factor = -0.1
+		fuel_rationing = {
+			modifier = {
+				navy_fuel_consumption_factor = -0.1
+				production_oil_factor = 0.1
+			}
 		}
 		oceanic_route_replenishment = {
-			navy_fuel_consumption_factor = -0.1
-			production_oil_factor = 0.1
+			battleship = {
+				supply_consumption = -0.03
+			}
+			battle_cruiser = {
+				supply_consumption = -0.03
+			}
+			heavy_cruiser = {
+				supply_consumption = -0.02
+			}
+			medium_cruiser = {
+				supply_consumption = -0.02
+			}
+			modifier = {
+				navy_max_range_factor = 0.05
+			}
 		}
 		independent_damage_control = {
-			critical_receive_chance = -0.1
-			naval_critical_effect_factor = -0.1
+			modifier = {
+				critical_receive_chance = -0.1
+				naval_critical_effect_factor = -0.1
+			}
 		}
 		fortified_shipyards = {
-			repair_speed_factor = 0.1
-			repair_speed_dockyard_factor = 0.15
+			modifier = {
+				repair_speed_factor = 0.1
+				repair_speed_dockyard_factor = 0.15
+			}
 		}
 	}
 }
@@ -65,7 +85,7 @@ industrialized_naval_logistics = {
     description = SUBDOCTRINE_LOGISTICS_INDUSTRIALIZED_NAVAL_LOGISTICS_DESC
     icon = GFX_doctrine_industrialized_naval_logistics_medium
 
-    xp_cost = 125
+    xp_cost = 100
     xp_type = navy
 
     available = {
@@ -75,7 +95,7 @@ industrialized_naval_logistics = {
         }
         has_tech = naval_combat_support
 		OR = {
-			num_of_naval_factories > 39
+			num_of_naval_factories > 49
 			num_of_civilian_factories > 39
 		}
     }
@@ -95,23 +115,51 @@ industrialized_naval_logistics = {
 
 	rewards = {
 		firefighting_team = {
-			naval_critical_effect_factor = -0.1
-			naval_accidents_chance = -0.1
+			modifier = {
+				naval_critical_effect_factor = -0.1
+				naval_accidents_chance = -0.1
+			}
 		}
-		logistics_institute = {
-			navy_leader_start_coordination_level = 1
-			navy_fuel_consumption_factor = -0.05
+		logistics_management_model = {
+			carrier = {
+				supply_consumption = -0.03
+			}
+			SH_battleship = {
+				supply_consumption = -0.04
+			}
+			battleship = {
+				supply_consumption = -0.04
+			}
+			battle_cruiser = {
+				supply_consumption = -0.04
+			}
+			heavy_cruiser = {
+				supply_consumption = -0.02
+			}
+			medium_cruiser = {
+				supply_consumption = -0.02
+			}
+			modifier = {
+				naval_attrition = -0.06
+			}
 		}
 		advancing_base = {
-			production_speed_naval_supply_hub_factor = 0.25
-			production_speed_naval_base_factor = 0.2
+			modifier = {
+				production_speed_naval_supply_hub_factor = 0.25
+				production_speed_naval_base_factor = 0.2
+			}
 		}
 		damage_control_protocals = {
-			critical_receive_chance = -0.1
-			naval_critical_effect_factor = -0.05
+			modifier = {
+				critical_receive_chance = -0.1
+				naval_critical_effect_factor = -0.05
+				repair_speed_factor = 0.05
+			}
 		}
 		modular_shipbuilding = {
-			repair_speed_factor = 0.15
+			modifier = {
+				repair_speed_factor = 0.15
+			}
 			equipment_bonus = {
 				convoy_1 = {
 					instant = yes
@@ -155,7 +203,8 @@ trade_supply_network = {
         }
     }
 
-    navy_fuel_consumption_factor = -0.1
+    trade_opinion_factor = 0.15
+	supply_node_range = 0.075
     equipment_bonus = {
         convoy_1 = {
             build_cost_ic = -0.1
@@ -164,31 +213,58 @@ trade_supply_network = {
     }
 
 	rewards = {
-		fuel_station = {
-			production_speed_fuel_silo_factor = 0.2
-			max_fuel_factor = 0.15
+		oil_lifeline = {
+			modifier = {
+				production_speed_fuel_silo_factor = 0.2
+				max_fuel_factor = 0.1
+				navy_fuel_consumption_factor = -0.1
+			}
 		}
 		code_warfare = {
-			encryption_factor = 0.15
-			navy_intel_decryption_bonus = 15
+			modifier = {
+				encryption_factor = 0.15
+				navy_intel_to_others = -15
+			}
 		}
 		logisitics_opertional_research = {
-			transport_capacity = -0.1
-			convoy_escort_efficiency = 0.1
-			license_production_speed = 0.1
+			carrier = {
+				supply_consumption = -0.03
+			}
+			battleship = {
+				supply_consumption = -0.05
+			}
+			battle_cruiser = {
+				supply_consumption = -0.05
+			}
+			heavy_cruiser = {
+				supply_consumption = -0.02
+			}
+			medium_cruiser = {
+				supply_consumption = -0.02
+			}
+			modifier = {
+				repair_speed_factor = 0.05
+			}
 		}
 		damage_control_protocals = {
-			critical_receive_chance = -0.1
-			naval_critical_effect_factor = -0.05
+			modifier = {
+				critical_receive_chance = -0.1
+				naval_critical_effect_factor = -0.05
+				repair_speed_factor = 0.05
+			}
 		}
 		convoy_pack = {
-			transport_capacity = -0.15
 			equipment_bonus = {
 				convoy_1 = {
 					max_strength = 0.1
 					surface_visibility = -0.1
+					lg_attack = 1
 					instant = yes
 				}
+			}
+			modifier = {
+				transport_capacity = -0.15
+				convoy_escort_efficiency = 0.1
 			}
 		}
 	}
@@ -221,24 +297,36 @@ defensive_combat_support = {
 
 	rewards = {
 		local_supply_network = {
-			supply_combat_penalties_on_core_factor = -0.1
-			navy_fuel_consumption_factor = -0.1
+			modifier = {
+				supply_combat_penalties_on_core_factor = -0.1
+				navy_fuel_consumption_factor = -0.1
+			}
 		}
 		dual_purpose_ports = {
-			production_speed_naval_base_factor = 0.1
-			repair_speed_factor = 0.1
+			modifier = {
+				production_speed_naval_base_factor = 0.1
+				repair_speed_factor = 0.1
+			}
 		}
 		temporary_repair_team = {
-			critical_receive_chance = -0.05
-			naval_critical_effect_factor = -0.1
+			modifier = {
+				critical_receive_chance = -0.05
+				naval_critical_effect_factor = -0.1
+			}
 		}
 		resilient_shipbuilding_scheme = {
-			weekly_convoys_war_support = 0.005
-			repair_speed_naval_base_factor = 0.1
+			modifier = {
+				weekly_convoys_war_support = 0.005
+				repair_speed_naval_base_factor = 0.1
+				repair_speed_dockyard_factor = 0.1
+			}
 		}
 		positive_trade_list = {
-			request_lease_tension = -0.25
-			offensive_war_stability_factor = -0.1
+			modifier = {
+				request_lease_tension = -0.25
+				trade_opinion_factor = 0.1
+				offensive_war_stability_factor = -0.1
+			}
 		}
 	}
 }

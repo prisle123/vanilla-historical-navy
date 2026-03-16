@@ -414,7 +414,9 @@ new_base_strike = {
             #Naval Logistics
             critical_receive_chance = -0.05
             naval_critical_effect_factor = -0.05
-            repair_speed_factor = 0.1
+            carrier = {
+                supply_consumption = -0.02
+            }
             effect = {
                 if = {
                     limit = {

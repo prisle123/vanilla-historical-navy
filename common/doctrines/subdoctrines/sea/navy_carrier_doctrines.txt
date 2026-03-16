@@ -39,9 +39,6 @@ carrier_battlegroups = {
                     instant = yes
                 }
             }
-			modifier = {
-                navy_fuel_consumption_factor = -0.05
-            }
 		}
         bomber_scouting = {
 			carrier = {
@@ -264,7 +261,7 @@ carrier_concentration = {
     rewards = {
     	deep_operative_support = {
     		carrier = {
-                supply_consumption = -0.05
+                fuel_consumption = -0.1
     		}
             equipment_bonus = {
                 carrier = {
