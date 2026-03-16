@@ -297,11 +297,20 @@ defensive_combat_support = {
 
     coastal_bunker_effectiveness_factor = 0.1
     production_speed_coastal_bunker_factor = 0.15
+	repair_speed_coastal_bunker_factor = 0.15
 
 	rewards = {
 		local_supply_network = {
+			heavy_cruiser = {
+				supply_consumption = -0.02
+			}
+			medium_cruiser = {
+				supply_consumption = -0.02
+			}
+			light_cruiser = {
+				supply_consumption = -0.01
+			}
 			modifier = {
-				supply_combat_penalties_on_core_factor = -0.1
 				navy_fuel_consumption_factor = -0.1
 			}
 		}
