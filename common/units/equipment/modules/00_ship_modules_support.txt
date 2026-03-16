@@ -425,7 +425,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.05
+			sub_visibility = 0.03
 			naval_speed = -0.01			
 		}
 		
@@ -449,7 +449,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.055
+			sub_visibility = 0.035
 			naval_speed = -0.02			
 		}
 		
@@ -477,7 +477,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.06
+			sub_visibility = 0.04
 			naval_speed = -0.03			
 		}
 
@@ -502,7 +502,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.065
+			sub_visibility = 0.045
 			naval_speed = -0.04			
 		}
 
@@ -527,7 +527,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.07
+			sub_visibility = 0.05
 			naval_speed = -0.05	
 		}
 
@@ -1324,10 +1324,10 @@ equipment_modules = {
 		category = submarine_miscellaneous
 		add_stats = {
 			build_cost_ic = 35
-			reliability = -0.01
+			reliability = -0.03
 		}
 		multiply_stats = {
-			sub_visibility = -0.025
+			sub_visibility = -0.05
 		}
 	}
 	diving_plane = {
@@ -1336,8 +1336,8 @@ equipment_modules = {
 			build_cost_ic = 50
 		}
 		multiply_stats = {
-			naval_speed = 0.025
-			sub_visibility = -0.01
+			naval_speed = 0.05
+			sub_visibility = -0.025
 		}
 	}
 	vlf_receiver = {
