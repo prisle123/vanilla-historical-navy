@@ -2624,7 +2624,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			lg_attack = 1
+			lg_attack = 0.5
+			convoy_raiding_coordination = 0.01
 			build_cost_ic = 10
 		}
 		dismantle_cost_ic = 2
@@ -2637,6 +2638,7 @@ equipment_modules = {
 
 		add_stats = {
 			lg_attack = 1
+			convoy_raiding_coordination = 0.02
 			build_cost_ic = 10
 		}
 		dismantle_cost_ic = 2
@@ -2648,7 +2650,8 @@ equipment_modules = {
 		parent = sub_deck_gun_2
 
 		add_stats = {
-			lg_attack = 1
+			lg_attack = 1.5
+			convoy_raiding_coordination = 0.03
 			build_cost_ic = 10
 		}
 		dismantle_cost_ic = 2
@@ -2660,7 +2663,8 @@ equipment_modules = {
 		parent = sub_deck_gun_3
 
 		add_stats = {
-			lg_attack = 1
+			lg_attack = 2
+			convoy_raiding_coordination = 0.04
 			build_cost_ic = 10
 		}
 		dismantle_cost_ic = 2
