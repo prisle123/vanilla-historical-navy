@@ -2499,6 +2499,7 @@ equipment_modules = {
     sub_battery_1 = {
 		category = sub_battery
 		sfx = sfx_ui_sd_module_turret
+		gui_category = sub_deck_gun
 
 		add_stats = {
 			hg_attack = 4
