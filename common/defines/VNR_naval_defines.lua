@@ -268,7 +268,7 @@ NDefines.NAI.CONVOY_NEED_SAFETY_BUFFER = 1.60   -- AI will try and keep 15% more
 
 
 --AI Mission
-NDefines.NAI.AI_MIN_DOMINANCE_MARGIN = 100   -- When trying to get control of a region, AI will try to exceed the required dominance by at least this amount (was 200)
+NDefines.NAI.AI_MIN_DOMINANCE_MARGIN = 250   -- When trying to get control of a region, AI will try to exceed the required dominance by at least this amount (was 200)
 NDefines.NAI.MIN_NAVAL_MISSION_PRIO_TO_ASSIGN = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 	200, -- PATROL
