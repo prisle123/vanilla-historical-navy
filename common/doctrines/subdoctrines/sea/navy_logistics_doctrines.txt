@@ -28,17 +28,16 @@ coverted_oceanic_replenishment = {
         }
     }
 
-    naval_retreat_chance = 0.1
-    convoy_retreat_speed = 0.1
+    convoy_retreat_speed = 0.15
+	auxiliary_ship = {
+		lg_attack = 0.15
+	}
 
 	rewards = {
 		merchant_converted_tender = {
-			equipment_bonus = {
-				ship_hull_civilian = {
-					surface_visibility = -0.25
-					max_strength = -0.25
-					instant = yes
-				}
+			auxiliary_ship = {
+				surface_visibility = -0.25
+				max_strength = -0.25
 			}
 		}
 		fuel_rationing = {
@@ -61,7 +60,7 @@ coverted_oceanic_replenishment = {
 				supply_consumption = -0.02
 			}
 			modifier = {
-				navy_max_range_factor = 0.05
+				navy_max_range_factor = 0.1
 			}
 		}
 		independent_damage_control = {

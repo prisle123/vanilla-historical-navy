@@ -163,7 +163,7 @@ submarine_fleet_operations = {
 		}
 		trade_interdiction = {
 			submarine = {
-                max_organisation = 5
+                max_organisation = 10
 				convoy_raiding_coordination = 0.10
                 surface_detection = 0.1
 			}
@@ -209,14 +209,24 @@ capital_hunters = {
     		}
     	}
     	battle_line_priority = {
-    		naval_torpedo_screen_penetration_factor = 0.1
+            submarine = {
+                max_organisation = 5
+            }
+    		modifier = {
+                naval_torpedo_screen_penetration_factor = 0.1
+            }
     	}
     	quick_reload_procedures = {
-    		naval_torpedo_cooldown_factor = -0.125
+            submarine = {
+                max_organisation = 10
+            }
+    		modifier = {
+                naval_torpedo_cooldown_factor = -0.125
+            }
     	}
     	battleship_chase = {
     		submarine = {
-    			fuel_consumption = -0.1
+    			fuel_consumption = -0.15
     		}
             equipment_bonus = {
                 submarine = {
@@ -226,6 +236,10 @@ capital_hunters = {
             }
     	}
     	escape_when_empty = {
+            submarine = {
+                sub_visibility = -0.05
+                surface_detection = 0.05
+            }
     		modifier = {
                 sub_retreat_speed = 0.15
             }
@@ -255,7 +269,7 @@ submarine_coastal_defense = {
     }
 
     submarine = {
-        supply_consumption = -0.02
+        fuel_consumption = -0.25
     }
     equipment_bonus = {
         submarine = {
@@ -340,16 +354,16 @@ submarine_area_denial = {
         factor = 0
     }
 
+    submarine = {
+        max_organisation = 10
+    }
+    mines_planting_by_fleets_factor = 0.1
     equipment_bonus = {
 		submarine = {
 			naval_range = -0.2
 			instant = yes
 		}
 	}
-    submarine = {
-        max_organisation = 10
-    }
-    mines_planting_by_fleets_factor = 0.1
 
     rewards = {
         silent_sailing = {
@@ -383,7 +397,7 @@ submarine_area_denial = {
                 naval_torpedo_reveal_chance_factor = -0.25
             }
         }
-        simplified_launching_protocal = {
+        simplified_launching_procedure = {
             submarine = {
                 sub_visibility = -0.1
                 torpedo_attack = -0.2
@@ -425,6 +439,7 @@ operation_autonomy = {
         }
     }
     sub_retreat_speed = 0.1
+
     rewards = {
         leadership_autonomy = {
             submarine = {
@@ -448,6 +463,7 @@ operation_autonomy = {
         }
         radio_silence = {
             submarine = {
+                max_organisation = 5
                 sub_visibility = -0.2
             }
             equipment_bonus = {
@@ -461,6 +477,9 @@ operation_autonomy = {
             submarine = {
                 max_organisation = 10
                 convoy_raiding_coordination = 0.1
+            }
+            modifier = {
+                naval_torpedo_reveal_chance_factor = -0.05
             }
         }
         auxiliary_submarine = {

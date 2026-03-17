@@ -45,7 +45,7 @@ convoy_escort = {
 				max_organisation = 10
 			}
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 			}
 			convoy_escort_efficiency = 0.05
 		}
@@ -69,11 +69,11 @@ convoy_escort = {
 		}
 		as_below_so_above = {
 			destroyer = {
-				max_organisation = 5
+				max_organisation = 10
 				anti_air_attack = 0.1
 			}
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 				anti_air_attack = 0.1
 			}
 			convoy_escort_efficiency = 0.1
@@ -122,7 +122,7 @@ support_integrated_operations = {
 	screening_efficiency = 0.05
 	equipment_bonus = {
 		screen_ship = {
-			naval_range = 0.1
+			naval_range = 0.15
 			instant = yes
 		}
 	}
@@ -158,16 +158,18 @@ support_integrated_operations = {
 				max_organisation = 5
 				sub_detection = 0.1
 			}
-			screening_efficiency = 0.10
+			modifier = {
+				screening_efficiency = 0.10
+			}
 		}
 		early_warning = {
 			destroyer = {
-				max_organisation = 5
+				max_organisation = 10
 				anti_air_attack = 0.1
 				surface_detection = 0.10
 			}
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 				anti_air_attack = 0.1
 				surface_detection = 0.10
 			}
@@ -240,11 +242,11 @@ hunter_killers = {
 		}
 		light_force = {
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 				sub_detection = 0.05
 			}
 			destroyer = {
-				max_organisation = 5
+				max_organisation = 10
 				sub_detection = 0.05
 			}
 			modifier = {
@@ -287,7 +289,7 @@ torpedo_primacy = {
 
     rewards = {
 
-    	modern_broadsides = {
+    	efficient_torpedo_fuze = {
     		destroyer = {
     			torpedo_attack = 0.2
     		}
@@ -305,18 +307,26 @@ torpedo_primacy = {
 			}
     	}
     	torpedo_rearming = {
+			light_cruiser = {
+				max_organisation = 5
+			}
+			destroyer = {
+				max_organisation = 5
+			}
     		modifier = {
 				naval_torpedo_cooldown_factor = -0.125
 			}
     	}
     	night_combat_training = {
-			naval_night_attack = 0.1
-    		night_spotting_chance = 0.1
 			heavy_cruiser = {
 				torpedo_attack = 0.1
 			}
 			medium_cruiser = {
 				torpedo_attack = 0.1
+			}
+			modifier = {
+				naval_night_attack = 0.1
+    			night_spotting_chance = 0.1
 			}
     	}
     }
@@ -365,6 +375,7 @@ jeune_ecole = {
     	long_range_torpedo = {
     		modifier = {
 				naval_torpedo_screen_penetration_factor = 0.1
+				naval_enemy_fleet_size_ratio_penalty_factor = 0.05
 			}
     	}
     	total_economic_warfare = {
@@ -420,8 +431,8 @@ mosquito_fleet = {
 				surface_visibility = -0.15
 				max_organisation = -10
 			}
-			navy_screen_attack_factor = -0.5
 			modifier = {
+				navy_screen_attack_factor = -0.5
 				naval_torpedo_screen_penetration_factor = 0.1
 			}
 		}
