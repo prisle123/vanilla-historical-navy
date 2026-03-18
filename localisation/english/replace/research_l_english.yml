@@ -240,10 +240,11 @@
  vnr_ship_hull_civilian_3: "Replenishment Oiler Hull"
  vnr_ship_hull_civilian_3_desc: "The replenishment oiler is a type of slower but all-round naval auxiliary ships with larger fuel tanks and dry cargo holds. Other than ship fuel, it can also provide air fuel to planes on the carrier."
 
-
+ # modifiers
  modifier_repair_speed_naval_base_factor: "Naval Base Repair Speed"
  modifier_repair_speed_dockyard_factor: "Dockyard Repair Speed"
  modifier_repair_speed_fuel_silo_factor: "Fuel Silo Repair Speed"
+ modifier_repair_speed_coastal_bunker_factor: "Coastal Bunker Repair Speed"
  modifier_production_cost_max_ship_hull_submarine: "Submarine Max Cost"
 
 

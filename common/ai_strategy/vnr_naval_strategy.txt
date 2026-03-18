@@ -700,22 +700,27 @@ USA_do_not_waste_fleet_in_north_pacific = {
 	ai_strategy = {
 		type = naval_dominance
 		id = 176
-		value = 0
+		value = -100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = 177
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
 		id = 114
-		value = 0
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
 		id = 171
-		value = 0
+		value = -100
 	}
 	ai_strategy = {
 		type = coast_defense
 		id = 88
-		value = 0
+		value = -100
 	}
 	ai_strategy = {
 		type = naval_dominance
@@ -865,7 +870,7 @@ USA_pacific_war_naval_counterattack_1 = {
 	}
 	ai_strategy = {
 		type = naval_invasion_dominance_weight
-		value = 100
+		value = 30
 	}
 }
 
@@ -986,7 +991,7 @@ USA_pacific_war_naval_counterattack_2 = {
 	}
 	ai_strategy = {
 		type = naval_invasion_dominance_weight
-		value = 100
+		value = 50
 	}
 }
 
@@ -1087,7 +1092,7 @@ USA_pacific_war_naval_counterattack_3 = {
 	}
 	ai_strategy = {
 		type = naval_invasion_dominance_weight
-		value = 100
+		value = 75
 	}
 }
 
