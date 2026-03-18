@@ -396,15 +396,19 @@ armored_raiders = {
         modernized_officer_education = {
             battle_cruiser= {
                 max_organisation = 5
+                surface_visibility = -0.05
             }
 			battleship = {
 				max_organisation = 5
+                surface_visibility = -0.05
 			}
             heavy_cruiser = {
                 max_organisation = 5
+                surface_visibility = -0.05
             }
             medium_cruiser = {
                 max_organisation = 5
+                surface_visibility = -0.05
             }
         }
         capital_raiders = {
