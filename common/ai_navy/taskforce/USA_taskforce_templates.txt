@@ -125,3 +125,37 @@ USA_ConvoyEscort_1 = {
 		}
 	}
 }
+
+USA_InvasionSupport_1 = {
+	allowed = {
+		original_tag = USA
+	}
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			has_war_with = JAP
+			add = 5
+		}
+	}
+	mission = { naval_invasion_support }
+
+	min_composition = {
+		heavy_cruiser = {
+			amount = 1
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
+	optimal_composition = {
+		battleship = {
+			amount = 2
+		}
+		heavy_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 10
+		}
+	}
+}
