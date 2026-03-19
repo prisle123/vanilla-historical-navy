@@ -138,7 +138,7 @@ An equivalent to ice carrier in vanilla but with an actual historical background
 
 **Panzerschiff**
 
-Panzerschiff in VNR or revived armored cruiser in KRNR, is basically a cruiser with heavy guns, though there is a limit set to prevent super heavy guns being used. Just like the real armored ship in history, it has some advantages in one-on-one combat against cruisers, such as better guns and armor, making it an intermediate option between battlecruiser and heavy cruiser. The problem is, panzerschiff is stuck in the middle, so it can't fully cover either's job.
+Panzerschiff in VNR or revived armored cruiser in KRNR, is basically a cruiser with heavier guns, e.g. 280/305mm. Just like the real armored ship in history, it has some advantages in one-on-one combat against cruisers, such as better guns and armor, making it an intermediate option between battlecruiser and heavy cruiser. The problem is, panzerschiff is stuck in the middle, so it can't fully cover either's job.
 
 **Auxiliary Ship**
 
