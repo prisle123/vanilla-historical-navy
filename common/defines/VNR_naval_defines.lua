@@ -17,7 +17,7 @@ NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 3.0, 1.25, 1.0, 0.65,
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_DAMAGE_VALUES = { 2.0, 1.0, 0.7, 0.6, 0.45, 0.35, 0.2, 0.1, 0.05, 0.02, 0.01 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
 NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 0.3   -- random factor in damage. So if max damage is fe. 10, and randomness is 30%, then damage will be between 7-10. (was 0.5)
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
-	70.0,	-- big guns
+	75.0,	-- big guns
 	110.0,	-- torpedoes
 	55.0,	-- small guns
 }
@@ -43,7 +43,6 @@ NDefines.NNavy.MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.15   -- max pena
 NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.9   -- damage penalty at 0% positioning (was 0.5)
 NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 1.25   -- screening efficiency (screen to capital ratio) at 0% positioning (was 0.5)
 NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.75   -- AA penalty at 0% positioning (was 0.7)
-NDefines.NNavy.SUBMARINE_REVEAL_ON_MINIMUM_POSITIONING = 2.5   -- submarine reveal change on 0% positioning (was 2)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.25   -- this screen ratio to num convoys is needed for full screening beyond screen line (was 0.5)
 NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.1   -- this capital ratio to num convoys is needed for full screening beyond screen line (was 0.25)
 NDefines.NNavy.MISSION_SPREADS = {  -- mission spreads in the case a ship join combat, which is calculated for number of ships that will be in combat. 1 means no ship will be at start
@@ -148,10 +147,11 @@ NDefines.NNavy.UNIT_TRANSFER_SPOTTING_SPEED_MULT = 15   -- spotting speed mult a
 NDefines.NNavy.NAVAL_INVASION_SPOTTING_SPEED_MULT = 50   -- spotting speed mult against naval invasion armies (was 10)
 NDefines.UNIT_TRANSFER_DETECTION_CHANCE_BASE = 15.0   -- unit transfer and naval invasion base chance detection percentage (if this fails, no detection is done on that tick) (was 8.0)
 NDefines.NNavy.NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.6   -- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible. (was 0.9)
-NDefines.NNavy.MIN_SPOTTING_PROGRESS = 0.1   -- Minimum spotting progress (in percent) per hourly tick (was 0.01)
+NDefines.NNavy.MIN_SPOTTING_PROGRESS = 0.05   -- Minimum spotting progress (in percent) per hourly tick (was 0.01)
 NDefines.NNavy.BASE_SPOTTING = 5   -- base spotting percentage for navy	(was 1)
 NDefines.NNavy.BASE_SPOTTING_FROM_NAVY = 15   -- base spotting percentage that comes from task forces in area (was 10)
-NDefines.NNavy.BASE_SPOTTING_SPEED = 1   -- daily base spotting speed (was 0)
+NDefines.NNavy.BASE_SPOTTING_SPEED = 0.5   -- daily base spotting speed (was 0)
+NDefines.NNavy.BASE_SPOTTING_FROM_DECRYPTION = 30   -- base spotting percentage that comes from decryption, can go negative (enemy decryption is subtracted)	(was 10)
 NDefines.NNavy.SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.2   -- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio (was 0.5)	
 NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 0.025   -- A global factor that applies after all others, right before the sub detection contributed by plane is added to the global sub detection of a combatant (was 0)
 NDefines.NNavy.COMBAT_DETECTED_CONVOYS_FROM_SURFACE_DETECTION_STAT = 0.075   -- Each 1.0 of surface_detection that ship has (equipment stat), gives x% of convoys discovered from total travelling along the route. (was 0.1)
@@ -216,7 +216,7 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggressi
 --Naval Misc
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 25   -- cost to unassign/replace pride of the fleet (was 100)
 NDefines.NNavy.AMPHIBIOUS_INVADE_SPEED_BASE = 0.35    -- every hour movement progress on amphibious invasion (was 0.5)
-NDefines.NNavy.SHIP_SUPPORT_NEED_FACTOR = 0.25   -- The support need for a ship. This factor is multiplied with the ships dominance value (was 0.1)
+NDefines.NNavy.SHIP_SUPPORT_NEED_FACTOR = 0.15   -- The support need for a ship. This factor is multiplied with the ships dominance value (was 0.1)
 NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for naval strike mission in port (was 0.25, ease the cost of assigning strike force)
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
