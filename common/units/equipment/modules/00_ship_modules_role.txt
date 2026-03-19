@@ -506,25 +506,27 @@ equipment_modules = {
 #########################
 	ship_hull_cruiser_role_pz = {
 		category = pz_role
+		add_stats = {
+			convoy_raiding_coordination = 0.1
+		}
 		multiply_stats = {
-			build_cost_ic = 0.25
-			max_strength = -0.2
+			naval_range = 0.15
+			max_strength = -0.15
+			surface_visibility = -0.1
 		}
-		forbid_module_categories = {
-			ship_medium_heavy_battery_double
-			ship_medium_heavy_battery_triple
-		}
+		
 		dismantle_cost_ic = 100000
 	}
 	ship_hull_cruiser_role_pbb = {
 		category = pz_role
 		gfx = ship_hull_cruiser_role_cb
 
-		forbid_module_categories = {
-			ship_heavy_battery
-			ship_heavy_battery_triple
-			ship_heavy_battery_quad
+		multiply_stats = {
+			build_cost_ic = 0.05
+			max_strength = 0.05
+			naval_range = 0.1
 		}
+		
 		dismantle_cost_ic = 100000
 	}
 }
