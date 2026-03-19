@@ -238,10 +238,6 @@ technologies = {
 			lg_attack = 0.1
 			lg_armor_piercing = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	lg_attack = 0.1
-		##! 	lg_armor_piercing = 0.05
-		##! }
 		battleship = {
 			lg_attack = 0.1
 			lg_armor_piercing = 0.05
@@ -363,10 +359,6 @@ technologies = {
 			lg_attack = 0.1
 			lg_armor_piercing = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	lg_attack = 0.1
-		##! 	lg_armor_piercing = 0.05
-		##! }
 		battleship = {
 			lg_attack = 0.1
 			lg_armor_piercing = 0.05
@@ -659,10 +651,6 @@ technologies = {
 			hg_attack = 0.1
 			hg_armor_piercing = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	hg_attack = 0.1
-		##! 	hg_armor_piercing = 0.05
-		##! }
 		heavy_cruiser = {
 			hg_attack = 0.1
 			hg_armor_piercing = 0.05
@@ -723,10 +711,6 @@ technologies = {
 			hg_attack = 0.1
 			hg_armor_piercing = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	hg_attack = 0.1
-		##! 	hg_armor_piercing = 0.05
-		##! }
 		heavy_cruiser = {
 			hg_attack = 0.1
 			hg_armor_piercing = 0.05
@@ -1379,9 +1363,6 @@ technologies = {
 		medium_cruiser = {
 			torpedo_attack = 0.1
 		}
-		##! armored_cruiser = {
-		##! 	torpedo_attack = 0.1
-		##! }
 
 
 
@@ -1443,9 +1424,6 @@ technologies = {
 		medium_cruiser = {
 			naval_torpedo_hit_chance_factor = 0.05
 		}
-		##! armored_cruiser = {
-		##! 	naval_torpedo_hit_chance_factor = 0.05
-		##! }
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 16 }
@@ -1554,9 +1532,6 @@ technologies = {
 		medium_cruiser = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
-		##! armored_cruiser = {
-		##! 	naval_torpedo_hit_chance_factor = 0.1
-		##! }
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 25 }
@@ -1708,9 +1683,6 @@ technologies = {
 		medium_cruiser = {
 			torpedo_attack = 0.1
 		}
-		##! armored_cruiser = {
-		##! 	torpedo_attack = 0.1
-		##! }
 
 
 		folder = {
