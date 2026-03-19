@@ -60,7 +60,7 @@ convoy_escort = {
 		}
 		creeping_attack = {
 			destroyer = {
-				surface_detection = 0.05
+				surface_detection = 0.1
 				lg_attack = 0.05
 			}
 			light_cruiser = {
@@ -119,7 +119,7 @@ support_integrated_operations = {
     }
 
     # EFFECTS
-	screening_efficiency = 0.05
+	convoy_escort_efficiency = 0.1
 	equipment_bonus = {
 		screen_ship = {
 			naval_range = 0.15
@@ -147,6 +147,7 @@ support_integrated_operations = {
 			modifier = {
 				navy_casualty_on_hit = -0.2
 				navy_casualty_on_sink = -0.35
+				naval_accidents_chance = -0.15
 			}
 		}
 		fleet_coordination = {
@@ -216,11 +217,13 @@ hunter_killers = {
     rewards = {
 		search_and_destroy = {
 			destroyer = {
+				max_organisation = 5
 				sub_detection = 0.15
 			}
 		}
 		flotilla_leader = {
 			light_cruiser = {
+				max_organisation = 5
 				sub_detection = 0.15
 			}
 		}
@@ -365,12 +368,28 @@ jeune_ecole = {
 	}
 
     rewards = {
-
+		coastal_patrol = {
+    		modifier = {
+				mines_planting_by_fleets_factor = 0.2
+				naval_mines_damage_factor = 0.1
+				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+			}
+    	}
+		convoy_escort = {
+    		modifier = {
+				convoy_escort_efficiency = 0.1
+				convoy_retreat_speed = 0.1
+			}
+    	}
     	commerce_raiding_priority = {
     		light_cruiser = {
     			convoy_raiding_coordination = 0.05
     			max_organisation = 10
     		}
+			destroyer = {
+				convoy_raiding_coordination = 0.05
+				max_organisation = 10
+			}
     	}
     	long_range_torpedo = {
     		modifier = {
@@ -380,22 +399,10 @@ jeune_ecole = {
     	}
     	total_economic_warfare = {
     		destroyer = {
-    			convoy_raiding_coordination = 0.05
     			max_organisation = 10
+				naval_torpedo_hit_chance_factor = 0.1
+				convoy_raiding_coordination = 0.05
     		}
-    	}
-    	convoy_escort = {
-    		modifier = {
-				convoy_escort_efficiency = 0.1
-				convoy_retreat_speed = 0.1
-			}
-    	}
-    	coastal_patrol = {
-    		modifier = {
-				mines_planting_by_fleets_factor = 0.2
-				naval_mines_damage_factor = 0.1
-				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
-			}
     	}
     }
 }
