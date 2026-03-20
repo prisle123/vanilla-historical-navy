@@ -1902,13 +1902,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = submarine_mine_laying
-			research_cost_coeff = 1
-		}
-
 		enable_equipment_modules = {
 			ship_mine_layer_1
+			ship_mine_layer_sub
 		}
 
 		enable_equipment_modules = {
@@ -1930,68 +1926,6 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 			mio_cat_tech_all_screen_ship_and_modules
-		}
-	}
-
-	submarine_mine_laying = {
-
-		research_cost = 0.5
-
-		start_year = 1922
-
-		path = {
-			leads_to_tech = improved_submarine_mine_laying
-			research_cost_coeff = 1
-		}
-
-		enable_equipment_modules = {
-			ship_mine_layer_sub
-		}
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 4 y = 1 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_mines
-			naval_minelaying
-			naval_equipment
-			ship_modules_tech
-		}
-	}
-
-	improved_submarine_mine_laying = {
-
-		research_cost = 0.5
-
-		start_year = 1940
-
-		submarine = {
-			mines_planting = 0.2
-		}
-
-		folder = {
-			name = mtgnavalsupportfolder
-			position = { x = 4 y = 13 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_mines
-			naval_minelaying
-			naval_equipment
-			ship_modules_tech
-			mio_cat_tech_all_submarine_and_modules
 		}
 	}
 
@@ -2091,6 +2025,9 @@ technologies = {
 		}
 
 		naval_mines_damage_factor = 0.2 # more boom for the boom box
+		submarine = {
+			mines_planting = 0.2
+		}
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 15 }
@@ -2620,7 +2557,7 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 4 y = 3 }
+			position = { x = 1 y = 5 }
 		}
 
 		repair_speed_factor = 0.1
@@ -3255,7 +3192,7 @@ technologies = {
 		start_year = 1938
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 1 y = 10 }
+			position = { x = -2 y = 10 }
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -3286,7 +3223,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 1 y = 18 }
+			position = { x = -2 y = 18 }
 		}
 
 		special_project_specialization = { specialization_naval }
