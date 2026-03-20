@@ -266,7 +266,8 @@ equipment_modules = {
 ##  FLIGHT DECK  ##
 ###################
     carrier_armor_deck = {
-		category = ship_flight_deck
+		category = ship_flight_deck_armored
+		gui_category = ship_flight_deck
 		add_equipment_type = capital_ship
 		
 		add_stats = {
@@ -286,7 +287,8 @@ equipment_modules = {
 		critical_parts = { damaged_armored_flight_deck }
 	}
 	carrier_wooden_deck = {
-		category = ship_flight_deck
+		category = ship_flight_deck_unarmored
+		gui_category = ship_flight_deck
 		add_equipment_type = capital_ship
 
 		multiply_stats = {
@@ -298,7 +300,8 @@ equipment_modules = {
 		critical_parts = { damaged_wooden_flight_deck }
 	}
 	carrier_strength_deck = {
-		category = ship_flight_deck
+		category = ship_flight_deck_armored
+		gui_category = ship_flight_deck
 		add_equipment_type = capital_ship
 		parent = carrier_armor_deck
 		add_stats = {
@@ -452,7 +455,7 @@ equipment_modules = {
 		multiply_stats = {
 			armor_value = -0.25
 			max_strength = -0.25
-			anti_air_attack = -0.4
+			anti_air_attack = -0.8
 			naval_speed = -0.25
 			naval_range = -0.2
 			build_cost_ic = -0.2

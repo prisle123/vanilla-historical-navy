@@ -64,7 +64,7 @@ equipments = {
 			}
 			fixed_ship_flight_deck_slot = {
 				required = yes
-				allowed_module_categories = { ship_flight_deck }
+				allowed_module_categories = { ship_flight_deck_armored ship_flight_deck_unarmored }
 			}
 
 			front_1_custom_slot = {
@@ -578,7 +578,10 @@ equipments = {
 				required = no
 				allowed_module_categories = { carrier_miscellaneous carrier_civilian_material }
 			}
-			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_flight_deck_slot = {
+				required = yes
+				allowed_module_categories = { ship_flight_deck_unarmored }
+			}
 			fixed_ship_role_slot = {
 				required = yes
 				allowed_module_categories = { cve_role }
@@ -592,18 +595,19 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_role_slot = ship_hull_carrier_role_cve
+			fixed_ship_flight_deck_slot = carrier_wooden_deck
 		}
 		naval_range = 3500
 
 		max_strength = 35
 		fuel_consumption = 38
 
-		reliability = 0.7
-		surface_detection = 20
+		reliability = 0.65
+		surface_detection = 16
 		naval_speed = 20
 		sub_detection = 8.5
-		surface_visibility = 20
-		build_cost_ic = 350
+		surface_visibility = 24
+		build_cost_ic = 700
 		resources = {
 			steel = 1
 		}
@@ -636,7 +640,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { civilian_ship_engine }
 			}
-			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_flight_deck_slot = {
+				required = yes
+				allowed_module_categories = { ship_flight_deck_unarmored }
+			}
 			fixed_ship_carrier_miscellaneous_slot_1 = {
 				required = no
 				allowed_module_categories = { carrier_island }
@@ -657,18 +664,19 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = civilian_ship_engine_1
 			fixed_ship_role_slot = ship_hull_carrier_role_cve
+			fixed_ship_flight_deck_slot = carrier_wooden_deck
 		}
-		naval_range = 2300
+		naval_range = 1800
 
-		max_strength = 25
+		max_strength = 15
 		fuel_consumption = 23
 
 		reliability = 0.5
-		surface_detection = 15
-		naval_speed = 20
+		surface_detection = 12
+		naval_speed = 15
 		sub_detection = 4
-		surface_visibility = 16
-		build_cost_ic = 220
+		surface_visibility = 20
+		build_cost_ic = 450
 		resources = {
 			steel = 1
 		}

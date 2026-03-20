@@ -115,7 +115,7 @@ NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.005   -- Each plan
 NDefines.NNavy.SCREEN_CAP_REDUCTION_FACTOR = 0.02   -- Reduces screen silhouette weight if there are caps present, screenval * 1/(1+caps*weight)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL = 10   -- For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SCREEN = 5   -- As Above. This one would be nice to split by type, but that's problematic.
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 16   -- As Above
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 30   -- As Above
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUPPORT = 2   -- As Above (was 3)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CONVOY = 2   -- As Above (was 4)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 4   -- As Above (was 7)
@@ -153,7 +153,6 @@ NDefines.NNavy.BASE_SPOTTING_FROM_NAVY = 15   -- base spotting percentage that c
 NDefines.NNavy.BASE_SPOTTING_SPEED = 0.5   -- daily base spotting speed (was 0)
 NDefines.NNavy.BASE_SPOTTING_FROM_DECRYPTION = 30   -- base spotting percentage that comes from decryption, can go negative (enemy decryption is subtracted)	(was 10)
 NDefines.NNavy.SPOTTING_SPEED_MULT_FOR_RUNNING_AWAY = 0.2   -- task forces that does not want to engage will reduce enemy spotting rate every hour by speed diff mult this ratio (was 0.5)	
-NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 0.025   -- A global factor that applies after all others, right before the sub detection contributed by plane is added to the global sub detection of a combatant (was 0)
 NDefines.NNavy.COMBAT_DETECTED_CONVOYS_FROM_SURFACE_DETECTION_STAT = 0.075   -- Each 1.0 of surface_detection that ship has (equipment stat), gives x% of convoys discovered from total travelling along the route. (was 0.1)
 
 
