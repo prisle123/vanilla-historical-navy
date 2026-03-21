@@ -1968,7 +1968,7 @@ technologies = {
 
 	degaussing = {
 
-		research_cost = 0.75
+		research_cost = 0.25
 
 		start_year = 1938
 
@@ -2051,7 +2051,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 0.5
+		research_cost = 0.25
 
 		start_year = 1942
 
@@ -2087,7 +2087,7 @@ technologies = {
 			has_dlc = "By Blood Alone"
 		}
 
-		research_cost = 0.5
+		research_cost = 0.25
 
 		start_year = 1942
 
@@ -2114,7 +2114,7 @@ technologies = {
 
 	modern_naval_mines = {
 
-		research_cost = 0.75
+		research_cost = 0.5
 
 		start_year = 1945
 
@@ -2151,7 +2151,7 @@ technologies = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		research_cost = 0.5
+		research_cost = 0.25
 
 		start_year = 1944
 
@@ -2185,7 +2185,7 @@ technologies = {
 			has_dlc = "By Blood Alone"
 		}
 
-		research_cost = 0.5
+		research_cost = 0.25
 
 		start_year = 1944
 
@@ -2375,7 +2375,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 0 y = 21 }
+			position = { x = 0 y = 19 }
 		}
 
 		ai_will_do = {
@@ -3070,7 +3070,7 @@ technologies = {
 		}
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 9 y = 12 }
+			position = { x = 9 y = 13 }
 		}
 
 		naval_invasion_penalty = -0.1
@@ -3192,7 +3192,7 @@ technologies = {
 		start_year = 1938
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -2 y = 10 }
+			position = { x = -2 y = 12 }
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -3223,7 +3223,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = -2 y = 18 }
+			position = { x = -2 y = 17 }
 		}
 
 		special_project_specialization = { specialization_naval }
