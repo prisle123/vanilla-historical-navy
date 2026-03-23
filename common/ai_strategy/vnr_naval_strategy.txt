@@ -835,6 +835,18 @@ USA_pacific_war_naval_counterattack_1 = {
 		id = vnr_pacific_okinawa
 		value = -100
 	}
+
+	# US submarine war
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 83
+		value = 500
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 84
+		value = 500
+	}
 	
 	ai_strategy = {
 		type = invade
@@ -954,6 +966,29 @@ USA_pacific_war_naval_counterattack_2 = {
 		id = vnr_eng_pacific_zone
 		value = 50
 	}
+
+	# US submarine war
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 83
+		value = 200
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 84
+		value = 200
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 94
+		value = 500
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 78
+		value = 500
+	}
+
 	ai_strategy = {
 		type = invade
 		id = JAP
@@ -1055,6 +1090,29 @@ USA_pacific_war_naval_counterattack_3 = {
 		id = vnr_pacific_hawaii
 		value = 0
 	}
+
+	# US submarine war
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 76
+		value = 500
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 90
+		value = 500
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 94
+		value = 500
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 78
+		value = 500
+	}
+
 	ai_strategy = {
 		type = invade
 		id = JAP
