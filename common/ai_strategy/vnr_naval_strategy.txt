@@ -559,14 +559,11 @@ USA_pacific_war_naval_avoid_first = {
 	}
 	enable = {
 		OR = {
-			has_war_with = JAP
 			threat > 0.65
-			date > 1941.12.1
-		}
-		date < 1942.5.1
-		naval_strength_ratio = {
-			tag = JAP
-			ratio < 5
+			war_length_with = {
+				tag = JAP
+				months < 6
+			}
 		}
         enable_vnr_naval_ai = yes
 	}
@@ -735,12 +732,9 @@ USA_pacific_war_naval_counterattack_1 = {
     }
     enable = {
         has_war_with = JAP
-		OR = {
-			date > 1942.4.30
-			naval_strength_ratio = {
-				tag = JAP
-				ratio > 5
-			}
+		war_length_with = {
+			tag = JAP
+			months > 5
 		}
 		OR = {
 			633 = { is_controlled_by_ROOT_or_ally = no }
@@ -892,12 +886,9 @@ USA_pacific_war_naval_counterattack_2 = {
     }
     enable = {
         has_war_with = JAP
-		OR = {
-			date > 1942.4.30
-			naval_strength_ratio = {
-				tag = JAP
-				ratio > 5
-			}
+		war_length_with = {
+			tag = JAP
+			months > 5
 		}
 		633 = { is_controlled_by_ROOT_or_ally = yes }
 		684 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1036,12 +1027,9 @@ USA_pacific_war_naval_counterattack_3 = {
     }
     enable = {
         has_war_with = JAP
-		OR = {
-			date > 1942.4.30
-			naval_strength_ratio = {
-				tag = JAP
-				ratio > 5
-			}
+		war_length_with = {
+			tag = JAP
+			months > 5
 		}
 		633 = { is_controlled_by_ROOT_or_ally = yes }
 		684 = { is_controlled_by_ROOT_or_ally = yes }
@@ -1160,10 +1148,18 @@ USA_atlantic_war = {
 	}
 	enable = {
 		is_ally_with = ENG
+		ENG = { has_capitulated = no }
 		has_war_with = GER
 		has_navy_size = {
 			type = carrier
 			size > 19
+		}
+		OR = {
+			NOT = { has_war_with = JAP }
+			AND = {
+				has_war_with = JAP
+				JAP = { has_navy_size = { type = carrier size < 10 } }
+			}
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1177,6 +1173,56 @@ USA_atlantic_war = {
 		type = naval_dominance
 		id = vnr_eng_atlantic_route
 		value = 90
+	}
+}
+
+USA_mediterranean_war = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		is_ally_with = ENG
+		ENG = { has_capitulated = no }
+		has_war_with = ITA
+		has_navy_size = {
+			type = carrier
+			size > 23
+		}
+		OR = {
+			NOT = { has_war_with = JAP }
+			AND = {
+				has_war_with = JAP
+				JAP = { has_navy_size = { type = carrier size < 10 } }
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_eng_med_zones
+		value = 90
+	}
+}
+
+USA_defend_east_coast = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		is_ally_with = ENG
+		ENG = { has_capitulated = yes }
+		OR = {
+			has_war_with = GER
+			has_war_with = ITA
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_east_coast
+		value = 100
 	}
 }
 
