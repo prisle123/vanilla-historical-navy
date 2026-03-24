@@ -2210,27 +2210,38 @@ we_need_screen_1 = {
 	allowed = {
 		OR = {
 			tag = ENG
-			tag = JAP
 			tag = USA
+			tag = JAP
 		}
 	}
-	enable = { has_navy_size = { size < 100 archetype = ship_hull_light } }
+	enable = {
+		has_navy_size = { size < 200 archetype = ship_hull_light }
+		set_temp_variable = { t = num_ships_with_type@carrier }
+		set_temp_variable = { d = num_ships_with_type@destroyer }
+		divide_temp_variable = { d = t }
+		check_variable = { d < 8 }
+	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 2000
+		value = 9999
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -9999
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = -200
+		value = -9999
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = -200
+		value = -9999
 	}
 }
 
