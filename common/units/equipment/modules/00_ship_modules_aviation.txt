@@ -399,6 +399,9 @@ equipment_modules = {
 			anti_air_attack = 0.05
 			build_cost_ic = 0.05
 		}
+		forbid_module_categories = {
+			landing_assault_command
+		}
 	}
 	carrier_damage_control_unit = {
 		category = carrier_unit
@@ -431,6 +434,9 @@ equipment_modules = {
 		}
 		add_stats = {
 			reliability = -0.05
+		}
+		forbid_module_categories = {
+			landing_assault_command
 		}
 	}
 	carrier_fuel_storage = {
@@ -526,5 +532,42 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 50000
+	}
+
+##########################
+##  CARRIER AMPHIBIOUS  ##
+##########################
+	landing_helipad = {
+		category = landing_kit
+
+		add_stats = {
+			build_cost_ic = 600
+		}
+		multiply_stats = {
+			hg_attack = 0.15
+			naval_speed = -0.05
+			anti_air_attack = 0.025
+		}
+		manpower = 200
+	}
+	hovercraft = {
+		category = landing_kit
+
+		add_stats = {
+			hg_attack = 3
+			build_cost_ic = 200
+		}
+		multiply_stats = {
+			naval_speed = -0.03
+		}
+		manpower = 100
+	}
+	landing_assault_command = {
+		category = landing_assault_command
+		add_stats = {
+			hg_attack = 30
+			naval_heavy_gun_hit_chance_factor = -1
+			build_cost_ic = 100
+		}
 	}
 }
