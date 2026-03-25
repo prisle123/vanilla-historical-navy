@@ -204,7 +204,7 @@ equipments = {
 			steel = 2
 		}
 
-		manpower = 2000
+		manpower = 1200
 
 		naval_dominance_factor = 180
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -310,7 +310,7 @@ equipments = {
 			steel = 2
 		}
 
-		manpower = 1500
+		manpower = 1000
 		naval_dominance_factor = 125
 	}
 
@@ -486,7 +486,7 @@ equipments = {
 		fuel_consumption = 67
 		surface_visibility = 37
 		build_cost_ic = 2300
-		manpower = 2200
+		manpower = 1400
 		naval_dominance_factor = 210
 	}
 
@@ -516,7 +516,7 @@ equipments = {
 		surface_visibility = 36
 		build_cost_ic = 2500
 
-		manpower = 2500
+		manpower = 1600
 		naval_dominance_factor = 240
 	}
 
@@ -549,7 +549,7 @@ equipments = {
 			steel = 3
 		}
 
-		manpower = 2800
+		manpower = 1800
 		naval_dominance_factor = 270
 	}
 
@@ -663,7 +663,7 @@ equipments = {
 			steel = 3
 		}
 
-		manpower = 3800
+		manpower = 2000
 		naval_dominance_factor = 300
 	}
 
@@ -794,7 +794,7 @@ equipments = {
 		resources = {
 			steel = 3
 		}
-		manpower = 3500
+		manpower = 2400
 		naval_dominance_factor = 270
 	}
 
@@ -901,7 +901,7 @@ equipments = {
 			aluminium = 1
 		}
 
-		manpower = 4500
+		manpower = 2500
 
 		module_count_limit = {
 			category = ship_missile

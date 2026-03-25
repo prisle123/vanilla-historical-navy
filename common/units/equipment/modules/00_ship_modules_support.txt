@@ -24,6 +24,7 @@ equipment_modules = {
 			module_category = ship_anti_air
 			convert_cost_ic = 60
 		}
+		manpower = 50
 	}
 
 	ship_anti_air_2 = {
@@ -52,6 +53,7 @@ equipment_modules = {
 			module = ship_anti_air_1
 			convert_cost_ic = 60
 		}
+		manpower = 65
 	}
 	ship_anti_air_3 = {
 		abbreviation = "sbd"
@@ -78,6 +80,7 @@ equipment_modules = {
 			module = ship_anti_air_2
 			convert_cost_ic = 60
 		}
+		manpower = 80
 	}
 	ship_anti_air_4 = {
 		abbreviation = "sbe"
@@ -105,6 +108,7 @@ equipment_modules = {
 			module = ship_anti_air_3
 			convert_cost_ic = 50
 		}
+		manpower = 95
 	}
 	ship_anti_air_5 = {
 		abbreviation = "sbf"
@@ -123,6 +127,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.01
 		}
+		manpower = 75
 	}
     ship_missile_aa_1 = {
 		category = ship_missile_aa
@@ -144,6 +149,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 400
 		critical_parts = { damaged_aa_missiles }
+		manpower = 10
 	}
 	ship_missile_aa_2 = {
 		category = ship_missile_aa
@@ -166,6 +172,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 600
 		critical_parts = { damaged_aa_missiles }
+		manpower = 14
 	}
 
 
@@ -188,6 +195,7 @@ equipment_modules = {
 			module_category = ship_anti_air
 			convert_cost_ic = 80
 		}
+		manpower = 55
 	}
 
 	ship_anti_air_2_h = {
@@ -215,6 +223,7 @@ equipment_modules = {
 			module = ship_anti_air_1_h
 			convert_cost_ic = 80
 		}
+		manpower = 70
 	}
 	ship_anti_air_3_h = {
 		category = ship_anti_air
@@ -240,6 +249,7 @@ equipment_modules = {
 			module = ship_anti_air_2
 			convert_cost_ic = 90
 		}
+		manpower = 85
 	}
 	ship_anti_air_4_h = {
 		category = ship_anti_air
@@ -266,6 +276,7 @@ equipment_modules = {
 			module = ship_anti_air_3_h
 			convert_cost_ic = 100
 		}
+		manpower = 100
 	}
 
 ###############
@@ -911,6 +922,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.005
 		}
+		manpower = 20
 	}
 	ship_airplane_launcher_2 = {
 		abbreviation = "scz"
@@ -934,6 +946,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.02
 		}
+		manpower = 25
 	}
 	ship_helipad = {
 		category = ship_airplane_launcher
@@ -951,6 +964,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.005
 		}
+		manpower = 22
 	}
     recon_drone_1 = {
 		category = ship_airplane_launcher
@@ -977,7 +991,7 @@ equipment_modules = {
 			build_cost_ic = 800
 			reliability = -0.05
 		}
-		manpower = 100
+		manpower = 65
 	}
 	sub_airplane_launcher_1 = {
 		category = sub_airplane_launcher
@@ -991,6 +1005,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.003
 		}
+		manpower = 15
 	}
 	sub_airplane_launcher_2 = {
 		category = sub_airplane_launcher
@@ -1010,6 +1025,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.004
 		}
+		manpower = 20
 	}
 
 

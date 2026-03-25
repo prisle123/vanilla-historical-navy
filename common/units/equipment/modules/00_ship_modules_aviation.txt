@@ -192,7 +192,7 @@ equipment_modules = {
 			anti_air_attack = 3
 			supply_consumption = 0.03
 		}
-		manpower = 450 #outside the add_stats section for code reasons
+		manpower = 350 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.075
 			fuel_consumption = 0.1
@@ -421,6 +421,7 @@ equipment_modules = {
 			sub_detection = 4
 			build_cost_ic = 350
 		}
+		manpower = 50
 	}
 	carrier_spared_squad = {
 		category = carrier_unit
@@ -516,6 +517,7 @@ equipment_modules = {
 			surface_detection = 0.1
 			sub_detection = 0.1
 		}
+		manpower = 30
 	}
 	coldwar_upgrade_cv = {
 		category = coldwar_upgrade_cv
