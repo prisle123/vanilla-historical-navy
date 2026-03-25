@@ -910,6 +910,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { landing_kit }
 			}
+			fixed_ship_deck_slot_2 = {
+				required = no
+				allowed_module_categories = { landing_kit carrier_helipad }
+			}
 			fixed_ship_anti_air_slot = {
 				required = no
 				allowed_module_categories = { ship_anti_air ship_missile_aa }
@@ -922,10 +926,6 @@ equipments = {
 			fixed_ship_engine_slot = {
 				required = yes
 				allowed_module_categories = { carrier_ship_engine carrier_ship_engine_nuclear }
-			}
-			fixed_ship_secondaries_slot = {
-				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries_bb }
 			}
 			fixed_ship_armor_slot = {
 				required = yes
@@ -942,8 +942,6 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_anti_air
-					ship_missile_aa
 					carrier_helipad
 					landing_kit
 				}
@@ -953,16 +951,12 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_missile_aa
-					ship_secondaries
 					ship_dp_secondaries_bb
 				}
 			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_anti_air
-					ship_missile_aa
-					ship_dp_secondaries_bb
 					carrier_helipad
 					landing_kit
 				}

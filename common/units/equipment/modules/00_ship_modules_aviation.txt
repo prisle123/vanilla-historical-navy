@@ -567,6 +567,7 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 30
 			naval_heavy_gun_hit_chance_factor = -1
+			naval_light_gun_hit_chance_factor = -1
 			build_cost_ic = 100
 		}
 	}

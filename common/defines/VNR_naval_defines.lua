@@ -139,8 +139,8 @@ NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_PRODUCTION_COST_FACTOR = 0.04   -- w
 
 
 --Spotting
-NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 13   -- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues. (was 11)
-NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.065   -- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection (was 0.035)
+NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 11   -- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues. (was 11)
+NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.035   -- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection (was 0.035)
 NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 10   -- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide. (was 20)
 NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 8   -- Amount of in-game-hours that makes the submarine visible if it is on the defender side. (was 16)
 NDefines.NNavy.UNIT_TRANSFER_SPOTTING_SPEED_MULT = 15   -- spotting speed mult against unit transfers (was 5)

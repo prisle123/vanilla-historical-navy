@@ -1670,4 +1670,12 @@ spriteTypes = {
 		name = "GFX_SMI_sub_deck_gun_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_deck_gun_4.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_landing_helipad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/landing_helipad.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_hovercraft"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/hovercraft.png"
+	}
 }
