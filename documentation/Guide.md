@@ -432,7 +432,7 @@ Besides, make sure your fleet has a min speed over 30kn, this is extremely impor
 
 ### Combat Duration ###
 
-To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 25th hour to fire.
 
 ### Carrier System ###
 
@@ -440,7 +440,7 @@ Carrier is probably the most complicated type of ship to figure out in this game
 
 In vanilla, carrier selects its target by assigning scores to different ships, which is an overall evaluation of anti-air and screen efficiency. Every ship starts with a base value of 10 regardless of its type, but scaled to various weights as screen efficiency decreases. For example, carrier's weight gets multiplied by 200 at 0% screen efficiency while screen ship by 10. This brings about bad aiming when you try to strike from air against a well screened fleet. To honor real history, the base value is made different in VNR (500 for carrier, 80 for battleship), a value so big that carrier bombers almost always lock their targets on carriers and ignore interference from other ships.
 
-Overstacking of carrier has been changed since NCNS release from threshold on the ship of carrier to its planes. Planes that can sortie efficiently is calculated by silhouettes of ships which are built-in stats. The formula looks like this, attacking plane without penalty = 180 + 16 * carrier number + 10 * capital ship number + (5 * screen ship number) * (1 / (1 + screen ratio * 0.02)). As stated, at least 180 planes (roughly 3 medium fleet carriers) can always attack at enemy fleet without triggering any penalty. For each plane above the threshold, it applies 1% penalty on total sortie rate.
+Overstacking of carrier has been changed since NCNS release from threshold on the ship of carrier to its planes. Planes that can sortie efficiently is calculated by silhouettes of ships which are built-in stats. The formula looks like this, attacking plane without penalty = 16 * carrier number + 10 * capital ship number + (5 * screen ship number) * (1 / (1 + screen ratio * 0.02)). In order to cope with small enemy squad, at least 120 planes (roughly 2 medium fleet carriers) can always attack at enemy fleet without triggering any penalty. For each plane above the threshold, it applies 1% penalty on total sortie rate.
 
 ### Night Combat ###
 

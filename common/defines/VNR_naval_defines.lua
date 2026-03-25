@@ -28,7 +28,7 @@ NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.5   -- upper limit of shore bombardment
 
 
 --Positioning and Screening
-NDefines.NNavy.BASE_POSITIONING = 0.7   -- base value for positioning (was 1.0)
+NDefines.NNavy.BASE_POSITIONING = 0.65   -- base value for positioning (was 1.0)
 NDefines.NNavy.MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY = 41   -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them (was 4, relative size penalty starts counting from 41)
 NDefines.NNavy.BEST_CAPITALS_TO_SCREENS_RATIO = 0.5   -- capitals / screens ratio used for creating FEX groups in naval combat (was 0.25, screens for max screening cut to half)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 2.0   -- this screen ratio to num capital/carriers is needed for full screening beyond screen line (was 3.0, 2 screens needed to escort a capital ship)
@@ -87,7 +87,7 @@ NDefines.NNavy.DOMINANCE_DAILY_LOSS_FACTOR = 0.01   -- Daily dominance loss, as 
 --Battle Process
 NDefines.NNavy.COMBAT_MIN_DURATION = 20   -- Min combat duration before we can retreat. It's a balancing variable so it's not possible to always run with our weak ships agains big flotillas. (was 8, longer activation time creates time for carrier attack)
 NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 22   -- hours from start of combat when only carriers, capitals and subs get to attack (was 6)
-NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 30   -- hours where all get to attack (was 8)
+NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 25   -- hours where all get to attack (was 8)
 NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 3   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.1   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
