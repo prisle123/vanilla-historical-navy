@@ -345,6 +345,14 @@ default = {
             }
         }
     }
+    vnr_ship_hull_carrier_amphibious_assault_ship = {
+        pool = {
+            weight = 0.1
+            icons = {
+                GFX_vnr_ship_hull_carrier_amphibious_assault_ship_medium
+            }
+        }
+    }
     vnr_ship_hull_midget_submarine = {
         pool = {
 			weight = 0.1
