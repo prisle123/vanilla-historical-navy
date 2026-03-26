@@ -1,4 +1,4 @@
-version="v2.9 - Iwo Jima"
+version="v2.10 - Blood on Okinawa Beach"
 tags={
 	"Military"
 	"Graphics"
