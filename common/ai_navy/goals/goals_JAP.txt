@@ -6,7 +6,7 @@ JAP_naval_invasion_support = {
     }
 
     min_priority = 10
-    max_priority = 20
+    max_priority = 26
 }
 
 JAP_mine_sweeping = {
@@ -96,14 +96,3 @@ JAP_training = {
     min_priority = 10
     max_priority = 20
 }
-
-#JAP_naval_blockade = {
-#    objective_type = naval_blockade
-#
-#    available_for = {
-#        JAP
-#    }
-#
-#    min_priority = 10
-#    max_priority = 20
-#}
