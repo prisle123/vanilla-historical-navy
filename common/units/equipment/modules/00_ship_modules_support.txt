@@ -120,14 +120,14 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 0.6
 			anti_air_attack = 6
-			reliability = -0.025
+			reliability = -0.05
 			build_cost_ic = 300
 			naval_light_gun_hit_chance_factor = -0.025
 		}
 		multiply_stats = {
-			naval_speed = -0.01
+			naval_speed = -0.02
 		}
-		manpower = 75
+		manpower = 105
 	}
     ship_missile_aa_1 = {
 		category = ship_missile_aa
@@ -444,6 +444,7 @@ equipment_modules = {
 			steel = 0
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 12
 	}
 
 	ship_torpedo_sub_2 = {
@@ -472,6 +473,7 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 11
 	}
 
 	ship_torpedo_sub_3 = {
@@ -497,6 +499,7 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 10
 	}
 
 	ship_torpedo_sub_4 = {
@@ -522,6 +525,7 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 9
 	}
 
 	ship_torpedo_sub_5 = {
@@ -547,6 +551,7 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 8
 	}
 
 

@@ -267,7 +267,7 @@ NDefines.NAI.CONVOY_NEED_SAFETY_BUFFER = 1.60   -- AI will try and keep 15% more
 
 
 --AI Mission
-NDefines.NAI.PEACE_TIME_NAVY_FUEL_FACTOR = 0.4   -- Percentage of fuel available to navy that is allowed to use for missiosn during peace time (was 0.25)
+NDefines.NAI.PEACE_TIME_NAVY_FUEL_FACTOR = 0.75   -- Percentage of fuel available to navy that is allowed to use for missiosn during peace time (was 0.25)
 NDefines.NAI.AI_MIN_DOMINANCE_MARGIN = 250   -- When trying to get control of a region, AI will try to exceed the required dominance by at least this amount (was 200)
 NDefines.NAI.MIN_NAVAL_MISSION_PRIO_TO_ASSIGN = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
