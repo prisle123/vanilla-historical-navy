@@ -6,7 +6,7 @@
 NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.45   -- factors speed value when determining it profile (Vis * HIT_PROFILE_MULT * Ship Hit Profile Mult) (was 0.5, set to 0.45 to lower impact from speed)
 NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.08   -- base chance for hit (was 0.1)
 NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.01   -- never less hit chance then this (in percent) (was 0.02)
-NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.13   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
+NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.1   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.65   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
 NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.1   -- base % of convoys that get intercepted (was 0.15)
@@ -126,7 +126,7 @@ NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.8   -- the gam
 --NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
 --NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 25.0   -- multiplier on disruption damage to scale its effects on carrier vs carrier planes (was 6, doesn't seem to work)
-NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 2   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction. (was 1)
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.65   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction. (was 1)
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 0.5   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction. (was 1.5)
 NDefines.NAir.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.06   -- conversion factor to bring agility in line with ship AA (was 0.02)
 NDefines.NAir.CAPACITY_PENALTY = 3   -- scales penalty of having overcrowded bases. (was 2)
@@ -139,8 +139,9 @@ NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_PRODUCTION_COST_FACTOR = 0.04   -- w
 
 
 --Spotting
-NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 11   -- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues. (was 11)
-NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.035   -- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection (was 0.035)
+NDefines.NNavy.SUBMARINE_BASE_STEALTH_VALUE	= 80   -- Used in the reworked formula, sub_visiblity is subtracted from SUBMARINE_BASE_STEALTH_VALUE for the divider. The higher the define, the lower the chance for detection to happen (was 100, with 80, passive reveal chance at 5 avg detection and 30 sub vis is 1%)
+NDefines.NNavy.SUBMARINE_REVEAL_DETECTION_MULTIPLIER = 0.1   -- Used in the reworked formula, multiplies the average submarine detection. The higher the define, the higher chance for detection to happen
+NDefines.NNavy.SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER	= 1   -- used in the reworked formula when firing the torpedos to see whether it has been detected. This define is applied as multiplier to the numerator (avg. sub detection * SUBMARINE_REVEAL_DETECTION_MULTIPLIER * SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER). define = 1, no difference, define < 0, no chance of detecting, 0 < define < 1, lowers chance of detecting comparing to passive reveal, 1 < define, increases chance to be revealed.
 NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 10   -- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide. (was 20)
 NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 8   -- Amount of in-game-hours that makes the submarine visible if it is on the defender side. (was 16)
 NDefines.NNavy.UNIT_TRANSFER_SPOTTING_SPEED_MULT = 15   -- spotting speed mult against unit transfers (was 5)
