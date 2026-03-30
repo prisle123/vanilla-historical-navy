@@ -262,7 +262,7 @@ new_convoy_raiding = {
             medium_cruiser = {
                 surface_visibility = -0.05
             }
-            naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+            screening_without_screens = 0.1
             effect = {
                 if = {
                     limit = {
