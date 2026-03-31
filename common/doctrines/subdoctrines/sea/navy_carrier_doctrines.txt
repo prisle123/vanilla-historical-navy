@@ -17,7 +17,6 @@ carrier_battlegroups = {
 
     available = {
         has_doctrine = new_base_strike
-        has_tech = aviation_dawn
         has_navy_size = {
             unit = carrier
             size > 3
@@ -91,7 +90,6 @@ floating_airfields = {
             has_doctrine = new_base_strike
             has_doctrine = new_convoy_raiding
         }
-        has_tech = aviation_dawn
         has_navy_size = {
             unit = carrier
             size > 3
@@ -255,7 +253,6 @@ carrier_concentration = {
     }
     available = {
         has_doctrine = new_base_strike
-        has_tech = aviation_dawn
         has_navy_size = {
             unit = carrier
             size > 5

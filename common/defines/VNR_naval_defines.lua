@@ -105,8 +105,8 @@ NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75   -- 
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.15   -- received air damage is calculated using following: 1 - ( (ship_anti_air + fleet_anti_air * SHIP_TO_FLEET_ANTI_AIR_RATIO )^ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE ) * ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE (was 0.18)
 NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.15   -- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support (was 0.07)
 NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.0   -- factor of planes that can sortie by default from a carrier (was 0.5)
-NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0.25, 0.37, 0.50, 0.75, 1.0}   -- The defensive stance sortie is 1.0 - value in index so their sum equals 1
-NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_DEFAULT_INDEX = 4   -- The default offensive sortie index in CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO (was 2)
+NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0, 0.25, 0.50, 0.75, 1.0}   -- The defensive stance sortie is 1.0 - value in index so their sum equals 1
+NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_DEFAULT_INDEX = 3   -- The default offensive sortie index in CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO (was 2)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 120   -- How many planes flying in a naval combat before penalties are introduced (was 80)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns (was 0.005)
 -- Following defines decide dynamic plane cap in naval combat based on enemy ship count and type
@@ -126,7 +126,7 @@ NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.8   -- the gam
 --NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
 --NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 25.0   -- multiplier on disruption damage to scale its effects on carrier vs carrier planes (was 6, doesn't seem to work)
-NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.65   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction. (was 1)
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.75   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction. (was 1)
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 0.5   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction. (was 1.5)
 NDefines.NAir.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.06   -- conversion factor to bring agility in line with ship AA (was 0.02)
 NDefines.NAir.CAPACITY_PENALTY = 3   -- scales penalty of having overcrowded bases. (was 2)
@@ -324,8 +324,10 @@ NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this 
 NDefines.NAI.CONVOY_RAIDING_TARGET_RECALC_DAYS = 30   -- Each X days, the AI will reevaluate which regions to convoy raid (because enemy convoy usage or trade routes might change) (was 3)
 NDefines.NAI.STRIKE_FORCE_TARGET_RECALC_DAYS = 20   -- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change) (was 1)
 NDefines.NAI.AI_OBJECTIVE_DEFAULT_TARGET_RECALC_DAYS = 20   -- Each X days, the AI will reevaluate which regions to target for naval missions (this is the default value, but can be overriden by specific objectives, see CONVOY_RAIDING_TARGET_RECALC_DAYS) (was 0)
-NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.9   -- ai will not train a taskforce if fully trained ships are above this ratio (was 0.7)
+NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.95   -- ai will not train a taskforce if fully trained ships are above this ratio (was 0.7)
 NDefines.NNavy.AI_MAX_TASKFORCES_PER_TRAINING_OBJECTIVE = 20   -- Max number of taskforces we desire for AI to put in each fleet that is training. (was 5)
+NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_AIR_TRAINING = 0.35   -- ai will use at most this ratio of affordable fuel for air training
+NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_NAVY_TRAINING = 0.50   -- ai will use at most this ratio of affordable fuel for naval training
 
 
 --AI Misc
