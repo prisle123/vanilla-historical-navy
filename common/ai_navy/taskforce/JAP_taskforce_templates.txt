@@ -3,7 +3,7 @@ JAP_StrikeForce_1 = {
 		original_tag = JAP 
 	}
 	ai_will_do = {
-		factor = 30
+		factor = 1
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -44,7 +44,7 @@ JAP_StrikeForce_BC_1 = {
 	ai_will_do = {
 		factor = 0
 		modifier = {
-			add = 20
+			add = 2
 			has_navy_size = {
 				unit = battle_cruiser
 				size > 1
