@@ -3,7 +3,6 @@
 ----------------
 
 --Hit Chance and Damage
-NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.45   -- factors speed value when determining it profile (Vis * HIT_PROFILE_MULT * Ship Hit Profile Mult) (was 0.5, set to 0.45 to lower impact from speed)
 NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.08   -- base chance for hit (was 0.1)
 NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.01   -- never less hit chance then this (in percent) (was 0.02)
 NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.1   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
@@ -15,7 +14,7 @@ NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.3   -- chance for critical hit
 NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = { 2.0, 1.0, 0.85, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.3, 0.0 }   -- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 3.0, 1.25, 1.0, 0.65, 0.55, 0.3, 0.15, 0.1, 0.05, 0.01, 0.0 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_DAMAGE_VALUES = { 2.0, 1.0, 0.7, 0.6, 0.45, 0.35, 0.2, 0.1, 0.05, 0.02, 0.01 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
-NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 0.3   -- random factor in damage. So if max damage is fe. 10, and randomness is 30%, then damage will be between 7-10. (was 0.5)
+NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 0.15   -- random factor in damage. So if max damage is fe. 10, and randomness is 30%, then damage will be between 7-10. (was 0.5)
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
 	75.0,	-- big guns
 	110.0,	-- torpedoes
@@ -91,7 +90,7 @@ NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 25   -- hours where all get to attack (
 NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 3   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.1   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
-NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 1.9   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
+NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 1.85   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
 NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 4   -- each taskforce in convoy defense mission can at most cover this many regions without losing efficiency (was 5)
 
 
@@ -130,11 +129,11 @@ NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.75   -- Balancing value to convert 
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 0.5   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction. (was 1.5)
 NDefines.NAir.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.06   -- conversion factor to bring agility in line with ship AA (was 0.02)
 NDefines.NAir.CAPACITY_PENALTY = 3   -- scales penalty of having overcrowded bases. (was 2)
-NDefines.NAir.CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 180   -- below this amount of planes on a carrier we no longer get max benefit on enemy positioning (was 50)
+NDefines.NAir.CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 60   -- below this amount of planes on a carrier we no longer get max benefit on enemy positioning (was 50)
 
 
 --War Score
-NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_MANPOWER_FACTOR = 0.01   -- war score gained for every manpower killed when sinking a ship (was 0.004)
+NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_MANPOWER_FACTOR = 0.008   -- war score gained for every manpower killed when sinking a ship (was 0.004)
 NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_PRODUCTION_COST_FACTOR = 0.04   -- war score gained for every IC of the sunk ship (was 0.1)
 
 
