@@ -405,7 +405,6 @@ equipments = {
 					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
-					ship_deck_space_reinforced
 					carrier_miscellaneous
 					carrier_island
 				}
@@ -508,8 +507,6 @@ equipments = {
 					carrier_side_lift
 					carrier_angled_deck
 					carrier_helipad
-					carrier_miscellaneous
-					carrier_island
 				}
 			}
 			rear_1_custom_slot = {
@@ -519,6 +516,9 @@ equipments = {
 					ship_dp_secondaries_bb
 					ship_anti_air
 					carrier_side_lift
+					carrier_helipad
+					carrier_miscellaneous
+					carrier_island
 				}
 			}
 		}
@@ -531,7 +531,8 @@ equipments = {
 		reliability = 0.8
 		max_strength = 140
 		naval_speed = 28
-		surface_visibility = 27
+		surface_visibility = 29
+		max_organisation = 0.1
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -781,7 +782,8 @@ equipments = {
 		reliability = 1.2
 		max_strength = 150
 		naval_speed = 30.5
-		surface_visibility = 30
+		surface_visibility = 35
+		max_organisation = 0.1
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -884,7 +886,7 @@ equipments = {
 		reliability = 1.2
 		max_strength = 170
 		naval_speed = 28
-		surface_visibility = 32
+		surface_visibility = 34
 
 		module_count_limit = {
 			category = carrier_angled_deck
