@@ -106,10 +106,7 @@ ideas = {
 				}
 			}
 			available = {
-				AND = { 
-					has_naval_academy = yes
-					has_doctrine = new_convoy_raiding
-				}
+				has_doctrine = new_convoy_raiding
 			}
 
 			modifier = {
@@ -142,10 +139,7 @@ ideas = {
 				}
 			}
 			available = {
-				AND = { 
-					has_naval_academy = yes
-					has_doctrine = new_base_strike
-				}
+				has_doctrine = new_base_strike
 			}
 
 			modifier = {
@@ -167,7 +161,12 @@ ideas = {
 		}
 		best_of_the_best_naval_academy_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_subdoctrine_in_track = carriers
+				has_subdoctrine_in_track = capital_ships
+				has_subdoctrine_in_track = screens
+				has_subdoctrine_in_track = submarines
+			}
 			modifier = {
 				navy_leader_start_level = 2
 				navy_intel_to_others = -5.0
@@ -246,7 +245,8 @@ ideas = {
             modifier = {
                 trait_blue_water_expert_xp_gain_factor = 0.15
                 trait_air_controller_xp_gain_factor = 0.25
-                trait_fleet_protector_xp_gain_factor = 0.25
+                trait_fleet_protector_xp_gain_factor = 0.15
+				naval_mastery_gain_factor = 0.15
             }
             ai_will_do = {
                 factor = 1.5
@@ -348,7 +348,7 @@ ideas = {
             }
 			modifier = {
 				fighter_sortie_efficiency = 0.15
-				navy_anti_air_attack_factor = 0.15
+				navy_carrier_air_attack_factor = 0.15
 				air_ace_generation_chance_factor = 0.25
 			}
 			ai_will_do = {
@@ -411,7 +411,8 @@ ideas = {
 			ledger = navy
 			available = { has_doctrine = new_base_strike }
 			modifier = {
-				experience_gain_navy_factor = 0.15
+				experience_gain_navy_factor = 0.1
+				naval_mastery_gain_factor = 0.05
 			}
 			ai_will_do = {
 				factor = 1
@@ -423,6 +424,9 @@ ideas = {
 		}
 		naval_refit_yards_spirit = {
 			ledger = navy
+			available = {
+				has_subdoctrine_in_track = naval_logistics
+			}
 			modifier = {
 				refit_speed = 0.1
 				repair_speed_factor = 0.1
@@ -760,6 +764,7 @@ ideas = {
                 navy_leader_cost_factor = 0.25
                 navy_intel_to_others = 20
                 experience_gain_navy_factor = -0.15
+				naval_mastery_gain_factor = -0.1
             }
             ai_will_do = {
                 factor = 0
