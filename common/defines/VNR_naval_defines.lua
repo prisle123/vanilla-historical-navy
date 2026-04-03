@@ -162,6 +162,8 @@ NDefines.NNavy.TRAINING_DAILY_COUNTRY_EXP_FACTOR = 0.001   -- Factor used to sca
 NDefines.NNavy.TRAINING_MAX_DAILY_COUNTRY_EXP = 1   -- Maximum army XP gained per day from training (was 1)
 NDefines.NNavy.UNIT_EXPERIENCE_SCALE = 0.8   -- total unit xp factor (was 1)
 NDefines.NNavy.TRAINING_MIN_STRENGTH = 0.05   -- if strength is less than this, the unit will not contribute to training and cant be damaged by training (was 0.1)
+NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0.005   --Chances one ship get damage each hour while on training (was 0.02)
+NDefines.NNavy.TRAINING_ACCIDENT_CRITICAL_HIT_CHANCES = 0.01   -- If an accident happens, how likely it is to be a critical hit (was 0.1)
 
 
 --Aggression
@@ -223,7 +225,7 @@ NDefines.NNavy.PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.0   -- % of ex
 NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 800   -- Distance to normalize against. Everything above said value will be treated as score = 0. (was 550)
 NDefines.NNavy.NAVAL_HOMEBASE_BUILDING_SCORE_FACTOR = 0.035   -- Multiplier for how much the level of the naval base impacts its total score.
 NDefines.NNavy.NAVAL_HOMEBASE_OWNERSHIP_BONUS = 0.02   -- Adds to total score based on if the base is owned by the country doing the calculation. (was 0.04)
-
+NDefines.NNavy.UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.15   -- Cost in convoys for underway replenishment multiplied by max daily fuel consumption (rounded up) (was 0.28)
 
 --------------
 --AI Defines--
