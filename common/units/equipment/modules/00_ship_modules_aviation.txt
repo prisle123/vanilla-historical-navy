@@ -326,10 +326,10 @@ equipment_modules = {
 ############################
 ##  MODERN CARRIER EQUIP  ##
 ############################
-    ship_airplane_launcher_3 = {
+    ship_steam_catapult = {
 		category = steam_catapult
 		gui_category = modern_carrier_equipments
-		gfx = ship_airplane_launcher_3
+		gfx = ship_steam_catapult
 
 		add_stats = {
 			build_cost_ic = 700
