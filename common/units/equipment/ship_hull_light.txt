@@ -196,7 +196,7 @@ equipments = {
 
 
 		surface_detection = 20
-		sub_detection = 5
+		sub_detection = 3
 		surface_visibility = 15
 		naval_speed = 32
 		reliability = 0.80
@@ -251,6 +251,7 @@ equipments = {
 		archetype = ship_hull_light
 		priority = 2000
 		surface_visibility = 14
+		surface_detection = 18
 		can_convert_from = { vnr_ship_hull_light_2 }
 		#alias = destroyer_1
 

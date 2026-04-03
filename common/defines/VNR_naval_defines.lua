@@ -139,7 +139,7 @@ NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_PRODUCTION_COST_FACTOR = 0.04   -- w
 
 --Spotting
 NDefines.NNavy.SUBMARINE_BASE_STEALTH_VALUE	= 80   -- Used in the reworked formula, sub_visiblity is subtracted from SUBMARINE_BASE_STEALTH_VALUE for the divider. The higher the define, the lower the chance for detection to happen (was 100, with 80, passive reveal chance at 5 avg detection and 30 sub vis is 1%)
-NDefines.NNavy.SUBMARINE_REVEAL_DETECTION_MULTIPLIER = 0.1   -- Used in the reworked formula, multiplies the average submarine detection. The higher the define, the higher chance for detection to happen
+NDefines.NNavy.SUBMARINE_REVEAL_DETECTION_MULTIPLIER = 0.09   -- Used in the reworked formula, multiplies the average submarine detection. The higher the define, the higher chance for detection to happen
 NDefines.NNavy.SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER	= 1   -- used in the reworked formula when firing the torpedos to see whether it has been detected. This define is applied as multiplier to the numerator (avg. sub detection * SUBMARINE_REVEAL_DETECTION_MULTIPLIER * SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER). define = 1, no difference, define < 0, no chance of detecting, 0 < define < 1, lowers chance of detecting comparing to passive reveal, 1 < define, increases chance to be revealed.
 NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 10   -- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide. (was 20)
 NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 8   -- Amount of in-game-hours that makes the submarine visible if it is on the defender side. (was 16)

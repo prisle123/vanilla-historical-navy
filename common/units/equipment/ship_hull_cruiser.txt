@@ -287,6 +287,7 @@ equipments = {
 		naval_speed = 20
 		reliability = 0.80
 		surface_visibility = 28
+		surface_detection = 14
 		naval_range = 2000
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -742,6 +743,7 @@ equipments = {
 		build_cost_ic = 1800
 		manpower = 700
 		surface_visibility = 26
+		surface_detection = 18
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 		}
