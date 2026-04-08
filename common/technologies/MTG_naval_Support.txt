@@ -2430,14 +2430,13 @@ technologies = {
 			position = { x = 0 y = 23 }
 		}
 
-		force_use_small_tech_layout = yes
-		show_equipment_icon = yes
-
 		enable_equipments = {
 			vnr_ship_hull_carrier_amphibious_assault_ship
 		}
 		enable_equipment_modules = {
-
+			landing_helipad
+			hovercraft
+			landing_assault_command
 		}
 
 		ai_will_do = {

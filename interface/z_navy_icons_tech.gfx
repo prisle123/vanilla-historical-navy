@@ -1889,6 +1889,10 @@ spriteTypes = {
         		name = "GFX_USA_super_carriers_medium"
         		texturefile = "gfx/interface/technologies/USA/USA_super_carrier.png"
         	}
+			spriteType = {
+        		name = "GFX_USA_mtg_amphibious_assault_weapons_medium"
+        		texturefile = "gfx/interface/technologies/USA/USA_amphibious_assault_ship.png"
+        	}
 	# submarine
 
         	spriteType = {
