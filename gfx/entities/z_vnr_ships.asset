@@ -2,3 +2,8 @@ entity = {
     name = "medium_cruiser_entity"
     clone = "heavy_cruiser_entity"
 }
+
+entity = {
+    name = "amphibious_assault_ship_entity"
+    clone = "carrier_entity"
+}

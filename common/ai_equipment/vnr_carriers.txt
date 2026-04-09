@@ -242,6 +242,35 @@ naval_carrier = {
 		}
 	}
 
+	carrier_LHA = {
+		name = vnr_cv_lha
+		role_icon_index = 85
+
+		priority = {
+			base = 0
+		}
+
+		history = yes
+		target_variant = {
+			match_value = 100.0
+
+			type = vnr_ship_hull_carrier_amphibious_assault_ship
+			modules = {
+				fixed_ship_deck_slot_1 = landing_kit
+				fixed_ship_deck_slot_2 = landing_kit
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_armor_slot = ship_carrier_armor_heavy
+				fixed_ship_engine_slot = carrier_ship_engine
+				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
+				fixed_ship_fire_control_system_slot = landing_assault_command
+			}
+		}
+		allowed_modules = {
+			landing_kit
+			ship_anti_air
+		}
+	}
+
 
 	# expert AI
 	carrier_1936_expert = {
