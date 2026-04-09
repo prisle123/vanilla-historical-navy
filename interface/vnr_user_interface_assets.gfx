@@ -12,12 +12,14 @@ spriteTypes = {
 	spriteType = { name = "GFX_navalcombat_ship_icon_battlecarrier"		texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_navalcombat_ship_icon_auxiliary_ship"		texturefile = "gfx/interface/navalcombat/ships/auxiliary.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_navalcombat_ship_icon_medium_cruiser"		texturefile = "gfx/interface/navalcombat/ships/medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_navalcombat_ship_icon_amphibious_assault_ship"		texturefile = "gfx/interface/navalcombat/ships/LHA.dds"	noOfFrames = 2 }
 
 
 	### ship silhouettes in production filter
 	spriteType = { name = "GFX_unit_battlecarrier_icon_medium" texturefile = "gfx/interface/navalcombat/ships/battlecarrier.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_auxiliary_ship_icon_medium" texturefile = "gfx/interface/navalcombat/ships/auxiliary.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_behemoth_icon_medium" texturefile = "gfx/interface/navalcombat/ships/behemoth.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_amphibious_assault_ship_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/LHA.dds"	noOfFrames = 2 }
 	
 
 	### ship silhouettes for each ship, shown when you select a fleet, with level text
