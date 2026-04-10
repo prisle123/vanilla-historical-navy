@@ -214,6 +214,10 @@ spriteTypes = {
 		name = "GFX_SMI_carrier_miscellaneous"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_miscellaneous.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_landing_kit"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/landing_helipad.png"
+	}
 	
 	# topview images
 	spriteType = {
