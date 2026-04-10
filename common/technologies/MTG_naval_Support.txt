@@ -2378,7 +2378,7 @@ technologies = {
 			position = { x = 0 y = 19 }
 		}
 		path = {
-			leads_to_tech = mtg_amphibious_assault_weapons
+			leads_to_tech = amphibious_assault_ships
 			research_cost_coeff = 1
 		}
 
@@ -2416,12 +2416,15 @@ technologies = {
 		}
 	}
 
-	mtg_amphibious_assault_weapons = {
+	amphibious_assault_ships = {
 		is_special_project_tech = yes
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_air_helicopter
 			}
+		}
+		on_research_complete = {
+			custom_effect_tooltip = cv_tech_10_tt
 		}
 		research_cost = 1.25
 		start_year = 1949
