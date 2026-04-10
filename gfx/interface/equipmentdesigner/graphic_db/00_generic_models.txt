@@ -1,0 +1,56 @@
+default = {
+    ship_hull_light = {
+        pool = {
+            models = {
+                destroyer_entity
+            }
+        }
+    }
+    ship_hull_cruiser = {
+        pool = {
+            models = {
+                light_cruiser_entity
+            }
+        }
+        pool = {
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                heavy_cruiser_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            models = {
+                battleship_entity
+            }
+        }
+        pool = {
+            sub_units = { battle_cruiser }
+            models = {
+                battle_cruiser_entity
+            }
+        }
+        pool = {
+            sub_units = { SH_battleship }
+            models = {
+                super_heavy_battleship_entity
+            }
+        }
+    }
+    ship_hull_carrier = {
+        pool = {
+            models = {
+                carrier_0_entity
+                carrier_entity
+            }
+        }
+    }
+    ship_hull_submarine = {
+        pool = {
+            models = {
+                submarine_entity
+            }
+        }
+    }
+}
