@@ -759,7 +759,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "niche_icon_selector"
 			position = { x=520 y=83 }
-			size = { width=750 height=350 }
+			size = { width=750 height=365 }
 			
 			background = {
 				name = "Background"
@@ -791,7 +791,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "niche_intro_container"
 				position = { x=540 y=5 }
-				size = { width=300 height=310 }
+				size = { width=300 height=350 }
 
 				instantTextboxType = {
 					name = "niche_intro"
@@ -800,7 +800,7 @@ guiTypes = {
 					borderSize = {x = 0 y = 0}
 					text = "SHIP_ROLE_ICON_TEXT"
 					maxWidth = 185
-					maxHeight = 300
+					maxHeight = 350
 					format = left
 					scrollbartype = "standardtext_slider"
 				}
