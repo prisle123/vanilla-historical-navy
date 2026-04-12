@@ -559,20 +559,3 @@ ENG_CVE_HISTORICAL = {
 		"Padishah" "Sultan" "Malik" "Emir" "Tenno" "Khan" "Sultana" "Princess" "Tsar" "Caeser" "Royalty"
 	}
 }
-
-### MONITOR NAMES ###
-ENG_BM_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BM
-
-	for_countries = { ENG }
-
-	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser }
-	
-	prefix = "HMS "							
-	fallback_name = "M%d"		
-
-	unique = {
-        "Erebus" "Terror" "Abercrombie" "Gorgon" "Glatton" "Havelock" "Raglan" "Humber" "Mersey" "Severn" "Roberts" "Lord Clive" "General Craufurd" "Earl of Peterborough" "Sir Thomas  Picton" "Prince Eugene" "Prince Rupert" "Sir John Moore" "General Wolfe" "Marshal Soult" "Marshal Ney"
-	}
-}
