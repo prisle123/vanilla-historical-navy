@@ -182,6 +182,7 @@ equipments = {
 		naval_speed = 20
 		surface_visibility = 22
 		build_cost_ic = 1200
+		max_organisation = -0.2
 		resources = {
 			steel = 1
 		}
@@ -609,6 +610,7 @@ equipments = {
 		sub_detection = 6
 		surface_visibility = 24
 		build_cost_ic = 700
+		max_organisation = -0.2
 		resources = {
 			steel = 1
 		}
@@ -678,6 +680,7 @@ equipments = {
 		sub_detection = 4
 		surface_visibility = 20
 		build_cost_ic = 450
+		max_organisation = -0.3
 		resources = {
 			steel = 1
 		}
@@ -783,7 +786,7 @@ equipments = {
 		max_strength = 150
 		naval_speed = 30.5
 		surface_visibility = 35
-		max_organisation = 0.1
+		max_organisation = 0.15
 
 		module_count_limit = {
 			category = carrier_angled_deck
