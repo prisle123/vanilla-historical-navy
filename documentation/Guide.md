@@ -122,7 +122,7 @@ Basically a super expensive shore bombardment ship. Arsenal ship can carry all t
 
 **Escort Carrier**
 
-A cheap but very weak carrier. Escort carrier is unlocked around 1940-1941 in the techtree, it's basically a toy for major powers for limited capacity, but still a perfect choice for anti-submarine missions in secondary theaters. You can turn auxiliary ship into an escort carrier in half a year by conversion decision.
+A cheap but very weak carrier. Escort carrier is unlocked around 1940-1941 in the techtree, it's basically a toy for major powers for limited capacity, but still a perfect choice for anti-submarine missions in secondary theaters. You can either convert an auxiliary ship to escort carrier, or turn an ocean liner into escort carrier by decision.
 
 **Merchant Carrier**
 
@@ -231,6 +231,11 @@ Unlocks following doctrines:
     - Capital Hunters
     - Covert Denial
 
+- Naval Logistics
+    - Industrialized Naval Logistics
+    - Trade & Supply Network
+    - Defensive Combat Support
+
 **Commerce Raiding**
 
 For countries with ambitions to dominate seven seas, *Commerce Raiding* may not be the top pick as it offers limited improvements to surface ships. However, it has potential to salvage the underdog. Submarine is the most benefited ship with convoy raiding rewards from the strategy, promoting your ability to harrass stronger powers in their soft spots.
@@ -257,6 +262,11 @@ Unlocks following doctrines:
     - Wolfpacks
     - Covert Denial
     - Operational Autonomy
+
+- Naval Logistics
+    - Coverted Oceanic Replenishment
+    - Trade & Supply Network
+    - Defensive Combat Support
 
 **Air-Sea Operation**
 
@@ -286,6 +296,11 @@ Unlocks following doctrines:
     - Capital Hunters
     - Operational Autonomy
 
+- Naval Logistics
+    - Industrialized Naval Logistics
+    - Coverted Oceanic Replenishment
+    - Trade & Supply Network
+
 **Littoral Defense**
 
 *Littoral Defense* is a strategy designed for countries with weak or close to none navy to protect their coastlines. Subdoctrines attached to this strategy are usually cheaper in xp usage, but give inadequate bonuses to limited types of ships.
@@ -309,6 +324,10 @@ Unlocks following doctrines:
 - Submarine Flotilla
     - Coastal Defense
     - Covert Denial
+
+- Naval Logistics
+    - Coverted Oceanic Replenishment
+    - Defensive Combat Support
 
 ### Sub Doctrine - Carrier ###
 
@@ -413,6 +432,24 @@ A unique double-edge-sword type of doctrine that offers reduction of visibility 
 **Operational Autonomy**
 
 A doctrine that fully authorizes submarine capitans commanding privilege while raiding in distant waters. This is a weakened version of *Wolfpacks*, but has more bonuses on range and visibility and can unlock a special submarine module after mastered.
+
+### Sub Doctrine - Naval Logistics ###
+
+**Coverted Oceanic Replenishment**
+
+A moderate doctrine mainly strengthening combat performance of auxiliary ship and fuel saving.
+
+**Industrialized Naval Logistics**
+
+Very hard to acquire as minor powers since it needs many dockyards or civilian factories to unlock, but it offers generous bonuses on repairing, damage control, and convoy building.
+
+**Trade & Supply Network**
+
+A doctrine used to boost combined war effort between overlord and puppets, with inferior but decent bonuses compared to *Industrialized Naval Logistics*.
+
+**Defensive Combat Support**
+
+While being very passive on supporting a grand fleet, this doctrine has some good modifiers for defending sides in the war (not very good for invader).
 
 ## Naval Battle ##
 
