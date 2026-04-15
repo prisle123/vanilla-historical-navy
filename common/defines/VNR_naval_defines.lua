@@ -132,6 +132,7 @@ NDefines.NAir.CAPACITY_PENALTY = 3   -- scales penalty of having overcrowded bas
 NDefines.NAir.CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 60   -- below this amount of planes on a carrier we no longer get max benefit on enemy positioning (was 50)
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.01   -- Max planes that can join a combat comparing to the total strength of the ships (was 0.05)
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 50   -- Min cap for planes that can join naval combat (was 20)
+NDefines.NAir.REINFORCEMENT_DISABLING_DURATION_IN_LAND_CARRIER_TRANSFER = 12   -- The reinforcement disabling duration in hours when transfering from land to carrier and vice versa (was 48)
 
 
 --War Score
@@ -234,15 +235,17 @@ NDefines.NNavy.UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.15   -- Cost in c
 --------------
 
 --AI Fleet Composition (these seem not to work with ai_navy applied)
-NDefines.NAI.NAVY_PREFERED_MAX_SIZE = 40   -- AI will generally attempt to merge fleets into this size, but as a soft limit. (was 25)
-NDefines.NAI.CARRIER_TASKFORCE_MAX_CARRIER_COUNT = 4   -- optimum carrier count for carrier taskforces (was 4)
-NDefines.NAI.CAPITAL_TASKFORCE_MAX_CAPITAL_COUNT = 6   -- optimum capital count for capital taskforces (was 12)
-NDefines.NAI.SCREEN_TASKFORCE_MAX_SHIP_COUNT = 5   -- optimum screen count for screen taskforces (was 12)
+NDefines.NAI.NAVY_PREFERED_MAX_SIZE = 45   -- AI will generally attempt to merge fleets into this size, but as a soft limit. (was 25)
+NDefines.NAI.CARRIER_TASKFORCE_MAX_CARRIER_COUNT = 6   -- optimum carrier count for carrier taskforces (was 4)
+NDefines.NAI.CAPITAL_TASKFORCE_MAX_CAPITAL_COUNT = 10   -- optimum capital count for capital taskforces (was 12)
+NDefines.NAI.SCREEN_TASKFORCE_MAX_SHIP_COUNT = 30   -- optimum screen count for screen taskforces (was 12)
+NDefines.NAI.SUB_TASKFORCE_MAX_SHIP_COUNT = 20   -- optimum sub count for sub taskforces (was 16)
 NDefines.NAI.SCREENS_TO_CAPITAL_RATIO = 3   -- screens to capital/carrier count in carrier & capital taskforces (was 4)
-NDefines.NAI.MIN_CAPITALS_FOR_CARRIER_TASKFORCE = 8   -- carrier fleets will at least have this amount of capitals (was 6)
+NDefines.NAI.CAPITALS_TO_CARRIER_RATIO = 1.5   -- capital to carrier count in carrier taskfoces (was 1.5)
+NDefines.NAI.MIN_CAPITALS_FOR_CARRIER_TASKFORCE = 6   -- carrier fleets will at least have this amount of capitals (was 6)
 NDefines.NAI.REPAIR_TASKFORCE_SIZE = 5   -- repair taskforce sizes are limited to this many ships (was 4)
 NDefines.NAI.MAIN_SHIP_RATIO_TO_SPLIT = 1.6   -- if main ship ratio in a task force is larger than this, split it. (If a carrier TF wants 4 carriers (see defines above), but it has more than [this * 4] carriers, then we try to split the TF.) (was 1.8)
-NDefines.NAI.MIN_MAIN_SHIP_RATIO = 0.6   -- if main ship ratio is below this, steal other ships. (was 0.3)
+NDefines.NAI.MIN_MAIN_SHIP_RATIO = 0.5   -- if main ship ratio is below this, steal other ships. (was 0.3)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MIN = 0.10   -- maximum ratio of all screen-ships forces to be used in convoy defense (increases up to max as AI loses convoys). (was 0.2)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MAX = 0.25   -- maximum ratio of all screen-ships forces to be used in convoy defense (increases up to max as AI loses convoys). (was 0.7)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_LAYING = 0.0   -- maximum ratio of screens forces to be used in mine laying (was 0.1)
@@ -288,7 +291,7 @@ NDefines.NAI.MIN_NAVAL_MISSION_PRIO_TO_ASSIGN = {
 NDefines.NAI.HIGH_PRIO_NAVAL_MISSION_SCORES = {  -- priorities for regions to get assigned to a mission
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 	100000, -- PATROL
-	1000, -- STRIKE FORCE
+	50000, -- STRIKE FORCE
 	1500, -- CONVOY RAIDING
 	1000, -- CONVOY ESCORT
 	-1, -- MINES PLANTING
