@@ -1,13 +1,15 @@
 StrikeForce_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -45,13 +47,15 @@ StrikeForce_1 = {
 PatrolReconForce_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -68,13 +72,15 @@ PatrolReconForce_1 = {
 PatrolDominanceForce_CA_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -107,13 +113,15 @@ PatrolDominanceForce_CA_1 = {
 ConvoyRaiding_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -131,13 +139,15 @@ ConvoyRaiding_1 = {
 ConvoySurfaceRaiding_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -155,13 +165,15 @@ ConvoySurfaceRaiding_1 = {
 ConvoyEscort_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
