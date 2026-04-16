@@ -208,33 +208,12 @@ With doctrines totally overhauled in NCNS update, previous VNR doctrines are als
 
 Unlocks following doctrines:
 
-- Naval Aviation
-    - Floating Airfields
-    - Subsidiary Carrier Support
-    - Naval Airforce
-    - Airspace Denial
-
-- Surface Fleet
-    - Fast Battleship Primacy
-    - Specialized Scouting Fleet
-    - Coastal Defense Fleet
-    - Monitor Support
-
-- Escort Force
-    - Convoy Escort
-    - Integrated Operations
-    - Hunter Killer Groups
-    - Torpedo Flotilla
-
-- Submarine Flotilla
-    - Fleet Operations
-    - Capital Hunters
-    - Covert Denial
-
-- Naval Logistics
-    - Industrialized Naval Logistics
-    - Trade & Supply Network
-    - Defensive Combat Support
+| Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
+|---|---|---|---|---|
+| Floating Airfields | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
+| Subsidiary Carrier Support | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Trade & Supply Network |
+| Naval Airforce | Coastal Defense Fleet | Hunter Killer Groups | Covert Denial | Defensive Combat Support |
+| Airspace Denial | Monitor Support | Torpedo Flotilla |  |  |
 
 **Commerce Raiding**
 
@@ -242,31 +221,12 @@ For countries with ambitions to dominate seven seas, *Commerce Raiding* may not 
 
 Unlocks following doctrines:
 
-- Naval Aviation
-    - Floating Airfields
-    - Subsidiary Carrier Support
-    - Naval Airforce
-    - Airspace Denial
-
-- Surface Fleet
-    - Specialized Scouting Fleet
-    - Armored Raiders
-    - Coastal Defense Fleet
-
-- Escort Force
-    - Convoy Escort
-    - Integrated Operations
-    - The New School
-
-- Submarine Flotilla
-    - Wolfpacks
-    - Covert Denial
-    - Operational Autonomy
-
-- Naval Logistics
-    - Coverted Oceanic Replenishment
-    - Trade & Supply Network
-    - Defensive Combat Support
+| Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
+|---|---|---|---|---|
+| Floating Airfields | Specialized Scouting Fleet | Convoy Escort | Wolfpacks | Coverted Oceanic Replenishment |
+| Subsidiary Carrier Support | Armored Raiders | Integrated Operations | Covert Denial | Trade & Supply Network |
+| Naval Airforce | Coastal Defense Fleet | The New School | Operational Autonomy | Defensive Combat Support |
+| Airspace Denial |  |  |  |  |
 
 **Air-Sea Operation**
 
@@ -274,32 +234,12 @@ If you are patient enough, *Air-Sea Operation* will give you ample rewards bette
 
 Unlocks following doctrines:
 
-- Naval Aviation
-    - Carrier Taskforce
-    - Floating Airfields
-    - Carrier Concentration
-    - Airspace Denial
-
-- Surface Fleet
-    - Fast Battleship Primacy
-    - Specialized Scouting Fleet
-    - Taskforce Guardian
-
-- Escort Force
-    - Convoy Escort
-    - Integrated Operations
-    - Hunter Killer Groups
-    - Torpedo Flotilla
-
-- Submarine Flotilla
-    - Fleet Operations
-    - Capital Hunters
-    - Operational Autonomy
-
-- Naval Logistics
-    - Industrialized Naval Logistics
-    - Coverted Oceanic Replenishment
-    - Trade & Supply Network
+| Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
+|---|---|---|---|---|
+| Carrier Taskforce | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
+| Floating Airfields | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Coverted Oceanic Replenishment |
+| Carrier Concentration | Taskforce Guardian | Hunter Killer Groups | Operational Autonomy | Trade & Supply Network |
+| Airspace Denial |  | Torpedo Flotilla |  |  |
 
 **Littoral Defense**
 
@@ -307,27 +247,11 @@ Unlocks following doctrines:
 
 Unlocks following doctrines:
 
-- Naval Aviation
-    - Subsidiary Carrier Support
-    - Naval Airforce
-
-- Surface Fleet
-    - Armored Raiders
-    - Coastal Defense Fleet
-    - Monitor Support
-
-- Escort Force
-    - Torpedo Flotilla
-    - The New School
-    - Mosquito Fleet
-
-- Submarine Flotilla
-    - Coastal Defense
-    - Covert Denial
-
-- Naval Logistics
-    - Coverted Oceanic Replenishment
-    - Defensive Combat Support
+| Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
+|---|---|---|---|---|
+| Subsidiary Carrier Support | Armored Raiders | Torpedo Flotilla | Coastal Defense | Coverted Oceanic Replenishment |
+| Naval Airforce | Coastal Defense Fleet | The New School | Covert Denial | Defensive Combat Support |
+|  | Monitor Support | Mosquito Fleet |  |  |
 
 ### Sub Doctrine - Carrier ###
 
@@ -501,23 +425,25 @@ There are also exceptions that your choice of modules can lead to different cons
 
 Since it is very hard to preview critical part effects in the game, a list will be provided here for your reference.
 
-1. Damaged Heavy Gun: -33% heavy attack, can be destroyed multiple times based on turrets in presence
-2. Damaged Light Gun: -25% light attack, can be destroyed multiple times based on turrets in presence
-3. Damaged Secondaries: -10% light attack, -33% anti-air attack, can be destroyed multiple times based on secondary turrets in presence
-4. Damaged Torpedo: -50% torpedo attack, can be destroyed multiple times based on torpedo tubes in presence
-5. Damaged Missile Launcher: -33% heavy attack and light attack, can be destroyed multiple times based on missile launchers in presence
-6. Damaged AA Missile Launcher: -15% light attack, -33% anti-air attack, can be destroyed multiple times based on AA missile launchers in presence
-7. Magazine Hit: -70% heavy attack, -70% light attack, -70% torpedo attack, an extra 500 points of HP damage and 100 points of org damage, can only happen once, extremely low probability
-8. Heavy Fire: +100% surface visibility, -50% org, -80% org recovery, can only happen once
-9. Broken Propeller: -95% retreat chance, -90% speed, can only happen once
-10. Rudder Jammed: -90% retreat chance, -50% speed, can only happen once
-11. Ballast Tank Inoperable: +100% sub visibility, submarine exclusive, can only happen once
-12. Damaged Fire Control: -50% hit chance for all weapons, can only happen once if you have fire control in presence
-13. Damaged Flight Deck (Wooden): -40% carrier capacity, -30% org, can only happen once on carrier with wooden flight deck
-14. Damaged Flight Deck (Armored): -20% carrier capacity, -15% org, can only happen once on carrier with armored flight deck, 25% lower probability than the wooden one
-15. Damaged Battlecarrier Flight Deck: -100% carrier capacity, -30% org, battlecarrier exclusive, can only happen once
-16. Air Fuel Flashover (wth. unarmored hangar): -90% org, -100% org recovery, an extra 250 points of HP damage and 50 points of org damage, can only happen once, very low probability
-17. Air Fuel Flashover (wth. armored hangar): -90% org, -100% org recovery, an extra 200 points of HP damage and 40 points of org damage, can only happen once, very low probability
+| Critical Part | Effects | Note |
+|---|---|---|
+| Damaged Heavy Gun | -33% heavy attack | Can be destroyed multiple times based on turrets in presence |
+| Damaged Light Gun | -25% light attack | Can be destroyed multiple times based on turrets in presence |
+| Damaged Secondaries | -10% light attack, -33% anti-air attack | Can be destroyed multiple times based on secondary turrets in presence |
+| Damaged Torpedo | -50% torpedo attack | Can be destroyed multiple times based on torpedo tubes in presence |
+| Damaged Missile Launcher | -33% heavy attack and light attack | Can be destroyed multiple times based on missile launchers in presence |
+| Damaged AA Missile Launcher | -15% light attack, -33% anti-air attack | Can be destroyed multiple times based on AA missile launchers in presence |
+| Magazine Hit | -70% heavy attack, -70% light attack, -70% torpedo attack, +500 HP damage, +100 org damage | Can only happen once, extremely low probability |
+| Heavy Fire | +100% surface visibility, -50% org, -80% org recovery | Can only happen once |
+| Broken Propeller | -95% retreat chance, -90% speed | Can only happen once |
+| Rudder Jammed | -90% retreat chance, -50% speed | Can only happen once |
+| Ballast Tank Inoperable | +100% sub visibility | Submarine exclusive, can only happen once |
+| Damaged Fire Control | -50% hit chance for all weapons | Can only happen once if you have fire control in presence |
+| Damaged Flight Deck (Wooden) | -40% carrier capacity, -30% org | Can only happen once on carrier with wooden flight deck |
+| Damaged Flight Deck (Armored) | -20% carrier capacity, -15% org | Can only happen once on carrier with armored flight deck; 25% lower probability than the wooden one |
+| Damaged Battlecarrier Flight Deck | -100% carrier capacity, -30% org | Battlecarrier exclusive, can only happen once |
+| Air Fuel Flashover (wth. unarmored hangar) | -90% org, -100% org recovery, +250 HP damage, +50 org damage | Can only happen once, very low probability |
+| Air Fuel Flashover (wth. armored hangar) | -90% org, -100% org recovery, +200 HP damage, +40 org damage | Can only happen once, very low probability |
 
 ### Retreat Process ###
 
