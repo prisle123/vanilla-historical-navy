@@ -3,15 +3,14 @@ naval_cruiser_large = {
 	#available_for = {}
 	#blocked_for = {}
 	roles = { vnr_naval_cruiser_large }
-	priority = { base = 10 }
+	priority = { base = 0 }
 
     capital_cruiser_1932_big = {
 		name = vnr_cb_1932
 		role_icon_index = 21
 
 		priority = {
-			base = 10
-			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+			base = 0
 		}
 
 		
@@ -47,8 +46,7 @@ naval_cruiser_large = {
 		role_icon_index = 21
 
 		priority = {
-			base = 30
-			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+			base = 0
 		}
 
 		
@@ -83,7 +81,6 @@ naval_cruiser_large = {
 
 		priority = {
 			base = 0
-			modifier = { add = 50 has_tech = advanced_ship_hull_cruiser }
 		}
 
 		

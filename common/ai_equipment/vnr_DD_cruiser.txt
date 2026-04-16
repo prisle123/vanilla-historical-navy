@@ -3,15 +3,14 @@ naval_screen_cruiser = {
 	#available_for = {}
 	#blocked_for = {}
 	roles = { vnr_naval_screen_cruiser }
-	priority = { base = 5 }
+	priority = { base = 0 }
 
 	screen_cruiser_1936 = {
 		name = vnr_sd_1936
 		role_icon_index = 25
 
 		priority = {
-			base = 50
-			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
+			base = 0
 		}
 
 		
@@ -43,8 +42,7 @@ naval_screen_cruiser = {
 		role_icon_index = 25
 
 		priority = {
-			base = 75
-			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
+			base = 0
 		}
 
 		
@@ -77,7 +75,6 @@ naval_screen_cruiser = {
 
 		priority = {
 			base = 0
-			modifier = { add = 100 has_tech = advanced_ship_hull_light }
 		}
 
 		
