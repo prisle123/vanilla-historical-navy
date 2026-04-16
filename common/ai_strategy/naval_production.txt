@@ -150,13 +150,15 @@ no_old_navy_production = {
 naval_unit_role_ratios_minors_coastal = {
 	allowed = {
 		NOT = {
-			tag = ENG
-			tag = JAP
-			tag = ITA
-			tag = GER
-			tag = FRA
-			tag = USA
-			tag = SOV
+			OR = {
+				tag = ENG
+				tag = JAP
+				tag = ITA
+				tag = GER
+				tag = FRA
+				tag = USA
+				tag = SOV
+			}
 		}
 	}
 	enable = { 
@@ -181,13 +183,15 @@ naval_unit_role_ratios_minors_coastal = {
 naval_unit_role_ratios_minors_defensive = {
 	allowed = {
 		NOT = {
-			tag = ENG
-			tag = JAP
-			tag = ITA
-			tag = GER
-			tag = FRA
-			tag = USA
-			tag = SOV
+			OR = {
+				tag = ENG
+				tag = JAP
+				tag = ITA
+				tag = GER
+				tag = FRA
+				tag = USA
+				tag = SOV
+			}
 		}
 	}
 	enable = { 
@@ -224,13 +228,15 @@ naval_unit_role_ratios_minors_defensive = {
 naval_unit_role_ratios_minors_offensive = {
 	allowed = {
 		NOT = {
-			tag = ENG
-			tag = JAP
-			tag = ITA
-			tag = GER
-			tag = FRA
-			tag = USA
-			tag = SOV
+			OR = {
+				tag = ENG
+				tag = JAP
+				tag = ITA
+				tag = GER
+				tag = FRA
+				tag = USA
+				tag = SOV
+			}
 		}
 	}
 	enable = { 
@@ -273,13 +279,15 @@ naval_unit_role_ratios_minors_offensive = {
 naval_unit_role_ratios_minors_global = {
 	allowed = {
 		NOT = {
-			tag = ENG
-			tag = JAP
-			tag = ITA
-			tag = GER
-			tag = FRA
-			tag = USA
-			tag = SOV
+			OR = {
+				tag = ENG
+				tag = JAP
+				tag = ITA
+				tag = GER
+				tag = FRA
+				tag = USA
+				tag = SOV
+			}
 		}
 	}
 	enable = {
