@@ -63,7 +63,7 @@ USA_PatrolDominanceForce_1 = {
 	}	
 	mission = { naval_patrol }
 	min_composition = {
-		light_cruiser = {
+		heavy_cruiser = {
 			amount = 2
 		}
 		destroyer = {
