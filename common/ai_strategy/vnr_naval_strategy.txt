@@ -751,52 +751,6 @@ USA_pacific_war_naval_counterattack_1 = {
 		}
 		subtract_invasions_from_need = yes
 	}
-
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 75
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 76
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 77
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 78
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 79
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 80
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 90
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 94
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 177
-		value = 1000
-	}
 	
 	ai_strategy = {
 		type = naval_dominance
@@ -911,41 +865,6 @@ USA_pacific_war_naval_counterattack_2 = {
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 75
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 76
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 77
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 79
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 80
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 90
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 177
-		value = 1000
-	}
 	
 	ai_strategy = {
 		type = naval_dominance
@@ -1060,16 +979,6 @@ USA_pacific_war_naval_counterattack_3 = {
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 77
-		value = 1000
-	}
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 79
-		value = 1000
-	}
 	
 	ai_strategy = {
 		type = naval_dominance
