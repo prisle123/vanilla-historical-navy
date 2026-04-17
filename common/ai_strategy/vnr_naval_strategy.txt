@@ -458,13 +458,14 @@ USA_homebase_strategy_2 = {
 		629 = { is_controlled_by_ROOT_or_ally = yes }
 		633 = { is_controlled_by_ROOT_or_ally = yes }
 		684 = { is_controlled_by_ROOT_or_ally = yes }
+		645 = { is_controlled_by_ROOT_or_ally = no }
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 105
-		value = 100
+		value = 500
 	}
 	ai_strategy = {
 		type = strike_force_home_base
@@ -519,7 +520,7 @@ USA_homebase_strategy_3 = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 84
-		value = 500
+		value = 1500
 	}
 	ai_strategy = {
 		type = strike_force_home_base
@@ -560,9 +561,12 @@ USA_pacific_war_naval_avoid_first = {
 	enable = {
 		OR = {
 			threat > 0.65
-			war_length_with = {
-				tag = JAP
-				months < 6
+			AND = {
+				has_war_with = JAP
+				war_length_with = {
+					tag = JAP
+					months < 6
+				}
 			}
 		}
         enable_vnr_naval_ai = yes
@@ -712,11 +716,6 @@ USA_do_not_waste_fleet_in_north_pacific = {
 	ai_strategy = {
 		type = naval_dominance
 		id = 171
-		value = -100
-	}
-	ai_strategy = {
-		type = coast_defense
-		id = 88
 		value = -100
 	}
 	ai_strategy = {
@@ -870,6 +869,22 @@ USA_pacific_war_naval_counterattack_1 = {
 
 	ai_strategy = {
 		type = front_control
+		state = 633
+		priority = 100
+		ordertype = invasion
+		execute_order = yes
+	}
+
+	ai_strategy = {
+		type = front_control
+		state = 684
+		priority = 100
+		ordertype = invasion
+		execute_order = yes
+	}
+
+	ai_strategy = {
+		type = front_control
 		area = pacific
 		ordertype = invasion
     	execute_order = yes
@@ -1004,6 +1019,14 @@ USA_pacific_war_naval_counterattack_2 = {
 
 	ai_strategy = {
 		type = front_control
+		state = 645
+		priority = 100
+		ordertype = invasion
+		execute_order = yes
+	}
+
+	ai_strategy = {
+		type = front_control
 		area = pacific
 		ordertype = invasion
     	execute_order = yes
@@ -1121,6 +1144,14 @@ USA_pacific_war_naval_counterattack_3 = {
 		type = invasion_unit_request
 		state = 526
 		value = 500
+	}
+
+	ai_strategy = {
+		type = front_control
+		state = 526
+		priority = 100
+		ordertype = invasion
+		execute_order = yes
 	}
 
 	ai_strategy = {

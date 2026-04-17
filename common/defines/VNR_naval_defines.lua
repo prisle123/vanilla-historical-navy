@@ -303,7 +303,7 @@ NDefines.NAI.HIGH_PRIO_NAVAL_MISSION_SCORES = {  -- priorities for regions to ge
 NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 	2, -- PATROL
-	4, -- STRIKE FORCE
+	3, -- STRIKE FORCE
 	1.5, -- CONVOY RAIDING
 	4, -- CONVOY ESCORT
 	2, -- MINES PLANTING

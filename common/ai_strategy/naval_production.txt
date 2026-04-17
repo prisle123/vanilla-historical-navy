@@ -2223,18 +2223,47 @@ we_need_screen_1 = {
 		}
 	}
 	enable = {
-		has_navy_size = { size < 200 archetype = ship_hull_light }
-		set_temp_variable = { t = num_ships_with_type@carrier }
-		set_temp_variable = { d = num_ships_with_type@destroyer }
-		divide_temp_variable = { d = t }
-		check_variable = { d < 8 }
+		has_war = yes
+		OR = {
+			has_navy_size = { size > 1 type = carrier }
+			has_navy_size = { size > 7 archetype = ship_hull_heavy }
+		}
+		set_temp_variable = { warships = num_ships_with_type@carrier }
+		add_to_temp_variable = { warships = num_ships_with_type@battleship }
+		add_to_temp_variable = { warships = num_ships_with_type@battle_cruiser }
+		add_to_temp_variable = { warships = num_ships_with_type@SH_battleship }
+		add_to_temp_variable = { warships = num_ships_with_type@heavy_cruiser }
+		add_to_temp_variable = { warships = num_ships_with_type@light_cruiser }
+		set_temp_variable = { destroyers = num_ships_with_type@destroyer }
+		divide_temp_variable = { destroyers = warships }
+		check_variable = { destroyers < 4.0 }
 	}
-	abort_when_not_enabled = yes
+	abort = {
+		OR = {
+			has_war = no
+			AND = {
+				set_temp_variable = { warships = num_ships_with_type@carrier }
+				add_to_temp_variable = { warships = num_ships_with_type@battleship }
+				add_to_temp_variable = { warships = num_ships_with_type@battle_cruiser }
+				add_to_temp_variable = { warships = num_ships_with_type@SH_battleship }
+				add_to_temp_variable = { warships = num_ships_with_type@heavy_cruiser }
+				add_to_temp_variable = { warships = num_ships_with_type@light_cruiser }
+				set_temp_variable = { destroyers = num_ships_with_type@destroyer }
+				divide_temp_variable = { destroyers = warships }
+				check_variable = { destroyers > 5.0 }
+			}
+		}
+	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 9999
+		value = 4000
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 1800
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -2262,23 +2291,60 @@ we_need_screen_2 = {
 			tag = SOV
 		}
 	}
-	enable = { has_navy_size = { size < 50 archetype = ship_hull_light } }
-	abort_when_not_enabled = yes
+	enable = {
+		has_war = yes
+		has_navy_size = { size > 3 archetype = ship_hull_heavy }
+		set_temp_variable = { warships = num_ships_with_type@carrier }
+		add_to_temp_variable = { warships = num_ships_with_type@battleship }
+		add_to_temp_variable = { warships = num_ships_with_type@battle_cruiser }
+		add_to_temp_variable = { warships = num_ships_with_type@SH_battleship }
+		add_to_temp_variable = { warships = num_ships_with_type@heavy_cruiser }
+		add_to_temp_variable = { warships = num_ships_with_type@light_cruiser }
+		set_temp_variable = { destroyers = num_ships_with_type@destroyer }
+		divide_temp_variable = { destroyers = warships }
+		check_variable = { destroyers < 3.5 }
+	}
+	abort = {
+		OR = {
+			has_war = no
+			AND = {
+				set_temp_variable = { warships = num_ships_with_type@carrier }
+				add_to_temp_variable = { warships = num_ships_with_type@battleship }
+				add_to_temp_variable = { warships = num_ships_with_type@battle_cruiser }
+				add_to_temp_variable = { warships = num_ships_with_type@SH_battleship }
+				add_to_temp_variable = { warships = num_ships_with_type@heavy_cruiser }
+				add_to_temp_variable = { warships = num_ships_with_type@light_cruiser }
+				set_temp_variable = { destroyers = num_ships_with_type@destroyer }
+				divide_temp_variable = { destroyers = warships }
+				check_variable = { destroyers > 4.5 }
+			}
+		}
+	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 1000
+		value = 2500
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 900
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_heavy
+		value = -800
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = -200
+		value = -9999
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = -200
+		value = -9999
 	}
 }
 
