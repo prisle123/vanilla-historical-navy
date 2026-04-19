@@ -2263,7 +2263,7 @@ we_need_screen_1 = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 1800
+		value = 300
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -2329,7 +2329,7 @@ we_need_screen_2 = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 900
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio
