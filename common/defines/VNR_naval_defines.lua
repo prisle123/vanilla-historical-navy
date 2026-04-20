@@ -24,6 +24,7 @@ NDefines.NNavy.BASE_GUN_COOLDOWNS = { 1.0, 8.0, 1.0 }   -- number of hours for a
 NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_STR_LOSS = 0.05   -- losing strength will make you also lose manpower at this ratio of total manpower (was 0.5)
 NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_SUNK = 0.25   -- sunk ships will lose this ratio of their current manpower (was 0.5)
 NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.5   -- upper limit of shore bombardment (was 0.33)
+NDefines.NNavy.HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.05   -- heavy gun attack value is divided by this value * 100 and added to shore bombardment modifier (was 0.1)
 
 
 --Positioning and Screening
@@ -217,6 +218,32 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggressi
 }
 
 
+--Repair
+NDefines.NBuildings.NAVALBASE_REPAIR_MULT = 0.075   -- Each level of navalbase building repairs X strength and can repair as many ships as its level (was 0.05)
+NDefines.NNavy.REPAIR_AND_RETURN_UNIT_DYING_STR = 0.35   -- Str below this point is considering a single ship "dying", and a high priority to send to repair (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW = 0.35   -- % of total Strength. When below, navy will go to home base to repair. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM = 0.55   -- % of total Strength. When below, navy will go to home base to repair. (was 0.5)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH = 0.85   -- % of total Strength. When below, navy will go to home base to repair. (was 0.9)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW_COMBAT = 0.35   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.6)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM_COMBAT = 0.5   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.3)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH_COMBAT = 0.75   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.1)
+NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_LOW = 0.4   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_MEDIUM = 0.6   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_HIGH = 0.8   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
+NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SHIP_WAITING_EXTRA_SHIP = 5   -- if a naval base has more ships than it can repair, it will get penalties
+NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SLOT = 3.5   -- while searching for a naval base for repairs, the bases gets a bonus to their scores per empty slot they have (was 2.5)
+NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_BOOST_FOR_SAME_COUNTRY = 5   -- while searching for a naval base for repairs, your own bases gets a bonus
+NDefines.NNavy.NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_LOW = 3   -- bases with a level above this value will be set to low prio	(bases between these levels will getmedium prio) (was 2)
+NDefines.NNavy.NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_HIGH = 6   -- bases with a level above this value will be set to high prio (bases between these levels will get medium prio) (was 7)
+NDefines.NNavy.MAX_NUM_HOURS_TO_WAIT_AT_ALLY_DOCKYARDS_FOR_REPAIRS = 24   -- taskforces will wait at most this amount of hours in ally bases for repairs before switching to another base for repairs (was 48)
+NDefines.NNavy.MIN_REPAIR_FOR_JOINING_COMBATS = { -- strikeforces/patrol forces will not join combats if they are not repaired enough
+		0.0,	-- do not repair
+		0.6,	-- low
+		0.8,	-- medium
+		0.95,	-- high
+},
+
+
 --Naval Misc
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 25   -- cost to unassign/replace pride of the fleet (was 100)
 NDefines.NNavy.AMPHIBIOUS_INVADE_SPEED_BASE = 0.35    -- every hour movement progress on amphibious invasion (was 0.5)
@@ -320,7 +347,7 @@ NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 2   -- When convoys are sunk it 
 NDefines.NAI.DANGEROUS_ENEMY_ARMY_SIZE = 150   -- If the size of the enemy's army of the attacking country is more than this value, the AI will add naval invasion defense importance (was 100)
 NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this list is important!
 	0.1875,	-- invasion suppport
-	0.25,	-- invasion defense
+	0.2,	-- invasion defense
 	0,0,	-- others ( MineSweeping, MineLaying )
 	0.0625,	-- generic coast defense
 	0,0,	-- others ( ConvoyRaiding, ConvoyProtection )

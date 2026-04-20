@@ -53,6 +53,9 @@ USA_support_fleet_1 = {
 	required_taskforces = {
 		USA_InvasionSupport_1 = 1
 	}
+	optional_taskforces = {
+		USA_InvasionSupport_1 = 1
+	}
 }
 
 # optional fleets

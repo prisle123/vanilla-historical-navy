@@ -131,11 +131,7 @@ USA_InvasionSupport_1 = {
 		original_tag = USA
 	}
 	ai_will_do = {
-		factor = 0
-		modifier = {
-			has_war_with = JAP
-			add = 5
-		}
+		factor = 1
 	}
 	mission = { naval_invasion_support }
 

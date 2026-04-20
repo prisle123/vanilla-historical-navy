@@ -89,7 +89,7 @@ PatrolDominanceForce_CA_1 = {
 	mission = { naval_patrol }
 
 	min_composition = {
-		light_cruiser = {
+		heavy_cruiser = {
 			amount = 1
 		}
 		destroyer = {
@@ -129,6 +129,12 @@ ConvoyRaiding_1 = {
 	}	
 	mission = { convoy_raiding }
 
+	min_composition = {
+		submarine = {
+			amount = 4
+		}
+	}
+
 	optimal_composition = {
 		submarine = {
 			amount = 12
@@ -155,6 +161,11 @@ ConvoySurfaceRaiding_1 = {
 	}
 	mission = { convoy_raiding }
 
+	min_composition = {
+		battle_cruiser = {
+			amount = 1
+		}
+	}
 	optimal_composition = {
 		battle_cruiser = {
 			amount = 2
@@ -180,6 +191,11 @@ ConvoyEscort_1 = {
 		factor = 5
 	}	
 	mission = { convoy_escort }
+	min_composition = {
+		destroyer = {
+			amount = 2
+		}
+	}
 
 	optimal_composition = {
 		destroyer = {
