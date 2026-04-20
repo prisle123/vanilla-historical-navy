@@ -241,7 +241,7 @@ NDefines.NNavy.MIN_REPAIR_FOR_JOINING_COMBATS = { -- strikeforces/patrol forces 
 		0.6,	-- low
 		0.8,	-- medium
 		0.95,	-- high
-},
+}
 
 
 --Naval Misc
