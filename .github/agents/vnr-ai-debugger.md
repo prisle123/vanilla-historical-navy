@@ -45,7 +45,9 @@ Interactions: `ai_strategy` sets demand and targeting; `ai_equipment` satisfies 
 - Do not assume all active strategies are permanent. Missing or weak abort logic can leave stale weights active.
 - `ai_strategy` supports far more than naval focus. For this mod, the most relevant families are naval targeting, production/resource control, XP spending, research weighting, and `role_ratio` demand shaping.
 - `naval_dominance`, `coast_defense`, and similar entries can target either AI area keys or raw strategic region IDs depending on strategy type.
+- `front_control` can be used both broadly (`area = ...`) and narrowly (`state = ...`). In this mod, state-targeted invasion controls are useful when area-wide invasion behavior is too diffuse.
 - `role_ratio` is the production-side companion to `ai_equipment.roles`; broken role names or mismatched IDs will silently sever design demand from production demand.
+- When strategies are intended to represent stages, verify their `enable` blocks are mutually exclusive. `abort_when_not_enabled` does not prevent overlap by itself; if two stage triggers can both be true, their weights stack.
 - Official docs also clarify ratio semantics:
 	- `unit_ratio` for air acts as a weight split within land-based and carrier plane pools.
 	- Non-air `unit_ratio` values are additive around a base of 100, so `-40` means 60% of normal demand.
@@ -53,13 +55,20 @@ Interactions: `ai_strategy` sets demand and targeting; `ai_equipment` satisfies 
 
 ### `ai_navy`
 - Keep using the existing mental model: goals create scored objectives, then taskforce and fleet templates determine what ship compositions execute them.
+- Fleet templates are effectively order-sensitive. If an early fleet definition requires a large taskforce that cannot yet satisfy `min_composition`, ships can be held in reserve and stay idle instead of forming smaller valid fleets later in the file.
+- Base-game style mixed or oversized fleet templates tend to form large taskforces first. In VNR, prefer a small-taskforce-first approach: split roles apart and let the AI form as many valid fleets as possible before asking it to complete larger formations.
+- The VNR fleet pattern is usually `must-haves` -> `advance fleets` -> `optional fleets`. Early entries should be easy to satisfy and represent core naval jobs; later entries should expand coverage or absorb surplus ships.
+- Dominance fleets should generally be separate from strike fleets. If naval dominance is embedded inside a larger mixed fleet, it is easier for one incomplete fleet to block multiple jobs.
+- Optional taskforces are a scaling mechanism, not the core identity of a fleet. Use them to absorb extra ships after a fleet is already operational rather than to delay initial formation.
 - If the AI has the right ships but behaves badly at sea, investigate goals, priorities, and template fit before touching `ai_equipment`.
 - If the AI has the right goals but cannot form fleets, trace back into unit availability, OOB setup, and design/production roles.
 
 ## Practical Debug Order
 1. Confirm the country can use the relevant strategy or design group (`allowed`, `blocked_for`, `available_for`).
 2. Confirm the strategy lifecycle works (`enable`, `abort`, `abort_when_not_enabled`) and that the intended weights are actually active.
-3. Confirm strategy targets are valid (`ai_area` key vs region ID, depending on token).
-4. Confirm role names line up exactly between `ai_strategy/naval_production.txt` and `common/ai_equipment/*.txt`.
-5. Confirm the design can match: hull `type`, slot module conditions, hard `requirements`, and `allowed_modules`.
-6. Confirm the issue is really production/design-side and not `ai_navy` goal scoring, template composition, or OOB seeding.
+3. If strategies are staged, confirm their `enable` triggers do not overlap unless stacking is intentional.
+4. Confirm strategy targets are valid (`ai_area` key vs region ID, depending on token), and use state-targeted `front_control` when a specific invasion objective needs tighter steering.
+5. Confirm role names line up exactly between `ai_strategy/naval_production.txt` and `common/ai_equipment/*.txt`.
+6. Confirm the design can match: hull `type`, slot module conditions, hard `requirements`, and `allowed_modules`.
+7. If fleets are not forming, inspect fleet/taskforce ordering and `min_composition` thresholds before retuning production. Large early templates may be reserving ships that would otherwise complete smaller fleets.
+8. Confirm the issue is really production/design-side and not `ai_navy` goal scoring, template composition, or OOB seeding.

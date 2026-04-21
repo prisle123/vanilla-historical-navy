@@ -8,8 +8,8 @@ NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.01   -- never less hit chance then this
 NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.1   -- Base chance for receiving a critical chance. It get's scaled down with ship reliability. (was 0.05)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.65   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
-NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.1   -- base % of convoys that get intercepted (was 0.15)
-NDefines.NNavy.CONVOY_HIT_PROFILE = 100   -- convoys has this contant hit profile (was 85)
+NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.2   -- base % of convoys that get intercepted (was 0.15)
+NDefines.NNavy.CONVOY_HIT_PROFILE = 110   -- convoys has this contant hit profile (was 85)
 NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.3   -- chance for critical hit from torpedo. (was 0.1, torpedo needs more love)
 NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = { 2.0, 1.0, 0.85, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.3, 0.0 }   -- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 3.0, 1.25, 1.0, 0.65, 0.55, 0.3, 0.15, 0.1, 0.05, 0.01, 0.0 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
@@ -219,27 +219,27 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggressi
 
 
 --Repair
-NDefines.NBuildings.NAVALBASE_REPAIR_MULT = 0.075   -- Each level of navalbase building repairs X strength and can repair as many ships as its level (was 0.05)
-NDefines.NNavy.REPAIR_AND_RETURN_UNIT_DYING_STR = 0.35   -- Str below this point is considering a single ship "dying", and a high priority to send to repair (was 0.2)
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW = 0.35   -- % of total Strength. When below, navy will go to home base to repair. (was 0.2)
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM = 0.55   -- % of total Strength. When below, navy will go to home base to repair. (was 0.5)
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH = 0.85   -- % of total Strength. When below, navy will go to home base to repair. (was 0.9)
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW_COMBAT = 0.35   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.6)
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM_COMBAT = 0.5   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.3)
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH_COMBAT = 0.75   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.1)
-NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_LOW = 0.4   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
-NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_MEDIUM = 0.6   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
-NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_HIGH = 0.8   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
+NDefines.NBuildings.NAVALBASE_REPAIR_MULT = 0.1   -- Each level of navalbase building repairs X strength and can repair as many ships as its level (was 0.05)
+NDefines.NNavy.REPAIR_AND_RETURN_UNIT_DYING_STR = 0.6   -- Str below this point is considering a single ship "dying", and a high priority to send to repair (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW = 0.75   -- % of total Strength. When below, navy will go to home base to repair. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM = 0.85   -- % of total Strength. When below, navy will go to home base to repair. (was 0.5)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH = 0.9   -- % of total Strength. When below, navy will go to home base to repair. (was 0.9)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW_COMBAT = 0.4   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.6)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM_COMBAT = 0.6   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.3)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH_COMBAT = 0.8   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.1)
+NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_LOW = 0.2   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_MEDIUM = 0.2   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_HIGH = 0.2   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
 NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SHIP_WAITING_EXTRA_SHIP = 5   -- if a naval base has more ships than it can repair, it will get penalties
-NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SLOT = 3.5   -- while searching for a naval base for repairs, the bases gets a bonus to their scores per empty slot they have (was 2.5)
+NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SLOT = 10   -- while searching for a naval base for repairs, the bases gets a bonus to their scores per empty slot they have (was 2.5)
 NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_BOOST_FOR_SAME_COUNTRY = 5   -- while searching for a naval base for repairs, your own bases gets a bonus
-NDefines.NNavy.NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_LOW = 3   -- bases with a level above this value will be set to low prio	(bases between these levels will getmedium prio) (was 2)
+NDefines.NNavy.NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_LOW = 3   -- bases with a level above this value will be set to low prio	(bases between these levels will get medium prio) (was 2)
 NDefines.NNavy.NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_HIGH = 6   -- bases with a level above this value will be set to high prio (bases between these levels will get medium prio) (was 7)
 NDefines.NNavy.MAX_NUM_HOURS_TO_WAIT_AT_ALLY_DOCKYARDS_FOR_REPAIRS = 24   -- taskforces will wait at most this amount of hours in ally bases for repairs before switching to another base for repairs (was 48)
 NDefines.NNavy.MIN_REPAIR_FOR_JOINING_COMBATS = { -- strikeforces/patrol forces will not join combats if they are not repaired enough
 		0.0,	-- do not repair
-		0.6,	-- low
-		0.8,	-- medium
+		0.85,	-- low
+		0.9,	-- medium
 		0.95,	-- high
 }
 
@@ -279,6 +279,7 @@ NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_LAYING = 0.0   -- maximum ratio of s
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO = 0.20   -- if you have mines near your owned states, you will start priotize mine missions and will assign this ratio of screens (was 0.8)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO_MIN_MINES = 250   -- if there are at least this many mines near our owned states, we will prioritize mine sweeping (was 10)
 NDefines.NAI.SUGGESTED_NUM_MAX_CARRIERS = 4   -- We don't know exactly how many planes we should use when evaluating AI build so we need a suggested number to start things off. ALso used for task force suggestions list. (was 4)
+NDefines.NNavy.MAX_SHIP_COUNT_FOR_DOMINANCE_PATROL_ROLE_ASSIGNMENT = 8   -- define the maximum number of ships that should be in a task force for it to be considered a dominance building patrol (provided they have any capitals as well) (was 15)
 NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 1   -- define the minimum number of ship that should be in a task force for it to be considered a patrol or an escort task force (used to the insignia assignment, see TASK_FORCE_ROLE_TO_INSIGNIA) (was 2)
 
 
@@ -329,7 +330,7 @@ NDefines.NAI.HIGH_PRIO_NAVAL_MISSION_SCORES = {  -- priorities for regions to ge
 }
 NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
-	2, -- PATROL
+	1.5, -- PATROL
 	3, -- STRIKE FORCE
 	1.5, -- CONVOY RAIDING
 	4, -- CONVOY ESCORT
@@ -366,7 +367,7 @@ NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_NAVY_TRAINING = 0.50   -- ai will us
 --AI Misc
 NDefines.NAI.NAVAL_BASE_RATIO_ALLOCATED_FOR_REPAIRS = 0.1   -- ai will allocate at most this ratio of dockyards for repairs in peace time (was 0.25)
 NDefines.NAI.NAVAL_BASE_RATIO_ALLOCATED_FOR_REPAIRS_IN_WAR_TIME = 0.5   -- ai will allocate at most this ratio of dockyards for repairs in war time (was 0.6)
-NDefines.NAI.SHIP_STR_RATIO_PUT_ON_REPAIRS = 0.6   -- if ships are damaged below this ratio, they are put for repairs (was 0.8)
+NDefines.NAI.SHIP_STR_RATIO_PUT_ON_REPAIRS = 0.8   -- if ships are damaged below this ratio, they are put for repairs (was 0.8)
 NDefines.NAI.NAVAL_ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS_AT_WAR = 1000   -- each access reduces the desire of next access (was 150)
 NDefines.NAI.NAVAL_ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS = 500   -- each access reduces the desire of next access (was 250)
 NDefines.NAI.AIR_BASE_ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS_AT_WAR = 1000   -- each access reduces the desire of next access (was 150)

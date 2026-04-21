@@ -9,6 +9,11 @@ JAP_escort_fleet_1 = {
 		JAP_ConvoyEscort_1 = 2
 	}
 }
+JAP_support_fleet_1 = {
+	required_taskforces = {
+		JAP_InvasionSupport_1 = 1
+	}
+}
 JAP_mobile_fleet_1 = {
 	required_taskforces = {
 		JAP_StrikeForce_BC_1 = 1
@@ -54,7 +59,7 @@ JAP_dominance_fleet_2 = {
 		JAP_PatrolDominanceForce_1 = 2
 	}
 }
-JAP_support_fleet_1 = {
+JAP_support_fleet_2 = {
 	required_taskforces = {
 		JAP_InvasionSupport_1 = 1
 	}

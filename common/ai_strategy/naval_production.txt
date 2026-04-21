@@ -414,13 +414,13 @@ naval_unit_role_ratios_GER_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 100
+		value = 40
 	}
 	
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 1500
+		value = 6000
 	}
 
 	ai_strategy = {
@@ -443,7 +443,7 @@ naval_unit_role_ratios_GER_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 3000
+		value = 9999
 	}
 
 	ai_strategy = {
@@ -490,7 +490,7 @@ naval_unit_role_ratios_GER_atwar_many_shipyard = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 1500
+		value = 8000
 	}
 
 	ai_strategy = {
@@ -2233,10 +2233,10 @@ we_need_screen_1 = {
 		add_to_temp_variable = { warships = num_ships_with_type@battle_cruiser }
 		add_to_temp_variable = { warships = num_ships_with_type@SH_battleship }
 		add_to_temp_variable = { warships = num_ships_with_type@heavy_cruiser }
-		add_to_temp_variable = { warships = num_ships_with_type@light_cruiser }
-		set_temp_variable = { destroyers = num_ships_with_type@destroyer }
-		divide_temp_variable = { destroyers = warships }
-		check_variable = { destroyers < 4.0 }
+		set_temp_variable = { screens = num_ships_with_type@destroyer }
+		add_to_temp_variable = { screens = num_ships_with_type@light_cruiser }
+		divide_temp_variable = { screens = warships }
+		check_variable = { screens < 2.5 }
 	}
 	abort = {
 		OR = {
@@ -2247,10 +2247,10 @@ we_need_screen_1 = {
 				add_to_temp_variable = { warships = num_ships_with_type@battle_cruiser }
 				add_to_temp_variable = { warships = num_ships_with_type@SH_battleship }
 				add_to_temp_variable = { warships = num_ships_with_type@heavy_cruiser }
-				add_to_temp_variable = { warships = num_ships_with_type@light_cruiser }
-				set_temp_variable = { destroyers = num_ships_with_type@destroyer }
-				divide_temp_variable = { destroyers = warships }
-				check_variable = { destroyers > 5.0 }
+				set_temp_variable = { screens = num_ships_with_type@destroyer }
+				add_to_temp_variable = { screens = num_ships_with_type@light_cruiser }
+				divide_temp_variable = { screens = warships }
+				check_variable = { screens > 3.25 }
 			}
 		}
 	}
@@ -2299,10 +2299,10 @@ we_need_screen_2 = {
 		add_to_temp_variable = { warships = num_ships_with_type@battle_cruiser }
 		add_to_temp_variable = { warships = num_ships_with_type@SH_battleship }
 		add_to_temp_variable = { warships = num_ships_with_type@heavy_cruiser }
-		add_to_temp_variable = { warships = num_ships_with_type@light_cruiser }
-		set_temp_variable = { destroyers = num_ships_with_type@destroyer }
-		divide_temp_variable = { destroyers = warships }
-		check_variable = { destroyers < 3.5 }
+		set_temp_variable = { screens = num_ships_with_type@destroyer }
+		add_to_temp_variable = { screens = num_ships_with_type@light_cruiser }
+		divide_temp_variable = { screens = warships }
+		check_variable = { screens < 2.25 }
 	}
 	abort = {
 		OR = {
@@ -2313,10 +2313,10 @@ we_need_screen_2 = {
 				add_to_temp_variable = { warships = num_ships_with_type@battle_cruiser }
 				add_to_temp_variable = { warships = num_ships_with_type@SH_battleship }
 				add_to_temp_variable = { warships = num_ships_with_type@heavy_cruiser }
-				add_to_temp_variable = { warships = num_ships_with_type@light_cruiser }
-				set_temp_variable = { destroyers = num_ships_with_type@destroyer }
-				divide_temp_variable = { destroyers = warships }
-				check_variable = { destroyers > 4.5 }
+				set_temp_variable = { screens = num_ships_with_type@destroyer }
+				add_to_temp_variable = { screens = num_ships_with_type@light_cruiser }
+				divide_temp_variable = { screens = warships }
+				check_variable = { screens > 3.0 }
 			}
 		}
 	}

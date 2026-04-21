@@ -121,7 +121,7 @@ This is why the templates are split by role and why early fleet tiers are built 
 Most country fleet files now follow a shared three-step structure (I personally call it Lasagna method):
 * **must-haves**: the minimum set of fleets the country should try to form for basic naval function (for big navies, smaller taskforces should be created earlier, and for small navies, larger taskforces)
 * **advance fleets**: extra fleets that improve coverage once the navy grows
-* **optional fleets**: overflow fleets that let the AI absorb additional ships without distorting the core force structure (optinal fleets usually introduced here)
+* **optional fleets**: overflow fleets that let the AI absorb additional ships without distorting the core force structure (optional fleets usually introduced here)
 
 This means the AI first secures the fleets it absolutely needs, then expands coverage, and only after that starts filling out extra fleets. This is more stable than asking the AI to immediately build every desirable fleet at once.
 

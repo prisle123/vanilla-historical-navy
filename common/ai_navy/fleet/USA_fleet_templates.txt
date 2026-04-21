@@ -9,6 +9,11 @@ USA_escort_fleet_1 = {
 		USA_ConvoyEscort_1 = 4
 	}
 }
+USA_support_fleet_1 = {
+	required_taskforces = {
+		USA_InvasionSupport_1 = 1
+	}
+}
 USA_strike_fleet_1 = {
 	required_taskforces = {
 		USA_StrikeForce_1 = 2
@@ -49,7 +54,7 @@ USA_dominance_fleet_2 = {
 		USA_PatrolDominanceForce_1 = 2
 	}
 }
-USA_support_fleet_1 = {
+USA_support_fleet_2 = {
 	required_taskforces = {
 		USA_InvasionSupport_1 = 1
 	}
