@@ -137,7 +137,7 @@ NDefines.NAir.REINFORCEMENT_DISABLING_DURATION_IN_LAND_CARRIER_TRANSFER = 12   -
 
 
 --War Score
-NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_MANPOWER_FACTOR = 0.008   -- war score gained for every manpower killed when sinking a ship (was 0.004)
+NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_MANPOWER_FACTOR = 0.005   -- war score gained for every manpower killed when sinking a ship (was 0.004)
 NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_PRODUCTION_COST_FACTOR = 0.04   -- war score gained for every IC of the sunk ship (was 0.1)
 
 
@@ -221,15 +221,15 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggressi
 --Repair
 NDefines.NBuildings.NAVALBASE_REPAIR_MULT = 0.1   -- Each level of navalbase building repairs X strength and can repair as many ships as its level (was 0.05)
 NDefines.NNavy.REPAIR_AND_RETURN_UNIT_DYING_STR = 0.6   -- Str below this point is considering a single ship "dying", and a high priority to send to repair (was 0.2)
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW = 0.75   -- % of total Strength. When below, navy will go to home base to repair. (was 0.2)
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM = 0.85   -- % of total Strength. When below, navy will go to home base to repair. (was 0.5)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW = 0.55   -- % of total Strength. When below, navy will go to home base to repair. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM = 0.7   -- % of total Strength. When below, navy will go to home base to repair. (was 0.5)
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH = 0.9   -- % of total Strength. When below, navy will go to home base to repair. (was 0.9)
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW_COMBAT = 0.4   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.6)
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM_COMBAT = 0.6   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.3)
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH_COMBAT = 0.8   -- % of total Strength. When below, navy will go to home base to repair (in combat). (was 0.1)
-NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_LOW = 0.2   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
-NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_MEDIUM = 0.2   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
-NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_HIGH = 0.2   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_LOW = 0.1   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_MEDIUM = 0.1   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
+NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_HIGH = 0.1   -- % of total damaged ships, that will be sent for repair-and-return in one call. (was 0.2)
 NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SHIP_WAITING_EXTRA_SHIP = 5   -- if a naval base has more ships than it can repair, it will get penalties
 NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SLOT = 10   -- while searching for a naval base for repairs, the bases gets a bonus to their scores per empty slot they have (was 2.5)
 NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_BOOST_FOR_SAME_COUNTRY = 5   -- while searching for a naval base for repairs, your own bases gets a bonus
@@ -238,7 +238,7 @@ NDefines.NNavy.NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_HIGH = 6   -- bases with a le
 NDefines.NNavy.MAX_NUM_HOURS_TO_WAIT_AT_ALLY_DOCKYARDS_FOR_REPAIRS = 24   -- taskforces will wait at most this amount of hours in ally bases for repairs before switching to another base for repairs (was 48)
 NDefines.NNavy.MIN_REPAIR_FOR_JOINING_COMBATS = { -- strikeforces/patrol forces will not join combats if they are not repaired enough
 		0.0,	-- do not repair
-		0.85,	-- low
+		0.65,	-- low
 		0.9,	-- medium
 		0.95,	-- high
 }

@@ -26,10 +26,10 @@ USA_dominance_fleet_1 = {
 }
 USA_raiding_fleet_1 = {
 	required_taskforces = {
-		USA_ConvoyRaiding_1 = 8
+		USA_ConvoyRaiding_1 = 4
 	}	
 	optional_taskforces = {
-		USA_ConvoyRaiding_1 = 8
+		USA_ConvoyRaiding_1 = 4
 	}
 }
 
@@ -60,6 +60,14 @@ USA_support_fleet_2 = {
 	}
 	optional_taskforces = {
 		USA_InvasionSupport_1 = 1
+	}
+}
+USA_raiding_fleet_2 = {
+	required_taskforces = {
+		USA_ConvoyRaiding_1 = 4
+	}	
+	optional_taskforces = {
+		USA_ConvoyRaiding_1 = 4
 	}
 }
 
@@ -94,5 +102,13 @@ USA_dominance_fleet_3 = {
 	}
 	optional_taskforces = {
 		USA_PatrolDominanceForce_1 = 2
+	}
+}
+USA_raiding_fleet_3 = {
+	required_taskforces = {
+		USA_ConvoyRaiding_1 = 4
+	}	
+	optional_taskforces = {
+		USA_ConvoyRaiding_1 = 4
 	}
 }

@@ -34,7 +34,7 @@ ENG_raiding_fleet_1 = {
 		ENG_ConvoyRaiding_1 = 6
 	}
 	optional_taskforces = {
-		ENG_ConvoyRaiding_1 = 6
+		ENG_ConvoyRaiding_1 = 2
 	}
 }
 
@@ -65,6 +65,14 @@ ENG_support_fleet_2 = {
 	}
 	optional_taskforces = {
 		ENG_InvasionSupport_1 = 1
+	}
+}
+ENG_raiding_fleet_2 = {
+	required_taskforces = {
+		ENG_ConvoyRaiding_1 = 4
+	}
+	optional_taskforces = {
+		ENG_ConvoyRaiding_1 = 2
 	}
 }
 

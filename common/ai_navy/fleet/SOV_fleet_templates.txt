@@ -21,10 +21,10 @@ SOV_dominance_fleet_1 = {
 }
 SOV_raiding_fleet_1 = {
 	required_taskforces = {
-		SOV_ConvoyRaiding_1 = 8
+		SOV_ConvoyRaiding_1 = 6
 	}	
 	optional_taskforces = {
-		SOV_ConvoyRaiding_1 = 8
+		SOV_ConvoyRaiding_1 = 4
 	}
 }
 

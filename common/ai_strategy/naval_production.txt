@@ -1332,7 +1332,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 25
+		value = 35
 	}
 }
 
@@ -1379,7 +1379,7 @@ naval_unit_role_ratios_JAP_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 120
+		value = 100
 	}
 	ai_strategy = {
 		type = building_target
@@ -1487,6 +1487,12 @@ naval_unit_role_ratios_USA_great_depression = {
 		id = vnr_naval_cruiser_heavy
 		value = 50
 	}
+
+	ai_strategy = {
+		type = navy_xp_spend_priority
+		id = navy_spirit
+		value = 50
+	}
 }
 
 naval_unit_role_ratios_USA_go_to_war = {
@@ -1543,6 +1549,12 @@ naval_unit_role_ratios_USA_go_to_war = {
 		type = building_target
 		id = arms_factory
 		value = 35
+	}
+
+	ai_strategy = {
+		type = navy_xp_spend_priority
+		id = equipment_variant
+		value = 100
 	}
 }
 
@@ -1616,6 +1628,12 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = build_ship
 		id = screen_ship
+		value = 100
+	}
+
+	ai_strategy = {
+		type = navy_xp_spend_priority
+		id = equipment_variant
 		value = 100
 	}
 }
