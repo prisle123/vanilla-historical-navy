@@ -312,6 +312,7 @@ JAP_pacific_war_naval_stage_zero = {
 		NOT = { has_war_with = USA }
 		threat > 0.65
 		threat < 0.76
+		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -337,6 +338,8 @@ JAP_pacific_war_naval_stage_one = {
 			has_war_with = USA
 		}
 		PHI = { has_capitulated = no }
+		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense 
+		684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -395,6 +398,8 @@ JAP_pacific_war_naval_stage_two = {
     enable = {
         has_war_with = USA
 		PHI = { has_capitulated = yes }
+		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense 
+		684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -448,6 +453,63 @@ JAP_pacific_war_naval_stage_two = {
 		area = pacific
 		ordertype = invasion
     	execute_order = yes
+	}
+}
+
+JAP_pacific_war_naval_stage_defense = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense
+		684 = { is_controlled_by_ROOT_or_ally = no } # Turuk is the pillar of Pacific offensive
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_iwo_jima
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_philippines
+		value = 100
+	}
+	ai_strategy = { # try to retake Turuk, but not seriously
+		type = naval_dominance
+		id = vnr_pacific_solomons
+		value = 45
+	}
+}
+
+JAP_pacific_war_naval_stage_desperate = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with = USA
+		645 = { is_controlled_by_ROOT_or_ally = no } # Iwo Jima is the last line of defense 
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_okinawa
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_philippines
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = home_islands
+		value = 100
 	}
 }
 
