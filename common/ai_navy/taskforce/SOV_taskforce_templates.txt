@@ -94,13 +94,6 @@ SOV_PatrolDominanceForce_1 = {
 	}
 	ai_will_do = {
 		factor = 3
-		modifier = {
-			factor = 0
-			has_navy_size = {
-				unit = heavy_cruiser
-				size < 1
-			}
-		}
 	}	
 	mission = { naval_patrol }
 	min_composition = {
@@ -117,10 +110,10 @@ SOV_PatrolDominanceForce_1 = {
 			amount = 4
 		}
 		light_cruiser = {
-			amount = 3
+			amount = 2
 		}
 		destroyer = {
-			amount = 10
+			amount = 8
 		}
 	}
 }

@@ -21,7 +21,7 @@ StrikeForce_1 = {
 			amount = 2
 		}
 		destroyer = {
-			amount = 8
+			amount = 4
 		}
 	}
 	
@@ -62,6 +62,12 @@ PatrolReconForce_1 = {
 		factor = 5
 	}
 	mission = { naval_patrol }
+
+	min_composition = {
+		destroyer = {
+			amount = 1
+		}
+	}
 	optimal_composition = {
 		destroyer = {
 			amount = 5

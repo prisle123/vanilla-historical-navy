@@ -11,7 +11,7 @@ ITA_patrol_fleet_1 = {
 }
 ITA_escort_fleet_1 = {
 	required_taskforces = {
-		ITA_ConvoyEscort_1 = 4
+		ITA_ConvoyEscort_1 = 2
 	}
 }
 ITA_dominance_fleet_1 = {
@@ -36,7 +36,7 @@ ITA_patrol_fleet_2 = {
 }
 ITA_escort_fleet_2 = {
 	required_taskforces = {
-		ITA_ConvoyEscort_1 = 4
+		ITA_ConvoyEscort_1 = 2
 	}
 }
 ITA_strike_fleet_2 = {
