@@ -338,6 +338,8 @@ JAP_pacific_war_naval_stage_one = {
 			has_war_with = USA
 		}
 		PHI = { has_capitulated = no }
+		526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
+		524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
 		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense 
 		684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
         enable_vnr_naval_ai = yes
@@ -350,13 +352,18 @@ JAP_pacific_war_naval_stage_one = {
 	}
 	ai_strategy = {
 		type = naval_dominance
-		id = vnr_eng_south_china_sea
+		id = vnr_pacific_solomons
 		value = 95
 	}
 	ai_strategy = {
 		type = naval_dominance
+		id = vnr_eng_south_china_sea
+		value = 70
+	}
+	ai_strategy = {
+		type = naval_dominance
 		id = vnr_pacific_iwo_jima
-		value = 90
+		value = 40
 	}
 	ai_strategy = {
 		type = invade
@@ -398,6 +405,8 @@ JAP_pacific_war_naval_stage_two = {
     enable = {
         has_war_with = USA
 		PHI = { has_capitulated = yes }
+		526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
+		524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
 		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense 
 		684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
         enable_vnr_naval_ai = yes
@@ -462,6 +471,8 @@ JAP_pacific_war_naval_stage_defense = {
 	}
 	enable = {
 		has_war_with = USA
+		526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
+		524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
 		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense
 		684 = { is_controlled_by_ROOT_or_ally = no } # Turuk is the pillar of Pacific offensive
 		enable_vnr_naval_ai = yes
@@ -491,7 +502,11 @@ JAP_pacific_war_naval_stage_desperate = {
 	}
 	enable = {
 		has_war_with = USA
-		645 = { is_controlled_by_ROOT_or_ally = no } # Iwo Jima is the last line of defense 
+		OR ={
+			526 = { is_controlled_by_ROOT_or_ally = no } # Okinawa
+			524 = { is_controlled_by_ROOT_or_ally = no } # Taiwan
+			645 = { is_controlled_by_ROOT_or_ally = no } # Iwo Jima is the last line of defense 
+		}
 		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes

@@ -1235,11 +1235,11 @@ naval_unit_role_ratios_JAP_prewar_naval_treaty = {
 		tag = JAP
 	}
 	enable = {
-		date < 1939.6.1
-		NOT = { 
-			any_enemy_country = {
-				is_literally_china = no
-				is_major = yes
+		date < 1942.1.1
+		OR = {
+			has_war_with_major = no
+			all_enemy_country = {
+				has_navy_size = { size < 100 }
 			}
 		}
 		has_naval_treaty_trigger = yes
@@ -1341,12 +1341,9 @@ naval_unit_role_ratios_JAP_atwar = {
 		tag = JAP
 	}
 	enable = {
-		date > 1941.12.31
-		OR = {
-			has_war_with_major = yes
-			any_enemy_country = {
-				has_navy_size = { size > 99 }
-			}
+		has_war = yes
+		any_enemy_country = {
+			has_navy_size = { size > 99 }
 		}
 	}
 	abort_when_not_enabled = yes
