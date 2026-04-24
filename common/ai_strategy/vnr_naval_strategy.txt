@@ -1435,6 +1435,23 @@ ITA_control_mediterranean = {
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
+	# base strategy 
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 29
+		value = 1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 168
+		value = 1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 169
+		value = 1000
+	}
+
     ai_strategy = {
 		type = naval_dominance
 		id = vnr_ita_med_zones

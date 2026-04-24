@@ -1,19 +1,38 @@
 vnr_cv_fighter = {
     category = air
-    roles = { air_cv_fighter }
+    roles = { vnr_air_cv_fighter }
 
     priority = {
         factor = 9999
-        modifier = {
-            factor = 0
-            expert_ai_plane = no
-        }
     }
 
     basic_cv_fighter = {
         priority = {
             factor = 100
             modifier = { factor = 0.1 has_tech = improved_small_airframe }
+            modifier = { factor = 0 expert_ai_plane = yes }
+        }
+
+        target_variant = {
+            match_value = 5000
+            type = cv_small_plane_airframe_1
+            modules = {
+                engine_type_slot = engine_2_1x
+                fixed_main_weapon_slot = light_mg_4x
+            }
+        }
+        allowed_modules = {
+            light_mg_4x
+            armor_plate_small
+            self_sealing_fuel_tanks_small
+        }
+    }
+
+    basic_cv_fighter_expert = {
+        priority = {
+            factor = 100
+            modifier = { factor = 0.1 has_tech = improved_small_airframe }
+            modifier = { factor = 0 expert_ai_plane = no }
         }
 
         target_variant = {
@@ -40,6 +59,44 @@ vnr_cv_fighter = {
                 factor = 0.1
                 has_tech = advanced_small_airframe
             }
+            modifier = {
+                factor = 0
+                expert_ai_plane = no
+            }
+        }
+
+        target_variant = {
+            match_value = 6000
+            type = cv_small_plane_airframe_2
+            modules = {
+                engine_type_slot = engine_3_1x
+                fixed_main_weapon_slot = heavy_mg_4x
+                fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+            }
+        }
+        allowed_modules = {
+            heavy_mg_4x
+            heavy_mg_2x
+            armor_plate_small
+            self_sealing_fuel_tanks_small
+        }
+    }
+
+    improved_cv_fighter_expert = {
+        priority = {
+            factor = 20
+            modifier = {
+                factor = 10
+                has_tech = improved_small_airframe 
+            }
+            modifier = {
+                factor = 0.1
+                has_tech = advanced_small_airframe
+            }
+            modifier = {
+                factor = 0
+                expert_ai_plane = yes
+            }
         }
 
         target_variant = {
@@ -63,6 +120,40 @@ vnr_cv_fighter = {
                 factor = 10
                 has_tech = advanced_small_airframe
             }
+            modifier = {
+                factor = 0
+                expert_ai_plane = no
+            }
+        }
+
+        target_variant = {
+            match_value = 7000
+            type = cv_small_plane_airframe_3
+            modules = {
+                engine_type_slot = engine_4_1x
+                fixed_main_weapon_slot = heavy_mg_4x
+                fixed_auxiliary_weapon_slot_1 = heavy_mg_4x
+                fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
+            }
+        }
+        allowed_modules = {
+            heavy_mg_4x
+            armor_plate_small
+            self_sealing_fuel_tanks_small
+        }
+    }
+
+    advanced_cv_fighter_expert = {
+        priority = {
+            factor = 30
+            modifier = {
+                factor = 10
+                has_tech = advanced_small_airframe
+            }
+            modifier = {
+                factor = 0
+                expert_ai_plane = yes
+            }
         }
 
         target_variant = {
@@ -83,20 +174,39 @@ vnr_cv_fighter = {
 
 vnr_cv_naval_bomber = {
     category = air
-    roles = { air_cv_naval_bomber }
+    roles = { vnr_air_cv_naval_bomber }
 
     priority = {
         factor = 9999
-        modifier = {
-            factor = 0
-            expert_ai_plane = no
-        }
     }
 
     basic_cv_naval_bomber = {
         priority = {
             factor = 100
             modifier = { factor = 0.1 has_tech = improved_small_airframe }
+            modifier = { factor = 0 expert_ai_plane = yes }
+        }
+
+        target_variant = {
+            match_value = 5000
+            type = cv_small_plane_naval_bomber_airframe_1
+            modules = {
+                engine_type_slot = engine_2_1x
+                fixed_main_weapon_slot = torpedo_mounting
+            }
+        }
+        allowed_modules = {
+            light_mg_4x
+            armor_plate_small
+            self_sealing_fuel_tanks_small
+        }
+    }
+
+    basic_cv_naval_bomber_expert = {
+        priority = {
+            factor = 100
+            modifier = { factor = 0.1 has_tech = improved_small_airframe }
+            modifier = { factor = 0 expert_ai_plane = no }
         }
 
         target_variant = {
@@ -123,6 +233,43 @@ vnr_cv_naval_bomber = {
                 factor = 0.1
                 has_tech = advanced_small_airframe
             }
+            modifier = {
+                factor = 0
+                expert_ai_plane = no
+            }
+        }
+
+        target_variant = {
+            match_value = 6000
+            type = cv_small_plane_naval_bomber_airframe_2
+            modules = {
+                engine_type_slot = engine_3_1x
+                fixed_main_weapon_slot = torpedo_mounting_2
+                fixed_auxiliary_weapon_slot_1 = light_mg_4x
+            }
+        }
+        allowed_modules = {
+            light_mg_4x
+            armor_plate_small
+            self_sealing_fuel_tanks_small
+        }
+    }
+
+    improved_cv_naval_bomber_expert = {
+        priority = {
+            factor = 20
+            modifier = {
+                factor = 10
+                has_tech = improved_small_airframe 
+            }
+            modifier = {
+                factor = 0.1
+                has_tech = advanced_small_airframe
+            }
+            modifier = {
+                factor = 0
+                expert_ai_plane = yes
+            }
         }
 
         target_variant = {
@@ -146,6 +293,39 @@ vnr_cv_naval_bomber = {
                 factor = 10
                 has_tech = advanced_small_airframe
             }
+            modifier = {
+                factor = 0
+                expert_ai_plane = no
+            }
+        }
+
+        target_variant = {
+            match_value = 7000
+            type = cv_small_plane_naval_bomber_airframe_3
+            modules = {
+                engine_type_slot = engine_4_1x
+                fixed_main_weapon_slot = torpedo_mounting_3
+                fixed_auxiliary_weapon_slot_1 = light_mg_4x
+            }
+        }
+        allowed_modules = {
+            light_mg_4x
+            armor_plate_small
+            self_sealing_fuel_tanks_small
+        }
+    }
+
+    advanced_cv_naval_bomber_expert = {
+        priority = {
+            factor = 30
+            modifier = {
+                factor = 10
+                has_tech = advanced_small_airframe
+            }
+            modifier = {
+                factor = 0
+                expert_ai_plane = yes
+            }
         }
 
         target_variant = {
@@ -166,20 +346,39 @@ vnr_cv_naval_bomber = {
 
 vnr_cv_cas = {
     category = air
-    roles = { air_cv_cas }
+    roles = { vnr_air_cv_cas }
 
     priority = {
         factor = 9999
-        modifier = {
-            factor = 0
-            expert_ai_plane = no
-        }
     }
 
     basic_cv_cas = {
         priority = {
             factor = 100
             modifier = { factor = 0.1 has_tech = improved_small_airframe }
+            modifier = { factor = 0 expert_ai_plane = yes }
+        }
+
+        target_variant = {
+            match_value = 5000
+            type = cv_small_plane_cas_airframe_1
+            modules = {
+                engine_type_slot = engine_2_1x
+                fixed_main_weapon_slot = armor_piercing_bomb_locks
+            }
+        }
+        allowed_modules = {
+            armor_piercing_bomb_locks
+            armor_plate_small
+            dive_brakes_small
+        }
+    }
+
+    basic_cv_cas_expert = {
+        priority = {
+            factor = 100
+            modifier = { factor = 0.1 has_tech = improved_small_airframe }
+            modifier = { factor = 0 expert_ai_plane = no }
         }
 
         target_variant = {
@@ -206,6 +405,43 @@ vnr_cv_cas = {
                 factor = 0.1
                 has_tech = advanced_small_airframe
             }
+            modifier = {
+                factor = 0
+                expert_ai_plane = no
+            }
+        }
+
+        target_variant = {
+            match_value = 6000
+            type = cv_small_plane_naval_bomber_airframe_2
+            modules = {
+                engine_type_slot = engine_3_1x
+                fixed_main_weapon_slot = armor_piercing_bomb_locks
+                fixed_auxiliary_weapon_slot_1 = armor_piercing_bomb_locks
+            }
+        }
+        allowed_modules = {
+            armor_piercing_bomb_locks
+            armor_plate_small
+            dive_brakes_small
+        }
+    }
+
+    improved_cv_cas_expert = {
+        priority = {
+            factor = 20
+            modifier = {
+                factor = 10
+                has_tech = improved_small_airframe 
+            }
+            modifier = {
+                factor = 0.1
+                has_tech = advanced_small_airframe
+            }
+            modifier = {
+                factor = 0
+                expert_ai_plane = yes
+            }
         }
 
         target_variant = {
@@ -229,6 +465,39 @@ vnr_cv_cas = {
             modifier = {
                 factor = 10
                 has_tech = advanced_small_airframe
+            }
+            modifier = {
+                factor = 0
+                expert_ai_plane = no
+            }
+        }
+
+        target_variant = {
+            match_value = 7000
+            type = cv_small_plane_naval_bomber_airframe_3
+            modules = {
+                engine_type_slot = engine_4_1x
+                fixed_main_weapon_slot = armor_piercing_bomb_locks
+                fixed_auxiliary_weapon_slot_1 = armor_piercing_bomb_locks
+            }
+        }
+        allowed_modules = {
+            armor_piercing_bomb_locks
+            armor_plate_small
+            dive_brakes_small
+        }
+    }
+
+    advanced_cv_cas_expert = {
+        priority = {
+            factor = 30
+            modifier = {
+                factor = 10
+                has_tech = advanced_small_airframe
+            }
+            modifier = {
+                factor = 0
+                expert_ai_plane = yes
             }
         }
 
