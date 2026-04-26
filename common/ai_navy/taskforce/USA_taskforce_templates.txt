@@ -3,7 +3,7 @@ USA_StrikeForce_1 = {
 		original_tag = USA 
 	}
 	ai_will_do = {
-		factor = 30
+		factor = 1
 	}	
 	mission = { naval_strike }
 	min_composition = {
@@ -63,7 +63,7 @@ USA_PatrolDominanceForce_1 = {
 	}	
 	mission = { naval_patrol }
 	min_composition = {
-		light_cruiser = {
+		heavy_cruiser = {
 			amount = 2
 		}
 		destroyer = {
@@ -122,6 +122,36 @@ USA_ConvoyEscort_1 = {
 	optimal_composition = {
 		destroyer = {
 			amount = 5
+		}
+	}
+}
+
+USA_InvasionSupport_1 = {
+	allowed = {
+		original_tag = USA
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { naval_invasion_support }
+
+	min_composition = {
+		heavy_cruiser = {
+			amount = 1
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
+	optimal_composition = {
+		battleship = {
+			amount = 2
+		}
+		heavy_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 10
 		}
 	}
 }

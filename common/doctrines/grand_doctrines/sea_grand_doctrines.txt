@@ -23,6 +23,7 @@ new_fleet_in_being = {
         screens
         carriers
         capital_ships
+        naval_logistics
     }
 
     # EFFECTS
@@ -80,8 +81,8 @@ new_fleet_in_being = {
         {
             #Carriers
 	        carrier = {
-                carrier_surface_detection = 0.1
-                carrier_sub_detection = 0.05
+                surface_detection = 0.1
+                sub_detection = 0.05
             }
             fighter_sortie_efficiency = 0.1
             effect = {
@@ -100,7 +101,7 @@ new_fleet_in_being = {
         }
         {
             #Capital Ships
-			positioning = 0.1
+			navy_capital_ship_attack_factor = 0.1
             strike_force_movement_org_loss = -0.1
             effect = {
                 if = {
@@ -113,6 +114,25 @@ new_fleet_in_being = {
                 }
                 else = {
                     add_to_variable = { capital_ships_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #Naval Logistics
+			naval_accidents_chance = -0.1
+            naval_torpedo_damage_reduction_factor = 0.05
+            critical_receive_chance = -0.05
+            effect = {
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = naval_logistics_milestone_var
+                        }
+                    }
+                    set_variable = { naval_logistics_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { naval_logistics_milestone_var = 1 }
                 }
             }
         }
@@ -154,6 +174,7 @@ new_convoy_raiding = {
         screens
         carriers
         capital_ships
+        naval_logistics
     }
 
     # EFFECTS
@@ -163,7 +184,7 @@ new_convoy_raiding = {
     }
 	submarine = {
 		max_organisation = 10
-		surface_detection = 0.05
+        convoy_raiding_coordination = 0.05
 	}
 	convoy_raiding_efficiency_factor = 0.1
 	
@@ -172,8 +193,8 @@ new_convoy_raiding = {
             #Submarines
 	        naval_torpedo_reveal_chance_factor = -0.1
 			submarine = {
-                convoy_raiding_coordination = 0.1
-                naval_speed = 0.1
+                convoy_raiding_coordination = 0.05
+                sub_visibility = -0.1
             }
             effect = {
                 if = {
@@ -210,8 +231,8 @@ new_convoy_raiding = {
         {
             #Carriers
 	        carrier = {
-                carrier_surface_detection = 0.1
-                carrier_sub_detection = 0.1
+                surface_detection = 0.1
+                sub_detection = 0.1
             }
             effect = {
                 if = {
@@ -229,8 +250,19 @@ new_convoy_raiding = {
         }
         {
             #Capital Ships
-			navy_max_range_factor = 0.1
-            naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+			battleship = {
+                surface_visibility = -0.05
+            }
+            battle_cruiser = {
+                surface_visibility = -0.05
+            }
+            heavy_cruiser = {
+                surface_visibility = -0.05
+            }
+            medium_cruiser = {
+                surface_visibility = -0.05
+            }
+            screening_without_screens = 0.1
             effect = {
                 if = {
                     limit = {
@@ -242,6 +274,24 @@ new_convoy_raiding = {
                 }
                 else = {
                     add_to_variable = { capital_ships_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #Naval Logistics
+			navy_max_range_factor = 0.1
+            navy_fuel_consumption_factor = -0.1
+            effect = {
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = naval_logistics_milestone_var
+                        }
+                    }
+                    set_variable = { naval_logistics_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { naval_logistics_milestone_var = 1 }
                 }
             }
         }
@@ -273,6 +323,7 @@ new_base_strike = {
         screens
         carriers
         capital_ships
+        naval_logistics
     }
 
     # EFFECTS
@@ -330,8 +381,8 @@ new_base_strike = {
 	        carrier_capacity_penalty_reduction = -0.1
 			sortie_efficiency = 0.1
             carrier = {
-                carrier_surface_detection = 0.05
-                carrier_sub_detection = 0.05
+                surface_detection = 0.05
+                sub_detection = 0.05
             }
             effect = {
                 if = {
@@ -365,6 +416,27 @@ new_base_strike = {
                 }
             }
         }
+        {
+            #Naval Logistics
+            critical_receive_chance = -0.05
+            naval_critical_effect_factor = -0.05
+            carrier = {
+                supply_consumption = -0.02
+            }
+            effect = {
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = naval_logistics_milestone_var
+                        }
+                    }
+                    set_variable = { naval_logistics_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { naval_logistics_milestone_var = 1 }
+                }
+            }
+        }
     }
 }
 
@@ -390,6 +462,7 @@ new_littoral_defense = {
         screens
         carriers
         capital_ships
+        naval_logistics
     }
 
     # EFFECTS
@@ -470,6 +543,24 @@ new_littoral_defense = {
                 }
                 else = {
                     add_to_variable = { capital_ships_milestone_var = 1 }
+                }
+            }
+        }
+        {
+            #Naval Logistics
+			naval_accidents_chance = -0.05
+            repair_speed_dockyard_factor = 0.1
+            effect = {
+                if = {
+                    limit = {
+                        NOT = {
+                            has_variable = naval_logistics_milestone_var
+                        }
+                    }
+                    set_variable = { naval_logistics_milestone_var = 1 }
+                }
+                else = {
+                    add_to_variable = { naval_logistics_milestone_var = 1 }
                 }
             }
         }

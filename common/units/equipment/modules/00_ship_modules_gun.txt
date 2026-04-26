@@ -23,6 +23,7 @@ equipment_modules = {
 		dismantle_cost_ic = 2
 
 		critical_parts = { damaged_secondaries }
+		manpower = 7
 	}
 
 	ship_light_battery_2 = {
@@ -46,6 +47,7 @@ equipment_modules = {
 		dismantle_cost_ic = 4
 		
 		critical_parts = { damaged_secondaries }
+		manpower = 7
 	}
 
 	ship_light_battery_3 = {
@@ -69,6 +71,7 @@ equipment_modules = {
 		dismantle_cost_ic = 6
 		
 		critical_parts = { damaged_secondaries }
+		manpower = 8
 	}
 
 	ship_light_battery_4 = {
@@ -91,6 +94,7 @@ equipment_modules = {
 		dismantle_cost_ic = 8
 		
 		critical_parts = { damaged_secondaries }
+		manpower = 8
 	}
 	
 	ship_light_battery_1_double = {
@@ -112,6 +116,7 @@ equipment_modules = {
 		dismantle_cost_ic = 4
 
 		critical_parts = { damaged_secondaries }
+		manpower = 9
 	}
 
 	ship_light_battery_2_double = {
@@ -135,6 +140,7 @@ equipment_modules = {
 		dismantle_cost_ic = 8
 		
 		critical_parts = { damaged_secondaries }
+		manpower = 9
 	}
 
 	ship_light_battery_3_double = {
@@ -157,6 +163,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 12
 		critical_parts = { damaged_secondaries }
+		manpower = 11
 	}
 
 	ship_light_battery_4_double = {
@@ -179,6 +186,7 @@ equipment_modules = {
 		dismantle_cost_ic = 16
 
 		critical_parts = { damaged_secondaries }
+		manpower = 11
 	}
 
 	dp_light_battery_1 = {
@@ -202,6 +210,7 @@ equipment_modules = {
 		dismantle_cost_ic = 10
 		
 		critical_parts = { damaged_secondaries }
+		manpower = 9
 	}
 
 	dp_light_battery_2 = {
@@ -226,6 +235,7 @@ equipment_modules = {
 		dismantle_cost_ic = 20
 
 		critical_parts = { damaged_secondaries }
+		manpower = 9
 	}
 
 	dp_light_battery_3 = {
@@ -250,6 +260,7 @@ equipment_modules = {
 		dismantle_cost_ic = 30
 
 		critical_parts = { damaged_secondaries }
+		manpower = 11
 	}
 
 	dp_light_battery_4 = {
@@ -274,6 +285,7 @@ equipment_modules = {
 		dismantle_cost_ic = 40
 
 		critical_parts = { damaged_secondaries }
+		manpower = 11
 	}
 
 	dp_light_battery_5 = {
@@ -297,6 +309,7 @@ equipment_modules = {
 		dismantle_cost_ic = 28
 		
 		critical_parts = { damaged_secondaries }
+		manpower = 5
 	}
 	
 	dp_light_battery_1_single = {
@@ -319,6 +332,7 @@ equipment_modules = {
 		dismantle_cost_ic = 5
 
 		critical_parts = { damaged_secondaries }
+		manpower = 7
 	}
 
 	dp_light_battery_2_single = {
@@ -342,6 +356,7 @@ equipment_modules = {
 		dismantle_cost_ic = 10
 
 		critical_parts = { damaged_secondaries }
+		manpower = 7
 	}
 
 	dp_light_battery_3_single = {
@@ -365,6 +380,7 @@ equipment_modules = {
 		dismantle_cost_ic = 15
 
 		critical_parts = { damaged_secondaries }
+		manpower = 9
 	}
 
 	dp_light_battery_4_single = {
@@ -388,6 +404,7 @@ equipment_modules = {
 		dismantle_cost_ic = 20
 
 		critical_parts = { damaged_secondaries }
+		manpower = 9
 	}
 
 	dp_light_battery_5_single = {
@@ -411,6 +428,7 @@ equipment_modules = {
 		dismantle_cost_ic = 20
 		
 		critical_parts = { damaged_secondaries }
+		manpower = 4
 	}
 
 
@@ -428,7 +446,6 @@ equipment_modules = {
 			build_cost_ic = 250
 			surface_visibility = 0.4
 			max_strength = 19.5
-			armor_value = 0.2
 		}
 		multiply_stats = {
 			build_cost_ic = 0.05
@@ -442,6 +459,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 180
 		critical_parts = { damaged_light_guns }
+		manpower = 30
 	}
 	ship_medium_battery_2 = {
 		abbreviation = "sao"
@@ -456,7 +474,6 @@ equipment_modules = {
 			build_cost_ic = 350
 			surface_visibility = 0.5
 			max_strength = 23.5
-			armor_value = 0.2
 		}
 		multiply_stats = {
 			build_cost_ic = 0.055
@@ -470,6 +487,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 210
 		critical_parts = { damaged_light_guns }
+		manpower = 30
 	}
 	ship_medium_battery_3 = {
 		abbreviation = "sap"
@@ -484,7 +502,6 @@ equipment_modules = {
 			build_cost_ic = 450
 			surface_visibility = 0.6
 			max_strength = 27.5
-			armor_value = 0.2
 		}
 		multiply_stats = {
 			build_cost_ic = 0.06
@@ -498,6 +515,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 240
 		critical_parts = { damaged_light_guns }
+		manpower = 32
 	}
 	ship_medium_battery_4 = {
 		abbreviation = "saq"
@@ -512,7 +530,6 @@ equipment_modules = {
 			build_cost_ic = 550
 			surface_visibility = 0.7
 			max_strength = 31
-			armor_value = 0.2
 		}
 		multiply_stats = {
 			build_cost_ic = 0.065
@@ -526,6 +543,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 270
 		critical_parts = { damaged_light_guns }
+		manpower = 34
 	}
 	
 	ship_medium_battery_1_double = {
@@ -539,7 +557,6 @@ equipment_modules = {
 			build_cost_ic = 200
 			surface_visibility = 0.3
 			max_strength = 15.5
-			armor_value = 0.15
 		}
 		multiply_stats = {
 			build_cost_ic = 0.03
@@ -553,6 +570,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 135
 		critical_parts = { damaged_light_guns }
+		manpower = 18
 	}
 	ship_medium_battery_2_double = {
 		abbreviation = "saod"
@@ -567,7 +585,6 @@ equipment_modules = {
 			build_cost_ic = 250
 			surface_visibility = 0.4
 			max_strength = 19
-			armor_value = 0.15
 		}
 		multiply_stats = {
 			build_cost_ic = 0.04
@@ -581,6 +598,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 165
 		critical_parts = { damaged_light_guns }
+		manpower = 18
 	}
 	ship_medium_battery_3_double = {
 		abbreviation = "sapd"
@@ -595,7 +613,6 @@ equipment_modules = {
 			build_cost_ic = 350
 			surface_visibility = 0.5
 			max_strength = 22
-			armor_value = 0.15
 		}
 		multiply_stats = {
 			build_cost_ic = 0.05
@@ -609,6 +626,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 195
 		critical_parts = { damaged_light_guns }
+		manpower = 22
 	}
 	ship_medium_battery_4_double = {
 		abbreviation = "saqd"
@@ -623,7 +641,6 @@ equipment_modules = {
 			build_cost_ic = 450
 			surface_visibility = 0.6
 			max_strength = 25
-			armor_value = 0.15
 		}
 		multiply_stats = {
 			build_cost_ic = 0.06
@@ -637,6 +654,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 225
 		critical_parts = { damaged_light_guns }
+		manpower = 22
 	}
 
 	# single medium battery
@@ -650,7 +668,6 @@ equipment_modules = {
 			build_cost_ic = 200
 			surface_visibility = 0.3
 			max_strength = 12
-			armor_value = 0.1
 		}
 		multiply_stats = {
 			build_cost_ic = 0.03
@@ -664,6 +681,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 90
 		critical_parts = { damaged_light_guns }
+		manpower = 20
 	}
 	ship_medium_battery_2_single = {
 		category = ship_medium_battery_single
@@ -677,7 +695,6 @@ equipment_modules = {
 			build_cost_ic = 300
 			surface_visibility = 0.4
 			max_strength = 14
-			armor_value = 0.1
 		}
 		multiply_stats = {
 			build_cost_ic = 0.04
@@ -691,6 +708,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 120
 		critical_parts = { damaged_light_guns }
+		manpower = 20
 	}
 	ship_medium_battery_3_single = {
 		category = ship_medium_battery_single
@@ -704,7 +722,6 @@ equipment_modules = {
 			build_cost_ic = 400
 			surface_visibility = 0.5
 			max_strength = 16.5
-			armor_value = 0.1
 		}
 		multiply_stats = {
 			build_cost_ic = 0.05
@@ -718,6 +735,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 150
 		critical_parts = { damaged_light_guns }
+		manpower = 24
 	}
 	ship_medium_battery_4_single = {
 		category = ship_medium_battery_single
@@ -731,7 +749,6 @@ equipment_modules = {
 			build_cost_ic = 500
 			surface_visibility = 0.6
 			max_strength = 18.5
-			armor_value = 0.1
 		}
 		multiply_stats = {
 			build_cost_ic = 0.06
@@ -745,6 +762,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 180
 		critical_parts = { damaged_light_guns }
+		manpower = 24
 	}
 
 	# double medium heavy battery
@@ -780,6 +798,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 225
 		critical_parts = { damaged_heavy_guns }
+		manpower = 32
 	}
 	ship_medium_heavy_battery_2_double = {
 		category = ship_medium_heavy_battery_double
@@ -814,6 +833,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 260
 		critical_parts = { damaged_heavy_guns }
+		manpower = 34
 	}
 
 	# triple medium heavy battery
@@ -849,6 +869,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 270
 		critical_parts = { damaged_heavy_guns }
+		manpower = 40
 	}
 	ship_medium_heavy_battery_2 = {
 		category = ship_medium_heavy_battery_triple
@@ -883,6 +904,7 @@ equipment_modules = {
 		dismantle_cost_ic = 300
 
 		critical_parts = { damaged_heavy_guns }
+		manpower = 42
 	}
 	
 	# triple light medium
@@ -910,6 +932,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 105
 		critical_parts = { damaged_light_guns }
+		manpower = 25
 	}
 	ship_light_medium_battery_2 = {
 		abbreviation = "sas"
@@ -936,6 +959,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 120
 		critical_parts = { damaged_light_guns }
+		manpower = 25
 	}
 	ship_light_medium_battery_3 = {
 		abbreviation = "sat"
@@ -962,6 +986,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 135
 		critical_parts = { damaged_light_guns }
+		manpower = 28
 	}
 	ship_light_medium_battery_4 = {
 		abbreviation = "sau"
@@ -987,6 +1012,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 150
 		critical_parts = { damaged_light_guns }
+		manpower = 30
 	}
 	
 	# double light medium
@@ -1014,6 +1040,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 75
 		critical_parts = { damaged_light_guns }
+		manpower = 16
 	}
 	ship_light_medium_battery_2_double = {
 		abbreviation = "sasd"
@@ -1040,6 +1067,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 97.5
 		critical_parts = { damaged_light_guns }
+		manpower = 16
 	}
 	ship_light_medium_battery_3_double = {
 		abbreviation = "satd"
@@ -1066,6 +1094,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 112.5
 		critical_parts = { damaged_light_guns }
+		manpower = 19
 	}
 	ship_light_medium_battery_4_double = {
 		abbreviation = "saud"
@@ -1091,6 +1120,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 120
 		critical_parts = { damaged_light_guns }
+		manpower = 22
 	}
 	
 	# single light medium
@@ -1117,6 +1147,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 67.5
 		critical_parts = { damaged_light_guns }
+		manpower = 18
 	}
 	ship_light_medium_battery_2_single = {
 		abbreviation = "sass"
@@ -1142,6 +1173,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 75
 		critical_parts = { damaged_light_guns }
+		manpower = 18
 	}
 	ship_light_medium_battery_3_single = {
 		abbreviation = "sats"
@@ -1167,6 +1199,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 82.5
 		critical_parts = { damaged_light_guns }
+		manpower = 22
 	}
 	ship_light_medium_battery_4_single = {
 		abbreviation = "saus"
@@ -1191,6 +1224,7 @@ equipment_modules = {
 
 		dismantle_cost_ic = 97.5
 		critical_parts = { damaged_light_guns }
+		manpower = 25
 	}
 
 	dp_ship_medium_1 = {
@@ -1220,6 +1254,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 120
 		critical_parts = { damaged_light_guns }
+		manpower = 30
 	}
 
 
@@ -1253,6 +1288,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 50
 	}
 
 	ship_heavy_battery_1 = {
@@ -1282,6 +1318,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 60
 	}
 	
 	ship_heavy_battery_big_1 = {
@@ -1311,6 +1348,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 75
 	}
 
 	ship_heavy_battery_2 = {
@@ -1341,6 +1379,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 85
 	}
 
 	ship_heavy_battery_3 = {
@@ -1362,7 +1401,7 @@ equipment_modules = {
 			naval_speed = -0.04
 		}
 		add_average_stats = {
-			hg_armor_piercing = 43
+			hg_armor_piercing = 41
 		}
 		
 		dismantle_cost_ic = 320
@@ -1371,6 +1410,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 85
 	}
 
 	ship_heavy_battery_4 = {
@@ -1392,7 +1432,7 @@ equipment_modules = {
 			naval_speed = -0.05
 		}
 		add_average_stats = {
-			hg_armor_piercing = 48
+			hg_armor_piercing = 45
 		}
 		
 		dismantle_cost_ic = 340
@@ -1401,6 +1441,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 90
 	}
 
 	ship_super_heavy_battery_1 = {
@@ -1414,7 +1455,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 1
-			hg_attack = 15
+			hg_attack = 12
 			max_strength = 52
 			build_cost_ic = 1250
 			reliability = -0.06
@@ -1429,6 +1470,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 500
 		critical_parts = { damaged_heavy_guns }
+		manpower = 90
 	}
 	
 	ship_super_heavy_battery_big_1 = {
@@ -1443,7 +1485,7 @@ equipment_modules = {
 		add_stats = {
 			surface_visibility = 1.2
 			reliability = -0.1
-			hg_attack = 21
+			hg_attack = 18
 			max_strength = 70
 			build_cost_ic = 1750
 		}
@@ -1456,6 +1498,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 700
 		critical_parts = { damaged_heavy_guns }
+		manpower = 110
 	}
 
 	# triple mounted
@@ -1485,6 +1528,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 60
 	}
 
 	ship_heavy_battery_1_triple = {
@@ -1514,6 +1558,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 70
 	}
 	
 	ship_heavy_battery_big_1_triple = {
@@ -1543,6 +1588,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 80
 	}
 
 	ship_heavy_battery_2_triple = {
@@ -1573,6 +1619,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 90
 	}
 
 	ship_heavy_battery_3_triple = {
@@ -1594,7 +1641,7 @@ equipment_modules = {
 			naval_speed = -0.055
 		}
 		add_average_stats = {
-			hg_armor_piercing = 43
+			hg_armor_piercing = 41
 		}
 		
 		dismantle_cost_ic = 380
@@ -1603,6 +1650,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 90
 	}
 
 	ship_heavy_battery_4_triple = {
@@ -1624,7 +1672,7 @@ equipment_modules = {
 			naval_speed = -0.06
 		}
 		add_average_stats = {
-			hg_armor_piercing = 48
+			hg_armor_piercing = 45
 		}
 		
 		dismantle_cost_ic = 420
@@ -1633,6 +1681,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 100
 	}
 
 	ship_super_heavy_battery_1_triple = {
@@ -1646,7 +1695,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 1.1
-			hg_attack = 20
+			hg_attack = 16
 			max_strength = 64
 			build_cost_ic = 1450
 			reliability = -0.09
@@ -1662,6 +1711,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 580
 		critical_parts = { damaged_heavy_guns }
+		manpower = 100
 	}
 	
 	ship_super_heavy_battery_big_1_triple = {
@@ -1676,7 +1726,7 @@ equipment_modules = {
 		add_stats = {
 			surface_visibility = 1.3
 			reliability = -0.15
-			hg_attack = 25
+			hg_attack = 22
 			max_strength = 90
 			build_cost_ic = 1950
 		}
@@ -1689,6 +1739,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 780
 		critical_parts = { damaged_heavy_guns }
+		manpower = 120
 	}
 
 	# quadruple mounted
@@ -1720,6 +1771,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 75
 	}
 
 	ship_heavy_battery_1_quad = {
@@ -1735,7 +1787,7 @@ equipment_modules = {
 			max_strength = 37
 			build_cost_ic = 900
 			reliability = -0.05
-			naval_heavy_gun_hit_chance_factor = -0.01
+			naval_heavy_gun_hit_chance_factor = -0.02
 		}
 		multiply_stats = {
 			build_cost_ic = 0.025
@@ -1751,6 +1803,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 85
 	}
 	
 	ship_heavy_battery_big_1_quad = {
@@ -1766,7 +1819,7 @@ equipment_modules = {
 			max_strength = 52
 			build_cost_ic = 1000
 			reliability = -0.08
-			naval_heavy_gun_hit_chance_factor = -0.01
+			naval_heavy_gun_hit_chance_factor = -0.03
 		}
 		multiply_stats = {
 			build_cost_ic = 0.03
@@ -1782,6 +1835,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 95
 	}
 
 	ship_heavy_battery_2_quad = {
@@ -1797,7 +1851,7 @@ equipment_modules = {
 			max_strength = 60
 			build_cost_ic = 1150
 			reliability = -0.12
-			naval_heavy_gun_hit_chance_factor = -0.01
+			naval_heavy_gun_hit_chance_factor = -0.04
 		}
 		multiply_stats = {
 			build_cost_ic = 0.04
@@ -1813,6 +1867,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 100
 	}
 
 	ship_heavy_battery_3_quad = {
@@ -1828,14 +1883,14 @@ equipment_modules = {
 			max_strength = 74
 			build_cost_ic = 1300
 			reliability = -0.08
-			naval_heavy_gun_hit_chance_factor = -0.01
+			naval_heavy_gun_hit_chance_factor = -0.05
 		}
 		multiply_stats = {
 			build_cost_ic = 0.047
 			naval_speed = -0.06
 		}
 		add_average_stats = {
-			hg_armor_piercing = 43
+			hg_armor_piercing = 41
 		}
 	
 		dismantle_cost_ic = 560
@@ -1844,6 +1899,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 100
 	}
 
 	ship_heavy_battery_4_quad = {
@@ -1859,14 +1915,14 @@ equipment_modules = {
 			max_strength = 96
 			build_cost_ic = 1400
 			reliability = -0.08
-			naval_heavy_gun_hit_chance_factor = -0.01
+			naval_heavy_gun_hit_chance_factor = -0.06
 		}
 		multiply_stats = {
 			build_cost_ic = 0.053
 			naval_speed = -0.07
 		}
 		add_average_stats = {
-			hg_armor_piercing = 48
+			hg_armor_piercing = 45
 		}
 
 		dismantle_cost_ic = 620
@@ -1875,6 +1931,7 @@ equipment_modules = {
 		    ship_depth_charge
 			ship_mine_layer
 		}
+		manpower = 105
 	}
 
 	ship_super_heavy_battery_1_quad = {
@@ -1888,11 +1945,11 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 1.2
-			hg_attack = 27
+			hg_attack = 22
 			max_strength = 96
 			build_cost_ic = 1600
 			reliability = -0.19
-			naval_heavy_gun_hit_chance_factor = -0.015
+			naval_heavy_gun_hit_chance_factor = -0.05
 		}
 		
 		multiply_stats = {
@@ -1905,6 +1962,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 700
 		critical_parts = { damaged_heavy_guns }
+		manpower = 120
 	}
 	
 	ship_super_heavy_battery_big_1_quad = {
@@ -1918,11 +1976,11 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 1.5
-			hg_attack = 33.5
+			hg_attack = 28
 			max_strength = 130
 			build_cost_ic = 2100
 			reliability = -0.23
-			naval_heavy_gun_hit_chance_factor = -0.02
+			naval_heavy_gun_hit_chance_factor = -0.08
 		}
 		multiply_stats = {
 			build_cost_ic = 0.07
@@ -1934,6 +1992,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 900
 		critical_parts = { damaged_heavy_guns }
+		manpower = 150
 	}
 
 	ship_super_heavy_battery_2 = {
@@ -1946,9 +2005,9 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 1
-			hg_attack = 18
+			hg_attack = 16
 			max_strength = 70
-			build_cost_ic = 1650
+			build_cost_ic = 1550
 			reliability = -0.08
 		}
 		multiply_stats = {
@@ -1956,11 +2015,12 @@ equipment_modules = {
 			naval_speed = -0.075
 		}
 		add_average_stats = {
-			hg_armor_piercing = 54
+			hg_armor_piercing = 51
 		}
 
 		dismantle_cost_ic = 720
 		critical_parts = { damaged_heavy_guns }
+		manpower = 95
 	}
 	ship_super_heavy_battery_2_triple = {
 		category = ship_super_heavy_battery_triple
@@ -1972,9 +2032,9 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 1.1
-			hg_attack = 24
+			hg_attack = 20
 			max_strength = 90
-			build_cost_ic = 1900
+			build_cost_ic = 1800
 			reliability = -0.12
 		}
 		multiply_stats = {
@@ -1982,11 +2042,12 @@ equipment_modules = {
 			naval_speed = -0.12
 		}
 		add_average_stats = {
-			hg_armor_piercing = 54
+			hg_armor_piercing = 51
 		}
 	
 		dismantle_cost_ic = 840
 		critical_parts = { damaged_heavy_guns }
+		manpower = 100
 	}
 	ship_super_heavy_battery_2_quad = {
 		category = ship_super_heavy_battery_quad
@@ -1998,22 +2059,23 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 1.2
-			hg_attack = 32.4
+			hg_attack = 26
 			max_strength = 130
-			build_cost_ic = 2000
+			build_cost_ic = 1900
 			reliability = -0.2
-			naval_heavy_gun_hit_chance_factor = -0.015
+			naval_heavy_gun_hit_chance_factor = -0.065
 		}
 		multiply_stats = {
 			build_cost_ic = 0.065
 			naval_speed = -0.16
 		}
 		add_average_stats = {
-			hg_armor_piercing = 54
+			hg_armor_piercing = 51
 		}
 		
 		dismantle_cost_ic = 960
 		critical_parts = { damaged_heavy_guns }
+		manpower = 110
 	}
 
 
@@ -2041,6 +2103,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 54
 		critical_parts = { damaged_secondaries }
+		manpower = 50
 	}
 
 	ship_secondaries_2 = {
@@ -2063,6 +2126,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 72
 		critical_parts = { damaged_secondaries }
+		manpower = 65
 	}
 
 	ship_secondaries_3 = {
@@ -2085,6 +2149,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 90
 		critical_parts = { damaged_secondaries }
+		manpower = 70
 	}
 
 	ship_secondaries_4 = {
@@ -2106,6 +2171,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 105
 		critical_parts = { damaged_secondaries }
+		manpower = 80
 	}
 
 	ship_secondaries_1_light = {
@@ -2129,6 +2195,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 54
 		critical_parts = { damaged_secondaries }
+		manpower = 20
 	}
 
 	ship_secondaries_2_light = {
@@ -2151,6 +2218,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 72
 		critical_parts = { damaged_secondaries }
+		manpower = 28
 	}
 
 	dp_ship_secondaries_1 = {
@@ -2170,6 +2238,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 36
 		critical_parts = { damaged_secondaries }
+		manpower = 28
 	}
 
 	dp_ship_secondaries_2 = {
@@ -2190,6 +2259,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 40
 		critical_parts = { damaged_secondaries }
+		manpower = 32
 	}
 
 	dp_ship_secondaries_3 = {
@@ -2210,6 +2280,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 48
 		critical_parts = { damaged_secondaries }
+		manpower = 36
 	}
 
 	dp_ship_secondaries_4 = {
@@ -2230,6 +2301,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 58
 		critical_parts = { damaged_secondaries }
+		manpower = 40
 	}
 
 	dp_ship_secondaries_5 = {
@@ -2250,6 +2322,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 75
 		critical_parts = { damaged_secondaries }
+		manpower = 36
 	}
 
 	dp_ship_secondaries_1_bb = {
@@ -2272,6 +2345,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 36
 		critical_parts = { damaged_secondaries }
+		manpower = 36
 	}
 
 	dp_ship_secondaries_2_bb = {
@@ -2295,6 +2369,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 40
 		critical_parts = { damaged_secondaries }
+		manpower = 40
 	}
 
 	dp_ship_secondaries_3_bb = {
@@ -2318,6 +2393,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 48
 		critical_parts = { damaged_secondaries }
+		manpower = 44
 	}
 
 	dp_ship_secondaries_4_bb = {
@@ -2341,6 +2417,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 58
 		critical_parts = { damaged_secondaries }
+		manpower = 48
 	}
 
 	dp_ship_secondaries_5_bb = {
@@ -2365,6 +2442,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 75
 		critical_parts = { damaged_secondaries }
+		manpower = 45
 	}
 
 
@@ -2395,6 +2473,7 @@ equipment_modules = {
 		xp_cost = 5
 		dismantle_cost_ic = 600
 		critical_parts = { damaged_missiles }
+		manpower = 15
 	}
 	ship_missile_2 = {
 		category = ship_missile
@@ -2421,6 +2500,7 @@ equipment_modules = {
 		xp_cost = 8
 		dismantle_cost_ic = 950
 		critical_parts = { damaged_missiles }
+		manpower = 20
 	}
 	ship_cruise_missile_1 = {
 		category = ship_missile
@@ -2439,6 +2519,7 @@ equipment_modules = {
 		xp_cost = 3
 		dismantle_cost_ic = 600
 		critical_parts = { damaged_missiles }
+		manpower = 15
 	}
 	ship_cruise_missile_sub_1 = {
 		category = ship_sub_missile
@@ -2457,6 +2538,7 @@ equipment_modules = {
 		}
 		xp_cost = 3
 		dismantle_cost_ic = 1100
+		manpower = 10
 	}
 
 
@@ -2477,6 +2559,7 @@ equipment_modules = {
 			naval_speed = -0.001
 		}
 		critical_parts = { damaged_light_guns }
+		manpower = 5
 	}
 	ship_rocket_launcher = {
 		category = civilian_ship_weapons
@@ -2490,6 +2573,7 @@ equipment_modules = {
 			max_strength = -0.1
 			naval_speed = -0.05
 		}
+		manpower = 12
 	}
 
 
@@ -2499,6 +2583,7 @@ equipment_modules = {
     sub_battery_1 = {
 		category = sub_battery
 		sfx = sfx_ui_sd_module_turret
+		gui_category = sub_deck_gun
 
 		add_stats = {
 			hg_attack = 4
@@ -2510,7 +2595,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.05
-			sub_visibility = 0.05
+			sub_visibility = 0.1
 		}
 		add_average_stats = {
 			hg_armor_piercing = 20
@@ -2519,6 +2604,7 @@ equipment_modules = {
 		dismantle_cost_ic = 90
 
 		critical_parts = { damaged_heavy_guns }
+		manpower = 16
 	}
 	
 ################
@@ -2613,6 +2699,62 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 10
 		
-		critical_parts = { damaged_light_guns }
+		critical_parts = { damaged_secondaries }
+		manpower = 12
+	}
+
+################
+##  Deck Gun  ##
+################
+	sub_deck_gun_1 = {
+		category = sub_deck_gun
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			lg_attack = 0.5
+			convoy_raiding_coordination = 0.01
+			build_cost_ic = 10
+		}
+		dismantle_cost_ic = 2
+		critical_parts = { damaged_secondaries }
+	}
+	sub_deck_gun_2 = {
+		category = sub_deck_gun
+		sfx = sfx_ui_sd_module_turret
+		parent = sub_deck_gun_1
+
+		add_stats = {
+			lg_attack = 1
+			convoy_raiding_coordination = 0.02
+			build_cost_ic = 10
+		}
+		dismantle_cost_ic = 2
+		critical_parts = { damaged_secondaries }
+	}
+	sub_deck_gun_3 = {
+		category = sub_deck_gun
+		sfx = sfx_ui_sd_module_turret
+		parent = sub_deck_gun_2
+
+		add_stats = {
+			lg_attack = 1.5
+			convoy_raiding_coordination = 0.03
+			build_cost_ic = 10
+		}
+		dismantle_cost_ic = 2
+		critical_parts = { damaged_secondaries }
+	}
+	sub_deck_gun_4 = {
+		category = sub_deck_gun
+		sfx = sfx_ui_sd_module_turret
+		parent = sub_deck_gun_3
+
+		add_stats = {
+			lg_attack = 2
+			convoy_raiding_coordination = 0.04
+			build_cost_ic = 10
+		}
+		dismantle_cost_ic = 2
+		critical_parts = { damaged_secondaries }
 	}
 }

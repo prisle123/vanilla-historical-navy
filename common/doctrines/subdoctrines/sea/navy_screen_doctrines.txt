@@ -45,7 +45,7 @@ convoy_escort = {
 				max_organisation = 10
 			}
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 			}
 			convoy_escort_efficiency = 0.05
 		}
@@ -60,7 +60,7 @@ convoy_escort = {
 		}
 		creeping_attack = {
 			destroyer = {
-				surface_detection = 0.05
+				surface_detection = 0.1
 				lg_attack = 0.05
 			}
 			light_cruiser = {
@@ -69,11 +69,11 @@ convoy_escort = {
 		}
 		as_below_so_above = {
 			destroyer = {
-				max_organisation = 5
+				max_organisation = 10
 				anti_air_attack = 0.1
 			}
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 				anti_air_attack = 0.1
 			}
 			convoy_escort_efficiency = 0.1
@@ -119,10 +119,10 @@ support_integrated_operations = {
     }
 
     # EFFECTS
-	screening_efficiency = 0.05
+	convoy_escort_efficiency = 0.1
 	equipment_bonus = {
 		screen_ship = {
-			naval_range = 0.1
+			naval_range = 0.15
 			instant = yes
 		}
 	}
@@ -147,6 +147,7 @@ support_integrated_operations = {
 			modifier = {
 				navy_casualty_on_hit = -0.2
 				navy_casualty_on_sink = -0.35
+				naval_accidents_chance = -0.15
 			}
 		}
 		fleet_coordination = {
@@ -158,16 +159,18 @@ support_integrated_operations = {
 				max_organisation = 5
 				sub_detection = 0.1
 			}
-			screening_efficiency = 0.10
+			modifier = {
+				screening_efficiency = 0.10
+			}
 		}
 		early_warning = {
 			destroyer = {
-				max_organisation = 5
+				max_organisation = 10
 				anti_air_attack = 0.1
 				surface_detection = 0.10
 			}
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 				anti_air_attack = 0.1
 				surface_detection = 0.10
 			}
@@ -214,11 +217,13 @@ hunter_killers = {
     rewards = {
 		search_and_destroy = {
 			destroyer = {
+				max_organisation = 5
 				sub_detection = 0.15
 			}
 		}
 		flotilla_leader = {
 			light_cruiser = {
+				max_organisation = 5
 				sub_detection = 0.15
 			}
 		}
@@ -240,11 +245,11 @@ hunter_killers = {
 		}
 		light_force = {
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 				sub_detection = 0.05
 			}
 			destroyer = {
-				max_organisation = 5
+				max_organisation = 10
 				sub_detection = 0.05
 			}
 			modifier = {
@@ -287,7 +292,7 @@ torpedo_primacy = {
 
     rewards = {
 
-    	modern_broadsides = {
+    	efficient_torpedo_fuze = {
     		destroyer = {
     			torpedo_attack = 0.2
     		}
@@ -305,18 +310,26 @@ torpedo_primacy = {
 			}
     	}
     	torpedo_rearming = {
+			light_cruiser = {
+				max_organisation = 5
+			}
+			destroyer = {
+				max_organisation = 5
+			}
     		modifier = {
 				naval_torpedo_cooldown_factor = -0.125
 			}
     	}
     	night_combat_training = {
-			naval_night_attack = 0.1
-    		night_spotting_chance = 0.1
 			heavy_cruiser = {
 				torpedo_attack = 0.1
 			}
 			medium_cruiser = {
 				torpedo_attack = 0.1
+			}
+			modifier = {
+				naval_night_attack = 0.1
+    			night_spotting_chance = 0.1
 			}
     	}
     }
@@ -355,36 +368,41 @@ jeune_ecole = {
 	}
 
     rewards = {
-
-    	commerce_raiding_priority = {
-    		light_cruiser = {
-    			convoy_raiding_coordination = 0.05
-    			max_organisation = 10
-    		}
-    	}
-    	long_range_torpedo = {
-    		modifier = {
-				naval_torpedo_screen_penetration_factor = 0.1
-			}
-    	}
-    	total_economic_warfare = {
-    		destroyer = {
-    			convoy_raiding_coordination = 0.05
-    			max_organisation = 10
-    		}
-    	}
-    	convoy_escort = {
-    		modifier = {
-				convoy_escort_efficiency = 0.1
-				convoy_retreat_speed = 0.1
-			}
-    	}
-    	coastal_patrol = {
+		coastal_patrol = {
     		modifier = {
 				mines_planting_by_fleets_factor = 0.2
 				naval_mines_damage_factor = 0.1
 				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
 			}
+    	}
+		convoy_escort = {
+    		modifier = {
+				convoy_escort_efficiency = 0.1
+				convoy_retreat_speed = 0.1
+			}
+    	}
+    	commerce_raiding_priority = {
+    		light_cruiser = {
+    			convoy_raiding_coordination = 0.05
+    			max_organisation = 10
+    		}
+			destroyer = {
+				convoy_raiding_coordination = 0.05
+				max_organisation = 10
+			}
+    	}
+    	long_range_torpedo = {
+    		modifier = {
+				naval_torpedo_screen_penetration_factor = 0.1
+				naval_enemy_fleet_size_ratio_penalty_factor = 0.05
+			}
+    	}
+    	total_economic_warfare = {
+    		destroyer = {
+    			max_organisation = 10
+				naval_torpedo_hit_chance_factor = 0.1
+				convoy_raiding_coordination = 0.05
+    		}
     	}
     }
 }
@@ -420,8 +438,8 @@ mosquito_fleet = {
 				surface_visibility = -0.15
 				max_organisation = -10
 			}
-			navy_screen_attack_factor = -0.5
 			modifier = {
+				navy_screen_attack_factor = -0.5
 				naval_torpedo_screen_penetration_factor = 0.1
 			}
 		}

@@ -78,6 +78,76 @@ These objective types are supported:
 * convoy_protection
 * convoy_raiding
 
+(Following is authored by MrPunk)
+
+## Fleet Template Logic In VNR
+
+The fleet templates in this mod are written around a simple idea: a fleet should be formed with one single mission.
+
+The fleet templates are effectively processed in order. This matters because a fleet is not only a design target, it is also part of the AI's ship allocation logic.
+
+If an early fleet definition asks for a large or demanding taskforce, and that taskforce cannot yet meet its `min_composition`, the AI can end up holding ships in reserve while it waits for the rest of that taskforce to become available. In practice, this means ships may sit idle instead of being used to form smaller fleets that were already possible. This explains AI behaviors in the game which there are multiple reserved fleets with specific roles but not activated at all.
+
+Instead of building one "do everything" fleet template, the AI is given several smaller fleet templates with clearer roles:
+* **strike fleets** for concentrated battle power
+* **patrol fleets** for scouting and coverage
+* **escort fleets** for convoy protection
+* **dominance fleets** for sustained presence in contested waters
+* **raiding fleets** for submarine or surface commerce attack
+
+This separation matters because the goal-based naval AI does not just ask "do we have ships?" It asks whether it can form valid taskforces and fleets right now.
+
+That is where VNR intentionally differs from the base game approach.
+
+### Small Taskforces First, Not Large Taskforces First
+
+The base game has a tendency to merge multiple roles together and try to form larger taskforces early. Large taskforces then claim a lot of required ships at once. When this happens, they can block the creation of other smaller taskforces that would otherwise be valid and useful.
+
+The result is often:
+* too many ships reserved for one incomplete large taskforce (AI has them assigned a role in reserve, thus unavailable for new taskforce creation)
+* too few ships left over to form patrol, escort, or raiding groups
+* more idle ships waiting for a full composition instead of forming small taskforces with ships in reserve
+
+The VNR method is the opposite: create as many valid taskforces as possible with starting ships, and then slowly form new ones as AI production goes on.
+
+In plain language:
+* base game logic tends to create large taskforces first
+* VNR logic is designed to create small taskforces first
+
+This is why the templates are split by role and why early fleet tiers are built around narrower required taskforces. A small patrol or escort taskforce that can actually leave port is more valuable than a large theoretical fleet that is still missing a few ships.
+
+### Must-Haves, Advance Fleets, Optional Fleets
+
+Most country fleet files now follow a shared three-step structure (I personally call it Lasagna method):
+* **must-haves**: the minimum set of fleets the country should try to form for basic naval function (for big navies, smaller taskforces should be created earlier, and for small navies, larger taskforces)
+* **advance fleets**: extra fleets that improve coverage once the navy grows
+* **optional fleets**: overflow fleets that let the AI absorb additional ships without distorting the core force structure (optional fleets usually introduced here)
+
+This means the AI first secures the fleets it absolutely needs, then expands coverage, and only after that starts filling out extra fleets. This is more stable than asking the AI to immediately build every desirable fleet at once.
+
+It also works better with order-based fleet formation:
+* early fleet entries should be easy to satisfy
+* core naval jobs should be represented by smaller, more achievable taskforces
+* larger or more specialized formations should appear later, after the navy is already operational
+
+This ordering is deliberate. The objective is not to create the biggest fleet first, but to get the largest number of useful fleets into the water as early as possible.
+
+### Why Dominance Fleets Are Separate From Strike Fleets
+
+One of the important changes was to stop treating naval dominance as "a strike fleet plus some patrols" inside one fleet template.
+
+While the older pattern made the template harder to reason about and made it less clear what ships were actually reserved for presence, scouting, or battle, the newer structure gives dominance mission its own fleet, usually tied to a patrol-dominance taskforce. That keeps strike fleets available for decisive combat while dominance fleets handle sea control and pressure in a more predictable way.
+
+It also reduces formation blocking. If dominance is its own fleet line, the AI does not need to complete a larger mixed fleet before it can start assigning ships to sea-control work.
+
+### Practical Design Rule
+
+When editing fleet templates in this mod, use this rule of thumb:
+* if a country must reliably perform a naval job, give that job its own fleet line
+* if a fleet exists only after the core navy is already working, put it in the advance or optional tier
+* if extra ships should improve a fleet rather than redefine it, add them through optional taskforces
+* if a large taskforce would delay several smaller useful taskforces, break it up and let the smaller fleets form first
+
 ## Debugging
 
 Use the command "*imgui show ai_navy*" to enable debugging of naval goals.

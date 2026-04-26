@@ -1,4 +1,4 @@
-version="v2.9 - Iwo Jima"
+version="v2.10 - Blood on Okinawa Beach"
 tags={
 	"Military"
 	"Graphics"
@@ -14,5 +14,5 @@ replace_path="common/ai_navy/goals"
 replace_path="common/ai_navy/taskforce"
 name="Vanilla Navy Rework"
 picture="thumbnail.png"
-supported_version="1.17.*"
+supported_version="1.18.*"
 remote_file_id="2993766165"

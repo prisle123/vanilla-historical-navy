@@ -1,41 +1,103 @@
-JAP_dominance_fleet_1 = {
+# must-haves
+JAP_patrol_fleet_1 = {
 	required_taskforces = {
-		JAP_StrikeForce_1 = 2
-		JAP_PatrolDominanceForce_1 = 1
-		JAP_PatrolReconForce_1 = 2
-	}	
-	optional_taskforces = {
-		JAP_StrikeForce_1 = 1
-		JAP_PatrolReconForce_1 = 1
+		JAP_PatrolReconForce_1 = 4
 	}
 }
-
-JAP_dominance_fleet_2 = {
+JAP_escort_fleet_1 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1 = 2
+	}
+}
+JAP_support_fleet_1 = {
+	required_taskforces = {
+		JAP_InvasionSupport_1 = 1
+	}
+}
+JAP_mobile_fleet_1 = {
 	required_taskforces = {
 		JAP_StrikeForce_BC_1 = 1
-		JAP_PatrolDominanceForce_BC_1 = 1
-		JAP_PatrolReconForce_BC_1 = 2
-	}	
-	optional_taskforces = {
-		JAP_StrikeForce_1 = 1
-		JAP_PatrolReconForce_1 = 1
 	}
 }
-
-JAP_raiding_fleet_2 = {
+JAP_strike_fleet_1 = {
 	required_taskforces = {
-		JAP_ConvoyRaiding_1 = 5
-	}	
+		JAP_StrikeForce_1 = 1
+	}
+}
+JAP_dominance_fleet_1 = {
+	required_taskforces = {
+		JAP_PatrolDominanceForce_1 = 2
+	}
+}
+JAP_raiding_fleet_1 = {
+	required_taskforces = {
+		JAP_ConvoyRaiding_1 = 4
+	}
 	optional_taskforces = {
-		JAP_ConvoyRaiding_1 = 2
+		JAP_ConvoyRaiding_1 = 8
 	}
 }
 
+# advance fleets
+JAP_patrol_fleet_2 = {
+	required_taskforces = {
+		JAP_PatrolReconForce_1 = 4
+	}
+}
+JAP_escort_fleet_2 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1 = 1
+	}
+}
+JAP_strike_fleet_2 = {
+	required_taskforces = {
+		JAP_StrikeForce_1 = 1
+	}
+}
+JAP_dominance_fleet_2 = {
+	required_taskforces = {
+		JAP_PatrolDominanceForce_1 = 2
+	}
+}
+JAP_support_fleet_2 = {
+	required_taskforces = {
+		JAP_InvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_InvasionSupport_1 = 1
+	}
+}
+
+# optional fleets
+JAP_patrol_fleet_3 = {
+	required_taskforces = {
+		JAP_PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		JAP_PatrolReconForce_1 = 2
+	}
+}
 JAP_escort_fleet_3 = {
 	required_taskforces = {
 		JAP_ConvoyEscort_1 = 1
 	}
 	optional_taskforces = {
 		JAP_ConvoyEscort_1 = 1
+	}
+}
+JAP_strike_fleet_3 = {
+	required_taskforces = {
+		JAP_StrikeForce_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+	}
+}
+JAP_dominance_fleet_3 = {
+	required_taskforces = {
+		JAP_PatrolDominanceForce_1 = 2
+	}
+	optional_taskforces = {
+		JAP_PatrolDominanceForce_1 = 2
 	}
 }

@@ -110,7 +110,7 @@ Special hulls are ships that can't be simply represented by generic ship hulls. 
 
 **Battlecarrier**
 
-Battlecarrier is a hybrid ship with features from both battleship and carrier. To make one, you will have to unlock it through special projects, and then put conversion decks on rear slots of a heavy ship hull. Although it has heavy guns, battlecarrier is considered as carrier and is in the carrier line, which means it's restricted by the max carrier limit. Furthermore, battlecarrier can't get any bonus from doctrines, and its high conversion cost also blocks the possibility to build the fleet around it.
+Battlecarrier is a hybrid ship with features from both battleship and carrier. To make one, you will have to unlock it through special projects, and then put conversion decks on rear slots of a heavy ship hull. Although it has heavy guns, battlecarrier is considered as carrier and is in the carrier line. Furthermore, battlecarrier can't get any bonus from doctrines, and its high conversion cost also blocks the possibility to build the fleet around it.
 
 **Super Heavy Battleship**
 
@@ -122,7 +122,7 @@ Basically a super expensive shore bombardment ship. Arsenal ship can carry all t
 
 **Escort Carrier**
 
-A cheap but very weak carrier. Escort carrier is unlocked around 1940-1941 in the techtree, it's basically a toy for major powers as the carrier count limit largely restricts its usage scenario, but it's still a perfect choice for anti-submarine missions in secondary theaters.
+A cheap but very weak carrier. Escort carrier is unlocked around 1940-1941 in the techtree, it's basically a toy for major powers for limited capacity, but still a perfect choice for anti-submarine missions in secondary theaters. You can either convert an auxiliary ship to escort carrier, or turn an ocean liner into escort carrier by decision.
 
 **Merchant Carrier**
 
@@ -138,7 +138,7 @@ An equivalent to ice carrier in vanilla but with an actual historical background
 
 **Panzerschiff**
 
-Panzerschiff in VNR or revived armored cruiser in KRNR, is basically a cruiser with heavy guns, though there is a limit set to prevent super heavy guns being used. Just like the real armored ship in history, it has some advantages in one-on-one combat against cruisers, such as better guns and armor, making it an intermediate option between battlecruiser and heavy cruiser. The problem is, panzerschiff is stuck in the middle, so it can't fully cover either's job.
+Panzerschiff in VNR or revived armored cruiser in KRNR, is basically a cruiser with heavier guns, e.g. 280/305mm. Just like the real armored ship in history, it has some advantages in one-on-one combat against cruisers, such as better guns and armor, making it an intermediate option between battlecruiser and heavy cruiser. The problem is, panzerschiff is stuck in the middle, so it can't fully cover either's job.
 
 **Auxiliary Ship**
 
@@ -208,28 +208,12 @@ With doctrines totally overhauled in NCNS update, previous VNR doctrines are als
 
 Unlocks following doctrines:
 
-- Naval Aviation
-    - Floating Airfields
-    - Subsidiary Carrier Support
-    - Naval Airforce
-    - Airspace Denial
-
-- Surface Fleet
-    - Fast Battleship Primacy
-    - Specialized Scouting Fleet
-    - Coastal Defense Fleet
-    - Monitor Support
-
-- Escort Force
-    - Convoy Escort
-    - Integrated Operations
-    - Hunter Killer Groups
-    - Torpedo Flotilla
-
-- Submarine Flotilla
-    - Fleet Operations
-    - Capital Hunters
-    - Covert Denial
+| Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
+|---|---|---|---|---|
+| Floating Airfields | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
+| Subsidiary Carrier Support | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Trade & Supply Network |
+| Naval Airforce | Coastal Defense Fleet | Hunter Killer Groups | Covert Denial | Defensive Combat Support |
+| Airspace Denial | Monitor Support | Torpedo Flotilla |  |  |
 
 **Commerce Raiding**
 
@@ -237,26 +221,12 @@ For countries with ambitions to dominate seven seas, *Commerce Raiding* may not 
 
 Unlocks following doctrines:
 
-- Naval Aviation
-    - Floating Airfields
-    - Subsidiary Carrier Support
-    - Naval Airforce
-    - Airspace Denial
-
-- Surface Fleet
-    - Specialized Scouting Fleet
-    - Armored Raiders
-    - Coastal Defense Fleet
-
-- Escort Force
-    - Convoy Escort
-    - Integrated Operations
-    - The New School
-
-- Submarine Flotilla
-    - Wolfpacks
-    - Covert Denial
-    - Operational Autonomy
+| Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
+|---|---|---|---|---|
+| Floating Airfields | Specialized Scouting Fleet | Convoy Escort | Wolfpacks | Coverted Oceanic Replenishment |
+| Subsidiary Carrier Support | Armored Raiders | Integrated Operations | Covert Denial | Trade & Supply Network |
+| Naval Airforce | Coastal Defense Fleet | The New School | Operational Autonomy | Defensive Combat Support |
+| Airspace Denial |  |  |  |  |
 
 **Air-Sea Operation**
 
@@ -264,27 +234,12 @@ If you are patient enough, *Air-Sea Operation* will give you ample rewards bette
 
 Unlocks following doctrines:
 
-- Naval Aviation
-    - Carrier Taskforce
-    - Floating Airfields
-    - Carrier Concentration
-    - Airspace Denial
-
-- Surface Fleet
-    - Fast Battleship Primacy
-    - Specialized Scouting Fleet
-    - Taskforce Guardian
-
-- Escort Force
-    - Convoy Escort
-    - Integrated Operations
-    - Hunter Killer Groups
-    - Torpedo Flotilla
-
-- Submarine Flotilla
-    - Fleet Operations
-    - Capital Hunters
-    - Operational Autonomy
+| Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
+|---|---|---|---|---|
+| Carrier Taskforce | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
+| Floating Airfields | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Coverted Oceanic Replenishment |
+| Carrier Concentration | Taskforce Guardian | Hunter Killer Groups | Operational Autonomy | Trade & Supply Network |
+| Airspace Denial |  | Torpedo Flotilla |  |  |
 
 **Littoral Defense**
 
@@ -292,23 +247,11 @@ Unlocks following doctrines:
 
 Unlocks following doctrines:
 
-- Naval Aviation
-    - Subsidiary Carrier Support
-    - Naval Airforce
-
-- Surface Fleet
-    - Armored Raiders
-    - Coastal Defense Fleet
-    - Monitor Support
-
-- Escort Force
-    - Torpedo Flotilla
-    - The New School
-    - Mosquito Fleet
-
-- Submarine Flotilla
-    - Coastal Defense
-    - Covert Denial
+| Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
+|---|---|---|---|---|
+| Subsidiary Carrier Support | Armored Raiders | Torpedo Flotilla | Coastal Defense | Coverted Oceanic Replenishment |
+| Naval Airforce | Coastal Defense Fleet | The New School | Covert Denial | Defensive Combat Support |
+|  | Monitor Support | Mosquito Fleet |  |  |
 
 ### Sub Doctrine - Carrier ###
 
@@ -414,6 +357,24 @@ A unique double-edge-sword type of doctrine that offers reduction of visibility 
 
 A doctrine that fully authorizes submarine capitans commanding privilege while raiding in distant waters. This is a weakened version of *Wolfpacks*, but has more bonuses on range and visibility and can unlock a special submarine module after mastered.
 
+### Sub Doctrine - Naval Logistics ###
+
+**Coverted Oceanic Replenishment**
+
+A moderate doctrine mainly strengthening combat performance of auxiliary ship and fuel saving.
+
+**Industrialized Naval Logistics**
+
+Very hard to acquire as minor powers since it needs many dockyards or civilian factories to unlock, but it offers generous bonuses on repairing, damage control, and convoy building.
+
+**Trade & Supply Network**
+
+A doctrine used to boost combined war effort between overlord and puppets, with inferior but decent bonuses compared to *Industrialized Naval Logistics*.
+
+**Defensive Combat Support**
+
+While being very passive on supporting a grand fleet, this doctrine has some good modifiers for defending sides in the war (not very good for invader).
+
 ## Naval Battle ##
 
 ### Overview ###
@@ -432,7 +393,15 @@ Besides, make sure your fleet has a min speed over 30kn, this is extremely impor
 
 ### Combat Duration ###
 
-To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 30th hour to fire.
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 25th hour to fire.
+
+### Carrier System ###
+
+Carrier is probably the most complicated type of ship to figure out in this game. In this section, I will mainly discuss two things about it: target selection and overstacking. 
+
+In vanilla, carrier selects its target by assigning scores to different ships, which is an overall evaluation of anti-air and screen efficiency. Every ship starts with a base value of 10 regardless of its type, but scaled to various weights as screen efficiency decreases. For example, carrier's weight gets multiplied by 200 at 0% screen efficiency while screen ship by 10. This brings about bad aiming when you try to strike from air against a well screened fleet. To honor real history, the base value is made different in VNR (500 for carrier, 80 for battleship), a value so big that carrier bombers almost always lock their targets on carriers and ignore interference from other ships.
+
+Overstacking of carrier has been changed since NCNS release from threshold on the ship of carrier to its planes. Planes that can sortie efficiently is calculated by silhouettes of ships which are built-in stats. The formula looks like this, attacking plane without penalty = 16 * carrier number + 10 * capital ship number + (5 * screen ship number) * (1 / (1 + screen ratio * 0.02)). In order to cope with small enemy squad, at least 120 planes (roughly 2 medium fleet carriers) can always attack at enemy fleet without triggering any penalty. For each plane above the threshold, it applies 1% penalty on total sortie rate.
 
 ### Night Combat ###
 
@@ -456,23 +425,25 @@ There are also exceptions that your choice of modules can lead to different cons
 
 Since it is very hard to preview critical part effects in the game, a list will be provided here for your reference.
 
-1. Damaged Heavy Gun: -33% heavy attack, can be destroyed multiple times based on turrets in presence
-2. Damaged Light Gun: -25% light attack, can be destroyed multiple times based on turrets in presence
-3. Damaged Secondaries: -10% light attack, -33% anti-air attack, can be destroyed multiple times based on secondary turrets in presence
-4. Damaged Torpedo: -50% torpedo attack, can be destroyed multiple times based on torpedo tubes in presence
-5. Damaged Missile Launcher: -33% heavy attack and light attack, can be destroyed multiple times based on missile launchers in presence
-6. Damaged AA Missile Launcher: -15% light attack, -33% anti-air attack, can be destroyed multiple times based on AA missile launchers in presence
-7. Magazine Hit: -70% heavy attack, -70% light attack, -70% torpedo attack, an extra 500 points of HP damage and 100 points of org damage, can only happen once, extremely low probability
-8. Heavy Fire: +100% surface visibility, -50% org, -80% org recovery, can only happen once
-9. Broken Propeller: -95% retreat chance, -90% speed, can only happen once
-10. Rudder Jammed: -90% retreat chance, -50% speed, can only happen once
-11. Ballast Tank Inoperable: +100% sub visibility, submarine exclusive, can only happen once
-12. Damaged Fire Control: -50% hit chance for all weapons, can only happen once if you have fire control in presence
-13. Damaged Flight Deck (Wooden): -40% carrier capacity, -30% org, can only happen once on carrier with wooden flight deck
-14. Damaged Flight Deck (Armored): -20% carrier capacity, -15% org, can only happen once on carrier with armored flight deck, 25% lower probability than the wooden one
-15. Damaged Battlecarrier Flight Deck: -100% carrier capacity, -30% org, battlecarrier exclusive, can only happen once
-16. Air Fuel Flashover (wth. unarmored hangar): -90% org, -100% org recovery, an extra 250 points of HP damage and 50 points of org damage, can only happen once, very low probability
-17. Air Fuel Flashover (wth. armored hangar): -90% org, -100% org recovery, an extra 200 points of HP damage and 40 points of org damage, can only happen once, very low probability
+| Critical Part | Effects | Note |
+|---|---|---|
+| Damaged Heavy Gun | -33% heavy attack | Can be destroyed multiple times based on turrets in presence |
+| Damaged Light Gun | -25% light attack | Can be destroyed multiple times based on turrets in presence |
+| Damaged Secondaries | -10% light attack, -33% anti-air attack | Can be destroyed multiple times based on secondary turrets in presence |
+| Damaged Torpedo | -50% torpedo attack | Can be destroyed multiple times based on torpedo tubes in presence |
+| Damaged Missile Launcher | -33% heavy attack and light attack | Can be destroyed multiple times based on missile launchers in presence |
+| Damaged AA Missile Launcher | -15% light attack, -33% anti-air attack | Can be destroyed multiple times based on AA missile launchers in presence |
+| Magazine Hit | -70% heavy attack, -70% light attack, -70% torpedo attack, +500 HP damage, +100 org damage | Can only happen once, extremely low probability |
+| Heavy Fire | +100% surface visibility, -50% org, -80% org recovery | Can only happen once |
+| Broken Propeller | -95% retreat chance, -90% speed | Can only happen once |
+| Rudder Jammed | -90% retreat chance, -50% speed | Can only happen once |
+| Ballast Tank Inoperable | +100% sub visibility | Submarine exclusive, can only happen once |
+| Damaged Fire Control | -50% hit chance for all weapons | Can only happen once if you have fire control in presence |
+| Damaged Flight Deck (Wooden) | -40% carrier capacity, -30% org | Can only happen once on carrier with wooden flight deck |
+| Damaged Flight Deck (Armored) | -20% carrier capacity, -15% org | Can only happen once on carrier with armored flight deck; 25% lower probability than the wooden one |
+| Damaged Battlecarrier Flight Deck | -100% carrier capacity, -30% org | Battlecarrier exclusive, can only happen once |
+| Air Fuel Flashover (wth. unarmored hangar) | -90% org, -100% org recovery, +250 HP damage, +50 org damage | Can only happen once, very low probability |
+| Air Fuel Flashover (wth. armored hangar) | -90% org, -100% org recovery, +200 HP damage, +40 org damage | Can only happen once, very low probability |
 
 ### Retreat Process ###
 

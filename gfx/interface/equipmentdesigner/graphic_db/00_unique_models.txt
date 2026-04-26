@@ -1,0 +1,499 @@
+USA = {
+    ship_hull_light = {
+        pool = {
+            weight = 10
+            models = {
+                USA_destroyer_0_entity
+            }
+        }
+    }
+    ship_hull_cruiser = {
+        pool = {
+            weight = 10
+            models = {
+                USA_light_cruiser_entity
+            }
+        }
+        pool = {
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                USA_heavy_cruiser_0_entity
+                USA_heavy_cruiser_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                USA_heavy_cruiser_4_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            weight = 10
+            models = {
+                USA_battleship_0_entity
+                USA_battleship_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                USA_battleship_5_entity
+				USA_battleship_4_entity
+				USA_battleship_3_entity
+            }
+        }
+    }
+    ship_hull_carrier = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                USA_carrier_0_entity
+				USA_carrier_2_entity
+				USA_carrier_3_entity
+            }
+        }
+    }
+}
+
+ENG = {
+    ship_hull_light = {
+        pool = {
+            weight = 10
+            models = {
+                ENG_destroyer_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_destroyer_1_entity
+            }
+        }
+    }
+    ship_hull_cruiser = {
+        pool = {
+            weight = 10
+            models = {
+                ENG_light_cruiser_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_light_cruiser_1_entity
+				commonwealth_gfx_light_cruiser_entity
+            }
+        }
+        pool = {
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                ENG_heavy_cruiser_0_entity
+                ENG_heavy_cruiser_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                commonwealth_gfx_heavy_cruiser_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            weight = 10
+            models = {
+                ENG_battleship_0_entity
+                ENG_battleship_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_battleship_entity
+            }
+        }
+    }
+    ship_hull_carrier = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_carrier_entity
+            }
+        }
+    }
+    ship_hull_submarine = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_submarine_entity
+            }
+        }
+    }
+}
+
+FACTION_ENG = {
+    ship_hull_light = {
+        pool = {
+            weight = 10
+            models = {
+                ENG_destroyer_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_destroyer_1_entity
+            }
+        }
+    }
+    ship_hull_cruiser = {
+        pool = {
+            weight = 10
+            models = {
+                ENG_light_cruiser_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_light_cruiser_1_entity
+				commonwealth_gfx_light_cruiser_entity
+            }
+        }
+        pool = {
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                ENG_heavy_cruiser_0_entity
+                ENG_heavy_cruiser_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                commonwealth_gfx_heavy_cruiser_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            weight = 10
+            models = {
+                ENG_battleship_0_entity
+                ENG_battleship_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_battleship_entity
+            }
+        }
+    }
+    ship_hull_carrier = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_carrier_entity
+            }
+        }
+    }
+    ship_hull_submarine = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                commonwealth_gfx_submarine_entity
+            }
+        }
+    }
+}
+
+JAP = {
+    ship_hull_light = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                JAP_destroyer_1_entity
+            }
+        }
+    }
+    ship_hull_cruiser = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                JAP_light_cruiser_entity
+            }
+        }
+        pool = {
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                JAP_heavy_cruiser_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                JAP_heavy_cruiser_1_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            weight = 10
+            models = {
+                JAP_battleship_entity
+            }
+        }
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                JAP_battleship_3_entity
+				JAP_battleship_2_entity
+				JAP_battleship_0_entity
+				JAP_battleship_1_entity
+            }
+        }
+    }
+    ship_hull_carrier = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                JAP_carrier_entity
+				JAP_carrier_1_entity
+                JAP_carrier_0_entity
+            }
+        }
+    }
+    vnr_ship_hull_cruiser_submarine = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                JAP_ship_hull_carrier_submarine_entity
+            }
+        }
+    }
+}
+
+FRA = {
+    ship_hull_cruiser = {
+        pool = {
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                FRA_heavy_cruiser_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            weight = 10
+            models = {
+                FRA_battleship_entity
+            }
+        }
+    }
+}
+
+ITA = {
+    ship_hull_cruiser = {
+        pool = {
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                ITA_heavy_cruiser_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            weight = 10
+            models = {
+                ITA_battleship_entity
+            }
+        }
+    }
+}
+
+SOV = {
+    ship_hull_light = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                PRC_destroyer_entity
+            }
+        }
+    }
+    ship_hull_cruiser = {
+        pool = {
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                SOV_heavy_cruiser_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            weight = 10
+            models = {
+                SOV_battleship_entity
+            }
+        }
+    }
+    ship_hull_submarine = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                SOV_submarine_1_entity
+				SOV_submarine_entity
+            }
+        }
+    }
+}
+
+GER = {
+    ship_hull_cruiser = {
+        pool = {
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                GER_heavy_cruiser_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            weight = 10
+            models = {
+                GER_battleship_entity
+            }
+        }
+    }
+}
+
+CHI = {
+    ship_hull_light = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                PRC_destroyer_entity
+            }
+        }
+    }
+    ship_hull_cruiser = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                CHI_light_cruiser_entity
+            }
+        }
+    }
+}
+
+PRC = {
+    ship_hull_light = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                PRC_destroyer_entity
+            }
+        }
+    }
+    ship_hull_cruiser = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                CHI_light_cruiser_entity
+            }
+        }
+    }
+}

@@ -46,6 +46,7 @@ ai_doctrine_workaround = {
 			set_sub_doctrine = floating_airfields
 			set_sub_doctrine = hunter_killers
 			set_sub_doctrine = submarine_fleet_operations
+			set_sub_doctrine = trade_supply_network
 		}
 	}
 	USA = {
@@ -60,6 +61,7 @@ ai_doctrine_workaround = {
 			set_sub_doctrine = carrier_battlegroups
 			set_sub_doctrine = support_integrated_operations
 			set_sub_doctrine = submarine_fleet_operations
+			set_sub_doctrine = industrialized_naval_logistics
 		}
 	}
 	JAP = {
@@ -74,6 +76,7 @@ ai_doctrine_workaround = {
 			set_sub_doctrine = carrier_concentration
 			set_sub_doctrine = torpedo_primacy
 			set_sub_doctrine = capital_hunters
+			set_sub_doctrine = trade_supply_network
 		}
 	}
 	GER = {
@@ -101,6 +104,7 @@ ai_doctrine_workaround = {
 			set_sub_doctrine = subsidiary_carrier_support
 			set_sub_doctrine = jeune_ecole
 			set_sub_doctrine = capital_hunters
+			set_sub_doctrine = trade_supply_network
 		}
 	}
 	ITA = {
@@ -126,7 +130,7 @@ ai_doctrine_workaround = {
 			}
 			set_sub_doctrine = armored_raiders
 			set_sub_doctrine = jeune_ecole
-			set_sub_doctrine = submarine_coastal_defense
+			set_sub_doctrine = capital_hunters
 		}
 	}
 }

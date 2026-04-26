@@ -290,6 +290,7 @@ country_event = {
 			date > 1938.1.1
 			OR = {
 				AND = {
+					date < 1937.6.1
 					expert_ai_style = no
 					any_country = {
 						is_ai = no
@@ -303,6 +304,7 @@ country_event = {
 					}
 				}
 				AND = {
+					date < 1937.6.1
 					expert_ai_style = yes
 					any_country = {
 						is_ai = no
@@ -364,8 +366,6 @@ country_event = {
 					magnetic_detonator = 1
 					oxygen_torpedo = 1
 
-					damage_control_1 = 1
-					fire_control_methods_1 = 1
 					basic_ballast_tank = 1
 					improved_ballast_tank = 1
 					dive_bomber_study = 1
@@ -389,6 +389,7 @@ country_event = {
 			date > 1943.1.1
 			OR = {
 				AND = {
+					date < 1942.6.1
 					expert_ai_style = no
 					any_country = {
 						is_ai = no
@@ -403,6 +404,7 @@ country_event = {
 					}
 				}
 				AND = {
+					date < 1942.6.1
 					expert_ai_style = yes
 					any_country = {
 						is_ai = no
@@ -458,7 +460,6 @@ country_event = {
 					modern_ship_torpedo_launcher = 1
 					proximity_detonator = 1
 					
-					fire_control_methods_3 = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
@@ -556,6 +557,7 @@ country_event = {
 			date > 1949.1.1
 			OR = {
 				AND = {
+					date < 1948.6.1
 					expert_ai_style = no
 					any_country = {
 						is_ai = no
@@ -569,6 +571,7 @@ country_event = {
 					}
 				}
 				AND = {
+					date < 1948.6.1
 					expert_ai_style = yes
 					any_country = {
 						is_ai = no
@@ -678,6 +681,7 @@ country_event = {
 		date > 1936.1.1
 		NOT = { has_global_flag = cv_air_tech_1936 }
 		expert_ai_plane = yes
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -705,6 +709,7 @@ country_event = {
 		date > 1939.1.1
 		NOT = { has_global_flag = cv_air_tech_1939 }
 		expert_ai_plane = yes
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -734,6 +739,7 @@ country_event = {
 		date > 1944.1.1
 		NOT = { has_global_flag = cv_air_tech_1944 }
 		expert_ai_plane = yes
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -784,9 +790,6 @@ country_event = {
 					carrier_mass_production = 1
 					carrier_damage_control = 1
 					air_fuel_storage = 1
-					damage_control_2 = 1
-					damage_control_3 = 1
-					fire_control_methods_2 = 1
 					battleship_aa_upgrade = 1
 					escort_carriers_ship = 1
 

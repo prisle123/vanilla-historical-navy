@@ -64,7 +64,7 @@ equipments = {
 			}
 			fixed_ship_flight_deck_slot = {
 				required = yes
-				allowed_module_categories = { ship_flight_deck }
+				allowed_module_categories = { ship_flight_deck_armored ship_flight_deck_unarmored }
 			}
 
 			front_1_custom_slot = {
@@ -113,8 +113,8 @@ equipments = {
 		armor_value = 0
 
 
-		surface_detection = 26
-		sub_detection = 5
+		surface_detection = 24
+		sub_detection = 2
 		surface_visibility = 23
 		naval_speed = 26
 		reliability = 0.70
@@ -136,7 +136,7 @@ equipments = {
 
 		manpower = 3000
 
-		naval_dominance_factor = 250
+		naval_dominance_factor = 180
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
 		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
@@ -182,6 +182,7 @@ equipments = {
 		naval_speed = 20
 		surface_visibility = 22
 		build_cost_ic = 1200
+		max_organisation = -0.2
 		resources = {
 			steel = 1
 		}
@@ -405,7 +406,6 @@ equipments = {
 					ship_dp_secondaries_bb
 					ship_deck_space
 					ship_deck_space_small
-					ship_deck_space_reinforced
 					carrier_miscellaneous
 					carrier_island
 				}
@@ -434,8 +434,8 @@ equipments = {
 		resources = {
 			steel = 2
 		}
-		manpower = 3100
-		naval_dominance_factor = 225
+		manpower = 3200
+		naval_dominance_factor = 210
 	}
 
 	vnr_ship_hull_carrier_3 = {
@@ -508,8 +508,6 @@ equipments = {
 					carrier_side_lift
 					carrier_angled_deck
 					carrier_helipad
-					carrier_miscellaneous
-					carrier_island
 				}
 			}
 			rear_1_custom_slot = {
@@ -519,6 +517,9 @@ equipments = {
 					ship_dp_secondaries_bb
 					ship_anti_air
 					carrier_side_lift
+					carrier_helipad
+					carrier_miscellaneous
+					carrier_island
 				}
 			}
 		}
@@ -531,7 +532,8 @@ equipments = {
 		reliability = 0.8
 		max_strength = 140
 		naval_speed = 28
-		surface_visibility = 27
+		surface_visibility = 29
+		max_organisation = 0.1
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -543,7 +545,7 @@ equipments = {
 			steel = 2
 		}
 		manpower = 3500
-		naval_dominance_factor = 275
+		naval_dominance_factor = 240
 	}
 
 	vnr_ship_hull_escort_carrier = {
@@ -578,7 +580,10 @@ equipments = {
 				required = no
 				allowed_module_categories = { carrier_miscellaneous carrier_civilian_material }
 			}
-			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_flight_deck_slot = {
+				required = yes
+				allowed_module_categories = { ship_flight_deck_unarmored }
+			}
 			fixed_ship_role_slot = {
 				required = yes
 				allowed_module_categories = { cve_role }
@@ -592,18 +597,20 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_role_slot = ship_hull_carrier_role_cve
+			fixed_ship_flight_deck_slot = carrier_wooden_deck
 		}
 		naval_range = 3500
 
 		max_strength = 35
 		fuel_consumption = 38
 
-		reliability = 0.7
-		surface_detection = 20
+		reliability = 0.65
+		surface_detection = 16
 		naval_speed = 20
-		sub_detection = 8.5
-		surface_visibility = 20
-		build_cost_ic = 350
+		sub_detection = 6
+		surface_visibility = 24
+		build_cost_ic = 700
+		max_organisation = -0.2
 		resources = {
 			steel = 1
 		}
@@ -636,7 +643,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { civilian_ship_engine }
 			}
-			fixed_ship_flight_deck_slot = inherit
+			fixed_ship_flight_deck_slot = {
+				required = yes
+				allowed_module_categories = { ship_flight_deck_unarmored }
+			}
 			fixed_ship_carrier_miscellaneous_slot_1 = {
 				required = no
 				allowed_module_categories = { carrier_island }
@@ -657,18 +667,20 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = civilian_ship_engine_1
 			fixed_ship_role_slot = ship_hull_carrier_role_cve
+			fixed_ship_flight_deck_slot = carrier_wooden_deck
 		}
-		naval_range = 2300
+		naval_range = 1800
 
-		max_strength = 25
+		max_strength = 15
 		fuel_consumption = 23
 
 		reliability = 0.5
-		surface_detection = 15
-		naval_speed = 20
+		surface_detection = 12
+		naval_speed = 15
 		sub_detection = 4
-		surface_visibility = 16
-		build_cost_ic = 220
+		surface_visibility = 20
+		build_cost_ic = 450
+		max_organisation = -0.3
 		resources = {
 			steel = 1
 		}
@@ -773,7 +785,8 @@ equipments = {
 		reliability = 1.2
 		max_strength = 150
 		naval_speed = 30.5
-		surface_visibility = 30
+		surface_visibility = 35
+		max_organisation = 0.15
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -784,8 +797,8 @@ equipments = {
 		resources = {
 			steel = 2
 		}
-		manpower = 5000
-		naval_dominance_factor = 325
+		manpower = 4500
+		naval_dominance_factor = 280
 	}
 
 	vnr_ship_hull_mega_carrier = {
@@ -876,7 +889,7 @@ equipments = {
 		reliability = 1.2
 		max_strength = 170
 		naval_speed = 28
-		surface_visibility = 32
+		surface_visibility = 34
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -887,8 +900,92 @@ equipments = {
 		resources = {
 			steel = 2
 		}
-		manpower = 6500
-		naval_dominance_factor = 300
+		manpower = 4000
+		naval_dominance_factor = 280
+	}
+
+	vnr_ship_hull_carrier_amphibious_assault_ship = {
+		year = 1950
+		archetype = ship_hull_carrier
+		model = ship_hull_carrier
+		priority = 1000
+		can_convert_from = { vnr_ship_hull_carrier_amphibious_assault_ship }
+		module_slots = {
+			fixed_ship_deck_slot_1 = {
+				required = yes
+				allowed_module_categories = { landing_kit }
+			}
+			fixed_ship_deck_slot_2 = {
+				required = no
+				allowed_module_categories = { landing_kit carrier_helipad }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air ship_missile_aa }
+			}
+			fixed_ship_radar_slot = inherit
+			fixed_ship_fire_control_system_slot = {
+				required = yes
+				allowed_module_categories = { landing_assault_command }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { carrier_ship_engine carrier_ship_engine_nuclear }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_carrier_armor ship_carrier_armor_heavy }
+			}
+			fixed_ship_carrier_miscellaneous_slot_1 = { 
+				required = no
+				allowed_module_categories = { carrier_unit }
+			}
+			fixed_ship_carrier_miscellaneous_slot_2 = { 
+				required = no
+				allowed_module_categories = { carrier_miscellaneous }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					carrier_helipad
+					landing_kit
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_missile_aa
+					ship_dp_secondaries_bb
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					carrier_helipad
+					landing_kit
+				}
+			}
+		}
+		default_modules = {
+			fixed_ship_engine_slot = carrier_ship_engine_4
+			fixed_ship_armor_slot = empty
+		}
+
+		naval_range = 6500
+		reliability = 0.8
+		max_strength = 100
+		naval_speed = 28
+		surface_visibility = 32
+		surface_detection = 19
+		sub_detection = 1
+
+		build_cost_ic = 3500
+		resources = {
+			steel = 2
+		}
+		manpower = 3200
+		naval_dominance_factor = 100
 	}
 }
 

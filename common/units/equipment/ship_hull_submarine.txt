@@ -27,6 +27,10 @@ equipments = {
 				required = yes
 				allowed_module_categories = { ship_torpedo_sub }
 			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { sub_deck_gun }
+			}
 			fixed_ship_engine_slot = {
 				required = yes
 				allowed_module_categories = { sub_ship_engine }
@@ -97,6 +101,7 @@ equipments = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			fixed_ship_armor_slot = pressure_hull_1
 			fixed_sub_periscope_slot = sub_ship_periscope_0
+			fixed_ship_secondaries_slot = sub_deck_gun_1
 			rear_1_custom_slot = empty
 		}
 
@@ -134,7 +139,7 @@ equipments = {
 			steel = 1
 		}
 
-		manpower = 120
+		manpower = 55
 
 		naval_dominance_factor = 7
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
@@ -167,6 +172,7 @@ equipments = {
 		parent = vnr_ship_hull_submarine_1
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
+			fixed_ship_secondaries_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_conning_tower_slot = inherit
@@ -185,14 +191,16 @@ equipments = {
 			fixed_ship_engine_slot = sub_ship_engine_2
 			fixed_ship_armor_slot = pressure_hull_2
 			fixed_sub_periscope_slot = sub_ship_periscope_0
+			fixed_ship_secondaries_slot = sub_deck_gun_2
 		}
-		sub_visibility = 24
+		sub_visibility = 22
 		naval_speed = 17
 		reliability = 0.70
 
 		naval_range = 6000
 		reliability = 0.70
 		max_strength = 20
+		manpower = 65
 
 		build_cost_ic = 150
 		resources = {
@@ -213,6 +221,7 @@ equipments = {
 		parent = vnr_ship_hull_submarine_2
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
+			fixed_ship_secondaries_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_conning_tower_slot = inherit
@@ -242,9 +251,11 @@ equipments = {
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = sub_ship_engine_3
 			fixed_ship_armor_slot = pressure_hull_3
+			fixed_ship_secondaries_slot = sub_deck_gun_3
 		}
 
 		sub_visibility = 19
+		surface_detection = 12
 		naval_speed = 18
 		reliability = 0.75
 
@@ -256,6 +267,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
+		manpower = 75
 		naval_dominance_factor = 11
 	}
 	vnr_ship_hull_submarine_4 = {
@@ -269,6 +281,7 @@ equipments = {
 		parent = vnr_ship_hull_submarine_3
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
+			fixed_ship_secondaries_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_conning_tower_slot = inherit
@@ -297,9 +310,11 @@ equipments = {
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = sub_ship_engine_4
 			fixed_ship_armor_slot = pressure_hull_4
+			fixed_ship_secondaries_slot = sub_deck_gun_4
 		}
 
 		sub_visibility = 16
+		surface_detection = 14
 		naval_speed = 18
 		reliability = 0.80
 
@@ -311,6 +326,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
+		manpower = 85
 		naval_dominance_factor = 16
 	}
 
@@ -359,6 +375,7 @@ equipments = {
 		}
 
 		sub_visibility = 13
+		surface_detection = 16
 		naval_speed = 18
 		reliability = 1.5
 
@@ -370,6 +387,7 @@ equipments = {
 		resources = {
 			steel = 2
 		}
+		manpower = 100
 		naval_dominance_factor = 26
 	}
 
@@ -385,7 +403,7 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_battery_slot = {
 				required = no
-				allowed_module_categories = { sub_battery }
+				allowed_module_categories = { sub_battery sub_deck_gun }
 			}
 			fixed_ship_engine_slot = inherit
 			fixed_ship_armor_slot = inherit
@@ -437,9 +455,11 @@ equipments = {
 			fixed_sub_periscope_slot = sub_ship_periscope_0
 			rear_1_custom_slot = empty
 			fixed_ship_armor_slot = pressure_hull_1
+			fixed_ship_battery_slot = sub_deck_gun_1
 		}
 
 		sub_visibility = 24
+		surface_detection = 13
 		naval_speed = 16
 		reliability = 0.75
 
@@ -451,6 +471,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
+		manpower = 70
 		naval_dominance_factor = 14
 	}
 
@@ -489,6 +510,7 @@ equipments = {
 		}
 
 		sub_visibility = 15
+		surface_detection = 9
 		naval_speed = 8.3
 		reliability = 0.65
 
@@ -496,7 +518,7 @@ equipments = {
 
 		max_strength = 5
 
-		manpower = 50
+		manpower = 35
 
 
 		build_cost_ic = 80

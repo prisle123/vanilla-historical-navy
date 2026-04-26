@@ -6,7 +6,7 @@ ENG_naval_invasion_support = {
     }
 
     min_priority = 4
-    max_priority = 10
+    max_priority = 15
 }
 
 ENG_mine_sweeping = {
@@ -27,7 +27,7 @@ ENG_invasion_defense = {
         ENG
     }
 
-    min_priority = 10
+    min_priority = 15
     max_priority = 25
 }
 
@@ -49,7 +49,7 @@ ENG_convoy_protection = {
         ENG
     }
 
-    min_priority = 10
+    min_priority = 4
     max_priority = 18
 }
 

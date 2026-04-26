@@ -6,7 +6,7 @@ USA_naval_invasion_support = {
     }
 
     min_priority = 10
-    max_priority = 20
+    max_priority = 25
 }
 
 USA_mine_sweeping = {
@@ -27,7 +27,7 @@ USA_invasion_defense = {
         USA
     }
 
-    min_priority = 15
+    min_priority = 13
     max_priority = 22
 }
 
@@ -49,8 +49,8 @@ USA_convoy_protection = {
         USA
     }
 
-    min_priority = 6
-    max_priority = 13
+    min_priority = 5
+    max_priority = 15
 }
 
 USA_convoy_raiding = {
@@ -71,8 +71,8 @@ USA_naval_dominance = {
         USA
     }
 
-    min_priority = 12
-    max_priority = 18
+    min_priority = 7
+    max_priority = 25
 }
 
 USA_mine_laying = {

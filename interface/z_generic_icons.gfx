@@ -154,6 +154,10 @@ spriteTypes = {
         		name = "GFX_vnr_ship_hull_mega_carrier_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_mega_carrier.png"
         	}
+			spriteType = {
+				name = "GFX_vnr_ship_hull_carrier_amphibious_assault_ship_medium"
+				texturefile = "gfx/interface/technologies/Generic/generic_amphibious_assault_ship.png"
+			}
 	# submarine
 
         	spriteType = {
@@ -295,6 +299,10 @@ spriteTypes = {
 			spriteType = {
         		name = "GFX_super_carriers_medium"
         		texturefile = "gfx/interface/technologies/Generic/generic_super_carrier.png"
+        	}
+			spriteType = {
+        		name = "GFX_amphibious_assault_ships_medium"
+        		texturefile = "gfx/interface/technologies/Generic/generic_amphibious_assault_ship.png"
         	}
 	# submarine
 

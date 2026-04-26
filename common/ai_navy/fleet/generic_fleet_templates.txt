@@ -1,22 +1,79 @@
-generic_dominance_fleet_1 = {
+# must-haves
+generic_strike_fleet_1 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
-		PatrolReconForce_1 = 1
-	}	
-	optional_taskforces = {
-		StrikeForce_1 = 1
-		PatrolReconForce_1 = 1
+	}
+}
+
+generic_patrol_fleet_1 = {
+	required_taskforces = {
+		PatrolReconForce_1 = 2
+	}
+}
+
+generic_escort_fleet_1 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 2
+	}
+}
+
+generic_dominance_fleet_1 = {
+	required_taskforces = {
 		PatrolDominanceForce_CA_1 = 1
 	}
 }
 
-generic_raiding_fleet_2 = {
+generic_raiding_fleet_1 = {
 	required_taskforces = {
 		ConvoyRaiding_1 = 2
-	}	
+	}
 	optional_taskforces = {
-		ConvoySurfaceRaiding_1 = 1
 		ConvoyRaiding_1 = 2
+		ConvoySurfaceRaiding_1 = 1
+	}
+}
+
+# advance fleets
+generic_strike_fleet_2 = {
+	required_taskforces = {
+		StrikeForce_1 = 1
+	}
+}
+
+generic_patrol_fleet_2 = {
+	required_taskforces = {
+		PatrolReconForce_1 = 2
+	}
+}
+
+generic_escort_fleet_2 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 2
+	}
+}
+
+generic_dominance_fleet_2 = {
+	required_taskforces = {
+		PatrolDominanceForce_CA_1 = 1
+	}
+}
+
+# optional fleets
+generic_strike_fleet_3 = {
+	required_taskforces = {
+		StrikeForce_1 = 1
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+	}
+}
+
+generic_patrol_fleet_3 = {
+	required_taskforces = {
+		PatrolReconForce_1 = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1 = 1
 	}
 }
 
@@ -26,5 +83,14 @@ generic_escort_fleet_3 = {
 	}
 	optional_taskforces = {
 		ConvoyEscort_1 = 1
+	}
+}
+
+generic_dominance_fleet_3 = {
+	required_taskforces = {
+		PatrolDominanceForce_CA_1 = 1
+	}
+	optional_taskforces = {
+		PatrolDominanceForce_CA_1 = 1
 	}
 }

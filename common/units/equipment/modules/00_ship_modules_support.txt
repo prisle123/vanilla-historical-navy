@@ -24,6 +24,7 @@ equipment_modules = {
 			module_category = ship_anti_air
 			convert_cost_ic = 60
 		}
+		manpower = 50
 	}
 
 	ship_anti_air_2 = {
@@ -52,6 +53,7 @@ equipment_modules = {
 			module = ship_anti_air_1
 			convert_cost_ic = 60
 		}
+		manpower = 65
 	}
 	ship_anti_air_3 = {
 		abbreviation = "sbd"
@@ -78,6 +80,7 @@ equipment_modules = {
 			module = ship_anti_air_2
 			convert_cost_ic = 60
 		}
+		manpower = 80
 	}
 	ship_anti_air_4 = {
 		abbreviation = "sbe"
@@ -105,6 +108,7 @@ equipment_modules = {
 			module = ship_anti_air_3
 			convert_cost_ic = 50
 		}
+		manpower = 95
 	}
 	ship_anti_air_5 = {
 		abbreviation = "sbf"
@@ -116,13 +120,14 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 0.6
 			anti_air_attack = 6
-			reliability = -0.025
+			reliability = -0.05
 			build_cost_ic = 300
 			naval_light_gun_hit_chance_factor = -0.025
 		}
 		multiply_stats = {
-			naval_speed = -0.01
+			naval_speed = -0.02
 		}
+		manpower = 105
 	}
     ship_missile_aa_1 = {
 		category = ship_missile_aa
@@ -144,6 +149,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 400
 		critical_parts = { damaged_aa_missiles }
+		manpower = 10
 	}
 	ship_missile_aa_2 = {
 		category = ship_missile_aa
@@ -166,6 +172,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 600
 		critical_parts = { damaged_aa_missiles }
+		manpower = 14
 	}
 
 
@@ -188,6 +195,7 @@ equipment_modules = {
 			module_category = ship_anti_air
 			convert_cost_ic = 80
 		}
+		manpower = 55
 	}
 
 	ship_anti_air_2_h = {
@@ -215,6 +223,7 @@ equipment_modules = {
 			module = ship_anti_air_1_h
 			convert_cost_ic = 80
 		}
+		manpower = 70
 	}
 	ship_anti_air_3_h = {
 		category = ship_anti_air
@@ -240,6 +249,7 @@ equipment_modules = {
 			module = ship_anti_air_2
 			convert_cost_ic = 90
 		}
+		manpower = 85
 	}
 	ship_anti_air_4_h = {
 		category = ship_anti_air
@@ -266,6 +276,7 @@ equipment_modules = {
 			module = ship_anti_air_3_h
 			convert_cost_ic = 100
 		}
+		manpower = 100
 	}
 
 ###############
@@ -425,7 +436,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.05
+			sub_visibility = 0.03
 			naval_speed = -0.01			
 		}
 		
@@ -433,6 +444,7 @@ equipment_modules = {
 			steel = 0
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 12
 	}
 
 	ship_torpedo_sub_2 = {
@@ -443,13 +455,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 20
+			torpedo_attack = 18
 			build_cost_ic = 70
 			naval_torpedo_hit_chance_factor = 0.02
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.055
+			sub_visibility = 0.035
 			naval_speed = -0.02			
 		}
 		
@@ -461,6 +473,7 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 11
 	}
 
 	ship_torpedo_sub_3 = {
@@ -471,13 +484,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 24
+			torpedo_attack = 21
 			build_cost_ic = 90
 			naval_torpedo_hit_chance_factor = 0.03
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.06
+			sub_visibility = 0.04
 			naval_speed = -0.03			
 		}
 
@@ -486,6 +499,7 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 10
 	}
 
 	ship_torpedo_sub_4 = {
@@ -496,13 +510,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 28
+			torpedo_attack = 24
 			build_cost_ic = 110
 			naval_torpedo_hit_chance_factor = 0.04
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.065
+			sub_visibility = 0.045
 			naval_speed = -0.04			
 		}
 
@@ -511,6 +525,7 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 9
 	}
 
 	ship_torpedo_sub_5 = {
@@ -520,14 +535,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			torpedo_attack = 32
+			torpedo_attack = 27
 			sub_attack = 8
 			build_cost_ic = 150
 			naval_torpedo_hit_chance_factor = 0.05
 		}
 
 		multiply_stats = {
-			sub_visibility = 0.07
+			sub_visibility = 0.05
 			naval_speed = -0.05	
 		}
 
@@ -536,6 +551,7 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_torpedoes }
+		manpower = 8
 	}
 
 
@@ -911,6 +927,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.005
 		}
+		manpower = 20
 	}
 	ship_airplane_launcher_2 = {
 		abbreviation = "scz"
@@ -934,6 +951,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.02
 		}
+		manpower = 25
 	}
 	ship_helipad = {
 		category = ship_airplane_launcher
@@ -951,6 +969,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.005
 		}
+		manpower = 22
 	}
     recon_drone_1 = {
 		category = ship_airplane_launcher
@@ -977,7 +996,7 @@ equipment_modules = {
 			build_cost_ic = 800
 			reliability = -0.05
 		}
-		manpower = 100
+		manpower = 65
 	}
 	sub_airplane_launcher_1 = {
 		category = sub_airplane_launcher
@@ -991,6 +1010,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.003
 		}
+		manpower = 15
 	}
 	sub_airplane_launcher_2 = {
 		category = sub_airplane_launcher
@@ -1010,6 +1030,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.004
 		}
+		manpower = 20
 	}
 
 
@@ -1324,10 +1345,10 @@ equipment_modules = {
 		category = submarine_miscellaneous
 		add_stats = {
 			build_cost_ic = 35
-			reliability = -0.01
+			reliability = -0.03
 		}
 		multiply_stats = {
-			sub_visibility = -0.025
+			sub_visibility = -0.035
 		}
 	}
 	diving_plane = {
@@ -1336,8 +1357,8 @@ equipment_modules = {
 			build_cost_ic = 50
 		}
 		multiply_stats = {
-			naval_speed = 0.025
-			sub_visibility = -0.01
+			naval_speed = 0.05
+			sub_visibility = -0.025
 		}
 	}
 	vlf_receiver = {

@@ -90,11 +90,11 @@ FRA_ConvoyRaiding_1 = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
-	# min_composition = {
-	# 	submarine = {
-	# 		amount = 4
-	# 	}
-	# }
+	min_composition = {
+		submarine = {
+			amount = 4
+		}
+	}
 
 	optimal_composition = {
 		submarine = {
@@ -132,15 +132,15 @@ FRA_ConvoyEscort_1 = {
 		factor = 5
 	}	
 	mission = { convoy_escort }
-	# min_composition = {
-	# 	destroyer = {
-	# 		amount = 5
-	# 	}
-	# }
+	min_composition = {
+		destroyer = {
+			amount = 2
+		}
+	}
 	
 	optimal_composition = {
 		destroyer = {
-			amount = 6
+			amount = 5
 		}
 	}
 }

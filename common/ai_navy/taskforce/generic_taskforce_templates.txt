@@ -1,13 +1,15 @@
 StrikeForce_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -19,7 +21,7 @@ StrikeForce_1 = {
 			amount = 2
 		}
 		destroyer = {
-			amount = 8
+			amount = 4
 		}
 	}
 	
@@ -45,19 +47,27 @@ StrikeForce_1 = {
 PatrolReconForce_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
 		factor = 5
 	}
 	mission = { naval_patrol }
+
+	min_composition = {
+		destroyer = {
+			amount = 1
+		}
+	}
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -68,13 +78,15 @@ PatrolReconForce_1 = {
 PatrolDominanceForce_CA_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -83,7 +95,7 @@ PatrolDominanceForce_CA_1 = {
 	mission = { naval_patrol }
 
 	min_composition = {
-		light_cruiser = {
+		heavy_cruiser = {
 			amount = 1
 		}
 		destroyer = {
@@ -107,19 +119,27 @@ PatrolDominanceForce_CA_1 = {
 ConvoyRaiding_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
+
+	min_composition = {
+		submarine = {
+			amount = 4
+		}
+	}
 
 	optimal_composition = {
 		submarine = {
@@ -131,13 +151,15 @@ ConvoyRaiding_1 = {
 ConvoySurfaceRaiding_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -145,6 +167,11 @@ ConvoySurfaceRaiding_1 = {
 	}
 	mission = { convoy_raiding }
 
+	min_composition = {
+		battle_cruiser = {
+			amount = 1
+		}
+	}
 	optimal_composition = {
 		battle_cruiser = {
 			amount = 2
@@ -155,19 +182,26 @@ ConvoySurfaceRaiding_1 = {
 ConvoyEscort_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = SOV
+				original_tag = USA
+				original_tag = ITA
+				original_tag = GER
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
 		factor = 5
 	}	
 	mission = { convoy_escort }
+	min_composition = {
+		destroyer = {
+			amount = 2
+		}
+	}
 
 	optimal_composition = {
 		destroyer = {

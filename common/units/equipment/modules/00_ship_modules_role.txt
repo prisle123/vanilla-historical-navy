@@ -32,6 +32,7 @@ equipment_modules = {
 			ship_missile_aa
 			ship_missile
 		}
+		manpower = 20
 	}
 	ship_hull_light_role_de = {
     	category = dd_role
@@ -56,6 +57,7 @@ equipment_modules = {
 			ship_missile_aa
 			ship_missile
 		}
+		manpower = -30
 	}
 	ship_hull_light_role_ff = {
     	category = dd_role
@@ -81,6 +83,7 @@ equipment_modules = {
 			ship_missile_aa
 			ship_missile
 		}
+		manpower = -50
 	}
 	ship_hull_light_role_cl = {
     	category = dd_role
@@ -100,6 +103,7 @@ equipment_modules = {
 			ship_missile_aa
 			ship_missile
 		}
+		manpower = 80
 	}
 	ship_hull_light_role_dda = {
     	category = dd_role_missile
@@ -113,6 +117,7 @@ equipment_modules = {
 		forbid_module_categories = {
 			ship_missile
 		}
+		manpower = 50
 	}
 	ship_hull_light_role_ddg = {
 		category = dd_role_missile
@@ -124,6 +129,7 @@ equipment_modules = {
 			naval_speed = 0.05
 			build_cost_ic = 0.25
 		}
+		manpower = 80
 	}
 
 
@@ -208,6 +214,7 @@ equipment_modules = {
 			ship_missile_aa
 			raider_kit
 		}
+		manpower = 200
 	}
 	ship_hull_cruiser_role_aa = {
 		category = c_role
@@ -303,6 +310,7 @@ equipment_modules = {
 		forbid_module_categories = {
 			raider_kit
 		}
+		manpower = 350
 	}
 	ship_hull_cruiser_role_cgaa = {
 		category = c_role_missile
@@ -325,6 +333,7 @@ equipment_modules = {
 			ship_missile
 			raider_kit
 		}
+		manpower = 150
 	}
 	ship_hull_cruiser_role_csr = {
 		category = c_role
@@ -390,6 +399,7 @@ equipment_modules = {
 			ship_carrier_armor_shbb
 			ship_deck_space_converted
 		}
+		manpower = 200
 	}
 	carrier_bc_conversion = {
 		category = bb_carrier_role
@@ -419,6 +429,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = 1
 		}
+		manpower = 400
 	}
 
 
@@ -506,25 +517,27 @@ equipment_modules = {
 #########################
 	ship_hull_cruiser_role_pz = {
 		category = pz_role
+		add_stats = {
+			convoy_raiding_coordination = 0.1
+		}
 		multiply_stats = {
-			build_cost_ic = 0.25
-			max_strength = -0.2
+			naval_range = 0.15
+			max_strength = -0.15
+			surface_visibility = -0.1
 		}
-		forbid_module_categories = {
-			ship_medium_heavy_battery_double
-			ship_medium_heavy_battery_triple
-		}
+		
 		dismantle_cost_ic = 100000
 	}
 	ship_hull_cruiser_role_pbb = {
 		category = pz_role
 		gfx = ship_hull_cruiser_role_cb
 
-		forbid_module_categories = {
-			ship_heavy_battery
-			ship_heavy_battery_triple
-			ship_heavy_battery_quad
+		multiply_stats = {
+			build_cost_ic = 0.05
+			max_strength = 0.05
+			naval_range = 0.1
 		}
+		
 		dismantle_cost_ic = 100000
 	}
 }

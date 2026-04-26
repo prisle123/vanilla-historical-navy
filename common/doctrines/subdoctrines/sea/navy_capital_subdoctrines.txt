@@ -185,6 +185,9 @@ battlecruiser_supremacy = {
             medium_cruiser = {
                 surface_detection = 0.1
             }
+            modifier = {
+                positioning = 0.05
+            }
         }
         assualt_operation = {
             modifier = {
@@ -234,6 +237,96 @@ battlecruiser_supremacy = {
     }
 }
 
+battleship_antiair_screen = {
+    track = capital_ships
+    name = SUBDOCTRINE_BATTLESHIP_ANTIAIR_SCREEN
+    description = SUBDOCTRINE_BATTLESHIP_ANTIAIR_SCREEN_DESC
+    icon = GFX_doctrine_battleship_antiair_screen_medium 
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        has_doctrine = new_base_strike
+        has_navy_size = {
+            archetype = ship_hull_heavy
+            size > 3
+        }
+        has_tech = aviation_dawn
+    }
+
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            factor = 100
+            original_tag = USA
+        }
+    }
+
+    navy_anti_air_attack_factor = 0.1
+    naval_retreat_chance_after_initial_combat = 0.1
+
+    rewards = {
+
+    	guardian_squad = {
+    		battleship = {
+                max_organisation = 5
+                anti_air_attack = 0.05
+            }
+            heavy_cruiser = {
+                max_organisation = 5
+                anti_air_attack = 0.05
+            }
+            medium_cruiser = {
+                max_organisation = 5
+                anti_air_attack = 0.05
+            }
+    	}
+
+    	flexible_dispatch = {
+    		modifier = {
+                ships_at_battle_start = 0.05
+                strike_force_movement_org_loss = -0.1
+                positioning = 0.1
+            }
+    	}
+
+    	broad_air_cover = {
+    		battleship = {
+    			max_organisation = 5
+    			surface_detection = 0.05
+    		}
+    		battle_cruiser = {
+    			max_organisation = 5
+    			surface_detection = 0.05
+    		}
+            modifier = {
+                navy_capital_ship_defence_factor = 0.1
+            }
+    	}
+        task_force_protector = {
+    		modifier = {
+                positioning = 0.1
+                naval_torpedo_enemy_critical_chance_factor = -0.15
+            }
+    	}
+    	circle_formation = {
+            battleship = {
+                max_organisation = 10
+                anti_air_attack = 0.1
+            }
+            heavy_cruiser = {
+                max_organisation = 10
+                anti_air_attack = 0.1
+            }
+            medium_cruiser = {
+                max_organisation = 10
+                anti_air_attack = 0.1
+            }
+        }
+    }
+}
+
 armored_raiders = {
     track = capital_ships
     name = SUBDOCTRINE_ARMORED_RAIDERS
@@ -264,6 +357,12 @@ armored_raiders = {
 
     # EFFECTS
 	screening_without_screens = 0.10
+    equipment_bonus = {
+        vnr_ship_hull_cruiser_panzerschiff = {
+            instant = yes
+            naval_range = 0.2
+        }
+    }
     ships_at_battle_start = -0.1
     effect = {
         add_tech_bonus = {
@@ -297,15 +396,19 @@ armored_raiders = {
         modernized_officer_education = {
             battle_cruiser= {
                 max_organisation = 5
+                surface_visibility = -0.05
             }
 			battleship = {
 				max_organisation = 5
+                surface_visibility = -0.05
 			}
             heavy_cruiser = {
                 max_organisation = 5
+                surface_visibility = -0.05
             }
             medium_cruiser = {
                 max_organisation = 5
+                surface_visibility = -0.05
             }
         }
         capital_raiders = {
@@ -325,6 +428,9 @@ armored_raiders = {
 				max_organisation = 10
                 convoy_raiding_coordination = 0.1
 			}
+            modifier = {
+                positioning = 0.05
+            }
         }
         trade_route_sabotage = {
             equipment_bonus = {
@@ -508,97 +614,3 @@ naval_gunfire_support = {
    		}
    	}
 }
-
-
-battleship_antiair_screen = {
-    track = capital_ships
-    name = SUBDOCTRINE_BATTLESHIP_ANTIAIR_SCREEN
-    description = SUBDOCTRINE_BATTLESHIP_ANTIAIR_SCREEN_DESC
-    icon = GFX_doctrine_battleship_antiair_screen_medium 
-
-    xp_cost = 100
-    xp_type = navy
-
-    available = {
-        has_doctrine = new_base_strike
-        has_navy_size = {
-            archetype = ship_hull_heavy
-            size > 3
-        }
-        has_tech = aviation_dawn
-    }
-
-    ai_will_do = {
-        factor = 1
-        modifier = {
-            factor = 100
-            original_tag = USA
-        }
-    }
-
-    navy_anti_air_attack_factor = 0.1
-    naval_retreat_chance_after_initial_combat = 0.1
-
-    rewards = {
-
-    	guardian_squad = {
-    		battleship = {
-                max_organisation = 5
-                anti_air_attack = 0.05
-            }
-            heavy_cruiser = {
-                max_organisation = 5
-                anti_air_attack = 0.05
-            }
-            medium_cruiser = {
-                max_organisation = 5
-                anti_air_attack = 0.05
-            }
-    	}
-
-    	flexible_dispatch = {
-    		modifier = {
-                ships_at_battle_start = 0.05
-                strike_force_movement_org_loss = -0.1
-                positioning = 0.1
-            }
-    	}
-
-    	broad_air_cover = {
-    		battleship = {
-    			max_organisation = 5
-    			surface_detection = 0.05
-    		}
-    		battle_cruiser = {
-    			max_organisation = 5
-    			surface_detection = 0.05
-    		}
-            modifier = {
-                navy_capital_ship_defence_factor = 0.1
-            }
-    	}
-        task_force_protector = {
-    		modifier = {
-                positioning = 0.1
-                naval_torpedo_enemy_critical_chance_factor = -0.15
-            }
-    	}
-    	circle_formation = {
-            battleship = {
-                max_organisation = 10
-                anti_air_attack = 0.1
-            }
-            heavy_cruiser = {
-                max_organisation = 10
-                anti_air_attack = 0.1
-            }
-            medium_cruiser = {
-                max_organisation = 10
-                anti_air_attack = 0.1
-            }
-        }
-    }
-}
-
-
-

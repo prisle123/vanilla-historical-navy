@@ -1,29 +1,101 @@
-ITA_dominance_fleet_1 = {
+# must-haves
+ITA_strike_fleet_1 = {
 	required_taskforces = {
 		ITA_StrikeForce_1 = 1
-		ITA_PatrolDominanceForce_1 = 1
-		ITA_PatrolReconForce_1 = 2
-	}	
-	optional_taskforces = {
-		ITA_StrikeForceCarrier_1 = 1
-		ITA_PatrolReconForce_1 = 1
 	}
 }
-
-ITA_raiding_fleet_2 = {
+ITA_patrol_fleet_1 = {
 	required_taskforces = {
-		ITA_ConvoyRaiding_1 = 4
+		ITA_PatrolReconForce_1 = 3
+	}
+}
+ITA_escort_fleet_1 = {
+	required_taskforces = {
+		ITA_ConvoyEscort_1 = 2
+	}
+}
+ITA_dominance_fleet_1 = {
+	required_taskforces = {
+		ITA_PatrolDominanceForce_1 = 1
+	}
+}
+ITA_raiding_fleet_1 = {
+	required_taskforces = {
+		ITA_ConvoyRaiding_1 = 2
 	}	
 	optional_taskforces = {
 		ITA_ConvoyRaiding_1 = 2
 	}
 }
 
-ITA_escort_fleet_3 = {
+# advance fleets
+ITA_patrol_fleet_2 = {
 	required_taskforces = {
-		ITA_ConvoyEscort_1 = 1
+		ITA_PatrolReconForce_1 = 3
+	}
+}
+ITA_escort_fleet_2 = {
+	required_taskforces = {
+		ITA_ConvoyEscort_1 = 2
+	}
+}
+ITA_strike_fleet_2 = {
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+	}
+}
+ITA_dominance_fleet_2 = {
+	required_taskforces = {
+		ITA_PatrolDominanceForce_1 = 2
+	}
+}
+ITA_raiding_fleet_2 = {
+	required_taskforces = {
+		ITA_ConvoyRaiding_1 = 4
+	}	
+	optional_taskforces = {
+		ITA_ConvoyRaiding_1 = 4
+	}
+}
+
+# optional fleets
+ITA_patrol_fleet_3 = {
+	required_taskforces = {
+		ITA_PatrolReconForce_1 = 2
 	}
 	optional_taskforces = {
-		ITA_ConvoyEscort_1 = 1
+		ITA_PatrolReconForce_1 = 2
+	}
+}
+ITA_escort_fleet_3 = {
+	required_taskforces = {
+		ITA_ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		ITA_ConvoyEscort_1 = 2
+	}
+}
+ITA_strike_fleet_3 = {
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForce_1 = 1
+	}
+}
+ITA_dominance_fleet_3 = {
+	required_taskforces = {
+		ITA_PatrolDominanceForce_1 = 2
+	}
+	optional_taskforces = {
+		ITA_PatrolDominanceForce_1 = 2
+	}
+}
+ITA_carrier_fleet_3 = {
+	required_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
 	}
 }

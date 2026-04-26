@@ -1,0 +1,343 @@
+coverted_oceanic_replenishment = {
+    track = naval_logistics
+    name = SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT
+    description = SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT_DESC
+    icon = GFX_doctrine_coverted_oceanic_replenishment_medium
+
+    xp_cost = 60
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_littoral_defense
+			has_doctrine = new_base_strike
+        }
+        has_tech = naval_combat_support
+    }
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 75
+            OR = {
+                original_tag = JAP
+                original_tag = GER
+                original_tag = ITA
+            }
+        }
+    }
+
+    convoy_retreat_speed = 0.15
+	auxiliary_ship = {
+		lg_attack = 0.15
+	}
+
+	rewards = {
+		merchant_converted_tender = {
+			auxiliary_ship = {
+				surface_visibility = -0.25
+				max_strength = -0.25
+			}
+		}
+		fuel_rationing = {
+			modifier = {
+				navy_fuel_consumption_factor = -0.1
+				production_oil_factor = 0.1
+			}
+		}
+		oceanic_route_replenishment = {
+			battleship = {
+				supply_consumption = -0.03
+			}
+			battle_cruiser = {
+				supply_consumption = -0.03
+			}
+			heavy_cruiser = {
+				supply_consumption = -0.02
+			}
+			medium_cruiser = {
+				supply_consumption = -0.02
+			}
+			modifier = {
+				navy_max_range_factor = 0.1
+			}
+		}
+		independent_damage_control = {
+			modifier = {
+				critical_receive_chance = -0.1
+				naval_critical_effect_factor = -0.1
+			}
+		}
+		fortified_shipyards = {
+			modifier = {
+				repair_speed_factor = 0.1
+				repair_speed_dockyard_factor = 0.15
+			}
+		}
+	}
+}
+
+industrialized_naval_logistics = {
+    track = naval_logistics
+    name = SUBDOCTRINE_LOGISTICS_INDUSTRIALIZED_NAVAL_LOGISTICS
+    description = SUBDOCTRINE_LOGISTICS_INDUSTRIALIZED_NAVAL_LOGISTICS_DESC
+    icon = GFX_doctrine_industrialized_naval_logistics_medium
+
+    xp_cost = 100
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = new_base_strike
+            has_doctrine = new_fleet_in_being
+        }
+        has_tech = naval_combat_support
+		OR = {
+			num_of_naval_factories > 49
+			num_of_civilian_factories > 39
+		}
+    }
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 75
+            OR = {
+                original_tag = USA
+            }
+        }
+    }
+
+    navy_fuel_consumption_factor = -0.1
+    transport_capacity = -0.1
+
+	rewards = {
+		firefighting_team = {
+			modifier = {
+				critical_receive_chance = -0.05
+				naval_critical_effect_factor = -0.1
+				naval_accidents_chance = -0.1
+			}
+		}
+		logistics_management_model = {
+			carrier = {
+				supply_consumption = -0.03
+			}
+			SH_battleship = {
+				supply_consumption = -0.04
+			}
+			battleship = {
+				supply_consumption = -0.04
+			}
+			battle_cruiser = {
+				supply_consumption = -0.04
+			}
+			heavy_cruiser = {
+				supply_consumption = -0.02
+			}
+			medium_cruiser = {
+				supply_consumption = -0.02
+			}
+			modifier = {
+				naval_attrition = -0.06
+			}
+		}
+		damage_control_protocals = {
+			modifier = {
+				critical_receive_chance = -0.1
+				naval_critical_effect_factor = -0.05
+				repair_speed_factor = 0.05
+			}
+		}
+		advancing_base = {
+			modifier = {
+				production_speed_naval_supply_hub_factor = 0.25
+				production_speed_naval_base_factor = 0.2
+				navy_max_range_factor = 0.15
+			}
+		}
+		modular_shipbuilding = {
+			modifier = {
+				repair_speed_factor = 0.15
+			}
+			equipment_bonus = {
+				convoy_1 = {
+					instant = yes
+					build_cost_ic = -0.15
+					anti_air_attack = 1
+				}
+				ship_hull_civilian = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+			}
+		}
+	}
+}
+
+trade_supply_network = {
+    track = naval_logistics
+    name = SUBDOCTRINE_LOGISTICS_TRADE_SUPPLY_NETWORK
+    description = SUBDOCTRINE_LOGISTICS_TRADE_SUPPLY_NETWORK_DESC
+    icon = GFX_doctrine_trade_supply_network_medium
+
+    xp_cost = 75
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = new_base_strike
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_convoy_raiding
+        }
+        has_tech = naval_combat_support
+    }
+
+    ai_will_do = { 
+        base = 1
+        modifier = {
+            factor = 75
+            OR = {
+                original_tag = FRA
+                original_tag = ENG
+            }
+        }
+    }
+
+	supply_node_range = 0.075
+    equipment_bonus = {
+        convoy_1 = {
+            surface_visibility = -0.1
+            instant = yes
+        }
+    }
+
+	rewards = {
+		oil_lifeline = {
+			modifier = {
+				production_speed_fuel_silo_factor = 0.2
+				max_fuel_factor = 0.1
+				navy_fuel_consumption_factor = -0.1
+			}
+		}
+		transportation_network = {
+			modifier = {
+				transport_capacity = -0.15
+				license_production_speed = 0.1
+			}
+		}
+		logisitics_opertional_research = {
+			carrier = {
+				supply_consumption = -0.03
+			}
+			battleship = {
+				supply_consumption = -0.05
+			}
+			battle_cruiser = {
+				supply_consumption = -0.05
+			}
+			heavy_cruiser = {
+				supply_consumption = -0.02
+			}
+			medium_cruiser = {
+				supply_consumption = -0.02
+			}
+			equipment_bonus = {
+				convoy_1 = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		damage_control_protocals = {
+			modifier = {
+				critical_receive_chance = -0.1
+				naval_critical_effect_factor = -0.05
+				repair_speed_factor = 0.05
+			}
+		}
+		convoy_pack = {
+			equipment_bonus = {
+				convoy_1 = {
+					max_strength = 0.25
+					lg_attack = 1
+					instant = yes
+				}
+			}
+			modifier = {
+				convoy_escort_efficiency = 0.1
+			}
+		}
+	}
+}
+
+defensive_combat_support = {
+    track = naval_logistics
+    name = SUBDOCTRINE_LOGISTICS_DEFENSIVE_COMBAT_SUPPORT
+    description = SUBDOCTRINE_LOGISTICS_DEFENSIVE_COMBAT_SUPPORT_DESC
+    icon = GFX_doctrine_defensive_combat_support_medium
+
+    xp_cost = 60
+    xp_type = navy
+
+    available = {
+        OR = {
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_littoral_defense
+        }
+        has_tech = naval_combat_support
+    }
+
+    ai_will_do = { 
+        base = 1
+    }
+
+    coastal_bunker_effectiveness_factor = 0.1
+    production_speed_coastal_bunker_factor = 0.15
+	repair_speed_coastal_bunker_factor = 0.15
+
+	rewards = {
+		local_supply_network = {
+			heavy_cruiser = {
+				supply_consumption = -0.02
+			}
+			medium_cruiser = {
+				supply_consumption = -0.02
+			}
+			light_cruiser = {
+				supply_consumption = -0.01
+			}
+			modifier = {
+				navy_fuel_consumption_factor = -0.1
+			}
+		}
+		dual_purpose_ports = {
+			modifier = {
+				production_speed_naval_base_factor = 0.1
+				repair_speed_factor = 0.1
+			}
+		}
+		temporary_repair_team = {
+			modifier = {
+				critical_receive_chance = -0.05
+				naval_critical_effect_factor = -0.1
+			}
+		}
+		resilient_shipbuilding_scheme = {
+			modifier = {
+				weekly_convoys_war_support = 0.005
+				repair_speed_naval_base_factor = 0.1
+				repair_speed_dockyard_factor = 0.1
+			}
+		}
+		positive_trade_list = {
+			modifier = {
+				request_lease_tension = -0.25
+				trade_opinion_factor = 0.1
+				offensive_war_stability_factor = -0.1
+			}
+		}
+	}
+}

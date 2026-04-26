@@ -14,8 +14,8 @@ equipment_modules = {
 			anti_air_attack = 2
 			reliability = -0.1
 			max_organisation = -0.2
-			carrier_surface_detection = 5
-			carrier_sub_detection = 3
+			carrier_surface_detection = 3
+			carrier_sub_detection = 1.5
 			supply_consumption = 0.02
 		}
 		manpower = 300 #outside the add_stats section for code reasons
@@ -41,8 +41,8 @@ equipment_modules = {
 			build_cost_ic = 1300
 			max_strength = 40
 			anti_air_attack = 2.5
-			carrier_surface_detection = 4
-			carrier_sub_detection = 2
+			carrier_surface_detection = 2
+			carrier_sub_detection = 1
 			supply_consumption = 0.015
 			max_organisation = -0.05
 		}
@@ -76,8 +76,8 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 2
 			build_cost_ic = 1000
-			carrier_surface_detection = 4
-			carrier_sub_detection = 2
+			carrier_surface_detection = 2
+			carrier_sub_detection = 1
 			max_strength = 30
 			anti_air_attack = 1.5
 			supply_consumption = 0.015
@@ -103,8 +103,8 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 1
 			build_cost_ic = 700
-			carrier_surface_detection = 2
-			carrier_sub_detection = 1
+			carrier_surface_detection = 1
+			carrier_sub_detection = 0.5
 			max_strength = 20
 			anti_air_attack = 0.5
 			supply_consumption = 0.01
@@ -126,9 +126,8 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 3
 			build_cost_ic = 2000
-			max_organisation = -0.05
-			carrier_surface_detection = 5
-			carrier_sub_detection = 3
+			carrier_surface_detection = 3
+			carrier_sub_detection = 2
 			reliability = -0.075
 			max_strength = 55
 			anti_air_attack = 3
@@ -162,8 +161,8 @@ equipment_modules = {
 			build_cost_ic = 1000
 			reliability = -0.1
 			max_organisation = -0.1
-			carrier_surface_detection = 2
-			carrier_sub_detection = 1
+			carrier_surface_detection = 1
+			carrier_sub_detection = 0.5
 			supply_consumption = 0.015
 		}
 		manpower = 125
@@ -174,7 +173,7 @@ equipment_modules = {
 			surface_visibility = 0.05
 		}
 		dismantle_cost_ic = 2000
-		critical_parts = { damaged_bb_flight_deck }
+		critical_parts = { damaged_bb_flight_deck gas_leakage_heavy }
 	}
 	ship_deck_space_mega = {
 		category = ship_deck_space_mega
@@ -185,14 +184,14 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 2
 			build_cost_ic = 2000
-			carrier_surface_detection = 8
-			carrier_sub_detection = 3
+			carrier_surface_detection = 2.5
+			carrier_sub_detection = 2
 			max_strength = 80
 			reliability = -0.1
 			anti_air_attack = 3
 			supply_consumption = 0.03
 		}
-		manpower = 450 #outside the add_stats section for code reasons
+		manpower = 350 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.075
 			fuel_consumption = 0.1
@@ -210,8 +209,8 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 2
 			build_cost_ic = 2000
-			carrier_surface_detection = 4
-			carrier_sub_detection = 2
+			carrier_surface_detection = 2
+			carrier_sub_detection = 1
 			max_strength = 30
 			reliability = -0.025
 			anti_air_attack = 1.5
@@ -242,21 +241,21 @@ equipment_modules = {
 			build_cost_ic = 350
 		}
 		multiply_stats = {
-			naval_speed = -0.005
+			naval_speed = -0.02
 		}
 		dismantle_cost_ic = 100
 	}
 	carrier_helipad_aew = {
 		category = carrier_helipad
 		add_stats = {
-			surface_detection = 7
+			surface_detection = 6
 			sub_detection = 1
 			sub_attack = 0.5
 			build_cost_ic = 350
 		}
 		multiply_stats = {
 			anti_air_attack = 0.05
-			naval_speed = -0.005
+			naval_speed = -0.02
 		}
 		dismantle_cost_ic = 100
 	}
@@ -266,7 +265,8 @@ equipment_modules = {
 ##  FLIGHT DECK  ##
 ###################
     carrier_armor_deck = {
-		category = ship_flight_deck
+		category = ship_flight_deck_armored
+		gui_category = ship_flight_deck
 		add_equipment_type = capital_ship
 		
 		add_stats = {
@@ -286,7 +286,8 @@ equipment_modules = {
 		critical_parts = { damaged_armored_flight_deck }
 	}
 	carrier_wooden_deck = {
-		category = ship_flight_deck
+		category = ship_flight_deck_unarmored
+		gui_category = ship_flight_deck
 		add_equipment_type = capital_ship
 
 		multiply_stats = {
@@ -298,7 +299,8 @@ equipment_modules = {
 		critical_parts = { damaged_wooden_flight_deck }
 	}
 	carrier_strength_deck = {
-		category = ship_flight_deck
+		category = ship_flight_deck_armored
+		gui_category = ship_flight_deck
 		add_equipment_type = capital_ship
 		parent = carrier_armor_deck
 		add_stats = {
@@ -324,10 +326,10 @@ equipment_modules = {
 ############################
 ##  MODERN CARRIER EQUIP  ##
 ############################
-    ship_airplane_launcher_3 = {
+    ship_steam_catapult = {
 		category = steam_catapult
 		gui_category = modern_carrier_equipments
-		gfx = ship_airplane_launcher_3
+		gfx = ship_steam_catapult
 
 		add_stats = {
 			build_cost_ic = 700
@@ -396,6 +398,9 @@ equipment_modules = {
 			anti_air_attack = 0.05
 			build_cost_ic = 0.05
 		}
+		forbid_module_categories = {
+			landing_assault_command
+		}
 	}
 	carrier_damage_control_unit = {
 		category = carrier_unit
@@ -415,6 +420,7 @@ equipment_modules = {
 			sub_detection = 4
 			build_cost_ic = 350
 		}
+		manpower = 50
 	}
 	carrier_spared_squad = {
 		category = carrier_unit
@@ -428,6 +434,9 @@ equipment_modules = {
 		}
 		add_stats = {
 			reliability = -0.05
+		}
+		forbid_module_categories = {
+			landing_assault_command
 		}
 	}
 	carrier_fuel_storage = {
@@ -452,7 +461,7 @@ equipment_modules = {
 		multiply_stats = {
 			armor_value = -0.25
 			max_strength = -0.25
-			anti_air_attack = -0.4
+			anti_air_attack = -0.8
 			naval_speed = -0.25
 			naval_range = -0.2
 			build_cost_ic = -0.2
@@ -507,6 +516,7 @@ equipment_modules = {
 			surface_detection = 0.1
 			sub_detection = 0.1
 		}
+		manpower = 30
 	}
 	coldwar_upgrade_cv = {
 		category = coldwar_upgrade_cv
@@ -523,5 +533,43 @@ equipment_modules = {
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 50000
+	}
+
+##########################
+##  CARRIER AMPHIBIOUS  ##
+##########################
+	landing_helipad = {
+		category = landing_kit
+
+		add_stats = {
+			build_cost_ic = 600
+		}
+		multiply_stats = {
+			hg_attack = 0.15
+			naval_speed = -0.05
+			anti_air_attack = 0.025
+		}
+		manpower = 200
+	}
+	hovercraft = {
+		category = landing_kit
+
+		add_stats = {
+			hg_attack = 3
+			build_cost_ic = 200
+		}
+		multiply_stats = {
+			naval_speed = -0.03
+		}
+		manpower = 100
+	}
+	landing_assault_command = {
+		category = landing_assault_command
+		add_stats = {
+			hg_attack = 30
+			naval_heavy_gun_hit_chance_factor = -1
+			naval_light_gun_hit_chance_factor = -1
+			build_cost_ic = 100
+		}
 	}
 }

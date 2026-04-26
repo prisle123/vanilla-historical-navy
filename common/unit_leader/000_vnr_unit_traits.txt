@@ -3,19 +3,19 @@ leader_traits = {
 		type = navy
 		sub_unit_modifiers = {
 			cv_cas = {
-				naval_strike_attack_factor = 0.05
+				naval_strike_attack_factor = 0.1
 				air_nav_efficiency = 0.1
-				naval_strike_targetting_factor = 0.1
+				naval_strike_targetting_factor = 0.05
 			}
 		}	
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
 		
 		slot = navy_chief
-		specialist_advisor_trait = navy_chief_naval_aviation_1
-		expert_advisor_trait = navy_chief_naval_aviation_2
-		genius_advisor_trait = navy_chief_naval_aviation_3
+		specialist_advisor_trait = vnr_navy_chief_naval_aviation_1
+		expert_advisor_trait = vnr_navy_chief_naval_aviation_2
+		genius_advisor_trait = vnr_navy_chief_naval_aviation_3
 		
 		trait_type = assignable_trait
 		mutually_exclusive = fighter_director
@@ -26,11 +26,37 @@ leader_traits = {
 		gui_column = 2
 	}
 
+	torpedo_bomber = { 
+		type = navy
+		sub_unit_modifiers = {
+			cv_nav_bomber = {
+				naval_strike_attack_factor = 0.1
+				air_nav_efficiency = 0.1
+				naval_strike_targetting_factor = 0.05
+			}
+		}	
+
+		slot = high_command
+		specialist_advisor_trait = vnr_air_naval_strike_1
+		expert_advisor_trait = vnr_air_naval_strike_2
+		genius_advisor_trait = vnr_air_naval_strike_3
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		trait_type = assignable_trait
+		mutually_exclusive = fighter_director
+		mutually_exclusive = dive_bomber
+		any_parent = { flight_deck_manager }
+		
+		gui_row = 9
+		gui_column = 2
+	}
+
     cruiser_captain = { 
 		type = navy
-		modifier = {
-			
-		}
+
 		sub_unit_modifiers = {
 			light_cruiser = {
 				naval_damage_factor = 0.05
@@ -46,7 +72,7 @@ leader_traits = {
 			}
 		}	
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
 		
 		trait_type = assignable_trait
@@ -58,14 +84,7 @@ leader_traits = {
 
     destroyer_leader = {
 		type = navy
-		modifier = {
-			#destroyer = {
-			#	units = {
-			#		attack = 0.1
-			#		defence = 0.1
-			#	}
-			#}
-		}
+
 		sub_unit_modifiers = {
 			destroyer = {
 				naval_damage_factor = 0.05
@@ -74,7 +93,7 @@ leader_traits = {
 			}
 		}	
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
 		
 		trait_type = assignable_trait
