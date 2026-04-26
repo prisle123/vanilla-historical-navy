@@ -2301,7 +2301,7 @@ we_need_screen_2 = {
 	allowed = {
 		OR = {
 			tag = FRA
-			tag = GER
+			#tag = GER
 			tag = ITA
 			tag = SOV
 		}
@@ -2317,7 +2317,7 @@ we_need_screen_2 = {
 		set_temp_variable = { screens = num_ships_with_type@destroyer }
 		add_to_temp_variable = { screens = num_ships_with_type@light_cruiser }
 		divide_temp_variable = { screens = warships }
-		check_variable = { screens < 2.25 }
+		check_variable = { screens < 5.0 }
 	}
 	abort = {
 		OR = {
@@ -2331,7 +2331,7 @@ we_need_screen_2 = {
 				set_temp_variable = { screens = num_ships_with_type@destroyer }
 				add_to_temp_variable = { screens = num_ships_with_type@light_cruiser }
 				divide_temp_variable = { screens = warships }
-				check_variable = { screens > 3.0 }
+				check_variable = { screens > 5.5 }
 			}
 		}
 	}
