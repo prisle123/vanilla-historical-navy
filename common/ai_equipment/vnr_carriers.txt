@@ -113,7 +113,6 @@ naval_carrier = {
 				front_1_custom_slot = ship_deck_space_open
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space_open
-				mid_2_custom_slot = ship_dp_secondaries_bb
 			}
 		}
 		allowed_modules = {
@@ -154,7 +153,6 @@ naval_carrier = {
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space_armored
 				mid_2_custom_slot = ship_deck_space_armored
-				rear_1_custom_slot = ship_dp_secondaries_bb
 			}
 		}
 		allowed_modules = {

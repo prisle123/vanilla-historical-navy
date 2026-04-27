@@ -113,13 +113,13 @@ NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane
 -- Following defines decide dynamic plane cap in naval combat based on enemy ship count and type
 -- calculated as: attacking plane without penalty = NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY + SHIP_SILHOUETTE_VALUE_PLANES_CARRIER * carrier number + 
 --													SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL * capital ship number + (SHIP_SILHOUETTE_VALUE_PLANES_SCREEN * screen ship number) * (1 / (1 + screen ratio * SCREEN_CAP_REDUCTION_FACTOR))
-NDefines.NNavy.SCREEN_CAP_REDUCTION_FACTOR = 0.08   -- Reduces screen silhouette weight if there are caps present, screenval * 1/(1+caps*weight) (was 0.02)
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL = 10   -- For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract)
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SCREEN = 3   -- As Above. This one would be nice to split by type, but that's problematic. (was 5)
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 22   -- As Above (was 16)
+NDefines.NNavy.SCREEN_CAP_REDUCTION_FACTOR = 0.06   -- Reduces screen silhouette weight if there are caps present, screenval * 1/(1+caps*weight) (was 0.02)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL = 17   -- For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SCREEN = 5   -- As Above. This one would be nice to split by type, but that's problematic. (was 5)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 30   -- As Above (was 16)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUPPORT = 2   -- As Above (was 3)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CONVOY = 2   -- As Above (was 4)
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 2   -- As Above (was 7)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 3   -- As Above (was 7)
 -- dynamic plane cap ends
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 40   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 10   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 10)

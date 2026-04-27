@@ -802,6 +802,14 @@ country_event = {
 				ai_get_mio_upgrade = yes
 			}
 		}
+		USA = {
+			limit = { is_ai = yes }
+			set_technology = {
+				large_shipyard = 1
+				port_construction_corps = 1
+				integrated_shipyard_complex = 1
+			}
+		}
 		set_global_flag = naval_tech_1941
 	}
 }

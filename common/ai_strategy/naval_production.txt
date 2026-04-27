@@ -426,7 +426,7 @@ naval_unit_role_ratios_GER_prewar_late = {
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 25
+		value = 30
 	}
 }
 
@@ -473,7 +473,7 @@ naval_unit_role_ratios_GER_atwar = {
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 40
+		value = 65
 	}
 }
 
@@ -1594,7 +1594,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 130
+		value = 150
 	}
 	
 	ai_strategy = {
