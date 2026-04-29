@@ -22,7 +22,7 @@ NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profi
 }
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { 1.0, 8.0, 1.0 }   -- number of hours for a gun to be ready after shooting
 NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_STR_LOSS = 0.05   -- losing strength will make you also lose manpower at this ratio of total manpower (was 0.5)
-NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_SUNK = 0.25   -- sunk ships will lose this ratio of their current manpower (was 0.5)
+NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_SUNK = 0.5   -- sunk ships will lose this ratio of their current manpower (was 0.5)
 NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.5   -- upper limit of shore bombardment (was 0.33)
 NDefines.NNavy.HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.1   -- heavy gun attack value is divided by this value * 100 and added to shore bombardment modifier (was 0.05)
 NDefines.NNavy.LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.5   -- light gun attack value is divided by this value * 100 and added to shore bombardment modifier (was 0.025)
