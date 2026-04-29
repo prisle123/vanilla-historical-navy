@@ -21,6 +21,9 @@ Operating rules:
 - Read the owning hull file before proposing balance changes. Confirm tier order, slot layout, base stats, allowed module categories, default modules, and whether the hull inherits from another hull.
 - Read the relevant module files before changing module recommendations or cost assumptions. Check both direct stat changes and multiplicative modifiers.
 - Read the relevant AI equipment template before changing priorities or target variants. Verify that each selected module is legal for the chosen hull slots and role.
+- When reading hull slot definitions, treat slot aliases as full inheritance. If a hull defines `front_2_custom_slot = front_1_custom_slot`, then the later slot inherits the earlier slot's allowed categories and other slot properties for that hull tier.
+- When reading module legality, distinguish exact module names from module categories. AI templates may assign a specific module, a category-like selector, or an `any_of` block; legality should be checked against the resolved module category, not just the literal token.
+- When reading module definitions, resolve parent inheritance before drawing conclusions about legality or role. If a module variant inherits its category from a parent module, treat it as belonging to the parent's category.
 - Balance at the system level, not by isolated numbers. Consider IC cost, speed, range, visibility, reliability, fuel use, armor, armament, detection, manpower, and tech timing together.
 - Preserve the repository's existing design vocabulary: hull tiers define chassis constraints, modules define specialization, and `common/ai_equipment/*.txt` expresses what the AI is actually trying to build.
 - When adjusting AI templates, keep priorities and role splits coherent across all tiers in the same block. Do not change modules casually; tie every module change to a concrete slot, role, or stat reason.

@@ -198,6 +198,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.shader"
 	}
 	spriteType = {
+		name = "GFX_vnr_main_menu_bg_small"
+		texturefile = "gfx/loadingscreens/vnr_main_menu_bg_small.dds"
+	}
+	spriteType = {
 		name = "GFX_frontend_game_logo"
 		texturefile = "gfx/interface/vnr_logo.dds"
 	}

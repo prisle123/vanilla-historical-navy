@@ -1142,9 +1142,9 @@ SOV_AI_variants_1940 = {
 			fixed_ship_extra_secondaries_slot = ship_high_velocity_shell
 			front_1_custom_slot = empty
 			front_2_custom_slot = ship_heavy_battery_3_triple
-			mid_1_custom_slot = dp_ship_secondaries_2
+			mid_1_custom_slot = dp_ship_secondaries_2_bb
 			mid_2_custom_slot = ship_secondaries_2
-			mid_3_custom_slot = dp_ship_secondaries_2
+			mid_3_custom_slot = dp_ship_secondaries_2_bb
 			rear_1_custom_slot = ship_heavy_battery_3_triple
 		}
 	}
@@ -1174,7 +1174,7 @@ SOV_AI_variants_1940 = {
 			fixed_ship_anti_air_slot = ship_anti_air_3
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 			fixed_ship_engine_slot = heavy_ship_engine_3
-			fixed_ship_secondaries_slot = dp_ship_secondaries_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries_2_bb
 			fixed_ship_armor_slot = ship_armor_bc_3
 			front_1_custom_slot = empty
 			front_2_custom_slot = ship_heavy_battery_1_triple
@@ -1261,16 +1261,16 @@ SOV_AI_variants_1943 = {
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_3
 			fixed_ship_radar_slot = ship_radar_4
 			fixed_ship_engine_slot = heavy_ship_engine_5
-			fixed_ship_secondaries_slot = dp_ship_secondaries_4
+			fixed_ship_secondaries_slot = dp_ship_secondaries_4_bb
 			fixed_ship_armor_slot = ship_armor_shbb_2
 			fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing_armor_box
 			fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
 			fixed_ship_extra_secondaries_slot = ship_high_velocity_shell
 			front_1_custom_slot = ship_anti_air_4
 			front_2_custom_slot = ship_heavy_battery_4_triple
-			mid_1_custom_slot = dp_ship_secondaries_4
+			mid_1_custom_slot = dp_ship_secondaries_4_bb
 			mid_2_custom_slot = ship_anti_air_4
-			mid_3_custom_slot = dp_ship_secondaries_4
+			mid_3_custom_slot = dp_ship_secondaries_4_bb
 			rear_1_custom_slot = ship_heavy_battery_4_triple
 			rear_2_custom_slot = ship_airplane_launcher_2
 		}
@@ -1288,11 +1288,11 @@ SOV_AI_variants_1943 = {
 			fixed_ship_radar_slot = ship_radar_3
 			fixed_ship_engine_slot = carrier_ship_engine_4
 			fixed_ship_armor_slot = ship_armor_carrier_4
-			fixed_ship_secondaries_slot = dp_ship_secondaries_3
+			fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
 			fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
 			front_1_custom_slot = ship_anti_air_3
 			mid_1_custom_slot = ship_deck_space_open
-			mid_2_custom_slot = dp_ship_secondaries_3
+			mid_2_custom_slot = dp_ship_secondaries_3_bb
 			rear_1_custom_slot = ship_anti_air_3
 		}
 	}
