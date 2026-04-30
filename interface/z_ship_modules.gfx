@@ -218,6 +218,10 @@ spriteTypes = {
 		name = "GFX_SMI_landing_kit"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/landing_helipad.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_missile_control_system"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/missile_control_system.png"
+	}
 	
 	# topview images
 	spriteType = {
@@ -1476,10 +1480,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/economical_nuclear_reactor.png"
 	}
 	spriteType = {
-		name = "GFX_SMI_ship_fire_control_system_5"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_fire_control_system_5.png"
-	}
-	spriteType = {
 		name = "GFX_SMI_ship_display_system"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_display_system.png"
 	}
@@ -1685,5 +1685,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_landing_assault_command"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/landing_command.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_missile_control_system_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/missile_control1.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_missile_control_system_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/missile_control2.png"
 	}
 }

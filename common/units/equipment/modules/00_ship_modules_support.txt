@@ -149,7 +149,7 @@ equipment_modules = {
 		critical_parts = { damaged_aa_missiles }
 		manpower = 10
 		allowed_module_categories = {
-		    fixed_ship_fire_control_system_slot = ship_missile_control_system
+		    fixed_ship_fire_control_system_slot = { ship_missile_control_system }
 		}
 	}
 	ship_missile_aa_2 = {
@@ -173,8 +173,51 @@ equipment_modules = {
 		critical_parts = { damaged_aa_missiles }
 		manpower = 14
 		allowed_module_categories = {
-		    fixed_ship_fire_control_system_slot = ship_missile_control_system
+		    fixed_ship_fire_control_system_slot = { ship_missile_control_system }
 		}
+	}
+	ship_carrier_missile_aa_1 = {
+		category = ship_carrier_missile_aa
+		gui_category = ship_missile
+		gfx = ship_missile_aa_1
+
+		add_stats = {
+			build_cost_ic = 500
+			hg_attack = 3
+			lg_attack = 3
+			anti_air_attack = 6
+			reliability = -0.025
+			max_strength = 3
+		}
+		multiply_stats = {
+			naval_speed = -0.03
+			surface_visibility = -0.05
+		}
+		dismantle_cost_ic = 400
+		critical_parts = { damaged_aa_missiles }
+		manpower = 10
+	}
+	ship_carrier_missile_aa_2 = {
+		category = ship_carrier_missile_aa
+		gui_category = ship_missile
+		gfx = ship_missile_aa_2
+		parent = ship_carrier_missile_aa_1
+
+		add_stats = {
+			build_cost_ic = 750
+			hg_attack = 5
+			lg_attack = 5
+			anti_air_attack = 8
+			reliability = -0.05
+			max_strength = 5
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+			surface_visibility = -0.065
+		}
+		dismantle_cost_ic = 600
+		critical_parts = { damaged_aa_missiles }
+		manpower = 14
 	}
 
 

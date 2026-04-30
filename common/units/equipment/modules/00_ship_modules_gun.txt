@@ -2473,7 +2473,7 @@ equipment_modules = {
 		critical_parts = { damaged_missiles }
 		manpower = 15
 		allowed_module_categories = {
-		    fixed_ship_fire_control_system_slot = ship_missile_control_system
+		    fixed_ship_fire_control_system_slot = { ship_missile_control_system }
 		}
 	}
 	ship_missile_2 = {
@@ -2501,7 +2501,7 @@ equipment_modules = {
 		critical_parts = { damaged_missiles }
 		manpower = 20
 		allowed_module_categories = {
-		    fixed_ship_fire_control_system_slot = ship_missile_control_system
+		    fixed_ship_fire_control_system_slot = { ship_missile_control_system }
 		}
 	}
 	ship_cruise_missile_1 = {
