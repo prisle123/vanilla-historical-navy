@@ -31,6 +31,11 @@ ENG_protect_home_waters = {
         id = 18
         value = -1000
     }
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 16
+		value 1000
+	}
 }
 
 ENG_avoid_baltic = {
@@ -77,7 +82,7 @@ ENG_secure_mediterranean = {
     }
     enable = {
         has_war_with = ITA
-        ITA = { surrender_progress < 0.6 }
+        ITA = { surrender_progress < 0.4 }
 		all_core_state = {
 			is_controlled_by_ROOT_or_ally = yes
 		}
@@ -102,6 +107,17 @@ ENG_secure_mediterranean = {
 	ai_strategy = {
 		type = naval_convoy_raid_region
 		id = 69
+		value = 100
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 69
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = east_north_africa
 		value = 100
 	}
 }
@@ -152,7 +168,7 @@ ENG_avoid_pacific = {
     enable = {
         has_war_with = JAP
 		has_war_with = ITA
-		ITA = { has_navy_size = { size > 99 } }
+		ITA = { has_navy_size = { size > 49 } }
 		war_length_with = {
 			tag = JAP
 			months < 24
@@ -200,7 +216,7 @@ ENG_reinforce_pacific = {
 		}
 		OR = {
 			NOT = { has_war_with = ITA }
-			ITA = { has_navy_size = { size < 100 } }
+			ITA = { has_navy_size = { size < 50 } }
 		}
 		336 = {
 			is_controlled_by_ROOT_or_ally = yes

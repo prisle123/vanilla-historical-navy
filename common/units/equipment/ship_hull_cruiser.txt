@@ -154,10 +154,6 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			category = ship_fire_control_system
-			count < 2
-		}
-		module_count_limit = {
 			category = ship_missile
 			count < 3
 		}
@@ -313,7 +309,7 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = no
-				allowed_module_categories = { ship_fire_control_system ship_sonar }
+				allowed_module_categories = { ship_fire_control_system }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -592,7 +588,7 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = no
-				allowed_module_categories = { ship_fire_control_system ship_sonar }
+				allowed_module_categories = { ship_fire_control_system }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -624,7 +620,7 @@ equipments = {
 			}
 			fixed_ship_extra_electronics_slot = {
 				required = no
-				allowed_module_categories = { ship_radar ship_sonar ship_fire_control_system }
+				allowed_module_categories = { ship_radar ship_sonar }
 			}
 			front_1_custom_slot = {
 				required = no

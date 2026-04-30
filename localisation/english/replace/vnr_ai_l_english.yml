@@ -45,7 +45,9 @@
  vnr_hard_production: "AI Production Buff: §OHard§!"
  vnr_normal_production: "AI Production Buff: §GNormal§!"
  vnr_shipyard_output_boost: "VNR Shipyard Output Boost"
- vnr_cv_plane_output_boost: "VNR CV Plane Output Boost"
+ vnr_cv_plane_output_boost: "VNR CV Plane Output Boost (§RNo way you can see me! This is for AI and debugging!§!)"
+ vnr_ai_dd_output_boost_1: "AI Destroyer Output Boost (§RNo way you can see me! This is for AI and debugging!§!)"
+ vnr_ai_dd_output_boost_2: "$vnr_ai_dd_output_boost_1$"
 
  # Rules
  RULE_AI_SHIP_DESIGN_STYLE: "AI Ship Design Style"

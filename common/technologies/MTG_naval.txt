@@ -3825,6 +3825,7 @@ technologies = {
 		research_cost = 1.25
 		enable_equipment_modules = {
 			ship_fire_control_system_4
+			ship_missile_control_system_1
 		}
 		strike_force_movement_org_loss = -0.1
 
@@ -3989,7 +3990,7 @@ technologies = {
 		}
 		research_cost = 1.25
 		enable_equipment_modules = {
-			ship_fire_control_system_5
+			ship_missile_control_system_2
 		}
 		start_year = 1954
 
