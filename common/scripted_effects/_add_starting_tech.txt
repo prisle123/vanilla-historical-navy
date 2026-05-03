@@ -424,6 +424,7 @@ makeup_starting_techs = {
         set_technology = {
 			coastal_defense_ships = 1
 			early_cruiser_armor = 1
+            searchlight = 1
 			popup = no
 		}
     }
@@ -444,6 +445,8 @@ makeup_starting_techs = {
 			basic_heavy_armor = 1
 			krupp_steel = 1
             fuel_oil_boiler = 1
+            improved_conning_tower = 1
+            enhanced_horizontal_defense = 1
 			popup = no
 		}
 	}

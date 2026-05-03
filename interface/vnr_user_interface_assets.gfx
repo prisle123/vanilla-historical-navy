@@ -512,6 +512,16 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_dd_tech_13"
+		textureFile = "gfx/texticons/tech_banner/dd_13_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_dd_tech_14"
+		textureFile = "gfx/texticons/tech_banner/dd_14_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_ss_tech_1"
 		textureFile = "gfx/texticons/tech_banner/ss_1_desc_icon.png"
 		legacy_lazy_load = no
@@ -549,6 +559,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_cw_tech_2"
 		textureFile = "gfx/texticons/tech_banner/cw_2_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_support_tech_1"
+		textureFile = "gfx/texticons/tech_banner/support_1_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_support_tech_2"
+		textureFile = "gfx/texticons/tech_banner/support_2_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_support_tech_3"
+		textureFile = "gfx/texticons/tech_banner/support_3_desc_icon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_support_tech_4"
+		textureFile = "gfx/texticons/tech_banner/support_4_desc_icon.png"
 		legacy_lazy_load = no
 	}
 }

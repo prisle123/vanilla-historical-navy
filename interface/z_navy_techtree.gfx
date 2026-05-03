@@ -91,22 +91,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_incremental_armor_scheme_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/ship_scheme_incremental.png"
-	}
-	spriteType = {
-		name = "GFX_mixed_armor_scheme_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/ship_scheme_mixed.png"
-	}
-	spriteType = {
-		name = "GFX_all_or_nothing_armor_scheme_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/ship_scheme_all_or_nothing.png"
-	}
-	spriteType = {
-		name = "GFX_all_or_nothing_armor_box_armor_scheme_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/ship_scheme_all_or_nothing_armor_box.png"
-	}
-	spriteType = {
 		name = "GFX_harvey_steel_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/harvey_steel.png"
 	}
@@ -147,18 +131,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advanced_heavy_armor_medium"
 		textureFile = "gfx/interface/technologies/navy_techtree/heavy_armor_4.png"
-	}
-	spriteType = {
-		name = "GFX_basic_torpedo_defense_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/torpedo_defense.png"
-	}
-	spriteType = {
-		name = "GFX_improved_torpedo_defense_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/torpedo_defense.png"
-	}
-	spriteType = {
-		name = "GFX_advanced_torpedo_defense_medium"
-		textureFile = "gfx/interface/technologies/navy_techtree/torpedo_defense.png"
 	}
 	spriteType = {
 		name = "GFX_improved_conning_tower_medium"

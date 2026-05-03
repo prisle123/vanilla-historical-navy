@@ -2071,18 +2071,10 @@ guiTypes = {
 				slotsize = { width = 60 height = 50 }
 				format = "UP"
 			}
-
-			gridboxtype = {
-				name = "incremental_armor_scheme_tree"
-				position = { x = 950 y = 40 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 60 height = 50 }
-				format = "UP"
-			}
 			
 			gridboxtype = {
 				name = "harvey_steel_tree"
-				position = { x = 1050 y = 40 }
+				position = { x = 985 y = 40 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 55 height = 50 }
 				format = "UP"
@@ -2223,6 +2215,7 @@ guiTypes = {
 				maxHeight = 62
 				format = left
 				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "armaments_desc"
 			}
 
 			instantTextBoxType = {
@@ -2236,6 +2229,7 @@ guiTypes = {
 				maxHeight = 62
 				format = left
 				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "torpedoes_desc"
 			}
 
 			#instantTextBoxType = {
@@ -2273,6 +2267,7 @@ guiTypes = {
 				maxHeight = 62
 				format = left
 				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "transport_desc"
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_auxiliary"
@@ -2285,6 +2280,7 @@ guiTypes = {
 				maxHeight = 62
 				format = left
 				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "auxiliary_desc"
 			}
 
 			instantTextBoxType = {
@@ -2298,6 +2294,7 @@ guiTypes = {
 				maxHeight = 62
 				format = left
 				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "mines_desc"
 			}
 
 			instantTextBoxType = {
