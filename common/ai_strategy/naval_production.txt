@@ -1664,7 +1664,7 @@ naval_unit_role_ratios_ITA_prewar_build_battleships = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 40
+		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1708,7 +1708,7 @@ naval_unit_role_ratios_ITA_prewar_enough_battleships = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 80
+		value = 35
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1760,7 +1760,7 @@ naval_unit_role_ratios_ITA_atwar_with_England = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 60
+		value = 35
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1852,7 +1852,7 @@ naval_unit_role_ratios_ITA_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 100
+		value = 250
 	}
 	ai_strategy = {
 		type = role_ratio
