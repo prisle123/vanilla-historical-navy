@@ -120,7 +120,7 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "rework_ship_icon_bg"
 		#texturefile = "gfx/interface/tiles/tiled_paper_bg.dds"
-		textureFile = "gfx/interface/ship_icon_blueprint.dds"
+		texturefile = "gfx/interface/ship_icon_blueprint.dds"
 		size= { x=32 y=32 }
 		borderSize = { x=5 y=5 }
 	}
@@ -129,7 +129,7 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "GFX_tiled_research_red_bg"
 		size= {x=96 y=96 }
-		textureFile ="gfx//interface//tiled_research_red_bg.dds"
+		texturefile ="gfx//interface//tiled_research_red_bg.dds"
 		borderSize = { x=32 y=32 }
 		alwaystransparent = yes
 	}
@@ -138,19 +138,19 @@ spriteTypes = {
 	### background of starting intro panel
 	spriteType = {
 		name = "GFX_navy_intro"
-		textureFile = "gfx/introscreen/navy_intro.png"
+		texturefile = "gfx/introscreen/navy_intro.png"
 	}
 	spriteType = {
 		name = "GFX_navy_splash_intro"
-		textureFile = "gfx/introscreen/navy_rework_splash.png"
+		texturefile = "gfx/introscreen/navy_rework_splash.png"
 	}
 	spriteType = {
 		name = "GFX_navy_splash_intro_1"
-		textureFile = "gfx/introscreen/navy_rework_splash_1.png"
+		texturefile = "gfx/introscreen/navy_rework_splash_1.png"
 	}
 	spriteType = {
 		name = "GFX_navy_splash_title"
-		textureFile = "gfx/introscreen/title.png"
+		texturefile = "gfx/introscreen/title.png"
 	}
 	
 
@@ -171,22 +171,22 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "GFX_tiled_window_thin_border_kr"
 		size= { x=192 y=192 }
-		textureFile = "gfx/interface/tiled_window_thin_border_kr2.png"
+		texturefile = "gfx/interface/tiled_window_thin_border_kr2.png"
 		borderSize = { x=64 y=64 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	SpriteType = {
 		name = "GFX_tech_info_top_win_kr"
-		textureFile = "gfx/interface/tech_info_top_win_kr2.png"
+		texturefile = "gfx/interface/tech_info_top_win_kr2.png"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	
 
 	### idea icon of VNR AI buff
-	spriteType = { name = "GFX_idea_vnr_mad" textureFile = "gfx/interface/vnr_ai_difficulty.png" }
-	spriteType = { name = "GFX_idea_vnr_hard" textureFile = "gfx/interface/vnr_ai_difficulty.png" }
-	spriteType = { name = "GFX_idea_vnr_normal" textureFile = "gfx/interface/vnr_ai_difficulty.png" }
+	spriteType = { name = "GFX_idea_vnr_mad" texturefile = "gfx/interface/vnr_ai_difficulty.png" }
+	spriteType = { name = "GFX_idea_vnr_hard" texturefile = "gfx/interface/vnr_ai_difficulty.png" }
+	spriteType = { name = "GFX_idea_vnr_normal" texturefile = "gfx/interface/vnr_ai_difficulty.png" }
 	
 	
 	corneredTileSpriteType = {
@@ -210,375 +210,375 @@ spriteTypes = {
 	### a workaround to fix icon becoming huge after an exclusive tech is selected
 	spriteType = {
 		name = "GFX_technology_mtgnavalsupportfolder_branch_item_bg"
-		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+		texturefile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
 	}
 	spriteType = {
 		name = "GFX_technology_mtgnavalsupportfolder_small_branch_item_bg"
-		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
+		texturefile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
 	}
 	
 	### idea icon of navy spirit
-	spriteType = { name = "GFX_idea_etajima_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/imperial_naval_academy.png" }
-	spriteType = { name = "GFX_idea_annapolis_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/annapolis_naval_academy.png" }
-	spriteType = { name = "GFX_idea_dartmouth_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/dartmouth_naval_academy.png" }
-	spriteType = { name = "GFX_idea_panama_standard" textureFile = "gfx/interface/ideas/vnr_navy_spirits/panama_standard.png" }
-	spriteType = { name = "GFX_idea_kiel_standard" textureFile = "gfx/interface/ideas/vnr_navy_spirits/kiel_standard.png" }
-	spriteType = { name = "GFX_idea_professional_damage_control" textureFile = "gfx/interface/ideas/vnr_navy_spirits/professional_damage_control.png" }
-	spriteType = { name = "GFX_idea_advanced_supply_fleet" textureFile = "gfx/interface/ideas/vnr_navy_spirits/advanced_supply_fleet.png" }
-	spriteType = { name = "GFX_idea_disciplined_crewmen" textureFile = "gfx/interface/ideas/vnr_navy_spirits/disciplined_crewmen.png" }
-	spriteType = { name = "GFX_idea_underwater_death" textureFile = "gfx/interface/ideas/vnr_navy_spirits/underwater_death.png" }
-	spriteType = { name = "GFX_idea_efficient_escort" textureFile = "gfx/interface/ideas/vnr_navy_spirits/efficient_escort.png" }
-	spriteType = { name = "GFX_idea_merchant_fleet" textureFile = "gfx/interface/ideas/vnr_navy_spirits/merchant_fleet.png" }
-	spriteType = { name = "GFX_idea_inflexible_headquarter" textureFile = "gfx/interface/ideas/vnr_navy_spirits/inflexible_headquarter.png" }
-	spriteType = { name = "GFX_idea_win_or_die" textureFile = "gfx/interface/ideas/vnr_navy_spirits/win_or_die.png" }
-	spriteType = { name = "GFX_idea_recovering_from_naval_race" textureFile = "gfx/interface/ideas/vnr_navy_spirits/recovering_from_naval_race.png" }
-	spriteType = { name = "GFX_idea_lack_maintenance_facilities" textureFile = "gfx/interface/ideas/vnr_navy_spirits/lack_maintenance_facilities.png" }
-	spriteType = { name = "GFX_idea_murwik_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/murwik_naval_academy.png" }
-	spriteType = { name = "GFX_idea_voroshilov_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/voroshilov_academy.png" }
-	spriteType = { name = "GFX_idea_nakhimov_naval_academy" textureFile = "gfx/interface/ideas/vnr_navy_spirits/nakhimov_academy.png" }
-	spriteType = { name = "GFX_idea_usn_fighter_weapons_school" textureFile = "gfx/interface/ideas/vnr_navy_spirits/usn_fighter_weapons_school.png" }
+	spriteType = { name = "GFX_idea_etajima_naval_academy" texturefile = "gfx/interface/ideas/vnr_navy_spirits/imperial_naval_academy.png" }
+	spriteType = { name = "GFX_idea_annapolis_naval_academy" texturefile = "gfx/interface/ideas/vnr_navy_spirits/annapolis_naval_academy.png" }
+	spriteType = { name = "GFX_idea_dartmouth_naval_academy" texturefile = "gfx/interface/ideas/vnr_navy_spirits/dartmouth_naval_academy.png" }
+	spriteType = { name = "GFX_idea_panama_standard" texturefile = "gfx/interface/ideas/vnr_navy_spirits/panama_standard.png" }
+	spriteType = { name = "GFX_idea_kiel_standard" texturefile = "gfx/interface/ideas/vnr_navy_spirits/kiel_standard.png" }
+	spriteType = { name = "GFX_idea_professional_damage_control" texturefile = "gfx/interface/ideas/vnr_navy_spirits/professional_damage_control.png" }
+	spriteType = { name = "GFX_idea_advanced_supply_fleet" texturefile = "gfx/interface/ideas/vnr_navy_spirits/advanced_supply_fleet.png" }
+	spriteType = { name = "GFX_idea_disciplined_crewmen" texturefile = "gfx/interface/ideas/vnr_navy_spirits/disciplined_crewmen.png" }
+	spriteType = { name = "GFX_idea_underwater_death" texturefile = "gfx/interface/ideas/vnr_navy_spirits/underwater_death.png" }
+	spriteType = { name = "GFX_idea_efficient_escort" texturefile = "gfx/interface/ideas/vnr_navy_spirits/efficient_escort.png" }
+	spriteType = { name = "GFX_idea_merchant_fleet" texturefile = "gfx/interface/ideas/vnr_navy_spirits/merchant_fleet.png" }
+	spriteType = { name = "GFX_idea_inflexible_headquarter" texturefile = "gfx/interface/ideas/vnr_navy_spirits/inflexible_headquarter.png" }
+	spriteType = { name = "GFX_idea_win_or_die" texturefile = "gfx/interface/ideas/vnr_navy_spirits/win_or_die.png" }
+	spriteType = { name = "GFX_idea_recovering_from_naval_race" texturefile = "gfx/interface/ideas/vnr_navy_spirits/recovering_from_naval_race.png" }
+	spriteType = { name = "GFX_idea_lack_maintenance_facilities" texturefile = "gfx/interface/ideas/vnr_navy_spirits/lack_maintenance_facilities.png" }
+	spriteType = { name = "GFX_idea_murwik_naval_academy" texturefile = "gfx/interface/ideas/vnr_navy_spirits/murwik_naval_academy.png" }
+	spriteType = { name = "GFX_idea_voroshilov_naval_academy" texturefile = "gfx/interface/ideas/vnr_navy_spirits/voroshilov_academy.png" }
+	spriteType = { name = "GFX_idea_nakhimov_naval_academy" texturefile = "gfx/interface/ideas/vnr_navy_spirits/nakhimov_academy.png" }
+	spriteType = { name = "GFX_idea_usn_fighter_weapons_school" texturefile = "gfx/interface/ideas/vnr_navy_spirits/usn_fighter_weapons_school.png" }
 	
 	# unit banners
 	spriteType = {
 		name = "GFX_cv_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/cv_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/cv_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_shbb_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/shbb_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/shbb_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/bb_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/bb_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bc_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/bc_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/bc_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/ca_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/ca_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cl_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/cl_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/cl_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/dd_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/dd_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ss_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/ss_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/ss_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bbv_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/bbv_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/bbv_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_lhd_desc_icon"
-		textureFile = "gfx/texticons/unit_banner/lhd_desc_icon.png"
+		texturefile = "gfx/texticons/unit_banner/lhd_desc_icon.png"
 		legacy_lazy_load = no
 	}
 
 	# tech banners
 	spriteType = {
 		name = "GFX_cv_tech_1"
-		textureFile = "gfx/texticons/tech_banner/cv_1_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cv_1_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cv_tech_2"
-		textureFile = "gfx/texticons/tech_banner/cv_2_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cv_2_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cv_tech_3"
-		textureFile = "gfx/texticons/tech_banner/cv_3_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cv_3_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cv_tech_4"
-		textureFile = "gfx/texticons/tech_banner/cv_4_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cv_4_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cv_tech_5"
-		textureFile = "gfx/texticons/tech_banner/cv_5_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cv_5_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cv_tech_6"
-		textureFile = "gfx/texticons/tech_banner/cv_6_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cv_6_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cv_tech_7"
-		textureFile = "gfx/texticons/tech_banner/cv_7_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cv_7_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cv_tech_8"
-		textureFile = "gfx/texticons/tech_banner/cv_8_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cv_8_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cv_tech_9"
-		textureFile = "gfx/texticons/tech_banner/cv_9_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cv_9_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_1"
-		textureFile = "gfx/texticons/tech_banner/bb_1_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_1_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_2"
-		textureFile = "gfx/texticons/tech_banner/bb_2_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_2_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_3"
-		textureFile = "gfx/texticons/tech_banner/bb_3_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_3_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_4"
-		textureFile = "gfx/texticons/tech_banner/bb_4_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_4_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_5"
-		textureFile = "gfx/texticons/tech_banner/bb_5_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_5_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_6"
-		textureFile = "gfx/texticons/tech_banner/bb_6_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_6_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_7"
-		textureFile = "gfx/texticons/tech_banner/bb_7_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_7_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_8"
-		textureFile = "gfx/texticons/tech_banner/bb_8_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_8_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_9"
-		textureFile = "gfx/texticons/tech_banner/bb_9_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_9_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_10"
-		textureFile = "gfx/texticons/tech_banner/bb_10_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_10_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_bb_tech_11"
-		textureFile = "gfx/texticons/tech_banner/bb_11_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/bb_11_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_1"
-		textureFile = "gfx/texticons/tech_banner/ca_1_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_1_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_2"
-		textureFile = "gfx/texticons/tech_banner/ca_2_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_2_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_3"
-		textureFile = "gfx/texticons/tech_banner/ca_3_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_3_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_4"
-		textureFile = "gfx/texticons/tech_banner/ca_4_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_4_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_5"
-		textureFile = "gfx/texticons/tech_banner/ca_5_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_5_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_6"
-		textureFile = "gfx/texticons/tech_banner/ca_6_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_6_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_7"
-		textureFile = "gfx/texticons/tech_banner/ca_7_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_7_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_8"
-		textureFile = "gfx/texticons/tech_banner/ca_8_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_8_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_9"
-		textureFile = "gfx/texticons/tech_banner/ca_9_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_9_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_10"
-		textureFile = "gfx/texticons/tech_banner/ca_10_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_10_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_11"
-		textureFile = "gfx/texticons/tech_banner/ca_11_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_11_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ca_tech_12"
-		textureFile = "gfx/texticons/tech_banner/ca_12_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ca_12_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_1"
-		textureFile = "gfx/texticons/tech_banner/dd_1_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_1_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_2"
-		textureFile = "gfx/texticons/tech_banner/dd_2_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_2_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_3"
-		textureFile = "gfx/texticons/tech_banner/dd_3_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_3_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_4"
-		textureFile = "gfx/texticons/tech_banner/dd_4_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_4_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_5"
-		textureFile = "gfx/texticons/tech_banner/dd_5_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_5_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_6"
-		textureFile = "gfx/texticons/tech_banner/dd_6_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_6_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_7"
-		textureFile = "gfx/texticons/tech_banner/dd_7_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_7_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_8"
-		textureFile = "gfx/texticons/tech_banner/dd_8_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_8_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_9"
-		textureFile = "gfx/texticons/tech_banner/dd_9_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_9_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_10"
-		textureFile = "gfx/texticons/tech_banner/dd_10_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_10_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_11"
-		textureFile = "gfx/texticons/tech_banner/dd_11_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_11_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_12"
-		textureFile = "gfx/texticons/tech_banner/dd_12_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_12_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_13"
-		textureFile = "gfx/texticons/tech_banner/dd_13_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_13_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_dd_tech_14"
-		textureFile = "gfx/texticons/tech_banner/dd_14_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/dd_14_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ss_tech_1"
-		textureFile = "gfx/texticons/tech_banner/ss_1_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ss_1_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ss_tech_2"
-		textureFile = "gfx/texticons/tech_banner/ss_2_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ss_2_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ss_tech_3"
-		textureFile = "gfx/texticons/tech_banner/ss_3_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ss_3_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ss_tech_4"
-		textureFile = "gfx/texticons/tech_banner/ss_4_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ss_4_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ss_tech_5"
-		textureFile = "gfx/texticons/tech_banner/ss_5_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ss_5_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_ss_tech_6"
-		textureFile = "gfx/texticons/tech_banner/ss_6_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/ss_6_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cw_tech_1"
-		textureFile = "gfx/texticons/tech_banner/cw_1_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cw_1_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_cw_tech_2"
-		textureFile = "gfx/texticons/tech_banner/cw_2_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/cw_2_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_support_tech_1"
-		textureFile = "gfx/texticons/tech_banner/support_1_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/support_1_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_support_tech_2"
-		textureFile = "gfx/texticons/tech_banner/support_2_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/support_2_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_support_tech_3"
-		textureFile = "gfx/texticons/tech_banner/support_3_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/support_3_desc_icon.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_support_tech_4"
-		textureFile = "gfx/texticons/tech_banner/support_4_desc_icon.png"
+		texturefile = "gfx/texticons/tech_banner/support_4_desc_icon.png"
 		legacy_lazy_load = no
 	}
 }

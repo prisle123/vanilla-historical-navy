@@ -1,88 +1,88 @@
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_doctrine_base_strike_medium"
-		textureFile = "gfx/interface/doctrines/icons/air_sea_operation.png"
+		texturefile = "gfx/interface/doctrines/icons/air_sea_operation.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_fast_battleship_primacy_medium"
-		textureFile = "gfx/interface/doctrines/icons/fast_battleship_primacy.png"
+		texturefile = "gfx/interface/doctrines/icons/fast_battleship_primacy.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_torpedo_groups_medium"
-		textureFile = "gfx/interface/doctrines/icons/torpedo_groups.png"
+		texturefile = "gfx/interface/doctrines/icons/torpedo_groups.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_naval_airforce_medium"
-		textureFile = "gfx/interface/doctrines/icons/naval_airforce.png"
+		texturefile = "gfx/interface/doctrines/icons/naval_airforce.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_submarine_area_denial_medium"
-		textureFile = "gfx/interface/doctrines/icons/submarine_area_denial.png"
+		texturefile = "gfx/interface/doctrines/icons/submarine_area_denial.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_littoral_defense_medium"
-		textureFile = "gfx/interface/doctrines/icons/littoral_defense.png"
+		texturefile = "gfx/interface/doctrines/icons/littoral_defense.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_mosquito_fleet_medium"
-		textureFile = "gfx/interface/doctrines/icons/mosquito_fleet.png"
+		texturefile = "gfx/interface/doctrines/icons/mosquito_fleet.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_airspace_denial_medium"
-		textureFile = "gfx/interface/doctrines/icons/airspace_denial.png"
+		texturefile = "gfx/interface/doctrines/icons/airspace_denial.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_operation_autonomy_medium"
-		textureFile = "gfx/interface/doctrines/icons/operation_autonomy.png"
+		texturefile = "gfx/interface/doctrines/icons/operation_autonomy.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_coverted_oceanic_replenishment_medium"
-		textureFile = "gfx/interface/doctrines/icons/coverted_oceanic_replenishment.png"
+		texturefile = "gfx/interface/doctrines/icons/coverted_oceanic_replenishment.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_industrialized_naval_logistics_medium"
-		textureFile = "gfx/interface/doctrines/icons/industrialized_naval_logistics.png"
+		texturefile = "gfx/interface/doctrines/icons/industrialized_naval_logistics.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_trade_supply_network_medium"
-		textureFile = "gfx/interface/doctrines/icons/trade_supply_network.png"
+		texturefile = "gfx/interface/doctrines/icons/trade_supply_network.png"
 		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_doctrine_defensive_combat_support_medium"
-		textureFile = "gfx/interface/doctrines/icons/defensive_combat_support.png"
+		texturefile = "gfx/interface/doctrines/icons/defensive_combat_support.png"
 		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_fleet_in_being_bg"
-		textureFile = "gfx/interface/doctrines/background/battleship.png"
+		texturefile = "gfx/interface/doctrines/background/battleship.png"
 	}
 	spriteType = {
 		name = "GFX_base_strike_bg"
-		textureFile = "gfx/interface/doctrines/background/carrier.png"
+		texturefile = "gfx/interface/doctrines/background/carrier.png"
 	}
 	spriteType = {
 		name = "GFX_screens_bg"
-		textureFile = "gfx/interface/doctrines/background/screen.png"
+		texturefile = "gfx/interface/doctrines/background/screen.png"
 	}
 	spriteType = {
 		name = "GFX_trade_interdiction_bg"
-		textureFile = "gfx/interface/doctrines/background/submarine.png"
+		texturefile = "gfx/interface/doctrines/background/submarine.png"
 	}
 	spriteType = {
 		name = "GFX_naval_logistics_bg"
-		textureFile = "gfx/interface/doctrines/background/logistics.png"
+		texturefile = "gfx/interface/doctrines/background/logistics.png"
 	}
 }
