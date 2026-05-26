@@ -6,6 +6,7 @@ ENG_protect_home_waters = {
     enable = {
         has_war_with = GER
         GER = {
+			is_ai = no
             has_navy_size = { size > 30 }
         }
         enable_vnr_naval_ai = yes
@@ -17,14 +18,39 @@ ENG_protect_home_waters = {
 		value = 100
 	}
 	ai_strategy = {
-		type = coast_defense
-		id = 18
-		value = 100
+        type = naval_avoid_region
+        id = 18
+        value = -1000
+    }
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 16
+		value = 1000
 	}
 	ai_strategy = {
-		type = coast_defense
-		id = 16
-		value = 100
+		type = strike_force_home_base
+		id = 18
+		value = 1000
+	}
+}
+
+ENG_protect_home_waters_ai = {
+    allowed = {
+        original_tag = ENG
+    }
+    enable = {
+        has_war_with = GER
+        GER = {
+			is_ai = yes
+            has_navy_size = { size > 30 }
+        }
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+		type = naval_dominance
+		id = vnr_eng_home_waters
+		value = 98
 	}
 	ai_strategy = {
         type = naval_avoid_region
@@ -34,7 +60,12 @@ ENG_protect_home_waters = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 16
-		value 1000
+		value = 1000
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 18
+		value = 1000
 	}
 }
 
@@ -82,7 +113,10 @@ ENG_secure_mediterranean = {
     }
     enable = {
         has_war_with = ITA
-        ITA = { surrender_progress < 0.4 }
+        ITA = { 
+			is_ai = yes
+			has_navy_size = { size > 30 }
+		}
 		all_core_state = {
 			is_controlled_by_ROOT_or_ally = yes
 		}
@@ -112,7 +146,56 @@ ENG_secure_mediterranean = {
 	ai_strategy = {
 		type = strike_force_home_base
 		id = 69
-		value = 1000
+		value = 800
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = east_north_africa
+		value = 100
+	}
+}
+
+ENG_secure_mediterranean_ai = {
+    allowed = {
+        original_tag = ENG
+    }
+    enable = {
+        has_war_with = ITA
+        ITA = { 
+			is_ai = no
+			has_navy_size = { size > 30 }
+		}
+		all_core_state = {
+			is_controlled_by_ROOT_or_ally = yes
+		}
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = naval_dominance
+        id = vnr_eng_med_zones
+        value = 98
+    }
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 29
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 68
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 69
+		value = 100
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 69
+		value = 800
 	}
 
 	ai_strategy = {
@@ -166,15 +249,29 @@ ENG_avoid_pacific = {
         original_tag = ENG
     }
     enable = {
-        has_war_with = JAP
-		has_war_with = ITA
-		ITA = { has_navy_size = { size > 49 } }
-		war_length_with = {
-			tag = JAP
-			months < 24
-		}
-		any_core_state = {
-			is_controlled_by_ROOT_or_ally = no
+		OR = {
+			any_core_state = {
+				is_controlled_by_ROOT_or_ally = no
+			}
+			NOT = { has_war_with = JAP }
+			AND = {
+				has_war_with = JAP
+				war_length_with = {
+					tag = JAP
+					months < 24
+				}
+			}
+			AND = {
+				has_war_with = ITA
+				ITA = { is_ai = no }
+			}
+			AND = {
+				has_war_with = ITA
+				ITA = {
+					is_ai = yes
+					has_navy_size = { size > 49 }
+				}
+			}
 		}
         enable_vnr_naval_ai = yes
     }
@@ -208,15 +305,21 @@ ENG_reinforce_pacific = {
     enable = {
         has_war_with = JAP
 		OR = {
-			war_length_with = {
-				tag = JAP
-				months > 23
+			AND = {
+				has_war_with = ITA
+				ITA = {
+					is_ai = yes
+					has_navy_size = { size < 50 }
+				}
 			}
-			NOT = { has_war_with = ITA }
-		}
-		OR = {
-			NOT = { has_war_with = ITA }
-			ITA = { has_navy_size = { size < 50 } }
+			AND = {
+				has_war_with = ITA
+				ITA = { is_ai = yes }
+				war_length_with = {
+					tag = JAP
+					months > 23
+				}
+			}
 		}
 		336 = {
 			is_controlled_by_ROOT_or_ally = yes
@@ -227,6 +330,11 @@ ENG_reinforce_pacific = {
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 72
+		value = 500
+	}
     ai_strategy = {
 		type = naval_dominance
 		id = vnr_eng_south_china_sea
