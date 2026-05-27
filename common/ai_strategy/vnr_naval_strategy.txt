@@ -442,7 +442,7 @@ JAP_turuk_base = {
 		value = 1000
 	}
 	ai_strategy = { # defend islands
-		type = put_unit_buffer
+		type = put_unit_buffers
 		ratio = 0.15
 		states = {
 			684 633
@@ -957,7 +957,7 @@ USA_pacific_war_naval_avoid_first = {
 	abort_when_not_enabled = yes
 
 	ai_strategy = { # defend Hawaii
-		type = put_unit_buffer
+		type = put_unit_buffers
 		ratio = 0.15
 		states = {
 			629
@@ -965,14 +965,14 @@ USA_pacific_war_naval_avoid_first = {
 		subtract_invasions_from_need = yes
 	}
 	ai_strategy = { # dont defend Guam
-		type = put_unit_buffer
+		type = put_unit_buffers
 		ratio = 0
 		states = {
 			638
 		}
 	}
 	ai_strategy = { # dont defend Philippines
-		type = put_unit_buffer
+		type = put_unit_buffers
 		ratio = 0
 		states = {
 			628 623 627 1025 327 624 1026 1027 625 626
@@ -1113,7 +1113,7 @@ USA_pacific_war_naval_counterattack_1 = {
     abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = put_unit_buffer
+		type = put_unit_buffers
 		ratio = 0.15
 		states = {
 			629
@@ -1746,7 +1746,7 @@ GER_forget_sealion = {
 	}
 	ai_strategy = {
 		type = invade
-		tag = ENG
+		id = ENG
 		value = -500
 	}
 	ai_strategy = {
