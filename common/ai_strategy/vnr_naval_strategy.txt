@@ -107,7 +107,7 @@ ENG_avoid_baltic = {
 	}
 }
 
-ENG_secure_mediterranean = {
+ENG_secure_mediterranean_ai = {
     allowed = {
         original_tag = ENG
     }
@@ -156,7 +156,7 @@ ENG_secure_mediterranean = {
 	}
 }
 
-ENG_secure_mediterranean_ai = {
+ENG_secure_mediterranean = {
     allowed = {
         original_tag = ENG
     }
@@ -958,7 +958,7 @@ USA_pacific_war_naval_avoid_first = {
 
 	ai_strategy = { # defend Hawaii
 		type = put_unit_buffers
-		ratio = 0.15
+		ratio = 0.1
 		states = {
 			629
 		}
@@ -982,6 +982,12 @@ USA_pacific_war_naval_avoid_first = {
 		type = area_priority
 		id = just_philippines
 		value = -1000
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = pacifc
+		value = 50
 	}
 	
 	ai_strategy = {
@@ -1217,6 +1223,12 @@ USA_pacific_war_naval_counterattack_1 = {
 		value = 30
 	}
 
+	ai_strategy = {
+		type = area_priority
+		id = pacifc
+		value = 50
+	}
+
 	## US Marine
 	ai_strategy = {
 		type = research_weight_factor
@@ -1351,6 +1363,12 @@ USA_pacific_war_naval_counterattack_2 = {
 	ai_strategy = {
 		type = naval_invasion_dominance_weight
 		value = 50
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = pacifc
+		value = 60
 	}
 
 	## US Marine
@@ -1492,6 +1510,12 @@ USA_pacific_war_naval_counterattack_3 = {
 	ai_strategy = {
 		type = naval_invasion_dominance_weight
 		value = 75
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = pacifc
+		value = 70
 	}
 
 	## US Marine
@@ -1813,6 +1837,31 @@ GER_avoid_mediterranean = {
 		id = vnr_ita_med_zones
 		value = -100
 	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 29
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 168
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 169
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 68
+		value = 1000
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 69
+		value = 1000
+	}
 }
 
 GER_invade_norway = {
@@ -1835,7 +1884,7 @@ GER_invade_norway = {
 	ai_strategy = {
 		type = invade
 		id = NOR
-		value = 1000
+		value = 300
 	}
 	ai_strategy = {
 		type = invasion_unit_request

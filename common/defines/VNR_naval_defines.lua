@@ -132,9 +132,10 @@ NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 0.5   -- Balancing value to convert d
 NDefines.NAir.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.06   -- conversion factor to bring agility in line with ship AA (was 0.02)
 NDefines.NAir.CAPACITY_PENALTY = 3   -- scales penalty of having overcrowded bases. (was 2)
 NDefines.NAir.CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 60   -- below this amount of planes on a carrier we no longer get max benefit on enemy positioning (was 50)
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.01   -- Max planes that can join a combat comparing to the total strength of the ships (was 0.05)
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.005   -- Max planes that can join a combat comparing to the total strength of the ships (was 0.05)
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 50   -- Min cap for planes that can join naval combat (was 20)
 NDefines.NAir.REINFORCEMENT_DISABLING_DURATION_IN_LAND_CARRIER_TRANSFER = 12   -- The reinforcement disabling duration in hours when transfering from land to carrier and vice versa (was 48)
+NDefines.NAir.NAVAL_STRIKE_TARGETTING_TO_AMOUNT = 0.2   -- Balancing value to convert the naval_strike_targetting equipment stats to chances of how many airplanes managed to do successfull strike. (was 0.3)
 
 
 --War Score
@@ -249,7 +250,7 @@ NDefines.NNavy.MIN_REPAIR_FOR_JOINING_COMBATS = { -- strikeforces/patrol forces 
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 25   -- cost to unassign/replace pride of the fleet (was 100)
 NDefines.NNavy.AMPHIBIOUS_INVADE_SPEED_BASE = 0.35    -- every hour movement progress on amphibious invasion (was 0.5)
 NDefines.NNavy.SHIP_SUPPORT_NEED_FACTOR = 0.15   -- The support need for a ship. This factor is multiplied with the ships dominance value (was 0.1)
-NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.0   -- fuel cost for naval strike mission in port (was 0.25, ease the cost of assigning strike force)
+NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.1   -- fuel cost for naval strike mission in port (was 0.25, ease the cost of assigning strike force)
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
 NDefines.NNavy.PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.0   -- % of experience to retain after being transferred in a peace conference (was 0.25)

@@ -21,6 +21,11 @@ carriers = {
         equipment = {
             carrier
         }
+        sub_units = {
+            cv_fighter
+            cv_nav_bomber
+            cv_cas
+        }
     }
 }
 

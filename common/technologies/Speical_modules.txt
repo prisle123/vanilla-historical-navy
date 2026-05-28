@@ -60,4 +60,16 @@ technologies = {
             ship_armor_extra
         }
     }
+
+    ita_pugliese_system = {
+        research_cost = 1
+        start_year = 1936
+
+        allow = {
+            always = no
+        }
+        enable_equipment_modules = {
+            pugliese_system
+        }
+    }
 }

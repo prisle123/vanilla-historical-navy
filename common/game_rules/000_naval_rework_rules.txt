@@ -34,6 +34,24 @@ ai_ship_design_style = {
 	}
 }
 
+vnr_cv_air_ai = {
+	name = RULE_AI_AIR_DESIGN
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_AI_AIR_DESIGN_BLOCKED_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = FREE
+		text = RULE_OPTION_FREE
+		desc = RULE_AI_AIR_DESIGN_FREE_DESC
+		allow_achievements = yes
+	}
+}
+
 allow_ai_tech_auto_unlock = {
 	name = RULE_ALLOW_AI_TECH_AUTO_UNLOCK
 	group = RULE_GROUP_NAVY_REWORK
@@ -96,24 +114,6 @@ shipyard_output_boost_ai = {
 		name = BLOCKED
 		text = RULE_OPTION_BLOCKED
 		desc = RULE_SHIPYARD_OUTPUT_BOOST_BLOCKED_DESC
-		allow_achievements = yes
-	}
-}
-
-vnr_cv_air_ai = {
-	name = RULE_AI_AIR_DESIGN
-	group = RULE_GROUP_NAVY_REWORK
-
-	default = {
-		name = BLOCKED
-		text = RULE_OPTION_BLOCKED
-		desc = RULE_AI_AIR_DESIGN_BLOCKED_DESC
-		allow_achievements = yes
-	}
-	option = {
-		name = FREE
-		text = RULE_OPTION_FREE
-		desc = RULE_AI_AIR_DESIGN_FREE_DESC
 		allow_achievements = yes
 	}
 }
