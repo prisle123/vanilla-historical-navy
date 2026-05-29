@@ -2694,11 +2694,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = improved_conning_tower
+			leads_to_tech = dry_dock_expansion
 			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = enhanced_horizontal_defense
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = fuel_oil_boiler
 			research_cost_coeff = 1
 		}
 
@@ -2753,15 +2757,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = dry_dock_expansion
+			leads_to_tech = improved_conning_tower
 			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = basic_heavy_armor
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = fuel_oil_boiler
 			research_cost_coeff = 1
 		}
 
@@ -2907,7 +2907,6 @@ technologies = {
 			heavy_ship_engine_4
 			heavy_ship_engine_3_diesel
 			super_heavy_ship_engine_3
-			ship_scheme_all_or_nothing
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_heavy
@@ -3017,6 +3016,7 @@ technologies = {
 			ship_armor_bb_2
 			ship_armor_bc_2
 			ship_scheme_mixed
+			ship_scheme_all_or_nothing
 			torpedo_belt
 		}
 
@@ -3031,7 +3031,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 0.7
 
-		start_year = 1920
+		start_year = 1924
 
 		folder = {
 			name = mtgnavalfolder
@@ -3162,11 +3162,11 @@ technologies = {
 
 		repair_speed_factor = 0.1
 
-		start_year = 1926
+		start_year = 1920
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1924_module }
+			position = { x = -1 y = @1914_module_2 }
 		}
 		dependencies = {
 			dry_dock = 1
@@ -3217,7 +3217,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1914_module_2 }
+			position = { x = -1 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -3255,11 +3255,11 @@ technologies = {
 			surface_visibility = -0.05
 		}
 
-		start_year = 1925
+		start_year = 1916
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @1924_module }
+			position = { x = 3 y = @1914_module_2 }
 		}
 
 		ai_will_do = {

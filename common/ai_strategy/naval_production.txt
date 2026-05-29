@@ -2514,6 +2514,22 @@ build_more_missile_cruisers = {
 	}
 }
 
+upgrade_cv_plane_is_important = {
+	allowed = {
+		always = yes
+	}
+	enable = {
+		has_navy_size = { size > 0 type = carrier }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = air_xp_spend_priority
+		id = equipment_variant
+		value = 100
+	}
+}
+
 upgrade_cv_plane_strategy_0 = {
 	allowed = {
 		always = yes

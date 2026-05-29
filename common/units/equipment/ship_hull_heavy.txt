@@ -927,6 +927,10 @@ equipments = {
 			module = ship_decoy_launcher
 			count < 2
 		}
+		module_count_limit = {
+			category = ship_rocket
+			count < 2
+		}
 		naval_dominance_factor = 300
 	}
 }

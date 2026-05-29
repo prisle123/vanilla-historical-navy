@@ -32,6 +32,16 @@ ENG_protect_home_waters = {
 		id = 18
 		value = 1000
 	}
+	ai_strategy = {
+		type = strategic_air_importance
+		id = 18
+		value = 50000
+	}
+	ai_strategy = {
+		type = strategic_air_importance
+		id = 16
+		value = 50000
+	}
 }
 
 ENG_protect_home_waters_ai = {
@@ -211,8 +221,18 @@ ENG_avoid_mediterranean = {
     }
     enable = {
 		has_war = yes
-		any_core_state = {
-			is_controlled_by_ROOT_or_ally = no
+		OR = {
+			any_core_state = {
+				is_controlled_by_ROOT_or_ally = no
+			}
+			AND = {
+				OR = {
+					16 = { has_enemy_naval_control = yes }
+					18 = { has_enemy_naval_control = yes }
+					43 = { has_enemy_naval_control = yes }
+				}
+				GER = { is_ai = no }
+			}
 		}
         enable_vnr_naval_ai = yes
     }
@@ -242,6 +262,11 @@ ENG_avoid_mediterranean = {
         id = vnr_eng_med_zones
         value = -100
     }
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_eng_home_waters
+		value = 100
+	}
 }
 
 ENG_avoid_pacific = {
@@ -443,12 +468,12 @@ JAP_turuk_base = {
 	}
 	ai_strategy = { # defend islands
 		type = put_unit_buffers
-		ratio = 0.15
+		ratio = 0.05
 		states = {
 			684 633
 		}
-		subtract_invasions_from_need = no
-		subtract_fronts_from_need = no
+		subtract_invasions_from_need = yes
+		subtract_fronts_from_need = yes
 	}
 }
 
@@ -561,6 +586,32 @@ JAP_pacific_war_naval_stage_one = {
 		tag = PHI
 		value = 500
 	}
+	# move south
+	ai_strategy = {
+		type = prepare_for_war
+		id = PHI
+		value = 500
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = MAL
+		value = 500
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = USA
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = just_philippines
+		value = 70
+	}
+	ai_strategy = {
+		type = area_priority
+		id = just_malaya
+		value = 50
+	}
 }
 
 JAP_pacific_war_naval_stage_two = {
@@ -570,6 +621,10 @@ JAP_pacific_war_naval_stage_two = {
     enable = {
         has_war_with = USA
 		PHI = { has_capitulated = yes }
+		OR = {
+			MAL = { has_capitulated = no }
+			INS = { has_capitulated = no }
+		}
 		526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
 		524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
 		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense 
@@ -580,7 +635,7 @@ JAP_pacific_war_naval_stage_two = {
     ai_strategy = {
 		type = naval_dominance
 		id = vnr_pacific_midway
-		value = 100
+		value = 99
 	}
 	ai_strategy = {
 		type = naval_dominance
@@ -590,7 +645,7 @@ JAP_pacific_war_naval_stage_two = {
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_pacific_hawaii
-		value = 50
+		value = 10
 	}
 	ai_strategy = {
 		type = naval_dominance
@@ -605,7 +660,7 @@ JAP_pacific_war_naval_stage_two = {
 	ai_strategy = {
 		type = invade
 		id = USA
-		value = 1000
+		value = 500
 	}
 	ai_strategy = {
 		type = invade
@@ -615,7 +670,7 @@ JAP_pacific_war_naval_stage_two = {
 	ai_strategy = {
 		type = invade
 		id = INS
-		value = 800
+		value = 1000
 	}
 	ai_strategy = {
 		type = invade
@@ -627,6 +682,85 @@ JAP_pacific_war_naval_stage_two = {
 		area = pacific
 		ordertype = invasion
     	execute_order = yes
+	}
+	ai_strategy = {
+		type = area_priority
+		id = east_indies
+		value = 70
+	}
+	ai_strategy = {
+		type = area_priority
+		id = just_malaya
+		value = 50
+	}
+}
+
+JAP_pacific_war_naval_stage_three = {
+    allowed = {
+        original_tag = JAP
+    }
+    enable = {
+        has_war_with = USA
+		PHI = { has_capitulated = yes }
+		MAL = { has_capitulated = yes }
+		INS = { has_capitulated = yes }
+		526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
+		524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
+		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense 
+		684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
+        enable_vnr_naval_ai = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_midway
+		value = 90
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_solomons
+		value = 95
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_pacific_hawaii
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_eng_south_china_sea
+		value = 50
+	}
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_eng_pacific_zone
+		value = 95
+	}
+	ai_strategy = {
+		type = invade
+		id = USA
+		value = 500
+	}
+	ai_strategy = {
+		type = invade
+		id = AST
+		value = 500
+	}
+	ai_strategy = {
+		type = front_control
+		area = pacific
+		ordertype = invasion
+    	execute_order = yes
+	}
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = 70
+	}
+	ai_strategy = {
+		type = area_priority
+		id = vnr_pacific_hawaii
+		value = 50
 	}
 }
 
@@ -672,8 +806,8 @@ JAP_pacific_war_naval_stage_desperate = {
 	}
 	enable = {
 		has_war_with = USA
-		684 = { is_controlled_by_ROOT_or_ally = no } # Turuk is the pillar of Pacific offensive
-		OR ={
+		# 684 = { is_controlled_by_ROOT_or_ally = no } # Turuk is the pillar of Pacific offensive
+		OR = {
 			526 = { is_controlled_by_ROOT_or_ally = no } # Okinawa
 			524 = { is_controlled_by_ROOT_or_ally = no } # Taiwan
 			645 = { is_controlled_by_ROOT_or_ally = no } # Iwo Jima is the last line of defense 
@@ -1228,28 +1362,6 @@ USA_pacific_war_naval_counterattack_1 = {
 		id = pacifc
 		value = 50
 	}
-
-	## US Marine
-	ai_strategy = {
-		type = research_weight_factor
-		id = amphibious_mechanized_infantry
-		value = 100
-	}
-	ai_strategy = {
-		type = research_weight_factor
-		id = amphibious_tank_chassis
-		value = 100
-	}
-	ai_strategy = {
-		type = template_prio
-		id = marines
-		value = 100
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = marines
-		value = 10
-	}
 }
 
 USA_pacific_war_naval_counterattack_2 = {
@@ -1369,28 +1481,6 @@ USA_pacific_war_naval_counterattack_2 = {
 		type = area_priority
 		id = pacifc
 		value = 60
-	}
-
-	## US Marine
-	ai_strategy = {
-		type = research_weight_factor
-		id = amphibious_mechanized_infantry
-		value = 100
-	}
-	ai_strategy = {
-		type = research_weight_factor
-		id = amphibious_tank_chassis
-		value = 100
-	}
-	ai_strategy = {
-		type = template_prio
-		id = marines
-		value = 100
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = marines
-		value = 10
 	}
 }
 
@@ -1517,7 +1607,17 @@ USA_pacific_war_naval_counterattack_3 = {
 		id = pacifc
 		value = 70
 	}
+}
 
+US_marine_corps = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		has_war_with = JAP
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
 	## US Marine
 	ai_strategy = {
 		type = research_weight_factor
@@ -1631,31 +1731,19 @@ Allies_avoid_bad_regions_in_mediterranean = {
 }
 
 Allies_dont_fortify_Singapore = {
-	allowed = {
-		OR = {
-			original_tag = FRA
-			original_tag = BEL
-			original_tag = HOL
-			original_tag = LEX
-			original_tag = SAF
-			original_tag = AST
-			original_tag = NZL
-			original_tag = INS
-			original_tag = CAN
-		}
-	}
 	enable = {
 		is_ally_with = ENG
 		336 = { is_controlled_by = ENG }
 		enable_vnr_naval_ai = yes
 		JAP = { surrender_progress < 0.1 }
+		has_war_with = JAP
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = front_unit_request
-		state = 336
-		value = -1000
+		type = theatre_distribution_demand_increase
+		id = 336
+		value = -100
 	}
 }
 
