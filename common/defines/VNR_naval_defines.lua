@@ -243,7 +243,10 @@ NDefines.NNavy.MIN_REPAIR_FOR_JOINING_COMBATS = { -- strikeforces/patrol forces 
 		0.65,	-- low
 		0.9,	-- medium
 		0.95,	-- high
+		0.0,	-- on order (AI-managed, engagement uses same threshold as "do not repair")
 }
+NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_NON_OPERATIONAL_STR = 0.75   -- strength factor at or below which a fleet is considered non-operational by the AI, causing it to cancel the mission and send the fleet to repair (was 0.65)
+NDefines.NAI.AI_REPAIR_CANCEL_MIN_STRENGTH = 0.85   -- AI will pull non-reserve task forces out of repair and back on mission once they reach this strength (was 0.75)
 
 
 --Naval Misc
@@ -283,6 +286,7 @@ NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO_MIN_MINES = 250   -- i
 NDefines.NAI.SUGGESTED_NUM_MAX_CARRIERS = 4   -- We don't know exactly how many planes we should use when evaluating AI build so we need a suggested number to start things off. ALso used for task force suggestions list. (was 4)
 NDefines.NNavy.MAX_SHIP_COUNT_FOR_DOMINANCE_PATROL_ROLE_ASSIGNMENT = 8   -- define the maximum number of ships that should be in a task force for it to be considered a dominance building patrol (provided they have any capitals as well) (was 15)
 NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 1   -- define the minimum number of ship that should be in a task force for it to be considered a patrol or an escort task force (used to the insignia assignment, see TASK_FORCE_ROLE_TO_INSIGNIA) (was 2)
+NDefines.NAI.AI_TASKFORCE_REQUIRED_RESERVE_RATIO = 0.1   -- Fraction of required TF optimal composition held in reserve for reinforcement (rounded up per type) (was 0.2)
 
 
 --AI Production / Designs
@@ -364,6 +368,7 @@ NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.95   -- ai will not t
 NDefines.NNavy.AI_MAX_TASKFORCES_PER_TRAINING_OBJECTIVE = 20   -- Max number of taskforces we desire for AI to put in each fleet that is training. (was 5)
 NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_AIR_TRAINING = 0.35   -- ai will use at most this ratio of affordable fuel for air training
 NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_NAVY_TRAINING = 0.50   -- ai will use at most this ratio of affordable fuel for naval training
+NDefines.NAI.CONVOY_DANGER_FOR_MAX_IMPORTANCE = 120   -- When deciding whether to protect a convoy route, the importance will scale with convoy danger up to this value (was 400)
 
 
 --AI Misc

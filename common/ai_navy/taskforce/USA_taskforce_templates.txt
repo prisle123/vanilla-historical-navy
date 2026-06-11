@@ -6,6 +6,7 @@ USA_StrikeForce_1 = {
 		factor = 1
 	}	
 	mission = { naval_strike }
+	keep_updated = yes
 	min_composition = {
 		battleship = {
 			amount = 2
@@ -62,6 +63,7 @@ USA_PatrolDominanceForce_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
+	keep_updated = yes
 	min_composition = {
 		heavy_cruiser = {
 			amount = 2
@@ -92,6 +94,7 @@ USA_ConvoyRaiding_1 = {
 		factor = 5
 	}	
 	mission = { convoy_raiding }
+	keep_updated = yes
 	min_composition = {
 		submarine = {
 			amount = 4

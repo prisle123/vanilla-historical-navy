@@ -16,6 +16,7 @@ StrikeForce_1 = {
 		factor = 10
 	}	
 	mission = { naval_strike }
+	keep_updated = yes
 	min_composition = {
 		light_cruiser = {
 			amount = 2
@@ -93,6 +94,7 @@ PatrolDominanceForce_CA_1 = {
 		factor = 5
 	}	
 	mission = { naval_patrol }
+	keep_updated = yes
 
 	min_composition = {
 		heavy_cruiser = {
