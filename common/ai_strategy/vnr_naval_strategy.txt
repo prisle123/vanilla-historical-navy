@@ -161,7 +161,7 @@ ENG_secure_mediterranean_ai = {
 
 	ai_strategy = {
 		type = front_unit_request
-		area = east_north_africa
+		area = north_africa
 		value = 100
 	}
 }
@@ -210,7 +210,7 @@ ENG_secure_mediterranean = {
 
 	ai_strategy = {
 		type = front_unit_request
-		area = east_north_africa
+		area = north_africa
 		value = 100
 	}
 }
@@ -227,9 +227,9 @@ ENG_avoid_mediterranean = {
 			}
 			AND = {
 				OR = {
-					16 = { has_enemy_naval_control = yes }
-					18 = { has_enemy_naval_control = yes }
-					43 = { has_enemy_naval_control = yes }
+					has_enemy_naval_control = 16
+					has_enemy_naval_control = 18
+					has_enemy_naval_control = 43
 				}
 				GER = { is_ai = no }
 			}
@@ -1143,7 +1143,7 @@ USA_pacific_war_naval_avoid_first = {
 
 	ai_strategy = {
 		type = area_priority
-		id = pacifc
+		id = pacific
 		value = 50
 	}
 	
@@ -1382,7 +1382,7 @@ USA_pacific_war_naval_counterattack_1 = {
 
 	ai_strategy = {
 		type = area_priority
-		id = pacifc
+		id = pacific
 		value = 50
 	}
 }
@@ -1502,7 +1502,7 @@ USA_pacific_war_naval_counterattack_2 = {
 
 	ai_strategy = {
 		type = area_priority
-		id = pacifc
+		id = pacific
 		value = 60
 	}
 }
@@ -1627,7 +1627,7 @@ USA_pacific_war_naval_counterattack_3 = {
 
 	ai_strategy = {
 		type = area_priority
-		id = pacifc
+		id = pacific
 		value = 70
 	}
 }
