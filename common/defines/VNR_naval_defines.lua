@@ -245,8 +245,10 @@ NDefines.NNavy.MIN_REPAIR_FOR_JOINING_COMBATS = { -- strikeforces/patrol forces 
 		0.95,	-- high
 		0.0,	-- on order (AI-managed, engagement uses same threshold as "do not repair")
 }
-NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_NON_OPERATIONAL_STR = 0.75   -- strength factor at or below which a fleet is considered non-operational by the AI, causing it to cancel the mission and send the fleet to repair (was 0.65)
-NDefines.NAI.AI_REPAIR_CANCEL_MIN_STRENGTH = 0.85   -- AI will pull non-reserve task forces out of repair and back on mission once they reach this strength (was 0.75)
+NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_NON_OPERATIONAL_STR = 0.9   -- strength factor at or below which a fleet is considered non-operational by the AI, causing it to cancel the mission and send the fleet to repair (was 0.65)
+NDefines.NAI.AI_REPAIR_CANCEL_MIN_STRENGTH = 1   -- AI will pull non-reserve task forces out of repair and back on mission once they reach this strength (was 0.75)
+NDefines.NAI.AI_SHIP_SWAP_MIN_DAMAGED_SHIPS = 1  -- minimum number of damaged ships in a taskforce before AI considers swapping them to reserves (was 2)
+NDefines.NAI.AI_SHIP_SWAP_DAMAGE_THRESHOLD = 0.65  -- per-ship strength threshold below which the AI considers a capital/carrier damaged enough to swap to reserves (was 0.33)
 
 
 --Naval Misc
@@ -408,4 +410,3 @@ NDefines.NIntel.NAVY_MIN_INTEL_TO_SHOW_SHIP_DESIGN_DETAILS = 0.5   -- unlocks sh
 --Country Defines--
 -------------------
 --NDefines.NCountry.NAVY_USE_HOME_BASE_FOR_RANGE = false   -- Fleet can use supply from nearby port (was true)
-
