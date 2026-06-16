@@ -23,6 +23,16 @@ ENG_protect_home_waters = {
         value = -1000
     }
 	ai_strategy = {
+        type = naval_avoid_region
+        id = 43
+        value = -1000
+    }
+	ai_strategy = {
+        type = naval_avoid_region
+        id = 42
+        value = 200
+    }
+	ai_strategy = {
 		type = strike_force_home_base
 		id = 16
 		value = 1000
@@ -66,6 +76,16 @@ ENG_protect_home_waters_ai = {
         type = naval_avoid_region
         id = 18
         value = -1000
+    }
+	ai_strategy = {
+        type = naval_avoid_region
+        id = 43
+        value = -1000
+    }
+	ai_strategy = {
+        type = naval_avoid_region
+        id = 42
+        value = 200
     }
 	ai_strategy = {
 		type = strike_force_home_base

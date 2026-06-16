@@ -2800,6 +2800,9 @@ technologies = {
 	ship_hull_super_heavy = {
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_8_tt
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_super_heavy_battleship
+			}
 		}
 
 		enable_equipments = {
@@ -2958,6 +2961,9 @@ technologies = {
 	advanced_ship_hull_heavy = {
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_0_tt
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_modern_battleship
+			}
 		}
 
 		enable_equipments = {
@@ -4062,6 +4068,9 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_1_tt
 			set_technology = { escort_carriers_ship = 1 }
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_escort_carrier
+			}
 		}
 
 		enable_equipments = {
@@ -4910,6 +4919,9 @@ technologies = {
 	basic_ship_hull_submarine = {
 		on_research_complete = {
 			custom_effect_tooltip = ss_tech_2_tt
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_fleet_submarine
+			}
 		}
 
 		enable_equipments = {
@@ -5438,6 +5450,11 @@ technologies = {
 	}
 
 	sub_AIP_engine = {
+		on_research_complete = {
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_aip_engine
+			}
+		}
 		enable_equipment_modules = {
 			sub_ship_engine_5
 		}
@@ -5463,6 +5480,11 @@ technologies = {
 	}
 
 	sub_nuclear_engine = {
+		on_research_complete = {
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_nuclear_submarine
+			}
+		}
 		is_special_project_tech = yes
 		allow = {
 			ROOT = {
@@ -5500,6 +5522,11 @@ technologies = {
 	}
 
 	anechoic_tile = {
+		on_research_complete = {
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_anechoic_tiles
+			}
+		}
 		enable_equipment_modules = {
 			anechoic_tile_1
 		}
@@ -5917,6 +5944,9 @@ technologies = {
 	cruiser_submarines = {
 		on_research_complete = {
 			custom_effect_tooltip = ss_tech_1_tt
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_cruiser_submarine
+			}
 		}
 
 		enable_equipments = {
@@ -5942,6 +5972,11 @@ technologies = {
 		}
 	}
 	midget_submarines = {
+		on_research_complete = {
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_midget_submarine
+			}
+		}
 
 		enable_equipments = {
 			vnr_ship_hull_midget_submarine
@@ -5981,6 +6016,9 @@ technologies = {
 			if = {
 				limit = { original_tag = USA }
 				custom_effect_tooltip = topgun_spirit_tt
+			}
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_modern_carrier
 			}
 		}
 		enable_equipments = {

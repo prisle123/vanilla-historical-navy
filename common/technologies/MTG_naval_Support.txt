@@ -2960,6 +2960,9 @@ technologies = {
 					}
 				}
 			}
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_support_ship
+			}
 		}
 		enable_equipments = {
 			support_ship_1

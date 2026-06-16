@@ -43,7 +43,7 @@ FRA_PatrolReconForce_1 = {
 	mission = { naval_patrol }
 	min_composition = {
 		destroyer = {
-			amount = 1
+			amount = 5
 		}
 	}	
 	optimal_composition = {
@@ -137,7 +137,7 @@ FRA_ConvoyEscort_1 = {
 	mission = { convoy_escort }
 	min_composition = {
 		destroyer = {
-			amount = 2
+			amount = 5
 		}
 	}
 	

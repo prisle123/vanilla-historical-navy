@@ -549,3 +549,42 @@ makeup_starting_techs = {
 		}
 	}
 }
+
+special_project_workaround = {
+	USA = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	JAP = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	ENG = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	FRA = {
+		complete_special_project = sp:sp_high_speed_light_engine
+	}
+	SOV = {
+		complete_special_project = sp:sp_high_speed_light_engine
+	}
+
+	every_country = {
+		limit = { has_technology = basic_ship_hull_submarine }
+		complete_special_project = sp:sp_naval_fleet_submarine
+	}
+	every_country = {
+		limit = { has_technology = cruiser_submarines }
+		complete_special_project = sp:sp_naval_cruiser_submarine
+	}
+	every_country = {
+		limit = { has_technology = ship_hull_super_heavy }
+		complete_special_project = sp:sp_naval_super_heavy_battleship
+	}
+	every_country = {
+		limit = { has_technology = midget_submarines }
+		complete_special_project = sp:sp_naval_midget_submarine
+	}
+	every_country = {
+		limit = { has_technology = support_fleet_ncns }
+		complete_special_project = sp:sp_naval_support_ship
+	}
+}

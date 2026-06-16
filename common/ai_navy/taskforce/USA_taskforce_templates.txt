@@ -45,7 +45,7 @@ USA_PatrolReconForce_1 = {
 	mission = { naval_patrol }
 	min_composition = {
 		destroyer = {
-			amount = 1
+			amount = 5
 		}
 	}	
 	optimal_composition = {
@@ -118,7 +118,7 @@ USA_ConvoyEscort_1 = {
 	mission = { convoy_escort }
 	min_composition = {
 		destroyer = {
-			amount = 2
+			amount = 5
 		}
 	}
 	
@@ -139,7 +139,7 @@ USA_InvasionSupport_1 = {
 	mission = { naval_invasion_support }
 
 	min_composition = {
-		heavy_cruiser = {
+		battleship = {
 			amount = 1
 		}
 		destroyer = {
