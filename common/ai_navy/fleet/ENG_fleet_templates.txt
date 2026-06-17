@@ -1,12 +1,12 @@
 # must-haves
-ENG_patrol_fleet_1 = {
-	required_taskforces = {
-		ENG_PatrolReconForce_1 = 6
-	}
-}
 ENG_escort_fleet_1 = {
 	required_taskforces = {
-		ENG_ConvoyEscort_1 = 4
+		ENG_ConvoyEscort_1 = 6
+	}
+}
+ENG_patrol_fleet_1 = {
+	required_taskforces = {
+		ENG_PatrolReconForce_1 = 4
 	}
 }
 ENG_support_fleet_1 = {
