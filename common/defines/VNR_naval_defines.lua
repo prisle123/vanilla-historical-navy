@@ -246,7 +246,7 @@ NDefines.NNavy.MIN_REPAIR_FOR_JOINING_COMBATS = { -- strikeforces/patrol forces 
 		0.0,	-- on order (AI-managed, engagement uses same threshold as "do not repair")
 }
 NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_NON_OPERATIONAL_STR = 0.9   -- strength factor at or below which a fleet is considered non-operational by the AI, causing it to cancel the mission and send the fleet to repair (was 0.65)
-NDefines.NAI.AI_REPAIR_CANCEL_MIN_STRENGTH = 1   -- AI will pull non-reserve task forces out of repair and back on mission once they reach this strength (was 0.75)
+NDefines.NAI.AI_REPAIR_CANCEL_MIN_STRENGTH = 0.99   -- AI will pull non-reserve task forces out of repair and back on mission once they reach this strength (was 0.75)
 NDefines.NAI.AI_SHIP_SWAP_MIN_DAMAGED_SHIPS = 1  -- minimum number of damaged ships in a taskforce before AI considers swapping them to reserves (was 2)
 NDefines.NAI.AI_SHIP_SWAP_DAMAGE_THRESHOLD = 0.65  -- per-ship strength threshold below which the AI considers a capital/carrier damaged enough to swap to reserves (was 0.33)
 
@@ -364,13 +364,13 @@ NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this 
 	0,0,0	-- others ( Training, NavalBlockade, StrikeForce )
 }
 NDefines.NAI.CONVOY_RAIDING_TARGET_RECALC_DAYS = 30   -- Each X days, the AI will reevaluate which regions to convoy raid (because enemy convoy usage or trade routes might change) (was 3)
-NDefines.NAI.STRIKE_FORCE_TARGET_RECALC_DAYS = 20   -- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change) (was 1)
-NDefines.NAI.AI_OBJECTIVE_DEFAULT_TARGET_RECALC_DAYS = 20   -- Each X days, the AI will reevaluate which regions to target for naval missions (this is the default value, but can be overriden by specific objectives, see CONVOY_RAIDING_TARGET_RECALC_DAYS) (was 0)
+NDefines.NAI.STRIKE_FORCE_TARGET_RECALC_DAYS = 7   -- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change) (was 1)
+NDefines.NAI.AI_OBJECTIVE_DEFAULT_TARGET_RECALC_DAYS = 7   -- Each X days, the AI will reevaluate which regions to target for naval missions (this is the default value, but can be overriden by specific objectives, see CONVOY_RAIDING_TARGET_RECALC_DAYS) (was 0)
 NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.95   -- ai will not train a taskforce if fully trained ships are above this ratio (was 0.7)
-NDefines.NNavy.AI_MAX_TASKFORCES_PER_TRAINING_OBJECTIVE = 20   -- Max number of taskforces we desire for AI to put in each fleet that is training. (was 5)
+NDefines.NNavy.AI_MAX_TASKFORCES_PER_TRAINING_OBJECTIVE = 10   -- Max number of taskforces we desire for AI to put in each fleet that is training. (was 5)
 NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_AIR_TRAINING = 0.35   -- ai will use at most this ratio of affordable fuel for air training
 NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_NAVY_TRAINING = 0.50   -- ai will use at most this ratio of affordable fuel for naval training
-NDefines.NAI.CONVOY_DANGER_FOR_MAX_IMPORTANCE = 120   -- When deciding whether to protect a convoy route, the importance will scale with convoy danger up to this value (was 400)
+NDefines.NAI.CONVOY_DANGER_FOR_MAX_IMPORTANCE = 300   -- When deciding whether to protect a convoy route, the importance will scale with convoy danger up to this value (was 400)
 
 
 --AI Misc

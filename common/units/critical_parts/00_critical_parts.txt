@@ -216,6 +216,7 @@ critical_parts = {
         }
 		modifier = {
 			navy_org_factor = -0.3
+			sortie_efficiency = -0.3
 		}
 		chance = 0.75
         org_damage_multiplier = 1.5
@@ -232,6 +233,7 @@ critical_parts = {
         }
 		modifier = {
 			navy_org_factor = -0.15
+			sortie_efficiency = -0.15
 		}
         chance = 0.5
         org_damage_multiplier = 1.25

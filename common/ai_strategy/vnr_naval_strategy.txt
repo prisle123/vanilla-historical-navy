@@ -1,13 +1,23 @@
 ### ENG ###
-ENG_protect_home_waters = {
+ENG_protect_home_waters_high_threat = {
     allowed = {
         original_tag = ENG
     }
     enable = {
-        has_war_with = GER
+        OR = {
+			AND = {
+				threat > 0.4
+				NOT = { is_ally_with = GER }
+			}
+			has_war_with = GER
+		}
         GER = {
-			is_ai = no
-            has_navy_size = { size > 30 }
+			OR = {
+				has_navy_size = { archetype = ship_hull_carrier size > 1 }
+				has_navy_size = { archetype = ship_hull_heavy size > 3 }
+				has_navy_size = { archetype = ship_hull_light size > 34 }
+				has_navy_size = { archetype = ship_hull_submarine size > 49 }
+			}
         }
         enable_vnr_naval_ai = yes
     }
@@ -54,15 +64,23 @@ ENG_protect_home_waters = {
 	}
 }
 
-ENG_protect_home_waters_ai = {
+ENG_protect_home_waters_low_threat = {
     allowed = {
         original_tag = ENG
     }
     enable = {
-        has_war_with = GER
+        OR = {
+			AND = {
+				threat > 0.4
+				NOT = { is_ally_with = GER }
+			}
+			has_war_with = GER
+		}
         GER = {
-			is_ai = yes
-            has_navy_size = { size > 30 }
+			has_navy_size = { archetype = ship_hull_carrier size < 2 }
+			has_navy_size = { archetype = ship_hull_heavy size < 4 }
+			has_navy_size = { archetype = ship_hull_light size < 35 }
+			has_navy_size = { archetype = ship_hull_submarine size < 50 }
         }
         enable_vnr_naval_ai = yes
     }
@@ -70,7 +88,7 @@ ENG_protect_home_waters_ai = {
     ai_strategy = {
 		type = naval_dominance
 		id = vnr_eng_home_waters
-		value = 98
+		value = 90
 	}
 	ai_strategy = {
         type = naval_avoid_region
@@ -96,6 +114,16 @@ ENG_protect_home_waters_ai = {
 		type = strike_force_home_base
 		id = 18
 		value = 1000
+	}
+	ai_strategy = {
+		type = strategic_air_importance
+		id = 18
+		value = 50000
+	}
+	ai_strategy = {
+		type = strategic_air_importance
+		id = 16
+		value = 50000
 	}
 }
 
@@ -137,26 +165,45 @@ ENG_avoid_baltic = {
 	}
 }
 
-ENG_secure_mediterranean_ai = {
+ENG_secure_mediterranean_high_threat = {
     allowed = {
         original_tag = ENG
     }
     enable = {
         has_war_with = ITA
         ITA = { 
-			is_ai = yes
-			has_navy_size = { size > 30 }
-		}
-		all_core_state = {
-			is_controlled_by_ROOT_or_ally = yes
+			OR = {
+				has_navy_size = { archetype = ship_hull_carrier size > 1 }
+				has_navy_size = { archetype = ship_hull_heavy size > 3 }
+				has_navy_size = { archetype = ship_hull_light size > 34 }
+				has_navy_size = { archetype = ship_hull_submarine size > 49 }
+			}
 		}
         enable_vnr_naval_ai = yes
     }
-    abort_when_not_enabled = yes
+    abort = {
+		OR = {
+			any_core_state = {
+				is_controlled_by_ROOT_or_ally = no
+			}
+			has_enemy_naval_control = 16
+			has_enemy_naval_control = 18
+			has_enemy_naval_control = 43
+			ITA = { 
+				AND = {
+					has_navy_size = { archetype = ship_hull_carrier size < 2 }
+					has_navy_size = { archetype = ship_hull_heavy size < 4 }
+					has_navy_size = { archetype = ship_hull_light size < 35 }
+					has_navy_size = { archetype = ship_hull_submarine size < 50 }
+				}
+			}
+			NOT = { has_war_with = ITA }
+		}
+	}
     ai_strategy = {
         type = naval_dominance
         id = vnr_eng_med_zones
-        value = 100
+        value = 99
     }
 	ai_strategy = {
 		type = naval_convoy_raid_region
@@ -186,26 +233,43 @@ ENG_secure_mediterranean_ai = {
 	}
 }
 
-ENG_secure_mediterranean = {
+ENG_secure_mediterranean_low_threat = {
     allowed = {
         original_tag = ENG
     }
     enable = {
         has_war_with = ITA
         ITA = { 
-			is_ai = no
-			has_navy_size = { size > 30 }
-		}
-		all_core_state = {
-			is_controlled_by_ROOT_or_ally = yes
+			has_navy_size = { archetype = ship_hull_carrier size < 2 }
+			has_navy_size = { archetype = ship_hull_heavy size < 4 }
+			has_navy_size = { archetype = ship_hull_light size < 35 }
+			has_navy_size = { archetype = ship_hull_submarine size < 50 }
 		}
         enable_vnr_naval_ai = yes
     }
-    abort_when_not_enabled = yes
+    abort = {
+		OR = {
+			any_core_state = {
+				is_controlled_by_ROOT_or_ally = no
+			}
+			has_enemy_naval_control = 16
+			has_enemy_naval_control = 18
+			has_enemy_naval_control = 43
+			ITA = { 
+				OR = {
+					has_navy_size = { archetype = ship_hull_carrier size > 1 }
+					has_navy_size = { archetype = ship_hull_heavy size > 3 }
+					has_navy_size = { archetype = ship_hull_light size > 34 }
+					has_navy_size = { archetype = ship_hull_submarine size > 49 }
+				}
+			}
+			NOT = { has_war_with = ITA }
+		}
+	}
     ai_strategy = {
         type = naval_dominance
         id = vnr_eng_med_zones
-        value = 98
+        value = 90
     }
 	ai_strategy = {
 		type = naval_convoy_raid_region
