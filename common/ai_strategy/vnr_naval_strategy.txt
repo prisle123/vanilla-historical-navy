@@ -520,6 +520,7 @@ JAP_landing_CHI_Guangzhou = {
 		OR = {
 			592 = { is_controlled_by_ROOT_or_ally = yes }
 			NOT = { has_war_with = GDC }
+			GDC = { has_capitulated = yes }
 		}
 	}
 
@@ -532,6 +533,16 @@ JAP_landing_CHI_Guangzhou = {
 		type = invasion_unit_request
 		state = 592
 		value = 100
+	}
+	ai_strategy = {
+	    type = front_control
+	    state_trigger = {
+	        is_owned_by = GDC
+	    }
+	    ratio = 0.08
+	    ordertype = front
+	    execution_type = rush
+	    manual_attack = yes
 	}
 }
 
