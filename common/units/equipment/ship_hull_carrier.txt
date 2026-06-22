@@ -430,7 +430,7 @@ equipments = {
 		}
 
 
-		build_cost_ic = 2200
+		build_cost_ic = 1800
 		resources = {
 			steel = 2
 		}
@@ -451,7 +451,7 @@ equipments = {
 			fixed_ship_deck_slot_2 = inherit
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missile_aa }
+				allowed_module_categories = { ship_anti_air ship_carrier_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
@@ -540,7 +540,7 @@ equipments = {
 			count < 2
 		}
 
-		build_cost_ic = 2600
+		build_cost_ic = 2000
 		resources = {
 			steel = 2
 		}
@@ -711,7 +711,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missile_aa }
+				allowed_module_categories = { ship_anti_air ship_carrier_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
@@ -768,7 +768,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries_bb
 					ship_anti_air
-					ship_missile_aa
+					ship_carrier_missile_aa
 					carrier_side_lift
 					carrier_helipad
 				}
@@ -793,7 +793,7 @@ equipments = {
 			count < 2
 		}
 
-		build_cost_ic = 3000
+		build_cost_ic = 2600
 		resources = {
 			steel = 2
 		}
@@ -819,7 +819,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missile_aa }
+				allowed_module_categories = { ship_anti_air ship_carrier_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
@@ -847,7 +847,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_missile_aa
+					ship_carrier_missile_aa
 					steam_catapult
 					carrier_side_lift
 					carrier_angled_deck
@@ -858,7 +858,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_missile_aa
+					ship_carrier_missile_aa
 					ship_secondaries
 					ship_dp_secondaries_bb
 					steam_catapult
@@ -871,7 +871,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_missile_aa
+					ship_carrier_missile_aa
 					ship_secondaries
 					ship_dp_secondaries_bb
 					carrier_side_lift
@@ -921,7 +921,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missile_aa }
+				allowed_module_categories = { ship_anti_air ship_carrier_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_fire_control_system_slot = {
@@ -955,7 +955,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
-					ship_missile_aa
+					ship_carrier_missile_aa
 					ship_dp_secondaries_bb
 				}
 			}
@@ -980,7 +980,7 @@ equipments = {
 		surface_detection = 19
 		sub_detection = 1
 
-		build_cost_ic = 3500
+		build_cost_ic = 3000
 		resources = {
 			steel = 2
 		}

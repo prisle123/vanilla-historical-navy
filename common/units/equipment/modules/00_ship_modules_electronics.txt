@@ -245,15 +245,14 @@ equipment_modules = {
 		critical_parts = { damaged_fire_control }
 		manpower = 18
 	}
-	ship_fire_control_system_5 = {
-		category = ship_fire_control_system
+	ship_missile_control_system_1 = {
+		category = ship_missile_control_system
 		sfx = sfx_ui_sd_module_sonar
-		parent = ship_fire_control_system_4
 		
 		add_stats = {
-			build_cost_ic = 1000
-			naval_light_gun_hit_chance_factor = 0.125
-			naval_heavy_gun_hit_chance_factor = 0.125
+			build_cost_ic = 800
+			naval_light_gun_hit_chance_factor = 0.15
+			naval_heavy_gun_hit_chance_factor = 0.15
 			naval_torpedo_hit_chance_factor = 0.05
 		}
 		
@@ -263,12 +262,32 @@ equipment_modules = {
 			surface_visibility = -0.05
 		}
 		can_convert_from = {
-			module = ship_fire_control_system_4
-			convert_cost_ic = 250
+			module = ship_missile_control_system
+			convert_cost_ic = 300
+		}
+		critical_parts = { damaged_fire_control }
+		manpower = 20
+	}
+	ship_missile_control_system_2 = {
+		category = ship_missile_control_system
+		sfx = sfx_ui_sd_module_sonar
+		parent = ship_missile_control_system_1
+		
+		add_stats = {
+			build_cost_ic = 1200
+			naval_light_gun_hit_chance_factor = 0.2
+			naval_heavy_gun_hit_chance_factor = 0.2
+			naval_torpedo_hit_chance_factor = 0.1
+		}
+		
+		multiply_stats = {
+			anti_air_attack = 0.3
+			surface_detection = 0.075
+			surface_visibility = -0.1
 		}
 		can_convert_from = {
-			module_category = ship_fire_control_system
-			convert_cost_ic = 300
+			module = ship_missile_control_system
+			convert_cost_ic = 400
 		}
 		critical_parts = { damaged_fire_control }
 		manpower = 15

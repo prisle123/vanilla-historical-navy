@@ -118,8 +118,8 @@ equipment_modules = {
 		
 		add_equipment_type = anti_air
 		add_stats = {
-			lg_attack = 0.6
-			anti_air_attack = 6
+			lg_attack = 1
+			anti_air_attack = 5
 			reliability = -0.05
 			build_cost_ic = 300
 			naval_light_gun_hit_chance_factor = -0.025
@@ -134,22 +134,23 @@ equipment_modules = {
 		gui_category = ship_missile
 
 		add_stats = {
-			build_cost_ic = 700
+			build_cost_ic = 500
 			hg_attack = 3
 			lg_attack = 3
-			anti_air_attack = 8
-			naval_heavy_gun_hit_chance_factor = 0.015
-			naval_light_gun_hit_chance_factor = 0.015
-			reliability = -0.05
+			anti_air_attack = 6
+			reliability = -0.025
 			max_strength = 3
 		}
 		multiply_stats = {
 			naval_speed = -0.03
-			surface_visibility = -0.01
+			surface_visibility = -0.05
 		}
 		dismantle_cost_ic = 400
 		critical_parts = { damaged_aa_missiles }
 		manpower = 10
+		allowed_module_categories = {
+		    fixed_ship_fire_control_system_slot = { ship_missile_control_system }
+		}
 	}
 	ship_missile_aa_2 = {
 		category = ship_missile_aa
@@ -157,18 +158,62 @@ equipment_modules = {
 		parent = ship_missile_aa_1
 
 		add_stats = {
-			build_cost_ic = 1000
+			build_cost_ic = 750
 			hg_attack = 5
 			lg_attack = 5
-			anti_air_attack = 10
-			naval_heavy_gun_hit_chance_factor = 0.025
-			naval_light_gun_hit_chance_factor = 0.025
-			reliability = -0.075
+			anti_air_attack = 8
+			reliability = -0.05
 			max_strength = 5
 		}
 		multiply_stats = {
 			naval_speed = -0.05
-			surface_visibility = -0.015
+			surface_visibility = -0.065
+		}
+		dismantle_cost_ic = 600
+		critical_parts = { damaged_aa_missiles }
+		manpower = 14
+		allowed_module_categories = {
+		    fixed_ship_fire_control_system_slot = { ship_missile_control_system }
+		}
+	}
+	ship_carrier_missile_aa_1 = {
+		category = ship_carrier_missile_aa
+		gui_category = ship_missile
+		gfx = ship_missile_aa_1
+
+		add_stats = {
+			build_cost_ic = 500
+			hg_attack = 3
+			lg_attack = 3
+			anti_air_attack = 6
+			reliability = -0.025
+			max_strength = 3
+		}
+		multiply_stats = {
+			naval_speed = -0.03
+			surface_visibility = -0.05
+		}
+		dismantle_cost_ic = 400
+		critical_parts = { damaged_aa_missiles }
+		manpower = 10
+	}
+	ship_carrier_missile_aa_2 = {
+		category = ship_carrier_missile_aa
+		gui_category = ship_missile
+		gfx = ship_missile_aa_2
+		parent = ship_carrier_missile_aa_1
+
+		add_stats = {
+			build_cost_ic = 750
+			hg_attack = 5
+			lg_attack = 5
+			anti_air_attack = 8
+			reliability = -0.05
+			max_strength = 5
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+			surface_visibility = -0.065
 		}
 		dismantle_cost_ic = 600
 		critical_parts = { damaged_aa_missiles }
@@ -388,8 +433,8 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 35
-			sub_attack = 12
-			build_cost_ic = 220
+			sub_attack = 7
+			build_cost_ic = 210
 			naval_torpedo_hit_chance_factor = 0.025
 		}
 		multiply_stats = {
@@ -612,7 +657,7 @@ equipment_modules = {
 		
 		
 		add_stats = {
-			sub_attack = 15
+			sub_attack = 14
 			build_cost_ic = 90
 			reliability = -0.01
 		}
@@ -634,7 +679,7 @@ equipment_modules = {
 		parent = ship_depth_charge_1
 		
 		add_stats = {
-			sub_attack = 20
+			sub_attack = 18
 			build_cost_ic = 120
 			reliability = -0.03
 		}
@@ -656,7 +701,7 @@ equipment_modules = {
 		parent = ship_depth_charge_2
 		
 		add_stats = {
-			sub_attack = 24
+			sub_attack = 22
 			build_cost_ic = 150
 			reliability = -0.05
 		}
@@ -678,7 +723,7 @@ equipment_modules = {
 		parent = ship_depth_charge_3
 		
 		add_stats = {
-			sub_attack = 30
+			sub_attack = 26
 			build_cost_ic = 180
 			reliability = -0.07
 		}
@@ -699,7 +744,7 @@ equipment_modules = {
 		parent = ship_depth_charge_4
 		
 		add_stats = {
-			sub_attack = 35
+			sub_attack = 30
 			build_cost_ic = 300
 			reliability = -0.085
 		}

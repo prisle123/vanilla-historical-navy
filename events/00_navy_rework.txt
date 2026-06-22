@@ -13,6 +13,7 @@ country_event = {
 		
         add_starting_techs = yes
         makeup_starting_techs = yes
+		special_project_workaround = yes
 		# set shipyard output boost
         set_shipyard_output_boost = yes
 
@@ -226,6 +227,7 @@ country_event = {
 		sign_naval_treaty = yes
 
 		ai_doctrine_workaround = yes
+		add_naval_headquarters = yes
     }
 }
 

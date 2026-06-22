@@ -1295,7 +1295,7 @@ technologies = {
 		naval_torpedo_screen_penetration_factor = 0.05
 
 		on_research_complete = {
-			custom_effect_tooltip = dd_tech_6_tt
+			custom_effect_tooltip = dd_tech_13_tt
 			custom_effect_tooltip = torpedo_advice_tt
 		}
 
@@ -1732,7 +1732,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = dd_tech_6_tt
+			custom_effect_tooltip = dd_tech_13_tt
 			custom_effect_tooltip = torpedo_advice_tt
 		}
 
@@ -1866,7 +1866,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = dd_tech_6_tt
+			custom_effect_tooltip = dd_tech_14_tt
 			custom_effect_tooltip = torpedo_advice_tt
 		}
 
@@ -2959,6 +2959,9 @@ technologies = {
 						instant = yes
 					}
 				}
+			}
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_support_ship
 			}
 		}
 		enable_equipments = {

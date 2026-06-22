@@ -27,6 +27,7 @@ add_starting_techs = {
             improved_ship_torpedo_launcher = 1
             ger_11in_c34 = 1
             ita_extra_armor = 1
+            magnetic_detonator = 1
 			popup = no
         }
     }
@@ -63,6 +64,7 @@ add_starting_techs = {
             improved_ship_torpedo_launcher = 1
             improved_airplane_launcher = 1
             sonar = 1
+            magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
             bb_conversion_carrier = 1
@@ -101,6 +103,7 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
             improved_ship_torpedo_launcher = 1
+            magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
             usa_8in_mk9 = 1
@@ -141,6 +144,7 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
             improved_ship_torpedo_launcher = 1
+            magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
             eng_14in_mk7 = 1
@@ -172,6 +176,7 @@ add_starting_techs = {
             improved_conning_tower = 1
             prototype_airplane_launcher = 1
             basic_periscope = 1
+            magnetic_detonator = 1
 			popup = no
         }
     }
@@ -199,6 +204,7 @@ add_starting_techs = {
             improved_conning_tower = 1
             prototype_airplane_launcher = 1
             basic_periscope = 1
+            magnetic_detonator = 1
 			popup = no
         }
     }
@@ -233,6 +239,7 @@ add_starting_techs = {
             midget_submarines = 1
             fra_13in_1931 = 1
             bb_conversion_carrier = 1
+            magnetic_detonator = 1
 
 			popup = no
         }
@@ -263,6 +270,8 @@ add_starting_techs = {
             improved_ship_torpedo_launcher = 1
             ita_extra_armor = 1
             bb_conversion_carrier = 1
+            magnetic_detonator = 1
+            ita_pugliese_system = 1
 
 			popup = no
         }
@@ -271,8 +280,11 @@ add_starting_techs = {
         set_technology = {
             interwar_ship_hull_light = 1
             interwar_ship_hull_cruiser = 1
+            basic_ship_hull_heavy = 1
 			basic_ship_hull_cruiser = 1
             searchlight = 1
+            enhanced_horizontal_defense = 1
+            krupp_steel = 1
 			high_speed_light_engine = 1
             treaty_cruiser_trend = 1
             early_cruiser_armor = 1
@@ -308,6 +320,7 @@ add_starting_techs = {
         set_technology = {
             basic_ship_hull_cruiser = 1
             interwar_ship_hull_light = 1
+            magnetic_detonator = 1
 			popup = no
         }
     }
@@ -412,6 +425,7 @@ makeup_starting_techs = {
         set_technology = {
 			coastal_defense_ships = 1
 			early_cruiser_armor = 1
+            searchlight = 1
 			popup = no
 		}
     }
@@ -432,6 +446,8 @@ makeup_starting_techs = {
 			basic_heavy_armor = 1
 			krupp_steel = 1
             fuel_oil_boiler = 1
+            improved_conning_tower = 1
+            enhanced_horizontal_defense = 1
 			popup = no
 		}
 	}
@@ -531,5 +547,44 @@ makeup_starting_techs = {
 				popup = no
 			}
 		}
+	}
+}
+
+special_project_workaround = {
+	USA = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	JAP = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	ENG = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	FRA = {
+		complete_special_project = sp:sp_high_speed_light_engine
+	}
+	SOV = {
+		complete_special_project = sp:sp_high_speed_light_engine
+	}
+
+	every_country = {
+		limit = { has_technology = basic_ship_hull_submarine }
+		complete_special_project = sp:sp_naval_fleet_submarine
+	}
+	every_country = {
+		limit = { has_technology = cruiser_submarines }
+		complete_special_project = sp:sp_naval_cruiser_submarine
+	}
+	every_country = {
+		limit = { has_technology = ship_hull_super_heavy }
+		complete_special_project = sp:sp_naval_super_heavy_battleship
+	}
+	every_country = {
+		limit = { has_technology = midget_submarines }
+		complete_special_project = sp:sp_naval_midget_submarine
+	}
+	every_country = {
+		limit = { has_technology = support_fleet_ncns }
+		complete_special_project = sp:sp_naval_support_ship
 	}
 }

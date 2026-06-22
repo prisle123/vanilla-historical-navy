@@ -1,12 +1,12 @@
 # must-haves
+USA_escort_fleet_1 = {
+	required_taskforces = {
+		USA_ConvoyEscort_1 = 6
+	}
+}
 USA_patrol_fleet_1 = {
 	required_taskforces = {
 		USA_PatrolReconForce_1 = 4
-	}
-}
-USA_escort_fleet_1 = {
-	required_taskforces = {
-		USA_ConvoyEscort_1 = 4
 	}
 }
 USA_support_fleet_1 = {
@@ -72,6 +72,14 @@ USA_raiding_fleet_2 = {
 }
 
 # optional fleets
+USA_support_fleet_3 = {
+	required_taskforces = {
+		USA_InvasionSupport_1 = 2
+	}
+	optional_taskforces = {
+		USA_InvasionSupport_1 = 1
+	}
+}
 USA_patrol_fleet_3 = {
 	required_taskforces = {
 		USA_PatrolReconForce_1 = 2

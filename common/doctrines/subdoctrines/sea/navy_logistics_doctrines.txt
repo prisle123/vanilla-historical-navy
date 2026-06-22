@@ -159,7 +159,8 @@ industrialized_naval_logistics = {
 		}
 		modular_shipbuilding = {
 			modifier = {
-				repair_speed_factor = 0.15
+				repair_speed_factor = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 			equipment_bonus = {
 				convoy_1 = {

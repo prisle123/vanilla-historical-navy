@@ -482,7 +482,7 @@ ideas = {
                 naval_critical_effect_factor = -0.1
             }
             ai_will_do = {
-                factor = 1
+                factor = 30
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -551,7 +551,7 @@ ideas = {
 				naval_torpedo_screen_penetration_factor = 0.1
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 10
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -731,7 +731,7 @@ ideas = {
                 convoy_escort_efficiency = 0.1
             }
             ai_will_do = {
-                factor = 1
+                factor = 10
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }

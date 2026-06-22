@@ -3,6 +3,7 @@ areas = {
         strategic_regions = {
             16
             18
+            43
         }
     }
     vnr_eng_med_zones = { # Med
@@ -100,4 +101,10 @@ areas = {
 			50
         }
     }
+
+    just_malaya = {
+		strategic_regions = {
+			188
+		}
+	}
 }

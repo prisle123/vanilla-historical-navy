@@ -113,7 +113,6 @@ naval_carrier = {
 				front_1_custom_slot = ship_deck_space_open
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space_open
-				mid_2_custom_slot = ship_dp_secondaries_bb
 			}
 		}
 		allowed_modules = {
@@ -154,7 +153,6 @@ naval_carrier = {
 				front_2_custom_slot = carrier_side_lift
 				mid_1_custom_slot = ship_deck_space_armored
 				mid_2_custom_slot = ship_deck_space_armored
-				rear_1_custom_slot = ship_dp_secondaries_bb
 			}
 		}
 		allowed_modules = {
@@ -223,11 +221,10 @@ naval_carrier = {
 				fixed_ship_deck_slot_2 = ship_deck_space_big
 				fixed_ship_anti_air_slot = ship_missile_aa
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
-				fixed_ship_engine_slot = carrier_ship_engine_nuclear
+				fixed_ship_engine_slot = { upgrade = current any_of = { carrier_ship_engine_nuclear carrier_ship_engine } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = { any_of = { economical_nuclear_reactor_carrier } }
 				fixed_ship_flight_deck_slot = carrier_strength_deck
 				front_1_custom_slot = steam_catapult
 				front_2_custom_slot = carrier_angled_deck
@@ -239,6 +236,7 @@ naval_carrier = {
 		allowed_modules = {
 			ship_deck_space_big
 			ship_anti_air
+			economical_nuclear_reactor_carrier
 		}
 	}
 
@@ -451,7 +449,6 @@ naval_carrier = {
 				fixed_ship_secondaries_slot = { upgrade > current any_of = { ship_dp_secondaries_bb } }
 				fixed_ship_radar_slot = { module = ship_radar upgrade > current }
 				fixed_ship_carrier_miscellaneous_slot_1 = carrier_spared_squad
-				fixed_ship_carrier_miscellaneous_slot_2 = { any_of = { economical_nuclear_reactor_carrier } }
 				fixed_ship_flight_deck_slot = carrier_strength_deck
 				front_1_custom_slot = carrier_angled_deck
 				front_2_custom_slot = carrier_side_lift
@@ -464,6 +461,7 @@ naval_carrier = {
 			ship_deck_space_big
 			ship_anti_air
 			carrier_angled_deck
+			economical_nuclear_reactor_carrier
 		}
 	}
 }

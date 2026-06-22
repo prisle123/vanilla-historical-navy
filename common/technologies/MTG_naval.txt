@@ -2434,197 +2434,6 @@ technologies = {
 #### ###  #  #  # #  # ###
 #  # # #  #     # #  # # #
 #  # #  # #     #  ##  #  #
-	incremental_armor_scheme = {
-		enable_equipment_modules = {
-			ship_scheme_incremental_post_jutland
-		}
-		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
-		}
-		on_research_complete = {
-			custom_effect_tooltip = bb_tech_9_tt
-		}
-		path = {
-			leads_to_tech = mixed_armor_scheme
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_boost_cost = 20
-		xp_research_bonus = 1.50
-		research_cost = 0.65
-
-		start_year = 1916
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 1 y = @1914 }
-		}
-		dependencies = {
-			early_ship_hull_heavy = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_tech = early_ship_hull_heavy
-				factor = 5
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			naval_armor
-			bb_tech
-			bc_tech
-			ship_modules_tech
-			mio_cat_tech_all_capital_ship_and_modules
-		}
-	}
-
-	mixed_armor_scheme = {
-		enable_equipment_modules = {
-			ship_scheme_mixed
-		}
-		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
-		}
-		on_research_complete = {
-			custom_effect_tooltip = bb_tech_9_tt
-		}
-		path = {
-			leads_to_tech = all_or_nothing_armor_scheme
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_boost_cost = 20
-		xp_research_bonus = 1.50
-		research_cost = 0.75
-
-		start_year = 1920
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 1 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_tech = basic_ship_hull_heavy
-				factor = 5
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			naval_armor
-			bb_tech
-			bc_tech
-			ship_modules_tech
-			mio_cat_tech_all_capital_ship_and_modules
-		}
-	}
-
-	all_or_nothing_armor_scheme = {
-		enable_equipment_modules = {
-			ship_scheme_all_or_nothing
-		}
-		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
-		}
-		on_research_complete = {
-			custom_effect_tooltip = bb_tech_9_tt
-		}
-		path = {
-			leads_to_tech = all_or_nothing_armor_box_armor_scheme
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_boost_cost = 20
-		xp_research_bonus = 1.50
-		research_cost = 1
-
-		start_year = 1925
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 1 y = @1924_module }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_tech = interwar_ship_hull_heavy
-				factor = 5
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			naval_armor
-			bb_tech
-			bc_tech
-			ship_modules_tech
-			mio_cat_tech_all_capital_ship_and_modules
-		}
-	}
-
-	all_or_nothing_armor_box_armor_scheme = {
-		enable_equipment_modules = {
-			ship_scheme_all_or_nothing_armor_box
-		}
-		on_research_complete = {
-			custom_effect_tooltip = heavy_armor_advice_tt
-		}
-		on_research_complete = {
-			custom_effect_tooltip = bb_tech_9_tt
-		}
-
-		xp_research_type = navy
-		xp_boost_cost = 20
-		xp_research_bonus = 1.50
-		research_cost = 1.25
-
-		start_year = 1941
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 1 y = @1940_module }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_tech = improved_ship_hull_heavy
-				factor = 2
-			}
-			modifier = {
-				date > 1941.1.1
-				has_navy_size = {
-					archetype = ship_hull_heavy
-					size > 4
-				}
-				factor = 2
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			naval_armor
-			bb_tech
-			bc_tech
-			ship_modules_tech
-			mio_cat_tech_all_capital_ship_and_modules
-		}
-	}
-
 	harvey_steel = {
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_10_tt
@@ -2876,6 +2685,7 @@ technologies = {
 			ship_armor_bb_1
 			ship_armor_bc_1
 			ship_scheme_incremental
+			torpedo_bulge
 			ship_mast_1
 		}
 
@@ -2884,15 +2694,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = basic_heavy_armor
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = basic_torpedo_defense
+			leads_to_tech = dry_dock_expansion
 			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = enhanced_horizontal_defense
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = fuel_oil_boiler
 			research_cost_coeff = 1
 		}
 
@@ -2947,15 +2757,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = dry_dock_expansion
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = improved_conning_tower
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = fuel_oil_boiler
+			leads_to_tech = basic_heavy_armor
 			research_cost_coeff = 1
 		}
 
@@ -2994,6 +2800,9 @@ technologies = {
 	ship_hull_super_heavy = {
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_8_tt
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_super_heavy_battleship
+			}
 		}
 
 		enable_equipments = {
@@ -3055,10 +2864,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = improved_torpedo_defense
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = ship_living_standard
 			research_cost_coeff = 1
 		}
@@ -3115,10 +2920,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = advanced_torpedo_defense
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = battleship_aa_upgrade
 			research_cost_coeff = 1
 		}
@@ -3160,6 +2961,9 @@ technologies = {
 	advanced_ship_hull_heavy = {
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_0_tt
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_modern_battleship
+			}
 		}
 
 		enable_equipments = {
@@ -3217,14 +3021,13 @@ technologies = {
 		enable_equipment_modules = {
 			ship_armor_bb_2
 			ship_armor_bc_2
+			ship_scheme_mixed
+			ship_scheme_all_or_nothing
+			torpedo_belt
 		}
 
-		on_research_complete_limit = {
-			NOT = {
-				has_tech = basic_cruiser_armor
-			}
-		}
 		on_research_complete = {
+			custom_effect_tooltip = bb_tech_9_tt
 			custom_effect_tooltip = heavy_armor_research_tt
 			set_technology = { basic_cruiser_armor = 1 }
 		}
@@ -3234,11 +3037,11 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 0.7
 
-		start_year = 1920
+		start_year = 1924
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1914_module_2 }
+			position = { x = 1 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -3267,12 +3070,8 @@ technologies = {
 			ship_armor_bc_3
 		}
 
-		on_research_complete_limit = {
-			NOT = {
-				has_tech = improved_cruiser_armor
-			}
-		}
 		on_research_complete = {
+			custom_effect_tooltip = bb_tech_9_tt
 			custom_effect_tooltip = heavy_armor_research_tt
 			set_technology = { improved_cruiser_armor = 1 }
 		}
@@ -3317,14 +3116,12 @@ technologies = {
 			ship_armor_bb_4
 			ship_armor_bc_4
 			ship_armor_shbb_2
+			ship_scheme_all_or_nothing_armor_box
+			torpedo_belt_enhanced
 		}
 
-		on_research_complete_limit = {
-			NOT = {
-				has_tech = advanced_cruiser_armor
-			}
-		}
 		on_research_complete = {
+			custom_effect_tooltip = bb_tech_9_tt
 			custom_effect_tooltip = heavy_armor_research_tt
 			set_technology = { advanced_cruiser_armor = 1 }
 		}
@@ -3363,110 +3160,6 @@ technologies = {
 		}
 	}
 
-	basic_torpedo_defense = {
-		enable_equipment_modules = {
-			torpedo_bulge
-			pugliese_system
-		}
-
-		xp_research_type = navy
-		xp_boost_cost = 20
-		xp_research_bonus = 1.25
-		research_cost = 0.5
-
-		start_year = 1918
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = -1 y = @1914_module_2 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			naval_armor
-			bb_tech
-			bc_tech
-			ship_modules_tech
-			mio_cat_tech_all_capital_ship_and_modules
-		}
-	}
-
-	improved_torpedo_defense = {
-		enable_equipment_modules = {
-			torpedo_belt
-		}
-
-		xp_research_type = navy
-		xp_boost_cost = 20
-		xp_research_bonus = 1.25
-		research_cost = 0.65
-
-		start_year = 1932
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = -1 y = @1932_module }
-		}
-		dependencies = {
-			basic_torpedo_defense = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			naval_armor
-			bb_tech
-			bc_tech
-			ship_modules_tech
-			mio_cat_tech_all_capital_ship_and_modules
-		}
-	}
-
-	advanced_torpedo_defense = {
-		enable_equipment_modules = {
-			torpedo_belt_enhanced
-		}
-
-		xp_research_type = navy
-		xp_boost_cost = 20
-		xp_research_bonus = 1.25
-		research_cost = 0.8
-
-		start_year = 1942
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = -1 y = @1940_module }
-		}
-		dependencies = {
-			improved_torpedo_defense = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				has_tech = advanced_ship_hull_heavy
-			}
-		}
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			naval_armor
-			bb_tech
-			bc_tech
-			ship_modules_tech
-			mio_cat_tech_all_capital_ship_and_modules
-		}
-	}
-
 	dry_dock_expansion = {
 		xp_research_type = navy
 		xp_boost_cost = 20
@@ -3475,11 +3168,11 @@ technologies = {
 
 		repair_speed_factor = 0.1
 
-		start_year = 1926
+		start_year = 1920
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1924_module }
+			position = { x = -1 y = @1914_module_2 }
 		}
 		dependencies = {
 			dry_dock = 1
@@ -3530,7 +3223,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1924_module }
+			position = { x = -1 y = @1924_module }
 		}
 
 		ai_will_do = {
@@ -3568,11 +3261,11 @@ technologies = {
 			surface_visibility = -0.05
 		}
 
-		start_year = 1925
+		start_year = 1916
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @1924_module }
+			position = { x = 3 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -3627,20 +3320,23 @@ technologies = {
 
 	enhanced_horizontal_defense = {
 		on_research_complete = {
-			custom_effect_tooltip = bb_tech_10_tt
+			custom_effect_tooltip = bb_tech_9_tt
 		}
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 0.25
+		research_cost = 0.5
 
+		enable_equipment_modules = {
+			ship_scheme_incremental_post_jutland
+		}
 		critical_receive_chance = -0.05
 
 		start_year = 1916
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @1914_module_2 }
+			position = { x = 1 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
@@ -3668,7 +3364,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = @1932_module }
+			position = { x = -1 y = @1932_module }
 		}
 
 		ai_will_do = {
@@ -3739,7 +3435,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1940_module }
+			position = { x = -1 y = @1940_module }
 		}
 
 		ai_will_do = {
@@ -3825,6 +3521,7 @@ technologies = {
 		research_cost = 1.25
 		enable_equipment_modules = {
 			ship_fire_control_system_4
+			ship_missile_control_system_1
 		}
 		strike_force_movement_org_loss = -0.1
 
@@ -3989,7 +3686,7 @@ technologies = {
 		}
 		research_cost = 1.25
 		enable_equipment_modules = {
-			ship_fire_control_system_5
+			ship_missile_control_system_2
 		}
 		start_year = 1954
 
@@ -4190,6 +3887,9 @@ technologies = {
 	}
 
 	early_carrier_study = {
+		on_research_complete = {
+			custom_effect_tooltip = cv_tech_9_tt
+		}
 		enable_equipment_modules = {
 			ship_deck_space_open
 			ship_deck_space_small
@@ -4248,7 +3948,6 @@ technologies = {
 			ship_armor_carrier_1
 			ship_armor_carrier_heavy_1
 		}
-		sortie_efficiency = 0.1
 
 		path = {
 			leads_to_tech = basic_ship_hull_carrier
@@ -4313,7 +4012,6 @@ technologies = {
 			ship_armor_carrier_2
 			ship_armor_carrier_heavy_2
 		}
-		sortie_efficiency = 0.1
 		path = {
 			leads_to_tech = dive_bomber_study
 			research_cost_coeff = 1
@@ -4370,6 +4068,9 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_1_tt
 			set_technology = { escort_carriers_ship = 1 }
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_escort_carrier
+			}
 		}
 
 		enable_equipments = {
@@ -4541,6 +4242,7 @@ technologies = {
 		research_cost = 0.7
 		start_year = 1925
 
+		sortie_efficiency = 0.05
 		air_accidents_factor = -0.05
 		enable_equipment_modules = {
 			carrier_aviation_control_unit
@@ -5217,6 +4919,9 @@ technologies = {
 	basic_ship_hull_submarine = {
 		on_research_complete = {
 			custom_effect_tooltip = ss_tech_2_tt
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_fleet_submarine
+			}
 		}
 
 		enable_equipments = {
@@ -5745,6 +5450,11 @@ technologies = {
 	}
 
 	sub_AIP_engine = {
+		on_research_complete = {
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_aip_engine
+			}
+		}
 		enable_equipment_modules = {
 			sub_ship_engine_5
 		}
@@ -5770,6 +5480,11 @@ technologies = {
 	}
 
 	sub_nuclear_engine = {
+		on_research_complete = {
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_nuclear_submarine
+			}
+		}
 		is_special_project_tech = yes
 		allow = {
 			ROOT = {
@@ -5807,6 +5522,11 @@ technologies = {
 	}
 
 	anechoic_tile = {
+		on_research_complete = {
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_anechoic_tiles
+			}
+		}
 		enable_equipment_modules = {
 			anechoic_tile_1
 		}
@@ -6224,6 +5944,9 @@ technologies = {
 	cruiser_submarines = {
 		on_research_complete = {
 			custom_effect_tooltip = ss_tech_1_tt
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_cruiser_submarine
+			}
 		}
 
 		enable_equipments = {
@@ -6249,6 +5972,11 @@ technologies = {
 		}
 	}
 	midget_submarines = {
+		on_research_complete = {
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_midget_submarine
+			}
+		}
 
 		enable_equipments = {
 			vnr_ship_hull_midget_submarine
@@ -6288,6 +6016,9 @@ technologies = {
 			if = {
 				limit = { original_tag = USA }
 				custom_effect_tooltip = topgun_spirit_tt
+			}
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_modern_carrier
 			}
 		}
 		enable_equipments = {
