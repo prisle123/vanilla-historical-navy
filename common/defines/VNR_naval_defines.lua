@@ -197,7 +197,7 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_WEAKER = { -- the aggression level pe
 	0, -- PATROL
 	2, -- STRIKE FORCE (was 1)
 	1, -- CONVOY RAIDING
-	1, -- CONVOY ESCORT
+	2, -- CONVOY ESCORT
 	-1, -- MINES PLANTING
 	-1, -- MINES SWEEPING
 	-1, -- TRAINING
@@ -210,8 +210,8 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggressi
 	-1, -- HOLD
 	1, -- PATROL
 	3, -- STRIKE FORCE
-	1, -- CONVOY RAIDING
-	1, -- CONVOY ESCORT
+	2, -- CONVOY RAIDING
+	3, -- CONVOY ESCORT
 	-1, -- MINES PLANTING
 	-1, -- MINES SWEEPING
 	-1, -- TRAINING
@@ -249,6 +249,12 @@ NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_NON_OPERATIONAL_STR = 0.9   -- strength f
 NDefines.NAI.AI_REPAIR_CANCEL_MIN_STRENGTH = 0.99   -- AI will pull non-reserve task forces out of repair and back on mission once they reach this strength (was 0.75)
 NDefines.NAI.AI_SHIP_SWAP_MIN_DAMAGED_SHIPS = 1  -- minimum number of damaged ships in a taskforce before AI considers swapping them to reserves (was 2)
 NDefines.NAI.AI_SHIP_SWAP_DAMAGE_THRESHOLD = 0.65  -- per-ship strength threshold below which the AI considers a capital/carrier damaged enough to swap to reserves (was 0.33)
+
+
+--Navy Medals
+NDefines.NNavy.NAVAL_COMBAT_MEDAL_CHANCE = 48   -- 1/N chance that a ship gains a medal after participating in a battle
+NDefines.NNavy.NAVAL_COMBAT_MEDAL_MIN_DURATION = 4   -- Minimum hours the battle must have taken to gain a medal
+NDefines.NNavy.NAVAL_COMBAT_MEDAL_LAST_MEDAL_LIMIT = 30   -- Minimum days before the ship can gain a new medal
 
 
 --Naval Misc
