@@ -107,7 +107,7 @@ MTG_naval_treaties = {
 		cost = 25
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 1
+			factor = 0
 			modifier = {
 				OR = {
 					tag = ITA
@@ -119,11 +119,6 @@ MTG_naval_treaties = {
 				tag = USA
 				has_civil_war = no
 				add = 5
-			}
-			modifier = {
-				tag = JAP
-				is_historical_focus_on = yes
-				add = 50
 			}
 			modifier = {
 				tag = JAP

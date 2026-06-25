@@ -286,4 +286,70 @@ critical_parts = {
 		damage_instance_per_added_module = 1
 		max_damage_instance = 1
     }
+
+	shortcircuited_radar_1 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.025
+			naval_heavy_gun_hit_chance_factor = -0.025
+			surface_detection = -5
+			sub_detection = -2
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	shortcircuited_radar_2 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.025
+			naval_heavy_gun_hit_chance_factor = -0.025
+			surface_detection = -7
+			sub_detection = -4
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	shortcircuited_radar_3 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.05
+			naval_heavy_gun_hit_chance_factor = -0.05
+			surface_detection = -12
+			sub_detection = -6
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	shortcircuited_radar_4 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.1
+			naval_heavy_gun_hit_chance_factor = -0.1
+			surface_detection = -18
+			sub_detection = -8
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	shortcircuited_radar_5 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.1
+			naval_heavy_gun_hit_chance_factor = -0.1
+			surface_detection = -25
+			sub_detection = -10
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
 }
