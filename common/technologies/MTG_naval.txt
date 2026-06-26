@@ -2697,7 +2697,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = dry_dock_expansion
+			leads_to_tech = heavy_ship_refit_reduction
 			research_cost_coeff = 1
 		}
 		path = {
@@ -2756,7 +2756,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = heavy_ship_refit_reduction
+			leads_to_tech = ship_hull_super_heavy
 			research_cost_coeff = 1
 		}
 		path = {
@@ -2766,10 +2766,6 @@ technologies = {
 		path = {
 			leads_to_tech = basic_heavy_armor
 			research_cost_coeff = 1
-		}
-
-		sub_technologies = {
-			ship_hull_super_heavy
 		}
 
 		research_cost = 1.5
@@ -2801,11 +2797,18 @@ technologies = {
 		}
 	}
 	ship_hull_super_heavy = {
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_naval_super_heavy_battleship
+			}
+		}
+		is_special_project_tech = yes
+		start_year = 1930
+		research_cost = 1.5
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_8_tt
-			hidden_effect = {
-				complete_special_project = sp:sp_naval_super_heavy_battleship
-			}
 		}
 
 		enable_equipments = {
@@ -2817,9 +2820,11 @@ technologies = {
 			super_heavy_ship_engine_1
 		}
 
-		research_cost = 1.5
-
-		start_year = 1936
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -3 y = @1924_module }
+		}
 
 		ai_will_do = {
 			factor = 0
@@ -3163,39 +3168,6 @@ technologies = {
 		}
 	}
 
-	dry_dock_expansion = {
-		xp_research_type = navy
-		xp_boost_cost = 20
-		xp_research_bonus = 1.25
-		research_cost = 0.3
-
-		repair_speed_factor = 0.1
-
-		start_year = 1920
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = -1 y = @1914_module_2 }
-		}
-		dependencies = {
-			dry_dock = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_navy_size = { size > 150 }
-				factor = 5
-			}
-		}
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			bb_tech
-			bc_tech
-		}
-	}
-
 	improved_conning_tower = {
 		on_research_complete = {
 			custom_effect_tooltip = bb_tech_6_tt
@@ -3307,7 +3279,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -3 y = @1924_module }
+			position = { x = -1 y = @1914_module_2 }
 		}
 
 		ai_will_do = {
