@@ -2219,7 +2219,7 @@ we_dont_need_convoys_2 = {
 			tag = SOV
 		}
 	}
-	enable = { stockpile_ratio = { archetype = convoy ratio > 750 } }
+	enable = { stockpile_ratio = { archetype = convoy ratio > 1000 } }
 	abort_when_not_enabled = yes
 
 	ai_strategy = {

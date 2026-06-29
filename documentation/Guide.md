@@ -212,7 +212,7 @@ Unlocks following doctrines:
 |---|---|---|---|---|
 | Floating Airfields | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
 | Subsidiary Carrier Support | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Trade & Supply Network |
-| Naval Airforce | Coastal Defense Fleet | Hunter Killer Groups | Covert Denial | Defensive Combat Support |
+| Naval Airforce | Coastal Defense Fleet | Hunter Killer Groups | Coverted Denial | Defensive Combat Support |
 | Airspace Denial | Monitor Support | Torpedo Flotilla |  |  |
 
 **Commerce Raiding**
@@ -224,7 +224,7 @@ Unlocks following doctrines:
 | Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
 |---|---|---|---|---|
 | Floating Airfields | Specialized Scouting Fleet | Convoy Escort | Wolfpacks | Coverted Oceanic Replenishment |
-| Subsidiary Carrier Support | Armored Raiders | Integrated Operations | Covert Denial | Trade & Supply Network |
+| Subsidiary Carrier Support | Armored Raiders | Integrated Operations | Coverted Denial | Trade & Supply Network |
 | Naval Airforce | Coastal Defense Fleet | The New School | Operational Autonomy | Defensive Combat Support |
 | Airspace Denial |  |  |  |  |
 
@@ -249,8 +249,8 @@ Unlocks following doctrines:
 
 | Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
 |---|---|---|---|---|
-| Subsidiary Carrier Support | Armored Raiders | Torpedo Flotilla | Coastal Defense | Coverted Oceanic Replenishment |
-| Naval Airforce | Coastal Defense Fleet | The New School | Covert Denial | Defensive Combat Support |
+| Subsidiary Carrier Support | Armored Raiders | Torpedo Flotilla | Shallow Killers | Coverted Oceanic Replenishment |
+| Naval Airforce | Coastal Defense Fleet | The New School | Coverted Denial | Defensive Combat Support |
 |  | Monitor Support | Mosquito Fleet |  |  |
 
 ### Sub Doctrine - Carrier ###
@@ -345,11 +345,11 @@ Despite less emphasis on commerce raiding and coordination, *Fleet Operations* t
 
 Another Japanese-style doctrine that buffs torpedo more than the equipment itself. It can expand usage scenario of torpedo further if used with *torpedo flotilla*.
 
-**Coastal Defense**
+**Shallow Killers**
 
 As its name suggests, the doctrine gives moderate and balanced bonuses on submarines at the cost of max range.
 
-**Covert Denial**
+**Coverted Denial**
 
 A unique double-edge-sword type of doctrine that offers reduction of visibility at great cost of HP and combat capabilities.
 

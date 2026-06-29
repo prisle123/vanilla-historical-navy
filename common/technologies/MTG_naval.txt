@@ -4177,6 +4177,70 @@ technologies = {
 		}
 	}
 
+	super_carriers = {
+		on_research_complete = {
+			custom_effect_tooltip = cv_tech_8_tt
+			if = {
+				limit = { original_tag = USA }
+				custom_effect_tooltip = topgun_spirit_tt
+			}
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_modern_carrier
+			}
+		}
+		enable_equipments = {
+			vnr_ship_hull_super_carrier
+		}
+		enable_equipment_modules = {
+			ship_armor_carrier_heavy_5
+			ship_deck_space_big
+			ship_ski_jump_ramp
+			coldwar_upgrade_cv
+		}
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = @1948 }
+		}
+		path = {
+			leads_to_tech = tactical_air_navigation_system
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = luneburg_lens
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = iff_device
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = optical_landing_system
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1948
+
+		dependencies = {
+			full_armored_carrier = 1
+			carrier_angled_deck = 1
+			carrier_steam_catapult = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_major = yes
+				factor = 10
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			cv_tech
+			naval_equipment
+			mio_cat_tech_all_carrier_and_modules
+		}
+	}
+
 	arresting_gear = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_2_tt
@@ -4858,7 +4922,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = acoustic_signature
+			leads_to_tech = cruiser_submarines
 			research_cost_coeff = 1
 		}
 		path = {
@@ -4917,7 +4981,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = basic_ballast_tank
+			leads_to_tech = acoustic_signature
 			research_cost_coeff = 1
 		}
 		path = {
@@ -4936,9 +5000,6 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -1 y = 7 }
-		}
-		sub_technologies = {
-			cruiser_submarines
 		}
 
 		ai_will_do = {
@@ -5262,7 +5323,7 @@ technologies = {
 		xp_boost_cost = 20
 		xp_research_bonus = 1.25
 
-		start_year = 1920
+		start_year = 1933
 		submarine = {
 			surface_detection = 0.05
 		}
@@ -5270,11 +5331,49 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1924 }
+			position = { x = 1 y = @1932 }
 		}
 		dependencies = {
 			sonar = 1
 		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	cruiser_submarines = {
+		on_research_complete = {
+			custom_effect_tooltip = ss_tech_1_tt
+			hidden_effect = {
+				complete_special_project = sp:sp_naval_cruiser_submarine
+			}
+		}
+		research_cost = 0.75
+
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.25
+
+		start_year = 1924
+
+		enable_equipments = {
+			vnr_ship_hull_cruiser_submarine
+		}
+		enable_equipment_modules = {
+			ship_extra_fuel_tank
+		}
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1924 }
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -5644,31 +5743,9 @@ technologies = {
 		}
 	}
 
-	basic_ballast_tank = {
-		research_cost = 0.25
-		sub_retreat_speed = 0.1
-
-		start_year = 1930
-
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 1 y = @1932 }
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			ss_tech
-			mio_cat_tech_all_submarine_and_modules
-		}
-	}
 	improved_ballast_tank = {
-		research_cost = 0.25
-		sub_retreat_speed = 0.15
+		research_cost = 0.65
+		sub_retreat_speed = 0.25
 
 		start_year = 1941
 
@@ -5916,36 +5993,6 @@ technologies = {
 			always = no
 		}
 	}
-	cruiser_submarines = {
-		on_research_complete = {
-			custom_effect_tooltip = ss_tech_1_tt
-			hidden_effect = {
-				complete_special_project = sp:sp_naval_cruiser_submarine
-			}
-		}
-
-		enable_equipments = {
-			vnr_ship_hull_cruiser_submarine
-		}
-		enable_equipment_modules = {
-			ship_extra_fuel_tank
-		}
-
-		research_cost = 1.25
-
-		start_year = 1928
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			ss_tech
-			mio_cat_tech_all_submarine_and_modules
-		}
-	}
 	midget_submarines = {
 		on_research_complete = {
 			hidden_effect = {
@@ -5984,69 +6031,6 @@ technologies = {
 		}
 		research_cost = 0.4
 		start_year = 1940
-	}
-	super_carriers = {
-		on_research_complete = {
-			custom_effect_tooltip = cv_tech_8_tt
-			if = {
-				limit = { original_tag = USA }
-				custom_effect_tooltip = topgun_spirit_tt
-			}
-			hidden_effect = {
-				complete_special_project = sp:sp_naval_modern_carrier
-			}
-		}
-		enable_equipments = {
-			vnr_ship_hull_super_carrier
-		}
-		enable_equipment_modules = {
-			ship_armor_carrier_heavy_5
-			ship_deck_space_big
-			ship_ski_jump_ramp
-			coldwar_upgrade_cv
-		}
-		folder = {
-			name = mtgnavalfolder
-			position = { x = -1 y = @1948 }
-		}
-		path = {
-			leads_to_tech = tactical_air_navigation_system
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = luneburg_lens
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = iff_device
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = optical_landing_system
-			research_cost_coeff = 1
-		}
-		research_cost = 1.5
-		start_year = 1948
-
-		dependencies = {
-			full_armored_carrier = 1
-			carrier_angled_deck = 1
-			carrier_steam_catapult = 1
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = yes
-				factor = 10
-			}
-		}
-		special_project_specialization = { specialization_naval }
-		categories = {
-			cv_tech
-			naval_equipment
-			mio_cat_tech_all_carrier_and_modules
-		}
 	}
 
 	bb_conversion_carrier = {
