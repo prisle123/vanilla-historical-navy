@@ -92,6 +92,9 @@ sp_battlecarrier = {
 			}
 		}
     }
+	ai_will_do = {
+		base = 0
+	}
 	resource_cost = {
 		resources = { 
 			steel = 5
@@ -171,6 +174,9 @@ sp_subcarrier = {
 			has_tech = cruiser_submarines
 			has_tech = prototype_airplane_launcher
 		}
+	}
+	ai_will_do = {
+		base = 0
 	}
     breakthrough_cost = {
 		specialization_naval = 1
@@ -328,7 +334,11 @@ sp_naval_proximity_fuze = {
     specialization = specialization_naval
 	project_tags = { sp_tag_surface_ship }
 	ai_will_do = {
-		base = 1
+		base = 5
+		modifier = {
+			factor = 3
+			ROOT = { tag = USA }
+		}
 	}
     allowed = {
         has_dlc = "Man the Guns"
@@ -419,6 +429,10 @@ sp_super_heavy_guns = {
 	project_tags = { sp_tag_surface_ship }
 	ai_will_do = {
 		base = 1
+		modifier = {
+			factor = 5
+			ROOT = { has_tech = ship_hull_super_heavy }
+		}
 	}
     allowed = {
         has_dlc = "Man the Guns"
@@ -665,6 +679,9 @@ sp_naval_rocket_launching_submarine = {
 			has_tech = modern_ship_hull_submarine
 		}
 	}
+	ai_will_do = {
+		base = 0
+	}
 
 	breakthrough_cost = {
 		specialization_naval = 2
@@ -721,6 +738,9 @@ sp_naval_nuclear_missile_submarine = {
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
+	ai_will_do = {
+		base = 0
+	}
 
 	special_project_parent = {
 		sp_naval_rocket_launching_submarine
@@ -767,6 +787,9 @@ sp_mega_carrier = {
 			has_tech = super_carriers
 		}
     }
+	ai_will_do = {
+		base = 0
+	}
 	resource_cost = {
 		resources = { 
 			steel = 16
@@ -820,6 +843,9 @@ sp_arsenal_ship = {
 			has_tech = full_missile_ship
 		}
     }
+	ai_will_do = {
+		base = 0
+	}
 	resource_cost = {
 		resources = { 
 			steel = 12
@@ -869,6 +895,9 @@ sp_early_informatization_system = {
 			has_tech = naval_tactical_data_system
 		}
     }
+	ai_will_do = {
+		base = 20
+	}
 	resource_cost = {
 		resources = { 
 			steel = 12
@@ -975,6 +1004,9 @@ sp_high_speed_light_engine = {
 			has_tech = fuel_oil_boiler
 		}
     }
+	ai_will_do = {
+		base = 0.1
+	}
 	resource_cost = {
 		resources = { 
 			steel = 6
@@ -1036,6 +1068,13 @@ sp_submarine_snorkel = {
 			has_tech = basic_ship_hull_submarine
 		}
     }
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 10
+			ROOT = { is_major = yes }
+		}
+	}
 	resource_cost = {
 		resources = { 
 			steel = 6
@@ -1089,6 +1128,9 @@ sp_shipping_container = {
 			has_tech = mtg_tank_landing_craft
 		}
     }
+	ai_will_do = {
+		base = 1
+	}
 	resource_cost = {
 		resources = { 
 			steel = 4

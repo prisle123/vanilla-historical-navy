@@ -523,6 +523,9 @@ special_project_workaround = {
 	SOV = {
 		complete_special_project = sp:sp_high_speed_light_engine
 	}
+    HOL = {
+        complete_special_project = sp:sp_submarine_snorkel
+    }
 
 	every_country = {
 		limit = { has_tech = basic_ship_hull_submarine }

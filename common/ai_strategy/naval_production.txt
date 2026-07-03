@@ -221,7 +221,7 @@ naval_unit_role_ratios_minors_defensive = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 20
+		value = 60
 	}
 }
 
@@ -272,7 +272,7 @@ naval_unit_role_ratios_minors_offensive = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 20
+		value = 90
 	}
 }
 
@@ -329,7 +329,7 @@ naval_unit_role_ratios_minors_global = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 20
+		value = 150
 	}
 }
 
@@ -1283,7 +1283,7 @@ naval_unit_role_ratios_JAP_prewar_naval_treaty = {
 	}
 }
 
-naval_unit_role_ratios_JAP_prewar_enough_carrier = {
+naval_unit_role_ratios_JAP_prewar_break_treaty = {
 	allowed = {
 		tag = JAP
 	}
@@ -1322,7 +1322,7 @@ naval_unit_role_ratios_JAP_prewar_enough_carrier = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 60
+		value = 40
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1376,7 +1376,7 @@ naval_unit_role_ratios_JAP_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 100
+		value = 80
 	}
 	ai_strategy = {
 		type = building_target
@@ -1458,7 +1458,7 @@ naval_unit_role_ratios_USA_great_depression = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 80
+		value = 60
 	}
 
 	ai_strategy = {
@@ -1476,13 +1476,13 @@ naval_unit_role_ratios_USA_great_depression = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 120
+		value = 90
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 50
+		value = 30
 	}
 
 	ai_strategy = {
@@ -1522,19 +1522,19 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 50
+		value = 40
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 80
+		value = 50
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 100
+		value = 80
 	}
 	
 	ai_strategy = {
@@ -1594,7 +1594,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 150
+		value = 120
 	}
 	
 	ai_strategy = {
