@@ -78,16 +78,6 @@ add_starting_navy_spirits = {
 	}
 }
 
-sign_naval_treaty = {
-	every_country = {
-		limit = { has_naval_treaty_trigger = yes }
-		country_event = {
-			id = MTG_naval_treaty.12
-			days = 60
-		}
-	}
-}
-
 add_naval_headquarters = {
 	447 = {
 		if = {

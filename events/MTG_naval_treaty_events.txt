@@ -337,7 +337,14 @@ country_event = { #notification about 2nd London Naval Conference
 	desc = MTG_naval_treaty.12.d
 	picture = GFX_report_event_second_london_treaty
 	
-	is_triggered_only = yes
+	trigger = {
+		has_naval_treaty_trigger = yes
+		date > 1936.3.1
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+	fire_only_once = yes
 	
 	option = { #yes
 		name = MTG_naval_treaty.12.a 
