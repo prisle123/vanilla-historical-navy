@@ -1079,19 +1079,17 @@ equipment_modules = {
 	}
 
 
-#################
-##  AUXILIARY  ##
-#################
+#############
+##  RANGE  ##
+#############
     ship_extra_fuel_tank = {
-		abbreviation = "sdb"
 		category = ship_extra_fuel_tank
 		
-		
-		add_stats = {
-			naval_range = 1000
-		}
 		multiply_stats = {
-			build_cost_ic = 0.05
+			naval_range = 0.2
+			build_cost_ic = 0.06
+			naval_speed = -0.03
+			max_strength = -0.05
 		}
 		dismantle_cost_ic = 700
 	}
@@ -1099,14 +1097,20 @@ equipment_modules = {
 		category = ship_extra_fuel_tank
 		
 		add_stats = {
-			naval_range = 2000
 			reliability = -0.05
 		}
 		multiply_stats = {
+			naval_range = 0.4
 			build_cost_ic = 0.1
+			naval_speed = -0.05
+			max_strength = -0.075
 		}
 		dismantle_cost_ic = 1000
 	}
+	
+#################
+##  AUXILIARY  ##
+#################
     fuel_tanker_silo = {
 		category = ship_auxiliary
 		gfx = ship_extra_fuel_tank

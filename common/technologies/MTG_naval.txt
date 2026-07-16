@@ -35,6 +35,7 @@ technologies = {
 			ship_hull_light_role_dd
 			ship_hull_light_role_ff
 			ship_mast_1
+			ship_extra_fuel_tank
 		}
 		path = {
 			leads_to_tech = basic_ship_hull_light
@@ -202,6 +203,7 @@ technologies = {
 		enable_equipment_modules = {
 			light_ship_engine_4
 			light_ship_engine_3_diesel
+			ship_extra_fuel_tank_large
 		}
 
 		path = {
@@ -1154,6 +1156,7 @@ technologies = {
 			ship_hull_cruiser_role_mo
 			ship_hull_cruiser_role_cd
 			ship_mast_1
+			ship_extra_fuel_tank
 		}
 		path = {
 			leads_to_tech = treaty_cruiser_trend
@@ -1331,6 +1334,7 @@ technologies = {
 		enable_equipment_modules = {
 			cruiser_ship_engine_4
 			cruiser_ship_engine_3_diesel
+			ship_extra_fuel_tank_large
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_cruiser
@@ -2690,6 +2694,7 @@ technologies = {
 			ship_scheme_incremental
 			torpedo_bulge
 			ship_mast_1
+			ship_extra_fuel_tank
 		}
 
 		path = {
@@ -2918,6 +2923,7 @@ technologies = {
 			heavy_ship_engine_4
 			heavy_ship_engine_3_diesel
 			super_heavy_ship_engine_3
+			ship_extra_fuel_tank_large
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_heavy
@@ -3922,6 +3928,7 @@ technologies = {
 			carrier_no_island
 			ship_armor_carrier_1
 			ship_armor_carrier_heavy_1
+			ship_extra_fuel_tank
 		}
 
 		path = {
@@ -4057,6 +4064,7 @@ technologies = {
 			side_lift
 			ship_armor_carrier_3
 			ship_armor_carrier_heavy_3
+			ship_extra_fuel_tank_large
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_carrier
@@ -4903,6 +4911,7 @@ technologies = {
 			sub_ship_periscope_0
 			sub_conning_tower_0
 			sub_deck_gun_1
+			ship_extra_fuel_tank
 		}
 
 		sub_technologies = {
@@ -5032,6 +5041,7 @@ technologies = {
 			diving_plane
 			ship_sub_torpedo_computer_1
 			sub_deck_gun_3
+			ship_extra_fuel_tank_large
 		}
 
 		path = {
@@ -5364,9 +5374,6 @@ technologies = {
 
 		enable_equipments = {
 			vnr_ship_hull_cruiser_submarine
-		}
-		enable_equipment_modules = {
-			ship_extra_fuel_tank
 		}
 
 		folder = {
@@ -6046,17 +6053,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1918
-	}
-
-	auxiliary_submarine_tech = {
-		allow = {
-			always = no
-		}
-		enable_equipment_modules = {
-			ship_extra_fuel_tank_large
-		}
-		research_cost = 1
-		start_year = 1920
 	}
 
 	obsolete_vanilla_hulls = {

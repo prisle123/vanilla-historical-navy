@@ -483,15 +483,10 @@ operation_autonomy = {
             }
         }
         auxiliary_submarine = {
-            effect = {
-                custom_effect_tooltip = auxiliary_submarine_tt
-                hidden_effect = {
-                    set_technology = { auxiliary_submarine_tech = 1 }
-                }
-            }
             equipment_bonus = {
                 submarine = {
                     reliability = 0.1
+                    max_strength = 0.1
                     instant = yes
                 }
             }
