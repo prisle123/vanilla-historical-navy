@@ -122,7 +122,7 @@ NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUPPORT = 2   -- As Above (was 3)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CONVOY = 2   -- As Above (was 4)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 3   -- As Above (was 7)
 -- dynamic plane cap ends
-NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 20   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 15   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 8   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 12)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.8   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
 --NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)

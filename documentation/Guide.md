@@ -355,7 +355,7 @@ A unique double-edge-sword type of doctrine that offers reduction of visibility 
 
 **Operational Autonomy**
 
-A doctrine that fully authorizes submarine capitans commanding privilege while raiding in distant waters. This is a weakened version of *Wolfpacks*, but has more bonuses on range and visibility and can unlock a special submarine module after mastered.
+A doctrine that fully authorizes submarine capitans commanding privilege while raiding in distant waters. This is a weakened version of *Wolfpacks*, but has more bonuses on range and visibility.
 
 ### Sub Doctrine - Naval Logistics ###
 

@@ -322,7 +322,7 @@ equipments = {
 
 		max_strength = 35
 
-		build_cost_ic = 275
+		build_cost_ic = 300
 		resources = {
 			steel = 1
 		}
@@ -374,7 +374,7 @@ equipments = {
 			fixed_ship_armor_slot = pressure_hull_4
 		}
 
-		sub_visibility = 13
+		sub_visibility = 13.5
 		surface_detection = 16
 		naval_speed = 18
 		reliability = 1.5
@@ -383,7 +383,7 @@ equipments = {
 
 		max_strength = 50
 
-		build_cost_ic = 400
+		build_cost_ic = 550
 		resources = {
 			steel = 2
 		}

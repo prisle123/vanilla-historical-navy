@@ -303,8 +303,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 80
-			naval_torpedo_hit_chance_factor = 0.075
+			build_cost_ic = 40
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		can_convert_from = {
 			module_category = sub_fire_control_system
@@ -337,8 +337,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 180
-			naval_torpedo_hit_chance_factor = 0.125
+			build_cost_ic = 200
+			naval_torpedo_hit_chance_factor = 0.15
 			fuel_consumption = 3
 		}
 		can_convert_from = {
