@@ -684,6 +684,14 @@ spriteTypes = {
 		name = "GFX_improved_submarine_snorkel_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/improved_submarine_snorkel.png"
 	}
+	spriteType = {
+		name = "GFX_super_heavy_battleship_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/super_heavy_battleship.png"
+	}
+	spriteType = {
+		name = "GFX_cruiser_submarines_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/cruiser_submarines.png"
+	}
 	
 	
 	### special projects
