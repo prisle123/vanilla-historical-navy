@@ -2415,9 +2415,8 @@ we_need_cv_fighters_1 = {
 	}
 	abort = {
 		OR = {
-			has_deployed_air_force_size = {
-				type = cv_fighter
-				size > 200
+			has_equipment = {
+				cv_small_plane_airframe > 200
 			}
 			has_navy_size = { size < 1 type = carrier }
 			has_navy_size = { size > 3 type = carrier }
@@ -2441,9 +2440,8 @@ we_need_cv_fighters_2 = {
 	}
 	abort = {
 		OR = {
-			has_deployed_air_force_size = {
-				type = cv_fighter
-				size > 380
+			has_equipment = {
+				cv_small_plane_airframe > 380
 			}
 			has_navy_size = { size < 4 type = carrier }
 			has_navy_size = { size > 7 type = carrier }
@@ -2466,9 +2464,8 @@ we_need_cv_fighters_3 = {
 	}
 	abort = {
 		OR = {
-			has_deployed_air_force_size = {
-				type = cv_fighter
-				size > 560
+			has_equipment = {
+				cv_small_plane_airframe > 560
 			}
 			has_navy_size = { size < 8 type = carrier }
 		}
@@ -2487,9 +2484,8 @@ we_need_cv_fighters_4 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
-		has_deployed_air_force_size = {
-			type = cv_fighter
-			size > 560
+		has_equipment = {
+			cv_small_plane_airframe > 560
 		}
 	}
 	abort_when_not_enabled = yes
@@ -2511,9 +2507,8 @@ we_need_cv_naval_bombers_1 = {
 	}
 	abort = {
 		OR = {
-			has_deployed_air_force_size = {
-				type = cv_naval_bomber
-				size > 200
+			has_equipment = {
+				cv_small_plane_naval_bomber_airframe > 200
 			}
 			has_navy_size = { size < 1 type = carrier }
 			has_navy_size = { size > 3 type = carrier }
@@ -2537,9 +2532,8 @@ we_need_cv_naval_bombers_2 = {
 	}
 	abort = {
 		OR = {
-			has_deployed_air_force_size = {
-				type = cv_naval_bomber
-				size > 380
+			has_equipment = {
+				cv_small_plane_naval_bomber_airframe > 380
 			}
 			has_navy_size = { size < 4 type = carrier }
 			has_navy_size = { size > 7 type = carrier }
@@ -2562,9 +2556,8 @@ we_need_cv_naval_bombers_3 = {
 	}
 	abort = {
 		OR = {
-			has_deployed_air_force_size = {
-				type = cv_naval_bomber
-				size > 560
+			has_equipment = {
+				cv_small_plane_naval_bomber_airframe > 560
 			}
 			has_navy_size = { size < 8 type = carrier }
 		}
@@ -2583,9 +2576,8 @@ we_need_cv_naval_bombers_4 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
-		has_deployed_air_force_size = {
-			type = cv_naval_bomber
-			size > 560
+		has_equipment = {
+			cv_small_plane_naval_bomber_airframe > 560
 		}
 	}
 	abort_when_not_enabled = yes
@@ -2607,9 +2599,8 @@ we_need_cv_cas_1 = {
 	}
 	abort = {
 		OR = {
-			has_deployed_air_force_size = {
-				type = cv_cas
-				size > 200
+			has_equipment = {
+				cv_small_plane_cas_airframe > 200
 			}
 			has_navy_size = { size < 1 type = carrier }
 			has_navy_size = { size > 3 type = carrier }
@@ -2633,9 +2624,8 @@ we_need_cv_cas_2 = {
 	}
 	abort = {
 		OR = {
-			has_deployed_air_force_size = {
-				type = cv_cas
-				size > 380
+			has_equipment = {
+				cv_small_plane_cas_airframe > 380
 			}
 			has_navy_size = { size < 4 type = carrier }
 			has_navy_size = { size > 7 type = carrier }
@@ -2658,9 +2648,8 @@ we_need_cv_cas_3 = {
 	}
 	abort = {
 		OR = {
-			has_deployed_air_force_size = {
-				type = cv_cas
-				size > 560
+			has_equipment = {
+				cv_small_plane_cas_airframe > 560
 			}
 			has_navy_size = { size < 8 type = carrier }
 		}
@@ -2679,9 +2668,8 @@ we_need_cv_cas_4 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
-		has_deployed_air_force_size = {
-			type = cv_cas
-			size > 560
+		has_equipment = {
+			cv_small_plane_cas_airframe > 560
 		}
 	}
 	abort_when_not_enabled = yes
