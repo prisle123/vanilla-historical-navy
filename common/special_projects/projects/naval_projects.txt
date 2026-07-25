@@ -51,12 +51,6 @@ sp_naval_super_heavy_battleship = {
 					popup = no
 				}
 			}
-			hidden_effect = {
-				set_technology = {
-					ship_hull_super_heavy = 1
-					popup = no
-				}
-			}
 			unlock_decision_tooltip	= super_heavy_carrier_conversion
 		}
 	}
