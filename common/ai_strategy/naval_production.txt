@@ -194,7 +194,8 @@ naval_unit_role_ratios_minors_defensive = {
 			}
 		}
 	}
-	enable = { 
+	enable = {
+		has_navy_size = { size > 49 }
 		has_navy_size = { size < 100 }
 	}
 
@@ -239,7 +240,8 @@ naval_unit_role_ratios_minors_offensive = {
 			}
 		}
 	}
-	enable = { 
+	enable = {
+		has_navy_size = { size > 99 }
 		has_navy_size = { size < 200 }
 	}
 
@@ -291,6 +293,7 @@ naval_unit_role_ratios_minors_global = {
 		}
 	}
 	enable = {
+		has_navy_size = { size > 199 }
 		has_navy_size = { size < 300 }
 	}
 
