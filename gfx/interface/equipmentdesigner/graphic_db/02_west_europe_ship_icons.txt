@@ -159,6 +159,7 @@ FRA = {
 				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
 				GFX_FRA_vnr_ship_hull_cruiser_2_medium
 				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_panzerschiff_medium
             }
         }
 
@@ -182,6 +183,7 @@ FRA = {
 				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
 				GFX_FRA_vnr_ship_hull_cruiser_2_medium
 				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_FRA_vnr_ship_hull_cruiser_3_medium
 				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
             }
@@ -207,6 +209,7 @@ FRA = {
 				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
 				GFX_FRA_vnr_ship_hull_cruiser_2_medium
 				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_FRA_vnr_ship_hull_cruiser_3_medium
 				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_FRA_vnr_ship_hull_cruiser_4_medium
@@ -234,6 +237,7 @@ FRA = {
 				"gfx/interface/technologies/France/FRA_light_cruiser_Pluton.png"
 				GFX_FRA_vnr_ship_hull_cruiser_2_medium
 				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_FRA_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_FRA_vnr_ship_hull_cruiser_3_medium
 				GFX_FRA_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_FRA_vnr_ship_hull_cruiser_4_medium
@@ -259,25 +263,6 @@ FRA = {
                 "gfx/interface/technologies/France/FRA_light_cruiser_Teste.png"
 				GFX_FRA_vnr_ship_hull_cruiser_1_medium
 				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_FRA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_FRA_vnr_ship_hull_cruiser_1_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_medium
-				GFX_FRA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_FRA_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 

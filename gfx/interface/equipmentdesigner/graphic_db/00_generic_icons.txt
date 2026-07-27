@@ -90,6 +90,7 @@ default = {
 				GFX_vnr_ship_hull_cruiser_1_medium
                 GFX_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_vnr_ship_hull_cruiser_2_medium
+                GFX_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_vnr_ship_hull_cruiser_3_medium
             }
@@ -103,6 +104,7 @@ default = {
 				GFX_vnr_ship_hull_cruiser_1_medium
                 GFX_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_vnr_ship_hull_cruiser_2_medium
+                GFX_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_vnr_ship_hull_cruiser_3_medium
 				GFX_vnr_ship_hull_cruiser_4_capital_medium
@@ -118,6 +120,7 @@ default = {
 				GFX_vnr_ship_hull_cruiser_1_medium
                 GFX_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_vnr_ship_hull_cruiser_2_medium
+                GFX_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_vnr_ship_hull_cruiser_3_medium
 				GFX_vnr_ship_hull_cruiser_4_capital_medium
@@ -135,6 +138,7 @@ default = {
 				GFX_vnr_ship_hull_cruiser_1_medium
                 GFX_vnr_ship_hull_cruiser_2_capital_medium
 				GFX_vnr_ship_hull_cruiser_2_medium
+                GFX_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_vnr_ship_hull_cruiser_3_medium
 				GFX_vnr_ship_hull_cruiser_4_capital_medium
@@ -153,18 +157,6 @@ default = {
                 GFX_vnr_ship_hull_cruiser_1_medium
                 GFX_vnr_ship_hull_cruiser_1_capital_medium
 				GFX_vnr_ship_hull_cruiser_coastal_defense_ship_medium
-            }
-        }
-    }
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-			weight = 0.1
-            icons = {
-                GFX_vnr_ship_hull_cruiser_1_medium
-                GFX_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_vnr_ship_hull_cruiser_2_medium
-                GFX_vnr_ship_hull_cruiser_2_capital_medium
-				GFX_vnr_ship_hull_cruiser_panzerschiff_medium
             }
         }
     }

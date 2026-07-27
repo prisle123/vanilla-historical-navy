@@ -165,6 +165,7 @@ ITA = {
 				GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
                 GFX_ITA_vnr_ship_hull_cruiser_2_medium
 				GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
             }
         }
 
@@ -185,6 +186,7 @@ ITA = {
 				GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
                 GFX_ITA_vnr_ship_hull_cruiser_2_medium
 				GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_ITA_vnr_ship_hull_cruiser_3_medium
 				GFX_ITA_vnr_ship_hull_cruiser_3_capital_medium
             }
@@ -207,6 +209,7 @@ ITA = {
 				GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
                 GFX_ITA_vnr_ship_hull_cruiser_2_medium
 				GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_ITA_vnr_ship_hull_cruiser_3_medium
 				GFX_ITA_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_ITA_vnr_ship_hull_cruiser_4_medium
@@ -231,6 +234,7 @@ ITA = {
 				GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
                 GFX_ITA_vnr_ship_hull_cruiser_2_medium
 				GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_ITA_vnr_ship_hull_cruiser_3_medium
 				GFX_ITA_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_ITA_vnr_ship_hull_cruiser_4_medium
@@ -255,25 +259,6 @@ ITA = {
                 GFX_ITA_vnr_ship_hull_cruiser_1_medium
 				GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
 				"gfx/interface/technologies/Italy/ITA_heavy_cruiser_Garibaldi.png"
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_ITA_vnr_ship_hull_cruiser_1_medium
-				GFX_ITA_vnr_ship_hull_cruiser_2_medium
-				GFX_ITA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_ITA_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 

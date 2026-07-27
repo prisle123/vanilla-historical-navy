@@ -164,6 +164,7 @@ USA = {
                 "gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
 				GFX_USA_vnr_ship_hull_cruiser_2_medium
 				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
             }
         }
@@ -186,6 +187,7 @@ USA = {
                 "gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
 				GFX_USA_vnr_ship_hull_cruiser_2_medium
 				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				GFX_USA_vnr_ship_hull_cruiser_3_medium
 				GFX_USA_vnr_ship_hull_cruiser_3_capital_medium
@@ -212,6 +214,7 @@ USA = {
                 "gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
 				GFX_USA_vnr_ship_hull_cruiser_2_medium
 				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				GFX_USA_vnr_ship_hull_cruiser_3_medium
 				GFX_USA_vnr_ship_hull_cruiser_3_capital_medium
@@ -240,6 +243,7 @@ USA = {
                 "gfx/interface/technologies/USA/USA_heavy_cruiser_Pensacola.png"
 				GFX_USA_vnr_ship_hull_cruiser_2_medium
 				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
 				"gfx/interface/technologies/USA/USA_light_cruiser_Atlanta.png"
 				GFX_USA_vnr_ship_hull_cruiser_3_medium
 				GFX_USA_vnr_ship_hull_cruiser_3_capital_medium
@@ -261,26 +265,6 @@ USA = {
             weight = 5
             icons = {
                 GFX_USA_vnr_ship_hull_cruiser_coastal_defense_ship_medium
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_USA_vnr_ship_hull_cruiser_1_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_medium
-				GFX_USA_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_USA_vnr_ship_hull_cruiser_2_capital_medium
-				"gfx/interface/technologies/extra/USA_heavy_cruiser_Alaska.png"
             }
         }
 

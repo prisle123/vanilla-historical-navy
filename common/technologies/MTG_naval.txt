@@ -1235,10 +1235,6 @@ technologies = {
 
 		start_year = 1924
 
-		sub_technologies = {
-			panzerschiffe
-		}
-
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -1 y = @1924 }
@@ -5891,41 +5887,6 @@ technologies = {
 	}
 
 	###Special snowflake hulls for special snowflake nations
-	panzerschiffe = {
-
-		enable_equipments = {
-			vnr_ship_hull_cruiser_panzerschiff
-		}
-		enable_equipment_modules = {
-			ship_hull_cruiser_role_rc
-			ship_cruiser_camo_1
-			ship_hull_cruiser_role_pz
-			ship_hull_cruiser_role_pbb
-		}
-
-		research_cost = 0.6
-
-		start_year = 1932
-		dependencies = {
-			basic_ship_hull_heavy = 1
-		}
-
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				tag = GER
-				add = 2
-			}
-		}
-
-		special_project_specialization = { specialization_naval }
-		categories = {
-			naval_equipment
-			ca_tech
-			mio_cat_tech_all_cruiser_and_modules
-			mio_cat_tech_all_capital_ship_and_modules
-		}
-	}
 	torpedo_cruiser_mtg = {
 
 		enable_equipments = {
