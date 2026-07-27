@@ -2761,7 +2761,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = super_heavy_battleships
+			leads_to_tech = ship_hull_super_heavy
 			research_cost_coeff = 1
 		}
 		path = {
@@ -2801,7 +2801,7 @@ technologies = {
 			mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
-	super_heavy_battleships = {
+	ship_hull_super_heavy = {
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_naval_super_heavy_battleship
@@ -5364,6 +5364,8 @@ technologies = {
 				complete_special_project = sp:sp_naval_cruiser_submarine
 			}
 		}
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
 		research_cost = 0.75
 
 		xp_research_type = navy
