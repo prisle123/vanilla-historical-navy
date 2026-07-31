@@ -1084,6 +1084,7 @@ equipment_modules = {
 #############
     ship_extra_fuel_tank = {
 		category = ship_extra_fuel_tank
+		gui_category = ship_propulsion_range
 		
 		multiply_stats = {
 			naval_range = 0.2
@@ -1095,6 +1096,7 @@ equipment_modules = {
 	}
 	ship_extra_fuel_tank_large = {
 		category = ship_extra_fuel_tank
+		gui_category = ship_propulsion_range
 		
 		add_stats = {
 			reliability = -0.05

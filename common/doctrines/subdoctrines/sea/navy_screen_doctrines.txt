@@ -65,6 +65,7 @@ convoy_escort = {
 			}
 			light_cruiser = {
 				surface_detection = 0.1
+				lg_attack = 0.05
 			}
 		}
 		as_below_so_above = {
@@ -230,7 +231,7 @@ hunter_killers = {
 		group_operations = {
 			destroyer = {
 				max_organisation = 5
-				sub_attack = 0.10
+				sub_attack = 0.1
 			}
 			light_cruiser = {
 				max_organisation = 5
@@ -247,10 +248,12 @@ hunter_killers = {
 			light_cruiser = {
 				max_organisation = 10
 				sub_detection = 0.05
+				sub_attack = 0.05
 			}
 			destroyer = {
 				max_organisation = 10
 				sub_detection = 0.05
+				sub_attack = 0.05
 			}
 			modifier = {
 				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
@@ -323,9 +326,11 @@ torpedo_primacy = {
     	night_combat_training = {
 			heavy_cruiser = {
 				torpedo_attack = 0.1
+				naval_torpedo_hit_chance_factor = 0.05
 			}
 			medium_cruiser = {
 				torpedo_attack = 0.1
+				naval_torpedo_hit_chance_factor = 0.05
 			}
 			modifier = {
 				naval_night_attack = 0.1
@@ -435,7 +440,7 @@ mosquito_fleet = {
 	rewards = {
 		concealment_measure = {
 			destroyer = {
-				surface_visibility = -0.15
+				surface_visibility = -0.3
 				max_organisation = -10
 			}
 			modifier = {
@@ -458,7 +463,7 @@ mosquito_fleet = {
 		}
 		high_speed_maneuver = {
 			modifier = {
-				naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+				naval_enemy_fleet_size_ratio_penalty_factor = 0.2
 				naval_retreat_speed = 0.25
 			}
 		}

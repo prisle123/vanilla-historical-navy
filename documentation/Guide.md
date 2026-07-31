@@ -136,10 +136,6 @@ Just like Essex or Midway post-refit, super carrier is a weapon with no shortcom
 
 An equivalent to ice carrier in vanilla but with an actual historical background. The strategic strike carrier is based on USS United States planned right after WWII, it can carry 20 heavy jet bombers to carry out intercontinental nuclear strike. The design of this ship also reflects its duty in history. Its capacity might not be impressive, but it has access to all kinds of land-based aircrafts in the arsenal and can be useful if you need a sea-based airport against countries across the ocean. 
 
-**Panzerschiff**
-
-Panzerschiff in VNR or revived armored cruiser in KRNR, is basically a cruiser with heavier guns, e.g. 280/305mm. Just like the real armored ship in history, it has some advantages in one-on-one combat against cruisers, such as better guns and armor, making it an intermediate option between battlecruiser and heavy cruiser. The problem is, panzerschiff is stuck in the middle, so it can't fully cover either's job.
-
 **Auxiliary Ship**
 
 Max range of the fleet is calculated by average range of all ships within, so mathematically speaking you can boost it by adding long-range ships to your fleet. However, if you know maths very well, you may notice once the average has surpassed a certain value, it will bring the increase rate to a stagnation (also known as margin utilities). As a result, it's unwise to put too many auxiliary ships together because the range bonus is reaching the upper limit.
