@@ -722,7 +722,7 @@ naval_unit_role_ratios_ENG_prewar_early = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 50
+		value = 65
 	}
 
 	ai_strategy = {
@@ -1473,13 +1473,13 @@ naval_unit_role_ratios_USA_great_depression = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen
-		value = 400
+		value = 350
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 90
+		value = 120
 	}
 
 	ai_strategy = {
@@ -1519,7 +1519,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 120
+		value = 140
 	}
 
 	ai_strategy = {
@@ -1543,7 +1543,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = 50
+		value = 60
 	}
 	ai_strategy = {
 		type = building_target
@@ -1580,7 +1580,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 180
+		value = 200
 	}
 	ai_strategy = {
 		type = role_ratio
