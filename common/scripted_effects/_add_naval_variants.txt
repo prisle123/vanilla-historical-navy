@@ -702,6 +702,7 @@ ENG_start_naval_variants = {
 		parent_version = 0
 		show_position = no
 		role_icon_index = 37
+		icon = "gfx/interface/technologies/extra/ENG_submarine_L_type.png"
         type = vnr_ship_hull_submarine_1
         name_group = ENG_SS_HISTORICAL
         modules = {
@@ -2460,9 +2461,10 @@ JAP_start_naval_variants = {
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_secondaries_slot = sub_deck_gun_2
 			front_1_custom_slot = sub_airplane_launcher_1
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = ship_extra_fuel_tank
+			mid_1_custom_slot = ship_extra_fuel_tank
+			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
 	create_equipment_variant = {
@@ -2476,8 +2478,8 @@ JAP_start_naval_variants = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
 			front_1_custom_slot = sub_airplane_launcher_1
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = ship_extra_fuel_tank
+			mid_1_custom_slot = ship_extra_fuel_tank
+			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 		obsolete = yes
 	}
@@ -2486,46 +2488,19 @@ JAP_start_naval_variants = {
 		parent_version = 0
 		show_position = no
 		role_icon_index = 39
+		icon = "gfx/interface/technologies/extra/JAP_submarine_Junsen_I.png"
 		type = vnr_ship_hull_cruiser_submarine
 		name_group = JAP_SS_HISTORICAL
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
 			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			rear_1_custom_slot = empty
+			mid_1_custom_slot = ship_extra_fuel_tank
+			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 		obsolete = yes
 	}
-    create_equipment_variant = {
-		name = "Kaidai VI Class"
-		parent_version = 0
-		show_position = no
-		role_icon_index = 37
-		type = vnr_ship_hull_submarine_2
-		name_group = JAP_SS_HISTORICAL
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
-			fixed_ship_engine_slot = sub_ship_engine_2
-            fixed_ship_armor_slot = pressure_hull_2
-			rear_1_custom_slot = ship_torpedo_sub_2
-		}
-	}
-	create_equipment_variant = {
-		name = "Kaidai V Class"
-		parent_version = 0
-		show_position = no
-		role_icon_index = 37
-		type = vnr_ship_hull_submarine_2
-		name_group = JAP_SS_HISTORICAL
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
-			fixed_ship_engine_slot = sub_ship_engine_2
-            fixed_ship_armor_slot = pressure_hull_2
-			rear_1_custom_slot = ship_torpedo_sub_1
-		}
-	}
-    create_equipment_variant = {
+    create_equipment_variant = { # type IV, V VI
 		name = "Kaidai IV Class"
 		parent_version = 0
 		show_position = no
@@ -2534,41 +2509,12 @@ JAP_start_naval_variants = {
 		name_group = JAP_SS_HISTORICAL
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
-			fixed_ship_engine_slot = sub_ship_engine_1
-            fixed_ship_armor_slot = pressure_hull_2
-			rear_1_custom_slot = ship_torpedo_sub_1
-		}
-	}
-    create_equipment_variant = {
-		name = "Kaidai III Class"
-		parent_version = 0
-		show_position = no
-		role_icon_index = 37
-		type = vnr_ship_hull_submarine_1
-		name_group = JAP_SS_HISTORICAL
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			fixed_ship_engine_slot = sub_ship_engine_2
-			rear_1_custom_slot = ship_torpedo_sub_1
+			rear_1_custom_slot = empty
 		}
-		obsolete = yes
 	}
-    create_equipment_variant = {
-		name = "Kaidai II Class"
-		parent_version = 0
-		show_position = no
-		role_icon_index = 37
-		type = vnr_ship_hull_submarine_1
-		name_group = JAP_SS_HISTORICAL
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = ship_torpedo_sub_1
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Kaidai I Class"
+	create_equipment_variant = { # type I, II, III
+		name = "Kaidai Class"
 		parent_version = 0
 		show_position = no
 		role_icon_index = 37
@@ -2582,21 +2528,7 @@ JAP_start_naval_variants = {
 		obsolete = yes
 	}
     create_equipment_variant = {
-		name = "Kaichū V Class"
-		parent_version = 0
-		show_position = no
-		role_icon_index = 37
-		type = vnr_ship_hull_submarine_1
-		name_group = JAP_SSC_HISTORICAL
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = ship_torpedo_sub_1
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Kaichū IV Class"
+		name = "Kaichū Class"
 		parent_version = 0
 		show_position = no
 		role_icon_index = 37
@@ -2614,6 +2546,7 @@ JAP_start_naval_variants = {
 		parent_version = 0
 		show_position = no
 		role_icon_index = 41
+		icon = "gfx/interface/technologies/extra/JAP_submarine_Kiraisen.png"
 		type = vnr_ship_hull_submarine_1
 		name_group = JAP_SS_HISTORICAL
 		modules = {
@@ -4266,6 +4199,7 @@ USA_start_naval_variants = {
 		parent_version = 0
 		show_position = no
 		role_icon_index = 37
+		icon = "gfx/interface/technologies/extra/USA_submarine_Cachalot.png"
         type = vnr_ship_hull_submarine_2
         name_group = USA_FISH
         modules = {
