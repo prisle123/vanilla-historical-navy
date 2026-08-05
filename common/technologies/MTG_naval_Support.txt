@@ -1159,10 +1159,12 @@ technologies = {
 	}
 
 	naval_radio_guiding_system = {
-		dependencies = {
-			radio_detection = 1
-			improved_computing_machine = 1
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_air_radar
+			}
 		}
+		is_special_project_tech = yes
 		path = {
 			leads_to_tech = ship_to_ship_missile
 			research_cost_coeff = 1
