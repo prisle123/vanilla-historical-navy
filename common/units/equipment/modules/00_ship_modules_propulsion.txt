@@ -422,7 +422,8 @@ equipment_modules = {
 		}
 	}
 	sub_ship_engine_nuclear = {
-		category = sub_ship_engine
+		category = sub_ship_engine_nuclear
+		gui_category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		gfx = ship_engine_nuclear
 
