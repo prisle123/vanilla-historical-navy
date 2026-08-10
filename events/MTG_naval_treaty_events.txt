@@ -355,12 +355,6 @@ country_event = { #notification about 2nd London Naval Conference
 				add_idea = MTG_naval_treaty_adherent_1936
 			}
 		}
-		else = {
-			swap_ideas = {
-				remove_idea = MTG_naval_treaty_cheating
-				add_idea = MTG_naval_treaty_adherent_1936
-			}
-		}
         
         if = {
 			limit = {
