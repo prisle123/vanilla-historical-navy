@@ -215,7 +215,6 @@ vnr_cv_naval_bomber = {
             modules = {
                 engine_type_slot = engine_2_1x
                 fixed_main_weapon_slot = torpedo_mounting
-                fixed_auxiliary_weapon_slot_1 = light_mg_4x
                 special_type_slot_1 = self_sealing_fuel_tanks_small
                 special_type_slot_2 = armor_plate_small
             }
@@ -245,7 +244,6 @@ vnr_cv_naval_bomber = {
             modules = {
                 engine_type_slot = engine_3_1x
                 fixed_main_weapon_slot = torpedo_mounting_2
-                fixed_auxiliary_weapon_slot_1 = light_mg_4x
             }
         }
         allowed_modules = {
@@ -278,8 +276,6 @@ vnr_cv_naval_bomber = {
             modules = {
                 engine_type_slot = engine_3_1x
                 fixed_main_weapon_slot = torpedo_mounting_2
-                fixed_auxiliary_weapon_slot_1 = light_mg_4x
-                fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
                 special_type_slot_1 = self_sealing_fuel_tanks_small
                 special_type_slot_2 = armor_plate_small
             }
@@ -305,7 +301,6 @@ vnr_cv_naval_bomber = {
             modules = {
                 engine_type_slot = engine_4_1x
                 fixed_main_weapon_slot = torpedo_mounting_3
-                fixed_auxiliary_weapon_slot_1 = light_mg_4x
             }
         }
         allowed_modules = {
@@ -334,8 +329,6 @@ vnr_cv_naval_bomber = {
             modules = {
                 engine_type_slot = engine_4_1x
                 fixed_main_weapon_slot = torpedo_mounting_3
-                fixed_auxiliary_weapon_slot_1 = light_mg_4x
-                fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
                 special_type_slot_1 = self_sealing_fuel_tanks_small
                 special_type_slot_2 = armor_plate_small
             }

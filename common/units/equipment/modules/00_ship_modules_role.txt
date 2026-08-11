@@ -377,6 +377,7 @@ equipment_modules = {
 		dismantle_cost_ic = 3000
 		forbid_module_categories = {
 			ship_cruiser_heavy_armor
+			ship_secondaries
 		}
 	}
 	ship_hull_cruiser_role_mo = {
@@ -389,6 +390,9 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_range = 0.5
+		}
+		forbid_module_categories = {
+			ship_cruiser_heavy_armor
 		}
 	}
 
@@ -517,35 +521,5 @@ equipment_modules = {
 			sub_detection = 0.1
 		}
 		dismantle_cost_ic = 1000
-	}
-
-
-#########################
-##  Panzerschiff Role  ##
-#########################
-	ship_hull_cruiser_role_pz = {
-		category = pz_role
-		add_stats = {
-			convoy_raiding_coordination = 0.1
-		}
-		multiply_stats = {
-			naval_range = 0.15
-			max_strength = -0.15
-			surface_visibility = -0.1
-		}
-		
-		dismantle_cost_ic = 100000
-	}
-	ship_hull_cruiser_role_pbb = {
-		category = pz_role
-		gfx = ship_hull_cruiser_role_cb
-
-		multiply_stats = {
-			build_cost_ic = 0.05
-			max_strength = 0.05
-			naval_range = 0.1
-		}
-		
-		dismantle_cost_ic = 100000
 	}
 }

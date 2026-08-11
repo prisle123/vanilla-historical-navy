@@ -48,6 +48,7 @@ navy_rework_category = {
     }
 
     show_wunderwaffe = {
+        icon = GFX_decision_generic_confiscation
         visible = {
 			NOT = { has_global_flag = wunderwaffe_shown }
 			has_game_rule = { rule = allow_never_built option = FREE }
@@ -61,7 +62,7 @@ navy_rework_category = {
     }
 
     add_alicorn = {
-        icon = generic_naval
+        icon = GFX_decision_generic_merge_plant_ship
         visible = { has_global_flag = wunderwaffe_shown }
         available = {
             num_of_naval_factories > 0
@@ -72,7 +73,7 @@ navy_rework_category = {
         }
     }
     add_constitution = {
-        icon = generic_naval
+        icon = GFX_decision_generic_merge_plant_ship
         visible = { has_global_flag = wunderwaffe_shown }
         available = {
             num_of_naval_factories > 0
@@ -83,7 +84,7 @@ navy_rework_category = {
         }
     }
     add_macross = {
-        icon = generic_naval
+        icon = GFX_decision_generic_merge_plant_ship
         visible = { has_global_flag = wunderwaffe_shown }
         available = {
             num_of_naval_factories > 0
@@ -94,7 +95,7 @@ navy_rework_category = {
         }
     }
     add_space_yamato = {
-        icon = generic_naval
+        icon = GFX_decision_generic_merge_plant_ship
         visible = { has_global_flag = wunderwaffe_shown }
         available = {
             num_of_naval_factories > 0

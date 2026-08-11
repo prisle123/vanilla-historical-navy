@@ -1,3 +1,81 @@
+sp_naval_super_heavy_battleship = {
+	specialization = specialization_naval
+
+	project_tags = sp_tag_surface_ship
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0.3 
+			AND = {
+				ROOT = { is_major = no } # Pointless unless we are big enough to do this
+			}
+		}
+	}
+
+	allowed = {
+		#FREE
+	}
+
+	available = {
+		FROM = {
+			has_tech = basic_ship_hull_heavy
+		}
+	}
+
+	complexity = sp_complexity.large
+	prototype_time = sp_time.prototype.medium
+	
+
+	resource_cost = {
+		resources = { 
+			steel = 12
+			chromium = 6
+			tungsten = 6
+		 }
+	}
+
+	breakthrough_cost = {
+		specialization_naval = 1
+	}
+	project_output = {
+		country_effects = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = ship_hull_super_heavy
+			}
+			custom_override_tooltip = {	
+				tooltip = tech_effect|ship_hull_super_heavy
+				set_technology = {
+					ship_hull_super_heavy = 1
+					popup = no
+				}
+			}
+			unlock_decision_tooltip	= super_heavy_carrier_conversion
+		}
+	}
+	generic_prototype_rewards = {
+		sp_naval_generic_reward_scientist_xp_1
+		sp_naval_generic_reward_scientist_xp_2
+		sp_naval_generic_reward_scientist_xp_3
+		sp_naval_generic_reward_navy_xp_1
+		sp_naval_generic_reward_navy_xp_2
+		sp_naval_generic_reward_navy_xp_3
+		sp_naval_generic_reward_major_progress_1
+		sp_naval_generic_reward_major_progress_2
+		sp_naval_generic_reward_major_progress_3
+		sp_naval_generic_reward_test_failure_1
+		sp_naval_generic_reward_test_failure_2
+		sp_naval_generic_reward_test_failure_3
+		sp_naval_generic_reward_armor_tech_1
+		sp_naval_generic_reward_armor_tech_2
+		sp_naval_generic_reward_armor_tech_3
+		sp_naval_generic_reward_artillery_tech_1
+		sp_naval_generic_reward_artillery_tech_2
+		sp_naval_generic_reward_artillery_tech_3				
+	}
+}
+
 sp_battlecarrier = {
     specialization = specialization_naval
 	project_tags = { sp_tag_surface_ship }
@@ -14,6 +92,9 @@ sp_battlecarrier = {
 			}
 		}
     }
+	ai_will_do = {
+		base = 0
+	}
 	resource_cost = {
 		resources = { 
 			steel = 5
@@ -93,6 +174,9 @@ sp_subcarrier = {
 			has_tech = cruiser_submarines
 			has_tech = prototype_airplane_launcher
 		}
+	}
+	ai_will_do = {
+		base = 0
 	}
     breakthrough_cost = {
 		specialization_naval = 1
@@ -250,7 +334,11 @@ sp_naval_proximity_fuze = {
     specialization = specialization_naval
 	project_tags = { sp_tag_surface_ship }
 	ai_will_do = {
-		base = 1
+		base = 5
+		modifier = {
+			factor = 3
+			ROOT = { tag = USA }
+		}
 	}
     allowed = {
         has_dlc = "Man the Guns"
@@ -341,6 +429,10 @@ sp_super_heavy_guns = {
 	project_tags = { sp_tag_surface_ship }
 	ai_will_do = {
 		base = 1
+		modifier = {
+			factor = 5
+			ROOT = { has_tech = ship_hull_super_heavy }
+		}
 	}
     allowed = {
         has_dlc = "Man the Guns"
@@ -587,6 +679,9 @@ sp_naval_rocket_launching_submarine = {
 			has_tech = modern_ship_hull_submarine
 		}
 	}
+	ai_will_do = {
+		base = 0
+	}
 
 	breakthrough_cost = {
 		specialization_naval = 2
@@ -643,6 +738,9 @@ sp_naval_nuclear_missile_submarine = {
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
+	ai_will_do = {
+		base = 0
+	}
 
 	special_project_parent = {
 		sp_naval_rocket_launching_submarine
@@ -689,6 +787,9 @@ sp_mega_carrier = {
 			has_tech = super_carriers
 		}
     }
+	ai_will_do = {
+		base = 0
+	}
 	resource_cost = {
 		resources = { 
 			steel = 16
@@ -742,6 +843,9 @@ sp_arsenal_ship = {
 			has_tech = full_missile_ship
 		}
     }
+	ai_will_do = {
+		base = 0
+	}
 	resource_cost = {
 		resources = { 
 			steel = 12
@@ -791,6 +895,9 @@ sp_early_informatization_system = {
 			has_tech = naval_tactical_data_system
 		}
     }
+	ai_will_do = {
+		base = 20
+	}
 	resource_cost = {
 		resources = { 
 			steel = 12
@@ -897,6 +1004,9 @@ sp_high_speed_light_engine = {
 			has_tech = fuel_oil_boiler
 		}
     }
+	ai_will_do = {
+		base = 0.1
+	}
 	resource_cost = {
 		resources = { 
 			steel = 6
@@ -958,6 +1068,13 @@ sp_submarine_snorkel = {
 			has_tech = basic_ship_hull_submarine
 		}
     }
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 10
+			ROOT = { is_major = yes }
+		}
+	}
 	resource_cost = {
 		resources = { 
 			steel = 6
@@ -1011,6 +1128,9 @@ sp_shipping_container = {
 			has_tech = mtg_tank_landing_craft
 		}
     }
+	ai_will_do = {
+		base = 1
+	}
 	resource_cost = {
 		resources = { 
 			steel = 4

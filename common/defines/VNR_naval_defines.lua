@@ -43,7 +43,7 @@ NDefines.NNavy.HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.05   -- penal
 NDefines.NNavy.MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.15   -- max penalty from stronger carrier air force (was 0.2)
 NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.9   -- damage penalty at 0% positioning (was 0.5)
 NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 1.25   -- screening efficiency (screen to capital ratio) at 0% positioning (was 0.5)
-NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.75   -- AA penalty at 0% positioning (was 0.7)
+NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.5   -- AA penalty at 0% positioning (was 0.7)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.25   -- this screen ratio to num convoys is needed for full screening beyond screen line (was 0.5)
 NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.1   -- this capital ratio to num convoys is needed for full screening beyond screen line (was 0.25)
 NDefines.NNavy.MISSION_SPREADS = {  -- mission spreads in the case a ship join combat, which is calculated for number of ships that will be in combat. 1 means no ship will be at start
@@ -102,9 +102,10 @@ NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_BASE = 500   -- base scoring for 
 NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_BASE = 80   -- base scoring for target picking for planes inside naval combat based on screening efficency, one define per ship type (was 10)
 NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCALE = 1000   -- scaled scoring for target picking for planes inside naval combat, max value when zero screening efficency, one define per ship type (was 200)
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO  = 1.0   -- total sum of fleet's anti air will be multiplied with this ratio and added to calculations anti-air of individual ships while air damage reduction (was 0.25, more AA contribution from other ships)
-NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75   -- damage reduction for incoming air attacks is clamped to this value at maximum. (was 0.75)
+NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.85   -- damage reduction for incoming air attacks is clamped to this value at maximum. (was 0.75)
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.15   -- received air damage is calculated using following: 1 - ( (ship_anti_air + fleet_anti_air * SHIP_TO_FLEET_ANTI_AIR_RATIO )^ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE ) * ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE (was 0.18)
-NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.15   -- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support (was 0.07)
+NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.27   -- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support (was 0.2)
+NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.025   -- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit. (was 0.01)
 NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.0   -- factor of planes that can sortie by default from a carrier (was 0.5)
 NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0, 0.25, 0.50, 0.75, 1.0}   -- The defensive stance sortie is 1.0 - value in index so their sum equals 1
 NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_DEFAULT_INDEX = 4   -- The default offensive sortie index in CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO (was 2)
@@ -121,19 +122,19 @@ NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUPPORT = 2   -- As Above (was 3)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CONVOY = 2   -- As Above (was 4)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 3   -- As Above (was 7)
 -- dynamic plane cap ends
-NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 40   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
-NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 10   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 10)
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 15   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
+NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 8   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 12)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.8   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
 --NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
 --NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 25.0   -- multiplier on disruption damage to scale its effects on carrier vs carrier planes (was 6, doesn't seem to work)
-NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.5   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction. (was 1)
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.35   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction. (was 1)
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 0.5   -- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction. (was 1.5)
 NDefines.NAir.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.06   -- conversion factor to bring agility in line with ship AA (was 0.02)
 NDefines.NAir.CAPACITY_PENALTY = 3   -- scales penalty of having overcrowded bases. (was 2)
 NDefines.NAir.CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 60   -- below this amount of planes on a carrier we no longer get max benefit on enemy positioning (was 50)
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.005   -- Max planes that can join a combat comparing to the total strength of the ships (was 0.05)
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 50   -- Min cap for planes that can join naval combat (was 20)
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 30   -- Min cap for planes that can join naval combat (was 20)
 NDefines.NAir.REINFORCEMENT_DISABLING_DURATION_IN_LAND_CARRIER_TRANSFER = 12   -- The reinforcement disabling duration in hours when transfering from land to carrier and vice versa (was 48)
 NDefines.NAir.NAVAL_STRIKE_TARGETTING_TO_AMOUNT = 0.2   -- Balancing value to convert the naval_strike_targetting equipment stats to chances of how many airplanes managed to do successfull strike. (was 0.3)
 
@@ -197,7 +198,7 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_WEAKER = { -- the aggression level pe
 	0, -- PATROL
 	2, -- STRIKE FORCE (was 1)
 	1, -- CONVOY RAIDING
-	1, -- CONVOY ESCORT
+	2, -- CONVOY ESCORT
 	-1, -- MINES PLANTING
 	-1, -- MINES SWEEPING
 	-1, -- TRAINING
@@ -210,8 +211,8 @@ NDefines.NNavy.AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggressi
 	-1, -- HOLD
 	1, -- PATROL
 	3, -- STRIKE FORCE
-	1, -- CONVOY RAIDING
-	1, -- CONVOY ESCORT
+	2, -- CONVOY RAIDING
+	3, -- CONVOY ESCORT
 	-1, -- MINES PLANTING
 	-1, -- MINES SWEEPING
 	-1, -- TRAINING
@@ -249,6 +250,12 @@ NDefines.NNavy.NAVY_REPAIR_BASE_SEARCH_NON_OPERATIONAL_STR = 0.9   -- strength f
 NDefines.NAI.AI_REPAIR_CANCEL_MIN_STRENGTH = 0.99   -- AI will pull non-reserve task forces out of repair and back on mission once they reach this strength (was 0.75)
 NDefines.NAI.AI_SHIP_SWAP_MIN_DAMAGED_SHIPS = 1  -- minimum number of damaged ships in a taskforce before AI considers swapping them to reserves (was 2)
 NDefines.NAI.AI_SHIP_SWAP_DAMAGE_THRESHOLD = 0.65  -- per-ship strength threshold below which the AI considers a capital/carrier damaged enough to swap to reserves (was 0.33)
+
+
+--Navy Medals
+NDefines.NNavy.NAVAL_COMBAT_MEDAL_CHANCE = 48   -- 1/N chance that a ship gains a medal after participating in a battle
+NDefines.NNavy.NAVAL_COMBAT_MEDAL_MIN_DURATION = 4   -- Minimum hours the battle must have taken to gain a medal
+NDefines.NNavy.NAVAL_COMBAT_MEDAL_LAST_MEDAL_LIMIT = 30   -- Minimum days before the ship can gain a new medal
 
 
 --Naval Misc
@@ -339,7 +346,7 @@ NDefines.NAI.HIGH_PRIO_NAVAL_MISSION_SCORES = {  -- priorities for regions to ge
 NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	0, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
 	1.5, -- PATROL
-	3, -- STRIKE FORCE
+	4, -- STRIKE FORCE
 	1.5, -- CONVOY RAIDING
 	4, -- CONVOY ESCORT
 	2, -- MINES PLANTING

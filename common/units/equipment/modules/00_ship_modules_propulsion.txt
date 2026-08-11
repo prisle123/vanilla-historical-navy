@@ -404,15 +404,16 @@ equipment_modules = {
 			#naval_speed = 5
 			fuel_consumption = 15
 			build_cost_ic = 750
-			reliability = -0.2
+			reliability = -0.15
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.3
-			sub_visibility = -0.1
+			sub_visibility = -0.15
 			max_strength = -0.1
 		}
 		build_cost_resources = {
+			steel = 1
 			chromium = 1
 		}
 		can_convert_from = {
@@ -421,7 +422,8 @@ equipment_modules = {
 		}
 	}
 	sub_ship_engine_nuclear = {
-		category = sub_ship_engine
+		category = sub_ship_engine_nuclear
+		gui_category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		gfx = ship_engine_nuclear
 
@@ -429,7 +431,7 @@ equipment_modules = {
 			#naval_speed = 5
 			build_cost_ic = 3000
 			naval_range = 50000
-			reliability = -0.3
+			reliability = -0.2
 		}
 		
 		multiply_stats = {
@@ -439,7 +441,8 @@ equipment_modules = {
 			fuel_consumption = -1
 		}
 		build_cost_resources = {
-			chromium = 1
+			steel = 1
+			chromium = 2
 		}
 		forbid_module_categories = {
 			ship_sub_snorkel
@@ -1441,5 +1444,23 @@ equipment_modules = {
 			module_category = civilian_ship_engine
 			convert_cost_ic = 200
 		}
+	}
+
+###################
+##  SHIP BOILER  ##
+###################
+	ship_heavy_boiler = {
+		category = ship_heavy_boiler
+		gui_category = ship_propulsion_range
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			build_cost_ic = 300
+		}
+		multiply_stats = {
+			naval_speed = 0.05
+			build_cost_ic = 0.1
+		}
+		dismantle_cost_ic = 1500
 	}
 }

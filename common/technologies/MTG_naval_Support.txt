@@ -959,6 +959,7 @@ technologies = {
 	experimental_super_heavy_battery = {
 
 		research_cost = 2
+		is_special_project_tech = yes
 
 		start_year = 1928
 
@@ -997,6 +998,7 @@ technologies = {
 
 	improved_super_heavy_battery = {
 		research_cost = 1.5
+		is_special_project_tech = yes
 
 		start_year = 1941
 
@@ -1157,10 +1159,12 @@ technologies = {
 	}
 
 	naval_radio_guiding_system = {
-		dependencies = {
-			radio_detection = 1
-			improved_computing_machine = 1
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_air_radar
+			}
 		}
+		is_special_project_tech = yes
 		path = {
 			leads_to_tech = ship_to_ship_missile
 			research_cost_coeff = 1
@@ -1235,6 +1239,7 @@ technologies = {
 	}
 
 	advanced_missile_system = {
+		is_special_project_tech = yes
 		on_research_complete = {
 			custom_effect_tooltip = ca_tech_9_tt
 		}

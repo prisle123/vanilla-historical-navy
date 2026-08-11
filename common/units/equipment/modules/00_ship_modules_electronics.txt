@@ -32,6 +32,7 @@ equipment_modules = {
 			fuel_consumption = 0.5
 		}
 		manpower = 25
+		critical_parts = { shortcircuited_radar_1 }
 	}
 	ship_radar_2 = {
 		abbreviation = "sbk"
@@ -53,6 +54,7 @@ equipment_modules = {
 			convert_cost_ic = 30
 		}
 		manpower = 23
+		critical_parts = { shortcircuited_radar_2 }
 	}
 	ship_radar_3 = {
 		abbreviation = "sbl"
@@ -77,6 +79,7 @@ equipment_modules = {
 			convert_cost_ic = 80
 		}
 		manpower = 21
+		critical_parts = { shortcircuited_radar_3 }
 	}
 	ship_radar_4 = {
 		abbreviation = "sbm"
@@ -101,6 +104,7 @@ equipment_modules = {
 			convert_cost_ic = 110
 		}
 		manpower = 19
+		critical_parts = { shortcircuited_radar_4 }
 	}
 	ship_radar_5 = {
 		category = ship_radar
@@ -120,6 +124,7 @@ equipment_modules = {
 			convert_cost_ic = 1000
 		}
 		manpower = 17
+		critical_parts = { shortcircuited_radar_5 }
 	}
 
 
@@ -298,8 +303,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 80
-			naval_torpedo_hit_chance_factor = 0.075
+			build_cost_ic = 40
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		can_convert_from = {
 			module_category = sub_fire_control_system
@@ -332,8 +337,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 180
-			naval_torpedo_hit_chance_factor = 0.125
+			build_cost_ic = 200
+			naval_torpedo_hit_chance_factor = 0.15
 			fuel_consumption = 3
 		}
 		can_convert_from = {

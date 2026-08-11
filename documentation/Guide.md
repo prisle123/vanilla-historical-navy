@@ -136,10 +136,6 @@ Just like Essex or Midway post-refit, super carrier is a weapon with no shortcom
 
 An equivalent to ice carrier in vanilla but with an actual historical background. The strategic strike carrier is based on USS United States planned right after WWII, it can carry 20 heavy jet bombers to carry out intercontinental nuclear strike. The design of this ship also reflects its duty in history. Its capacity might not be impressive, but it has access to all kinds of land-based aircrafts in the arsenal and can be useful if you need a sea-based airport against countries across the ocean. 
 
-**Panzerschiff**
-
-Panzerschiff in VNR or revived armored cruiser in KRNR, is basically a cruiser with heavier guns, e.g. 280/305mm. Just like the real armored ship in history, it has some advantages in one-on-one combat against cruisers, such as better guns and armor, making it an intermediate option between battlecruiser and heavy cruiser. The problem is, panzerschiff is stuck in the middle, so it can't fully cover either's job.
-
 **Auxiliary Ship**
 
 Max range of the fleet is calculated by average range of all ships within, so mathematically speaking you can boost it by adding long-range ships to your fleet. However, if you know maths very well, you may notice once the average has surpassed a certain value, it will bring the increase rate to a stagnation (also known as margin utilities). As a result, it's unwise to put too many auxiliary ships together because the range bonus is reaching the upper limit.
@@ -212,7 +208,7 @@ Unlocks following doctrines:
 |---|---|---|---|---|
 | Floating Airfields | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
 | Subsidiary Carrier Support | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Trade & Supply Network |
-| Naval Airforce | Coastal Defense Fleet | Hunter Killer Groups | Covert Denial | Defensive Combat Support |
+| Naval Airforce | Coastal Defense Fleet | Hunter Killer Groups | Coverted Denial | Defensive Combat Support |
 | Airspace Denial | Monitor Support | Torpedo Flotilla |  |  |
 
 **Commerce Raiding**
@@ -224,7 +220,7 @@ Unlocks following doctrines:
 | Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
 |---|---|---|---|---|
 | Floating Airfields | Specialized Scouting Fleet | Convoy Escort | Wolfpacks | Coverted Oceanic Replenishment |
-| Subsidiary Carrier Support | Armored Raiders | Integrated Operations | Covert Denial | Trade & Supply Network |
+| Subsidiary Carrier Support | Armored Raiders | Integrated Operations | Coverted Denial | Trade & Supply Network |
 | Naval Airforce | Coastal Defense Fleet | The New School | Operational Autonomy | Defensive Combat Support |
 | Airspace Denial |  |  |  |  |
 
@@ -249,8 +245,8 @@ Unlocks following doctrines:
 
 | Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
 |---|---|---|---|---|
-| Subsidiary Carrier Support | Armored Raiders | Torpedo Flotilla | Coastal Defense | Coverted Oceanic Replenishment |
-| Naval Airforce | Coastal Defense Fleet | The New School | Covert Denial | Defensive Combat Support |
+| Subsidiary Carrier Support | Armored Raiders | Torpedo Flotilla | Shallow Killers | Coverted Oceanic Replenishment |
+| Naval Airforce | Coastal Defense Fleet | The New School | Coverted Denial | Defensive Combat Support |
 |  | Monitor Support | Mosquito Fleet |  |  |
 
 ### Sub Doctrine - Carrier ###
@@ -345,17 +341,17 @@ Despite less emphasis on commerce raiding and coordination, *Fleet Operations* t
 
 Another Japanese-style doctrine that buffs torpedo more than the equipment itself. It can expand usage scenario of torpedo further if used with *torpedo flotilla*.
 
-**Coastal Defense**
+**Shallow Killers**
 
 As its name suggests, the doctrine gives moderate and balanced bonuses on submarines at the cost of max range.
 
-**Covert Denial**
+**Coverted Denial**
 
 A unique double-edge-sword type of doctrine that offers reduction of visibility at great cost of HP and combat capabilities.
 
 **Operational Autonomy**
 
-A doctrine that fully authorizes submarine capitans commanding privilege while raiding in distant waters. This is a weakened version of *Wolfpacks*, but has more bonuses on range and visibility and can unlock a special submarine module after mastered.
+A doctrine that fully authorizes submarine capitans commanding privilege while raiding in distant waters. This is a weakened version of *Wolfpacks*, but has more bonuses on range and visibility.
 
 ### Sub Doctrine - Naval Logistics ###
 

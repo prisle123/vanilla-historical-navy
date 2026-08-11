@@ -1,7 +1,7 @@
 MTG_naval_treaties = {
 	MTG_abandon_treaty_democratic = {
 
-		icon = generic
+		icon = GFX_decision_generic_break_treaty
 			
 	
 		available = {
@@ -97,7 +97,7 @@ MTG_naval_treaties = {
 
 	MTG_abandon_treaty_fascist = {
 
-		icon = generic
+		icon = GFX_decision_generic_break_treaty
 	
 		available = {
 			threat > 0.2
@@ -107,7 +107,7 @@ MTG_naval_treaties = {
 		cost = 25
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 1
+			factor = 0
 			modifier = {
 				OR = {
 					tag = ITA
@@ -119,11 +119,6 @@ MTG_naval_treaties = {
 				tag = USA
 				has_civil_war = no
 				add = 5
-			}
-			modifier = {
-				tag = JAP
-				is_historical_focus_on = yes
-				add = 50
 			}
 			modifier = {
 				tag = JAP
@@ -209,7 +204,7 @@ MTG_naval_treaties = {
 
 	MTG_cheat_on_treaty = {
 
-		icon = generic
+		icon = GFX_decision_eng_trade_unions_demand
 			
 	
 		available = {
@@ -235,6 +230,7 @@ MTG_naval_treaties = {
 				has_government = fascism
 				has_government = communism
 				tag = JAP
+				is_ai = yes
 			}
 		}
 	
@@ -270,7 +266,7 @@ MTG_naval_treaties = {
 	}
 	MTG_invite_FROM_to_treaty = {
 
-		icon = generic_naval
+		icon = GFX_decision_eng_trade_unions_support
 			
 	
 		available = {
@@ -347,7 +343,7 @@ MTG_naval_treaties = {
 	}
 	MTG_send_treaty_warning_to_FROM_previous_signatory = {
 
-		icon = generic_naval
+		icon = GFX_decision_eng_trade_unions_demand
 			
 	
 		available = {
@@ -433,7 +429,7 @@ MTG_naval_treaties = {
 	}
 	MTG_send_treaty_warning_to_FROM = {
 
-		icon = generic_naval
+		icon = GFX_decision_eng_trade_unions_demand
 			
 	
 		available = {
@@ -697,7 +693,7 @@ MTG_naval_treaties = {
 	}
 	MTG_treaty_renew_mission = {
 
-		icon = generic_naval	
+		icon = GFX_decision_eng_trade_unions_support	
 		
 		available = {
 			always = no

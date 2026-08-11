@@ -222,6 +222,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_missile_control_system"
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/missile_control_system.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_propulsion_range"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_heavy_boiler.png"
+	}
 	
 	# topview images
 	spriteType = {
@@ -850,10 +854,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_armor_bc_4"
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_icn_4.dds"
-	}
-	spriteType = {
-		name = "GFX_advanced_heavy_armor_scheme_medium"
-		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/advanced_heavy_armor_scheme.dds"
 	}
 	
 	# engine
@@ -1693,5 +1693,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_missile_control_system_2"
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/missile_control2.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_boiler"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_heavy_boiler.png"
 	}
 }

@@ -137,10 +137,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/navy_techtree/improved_conning_tower.png"
 	}
 	spriteType = {
-		name = "GFX_dry_dock_expansion_medium"
-		texturefile = "gfx/interface/technologies/navy_techtree/dry_dock_expansion.png"
-	}
-	spriteType = {
 		name = "GFX_heavy_ship_refit_reduction_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/heavy_ship_refit_reduction.png"
 	}
@@ -687,6 +683,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_improved_submarine_snorkel_medium"
 		texturefile = "gfx/interface/technologies/navy_techtree/improved_submarine_snorkel.png"
+	}
+	spriteType = {
+		name = "GFX_ship_hull_super_heavy_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/ship_hull_super_heavy.png"
+	}
+	spriteType = {
+		name = "GFX_cruiser_submarines_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/cruiser_submarines.png"
 	}
 	
 	

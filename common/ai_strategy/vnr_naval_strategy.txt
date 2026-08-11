@@ -4,21 +4,22 @@ ENG_protect_home_waters_high_threat = {
         original_tag = ENG
     }
     enable = {
-        OR = {
+		OR = {
 			AND = {
-				threat > 0.4
-				NOT = { is_ally_with = GER }
+				has_war_with = GER
+        		GER = {
+					OR = {
+						has_navy_size = { archetype = ship_hull_carrier size > 1 }
+						has_navy_size = { archetype = ship_hull_heavy size > 3 }
+						has_navy_size = { archetype = ship_hull_light size > 34 }
+						has_navy_size = { archetype = ship_hull_submarine size > 49 }
+					}
+        		}
 			}
-			has_war_with = GER
+			has_enemy_naval_control = 16
+			has_enemy_naval_control = 18
+			has_enemy_naval_control = 43
 		}
-        GER = {
-			OR = {
-				has_navy_size = { archetype = ship_hull_carrier size > 1 }
-				has_navy_size = { archetype = ship_hull_heavy size > 3 }
-				has_navy_size = { archetype = ship_hull_light size > 34 }
-				has_navy_size = { archetype = ship_hull_submarine size > 49 }
-			}
-        }
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -26,6 +27,16 @@ ENG_protect_home_waters_high_threat = {
 		type = naval_dominance
 		id = vnr_eng_home_waters
 		value = 100
+	}
+	ai_strategy = {
+		type = coast_defense
+		id = 16
+		value = 80
+	}
+	ai_strategy = {
+		type = coast_defense
+		id = 18
+		value = 80
 	}
 	ai_strategy = {
         type = naval_avoid_region
@@ -69,19 +80,23 @@ ENG_protect_home_waters_low_threat = {
         original_tag = ENG
     }
     enable = {
-        OR = {
-			AND = {
-				threat > 0.4
-				NOT = { is_ally_with = GER }
+		OR = {
+        	AND = {
+				has_war_with = GER
+				GER = {
+					has_navy_size = { archetype = ship_hull_carrier size < 2 }
+					has_navy_size = { archetype = ship_hull_heavy size < 4 }
+					has_navy_size = { archetype = ship_hull_light size < 35 }
+					has_navy_size = { archetype = ship_hull_submarine size < 50 }
+       			}
 			}
-			has_war_with = GER
+			NOT = { has_war_with = GER }
 		}
-        GER = {
-			has_navy_size = { archetype = ship_hull_carrier size < 2 }
-			has_navy_size = { archetype = ship_hull_heavy size < 4 }
-			has_navy_size = { archetype = ship_hull_light size < 35 }
-			has_navy_size = { archetype = ship_hull_submarine size < 50 }
-        }
+		NOT = {
+			has_enemy_naval_control = 16
+			has_enemy_naval_control = 18
+			has_enemy_naval_control = 43
+		}
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -295,7 +310,7 @@ ENG_secure_mediterranean_low_threat = {
 	ai_strategy = {
 		type = front_unit_request
 		area = north_africa
-		value = 100
+		value = 25
 	}
 }
 
@@ -346,11 +361,6 @@ ENG_avoid_mediterranean = {
         id = vnr_eng_med_zones
         value = -100
     }
-	ai_strategy = {
-		type = naval_dominance
-		id = vnr_eng_home_waters
-		value = 100
-	}
 }
 
 ENG_avoid_pacific = {
@@ -646,10 +656,15 @@ JAP_pacific_war_naval_stage_one = {
 			has_war_with = USA
 		}
 		PHI = { has_capitulated = no }
-		526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
-		524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
-		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense 
-		684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
+		OR = {
+			AND = {
+				526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
+				524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
+				645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense
+				684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
+			}
+			has_navy_size = { size > 174 }
+		}
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -743,10 +758,15 @@ JAP_pacific_war_naval_stage_two = {
 			MAL = { has_capitulated = no }
 			INS = { has_capitulated = no }
 		}
-		526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
-		524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
-		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense 
-		684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
+		OR = {
+			AND = {
+				526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
+				524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
+				645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense
+				684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
+			}
+			has_navy_size = { size > 174 }
+		}
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -822,10 +842,15 @@ JAP_pacific_war_naval_stage_three = {
 		PHI = { has_capitulated = yes }
 		MAL = { has_capitulated = yes }
 		INS = { has_capitulated = yes }
-		526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
-		524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
-		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense 
-		684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
+		OR = {
+			AND = {
+				526 = { is_controlled_by_ROOT_or_ally = yes } # Okinawa
+				524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
+				645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense
+				684 = { is_controlled_by_ROOT_or_ally = yes } # Turuk is the pillar of Pacific offensive
+			}
+			has_navy_size = { size > 174 }
+		}
         enable_vnr_naval_ai = yes
     }
     abort_when_not_enabled = yes
@@ -892,6 +917,7 @@ JAP_pacific_war_naval_stage_defense = {
 		524 = { is_controlled_by_ROOT_or_ally = yes } # Taiwan
 		645 = { is_controlled_by_ROOT_or_ally = yes } # Iwo Jima is the last line of defense
 		684 = { is_controlled_by_ROOT_or_ally = no } # Turuk is the pillar of Pacific offensive
+		has_navy_size = { size < 175 }
 		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
@@ -930,6 +956,7 @@ JAP_pacific_war_naval_stage_desperate = {
 			524 = { is_controlled_by_ROOT_or_ally = no } # Taiwan
 			645 = { is_controlled_by_ROOT_or_ally = no } # Iwo Jima is the last line of defense 
 		}
+		has_navy_size = { size < 175 }
 		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
@@ -1512,7 +1539,7 @@ USA_pacific_war_naval_counterattack_2 = {
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_pacific_midway
-		value = 100
+		value = 90
 	}
 	ai_strategy = {
 		type = naval_dominance
@@ -1632,7 +1659,7 @@ USA_pacific_war_naval_counterattack_3 = {
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_pacific_philippines
-		value = 100
+		value = 90
 	}
 	ai_strategy = {
 		type = naval_dominance

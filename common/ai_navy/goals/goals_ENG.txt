@@ -27,8 +27,8 @@ ENG_invasion_defense = {
         ENG
     }
 
-    min_priority = 15
-    max_priority = 25
+    min_priority = 12
+    max_priority = 20
 }
 
 ENG_coast_defense = {
@@ -38,8 +38,8 @@ ENG_coast_defense = {
         ENG
     }
 
-    min_priority = 5
-    max_priority = 16
+    min_priority = 1
+    max_priority = 7
 }
 
 ENG_convoy_protection = {
@@ -72,7 +72,7 @@ ENG_naval_dominance = {
     }
 
     min_priority = 10
-    max_priority = 16
+    max_priority = 20
 }
 
 ENG_mine_laying = {

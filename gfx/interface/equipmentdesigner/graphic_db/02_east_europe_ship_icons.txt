@@ -687,6 +687,7 @@ SOV = {
 				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
                 GFX_SOV_vnr_ship_hull_cruiser_2_medium
 				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_SOV_vnr_ship_hull_cruiser_panzerschiff_medium
             }
         }
 
@@ -707,6 +708,7 @@ SOV = {
 				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
                 GFX_SOV_vnr_ship_hull_cruiser_2_medium
 				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_SOV_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_SOV_vnr_ship_hull_cruiser_3_medium
 				GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
             }
@@ -729,6 +731,7 @@ SOV = {
 				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
                 GFX_SOV_vnr_ship_hull_cruiser_2_medium
 				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_SOV_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_SOV_vnr_ship_hull_cruiser_3_medium
 				GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_SOV_vnr_ship_hull_cruiser_4_medium
@@ -753,6 +756,7 @@ SOV = {
 				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
                 GFX_SOV_vnr_ship_hull_cruiser_2_medium
 				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_SOV_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_SOV_vnr_ship_hull_cruiser_3_medium
 				GFX_SOV_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_SOV_vnr_ship_hull_cruiser_4_medium
@@ -779,25 +783,6 @@ SOV = {
                 "gfx/interface/technologies/Soviet/SOV_light_cruiser_Marti.png"
 				GFX_SOV_vnr_ship_hull_cruiser_1_medium
 				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_SOV_vnr_ship_hull_cruiser_1_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_medium
-				GFX_SOV_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_SOV_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 

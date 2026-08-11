@@ -358,20 +358,12 @@ armored_raiders = {
     # EFFECTS
 	screening_without_screens = 0.10
     equipment_bonus = {
-        vnr_ship_hull_cruiser_panzerschiff = {
+        ship_hull_cruiser = {
             instant = yes
             naval_range = 0.2
         }
     }
     ships_at_battle_start = -0.1
-    effect = {
-        add_tech_bonus = {
-            bonus = 0.5
-            uses = 1
-            technology = panzerschiffe
-            name = SUBDOCTRINE_ARMORED_RAIDERS
-        }
-    }
 
     rewards = {
         expert_reconnaissance = {

@@ -184,6 +184,7 @@ JAP = {
 				"gfx/interface/technologies/extra/JAP_auxiliary_ship_Nisshin.png"
 				GFX_JAP_vnr_ship_hull_cruiser_2_medium
 				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_JAP_vnr_ship_hull_cruiser_panzerschiff_medium
             }
         }
 
@@ -208,6 +209,7 @@ JAP = {
 				"gfx/interface/technologies/extra/JAP_auxiliary_ship_Nisshin.png"
 				GFX_JAP_vnr_ship_hull_cruiser_2_medium
 				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_JAP_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_JAP_vnr_ship_hull_cruiser_3_medium
 				GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium
             }
@@ -234,6 +236,7 @@ JAP = {
 				"gfx/interface/technologies/extra/JAP_auxiliary_ship_Nisshin.png"
 				GFX_JAP_vnr_ship_hull_cruiser_2_medium
 				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_JAP_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_JAP_vnr_ship_hull_cruiser_3_medium
 				GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_JAP_vnr_ship_hull_cruiser_4_medium
@@ -262,6 +265,7 @@ JAP = {
 				"gfx/interface/technologies/extra/JAP_auxiliary_ship_Nisshin.png"
 				GFX_JAP_vnr_ship_hull_cruiser_2_medium
 				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
+                GFX_JAP_vnr_ship_hull_cruiser_panzerschiff_medium
 				GFX_JAP_vnr_ship_hull_cruiser_3_medium
 				GFX_JAP_vnr_ship_hull_cruiser_3_capital_medium
 				GFX_JAP_vnr_ship_hull_cruiser_4_medium
@@ -287,25 +291,6 @@ JAP = {
 				GFX_JAP_vnr_ship_hull_cruiser_1_medium
 				GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
 				"gfx/interface/technologies/Japan/JAP_cruiser_Itsukushima.png"
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_JAP_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-                GFX_JAP_vnr_ship_hull_cruiser_1_medium
-				GFX_JAP_vnr_ship_hull_cruiser_2_medium
-				GFX_JAP_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_JAP_vnr_ship_hull_cruiser_2_capital_medium
             }
         }
 
@@ -344,6 +329,9 @@ JAP = {
                 GFX_JAP_vnr_ship_hull_heavy_1_medium
 				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
+				"gfx/interface/technologies/extra/JAP_battleship_Kii.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_Amagi.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_Tosa.png"
             }
         }
 
@@ -364,6 +352,9 @@ JAP = {
                 GFX_JAP_vnr_ship_hull_heavy_1_medium
 				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
+                "gfx/interface/technologies/extra/JAP_battleship_Kii.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_Amagi.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_Tosa.png"
 				GFX_JAP_vnr_ship_hull_heavy_2_medium
 				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
             }
@@ -386,6 +377,9 @@ JAP = {
                 GFX_JAP_vnr_ship_hull_heavy_1_medium
 				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
+                "gfx/interface/technologies/extra/JAP_battleship_Kii.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_Amagi.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_Tosa.png"
 				GFX_JAP_vnr_ship_hull_heavy_2_medium
 				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
 				GFX_JAP_vnr_ship_hull_heavy_3_medium
@@ -409,6 +403,9 @@ JAP = {
                 GFX_JAP_vnr_ship_hull_heavy_1_medium
 				"gfx/interface/technologies/Japan/JAP_battleship_Ise.png"
 				"gfx/interface/technologies/Japan/JAP_battleship_Kongo.png"
+                "gfx/interface/technologies/extra/JAP_battleship_Kii.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_Amagi.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_Tosa.png"
 				GFX_JAP_vnr_ship_hull_heavy_2_medium
 				"gfx/interface/technologies/extra/JAP_battleship_A140.png"
 				GFX_JAP_vnr_ship_hull_heavy_3_medium
@@ -440,6 +437,7 @@ JAP = {
 		pool = {
 			icons = {
 				"gfx/interface/technologies/extra/JAP_battleship_Yamato_1965.png"
+                "gfx/interface/technologies/KR_imported/JAP_battleship_No13.png"
 			}
 		}
 
@@ -600,6 +598,7 @@ JAP = {
 
         pool = {
             icons = {
+                "gfx/interface/technologies/extra/JAP_submarine_Kiraisen.png"
                 GFX_JAP_vnr_ship_hull_cruiser_submarine_medium
             }
         }
@@ -617,6 +616,7 @@ JAP = {
         pool = {
             icons = {
                 GFX_JAP_vnr_ship_hull_submarine_1_medium
+                "gfx/interface/technologies/extra/JAP_submarine_Kiraisen.png"
 				GFX_JAP_vnr_ship_hull_cruiser_submarine_medium
             }
         }
@@ -634,6 +634,7 @@ JAP = {
         pool = {
             icons = {
                 GFX_JAP_vnr_ship_hull_submarine_1_medium
+                "gfx/interface/technologies/extra/JAP_submarine_Kiraisen.png"
 				GFX_JAP_vnr_ship_hull_submarine_2_medium
 				GFX_JAP_vnr_ship_hull_cruiser_submarine_medium
             }
@@ -652,6 +653,7 @@ JAP = {
         pool = {
             icons = {
                 GFX_JAP_vnr_ship_hull_submarine_1_medium
+                "gfx/interface/technologies/extra/JAP_submarine_Kiraisen.png"
 				GFX_JAP_vnr_ship_hull_submarine_2_medium
 				GFX_JAP_vnr_ship_hull_submarine_3_medium
 				GFX_JAP_vnr_ship_hull_cruiser_submarine_medium
@@ -671,6 +673,7 @@ JAP = {
         pool = {
             icons = {
                 GFX_JAP_vnr_ship_hull_submarine_1_medium
+                "gfx/interface/technologies/extra/JAP_submarine_Kiraisen.png"
 				GFX_JAP_vnr_ship_hull_submarine_2_medium
 				GFX_JAP_vnr_ship_hull_submarine_3_medium
 				GFX_JAP_vnr_ship_hull_submarine_4_medium
@@ -691,9 +694,12 @@ JAP = {
         pool = {
             icons = {
                 GFX_JAP_vnr_ship_hull_submarine_1_medium
+                "gfx/interface/technologies/extra/JAP_submarine_Kiraisen.png"
 				GFX_JAP_vnr_ship_hull_submarine_2_medium
 				GFX_JAP_vnr_ship_hull_submarine_3_medium
 				GFX_JAP_vnr_ship_hull_cruiser_submarine_medium
+                "gfx/interface/technologies/extra/JAP_submarine_Ko.png"
+                "gfx/interface/technologies/extra/JAP_submarine_Junsen_I.png"
             }
         }
 

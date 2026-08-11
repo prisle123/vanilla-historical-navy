@@ -1,4 +1,14 @@
 # must-haves
+ENG_mobile_fleet_1 = {
+	required_taskforces = {
+		ENG_StrikeForce_BC_1 = 1
+	}
+}
+ENG_strike_fleet_1 = {
+	required_taskforces = {
+		ENG_StrikeForce_1 = 1
+	}
+}
 ENG_escort_fleet_1 = {
 	required_taskforces = {
 		ENG_ConvoyEscort_1 = 6
@@ -12,16 +22,6 @@ ENG_patrol_fleet_1 = {
 ENG_support_fleet_1 = {
 	required_taskforces = {
 		ENG_InvasionSupport_1 = 1
-	}
-}
-ENG_mobile_fleet_1 = {
-	required_taskforces = {
-		ENG_StrikeForce_BC_1 = 1
-	}
-}
-ENG_strike_fleet_1 = {
-	required_taskforces = {
-		ENG_StrikeForce_1 = 1
 	}
 }
 ENG_dominance_fleet_1 = {

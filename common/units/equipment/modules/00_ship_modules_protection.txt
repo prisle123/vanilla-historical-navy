@@ -11,7 +11,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			build_cost_ic = 0.1
-			naval_speed = -0.23
+			naval_speed = -0.2
 			max_strength = 0.05
 		}
 		build_cost_resources = {
@@ -36,7 +36,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			build_cost_ic = 0.08
-			naval_speed = -0.08
+			naval_speed = -0.1
 			max_strength = 0.03
 		}
 		build_cost_resources = {
@@ -96,7 +96,7 @@ equipment_modules = {
 		parent = ship_armor_bc_1
 		multiply_stats = {
 			build_cost_ic = 0.12
-			naval_speed = -0.1
+			naval_speed = -0.15
 			max_strength = 0.08
 		}
 		build_cost_resources = {
@@ -196,7 +196,7 @@ equipment_modules = {
 		parent = ship_armor_bb_3
 		multiply_stats = {
 			build_cost_ic = 0.2
-			naval_speed = -0.32
+			naval_speed = -0.35
 			max_strength = 0.2
 		}
 		build_cost_resources = {
@@ -229,7 +229,7 @@ equipment_modules = {
 		parent = ship_armor_bc_3
 		multiply_stats = {
 			build_cost_ic = 0.17
-			naval_speed = -0.27
+			naval_speed = -0.25
 			max_strength = 0.16
 		}
 		build_cost_resources = {
@@ -1251,7 +1251,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.15
 			max_strength = 0.3
-			sub_visibility = -0.085
+			sub_visibility = -0.1
 			naval_speed = 0.1
 		}
 		can_convert_from = {
@@ -1262,14 +1262,14 @@ equipment_modules = {
 	anechoic_tile_1 = {
 		category = sub_ship_stealth
 		add_stats = {
-			reliability = -0.15
+			reliability = -0.1
 		}
 		multiply_stats = {
-			sub_visibility = -0.1
+			sub_visibility = -0.15
 			build_cost_ic = 0.2
 		}
 		build_cost_resources = {
-			rubber = 1
+			rubber = 2
 		}
 		dismantle_cost_ic = 750
 	}
