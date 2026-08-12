@@ -382,8 +382,13 @@ armored_raiders = {
         }
         speed_trials = {
             naval_retreat_chance = 0.1
-            naval_retreat_speed = 0.05
-            positioning = 0.05
+            naval_retreat_speed = 0.1
+            battle_cruiser= {
+                surface_visibility = -0.1
+            }
+			battleship = {
+                surface_visibility = -0.1
+			}
         }
         modernized_officer_education = {
             battle_cruiser= {
@@ -396,33 +401,30 @@ armored_raiders = {
 			}
             heavy_cruiser = {
                 max_organisation = 5
-                surface_visibility = -0.05
+                surface_visibility = -0.1
             }
             medium_cruiser = {
                 max_organisation = 5
-                surface_visibility = -0.05
+                surface_visibility = -0.1
             }
         }
         capital_raiders = {
             battleship = {
-				max_organisation = 5
 				convoy_raiding_coordination = 0.1
+                surface_visibility = -0.1
 			}
 			battle_cruiser = {
-				max_organisation = 5
 				convoy_raiding_coordination = 0.1
+                surface_visibility = -0.1
 			}
 			heavy_cruiser = {
-				max_organisation = 10
                 convoy_raiding_coordination = 0.1
+                surface_visibility = -0.1
 			}
             medium_cruiser = {
-				max_organisation = 10
                 convoy_raiding_coordination = 0.1
+                surface_visibility = -0.1
 			}
-            modifier = {
-                positioning = 0.05
-            }
         }
         trade_route_sabotage = {
             equipment_bonus = {
@@ -432,15 +434,19 @@ armored_raiders = {
                 }
             }
             battleship = {
+                max_organisation = 5
 				convoy_raiding_coordination = 0.1
 			}
 			battle_cruiser = {
+                max_organisation = 5
 				convoy_raiding_coordination = 0.1
 			}
 			heavy_cruiser = {
+                max_organisation = 5
                 convoy_raiding_coordination = 0.1
 			}
             medium_cruiser = {
+                max_organisation = 5
                 convoy_raiding_coordination = 0.1
 			}
         }

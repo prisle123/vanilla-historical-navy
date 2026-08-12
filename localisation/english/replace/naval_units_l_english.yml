@@ -36,7 +36,13 @@
  cv_nav_bomber_equipment_desc: "A torpedo bomber is a military aircraft designed primarily to attack ships with aerial torpedoes."
 
  # critical parts added by vnr
- damaged_fire_control: "Fire Control Hit"
+ damaged_fire_control_0: "Fire Control Disabled"
+ damaged_fire_control_1: "$damaged_fire_control_0$"
+ damaged_fire_control_2: "$damaged_fire_control_0$"
+ damaged_fire_control_3: "$damaged_fire_control_0$"
+ damaged_fire_control_4: "$damaged_fire_control_0$"
+ damaged_fire_control_5: "$damaged_fire_control_0$"
+ damaged_fire_control_6: "$damaged_fire_control_0$"
  damaged_wooden_flight_deck: "Wooden Flight Deck Damaged"
  damaged_armored_flight_deck: "Armored Flight Deck Damaged"
  gas_leakage_light: "Air Fuel Flashover"

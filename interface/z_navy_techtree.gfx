@@ -29,8 +29,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/navy_techtree/large_destroyer_trend.png"
 	}
 	spriteType = {
-		name = "GFX_treaty_cruiser_trend_medium"
-		texturefile = "gfx/interface/technologies/navy_techtree/treaty_cruiser_trend.png"
+		name = "GFX_cruiser_propulsion_revolution_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/cruiser_propulsion_revolution.png"
 	}
 	spriteType = {
 		name = "GFX_escort_destroyer_trend_medium"
@@ -70,8 +70,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/navy_techtree/cruiser_gun_upgrade.png"
 	}
 	spriteType = {
-		name = "GFX_colony_cruiser_medium"
-		texturefile = "gfx/interface/technologies/navy_techtree/colony_cruiser.png"
+		name = "GFX_specialization_doctrine_medium"
+		texturefile = "gfx/interface/technologies/navy_techtree/specialization_doctrine.png"
 	}
 	spriteType = {
 		name = "GFX_cruiser_radar_sentry_medium"

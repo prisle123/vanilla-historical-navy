@@ -192,22 +192,6 @@ critical_parts = {
 		org_damage_multiplier = 0.25
 		str_damage_multiplier = 0.25
 	}
-
-    damaged_fire_control = {
-        icon = "GFX_default_critical_damage_icons"
-		frame = 3
-        stat_penalties = {
-            naval_light_gun_hit_chance_factor = -0.5
-            naval_heavy_gun_hit_chance_factor = -0.5
-			naval_torpedo_hit_chance_factor = -0.5
-        }
-        chance = 0.15
-		org_damage_multiplier = 0.25
-		str_damage_multiplier = 0.25
-        base_damage_instance = 1
-		damage_instance_per_added_module = 1
-        max_damage_instance = 1
-    }
     damaged_wooden_flight_deck = {
         icon = "GFX_default_critical_damage_icons"
 		frame = 6
@@ -286,13 +270,10 @@ critical_parts = {
 		damage_instance_per_added_module = 1
 		max_damage_instance = 1
     }
-
 	shortcircuited_radar_1 = {  # Happens on the module
 		icon = "GFX_default_critical_damage_icons"
 		frame = 8
 		stat_penalties = {
-			naval_light_gun_hit_chance_factor = -0.025
-			naval_heavy_gun_hit_chance_factor = -0.025
 			surface_detection = -5
 			sub_detection = -2
 		}
@@ -330,8 +311,8 @@ critical_parts = {
 		icon = "GFX_default_critical_damage_icons"
 		frame = 8
 		stat_penalties = {
-			naval_light_gun_hit_chance_factor = -0.1
-			naval_heavy_gun_hit_chance_factor = -0.1
+			naval_light_gun_hit_chance_factor = -0.075
+			naval_heavy_gun_hit_chance_factor = -0.075
 			surface_detection = -18
 			sub_detection = -8
 		}
@@ -347,6 +328,90 @@ critical_parts = {
 			naval_heavy_gun_hit_chance_factor = -0.1
 			surface_detection = -25
 			sub_detection = -10
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	damaged_fire_control_0 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.05
+			naval_heavy_gun_hit_chance_factor = -0.05
+			naval_torpedo_hit_chance_factor = -0.05
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	damaged_fire_control_1 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.075
+			naval_heavy_gun_hit_chance_factor = -0.075
+			naval_torpedo_hit_chance_factor = -0.075
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	damaged_fire_control_2 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.1
+			naval_heavy_gun_hit_chance_factor = -0.1
+			naval_torpedo_hit_chance_factor = -0.1
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	damaged_fire_control_3 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.125
+			naval_heavy_gun_hit_chance_factor = -0.125
+			naval_torpedo_hit_chance_factor = -0.125
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	damaged_fire_control_4 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.15
+			naval_heavy_gun_hit_chance_factor = -0.15
+			naval_torpedo_hit_chance_factor = -0.15
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	damaged_fire_control_5 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.2
+			naval_heavy_gun_hit_chance_factor = -0.2
+			naval_torpedo_hit_chance_factor = -0.2
+		}
+		base_damage_instance = 1
+		damage_instance_per_added_module = 1
+		max_damage_instance = 1
+	}
+	damaged_fire_control_6 = {  # Happens on the module
+		icon = "GFX_default_critical_damage_icons"
+		frame = 8
+		stat_penalties = {
+			naval_light_gun_hit_chance_factor = -0.25
+			naval_heavy_gun_hit_chance_factor = -0.25
+			naval_torpedo_hit_chance_factor = -0.25
 		}
 		base_damage_instance = 1
 		damage_instance_per_added_module = 1

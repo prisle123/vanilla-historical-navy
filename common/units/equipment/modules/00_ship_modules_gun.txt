@@ -1790,8 +1790,8 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.02
 		}
 		multiply_stats = {
-			build_cost_ic = 0.025
-			naval_speed = -0.02
+			build_cost_ic = 0.03
+			naval_speed = -0.03
 		}
 		add_average_stats = {
 			hg_armor_piercing = 32
@@ -1822,7 +1822,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.03
 		}
 		multiply_stats = {
-			build_cost_ic = 0.03
+			build_cost_ic = 0.04
 			naval_speed = -0.04
 		}
 		add_average_stats = {
@@ -1854,7 +1854,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.04
 		}
 		multiply_stats = {
-			build_cost_ic = 0.04
+			build_cost_ic = 0.05
 			naval_speed = -0.055
 		}
 		add_average_stats = {
@@ -1886,8 +1886,8 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.05
 		}
 		multiply_stats = {
-			build_cost_ic = 0.047
-			naval_speed = -0.06
+			build_cost_ic = 0.06
+			naval_speed = -0.07
 		}
 		add_average_stats = {
 			hg_armor_piercing = 41
@@ -1918,8 +1918,8 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.06
 		}
 		multiply_stats = {
-			build_cost_ic = 0.053
-			naval_speed = -0.07
+			build_cost_ic = 0.07
+			naval_speed = -0.085
 		}
 		add_average_stats = {
 			hg_armor_piercing = 45
@@ -1953,7 +1953,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			build_cost_ic = 0.06
+			build_cost_ic = 0.07
 			naval_speed = -0.13
 		}
 		add_average_stats = {
@@ -1983,7 +1983,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.08
 		}
 		multiply_stats = {
-			build_cost_ic = 0.07
+			build_cost_ic = 0.08
 			naval_speed = -0.17
 		}
 		add_average_stats = {
@@ -2066,7 +2066,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = -0.065
 		}
 		multiply_stats = {
-			build_cost_ic = 0.065
+			build_cost_ic = 0.08
 			naval_speed = -0.16
 		}
 		add_average_stats = {

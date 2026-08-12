@@ -1159,8 +1159,7 @@ technologies = {
 			ship_extra_fuel_tank
 		}
 		path = {
-			leads_to_tech = treaty_cruiser_trend
-			##! leads_to_tech = large_cruiser_trend
+			leads_to_tech = cruiser_propulsion_revolution
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1227,7 +1226,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = colony_cruiser
+			leads_to_tech = specialization_doctrine
 			research_cost_coeff = 1
 		}
 
@@ -1268,7 +1267,6 @@ technologies = {
 		enable_equipment_modules = {
 			cruiser_ship_engine_3
 			cruiser_ship_engine_2_diesel
-			ship_hull_cruiser_role_cb
 		}
 
 		path = {
@@ -1501,7 +1499,7 @@ technologies = {
 			ship_radar_5
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1954
 
 		folder = {
@@ -1765,16 +1763,17 @@ technologies = {
 		}
 	}
 
-	colony_cruiser = {
+	specialization_doctrine = {
 		on_research_complete = {
 			custom_effect_tooltip = ca_tech_6_tt
 		}
 
 		enable_equipment_modules = {
 			ship_hull_cruiser_role_clc
+			ship_hull_cruiser_role_cb
 		}
 
-		research_cost = 0.35
+		research_cost = 0.75
 
 		start_year = 1925
 
@@ -2080,7 +2079,7 @@ technologies = {
 		}
 	}
 
-	treaty_cruiser_trend = {
+	cruiser_propulsion_revolution = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
@@ -2088,10 +2087,12 @@ technologies = {
 		research_cost = 0.5
 
 		heavy_cruiser = {
+			naval_speed = 0.025
 			max_strength = 0.05
 			build_cost_ic = -0.05
 		}
 		medium_cruiser = {
+			naval_speed = 0.025
 			max_strength = 0.05
 			build_cost_ic = -0.05
 		}
@@ -2113,7 +2114,7 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				add_equipment_bonus = {
-					name = treaty_cruiser_trend
+					name = cruiser_propulsion_revolution
 					bonus = {
 						ship_hull_cruiser = {
 							instant = yes
@@ -2140,55 +2141,6 @@ technologies = {
 			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
-
-	##! large_cruiser_trend = {
-	##! 	xp_research_type = navy
-	##! 	xp_boost_cost = 20
-	##! 	xp_research_bonus = 1.50
-	##! 	start_year = 1925
-	##! 	research_cost = 0.5
-	##! 
-	##! 	enable_equipment_modules = {
-	##! 		ship_hull_cruiser_role_cb
-	##! 	}
-	##! 
-	##! 	heavy_cruiser = {
-	##! 		max_strength = 0.1
-	##! 		armor_value = 0.1
-	##! 	}
-	##! 	medium_cruiser = {
-	##! 		max_strength = 0.1
-	##! 		armor_value = 0.1
-	##! 	}
-	##! 	light_cruiser = {
-	##! 		max_strength = 0.1
-	##! 	}
-	##! 	path = {
-	##! 		leads_to_tech = basic_ship_hull_cruiser
-	##! 		research_cost_coeff = 1
-	##! 	}
-	##! 
-	##! 	folder = {
-	##! 		name = mtgnavalfolder
-	##! 		position = { x = -1 y = @1914_module_2 }
-	##! 	}
-	##! 
-	##! 	ai_will_do = {
-	##! 		factor = 1
-	##! 		modifier = {
-	##! 			num_of_naval_factories > 5
-	##! 			factor = 3
-	##! 		}
-	##! 	}
-	##! 
-	##! 	special_project_specialization = { specialization_naval }
-	##! 	categories = {
-	##! 		naval_equipment
-	##! 		
-	##! 		ca_tech
-	##! 		mio_cat_tech_all_cruiser_and_modules
-	##! 	}
-	##! }
 
 	cruiser_gun_upgrade = {
 		on_research_complete = {
@@ -3665,7 +3617,7 @@ technologies = {
 				is_special_project_completed = sp:sp_early_informatization_system
 			}
 		}
-		research_cost = 1.25
+		research_cost = 1
 		enable_equipment_modules = {
 			ship_missile_control_system_2
 		}
@@ -3699,7 +3651,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cw_tech_1_tt
 		}
-		research_cost = 1.5
+		research_cost = 1.25
 		start_year = 1955
 
 		naval_coordination = 0.2
@@ -3743,7 +3695,7 @@ technologies = {
 		}
 	}
 	comprehensive_display_system = {
-		research_cost = 0.75
+		research_cost = 0.65
 		enable_equipment_modules = {
 			ship_display_system
 		}
@@ -3770,7 +3722,7 @@ technologies = {
 		}
 	}
 	recon_drones = {
-		research_cost = 0.5
+		research_cost = 0.3
 		enable_equipment_modules = {
 			recon_drone_1
 		}

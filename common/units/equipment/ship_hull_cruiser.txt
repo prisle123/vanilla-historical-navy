@@ -38,23 +38,27 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = no
-				allowed_module_categories = { ship_fire_control_system ship_sonar }
+				allowed_module_categories = { ship_fire_control_system }
 			}
 			fixed_ship_radar_slot = {
 				required = no
 				allowed_module_categories = { ship_radar ship_sonar ship_mast }
 			}
+			fixed_ship_extra_electronics_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
 			fixed_ship_engine_slot = {
 				required = yes
 				allowed_module_categories = { cruiser_ship_engine civilian_ship_engine cruiser_ship_engine_nuclear }
 			}
-			fixed_ship_secondaries_slot = {
-				required = no
-				allowed_module_categories = { ship_secondaries_light ship_dp_secondaries }
-			}
 			fixed_ship_armor_slot = {
 				required = no
 				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor raider_kit }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries_light ship_dp_secondaries }
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
@@ -67,10 +71,6 @@ equipments = {
 			fixed_ship_extra_secondaries_slot = {
 				required = no
 				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous ap_shell }
-			}
-			fixed_ship_extra_electronics_slot = {
-				required = no
-				allowed_module_categories = { ship_radar ship_sonar ship_fire_control_system }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -320,13 +320,13 @@ equipments = {
 				required = yes
 				allowed_module_categories = { cruiser_ship_engine civilian_ship_engine }
 			}
-			fixed_ship_secondaries_slot = {
-				required = no
-				allowed_module_categories = { ship_secondaries_light ship_dp_secondaries ship_secondaries }
-			}
 			fixed_ship_armor_slot = {
 				required = no
 				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries_light ship_dp_secondaries ship_secondaries }
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
@@ -481,17 +481,21 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_radar ship_sonar ship_mast }
 			}
+			fixed_ship_extra_electronics_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
 			fixed_ship_engine_slot = {
 				required = yes
 				allowed_module_categories = { cruiser_ship_engine civilian_ship_engine }
 			}
-			fixed_ship_secondaries_slot = {
-				required = no
-				allowed_module_categories = { ship_secondaries_light ship_dp_secondaries }
-			}
 			fixed_ship_armor_slot = {
 				required = no
 				allowed_module_categories = { ship_cruiser_armor ship_cruiser_heavy_armor raider_kit }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries_light ship_dp_secondaries }
 			}
 			fixed_ship_airplane_launcher_slot = {
 				required = no
@@ -504,10 +508,6 @@ equipments = {
 			fixed_ship_extra_secondaries_slot = {
 				required = no
 				allowed_module_categories = { heavy_miscellaneous generic_miscellaneous light_miscellaneous ap_shell }
-			}
-			fixed_ship_extra_electronics_slot = {
-				required = no
-				allowed_module_categories = { ship_radar ship_sonar }
 			}
 			front_1_custom_slot = {
 				required = no
@@ -715,16 +715,16 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_extra_electronics_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_secondaries_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_role_slot = {
 				required = yes
 				allowed_module_categories = { c_role c_role_missile }
 			}
 			fixed_ship_extra_secondaries_slot = inherit
-			fixed_ship_extra_electronics_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -851,18 +851,18 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_extra_electronics_slot = inherit
 			fixed_ship_engine_slot = {
 				required = yes
 				allowed_module_categories = { cruiser_ship_engine civilian_ship_engine cruiser_ship_engine_nuclear }
 			}
-			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_extra_secondaries_slot = inherit
 			fixed_ship_role_slot = {
 				required = yes
 				allowed_module_categories = { c_role c_role_missile }
 			}
-			fixed_ship_extra_electronics_slot = inherit
-			fixed_ship_extra_secondaries_slot = inherit
 			fixed_ship_extra_missile_slot = fixed_ship_extra_secondaries_slot
 			front_1_custom_slot = {
 				required = no
@@ -982,13 +982,13 @@ equipments = {
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_extra_electronics_slot = inherit
 			fixed_ship_engine_slot = inherit
-			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
+			fixed_ship_secondaries_slot = inherit
 			fixed_ship_airplane_launcher_slot = inherit
 			fixed_ship_role_slot = inherit
 			fixed_ship_extra_secondaries_slot = inherit
-			fixed_ship_extra_electronics_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
