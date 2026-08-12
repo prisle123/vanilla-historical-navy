@@ -224,6 +224,36 @@ equipment_modules = {
 		}
 		manpower = 200
 	}
+	ship_hull_cruiser_role_pz = {
+		category = c_role
+		add_equipment_type = capital_ship
+		add_stats = {
+			max_strength = 40
+			convoy_raiding_coordination = 0.05
+		}
+		multiply_stats = {
+			naval_range = 0.2
+			naval_speed = -0.2
+			build_cost_ic = 0.075
+		}
+		dismantle_cost_ic = 7500
+		can_convert_from = {
+			module_category = c_role_missile
+			convert_cost_ic = 0
+		}
+		forbid_module_categories = {
+			ship_medium_battery
+			ship_medium_battery_double
+			ship_medium_battery_single
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
+			ship_missile
+			ship_missile_aa
+			raider_kit
+		}
+		manpower = 200
+	}
 	ship_hull_cruiser_role_aa = {
 		category = c_role
 		add_stats = {
@@ -360,6 +390,10 @@ equipment_modules = {
 			heavy_miscellaneous
 		}
 	}
+
+#################################
+##  Coastal Defense Ship ROLE  ##
+#################################
 	ship_hull_cruiser_role_ac = {
 		category = cds_role
 		add_equipment_type = capital_ship

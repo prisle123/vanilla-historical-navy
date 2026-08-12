@@ -1748,6 +1748,7 @@ equipment_modules = {
 		category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 3
 		
 		add_stats = {
 			surface_visibility = 0.6
@@ -1780,6 +1781,7 @@ equipment_modules = {
 		category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 3
 		
 		add_stats = {
 			surface_visibility = 0.7
@@ -1812,6 +1814,7 @@ equipment_modules = {
 		category = ship_heavy_battery_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 3
 		
 		add_stats = {
 			surface_visibility = 0.8
@@ -1844,6 +1847,7 @@ equipment_modules = {
 		parent = ship_heavy_battery_big_1_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 4
 		
 		add_stats = {
 			surface_visibility = 0.9
@@ -1876,6 +1880,7 @@ equipment_modules = {
 		parent = ship_heavy_battery_2_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 5
 		
 		add_stats = {
 			surface_visibility = 1
@@ -1908,6 +1913,7 @@ equipment_modules = {
 		parent = ship_heavy_battery_3_quad
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
+		xp_cost = 6
 		
 		add_stats = {
 			surface_visibility = 1.1

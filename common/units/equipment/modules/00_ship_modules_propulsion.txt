@@ -1473,13 +1473,14 @@ equipment_modules = {
 		category = ship_heavy_boiler
 		gui_category = ship_propulsion_range
 		sfx = sfx_ui_sd_module_engine
+		xp_cost = 10
 
 		add_stats = {
-			build_cost_ic = 300
+			build_cost_ic = 400
 		}
 		multiply_stats = {
 			naval_speed = 0.05
-			build_cost_ic = 0.1
+			build_cost_ic = 0.15
 		}
 		dismantle_cost_ic = 1500
 	}

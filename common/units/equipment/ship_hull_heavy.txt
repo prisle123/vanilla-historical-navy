@@ -457,6 +457,11 @@ equipments = {
 		surface_visibility = 38
 		build_cost_ic = 2000
 		naval_dominance_factor = 180
+
+		module_count_limit = {
+			category = ship_heavy_boiler
+			count < 2
+		}
 	}
 
 	vnr_ship_hull_heavy_2 = {
@@ -494,6 +499,10 @@ equipments = {
 		build_cost_ic = 2300
 		manpower = 1400
 		naval_dominance_factor = 210
+		module_count_limit = {
+			category = ship_heavy_boiler
+			count < 2
+		}
 	}
 
 	vnr_ship_hull_heavy_3 = {
@@ -524,6 +533,10 @@ equipments = {
 
 		manpower = 1600
 		naval_dominance_factor = 240
+		module_count_limit = {
+			category = ship_heavy_boiler
+			count < 3
+		}
 	}
 
 	vnr_ship_hull_heavy_4 = {
@@ -557,6 +570,10 @@ equipments = {
 
 		manpower = 1800
 		naval_dominance_factor = 270
+		module_count_limit = {
+			category = ship_heavy_boiler
+			count < 3
+		}
 	}
 
 	vnr_ship_hull_heavy_5 = {
@@ -673,6 +690,10 @@ equipments = {
 
 		manpower = 2000
 		naval_dominance_factor = 300
+		module_count_limit = {
+			category = ship_heavy_boiler
+			count < 4
+		}
 	}
 
 	vnr_ship_hull_super_heavy_1 = {
@@ -806,6 +827,10 @@ equipments = {
 		}
 		manpower = 2400
 		naval_dominance_factor = 270
+		module_count_limit = {
+			category = ship_heavy_boiler
+			count < 3
+		}
 	}
 
 	vnr_ship_hull_arsenal_ship = {

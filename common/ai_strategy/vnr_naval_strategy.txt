@@ -466,6 +466,27 @@ ENG_reinforce_pacific = {
 	}
 }
 
+ENG_protect_atlantic_route = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		has_war_with = GER
+		GER = {
+			has_navy_size = {
+				type = submarine
+				size > 49
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_eng_atlantic_route
+		value = 85
+	}
+}
+
 ### JAP ###
 JAP_destroy_china_navy_quick = {
     allowed = {

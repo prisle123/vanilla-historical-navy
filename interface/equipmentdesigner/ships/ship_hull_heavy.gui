@@ -83,7 +83,31 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "@highlight"
+					name = "ship_fire_control_system@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_fire_control@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_missile_control_system"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_fire_control"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_missile_control_system@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -148,6 +172,30 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "heavy_ship_engine@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_heavy_hull_engine@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "heavy_ship_engine_nuclear"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_heavy_hull_engine"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "heavy_ship_engine_nuclear@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					

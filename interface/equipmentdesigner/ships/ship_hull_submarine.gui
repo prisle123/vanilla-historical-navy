@@ -154,8 +154,197 @@ guiTypes = {
 				name = "fixed_ship_fire_control_system_slot"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
+
+				#### MODULE: Torpedo Data Computer ####
+				containerWindowType = {
+					name = "sub_fire_control_system"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_fire_control"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "sub_fire_control_system@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_fire_control@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+
+				#### MODULE: Sonar ####
+				containerWindowType = {
+					name = "ship_sonar"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_hull_sonar"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sonar@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_hull_sonar@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Radar #################
+			containerWindowType = {
+				name = "fixed_ship_radar_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Radar ####
+				containerWindowType = {
+					name = "ship_radar"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_hull_radar"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_radar@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_hull_radar@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+
+				#### MODULE: Sonar ####
+				containerWindowType = {
+					name = "ship_sonar"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_hull_sonar"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sonar@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_hull_sonar@highlight"
+						position = { x=0 y=0 }
+					}
+				}
 			}
 			
+			################# MODULE SLOT: Extra Electronics #################
+			containerWindowType = {
+				name = "fixed_ship_radar_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Torpedo Data Computer ####
+				containerWindowType = {
+					name = "sub_fire_control_system"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_fire_control"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "sub_fire_control_system@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_fire_control@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+
+				#### MODULE: Radar ####
+				containerWindowType = {
+					name = "ship_radar"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_hull_radar"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_radar@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_hull_radar@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+
+				#### MODULE: Sonar ####
+				containerWindowType = {
+					name = "ship_sonar"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_hull_sonar"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sonar@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_hull_sonar@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+
 			################# MODULE SLOT: Miscellaneous #################
 			containerWindowType = {
 				name = "fixed_ship_extra_secondaries_slot"
@@ -297,56 +486,6 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_snorkel@highlight"
-						position = { x=0 y=0 }
-					}
-				}
-
-				#### MODULE: Radar ####
-				containerWindowType = {
-					name = "ship_radar"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint"
-						spriteType = "GFX_SM_submarine_hull_radar"
-						position = { x=0 y=0 }
-					}
-				}
-
-				containerWindowType = {
-					name = "ship_radar@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint_highlight"
-						spriteType = "GFX_SM_submarine_hull_radar@highlight"
-						position = { x=0 y=0 }
-					}
-				}
-
-				#### MODULE: Sonar ####
-				containerWindowType = {
-					name = "ship_sonar"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint"
-						spriteType = "GFX_SM_submarine_hull_sonar"
-						position = { x=0 y=0 }
-					}
-				}
-
-				containerWindowType = {
-					name = "ship_sonar@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint_highlight"
-						spriteType = "GFX_SM_submarine_hull_sonar@highlight"
 						position = { x=0 y=0 }
 					}
 				}

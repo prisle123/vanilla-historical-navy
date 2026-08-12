@@ -165,6 +165,7 @@ naval_develop_category = {
 				has_navy_size = {
 					size < 30
 				}
+				num_of_naval_factories > 8
 			}
 		}
     }
@@ -212,6 +213,7 @@ naval_develop_category = {
 				has_navy_size = {
 					size < 45
 				}
+				num_of_naval_factories > 8
 			}
 		}
     }
@@ -258,6 +260,7 @@ naval_develop_category = {
 				has_navy_size = {
 					size < 45
 				}
+				num_of_naval_factories > 10
 			}
 		}
     }
