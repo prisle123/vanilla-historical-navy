@@ -216,7 +216,7 @@ battlecruiser_supremacy = {
                 max_organisation = 5
             }
             battleship = {
-                max_organisation = 10
+                max_organisation = 5
             }
             battle_cruiser = {
                 max_organisation = 5
@@ -314,14 +314,17 @@ battleship_antiair_screen = {
             battleship = {
                 max_organisation = 10
                 anti_air_attack = 0.1
+                surface_detection = 0.05
             }
             heavy_cruiser = {
                 max_organisation = 10
                 anti_air_attack = 0.1
+                surface_detection = 0.05
             }
             medium_cruiser = {
                 max_organisation = 10
                 anti_air_attack = 0.1
+                surface_detection = 0.05
             }
         }
     }
@@ -510,10 +513,10 @@ coastal_defence_fleet = {
         }
         green_water_navy = {
             heavy_cruiser = {
-                surface_visibility = -0.05
+                surface_visibility = -0.075
             }
             medium_cruiser = {
-                surface_visibility = -0.05
+                surface_visibility = -0.075
             }
             modifier = {
 				mines_planting_by_fleets_factor = 0.1
