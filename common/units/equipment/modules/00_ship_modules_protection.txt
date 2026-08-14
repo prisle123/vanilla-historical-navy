@@ -1037,11 +1037,11 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = armor_scheme
-			convert_cost_ic = 1750
+			convert_cost_ic = 2000
 		}
 		can_convert_from = {
 			module = ship_scheme_incremental
-			convert_cost_ic = 1250
+			convert_cost_ic = 1500
 		}
 		dismantle_cost_ic = 1500
 	}
@@ -1060,11 +1060,11 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = ship_scheme_incremental_post_jutland
-			convert_cost_ic = 1500
+			convert_cost_ic = 2000
 		}
 		can_convert_from = {
 			module_category = armor_scheme
-			convert_cost_ic = 2000
+			convert_cost_ic = 3000
 		}
 		dismantle_cost_ic = 2000
 	}
@@ -1084,7 +1084,7 @@ equipment_modules = {
 		dismantle_cost_ic = 2500
 		can_convert_from = {
 			module_category = armor_scheme
-			convert_cost_ic = 2750
+			convert_cost_ic = 4000
 		}
 	}
 	ship_scheme_all_or_nothing_armor_box = {
@@ -1102,11 +1102,11 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = armor_scheme
-			convert_cost_ic = 3500
+			convert_cost_ic = 5000
 		}
 		can_convert_from = {
 			module = ship_scheme_all_or_nothing
-			convert_cost_ic = 2000
+			convert_cost_ic = 4000
 		}
 		dismantle_cost_ic = 3000
 	}
@@ -1308,7 +1308,7 @@ equipment_modules = {
 			anti_air_attack = -0.5
 			torpedo_attack = -0.8
 			surface_visibility = -0.2
-			build_cost_ic = 0.02
+			build_cost_ic = 0.05
 		}
 		
 		forbid_module_categories = {

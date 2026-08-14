@@ -401,6 +401,10 @@ equipment_modules = {
 			naval_range = 0.5
 		}
 		dismantle_cost_ic = 3000
+		forbid_module_categories = {
+			ship_heavy_battery
+			ship_heavy_battery_triple
+		}
 	}
 	ship_hull_cruiser_role_cd = {
 		category = cds_role
@@ -410,6 +414,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3000
 		forbid_module_categories = {
+			ship_heavy_battery
+			ship_heavy_battery_triple
 			ship_cruiser_heavy_armor
 			ship_secondaries
 		}
@@ -426,7 +432,10 @@ equipment_modules = {
 			naval_range = 0.5
 		}
 		forbid_module_categories = {
-			ship_cruiser_heavy_armor
+			ship_light_battery
+			ship_light_battery_double
+			dp_light_battery
+			dp_light_battery_single
 		}
 	}
 

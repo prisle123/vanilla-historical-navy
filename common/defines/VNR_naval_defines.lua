@@ -9,7 +9,7 @@ NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.1   -- Base chance for receiving 
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.65   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
 NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.2   -- base % of convoys that get intercepted (was 0.15)
-NDefines.NNavy.CONVOY_HIT_PROFILE = 110   -- convoys has this contant hit profile (was 85)
+NDefines.NNavy.CONVOY_HIT_PROFILE = 100   -- convoys has this contant hit profile (was 85)
 NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.3   -- chance for critical hit from torpedo. (was 0.1, torpedo needs more love)
 NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = { 2.0, 1.0, 0.85, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.3, 0.0 }   -- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 3.0, 1.25, 1.0, 0.65, 0.55, 0.3, 0.15, 0.1, 0.05, 0.01, 0.0 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
@@ -26,6 +26,7 @@ NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_SUNK = 0.5   -- sunk ships will lose this 
 NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.5   -- upper limit of shore bombardment (was 0.33)
 NDefines.NNavy.HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.1   -- heavy gun attack value is divided by this value * 100 and added to shore bombardment modifier (was 0.05)
 NDefines.NNavy.LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.5   -- light gun attack value is divided by this value * 100 and added to shore bombardment modifier (was 0.025)
+NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.6   -- factors speed value when determining it profile (Vis * HIT_PROFILE_MULT * Ship Hit Profile Mult) (was 0.5)
 
 
 --Positioning and Screening
@@ -83,12 +84,13 @@ NDefines.NNavy.DOMINANCE_PER_SHIP_PER_CARRIER_SIZE = 0.2   -- bonus to dominance
 NDefines.NNavy.DOMINANCE_PER_SHIP_PER_HEAVY_GUN_ATTACK = 0.02   -- bonus to dominance based on the heavy attack, min value is 0 (was 0.01, differentiate big gun ships and smaller counterparts)
 NDefines.NNavy.DOMINANCE_DAILY_GAIN_FACTOR = 0.05   -- Daily dominance gain, as a fraction of target value (was 0.02)
 NDefines.NNavy.DOMINANCE_DAILY_LOSS_FACTOR = 0.01   -- Daily dominance loss, as a fraction of previous target value (was 0.04)
+NDefines.NNavy.NAVAL_BASE_DOMINANCE_FACTOR = 0.05   -- base naval dominance buff based on naval bases in the region (was 0.01)
 
 
 --Battle Process
 NDefines.NNavy.COMBAT_MIN_DURATION = 20   -- Min combat duration before we can retreat. It's a balancing variable so it's not possible to always run with our weak ships agains big flotillas. (was 8, longer activation time creates time for carrier attack)
-NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 22   -- hours from start of combat when only carriers, capitals and subs get to attack (was 6)
-NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 25   -- hours where all get to attack (was 8)
+NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 18   -- hours from start of combat when only carriers, capitals and subs get to attack (was 6)
+NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 20   -- hours where all get to attack (was 8)
 NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 3   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.1   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
@@ -398,8 +400,8 @@ NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 2   -- XP cost for adding a 
 NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 3   -- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant. (was 6)
 NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 1   -- XP cost for converting one equipment module to a related module when creating an equipment variant. (was 3)
 NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 1   -- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
-NDefines.NProduction.BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.2   -- Fraction of the hull industry cost which is always included in the refitting cost. (was 0.2)
-NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.2   -- Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost. (was 0.2)
+NDefines.NProduction.BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.16   -- Fraction of the hull industry cost which is always included in the refitting cost. (was 0.2)
+NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.5   -- Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost. (was 0.2)
 
 -----------------
 --Intel Defines--
