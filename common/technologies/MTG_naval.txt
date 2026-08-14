@@ -989,7 +989,7 @@ technologies = {
 				factor = 0
 			}
 		}
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			dd_tech
@@ -1030,7 +1030,7 @@ technologies = {
 				factor = 10
 			}
 		}
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			dd_tech
@@ -1094,7 +1094,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			dd_tech
@@ -1510,7 +1510,7 @@ technologies = {
 			factor = 4
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			radar_tech
@@ -1592,7 +1592,7 @@ technologies = {
 			factor = 2
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			
@@ -1674,7 +1674,7 @@ technologies = {
 			factor = 1
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			
@@ -1716,7 +1716,7 @@ technologies = {
 			factor = 2
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_nuclear }
 		categories = {
 			naval_equipment
 			nuclear
@@ -1752,7 +1752,7 @@ technologies = {
 			factor = 2
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_nuclear }
 		categories = {
 			naval_equipment
 			nuclear
@@ -1833,7 +1833,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			
@@ -2207,7 +2207,7 @@ technologies = {
 			factor = 1
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			
@@ -2250,6 +2250,10 @@ technologies = {
 	cruiser_radar_sentry = {
 		on_research_complete = {
 			custom_effect_tooltip = ca_tech_0_2_tt
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
+			}
 		}
 		research_cost = 0.5
 		start_year = 1944
@@ -2280,7 +2284,7 @@ technologies = {
 			factor = 1
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			
@@ -2290,6 +2294,12 @@ technologies = {
 	}
 
 	fighter_directional_system = {
+		on_research_complete = {
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
+			}
+		}
 		research_cost = 0.6
 		start_year = 1945
 
@@ -2304,7 +2314,7 @@ technologies = {
 			factor = 1
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			
@@ -2340,7 +2350,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			
@@ -2378,7 +2388,7 @@ technologies = {
 			factor = 1
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -3474,7 +3484,7 @@ technologies = {
 			factor = 2
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			bb_tech
@@ -3637,7 +3647,7 @@ technologies = {
 			factor = 2
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			bb_tech
@@ -3712,7 +3722,7 @@ technologies = {
 			factor = 1
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			bb_tech
@@ -3742,7 +3752,7 @@ technologies = {
 			factor = 1
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			bb_tech
@@ -3812,7 +3822,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -3856,7 +3866,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -3924,7 +3934,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -3991,7 +4001,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -4068,7 +4078,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -4130,7 +4140,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -4194,7 +4204,7 @@ technologies = {
 				factor = 10
 			}
 		}
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			cv_tech
 			naval_equipment
@@ -4303,7 +4313,9 @@ technologies = {
 
 	aviation_dawn = {
 		allow = {
-			has_subdoctrine_in_track = carriers
+			ROOT = {
+				has_subdoctrine_in_track = carriers
+			}
 		}
 		research_cost = 2
 		start_year = 1932
@@ -4438,7 +4450,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -4484,7 +4496,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -4538,7 +4550,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -4549,7 +4561,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_7_tt
 		}
-		research_cost = 1.25
+		research_cost = 1
 		start_year = 1942
 
 		xp_research_type = navy
@@ -4590,6 +4602,10 @@ technologies = {
 	carrier_steam_catapult = {
 		on_research_complete = {
 			custom_effect_tooltip = cv_tech_4_tt
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
+			}
 		}
 		research_cost = 1
 		start_year = 1944
@@ -4659,7 +4675,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -4695,7 +4711,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			cv_tech
@@ -4787,7 +4803,7 @@ technologies = {
 		}
 	}
 	optical_landing_system = {
-		research_cost = 1
+		research_cost = 0.75
 		start_year = 1951
 
 		air_carrier_night_penalty_reduction_factor = 0.1
@@ -4813,7 +4829,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cw_tech_2_tt
 		}
-		research_cost = 1
+		research_cost = 0.75
 		start_year = 1952
 
 		carrier = {
@@ -5244,7 +5260,7 @@ technologies = {
 	}
 
 	diesel_electric_transmission = {
-		research_cost = 0.75
+		research_cost = 0.6
 
 		xp_research_type = navy
 		xp_boost_cost = 20
@@ -5319,7 +5335,7 @@ technologies = {
 		}
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
-		research_cost = 0.75
+		research_cost = 0.65
 
 		xp_research_type = navy
 		xp_boost_cost = 20
@@ -5348,7 +5364,7 @@ technologies = {
 	}
 
 	teardrop_hull = {
-		research_cost = 0.5
+		research_cost = 0.35
 
 		xp_research_type = navy
 		xp_boost_cost = 20
@@ -5443,7 +5459,7 @@ technologies = {
 	}
 
 	submarine_mass_production = {
-		research_cost = 1
+		research_cost = 0.8
 
 		start_year = 1941
 
@@ -5495,6 +5511,9 @@ technologies = {
 			sub_ship_engine_5
 		}
 		research_cost = 1.25
+		xp_research_type = navy
+		xp_boost_cost = 20
+		xp_research_bonus = 1.50
 		start_year = 1945
 
 		folder = {
@@ -5547,7 +5566,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_nuclear }
 		categories = {
 			naval_equipment
 			nuclear

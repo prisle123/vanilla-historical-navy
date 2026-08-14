@@ -785,7 +785,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -834,7 +834,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -884,7 +884,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1105,7 +1105,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1146,7 +1146,7 @@ technologies = {
 			}
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -1162,6 +1162,12 @@ technologies = {
 		allow = {
 	 		ROOT = {
 				is_special_project_completed = sp:sp_air_radar
+			}
+		}
+		on_research_complete = {
+			add_breakthrough_points = {
+				specialization = specialization_air
+				value = 1
 			}
 		}
 		is_special_project_tech = yes
@@ -1189,7 +1195,7 @@ technologies = {
 				has_navy_size = { size > 100 }
 			}
 		}
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			electronics
@@ -1230,7 +1236,7 @@ technologies = {
 			ship_missile_aa_1
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			rocketry
 			naval_equipment
@@ -1239,6 +1245,11 @@ technologies = {
 	}
 
 	advanced_missile_system = {
+		allow = {
+			ROOT = {
+				is_special_project_completed = sp:sp_rockets_ballistic_missile
+			}
+		}
 		is_special_project_tech = yes
 		on_research_complete = {
 			custom_effect_tooltip = ca_tech_9_tt
@@ -1260,7 +1271,7 @@ technologies = {
 			ship_missile_aa_2
 		}
 
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			rocketry
 			naval_equipment
@@ -1519,7 +1530,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 20
 		xp_research_bonus = 1.50
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1951
 		destroyer = {
@@ -1898,7 +1909,7 @@ technologies = {
 
 	basic_naval_mines = {
 
-		research_cost = 0.5
+		research_cost = 0.25
 
 		start_year = 1922
 
@@ -1936,7 +1947,7 @@ technologies = {
 
 	improved_naval_mines = {
 
-		research_cost = 0.5
+		research_cost = 0.25
 
 		start_year = 1936
 
@@ -2450,7 +2461,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval specialization_air }
 		categories = {
 			naval_equipment
 			tp_tech
@@ -2459,7 +2470,7 @@ technologies = {
 
 	# naval integrated support tech tree
 	naval_combat_support = {
-		research_cost = 0.5
+		research_cost = 0.25
 		start_year = 1914
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
@@ -2613,7 +2624,7 @@ technologies = {
 		}
 	}
 	port_construction_corps = {
-		research_cost = 0.6
+		research_cost = 0.35
 		start_year = 1938
 
 		path = {
@@ -2638,7 +2649,7 @@ technologies = {
 		}
 	}
 	integrated_shipyard_complex = {
-		research_cost = 1.25
+		research_cost = 1
 		start_year = 1942
 
 		ai_will_do = {
@@ -3083,7 +3094,7 @@ technologies = {
 		}
 	}
 	surgery_at_sea = {
-		research_cost = 0.5
+		research_cost = 0.3
 		start_year = 1932
 
 		ai_will_do = {
@@ -3111,7 +3122,7 @@ technologies = {
 		}
 	}
 	medical_supply_at_sea = {
-		research_cost = 0.55
+		research_cost = 0.35
 		start_year = 1939
 		ai_will_do = {
 			factor = 0
@@ -3129,7 +3140,7 @@ technologies = {
 		}
 	}
 	joint_sea_hospital = {
-		research_cost = 0.75
+		research_cost = 0.5
 		start_year = 1943
 
 		ai_will_do = {
