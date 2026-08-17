@@ -119,7 +119,7 @@ guiTypes = {
 
 				buttonType = {
 					name = "navy_rework_options_button"
-					position = { x = -120 y = -50 }
+					position = { x = -180 y = -50 }
 					orientation = center_down
 
 					quadTextureSprite = "GFX_main_lobby_button"
@@ -128,6 +128,30 @@ guiTypes = {
 					clicksound = click_default
 					oversound = ui_menu_over
 					shortcut = "c"
+				}
+				buttonType = {
+					name = "navy_rework_manual_button_english"
+					position = { x = -60 y = -50 }
+					orientation = center_down
+
+					quadTextureSprite = "GFX_main_lobby_button"
+					buttonText = "navy_rework_manual_button_text"
+					buttonFont = "hoi_24header"
+					clicksound = click_default
+					oversound = ui_menu_over
+					web_link = "https://docs.google.com/document/u/0/d/16inMWQ2u25Rc79-vdva-XhHRw6VqSzbpkVAO5ZfN_4k"
+				}
+				buttonType = {
+					name = "navy_rework_manual_button_chinese"
+					position = { x = -60 y = -50 }
+					orientation = center_down
+
+					quadTextureSprite = "GFX_main_lobby_button"
+					buttonText = "navy_rework_manual_button_text"
+					buttonFont = "hoi_24header"
+					clicksound = click_default
+					oversound = ui_menu_over
+					web_link = "https://docs.qq.com/doc/DZkRRSHJyWHNKWXRY"
 				}
 			}
 		}
@@ -278,37 +302,6 @@ guiTypes = {
 				maxHeight = 292
 				scrollbartype = "standardtext_slider"
 			}
-		}
-	}
-
-	containerWindowType = {
-		name = vnr_manual_handbook_gui_window
-		position = { x = 0 y = 0 }
-		size = { width = 100% height= 50 }
-
-		buttonType = {
-			name = "navy_rework_manual_button_english"
-			position = { x = 15 y = 10 }
-
-			quadTextureSprite = "GFX_strategic_air_sort"
-			buttonText = "navy_rework_manual_button_text"
-			buttonFont = "hoi_18mbs"
-			clicksound = click_default
-			oversound = ui_menu_over
-			pdx_tooltip = navy_rework_manual_button_tt
-			web_link = "https://docs.google.com/document/u/0/d/16inMWQ2u25Rc79-vdva-XhHRw6VqSzbpkVAO5ZfN_4k"
-		}
-		buttonType = {
-			name = "navy_rework_manual_button_chinese"
-			position = { x = 15 y = 10 }
-
-			quadTextureSprite = "GFX_strategic_air_sort"
-			buttonText = "navy_rework_manual_button_text"
-			buttonFont = "hoi_18mbs"
-			clicksound = click_default
-			oversound = ui_menu_over
-			pdx_tooltip = navy_rework_manual_button_tt
-			web_link = "https://docs.qq.com/doc/DZkRRSHJyWHNKWXRY"
 		}
 	}
 }

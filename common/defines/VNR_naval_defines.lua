@@ -90,12 +90,12 @@ NDefines.NNavy.NAVAL_BASE_DOMINANCE_FACTOR = 0.05   -- base naval dominance buff
 --Battle Process
 NDefines.NNavy.COMBAT_MIN_DURATION = 20   -- Min combat duration before we can retreat. It's a balancing variable so it's not possible to always run with our weak ships agains big flotillas. (was 8, longer activation time creates time for carrier attack)
 NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 18   -- hours from start of combat when only carriers, capitals and subs get to attack (was 6)
-NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 20   -- hours where all get to attack (was 8)
+NDefines.NNavy.COMBAT_INITIAL_DURATION = 18   -- Number of hours that is considered the "initial phase" of naval combat, used for modifiers like surprise attack during "initial combat" (was 6)
+NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 22   -- hours where all get to attack (was 8)
 NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 3   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.1   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
 NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 1.85   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
-NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 4   -- each taskforce in convoy defense mission can at most cover this many regions without losing efficiency (was 5)
 
 
 --Naval Aviation / Carriers
@@ -254,6 +254,12 @@ NDefines.NAI.AI_SHIP_SWAP_MIN_DAMAGED_SHIPS = 1  -- minimum number of damaged sh
 NDefines.NAI.AI_SHIP_SWAP_DAMAGE_THRESHOLD = 0.65  -- per-ship strength threshold below which the AI considers a capital/carrier damaged enough to swap to reserves (was 0.33)
 
 
+-- Home Base Selection
+NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 800   -- Distance to normalize against. Everything above said value will be treated as score = 0. (was 550)
+NDefines.NNavy.NAVAL_HOMEBASE_BUILDING_SCORE_FACTOR = 0.035   -- Multiplier for how much the level of the naval base impacts its total score.
+NDefines.NNavy.NAVAL_HOMEBASE_OWNERSHIP_BONUS = 0.02   -- Adds to total score based on if the base is owned by the country doing the calculation. (was 0.04)
+
+
 --Navy Medals
 NDefines.NNavy.NAVAL_COMBAT_MEDAL_CHANCE = 48   -- 1/N chance that a ship gains a medal after participating in a battle
 NDefines.NNavy.NAVAL_COMBAT_MEDAL_MIN_DURATION = 4   -- Minimum hours the battle must have taken to gain a medal
@@ -268,10 +274,8 @@ NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.1   -- fuel cost for na
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
 NDefines.NNavy.PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.0   -- % of experience to retain after being transferred in a peace conference (was 0.25)
-NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 800   -- Distance to normalize against. Everything above said value will be treated as score = 0. (was 550)
-NDefines.NNavy.NAVAL_HOMEBASE_BUILDING_SCORE_FACTOR = 0.035   -- Multiplier for how much the level of the naval base impacts its total score.
-NDefines.NNavy.NAVAL_HOMEBASE_OWNERSHIP_BONUS = 0.02   -- Adds to total score based on if the base is owned by the country doing the calculation. (was 0.04)
 NDefines.NNavy.UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.15   -- Cost in convoys for underway replenishment multiplied by max daily fuel consumption (rounded up) (was 0.28)
+NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 4   -- each taskforce in convoy defense mission can at most cover this many regions without losing efficiency (was 5)
 
 --------------
 --AI Defines--

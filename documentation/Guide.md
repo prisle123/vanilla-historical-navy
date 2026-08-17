@@ -80,7 +80,7 @@ Unlike vanilla, the traditional definition of light or heavy cruiser has been re
 - Heavy fleet cruiser is a screen ship version of heavy cruiser with medium guns and a screen ship related role.
 - Light cruiser is the same as its origin in basegame with light medium guns and a screen ship related role.
 
-and it prompts to 3 types of cruiser guns:
+and they can carry 3 types of cruiser guns:
 
 - Heavy medium gun: for large cruiser exclusively, heavy attack oriented, firepower slightly inferior to WWI dreadnoughts
 - Medium gun: balanced between heavy and light attack, universal but not very effective to heavy ships (half penetration)
@@ -138,7 +138,7 @@ An equivalent to ice carrier in vanilla but with an actual historical background
 
 **Auxiliary Ship**
 
-Max range of the fleet is calculated by average range of all ships within, so mathematically speaking you can boost it by adding long-range ships to your fleet. However, if you know maths very well, you may notice once the average has surpassed a certain value, it will bring the increase rate to a stagnation (also known as margin utilities). As a result, it's unwise to put too many auxiliary ships together because the range bonus is reaching the upper limit.
+Max range of the fleet is calculated by average range of all ships within, so mathematically speaking you can boost it by adding long-range ships to your fleet. However, you may notice once the average has surpassed a certain value, it will bring the increase rate to a stagnation (also known as margin utilities or diminishing returns). As a result, it's unwise to put too many auxiliary ships together because the price you pay for the range bonus is becoming less and less cost-efficient.
 
 To keep it away from the frontline, auxiliary ship is considered as capital ship, which means it can provide escort efficiency for your carrier just like battleship does. It's weak without doubt, but really really cheap.
 
@@ -154,19 +154,21 @@ Destroyer is the foundation of any navies, so there is no reason that you should
 
 **Cruiser Branch**
 
-Cruiser can make incredible damage on light ships in the battle when it gets into close combat stage. Therefore, if you want to build a nice surface fleet, don't hesitate to give your cruiser the best guns and armors. Although you have many options in cruiser's tree, the process becomes easier that you only have to choose things boosting firepower, speed and armor.
+Cruiser can make incredible damage on light ships in the battle when it gets into close combat stage. Therefore, if you want to build a nice surface fleet, don't hesitate to give your cruiser the best guns and armors. Although you have many options in cruiser's tree, the process becomes easier that you only have to choose things boosting firepower, speed, and armor.
 
 **Heavy Armor Branch**
 
-This branch is composed of battleship armor schemes and armor processing technologies. The necessity depends on whether you are going to include heavy ships in your fleet and when you want to exclude them. If heavy ships still hold a place in your fleet, you should update these techs to the latest whenever there's a chance, otherwise just leave them alone.
+This branch is composed of armor processing technologies, which they basicially serve as gateway to protection solution technologies in battleship branch. The necessity depends on whether you are going to include heavy ships in your fleet and when you want to exclude them. If heavy ships still hold a place in your fleet, you should update these techs to the latest whenever there's a chance, otherwise just leave them alone.
 
 **Battleship Branch**
 
-Battleship branch is actually quite flexible because you can drop it from anywhere if it's no longer needed in your fleet. But if you want a good cold war era experience, at least research hulls to gain access to cold war fire-control/electronics technologies. Back to the base tree, battleship techs prior to the 1930s are very useful despite not being mandatory. Its sub-techs during the early 1940s are not recommended for their crummy bonus unless it's out of roleplay. After all, not many people will need excellent battleships but moderate ones.
+Battleship branch is actually quite flexible because you can drop it from anywhere if it's no longer needed in your fleet. But if you want a good cold war era experience, at least research hulls to access cold war fire-control/electronics technologies. 
+
+Back to the base tree, battleship techs prior to the 1930s are very useful despite not being mandatory. Its sub-techs during the early 1940s are not recommended for their crummy bonus unless it's out of roleplay. After all, not many people will need excellent battleships but moderate ones.
 
 **Carrier Branch**
 
-I can't stress more about the dominating power of carrier in reality and mod. Most carrier techs are extremely useful or even mandatory, and will definitely give you an upper hand in the battle. My suggestion is to take everything mentioning sortie efficiency, HP, and org.
+I can't stress more about the dominating power of carrier in reality and this mod. Most carrier techs are extremely useful or even mandatory, and will definitely give you an upper hand in the battle. My suggestion is to take everything mentioning sortie efficiency, HP, and org.
 
 **Submarine Branch**
 
@@ -180,7 +182,7 @@ You need guns everywhere, so there is basically no reason to skip this branch. E
 
 **Torpedo Branch**
 
-Torpedo techs are needed by both submarines and torpedo ships. In general, torpedo is nerfed in accuracy and buffed in damage, but this will be changed at night when torpedo gets tons of bonus, which may lead to instant kills of enemy's valuable assets like battleship or even carrier if you're lucky. In general, it's still considered incompetent because of the unstable damage inflicted. Only keep it up to date if your fleet is heavily relied on torpedo.
+Torpedo techs are needed by both submarines and torpedo ships. In general, torpedo is nerfed in accuracy and buffed in damage, but this will be changed at night when torpedo gets tons of bonus, which may lead to instant kills of enemy's valuable assets like battleship or even carrier if you're lucky. Yet given the low possibility, it's still considered incompetent because of the unstable damage inflicted. Only keep it up to date if your fleet is heavily relied on torpedo.
 
 **Auxiliary Branch**
 
@@ -434,12 +436,13 @@ Since it is very hard to preview critical part effects in the game, a list will 
 | Broken Propeller | -95% retreat chance, -90% speed | Can only happen once |
 | Rudder Jammed | -90% retreat chance, -50% speed | Can only happen once |
 | Ballast Tank Inoperable | +100% sub visibility | Submarine exclusive, can only happen once |
-| Damaged Fire Control | -50% hit chance for all weapons | Can only happen once if you have fire control in presence |
 | Damaged Flight Deck (Wooden) | -40% carrier capacity, -30% org | Can only happen once on carrier with wooden flight deck |
 | Damaged Flight Deck (Armored) | -20% carrier capacity, -15% org | Can only happen once on carrier with armored flight deck; 25% lower probability than the wooden one |
 | Damaged Battlecarrier Flight Deck | -100% carrier capacity, -30% org | Battlecarrier exclusive, can only happen once |
 | Air Fuel Flashover (wth. unarmored hangar) | -90% org, -100% org recovery, +250 HP damage, +50 org damage | Can only happen once, very low probability |
 | Air Fuel Flashover (wth. armored hangar) | -90% org, -100% org recovery, +200 HP damage, +40 org damage | Can only happen once, very low probability |
+| Radar Shortcircuited (Lv1-Lv5) | Detection & hit chance debuffs based on tier of radar | Can only happen on ships with radar |
+| Fire Control Disabled (Lv1-Lv6) | Hit chance debuffs based on tier of fire control system | Can only happen on ships with fire control |
 
 ### Retreat Process ###
 
