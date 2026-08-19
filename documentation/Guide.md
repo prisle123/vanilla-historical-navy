@@ -104,6 +104,46 @@ Subs are greatly nerfed compared to vanilla in terms of competing with a proper 
 
 AI in VNR has been enhanced to carry more depth charges and sonars, which is a major challenge to sub-centric games. As a result, you should try to lower your sub visibility as much as possible. Mount every useful module, including snorkel and pressure hull, on your sub and keep them updated to the latest.
 
+### Ship Role System ###
+
+To deeply customize your fleet, you can use roles to derive hulls into many classes of ships with various sizes or functions, without adding a separate hull for every variant. A role is installed in the ship role slot and changes the ship's statistics, equipment type, cost, or available module categories. This lets the same basic hull serve as, for example, a cheap escort destroyer, a large cruiser, or a radar picket.
+
+| Module Abbr. | Role | Related hull | Role Features | Unlocking technology | Aigle refit |
+|---|---|---|---|---|---|
+| DD | Destroyer | Light hull | Basic destroyer role, no special perk | Great War Light Hull | Yes |
+| DL | Destroyer Leader | Light hull | Better HP, higher cost | Large Destroyer | Yes |
+| DE | Escort Destroyer | Light hull | Worse overall performance, lower cost | Escort Destroyer | No |
+| FF | Frigate | Light hull | Terrible overall performance, super cheap cost | Great War Light Hull | No |
+| SD | Super Destroyer | Light hull | Allow up to 3 light-medium guns | Super Destroyer | No |
+| DAA | Anti-Air Destroyer | Light hull | Allow AA missiles | Anti-Air Missile Destroyer Refit | Yes |
+| DDG | Guided Missile Destroyer | Light hull | Allow all types of missiles | Guided Missile Destroyer | Yes |
+| C | Fleet Cruiser | Cruiser hull | Basic cruiser role, screen ship version | Great War Cruiser Hull | Yes |
+| PC | Protected Cruiser | Cruiser hull | Pre-Great-War cruiser variants with poor power and protection | Great War Cruiser Hull | No |
+| CA | Capital Cruiser | Cruiser hull | Basic cruiser role, capital ship version | Great War Cruiser Hull | Yes |
+| CB | Large Cruiser | Cruiser hull | Allow heavy-medium guns and heavy cruiser armor plates, better HP | Specialization Doctrine | No |
+| PZ | Capital Raider | Cruiser hull | Similar to large cruiser, less HP bonus with longer range | Specialization Doctrine | No |
+| CAA | Anti-Air Cruiser | Cruiser hull | Better anti-air capability | Anti-Air Cruiser Refit | Yes |
+| CLC | Colonial Cruiser | Cruiser hull | Trade protection for lower cost | Specialization Doctrine | No |
+| CG | Missile Cruiser | Cruiser hull | Allow all types of missiles | Missile Cruiser Refit | Yes |
+| CGA | Anti-Air Missile Cruiser | Cruiser hull | Allow AA missiles | Missile Cruiser Refit | Yes |
+| CSR | Radar Picket Cruiser | Cruiser hull | Stronger detection capability | Radar Picket Refit | Yes |
+| ACR | Armored Cruiser | Coastal-defense cruiser hull | Longer range | Great War Cruiser Hull | No |
+| BM | Coastal Defense Ship | Coastal-defense cruiser hull | Basic coastal defense ship role, no special perk | Great War Cruiser Hull | No |
+| CDB | Monitor | Coastal-defense cruiser hull | Allow heavy guns | Great War Cruiser Hull | No |
+| BB | Converted from Battleship | Carrier hull | Basic converted carrier role, no special perk | By default or special decision | No |
+| BC | Converted from Battlecruiser | Carrier hull | Trade HP for lower cost | By default or special decision | No |
+| SHBB | Converted from Super Heavy Battleship | Carrier hull | Allow 1 extra hangar | By special decision | No |
+| CV | Fleet Carrier | Carrier hull | Basic carrier role, no special perk | Naval Aviation Theory | No |
+| CVL | Light Carrier | Carrier hull | Cheaper cost, lower org, can only use small hangar | Naval Aviation Theory | No |
+| CVE | Escort Carrier | Carrier hull | Exclusive on escort carrier hull | Advanced Carrier Hull | No |
+| AP | General-Purpose Auxiliary | Civilian hull | Basic auxiliary role, no special perk | Naval Logistics | Yes |
+| AO | Large Fleet Oiler | Civilian hull | More expensive, longer range | Fast Combat Support Ship or Integrated Supply Ship | No |
+| AV | Seaplane Tender | Civilian hull | Allow seaplane hangar | Naval Aviation Theory | No |
+
+Several carrier conversion technologies are hidden and intended to be activated by decisions rather than researched normally. *Converted from Battleship* and *Converted from Battlecruiser* are unlocked by some major countries starting with converted carriers in history.
+
+Agile refit is a feature for some general roles to be changed to another type of variant without heavy cost on refit IC. Roles without this property has a tip like “This is a role of origin and is uncustomizable after installation” in its description when you hover on its icon. Once installed, the conversion cost will penalize role refits. Ships with these roles will have role conversion cost so expensive that it can be used to build several ships of this type.
+
 ### Special Hulls ###
 
 Special hulls are ships that can't be simply represented by generic ship hulls. They are made for flavor and immersion. Using them does not always give you a good result in naval battle.

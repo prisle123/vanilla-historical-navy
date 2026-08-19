@@ -89,10 +89,10 @@ NDefines.NNavy.NAVAL_BASE_DOMINANCE_FACTOR = 0.05   -- base naval dominance buff
 
 --Battle Process
 NDefines.NNavy.COMBAT_MIN_DURATION = 20   -- Min combat duration before we can retreat. It's a balancing variable so it's not possible to always run with our weak ships agains big flotillas. (was 8, longer activation time creates time for carrier attack)
-NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 18   -- hours from start of combat when only carriers, capitals and subs get to attack (was 6)
-NDefines.NNavy.COMBAT_INITIAL_DURATION = 18   -- Number of hours that is considered the "initial phase" of naval combat, used for modifiers like surprise attack during "initial combat" (was 6)
-NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 22   -- hours where all get to attack (was 8)
-NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 3   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
+NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 20   -- hours from start of combat when only carriers, capitals and subs get to attack (was 6)
+NDefines.NNavy.COMBAT_INITIAL_DURATION = 20   -- Number of hours that is considered the "initial phase" of naval combat, used for modifiers like surprise attack during "initial combat" (was 6)
+NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 24   -- hours where all get to attack (was 8)
+NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 4   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.1   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
 NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 1.85   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)

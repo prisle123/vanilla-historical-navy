@@ -213,6 +213,7 @@ ENG_secure_mediterranean_high_threat = {
 				}
 			}
 			NOT = { has_war_with = ITA }
+			enable_vnr_naval_ai = no
 		}
 	}
     ai_strategy = {
@@ -279,6 +280,7 @@ ENG_secure_mediterranean_low_threat = {
 				}
 			}
 			NOT = { has_war_with = ITA }
+			enable_vnr_naval_ai = no
 		}
 	}
     ai_strategy = {
@@ -478,6 +480,7 @@ ENG_protect_atlantic_route = {
 				size > 49
 			}
 		}
+		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
@@ -1826,6 +1829,7 @@ USA_atlantic_war = {
 				JAP = { has_navy_size = { type = carrier size < 7 } }
 			}
 		}
+		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -1860,6 +1864,7 @@ USA_mediterranean_war = {
 				JAP = { has_navy_size = { type = carrier size < 7 } }
 			}
 		}
+		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -1924,6 +1929,7 @@ USA_defend_east_coast = {
 			has_war_with = GER
 			has_war_with = ITA
 		}
+		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
 
