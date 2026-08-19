@@ -1292,6 +1292,12 @@ equipment_modules = {
 		forbid_module_categories = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
+			ship_medium_battery
+			ship_medium_battery_double
+			ship_medium_battery_single
+			ship_medium_heavy_battery
+			ship_medium_heavy_battery_double
+			ship_cruiser_armor_heavy
 		}
 	}
 	ship_cruiser_camo_2 = {
@@ -1314,6 +1320,14 @@ equipment_modules = {
 		forbid_module_categories = {
 			ship_light_medium_battery
 			ship_light_medium_battery_double
+			ship_medium_battery
+			ship_medium_battery_double
+			ship_medium_battery_single
+			ship_medium_heavy_battery
+			ship_medium_heavy_battery_double
+			ship_cruiser_armor
+			ship_cruiser_armor_heavy
+			cruiser_ship_engine
 		}
 	}
 }
