@@ -142,6 +142,84 @@ ENG_protect_home_waters_low_threat = {
 	}
 }
 
+ENG_blockade_Germany = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		has_war_with = GER
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 49
+		value = 200
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 44
+		value = 200
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 47
+		value = 500
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 61
+		value = 200
+	}
+}
+
+ENG_blockade_Italy = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		has_war_with = ITA
+		enable_vnr_naval_ai = yes
+	}
+	abort = {
+		OR = {
+			any_core_state = {
+				is_controlled_by_ROOT_or_ally = no
+			}
+			AND = {
+				OR = {
+					has_enemy_naval_control = 16
+					has_enemy_naval_control = 18
+					has_enemy_naval_control = 43
+				}
+				GER = { is_ai = no }
+			}
+		}
+	}
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 29
+		value = 50
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 68
+		value = 50
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 69
+		value = 100
+	}
+	ai_strategy = {
+		type = strike_force_home_base
+		id = 69
+		value = 150
+	}
+}
+
 ENG_avoid_baltic = {
 	allowed = {
         original_tag = ENG
@@ -222,27 +300,6 @@ ENG_secure_mediterranean_high_threat = {
         value = 99
     }
 	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 29
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 68
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 69
-		value = 100
-	}
-	ai_strategy = {
-		type = strike_force_home_base
-		id = 69
-		value = 100
-	}
-
-	ai_strategy = {
 		type = front_unit_request
 		area = north_africa
 		value = 100
@@ -288,27 +345,6 @@ ENG_secure_mediterranean_low_threat = {
         id = vnr_eng_med_zones
         value = 90
     }
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 29
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 68
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 69
-		value = 100
-	}
-	ai_strategy = {
-		type = strike_force_home_base
-		id = 69
-		value = 100
-	}
-
 	ai_strategy = {
 		type = front_unit_request
 		area = north_africa
@@ -1461,18 +1497,6 @@ USA_pacific_war_naval_counterattack_1 = {
 		value = -100
 	}
 
-	# US submarine war
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 83
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 84
-		value = 500
-	}
-	
 	ai_strategy = {
 		type = invade
 		id = JAP
@@ -1482,12 +1506,7 @@ USA_pacific_war_naval_counterattack_1 = {
 		type = naval_invasion_focus
 		value = 1000
 	}
-	ai_strategy = {
-		type = convoy_raiding_target
-		id = JAP
-		value = 100
-	}
-
+	
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 633
@@ -1576,28 +1595,6 @@ USA_pacific_war_naval_counterattack_2 = {
 		value = 50
 	}
 
-	# US submarine war
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 83
-		value = 200
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 84
-		value = 200
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 94
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 78
-		value = 500
-	}
-
 	ai_strategy = {
 		type = invade
 		id = JAP
@@ -1608,12 +1605,6 @@ USA_pacific_war_naval_counterattack_2 = {
 		value = 1000
 	}
 	
-	ai_strategy = {
-		type = convoy_raiding_target
-		id = JAP
-		value = 100
-	}
-
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 645
@@ -1701,28 +1692,6 @@ USA_pacific_war_naval_counterattack_3 = {
 		value = 0
 	}
 
-	# US submarine war
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 76
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 90
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 94
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 78
-		value = 500
-	}
-
 	ai_strategy = {
 		type = invade
 		id = JAP
@@ -1733,12 +1702,6 @@ USA_pacific_war_naval_counterattack_3 = {
 		value = 1000
 	}
 	
-	ai_strategy = {
-		type = convoy_raiding_target
-		id = JAP
-		value = 100
-	}
-
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 526
@@ -1936,6 +1899,78 @@ USA_defend_east_coast = {
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_east_coast
+		value = 100
+	}
+}
+
+USA_unrestricted_submarine_warfare_1 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		has_war_with = JAP
+		629 = { is_controlled_by_ROOT_or_ally = yes }
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 83
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 84
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 94
+		value = 100
+	}
+	ai_strategy = {
+		type = convoy_raiding_target
+		id = JAP
+		value = 100
+	}
+}
+
+USA_unrestricted_submarine_warfare_2 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		has_war_with = JAP
+		645 = { is_controlled_by_ROOT_or_ally = yes }
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 83
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 84
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 94
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 75
+		value = 300
+	}
+
+	ai_strategy = {
+		type = convoy_raiding_target
+		id = JAP
 		value = 100
 	}
 }

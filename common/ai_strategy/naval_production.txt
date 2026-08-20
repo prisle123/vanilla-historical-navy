@@ -774,13 +774,13 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 100
+		value = 70
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 100
+		value = 90
 	}
 
 	ai_strategy = {
@@ -2801,7 +2801,7 @@ dockyard_building_target_GER_2 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 40
+		value = -15
 	}
 }
 
@@ -2815,7 +2815,7 @@ dockyard_building_target_GER_3 = {
 	abort = {
 		OR = {
 			has_war_with_major = no
-			num_of_naval_factories > 49
+			num_of_naval_factories > 44
 		}
 	}
 
@@ -2835,13 +2835,13 @@ dockyard_building_target_GER_4 = {
 		original_tag = GER
 	}
 	enable = {
-		num_of_naval_factories > 49
+		num_of_naval_factories > 44
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = -30
+		value = -50
 	}
 }
 
@@ -3161,7 +3161,7 @@ dockyard_building_target_generic_medium_2 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 10
+		value = -10
 	}
 }
 
@@ -3197,7 +3197,7 @@ dockyard_building_target_generic_medium_3 = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 15
+		value = 10
 	}
 }
 
@@ -3271,7 +3271,7 @@ dockyard_building_target_generic_big_2 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 15
+		value = 10
 	}
 }
 
@@ -3328,6 +3328,6 @@ dockyard_building_target_generic_big_4 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = -10
+		value = -20
 	}
 }

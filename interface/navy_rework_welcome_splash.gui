@@ -119,7 +119,7 @@ guiTypes = {
 
 				buttonType = {
 					name = "navy_rework_options_button"
-					position = { x = -220 y = -48 }
+					position = { x = -180 y = -48 }
 					orientation = center_down
 
 					quadTextureSprite = "GFX_play_button_ready"
@@ -131,7 +131,7 @@ guiTypes = {
 				}
 				buttonType = {
 					name = "navy_rework_manual_button_english"
-					position = { x = -40 y = -48 }
+					position = { x = 60 y = -48 }
 					orientation = center_down
 
 					quadTextureSprite = "GFX_play_button_ready"
@@ -143,7 +143,7 @@ guiTypes = {
 				}
 				buttonType = {
 					name = "navy_rework_manual_button_chinese"
-					position = { x = -40 y = -48 }
+					position = { x = 60 y = -48 }
 					orientation = center_down
 
 					quadTextureSprite = "GFX_play_button_ready"
