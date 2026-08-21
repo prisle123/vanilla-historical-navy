@@ -34,9 +34,16 @@ coverted_oceanic_replenishment = {
 
 	rewards = {
 		merchant_converted_tender = {
-			auxiliary_ship = {
-				surface_visibility = -0.25
-				max_strength = -0.25
+			equipment_bonus = {
+				convoy_1 = {
+					instant = yes
+					surface_visibility = -0.25
+				}
+				ship_hull_civilian = {
+					instant = yes
+					surface_visibility = -0.25
+					max_strength = -0.25
+				}
 			}
 		}
 		fuel_rationing = {
@@ -109,7 +116,7 @@ industrialized_naval_logistics = {
     }
 
     navy_fuel_consumption_factor = -0.15
-    transport_capacity = -0.1
+    transport_capacity = -0.15
 
 	rewards = {
 		firefighting_team = {
@@ -141,7 +148,7 @@ industrialized_naval_logistics = {
 			equipment_bonus = {
 				convoy_1 = {
 					instant = yes
-					build_cost_ic = -0.1
+					build_cost_ic = -0.15
 				}
 			}
 		}
@@ -211,24 +218,30 @@ trade_supply_network = {
 	supply_node_range = 0.075
     equipment_bonus = {
         convoy_1 = {
-            surface_visibility = -0.1
 			build_cost_ic = -0.1
             instant = yes
         }
     }
+	navy_max_range_factor = 0.05
 
 	rewards = {
 		oil_lifeline = {
 			modifier = {
 				production_speed_fuel_silo_factor = 0.2
 				max_fuel_factor = 0.1
-				navy_fuel_consumption_factor = -0.2
+				navy_fuel_consumption_factor = -0.1
 			}
 		}
 		transportation_network = {
 			modifier = {
 				transport_capacity = -0.15
 				license_production_speed = 0.1
+			}
+			equipment_bonus = {
+				convoy_1 = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
 			}
 		}
 		logisitics_opertional_research = {
@@ -247,11 +260,8 @@ trade_supply_network = {
 			medium_cruiser = {
 				supply_consumption = -0.02
 			}
-			equipment_bonus = {
-				convoy_1 = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
+			modifier = {
+				navy_fuel_consumption_factor = -0.1
 			}
 		}
 		damage_control_protocals = {
@@ -271,6 +281,7 @@ trade_supply_network = {
 			}
 			modifier = {
 				convoy_escort_efficiency = 0.1
+				convoy_retreat_speed = 0.1
 			}
 		}
 	}
@@ -284,6 +295,10 @@ centralized_logistics_planning = {
 
 	xp_cost = 75
 	xp_type = navy
+
+	visible = {
+        has_dlc = "No Compromise, No Surrender"
+    }
 
 	available = {
         OR = {
@@ -304,6 +319,7 @@ centralized_logistics_planning = {
 
 	navy_max_range_factor = 0.2
 	naval_coordination = -0.1
+
 	rewards = {
 		underway_replenishment_drill = {
 			modifier = {
@@ -312,6 +328,7 @@ centralized_logistics_planning = {
 			effect = {
 				if = {
 					limit = {
+						has_dlc = "Gotterdammerung"
 						ROOT = { NOT = { is_special_project_completed = sp:sp_naval_underway_replenishment } }
 					}
 					sp:sp_naval_underway_replenishment = {
@@ -360,7 +377,7 @@ centralized_logistics_planning = {
 				transport_capacity = -0.1
 			}
 		}
-		light_convoy_pack = {
+		convoy_separation = {
 			equipment_bonus = {
     		    convoy_1 = {
     		        surface_visibility = -0.1
