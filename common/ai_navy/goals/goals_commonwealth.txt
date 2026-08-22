@@ -1,0 +1,98 @@
+commonwealth_naval_invasion_support = {
+    objective_type = naval_invasion_support
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 4
+    max_priority = 10
+}
+
+commonwealth_mine_sweeping = {
+    objective_type = mines_sweeping
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 0
+    max_priority = 1
+}
+
+commonwealth_invasion_defense = {
+    objective_type = naval_invasion_defense
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 5
+    max_priority = 10
+}
+
+commonwealth_coast_defense = {
+    objective_type = coast_defense
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 1
+    max_priority = 10
+}
+
+commonwealth_convoy_protection = {
+    objective_type = convoy_protection
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 6
+    max_priority = 20
+}
+
+commonwealth_convoy_raiding = {
+    objective_type = convoy_raiding
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 3
+    max_priority = 10
+}
+
+commonwealth_naval_dominance = {
+    objective_type = naval_dominance
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 1
+    max_priority = 13
+}
+
+commonwealth_mine_laying = {
+    objective_type = mines_planting
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 1
+    max_priority = 2
+}
+
+commonwealth_training = {
+    objective_type = training
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 10
+    max_priority = 20
+}

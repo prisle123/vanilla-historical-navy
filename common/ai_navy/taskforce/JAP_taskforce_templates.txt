@@ -12,7 +12,7 @@ JAP_StrikeForce_1 = {
 			amount = 2
 		}
 		light_cruiser = {
-			amount = 6
+			amount = 3
 		}
 	}
 	
@@ -59,7 +59,7 @@ JAP_StrikeForce_BC_1 = {
 			amount = 2
 		}
 		light_cruiser = {
-			amount = 6
+			amount = 3
 		}
 	}
 	
@@ -115,8 +115,11 @@ JAP_PatrolDominanceForce_1 = {
 		heavy_cruiser = {
 			amount = 1
 		}
-		destroyer = {
+		light_cruiser = {
 			amount = 4
+		}
+		destroyer = {
+			amount = 6
 		}
 	}
 

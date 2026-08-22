@@ -158,6 +158,8 @@ naval_unit_role_ratios_minors_coastal = {
 				tag = FRA
 				tag = USA
 				tag = SOV
+				tag = CAN
+				tag = AST
 			}
 		}
 	}
@@ -191,6 +193,8 @@ naval_unit_role_ratios_minors_defensive = {
 				tag = FRA
 				tag = USA
 				tag = SOV
+				tag = CAN
+				tag = AST
 			}
 		}
 	}
@@ -237,6 +241,8 @@ naval_unit_role_ratios_minors_offensive = {
 				tag = FRA
 				tag = USA
 				tag = SOV
+				tag = CAN
+				tag = AST
 			}
 		}
 	}
@@ -289,6 +295,8 @@ naval_unit_role_ratios_minors_global = {
 				tag = FRA
 				tag = USA
 				tag = SOV
+				tag = CAN
+				tag = AST
 			}
 		}
 	}
@@ -846,6 +854,65 @@ naval_unit_role_ratios_ENG_late_peace = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 30
+	}
+}
+
+### Commonwealth ###
+
+naval_unit_role_ratios_commonwealth_prewar = {
+	allowed = {
+		OR = {
+			tag = CAN
+			tag = AST
+		}
+	}
+	enable = {
+		has_war_with_major = no
+		date < 1940.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 60
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 10
+	}
+}
+
+naval_unit_role_ratios_commonwealth_late = {
+	allowed = {
+		OR = {
+			tag = CAN
+			tag = AST
+		}
+	}
+	enable = {
+		OR = {
+			has_war_with_major = yes
+			date > 1939.12.31
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 50
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 10
 	}
 }
 
@@ -3329,5 +3396,77 @@ dockyard_building_target_generic_big_4 = {
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
 		value = -20
+	}
+}
+
+# Commandwealth 
+dockyard_building_target_commonwealth_1 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		num_of_naval_factories < 10
+		is_in_faction_with = ENG
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 10
+	}
+}
+
+dockyard_building_target_commonwealth_2 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		num_of_naval_factories > 9
+		num_of_naval_factories < 15
+		is_in_faction_with = ENG
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
+	}
+}
+
+dockyard_building_target_commonwealth_3 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_war_with_major = yes
+		num_of_naval_factories < 20
+		is_in_faction_with = ENG
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 15
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
 	}
 }

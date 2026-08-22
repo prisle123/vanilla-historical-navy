@@ -1,0 +1,80 @@
+# must-haves
+commonwealth_strike_fleet_1 = {
+	required_taskforces = {
+		commonwealth_StrikeForce_1 = 1
+	}
+}
+
+commonwealth_patrol_fleet_1 = {
+	required_taskforces = {
+		commonwealth_PatrolReconForce_1 = 2
+	}
+}
+
+commonwealth_escort_fleet_1 = {
+	required_taskforces = {
+		commonwealth_ConvoyEscort_1 = 2
+	}
+}
+
+commonwealth_raiding_fleet_1 = {
+	required_taskforces = {
+		commonwealth_ConvoyRaiding_1 = 2
+	}
+	optional_taskforces = {
+		commonwealth_ConvoyRaiding_1 = 2
+	}
+}
+
+# advance fleets
+commonwealth_patrol_fleet_2 = {
+	required_taskforces = {
+		commonwealth_PatrolReconForce_1 = 4
+	}
+}
+
+commonwealth_escort_fleet_2 = {
+	required_taskforces = {
+		commonwealth_ConvoyEscort_1 = 4
+	}
+}
+
+commonwealth_dominance_fleet_2 = {
+	required_taskforces = {
+		commonwealth_PatrolDominanceForce_CA_1 = 1
+	}
+}
+
+# optional fleets
+commonwealth_strike_fleet_3 = {
+	required_taskforces = {
+		commonwealth_StrikeForce_1 = 1
+	}
+}
+
+commonwealth_patrol_fleet_3 = {
+	required_taskforces = {
+		commonwealth_PatrolReconForce_1 = 1
+	}
+	optional_taskforces = {
+		commonwealth_PatrolReconForce_1 = 1
+	}
+}
+
+commonwealth_escort_fleet_3 = {
+	required_taskforces = {
+		commonwealth_ConvoyEscort_1 = 1
+	}
+	optional_taskforces = {
+		commonwealth_ConvoyEscort_1 = 1
+	}
+}
+
+commonwealth_dominance_fleet_3 = {
+	required_taskforces = {
+		commonwealth_PatrolDominanceForce_CA_1 = 1
+	}
+	optional_taskforces = {
+		commonwealth_PatrolDominanceForce_CA_1 = 1
+	}
+}

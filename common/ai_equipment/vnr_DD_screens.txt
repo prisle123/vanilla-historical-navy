@@ -15,7 +15,7 @@ naval_screen = {
 		}
 
 		enable = {
-			not = { has_tech = basic_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
+			# not = { has_tech = basic_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
 		}
 
 		
@@ -57,7 +57,7 @@ naval_screen = {
 		}
 
 		enable = {
-			not = { has_tech = interwar_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
+			# not = { has_tech = interwar_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
 		}
 
 		
