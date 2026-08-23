@@ -524,6 +524,11 @@ ENG_protect_atlantic_route = {
 		id = vnr_eng_atlantic_route
 		value = 85
 	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 42
+		value = 200
+	}
 }
 
 ### JAP ###

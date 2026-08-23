@@ -41,7 +41,7 @@ USA_patrol_fleet_2 = {
 }
 USA_escort_fleet_2 = {
 	required_taskforces = {
-		USA_ConvoyEscort_1 = 2
+		USA_ConvoyEscort_1 = 6
 	}
 }
 USA_strike_fleet_2 = {
@@ -90,10 +90,10 @@ USA_strike_fleet_3 = {
 }
 USA_escort_fleet_3 = {
 	required_taskforces = {
-		USA_ConvoyEscort_1 = 1
+		USA_ConvoyEscort_1 = 3
 	}
 	optional_taskforces = {
-		USA_ConvoyEscort_1 = 4
+		USA_ConvoyEscort_1 = 3
 	}
 }
 USA_dominance_fleet_3 = {

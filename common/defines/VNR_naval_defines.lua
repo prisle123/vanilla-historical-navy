@@ -125,7 +125,7 @@ NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CONVOY = 2   -- As Above (was 4)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 3   -- As Above (was 7)
 -- dynamic plane cap ends
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 15   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
-NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 8   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 12)
+NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 12   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 12)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.8   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
 --NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
 --NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
@@ -138,7 +138,7 @@ NDefines.NAir.CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 60   -- below this amount 
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.01   -- Max planes that can join a combat comparing to the total strength of the ships (was 0.05)
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 30   -- Min cap for planes that can join naval combat (was 20)
 NDefines.NAir.REINFORCEMENT_DISABLING_DURATION_IN_LAND_CARRIER_TRANSFER = 12   -- The reinforcement disabling duration in hours when transfering from land to carrier and vice versa (was 48)
-NDefines.NAir.NAVAL_STRIKE_TARGETTING_TO_AMOUNT = 0.2   -- Balancing value to convert the naval_strike_targetting equipment stats to chances of how many airplanes managed to do successfull strike. (was 0.3)
+NDefines.NAir.NAVAL_STRIKE_TARGETTING_TO_AMOUNT = 0.3   -- Balancing value to convert the naval_strike_targetting equipment stats to chances of how many airplanes managed to do successfull strike. (was 0.3)
 
 
 --War Score
