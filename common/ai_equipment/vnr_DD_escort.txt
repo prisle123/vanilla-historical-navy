@@ -15,6 +15,7 @@ naval_screen_escort = {
 
 		enable = {
 			# not = { has_tech = basic_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
+			has_tech = escort_destroyer_trend
 		}
 
 		
@@ -54,6 +55,7 @@ naval_screen_escort = {
 
 		enable = {
 			# not = { has_tech = interwar_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
+			has_tech = escort_destroyer_trend
 		}
 
 		
@@ -90,7 +92,9 @@ naval_screen_escort = {
 		priority = {
 			base = 50
 		}
-
+		enable = {
+			has_tech = escort_destroyer_trend
+		}
 		
 		history = yes
 		target_variant = {
@@ -126,7 +130,9 @@ naval_screen_escort = {
 		priority = {
 			base = 80
 		}
-
+		enable = {
+			has_tech = escort_destroyer_trend
+		}
 		
 		history = yes
 		target_variant = {
@@ -163,7 +169,9 @@ naval_screen_escort = {
 		priority = {
 			base = 100
 		}
-
+		enable = {
+			has_tech = escort_destroyer_trend
+		}
 		
 		history = yes
 		target_variant = {
