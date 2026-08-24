@@ -13,7 +13,10 @@ commonwealth_patrol_fleet_1 = {
 
 commonwealth_escort_fleet_1 = {
 	required_taskforces = {
-		commonwealth_ConvoyEscort_1 = 2
+		commonwealth_ConvoyEscort_1 = 1
+	}
+	optional_taskforces = {
+		commonwealth_ConvoyEscort_2 = 2
 	}
 }
 
@@ -29,13 +32,17 @@ commonwealth_raiding_fleet_1 = {
 # advance fleets
 commonwealth_patrol_fleet_2 = {
 	required_taskforces = {
-		commonwealth_PatrolReconForce_1 = 4
+		commonwealth_PatrolReconForce_1 = 2
 	}
 }
 
 commonwealth_escort_fleet_2 = {
 	required_taskforces = {
-		commonwealth_ConvoyEscort_1 = 4
+		commonwealth_ConvoyEscort_1 = 2
+		commonwealth_ConvoyEscort_2 = 2
+	}
+	optional_taskforces = {
+		commonwealth_ConvoyEscort_2 = 2
 	}
 }
 
@@ -63,10 +70,10 @@ commonwealth_patrol_fleet_3 = {
 
 commonwealth_escort_fleet_3 = {
 	required_taskforces = {
-		commonwealth_ConvoyEscort_1 = 1
+		commonwealth_ConvoyEscort_2 = 2
 	}
 	optional_taskforces = {
-		commonwealth_ConvoyEscort_1 = 1
+		commonwealth_ConvoyEscort_2 = 4
 	}
 }
 

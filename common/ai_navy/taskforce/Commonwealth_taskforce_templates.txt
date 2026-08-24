@@ -148,3 +148,29 @@ commonwealth_ConvoyEscort_1 = {
 		}
 	}
 }
+
+commonwealth_ConvoyEscort_2 = {
+	allowed = {
+		OR = {
+			original_tag = CAN
+			original_tag = AST
+		}
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		destroyer = {
+			amount = 5
+			role = 35
+		}
+	}
+
+	optimal_composition = {
+		destroyer = {
+			amount = 5
+			role = 35
+		}
+	}
+}

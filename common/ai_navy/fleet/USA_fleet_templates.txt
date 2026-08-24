@@ -3,15 +3,13 @@ USA_escort_fleet_1 = {
 	required_taskforces = {
 		USA_ConvoyEscort_1 = 6
 	}
+	optional_taskforces = {
+		USA_ConvoyEscort_2 = 2
+	}
 }
 USA_patrol_fleet_1 = {
 	required_taskforces = {
 		USA_PatrolReconForce_1 = 4
-	}
-}
-USA_support_fleet_1 = {
-	required_taskforces = {
-		USA_InvasionSupport_1 = 1
 	}
 }
 USA_strike_fleet_1 = {
@@ -43,6 +41,9 @@ USA_escort_fleet_2 = {
 	required_taskforces = {
 		USA_ConvoyEscort_1 = 6
 	}
+	optional_taskforces = {
+		USA_ConvoyEscort_2 = 4
+	}
 }
 USA_strike_fleet_2 = {
 	required_taskforces = {
@@ -62,22 +63,19 @@ USA_raiding_fleet_2 = {
 		USA_ConvoyRaiding_1 = 4
 	}
 }
-
-# optional fleets
-USA_support_fleet_3 = {
+USA_support_fleet_2 = {
 	required_taskforces = {
 		USA_InvasionSupport_1 = 1
 	}
-	optional_taskforces = {
-		USA_InvasionSupport_1 = 1
-	}
 }
+
+# optional fleets
 USA_patrol_fleet_3 = {
 	required_taskforces = {
 		USA_PatrolReconForce_1 = 2
 	}
 	optional_taskforces = {
-		USA_PatrolReconForce_1 = 4
+		USA_PatrolReconForce_1 = 6
 	}
 }
 USA_strike_fleet_3 = {
@@ -94,6 +92,15 @@ USA_escort_fleet_3 = {
 	}
 	optional_taskforces = {
 		USA_ConvoyEscort_1 = 3
+		USA_ConvoyEscort_2 = 6
+	}
+}
+USA_support_fleet_3 = {
+	required_taskforces = {
+		USA_InvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		USA_InvasionSupport_1 = 1
 	}
 }
 USA_dominance_fleet_3 = {

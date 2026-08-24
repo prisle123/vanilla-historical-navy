@@ -793,6 +793,12 @@ naval_unit_role_ratios_ENG_atwar = {
 
 	ai_strategy = {
 		type = role_ratio
+		id = vnr_naval_screen_escort
+		value = 100
+	}
+
+	ai_strategy = {
+		type = role_ratio
 		id = vnr_naval_screen
 		value = 450
 	}
@@ -903,6 +909,11 @@ naval_unit_role_ratios_commonwealth_late = {
 		type = role_ratio
 		id = vnr_naval_submarine
 		value = 50
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen_escort
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1572,6 +1583,11 @@ naval_unit_role_ratios_USA_atwar = {
 		type = role_ratio
 		id = vnr_naval_submarine
 		value = 800
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen_escort
+		value = 100
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -3189,6 +3205,8 @@ dockyard_building_target_generic_medium_1 = {
 				original_tag = JAP
 				original_tag = ENG
 				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
 			}
 		}
 	}
@@ -3214,6 +3232,8 @@ dockyard_building_target_generic_medium_2 = {
 				original_tag = JAP
 				original_tag = ENG
 				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
 			}
 		}
 	}
@@ -3240,6 +3260,8 @@ dockyard_building_target_generic_medium_3 = {
 				original_tag = JAP
 				original_tag = ENG
 				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
 			}
 		}
 	}
@@ -3276,6 +3298,8 @@ dockyard_building_target_generic_medium_4 = {
 				original_tag = JAP
 				original_tag = ENG
 				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
 			}
 		}
 	}
@@ -3301,6 +3325,8 @@ dockyard_building_target_generic_big_1 = {
 				original_tag = JAP
 				original_tag = ENG
 				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
 			}
 		}
 	}
@@ -3325,6 +3351,8 @@ dockyard_building_target_generic_big_2 = {
 				original_tag = JAP
 				original_tag = ENG
 				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
 			}
 		}
 	}
@@ -3350,6 +3378,8 @@ dockyard_building_target_generic_big_3 = {
 				original_tag = JAP
 				original_tag = ENG
 				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
 			}
 		}
 	}
@@ -3384,6 +3414,8 @@ dockyard_building_target_generic_big_4 = {
 				original_tag = JAP
 				original_tag = ENG
 				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
 			}
 		}
 	}

@@ -169,6 +169,29 @@ ENG_ConvoyEscort_1 = {
 	}
 }
 
+ENG_ConvoyEscort_2 = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		destroyer = {
+			amount = 5
+			role = 35
+		}
+	}
+	
+	optimal_composition = {
+		destroyer = {
+			amount = 5
+			role = 35
+		}
+	}
+}
+
 ENG_InvasionSupport_1 = {
 	allowed = {
 		original_tag = ENG

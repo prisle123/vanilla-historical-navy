@@ -213,11 +213,6 @@ ENG_blockade_Italy = {
 		id = 69
 		value = 100
 	}
-	ai_strategy = {
-		type = strike_force_home_base
-		id = 69
-		value = 150
-	}
 }
 
 ENG_avoid_baltic = {
@@ -506,7 +501,10 @@ ENG_reinforce_pacific = {
 
 ENG_protect_atlantic_route = {
 	allowed = {
-		original_tag = ENG
+		OR = {
+			original_tag = ENG
+			original_tag = CAN
+		}
 	}
 	enable = {
 		has_war_with = GER
