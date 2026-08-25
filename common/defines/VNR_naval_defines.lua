@@ -405,8 +405,8 @@ NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 2   -- XP cost for adding a 
 NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 3   -- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant. (was 6)
 NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 1   -- XP cost for converting one equipment module to a related module when creating an equipment variant. (was 3)
 NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 1   -- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
-NDefines.NProduction.BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.16   -- Fraction of the hull industry cost which is always included in the refitting cost. (was 0.2)
-NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.5   -- Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost. (was 0.2)
+NDefines.NProduction.BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.1   -- Fraction of the hull industry cost which is always included in the refitting cost. (was 0.2)
+NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.2   -- Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost. (was 0.2)
 
 -----------------
 --Intel Defines--

@@ -418,32 +418,26 @@ equipments = {
 		module_count_limit = {
 			module = ship_heavy_battery_2
 			count < 1
-			title = coastal_defense_ship_heavy_gun_limit_tt
 		}
 		module_count_limit = {
 			module = ship_heavy_battery_3
 			count < 1
-			title = coastal_defense_ship_heavy_gun_limit_tt
 		}
 		module_count_limit = {
 			module = ship_heavy_battery_4
 			count < 1
-			title = coastal_defense_ship_heavy_gun_limit_tt
 		}
 		module_count_limit = {
 			module = ship_heavy_battery_2_triple
 			count < 1
-			title = coastal_defense_ship_heavy_gun_limit_tt
 		}
 		module_count_limit = {
 			module = ship_heavy_battery_3_triple
 			count < 1
-			title = coastal_defense_ship_heavy_gun_limit_tt
 		}
 		module_count_limit = {
 			module = ship_heavy_battery_4_triple
 			count < 1
-			title = coastal_defense_ship_heavy_gun_limit_tt
 		}
 		naval_dominance_factor = 20
 	}

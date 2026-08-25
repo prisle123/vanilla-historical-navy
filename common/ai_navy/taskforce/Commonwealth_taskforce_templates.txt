@@ -19,7 +19,6 @@ commonwealth_StrikeForce_1 = {
 		}
 		destroyer = {
 			amount = 4
-			role = 31
 		}
 	}
 	
@@ -38,7 +37,6 @@ commonwealth_StrikeForce_1 = {
 		}
 		destroyer = {
 			amount = 15
-			role = 31
 		}
 	}
 }
@@ -58,13 +56,11 @@ commonwealth_PatrolReconForce_1 = {
 	min_composition = {
 		destroyer = {
 			amount = 5
-			role = 31
 		}
 	}
 	optimal_composition = {
 		destroyer = {
 			amount = 5
-			role = 31
 		}
 	}
 }
@@ -88,7 +84,6 @@ commonwealth_PatrolDominanceForce_CA_1 = {
 		}
 		destroyer = {
 			amount = 4
-			role = 31
 		}
 	}
 
@@ -101,7 +96,6 @@ commonwealth_PatrolDominanceForce_CA_1 = {
 		}
 		destroyer = {
 			amount = 8
-			role = 31
 		}
 	}
 }
@@ -145,14 +139,12 @@ commonwealth_ConvoyEscort_1 = {
 	min_composition = {
 		destroyer = {
 			amount = 5
-			role = 31
 		}
 	}
 
 	optimal_composition = {
 		destroyer = {
 			amount = 5
-			role = 31
 		}
 	}
 }
