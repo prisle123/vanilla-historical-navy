@@ -65,14 +65,6 @@ ENG_dominance_fleet_2 = {
 		ENG_PatrolDominanceForce_1 = 2
 	}
 }
-ENG_support_fleet_2 = {
-	required_taskforces = {
-		ENG_InvasionSupport_1 = 1
-	}
-	optional_taskforces = {
-		ENG_InvasionSupport_1 = 1
-	}
-}
 ENG_raiding_fleet_2 = {
 	required_taskforces = {
 		ENG_ConvoyRaiding_1 = 4

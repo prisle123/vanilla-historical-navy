@@ -28,6 +28,7 @@ ENG_StrikeForce_1 = {
 		}
 		destroyer = {
 			amount = 16
+			role = 31
 		}
 	}
 }
@@ -72,6 +73,7 @@ ENG_StrikeForce_BC_1 = {
 		}
 		destroyer = {
 			amount = 16
+			role = 31
 		}
 	}
 }
@@ -87,11 +89,13 @@ ENG_PatrolReconForce_1 = {
 	min_composition = {
 		destroyer = {
 			amount = 5
+			role = 31
 		}
 	}	
 	optimal_composition = {
 		destroyer = {
 			amount = 5
+			role = 31
 		}
 	}
 }
@@ -111,6 +115,7 @@ ENG_PatrolDominanceForce_1 = {
 		}
 		destroyer = {
 			amount = 4
+			role = 31
 		}
 	}
 	optimal_composition = {
@@ -122,6 +127,7 @@ ENG_PatrolDominanceForce_1 = {
 		}
 		destroyer = {
 			amount = 8
+			role = 31
 		}
 	}
 }
@@ -159,12 +165,14 @@ ENG_ConvoyEscort_1 = {
 	min_composition = {
 		destroyer = {
 			amount = 5
+			role = 31
 		}
 	}
 	
 	optimal_composition = {
 		destroyer = {
 			amount = 5
+			role = 31
 		}
 	}
 }
@@ -207,6 +215,7 @@ ENG_InvasionSupport_1 = {
 		}
 		destroyer = {
 			amount = 4
+			role = 31
 		}
 	}
 	optimal_composition = {
@@ -217,7 +226,8 @@ ENG_InvasionSupport_1 = {
 			amount = 2
 		}
 		destroyer = {
-			amount = 10
+			amount = 6
+			role = 31
 		}
 	}
 }
