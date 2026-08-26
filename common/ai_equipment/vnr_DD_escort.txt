@@ -65,7 +65,7 @@ naval_screen_escort = {
 
 			type = vnr_ship_hull_light_2
 			modules = {
-				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_engine_slot = light_ship_engine_2
 				fixed_ship_battery_slot = ship_light_battery
 				fixed_ship_radar_slot = { any_of = { ship_sonar ship_mast } }
 				fixed_ship_anti_air_slot = ship_anti_air_1
@@ -102,7 +102,7 @@ naval_screen_escort = {
 
 			type = vnr_ship_hull_light_3
 			modules = {
-				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_engine_slot = light_ship_engine_3
 				fixed_ship_battery_slot = ship_light_battery
 				fixed_ship_radar_slot = { any_of = { ship_sonar ship_mast } }
 				fixed_ship_anti_air_slot = ship_anti_air_1
@@ -140,7 +140,7 @@ naval_screen_escort = {
 
 			type = vnr_ship_hull_light_4
 			modules = {
-				fixed_ship_engine_slot = light_ship_engine_3
+				fixed_ship_engine_slot = light_ship_engine_4
 				fixed_ship_battery_slot = ship_light_battery
 				fixed_ship_radar_slot = ship_sonar
 				fixed_ship_anti_air_slot = ship_anti_air_2
@@ -179,7 +179,7 @@ naval_screen_escort = {
 
 			type = vnr_ship_hull_light_5
 			modules = {
-				fixed_ship_engine_slot = light_ship_engine_4
+				fixed_ship_engine_slot = light_ship_engine_5
 				fixed_ship_battery_slot = { any_of = { ship_asw_battery_1 ship_light_battery_3 } }
 				fixed_ship_radar_slot = ship_sonar
 				fixed_ship_anti_air_slot = ship_anti_air_3
