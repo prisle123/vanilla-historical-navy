@@ -794,7 +794,7 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen_escort
-		value = 100
+		value = 200
 	}
 
 	ai_strategy = {
@@ -1587,7 +1587,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen_escort
-		value = 100
+		value = 300
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -3013,7 +3013,7 @@ dockyard_building_target_ENG_5 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = -10
+		value = 5
 	}
 }
 
@@ -3046,7 +3046,7 @@ dockyard_building_target_USA_2 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 40
+		value = 30
 	}
 }
 
@@ -3071,7 +3071,7 @@ dockyard_building_target_USA_3 = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 60
+		value = 100
 	}
 }
 
@@ -3087,7 +3087,7 @@ dockyard_building_target_USA_4 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 20
+		value = 25
 	}
 }
 
@@ -3097,12 +3097,28 @@ dockyard_building_target_USA_5 = {
 	}
 	enable = {
 		num_of_naval_factories > 139
+		num_of_naval_factories < 200
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = -20
+		value = 10
+	}
+}
+
+dockyard_building_target_USA_6 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		num_of_naval_factories > 199
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = -10
 	}
 }
 

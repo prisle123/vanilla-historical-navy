@@ -1,8 +1,12 @@
 # must-haves
 USA_escort_fleet_1 = {
 	required_taskforces = {
-		USA_ConvoyEscort_1 = 5
-		USA_ConvoyEscort_2 = 2
+		USA_ConvoyEscort_1 = 6
+	}
+}
+USA_convoy_fleet_1 = {
+	required_taskforces = {
+		USA_ConvoyEscort_2 = 4
 	}
 }
 USA_patrol_fleet_1 = {
@@ -37,7 +41,11 @@ USA_patrol_fleet_2 = {
 }
 USA_escort_fleet_2 = {
 	required_taskforces = {
-		USA_ConvoyEscort_1 = 4
+		USA_ConvoyEscort_1 = 5
+	}
+}
+USA_convoy_fleet_2 = {
+	required_taskforces = {
 		USA_ConvoyEscort_2 = 4
 	}
 	optional_taskforces = {
@@ -87,19 +95,22 @@ USA_strike_fleet_3 = {
 }
 USA_escort_fleet_3 = {
 	required_taskforces = {
-		USA_ConvoyEscort_1 = 3
-		USA_ConvoyEscort_2 = 3
+		USA_ConvoyEscort_1 = 4
 	}
 	optional_taskforces = {
 		USA_ConvoyEscort_1 = 2
-		USA_ConvoyEscort_2 = 3
+	}
+}
+USA_convoy_fleet_3 = {
+	required_taskforces = {
+		USA_ConvoyEscort_2 = 4
+	}
+	optional_taskforces = {
+		USA_ConvoyEscort_2 = 6
 	}
 }
 USA_support_fleet_3 = {
 	required_taskforces = {
-		USA_InvasionSupport_1 = 1
-	}
-	optional_taskforces = {
 		USA_InvasionSupport_1 = 1
 	}
 }
