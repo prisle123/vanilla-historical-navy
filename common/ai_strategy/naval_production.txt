@@ -794,7 +794,7 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen_escort
-		value = 200
+		value = 250
 	}
 
 	ai_strategy = {
@@ -1587,7 +1587,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen_escort
-		value = 300
+		value = 350
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -2146,6 +2146,26 @@ we_need_convoys_majors3 = {
 		type = equipment_production_min_factories
 		id = convoy
 		value = 2
+	}
+}
+
+we_need_convoy_escort_allies = {
+	allowed = {
+		OR = {
+			tag = ENG
+			tag = USA
+		}
+	}
+	enable = {
+		stockpile_ratio = { archetype = convoy ratio < 500 }
+		has_war_with_major = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen_escort
+		value = 500
 	}
 }
 
