@@ -2440,8 +2440,13 @@ we_need_cv_fighters_1 = {
 		always = yes
 	}
 	enable = {
-		has_navy_size = { size > 0 type = carrier }
-		has_navy_size = { size < 4 type = carrier }
+		OR = {
+			AND = {
+				has_navy_size = { size > 0 type = carrier }
+				has_navy_size = { size < 4 type = carrier }
+			}
+			num_of_military_factories < 60
+		}
 	}
 	abort = {
 		OR = {
@@ -2466,7 +2471,7 @@ we_need_cv_fighters_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		has_navy_size = { size < 8 type = carrier }
+		num_of_military_factories > 59
 	}
 	abort = {
 		OR = {
@@ -2474,7 +2479,11 @@ we_need_cv_fighters_2 = {
 				cv_small_plane_airframe > 380
 			}
 			has_navy_size = { size < 4 type = carrier }
-			has_navy_size = { size > 7 type = carrier }
+			num_of_military_factories < 60
+			AND = {
+				has_navy_size = { size > 7 type = carrier }
+				num_of_military_factories > 89
+			}
 		}
 	}
 
@@ -2491,6 +2500,7 @@ we_need_cv_fighters_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
+		num_of_military_factories > 89
 	}
 	abort = {
 		OR = {
@@ -2498,6 +2508,7 @@ we_need_cv_fighters_3 = {
 				cv_small_plane_airframe > 560
 			}
 			has_navy_size = { size < 8 type = carrier }
+			num_of_military_factories < 90
 		}
 	}
 
@@ -2532,8 +2543,13 @@ we_need_cv_naval_bombers_1 = {
 		always = yes
 	}
 	enable = {
-		has_navy_size = { size > 0 type = carrier }
-		has_navy_size = { size < 4 type = carrier }
+		OR = {
+			AND = {
+				has_navy_size = { size > 0 type = carrier }
+				has_navy_size = { size < 4 type = carrier }
+			}
+			num_of_military_factories < 60
+		}
 	}
 	abort = {
 		OR = {
@@ -2558,7 +2574,7 @@ we_need_cv_naval_bombers_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		has_navy_size = { size < 8 type = carrier }
+		num_of_military_factories > 59
 	}
 	abort = {
 		OR = {
@@ -2566,7 +2582,11 @@ we_need_cv_naval_bombers_2 = {
 				cv_small_plane_naval_bomber_airframe > 380
 			}
 			has_navy_size = { size < 4 type = carrier }
-			has_navy_size = { size > 7 type = carrier }
+			num_of_military_factories < 60
+			AND = {
+				has_navy_size = { size > 7 type = carrier }
+				num_of_military_factories > 89
+			}
 		}
 	}
 
@@ -2583,6 +2603,7 @@ we_need_cv_naval_bombers_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
+		num_of_military_factories > 89
 	}
 	abort = {
 		OR = {
@@ -2590,6 +2611,7 @@ we_need_cv_naval_bombers_3 = {
 				cv_small_plane_naval_bomber_airframe > 560
 			}
 			has_navy_size = { size < 8 type = carrier }
+			num_of_military_factories < 90
 		}
 	}
 
@@ -2624,8 +2646,13 @@ we_need_cv_cas_1 = {
 		always = yes
 	}
 	enable = {
-		has_navy_size = { size > 0 type = carrier }
-		has_navy_size = { size < 4 type = carrier }
+		OR = {
+			AND = {
+				has_navy_size = { size > 0 type = carrier }
+				has_navy_size = { size < 4 type = carrier }
+			}
+			num_of_military_factories < 60
+		}
 	}
 	abort = {
 		OR = {
@@ -2634,6 +2661,7 @@ we_need_cv_cas_1 = {
 			}
 			has_navy_size = { size < 1 type = carrier }
 			has_navy_size = { size > 3 type = carrier }
+			num_of_military_factories < 30
 		}
 	}
 
@@ -2650,7 +2678,7 @@ we_need_cv_cas_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		has_navy_size = { size < 8 type = carrier }
+		num_of_military_factories > 59
 	}
 	abort = {
 		OR = {
@@ -2658,7 +2686,11 @@ we_need_cv_cas_2 = {
 				cv_small_plane_cas_airframe > 380
 			}
 			has_navy_size = { size < 4 type = carrier }
-			has_navy_size = { size > 7 type = carrier }
+			num_of_military_factories < 60
+			AND = {
+				has_navy_size = { size > 7 type = carrier }
+				num_of_military_factories > 89
+			}
 		}
 	}
 
@@ -2675,6 +2707,7 @@ we_need_cv_cas_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
+		num_of_military_factories > 89
 	}
 	abort = {
 		OR = {
@@ -2682,6 +2715,7 @@ we_need_cv_cas_3 = {
 				cv_small_plane_cas_airframe > 560
 			}
 			has_navy_size = { size < 8 type = carrier }
+			num_of_military_factories < 90
 		}
 	}
 
