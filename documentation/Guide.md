@@ -251,7 +251,7 @@ Unlocks following doctrines:
 | Floating Airfields | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
 | Subsidiary Carrier Support | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Trade & Supply Network |
 | Naval Airforce | Coastal Defense Fleet | Hunter Killer Groups | Coverted Denial | Defensive Combat Support |
-| Airspace Denial | Monitor Support | Torpedo Flotilla |  |  |
+| Airspace Denial | Monitor Support | Torpedo Flotilla |  | Centralized Logistics Planning |
 
 **Commerce Raiding**
 
@@ -264,7 +264,7 @@ Unlocks following doctrines:
 | Floating Airfields | Specialized Scouting Fleet | Convoy Escort | Wolfpacks | Coverted Oceanic Replenishment |
 | Subsidiary Carrier Support | Armored Raiders | Integrated Operations | Coverted Denial | Trade & Supply Network |
 | Naval Airforce | Coastal Defense Fleet | The New School | Operational Autonomy | Defensive Combat Support |
-| Airspace Denial |  |  |  |  |
+| Airspace Denial |  |  |  | Centralized Logistics Planning |
 
 **Air-Sea Operation**
 
@@ -277,7 +277,7 @@ Unlocks following doctrines:
 | Carrier Taskforce | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
 | Floating Airfields | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Coverted Oceanic Replenishment |
 | Carrier Concentration | Taskforce Guardian | Hunter Killer Groups | Operational Autonomy | Trade & Supply Network |
-| Airspace Denial |  | Torpedo Flotilla |  |  |
+| Airspace Denial |  | Torpedo Flotilla |  | Centralized Logistics Planning |
 
 **Littoral Defense**
 
@@ -409,6 +409,10 @@ Very hard to acquire as minor powers since it needs many dockyards or civilian f
 
 A doctrine used to boost combined war effort between overlord and puppets, with inferior but decent bonuses compared to *Industrialized Naval Logistics*.
 
+**Centralized Logistics Planning**
+
+A doctrine emphasizes range boosting and supply consumption management for as many types of ships possible, though at the cost of fleet coordination and convoy escort efficiency. It also grants 35% progress to underway replenishment project once tier-1 mastery reached.
+
 **Defensive Combat Support**
 
 While being very passive on supporting a grand fleet, this doctrine has some good modifiers for defending sides in the war (not very good for invader).
@@ -431,7 +435,7 @@ Besides, make sure your fleet has a min speed over 30kn, this is extremely impor
 
 ### Combat Duration ###
 
-To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 25th hour to fire.
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. 20 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 24th hour to fire.
 
 ### Carrier System ###
 
