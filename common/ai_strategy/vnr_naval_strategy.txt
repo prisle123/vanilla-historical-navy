@@ -1443,6 +1443,9 @@ USA_do_not_waste_fleet_in_north_pacific = {
 }
 
 USA_pacific_war_naval_counterattack_1 = {
+	# form outer defense circle at Midway and Bismarck Sea
+	# patrol Pearl Harbor and defend it at all cost
+	# start taking Marshall islands and Caroline islands
     allowed = {
         original_tag = USA
     }
@@ -1556,6 +1559,9 @@ USA_pacific_war_naval_counterattack_1 = {
 }
 
 USA_pacific_war_naval_counterattack_2 = {
+	# use Marshall islands and Turuk as advancing bases
+	# liberate Philippines, take Iwo Jima
+	# secondary forces into Indonesia theater
     allowed = {
         original_tag = USA
     }
@@ -1648,6 +1654,10 @@ USA_pacific_war_naval_counterattack_2 = {
 }
 
 USA_pacific_war_naval_counterattack_3 = {
+	# use Iwo Jima as advancing base
+	# keep control over Philippines
+	# move superior forces into East China Sea, take Okinawa
+	# secondary forces into South China Sea, help Brits
     allowed = {
         original_tag = USA
     }
@@ -1745,6 +1755,7 @@ USA_pacific_war_naval_counterattack_3 = {
 }
 
 US_marine_corps = {
+	# more devil dogs
 	allowed = {
 		original_tag = USA
 	}
@@ -1777,6 +1788,7 @@ US_marine_corps = {
 }
 
 USA_atlantic_war = {
+	# help Brits protect the Channel if Japs are not a threat
 	allowed = {
 		original_tag = USA
 	}
@@ -1812,6 +1824,7 @@ USA_atlantic_war = {
 }
 
 USA_mediterranean_war = {
+	# help Brits defend Mediterranean if Japs are not a threat
 	allowed = {
 		original_tag = USA
 	}
@@ -1885,6 +1898,7 @@ Allies_dont_fortify_Singapore = {
 }
 
 USA_defend_east_coast = {
+	# defend East Coast if Britain is dead
 	allowed = {
 		original_tag = USA
 	}
@@ -2163,6 +2177,7 @@ GER_avoid_mediterranean = {
 }
 
 GER_invade_norway = {
+	# keep assaulting Oslo, but immediately stop once foothold is gained
 	allowed = {
         original_tag = GER
     }
