@@ -63,19 +63,19 @@ fast_battleship_primacy = {
         blue_water_logistics = { #TODO see if these make sense
             battleship = {
                 max_organisation = 10
-				supply_consumption = -0.1
+				fuel_consumption = -0.1
 			}
 			SH_battleship = {
                 max_organisation = 10
-				supply_consumption = -0.1
+				fuel_consumption = -0.1
 			}
             heavy_cruiser = {
                 max_organisation = 10
-                supply_consumption = -0.1
+                fuel_consumption = -0.1
             }
             medium_cruiser = {
                 max_organisation = 10
-                supply_consumption = -0.1
+                fuel_consumption = -0.1
             }
         }
         grand_fleet = {
@@ -220,15 +220,15 @@ battlecruiser_supremacy = {
             }
             battle_cruiser = {
                 max_organisation = 5
-                surface_visibility = -0.05
+                surface_visibility = -0.1
             }
             heavy_cruiser = {
                 max_organisation = 5
-                surface_visibility = -0.05
+                surface_visibility = -0.1
             }
             medium_cruiser = {
                 max_organisation = 5
-                surface_visibility = -0.05
+                surface_visibility = -0.1
             }
             modifier = {
                 positioning = 0.1
@@ -286,6 +286,7 @@ battleship_antiair_screen = {
     	flexible_dispatch = {
     		modifier = {
                 ships_at_battle_start = 0.05
+                naval_retreat_speed = 0.05
                 strike_force_movement_org_loss = -0.1
                 positioning = 0.1
             }
@@ -296,10 +297,15 @@ battleship_antiair_screen = {
     			max_organisation = 5
     			surface_detection = 0.05
     		}
-    		battle_cruiser = {
+    		heavy_cruiser = {
     			max_organisation = 5
     			surface_detection = 0.05
     		}
+            medium_cruiser = {
+    			max_organisation = 5
+    			surface_detection = 0.05
+    		}
+
             modifier = {
                 navy_capital_ship_defence_factor = 0.1
             }
@@ -307,6 +313,7 @@ battleship_antiair_screen = {
         task_force_protector = {
     		modifier = {
                 positioning = 0.1
+                naval_retreat_speed = 0.05
                 naval_torpedo_enemy_critical_chance_factor = -0.15
             }
     	}
@@ -431,7 +438,7 @@ armored_raiders = {
         }
         trade_route_sabotage = {
             equipment_bonus = {
-                capital_ship = {
+                ship_hull_heavy = {
                     naval_range = 0.1
                     instant = yes
                 }
@@ -477,11 +484,11 @@ coastal_defence_fleet = {
         factor = 0.5
     }
 
-	naval_supply_consumption_factor = -0.15
 	equipment_bonus = {
         capital_ship = {
             instant = yes
             naval_range = -0.15
+            supply_consumption = -0.05
         }
     }
 
@@ -489,6 +496,7 @@ coastal_defence_fleet = {
         mixed_squad = {
             modifier = {
                 positioning = 0.05
+                naval_coordination = 0.05
             }
         }
         casemate_upgrades = {
@@ -524,10 +532,13 @@ coastal_defence_fleet = {
 			}
         }
         spare_part_logistics = {
-            modifier = {
-				refit_ic_cost = -0.15
-                repair_speed_factor = 0.1
-			}
+            equipment_bonus = {
+                vnr_ship_hull_cruiser_coastal_defense_ship = {
+                    max_strength = 0.1
+                    reliability = 0.1
+                    instant = yes
+                }
+            }
         }
     }
 }

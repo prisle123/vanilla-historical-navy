@@ -24,7 +24,7 @@ carrier_battlegroups = {
     }
 
     # EFFECTS
-	port_strike = 0.20
+	naval_coordination = 0.1
     carrier_capacity_penalty_reduction = -0.1
 
     rewards = {
@@ -46,6 +46,7 @@ carrier_battlegroups = {
             }
             modifier = {
 				naval_strike_agility_factor = 0.1
+                port_strike = 0.25
             }
 		}
 		professional_deck_management = {
@@ -71,6 +72,7 @@ carrier_battlegroups = {
                 sortie_efficiency = 0.15
                 naval_strike_targetting_factor = 0.15
                 carrier_capacity_penalty_reduction = -0.1
+                port_strike = 0.25
             }
 		}
     }
@@ -289,6 +291,7 @@ carrier_concentration = {
             }
             modifier = {
                 naval_strike_targetting_factor = 0.1
+                port_strike = 0.5
             }
     	}
     	improved_mission_oriented = {
@@ -301,7 +304,6 @@ carrier_concentration = {
     	efficient_rearming = {
     		carrier = {
                 max_organisation = 10
-                fuel_consumption = -0.1
     		}
             modifier = {
                 sortie_efficiency = 0.1
