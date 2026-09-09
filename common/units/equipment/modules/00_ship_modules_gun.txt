@@ -2528,6 +2528,9 @@ equipment_modules = {
 		dismantle_cost_ic = 600
 		critical_parts = { damaged_missiles }
 		manpower = 15
+		allowed_module_categories = {
+		    fixed_ship_fire_control_system_slot = { ship_missile_control_system }
+		}
 	}
 	ship_cruise_missile_sub_1 = {
 		category = ship_sub_missile
