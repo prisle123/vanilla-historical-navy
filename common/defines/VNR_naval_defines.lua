@@ -122,7 +122,7 @@ NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SCREEN = 5   -- As Above. This one w
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 33   -- As Above (was 16)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUPPORT = 2   -- As Above (was 3)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CONVOY = 2   -- As Above (was 4)
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 3   -- As Above (was 7)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 5   -- As Above (was 7)
 -- dynamic plane cap ends
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 15   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 12   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 12)
