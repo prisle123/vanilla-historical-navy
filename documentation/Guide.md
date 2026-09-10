@@ -35,7 +35,7 @@ Armor improves survivability with a different approach by reducing damage receiv
 
 However, armor is not invincible if you take other types of firepower into consideration. For example, torpedo completely ignores armor, and it can do so much damage that even torpedo defense system is not effective enough to save the ship when it's hit. Luckily, with a good escort force, torpedo will have a hard time penetrating the screen line to get your capital ships.
 
-Contrary to most people's impression, anti-air is also a part of protection facing aircrafts and carriers. Strong AA offers damage reduction or even evasion when attacked by planes, and it can get more bonus from the overall AA of your fleet, factored to align with the ship's. That means a ship without anti-air gun can also benefit from other ships' AA, but anti-air guns are mandatory if you want to shoot down the plane.
+Contrary to most people's impression, anti-air is also a part of protection facing aircraft and carriers. Strong AA offers damage reduction or even evasion when attacked by planes, and it can get more bonus from the overall AA of your fleet, factored to align with the ship's. That means a ship without anti-air gun can also benefit from other ships' AA, but anti-air guns are mandatory if you want to shoot down the plane.
 
 **Speed**
 
@@ -61,11 +61,11 @@ If you can fully understand the six dimensions, now it's time to design your fir
 
 **Carrier**
 
-Carrier serves as the main source of damage in battle, and it heavily relies on its aircrafts. Despite CV plane templates, the most important thing about a carrier is its capacity, which requires you to mount as many hangars as possible. However, having too many hangars will certainly degrade speed and other metrics, especially that organisation and HP will impact sortie efficiency. You should keep the degradation under control, and take caution in the usage of large open hangar which harms these stats to a large extent. The logic behind this is, without organisation, planes won't take off, thus rendering your effort on capacity completely useless.
+Carrier serves as the main source of damage in battle, and it heavily relies on its aircraft. Despite CV plane templates, the most important thing about a carrier is its capacity, which requires you to mount as many hangars as possible. However, having too many hangars will certainly degrade speed and other metrics, especially that organisation and HP will impact sortie efficiency. You should keep the degradation under control, and take caution in the usage of large open hangar which harms these stats to a large extent. The logic behind this is, without organisation, planes won't take off, thus rendering your effort on capacity completely useless.
 
 **Heavy Ship**
 
-You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. 
+You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircraft. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. 
 
 In VNR, HP is deeply bounded with number of guns since the turret module directly provides HP. With hull's HP reduced, a battleship needs as many guns as possible to boost its survivability and protect the fleet. However, that has raised another question: is it worthy in exchange for lower speed and incredible cost, consider that the cost of a super battleship can be used to arm two conventional battleships or advanced carriers? The answer can vary, but I strongly recommend historical design with adequate guns and AAs for all your heavy ships for cost-efficiency.
 
@@ -174,7 +174,7 @@ Just like Essex or Midway post-refit, super carrier is a weapon with no shortcom
 
 **Strategic Strike Carrier**
 
-An equivalent to ice carrier in vanilla but with an actual historical background. The strategic strike carrier is based on USS United States planned right after WWII, it can carry 20 heavy jet bombers to carry out intercontinental nuclear strike. The design of this ship also reflects its duty in history. Its capacity might not be impressive, but it has access to all kinds of land-based aircrafts in the arsenal and can be useful if you need a sea-based airport against countries across the ocean. 
+An equivalent to ice carrier in vanilla but with an actual historical background. The strategic strike carrier is based on USS United States planned right after WWII, it can carry 20 heavy jet bombers to carry out intercontinental nuclear strike. The design of this ship also reflects its duty in history. Its capacity might not be impressive, but it has access to all kinds of land-based aircraft in the arsenal and can be useful if you need a sea-based airport against countries across the ocean. 
 
 **Auxiliary Ship**
 
@@ -299,7 +299,7 @@ This is the authentic USN carrier tactics, with every feature designed to showca
 
 **Carrier Concentration**
 
-As the rival to *carrier taskforce*, this strategy is adopted by IJN in real history at the early stage of the Pacific War. Unlike its counterpart, *carrier concentration* emphasizes on maximizing damage done by aircrafts, simulating elitism of Japan's naval aviation, which leads to lower sortie efficiency but a 15% bonus on aircraft attack.
+As the rival to *carrier taskforce*, this strategy is adopted by IJN in real history at the early stage of the Pacific War. Unlike its counterpart, *carrier concentration* emphasizes on maximizing damage done by aircraft, simulating elitism of Japan's naval aviation, which leads to lower sortie efficiency but a 15% bonus on aircraft attack.
 
 **Floating Airfields**
 
