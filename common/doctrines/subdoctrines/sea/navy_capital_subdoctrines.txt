@@ -81,7 +81,7 @@ fast_battleship_primacy = {
         grand_fleet = {
             modifier = {
                 naval_coordination = 0.1
-                navy_capital_ship_defence_factor = 0.1
+                positioning = 0.1
                 ships_at_battle_start = 0.1
             }
         }
@@ -149,7 +149,7 @@ battlecruiser_supremacy = {
             instant = yes
         }
     }
-    strike_force_movement_org_loss = -0.05
+    strike_force_movement_org_loss = -0.1
 
     rewards = {
         scouting_fleet = {
@@ -159,7 +159,7 @@ battlecruiser_supremacy = {
             battleship = {
                 max_organisation = 10
             }
-            battle_cruiser= {
+            battle_cruiser = {
                 max_organisation = 10
             }
 			heavy_cruiser = {
@@ -208,7 +208,7 @@ battlecruiser_supremacy = {
             }
             modifier = {
                 night_spotting_chance = 0.05
-                strike_force_movement_org_loss = -0.05
+                positioning = 0.05
             }
         }
         decoy_tactics = {
@@ -263,7 +263,15 @@ battleship_antiair_screen = {
         }
     }
 
-    navy_anti_air_attack_factor = 0.1
+    battleship = {
+        surface_detection = 0.05
+    }
+    heavy_cruiser = {
+        surface_detection = 0.05
+    }
+    medium_cruiser = {
+        surface_detection = 0.05
+    }
     naval_retreat_chance_after_initial_combat = 0.1
 
     rewards = {
@@ -307,7 +315,7 @@ battleship_antiair_screen = {
     		}
 
             modifier = {
-                navy_capital_ship_defence_factor = 0.1
+                navy_anti_air_attack_factor = 0.1
             }
     	}
         task_force_protector = {
@@ -332,6 +340,9 @@ battleship_antiair_screen = {
                 max_organisation = 10
                 anti_air_attack = 0.1
                 surface_detection = 0.05
+            }
+            modifier = {
+                naval_coordination = 0.1
             }
         }
     }
@@ -391,14 +402,16 @@ armored_raiders = {
             }
         }
         speed_trials = {
-            naval_retreat_chance = 0.1
-            naval_retreat_speed = 0.1
             battle_cruiser= {
                 surface_visibility = -0.1
             }
 			battleship = {
                 surface_visibility = -0.1
 			}
+            modifier = {
+                naval_retreat_chance = 0.1
+                naval_retreat_speed = 0.1
+            }
         }
         modernized_officer_education = {
             battle_cruiser= {
@@ -435,6 +448,9 @@ armored_raiders = {
                 convoy_raiding_coordination = 0.1
                 surface_visibility = -0.1
 			}
+            modifier = {
+                screening_without_screens = 0.10
+            }
         }
         trade_route_sabotage = {
             equipment_bonus = {

@@ -121,8 +121,8 @@ floating_airfields = {
     # EFFECTS
     carrier = {
         surface_detection = 0.05
-        sub_detection = 0.05
     }
+    port_strike = 0.35
 	navy_carrier_air_attack_factor = 0.10
 	
     rewards = {
@@ -139,7 +139,7 @@ floating_airfields = {
 	   }
 	   fleet_antiair = {
 			carrier = {
-				max_organisation = 15
+				max_organisation = 5
                 anti_air_attack = 0.15
 			}
             modifier = {
@@ -156,6 +156,9 @@ floating_airfields = {
 	   }
 	   all_weather_combat = {
             sortie_efficiency = 0.1
+            carrier = {
+                max_organisation = 10
+            }
 			equipment_bonus = {
                 carrier = {
 				    naval_weather_penalty_factor = -0.15
@@ -218,7 +221,7 @@ subsidiary_carrier_support = {
     	}
     	fleet_antiair = {
             carrier = {
-				max_organisation = 15
+				max_organisation = 5
                 anti_air_attack = 0.15
 			}
             modifier = {
@@ -236,6 +239,7 @@ subsidiary_carrier_support = {
     	carrier_support_groups = {
             carrier = {
                 patrol_coordination = 0.1
+                max_organisation = 10
             }
             modifier = {
                 sortie_efficiency = 0.05
@@ -351,13 +355,13 @@ naval_airfoce = {
     rewards = {
     	direct_fire_avoidance = {
     		carrier = {
-    			surface_visibility = -0.1
+    			surface_visibility = -0.15
     		}
     	}
     	land_based_support = {
     		category_nav_bomber = {
                 air_range = 0.25
-                naval_strike_attack = 0.05
+                naval_strike_attack = 0.1
             }
     	}
     	air_raiders = {
@@ -374,13 +378,18 @@ naval_airfoce = {
     			max_organisation = 10
                 surface_visibility = -0.1
     		}
-            naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+            modifier = {
+                naval_retreat_speed_after_initial_combat = 0.1
+            }
     	}
     	airpower = {
     		category_nav_bomber = {
-                naval_strike_attack = 0.1
                 naval_strike_targetting = 0.1
                 air_agility = 0.1
+            }
+            modifier = {
+                port_strike = 0.25
+                air_nav_efficiency = 0.15
             }
     	}
     }
@@ -424,6 +433,7 @@ airspace_denial = {
     rewards = {
         scout_carrier = {
             carrier = {
+                max_organisation = 5
                 surface_detection = 0.1
                 sub_detection = 0.1
             }
@@ -446,7 +456,7 @@ airspace_denial = {
         land_based_support = {
     		category_nav_bomber = {
                 air_range = 0.25
-                naval_strike_attack = 0.05
+                naval_strike_attack = 0.1
             }
     	}
         land_sea_coordination = {
