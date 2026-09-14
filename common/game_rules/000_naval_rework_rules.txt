@@ -117,3 +117,27 @@ shipyard_output_boost_ai = {
 		allow_achievements = yes
 	}
 }
+
+extra_research_slots = {
+	name = RULE_EXTRA_RESEARCH_SLOTS
+	group = RULE_GROUP_NAVY_REWORK
+
+	default = {
+		name = BLOCKED
+		text = RULE_OPTION_BLOCKED
+		desc = RULE_EXTRA_RESEARCH_SLOTS_BLOCKED_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = PLAYER_ONLY
+		text = RULE_OPTION_PLAYER_ONLY
+		desc = RULE_EXTRA_RESEARCH_SLOTS_PLAYER_ONLY_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = EVERYONE
+		text = RULE_OPTION_EVERYONE
+		desc = RULE_EXTRA_RESEARCH_SLOTS_EVERYONE_DESC
+		allow_achievements = yes
+	}
+}

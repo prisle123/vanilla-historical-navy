@@ -118,3 +118,65 @@ unique_id = vnr_achievements
         }
     }
 }
+
+00_vnr_fortunate_son = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_tech = helipad
+    }
+}
+
+00_vnr_super_odyssey = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+        tag = GRE
+    }
+    happened = {
+        OR = {
+            has_tech = nuclear_engine_research
+            has_tech = sub_nuclear_engine
+        }
+    }
+}
+
+00_vnr_full_metal_jacket = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+    }
+    happened = {
+        has_tech = harvey_steel
+        has_tech = krupp_steel
+        has_tech = krupp_cemented_steel
+        has_tech = ducol_steel
+        has_tech = homogeneous_krupp_steel
+    }
+}
+
+00_vnr_america_first = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+        tag = USA
+    }
+    happened = {
+        has_doctrine = new_littoral_defense
+    }
+}
+
+00_vnr_the_man_in_the_high_castle = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+        tag = GER
+    }
+    happened = {
+        has_naval_control = 16
+        has_naval_control = 18
+        has_naval_control = 43
+    }
+}

@@ -26,3 +26,7 @@
  RULE_JAP_EXPERT_NAVY: "@JAP Expert Imperial Japanese Navy"
  RULE_AI_EXPERT_NAVY_BLOCKED_DESC: "Starting ships of this country will not be changed."
  RULE_AI_EXPERT_NAVY_FREE_DESC: "Switch all starting ships of this country to expert AI designs.\n\nThis rule only takes effect when §YAI Ship Design Style§! is set to §CExpert§! and this country is §RAI controlled§!."
+ RULE_EXTRA_RESEARCH_SLOTS: "Extra Research Slots"
+ RULE_EXTRA_RESEARCH_SLOTS_BLOCKED_DESC: "§RDisable§! permanent extra research slot."
+ RULE_EXTRA_RESEARCH_SLOTS_EVERYONE_DESC: "§GEnable§! permanent extra research slot for every starting country."
+ RULE_EXTRA_RESEARCH_SLOTS_PLAYER_ONLY_DESC: "§GEnable§! permanent extra research slot for the player country only."

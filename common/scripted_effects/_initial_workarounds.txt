@@ -110,3 +110,19 @@ ai_doctrine_workaround = {
 		}
 	}
 }
+
+extra_research_slots_workaround = {
+	if = {
+		limit = { has_game_rule = { rule = extra_research_slots value = EVERYONE } }
+		every_country = {
+			add_research_slot = 1
+		}
+	}
+	else_if = {
+		limit = { has_game_rule = { rule = extra_research_slots value = PLAYER_ONLY } }
+		if = {
+			limit = { is_ai = no }
+			add_research_slot = 1
+		}
+	}
+}

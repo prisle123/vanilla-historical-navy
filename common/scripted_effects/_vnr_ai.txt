@@ -226,7 +226,9 @@ set_shipyard_output_boost = {
 			add_ideas = vnr_ai_dd_output_boost_2
 		}
 	}
-	
+}
+
+ai_expert_navy_treaty_workaround = {
 	### expert country treaty workaround
 	ENG = {
 		if = {
