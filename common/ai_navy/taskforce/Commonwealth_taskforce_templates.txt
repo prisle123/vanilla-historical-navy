@@ -1,100 +1,63 @@
-JAP_StrikeForce_1 = {
+commonwealth_StrikeForce_1 = {
 	allowed = {
-		original_tag = JAP 
-	}
-	ai_will_do = {
-		factor = 1
-	}	
-	mission = { naval_strike }
-	keep_updated = yes
-	min_composition = {
-		battleship = {
-			amount = 2
+		OR = {
+			original_tag = CAN
+			original_tag = AST
 		}
-		light_cruiser = {
-			amount = 3
-		}
-	}
-	
-	optimal_composition = {
-		carrier = {
-			amount = 4
-		}
-		SH_battleship = {
-			amount = 2
-		}
-		battleship = {
-			amount = 4
-		}
-		heavy_cruiser = {
-			amount = 2
-		}
-		light_cruiser = {
-			amount = 12
-		}
-		destroyer = {
-			amount = 18
-		}
-	}
-}
-
-JAP_StrikeForce_BC_1 = {
-	allowed = {
-		original_tag = JAP 
-	}
-	ai_will_do = {
-		factor = 0
-		modifier = {
-			add = 2
-			has_navy_size = {
-				unit = battle_cruiser
-				size > 1
-			}
-		}
-	}	
-	mission = { naval_strike }
-	keep_updated = yes
-	min_composition = {
-		battle_cruiser = {
-			amount = 2
-		}
-		light_cruiser = {
-			amount = 3
-		}
-	}
-	
-	optimal_composition = {
-		carrier = {
-			amount = 4
-		}
-		battle_cruiser = {
-			amount = 4
-		}
-		heavy_cruiser = {
-			amount = 2
-		}
-		light_cruiser = {
-			amount = 12
-		}
-		destroyer = {
-			amount = 18
-		}
-	}
-}
-
-JAP_PatrolReconForce_1 = {
-	allowed = {
-		original_tag = JAP
 	}
 	ai_will_do = {
 		factor = 10
+	}	
+	mission = { naval_strike }
+	keep_updated = yes
+	min_composition = {
+		carrier = {
+			amount = 2
+		}
+		light_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 4
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 2
+		}
+		battleship = {
+			amount = 4
+		}
+		heavy_cruiser = {
+			amount = 4
+		}
+		light_cruiser = {
+			amount = 4
+		}
+		destroyer = {
+			amount = 15
+		}
+	}
+}
+
+commonwealth_PatrolReconForce_1 = {
+	allowed = {
+		OR = {
+			original_tag = CAN
+			original_tag = AST
+		}
+	}
+	ai_will_do = {
+		factor = 5
 	}
 	mission = { naval_patrol }
+
 	min_composition = {
 		destroyer = {
 			amount = 5
 		}
-	}	
+	}
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -102,33 +65,34 @@ JAP_PatrolReconForce_1 = {
 	}
 }
 
-JAP_PatrolDominanceForce_1 = {
+commonwealth_PatrolDominanceForce_CA_1 = {
 	allowed = {
-		original_tag = JAP
+		OR = {
+			original_tag = CAN
+			original_tag = AST
+		}
 	}
 	ai_will_do = {
-		factor = 10
-	}
+		factor = 5
+	}	
 	mission = { naval_patrol }
 	keep_updated = yes
+
 	min_composition = {
 		heavy_cruiser = {
 			amount = 1
 		}
-		light_cruiser = {
-			amount = 4
-		}
 		destroyer = {
-			amount = 6
+			amount = 4
 		}
 	}
 
 	optimal_composition = {
 		heavy_cruiser = {
-			amount = 1
+			amount = 3
 		}
 		light_cruiser = {
-			amount = 4
+			amount = 3
 		}
 		destroyer = {
 			amount = 8
@@ -136,15 +100,18 @@ JAP_PatrolDominanceForce_1 = {
 	}
 }
 
-JAP_ConvoyRaiding_1 = {
+commonwealth_ConvoyRaiding_1 = {
 	allowed = {
-		original_tag = JAP
+		OR = {
+			original_tag = CAN
+			original_tag = AST
+		}
 	}
 	ai_will_do = {
 		factor = 1
 	}	
 	mission = { convoy_raiding }
-	keep_updated = yes
+
 	min_composition = {
 		submarine = {
 			amount = 4
@@ -158,19 +125,23 @@ JAP_ConvoyRaiding_1 = {
 	}
 }
 
-JAP_ConvoyEscort_1 = {
+commonwealth_ConvoyEscort_1 = {
 	allowed = {
-		original_tag = JAP
+		OR = {
+			original_tag = CAN
+			original_tag = AST
+		}
 	}
 	ai_will_do = {
 		factor = 5
-	}
+	}	
 	mission = { convoy_escort }
 	min_composition = {
 		destroyer = {
 			amount = 5
 		}
 	}
+
 	optimal_composition = {
 		destroyer = {
 			amount = 5
@@ -178,32 +149,28 @@ JAP_ConvoyEscort_1 = {
 	}
 }
 
-JAP_InvasionSupport_1 = {
+commonwealth_ConvoyEscort_2 = {
 	allowed = {
-		original_tag = JAP
+		OR = {
+			original_tag = CAN
+			original_tag = AST
+		}
 	}
 	ai_will_do = {
-		factor = 1
-	}
-	mission = { naval_invasion_support }
-
+		factor = 5
+	}	
+	mission = { convoy_escort }
 	min_composition = {
-		battleship = {
-			amount = 1
-		}
 		destroyer = {
-			amount = 4
+			amount = 5
+			role = 35
 		}
 	}
+
 	optimal_composition = {
-		battleship = {
-			amount = 2
-		}
-		heavy_cruiser = {
-			amount = 2
-		}
 		destroyer = {
-			amount = 10
+			amount = 5
+			role = 35
 		}
 	}
 }

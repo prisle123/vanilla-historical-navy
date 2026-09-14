@@ -1,0 +1,112 @@
+delete_starting_naval_oob = {
+    every_country = {
+        limit = { has_navy_size = { size > 0 } }
+        destroy_ships = { type = ship_hull_light count = all }
+        destroy_ships = { type = ship_hull_cruiser count = all }
+        destroy_ships = { type = ship_hull_heavy count = all }
+        destroy_ships = { type = ship_hull_carrier count = all }
+        destroy_ships = { type = ship_hull_submarine count = all }
+    }
+}
+
+ai_doctrine_workaround = {
+	ENG = {
+		if = {
+			limit = {
+				OR = {
+					is_ai = yes
+					is_debug = yes
+				}
+			}
+			set_sub_doctrine = fast_battleship_primacy
+			set_sub_doctrine = floating_airfields
+			set_sub_doctrine = convoy_escort
+			set_sub_doctrine = submarine_fleet_operations
+			set_sub_doctrine = trade_supply_network
+		}
+	}
+	USA = {
+		if = {
+			limit = {
+				OR = {
+					is_ai = yes
+					is_debug = yes
+				}
+			}
+			set_sub_doctrine = battleship_antiair_screen
+			set_sub_doctrine = carrier_battlegroups
+			set_sub_doctrine = support_integrated_operations
+			set_sub_doctrine = submarine_fleet_operations
+			set_sub_doctrine = industrialized_naval_logistics
+		}
+	}
+	JAP = {
+		if = {
+			limit = {
+				OR = {
+					is_ai = yes
+					is_debug = yes
+				}
+			}
+			set_sub_doctrine = fast_battleship_primacy
+			set_sub_doctrine = carrier_concentration
+			set_sub_doctrine = torpedo_primacy
+			set_sub_doctrine = capital_hunters
+			set_sub_doctrine = centralized_logistics_planning
+		}
+	}
+	GER = {
+		if = {
+			limit = {
+				OR = {
+					is_ai = yes
+					is_debug = yes
+				}
+			}
+			set_sub_doctrine = armored_raiders
+			set_sub_doctrine = jeune_ecole
+			set_sub_doctrine = wolfpacks
+		}
+	}
+	FRA = {
+		if = {
+			limit = {
+				OR = {
+					is_ai = yes
+					is_debug = yes
+				}
+			}
+			set_sub_doctrine = battlecruiser_supremacy
+			set_sub_doctrine = subsidiary_carrier_support
+			set_sub_doctrine = jeune_ecole
+			set_sub_doctrine = capital_hunters
+			set_sub_doctrine = trade_supply_network
+		}
+	}
+	ITA = {
+		if = {
+			limit = {
+				OR = {
+					is_ai = yes
+					is_debug = yes
+				}
+			}
+			set_sub_doctrine = fast_battleship_primacy
+			set_sub_doctrine = convoy_escort
+			set_sub_doctrine = capital_hunters
+		}
+	}
+	SOV = {
+		if = {
+			limit = {
+				OR = {
+					is_ai = yes
+					is_debug = yes
+				}
+			}
+			set_sub_doctrine = armored_raiders
+			set_sub_doctrine = jeune_ecole
+			set_sub_doctrine = capital_hunters
+		}
+	}
+}

@@ -145,7 +145,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 		}
-		critical_parts = { damaged_fire_control }
+		critical_parts = { damaged_fire_control_0 }
 		manpower = 30
 	}
 
@@ -169,7 +169,7 @@ equipment_modules = {
 			module = ship_fire_control_system_0
 			convert_cost_ic = 85
 		}
-		critical_parts = { damaged_fire_control }
+		critical_parts = { damaged_fire_control_1 }
 		manpower = 27
 	}
 	ship_fire_control_system_2 = {
@@ -195,7 +195,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 145
 		}
-		critical_parts = { damaged_fire_control }
+		critical_parts = { damaged_fire_control_2 }
 		manpower = 24
 	}
 	ship_fire_control_system_3 = {
@@ -221,7 +221,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 145
 		}
-		critical_parts = { damaged_fire_control }
+		critical_parts = { damaged_fire_control_3 }
 		manpower = 21
 	}
 	ship_fire_control_system_4 = {
@@ -247,7 +247,7 @@ equipment_modules = {
 			module_category = ship_fire_control_system
 			convert_cost_ic = 200
 		}
-		critical_parts = { damaged_fire_control }
+		critical_parts = { damaged_fire_control_4 }
 		manpower = 18
 	}
 	ship_missile_control_system_1 = {
@@ -270,7 +270,7 @@ equipment_modules = {
 			module = ship_missile_control_system
 			convert_cost_ic = 300
 		}
-		critical_parts = { damaged_fire_control }
+		critical_parts = { damaged_fire_control_5 }
 		manpower = 20
 	}
 	ship_missile_control_system_2 = {
@@ -294,7 +294,7 @@ equipment_modules = {
 			module = ship_missile_control_system
 			convert_cost_ic = 400
 		}
-		critical_parts = { damaged_fire_control }
+		critical_parts = { damaged_fire_control_6 }
 		manpower = 15
 	}
 	ship_sub_torpedo_computer_1 = {
@@ -368,6 +368,7 @@ equipment_modules = {
 			module = ship_torpedo_fire_control_4
 			convert_cost_ic = 60
 		}
+		critical_parts = { damaged_fire_control_2 }
 	}
 	ship_torpedo_fire_control_2 = {
 		category = ship_fire_control_system
@@ -389,6 +390,7 @@ equipment_modules = {
 			module = ship_torpedo_fire_control_4
 			convert_cost_ic = 80
 		}
+		critical_parts = { damaged_fire_control_3 }
 	}
 	ship_torpedo_fire_control_3 = {
 		category = ship_fire_control_system
@@ -410,6 +412,7 @@ equipment_modules = {
 			module = ship_torpedo_fire_control_4
 			convert_cost_ic = 100
 		}
+		critical_parts = { damaged_fire_control_4 }
 	}
 	ship_torpedo_fire_control_4 = {
 		category = ship_fire_control_system
@@ -432,6 +435,7 @@ equipment_modules = {
 			module = ship_torpedo_fire_control_3
 			convert_cost_ic = 150
 		}
+		critical_parts = { damaged_fire_control_5 }
 	}
 	ship_aa_fire_control = {
 		category = generic_miscellaneous

@@ -47,7 +47,9 @@ convoy_escort = {
 			light_cruiser = {
 				max_organisation = 10
 			}
-			convoy_escort_efficiency = 0.05
+			modifier = {
+				convoy_escort_efficiency = 0.05
+			}
 		}
 		sweeping_duty = {
 			light_cruiser = {
@@ -56,7 +58,9 @@ convoy_escort = {
 			destroyer = {
 				mines_sweeping = 0.25
 			}
-			mines_sweeping_by_fleets_factor = 0.15
+			modifier = {
+				mines_sweeping_by_fleets_factor = 0.15
+			}
 		}
 		creeping_attack = {
 			destroyer = {
@@ -77,7 +81,9 @@ convoy_escort = {
 				max_organisation = 10
 				anti_air_attack = 0.1
 			}
-			convoy_escort_efficiency = 0.1
+			modifier = {
+				convoy_escort_efficiency = 0.1
+			}
 		}
     }
 }
@@ -142,6 +148,7 @@ support_integrated_operations = {
 			light_cruiser = {
 				max_organisation = 10
 				surface_detection = 0.05
+				anti_air_attack = 0.05
 			}
 		}
 		rescue_mission = {
@@ -212,7 +219,7 @@ hunter_killers = {
     }
 
     # EFFECTS
-	naval_coordination = 0.10
+	convoy_escort_efficiency = 0.1
 	naval_torpedo_enemy_critical_chance_factor = -0.1
 	
     rewards = {
@@ -398,8 +405,7 @@ jeune_ecole = {
     	}
     	long_range_torpedo = {
     		modifier = {
-				naval_torpedo_screen_penetration_factor = 0.1
-				naval_enemy_fleet_size_ratio_penalty_factor = 0.05
+				naval_torpedo_screen_penetration_factor = 0.15
 			}
     	}
     	total_economic_warfare = {

@@ -1,4 +1,4 @@
-version="v3.1 - Dunkirk Miracle"
+version="v3.2 - Last Voyage of Bismarck"
 tags={
 	"Military"
 	"Graphics"

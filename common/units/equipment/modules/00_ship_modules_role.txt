@@ -43,7 +43,6 @@ equipment_modules = {
 	        lg_attack = -0.1
     	    max_strength = -0.15
 			naval_speed = -0.3
-        	sub_detection = 0.1
 			torpedo_attack = -0.6
 			surface_visibility = -0.05
 			naval_range = -0.15
@@ -66,7 +65,7 @@ equipment_modules = {
 		}
     	multiply_stats = {
 	        lg_attack = -0.2
-			lg_armor_piercing = -0.1
+			lg_armor_piercing = -0.25
 			anti_air_attack = -0.15
     	    max_strength = -0.3
 			naval_speed = -0.4
@@ -93,10 +92,10 @@ equipment_modules = {
 		}
     	multiply_stats = {
         	max_strength = 0.2
-        	naval_speed = -0.1
+        	naval_speed = -0.2
 			naval_range = 0.4
 			surface_visibility = 0.5
-        	build_cost_ic = 0.25
+        	build_cost_ic = 0.35
     	}
 		dismantle_cost_ic = 4500
 		forbid_module_categories = {
@@ -157,7 +156,6 @@ equipment_modules = {
 			ship_cruiser_heavy_armor
 			ship_missile
 			ship_missile_aa
-			raider_kit
 		}
 	}
 	ship_hull_cruiser_role_pc = {
@@ -170,7 +168,7 @@ equipment_modules = {
 			build_cost_ic = -0.2
 			naval_speed = -0.3
 			max_strength = -0.15
-			armor_value = -0.1
+			armor_value = -0.15
 		}
 		dismantle_cost_ic = 5500
 		forbid_module_categories = {
@@ -224,6 +222,36 @@ equipment_modules = {
 		}
 		manpower = 200
 	}
+	ship_hull_cruiser_role_pz = {
+		category = c_role
+		add_equipment_type = capital_ship
+		add_stats = {
+			max_strength = 40
+			convoy_raiding_coordination = 0.05
+		}
+		multiply_stats = {
+			naval_range = 0.2
+			naval_speed = -0.2
+			build_cost_ic = 0.075
+		}
+		dismantle_cost_ic = 7500
+		can_convert_from = {
+			module_category = c_role_missile
+			convert_cost_ic = 0
+		}
+		forbid_module_categories = {
+			ship_medium_battery
+			ship_medium_battery_double
+			ship_medium_battery_single
+			ship_light_medium_battery
+			ship_light_medium_battery_double
+			ship_light_medium_battery_single
+			ship_missile
+			ship_missile_aa
+			raider_kit
+		}
+		manpower = 200
+	}
 	ship_hull_cruiser_role_aa = {
 		category = c_role
 		add_stats = {
@@ -254,7 +282,7 @@ equipment_modules = {
 			naval_speed = 0.05
 			build_cost_ic = -0.1
 		}
-		dismantle_cost_ic = 1000
+		dismantle_cost_ic = 6000
 		forbid_module_categories = {
 			ship_medium_heavy_battery_triple
 			ship_medium_heavy_battery_double
@@ -265,50 +293,17 @@ equipment_modules = {
 			heavy_miscellaneous
 		}
 	}
-	ship_hull_cruiser_role_rc = {
-		category = c_role
-		add_stats = {
-			naval_heavy_gun_hit_chance_factor = -0.75
-			convoy_raiding_coordination = 0.1
-		}
-		multiply_stats = {
-			lg_attack = -0.15
-			lg_armor_piercing = -0.15
-			hg_attack = -0.15
-			hg_armor_piercing = -0.15
-			
-			max_strength = -0.2
-			naval_speed = -0.1
-			armor_value = -0.2
-			naval_range = 0.4
-			surface_visibility = -0.05
-			build_cost_ic = -0.15
-		}
-		dismantle_cost_ic = 2500
-		forbid_module_categories = {
-			ship_medium_heavy_battery_triple
-			ship_medium_heavy_battery_double
-			ship_medium_battery
-			ship_medium_battery_double
-			ship_medium_battery_single
-			ship_cruiser_heavy_armor
-			ship_missile
-			ship_missile_aa
-			ship_airplane_launcher
-			heavy_miscellaneous
-		}
-	}
 	ship_hull_cruiser_role_cg = {
 		category = c_role_missile
 		gui_category = c_role
 		add_equipment_type = capital_ship
 		multiply_stats = {
-			anti_air_attack = 0.1
-			build_cost_ic = 0.35
+			anti_air_attack = 0.05
+			build_cost_ic = 0.25
 			naval_speed = -0.1
 		}
 		add_stats = {
-			max_strength = 200
+			max_strength = 160
 			reliability = 0.1
 		}
 		can_convert_from = {
@@ -316,6 +311,9 @@ equipment_modules = {
 			convert_cost_ic = 500
 		}
 		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_cruiser_heavy_armor
 			raider_kit
 		}
 		manpower = 350
@@ -354,12 +352,19 @@ equipment_modules = {
 			build_cost_ic = 0.075
 		}
 		forbid_module_categories = {
+			ship_medium_heavy_battery_triple
+			ship_medium_heavy_battery_double
+			ship_cruiser_heavy_armor
 			raider_kit
 			ship_missile
 			ship_missile_aa
 			heavy_miscellaneous
 		}
 	}
+
+#################################
+##  Coastal Defense Ship ROLE  ##
+#################################
 	ship_hull_cruiser_role_ac = {
 		category = cds_role
 		add_equipment_type = capital_ship
@@ -367,6 +372,10 @@ equipment_modules = {
 			naval_range = 0.5
 		}
 		dismantle_cost_ic = 3000
+		forbid_module_categories = {
+			ship_heavy_battery
+			ship_heavy_battery_triple
+		}
 	}
 	ship_hull_cruiser_role_cd = {
 		category = cds_role
@@ -376,6 +385,8 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3000
 		forbid_module_categories = {
+			ship_heavy_battery
+			ship_heavy_battery_triple
 			ship_cruiser_heavy_armor
 			ship_secondaries
 		}
@@ -392,7 +403,10 @@ equipment_modules = {
 			naval_range = 0.5
 		}
 		forbid_module_categories = {
-			ship_cruiser_heavy_armor
+			ship_light_battery
+			ship_light_battery_double
+			dp_light_battery
+			dp_light_battery_single
 		}
 	}
 

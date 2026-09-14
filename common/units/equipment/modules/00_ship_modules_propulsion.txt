@@ -25,7 +25,7 @@ equipment_modules = {
 			module_category = light_ship_engine
 			convert_cost_ic = 150
 		}
-
+		dismantle_cost_ic = 50
 	}
 
 	light_ship_engine_2 = {
@@ -55,6 +55,7 @@ equipment_modules = {
 			module = light_ship_engine_1
 			convert_cost_ic = 150
 		}
+		dismantle_cost_ic = 75
 	}
 
 	light_ship_engine_3 = {
@@ -85,6 +86,7 @@ equipment_modules = {
 			module = light_ship_engine_2
 			convert_cost_ic = 200
 		}
+		dismantle_cost_ic = 100
 	}
 	light_ship_engine_4 = {
 		abbreviation = "sbq"
@@ -104,6 +106,9 @@ equipment_modules = {
 			naval_speed = 0.35
 			
 		}
+		build_cost_resources = {
+			steel = 1
+		}
 		
 		can_convert_from = {
 			module_category = light_ship_engine
@@ -114,6 +119,7 @@ equipment_modules = {
 			module = light_ship_engine_3
 			convert_cost_ic = 250
 		}
+		dismantle_cost_ic = 125
 	}
 	light_ship_engine_5 = {
 		abbreviation = "sbq1"
@@ -132,6 +138,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.4
 		}
+		build_cost_resources = {
+			steel = 1
+		}
 		
 		can_convert_from = {
 			module_category = light_ship_engine
@@ -142,6 +151,7 @@ equipment_modules = {
 			module = light_ship_engine_4
 			convert_cost_ic = 300
 		}
+		dismantle_cost_ic = 150
 	}
 	light_ship_engine_6 = {
 		abbreviation = "sbq1"
@@ -164,8 +174,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = light_ship_engine
-			convert_cost_ic = 300
+			convert_cost_ic = 630
 		}
+		dismantle_cost_ic = 300
 	}
 
 	light_ship_engine_2_diesel = {
@@ -188,8 +199,9 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = light_ship_engine
-			convert_cost_ic = 200
+			convert_cost_ic = 300
 		}
+		dismantle_cost_ic = 125
 	}
 
 	light_ship_engine_3_diesel = {
@@ -213,13 +225,14 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = light_ship_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 350
 		}
 		
 		can_convert_from = {
 			module = light_ship_engine_2_diesel
-			convert_cost_ic = 200
+			convert_cost_ic = 300
 		}
+		dismantle_cost_ic = 175
 	}
 	light_ship_engine_4_diesel = {
 		category = light_ship_engine
@@ -239,16 +252,20 @@ equipment_modules = {
 			naval_range = 0.5
 			surface_visibility = -0.05
 		}
+		build_cost_resources = {
+			steel = 1
+		}
 		
 		can_convert_from = {
 			module_category = light_ship_engine
-			convert_cost_ic = 300
+			convert_cost_ic = 450
 		}
 		
 		can_convert_from = {
 			module = light_ship_engine_3_diesel
-			convert_cost_ic = 250
+			convert_cost_ic = 380
 		}
+		dismantle_cost_ic = 225
 	}
 	light_ship_engine_4_gas = {
 		category = light_ship_engine
@@ -270,15 +287,7 @@ equipment_modules = {
 		build_cost_resources = {
 			chromium = 2
 		}
-		
-		can_convert_from = {
-			module_category = light_ship_engine
-			convert_cost_ic = 6000
-			convert_cost_resources = {
-				steel = 1
-				chromium = 1
-			}
-		}
+		dismantle_cost_ic = 1000
 	}
 
 
@@ -383,6 +392,9 @@ equipment_modules = {
 			naval_speed = 0.2
 			sub_visibility = -0.05
 		}
+		build_cost_resources = {
+			steel = 1
+		}
 		
 		can_convert_from = {
 			module_category = sub_ship_engine
@@ -450,7 +462,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = sub_ship_engine
-			convert_cost_ic = 3200
+			convert_cost_ic = 3600
 		}
 	}
 
@@ -477,7 +489,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
-			convert_cost_ic = 650
+			convert_cost_ic = 800
 		}
 	}
 
@@ -502,12 +514,12 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
-			convert_cost_ic = 730
+			convert_cost_ic = 960
 		}
 		
 		can_convert_from = {
 			module = cruiser_ship_engine_1
-			convert_cost_ic = 680
+			convert_cost_ic = 750
 		}
 	}
 
@@ -532,12 +544,12 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
-			convert_cost_ic = 800
+			convert_cost_ic = 1100
 		}
 		
 		can_convert_from = {
 			module = cruiser_ship_engine_2
-			convert_cost_ic = 750
+			convert_cost_ic = 850
 		}
 	}
 	cruiser_ship_engine_4 = {
@@ -564,12 +576,12 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
-			convert_cost_ic = 920
+			convert_cost_ic = 1340
 		}
 		
 		can_convert_from = {
 			module = cruiser_ship_engine_3
-			convert_cost_ic = 870
+			convert_cost_ic = 950
 		}
 	}
 	cruiser_ship_engine_5 = {
@@ -591,17 +603,18 @@ equipment_modules = {
 			
 		}
 		build_cost_resources = {
+			steel = 1
 			chromium = 1
 		}
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
-			convert_cost_ic = 1050
+			convert_cost_ic = 1600
 		}
 		
 		can_convert_from = {
 			module = cruiser_ship_engine_4
-			convert_cost_ic = 1000
+			convert_cost_ic = 1100
 		}
 	}
 	cruiser_ship_engine_nuclear = {
@@ -622,11 +635,12 @@ equipment_modules = {
 			fuel_consumption = -1
 		}
 		build_cost_resources = {
+			steel = 1
 			chromium = 2
 		}
 		can_convert_from = {
 			module_category = cruiser_ship_engine
-			convert_cost_ic = 3600
+			convert_cost_ic = 6400
 		}
 	}
 	cruiser_ship_engine_2_diesel = {
@@ -650,7 +664,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
-			convert_cost_ic = 790
+			convert_cost_ic = 1200
 		}
 	}
 
@@ -678,12 +692,12 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
-			convert_cost_ic = 850
+			convert_cost_ic = 1320
 		}
 		
 		can_convert_from = {
 			module = cruiser_ship_engine_2_diesel
-			convert_cost_ic = 800
+			convert_cost_ic = 960
 		}
 	}
 	cruiser_ship_engine_4_diesel = {
@@ -705,17 +719,18 @@ equipment_modules = {
 			surface_visibility = -0.05
 		}
 		build_cost_resources = {
+			steel = 1
 			chromium = 1
 		}
 		
 		can_convert_from = {
 			module_category = cruiser_ship_engine
-			convert_cost_ic = 970
+			convert_cost_ic = 1500
 		}
 		
 		can_convert_from = {
 			module = cruiser_ship_engine_3_diesel
-			convert_cost_ic = 920
+			convert_cost_ic = 1060
 		}
 	}
 	cruiser_ship_engine_4_gas = {
@@ -777,7 +792,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 2200
+			convert_cost_ic = 2400
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -809,7 +824,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 2600
+			convert_cost_ic = 3200
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -817,7 +832,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = heavy_ship_engine_1
-			convert_cost_ic = 2300
+			convert_cost_ic = 2500
 		}
 	}
 
@@ -844,7 +859,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 3000
+			convert_cost_ic = 4000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -852,7 +867,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = heavy_ship_engine_2
-			convert_cost_ic = 2700
+			convert_cost_ic = 3000
 		}
 	}
 	heavy_ship_engine_4 = {
@@ -878,7 +893,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 4000
+			convert_cost_ic = 6000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -886,7 +901,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = heavy_ship_engine_3
-			convert_cost_ic = 3700
+			convert_cost_ic = 4000
 		}
 	}
 	heavy_ship_engine_5 = {
@@ -906,12 +921,13 @@ equipment_modules = {
 			naval_speed = 0.55
 		}
 		build_cost_resources = {
+			steel = 1
 			chromium = 2
 		}
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 5000
+			convert_cost_ic = 8000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -919,7 +935,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = heavy_ship_engine_4
-			convert_cost_ic = 4700
+			convert_cost_ic = 5000
 		}
 	}
 	heavy_ship_engine_2_diesel = {
@@ -945,7 +961,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 2800
+			convert_cost_ic = 4400
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -977,7 +993,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 3200
+			convert_cost_ic = 5200
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -985,7 +1001,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = heavy_ship_engine_2_diesel
-			convert_cost_ic = 2900
+			convert_cost_ic = 3800
 		}
 	}
 	heavy_ship_engine_4_diesel = {
@@ -1012,7 +1028,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 4200
+			convert_cost_ic = 7000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1020,7 +1036,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = heavy_ship_engine_3_diesel
-			convert_cost_ic = 3900
+			convert_cost_ic = 5000
 		}
 	}
 	heavy_ship_engine_nuclear = {
@@ -1041,11 +1057,12 @@ equipment_modules = {
 			fuel_consumption = -1
 		}
 		build_cost_resources = {
+			steel = 1
 			chromium = 2
 		}
 		can_convert_from = {
 			module_category = heavy_ship_engine
-			convert_cost_ic = 6800
+			convert_cost_ic = 12000
 		}
 	}
 	super_heavy_ship_engine_1 = {
@@ -1062,11 +1079,11 @@ equipment_modules = {
 			naval_speed = 0.55
 		}
 		build_cost_resources = {
-			chromium = 1
+			chromium = 2
 		}
 		can_convert_from = {
 			module_category = super_heavy_ship_engine
-			convert_cost_ic = 3000
+			convert_cost_ic = 6000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1088,11 +1105,11 @@ equipment_modules = {
 			naval_speed = 0.625
 		}
 		build_cost_resources = {
-			chromium = 1
+			chromium = 2
 		}
 		can_convert_from = {
 			module_category = super_heavy_ship_engine
-			convert_cost_ic = 4500
+			convert_cost_ic = 7000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1100,7 +1117,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = super_heavy_ship_engine_1
-			convert_cost_ic = 4200
+			convert_cost_ic = 5000
 		}
 	}
 	super_heavy_ship_engine_3 = {
@@ -1119,11 +1136,12 @@ equipment_modules = {
 			naval_range = 0.2
 		}
 		build_cost_resources = {
+			steel = 1
 			chromium = 2
 		}
 		can_convert_from = {
 			module_category = super_heavy_ship_engine
-			convert_cost_ic = 5000
+			convert_cost_ic = 9000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1131,7 +1149,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = super_heavy_ship_engine_2
-			convert_cost_ic = 4700
+			convert_cost_ic = 6500
 		}
 	}
 
@@ -1162,7 +1180,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 1800
+			convert_cost_ic = 3000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1194,7 +1212,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 2300
+			convert_cost_ic = 4000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1202,7 +1220,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = carrier_ship_engine_1
-			convert_cost_ic = 2100
+			convert_cost_ic = 3000
 		}
 	}
 
@@ -1230,7 +1248,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 2800
+			convert_cost_ic = 5000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1238,7 +1256,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = carrier_ship_engine_2
-			convert_cost_ic = 2600
+			convert_cost_ic = 4000
 		}
 	}
 	carrier_ship_engine_4 = {
@@ -1260,12 +1278,13 @@ equipment_modules = {
 			
 		}
 		build_cost_resources = {
+			steel = 1
 			chromium = 2
 		}
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 3300
+			convert_cost_ic = 6000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1273,7 +1292,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = carrier_ship_engine_3
-			convert_cost_ic = 3100
+			convert_cost_ic = 5000
 		}
 	}
 	carrier_ship_engine_nuclear = {
@@ -1294,11 +1313,12 @@ equipment_modules = {
 			fuel_consumption = -1
 		}
 		build_cost_resources = {
+			steel = 1
 			chromium = 2
 		}
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 5000
+			convert_cost_ic = 9000
 		}
 	}
 	carrier_ship_engine_2_diesel = {
@@ -1324,7 +1344,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 2500
+			convert_cost_ic = 5000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1356,7 +1376,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 3000
+			convert_cost_ic = 6000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1364,7 +1384,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = carrier_ship_engine_2_diesel
-			convert_cost_ic = 2800
+			convert_cost_ic = 5000
 		}
 	}
 	carrier_ship_engine_4_diesel = {
@@ -1391,7 +1411,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = carrier_ship_engine
-			convert_cost_ic = 3500
+			convert_cost_ic = 7000
 			convert_cost_resources = {
 				steel = 1
 				chromium = 1
@@ -1399,7 +1419,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = carrier_ship_engine_2_diesel
-			convert_cost_ic = 3300
+			convert_cost_ic = 5800
 		}
 	}
 
@@ -1442,7 +1462,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = civilian_ship_engine
-			convert_cost_ic = 200
+			convert_cost_ic = 300
 		}
 	}
 
@@ -1453,9 +1473,10 @@ equipment_modules = {
 		category = ship_heavy_boiler
 		gui_category = ship_propulsion_range
 		sfx = sfx_ui_sd_module_engine
+		xp_cost = 10
 
 		add_stats = {
-			build_cost_ic = 300
+			build_cost_ic = 800
 		}
 		multiply_stats = {
 			naval_speed = 0.05

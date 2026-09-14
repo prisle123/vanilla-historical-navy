@@ -142,6 +142,79 @@ ENG_protect_home_waters_low_threat = {
 	}
 }
 
+ENG_blockade_Germany = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		has_war_with = GER
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 49
+		value = 200
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 44
+		value = 200
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 47
+		value = 500
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 61
+		value = 200
+	}
+}
+
+ENG_blockade_Italy = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		has_war_with = ITA
+		enable_vnr_naval_ai = yes
+	}
+	abort = {
+		OR = {
+			any_core_state = {
+				is_controlled_by_ROOT_or_ally = no
+			}
+			AND = {
+				OR = {
+					has_enemy_naval_control = 16
+					has_enemy_naval_control = 18
+					has_enemy_naval_control = 43
+				}
+				GER = { is_ai = no }
+			}
+		}
+	}
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 29
+		value = 50
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 68
+		value = 50
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 69
+		value = 100
+	}
+}
+
 ENG_avoid_baltic = {
 	allowed = {
         original_tag = ENG
@@ -213,6 +286,7 @@ ENG_secure_mediterranean_high_threat = {
 				}
 			}
 			NOT = { has_war_with = ITA }
+			enable_vnr_naval_ai = no
 		}
 	}
     ai_strategy = {
@@ -220,27 +294,6 @@ ENG_secure_mediterranean_high_threat = {
         id = vnr_eng_med_zones
         value = 99
     }
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 29
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 68
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 69
-		value = 100
-	}
-	ai_strategy = {
-		type = strike_force_home_base
-		id = 69
-		value = 100
-	}
-
 	ai_strategy = {
 		type = front_unit_request
 		area = north_africa
@@ -279,6 +332,7 @@ ENG_secure_mediterranean_low_threat = {
 				}
 			}
 			NOT = { has_war_with = ITA }
+			enable_vnr_naval_ai = no
 		}
 	}
     ai_strategy = {
@@ -286,27 +340,6 @@ ENG_secure_mediterranean_low_threat = {
         id = vnr_eng_med_zones
         value = 90
     }
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 29
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 68
-		value = 100
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 69
-		value = 100
-	}
-	ai_strategy = {
-		type = strike_force_home_base
-		id = 69
-		value = 100
-	}
-
 	ai_strategy = {
 		type = front_unit_request
 		area = north_africa
@@ -463,6 +496,36 @@ ENG_reinforce_pacific = {
 		type = naval_dominance
 		id = vnr_eng_pacific_zone
 		value = 60
+	}
+}
+
+ENG_protect_atlantic_route = {
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = CAN
+		}
+	}
+	enable = {
+		has_war_with = GER
+		GER = {
+			has_navy_size = {
+				type = submarine
+				size > 49
+			}
+		}
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = naval_dominance
+		id = vnr_eng_atlantic_route
+		value = 85
+	}
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 42
+		value = 200
 	}
 }
 
@@ -1380,6 +1443,9 @@ USA_do_not_waste_fleet_in_north_pacific = {
 }
 
 USA_pacific_war_naval_counterattack_1 = {
+	# form outer defense circle at Midway and Bismarck Sea
+	# patrol Pearl Harbor and defend it at all cost
+	# start taking Marshall islands and Caroline islands
     allowed = {
         original_tag = USA
     }
@@ -1437,18 +1503,6 @@ USA_pacific_war_naval_counterattack_1 = {
 		value = -100
 	}
 
-	# US submarine war
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 83
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 84
-		value = 500
-	}
-	
 	ai_strategy = {
 		type = invade
 		id = JAP
@@ -1458,12 +1512,7 @@ USA_pacific_war_naval_counterattack_1 = {
 		type = naval_invasion_focus
 		value = 1000
 	}
-	ai_strategy = {
-		type = convoy_raiding_target
-		id = JAP
-		value = 100
-	}
-
+	
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 633
@@ -1510,6 +1559,9 @@ USA_pacific_war_naval_counterattack_1 = {
 }
 
 USA_pacific_war_naval_counterattack_2 = {
+	# use Marshall islands and Turuk as advancing bases
+	# liberate Philippines, take Iwo Jima
+	# secondary forces into Indonesia theater
     allowed = {
         original_tag = USA
     }
@@ -1552,28 +1604,6 @@ USA_pacific_war_naval_counterattack_2 = {
 		value = 50
 	}
 
-	# US submarine war
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 83
-		value = 200
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 84
-		value = 200
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 94
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 78
-		value = 500
-	}
-
 	ai_strategy = {
 		type = invade
 		id = JAP
@@ -1584,12 +1614,6 @@ USA_pacific_war_naval_counterattack_2 = {
 		value = 1000
 	}
 	
-	ai_strategy = {
-		type = convoy_raiding_target
-		id = JAP
-		value = 100
-	}
-
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 645
@@ -1630,6 +1654,10 @@ USA_pacific_war_naval_counterattack_2 = {
 }
 
 USA_pacific_war_naval_counterattack_3 = {
+	# use Iwo Jima as advancing base
+	# keep control over Philippines
+	# move superior forces into East China Sea, take Okinawa
+	# secondary forces into South China Sea, help Brits
     allowed = {
         original_tag = USA
     }
@@ -1677,28 +1705,6 @@ USA_pacific_war_naval_counterattack_3 = {
 		value = 0
 	}
 
-	# US submarine war
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 76
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 90
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 94
-		value = 500
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 78
-		value = 500
-	}
-
 	ai_strategy = {
 		type = invade
 		id = JAP
@@ -1709,12 +1715,6 @@ USA_pacific_war_naval_counterattack_3 = {
 		value = 1000
 	}
 	
-	ai_strategy = {
-		type = convoy_raiding_target
-		id = JAP
-		value = 100
-	}
-
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 526
@@ -1755,6 +1755,7 @@ USA_pacific_war_naval_counterattack_3 = {
 }
 
 US_marine_corps = {
+	# more devil dogs
 	allowed = {
 		original_tag = USA
 	}
@@ -1787,6 +1788,7 @@ US_marine_corps = {
 }
 
 USA_atlantic_war = {
+	# help Brits protect the Channel if Japs are not a threat
 	allowed = {
 		original_tag = USA
 	}
@@ -1805,6 +1807,7 @@ USA_atlantic_war = {
 				JAP = { has_navy_size = { type = carrier size < 7 } }
 			}
 		}
+		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -1821,6 +1824,7 @@ USA_atlantic_war = {
 }
 
 USA_mediterranean_war = {
+	# help Brits defend Mediterranean if Japs are not a threat
 	allowed = {
 		original_tag = USA
 	}
@@ -1839,6 +1843,7 @@ USA_mediterranean_war = {
 				JAP = { has_navy_size = { type = carrier size < 7 } }
 			}
 		}
+		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -1893,6 +1898,7 @@ Allies_dont_fortify_Singapore = {
 }
 
 USA_defend_east_coast = {
+	# defend East Coast if Britain is dead
 	allowed = {
 		original_tag = USA
 	}
@@ -1903,12 +1909,85 @@ USA_defend_east_coast = {
 			has_war_with = GER
 			has_war_with = ITA
 		}
+		enable_vnr_naval_ai = yes
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = naval_dominance
 		id = vnr_east_coast
+		value = 100
+	}
+}
+
+USA_unrestricted_submarine_warfare_1 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		has_war_with = JAP
+		629 = { is_controlled_by_ROOT_or_ally = yes }
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 83
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 84
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 94
+		value = 100
+	}
+	ai_strategy = {
+		type = convoy_raiding_target
+		id = JAP
+		value = 100
+	}
+}
+
+USA_unrestricted_submarine_warfare_2 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		has_war_with = JAP
+		645 = { is_controlled_by_ROOT_or_ally = yes }
+		enable_vnr_naval_ai = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 83
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 84
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 94
+		value = 100
+	}
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 75
+		value = 300
+	}
+
+	ai_strategy = {
+		type = convoy_raiding_target
+		id = JAP
 		value = 100
 	}
 }
@@ -2098,6 +2177,7 @@ GER_avoid_mediterranean = {
 }
 
 GER_invade_norway = {
+	# keep assaulting Oslo, but immediately stop once foothold is gained
 	allowed = {
         original_tag = GER
     }

@@ -9,7 +9,7 @@ NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.1   -- Base chance for receiving 
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.65   -- the game will roll between 0-1 and will damage a random part if below this val on naval critical hits (was 0.1, critical hit will definitely destroy critical parts)
 NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 8   -- Multiplier for the critical damage. Scaled down with the ship reliability. (was 5, punish low reliability designs)
 NDefines.NNavy.CONVOY_ATTACK_BASE_FACTOR = 0.2   -- base % of convoys that get intercepted (was 0.15)
-NDefines.NNavy.CONVOY_HIT_PROFILE = 110   -- convoys has this contant hit profile (was 85)
+NDefines.NNavy.CONVOY_HIT_PROFILE = 100   -- convoys has this contant hit profile (was 85)
 NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.3   -- chance for critical hit from torpedo. (was 0.1, torpedo needs more love)
 NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = { 2.0, 1.0, 0.85, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.3, 0.0 }   -- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 3.0, 1.25, 1.0, 0.65, 0.55, 0.3, 0.15, 0.1, 0.05, 0.01, 0.0 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
@@ -26,6 +26,7 @@ NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_SUNK = 0.5   -- sunk ships will lose this 
 NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.5   -- upper limit of shore bombardment (was 0.33)
 NDefines.NNavy.HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.1   -- heavy gun attack value is divided by this value * 100 and added to shore bombardment modifier (was 0.05)
 NDefines.NNavy.LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.5   -- light gun attack value is divided by this value * 100 and added to shore bombardment modifier (was 0.025)
+NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.6   -- factors speed value when determining it profile (Vis * HIT_PROFILE_MULT * Ship Hit Profile Mult) (was 0.5)
 
 
 --Positioning and Screening
@@ -83,47 +84,48 @@ NDefines.NNavy.DOMINANCE_PER_SHIP_PER_CARRIER_SIZE = 0.2   -- bonus to dominance
 NDefines.NNavy.DOMINANCE_PER_SHIP_PER_HEAVY_GUN_ATTACK = 0.02   -- bonus to dominance based on the heavy attack, min value is 0 (was 0.01, differentiate big gun ships and smaller counterparts)
 NDefines.NNavy.DOMINANCE_DAILY_GAIN_FACTOR = 0.05   -- Daily dominance gain, as a fraction of target value (was 0.02)
 NDefines.NNavy.DOMINANCE_DAILY_LOSS_FACTOR = 0.01   -- Daily dominance loss, as a fraction of previous target value (was 0.04)
+NDefines.NNavy.NAVAL_BASE_DOMINANCE_FACTOR = 0.05   -- base naval dominance buff based on naval bases in the region (was 0.01)
 
 
 --Battle Process
 NDefines.NNavy.COMBAT_MIN_DURATION = 20   -- Min combat duration before we can retreat. It's a balancing variable so it's not possible to always run with our weak ships agains big flotillas. (was 8, longer activation time creates time for carrier attack)
-NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 22   -- hours from start of combat when only carriers, capitals and subs get to attack (was 6)
-NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 25   -- hours where all get to attack (was 8)
-NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 3   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
+NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 20   -- hours from start of combat when only carriers, capitals and subs get to attack (was 6)
+NDefines.NNavy.COMBAT_INITIAL_DURATION = 20   -- Number of hours that is considered the "initial phase" of naval combat, used for modifiers like surprise attack during "initial combat" (was 6)
+NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 24   -- hours where all get to attack (was 8)
+NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 6   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.1   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
 NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 1.85   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
-NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 4   -- each taskforce in convoy defense mission can at most cover this many regions without losing efficiency (was 5)
 
 
 --Naval Aviation / Carriers
 NDefines.NNavy.NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 1   -- how much score factor from low AA guns (scales between 0->this number) (was 5, AA doesn't matter in cv plane target selection)
 NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_BASE = 500   -- base scoring for target picking for planes inside naval combat based on screening efficency, one define per ship type (was 10)
-NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_BASE = 80   -- base scoring for target picking for planes inside naval combat based on screening efficency, one define per ship type (was 10)
+NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_BASE = 120   -- base scoring for target picking for planes inside naval combat based on screening efficency, one define per ship type (was 10)
 NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCALE = 1000   -- scaled scoring for target picking for planes inside naval combat, max value when zero screening efficency, one define per ship type (was 200)
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO  = 1.0   -- total sum of fleet's anti air will be multiplied with this ratio and added to calculations anti-air of individual ships while air damage reduction (was 0.25, more AA contribution from other ships)
-NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.85   -- damage reduction for incoming air attacks is clamped to this value at maximum. (was 0.75)
+NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.8   -- damage reduction for incoming air attacks is clamped to this value at maximum. (was 0.75)
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.15   -- received air damage is calculated using following: 1 - ( (ship_anti_air + fleet_anti_air * SHIP_TO_FLEET_ANTI_AIR_RATIO )^ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE ) * ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE (was 0.18)
-NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.27   -- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support (was 0.2)
-NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.025   -- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit. (was 0.01)
+NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.17   -- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support (was 0.2)
+NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.018   -- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit. (was 0.01)
 NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.0   -- factor of planes that can sortie by default from a carrier (was 0.5)
 NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO = {0, 0.25, 0.50, 0.75, 1.0}   -- The defensive stance sortie is 1.0 - value in index so their sum equals 1
 NDefines.NNavy.CARRIER_OFFENSIVE_STANCE_DEFAULT_INDEX = 4   -- The default offensive sortie index in CARRIER_OFFENSIVE_STANCE_SORTIE_RATIO (was 2)
 NDefines.NNavy.NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY = 120   -- How many planes flying in a naval combat before penalties are introduced (was 80)
-NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.01   -- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns (was 0.005)
+NDefines.NNavy.NAVAL_COMBAT_PLANE_STACKING_PENALTY_EFFECT = 0.008   -- Each plane above the optimal amount decreases the amount of airplanes being able to takeoff by such %. Subject to diminishing returns (was 0.005)
 -- Following defines decide dynamic plane cap in naval combat based on enemy ship count and type
 -- calculated as: attacking plane without penalty = NAVAL_COMBAT_PLANE_MIN_STACKING_PENALTY + SHIP_SILHOUETTE_VALUE_PLANES_CARRIER * carrier number + 
 --													SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL * capital ship number + (SHIP_SILHOUETTE_VALUE_PLANES_SCREEN * screen ship number) * (1 / (1 + screen ratio * SCREEN_CAP_REDUCTION_FACTOR))
 NDefines.NNavy.SCREEN_CAP_REDUCTION_FACTOR = 0.06   -- Reduces screen silhouette weight if there are caps present, screenval * 1/(1+caps*weight) (was 0.02)
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL = 17   -- For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CAPITAL = 18   -- For dynamic plane efficacy, silhouette value (nominally in planes, but very abstract)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SCREEN = 5   -- As Above. This one would be nice to split by type, but that's problematic. (was 5)
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 30   -- As Above (was 16)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CARRIER = 33   -- As Above (was 16)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUPPORT = 2   -- As Above (was 3)
 NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_CONVOY = 2   -- As Above (was 4)
-NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 3   -- As Above (was 7)
+NDefines.NNavy.SHIP_SILHOUETTE_VALUE_PLANES_SUBMARINE = 5   -- As Above (was 7)
 -- dynamic plane cap ends
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 15   -- same as above but used inside naval combat for carrier battles (was 5, more fighter damage from carrier)
-NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 8   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 12)
+NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 12   -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively) (was 12)
 NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.8   -- the game will roll between 0-1 and will damage a random part if below this val on air critical hits (was 0.1, critical hit will definitely destroy critical parts)
 --NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2   -- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip) (was 4)
 --NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3   -- how often carrier planes do battle inside naval combat (was 3, doesn't work, use above)
@@ -133,10 +135,10 @@ NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 0.5   -- Balancing value to convert d
 NDefines.NAir.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.06   -- conversion factor to bring agility in line with ship AA (was 0.02)
 NDefines.NAir.CAPACITY_PENALTY = 3   -- scales penalty of having overcrowded bases. (was 2)
 NDefines.NAir.CARRIER_PLANES_AMOUNT_FOR_POSITIONING = 60   -- below this amount of planes on a carrier we no longer get max benefit on enemy positioning (was 50)
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.005   -- Max planes that can join a combat comparing to the total strength of the ships (was 0.05)
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.01   -- Max planes that can join a combat comparing to the total strength of the ships (was 0.05)
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 30   -- Min cap for planes that can join naval combat (was 20)
 NDefines.NAir.REINFORCEMENT_DISABLING_DURATION_IN_LAND_CARRIER_TRANSFER = 12   -- The reinforcement disabling duration in hours when transfering from land to carrier and vice versa (was 48)
-NDefines.NAir.NAVAL_STRIKE_TARGETTING_TO_AMOUNT = 0.2   -- Balancing value to convert the naval_strike_targetting equipment stats to chances of how many airplanes managed to do successfull strike. (was 0.3)
+NDefines.NAir.NAVAL_STRIKE_TARGETTING_TO_AMOUNT = 0.3   -- Balancing value to convert the naval_strike_targetting equipment stats to chances of how many airplanes managed to do successfull strike. (was 0.3)
 
 
 --War Score
@@ -146,8 +148,8 @@ NDefines.NNavy.WAR_SCORE_GAIN_FOR_SUNK_SHIP_PRODUCTION_COST_FACTOR = 0.04   -- w
 
 --Spotting
 NDefines.NNavy.SUBMARINE_BASE_STEALTH_VALUE	= 80   -- Used in the reworked formula, sub_visiblity is subtracted from SUBMARINE_BASE_STEALTH_VALUE for the divider. The higher the define, the lower the chance for detection to happen (was 100, with 80, passive reveal chance at 5 avg detection and 30 sub vis is 1%)
-NDefines.NNavy.SUBMARINE_REVEAL_DETECTION_MULTIPLIER = 0.09   -- Used in the reworked formula, multiplies the average submarine detection. The higher the define, the higher chance for detection to happen
-NDefines.NNavy.SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER	= 1   -- used in the reworked formula when firing the torpedos to see whether it has been detected. This define is applied as multiplier to the numerator (avg. sub detection * SUBMARINE_REVEAL_DETECTION_MULTIPLIER * SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER). define = 1, no difference, define < 0, no chance of detecting, 0 < define < 1, lowers chance of detecting comparing to passive reveal, 1 < define, increases chance to be revealed.
+NDefines.NNavy.SUBMARINE_REVEAL_DETECTION_MULTIPLIER = 0.07   -- Used in the reworked formula, multiplies the average submarine detection. The higher the define, the higher chance for detection to happen (was 0.09)
+NDefines.NNavy.SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER	= 0.9   -- used in the reworked formula when firing the torpedos to see whether it has been detected. This define is applied as multiplier to the numerator (avg. sub detection * SUBMARINE_REVEAL_DETECTION_MULTIPLIER * SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER). define = 1, no difference, define < 0, no chance of detecting, 0 < define < 1, lowers chance of detecting comparing to passive reveal, 1 < define, increases chance to be revealed. (was 1)
 NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 10   -- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide. (was 20)
 NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 8   -- Amount of in-game-hours that makes the submarine visible if it is on the defender side. (was 16)
 NDefines.NNavy.UNIT_TRANSFER_SPOTTING_SPEED_MULT = 15   -- spotting speed mult against unit transfers (was 5)
@@ -252,6 +254,12 @@ NDefines.NAI.AI_SHIP_SWAP_MIN_DAMAGED_SHIPS = 1  -- minimum number of damaged sh
 NDefines.NAI.AI_SHIP_SWAP_DAMAGE_THRESHOLD = 0.65  -- per-ship strength threshold below which the AI considers a capital/carrier damaged enough to swap to reserves (was 0.33)
 
 
+-- Home Base Selection
+NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 800   -- Distance to normalize against. Everything above said value will be treated as score = 0. (was 550)
+NDefines.NNavy.NAVAL_HOMEBASE_BUILDING_SCORE_FACTOR = 0.035   -- Multiplier for how much the level of the naval base impacts its total score.
+NDefines.NNavy.NAVAL_HOMEBASE_OWNERSHIP_BONUS = 0.02   -- Adds to total score based on if the base is owned by the country doing the calculation. (was 0.04)
+
+
 --Navy Medals
 NDefines.NNavy.NAVAL_COMBAT_MEDAL_CHANCE = 48   -- 1/N chance that a ship gains a medal after participating in a battle
 NDefines.NNavy.NAVAL_COMBAT_MEDAL_MIN_DURATION = 4   -- Minimum hours the battle must have taken to gain a medal
@@ -266,10 +274,9 @@ NDefines.NNavy.STRIKE_FORCE_ON_BASE_FUEL_COST_FACTOR = 0.1   -- fuel cost for na
 NDefines.NNavy.MIN_TRACTED_ASSIST_DAMAGE_RATIO = 0.5   -- How much damage counts as assist damage (was 0.05)
 NDefines.NNavy.SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 5   -- amount of sub detection required for a ship to be considered a sub hunter (was 2, at least have a sonar)
 NDefines.NNavy.PEACE_ACTION_TRANSFER_NAVY_EXPERIENCE_RETAINED = 0.0   -- % of experience to retain after being transferred in a peace conference (was 0.25)
-NDefines.NNavy.NAVAL_HOMEBASE_CALCULATION_DISTANCE_CUTOFF = 800   -- Distance to normalize against. Everything above said value will be treated as score = 0. (was 550)
-NDefines.NNavy.NAVAL_HOMEBASE_BUILDING_SCORE_FACTOR = 0.035   -- Multiplier for how much the level of the naval base impacts its total score.
-NDefines.NNavy.NAVAL_HOMEBASE_OWNERSHIP_BONUS = 0.02   -- Adds to total score based on if the base is owned by the country doing the calculation. (was 0.04)
 NDefines.NNavy.UNDERWAY_REPLENISHMENT_CONVOY_COST_PER_FUEL = 0.15   -- Cost in convoys for underway replenishment multiplied by max daily fuel consumption (rounded up) (was 0.28)
+NDefines.NNavy.CONVOY_DEFENSE_MAX_REGION_TO_TASKFORCE_RATIO = 4   -- each taskforce in convoy defense mission can at most cover this many regions without losing efficiency (was 5)
+NDefines.NNavy.CONVOY_RAID_MAX_REGION_TO_TASKFORCE_RATIO = 1   -- each taskforce in convoy raid mission can at most cover this many regions without losing efficiency (was 1.5)
 
 --------------
 --AI Defines--
@@ -296,6 +303,7 @@ NDefines.NAI.SUGGESTED_NUM_MAX_CARRIERS = 4   -- We don't know exactly how many 
 NDefines.NNavy.MAX_SHIP_COUNT_FOR_DOMINANCE_PATROL_ROLE_ASSIGNMENT = 8   -- define the maximum number of ships that should be in a task force for it to be considered a dominance building patrol (provided they have any capitals as well) (was 15)
 NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 1   -- define the minimum number of ship that should be in a task force for it to be considered a patrol or an escort task force (used to the insignia assignment, see TASK_FORCE_ROLE_TO_INSIGNIA) (was 2)
 NDefines.NAI.AI_TASKFORCE_REQUIRED_RESERVE_RATIO = 0.1   -- Fraction of required TF optimal composition held in reserve for reinforcement (rounded up per type) (was 0.2)
+NDefines.NAI.MAX_PATROL_TO_STRIKE_FORCE_RATIO = 4.0   -- maximum patrol/strike force ratio (was 4)
 
 
 --AI Production / Designs
@@ -399,7 +407,7 @@ NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 3   -- XP cost for repla
 NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 1   -- XP cost for converting one equipment module to a related module when creating an equipment variant. (was 3)
 NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 1   -- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
 NDefines.NProduction.BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.1   -- Fraction of the hull industry cost which is always included in the refitting cost. (was 0.2)
-NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.1   -- Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost. (was 0.2)
+NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.2   -- Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost. (was 0.2)
 
 -----------------
 --Intel Defines--

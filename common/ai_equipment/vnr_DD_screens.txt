@@ -15,7 +15,7 @@ naval_screen = {
 		}
 
 		enable = {
-			not = { has_tech = basic_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
+			# not = { has_tech = basic_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
 		}
 
 		
@@ -57,7 +57,7 @@ naval_screen = {
 		}
 
 		enable = {
-			not = { has_tech = interwar_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
+			# not = { has_tech = interwar_ship_hull_light }		# WK-era DD has very low HP, they are not worth producing or refitting
 		}
 
 		
@@ -212,7 +212,7 @@ naval_screen = {
 
 	screen_1949 = {
 		name = vnr_dd_1949
-		role_icon_index = 83
+		role_icon_index = 31
 
 		priority = {
 			base = 0
@@ -370,7 +370,7 @@ naval_screen = {
 	}
 	screen_1946_expert = {
 		name = vnr_dd_1946_expert
-		role_icon_index = 63
+		role_icon_index = 31
 
 		priority = {
 			base = 0
@@ -409,7 +409,7 @@ naval_screen = {
 	}
 	screen_1949_expert = {
 		name = vnr_dd_1949_expert
-		role_icon_index = 83
+		role_icon_index = 31
 
 		priority = {
 			base = 0

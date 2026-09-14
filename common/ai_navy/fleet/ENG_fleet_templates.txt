@@ -11,7 +11,12 @@ ENG_strike_fleet_1 = {
 }
 ENG_escort_fleet_1 = {
 	required_taskforces = {
-		ENG_ConvoyEscort_1 = 6
+		ENG_ConvoyEscort_1 = 8
+	}
+}
+ENG_convoy_fleet_1 = {
+	required_taskforces = {
+		ENG_ConvoyEscort_2 = 4
 	}
 }
 ENG_patrol_fleet_1 = {
@@ -49,6 +54,14 @@ ENG_escort_fleet_2 = {
 		ENG_ConvoyEscort_1 = 4
 	}
 }
+ENG_convoy_fleet_2 = {
+	required_taskforces = {
+		ENG_ConvoyEscort_2 = 4
+	}
+	optional_taskforces = {
+		ENG_ConvoyEscort_2 = 2
+	}
+}
 ENG_strike_fleet_2 = {
 	required_taskforces = {
 		ENG_StrikeForce_1 = 2
@@ -57,14 +70,6 @@ ENG_strike_fleet_2 = {
 ENG_dominance_fleet_2 = {
 	required_taskforces = {
 		ENG_PatrolDominanceForce_1 = 2
-	}
-}
-ENG_support_fleet_2 = {
-	required_taskforces = {
-		ENG_InvasionSupport_1 = 1
-	}
-	optional_taskforces = {
-		ENG_InvasionSupport_1 = 1
 	}
 }
 ENG_raiding_fleet_2 = {
@@ -90,7 +95,15 @@ ENG_escort_fleet_3 = {
 		ENG_ConvoyEscort_1 = 2
 	}
 	optional_taskforces = {
-		ENG_ConvoyEscort_1 = 3
+		ENG_ConvoyEscort_1 = 2
+	}
+}
+ENG_convoy_fleet_3 = {
+	required_taskforces = {
+		ENG_ConvoyEscort_2 = 4
+	}
+	optional_taskforces = {
+		ENG_ConvoyEscort_2 = 2
 	}
 }
 ENG_strike_fleet_3 = {

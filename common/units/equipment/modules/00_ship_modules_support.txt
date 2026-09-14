@@ -1396,7 +1396,7 @@ equipment_modules = {
 	oxygen_generator = {
 		category = submarine_miscellaneous
 		add_stats = {
-			build_cost_ic = 35
+			build_cost_ic = 15
 			reliability = -0.03
 		}
 		multiply_stats = {
@@ -1459,6 +1459,7 @@ equipment_modules = {
 			ship_light_medium_battery_single
 			ship_secondaries
 		}
+		dismantle_cost_ic = 50000
 	}
 	economical_nuclear_reactor_cruiser = {
 		category = heavy_miscellaneous

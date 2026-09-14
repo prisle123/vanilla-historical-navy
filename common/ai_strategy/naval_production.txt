@@ -158,6 +158,8 @@ naval_unit_role_ratios_minors_coastal = {
 				tag = FRA
 				tag = USA
 				tag = SOV
+				tag = CAN
+				tag = AST
 			}
 		}
 	}
@@ -191,6 +193,8 @@ naval_unit_role_ratios_minors_defensive = {
 				tag = FRA
 				tag = USA
 				tag = SOV
+				tag = CAN
+				tag = AST
 			}
 		}
 	}
@@ -237,6 +241,8 @@ naval_unit_role_ratios_minors_offensive = {
 				tag = FRA
 				tag = USA
 				tag = SOV
+				tag = CAN
+				tag = AST
 			}
 		}
 	}
@@ -289,6 +295,8 @@ naval_unit_role_ratios_minors_global = {
 				tag = FRA
 				tag = USA
 				tag = SOV
+				tag = CAN
+				tag = AST
 			}
 		}
 	}
@@ -377,12 +385,6 @@ naval_unit_role_ratios_GER_prewar_early = {
 		id = vnr_naval_submarine
 		value = 500
 	}
-
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 25
-	}
 }
 
 naval_unit_role_ratios_GER_prewar_late = {
@@ -425,12 +427,6 @@ naval_unit_role_ratios_GER_prewar_late = {
 		id = vnr_naval_submarine
 		value = 6000
 	}
-
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 30
-	}
 }
 
 naval_unit_role_ratios_GER_atwar = {
@@ -471,12 +467,6 @@ naval_unit_role_ratios_GER_atwar = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 5
-	}
-
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 65
 	}
 }
 
@@ -730,11 +720,6 @@ naval_unit_role_ratios_ENG_prewar_early = {
 		id = vnr_naval_cruiser_heavy
 		value = 30
 	}
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 30
-	}
 }
 
 naval_unit_role_ratios_ENG_prewar_late = {
@@ -783,12 +768,6 @@ naval_unit_role_ratios_ENG_prewar_late = {
 		id = vnr_naval_cruiser_heavy
 		value = 60
 	}
-
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 45
-	}
 }
 
 naval_unit_role_ratios_ENG_atwar = {
@@ -803,13 +782,19 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 100
+		value = 70
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 100
+		value = 90
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen_escort
+		value = 250
 	}
 
 	ai_strategy = {
@@ -834,12 +819,6 @@ naval_unit_role_ratios_ENG_atwar = {
 		type = role_ratio
 		id = vnr_naval_submarine
 		value = 300
-	}
-
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 55
 	}
 }
 
@@ -881,6 +860,70 @@ naval_unit_role_ratios_ENG_late_peace = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
 		value = 30
+	}
+}
+
+### Commonwealth ###
+
+naval_unit_role_ratios_commonwealth_prewar = {
+	allowed = {
+		OR = {
+			tag = CAN
+			tag = AST
+		}
+	}
+	enable = {
+		has_war_with_major = no
+		date < 1940.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 60
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 10
+	}
+}
+
+naval_unit_role_ratios_commonwealth_late = {
+	allowed = {
+		OR = {
+			tag = CAN
+			tag = AST
+		}
+	}
+	enable = {
+		OR = {
+			has_war_with_major = yes
+			date > 1939.12.31
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_submarine
+		value = 50
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen_escort
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_cruiser_light
+		value = 10
 	}
 }
 
@@ -1279,11 +1322,6 @@ naval_unit_role_ratios_JAP_prewar_naval_treaty = {
 		id = vnr_naval_carrier_light
 		value = 15
 	}
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 20
-	}
 }
 
 naval_unit_role_ratios_JAP_prewar_break_treaty = {
@@ -1332,11 +1370,6 @@ naval_unit_role_ratios_JAP_prewar_break_treaty = {
 		id = vnr_naval_carrier
 		value = 60
 	}
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 25
-	}
 }
 
 naval_unit_role_ratios_JAP_atwar = {
@@ -1380,11 +1413,6 @@ naval_unit_role_ratios_JAP_atwar = {
 		type = role_ratio
 		id = vnr_naval_carrier
 		value = 80
-	}
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 40
 	}
 }
 
@@ -1432,11 +1460,6 @@ naval_unit_role_ratios_JAP_late_peace = {
 		type = role_ratio
 		id = vnr_naval_carrier
 		value = 50
-	}
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 45
 	}
 }
 
@@ -1539,17 +1562,6 @@ naval_unit_role_ratios_USA_go_to_war = {
 		id = vnr_naval_carrier
 		value = 80
 	}
-	
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 60
-	}
-	ai_strategy = {
-		type = building_target
-		id = arms_factory
-		value = 35
-	}
 
 	ai_strategy = {
 		type = navy_xp_spend_priority
@@ -1571,6 +1583,11 @@ naval_unit_role_ratios_USA_atwar = {
 		type = role_ratio
 		id = vnr_naval_submarine
 		value = 800
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen_escort
+		value = 350
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1600,16 +1617,6 @@ naval_unit_role_ratios_USA_atwar = {
 		value = 120
 	}
 	
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 150
-	}
-	ai_strategy = {
-		type = building_target
-		id = arms_factory
-		value = 300
-	}
 	ai_strategy = {
 		type = build_ship
 		id = capital_ship
@@ -2142,6 +2149,26 @@ we_need_convoys_majors3 = {
 	}
 }
 
+we_need_convoy_escort_allies = {
+	allowed = {
+		OR = {
+			tag = ENG
+			tag = USA
+		}
+	}
+	enable = {
+		stockpile_ratio = { archetype = convoy ratio < 500 }
+		has_war_with_major = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = vnr_naval_screen_escort
+		value = 500
+	}
+}
+
 # we_need_convoys_majors3 = {
 	# allowed = {
 		# OR = {
@@ -2413,8 +2440,13 @@ we_need_cv_fighters_1 = {
 		always = yes
 	}
 	enable = {
-		has_navy_size = { size > 0 type = carrier }
-		has_navy_size = { size < 4 type = carrier }
+		OR = {
+			AND = {
+				has_navy_size = { size > 0 type = carrier }
+				has_navy_size = { size < 4 type = carrier }
+			}
+			num_of_military_factories < 60
+		}
 	}
 	abort = {
 		OR = {
@@ -2439,7 +2471,7 @@ we_need_cv_fighters_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		has_navy_size = { size < 8 type = carrier }
+		num_of_military_factories > 59
 	}
 	abort = {
 		OR = {
@@ -2447,7 +2479,11 @@ we_need_cv_fighters_2 = {
 				cv_small_plane_airframe > 380
 			}
 			has_navy_size = { size < 4 type = carrier }
-			has_navy_size = { size > 7 type = carrier }
+			num_of_military_factories < 60
+			AND = {
+				has_navy_size = { size > 7 type = carrier }
+				num_of_military_factories > 89
+			}
 		}
 	}
 
@@ -2464,6 +2500,7 @@ we_need_cv_fighters_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
+		num_of_military_factories > 89
 	}
 	abort = {
 		OR = {
@@ -2471,6 +2508,7 @@ we_need_cv_fighters_3 = {
 				cv_small_plane_airframe > 560
 			}
 			has_navy_size = { size < 8 type = carrier }
+			num_of_military_factories < 90
 		}
 	}
 
@@ -2505,8 +2543,13 @@ we_need_cv_naval_bombers_1 = {
 		always = yes
 	}
 	enable = {
-		has_navy_size = { size > 0 type = carrier }
-		has_navy_size = { size < 4 type = carrier }
+		OR = {
+			AND = {
+				has_navy_size = { size > 0 type = carrier }
+				has_navy_size = { size < 4 type = carrier }
+			}
+			num_of_military_factories < 60
+		}
 	}
 	abort = {
 		OR = {
@@ -2531,7 +2574,7 @@ we_need_cv_naval_bombers_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		has_navy_size = { size < 8 type = carrier }
+		num_of_military_factories > 59
 	}
 	abort = {
 		OR = {
@@ -2539,7 +2582,11 @@ we_need_cv_naval_bombers_2 = {
 				cv_small_plane_naval_bomber_airframe > 380
 			}
 			has_navy_size = { size < 4 type = carrier }
-			has_navy_size = { size > 7 type = carrier }
+			num_of_military_factories < 60
+			AND = {
+				has_navy_size = { size > 7 type = carrier }
+				num_of_military_factories > 89
+			}
 		}
 	}
 
@@ -2556,6 +2603,7 @@ we_need_cv_naval_bombers_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
+		num_of_military_factories > 89
 	}
 	abort = {
 		OR = {
@@ -2563,6 +2611,7 @@ we_need_cv_naval_bombers_3 = {
 				cv_small_plane_naval_bomber_airframe > 560
 			}
 			has_navy_size = { size < 8 type = carrier }
+			num_of_military_factories < 90
 		}
 	}
 
@@ -2597,8 +2646,13 @@ we_need_cv_cas_1 = {
 		always = yes
 	}
 	enable = {
-		has_navy_size = { size > 0 type = carrier }
-		has_navy_size = { size < 4 type = carrier }
+		OR = {
+			AND = {
+				has_navy_size = { size > 0 type = carrier }
+				has_navy_size = { size < 4 type = carrier }
+			}
+			num_of_military_factories < 60
+		}
 	}
 	abort = {
 		OR = {
@@ -2607,6 +2661,7 @@ we_need_cv_cas_1 = {
 			}
 			has_navy_size = { size < 1 type = carrier }
 			has_navy_size = { size > 3 type = carrier }
+			num_of_military_factories < 30
 		}
 	}
 
@@ -2623,7 +2678,7 @@ we_need_cv_cas_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		has_navy_size = { size < 8 type = carrier }
+		num_of_military_factories > 59
 	}
 	abort = {
 		OR = {
@@ -2631,7 +2686,11 @@ we_need_cv_cas_2 = {
 				cv_small_plane_cas_airframe > 380
 			}
 			has_navy_size = { size < 4 type = carrier }
-			has_navy_size = { size > 7 type = carrier }
+			num_of_military_factories < 60
+			AND = {
+				has_navy_size = { size > 7 type = carrier }
+				num_of_military_factories > 89
+			}
 		}
 	}
 
@@ -2648,6 +2707,7 @@ we_need_cv_cas_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
+		num_of_military_factories > 89
 	}
 	abort = {
 		OR = {
@@ -2655,6 +2715,7 @@ we_need_cv_cas_3 = {
 				cv_small_plane_cas_airframe > 560
 			}
 			has_navy_size = { size < 8 type = carrier }
+			num_of_military_factories < 90
 		}
 	}
 
@@ -2842,5 +2903,672 @@ we_dont_need_ocean_liner = {
 		type = equipment_variant_production_factor
 		id = ocean_liner_equipment
 		value = -1000
+	}
+}
+
+
+### dockyard building strategies ###
+
+### GER ###
+dockyard_building_target_GER_1 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		num_of_naval_factories < 20
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 20
+	}
+}
+
+dockyard_building_target_GER_2 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		num_of_naval_factories > 19
+		num_of_naval_factories < 35
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = -15
+	}
+}
+
+dockyard_building_target_GER_3 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		has_war_with_major = yes
+	}
+	abort = {
+		OR = {
+			has_war_with_major = no
+			num_of_naval_factories > 44
+		}
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 35
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 20
+	}
+}
+
+dockyard_building_target_GER_4 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		num_of_naval_factories > 44
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = -50
+	}
+}
+
+### ENG ###
+dockyard_building_target_ENG_1 = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		num_of_naval_factories < 25
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 25
+	}
+}
+
+dockyard_building_target_ENG_2 = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		num_of_naval_factories > 24
+		num_of_naval_factories < 35
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 50
+	}
+}
+
+dockyard_building_target_ENG_3 = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		has_war_with_major = yes
+	}
+	abort = {
+		OR = {
+			has_war_with_major = no
+			num_of_naval_factories > 49
+		}
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 40
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 30
+	}
+}
+
+dockyard_building_target_ENG_4 = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		num_of_naval_factories > 49
+		num_of_naval_factories < 80
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 15
+	}
+}
+
+dockyard_building_target_ENG_5 = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		num_of_naval_factories > 79
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 5
+	}
+}
+
+### USA ###
+dockyard_building_target_USA_1 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		num_of_naval_factories < 35
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 35
+	}
+}
+
+dockyard_building_target_USA_2 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		num_of_naval_factories > 34
+		num_of_naval_factories < 65
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 30
+	}
+}
+
+dockyard_building_target_USA_3 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		has_war_with_major = yes
+	}
+	abort = {
+		OR = {
+			has_war_with_major = no
+			num_of_naval_factories > 64
+		}
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 50
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 100
+	}
+}
+
+dockyard_building_target_USA_4 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		num_of_naval_factories > 64
+		num_of_naval_factories < 140
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 25
+	}
+}
+
+dockyard_building_target_USA_5 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		num_of_naval_factories > 139
+		num_of_naval_factories < 200
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
+	}
+}
+
+dockyard_building_target_USA_6 = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		num_of_naval_factories > 199
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = -10
+	}
+}
+
+### JAP ###
+dockyard_building_target_JAP_1 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		num_of_naval_factories < 20
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 20
+	}
+}
+
+dockyard_building_target_JAP_2 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with_major = no
+		num_of_naval_factories > 19
+		num_of_naval_factories < 30
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 30
+	}
+}
+
+dockyard_building_target_JAP_3 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_war_with_major = yes
+	}
+	abort = {
+		OR = {
+			has_war_with_major = no
+			num_of_naval_factories > 39
+		}
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 35
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 30
+	}
+}
+
+dockyard_building_target_JAP_4 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		num_of_naval_factories > 39
+		num_of_naval_factories < 50
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
+	}
+}
+
+dockyard_building_target_JAP_5 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		num_of_naval_factories > 49
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = -20
+	}
+}
+
+### Generic Medium Navy ###
+dockyard_building_target_generic_medium_1 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = USA
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_navy_size = { size > 49 }
+		has_navy_size = { size < 100 }
+		num_of_naval_factories < 10
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 10
+	}
+}
+
+dockyard_building_target_generic_medium_2 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = USA
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_war_with_major = no
+		has_navy_size = { size > 49 }
+		has_navy_size = { size < 100 }
+		num_of_naval_factories > 9
+		num_of_naval_factories < 20
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = -10
+	}
+}
+
+dockyard_building_target_generic_medium_3 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = USA
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_war_with_major = yes
+		has_navy_size = { size > 49 }
+		has_navy_size = { size < 100 }
+	}
+	abort = {
+		OR = {
+			has_war_with_major = no
+			num_of_naval_factories > 19
+			has_navy_size = { size < 50 }
+			has_navy_size = { size > 99 }
+		}
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 15
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
+	}
+}
+
+dockyard_building_target_generic_medium_4 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = USA
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_navy_size = { size > 49 }
+		has_navy_size = { size < 100 }
+		num_of_naval_factories > 19
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = -10
+	}
+}
+
+### Generic Big Navy ###
+dockyard_building_target_generic_big_1 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = USA
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_navy_size = { size > 99 }
+		num_of_naval_factories < 15
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 15
+	}
+}
+
+dockyard_building_target_generic_big_2 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = USA
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_war_with_major = no
+		has_navy_size = { size > 99 }
+		num_of_naval_factories > 14
+		num_of_naval_factories < 25
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
+	}
+}
+
+dockyard_building_target_generic_big_3 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = USA
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_war_with_major = yes
+		has_navy_size = { size > 99 }
+	}
+	abort = {
+		OR = {
+			has_war_with_major = no
+			num_of_naval_factories > 34
+			has_navy_size = { size < 100 }
+		}
+	}
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 25
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 15
+	}
+}
+
+dockyard_building_target_generic_big_4 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = USA
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = GER
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_navy_size = { size > 99 }
+		num_of_naval_factories > 34
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = -20
+	}
+}
+
+# Commandwealth 
+dockyard_building_target_commonwealth_1 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		num_of_naval_factories < 10
+		is_in_faction_with = ENG
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 10
+	}
+}
+
+dockyard_building_target_commonwealth_2 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		num_of_naval_factories > 9
+		num_of_naval_factories < 15
+		is_in_faction_with = ENG
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
+	}
+}
+
+dockyard_building_target_commonwealth_3 = {
+	allowed = {
+		NOT = {
+			OR = {
+				original_tag = CAN
+				original_tag = AST
+			}
+		}
+	}
+	enable = {
+		has_war_with_major = yes
+		num_of_naval_factories < 20
+		is_in_faction_with = ENG
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 15
+	}
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = 10
 	}
 }

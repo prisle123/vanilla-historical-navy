@@ -22,6 +22,13 @@ scripted_gui = {
 			tab_2_click_enabled = { NOT = { check_variable = { navy_rework_welcome_splash_variable = 2 } } }
 			tab_3_click_enabled = { NOT = { check_variable = { navy_rework_welcome_splash_variable = 3 } } }
 			tab_4_click_enabled = { NOT = { check_variable = { navy_rework_welcome_splash_variable = 4 } } }
+
+			navy_rework_manual_button_english_visible = {
+				has_global_flag = navy_rework_english
+			}
+			navy_rework_manual_button_chinese_visible = {
+				has_global_flag = navy_rework_chinese
+			}
 		}
 
 		effects = {
@@ -87,20 +94,6 @@ scripted_gui = {
 
 		visible = {
 			check_variable = { navy_rework_welcome_splash_variable = 4 }
-		}
-	}
-
-	vnr_manual_handbook_gui = {
-		context_type = decision_category
-		window_name = vnr_manual_handbook_gui_window
-
-		triggers = {
-			navy_rework_manual_button_english_visible = {
-				has_global_flag = navy_rework_english
-			}
-			navy_rework_manual_button_chinese_visible = {
-				has_global_flag = navy_rework_chinese
-			}
 		}
 	}
 }

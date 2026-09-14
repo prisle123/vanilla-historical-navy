@@ -35,7 +35,7 @@ Armor improves survivability with a different approach by reducing damage receiv
 
 However, armor is not invincible if you take other types of firepower into consideration. For example, torpedo completely ignores armor, and it can do so much damage that even torpedo defense system is not effective enough to save the ship when it's hit. Luckily, with a good escort force, torpedo will have a hard time penetrating the screen line to get your capital ships.
 
-Contrary to most people's impression, anti-air is also a part of protection facing aircrafts and carriers. Strong AA offers damage reduction or even evasion when attacked by planes, and it can get more bonus from the overall AA of your fleet, factored to align with the ship's. That means a ship without anti-air gun can also benefit from other ships' AA, but anti-air guns are mandatory if you want to shoot down the plane.
+Contrary to most people's impression, anti-air is also a part of protection facing aircraft and carriers. Strong AA offers damage reduction or even evasion when attacked by planes, and it can get more bonus from the overall AA of your fleet, factored to align with the ship's. That means a ship without anti-air gun can also benefit from other ships' AA, but anti-air guns are mandatory if you want to shoot down the plane.
 
 **Speed**
 
@@ -61,11 +61,11 @@ If you can fully understand the six dimensions, now it's time to design your fir
 
 **Carrier**
 
-Carrier serves as the main source of damage in battle, and it heavily relies on its aircrafts. Despite CV plane templates, the most important thing about a carrier is its capacity, which requires you to mount as many hangars as possible. However, having too many hangars will certainly degrade speed and other metrics, especially that organisation and HP will impact sortie efficiency. You should keep the degradation under control, and take caution in the usage of large open hangar which harms these stats to a large extent. The logic behind this is, without organisation, planes won't take off, thus rendering your effort on capacity completely useless.
+Carrier serves as the main source of damage in battle, and it heavily relies on its aircraft. Despite CV plane templates, the most important thing about a carrier is its capacity, which requires you to mount as many hangars as possible. However, having too many hangars will certainly degrade speed and other metrics, especially that organisation and HP will impact sortie efficiency. You should keep the degradation under control, and take caution in the usage of large open hangar which harms these stats to a large extent. The logic behind this is, without organisation, planes won't take off, thus rendering your effort on capacity completely useless.
 
 **Heavy Ship**
 
-You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircrafts. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. 
+You can't skip heavy ships in your fleet, such as battleships and battlecruisers. While screen ships escort capital ships, these heavy ships will escort carriers and boost their survivability by drawing attacks from aircraft. If one has to summarize the design of battleships, that will be "paradoxical". Let's take 3 factors into consideration, HP, cost, and strength. 
 
 In VNR, HP is deeply bounded with number of guns since the turret module directly provides HP. With hull's HP reduced, a battleship needs as many guns as possible to boost its survivability and protect the fleet. However, that has raised another question: is it worthy in exchange for lower speed and incredible cost, consider that the cost of a super battleship can be used to arm two conventional battleships or advanced carriers? The answer can vary, but I strongly recommend historical design with adequate guns and AAs for all your heavy ships for cost-efficiency.
 
@@ -80,7 +80,7 @@ Unlike vanilla, the traditional definition of light or heavy cruiser has been re
 - Heavy fleet cruiser is a screen ship version of heavy cruiser with medium guns and a screen ship related role.
 - Light cruiser is the same as its origin in basegame with light medium guns and a screen ship related role.
 
-and it prompts to 3 types of cruiser guns:
+and they can carry 3 types of cruiser guns:
 
 - Heavy medium gun: for large cruiser exclusively, heavy attack oriented, firepower slightly inferior to WWI dreadnoughts
 - Medium gun: balanced between heavy and light attack, universal but not very effective to heavy ships (half penetration)
@@ -103,6 +103,46 @@ Typically, the generic destroyer role is capable of handling most scenarios. Esc
 Subs are greatly nerfed compared to vanilla in terms of competing with a proper fleet, but they are still lethal towards convoys. There aren't many choices for each slot on submarine like other ships, and that makes the design of submarines quite linear and easier since all you have to do is updating it with new hulls or new modules.
 
 AI in VNR has been enhanced to carry more depth charges and sonars, which is a major challenge to sub-centric games. As a result, you should try to lower your sub visibility as much as possible. Mount every useful module, including snorkel and pressure hull, on your sub and keep them updated to the latest.
+
+### Ship Role System ###
+
+To deeply customize your fleet, you can use roles to derive hulls into many classes of ships with various sizes or functions, without adding a separate hull for every variant. A role is installed in the ship role slot and changes the ship's statistics, equipment type, cost, or available module categories. This lets the same basic hull serve as, for example, a cheap escort destroyer, a large cruiser, or a radar picket.
+
+| Module Abbr. | Role | Related hull | Role Features | Unlocking technology | Aigle refit |
+|---|---|---|---|---|---|
+| DD | Destroyer | Light hull | Basic destroyer role, no special perk | Great War Light Hull | Yes |
+| DL | Destroyer Leader | Light hull | Better HP, higher cost | Large Destroyer | Yes |
+| DE | Escort Destroyer | Light hull | Worse overall performance, lower cost | Escort Destroyer | No |
+| FF | Frigate | Light hull | Terrible overall performance, super cheap cost | Great War Light Hull | No |
+| SD | Super Destroyer | Light hull | Allow up to 3 light-medium guns | Super Destroyer | No |
+| DAA | Anti-Air Destroyer | Light hull | Allow AA missiles | Anti-Air Missile Destroyer Refit | Yes |
+| DDG | Guided Missile Destroyer | Light hull | Allow all types of missiles | Guided Missile Destroyer | Yes |
+| C | Fleet Cruiser | Cruiser hull | Basic cruiser role, screen ship version | Great War Cruiser Hull | Yes |
+| PC | Protected Cruiser | Cruiser hull | Pre-Great-War cruiser variants with poor power and protection | Great War Cruiser Hull | No |
+| CA | Capital Cruiser | Cruiser hull | Basic cruiser role, capital ship version | Great War Cruiser Hull | Yes |
+| CB | Large Cruiser | Cruiser hull | Allow heavy-medium guns and heavy cruiser armor plates, better HP | Specialization Doctrine | No |
+| PZ | Capital Raider | Cruiser hull | Similar to large cruiser, less HP bonus with longer range | Specialization Doctrine | No |
+| CAA | Anti-Air Cruiser | Cruiser hull | Better anti-air capability | Anti-Air Cruiser Refit | Yes |
+| CLC | Colonial Cruiser | Cruiser hull | Trade protection for lower cost | Specialization Doctrine | No |
+| CG | Missile Cruiser | Cruiser hull | Allow all types of missiles | Missile Cruiser Refit | Yes |
+| CGA | Anti-Air Missile Cruiser | Cruiser hull | Allow AA missiles | Missile Cruiser Refit | Yes |
+| CSR | Radar Picket Cruiser | Cruiser hull | Stronger detection capability | Radar Picket Refit | Yes |
+| ACR | Armored Cruiser | Coastal-defense cruiser hull | Longer range | Great War Cruiser Hull | No |
+| BM | Coastal Defense Ship | Coastal-defense cruiser hull | Basic coastal defense ship role, no special perk | Great War Cruiser Hull | No |
+| CDB | Monitor | Coastal-defense cruiser hull | Allow heavy guns | Great War Cruiser Hull | No |
+| BB | Converted from Battleship | Carrier hull | Basic converted carrier role, no special perk | By default or special decision | No |
+| BC | Converted from Battlecruiser | Carrier hull | Trade HP for lower cost | By default or special decision | No |
+| SHBB | Converted from Super Heavy Battleship | Carrier hull | Allow 1 extra hangar | By special decision | No |
+| CV | Fleet Carrier | Carrier hull | Basic carrier role, no special perk | Naval Aviation Theory | No |
+| CVL | Light Carrier | Carrier hull | Cheaper cost, lower org, can only use small hangar | Naval Aviation Theory | No |
+| CVE | Escort Carrier | Carrier hull | Exclusive on escort carrier hull | Advanced Carrier Hull | No |
+| AP | General-Purpose Auxiliary | Civilian hull | Basic auxiliary role, no special perk | Naval Logistics | Yes |
+| AO | Large Fleet Oiler | Civilian hull | More expensive, longer range | Fast Combat Support Ship or Integrated Supply Ship | No |
+| AV | Seaplane Tender | Civilian hull | Allow seaplane hangar | Naval Aviation Theory | No |
+
+Several carrier conversion technologies are hidden and intended to be activated by decisions rather than researched normally. *Converted from Battleship* and *Converted from Battlecruiser* are unlocked by some major countries starting with converted carriers in history.
+
+Agile refit is a feature for some general roles to be changed to another type of variant without heavy cost on refit IC. Roles without this property has a tip like “This is a role of origin and is uncustomizable after installation” in its description when you hover on its icon. Once installed, the conversion cost will penalize role refits. Ships with these roles will have role conversion cost so expensive that it can be used to build several ships of this type.
 
 ### Special Hulls ###
 
@@ -134,11 +174,11 @@ Just like Essex or Midway post-refit, super carrier is a weapon with no shortcom
 
 **Strategic Strike Carrier**
 
-An equivalent to ice carrier in vanilla but with an actual historical background. The strategic strike carrier is based on USS United States planned right after WWII, it can carry 20 heavy jet bombers to carry out intercontinental nuclear strike. The design of this ship also reflects its duty in history. Its capacity might not be impressive, but it has access to all kinds of land-based aircrafts in the arsenal and can be useful if you need a sea-based airport against countries across the ocean. 
+An equivalent to ice carrier in vanilla but with an actual historical background. The strategic strike carrier is based on USS United States planned right after WWII, it can carry 20 heavy jet bombers to carry out intercontinental nuclear strike. The design of this ship also reflects its duty in history. Its capacity might not be impressive, but it has access to all kinds of land-based aircraft in the arsenal and can be useful if you need a sea-based airport against countries across the ocean. 
 
 **Auxiliary Ship**
 
-Max range of the fleet is calculated by average range of all ships within, so mathematically speaking you can boost it by adding long-range ships to your fleet. However, if you know maths very well, you may notice once the average has surpassed a certain value, it will bring the increase rate to a stagnation (also known as margin utilities). As a result, it's unwise to put too many auxiliary ships together because the range bonus is reaching the upper limit.
+Max range of the fleet is calculated by average range of all ships within, so mathematically speaking you can boost it by adding long-range ships to your fleet. However, you may notice once the average has surpassed a certain value, it will bring the increase rate to a stagnation (also known as margin utilities or diminishing returns). As a result, it's unwise to put too many auxiliary ships together because the price you pay for the range bonus is becoming less and less cost-efficient.
 
 To keep it away from the frontline, auxiliary ship is considered as capital ship, which means it can provide escort efficiency for your carrier just like battleship does. It's weak without doubt, but really really cheap.
 
@@ -154,19 +194,21 @@ Destroyer is the foundation of any navies, so there is no reason that you should
 
 **Cruiser Branch**
 
-Cruiser can make incredible damage on light ships in the battle when it gets into close combat stage. Therefore, if you want to build a nice surface fleet, don't hesitate to give your cruiser the best guns and armors. Although you have many options in cruiser's tree, the process becomes easier that you only have to choose things boosting firepower, speed and armor.
+Cruiser can make incredible damage on light ships in the battle when it gets into close combat stage. Therefore, if you want to build a nice surface fleet, don't hesitate to give your cruiser the best guns and armors. Although you have many options in cruiser's tree, the process becomes easier that you only have to choose things boosting firepower, speed, and armor.
 
 **Heavy Armor Branch**
 
-This branch is composed of battleship armor schemes and armor processing technologies. The necessity depends on whether you are going to include heavy ships in your fleet and when you want to exclude them. If heavy ships still hold a place in your fleet, you should update these techs to the latest whenever there's a chance, otherwise just leave them alone.
+This branch is composed of armor processing technologies, which they basicially serve as gateway to protection solution technologies in battleship branch. The necessity depends on whether you are going to include heavy ships in your fleet and when you want to exclude them. If heavy ships still hold a place in your fleet, you should update these techs to the latest whenever there's a chance, otherwise just leave them alone.
 
 **Battleship Branch**
 
-Battleship branch is actually quite flexible because you can drop it from anywhere if it's no longer needed in your fleet. But if you want a good cold war era experience, at least research hulls to gain access to cold war fire-control/electronics technologies. Back to the base tree, battleship techs prior to the 1930s are very useful despite not being mandatory. Its sub-techs during the early 1940s are not recommended for their crummy bonus unless it's out of roleplay. After all, not many people will need excellent battleships but moderate ones.
+Battleship branch is actually quite flexible because you can drop it from anywhere if it's no longer needed in your fleet. But if you want a good cold war era experience, at least research hulls to access cold war fire-control/electronics technologies. 
+
+Back to the base tree, battleship techs prior to the 1930s are very useful despite not being mandatory. Its sub-techs during the early 1940s are not recommended for their crummy bonus unless it's out of roleplay. After all, not many people will need excellent battleships but moderate ones.
 
 **Carrier Branch**
 
-I can't stress more about the dominating power of carrier in reality and mod. Most carrier techs are extremely useful or even mandatory, and will definitely give you an upper hand in the battle. My suggestion is to take everything mentioning sortie efficiency, HP, and org.
+I can't stress more about the dominating power of carrier in reality and this mod. Most carrier techs are extremely useful or even mandatory, and will definitely give you an upper hand in the battle. My suggestion is to take everything mentioning sortie efficiency, HP, and org.
 
 **Submarine Branch**
 
@@ -180,7 +222,7 @@ You need guns everywhere, so there is basically no reason to skip this branch. E
 
 **Torpedo Branch**
 
-Torpedo techs are needed by both submarines and torpedo ships. In general, torpedo is nerfed in accuracy and buffed in damage, but this will be changed at night when torpedo gets tons of bonus, which may lead to instant kills of enemy's valuable assets like battleship or even carrier if you're lucky. In general, it's still considered incompetent because of the unstable damage inflicted. Only keep it up to date if your fleet is heavily relied on torpedo.
+Torpedo techs are needed by both submarines and torpedo ships. In general, torpedo is nerfed in accuracy and buffed in damage, but this will be changed at night when torpedo gets tons of bonus, which may lead to instant kills of enemy's valuable assets like battleship or even carrier if you're lucky. Yet given the low possibility, it's still considered incompetent because of the unstable damage inflicted. Only keep it up to date if your fleet is heavily relied on torpedo.
 
 **Auxiliary Branch**
 
@@ -208,8 +250,8 @@ Unlocks following doctrines:
 |---|---|---|---|---|
 | Floating Airfields | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
 | Subsidiary Carrier Support | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Trade & Supply Network |
-| Naval Airforce | Coastal Defense Fleet | Hunter Killer Groups | Coverted Denial | Defensive Combat Support |
-| Airspace Denial | Monitor Support | Torpedo Flotilla |  |  |
+| Naval Airforce | Coastal Defense Fleet | Hunter Killer Groups | Covert Denial | Defensive Combat Support |
+| Airspace Denial | Monitor Support | Torpedo Flotilla |  | Centralized Logistics Planning |
 
 **Commerce Raiding**
 
@@ -219,10 +261,10 @@ Unlocks following doctrines:
 
 | Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
 |---|---|---|---|---|
-| Floating Airfields | Specialized Scouting Fleet | Convoy Escort | Wolfpacks | Coverted Oceanic Replenishment |
-| Subsidiary Carrier Support | Armored Raiders | Integrated Operations | Coverted Denial | Trade & Supply Network |
+| Floating Airfields | Specialized Scouting Fleet | Convoy Escort | Wolfpacks | Covert Oceanic Replenishment |
+| Subsidiary Carrier Support | Armored Raiders | Integrated Operations | Covert Denial | Trade & Supply Network |
 | Naval Airforce | Coastal Defense Fleet | The New School | Operational Autonomy | Defensive Combat Support |
-| Airspace Denial |  |  |  |  |
+| Airspace Denial |  |  |  | Centralized Logistics Planning |
 
 **Air-Sea Operation**
 
@@ -233,9 +275,9 @@ Unlocks following doctrines:
 | Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
 |---|---|---|---|---|
 | Carrier Taskforce | Fast Battleship Primacy | Convoy Escort | Fleet Operations | Industrialized Naval Logistics |
-| Floating Airfields | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Coverted Oceanic Replenishment |
+| Floating Airfields | Specialized Scouting Fleet | Integrated Operations | Capital Hunters | Covert Oceanic Replenishment |
 | Carrier Concentration | Taskforce Guardian | Hunter Killer Groups | Operational Autonomy | Trade & Supply Network |
-| Airspace Denial |  | Torpedo Flotilla |  |  |
+| Airspace Denial |  | Torpedo Flotilla |  | Centralized Logistics Planning |
 
 **Littoral Defense**
 
@@ -245,8 +287,8 @@ Unlocks following doctrines:
 
 | Naval Aviation | Surface Fleet | Escort Force | Submarine Flotilla | Naval Logistics |
 |---|---|---|---|---|
-| Subsidiary Carrier Support | Armored Raiders | Torpedo Flotilla | Shallow Killers | Coverted Oceanic Replenishment |
-| Naval Airforce | Coastal Defense Fleet | The New School | Coverted Denial | Defensive Combat Support |
+| Subsidiary Carrier Support | Armored Raiders | Torpedo Flotilla | Shallow Killers | Covert Oceanic Replenishment |
+| Naval Airforce | Coastal Defense Fleet | The New School | Covert Denial | Defensive Combat Support |
 |  | Monitor Support | Mosquito Fleet |  |  |
 
 ### Sub Doctrine - Carrier ###
@@ -257,7 +299,7 @@ This is the authentic USN carrier tactics, with every feature designed to showca
 
 **Carrier Concentration**
 
-As the rival to *carrier taskforce*, this strategy is adopted by IJN in real history at the early stage of the Pacific War. Unlike its counterpart, *carrier concentration* emphasizes on maximizing damage done by aircrafts, simulating elitism of Japan's naval aviation, which leads to lower sortie efficiency but a 15% bonus on aircraft attack.
+As the rival to *carrier taskforce*, this strategy is adopted by IJN in real history at the early stage of the Pacific War. Unlike its counterpart, *carrier concentration* emphasizes on maximizing damage done by aircraft, simulating elitism of Japan's naval aviation, which leads to lower sortie efficiency but a 15% bonus on aircraft attack.
 
 **Floating Airfields**
 
@@ -345,7 +387,7 @@ Another Japanese-style doctrine that buffs torpedo more than the equipment itsel
 
 As its name suggests, the doctrine gives moderate and balanced bonuses on submarines at the cost of max range.
 
-**Coverted Denial**
+**Covert Denial**
 
 A unique double-edge-sword type of doctrine that offers reduction of visibility at great cost of HP and combat capabilities.
 
@@ -355,7 +397,7 @@ A doctrine that fully authorizes submarine capitans commanding privilege while r
 
 ### Sub Doctrine - Naval Logistics ###
 
-**Coverted Oceanic Replenishment**
+**Covert Oceanic Replenishment**
 
 A moderate doctrine mainly strengthening combat performance of auxiliary ship and fuel saving.
 
@@ -366,6 +408,10 @@ Very hard to acquire as minor powers since it needs many dockyards or civilian f
 **Trade & Supply Network**
 
 A doctrine used to boost combined war effort between overlord and puppets, with inferior but decent bonuses compared to *Industrialized Naval Logistics*.
+
+**Centralized Logistics Planning**
+
+A doctrine emphasizes range boosting and supply consumption management for as many types of ships possible, though at the cost of fleet coordination and convoy escort efficiency. It also grants 35% progress to underway replenishment project once tier-1 mastery reached.
 
 **Defensive Combat Support**
 
@@ -389,7 +435,7 @@ Besides, make sure your fleet has a min speed over 30kn, this is extremely impor
 
 ### Combat Duration ###
 
-To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. Only 22 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 25th hour to fire.
+To simulate carrier's capability to send over the horizon strikes, the duration of combat is made longer in the mod, but I kept it under control so that other ships still hold a place in navy. Carrier can send air strikes every 8 hour (based on your sortie efficiency) in different squadron size (based on carrier traffic and some other factors). 20 hours after the battle begins, fleet will have a chance to retreat both automatically and manually. 20 hours into the battle, battleship gets to fire its first salvo, while light ships still have to wait to the 24th hour to fire.
 
 ### Carrier System ###
 
@@ -434,12 +480,13 @@ Since it is very hard to preview critical part effects in the game, a list will 
 | Broken Propeller | -95% retreat chance, -90% speed | Can only happen once |
 | Rudder Jammed | -90% retreat chance, -50% speed | Can only happen once |
 | Ballast Tank Inoperable | +100% sub visibility | Submarine exclusive, can only happen once |
-| Damaged Fire Control | -50% hit chance for all weapons | Can only happen once if you have fire control in presence |
 | Damaged Flight Deck (Wooden) | -40% carrier capacity, -30% org | Can only happen once on carrier with wooden flight deck |
 | Damaged Flight Deck (Armored) | -20% carrier capacity, -15% org | Can only happen once on carrier with armored flight deck; 25% lower probability than the wooden one |
 | Damaged Battlecarrier Flight Deck | -100% carrier capacity, -30% org | Battlecarrier exclusive, can only happen once |
 | Air Fuel Flashover (wth. unarmored hangar) | -90% org, -100% org recovery, +250 HP damage, +50 org damage | Can only happen once, very low probability |
 | Air Fuel Flashover (wth. armored hangar) | -90% org, -100% org recovery, +200 HP damage, +40 org damage | Can only happen once, very low probability |
+| Radar Shortcircuited (Lv1-Lv5) | Detection & hit chance debuffs based on tier of radar | Can only happen on ships with radar |
+| Fire Control Disabled (Lv1-Lv6) | Hit chance debuffs based on tier of fire control system | Can only happen on ships with fire control |
 
 ### Retreat Process ###
 

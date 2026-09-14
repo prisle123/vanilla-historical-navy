@@ -73,7 +73,7 @@ leader_traits = {
 		custom_gain_xp_trigger_tooltip = FLEET_PROTECTOR_TRIGGER_TT
 		cost = 500
 		modifier = {
-			screening_efficiency = 0.2
+			screening_efficiency = 0.1
 		}
 		
 		slot = high_command
@@ -782,23 +782,6 @@ leader_traits = {
 		}
 		ai_will_do = {
 			factor = 1
-		}
-	}
-	
-    theoretic_breakthrough_1 = {
-		type = navy
-		trait_type = status_trait
-		
-		non_shared_modifier = {
-			experience_gain_factor = 0.15
-		}
-	}
-    theoretic_breakthrough_2 = { 
-		type = navy
-		trait_type = status_trait
-		
-		non_shared_modifier = {
-			experience_gain_factor = 0.3
 		}
 	}
 }

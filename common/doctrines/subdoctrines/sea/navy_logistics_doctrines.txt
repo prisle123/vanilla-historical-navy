@@ -21,7 +21,6 @@ coverted_oceanic_replenishment = {
         modifier = {
             factor = 75
             OR = {
-                original_tag = JAP
                 original_tag = GER
                 original_tag = ITA
             }
@@ -35,15 +34,22 @@ coverted_oceanic_replenishment = {
 
 	rewards = {
 		merchant_converted_tender = {
-			auxiliary_ship = {
-				surface_visibility = -0.25
-				max_strength = -0.25
+			equipment_bonus = {
+				convoy_1 = {
+					instant = yes
+					surface_visibility = -0.25
+				}
+				ship_hull_civilian = {
+					instant = yes
+					surface_visibility = -0.25
+					max_strength = -0.25
+				}
 			}
 		}
 		fuel_rationing = {
 			modifier = {
-				navy_fuel_consumption_factor = -0.1
-				production_oil_factor = 0.1
+				navy_fuel_consumption_factor = -0.15
+				production_speed_fuel_silo_factor = 0.15
 			}
 		}
 		oceanic_route_replenishment = {
@@ -109,8 +115,8 @@ industrialized_naval_logistics = {
         }
     }
 
-    navy_fuel_consumption_factor = -0.1
-    transport_capacity = -0.1
+    navy_fuel_consumption_factor = -0.15
+    transport_capacity = -0.15
 
 	rewards = {
 		firefighting_team = {
@@ -139,8 +145,11 @@ industrialized_naval_logistics = {
 			medium_cruiser = {
 				supply_consumption = -0.02
 			}
-			modifier = {
-				naval_attrition = -0.06
+			equipment_bonus = {
+				convoy_1 = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
 			}
 		}
 		damage_control_protocals = {
@@ -209,10 +218,11 @@ trade_supply_network = {
 	supply_node_range = 0.075
     equipment_bonus = {
         convoy_1 = {
-            surface_visibility = -0.1
+			build_cost_ic = -0.1
             instant = yes
         }
     }
+	navy_max_range_factor = 0.05
 
 	rewards = {
 		oil_lifeline = {
@@ -226,6 +236,12 @@ trade_supply_network = {
 			modifier = {
 				transport_capacity = -0.15
 				license_production_speed = 0.1
+			}
+			equipment_bonus = {
+				convoy_1 = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
 			}
 		}
 		logisitics_opertional_research = {
@@ -244,11 +260,8 @@ trade_supply_network = {
 			medium_cruiser = {
 				supply_consumption = -0.02
 			}
-			equipment_bonus = {
-				convoy_1 = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
+			modifier = {
+				navy_fuel_consumption_factor = -0.1
 			}
 		}
 		damage_control_protocals = {
@@ -268,6 +281,113 @@ trade_supply_network = {
 			}
 			modifier = {
 				convoy_escort_efficiency = 0.1
+				convoy_retreat_speed = 0.1
+			}
+		}
+	}
+}
+
+centralized_logistics_planning = {
+	track = naval_logistics
+    name = SUBDOCTRINE_LOGISTICS_CENTRALIZED_LOGISTICS_PLANNING
+    description = SUBDOCTRINE_LOGISTICS_CENTRALIZED_LOGISTICS_PLANNING_DESC
+    icon = GFX_doctrine_centralized_logistics_planning_medium
+
+	xp_cost = 75
+	xp_type = navy
+
+	visible = {
+        has_dlc = "No Compromise, No Surrender"
+    }
+
+	available = {
+        OR = {
+            has_doctrine = new_convoy_raiding
+            has_doctrine = new_fleet_in_being
+            has_doctrine = new_base_strike
+        }
+        has_tech = naval_combat_support
+    }
+
+    ai_will_do = { 
+        base = 1
+		modifier = {
+			factor = 75
+			tag = JAP
+		}
+    }
+
+	navy_max_range_factor = 0.2
+	naval_coordination = -0.1
+
+	rewards = {
+		underway_replenishment_drill = {
+			modifier = {
+				naval_morale_factor = 0.1
+			}
+			effect = {
+				if = {
+					limit = {
+						has_dlc = "Gotterdammerung"
+						ROOT = { NOT = { is_special_project_completed = sp:sp_naval_underway_replenishment } }
+					}
+					sp:sp_naval_underway_replenishment = {
+						add_project_progress_ratio = 0.35
+					}
+				}
+			}
+		}
+		regional_supply_superiority = {
+			modifier = {
+				navy_fuel_consumption_factor = -0.1
+				production_speed_naval_base_factor = 0.1
+			}
+		}
+		centralized_planning = {
+			carrier = {
+				supply_consumption = -0.03
+			}
+			SH_battleship = {
+				supply_consumption = -0.03
+			}
+			battleship = {
+				supply_consumption = -0.03
+			}
+			battle_cruiser = {
+				supply_consumption = -0.03
+			}
+			modifier = {
+				supply_node_range = 0.05
+			}
+		}
+		coordination_organization = {
+			heavy_cruiser = {
+				supply_consumption = -0.02
+			}
+			medium_cruiser = {
+				supply_consumption = -0.02
+			}
+			light_cruiser = {
+				supply_consumption = -0.01
+			}
+			destroyer = {
+				supply_consumption = -0.01
+			}
+			modifier = {
+				transport_capacity = -0.1
+			}
+		}
+		convoy_separation = {
+			equipment_bonus = {
+    		    convoy_1 = {
+    		        surface_visibility = -0.15
+    		        instant = yes
+    		    }
+    		}
+			modifier = {
+				convoy_retreat_speed = 0.1
+				convoy_escort_efficiency = -0.1
+				transport_capacity = -0.1
 			}
 		}
 	}

@@ -9,10 +9,10 @@ ITA_StrikeForce_1 = {
 	keep_updated = yes
 	min_composition = {
 		battleship = {
-			amount = 1
+			amount = 2
 		}
-		destroyer = {
-			amount = 8
+		light_cruiser = {
+			amount = 3
 		}
 	}
 	
@@ -24,10 +24,10 @@ ITA_StrikeForce_1 = {
 			amount = 4
 		}
 		light_cruiser = {
-			amount = 8
+			amount = 12
 		}
 		destroyer = {
-			amount = 14
+			amount = 16
 		}
 	}
 }
@@ -51,8 +51,8 @@ ITA_StrikeForceCarrier_1 = {
 		battleship = {
 			amount = 2
 		}
-		destroyer = {
-			amount = 8
+		light_cruiser = {
+			amount = 3
 		}
 	}
 	
@@ -67,10 +67,10 @@ ITA_StrikeForceCarrier_1 = {
 			amount = 2
 		}
 		light_cruiser = {
-			amount = 10
+			amount = 12
 		}
 		destroyer = {
-			amount = 14
+			amount = 16
 		}
 	}
 }
@@ -107,6 +107,9 @@ ITA_PatrolDominanceForce_1 = {
 	min_composition = {
 		heavy_cruiser = {
 			amount = 1
+		}
+		light_cruiser = {
+			amount = 4
 		}
 		destroyer = {
 			amount = 4

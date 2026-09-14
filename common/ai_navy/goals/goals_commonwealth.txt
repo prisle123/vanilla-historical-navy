@@ -1,96 +1,96 @@
-ENG_naval_invasion_support = {
+commonwealth_naval_invasion_support = {
     objective_type = naval_invasion_support
 
     available_for = {
-        ENG
+        CAN AST
     }
 
     min_priority = 4
-    max_priority = 15
+    max_priority = 10
 }
 
-ENG_mine_sweeping = {
+commonwealth_mine_sweeping = {
     objective_type = mines_sweeping
 
     available_for = {
-        ENG
+        CAN AST
     }
 
     min_priority = 0
     max_priority = 1
 }
 
-ENG_invasion_defense = {
+commonwealth_invasion_defense = {
     objective_type = naval_invasion_defense
 
     available_for = {
-        ENG
+        CAN AST
     }
 
-    min_priority = 12
-    max_priority = 20
+    min_priority = 5
+    max_priority = 10
 }
 
-ENG_coast_defense = {
+commonwealth_coast_defense = {
     objective_type = coast_defense
 
     available_for = {
-        ENG
+        CAN AST
     }
 
     min_priority = 1
-    max_priority = 7
+    max_priority = 10
 }
 
-ENG_convoy_protection = {
+commonwealth_convoy_protection = {
     objective_type = convoy_protection
 
     available_for = {
-        ENG
+        CAN AST
     }
 
-    min_priority = 8
-    max_priority = 25
-}
-
-ENG_convoy_raiding = {
-    objective_type = convoy_raiding
-
-    available_for = {
-        ENG
-    }
-
-    min_priority = 8
-    max_priority = 14
-}
-
-ENG_naval_dominance = {
-    objective_type = naval_dominance
-
-    available_for = {
-        ENG
-    }
-
-    min_priority = 10
+    min_priority = 6
     max_priority = 20
 }
 
-ENG_mine_laying = {
+commonwealth_convoy_raiding = {
+    objective_type = convoy_raiding
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 3
+    max_priority = 10
+}
+
+commonwealth_naval_dominance = {
+    objective_type = naval_dominance
+
+    available_for = {
+        CAN AST
+    }
+
+    min_priority = 1
+    max_priority = 13
+}
+
+commonwealth_mine_laying = {
     objective_type = mines_planting
 
     available_for = {
-        ENG
+        CAN AST
     }
 
-    min_priority = 0
-    max_priority = 1
+    min_priority = 1
+    max_priority = 2
 }
 
-ENG_training = {
+commonwealth_training = {
     objective_type = training
 
     available_for = {
-        ENG
+        CAN AST
     }
 
     min_priority = 10

@@ -334,7 +334,8 @@ new_base_strike = {
 	carrier = {
 		max_organisation = 10
 	}
-	port_strike = 0.4
+	port_strike = 0.25
+    positioning = 0.05
 	
     milestones = {
 		{
