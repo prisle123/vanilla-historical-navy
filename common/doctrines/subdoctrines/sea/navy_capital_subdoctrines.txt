@@ -198,12 +198,15 @@ battlecruiser_supremacy = {
         }
         ocean_raiding = {
             battle_cruiser = {
+                max_organisation = 5
                 convoy_raiding_coordination = 0.1
             }
             heavy_cruiser = {
+                max_organisation = 5
                 convoy_raiding_coordination = 0.1
             }
             medium_cruiser = {
+                max_organisation = 5
                 convoy_raiding_coordination = 0.1
             }
             modifier = {
@@ -319,9 +322,17 @@ battleship_antiair_screen = {
             }
     	}
         task_force_protector = {
+            battleship = {
+    			max_organisation = 5
+    		}
+    		heavy_cruiser = {
+    			max_organisation = 5
+    		}
+            medium_cruiser = {
+    			max_organisation = 5
+    		}
     		modifier = {
                 positioning = 0.1
-                naval_retreat_speed = 0.05
                 naval_torpedo_enemy_critical_chance_factor = -0.15
             }
     	}
@@ -362,9 +373,10 @@ armored_raiders = {
             has_doctrine = new_convoy_raiding
             has_doctrine = new_littoral_defense
         }
-        has_navy_size = {
-            archetype = ship_hull_heavy
-            size > 0
+        OR = {
+            has_navy_size = { unit = battleship size > 0 }
+            has_navy_size = { unit = battle_cruiser size > 0 }
+            has_navy_size = { unit = heavy_cruiser size > 0 }
         }
     }
 

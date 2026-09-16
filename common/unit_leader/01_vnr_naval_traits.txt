@@ -178,11 +178,7 @@ leader_traits = {
 		}
 				
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				has_navy_size = { size > 50 }
-				add = 1
-			}
+			factor = 1
 		}
 		
 		slot = navy_chief
@@ -206,11 +202,7 @@ leader_traits = {
 		}
 				
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				has_navy_size = { size > 50 }
-				add = 1
-			}
+			factor = 1
 		}
 		
 		trait_type = assignable_trait
@@ -226,11 +218,7 @@ leader_traits = {
 		}
 
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 1
-				has_navy_size = { type = submarine size > 50 }
-			}
+			factor = 0.5
 		}
 
 		trait_type = assignable_trait
@@ -305,11 +293,7 @@ leader_traits = {
 		genius_advisor_trait = vnr_navy_carrier_3
 		
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 5
-				has_navy_size = { type = carrier size > 5 }
-			}
+			factor = 5
 		}
 		
 		trait_type = assignable_trait
@@ -389,11 +373,7 @@ leader_traits = {
 		}
 		
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				has_navy_size = { size > 50 }
-				add = 1
-			}
+			factor = 0.5
 		}
 		
 		trait_type = assignable_trait
@@ -454,11 +434,7 @@ leader_traits = {
 		}
 				
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				has_navy_size = { size > 50 }
-				add = 1
-			}
+			factor = 0.5
 		}
 		
 		trait_type = assignable_trait
@@ -521,11 +497,7 @@ leader_traits = {
 		genius_advisor_trait = vnr_navy_chief_decisive_battle_3
 		
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				has_navy_size = { size > 50 }
-				add = 10
-			}
+			factor = 1
 		}
 		
 		trait_type = assignable_trait
@@ -544,11 +516,7 @@ leader_traits = {
 		}
 				
 		ai_will_do = {
-			factor = 0
-			modifier = {
-				has_navy_size = { size > 50 }
-				add = 5
-			}
+			factor = 1
 		}
 		
 		trait_type = assignable_trait
