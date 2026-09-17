@@ -102,7 +102,19 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { #bad end
-		name = MTG_naval_treaty.3.a 
+		name = MTG_naval_treaty.3.a
+		send_embargo = FROM
+		every_other_country = {
+			limit = {
+				OR = {
+					is_ally_with = PREV
+					is_subject_of = PREV
+					is_guaranteed_by = PREV
+				}
+				NOT = { tag = FROM }
+			}
+			send_embargo = FROM
+		}
 	}
 }
 #country is warned about the size of its fleet, can commit to disarmament
@@ -191,14 +203,19 @@ country_event = {
 				}
 				every_other_country = {
 					limit = {
-						OR = {
-							has_idea = MTG_naval_treaty_cheating
-							has_idea = MTG_naval_treaty_adherent
-						}
+						has_naval_treaty_trigger = yes
 					}
 					activate_mission = MTG_escalator_clause_invocation_mission
 					custom_effect_tooltip = MTG_escalator_clause_tt
 				}
+			}
+		}
+		else = {
+			every_other_country = {
+				limit = {
+					has_naval_treaty_trigger = yes
+				}
+				country_event = MTG_naval_treaty.6
 			}
 		}
 	}
@@ -245,6 +262,18 @@ country_event = {
 			}
 		}
 		send_embargo = FROM
+		every_other_country = {
+			limit = {
+				OR = {
+					is_ally_with = PREV
+					is_subject_of = PREV
+					is_guaranteed_by = PREV
+				}
+				NOT = { tag = FROM }
+			}
+			send_embargo = FROM
+		}
+
 		add_opinion_modifier = {
 			target = FROM 
 			modifier = broken_naval_treaty_opinion_mod
@@ -253,11 +282,7 @@ country_event = {
 	option = {# fine
 		name = MTG_naval_treaty.6.b 
 		ai_chance = {
-			factor = 30
-			modifier = {
-				has_completed_focus = ENG_enforce_the_naval_treaties
-				factor = 0
-			}
+			factor = 0
 		}
 	}
 }
