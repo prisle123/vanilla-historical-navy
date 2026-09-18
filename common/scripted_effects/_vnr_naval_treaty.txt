@@ -91,3 +91,12 @@ add_naval_headquarters = {
 		}
 	}
 }
+
+trigger_MTG_naval_treaty_event = {
+	every_country = {
+		limit = {
+			has_naval_treaty_trigger = yes
+		}
+		country_event = { id = MTG_naval_treaty.12 days = 50 }
+	}
+}

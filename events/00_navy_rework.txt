@@ -227,6 +227,7 @@ country_event = {
 		
 		# add starting navy spirits for all countries
 		add_starting_navy_spirits = yes
+		trigger_MTG_naval_treaty_event = yes
 		
 		# add starting doctrines for AI, other workarounds
 		ai_doctrine_workaround = yes
