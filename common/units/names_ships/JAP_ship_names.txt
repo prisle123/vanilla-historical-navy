@@ -205,7 +205,7 @@ JAP_WEATHER = {
 
 	unique = {
 		# Hatsuharu class
-		"Hatsuharu" "Nenohi" "Wakaba" "Hatsushimo" "Yugure"
+		"Hatsuharu" "Nenohi" "Wakaba" "Hatsushimo" "Yugure" "Ariake"
 		# Shiratsuyu class
 		"Shiratsuyu" "Shigure" "Murasame" "Yudachi" "Harusame" "Samidare" "Umikaze" "Yamakaze" "Kawakaze" "Suzukaze"
 		#Asashio class
@@ -345,7 +345,7 @@ JAP_MOUNTAIN = {
 		# Historical Names
 		"Myoko" "Nachi" "Haguro" "Ashigara"
 		# Takao Class OTL
-		"Maya" "Chokai"
+		"Maya" "Choukai"
 		# Ibuki Class
 		"Ibuki"
 		#Fictional
@@ -353,7 +353,7 @@ JAP_MOUNTAIN = {
 		"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
 		"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
 		"Omine" "Ishizuchi" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
-		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Iizuma"
 
 		# Names in use
 		"Kongo" "Hiei" "Haruna" "Kirishima" "Amagi" "Furutaka" "Aoba" "Kinugasa" "Takao" "Atago"
@@ -377,7 +377,7 @@ JAP_CL_HISTORICAL = {
 		# Captured/Converted/Older Models
 		"Ioshima" "Yasoshima" "Yodo" "Hirado" "Yahagi" 
 		"Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" "Oi" "Kiso" "Nagara" "Isuzu" "Natori" "Yura" "Kinu" "Abukuma" "Yubari" "Sendai" "Jintsu" "Naka" 
-		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Tone" "Chikuma" "Aso" "Tsugaru" "Soya" "Ibuki" "Haogi" "Mogami" "Mikuma"
+		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Choukai" "Tone" "Chikuma" "Aso" "Tsugaru" "Soya" "Ibuki" "Haogi" "Mogami" "Mikuma"
 		# Fictional
 		"Iwaki" "Mabechi" "Takase" "Naruse" "Yoneshiro" "Omono" "Koyoshi" "Kuji" "Tsurumi" "Oyabe" "Tedori" "Kano" "Shonai" "Suzuka" "Kumozu" "Kushida" "Maruyama" "Hino"
 		"Takatsu" "Yoshii" "Takahashi" "Ashida" "Yoshino" "Onga" "Yabe" "Matsuura" "Yamakuni" "Chikugo" "Rokkaku" "Kikuchi" "Kase" "Honmyo" "Oita" "Ono" "Ota" "Banjo"
@@ -399,14 +399,14 @@ JAP_CA_HISTORICAL = {
 	unique = {
 		"Tone" "Chikuma" "Aso" "Tsugaru" "Soya" 
 		# Older Models
-		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" 
+		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Choukai" 
 		# Cancelled/not completed
 		"Ibuki" "Haogi" "Mogami" "Mikuma" "Suzuya" "Kumano" 
 		# Fictional
 		"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
 		"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
 		"Omine" "Ishizuchi" "Aso" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
-		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Iizuma"
 	}
 }
 
@@ -448,6 +448,6 @@ JAP_BC_HISTORICAL = {
 		"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
 		"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
 		"Omine" "Ishizuchi" "Aso" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
-		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Iizuma"
 	}
 }
