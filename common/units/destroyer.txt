@@ -12,7 +12,7 @@ sub_units = {
 		supply_consumption = 0.03
 
 		critical_parts = { destroyed_ammo_storage broken_propeller on_fire_light rudder_jammed}
-		critical_part_damage_chance_mult = 1
+		critical_part_damage_chance_mult = 1.2
 
 		hit_profile_mult = 0.8
 	}
