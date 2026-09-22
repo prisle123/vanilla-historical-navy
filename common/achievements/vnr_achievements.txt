@@ -175,8 +175,11 @@ unique_id = vnr_achievements
         tag = GER
     }
     happened = {
-        has_naval_control = 16
-        has_naval_control = 18
-        has_naval_control = 43
+        has_war_with = USA
+        has_naval_control = 170
+        has_naval_control = 54
+        has_naval_control = 55
+		has_naval_control = 57
+		has_naval_control = 50
     }
 }
