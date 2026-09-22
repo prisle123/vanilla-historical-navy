@@ -157,17 +157,6 @@ unique_id = vnr_achievements
     }
 }
 
-00_vnr_america_first = {
-    possible = {
-        difficulty > 1
-        game_rules_allow_achievements = yes
-        tag = USA
-    }
-    happened = {
-        has_doctrine = new_littoral_defense
-    }
-}
-
 00_vnr_the_man_in_the_high_castle = {
     possible = {
         difficulty > 1
