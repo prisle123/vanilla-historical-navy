@@ -247,8 +247,14 @@ naval_capital_battleship = {
 			ship_dp_secondaries_bb
 		}
 	}
+}
 
 
+naval_capital_battleship_expert = {
+	category = naval
+	available_for = { ENG USA JAP GER ITA FRA SOV }
+	roles = { vnr_naval_capital_bb }
+	priority = { base = 85 }
 
 	# expert AI
 	capital_battleship_1936_expert = {
@@ -258,9 +264,13 @@ naval_capital_battleship = {
 		priority = {
 			base = 20
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_heavy }
-			modifier = { factor = 0 expert_ai_style = no }
 		}
-
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
 		
 		history = yes
 		target_variant = {
@@ -297,9 +307,13 @@ naval_capital_battleship = {
 		priority = {
 			base = 50
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_heavy }
-			modifier = { factor = 0 expert_ai_style = no }
 		}
-
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
 		
 		history = yes
 		target_variant = {
@@ -340,9 +354,13 @@ naval_capital_battleship = {
 			base = 0
 			modifier = { add = 100 has_tech = advanced_ship_hull_heavy }
 			modifier = { factor = 0.1 has_global_flag = naval_tech_1945 }
-			modifier = { factor = 0 expert_ai_style = no }
 		}
-
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
 		
 		history = yes
 		target_variant = {
@@ -382,9 +400,13 @@ naval_capital_battleship = {
 		priority = {
 			base = 0
 			modifier = { add = 100 has_global_flag = naval_tech_1945 }
-			modifier = { factor = 0 expert_ai_style = yes }
 		}
-
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
 		
 		history = yes
 		target_variant = {
@@ -420,4 +442,3 @@ naval_capital_battleship = {
 		}
 	}
 }
-

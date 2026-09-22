@@ -251,9 +251,15 @@ naval_cruiser_light = {
 			light_miscellaneous
 		}
 	}
+}
 
 
-	
+naval_cruiser_light_expert = {
+	category = naval
+	available_for = { ENG JAP USA ITA FRA GER SOV }
+	roles = { vnr_naval_cruiser_light }
+	priority = { base = 110 }
+
 	# expert AI
 	light_cruiser_1936_expert = {
 		name = vnr_cl_1936_expert
@@ -262,7 +268,12 @@ naval_cruiser_light = {
 		priority = {
 			base = 20
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -303,7 +314,12 @@ naval_cruiser_light = {
 		priority = {
 			base = 50
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -347,7 +363,12 @@ naval_cruiser_light = {
 		priority = {
 			base = 100
 			modifier = { add = 0.1 has_tech = modern_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -391,7 +412,12 @@ naval_cruiser_light = {
 		priority = {
 			base = 0
 			modifier = { add = 200 has_tech = modern_ship_hull_cruiser }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -430,4 +456,3 @@ naval_cruiser_light = {
 		}
 	}
 }
-
