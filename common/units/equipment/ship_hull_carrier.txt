@@ -36,7 +36,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air }
+				allowed_module_categories = { ship_anti_air ship_anti_air_heavy }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -248,6 +248,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_secondaries
 					ship_anti_air
+					ship_anti_air_heavy
 					ship_deck_space_converted
 				}
 			}
@@ -295,7 +296,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air }
+				allowed_module_categories = { ship_anti_air ship_anti_air_heavy }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -369,13 +370,17 @@ equipments = {
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
-			fixed_ship_carrier_miscellaneous_slot_2 = inherit
+			fixed_ship_carrier_miscellaneous_slot_2 = {
+				required = no
+				allowed_module_categories = { carrier_miscellaneous carrier_island coldwar_upgrade_cv carrier_civilian_material }
+			}
 			fixed_ship_flight_deck_slot = inherit
 			fixed_ship_role_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_anti_air_heavy
 					ship_deck_space
 					ship_deck_space_small
 					ship_deck_space_reinforced
@@ -384,9 +389,9 @@ equipments = {
 			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					steam_catapult
 					carrier_side_lift
-					carrier_angled_deck
+					ship_anti_air
+					ship_anti_air_heavy
 				}
 			}
 			mid_1_custom_slot = {
@@ -403,9 +408,7 @@ equipments = {
 			mid_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					steam_catapult
 					carrier_side_lift
-					carrier_angled_deck
 					ship_secondaries
 					ship_dp_secondaries_bb
 					ship_deck_space
@@ -456,23 +459,21 @@ equipments = {
 			fixed_ship_deck_slot_2 = inherit
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_carrier_missile_aa }
+				allowed_module_categories = { ship_anti_air ship_anti_air_heavy ship_carrier_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
 			fixed_ship_armor_slot = inherit
 			fixed_ship_carrier_miscellaneous_slot_1 = inherit
-			fixed_ship_carrier_miscellaneous_slot_2 = {
-				required = no
-				allowed_module_categories = { carrier_miscellaneous carrier_island coldwar_upgrade_cv carrier_civilian_material }
-			}
+			fixed_ship_carrier_miscellaneous_slot_2 = inherit
 			fixed_ship_flight_deck_slot = inherit
 			fixed_ship_role_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_anti_air_heavy
 					ship_deck_space
 					ship_deck_space_small
 					ship_deck_space_reinforced
@@ -482,9 +483,9 @@ equipments = {
 			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					steam_catapult
 					carrier_side_lift
-					carrier_angled_deck
+					ship_anti_air
+					ship_anti_air_heavy
 				}
 			}
 			mid_1_custom_slot = {
@@ -495,9 +496,7 @@ equipments = {
 					ship_deck_space
 					ship_deck_space_small
 					ship_deck_space_reinforced
-					steam_catapult
 					carrier_side_lift
-					carrier_angled_deck
 					carrier_helipad
 					ship_extra_fuel_tank
 				}
@@ -510,9 +509,7 @@ equipments = {
 					ship_deck_space
 					ship_deck_space_small
 					ship_deck_space_reinforced
-					steam_catapult
 					carrier_side_lift
-					carrier_angled_deck
 					carrier_helipad
 					ship_extra_fuel_tank
 				}
@@ -523,6 +520,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries_bb
 					ship_anti_air
+					ship_anti_air_heavy
 					carrier_side_lift
 					carrier_helipad
 					carrier_miscellaneous
@@ -718,7 +716,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_carrier_missile_aa }
+				allowed_module_categories = { ship_anti_air ship_anti_air_heavy ship_carrier_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
@@ -746,6 +744,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_anti_air_heavy
 					steam_catapult
 					carrier_side_lift
 					carrier_angled_deck
@@ -776,6 +775,7 @@ equipments = {
 					ship_secondaries
 					ship_dp_secondaries_bb
 					ship_anti_air
+					ship_anti_air_heavy
 					ship_carrier_missile_aa
 					carrier_side_lift
 					carrier_helipad
@@ -827,7 +827,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_carrier_missile_aa }
+				allowed_module_categories = { ship_anti_air ship_anti_air_heavy ship_carrier_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = {
@@ -855,6 +855,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_anti_air_heavy
 					ship_carrier_missile_aa
 					steam_catapult
 					carrier_side_lift
@@ -866,6 +867,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_anti_air_heavy
 					ship_carrier_missile_aa
 					ship_secondaries
 					ship_dp_secondaries_bb
@@ -879,6 +881,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_anti_air_heavy
 					ship_carrier_missile_aa
 					ship_secondaries
 					ship_dp_secondaries_bb
@@ -929,7 +932,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_carrier_missile_aa }
+				allowed_module_categories = { ship_anti_air ship_anti_air_heavy ship_carrier_missile_aa }
 			}
 			fixed_ship_radar_slot = inherit
 			fixed_ship_fire_control_system_slot = {
@@ -963,6 +966,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_anti_air_heavy
 					ship_carrier_missile_aa
 					ship_dp_secondaries_bb
 				}

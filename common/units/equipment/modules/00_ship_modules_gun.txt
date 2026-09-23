@@ -18,7 +18,7 @@ equipment_modules = {
 			naval_speed = -0.01
 		}
 		add_average_stats = {
-			lg_armor_piercing = 3
+			lg_armor_piercing = 1
 		}
 		dismantle_cost_ic = 2
 
@@ -42,7 +42,7 @@ equipment_modules = {
 			naval_speed = -0.013
 		}
 		add_average_stats = {
-			lg_armor_piercing = 4.5
+			lg_armor_piercing = 3
 		}
 		dismantle_cost_ic = 4
 		
@@ -63,7 +63,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 6
+			lg_armor_piercing = 5
 		}
 		multiply_stats = {
 			naval_speed = -0.015
@@ -89,7 +89,7 @@ equipment_modules = {
 			naval_speed = -0.018
 		}
 		add_average_stats = {
-			lg_armor_piercing = 8
+			lg_armor_piercing = 7
 		}
 		dismantle_cost_ic = 8
 		
@@ -111,7 +111,7 @@ equipment_modules = {
 			naval_speed = -0.013
 		}
 		add_average_stats = {
-			lg_armor_piercing = 3
+			lg_armor_piercing = 1
 		}
 		dismantle_cost_ic = 4
 
@@ -135,7 +135,7 @@ equipment_modules = {
 			naval_speed = -0.015
 		}
 		add_average_stats = {
-			lg_armor_piercing = 4.5
+			lg_armor_piercing = 3
 		}
 		dismantle_cost_ic = 8
 		
@@ -156,7 +156,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 6
+			lg_armor_piercing = 5
 		}
 		multiply_stats = {
 			naval_speed = -0.018
@@ -181,7 +181,7 @@ equipment_modules = {
 			naval_speed = -0.02
 		}
 		add_average_stats = {
-			lg_armor_piercing = 8
+			lg_armor_piercing = 7
 		}
 		dismantle_cost_ic = 16
 
@@ -230,7 +230,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 4
+			lg_armor_piercing = 3.5
 		}
 		dismantle_cost_ic = 20
 
@@ -255,7 +255,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 5
+			lg_armor_piercing = 4.5
 		}
 		dismantle_cost_ic = 30
 
@@ -280,7 +280,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 7
+			lg_armor_piercing = 6
 		}
 		dismantle_cost_ic = 40
 
@@ -304,7 +304,7 @@ equipment_modules = {
 			naval_speed = -0.025
 		}
 		add_average_stats = {
-			lg_armor_piercing = 10
+			lg_armor_piercing = 7.5
 		}
 		dismantle_cost_ic = 28
 		
@@ -351,7 +351,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 4
+			lg_armor_piercing = 3.5
 		}
 		dismantle_cost_ic = 10
 
@@ -375,7 +375,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 5
+			lg_armor_piercing = 4.5
 		}
 		dismantle_cost_ic = 15
 
@@ -399,7 +399,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 7
+			lg_armor_piercing = 6
 		}
 		dismantle_cost_ic = 20
 
@@ -423,7 +423,7 @@ equipment_modules = {
 			naval_speed = -0.02
 		}
 		add_average_stats = {
-			lg_armor_piercing = 10
+			lg_armor_piercing = 7.5
 		}
 		dismantle_cost_ic = 20
 		
@@ -927,7 +927,7 @@ equipment_modules = {
 			naval_speed = -0.02
 		}
 		add_average_stats = {
-			lg_armor_piercing = 9
+			lg_armor_piercing = 8
 		}
 
 		dismantle_cost_ic = 105
@@ -954,7 +954,7 @@ equipment_modules = {
 			naval_speed = -0.04
 		}
 		add_average_stats = {
-			lg_armor_piercing = 11
+			lg_armor_piercing = 10
 		}
 
 		dismantle_cost_ic = 120
@@ -969,7 +969,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 8
+			lg_attack = 7
 			build_cost_ic = 270
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 24.5
@@ -981,7 +981,7 @@ equipment_modules = {
 			naval_speed = -0.06
 		}
 		add_average_stats = {
-			lg_armor_piercing = 13
+			lg_armor_piercing = 12
 		}
 
 		dismantle_cost_ic = 135
@@ -995,7 +995,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3
 		add_stats = {
-			lg_attack = 11
+			lg_attack = 8.5
 			build_cost_ic = 337.5
 			naval_light_gun_hit_chance_factor = 0.008
 			max_strength = 30
@@ -1007,7 +1007,7 @@ equipment_modules = {
 			naval_speed = -0.08
 		}
 		add_average_stats = {
-			lg_armor_piercing = 15
+			lg_armor_piercing = 14
 		}
 
 		dismantle_cost_ic = 150
@@ -1035,7 +1035,7 @@ equipment_modules = {
 			naval_speed = -0.015
 		}
 		add_average_stats = {
-			lg_armor_piercing = 9
+			lg_armor_piercing = 8
 		}
 
 		dismantle_cost_ic = 75
@@ -1062,7 +1062,7 @@ equipment_modules = {
 			naval_speed = -0.035
 		}
 		add_average_stats = {
-			lg_armor_piercing = 11
+			lg_armor_piercing = 10
 		}
 
 		dismantle_cost_ic = 97.5
@@ -1077,7 +1077,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 5
+			lg_attack = 5.5
 			build_cost_ic = 247.5
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 20
@@ -1089,7 +1089,7 @@ equipment_modules = {
 			naval_speed = -0.05
 		}
 		add_average_stats = {
-			lg_armor_piercing = 13
+			lg_armor_piercing = 12
 		}
 
 		dismantle_cost_ic = 112.5
@@ -1115,7 +1115,7 @@ equipment_modules = {
 			naval_speed = -0.065
 		}
 		add_average_stats = {
-			lg_armor_piercing = 15
+			lg_armor_piercing = 14
 		}
 
 		dismantle_cost_ic = 120
@@ -1142,7 +1142,7 @@ equipment_modules = {
 			naval_speed = -0.015
 		}
 		add_average_stats = {
-			lg_armor_piercing = 7
+			lg_armor_piercing = 6
 		}
 
 		dismantle_cost_ic = 67.5
@@ -1168,7 +1168,7 @@ equipment_modules = {
 			naval_speed = -0.035
 		}
 		add_average_stats = {
-			lg_armor_piercing = 9
+			lg_armor_piercing = 8
 		}
 
 		dismantle_cost_ic = 75
@@ -1194,7 +1194,7 @@ equipment_modules = {
 			naval_speed = -0.045
 		}
 		add_average_stats = {
-			lg_armor_piercing = 11
+			lg_armor_piercing = 10
 		}
 
 		dismantle_cost_ic = 82.5
@@ -1208,7 +1208,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3_single
 		add_stats = {
-			lg_attack = 5.5
+			lg_attack = 5
 			build_cost_ic = 315
 			max_strength = 18
 			reliability = -0.03
@@ -1219,7 +1219,7 @@ equipment_modules = {
 			naval_speed = -0.055
 		}
 		add_average_stats = {
-			lg_armor_piercing = 13
+			lg_armor_piercing = 12
 		}
 
 		dismantle_cost_ic = 97.5
@@ -1249,7 +1249,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 14
+			lg_armor_piercing = 12.5
 		}
 		
 		dismantle_cost_ic = 120

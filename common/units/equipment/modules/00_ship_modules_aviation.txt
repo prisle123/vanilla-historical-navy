@@ -532,6 +532,11 @@ equipment_modules = {
 		add_stats = {
 			reliability = 0.05
 		}
+		allowed_module_categories = {
+		    front_2_custom_slot = { carrier_angled_deck steam_catapult }
+			mid_1_custom_slot = { carrier_angled_deck steam_catapult }
+			mid_2_custom_slot = { carrier_angled_deck steam_catapult }
+		}
 		dismantle_cost_ic = 50000
 	}
 
