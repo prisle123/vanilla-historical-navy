@@ -25,4 +25,58 @@ equipment_modules = {
 			ship_mine_layer
 		}
 	}
+
+	# not unlockable
+	ship_deck_space = {
+		category = ship_deck_space_workaround
+		gfx = ship_deck_space
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 2
+			build_cost_ic = 1000
+			carrier_surface_detection = 2
+			carrier_sub_detection = 1
+			max_strength = 30
+			anti_air_attack = 1.5
+			supply_consumption = 0.015
+			reliability = -0.025
+		}
+		manpower = 200 #outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.05
+			fuel_consumption = 0.075
+			surface_visibility = 0.025
+		}
+		dismantle_cost_ic = 600
+		can_convert_from = {
+			module_category = ship_deck_space
+			convert_cost_ic = 1000
+		}
+		critical_parts = { gas_leakage_heavy }
+	}
+	ship_escort_deck_space = {
+		category = ship_deck_space_workaround
+		gfx = ship_deck_space
+		add_equipment_type = capital_ship
+		gui_category = ship_deck_space_special
+		add_stats = {
+			carrier_size = 1
+			build_cost_ic = 700
+			carrier_surface_detection = 1
+			carrier_sub_detection = 0.5
+			max_strength = 20
+			anti_air_attack = 0.5
+			supply_consumption = 0.01
+		}
+		multiply_stats = {
+			naval_speed = -0.025
+			sub_detection = 0.05
+			fuel_consumption = 0.05
+			surface_visibility = 0.015
+		}
+		manpower = 100
+		dismantle_cost_ic = 400
+		critical_parts = { gas_leakage_heavy }
+	}
 }
