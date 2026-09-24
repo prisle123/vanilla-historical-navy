@@ -292,10 +292,7 @@ ideas = {
         voroshilov_naval_academy = {
             ledger = navy
             visible = {
-                OR = {
-                    original_tag = SOV
-                    original_tag = RUS
-                }
+                original_tag = SOV
                 has_global_flag = vnr_enabled
                 has_government = communism
             }
@@ -319,13 +316,16 @@ ideas = {
             ledger = navy
             visible = {
                 OR = {
-                    original_tag = SOV
-                    original_tag = RUS
-                }
-                OR = {
-                    NOT = { has_global_flag = vnr_enabled }
-                    NOT = { has_government = communism }
-                }
+					AND = {  
+						original_tag = SOV
+						has_global_flag = vnr_enabled
+						NOT = { has_government = communism }
+					}
+					AND = {
+						original_tag = RUS
+						NOT = { has_global_flag = vnr_enabled }
+					}
+				}
             }
             modifier = {
                 trait_arctic_water_expert_xp_gain_factor = 0.25

@@ -200,34 +200,6 @@ equipment_modules = {
 		dismantle_cost_ic = 1600
 		critical_parts = { gas_leakage_light }
 	}
-	ship_deck_space_converted = {
-		category = ship_deck_space_converted
-		gui_category = ship_deck_space
-		gfx = ship_deck_space
-
-		add_equipment_type = capital_ship
-		add_stats = {
-			carrier_size = 2
-			build_cost_ic = 2000
-			carrier_surface_detection = 2
-			carrier_sub_detection = 1
-			max_strength = 30
-			reliability = -0.025
-			anti_air_attack = 1.5
-			supply_consumption = 0.015
-		}
-		manpower = 200 #outside the add_stats section for code reasons
-		multiply_stats = {
-			naval_speed = -0.05
-			fuel_consumption = 0.075
-			surface_visibility = 0.03
-		}
-		dismantle_cost_ic = 600
-		can_convert_from = {
-			module_category = ship_deck_space
-			convert_cost_ic = 1000
-		}
-	}
 
 ##########################
 ##  CARRIER HELICOPTER  ##

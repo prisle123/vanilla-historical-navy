@@ -456,6 +456,9 @@ equipment_modules = {
 			steel = 1
 		}
 		manpower = 400
+		allowed_module_categories = {
+			rear_1_custom_slot = { ship_deck_space ship_deck_space_small ship_deck_space_reinforced }
+		}
 	}
 
 

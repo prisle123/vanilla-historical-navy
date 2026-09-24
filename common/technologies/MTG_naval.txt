@@ -4467,7 +4467,6 @@ technologies = {
 
 		navy_carrier_air_agility_factor = 0.1
 		cv_fighter = {
-			air_attack = 0.2
 			air_range = 0.2
 		}
 		cv_cas = {
@@ -6000,19 +5999,16 @@ technologies = {
 			ship_hull_light_2
 			ship_hull_light_3
 			ship_hull_light_4
-			ship_hull_light_5
 			ship_hull_cruiser_1
 			ship_hull_cruiser_2
 			ship_hull_cruiser_3
 			ship_hull_cruiser_4
-			ship_hull_cruiser_5
 			ship_hull_cruiser_panzerschiff
 			ship_hull_cruiser_coastal_defense_ship
 			ship_hull_heavy_1
 			ship_hull_heavy_2
 			ship_hull_heavy_3
 			ship_hull_heavy_4
-			ship_hull_heavy_5
 			ship_hull_super_heavy_1
 			ship_hull_carrier_conversion_bb
 			ship_hull_carrier_conversion_ca
@@ -6020,7 +6016,6 @@ technologies = {
 			ship_hull_carrier_2
 			ship_hull_carrier_3
 			ship_hull_escort_carrier
-			ship_hull_super_carrier
 			ship_hull_submarine_1
 			ship_hull_submarine_2
 			ship_hull_submarine_3
