@@ -442,7 +442,7 @@ naval_unit_role_ratios_GER_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 9999
+		value = 4000
 	}
 
 	ai_strategy = {
@@ -483,7 +483,7 @@ naval_unit_role_ratios_GER_atwar_many_shipyard = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_submarine
-		value = 8000
+		value = 2000
 	}
 
 	ai_strategy = {
@@ -2455,6 +2455,7 @@ we_need_cv_fighters_1 = {
 			}
 			has_navy_size = { size < 1 type = carrier }
 			has_navy_size = { size > 3 type = carrier }
+			num_of_military_factories < 30
 		}
 	}
 
@@ -2558,6 +2559,7 @@ we_need_cv_naval_bombers_1 = {
 			}
 			has_navy_size = { size < 1 type = carrier }
 			has_navy_size = { size > 3 type = carrier }
+			num_of_military_factories < 30
 		}
 	}
 
@@ -3100,7 +3102,7 @@ dockyard_building_target_USA_2 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 30
+		value = 15
 	}
 }
 
@@ -3198,7 +3200,15 @@ dockyard_building_target_JAP_2 = {
 		original_tag = JAP
 	}
 	enable = {
-		has_war_with_major = no
+		OR = {
+			has_war_with_major = no
+			AND = {
+				has_war_with_major = yes
+				all_enemy_country = {
+					has_navy_size = { size < 50 }
+				}
+			}
+		}
 		num_of_naval_factories > 19
 		num_of_naval_factories < 30
 	}
@@ -3206,7 +3216,7 @@ dockyard_building_target_JAP_2 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 30
+		value = 10
 	}
 }
 
@@ -3216,6 +3226,9 @@ dockyard_building_target_JAP_3 = {
 	}
 	enable = {
 		has_war_with_major = yes
+		any_enemy_country = {
+			has_navy_size = { size > 49 }
+		}
 	}
 	abort = {
 		OR = {
