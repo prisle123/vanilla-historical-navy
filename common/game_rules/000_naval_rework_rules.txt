@@ -130,13 +130,13 @@ extra_research_slots = {
 	}
 	option = {
 		name = PLAYER_ONLY
-		text = RULE_OPTION_PLAYER_ONLY
+		text = RULE_OPTION_FOR_PLAYER_ONLY
 		desc = RULE_EXTRA_RESEARCH_SLOTS_PLAYER_ONLY_DESC
 		allow_achievements = yes
 	}
 	option = {
 		name = EVERYONE
-		text = RULE_OPTION_EVERYONE
+		text = RULE_OPTION_FOR_EVERYONE
 		desc = RULE_EXTRA_RESEARCH_SLOTS_EVERYONE_DESC
 		allow_achievements = yes
 	}
