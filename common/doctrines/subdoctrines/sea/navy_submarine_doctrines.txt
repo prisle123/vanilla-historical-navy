@@ -27,7 +27,7 @@ wolfpacks = {
     # EFFECTS
 	submarine = {
 		max_organisation = 10
-        torpedo_attack = 0.05
+        naval_torpedo_hit_chance_factor = 0.05
 	}
     sub_retreat_speed = 0.1
 
@@ -35,7 +35,7 @@ wolfpacks = {
 		predictive_expertise = {
 			submarine = {
                 torpedo_attack = 0.1
-				naval_torpedo_hit_chance_factor = 0.05
+				naval_torpedo_hit_chance_factor = 0.1
 			}
             modifier = {
                 naval_torpedo_reveal_chance_factor = -0.1
@@ -69,6 +69,7 @@ wolfpacks = {
             }
             submarine = {
                 sub_visibility = -0.1
+                naval_torpedo_hit_chance_factor = 0.1
             }
 		}
 		wolfpack_coordination = {
@@ -142,6 +143,7 @@ submarine_fleet_operations = {
 		sustained_operations = {
 			submarine = {
 				max_organisation = 10
+                torpedo_attack = 0.1
                 convoy_raiding_coordination = 0.1
 			}
 		}
@@ -156,7 +158,7 @@ submarine_fleet_operations = {
 		}
 		ambush_tactics = {
 			submarine = {
-                torpedo_attack = 0.1
+                naval_torpedo_hit_chance_factor = 0.1
                 sub_visibility = -0.1
             }
             modifier = {
@@ -207,12 +209,13 @@ capital_hunters = {
     	fire_protocol_drills = {
     		submarine = {
                 torpedo_attack = 0.1
-    			naval_torpedo_hit_chance_factor = 0.05
+    			naval_torpedo_hit_chance_factor = 0.1
     		}
     	}
     	battle_line_priority = {
             submarine = {
                 max_organisation = 5
+                naval_torpedo_hit_chance_factor = 0.1
             }
     		modifier = {
                 naval_torpedo_screen_penetration_factor = 0.1
@@ -229,6 +232,7 @@ capital_hunters = {
     	battleship_chase = {
     		submarine = {
     			fuel_consumption = -0.15
+                naval_torpedo_hit_chance_factor = 0.05
     		}
             equipment_bonus = {
                 submarine = {
@@ -293,6 +297,7 @@ submarine_coastal_defense = {
             }
             submarine = {
                 max_organisation = 5
+                naval_torpedo_hit_chance_factor = 0.05
             }
     	}
     	patrol_vigilance = {
@@ -311,6 +316,7 @@ submarine_coastal_defense = {
             modifier = {
                 naval_torpedo_cooldown_factor = -0.125
                 sub_retreat_speed = 0.1
+                naval_torpedo_hit_chance_factor = 0.05
             }
     	}
     	locals_knowledge = {
@@ -456,9 +462,7 @@ operation_autonomy = {
             submarine = {
                 max_organisation = 5
                 convoy_raiding_coordination = 0.1
-            }
-            modifier = {
-                naval_torpedo_reveal_chance_factor = -0.05
+                naval_torpedo_hit_chance_factor = 0.05
             }
         }
         disguised_submarine_tender = {
@@ -487,10 +491,8 @@ operation_autonomy = {
         submarine_kampfgruppe = {
             submarine = {
                 max_organisation = 10
+                naval_torpedo_hit_chance_factor = 0.15
                 convoy_raiding_coordination = 0.1
-            }
-            modifier = {
-                naval_torpedo_reveal_chance_factor = -0.05
             }
         }
         auxiliary_submarine = {

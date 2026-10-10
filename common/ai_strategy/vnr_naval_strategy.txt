@@ -1,5 +1,5 @@
 ### ENG ###
-ENG_protect_home_waters_high_threat = {
+ENG_protect_home_waters_high_threat = { # high threat Kreigsmarine, defend Home Islands at all cost
     allowed = {
         original_tag = ENG
     }
@@ -75,7 +75,7 @@ ENG_protect_home_waters_high_threat = {
 	}
 }
 
-ENG_protect_home_waters_low_threat = {
+ENG_protect_home_waters_low_threat = { # low threat Kreigsmarine, defend Home Islands with caution
     allowed = {
         original_tag = ENG
     }
@@ -142,7 +142,7 @@ ENG_protect_home_waters_low_threat = {
 	}
 }
 
-ENG_blockade_Germany = {
+ENG_blockade_Germany = { # submarine blockade against Germany
 	allowed = {
 		original_tag = ENG
 	}
@@ -174,7 +174,7 @@ ENG_blockade_Germany = {
 	}
 }
 
-ENG_blockade_Italy = {
+ENG_blockade_Italy = { # submarine blockade against Italy
 	allowed = {
 		original_tag = ENG
 	}
@@ -215,7 +215,7 @@ ENG_blockade_Italy = {
 	}
 }
 
-ENG_avoid_baltic = {
+ENG_avoid_baltic = { # avoid the Baltic Sea due to German naval presence and shallow waters
 	allowed = {
         original_tag = ENG
     }
@@ -253,7 +253,7 @@ ENG_avoid_baltic = {
 	}
 }
 
-ENG_secure_mediterranean_high_threat = {
+ENG_secure_mediterranean_high_threat = { # high threat Italian navy, defend Mediterranean Sea at all cost
     allowed = {
         original_tag = ENG
     }
@@ -301,7 +301,7 @@ ENG_secure_mediterranean_high_threat = {
 	}
 }
 
-ENG_secure_mediterranean_low_threat = {
+ENG_secure_mediterranean_low_threat = { # low threat Italian navy, defend Mediterranean Sea with caution
     allowed = {
         original_tag = ENG
     }
@@ -347,7 +347,7 @@ ENG_secure_mediterranean_low_threat = {
 	}
 }
 
-ENG_avoid_mediterranean = {
+ENG_avoid_mediterranean = { # home perimeter breached, abandon the Mediterranean Sea
     allowed = {
         original_tag = ENG
     }
@@ -396,7 +396,7 @@ ENG_avoid_mediterranean = {
     }
 }
 
-ENG_avoid_pacific = {
+ENG_avoid_pacific = { # initial stage of the Pacific War, busy with European conflicts
     allowed = {
         original_tag = ENG
     }
@@ -450,7 +450,7 @@ ENG_avoid_pacific = {
 	}
 }
 
-ENG_reinforce_pacific = {
+ENG_reinforce_pacific = { # Europe settled, help the yankees
     allowed = {
         original_tag = ENG
     }
@@ -499,7 +499,7 @@ ENG_reinforce_pacific = {
 	}
 }
 
-ENG_protect_atlantic_route = {
+ENG_protect_atlantic_route = { # protect our trade routes
 	allowed = {
 		OR = {
 			original_tag = ENG
@@ -530,7 +530,7 @@ ENG_protect_atlantic_route = {
 }
 
 ### JAP ###
-JAP_destroy_china_navy_quick = {
+JAP_destroy_china_navy_quick = { # quickly eliminate the Chinese navy
     allowed = {
         original_tag = JAP
     }
@@ -559,7 +559,7 @@ JAP_destroy_china_navy_quick = {
     }
 }
 
-JAP_landing_CHI_Tsingtao = {
+JAP_landing_CHI_Tsingtao = { # plan an amphibious landing at Tsingtao
 	allowed = {
 		original_tag = JAP
 	}
@@ -581,7 +581,7 @@ JAP_landing_CHI_Tsingtao = {
 	}
 }
 
-JAP_landing_CHI_Guangzhou = {
+JAP_landing_CHI_Guangzhou = { # plan an amphibious landing at Guangzhou
 	allowed = {
 		original_tag = JAP
 	}
@@ -619,7 +619,7 @@ JAP_landing_CHI_Guangzhou = {
 	}
 }
 
-JAP_landing_CHI_Shanghai = {
+JAP_landing_CHI_Shanghai = { # plan an amphibious landing at Shanghai
 	allowed = {
 		original_tag = JAP
 	}
@@ -685,7 +685,7 @@ JAP_kure_base = {
 	}
 }
 
-JAP_pacific_war_naval_stage_zero = {
+JAP_pacific_war_naval_stage_zero = { # patrol adjacent sea zones before Pearl Harbor
 	allowed = {
 		original_tag = JAP
 	}
@@ -709,7 +709,7 @@ JAP_pacific_war_naval_stage_zero = {
 	}
 }
 
-JAP_pacific_war_naval_stage_one = {
+JAP_pacific_war_naval_stage_one = { # rush the Philippines and Indochina, first contact with USN in Coral Sea
     allowed = {
         original_tag = JAP
     }
@@ -810,7 +810,7 @@ JAP_pacific_war_naval_stage_one = {
 	}
 }
 
-JAP_pacific_war_naval_stage_two = {
+JAP_pacific_war_naval_stage_two = { # secure Guadalcanal, Battle of Midway 
     allowed = {
         original_tag = JAP
     }
@@ -896,7 +896,7 @@ JAP_pacific_war_naval_stage_two = {
 	}
 }
 
-JAP_pacific_war_naval_stage_three = {
+JAP_pacific_war_naval_stage_three = { # hop to Hawaii
     allowed = {
         original_tag = JAP
     }
@@ -970,7 +970,7 @@ JAP_pacific_war_naval_stage_three = {
 	}
 }
 
-JAP_pacific_war_naval_stage_defense = {
+JAP_pacific_war_naval_stage_defense = { # Turuk lost, pose defensive gesture
 	allowed = {
 		original_tag = JAP
 	}
@@ -1007,7 +1007,7 @@ JAP_pacific_war_naval_stage_defense = {
 	}
 }
 
-JAP_pacific_war_naval_stage_desperate = {
+JAP_pacific_war_naval_stage_desperate = { # defensive perimeter breached, retreat to core islands
 	allowed = {
 		original_tag = JAP
 	}
@@ -1279,7 +1279,7 @@ USA_navy_engineering_corps_3 = {
 	}
 }
 
-USA_pacific_war_naval_avoid_first = {
+USA_pacific_war_naval_avoid_first = { # Yamamoto too strong, wait for 6 months
 	allowed = {
 		original_tag = USA
 	}
@@ -1385,7 +1385,7 @@ USA_pacific_war_naval_avoid_first = {
 	}
 }
 
-USA_do_not_waste_fleet_in_north_pacific = {
+USA_do_not_waste_fleet_in_north_pacific = { # don't waste ships in Alaska
 	allowed = {
 		OR = {
 			original_tag = USA
@@ -1854,7 +1854,7 @@ USA_mediterranean_war = {
 	}
 }
 
-Allies_avoid_bad_regions_in_mediterranean = {
+Allies_avoid_bad_regions_in_mediterranean = { # don't enter Adriatic
 	allowed = {
 		OR = {
 			original_tag = USA
@@ -1993,7 +1993,7 @@ USA_unrestricted_submarine_warfare_2 = {
 }
 
 ### ITA ###
-ITA_control_mediterranean = {
+ITA_control_mediterranean = { # secure Italy's backyard
     allowed = {
         original_tag = ITA
     }
@@ -2062,7 +2062,7 @@ GER_homebase_strategy = {
 	}
 }
 
-GER_forget_sealion = {
+GER_forget_sealion = { # Royal Navy too strong, focus on eastern front
     allowed = {
         original_tag = GER
     }
@@ -2097,7 +2097,7 @@ GER_forget_sealion = {
 	}
 }
 
-GER_unrestricted_submarine_warfare = {
+GER_unrestricted_submarine_warfare = { # harrass Allied convoys with submarines
     allowed = {
         original_tag = GER
     }
@@ -2128,7 +2128,7 @@ GER_unrestricted_submarine_warfare = {
     }
 }
 
-GER_avoid_mediterranean = {
+GER_avoid_mediterranean = { # leave the Mediterranean to Italians
 	allowed = {
         original_tag = GER
     }
@@ -2177,7 +2177,7 @@ GER_avoid_mediterranean = {
 }
 
 GER_invade_norway = {
-	# keep assaulting Oslo, but immediately stop once foothold is gained
+	# keep assaulting Oslo, but immediately stop amphibious operations once foothold is gained
 	allowed = {
         original_tag = GER
     }

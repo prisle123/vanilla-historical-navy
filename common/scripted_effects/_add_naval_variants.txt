@@ -4631,7 +4631,7 @@ BRA_start_naval_variants = {
 CHI_start_naval_variants = {
     # light_cruiser
     create_equipment_variant = {
-        name = "Ninghai Class"
+        name = "Ning Hai Class"
 		parent_version = 0
 		show_position = no
 		role_icon_index = 25
@@ -4672,7 +4672,7 @@ CHI_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Haiqi Class"
+        name = "Hai Chi Class"
 		parent_version = 0
 		show_position = no
 		role_icon_index = 23
@@ -4696,7 +4696,7 @@ CHI_start_naval_variants = {
         obsolete = yes
     }
     create_equipment_variant = {
-        name = "Hairong Class"
+        name = "Hai Rong Class"
 		parent_version = 0
 		show_position = no
 		role_icon_index = 23
@@ -4720,7 +4720,7 @@ CHI_start_naval_variants = {
         obsolete = yes
     }
     create_equipment_variant = {
-        name = "Zhaohe Class"
+        name = "Zhao He Class"
 		parent_version = 0
 		show_position = no
 		role_icon_index = 23
@@ -4760,7 +4760,7 @@ CHI_start_naval_variants = {
         }
     }
     create_equipment_variant = {
-        name = "Jianwei Class"
+        name = "Jian Wei Class"
 		parent_version = 0
 		show_position = no
 		role_icon_index = 47
