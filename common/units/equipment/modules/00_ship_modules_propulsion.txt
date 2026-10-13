@@ -420,8 +420,8 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.3
-			sub_visibility = -0.15
+			naval_speed = 0.35
+			sub_visibility = -0.25
 			max_strength = -0.1
 		}
 		build_cost_resources = {
@@ -444,11 +444,13 @@ equipment_modules = {
 			build_cost_ic = 3000
 			naval_range = 50000
 			reliability = -0.2
+			convoy_raiding_coordination = 0.1
+			patrol_coordination = 0.1
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.4
-			sub_visibility = -0.2
+			naval_speed = 0.5
+			sub_visibility = -0.25
 			max_strength = -0.1
 			fuel_consumption = -1
 		}
