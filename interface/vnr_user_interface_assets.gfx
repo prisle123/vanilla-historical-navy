@@ -580,4 +580,11 @@ spriteTypes = {
 		texturefile = "gfx/texticons/tech_banner/support_4_desc_icon.png"
 		legacy_lazy_load = no
 	}
+
+	# no lazy load topgun spirit icon for tech desc
+	srpiteType = {
+		name = "GFX_topgun_tt_icon"
+		texturefile = "gfx/interface/ideas/vnr_navy_spirits/usn_fighter_weapons_school.png"
+		legacy_lazy_load = no
+	}
 }
