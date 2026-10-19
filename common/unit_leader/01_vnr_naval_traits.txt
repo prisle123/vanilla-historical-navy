@@ -218,7 +218,7 @@ leader_traits = {
 		}
 
 		ai_will_do = {
-			factor = 0.5
+			factor = 1
 		}
 
 		trait_type = assignable_trait
@@ -373,7 +373,7 @@ leader_traits = {
 		}
 		
 		ai_will_do = {
-			factor = 0.5
+			factor = 1
 		}
 		
 		trait_type = assignable_trait
@@ -434,7 +434,7 @@ leader_traits = {
 		}
 				
 		ai_will_do = {
-			factor = 0.5
+			factor = 1
 		}
 		
 		trait_type = assignable_trait
@@ -497,7 +497,7 @@ leader_traits = {
 		genius_advisor_trait = vnr_navy_chief_decisive_battle_3
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 		}
 		
 		trait_type = assignable_trait
@@ -516,7 +516,7 @@ leader_traits = {
 		}
 				
 		ai_will_do = {
-			factor = 1
+			factor = 2
 		}
 		
 		trait_type = assignable_trait

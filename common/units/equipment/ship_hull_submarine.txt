@@ -430,6 +430,13 @@ equipments = {
 					ship_extra_fuel_tank
 				}
 			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_extra_fuel_tank
+					ship_mine_layer_sub
+				}
+			}
 			mid_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
