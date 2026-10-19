@@ -53,9 +53,11 @@ convoy_escort = {
 		}
 		sweeping_duty = {
 			light_cruiser = {
+				max_organisation = 5
 				mines_sweeping = 0.25
 			}
 			destroyer = {
+				max_organisation = 5
 				mines_sweeping = 0.25
 			}
 			modifier = {
@@ -160,11 +162,11 @@ support_integrated_operations = {
 		}
 		fleet_coordination = {
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 				sub_detection = 0.1
 			}
 			destroyer = {
-				max_organisation = 5
+				max_organisation = 10
 				sub_detection = 0.1
 			}
 			modifier = {
@@ -237,11 +239,11 @@ hunter_killers = {
 		}
 		group_operations = {
 			destroyer = {
-				max_organisation = 5
+				max_organisation = 10
 				sub_attack = 0.1
 			}
 			light_cruiser = {
-				max_organisation = 5
+				max_organisation = 10
 				sub_attack = 0.1
 			}
 		}
@@ -304,7 +306,8 @@ torpedo_primacy = {
 
     	efficient_torpedo_fuze = {
     		destroyer = {
-    			torpedo_attack = 0.2
+				max_organisation = 5
+    			torpedo_attack = 0.1
     		}
     	}
     	coordinated_fire_patterns = {
@@ -316,7 +319,7 @@ torpedo_primacy = {
     	dedicated_torpedo_task_forces = {
     		light_cruiser = {
     			max_organisation = 10
-    			torpedo_attack = 0.2
+    			torpedo_attack = 0.1
 			}
     	}
     	torpedo_rearming = {

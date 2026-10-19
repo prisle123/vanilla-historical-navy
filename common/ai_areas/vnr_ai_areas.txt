@@ -6,14 +6,14 @@ areas = {
             43
         }
     }
-    vnr_eng_med_zones = { # Med
+    vnr_eng_med_zones = { # main Mediterranean sea zones
         strategic_regions = {
             29
             68
             69
         }
     }
-    vnr_eng_atlantic_route = {
+    vnr_eng_atlantic_route = { # mid Atlantic ridge
         strategic_regions = {
             44
             47
@@ -21,7 +21,7 @@ areas = {
             49
         }
     }
-    vnr_ger_baltic = {
+    vnr_ger_baltic = { # Belts, Baltic Sea
         strategic_regions = {
             173
             206
@@ -75,25 +75,25 @@ areas = {
             84
         }
     }
-    vnr_pacific_iwo_jima = { # Iow Jima, Gulf Leyte
+    vnr_pacific_iwo_jima = { # Iow Jima, Leyte Gulf
         strategic_regions = {
             94
             78
         }
     }
-    vnr_pacific_philippines = {
+    vnr_pacific_philippines = { # Philippines Sea
         strategic_regions = {
             75
             80
         }
     }
-    vnr_pacific_okinawa = {
+    vnr_pacific_okinawa = { # Okinawa and East China Sea
         strategic_regions = {
             76
             90
         }
     }
-    vnr_east_coast = {
+    vnr_east_coast = { # Eastern Seaboard
         strategic_regions = {
             170
             54
@@ -103,7 +103,7 @@ areas = {
         }
     }
 
-    just_malaya = {
+    just_malaya = { # Malaya Peninsula
 		strategic_regions = {
 			188
 		}

@@ -17,7 +17,7 @@ sub_units = {
 		supply_consumption = 0.5
 		
 		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire_heavy }
-		critical_part_damage_chance_mult = 1 
+		critical_part_damage_chance_mult = 0.85 
 		
 		hit_profile_mult = 1.0
 	}
@@ -40,7 +40,7 @@ sub_units = {
 		supply_consumption = 1
 		
 		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire_heavy }
-		critical_part_damage_chance_mult = 1 
+		critical_part_damage_chance_mult = 0.5
 		
 		hit_profile_mult = 1.0
 	}
@@ -58,7 +58,7 @@ sub_units = {
 		supply_consumption = 0.35
 		
 		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire_heavy }
-		critical_part_damage_chance_mult = 1 
+		critical_part_damage_chance_mult = 0.9
 		
 		hit_profile_mult = 1.0
 	}

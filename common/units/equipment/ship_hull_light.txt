@@ -213,7 +213,7 @@ equipments = {
 
 		naval_range = 2500
 
-		max_strength = 40
+		max_strength = 50
 
 
 		fuel_consumption = 0
@@ -246,7 +246,7 @@ equipments = {
 
 		naval_range = 1800
 
-		max_strength = 30
+		max_strength = 40
 
 		build_cost_ic = 200
 		naval_dominance_factor = 20
@@ -292,7 +292,7 @@ equipments = {
 
 		reliability = 0.85
 		naval_range = 3200
-		max_strength = 55
+		max_strength = 60
 		surface_visibility = 13
 		build_cost_ic = 400
 		resources = {
@@ -324,7 +324,7 @@ equipments = {
 		surface_visibility = 12
 		reliability = 0.90
 		naval_range = 4000
-		max_strength = 65
+		max_strength = 70
 		build_cost_ic = 550
 		manpower = 240
 
@@ -420,7 +420,7 @@ equipments = {
 		surface_detection = 20
 		reliability = 0.92
 		naval_range = 4800
-		max_strength = 75
+		max_strength = 80
 		surface_visibility = 11
 		build_cost_ic = 650
 		resources = {
@@ -561,7 +561,7 @@ equipments = {
 		surface_detection = 20
 		reliability = 1.25
 		naval_range = 5800
-		max_strength = 100
+		max_strength = 120
 		surface_visibility = 10
 		build_cost_ic = 800
 		resources = {

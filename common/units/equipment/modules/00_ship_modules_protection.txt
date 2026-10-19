@@ -272,7 +272,7 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 45
-			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_enemy_critical_chance_factor = -0.1
 			naval_torpedo_damage_reduction_factor = 0.1
 			reliability = 0.2
 		}
@@ -308,8 +308,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 50
-			naval_torpedo_enemy_critical_chance_factor = -0.1
-			naval_torpedo_damage_reduction_factor = 0.15
+			naval_torpedo_enemy_critical_chance_factor = -0.2
+			naval_torpedo_damage_reduction_factor = 0.2
 			reliability = 0.25
 		}
 		can_convert_from = {
@@ -454,6 +454,8 @@ equipment_modules = {
 
 		add_stats = {
 			armor_value = 10
+			naval_torpedo_enemy_critical_chance_factor = -0.025
+			naval_torpedo_damage_reduction_factor = 0.025
 		}
 		dismantle_cost_ic = 1500
 		can_convert_from = {
@@ -505,8 +507,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 20
-			naval_torpedo_enemy_critical_chance_factor = -0.05
-			naval_torpedo_damage_reduction_factor = 0.05
+			naval_torpedo_enemy_critical_chance_factor = -0.075
+			naval_torpedo_damage_reduction_factor = 0.075
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 2500
@@ -534,8 +536,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 25
-			naval_torpedo_enemy_critical_chance_factor = -0.05
-			naval_torpedo_damage_reduction_factor = 0.05
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.1
 			reliability = 0.05
 		}
 		dismantle_cost_ic = 3000
@@ -750,6 +752,8 @@ equipment_modules = {
 
 		add_stats = {
 			armor_value = 10
+			naval_torpedo_enemy_critical_chance_factor = -0.025
+			naval_torpedo_damage_reduction_factor = 0.025
 		}
 		dismantle_cost_ic = 1500
 		can_convert_from = {
@@ -841,9 +845,9 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 20
-			naval_torpedo_enemy_critical_chance_factor = -0.05
-			naval_torpedo_damage_reduction_factor = 0.05
-			reliability = 0.05
+			naval_torpedo_enemy_critical_chance_factor = -0.075
+			naval_torpedo_damage_reduction_factor = 0.075
+			reliability = 0.065
 		}
 		dismantle_cost_ic = 2500
 		can_convert_from = {
@@ -890,9 +894,9 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 25
-			naval_torpedo_enemy_critical_chance_factor = -0.05
-			naval_torpedo_damage_reduction_factor = 0.05
-			reliability = 0.05
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.1
+			reliability = 0.08
 		}
 		dismantle_cost_ic = 3000
 		can_convert_from = {
@@ -941,9 +945,9 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 30
-			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_enemy_critical_chance_factor = -0.15
 			naval_torpedo_damage_reduction_factor = 0.15
-			reliability = 0.05
+			reliability = 0.095
 		}
 		dismantle_cost_ic = 4500
 		can_convert_from = {
@@ -991,8 +995,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 35
-			naval_torpedo_enemy_critical_chance_factor = -0.1
-			naval_torpedo_damage_reduction_factor = 0.1
+			naval_torpedo_enemy_critical_chance_factor = -0.15
+			naval_torpedo_damage_reduction_factor = 0.15
 		}
 		dismantle_cost_ic = 5500
 		can_convert_from = {
@@ -1034,6 +1038,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			reliability = 0.025
+			naval_torpedo_enemy_critical_chance_factor = -0.025
+			naval_torpedo_damage_reduction_factor = 0.025
 		}
 		can_convert_from = {
 			module_category = armor_scheme
@@ -1057,6 +1063,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			reliability = 0.04
+			naval_torpedo_enemy_critical_chance_factor = -0.05
+			naval_torpedo_damage_reduction_factor = 0.05
 		}
 		can_convert_from = {
 			module = ship_scheme_incremental_post_jutland
@@ -1080,6 +1088,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			reliability = 0.05
+			naval_torpedo_enemy_critical_chance_factor = -0.075
+			naval_torpedo_damage_reduction_factor = 0.075
 		}
 		dismantle_cost_ic = 2500
 		can_convert_from = {
@@ -1099,6 +1109,8 @@ equipment_modules = {
 		}
 		add_stats = {
 			reliability = 0.1
+			naval_torpedo_enemy_critical_chance_factor = -0.1
+			naval_torpedo_damage_reduction_factor = 0.1
 		}
 		can_convert_from = {
 			module_category = armor_scheme
@@ -1194,7 +1206,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = 0.05
-			max_strength = 0.05
+			max_strength = 0.1
 		}
 		can_convert_from = {
 			module_category = pressure_hull
@@ -1207,7 +1219,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = 0.075
-			max_strength = 0.1
+			max_strength = 0.2
 			sub_visibility = -0.025
 		}
 
@@ -1222,7 +1234,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = 0.1
-			max_strength = 0.15
+			max_strength = 0.3
 			sub_visibility = -0.05
 		}
 		can_convert_from = {
@@ -1236,7 +1248,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = 0.125
-			max_strength = 0.2
+			max_strength = 0.4
 			sub_visibility = -0.075
 		}
 		can_convert_from = {
@@ -1250,7 +1262,7 @@ equipment_modules = {
 
 		multiply_stats = {
 			build_cost_ic = 0.15
-			max_strength = 0.3
+			max_strength = 0.5
 			sub_visibility = -0.1
 			naval_speed = 0.1
 		}

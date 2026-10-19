@@ -43,6 +43,14 @@ sp_nuclear_reactor = {
 					}
 				}
 			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = sub_nuclear_engine
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = nuclear_engine_research
+			}
 		}
 		facility_state_effects = {
 			IF = {

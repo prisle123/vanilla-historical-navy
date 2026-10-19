@@ -217,8 +217,15 @@ naval_sub = {
 			sub_ship_periscope
 		}
 	}
+}
 
 
+
+naval_sub_expert = {
+	category = naval
+	available_for = { ENG JAP USA ITA FRA GER SOV }
+	roles = { vnr_naval_submarine }
+	priority = { base = 90 }
 
 	# expert AI
 	submarine_1936_expert = {
@@ -228,7 +235,12 @@ naval_sub = {
 		priority = {
 			base = 20
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_submarine }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -264,7 +276,12 @@ naval_sub = {
 		priority = {
 			base = 50
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_submarine }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -301,7 +318,12 @@ naval_sub = {
 		priority = {
 			base = 100
 			modifier = { factor = 0.1 has_tech = modern_ship_hull_submarine }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -340,7 +362,12 @@ naval_sub = {
 		priority = {
 			base = 0
 			modifier = { add = 200 has_tech = modern_ship_hull_submarine }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -374,4 +401,3 @@ naval_sub = {
 		}
 	}
 }
-

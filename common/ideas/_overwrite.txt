@@ -1,0 +1,19 @@
+ideas = {
+    air_force_command_spirit = {
+        cag_night_fighting_spirit = {
+			ledger = air
+			visible = { tag = ENG }
+			modifier = {
+				air_carrier_night_penalty_reduction_factor = 0.1
+				carrier_night_traffic = 0.05
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+    }
+}

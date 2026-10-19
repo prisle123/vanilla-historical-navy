@@ -249,8 +249,14 @@ naval_screen = {
 			ship_radar
 		}
 	}
+}
 
 
+naval_screen_expert = {
+	category = naval
+	available_for = { ENG USA JAP GER ITA FRA SOV }
+	roles = { vnr_naval_screen }
+	priority = { base = 140 }
 
 	# expert AI
 	screen_1936_expert = {
@@ -260,9 +266,13 @@ naval_screen = {
 		priority = {
 			base = 50
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
-			modifier = { factor = 0 expert_ai_style = no }
 		}
-
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
 		
 		history = yes
 		target_variant = {
@@ -298,9 +308,13 @@ naval_screen = {
 		priority = {
 			base = 80
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
-			modifier = { factor = 0 expert_ai_style = no }
 		}
-
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
 		
 		history = yes
 		target_variant = {
@@ -337,9 +351,13 @@ naval_screen = {
 		priority = {
 			base = 100
 			modifier = { factor = 0.1 has_tech = modern_ship_hull_light }
-			modifier = { factor = 0 expert_ai_style = no }
 		}
-
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
 		
 		history = yes
 		target_variant = {
@@ -375,9 +393,13 @@ naval_screen = {
 		priority = {
 			base = 0
 			modifier = { add = 150 has_tech = destroyer_missile_upgrade }
-			modifier = { factor = 0 expert_ai_style = no }
 		}
-
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
 		
 		history = yes
 		target_variant = {
@@ -414,7 +436,12 @@ naval_screen = {
 		priority = {
 			base = 0
 			modifier = { add = 200 has_tech = modern_ship_hull_light }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -447,4 +474,3 @@ naval_screen = {
 		}
 	}
 }
-

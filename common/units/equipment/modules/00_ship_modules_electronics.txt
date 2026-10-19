@@ -441,11 +441,14 @@ equipment_modules = {
 		category = generic_miscellaneous
 		gui_category = ship_miscellaneous
 		multiply_stats = {
-			anti_air_attack = 0.25
+			anti_air_attack = 0.1
 		}
 		add_stats = {
-			build_cost_ic = 250
+			build_cost_ic = 150
 		}
 		manpower = -25
+		forbid_module_categories = {
+			ship_missile_aa
+		}
 	}
 }
