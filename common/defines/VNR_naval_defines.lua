@@ -365,7 +365,7 @@ NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	3, -- NAVAL INVASION SUPPORT
 }
 NDefines.NAI.CONVOY_ESCORT_SCORE_FROM_CONVOYS = 25   -- score for each convoy you have in area (was 15)
-NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 100   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
+NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 80   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
 NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 20   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
 NDefines.NAI.FUEL_TRADE_PRIO_FOR_CONVOY_DEFENSE = 0   -- AI will be less reluctant to cancel convoy missions if it is trading for oil (was 0.3)
 NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 2   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
@@ -375,7 +375,7 @@ NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this 
 	0.2,	-- invasion defense
 	0,0,	-- others ( MineSweeping, MineLaying )
 	0.0625,	-- generic coast defense
-	0,0,	-- others ( ConvoyRaiding, ConvoyProtection )
+	0,0.0125,	-- others ( ConvoyRaiding, ConvoyProtection )
 	0.275,	-- naval dominance strategy (was 0.125)
 	0,0,0	-- others ( Training, NavalBlockade, StrikeForce )
 }
