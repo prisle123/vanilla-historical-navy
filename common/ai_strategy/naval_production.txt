@@ -3216,7 +3216,7 @@ dockyard_building_target_JAP_2 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 10
+		value = 1
 	}
 }
 
@@ -3244,7 +3244,7 @@ dockyard_building_target_JAP_3 = {
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 30
+		value = 20
 	}
 }
 

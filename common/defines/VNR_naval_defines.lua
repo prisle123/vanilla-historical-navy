@@ -16,7 +16,7 @@ NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 3.0, 1.25, 1.0, 0.65,
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_DAMAGE_VALUES = { 2.0, 1.0, 0.7, 0.6, 0.45, 0.35, 0.2, 0.1, 0.05, 0.02, 0.01 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
 NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 0.15   -- random factor in damage. So if max damage is fe. 10, and randomness is 30%, then damage will be between 7-10. (was 0.5)
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
-	75.0,	-- big guns
+	72.0,	-- big guns
 	110.0,	-- torpedoes
 	55.0,	-- small guns
 }
@@ -387,6 +387,16 @@ NDefines.NNavy.AI_MAX_TASKFORCES_PER_TRAINING_OBJECTIVE = 10   -- Max number of 
 NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_AIR_TRAINING = 0.35   -- ai will use at most this ratio of affordable fuel for air training
 NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_NAVY_TRAINING = 0.50   -- ai will use at most this ratio of affordable fuel for naval training
 NDefines.NAI.CONVOY_DANGER_FOR_MAX_IMPORTANCE = 300   -- When deciding whether to protect a convoy route, the importance will scale with convoy danger up to this value (was 400)
+NDefines.NAI.NAVAL_SHIP_AIR_IMPORTANCE = 50   -- Naval ship air importance (was 2.0)
+NDefines.NAI.NAVAL_SHIP_IN_PORT_AIR_IMPORTANCE = 15   -- Naval ship in the port air importance (was 6.0)
+NDefines.NAI.NAVAL_COMBAT_AIR_IMPORTANCE = 500.0   -- Naval combat air importance (was 8.0)
+NDefines.NAI.NAVAL_TRANSFER_AIR_IMPORTANCE = 15   -- Naval transfer air importance (was 0.0)
+NDefines.NAI.NAVAL_COMBAT_TRANSFER_AIR_IMPORTANCE = 700   -- Naval combat involving enemy land units (was 50)
+NDefines.NAI.NAVAL_IMPORTANCE_SCALE = 0.5   -- Naval total importance scale (every naval score get's multiplied by it) (was 0.65)
+NDefines.NAI.NAVAL_COMBAT_OUR_NAVY_MULT_ON_IMPORTANCE = 0.60   -- Naval region importance are scaled by our ships as well (was 0.35)
+NDefines.NAI.NAVAL_COMBAT_ALLY_NAVY_MULT_ON_IMPORTANCE = 0.10   -- Naval region importance are scaled by our ships as well (was 0.15)
+NDefines.NAI.NAVAL_COMBAT_MIN_OUR_NAVY_MULT_ON_IMPORTANCE = 1.0   -- Min scale factor for naval region importance from our ships (was 0.5)
+NDefines.NAI.NAVAL_COMBAT_MAX_OUR_NAVY_MULT_ON_IMPORTANCE = 2.0   -- Max scale factor for naval region importance from our ships (was 1.0)
 
 
 --AI Misc

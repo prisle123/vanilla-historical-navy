@@ -4148,6 +4148,7 @@ technologies = {
 			if = {
 				limit = { original_tag = USA }
 				custom_effect_tooltip = topgun_spirit_tt
+				custom_effect_tooltip = topgun_spirit_icon_tt
 			}
 			hidden_effect = {
 				complete_special_project = sp:sp_naval_modern_carrier
