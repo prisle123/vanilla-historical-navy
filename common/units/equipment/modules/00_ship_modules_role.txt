@@ -423,7 +423,6 @@ equipment_modules = {
 		dismantle_cost_ic = 100000
 		forbid_module_categories = {
 			ship_carrier_armor_shbb
-			ship_deck_space_converted
 		}
 		manpower = 200
 	}
@@ -439,7 +438,6 @@ equipment_modules = {
 		dismantle_cost_ic = 100000
 		forbid_module_categories = {
 			ship_carrier_armor_shbb
-			ship_deck_space_converted
 		}
 	}
 	carrier_shbb_conversion = {
