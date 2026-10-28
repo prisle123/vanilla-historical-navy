@@ -336,8 +336,13 @@ MTG_naval_treaties = {
 		}
 	
 		complete_effect = {
+			custom_effect_tooltip = MTG_invite_FROM_to_treaty_tt
 			FROM = {
-				country_event = MTG_naval_treaty.1
+				country_event = {
+					id = MTG_naval_treaty.1
+					hours = 2
+					random_hours = 6
+				}
 			}
 		}
 	}
@@ -422,6 +427,7 @@ MTG_naval_treaties = {
 		}
 	
 		complete_effect = {
+			custom_effect_tooltip = MTG_send_treaty_warning_tt
 			FROM = {
 				country_event = { id = MTG_naval_treaty.4 }
 			}
@@ -539,8 +545,12 @@ MTG_naval_treaties = {
 		}
 	
 		complete_effect = {
+			custom_effect_tooltip = MTG_send_treaty_warning_tt
 			FROM = {
-				country_event = { id = MTG_naval_treaty.4 }
+				country_event = {
+					id = MTG_naval_treaty.4
+					hours = 6
+				}
 			}
 		}
 	}
