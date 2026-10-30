@@ -1,98 +1,98 @@
-ENG_naval_invasion_support = {
+USA_naval_invasion_support = {
     objective_type = naval_invasion_support
 
     available_for = {
-        ENG
+        USA
     }
 
-    min_priority = 8
-    max_priority = 22
+    min_priority = 10
+    max_priority = 25
 }
 
-ENG_mine_sweeping = {
+USA_mine_sweeping = {
     objective_type = mines_sweeping
 
     available_for = {
-        ENG
+        USA
     }
 
     min_priority = 0
-    max_priority = 6
+    max_priority = 0
 }
 
-ENG_invasion_defense = {
+USA_invasion_defense = {
     objective_type = naval_invasion_defense
 
     available_for = {
-        ENG
+        USA
     }
 
-    min_priority = 15
-    max_priority = 30
+    min_priority = 13
+    max_priority = 20
 }
 
-ENG_coast_defense = {
+USA_coast_defense = {
     objective_type = coast_defense
 
     available_for = {
-        ENG
+        USA
     }
 
-    min_priority = 8
-    max_priority = 22
-}
-
-ENG_convoy_protection = {
-    objective_type = convoy_protection
-
-    available_for = {
-        ENG
-    }
-
-    min_priority = 15
-    max_priority = 30
-}
-
-ENG_convoy_raiding = {
-    objective_type = convoy_raiding
-
-    available_for = {
-        ENG
-    }
-
-    min_priority = 8
-    max_priority = 22
-}
-
-ENG_naval_dominance = {
-    objective_type = naval_dominance
-
-    available_for = {
-        ENG
-    }
-
-    min_priority = 8
-    max_priority = 22
-}
-
-ENG_mine_laying = {
-    objective_type = mines_planting
-
-    available_for = {
-        ENG
-    }
-
-    min_priority = 0
+    min_priority = 3
     max_priority = 6
 }
 
-ENG_training = {
+USA_convoy_protection = {
+    objective_type = convoy_protection
+
+    available_for = {
+        USA
+    }
+
+    min_priority = 5
+    max_priority = 25
+}
+
+USA_convoy_raiding = {
+    objective_type = convoy_raiding
+
+    available_for = {
+        USA
+    }
+
+    min_priority = 10
+    max_priority = 18
+}
+
+USA_naval_dominance = {
+    objective_type = naval_dominance
+
+    available_for = {
+        USA
+    }
+
+    min_priority = 10
+    max_priority = 25
+}
+
+USA_mine_laying = {
+    objective_type = mines_planting
+
+    available_for = {
+        USA
+    }
+
+    min_priority = 0
+    max_priority = 0
+}
+
+USA_training = {
     objective_type = training
 
     available_for = {
-        ENG
+        USA
     }
 
-    min_priority = 8
-    max_priority = 22
+    min_priority = 10
+    max_priority = 20
 }
