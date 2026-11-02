@@ -55,10 +55,12 @@ convoy_escort = {
 			light_cruiser = {
 				max_organisation = 5
 				mines_sweeping = 0.25
+				mines_planting = 0.25
 			}
 			destroyer = {
 				max_organisation = 5
 				mines_sweeping = 0.25
+				mines_planting = 0.25
 			}
 			modifier = {
 				mines_sweeping_by_fleets_factor = 0.15

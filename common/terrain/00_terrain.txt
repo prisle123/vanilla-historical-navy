@@ -19,6 +19,7 @@ categories =  {
 		submarine = {
 			navy_visibility = -0.1
 		}
+		naval_light_gun_hit_chance_factor = -0.1
 		naval_mine_hit_chance = -0.75
 		minimum_seazone_dominance = 250 #It's, uh. Well it makes sense in math. If there's time I'll add a util function so that these numbers are game-representative.
 	}
@@ -289,6 +290,7 @@ categories =  {
 
 		navy_visibility = -0.2
 		positioning = -0.15
+		naval_torpedo_hit_chance_factor = 0.1
 		minimum_seazone_dominance = 100
 	}
 	
@@ -337,6 +339,7 @@ categories =  {
 
 		naval_mine_hit_chance = -0.95
 		sub_retreat_speed = 0.1
+		naval_light_gun_hit_chance_factor = -0.2
 		minimum_seazone_dominance = 250
 	}
 }

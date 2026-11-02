@@ -16,7 +16,7 @@ NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 3.0, 1.25, 1.0, 0.65,
 NDefines.NNavy.NAVY_PIERCING_THRESHOLD_DAMAGE_VALUES = { 2.0, 1.0, 0.7, 0.6, 0.45, 0.35, 0.2, 0.1, 0.05, 0.02, 0.01 }   -- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
 NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 0.15   -- random factor in damage. So if max damage is fe. 10, and randomness is 30%, then damage will be between 7-10. (was 0.5)
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
-	75.0,	-- big guns
+	72.0,	-- big guns
 	110.0,	-- torpedoes
 	55.0,	-- small guns
 }
@@ -297,7 +297,7 @@ NDefines.NAI.MAIN_SHIP_RATIO_TO_SPLIT = 1.6   -- if main ship ratio in a task fo
 NDefines.NAI.MIN_MAIN_SHIP_RATIO = 0.5   -- if main ship ratio is below this, steal other ships. (was 0.3)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MIN = 0.10   -- maximum ratio of all screen-ships forces to be used in convoy defense (increases up to max as AI loses convoys). (was 0.2)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MAX = 0.25   -- maximum ratio of all screen-ships forces to be used in convoy defense (increases up to max as AI loses convoys). (was 0.7)
-NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_LAYING = 0.0   -- maximum ratio of screens forces to be used in mine laying (was 0.1)
+NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_LAYING = 0.05   -- maximum ratio of screens forces to be used in mine laying (was 0.1)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO = 0.20   -- if you have mines near your owned states, you will start priotize mine missions and will assign this ratio of screens (was 0.8)
 NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO_MIN_MINES = 250   -- if there are at least this many mines near our owned states, we will prioritize mine sweeping (was 10)
 NDefines.NAI.SUGGESTED_NUM_MAX_CARRIERS = 4   -- We don't know exactly how many planes we should use when evaluating AI build so we need a suggested number to start things off. ALso used for task force suggestions list. (was 4)
@@ -365,7 +365,7 @@ NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {
 	3, -- NAVAL INVASION SUPPORT
 }
 NDefines.NAI.CONVOY_ESCORT_SCORE_FROM_CONVOYS = 25   -- score for each convoy you have in area (was 15)
-NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 100   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
+NDefines.NAI.MAX_ALLOWED_NAVAL_DANGER = 80   -- AI will ignore naval paths that has danger value of above this threshold while assigning units (was 80)
 NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 20   -- Threat value per convoy sunk in a region. Decays over time. (was 25)
 NDefines.NAI.FUEL_TRADE_PRIO_FOR_CONVOY_DEFENSE = 0   -- AI will be less reluctant to cancel convoy missions if it is trading for oil (was 0.3)
 NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 2   -- When convoys are sunk it generates threat in the region which the AI uses to prio naval missions (was 1)
@@ -375,7 +375,7 @@ NDefines.NAI.NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this 
 	0.2,	-- invasion defense
 	0,0,	-- others ( MineSweeping, MineLaying )
 	0.0625,	-- generic coast defense
-	0,0,	-- others ( ConvoyRaiding, ConvoyProtection )
+	0,0.0125,	-- others ( ConvoyRaiding, ConvoyProtection )
 	0.275,	-- naval dominance strategy (was 0.125)
 	0,0,0	-- others ( Training, NavalBlockade, StrikeForce )
 }
@@ -387,6 +387,16 @@ NDefines.NNavy.AI_MAX_TASKFORCES_PER_TRAINING_OBJECTIVE = 10   -- Max number of 
 NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_AIR_TRAINING = 0.35   -- ai will use at most this ratio of affordable fuel for air training
 NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_NAVY_TRAINING = 0.50   -- ai will use at most this ratio of affordable fuel for naval training
 NDefines.NAI.CONVOY_DANGER_FOR_MAX_IMPORTANCE = 300   -- When deciding whether to protect a convoy route, the importance will scale with convoy danger up to this value (was 400)
+NDefines.NAI.NAVAL_SHIP_AIR_IMPORTANCE = 50   -- Naval ship air importance (was 2.0)
+NDefines.NAI.NAVAL_SHIP_IN_PORT_AIR_IMPORTANCE = 15   -- Naval ship in the port air importance (was 6.0)
+NDefines.NAI.NAVAL_COMBAT_AIR_IMPORTANCE = 500.0   -- Naval combat air importance (was 8.0)
+NDefines.NAI.NAVAL_TRANSFER_AIR_IMPORTANCE = 15   -- Naval transfer air importance (was 0.0)
+NDefines.NAI.NAVAL_COMBAT_TRANSFER_AIR_IMPORTANCE = 700   -- Naval combat involving enemy land units (was 50)
+NDefines.NAI.NAVAL_IMPORTANCE_SCALE = 0.5   -- Naval total importance scale (every naval score get's multiplied by it) (was 0.65)
+NDefines.NAI.NAVAL_COMBAT_OUR_NAVY_MULT_ON_IMPORTANCE = 0.60   -- Naval region importance are scaled by our ships as well (was 0.35)
+NDefines.NAI.NAVAL_COMBAT_ALLY_NAVY_MULT_ON_IMPORTANCE = 0.10   -- Naval region importance are scaled by our ships as well (was 0.15)
+NDefines.NAI.NAVAL_COMBAT_MIN_OUR_NAVY_MULT_ON_IMPORTANCE = 1.0   -- Min scale factor for naval region importance from our ships (was 0.5)
+NDefines.NAI.NAVAL_COMBAT_MAX_OUR_NAVY_MULT_ON_IMPORTANCE = 2.0   -- Max scale factor for naval region importance from our ships (was 1.0)
 
 
 --AI Misc

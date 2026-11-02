@@ -11,7 +11,7 @@ equipment_modules = {
 		add_stats = {
 			carrier_size = 3
 			build_cost_ic = 1800
-			anti_air_attack = 2
+			anti_air_attack = 1.5
 			reliability = -0.1
 			max_organisation = -0.2
 			carrier_surface_detection = 3
@@ -64,7 +64,6 @@ equipment_modules = {
 		forbid_module_categories = {
 			ship_deck_space
 			ship_deck_space_small
-			ship_deck_space_converted
 		}
 		critical_parts = { gas_leakage_light }
 	}
@@ -147,7 +146,6 @@ equipment_modules = {
 		forbid_module_categories = {
 			ship_deck_space
 			ship_deck_space_small
-			ship_deck_space_converted
 		}
 		critical_parts = { gas_leakage_light }
 	}

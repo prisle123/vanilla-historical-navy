@@ -2243,7 +2243,7 @@ ocean_empire_protects_its_trade = {
 		}
 	}
 	enable = {
-		convoy_threat > 0.15
+		always = yes
 	}
 	abort_when_not_enabled = yes
 

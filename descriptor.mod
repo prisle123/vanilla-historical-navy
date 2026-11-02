@@ -1,4 +1,4 @@
-version="v3.3 - Das Boot"
+version="v3.4 - Siege of Malta"
 tags={
 	"Military"
 	"Graphics"

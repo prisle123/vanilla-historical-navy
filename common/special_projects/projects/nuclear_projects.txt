@@ -280,6 +280,13 @@ sp_commercial_nuclear_reactor = {
 	resource_cost = {
 		resources = { steel=6 tungsten=4 chromium=7 }
 	}
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0.1 # No civilian nuclear detour while the US has a weapon project open
+			ROOT = { original_tag = USA }
+		}
+	}
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
@@ -430,6 +437,14 @@ sp_nuclear_bomb = {
 	available = { 
 		
 	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 25 # Manhattan Project. Everyone else keeps the default coin flip.
+			ROOT = { original_tag = USA }
+		}
+	}
 	
 	project_output = {
 		country_effects = {
@@ -495,6 +510,7 @@ sp_nuclear_bomb = {
 				iteration_output = {
 					country_effects = {
 						add_nuclear_bombs = 1
+						set_country_flag = early_nuclear_raid_unlock
 					}
 				}
 			}
