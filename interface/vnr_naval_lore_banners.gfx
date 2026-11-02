@@ -1,0 +1,112 @@
+spriteTypes = {
+	# 500x84 text icons match naval_lore_gui_content_container_text.maxWidth.
+	# Load eagerly, as with the existing technology-description banners.
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_1_eng"
+		texturefile = "gfx/texticons/naval_lore/eng_title_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_2_eng"
+		texturefile = "gfx/texticons/naval_lore/eng_title_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_1_usa"
+		texturefile = "gfx/texticons/naval_lore/usa_title_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_2_usa"
+		texturefile = "gfx/texticons/naval_lore/usa_title_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_1_jap"
+		texturefile = "gfx/texticons/naval_lore/jap_title_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_2_jap"
+		texturefile = "gfx/texticons/naval_lore/jap_title_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_1_fra"
+		texturefile = "gfx/texticons/naval_lore/fra_title_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_2_fra"
+		texturefile = "gfx/texticons/naval_lore/fra_title_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_1_ita"
+		texturefile = "gfx/texticons/naval_lore/ita_title_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_2_ita"
+		texturefile = "gfx/texticons/naval_lore/ita_title_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_1_ger"
+		texturefile = "gfx/texticons/naval_lore/ger_title_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_2_ger"
+		texturefile = "gfx/texticons/naval_lore/ger_title_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_1_sov"
+		texturefile = "gfx/texticons/naval_lore/sov_title_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_2_sov"
+		texturefile = "gfx/texticons/naval_lore/sov_title_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_1_chi"
+		texturefile = "gfx/texticons/naval_lore/chi_title_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_2_chi"
+		texturefile = "gfx/texticons/naval_lore/chi_title_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_1_ast"
+		texturefile = "gfx/texticons/naval_lore/ast_title_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_vnr_naval_lore_title_2_ast"
+		texturefile = "gfx/texticons/naval_lore/ast_title_2.png"
+		legacy_lazy_load = no
+	}
+
+}

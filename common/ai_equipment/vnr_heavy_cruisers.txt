@@ -1,7 +1,7 @@
 naval_cruiser_heavy = {
 	category = naval
 	#available_for = {}
-	#blocked_for = {}
+	blocked_for = { ENG USA JAP ITA GER SOV FRA }
 	roles = { vnr_naval_cruiser_heavy }
 	priority = { base = 30 }
 	
@@ -240,20 +240,19 @@ naval_cruiser_heavy = {
 				fixed_ship_role_slot = ship_hull_cruiser_role_cg
 				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_extra_missile_slot = full_missile_upgrade
-				front_1_custom_slot = dp_light_battery
-				front_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
-				mid_1_custom_slot = ship_missile_aa
+				front_1_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
+				front_2_custom_slot = dp_light_battery
+				mid_1_custom_slot = ship_missile_
 				mid_2_custom_slot = ship_dp_secondaries
-				mid_3_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				rear_1_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
-				rear_2_custom_slot = ship_missile_aa
+				rear_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 			}
 		}
 		allowed_modules = {
-			ship_mast
 			ship_fire_control_system
 			ship_radar
 			ship_anti_air
+			ship_missile_aa
 		}
 	}
 }

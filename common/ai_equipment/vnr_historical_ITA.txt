@@ -1,0 +1,1159 @@
+# Historical and explicitly fictional naval AI designs for ITA.
+# Sources and historical fits: documentation/Historical_AI_Navy.md.
+# Fictional continuations and hull coverage: documentation/Historical_AI_Continuations.md.
+# Exact modules and explicit empty slots preserve the selected historical fit.
+# Hull years are equipment years, not commissioning dates. No expert designs here.
+
+vnr_historical_ita_bb = {
+	category = naval
+	available_for = { ITA }
+	roles = { vnr_naval_capital_bb }
+	priority = { base = 75 }
+
+	# Conte di Cavour Class (Rebuilt): hull 1914, historical fit/design 1937; built.
+	# 10 x 320 mm in two triple and two twin turrets; 93,000 shp; 250 mm belt.
+	# Source: https://en.wikipedia.org/wiki/Conte_di_Cavour-class_battleship
+	vnr_hist_ITA_cavour_design = {
+		name = vnr_hist_ITA_cavour
+		role_icon_index = 3
+		priority = { base = 10 }
+		enable = {
+			expert_ai_style = no
+			has_tech = early_ship_hull_heavy
+		}
+		history = yes
+		target_variant = {
+			match_value = 2000.0
+			type = vnr_ship_hull_heavy_1
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_1_triple
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_armor_slot = ship_armor_bc_2
+				fixed_ship_airplane_launcher_slot = empty
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+				fixed_ship_torpedo_defense_system_slot = pugliese_system
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = ship_heavy_battery_1_triple
+				rear_2_custom_slot = ship_heavy_battery_1
+			}
+		}
+	}
+
+	# Francesco Caracciolo Class (Design): hull 1922, historical fit/design 1914; laid down; cancelled.
+	# 4 x 2 381 mm; 105,000 shp; 303 mm belt.
+	# Approximation: No external torpedo bulges in the selected original fit; early internal subdivision is left to hull protection rather than a later bulge module.
+	# Source: https://en.wikipedia.org/wiki/Francesco_Caracciolo-class_battleship
+	vnr_hist_ITA_caracciolo_design = {
+		name = vnr_hist_ITA_caracciolo
+		role_icon_index = 3
+		priority = { base = 20 }
+		enable = {
+			expert_ai_style = no
+			has_tech = basic_ship_hull_heavy
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_heavy_2
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_big_1
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_engine_slot = heavy_ship_engine_3
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_armor_slot = ship_armor_bb_2
+				fixed_ship_airplane_launcher_slot = empty
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_armor_scheme_slot = ship_scheme_mixed
+				fixed_ship_torpedo_defense_system_slot = pugliese_system
+				front_1_custom_slot = ship_heavy_battery_big_1
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = ship_heavy_battery_big_1
+				rear_2_custom_slot = ship_heavy_battery_big_1
+			}
+		}
+	}
+
+	# Littorio Class: hull 1936, historical fit/design 1940; built.
+	# 3 x 3 381 mm; 128,200 shp; 280+70 mm spaced belt; Pugliese protection.
+	# Source: https://en.wikipedia.org/wiki/Littorio-class_battleship
+	vnr_hist_ITA_littorio_design = {
+		name = vnr_hist_ITA_littorio
+		role_icon_index = 1
+		priority = { base = 30 }
+		enable = {
+			expert_ai_style = no
+			has_tech = interwar_ship_hull_heavy
+		}
+		history = yes
+		target_variant = {
+			match_value = 4000.0
+			type = vnr_ship_hull_heavy_3
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_2_triple
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
+				fixed_ship_engine_slot = heavy_ship_engine_3
+				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_armor_slot = ship_armor_bb_2
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_armor_scheme_slot = ship_scheme_mixed
+				fixed_ship_torpedo_defense_system_slot = pugliese_system
+				front_1_custom_slot = ship_heavy_battery_2_triple
+				mid_1_custom_slot = ship_dp_secondaries_bb
+				rear_1_custom_slot = ship_heavy_battery_2_triple
+			}
+		}
+	}
+
+	# Littorio - Heavy 4 (Fictional): hull 1940, fictional study 1940; fictional gameplay continuation.
+	# Retains the national capital-ship main-battery arrangement, with machinery and defensive equipment adapted to the new hull.
+	# Design basis: Inspired by Littorio Class. Italian compact high-speed gun layouts and national secondary batteries.
+	# Predecessor source: https://en.wikipedia.org/wiki/Littorio-class_battleship
+	vnr_hist_ITA_roma_design = {
+		name = vnr_hist_ITA_roma
+		role_icon_index = 1
+		priority = { base = 40 }
+		enable = {
+			expert_ai_style = no
+			has_tech = improved_ship_hull_heavy
+		}
+		history = yes
+		target_variant = {
+			match_value = 5000.0
+			type = vnr_ship_hull_heavy_4
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = heavy_ship_engine_4
+				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_armor_slot = ship_armor_bb_3
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+				fixed_ship_torpedo_defense_system_slot = pugliese_system
+				front_1_custom_slot = ship_heavy_battery_triple
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_dp_secondaries_bb
+				rear_1_custom_slot = ship_heavy_battery_triple
+				rear_2_custom_slot = empty
+			}
+		}
+		allowed_modules = {
+			ship_anti_air_heavy
+			ship_anti_air
+			ship_dp_secondaries_bb
+		}
+	}
+
+	# Littorio - Heavy 5 (Fictional): hull 1944, fictional study 1944; fictional gameplay continuation.
+	# Retains the national capital-ship main-battery arrangement, with machinery and defensive equipment adapted to the new hull.
+	# Design basis: Inspired by Littorio Class. Italian compact high-speed gun layouts and national secondary batteries.
+	# Predecessor source: https://en.wikipedia.org/wiki/Littorio-class_battleship
+	vnr_hist_ITA_impero_design = {
+		name = vnr_hist_ITA_impero
+		role_icon_index = 1
+		priority = { base = 50 }
+		enable = {
+			expert_ai_style = no
+			has_tech = advanced_ship_hull_heavy
+		}
+		history = yes
+		target_variant = {
+			match_value = 6000.0
+			type = vnr_ship_hull_heavy_5
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = heavy_ship_engine_5
+				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_armor_slot = ship_armor_bb_4
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+				fixed_ship_torpedo_defense_system_slot = pugliese_system
+				front_1_custom_slot = ship_heavy_battery_triple
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_dp_secondaries_bb
+				mid_2_custom_slot = ship_anti_air
+				rear_1_custom_slot = ship_heavy_battery_triple
+			}
+		}
+		allowed_modules = {
+			ship_anti_air_heavy
+			ship_anti_air
+			ship_dp_secondaries_bb
+		}
+	}
+
+}
+
+vnr_historical_ita_ca = {
+	category = naval
+	available_for = { ITA }
+	roles = { vnr_naval_cruiser_heavy }
+	priority = { base = 30 }
+
+	# Trento Class: hull 1922, historical fit/design 1929; built.
+	# 4 x 2 203 mm; 150,000 shp; 70 mm belt; torpedo banks abstracted.
+	# Approximation: Four twin 533 mm banks are represented by two quadruple modules of the same total tube count. Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
+	# Source: https://en.wikipedia.org/wiki/Trento-class_cruiser
+	vnr_hist_ITA_trento_design = {
+		name = vnr_hist_ITA_trento
+		role_icon_index = 27
+		priority = { base = 10 }
+		enable = {
+			expert_ai_style = no
+			has_tech = basic_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 2000.0
+			type = vnr_ship_hull_cruiser_2
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_2_double
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_medium_battery_2_double
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				mid_3_custom_slot = empty
+				rear_1_custom_slot = ship_medium_battery_2_double
+				rear_2_custom_slot = ship_medium_battery_2_double
+			}
+		}
+	}
+
+	# Zara Class: hull 1936, historical fit/design 1931; built.
+	# 4 x 2 203 mm; 95,000 shp; 150 mm belt; no torpedoes.
+	# Approximation: Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
+	# Source: https://en.wikipedia.org/wiki/Zara-class_cruiser
+	vnr_hist_ITA_zara_design = {
+		name = vnr_hist_ITA_zara
+		role_icon_index = 27
+		priority = { base = 20 }
+		enable = {
+			expert_ai_style = no
+			has_tech = interwar_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_cruiser_3
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_3_double
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_3
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_medium_battery_3_double
+				front_2_custom_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_medium_battery_3_double
+				rear_2_custom_slot = ship_medium_battery_3_double
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_radar
+		}
+	}
+
+	vnr_hist_ITA_bolzano_mod1940_design = {
+		name = vnr_hist_ITA_bolzano_mod1940
+		role_icon_index = 27
+		priority = { base = 30 }
+		enable = {
+			expert_ai_style = no
+			has_tech = improved_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_cruiser_4
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_double
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_4
+				fixed_ship_armor_slot = ship_armor_cruiser_3
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_medium_battery_double
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_medium_battery_double
+				rear_2_custom_slot = ship_medium_battery_double
+			}
+		}
+	}
+
+	# Admiral Hipper - Cruiser 5 (Fictional): hull 1944, fictional study 1944; fictional gameplay continuation.
+	# Continues the national cruiser gun layout; improves propulsion, fire control and AA as hull technology advances.
+	# Design basis: Inspired by Admiral Hipper Class. German twin main mounts, separate AA batteries and diesel endurance where applicable.
+	# Predecessor source: https://en.wikipedia.org/wiki/Admiral_Hipper-class_cruiser
+	vnr_hist_ITA_marco_polo_design = {
+		name = vnr_hist_ITA_marco_polo
+		role_icon_index = 27
+		priority = { base = 40 }
+		enable = {
+			expert_ai_style = no
+			has_tech = advanced_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_cruiser_5
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_double
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_5
+				fixed_ship_armor_slot = ship_armor_cruiser_4
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_medium_battery_double
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_medium_battery_double
+				rear_2_custom_slot = ship_medium_battery_double
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+		}
+	}
+
+	# Admiral Hipper - Cruiser 6 (Fictional): hull 1949, fictional study 1949; fictional gameplay continuation.
+	# Continues the national cruiser gun layout; improves propulsion, fire control and AA as hull technology advances.
+	# Design basis: Inspired by Admiral Hipper Class. German twin main mounts, separate AA batteries and diesel endurance where applicable.
+	# Predecessor source: https://en.wikipedia.org/wiki/Admiral_Hipper-class_cruiser
+	vnr_hist_ITA_garibaldi_design = {
+		name = vnr_hist_ITA_garibaldi
+		role_icon_index = 27
+		priority = { base = 50 }
+		enable = {
+			expert_ai_style = no
+			has_tech = modern_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 4000.0
+			type = vnr_ship_hull_cruiser_6
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_double
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_5
+				fixed_ship_armor_slot = ship_armor_cruiser_4
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_role_slot = ship_hull_cruiser_role_cg
+				fixed_ship_extra_missile_slot = empty
+				front_1_custom_slot = ship_medium_battery_double
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_medium_battery_double
+				rear_2_custom_slot = ship_missile
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_missile_aa
+		}
+	}
+}
+
+vnr_historical_ita_cl = {
+	category = naval
+	available_for = { ITA }
+	roles = { vnr_naval_cruiser_light }
+	priority = { base = 100 }
+
+	# Luigi Cadorna Class: hull 1922, historical fit/design 1933; built.
+	# 4 x 2 152 mm; 95,000 shp; 24 mm belt; historical four torpedo tubes omitted.
+	# Approximation: The two twin 533 mm banks are omitted: Italy has no twin 533 mm surface-tube module. Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
+	# Source: https://en.wikipedia.org/wiki/Luigi_Cadorna-class_cruiser
+	vnr_hist_ITA_cadorna_design = {
+		name = vnr_hist_ITA_cadorna
+		role_icon_index = 19
+		priority = { base = 20 }
+		enable = {
+			expert_ai_style = no
+			has_tech = basic_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_cruiser_2
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery_2_double
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_role_slot = ship_hull_cruiser_role_c
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_medium_battery_2_double
+				rear_1_custom_slot = ship_light_medium_battery_2_double
+				rear_2_custom_slot = ship_light_medium_battery_2_double
+			}
+		}
+	}
+
+	# Duca degli Abruzzi Class: hull 1936, historical fit/design 1937; built.
+	# 10 x 152 mm (two triple + two twin); 110,000 shp; 100+30 mm belt; 2 x 3 tubes.
+	# Approximation: Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
+	# Source: https://en.wikipedia.org/wiki/Duca_degli_Abruzzi-class_cruiser
+	vnr_hist_ITA_abruzzi_design = {
+		name = vnr_hist_ITA_abruzzi
+		role_icon_index = 19
+		priority = { base = 30 }
+		enable = {
+			expert_ai_style = no
+			has_tech = interwar_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 4000.0
+			type = vnr_ship_hull_cruiser_3
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_3
+				fixed_ship_armor_slot = ship_armor_cruiser
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_role_slot = ship_hull_cruiser_role_c
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_medium_battery_double
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_light_medium_battery_double
+			}
+		}
+	}
+
+	# Duca degli Abruzzi - Cruiser 4 (Fictional): hull 1940, fictional study 1940; fictional gameplay continuation.
+	# Continues the national cruiser gun layout; improves propulsion, fire control and AA as hull technology advances.
+	# Design basis: Inspired by Duca degli Abruzzi Class. Italian compact high-speed gun layouts and national secondary batteries.
+	# Predecessor source: https://en.wikipedia.org/wiki/Duca_degli_Abruzzi-class_cruiser
+	vnr_hist_ITA_etna_design = {
+		name = vnr_hist_ITA_etna
+		role_icon_index = 19
+		priority = { base = 40 }
+		enable = {
+			expert_ai_style = no
+			has_tech = improved_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 5000.0
+			type = vnr_ship_hull_cruiser_4
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_4
+				fixed_ship_armor_slot = ship_armor_cruiser_3
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_role_slot = ship_hull_cruiser_role_c
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_medium_battery
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_medium_battery
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+		}
+	}
+
+	# Duca degli Abruzzi - Cruiser 5 (Fictional): hull 1944, fictional study 1944; fictional gameplay continuation.
+	# Continues the national cruiser gun layout; improves propulsion, fire control and AA as hull technology advances.
+	# Design basis: Inspired by Duca degli Abruzzi Class. Italian compact high-speed gun layouts and national secondary batteries.
+	# Predecessor source: https://en.wikipedia.org/wiki/Duca_degli_Abruzzi-class_cruiser
+	vnr_hist_ITA_etruria_design = {
+		name = vnr_hist_ITA_etruria
+		role_icon_index = 19
+		priority = { base = 50 }
+		enable = {
+			expert_ai_style = no
+			has_tech = advanced_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 6000.0
+			type = vnr_ship_hull_cruiser_5
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_5
+				fixed_ship_armor_slot = ship_armor_cruiser_4
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_role_slot = ship_hull_cruiser_role_c
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_medium_battery
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_medium_battery
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
+		}
+	}
+
+	# Duca degli Abruzzi - Cruiser 6 (Fictional): hull 1949, fictional study 1949; fictional gameplay continuation.
+	# Continues the national cruiser gun layout; improves propulsion, fire control and AA as hull technology advances.
+	# Design basis: Inspired by Duca degli Abruzzi Class. Italian compact high-speed gun layouts and national secondary batteries.
+	# Predecessor source: https://en.wikipedia.org/wiki/Duca_degli_Abruzzi-class_cruiser
+	vnr_hist_ITA_da_vinci_design = {
+		name = vnr_hist_ITA_da_vinci
+		role_icon_index = 19
+		priority = { base = 60 }
+		enable = {
+			expert_ai_style = no
+			has_tech = modern_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 7000.0
+			type = vnr_ship_hull_cruiser_6
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_engine_slot = cruiser_ship_engine_5
+				fixed_ship_armor_slot = ship_armor_cruiser_4
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_role_slot = ship_hull_cruiser_role_cgaa
+				fixed_ship_extra_missile_slot = empty
+				front_1_custom_slot = ship_light_medium_battery
+				front_2_custom_slot = empty
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_medium_battery
+			}
+		}
+		allowed_modules = {
+			ship_missile_aa
+			ship_anti_air
+			ship_dp_secondaries
+			ship_sonar
+		}
+	}
+
+}
+
+vnr_historical_ita_dd = {
+	category = naval
+	available_for = { ITA }
+	roles = { vnr_naval_screen }
+	priority = { base = 120 }
+
+	# Sauro Class: hull 1922, historical fit/design 1927; built.
+	# 2 x 2 120 mm; 36,000 shp; 2 x 3 533 mm tubes. Model 1936 module stands in for earlier 120 mm guns.
+	# Source: https://en.wikipedia.org/wiki/Sauro-class_destroyer
+	vnr_hist_ITA_sauro_design = {
+		name = vnr_hist_ITA_sauro
+		role_icon_index = 31
+		priority = { base = 20 }
+		enable = {
+			expert_ai_style = no
+			has_tech = basic_ship_hull_light
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_light_2
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_2_double
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_2
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_role_slot = ship_hull_light_role_dd
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = empty
+				front_2_custom_slot = ship_depth_charge_1
+				mid_1_custom_slot = ship_torpedo_2
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_light_battery_2_double
+				rear_2_custom_slot = empty
+			}
+		}
+	}
+
+	# Soldati Class: hull 1936, historical fit/design 1939; built.
+	# 2 x 2 120 mm; 48,000 shp; 2 x 3 533 mm tubes; first-series four-gun fit.
+	# Approximation: Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
+	# Source: https://en.wikipedia.org/wiki/Soldati-class_destroyer
+	vnr_hist_ITA_soldati_design = {
+		name = vnr_hist_ITA_soldati
+		role_icon_index = 31
+		priority = { base = 30 }
+		enable = {
+			expert_ai_style = no
+			has_tech = interwar_ship_hull_light
+		}
+		history = yes
+		target_variant = {
+			match_value = 4000.0
+			type = vnr_ship_hull_light_3
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_double
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_engine_slot = light_ship_engine_3
+				fixed_ship_role_slot = ship_hull_light_role_dd
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = empty
+				front_2_custom_slot = ship_depth_charge
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_light_battery_double
+				rear_2_custom_slot = empty
+			}
+		}
+	}
+
+	# Comandanti Medaglie d'Oro Class (Design): hull 1940, historical fit/design 1943; laid down; cancelled.
+	# 4 x 1 135 mm; 60,000 shp; 2 x 3 533 mm tubes; first-series design.
+	# Approximation: Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
+	# Source: https://en.wikipedia.org/wiki/Comandanti_Medaglie_d%27Oro-class_destroyer
+	vnr_hist_ITA_comandanti_design = {
+		name = vnr_hist_ITA_comandanti
+		role_icon_index = 31
+		priority = { base = 40 }
+		enable = {
+			expert_ai_style = no
+			has_tech = improved_ship_hull_light
+		}
+		history = yes
+		target_variant = {
+			match_value = 5000.0
+			type = vnr_ship_hull_light_4
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_engine_slot = light_ship_engine_4
+				fixed_ship_role_slot = ship_hull_light_role_dd
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_battery
+				front_2_custom_slot = ship_depth_charge
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_battery
+				rear_2_custom_slot = ship_light_battery
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_sonar
+		}
+	}
+
+	# Comandanti Medaglie d'Oro - Light 5 (Fictional): hull 1944, fictional study 1944; fictional gameplay continuation.
+	# Retains the national destroyer gun and torpedo-bank arrangement; adds the latest practical escort electronics.
+	# Design basis: Inspired by Comandanti Medaglie d'Oro Class (Design). Italian compact high-speed gun layouts and national secondary batteries.
+	# Predecessor source: https://en.wikipedia.org/wiki/Comandanti_Medaglie_d%27Oro-class_destroyer
+	vnr_hist_ITA_alpino_design = {
+		name = vnr_hist_ITA_alpino
+		role_icon_index = 31
+		priority = { base = 50 }
+		enable = {
+			expert_ai_style = no
+			has_tech = advanced_ship_hull_light
+		}
+		history = yes
+		target_variant = {
+			match_value = 6000.0
+			type = vnr_ship_hull_light_5
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_engine_slot = light_ship_engine_5
+				fixed_ship_role_slot = ship_hull_light_role_dd
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_battery
+				front_2_custom_slot = ship_depth_charge
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_battery
+				rear_2_custom_slot = ship_light_battery
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+		}
+	}
+
+	# Comandanti Medaglie d'Oro - Light 6 (Fictional): hull 1949, fictional study 1949; fictional gameplay continuation.
+	# Retains the national destroyer gun and torpedo-bank arrangement; adds the latest practical escort electronics.
+	# Design basis: Inspired by Comandanti Medaglie d'Oro Class (Design). Italian compact high-speed gun layouts and national secondary batteries.
+	# Predecessor source: https://en.wikipedia.org/wiki/Comandanti_Medaglie_d%27Oro-class_destroyer
+	vnr_hist_ITA_ambra_design = {
+		name = vnr_hist_ITA_ambra
+		role_icon_index = 31
+		priority = { base = 60 }
+		enable = {
+			expert_ai_style = no
+			has_tech = modern_ship_hull_light
+		}
+		history = yes
+		target_variant = {
+			match_value = 7000.0
+			type = vnr_ship_hull_light_6
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_engine_slot = light_ship_engine_5
+				fixed_ship_role_slot = ship_hull_light_role_dda
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_extra_missile_slot = empty
+				front_1_custom_slot = ship_light_battery
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_battery
+			}
+		}
+		allowed_modules = {
+			ship_missile_aa
+			ship_anti_air
+			ship_depth_charge
+		}
+	}
+
+}
+
+vnr_historical_ita_dl = {
+	category = naval
+	available_for = { ITA }
+	roles = { vnr_naval_screen_leader }
+	priority = { base = 5 }
+
+	# Navigatori Class: hull 1922, historical fit/design 1930; built.
+	# 3 x 2 120 mm; 55,000 shp; two triple 533 mm banks in wartime fit.
+	# Approximation: Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
+	# Source: https://en.wikipedia.org/wiki/Navigatori-class_destroyer
+	vnr_hist_ITA_navigatori_design = {
+		name = vnr_hist_ITA_navigatori
+		role_icon_index = 33
+		priority = { base = 10 }
+		enable = {
+			expert_ai_style = no
+			has_tech = basic_ship_hull_light
+		}
+		history = yes
+		target_variant = {
+			match_value = 2000.0
+			type = vnr_ship_hull_light_2
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_2_double
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_2
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_role_slot = ship_hull_light_role_dl
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_battery_2_double
+				front_2_custom_slot = ship_depth_charge_1
+				mid_1_custom_slot = ship_torpedo_2
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_light_battery_2_double
+				rear_2_custom_slot = empty
+			}
+		}
+	}
+
+	vnr_hist_ITA_otranto_design = {
+		name = vnr_hist_ITA_otranto
+		role_icon_index = 33
+		priority = { base = 20 }
+		enable = {
+			expert_ai_style = no
+			has_tech = interwar_ship_hull_light
+		}
+		history = yes
+		target_variant = {
+			match_value = 2000.0
+			type = vnr_ship_hull_light_3
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_engine_slot = light_ship_engine_3
+				fixed_ship_role_slot = ship_hull_light_role_dl
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_battery
+				front_2_custom_slot = ship_light_battery
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_battery
+				rear_2_custom_slot = ship_light_battery
+			}
+		}
+	}
+
+	vnr_hist_ITA_apollo_design = {
+		name = vnr_hist_ITA_apollo
+		role_icon_index = 33
+		priority = { base = 30 }
+		enable = {
+			expert_ai_style = no
+			has_tech = improved_ship_hull_light
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_light_4
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_double
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_engine_slot = light_ship_engine_4
+				fixed_ship_role_slot = ship_hull_light_role_dl
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_battery_double
+				front_2_custom_slot = ship_depth_charge
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_battery_double
+				rear_2_custom_slot = ship_light_battery_double
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_radar
+			ship_sonar
+			ship_depth_charge
+		}
+	}
+
+}
+
+vnr_historical_ita_ss = {
+	category = naval
+	available_for = { ITA }
+	roles = { vnr_naval_submarine }
+	priority = { base = 80 }
+
+	# Mameli Class: hull 1922, historical fit/design 1929; built.
+	# Six 533 mm tubes represented by one six-tube group; 3,000 bhp.
+	# Approximation: Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
+	# Source: https://en.wikipedia.org/wiki/Mameli-class_submarine
+	vnr_hist_ITA_mameli_design = {
+		name = vnr_hist_ITA_mameli
+		role_icon_index = 39
+		priority = { base = 10 }
+		enable = {
+			expert_ai_style = no
+			has_tech = early_ship_hull_submarine
+		}
+		history = yes
+		target_variant = {
+			match_value = 2000.0
+			type = vnr_ship_hull_submarine_1
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				fixed_ship_secondaries_slot = sub_deck_gun_1
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_armor_slot = pressure_hull_1
+				fixed_ship_conning_tower_slot = sub_conning_tower_0
+				fixed_sub_periscope_slot = sub_ship_periscope_0
+				fixed_ship_fire_control_system_slot = sub_sonar_1
+				fixed_ship_extra_secondaries_slot = empty
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+	}
+
+	# Perla Class: hull 1936, historical fit/design 1936; built.
+	# Six 533 mm tubes (4 bow + 2 stern); 1,400 bhp.
+	# Source: https://en.wikipedia.org/wiki/Perla-class_submarine
+	vnr_hist_ITA_perla_design = {
+		name = vnr_hist_ITA_perla
+		role_icon_index = 39
+		priority = { base = 20 }
+		enable = {
+			expert_ai_style = no
+			has_tech = basic_ship_hull_submarine
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_submarine_2
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				fixed_ship_secondaries_slot = sub_deck_gun_1
+				fixed_ship_engine_slot = sub_ship_engine_2
+				fixed_ship_armor_slot = pressure_hull_2
+				fixed_ship_conning_tower_slot = sub_conning_tower_0
+				fixed_sub_periscope_slot = sub_ship_periscope_1
+				fixed_ship_fire_control_system_slot = sub_sonar_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_extra_secondaries_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+	}
+
+	# Marconi Class: hull 1940, historical fit/design 1940; built.
+	# Eight 533 mm tubes; 3,600 bhp; 100 mm deck gun.
+	# Approximation: Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
+	# Source: https://en.wikipedia.org/wiki/Marconi-class_submarine
+	vnr_hist_ITA_marconi_design = {
+		name = vnr_hist_ITA_marconi
+		role_icon_index = 39
+		priority = { base = 30 }
+		enable = {
+			expert_ai_style = no
+			has_tech = improved_ship_hull_submarine
+		}
+		history = yes
+		target_variant = {
+			match_value = 4000.0
+			type = vnr_ship_hull_submarine_3
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_secondaries_slot = sub_deck_gun
+				fixed_ship_engine_slot = sub_ship_engine_3
+				fixed_ship_armor_slot = pressure_hull
+				fixed_ship_conning_tower_slot = sub_conning_tower_0
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_radar_slot = sub_sonar
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_torpedo_sub
+				rear_1_custom_slot = ship_torpedo_sub
+			}
+		}
+	}
+
+	# Flutto Class: hull 1944, historical fit/design 1943; built.
+	# Six 533 mm tubes; 2,400 bhp; 100 mm deck gun; no invented snorkel.
+	# Source: https://en.wikipedia.org/wiki/Flutto-class_submarine
+	vnr_hist_ITA_flutto_design = {
+		name = vnr_hist_ITA_flutto
+		role_icon_index = 39
+		priority = { base = 40 }
+		enable = {
+			expert_ai_style = no
+			has_tech = advanced_ship_hull_submarine
+		}
+		history = yes
+		target_variant = {
+			match_value = 5000.0
+			type = vnr_ship_hull_submarine_4
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_secondaries_slot = sub_deck_gun
+				fixed_ship_engine_slot = sub_ship_engine_4
+				fixed_ship_armor_slot = pressure_hull
+				fixed_ship_conning_tower_slot = sub_conning_tower_1
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_radar_slot = sub_sonar_1
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_torpedo_sub
+				rear_1_custom_slot = ship_torpedo_sub
+			}
+		}
+	}
+
+	# Flutto - Submarine 5 (Fictional): hull 1944, fictional study 1950; fictional gameplay continuation.
+	# Continues the late national submarine torpedo arrangement in the modern pressure hull, with a snorkel and improved submerged detection.
+	# Design basis: Inspired by Flutto Class. Italian compact high-speed gun layouts and national secondary batteries.
+	# Predecessor source: https://en.wikipedia.org/wiki/Flutto-class_submarine
+	vnr_hist_ITA_flutto_mod1950_design = {
+		name = vnr_hist_ITA_flutto_mod1950
+		role_icon_index = 39
+		priority = { base = 50 }
+		enable = {
+			expert_ai_style = no
+			has_tech = modern_ship_hull_submarine
+		}
+		history = yes
+		target_variant = {
+			match_value = 6000.0
+			type = vnr_ship_hull_submarine_5
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_engine_slot = sub_ship_engine_4
+				fixed_ship_armor_slot = pressure_hull
+				fixed_ship_conning_tower_slot = sub_conning_tower_1
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_radar_slot = sub_sonar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_extra_missile_slot = empty
+				front_1_custom_slot = ship_torpedo_sub
+				mid_2_custom_slot = ship_sub_snorkel
+				rear_1_custom_slot = ship_torpedo_sub
+			}
+		}
+	}
+
+}
+
+vnr_historical_ita_cv = {
+	category = naval
+	available_for = { ITA }
+	roles = { vnr_naval_carrier }
+	priority = { base = 100 }
+
+	# Aquila (Conversion): hull 1940, historical fit/design 1942; conversion unfinished.
+	# 51 aircraft approximated as 50; 151,000 shp; liner conversion; 135 mm surface guns omitted.
+	# Approximation: Local protection over magazines and concrete-filled side spaces is not a continuous armoured belt or flight deck; both armour abstractions are omitted.
+	# Source: https://en.wikipedia.org/wiki/Italian_aircraft_carrier_Aquila
+	vnr_hist_ITA_aquila_design = {
+		name = vnr_hist_ITA_aquila
+		role_icon_index = 9
+		priority = { base = 20 }
+		enable = {
+			expert_ai_style = no
+			has_tech = improved_ship_hull_carrier
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_carrier_2
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
+				fixed_ship_anti_air_slot = ship_anti_air_3
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = carrier_ship_engine_3
+				fixed_ship_secondaries_slot = dp_ship_secondaries_2_bb
+				fixed_ship_armor_slot = empty
+				fixed_ship_carrier_miscellaneous_slot_1 = empty
+				fixed_ship_carrier_miscellaneous_slot_2 = empty
+				fixed_ship_flight_deck_slot = carrier_wooden_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
+				front_1_custom_slot = ship_deck_space_small
+				front_2_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+			}
+		}
+	}
+
+	# Aquila - Carrier 3 (Fictional): hull 1944, fictional study 1944; fictional gameplay continuation.
+	# Expands the national carrier air group and protection while retaining its secondary-battery tradition.
+	# Design basis: Inspired by Aquila (Conversion). Italian compact high-speed gun layouts and national secondary batteries.
+	# Predecessor source: https://en.wikipedia.org/wiki/Italian_aircraft_carrier_Aquila
+	vnr_hist_ITA_aquila_mod1944_design = {
+		name = vnr_hist_ITA_aquila_mod1944
+		role_icon_index = 9
+		priority = { base = 30 }
+		enable = {
+			expert_ai_style = no
+			has_tech = advanced_ship_hull_carrier
+		}
+		history = yes
+		target_variant = {
+			match_value = 4000.0
+			type = vnr_ship_hull_carrier_3
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = carrier_ship_engine_4
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_armor_slot = ship_armor_carrier
+				fixed_ship_carrier_miscellaneous_slot_1 = empty
+				fixed_ship_carrier_miscellaneous_slot_2 = empty
+				fixed_ship_flight_deck_slot = carrier_wooden_deck
+				fixed_ship_role_slot = ship_hull_carrier_role_cv
+				front_1_custom_slot = ship_deck_space_open
+				mid_1_custom_slot = ship_deck_space_open
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			carrier_side_lift
+		}
+	}
+}

@@ -1764,11 +1764,6 @@ naval_unit_role_ratios_ITA_atwar_with_England = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 10
-	}
-	ai_strategy = {
-		type = role_ratio
 		id = vnr_naval_cruiser_light
 		value = 35
 	}
@@ -1812,11 +1807,6 @@ naval_unit_role_ratios_ITA_atwar_with_major = {
 		type = role_ratio
 		id = vnr_naval_screen_leader
 		value = 40
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = vnr_naval_screen_cruiser
-		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio

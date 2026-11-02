@@ -1,6 +1,6 @@
 naval_carrier = {
 	category = naval
-	#blocked_for = {}
+	blocked_for = { ENG USA JAP ITA GER SOV FRA }
 	roles = { vnr_naval_carrier }
 	priority = { base = 100 }
 

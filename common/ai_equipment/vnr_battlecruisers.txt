@@ -1,7 +1,7 @@
 naval_capital_battlecruiser = {
 	category = naval
 	#available_for = {}
-	#blocked_for = {}
+	blocked_for = { ENG USA JAP ITA GER SOV FRA }
 	roles = { vnr_naval_capital_bc }
 	priority = { base = 5 }
 
