@@ -315,13 +315,13 @@ equipment_modules = {
 		gui_category = modern_carrier_equipments
 
 		add_stats = {
-			build_cost_ic = 400
+			build_cost_ic = 250
 		}
 		multiply_stats = {
 			anti_air_attack = 0.1
 			surface_detection = 0.06
 		}
-		dismantle_cost_ic = 250
+		dismantle_cost_ic = 150
 	}
 
 	side_lift = {

@@ -1,4 +1,4 @@
-version="v3.4 - Siege of Malta"
+version="v3.5 - Operation Torch"
 tags={
 	"Military"
 	"Graphics"

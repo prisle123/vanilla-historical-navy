@@ -17,7 +17,10 @@ vnr_historical_ger_bb = {
 	vnr_hist_GER_bayern_design = {
 		name = vnr_hist_GER_bayern
 		role_icon_index = 3
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_heavy
@@ -52,7 +55,10 @@ vnr_historical_ger_bb = {
 	vnr_hist_GER_l20e_design = {
 		name = vnr_hist_GER_l20e
 		role_icon_index = 3
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_heavy
@@ -86,7 +92,10 @@ vnr_historical_ger_bb = {
 	vnr_hist_GER_bismarck_design = {
 		name = vnr_hist_GER_bismarck
 		role_icon_index = 1
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_heavy
@@ -122,7 +131,10 @@ vnr_historical_ger_bb = {
 	vnr_hist_GER_h39_design = {
 		name = vnr_hist_GER_h39
 		role_icon_index = 1
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_heavy
@@ -210,7 +222,10 @@ vnr_historical_ger_ca = {
 	vnr_hist_GER_hipper_design = {
 		name = vnr_hist_GER_hipper
 		role_icon_index = 27
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_cruiser
@@ -241,7 +256,10 @@ vnr_historical_ger_ca = {
 	vnr_hist_GER_o_class_design = {
 		name = vnr_hist_GER_o_class
 		role_icon_index = 27
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -278,7 +296,10 @@ vnr_historical_ger_ca = {
 	vnr_hist_GER_p_class_design = {
 		name = vnr_hist_GER_p_class
 		role_icon_index = 27
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_cruiser
@@ -366,7 +387,10 @@ vnr_historical_ger_cb = {
 	vnr_hist_GER_deutschland_design = {
 		name = vnr_hist_GER_deutschland
 		role_icon_index = 25
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_cruiser
@@ -408,7 +432,10 @@ vnr_historical_ger_cl = {
 	vnr_hist_GER_konigsberg_design = {
 		name = vnr_hist_GER_konigsberg
 		role_icon_index = 19
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_cruiser
@@ -444,7 +471,10 @@ vnr_historical_ger_cl = {
 	vnr_hist_GER_nurnberg_design = {
 		name = vnr_hist_GER_nurnberg
 		role_icon_index = 19
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_cruiser
@@ -480,7 +510,10 @@ vnr_historical_ger_cl = {
 	vnr_hist_GER_m_class_design = {
 		name = vnr_hist_GER_m_class
 		role_icon_index = 19
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -513,7 +546,10 @@ vnr_historical_ger_cl = {
 	vnr_hist_GER_k_class_design = {
 		name = vnr_hist_GER_k_class
 		role_icon_index = 19
-		priority = { base = 50 }
+		priority = {
+			base = 50
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_cruiser
@@ -560,7 +596,10 @@ vnr_historical_ger_dd = {
 	vnr_hist_GER_type24_design = {
 		name = vnr_hist_GER_type24
 		role_icon_index = 31
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_light
@@ -593,7 +632,10 @@ vnr_historical_ger_dd = {
 	vnr_hist_GER_type36_design = {
 		name = vnr_hist_GER_type36
 		role_icon_index = 31
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_light
@@ -628,7 +670,10 @@ vnr_historical_ger_dd = {
 	vnr_hist_GER_type36a_design = {
 		name = vnr_hist_GER_type36a
 		role_icon_index = 31
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_light
@@ -662,7 +707,10 @@ vnr_historical_ger_dd = {
 	vnr_hist_GER_type44_design = {
 		name = vnr_hist_GER_type44
 		role_icon_index = 31
-		priority = { base = 50 }
+		priority = {
+			base = 50
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_light
@@ -748,7 +796,10 @@ vnr_historical_ger_ss = {
 	vnr_hist_GER_typeii_design = {
 		name = vnr_hist_GER_typeii
 		role_icon_index = 39
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_submarine
@@ -778,7 +829,10 @@ vnr_historical_ger_ss = {
 	vnr_hist_GER_typevii_design = {
 		name = vnr_hist_GER_typevii
 		role_icon_index = 39
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_submarine
@@ -809,7 +863,10 @@ vnr_historical_ger_ss = {
 	vnr_hist_GER_typeix_design = {
 		name = vnr_hist_GER_typeix
 		role_icon_index = 39
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_submarine
@@ -841,7 +898,10 @@ vnr_historical_ger_ss = {
 	vnr_hist_GER_typexxi_design = {
 		name = vnr_hist_GER_typexxi
 		role_icon_index = 39
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_submarine
@@ -915,7 +975,10 @@ vnr_historical_ger_cv = {
 	vnr_hist_GER_graf_zeppelin_design = {
 		name = vnr_hist_GER_graf_zeppelin
 		role_icon_index = 9
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_carrier
@@ -949,7 +1012,10 @@ vnr_historical_ger_cv = {
 	vnr_hist_GER_elbe_design = {
 		name = vnr_hist_GER_elbe
 		role_icon_index = 9
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_carrier
@@ -983,7 +1049,10 @@ vnr_historical_ger_cv = {
 	vnr_hist_GER_richthofen_design = {
 		name = vnr_hist_GER_richthofen
 		role_icon_index = 9
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = super_carriers }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_carrier
@@ -1046,7 +1115,7 @@ vnr_historical_ger_cv = {
 			ship_anti_air
 			steam_catapult
 			ship_angled_deck
-			ship_missile_aa
+			ship_carrier_missile_aa
 		}
 	}
 

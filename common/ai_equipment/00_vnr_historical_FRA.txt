@@ -17,7 +17,10 @@ vnr_historical_fra_bb = {
 	vnr_hist_FRA_bretagne_design = {
 		name = vnr_hist_FRA_bretagne
 		role_icon_index = 3
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_heavy
@@ -53,7 +56,10 @@ vnr_historical_fra_bb = {
 	vnr_hist_FRA_normandie_design = {
 		name = vnr_hist_FRA_normandie
 		role_icon_index = 3
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_heavy
@@ -87,7 +93,10 @@ vnr_historical_fra_bb = {
 	vnr_hist_FRA_richelieu_design = {
 		name = vnr_hist_FRA_richelieu
 		role_icon_index = 1
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_heavy
@@ -126,7 +135,10 @@ vnr_historical_fra_bb = {
 	vnr_hist_FRA_alsace_design = {
 		name = vnr_hist_FRA_alsace
 		role_icon_index = 1
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_heavy
@@ -213,7 +225,10 @@ vnr_historical_fra_bc = {
 	vnr_hist_FRA_dunkerque_design = {
 		name = vnr_hist_FRA_dunkerque
 		role_icon_index = 13
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_heavy
@@ -259,7 +274,10 @@ vnr_historical_fra_ca = {
 	vnr_hist_FRA_suffren_design = {
 		name = vnr_hist_FRA_suffren
 		role_icon_index = 27
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_cruiser
@@ -298,7 +316,10 @@ vnr_historical_fra_ca = {
 	vnr_hist_FRA_algerie_design = {
 		name = vnr_hist_FRA_algerie
 		role_icon_index = 27
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_cruiser
@@ -334,7 +355,10 @@ vnr_historical_fra_ca = {
 	vnr_hist_FRA_saint_louis_design = {
 		name = vnr_hist_FRA_saint_louis
 		role_icon_index = 27
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -370,7 +394,10 @@ vnr_historical_fra_ca = {
 	vnr_hist_FRA_saint_louis_design = {
 		name = vnr_hist_FRA_saint_louis
 		role_icon_index = 27
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -406,7 +433,10 @@ vnr_historical_fra_ca = {
 	vnr_hist_FRA_saint_louis_mod1944_design = {
 		name = vnr_hist_FRA_saint_louis
 		role_icon_index = 27
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_cruiser
@@ -464,7 +494,6 @@ vnr_historical_fra_ca = {
 				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_4 ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_role_slot = ship_hull_cruiser_role_cg
 				fixed_ship_secondaries_slot = ship_dp_secondaries
-				fixed_ship_extra_missile_slot = full_missile_upgrade
 				front_1_custom_slot = dp_ship_medium_1
 				mid_1_custom_slot = ship_missile
 				mid_2_custom_slot = ship_dp_secondaries
@@ -494,7 +523,10 @@ vnr_historical_fra_cl = {
 	vnr_hist_FRA_duguay_trouin_design = {
 		name = vnr_hist_FRA_duguay_trouin
 		role_icon_index = 19
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_cruiser
@@ -529,7 +561,10 @@ vnr_historical_fra_cl = {
 	vnr_hist_FRA_galissonniere_design = {
 		name = vnr_hist_FRA_galissonniere
 		role_icon_index = 19
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_cruiser
@@ -567,7 +602,10 @@ vnr_historical_fra_cl = {
 	vnr_hist_FRA_de_grasse_design = {
 		name = vnr_hist_FRA_de_grasse
 		role_icon_index = 19
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -608,7 +646,10 @@ vnr_historical_fra_cl = {
 	vnr_hist_FRA_de_grasse_mod1944_design = {
 		name = vnr_hist_FRA_de_grasse_mod1944
 		role_icon_index = 19
-		priority = { base = 50 }
+		priority = {
+			base = 50
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_cruiser
@@ -697,7 +738,10 @@ vnr_historical_fra_dd = {
 	vnr_hist_FRA_bourrasque_design = {
 		name = vnr_hist_FRA_bourrasque
 		role_icon_index = 31
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_light
@@ -733,7 +777,10 @@ vnr_historical_fra_dd = {
 	vnr_hist_FRA_le_hardi_design = {
 		name = vnr_hist_FRA_le_hardi
 		role_icon_index = 31
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_light
@@ -768,7 +815,10 @@ vnr_historical_fra_dd = {
 	vnr_hist_FRA_le_hardi_mod1944_design = {
 		name = vnr_hist_FRA_le_hardi_mod1944
 		role_icon_index = 31
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_light
@@ -855,7 +905,10 @@ vnr_historical_fra_dl = {
 	vnr_hist_FRA_le_fantasque_design = {
 		name = vnr_hist_FRA_le_fantasque
 		role_icon_index = 33
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_light
@@ -890,7 +943,10 @@ vnr_historical_fra_dl = {
 	vnr_hist_FRA_mogador_design = {
 		name = vnr_hist_FRA_mogador
 		role_icon_index = 33
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_light
@@ -938,7 +994,10 @@ vnr_historical_fra_ss = {
 	vnr_hist_FRA_requin_design = {
 		name = vnr_hist_FRA_requin
 		role_icon_index = 39
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_submarine
@@ -968,7 +1027,10 @@ vnr_historical_fra_ss = {
 	vnr_hist_FRA_redoutable_design = {
 		name = vnr_hist_FRA_redoutable
 		role_icon_index = 39
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_submarine
@@ -999,7 +1061,10 @@ vnr_historical_fra_ss = {
 	vnr_hist_FRA_aurore_design = {
 		name = vnr_hist_FRA_aurore
 		role_icon_index = 39
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_submarine
@@ -1028,7 +1093,10 @@ vnr_historical_fra_ss = {
 	vnr_hist_FRA_narval_design = {
 		name = vnr_hist_FRA_narval
 		role_icon_index = 39
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_submarine
@@ -1061,8 +1129,8 @@ vnr_historical_fra_ss = {
 	# Continues the late national submarine torpedo arrangement in the modern pressure hull, with a snorkel and improved submerged detection.
 	# Design basis: Inspired by Narval Class. French concentrated forward main batteries and fast fleet escorts.
 	# Predecessor source: https://en.wikipedia.org/wiki/Narval-class_submarine
-	vnr_hist_FRA_fictional_submarine_5_design = {
-		name = vnr_hist_FRA_fictional_submarine_5
+	vnr_hist_FRA_rubis_design = {
+		name = vnr_hist_FRA_rubis
 		role_icon_index = 39
 		priority = { base = 50 }
 		enable = {
@@ -1105,7 +1173,10 @@ vnr_historical_fra_cv = {
 	vnr_hist_FRA_joffre_design = {
 		name = vnr_hist_FRA_joffre
 		role_icon_index = 9
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_carrier
@@ -1139,7 +1210,10 @@ vnr_historical_fra_cv = {
 	vnr_hist_FRA_dixmude_design = {
 		name = vnr_hist_FRA_dixmude
 		role_icon_index = 9
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_carrier
@@ -1175,7 +1249,10 @@ vnr_historical_fra_cv = {
 	vnr_hist_FRA_france_design = {
 		name = vnr_hist_FRA_france
 		role_icon_index = 9
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = super_carriers }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_carrier
@@ -1240,7 +1317,7 @@ vnr_historical_fra_cv = {
 		}
 		allowed_modules = {
 			ship_anti_air
-			ship_missile_aa
+			ship_carrier_missile_aa
 			ship_radar
 			steam_catapult
 		}

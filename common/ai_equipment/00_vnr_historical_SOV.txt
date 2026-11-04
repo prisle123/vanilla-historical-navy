@@ -17,7 +17,10 @@ vnr_historical_sov_bb = {
 	vnr_hist_SOV_gangut_design = {
 		name = vnr_hist_SOV_gangut
 		role_icon_index = 1
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_heavy
@@ -37,7 +40,7 @@ vnr_historical_sov_bb = {
 				fixed_ship_airplane_launcher_slot = empty
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_armor_scheme_slot = ship_scheme_incremental
-				fixed_ship_torpedo_defense_system_slot = empty
+				fixed_ship_torpedo_defense_system_slot = torpedo_bulge
 				front_1_custom_slot = empty
 				front_2_custom_slot = empty
 				mid_1_custom_slot = ship_heavy_battery_small_1_triple
@@ -53,10 +56,13 @@ vnr_historical_sov_bb = {
 	# Retains the national capital-ship main-battery arrangement, with machinery and defensive equipment adapted to the new hull.
 	# Design basis: Inspired by Gangut Class. Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
 	# Predecessor source: https://en.wikipedia.org/wiki/Gangut-class_battleship
-	vnr_hist_SOV_fictional_heavy_2_design = {
-		name = vnr_hist_SOV_fictional_heavy_2
+	vnr_hist_SOV_gangut_mod1924_design = {
+		name = vnr_hist_SOV_gangut_mod1924
 		role_icon_index = 1
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_heavy
@@ -72,11 +78,11 @@ vnr_historical_sov_bb = {
 				fixed_ship_radar_slot = ship_mast_1
 				fixed_ship_engine_slot = heavy_ship_engine_2
 				fixed_ship_secondaries_slot = ship_secondaries_1
-				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_armor_slot = ship_armor_bb_2
 				fixed_ship_airplane_launcher_slot = empty
 				fixed_ship_extra_secondaries_slot = empty
-				fixed_ship_armor_scheme_slot = ship_scheme_incremental
-				fixed_ship_torpedo_defense_system_slot = empty
+				fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
+				fixed_ship_torpedo_defense_system_slot = torpedo_bulge
 				front_1_custom_slot = empty
 				front_2_custom_slot = empty
 				mid_1_custom_slot = ship_heavy_battery_small_1_triple
@@ -92,10 +98,13 @@ vnr_historical_sov_bb = {
 	# Retains the national capital-ship main-battery arrangement, with machinery and defensive equipment adapted to the new hull.
 	# Design basis: Inspired by Gangut Class. Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
 	# Predecessor source: https://en.wikipedia.org/wiki/Gangut-class_battleship
-	vnr_hist_SOV_fictional_heavy_3_design = {
-		name = vnr_hist_SOV_fictional_heavy_3
+	vnr_hist_SOV_sinop_design = {
+		name = vnr_hist_SOV_sinop
 		role_icon_index = 1
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_heavy
@@ -105,25 +114,26 @@ vnr_historical_sov_bb = {
 			match_value = 4000.0
 			type = vnr_ship_hull_heavy_3
 			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_2_triple
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_mast_1
 				fixed_ship_engine_slot = heavy_ship_engine_3
-				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = ship_armor_bb_2
 				fixed_ship_airplane_launcher_slot = empty
 				fixed_ship_extra_secondaries_slot = empty
-				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
+				fixed_ship_armor_scheme_slot = ship_scheme_mixed
 				fixed_ship_torpedo_defense_system_slot = torpedo_belt
-				front_1_custom_slot = ship_heavy_battery_2_triple
+				front_1_custom_slot = ship_heavy_battery_triple
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_heavy_battery_2_triple
+				rear_1_custom_slot = ship_heavy_battery_triple
 				rear_2_custom_slot = empty
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries_bb
 		}
 	}
 
@@ -133,7 +143,10 @@ vnr_historical_sov_bb = {
 	vnr_hist_SOV_sovetsky_soyuz_design = {
 		name = vnr_hist_SOV_sovetsky_soyuz
 		role_icon_index = 1
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_heavy
@@ -143,25 +156,26 @@ vnr_historical_sov_bb = {
 			match_value = 5000.0
 			type = vnr_ship_hull_heavy_4
 			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_3_triple
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = heavy_ship_engine_4
-				fixed_ship_secondaries_slot = ship_secondaries_2
-				fixed_ship_armor_slot = ship_armor_bb_4
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_secondaries_slot = ship_secondaries
+				fixed_ship_armor_slot = ship_armor_bb_3
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
-				fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
-				front_1_custom_slot = ship_heavy_battery_3_triple
+				fixed_ship_torpedo_defense_system_slot = torpedo_belt
+				front_1_custom_slot = ship_heavy_battery_triple
 				front_2_custom_slot = empty
-				mid_1_custom_slot = dp_ship_secondaries_2_bb
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_heavy_battery_3_triple
-				rear_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_triple
 			}
+		}
+		allowed_modules = {
+			ship_anti_air_heavy
+			ship_anti_air
+			ship_dp_secondaries_bb
 		}
 	}
 
@@ -169,8 +183,8 @@ vnr_historical_sov_bb = {
 	# Retains the national capital-ship main-battery arrangement, with machinery and defensive equipment adapted to the new hull.
 	# Design basis: Inspired by Sovetsky Soyuz Class (Project 23). Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
 	# Predecessor source: https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship
-	vnr_hist_SOV_fictional_heavy_5_design = {
-		name = vnr_hist_SOV_fictional_heavy_5
+	vnr_hist_SOV_lenin_design = {
+		name = vnr_hist_SOV_lenin
 		role_icon_index = 1
 		priority = { base = 50 }
 		enable = {
@@ -182,25 +196,27 @@ vnr_historical_sov_bb = {
 			match_value = 6000.0
 			type = vnr_ship_hull_heavy_5
 			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_3_triple
-				fixed_ship_anti_air_slot = ship_anti_air_4
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-				fixed_ship_radar_slot = ship_radar_3
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = heavy_ship_engine_5
-				fixed_ship_secondaries_slot = ship_secondaries_2
+				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = ship_armor_bb_4
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
 				fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
-				front_1_custom_slot = ship_heavy_battery_3_triple
+				front_1_custom_slot = ship_heavy_battery_triple
 				front_2_custom_slot = empty
-				mid_1_custom_slot = dp_ship_secondaries_2_bb
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_heavy_battery_3_triple
-				rear_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_triple
+				rear_2_custom_slot = ship_heavy_battery_triple
 			}
+		}
+		allowed_modules = {
+			ship_anti_air_heavy
+			ship_anti_air
+			ship_dp_secondaries_bb
 		}
 	}
 
@@ -219,7 +235,10 @@ vnr_historical_sov_ca = {
 	vnr_hist_SOV_kirov_design = {
 		name = vnr_hist_SOV_kirov
 		role_icon_index = 27
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_cruiser
@@ -229,28 +248,146 @@ vnr_historical_sov_ca = {
 			match_value = 2000.0
 			type = vnr_ship_hull_cruiser_3
 			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_mast_1
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_3
-				fixed_ship_armor_slot = ship_armor_cruiser_1
-				fixed_ship_secondaries_slot = dp_ship_secondaries_2
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_armor_slot = ship_armor_cruiser
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_medium_battery_2
+				front_1_custom_slot = ship_medium_battery
 				front_2_custom_slot = empty
-				mid_1_custom_slot = ship_torpedo_2
-				mid_2_custom_slot = ship_torpedo_2
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_torpedo
 				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_medium_battery_2
+				rear_1_custom_slot = ship_medium_battery
 				rear_2_custom_slot = empty
 			}
 		}
 	}
 
+	vnr_hist_SOV_kirov_mod1940_design = {
+		name = vnr_hist_SOV_kirov_mod1940
+		role_icon_index = 27
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
+		enable = {
+			expert_ai_style = no
+			has_tech = improved_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 2000.0
+			type = vnr_ship_hull_cruiser_4
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_4
+				fixed_ship_armor_slot = ship_armor_cruiser
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_medium_battery
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_medium_battery
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_anti_air_heavy
+			ship_dp_secondaries
+		}
+	}
+
+	vnr_hist_SOV_admiral_nakhimov_design = {
+		name = vnr_hist_SOV_admiral_nakhimov
+		role_icon_index = 27
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
+		enable = {
+			expert_ai_style = no
+			has_tech = advanced_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 2000.0
+			type = vnr_ship_hull_cruiser_5
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_5
+				fixed_ship_armor_slot = ship_armor_cruiser
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_medium_battery
+				front_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_medium_battery
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_anti_air_heavy
+			ship_dp_secondaries
+		}
+	}
+
+	vnr_hist_SOV_kynda_design = {
+		name = vnr_hist_SOV_kynda
+		role_icon_index = 27
+		priority = { base = 40 }
+		enable = {
+			expert_ai_style = no
+			has_tech = modern_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 2000.0
+			type = vnr_ship_hull_cruiser_6
+			modules = {
+				fixed_ship_battery_slot = ship_missile
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_5
+				fixed_ship_armor_slot = ship_armor_cruiser
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = empty
+				fixed_ship_role_slot = ship_hull_cruiser_role_cg
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_extra_missile_slot = full_missile_upgrade
+				front_1_custom_slot = dp_light_battery
+				front_2_custom_slot = empty
+				rear_1_custom_slot = ship_missile
+				read_2_custom_slot = dp_light_battery
+			}
+		}
+		allowed_modules = {
+			ship_missile_aa
+			ship_anti_air
+			ship_anti_air_heavy
+			ship_dp_secondaries
+		}
+	}
 }
 
 vnr_historical_sov_cl = {
@@ -265,7 +402,10 @@ vnr_historical_sov_cl = {
 	vnr_hist_SOV_svetlana_design = {
 		name = vnr_hist_SOV_svetlana
 		role_icon_index = 19
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_cruiser
@@ -277,17 +417,16 @@ vnr_historical_sov_cl = {
 			modules = {
 				fixed_ship_battery_slot = ship_light_medium_battery_1_single
 				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = ship_mast_1
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_1
-				fixed_ship_armor_slot = ship_armor_cruiser_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries_1
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_secondaries_slot = ship_secondaries_1_light
 				fixed_ship_airplane_launcher_slot = empty
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_extra_secondaries_slot = empty
 				front_1_custom_slot = ship_light_medium_battery_1_single
-				front_2_custom_slot = ship_light_medium_battery_1_single
 				mid_1_custom_slot = ship_light_medium_battery_1_single
 				mid_2_custom_slot = ship_light_medium_battery_1_single
 				mid_3_custom_slot = ship_light_medium_battery_1_single
@@ -301,10 +440,13 @@ vnr_historical_sov_cl = {
 	# Continues the national cruiser gun layout; improves propulsion, fire control and AA as hull technology advances.
 	# Design basis: Inspired by Svetlana Class. Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
 	# Predecessor source: https://en.wikipedia.org/wiki/Svetlana-class_cruiser
-	vnr_hist_SOV_fictional_cruiser_2_design = {
-		name = vnr_hist_SOV_fictional_cruiser_2
+	vnr_hist_SOV_svetlana_mod1924_design = {
+		name = vnr_hist_SOV_svetlana_mod1924
 		role_icon_index = 19
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_cruiser
@@ -321,18 +463,56 @@ vnr_historical_sov_cl = {
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_1
-				fixed_ship_secondaries_slot = dp_ship_secondaries_1
+				fixed_ship_secondaries_slot = ship_secondaries_1_light
 				fixed_ship_airplane_launcher_slot = empty
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_extra_secondaries_slot = empty
 				front_1_custom_slot = ship_light_medium_battery_1_single
-				front_2_custom_slot = ship_light_medium_battery_1_single
 				mid_1_custom_slot = ship_light_medium_battery_1_single
 				mid_2_custom_slot = ship_light_medium_battery_1_single
 				mid_3_custom_slot = ship_light_medium_battery_1_single
 				rear_1_custom_slot = ship_light_medium_battery_1_single
 				rear_2_custom_slot = ship_light_medium_battery_1_single
 			}
+		}
+	}
+
+	vnr_hist_SOV_groznyy_design = {
+		name = vnr_hist_SOV_groznyy
+		role_icon_index = 19
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
+		enable = {
+			expert_ai_style = no
+			has_tech = interwar_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 3000.0
+			type = vnr_ship_hull_cruiser_3
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_3
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_secondaries_slot = ship_secondaries_2_light
+				fixed_ship_airplane_launcher_slot = empty
+				fixed_ship_role_slot = ship_hull_cruiser_role_c
+				fixed_ship_extra_secondaries_slot = empty
+				front_1_custom_slot = ship_light_medium_battery
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = empty
+			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
 		}
 	}
 
@@ -343,7 +523,10 @@ vnr_historical_sov_cl = {
 	vnr_hist_SOV_chapayev_design = {
 		name = vnr_hist_SOV_chapayev
 		role_icon_index = 19
-		priority = { base = 30 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -353,25 +536,28 @@ vnr_historical_sov_cl = {
 			match_value = 4000.0
 			type = vnr_ship_hull_cruiser_4
 			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_4
-				fixed_ship_armor_slot = ship_armor_cruiser_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries_2
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_armor_slot = ship_armor_cruiser_3
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_medium_battery_2
+				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = empty
-				mid_1_custom_slot = ship_torpedo_2
-				mid_2_custom_slot = ship_torpedo_2
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_light_medium_battery_2
-				rear_2_custom_slot = ship_light_medium_battery_2
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_light_medium_battery
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
 		}
 	}
 
@@ -381,7 +567,10 @@ vnr_historical_sov_cl = {
 	vnr_hist_SOV_sverdlov_design = {
 		name = vnr_hist_SOV_sverdlov
 		role_icon_index = 19
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_cruiser
@@ -391,25 +580,27 @@ vnr_historical_sov_cl = {
 			match_value = 5000.0
 			type = vnr_ship_hull_cruiser_5
 			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_3
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-				fixed_ship_radar_slot = ship_radar_3
-				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_engine_slot = cruiser_ship_engine_5
-				fixed_ship_armor_slot = ship_armor_cruiser_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries_4
+				fixed_ship_armor_slot = ship_armor_cruiser_4
+				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_airplane_launcher_slot = empty
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_medium_battery_3
+				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = empty
-				mid_1_custom_slot = ship_torpedo_4
-				mid_2_custom_slot = ship_torpedo_4
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_light_medium_battery_3
-				rear_2_custom_slot = ship_light_medium_battery_3
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_light_medium_battery
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
 		}
 	}
 
@@ -417,8 +608,8 @@ vnr_historical_sov_cl = {
 	# Continues the national cruiser gun layout; improves propulsion, fire control and AA as hull technology advances.
 	# Design basis: Inspired by Sverdlov Class. Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
 	# Predecessor source: https://en.wikipedia.org/wiki/Sverdlov-class_cruiser
-	vnr_hist_SOV_fictional_cruiser_6_design = {
-		name = vnr_hist_SOV_fictional_cruiser_6
+	vnr_hist_SOV_kashin_design = {
+		name = vnr_hist_SOV_kashin
 		role_icon_index = 19
 		priority = { base = 50 }
 		enable = {
@@ -430,25 +621,27 @@ vnr_historical_sov_cl = {
 			match_value = 6000.0
 			type = vnr_ship_hull_cruiser_6
 			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_4
-				fixed_ship_anti_air_slot = ship_anti_air_4
+				fixed_ship_battery_slot = dp_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_4
-				fixed_ship_radar_slot = ship_radar_4
-				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_engine_slot = cruiser_ship_engine_5
-				fixed_ship_armor_slot = ship_armor_cruiser_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries_4
+				fixed_ship_armor_slot = ship_armor_cruiser_3
+				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_extra_secondaries_slot = empty
-				fixed_ship_role_slot = ship_hull_cruiser_role_c
+				fixed_ship_role_slot = ship_hull_cruiser_role_cgaa
 				fixed_ship_extra_missile_slot = empty
-				front_1_custom_slot = ship_light_medium_battery_4
-				front_2_custom_slot = empty
-				mid_1_custom_slot = ship_torpedo_4
-				mid_2_custom_slot = ship_torpedo_4
+				mid_1_custom_slot = ship_torpedo
 				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_light_medium_battery_4
-				rear_2_custom_slot = ship_light_medium_battery_4
+				rear_1_custom_slot = dp_light_battery
+				rear_2_custom_slot = empty
 			}
+		}
+		allowed_modules = {
+			ship_missile_aa
+			ship_anti_air
+			ship_depth_charge
 		}
 	}
 
@@ -467,7 +660,10 @@ vnr_historical_sov_cb = {
 	vnr_hist_SOV_kronshtadt_design = {
 		name = vnr_hist_SOV_kronshtadt
 		role_icon_index = 25
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -478,24 +674,27 @@ vnr_historical_sov_cb = {
 			type = vnr_ship_hull_cruiser_4
 			modules = {
 				fixed_ship_battery_slot = ship_medium_heavy_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_mast_1
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_4
-				fixed_ship_armor_slot = ship_armor_cruiser_heavy_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_2
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_armor_slot = ship_armor_cruiser_heavy
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_role_slot = ship_hull_cruiser_role_cb
 				fixed_ship_extra_secondaries_slot = empty
 				front_1_custom_slot = ship_medium_heavy_battery_1
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
+				mid_2_custom_slot = ship_anti_air
 				rear_1_custom_slot = ship_medium_heavy_battery_1
 				rear_2_custom_slot = empty
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
+			ship_anti_air_heavy
 		}
 	}
 
@@ -507,50 +706,17 @@ vnr_historical_sov_dd = {
 	roles = { vnr_naval_screen }
 	priority = { base = 120 }
 
-	# Novik Class: hull 1914, historical fit/design 1913; built.
-	# 4 x 1 102 mm; 39,000 shp; eight 457 mm tubes approximated by three triple 450 mm banks.
-	# Approximation: Engine scaled to the hull generation; the historical horsepower is not exactly reproducible.
-	# Source: https://en.wikipedia.org/wiki/Russian_destroyer_Novik_(1911)
-	vnr_hist_SOV_novik_design = {
-		name = vnr_hist_SOV_novik
-		role_icon_index = 31
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = early_ship_hull_light
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_light_1
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = ship_mast_1
-				fixed_ship_extra_electronics_slot = empty
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_role_slot = ship_hull_light_role_dd
-				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_battery_1
-				front_2_custom_slot = ship_depth_charge_1
-				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_light_battery_1
-				rear_2_custom_slot = ship_light_battery_1
-			}
-		}
-	}
-
 	# Novik - Light 2 (Fictional): hull 1922, fictional study 1924; fictional gameplay continuation.
 	# Retains the national destroyer gun and torpedo-bank arrangement; adds the latest practical escort electronics.
 	# Design basis: Inspired by Novik Class. Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
 	# Predecessor source: https://en.wikipedia.org/wiki/Russian_destroyer_Novik_(1911)
-	vnr_hist_SOV_fictional_light_2_design = {
-		name = vnr_hist_SOV_fictional_light_2
+	vnr_hist_SOV_leningrad_design = {
+		name = vnr_hist_SOV_leningrad
 		role_icon_index = 31
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_light
@@ -560,21 +726,20 @@ vnr_historical_sov_dd = {
 			match_value = 3000.0
 			type = vnr_ship_hull_light_2
 			modules = {
-				fixed_ship_battery_slot = ship_light_battery_1
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_battery_slot = ship_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_mast_1
 				fixed_ship_extra_electronics_slot = empty
-				fixed_ship_torpedo_slot = ship_torpedo_1
+				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_2
 				fixed_ship_role_slot = ship_hull_light_role_dd
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_battery_1
+				front_1_custom_slot = ship_light_battery
 				front_2_custom_slot = ship_depth_charge_1
-				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_light_battery_1
-				rear_2_custom_slot = ship_light_battery_1
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_battery
+				rear_2_custom_slot = ship_light_battery
 			}
 		}
 	}
@@ -586,7 +751,10 @@ vnr_historical_sov_dd = {
 	vnr_hist_SOV_gnevny_design = {
 		name = vnr_hist_SOV_gnevny
 		role_icon_index = 31
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_light
@@ -596,21 +764,20 @@ vnr_historical_sov_dd = {
 			match_value = 4000.0
 			type = vnr_ship_hull_light_3
 			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-				fixed_ship_radar_slot = ship_sonar_1
+				fixed_ship_battery_slot = ship_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
 				fixed_ship_extra_electronics_slot = empty
-				fixed_ship_torpedo_slot = ship_torpedo_2
+				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_3
 				fixed_ship_role_slot = ship_hull_light_role_dd
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_battery_2
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_2
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = ship_light_battery_2
-				rear_2_custom_slot = ship_light_battery_2
+				front_1_custom_slot = ship_light_battery
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_depth_charge
+				rear_1_custom_slot = ship_light_battery
+				rear_2_custom_slot = ship_light_battery
 			}
 		}
 	}
@@ -622,7 +789,10 @@ vnr_historical_sov_dd = {
 	vnr_hist_SOV_ognevoy_design = {
 		name = vnr_hist_SOV_ognevoy
 		role_icon_index = 31
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_light
@@ -632,22 +802,23 @@ vnr_historical_sov_dd = {
 			match_value = 5000.0
 			type = vnr_ship_hull_light_4
 			modules = {
-				fixed_ship_battery_slot = ship_light_battery_3_double
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_sonar_2
-				fixed_ship_extra_electronics_slot = ship_radar_1
-				fixed_ship_torpedo_slot = ship_torpedo_2
+				fixed_ship_battery_slot = ship_light_battery_double
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_4
 				fixed_ship_role_slot = ship_hull_light_role_dd
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = empty
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_2
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = ship_light_battery_3_double
-				rear_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_battery_double
+				rear_2_custom_slot = ship_depth_charge
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
 		}
 	}
 
@@ -657,7 +828,10 @@ vnr_historical_sov_dd = {
 	vnr_hist_SOV_skory_design = {
 		name = vnr_hist_SOV_skory
 		role_icon_index = 31
-		priority = { base = 50 }
+		priority = {
+			base = 50
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_light
@@ -667,22 +841,23 @@ vnr_historical_sov_dd = {
 			match_value = 6000.0
 			type = vnr_ship_hull_light_5
 			modules = {
-				fixed_ship_battery_slot = ship_light_battery_3_double
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_sonar_2
-				fixed_ship_extra_electronics_slot = ship_radar_1
-				fixed_ship_torpedo_slot = ship_torpedo_4
+				fixed_ship_battery_slot = ship_light_battery_double
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_5
 				fixed_ship_role_slot = ship_hull_light_role_dd
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = empty
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_4
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = ship_light_battery_3_double
-				rear_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_light_battery_double
+				rear_2_custom_slot = ship_depth_charge
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
 		}
 	}
 
@@ -702,101 +877,26 @@ vnr_historical_sov_dd = {
 			match_value = 7000.0
 			type = vnr_ship_hull_light_6
 			modules = {
-				fixed_ship_battery_slot = dp_light_battery_4
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_radar_3
-				fixed_ship_extra_electronics_slot = ship_sonar_2
-				fixed_ship_torpedo_slot = ship_torpedo_4
-				fixed_ship_engine_slot = light_ship_engine_6
-				fixed_ship_role_slot = ship_hull_light_role_dd
+				fixed_ship_battery_slot = dp_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_torpedo_slot = ship_torpedo
+				fixed_ship_engine_slot = light_ship_engine_5
+				fixed_ship_role_slot = ship_hull_light_role_dda
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_extra_missile_slot = empty
 				front_1_custom_slot = empty
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_4
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = dp_light_battery_4
-				rear_2_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = dp_light_battery
+				rear_2_custom_slot = ship_depth_charge
 			}
 		}
-	}
-
-}
-
-vnr_historical_sov_dl = {
-	category = naval
-	available_for = { SOV }
-	roles = { vnr_naval_screen_leader }
-	priority = { base = 5 }
-
-	# Leningrad Class: hull 1936, historical fit/design 1936; built.
-	# 5 x 1 130 mm; 66,000 shp; 2 x 4 533 mm tubes.
-	# Source: https://en.wikipedia.org/wiki/Leningrad-class_destroyer
-	vnr_hist_SOV_leningrad_design = {
-		name = vnr_hist_SOV_leningrad
-		role_icon_index = 33
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = interwar_ship_hull_light
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_light_3
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-				fixed_ship_radar_slot = ship_sonar_1
-				fixed_ship_extra_electronics_slot = empty
-				fixed_ship_torpedo_slot = ship_torpedo_3
-				fixed_ship_engine_slot = light_ship_engine_6
-				fixed_ship_role_slot = ship_hull_light_role_dl
-				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_battery_2
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_3
-				mid_2_custom_slot = ship_light_battery_2
-				rear_1_custom_slot = ship_light_battery_2
-				rear_2_custom_slot = ship_light_battery_2
-			}
-		}
-	}
-
-	# Tashkent Class: hull 1940, historical fit/design 1941; built.
-	# 3 x 2 130 mm in 1941 fit; 100,000 shp exceeds light-hull engines; 3 x 3 tubes.
-	# Source: https://en.wikipedia.org/wiki/Soviet_destroyer_Tashkent
-	vnr_hist_SOV_tashkent_design = {
-		name = vnr_hist_SOV_tashkent
-		role_icon_index = 33
-		priority = { base = 20 }
-		enable = {
-			expert_ai_style = no
-			has_tech = improved_ship_hull_light
-		}
-		history = yes
-		target_variant = {
-			match_value = 3000.0
-			type = vnr_ship_hull_light_4
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_3_double
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_sonar_2
-				fixed_ship_extra_electronics_slot = empty
-				fixed_ship_torpedo_slot = ship_torpedo_2
-				fixed_ship_engine_slot = light_ship_engine_6
-				fixed_ship_role_slot = ship_hull_light_role_dl
-				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_battery_3_double
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_2
-				mid_2_custom_slot = ship_torpedo_2
-				rear_1_custom_slot = ship_light_battery_3_double
-				rear_2_custom_slot = empty
-			}
+		allowed_modules = {
+			ship_missile_aa
+			ship_anti_air
+			ship_depth_charge
 		}
 	}
 
@@ -815,7 +915,10 @@ vnr_historical_sov_ss = {
 	vnr_hist_SOV_dekabrist_design = {
 		name = vnr_hist_SOV_dekabrist
 		role_icon_index = 39
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_submarine
@@ -845,7 +948,10 @@ vnr_historical_sov_ss = {
 	vnr_hist_SOV_srednyaya_design = {
 		name = vnr_hist_SOV_srednyaya
 		role_icon_index = 39
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_submarine
@@ -864,7 +970,7 @@ vnr_historical_sov_ss = {
 				fixed_ship_fire_control_system_slot = sub_sonar_1
 				fixed_ship_radar_slot = empty
 				fixed_ship_extra_secondaries_slot = empty
-				rear_1_custom_slot = empty
+				rear_1_custom_slot = ship_torpedo_sub_2
 			}
 		}
 	}
@@ -876,7 +982,10 @@ vnr_historical_sov_ss = {
 	vnr_hist_SOV_k_sub_design = {
 		name = vnr_hist_SOV_k_sub
 		role_icon_index = 39
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_submarine
@@ -886,18 +995,18 @@ vnr_historical_sov_ss = {
 			match_value = 4000.0
 			type = vnr_ship_hull_submarine_3
 			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_2
-				fixed_ship_secondaries_slot = sub_deck_gun_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_secondaries_slot = sub_deck_gun
 				fixed_ship_engine_slot = sub_ship_engine_3
-				fixed_ship_armor_slot = pressure_hull_3
+				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_conning_tower_slot = sub_conning_tower_0
-				fixed_sub_periscope_slot = sub_ship_periscope_2
-				fixed_ship_fire_control_system_slot = ship_sub_torpedo_computer_1
-				fixed_ship_radar_slot = sub_sonar_1
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_radar_slot = sub_sonar
 				fixed_ship_extra_secondaries_slot = empty
 				front_1_custom_slot = empty
 				mid_2_custom_slot = empty
-				rear_1_custom_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
 	}
@@ -908,7 +1017,10 @@ vnr_historical_sov_ss = {
 	vnr_hist_SOV_whiskey_design = {
 		name = vnr_hist_SOV_whiskey
 		role_icon_index = 39
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_submarine
@@ -918,20 +1030,20 @@ vnr_historical_sov_ss = {
 			match_value = 5000.0
 			type = vnr_ship_hull_submarine_4
 			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_4
+				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_secondaries_slot = empty
 				fixed_ship_engine_slot = sub_ship_engine_4
-				fixed_ship_armor_slot = pressure_hull_4
+				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_conning_tower_slot = sub_conning_tower_1
-				fixed_sub_periscope_slot = sub_ship_periscope_3
-				fixed_ship_fire_control_system_slot = ship_sub_torpedo_computer_1
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				fixed_ship_radar_slot = sub_sonar_1
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = empty
-				mid_2_custom_slot = ship_sub_snorkel_1
+				front_1_custom_slot = ship_torpedo_sub
+				mid_2_custom_slot = ship_sub_snorkel
 				mid_3_custom_slot = empty
-				rear_1_custom_slot = empty
+				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
 	}
@@ -940,8 +1052,8 @@ vnr_historical_sov_ss = {
 	# Continues the late national submarine torpedo arrangement in the modern pressure hull, with a snorkel and improved submerged detection.
 	# Design basis: Inspired by Whiskey Class (Project 613). Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
 	# Predecessor source: https://en.wikipedia.org/wiki/Whiskey-class_submarine
-	vnr_hist_SOV_fictional_submarine_5_design = {
-		name = vnr_hist_SOV_fictional_submarine_5
+	vnr_hist_SOV_zulu_design = {
+		name = vnr_hist_SOV_zulu
 		role_icon_index = 39
 		priority = { base = 50 }
 		enable = {
@@ -953,64 +1065,19 @@ vnr_historical_sov_ss = {
 			match_value = 6000.0
 			type = vnr_ship_hull_submarine_5
 			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_4
-				fixed_ship_engine_slot = sub_ship_engine_4
-				fixed_ship_armor_slot = pressure_hull_5
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_engine_slot = sub_ship_engine_5
+				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_conning_tower_slot = sub_conning_tower_1
-				fixed_sub_periscope_slot = sub_ship_periscope_3
-				fixed_ship_fire_control_system_slot = ship_sub_torpedo_computer_2
-				fixed_ship_radar_slot = sub_sonar_3
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_radar_slot = sub_sonar
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_extra_missile_slot = empty
-				front_1_custom_slot = empty
-				mid_2_custom_slot = ship_sub_snorkel_2
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = empty
-				rear_2_custom_slot = empty
-			}
-		}
-	}
-
-}
-
-vnr_historical_sov_cvl = {
-	category = naval
-	available_for = { SOV }
-	roles = { vnr_naval_carrier_light }
-	priority = { base = 10 }
-
-	# Project 71a (Design): hull 1940, historical fit/design 1939; design only.
-	# 45 planned aircraft approximated as 40; 126,500 shp; 8 x 100 mm AA; unarmoured flight deck.
-	# Source: https://naval-encyclopedia.com/ww2/ussr/soviet-aircraft-carriers-projects.php
-	vnr_hist_SOV_project71_design = {
-		name = vnr_hist_SOV_project71
-		role_icon_index = 11
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = improved_ship_hull_carrier
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_carrier_2
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space_small
-				fixed_ship_deck_slot_2 = ship_deck_space_small
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries_2_bb
-				fixed_ship_armor_slot = ship_armor_carrier_1
-				fixed_ship_carrier_miscellaneous_slot_1 = empty
-				fixed_ship_carrier_miscellaneous_slot_2 = empty
-				fixed_ship_flight_deck_slot = carrier_wooden_deck
-				fixed_ship_role_slot = ship_hull_carrier_role_cvl
-				front_1_custom_slot = ship_deck_space_small
-				front_2_custom_slot = empty
-				mid_1_custom_slot = ship_deck_space_small
-				mid_2_custom_slot = empty
+				front_1_custom_slot = ship_torpedo_sub
+				mid_2_custom_slot = ship_sub_snorkel
+				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
 	}
@@ -1023,47 +1090,16 @@ vnr_historical_sov_cv = {
 	roles = { vnr_naval_carrier }
 	priority = { base = 100 }
 
-	# Project 72 - Carrier 1 (Fictional): hull 1936, fictional study 1936; fictional gameplay continuation.
-	# Expands the national carrier air group and protection while retaining its secondary-battery tradition.
-	# Design basis: Inspired by Project 72 (Design). Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
-	# Predecessor source: https://naval-encyclopedia.com/ww2/ussr/soviet-aircraft-carriers-projects.php
-	vnr_hist_SOV_fictional_carrier_1_design = {
-		name = vnr_hist_SOV_fictional_carrier_1
-		role_icon_index = 9
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = basic_ship_hull_carrier
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_carrier_1
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space_open
-				fixed_ship_deck_slot_2 = ship_deck_space_open
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_radar_slot = ship_radar_1
-				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries_1_bb
-				fixed_ship_armor_slot = ship_armor_carrier_2
-				fixed_ship_carrier_miscellaneous_slot_1 = empty
-				fixed_ship_carrier_miscellaneous_slot_2 = empty
-				fixed_ship_flight_deck_slot = carrier_wooden_deck
-				fixed_ship_role_slot = ship_hull_carrier_role_cv
-				front_1_custom_slot = ship_deck_space_open
-				mid_1_custom_slot = empty
-			}
-		}
-	}
-
 	# Project 72 (Design): hull 1944, historical fit/design 1944; design only.
 	# 62 aircraft approximated as 60; 130 mm DP and 85 mm AA batteries; wartime fleet-carrier study.
 	# Source: https://naval-encyclopedia.com/ww2/ussr/soviet-aircraft-carriers-projects.php
 	vnr_hist_SOV_project72_design = {
 		name = vnr_hist_SOV_project72
 		role_icon_index = 9
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = super_carriers }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_carrier
@@ -1075,21 +1111,22 @@ vnr_historical_sov_cv = {
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space_open
 				fixed_ship_deck_slot_2 = ship_deck_space_open
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_radar_slot = ship_radar_1
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = carrier_ship_engine_3
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
-				fixed_ship_armor_slot = ship_armor_carrier_2
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_armor_slot = ship_armor_carrier
 				fixed_ship_carrier_miscellaneous_slot_1 = empty
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
 				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space_open
-				front_2_custom_slot = ship_anti_air_3_h
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = empty
+				front_2_custom_slot = ship_anti_air_heavy
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			carrier_side_lift
 		}
 	}
 
@@ -1097,8 +1134,8 @@ vnr_historical_sov_cv = {
 	# Expands the national carrier air group and protection while retaining its secondary-battery tradition.
 	# Design basis: Inspired by Project 72 (Design). Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
 	# Predecessor source: https://naval-encyclopedia.com/ww2/ussr/soviet-aircraft-carriers-projects.php
-	vnr_hist_SOV_fictional_super_carrier_design = {
-		name = vnr_hist_SOV_fictional_super_carrier
+	vnr_hist_SOV_kuznetsov_design = {
+		name = vnr_hist_SOV_kuznetsov
 		role_icon_index = 9
 		priority = { base = 30 }
 		enable = {
@@ -1112,68 +1149,22 @@ vnr_historical_sov_cv = {
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space_big
 				fixed_ship_deck_slot_2 = ship_deck_space_big
-				fixed_ship_anti_air_slot = ship_anti_air_4
-				fixed_ship_radar_slot = ship_radar_4
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = carrier_ship_engine_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
-				fixed_ship_armor_slot = ship_armor_carrier_heavy_3
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_armor_slot = ship_armor_carrier_heavy
 				fixed_ship_carrier_miscellaneous_slot_1 = empty
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_armor_deck
-				front_1_custom_slot = ship_anti_air_4
-				front_2_custom_slot = side_lift
-				mid_1_custom_slot = ship_deck_space_armored
-				mid_2_custom_slot = ship_deck_space_armored
-				rear_1_custom_slot = empty
-				rear_2_custom_slot = empty
+				front_1_custom_slot = ship_ski_jump_ramp
+				mid_1_custom_slot = ship_deck_space_big
 			}
 		}
-	}
-
-}
-
-vnr_historical_sov_shbb = {
-	category = naval
-	available_for = { SOV }
-	roles = { vnr_naval_capital_bb }
-	priority = { base = 5 }
-
-	# Sovetsky Soyuz - Super Heavy 1 (Fictional): hull 1940, fictional study 1940; fictional gameplay continuation.
-	# Retains the national capital-ship main-battery arrangement, with machinery and defensive equipment adapted to the new hull.
-	# Design basis: Inspired by Sovetsky Soyuz Class (Project 23). Soviet concentrated gun batteries, torpedo armament and long-range fleet support.
-	# Predecessor source: https://en.wikipedia.org/wiki/Sovetsky_Soyuz-class_battleship
-	vnr_hist_SOV_fictional_super_heavy_1_design = {
-		name = vnr_hist_SOV_fictional_super_heavy_1
-		role_icon_index = 1
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = ship_hull_super_heavy
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_super_heavy_1
-			modules = {
-				fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_radar_1
-				fixed_ship_engine_slot = super_heavy_ship_engine_3
-				fixed_ship_secondaries_slot = ship_secondaries_2
-				fixed_ship_armor_slot = ship_armor_shbb
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
-				fixed_ship_extra_secondaries_slot = empty
-				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
-				fixed_ship_torpedo_defense_system_slot = torpedo_belt
-				front_1_custom_slot = ship_super_heavy_battery_1_triple
-				front_2_custom_slot = empty
-				mid_1_custom_slot = dp_ship_secondaries_2_bb
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_super_heavy_battery_1_triple
-				rear_2_custom_slot = empty
-			}
+		allowed_modules = {
+			ship_carrier_missile_aa
+			carrier_side_lift
+			ship_anti_air
 		}
 	}
 

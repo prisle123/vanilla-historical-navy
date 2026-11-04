@@ -17,7 +17,10 @@ vnr_historical_jap_bb = {
 	vnr_hist_JAP_fuso_design = {
 		name = vnr_hist_JAP_fuso
 		role_icon_index = 3
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_heavy
@@ -56,7 +59,10 @@ vnr_historical_jap_bb = {
 	vnr_hist_JAP_nagato_design = {
 		name = vnr_hist_JAP_nagato
 		role_icon_index = 3
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_heavy
@@ -95,7 +101,10 @@ vnr_historical_jap_bb = {
 	vnr_hist_JAP_kii_design = {
 		name = vnr_hist_JAP_kii
 		role_icon_index = 1
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_heavy
@@ -134,7 +143,10 @@ vnr_historical_jap_bb = {
 	vnr_hist_JAP_izumo_design = {
 		name = vnr_hist_JAP_izumo
 		role_icon_index = 1
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_heavy
@@ -171,7 +183,10 @@ vnr_historical_jap_bb = {
 	vnr_hist_JAP_yamato_design = {
 		name = vnr_hist_JAP_yamato
 		role_icon_index = 1
-		priority = { base = 35 }
+		priority = {
+			base = 35
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = ship_hull_super_heavy
@@ -258,7 +273,10 @@ vnr_historical_jap_bc = {
 	vnr_hist_JAP_kongo_design = {
 		name = vnr_hist_JAP_kongo
 		role_icon_index = 13
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_heavy
@@ -305,7 +323,10 @@ vnr_historical_jap_ca = {
 	vnr_hist_JAP_takao_design = {
 		name = vnr_hist_JAP_takao
 		role_icon_index = 27
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_cruiser
@@ -339,7 +360,10 @@ vnr_historical_jap_ca = {
 	vnr_hist_JAP_myoko_design = {
 		name = vnr_hist_JAP_myoko
 		role_icon_index = 27
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_cruiser
@@ -377,7 +401,10 @@ vnr_historical_jap_ca = {
 	vnr_hist_JAP_tone_design = {
 		name = vnr_hist_JAP_tone
 		role_icon_index = 27
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -412,7 +439,10 @@ vnr_historical_jap_ca = {
 	vnr_hist_JAP_zao_design = {
 		name = vnr_hist_JAP_zao
 		role_icon_index = 27
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_cruiser
@@ -476,6 +506,7 @@ vnr_historical_jap_ca = {
 				front_1_custom_slot = ship_medium_battery_double
 				mid_2_custom_slot = ship_torpedo
 				mid_3_custom_slot = ship_torpedo
+				rear_1_custom_slot = ship_missile
 				rear_2_custom_slot = ship_medium_battery_double
 			}
 		}
@@ -501,7 +532,10 @@ vnr_historical_jap_cl = {
 	vnr_hist_JAP_sendai_design = {
 		name = vnr_hist_JAP_sendai
 		role_icon_index = 19
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_cruiser
@@ -537,7 +571,10 @@ vnr_historical_jap_cl = {
 	vnr_hist_JAP_mogami_design = {
 		name = vnr_hist_JAP_mogami
 		role_icon_index = 19
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_cruiser
@@ -575,7 +612,10 @@ vnr_historical_jap_cl = {
 	vnr_hist_JAP_agano_design = {
 		name = vnr_hist_JAP_agano
 		role_icon_index = 19
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -615,7 +655,10 @@ vnr_historical_jap_cl = {
 	vnr_hist_JAP_oyodo_design = {
 		name = vnr_hist_JAP_oyodo
 		role_icon_index = 19
-		priority = { base = 50 }
+		priority = {
+			base = 50
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_cruiser
@@ -659,7 +702,10 @@ vnr_historical_jap_dd = {
 	vnr_hist_JAP_fubuki_design = {
 		name = vnr_hist_JAP_fubuki
 		role_icon_index = 31
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_light
@@ -693,7 +739,10 @@ vnr_historical_jap_dd = {
 	vnr_hist_JAP_asashio_design = {
 		name = vnr_hist_JAP_asashio
 		role_icon_index = 31
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_light
@@ -728,7 +777,10 @@ vnr_historical_jap_dd = {
 	vnr_hist_JAP_akizuki_design = {
 		name = vnr_hist_JAP_akizuki
 		role_icon_index = 31
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_light
@@ -763,7 +815,10 @@ vnr_historical_jap_dd = {
 	vnr_hist_JAP_matsu_design = {
 		name = vnr_hist_JAP_matsu
 		role_icon_index = 31
-		priority = { base = 50 }
+		priority = {
+			base = 50
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_light
@@ -846,7 +901,10 @@ vnr_historical_jap_ss = {
 	vnr_hist_JAP_kaidai_design = {
 		name = vnr_hist_JAP_kaidai
 		role_icon_index = 39
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_submarine
@@ -876,7 +934,10 @@ vnr_historical_jap_ss = {
 	vnr_hist_JAP_kaidai_vi_design = {
 		name = vnr_hist_JAP_kaidai_vi
 		role_icon_index = 39
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_submarine
@@ -907,7 +968,10 @@ vnr_historical_jap_ss = {
 	vnr_hist_JAP_kaidai_vii_design = {
 		name = vnr_hist_JAP_kaidai_vii
 		role_icon_index = 39
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_submarine
@@ -939,7 +1003,10 @@ vnr_historical_jap_ss = {
 	vnr_hist_JAP_i201_design = {
 		name = vnr_hist_JAP_i201
 		role_icon_index = 39
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_submarine
@@ -972,7 +1039,7 @@ vnr_historical_jap_ss = {
 	# Design basis: Inspired by I-201 Class. Japanese concentrated batteries and heavy surface torpedo armament.
 	# Predecessor source: https://en.wikipedia.org/wiki/I-201-class_submarine
 	vnr_hist_JAP_i500_design = {
-		name = vnr_hist_JAP_fictional_submarine_5
+		name = vnr_hist_JAP_i500
 		role_icon_index = 39
 		priority = { base = 50 }
 		enable = {
@@ -1017,7 +1084,10 @@ vnr_historical_jap_cv = {
 	vnr_hist_JAP_soryu_design = {
 		name = vnr_hist_JAP_soryu
 		role_icon_index = 9
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_carrier
@@ -1050,7 +1120,10 @@ vnr_historical_jap_cv = {
 	vnr_hist_JAP_shokaku_design = {
 		name = vnr_hist_JAP_shokaku
 		role_icon_index = 9
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_carrier
@@ -1067,8 +1140,6 @@ vnr_historical_jap_cv = {
 				fixed_ship_engine_slot = carrier_ship_engine_3
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = ship_armor_carrier_2
-				fixed_ship_carrier_miscellaneous_slot_1 = empty
-				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
 				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space_open
@@ -1079,6 +1150,7 @@ vnr_historical_jap_cv = {
 		allowed_modules = {
 			ship_anti_air
 			carrier_side_lift
+			carrier_spared_squad
 		}
 	}
 
@@ -1089,7 +1161,10 @@ vnr_historical_jap_cv = {
 	vnr_hist_JAP_taiho_design = {
 		name = vnr_hist_JAP_taiho
 		role_icon_index = 9
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = super_carriers }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_carrier
@@ -1106,8 +1181,6 @@ vnr_historical_jap_cv = {
 				fixed_ship_engine_slot = carrier_ship_engine_4
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = ship_armor_carrier_heavy_3
-				fixed_ship_carrier_miscellaneous_slot_1 = empty
-				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_armor_deck
 				fixed_ship_role_slot = ship_hull_carrier_role_cv
 				front_1_custom_slot = ship_deck_space_armored
@@ -1117,6 +1190,7 @@ vnr_historical_jap_cv = {
 		allowed_modules = {
 			carrier_side_lift
 			ship_anti_air
+			carrier_spared_squad
 		}
 	}
 
@@ -1144,8 +1218,6 @@ vnr_historical_jap_cv = {
 				fixed_ship_engine_slot = carrier_ship_engine_4
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = ship_armor_carrier_heavy
-				fixed_ship_carrier_miscellaneous_slot_1 = empty
-				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_armor_deck
 				front_2_custom_slot = side_lift
 				mid_1_custom_slot = ship_deck_space_big
@@ -1154,7 +1226,8 @@ vnr_historical_jap_cv = {
 		}
 		allowed_modules = {
 			carrier_angled_deck
-			ship_missile_aa
+			ship_carrier_missile_aa
+			carrier_spared_squad
 		}
 	}
 
@@ -1172,7 +1245,10 @@ vnr_historical_jap_cvl = {
 	vnr_hist_JAP_zuiho_design = {
 		name = vnr_hist_JAP_zuiho
 		role_icon_index = 11
-		priority = { base = 0 }
+		priority = {
+			base = 0
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_carrier

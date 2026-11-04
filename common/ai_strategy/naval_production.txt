@@ -2435,7 +2435,10 @@ we_need_cv_fighters_1 = {
 				has_navy_size = { size > 0 type = carrier }
 				has_navy_size = { size < 4 type = carrier }
 			}
-			num_of_military_factories < 60
+			AND = {
+				num_of_military_factories < 60
+				num_of_military_factories > 29
+			}
 		}
 	}
 	abort = {
@@ -2539,7 +2542,10 @@ we_need_cv_naval_bombers_1 = {
 				has_navy_size = { size > 0 type = carrier }
 				has_navy_size = { size < 4 type = carrier }
 			}
-			num_of_military_factories < 60
+			AND = {
+				num_of_military_factories < 60
+				num_of_military_factories > 29
+			}
 		}
 	}
 	abort = {
@@ -2643,7 +2649,10 @@ we_need_cv_cas_1 = {
 				has_navy_size = { size > 0 type = carrier }
 				has_navy_size = { size < 4 type = carrier }
 			}
-			num_of_military_factories < 60
+			AND = {
+				num_of_military_factories < 60
+				num_of_military_factories > 29
+			}
 		}
 	}
 	abort = {
@@ -3092,7 +3101,12 @@ dockyard_building_target_USA_2 = {
 
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = 15
+		value = 10
+	}
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 30
 	}
 }
 

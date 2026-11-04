@@ -242,7 +242,7 @@ naval_cruiser_heavy = {
 				fixed_ship_extra_missile_slot = full_missile_upgrade
 				front_1_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				front_2_custom_slot = dp_light_battery
-				mid_1_custom_slot = ship_missile_
+				mid_1_custom_slot = ship_missile_aa
 				mid_2_custom_slot = ship_dp_secondaries
 				rear_1_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
 				rear_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }

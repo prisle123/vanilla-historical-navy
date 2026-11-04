@@ -443,7 +443,7 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 1
 			lg_attack = 3
-			build_cost_ic = 225
+			build_cost_ic = 210
 			surface_visibility = 0.4
 			max_strength = 19.5
 		}
@@ -470,9 +470,10 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 1.3
-			lg_attack = 4.5
-			build_cost_ic = 315
+			lg_attack = 5
+			build_cost_ic = 290
 			surface_visibility = 0.5
+			reliability = -0.015
 			max_strength = 23.5
 		}
 		multiply_stats = {
@@ -498,9 +499,10 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 1.8
-			lg_attack = 6.5
-			build_cost_ic = 405
+			lg_attack = 7
+			build_cost_ic = 370
 			surface_visibility = 0.6
+			reliability = -0.025
 			max_strength = 27.5
 		}
 		multiply_stats = {
@@ -526,9 +528,10 @@ equipment_modules = {
 
 		add_stats = {
 			hg_attack = 2.3
-			lg_attack = 8.5
-			build_cost_ic = 495
+			lg_attack = 9
+			build_cost_ic = 450
 			surface_visibility = 0.7
+			reliability = -0.035
 			max_strength = 31
 		}
 		multiply_stats = {
@@ -554,7 +557,7 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 0.7
 			lg_attack = 2
-			build_cost_ic = 180
+			build_cost_ic = 170
 			surface_visibility = 0.3
 			max_strength = 15.5
 		}
@@ -582,8 +585,9 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 1
 			lg_attack = 3.5
-			build_cost_ic = 225
+			build_cost_ic = 230
 			surface_visibility = 0.4
+			reliability = -0.01
 			max_strength = 19
 		}
 		multiply_stats = {
@@ -610,8 +614,9 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 1.3
 			lg_attack = 4
-			build_cost_ic = 315
+			build_cost_ic = 290
 			surface_visibility = 0.5
+			reliability = -0.02
 			max_strength = 22
 		}
 		multiply_stats = {
@@ -638,8 +643,9 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 1.8
 			lg_attack = 5.5
-			build_cost_ic = 405
+			build_cost_ic = 350
 			surface_visibility = 0.6
+			reliability = -0.03
 			max_strength = 25
 		}
 		multiply_stats = {
@@ -916,7 +922,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 4
+			lg_attack = 3.5
 			build_cost_ic = 135
 			naval_light_gun_hit_chance_factor = 0.005
 			max_strength = 14
@@ -924,7 +930,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			build_cost_ic = 0.03
-			naval_speed = -0.02
+			naval_speed = -0.025
 		}
 		add_average_stats = {
 			lg_armor_piercing = 8
@@ -943,15 +949,15 @@ equipment_modules = {
 
 		add_stats = {	
 			lg_attack = 5.5
-			build_cost_ic = 202.5
+			build_cost_ic = 200
 			naval_light_gun_hit_chance_factor = 0.006
 			max_strength = 19
-			reliability = -0.03
+			reliability = -0.015
 			surface_visibility = 0.4
 		}
 		multiply_stats = {
 			build_cost_ic = 0.04
-			naval_speed = -0.04
+			naval_speed = -0.035
 		}
 		add_average_stats = {
 			lg_armor_piercing = 10
@@ -969,16 +975,16 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 7
-			build_cost_ic = 270
+			lg_attack = 8
+			build_cost_ic = 265
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 24.5
-			reliability = -0.04
+			reliability = -0.025
 			surface_visibility = 0.5
 		}
 		multiply_stats = {
 			build_cost_ic = 0.05
-			naval_speed = -0.06
+			naval_speed = -0.045
 		}
 		add_average_stats = {
 			lg_armor_piercing = 12
@@ -995,16 +1001,16 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_3
 		add_stats = {
-			lg_attack = 8.5
-			build_cost_ic = 337.5
+			lg_attack = 10
+			build_cost_ic = 330
 			naval_light_gun_hit_chance_factor = 0.008
 			max_strength = 30
-			reliability = -0.05
+			reliability = -0.035
 			surface_visibility = 0.6
 		}
 		multiply_stats = {
 			build_cost_ic = 0.06
-			naval_speed = -0.08
+			naval_speed = -0.055
 		}
 		add_average_stats = {
 			lg_armor_piercing = 14
@@ -1025,13 +1031,13 @@ equipment_modules = {
 
 		add_stats = {	
 			lg_attack = 2.5
-			build_cost_ic = 112.5
+			build_cost_ic = 110
 			naval_light_gun_hit_chance_factor = 0.005
 			max_strength = 11
 			surface_visibility = 0.2
 		}
 		multiply_stats = {
-			build_cost_ic = 0.02
+			build_cost_ic = 0.015
 			naval_speed = -0.015
 		}
 		add_average_stats = {
@@ -1051,15 +1057,15 @@ equipment_modules = {
 
 		add_stats = {	
 			lg_attack = 4
-			build_cost_ic = 180
+			build_cost_ic = 170
 			naval_light_gun_hit_chance_factor = 0.006
 			max_strength = 15
-			reliability = -0.02
+			reliability = -0.01
 			surface_visibility = 0.3
 		}
 		multiply_stats = {
 			build_cost_ic = 0.03
-			naval_speed = -0.035
+			naval_speed = -0.03
 		}
 		add_average_stats = {
 			lg_armor_piercing = 10
@@ -1078,15 +1084,15 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 5.5
-			build_cost_ic = 247.5
+			build_cost_ic = 230.5
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 20
-			reliability = -0.03
+			reliability = -0.02
 			surface_visibility = 0.4
 		}
 		multiply_stats = {
 			build_cost_ic = 0.04
-			naval_speed = -0.05
+			naval_speed = -0.04
 		}
 		add_average_stats = {
 			lg_armor_piercing = 12
@@ -1104,15 +1110,15 @@ equipment_modules = {
 		parent = ship_light_medium_battery_3_double
 		add_stats = {
 			lg_attack = 7
-			build_cost_ic = 315
+			build_cost_ic = 290
 			naval_light_gun_hit_chance_factor = 0.008
 			max_strength = 24
-			reliability = -0.04
+			reliability = -0.03
 			surface_visibility = 0.5
 		}
 		multiply_stats = {
 			build_cost_ic = 0.05
-			naval_speed = -0.065
+			naval_speed = -0.05
 		}
 		add_average_stats = {
 			lg_armor_piercing = 14
@@ -1234,22 +1240,22 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = ship_light_medium_battery_4
 		add_stats = {
-			lg_attack = 8
+			lg_attack = 9.5
 			anti_air_attack = 2
 			build_cost_ic = 315
 			naval_light_gun_hit_chance_factor = 0.007
 			max_strength = 28
-			reliability = -0.045
+			reliability = -0.035
 			surface_visibility = 0.6
 		}
 
 		multiply_stats = {
 			build_cost_ic = 0.055
-			naval_speed = -0.065
+			naval_speed = -0.05
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 12.5
+			lg_armor_piercing = 13
 		}
 		
 		dismantle_cost_ic = 120

@@ -10,45 +10,6 @@ vnr_historical_usa_bb = {
 	roles = { vnr_naval_capital_bb }
 	priority = { base = 75 }
 
-	# Colorado - Heavy 1 (Fictional): hull 1914, fictional study 1914; fictional gameplay continuation.
-	# Retains the national capital-ship main-battery arrangement, with machinery and defensive equipment adapted to the new hull.
-	# Design basis: Inspired by Colorado Class. US dual-purpose batteries, radar fire control and large aviation groups.
-	# Predecessor source: https://en.wikipedia.org/wiki/Colorado-class_battleship
-	vnr_hist_USA_fictional_heavy_1_design = {
-		name = vnr_hist_USA_fictional_heavy_1
-		role_icon_index = 1
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = early_ship_hull_heavy
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_heavy_1
-			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_big_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = ship_mast_1
-				fixed_ship_engine_slot = heavy_ship_engine_1
-				fixed_ship_secondaries_slot = ship_secondaries_1
-				fixed_ship_armor_slot = ship_armor_bb_1
-				fixed_ship_airplane_launcher_slot = empty
-				fixed_ship_extra_secondaries_slot = empty
-				fixed_ship_armor_scheme_slot = ship_scheme_incremental
-				fixed_ship_torpedo_defense_system_slot = torpedo_bulge
-				front_1_custom_slot = ship_heavy_battery_big_1
-				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_heavy_battery_big_1
-				rear_2_custom_slot = ship_heavy_battery_big_1
-			}
-		}
-	}
-
 	# Colorado Class: hull 1922, historical fit/design 1923; built.
 	# 4 x 2 406 mm; 28,900 shp; 343 mm belt.
 	# Approximation: Original internal torpedo protection, before the 1941 external bulges; 80 mm heavy AA approximates 76.2 mm guns. The later catapult is omitted from the 1923 fit.
@@ -56,7 +17,10 @@ vnr_historical_usa_bb = {
 	vnr_hist_USA_colorado_design = {
 		name = vnr_hist_USA_colorado
 		role_icon_index = 1
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_heavy
@@ -76,12 +40,10 @@ vnr_historical_usa_bb = {
 				fixed_ship_airplane_launcher_slot = empty
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
-				fixed_ship_torpedo_defense_system_slot = torpedo_belt
+				fixed_ship_torpedo_defense_system_slot = torpedo_bulge
 				front_1_custom_slot = ship_heavy_battery_2
-				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
+				mid_1_custom_slot = ship_anti_air
+				mid_2_custom_slot = ship_airplane_launcher_1
 				rear_1_custom_slot = ship_heavy_battery_2
 				rear_2_custom_slot = ship_heavy_battery_2
 			}
@@ -94,7 +56,10 @@ vnr_historical_usa_bb = {
 	vnr_hist_USA_north_carolina_design = {
 		name = vnr_hist_USA_north_carolina
 		role_icon_index = 1
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_heavy
@@ -104,71 +69,72 @@ vnr_historical_usa_bb = {
 			match_value = 4000.0
 			type = vnr_ship_hull_heavy_3
 			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_3_triple
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_radar_1
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air_heavy
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = heavy_ship_engine_3
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
-				fixed_ship_armor_slot = ship_armor_bc_2
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_armor_slot = ship_armor_bb_2
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
 				fixed_ship_torpedo_defense_system_slot = torpedo_belt
-				front_1_custom_slot = ship_heavy_battery_3_triple
-				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_heavy_battery_3_triple
-				rear_2_custom_slot = empty
+				front_1_custom_slot = ship_heavy_battery_triple
+				rear_1_custom_slot = ship_heavy_battery_triple
+				rear_2_custom_slot = ship_airplane_launcher
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries_bb
 		}
 	}
 
 	# Iowa Class: hull 1940, historical fit/design 1943; built.
 	# 3 x 3 406 mm/50; 212,000 shp; 307 mm inclined belt.
 	# Source: https://www.history.navy.mil/our-collections/photography/us-navy-ships/battleships/iowa-bb-61.html
-	vnr_hist_USA_iowa_design = {
-		name = vnr_hist_USA_iowa
+	vnr_hist_USA_south_dakota_design = {
+		name = vnr_hist_USA_south_dakota
 		role_icon_index = 1
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_heavy }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_heavy
 		}
 		history = yes
 		target_variant = {
-			match_value = 5000.0
+			match_value = 4000.0
 			type = vnr_ship_hull_heavy_4
 			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_4_triple
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-				fixed_ship_radar_slot = ship_radar_3
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air_heavy
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = heavy_ship_engine_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
-				fixed_ship_armor_slot = ship_armor_bc_3
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
-				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_armor_slot = ship_armor_bb_3
 				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
 				fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
-				front_1_custom_slot = ship_heavy_battery_4_triple
-				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_heavy_battery_4_triple
-				rear_2_custom_slot = empty
+				front_1_custom_slot = ship_heavy_battery_triple
+				rear_1_custom_slot = ship_heavy_battery_triple
+				rear_2_custom_slot = ship_airplane_launcher
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries_bb
+			ship_super_heavy_weight_shell
 		}
 	}
 
 	# Montana Class (Design): hull 1944, historical fit/design 1942; authorized; cancelled.
 	# 4 x 3 406 mm/50; 172,000 shp; 409 mm belt; 127 mm/54 secondaries.
 	# Source: https://en.wikipedia.org/wiki/Montana-class_battleship
-	vnr_hist_USA_montana_design = {
-		name = vnr_hist_USA_montana
+	vnr_hist_USA_iowa_design = {
+		name = vnr_hist_USA_iowa
 		role_icon_index = 1
 		priority = { base = 50 }
 		enable = {
@@ -177,28 +143,27 @@ vnr_historical_usa_bb = {
 		}
 		history = yes
 		target_variant = {
-			match_value = 6000.0
+			match_value = 4000.0
 			type = vnr_ship_hull_heavy_5
 			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_4_triple
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-				fixed_ship_radar_slot = ship_radar_1
-				fixed_ship_engine_slot = heavy_ship_engine_3
-				fixed_ship_secondaries_slot = dp_ship_secondaries_4_bb
+				fixed_ship_battery_slot = ship_heavy_battery_triple
+				fixed_ship_anti_air_slot = ship_anti_air_heavy
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = heavy_ship_engine_5
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = ship_armor_bb_4
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
-				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
 				fixed_ship_torpedo_defense_system_slot = torpedo_belt_enhanced
-				front_1_custom_slot = ship_heavy_battery_4_triple
-				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_heavy_battery_4_triple
-				rear_2_custom_slot = ship_heavy_battery_4_triple
+				front_1_custom_slot = ship_heavy_battery_triple
+				rear_1_custom_slot = ship_heavy_battery_triple
+				rear_2_custom_slot = ship_airplane_launcher
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries_bb
+			ship_super_heavy_weight_shell
 		}
 	}
 
@@ -217,7 +182,10 @@ vnr_historical_usa_ca = {
 	vnr_hist_USA_northampton_design = {
 		name = vnr_hist_USA_northampton
 		role_icon_index = 27
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_cruiser
@@ -239,12 +207,7 @@ vnr_historical_usa_ca = {
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				fixed_ship_extra_secondaries_slot = empty
 				front_1_custom_slot = ship_medium_battery_1
-				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
 				rear_1_custom_slot = ship_medium_battery_1
-				rear_2_custom_slot = empty
 			}
 		}
 	}
@@ -256,7 +219,10 @@ vnr_historical_usa_ca = {
 	vnr_hist_USA_wichita_design = {
 		name = vnr_hist_USA_wichita
 		role_icon_index = 27
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_cruiser
@@ -266,25 +232,25 @@ vnr_historical_usa_ca = {
 			match_value = 3000.0
 			type = vnr_ship_hull_cruiser_3
 			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_3
+				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air_2
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_mast_1
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_3
-				fixed_ship_armor_slot = ship_armor_cruiser_3
-				fixed_ship_secondaries_slot = dp_ship_secondaries_2
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_medium_battery_3
+				front_1_custom_slot = ship_medium_battery
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_medium_battery_3
+				rear_1_custom_slot = ship_medium_battery
 				rear_2_custom_slot = empty
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
 		}
 	}
 
@@ -295,7 +261,10 @@ vnr_historical_usa_ca = {
 	vnr_hist_USA_baltimore_design = {
 		name = vnr_hist_USA_baltimore
 		role_icon_index = 27
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -305,25 +274,26 @@ vnr_historical_usa_ca = {
 			match_value = 4000.0
 			type = vnr_ship_hull_cruiser_4
 			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_3
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-				fixed_ship_radar_slot = ship_radar_3
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_4
-				fixed_ship_armor_slot = ship_armor_cruiser_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3
+				fixed_ship_armor_slot = ship_armor_cruiser_3
+				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_medium_battery_3
+				front_1_custom_slot = ship_medium_battery
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_medium_battery_3
+				rear_1_custom_slot = ship_medium_battery
 				rear_2_custom_slot = empty
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
 		}
 	}
 
@@ -333,7 +303,10 @@ vnr_historical_usa_ca = {
 	vnr_hist_USA_des_moines_design = {
 		name = vnr_hist_USA_des_moines
 		role_icon_index = 27
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_cruiser
@@ -343,25 +316,26 @@ vnr_historical_usa_ca = {
 			match_value = 5000.0
 			type = vnr_ship_hull_cruiser_5
 			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_4
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-				fixed_ship_radar_slot = ship_radar_3
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_5
 				fixed_ship_armor_slot = ship_armor_cruiser_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3
+				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_airplane_launcher_slot = empty
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_medium_battery_4
+				front_1_custom_slot = ship_medium_battery
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_medium_battery_4
+				rear_1_custom_slot = ship_medium_battery
 				rear_2_custom_slot = empty
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
 		}
 	}
 
@@ -369,8 +343,8 @@ vnr_historical_usa_ca = {
 	# Continues the national cruiser gun layout; improves propulsion, fire control and AA as hull technology advances.
 	# Design basis: Inspired by Des Moines Class. US dual-purpose batteries, radar fire control and large aviation groups.
 	# Predecessor source: https://en.wikipedia.org/wiki/Des_Moines-class_cruiser
-	vnr_hist_USA_fictional_cruiser_6_design = {
-		name = vnr_hist_USA_fictional_cruiser_6
+	vnr_hist_USA_albany_design = {
+		name = vnr_hist_USA_albany
 		role_icon_index = 27
 		priority = { base = 50 }
 		enable = {
@@ -382,25 +356,26 @@ vnr_historical_usa_ca = {
 			match_value = 6000.0
 			type = vnr_ship_hull_cruiser_6
 			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_4
-				fixed_ship_anti_air_slot = ship_anti_air_4
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_4
-				fixed_ship_radar_slot = ship_radar_4
-				fixed_ship_extra_electronics_slot = empty
+				fixed_ship_battery_slot = dp_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_missile_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_engine_slot = cruiser_ship_engine_5
 				fixed_ship_armor_slot = ship_armor_cruiser_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3
-				fixed_ship_extra_secondaries_slot = empty
-				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = full_missile_ship
+				fixed_ship_role_slot = ship_hull_cruiser_role_cg
 				fixed_ship_extra_missile_slot = empty
-				front_1_custom_slot = ship_medium_battery_4
+				front_1_custom_slot = ship_missile
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_medium_battery_4
-				rear_2_custom_slot = empty
+				rear_1_custom_slot = ship_missile
+				rear_2_custom_slot = dp_light_battery
 			}
+		}
+		allowed_modules = {
+			ship_missile_aa
+			ship_anti_air
 		}
 	}
 
@@ -412,45 +387,6 @@ vnr_historical_usa_cl = {
 	roles = { vnr_naval_cruiser_light }
 	priority = { base = 100 }
 
-	# Brooklyn - Cruiser 1 (Fictional): hull 1914, fictional study 1914; fictional gameplay continuation.
-	# Continues the national cruiser gun layout; improves propulsion, fire control and AA as hull technology advances.
-	# Design basis: Inspired by Brooklyn Class. US dual-purpose batteries, radar fire control and large aviation groups.
-	# Predecessor source: https://en.wikipedia.org/wiki/Brooklyn-class_cruiser
-	vnr_hist_USA_fictional_cruiser_1_design = {
-		name = vnr_hist_USA_fictional_cruiser_1
-		role_icon_index = 19
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = early_ship_hull_cruiser
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_cruiser_1
-			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_1_single
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = ship_mast_1
-				fixed_ship_extra_electronics_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_1
-				fixed_ship_armor_slot = ship_armor_cruiser_1
-				fixed_ship_secondaries_slot = empty
-				fixed_ship_airplane_launcher_slot = empty
-				fixed_ship_role_slot = ship_hull_cruiser_role_c
-				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = empty
-				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = empty
-				rear_2_custom_slot = empty
-			}
-		}
-	}
-
 	# Brooklyn Class: hull 1936, historical fit/design 1937; built.
 	# 5 x 3 152 mm; 100,000 shp; 127 mm belt; no torpedoes.
 	# Approximation: Engine scaled to the hull generation; the historical horsepower is not exactly reproducible. 120 mm belt module approximates the historical armour without requiring 1942 armour research.
@@ -458,7 +394,10 @@ vnr_historical_usa_cl = {
 	vnr_hist_USA_brooklyn_design = {
 		name = vnr_hist_USA_brooklyn
 		role_icon_index = 19
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_cruiser
@@ -469,21 +408,18 @@ vnr_historical_usa_cl = {
 			type = vnr_ship_hull_cruiser_3
 			modules = {
 				fixed_ship_battery_slot = ship_light_medium_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_mast_1
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_3
-				fixed_ship_armor_slot = ship_armor_cruiser_3
-				fixed_ship_secondaries_slot = dp_ship_secondaries_1
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_armor_slot = ship_armor_cruiser
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_extra_secondaries_slot = empty
 				front_1_custom_slot = ship_light_medium_battery_2
 				front_2_custom_slot = ship_light_medium_battery_2
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
 				rear_1_custom_slot = ship_light_medium_battery_2
 				rear_2_custom_slot = ship_light_medium_battery_2
 			}
@@ -497,7 +433,10 @@ vnr_historical_usa_cl = {
 	vnr_hist_USA_cleveland_design = {
 		name = vnr_hist_USA_cleveland
 		role_icon_index = 19
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -507,25 +446,26 @@ vnr_historical_usa_cl = {
 			match_value = 4000.0
 			type = vnr_ship_hull_cruiser_4
 			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_3
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-				fixed_ship_radar_slot = ship_radar_1
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_4
-				fixed_ship_armor_slot = ship_armor_cruiser_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
-				fixed_ship_role_slot = ship_hull_cruiser_role_c
-				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_medium_battery_3
+				fixed_ship_armor_slot = ship_armor_cruiser_3
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
+				fixed_ship_role_slot = ship_hull_cruiser_role_aa
+				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_light_medium_battery_3
-				rear_2_custom_slot = ship_light_medium_battery_3
+				rear_1_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_light_medium_battery
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
+			ship_aa_fire_control
 		}
 	}
 
@@ -535,7 +475,10 @@ vnr_historical_usa_cl = {
 	vnr_hist_USA_fargo_design = {
 		name = vnr_hist_USA_fargo
 		role_icon_index = 19
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_cruiser
@@ -545,25 +488,64 @@ vnr_historical_usa_cl = {
 			match_value = 5000.0
 			type = vnr_ship_hull_cruiser_5
 			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_3
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-				fixed_ship_radar_slot = ship_radar_3
+				fixed_ship_battery_slot = ship_light_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_5
 				fixed_ship_armor_slot = ship_armor_cruiser_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_medium_battery_3
+				front_1_custom_slot = ship_light_medium_battery
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_light_medium_battery_3
-				rear_2_custom_slot = ship_light_medium_battery_3
+				rear_1_custom_slot = ship_light_medium_battery
+				rear_2_custom_slot = ship_light_medium_battery
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
+			ship_aa_fire_control
+		}
+	}
+
+	vnr_hist_USA_glaveston_design = {
+		name = vnr_hist_USA_glaveston
+		role_icon_index = 19
+		priority = { base = 50 }
+		enable = {
+			expert_ai_style = no
+			has_tech = modern_ship_hull_cruiser
+		}
+		history = yes
+		target_variant = {
+			match_value = 6000.0
+			type = vnr_ship_hull_cruiser_6
+			modules = {
+				fixed_ship_battery_slot = dp_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_missile_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_engine_slot = cruiser_ship_engine_5
+				fixed_ship_armor_slot = ship_armor_cruiser_4
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = empty
+				fixed_ship_role_slot = ship_hull_cruiser_role_cgaa
+				fixed_ship_extra_missile_slot = empty
+				front_2_custom_slot = dp_light_battery
+				mid_1_custom_slot = ship_missile_aa
+				rear_1_custom_slot = dp_light_battery
+				rear_2_custom_slot = ship_missile_aa
+			}
+		}
+		allowed_modules = {
+			ship_missile_aa
+			ship_anti_air
+			ship_aa_fire_control
 		}
 	}
 
@@ -582,7 +564,10 @@ vnr_historical_usa_cb = {
 	vnr_hist_USA_alaska_design = {
 		name = vnr_hist_USA_alaska
 		role_icon_index = 25
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_cruiser
@@ -592,25 +577,26 @@ vnr_historical_usa_cb = {
 			match_value = 2000.0
 			type = vnr_ship_hull_cruiser_4
 			modules = {
-				fixed_ship_battery_slot = ship_medium_heavy_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_3
-				fixed_ship_radar_slot = ship_radar_1
+				fixed_ship_battery_slot = ship_medium_heavy_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_4
-				fixed_ship_armor_slot = ship_armor_cruiser_heavy_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
+				fixed_ship_armor_slot = ship_armor_cruiser_heavy
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_role_slot = ship_hull_cruiser_role_cb
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_medium_heavy_battery_2
+				front_1_custom_slot = ship_medium_heavy_battery
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_medium_heavy_battery_2
+				rear_1_custom_slot = ship_medium_heavy_battery
 				rear_2_custom_slot = empty
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_dp_secondaries
 		}
 	}
 
@@ -622,48 +608,16 @@ vnr_historical_usa_dd = {
 	roles = { vnr_naval_screen }
 	priority = { base = 120 }
 
-	# Clemson Class: hull 1914, historical fit/design 1919; built.
-	# 4 x 1 102 mm; 27,000 shp; four triple 533 mm banks; broadside gun/tube positions abstracted.
-	# Source: https://en.wikipedia.org/wiki/Clemson-class_destroyer
-	vnr_hist_USA_clemson_design = {
-		name = vnr_hist_USA_clemson
-		role_icon_index = 31
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = early_ship_hull_light
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_light_1
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = ship_mast_1
-				fixed_ship_extra_electronics_slot = empty
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_role_slot = ship_hull_light_role_dd
-				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = ship_light_battery_1
-				front_2_custom_slot = ship_light_battery_1
-				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_light_battery_1
-				rear_2_custom_slot = ship_torpedo_1
-			}
-		}
-	}
-
 	# Farragut Class: hull 1922, historical fit/design 1934; built.
 	# 5 x 1 127 mm DP; 42,800 shp; 2 x 4 533 mm tubes.
 	# Source: https://en.wikipedia.org/wiki/Farragut-class_destroyer_(1934)
 	vnr_hist_USA_farragut_design = {
 		name = vnr_hist_USA_farragut
 		role_icon_index = 31
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = interwar_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_light
@@ -673,21 +627,21 @@ vnr_historical_usa_dd = {
 			match_value = 3000.0
 			type = vnr_ship_hull_light_2
 			modules = {
-				fixed_ship_battery_slot = dp_light_battery_1_single
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_battery_slot = ship_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_radar_slot = ship_mast_1
 				fixed_ship_extra_electronics_slot = empty
-				fixed_ship_torpedo_slot = ship_torpedo_2
+				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_2
 				fixed_ship_role_slot = ship_hull_light_role_dd
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = dp_light_battery_1_single
-				front_2_custom_slot = ship_depth_charge_1
-				mid_1_custom_slot = ship_torpedo_2
-				mid_2_custom_slot = dp_light_battery_1_single
-				rear_1_custom_slot = dp_light_battery_1_single
-				rear_2_custom_slot = dp_light_battery_1_single
+				front_1_custom_slot = ship_light_battery
+				front_2_custom_slot = ship_depth_charge
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = ship_light_battery
+				rear_1_custom_slot = ship_light_battery
+				rear_2_custom_slot = ship_light_battery
 			}
 		}
 	}
@@ -699,7 +653,10 @@ vnr_historical_usa_dd = {
 	vnr_hist_USA_sims_design = {
 		name = vnr_hist_USA_sims
 		role_icon_index = 31
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = interwar_ship_hull_light
@@ -709,21 +666,21 @@ vnr_historical_usa_dd = {
 			match_value = 4000.0
 			type = vnr_ship_hull_light_3
 			modules = {
-				fixed_ship_battery_slot = dp_light_battery_3_single
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-				fixed_ship_radar_slot = ship_sonar_1
+				fixed_ship_battery_slot = dp_light_battery_single
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
 				fixed_ship_extra_electronics_slot = empty
-				fixed_ship_torpedo_slot = ship_torpedo_2
+				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_3
 				fixed_ship_role_slot = ship_hull_light_role_dd
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = dp_light_battery_3_single
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_2
-				mid_2_custom_slot = dp_light_battery_3_single
-				rear_1_custom_slot = dp_light_battery_3_single
-				rear_2_custom_slot = dp_light_battery_3_single
+				front_1_custom_slot = dp_light_battery_single
+				front_2_custom_slot = ship_depth_charge
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = dp_light_battery_single
+				rear_1_custom_slot = dp_light_battery_single
+				rear_2_custom_slot = dp_light_battery_single
 			}
 		}
 	}
@@ -735,7 +692,10 @@ vnr_historical_usa_dd = {
 	vnr_hist_USA_fletcher_design = {
 		name = vnr_hist_USA_fletcher
 		role_icon_index = 31
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_light
@@ -745,21 +705,21 @@ vnr_historical_usa_dd = {
 			match_value = 5000.0
 			type = vnr_ship_hull_light_4
 			modules = {
-				fixed_ship_battery_slot = dp_light_battery_3_single
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_sonar_2
-				fixed_ship_extra_electronics_slot = ship_radar_1
-				fixed_ship_torpedo_slot = ship_torpedo_3
+				fixed_ship_battery_slot = dp_light_battery_single
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_4
 				fixed_ship_role_slot = ship_hull_light_role_dd
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = dp_light_battery_3_single
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_3
-				mid_2_custom_slot = dp_light_battery_3_single
-				rear_1_custom_slot = dp_light_battery_3_single
-				rear_2_custom_slot = dp_light_battery_3_single
+				front_1_custom_slot = dp_light_battery_single
+				front_2_custom_slot = ship_depth_charge
+				mid_1_custom_slot = ship_torpedo
+				mid_2_custom_slot = dp_light_battery_single
+				rear_1_custom_slot = dp_light_battery_single
+				rear_2_custom_slot = dp_light_battery_single
 			}
 		}
 	}
@@ -770,7 +730,10 @@ vnr_historical_usa_dd = {
 	vnr_hist_USA_gearing_design = {
 		name = vnr_hist_USA_gearing
 		role_icon_index = 31
-		priority = { base = 50 }
+		priority = {
+			base = 50
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_light }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_light
@@ -780,22 +743,24 @@ vnr_historical_usa_dd = {
 			match_value = 6000.0
 			type = vnr_ship_hull_light_5
 			modules = {
-				fixed_ship_battery_slot = dp_light_battery_4
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_radar_3
-				fixed_ship_extra_electronics_slot = ship_sonar_2
-				fixed_ship_torpedo_slot = ship_torpedo_3
+				fixed_ship_battery_slot = dp_light_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
+				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_5
 				fixed_ship_role_slot = ship_hull_light_role_dd
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = dp_light_battery_4
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_3
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = dp_light_battery_4
-				rear_2_custom_slot = empty
+				front_1_custom_slot = dp_light_battery
+				mid_1_custom_slot = ship_torpedo
+				rear_1_custom_slot = dp_light_battery
+				rear_2_custom_slot = ship_depth_charge
 			}
+		}
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
 		}
 	}
 
@@ -803,8 +768,8 @@ vnr_historical_usa_dd = {
 	# Retains the national destroyer gun and torpedo-bank arrangement; adds the latest practical escort electronics.
 	# Design basis: Inspired by Gearing Class. US dual-purpose batteries, radar fire control and large aviation groups.
 	# Predecessor source: https://en.wikipedia.org/wiki/Gearing-class_destroyer
-	vnr_hist_USA_fictional_light_6_design = {
-		name = vnr_hist_USA_fictional_light_6
+	vnr_hist_USA_mitscher_design = {
+		name = vnr_hist_USA_mitscher
 		role_icon_index = 31
 		priority = { base = 60 }
 		enable = {
@@ -816,66 +781,24 @@ vnr_historical_usa_dd = {
 			match_value = 7000.0
 			type = vnr_ship_hull_light_6
 			modules = {
-				fixed_ship_battery_slot = dp_light_battery_4
-				fixed_ship_anti_air_slot = ship_anti_air_4
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_4
-				fixed_ship_radar_slot = ship_radar_4
-				fixed_ship_extra_electronics_slot = ship_sonar_2
+				fixed_ship_battery_slot = ship_missile
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_missile_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_torpedo_slot = ship_torpedo_3
 				fixed_ship_engine_slot = light_ship_engine_5
-				fixed_ship_role_slot = ship_hull_light_role_dd
+				fixed_ship_role_slot = ship_hull_light_role_ddg
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_extra_missile_slot = empty
-				front_1_custom_slot = dp_light_battery_4
-				front_2_custom_slot = ship_depth_charge_2
-				mid_1_custom_slot = ship_torpedo_3
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = dp_light_battery_4
-				rear_2_custom_slot = empty
+				front_1_custom_slot = dp_light_battery
+				rear_1_custom_slot = dp_light_battery
+				rear_2_custom_slot = ship_depth_charge
 			}
 		}
-	}
-
-}
-
-vnr_historical_usa_de = {
-	category = naval
-	available_for = { USA }
-	roles = { vnr_naval_screen_escort }
-	priority = { base = 5 }
-
-	# Buckley Class: hull 1940, historical fit/design 1943; built.
-	# 3 x 1 76 mm; 12,000 shp; one triple tube bank; Hedgehog. US 127 mm DP module approximates the missing 76 mm mount.
-	# Source: https://en.wikipedia.org/wiki/Buckley-class_destroyer_escort
-	vnr_hist_USA_buckley_design = {
-		name = vnr_hist_USA_buckley
-		role_icon_index = 35
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = improved_ship_hull_light
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_light_4
-			modules = {
-				fixed_ship_battery_slot = dp_light_battery_1_single
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_sonar_2
-				fixed_ship_extra_electronics_slot = ship_radar_1
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_role_slot = ship_hull_light_role_de
-				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = dp_light_battery_1_single
-				front_2_custom_slot = ship_depth_charge_3
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = dp_light_battery_1_single
-				rear_2_custom_slot = empty
-			}
+		allowed_modules = {
+			ship_missile_aa
+			ship_anti_air
 		}
 	}
 
@@ -893,7 +816,10 @@ vnr_historical_usa_ss = {
 	vnr_hist_USA_s_sub_design = {
 		name = vnr_hist_USA_s_sub
 		role_icon_index = 39
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = basic_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = early_ship_hull_submarine
@@ -903,13 +829,13 @@ vnr_historical_usa_ss = {
 			match_value = 2000.0
 			type = vnr_ship_hull_submarine_1
 			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_1
-				fixed_ship_secondaries_slot = sub_deck_gun_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_secondaries_slot = sub_deck_gun
 				fixed_ship_engine_slot = sub_ship_engine_1
-				fixed_ship_armor_slot = pressure_hull_1
+				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_conning_tower_slot = sub_conning_tower_0
-				fixed_sub_periscope_slot = sub_ship_periscope_0
-				fixed_ship_fire_control_system_slot = sub_sonar_1
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_sonar
 				fixed_ship_extra_secondaries_slot = empty
 				rear_1_custom_slot = empty
 			}
@@ -923,7 +849,10 @@ vnr_historical_usa_ss = {
 	vnr_hist_USA_salmon_design = {
 		name = vnr_hist_USA_salmon
 		role_icon_index = 39
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_submarine
@@ -933,16 +862,16 @@ vnr_historical_usa_ss = {
 			match_value = 3000.0
 			type = vnr_ship_hull_submarine_2
 			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_2
-				fixed_ship_secondaries_slot = sub_deck_gun_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_secondaries_slot = sub_deck_gun
 				fixed_ship_engine_slot = sub_ship_engine_2
-				fixed_ship_armor_slot = pressure_hull_2
+				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_conning_tower_slot = sub_conning_tower_0
-				fixed_sub_periscope_slot = sub_ship_periscope_1
-				fixed_ship_fire_control_system_slot = sub_sonar_1
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_sonar
 				fixed_ship_radar_slot = empty
 				fixed_ship_extra_secondaries_slot = empty
-				rear_1_custom_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
 	}
@@ -954,7 +883,10 @@ vnr_historical_usa_ss = {
 	vnr_hist_USA_gato_design = {
 		name = vnr_hist_USA_gato
 		role_icon_index = 39
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_submarine
@@ -964,18 +896,18 @@ vnr_historical_usa_ss = {
 			match_value = 4000.0
 			type = vnr_ship_hull_submarine_3
 			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_3
-				fixed_ship_secondaries_slot = sub_deck_gun_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_secondaries_slot = sub_deck_gun
 				fixed_ship_engine_slot = sub_ship_engine_3
-				fixed_ship_armor_slot = pressure_hull_3
+				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_conning_tower_slot = sub_conning_tower_0
-				fixed_sub_periscope_slot = sub_ship_periscope_2
-				fixed_ship_fire_control_system_slot = ship_sub_torpedo_computer_2
-				fixed_ship_radar_slot = sub_sonar_1
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_radar_slot = sub_sonar
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = empty
+				front_1_custom_slot = ship_torpedo_sub
 				mid_2_custom_slot = empty
-				rear_1_custom_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
 	}
@@ -986,7 +918,10 @@ vnr_historical_usa_ss = {
 	vnr_hist_USA_tench_design = {
 		name = vnr_hist_USA_tench
 		role_icon_index = 39
-		priority = { base = 40 }
+		priority = {
+			base = 40
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_submarine }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_submarine
@@ -996,20 +931,20 @@ vnr_historical_usa_ss = {
 			match_value = 5000.0
 			type = vnr_ship_hull_submarine_4
 			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_4
-				fixed_ship_secondaries_slot = sub_deck_gun_3
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_secondaries_slot = sub_deck_gun
 				fixed_ship_engine_slot = sub_ship_engine_4
-				fixed_ship_armor_slot = pressure_hull_4
+				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_conning_tower_slot = sub_conning_tower_1
-				fixed_sub_periscope_slot = sub_ship_periscope_3
-				fixed_ship_fire_control_system_slot = ship_sub_torpedo_computer_2
-				fixed_ship_radar_slot = sub_sonar_1
-				fixed_ship_extra_electronics_slot = ship_radar_1
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
+				fixed_ship_radar_slot = sub_sonar
+				fixed_ship_extra_electronics_slot = ship_radar
 				fixed_ship_extra_secondaries_slot = empty
-				front_1_custom_slot = empty
+				front_1_custom_slot = ship_torpedo_sub
 				mid_2_custom_slot = empty
 				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = ship_torpedo_sub
 			}
 		}
 	}
@@ -1018,8 +953,8 @@ vnr_historical_usa_ss = {
 	# Continues the late national submarine torpedo arrangement in the modern pressure hull, with a snorkel and improved submerged detection.
 	# Design basis: Inspired by Tench Class. US dual-purpose batteries, radar fire control and large aviation groups.
 	# Predecessor source: https://en.wikipedia.org/wiki/Tench-class_submarine
-	vnr_hist_USA_fictional_submarine_5_design = {
-		name = vnr_hist_USA_fictional_submarine_5
+	vnr_hist_USA_turbot_design = {
+		name = vnr_hist_USA_turbot
 		role_icon_index = 39
 		priority = { base = 50 }
 		enable = {
@@ -1031,20 +966,20 @@ vnr_historical_usa_ss = {
 			match_value = 6000.0
 			type = vnr_ship_hull_submarine_5
 			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_4
-				fixed_ship_engine_slot = sub_ship_engine_4
-				fixed_ship_armor_slot = pressure_hull_5
+				fixed_ship_torpedo_slot = ship_torpedo_sub
+				fixed_ship_engine_slot = sub_ship_engine_5
+				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_conning_tower_slot = sub_conning_tower_1
-				fixed_sub_periscope_slot = sub_ship_periscope_3
-				fixed_ship_fire_control_system_slot = ship_sub_torpedo_computer_2
+				fixed_sub_periscope_slot = sub_ship_periscope
+				fixed_ship_fire_control_system_slot = sub_fire_control_system
 				fixed_ship_radar_slot = sub_sonar_3
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_extra_missile_slot = empty
-				front_1_custom_slot = empty
-				mid_2_custom_slot = ship_sub_snorkel_2
+				front_1_custom_slot = ship_torpedo_sub
+				mid_2_custom_slot = ship_sub_snorkel
 				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = ship_torpedo_sub
 				rear_2_custom_slot = empty
 			}
 		}
@@ -1064,7 +999,10 @@ vnr_historical_usa_cv = {
 	vnr_hist_USA_yorktown_design = {
 		name = vnr_hist_USA_yorktown
 		role_icon_index = 9
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = basic_ship_hull_carrier
@@ -1074,20 +1012,23 @@ vnr_historical_usa_cv = {
 			match_value = 2000.0
 			type = vnr_ship_hull_carrier_1
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space_more
-				fixed_ship_deck_slot_2 = ship_deck_space_more
-				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
+				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries_2_bb
-				fixed_ship_armor_slot = ship_armor_carrier_2
-				fixed_ship_carrier_miscellaneous_slot_1 = empty
-				fixed_ship_carrier_miscellaneous_slot_2 = empty
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_armor_slot = ship_armor_carrier
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
 				fixed_ship_role_slot = ship_hull_carrier_role_cv
-				front_1_custom_slot = ship_deck_space_more
-				mid_1_custom_slot = empty
+				front_1_custom_slot = ship_deck_space_open
+				mid_1_custom_slot = ship_deck_space_open
 			}
+		}
+		allowed_modules = {
+			carrier_spared_squad
+			carrier_damage_control_unit
+			ship_anti_air
 		}
 	}
 
@@ -1097,7 +1038,10 @@ vnr_historical_usa_cv = {
 	vnr_hist_USA_essex_design = {
 		name = vnr_hist_USA_essex
 		role_icon_index = 9
-		priority = { base = 20 }
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_carrier
@@ -1107,22 +1051,25 @@ vnr_historical_usa_cv = {
 			match_value = 3000.0
 			type = vnr_ship_hull_carrier_2
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space_more
-				fixed_ship_deck_slot_2 = ship_deck_space_more
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_radar_slot = ship_radar_1
+				fixed_ship_deck_slot_1 = ship_deck_space_open
+				fixed_ship_deck_slot_2 = ship_deck_space_open
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = carrier_ship_engine_3
-				fixed_ship_secondaries_slot = dp_ship_secondaries_3_bb
-				fixed_ship_armor_slot = ship_armor_carrier_2
-				fixed_ship_carrier_miscellaneous_slot_1 = empty
-				fixed_ship_carrier_miscellaneous_slot_2 = empty
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_armor_slot = ship_armor_carrier
 				fixed_ship_flight_deck_slot = carrier_wooden_deck
 				fixed_ship_role_slot = ship_hull_carrier_role_cv
-				front_1_custom_slot = ship_deck_space_more
+				front_1_custom_slot = ship_deck_space_open
 				front_2_custom_slot = side_lift
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
+				mid_1_custom_slot = ship_deck_space_open
+				mid_2_custom_slot = ship_deck_space_open
 			}
+		}
+		allowed_modules = {
+			carrier_spared_squad
+			carrier_damage_control_unit
+			ship_anti_air
 		}
 	}
 
@@ -1132,7 +1079,10 @@ vnr_historical_usa_cv = {
 	vnr_hist_USA_midway_design = {
 		name = vnr_hist_USA_midway
 		role_icon_index = 9
-		priority = { base = 30 }
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = super_carriers }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = advanced_ship_hull_carrier
@@ -1142,23 +1092,24 @@ vnr_historical_usa_cv = {
 			match_value = 4000.0
 			type = vnr_ship_hull_carrier_3
 			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space_more
-				fixed_ship_deck_slot_2 = ship_deck_space_more
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_radar_slot = ship_radar_1
+				fixed_ship_deck_slot_1 = ship_deck_space_armored
+				fixed_ship_deck_slot_2 = ship_deck_space_armored
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = carrier_ship_engine_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_4_bb
-				fixed_ship_armor_slot = ship_armor_carrier_heavy_4
-				fixed_ship_carrier_miscellaneous_slot_1 = empty
-				fixed_ship_carrier_miscellaneous_slot_2 = empty
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_armor_slot = ship_armor_carrier_heavy
 				fixed_ship_flight_deck_slot = carrier_armor_deck
 				fixed_ship_role_slot = ship_hull_carrier_role_cv
-				front_1_custom_slot = ship_deck_space_more
-				front_2_custom_slot = empty
-				mid_1_custom_slot = ship_deck_space_more
-				mid_2_custom_slot = ship_deck_space_small
-				rear_1_custom_slot = empty
+				front_1_custom_slot = ship_deck_space_armored
+				mid_1_custom_slot = ship_deck_space_armored
+				mid_2_custom_slot = ship_deck_space_armored
 			}
+		}
+		allowed_modules = {
+			carrier_spared_squad
+			carrier_damage_control_unit
+			ship_anti_air
 		}
 	}
 
@@ -1166,8 +1117,8 @@ vnr_historical_usa_cv = {
 	# Expands the national carrier air group and protection while retaining its secondary-battery tradition.
 	# Design basis: Inspired by Midway Class. US dual-purpose batteries, radar fire control and large aviation groups.
 	# Predecessor source: https://en.wikipedia.org/wiki/Midway-class_aircraft_carrier
-	vnr_hist_USA_fictional_super_carrier_design = {
-		name = vnr_hist_USA_fictional_super_carrier
+	vnr_hist_USA_forrestal_design = {
+		name = vnr_hist_USA_forrestal
 		role_icon_index = 9
 		priority = { base = 40 }
 		enable = {
@@ -1181,21 +1132,21 @@ vnr_historical_usa_cv = {
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space_big
 				fixed_ship_deck_slot_2 = ship_deck_space_big
-				fixed_ship_anti_air_slot = ship_anti_air_4
-				fixed_ship_radar_slot = ship_radar_4
+				fixed_ship_anti_air_slot = ship_carrier_missile_aa
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = carrier_ship_engine_4
-				fixed_ship_secondaries_slot = dp_ship_secondaries_4_bb
-				fixed_ship_armor_slot = ship_armor_carrier_heavy_3
-				fixed_ship_carrier_miscellaneous_slot_1 = empty
-				fixed_ship_carrier_miscellaneous_slot_2 = empty
-				fixed_ship_flight_deck_slot = carrier_armor_deck
-				front_1_custom_slot = ship_anti_air_4
-				front_2_custom_slot = side_lift
+				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
+				fixed_ship_armor_slot = ship_armor_carrier_heavy
+				fixed_ship_flight_deck_slot = carrier_strength_deck
+				front_1_custom_slot = ship_steam_catapult
+				front_2_custom_slot = angled_deck
 				mid_1_custom_slot = ship_deck_space_big
-				mid_2_custom_slot = ship_deck_space_armored
-				rear_1_custom_slot = empty
-				rear_2_custom_slot = empty
+				mid_2_custom_slot = ship_deck_space_big
 			}
+		}
+		allowed_modules = {
+			carrier_side_lift
+			ship_carrier_missile_aa
 		}
 	}
 
@@ -1214,7 +1165,10 @@ vnr_historical_usa_cvl = {
 	vnr_hist_USA_independence_design = {
 		name = vnr_hist_USA_independence
 		role_icon_index = 11
-		priority = { base = 10 }
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_carrier }
+		}
 		enable = {
 			expert_ai_style = no
 			has_tech = improved_ship_hull_carrier
@@ -1226,8 +1180,8 @@ vnr_historical_usa_cvl = {
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space_small
 				fixed_ship_deck_slot_2 = ship_deck_space_small
-				fixed_ship_anti_air_slot = ship_anti_air_3
-				fixed_ship_radar_slot = ship_radar_1
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = cruiser_ship_engine_4
 				fixed_ship_secondaries_slot = empty
 				fixed_ship_armor_slot = empty
@@ -1237,56 +1191,10 @@ vnr_historical_usa_cvl = {
 				fixed_ship_role_slot = ship_hull_carrier_role_cvl
 				front_1_custom_slot = ship_deck_space_small
 				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
 			}
 		}
-	}
-
-}
-
-vnr_historical_usa_shbb = {
-	category = naval
-	available_for = { USA }
-	roles = { vnr_naval_capital_bb }
-	priority = { base = 5 }
-
-	# Iowa - Super Heavy 1 (Fictional): hull 1940, fictional study 1940; fictional gameplay continuation.
-	# Retains the national capital-ship main-battery arrangement, with machinery and defensive equipment adapted to the new hull.
-	# Design basis: Inspired by Iowa Class. US dual-purpose batteries, radar fire control and large aviation groups.
-	# Predecessor source: https://www.history.navy.mil/our-collections/photography/us-navy-ships/battleships/iowa-bb-61.html
-	vnr_hist_USA_fictional_super_heavy_1_design = {
-		name = vnr_hist_USA_fictional_super_heavy_1
-		role_icon_index = 1
-		priority = { base = 10 }
-		enable = {
-			expert_ai_style = no
-			has_tech = ship_hull_super_heavy
-		}
-		history = yes
-		target_variant = {
-			match_value = 2000.0
-			type = vnr_ship_hull_super_heavy_1
-			modules = {
-				fixed_ship_battery_slot = ship_super_heavy_battery_1_triple
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = ship_radar_1
-				fixed_ship_engine_slot = super_heavy_ship_engine_3
-				fixed_ship_secondaries_slot = dp_ship_secondaries_2_bb
-				fixed_ship_armor_slot = ship_armor_shbb
-				fixed_ship_airplane_launcher_slot = ship_airplane_launcher_1
-				fixed_ship_extra_secondaries_slot = empty
-				fixed_ship_armor_scheme_slot = ship_scheme_all_or_nothing
-				fixed_ship_torpedo_defense_system_slot = torpedo_belt
-				front_1_custom_slot = ship_super_heavy_battery_1_triple
-				front_2_custom_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				mid_3_custom_slot = empty
-				rear_1_custom_slot = ship_super_heavy_battery_1_triple
-				rear_2_custom_slot = empty
-			}
+		allowed_modules = {
+			ship_anti_air
 		}
 	}
 
