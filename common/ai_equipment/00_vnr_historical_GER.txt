@@ -173,7 +173,7 @@ vnr_historical_ger_bb = {
 	# Design basis: Inspired by H-39 Class (Design). German twin main mounts, separate AA batteries and diesel endurance where applicable.
 	# Predecessor source: https://en.wikipedia.org/wiki/H-class_battleship_proposals
 	vnr_hist_GER_h44_design = {
-		name = vnr_hist_GER_fictional_heavy_5
+		name = vnr_hist_GER_h44
 		role_icon_index = 1
 		priority = { base = 50 }
 		enable = {
