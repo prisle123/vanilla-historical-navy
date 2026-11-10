@@ -30,7 +30,7 @@ vnr_historical_eng_bb = {
 			match_value = 2000.0
 			type = vnr_ship_hull_heavy_1
 			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_1_big
+				fixed_ship_battery_slot = ship_heavy_battery_big_1
 				fixed_ship_anti_air_slot = ship_anti_air_2_h
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = ship_mast_1
@@ -41,9 +41,9 @@ vnr_historical_eng_bb = {
 				fixed_ship_extra_secondaries_slot = empty
 				fixed_ship_armor_scheme_slot = ship_scheme_incremental_post_jutland
 				fixed_ship_torpedo_defense_system_slot = torpedo_belt
-				front_1_custom_slot = ship_heavy_battery_1_big
-				rear_1_custom_slot = ship_heavy_battery_1_big
-				rear_2_custom_slot = ship_heavy_battery_1_big
+				front_1_custom_slot = ship_heavy_battery_big_1
+				rear_1_custom_slot = ship_heavy_battery_big_1
+				rear_2_custom_slot = ship_heavy_battery_big_1
 			}
 		}
 		allowed_modules = {

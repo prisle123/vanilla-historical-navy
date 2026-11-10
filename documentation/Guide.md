@@ -291,7 +291,7 @@ Unlocks following doctrines:
 | Naval Airforce | Coastal Defense Fleet | The New School | Covert Denial | Defensive Combat Support |
 |  | Monitor Support | Mosquito Fleet |  |  |
 
-### Sub Doctrine - Carrier ###
+### Sub Doctrine - Naval Aviation ###
 
 **Carrier Taskforce**
 
@@ -317,7 +317,7 @@ Contrary to prior ones, this is the most radical doctrines among all, stressing 
 
 Often used by underdog with a rather weaker carrier fleet, this strategy combines parts of dedicated carrier doctrines with land-based support doctrines, which it should work well for those who looks to establish area denial capabilities at doorstep instead of projecting influence overseas.
 
-### Sub Doctrine - Battle Line ###
+### Sub Doctrine - Surface Fleet ###
 
 **Fast Battleship Primacy**
 
@@ -343,7 +343,7 @@ Again, another meme doctrine, and it only improves invasion support in a quite a
 
 Focusing on anti-air battleships, *Taskforce Guardian* is the historical strategy of USN in late-WWII period which offers fleet organization bonuses only next to *Fast Battleship Primacy* and a series of anti-air buffs. It begins being backward, but will be worth it when you achieve mastery, which turns out to be more balanced than others.
 
-### Sub Doctrine - Screen Line ###
+### Sub Doctrine - Escort Force ###
 
 **Convoy Escort**
 
@@ -369,7 +369,7 @@ This is an authentic USN strategy adopted during WWII, which makes screen ships 
 
 Once you choose this branch, you completely give up regular fleet in result of range and org debuffs from this doctrine. Its bonuses are centered around reduced cost and torpedo attacks, while eliminating your screening efficiency to non-existence.
 
-### Sub Doctrine - Submarine ###
+### Sub Doctrine - Submarine Flotilla ###
 
 **Wolfpacks**
 
