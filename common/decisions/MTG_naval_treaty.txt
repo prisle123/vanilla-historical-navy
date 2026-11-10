@@ -100,7 +100,7 @@ MTG_naval_treaties = {
 		icon = GFX_decision_generic_break_treaty
 	
 		available = {
-			threat > 0.2
+			threat > 0.1
 			NOT = { has_global_flag = MTG_second_london_conference }
 		}
 	
