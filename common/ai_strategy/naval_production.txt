@@ -564,11 +564,6 @@ naval_unit_role_ratios_GER_atwar_knock_USA = {
 		id = vnr_naval_carrier
 		value = 20
 	}
-
-	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 80
-	}
 }
 
 naval_unit_role_ratios_GER_atwar_No_Naval_Competitor = {
@@ -742,7 +737,7 @@ naval_unit_role_ratios_ENG_prewar_late = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 70
+		value = 35
 	}
 
 	ai_strategy = {
@@ -788,7 +783,7 @@ naval_unit_role_ratios_ENG_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 90
+		value = 45
 	}
 
 	ai_strategy = {
@@ -835,13 +830,13 @@ naval_unit_role_ratios_ENG_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 20
+		value = 40
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 40
+		value = 30
 	}
 
 	ai_strategy = {
@@ -1187,10 +1182,6 @@ naval_unit_role_ratios_SOV_no_need_to_watch_germany_peace = {
 		id = vnr_naval_carrier
 		value = 10
 	}
-	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 35
-	}
 }
 
 naval_unit_role_ratios_SOV_atwar_with_Germany = {
@@ -1273,10 +1264,6 @@ naval_unit_role_ratios_SOV_atwar_with_major = {
 		type = role_ratio
 		id = vnr_naval_carrier
 		value = 10
-	}
-	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 50
 	}
 }
 
@@ -1560,7 +1547,7 @@ naval_unit_role_ratios_USA_go_to_war = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 50
+		value = 65
 	}
 
 	ai_strategy = {
@@ -1620,7 +1607,7 @@ naval_unit_role_ratios_USA_atwar = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_carrier
-		value = 120
+		value = 90
 	}
 	
 	ai_strategy = {
@@ -1675,7 +1662,7 @@ naval_unit_role_ratios_ITA_prewar_build_battleships = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen_leader
-		value = 10
+		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1719,7 +1706,7 @@ naval_unit_role_ratios_ITA_prewar_enough_battleships = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_screen_leader
-		value = 10
+		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1736,11 +1723,6 @@ naval_unit_role_ratios_ITA_prewar_enough_battleships = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = -20
-	}
-
-	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 20
 	}
 }
 
@@ -1771,21 +1753,17 @@ naval_unit_role_ratios_ITA_atwar_with_England = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_light
-		value = 35
+		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_cruiser_heavy
-		value = 20
+		value = 50
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
 		value = 40
-	}
-	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 45
 	}
 }
 
@@ -1834,10 +1812,6 @@ naval_unit_role_ratios_ITA_atwar_with_major = {
 		id = vnr_naval_carrier
 		value = 10
 	}
-	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 90
-	}
 }
 
 naval_unit_role_ratios_ITA_late_peace = {
@@ -1879,7 +1853,7 @@ naval_unit_role_ratios_ITA_late_peace = {
 	ai_strategy = {
 		type = role_ratio
 		id = vnr_naval_capital_bb
-		value = 15
+		value = 25
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -2436,27 +2410,14 @@ we_need_cv_fighters_1 = {
 		always = yes
 	}
 	enable = {
-		OR = {
-			AND = {
-				has_navy_size = { size > 0 type = carrier }
-				has_navy_size = { size < 4 type = carrier }
-			}
-			AND = {
-				num_of_military_factories < 60
-				num_of_military_factories > 29
-			}
+		has_navy_size = { size > 0 type = carrier }
+		has_navy_size = { size < 4 type = carrier }
+		has_equipment = {
+			cv_small_plane_airframe < 200
 		}
+		num_of_military_factories > 29
 	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_airframe > 200
-			}
-			has_navy_size = { size < 1 type = carrier }
-			has_navy_size = { size > 3 type = carrier }
-			num_of_military_factories < 30
-		}
-	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2471,21 +2432,13 @@ we_need_cv_fighters_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		num_of_military_factories > 59
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_airframe > 380
-			}
-			has_navy_size = { size < 4 type = carrier }
-			num_of_military_factories < 60
-			AND = {
-				has_navy_size = { size > 7 type = carrier }
-				num_of_military_factories > 89
-			}
+		has_navy_size = { size < 8 type = carrier }
+		has_equipment = {
+			cv_small_plane_airframe < 380
 		}
+		num_of_military_factories > 54
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2500,17 +2453,12 @@ we_need_cv_fighters_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
-		num_of_military_factories > 89
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_airframe > 560
-			}
-			has_navy_size = { size < 8 type = carrier }
-			num_of_military_factories < 90
+		has_equipment = {
+			cv_small_plane_airframe < 560
 		}
+		num_of_military_factories > 79
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2526,8 +2474,9 @@ we_need_cv_fighters_4 = {
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
 		has_equipment = {
-			cv_small_plane_airframe > 560
+			cv_small_plane_airframe > 559
 		}
+		num_of_military_factories > 29
 	}
 	abort_when_not_enabled = yes
 
@@ -2543,27 +2492,14 @@ we_need_cv_naval_bombers_1 = {
 		always = yes
 	}
 	enable = {
-		OR = {
-			AND = {
-				has_navy_size = { size > 0 type = carrier }
-				has_navy_size = { size < 4 type = carrier }
-			}
-			AND = {
-				num_of_military_factories < 60
-				num_of_military_factories > 29
-			}
+		has_navy_size = { size > 0 type = carrier }
+		has_navy_size = { size < 4 type = carrier }
+		has_equipment = {
+			cv_small_plane_naval_bomber_airframe < 200
 		}
+		num_of_military_factories > 29
 	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_naval_bomber_airframe > 200
-			}
-			has_navy_size = { size < 1 type = carrier }
-			has_navy_size = { size > 3 type = carrier }
-			num_of_military_factories < 30
-		}
-	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2578,21 +2514,13 @@ we_need_cv_naval_bombers_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		num_of_military_factories > 59
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_naval_bomber_airframe > 380
-			}
-			has_navy_size = { size < 4 type = carrier }
-			num_of_military_factories < 60
-			AND = {
-				has_navy_size = { size > 7 type = carrier }
-				num_of_military_factories > 89
-			}
+		has_navy_size = { size < 8 type = carrier }
+		has_equipment = {
+			cv_small_plane_naval_bomber_airframe < 380
 		}
+		num_of_military_factories > 54
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2607,17 +2535,12 @@ we_need_cv_naval_bombers_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
-		num_of_military_factories > 89
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_naval_bomber_airframe > 560
-			}
-			has_navy_size = { size < 8 type = carrier }
-			num_of_military_factories < 90
+		has_equipment = {
+			cv_small_plane_naval_bomber_airframe < 560
 		}
+		num_of_military_factories > 79
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2633,8 +2556,9 @@ we_need_cv_naval_bombers_4 = {
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
 		has_equipment = {
-			cv_small_plane_naval_bomber_airframe > 560
+			cv_small_plane_naval_bomber_airframe > 559
 		}
+		num_of_military_factories > 29
 	}
 	abort_when_not_enabled = yes
 
@@ -2650,27 +2574,14 @@ we_need_cv_cas_1 = {
 		always = yes
 	}
 	enable = {
-		OR = {
-			AND = {
-				has_navy_size = { size > 0 type = carrier }
-				has_navy_size = { size < 4 type = carrier }
-			}
-			AND = {
-				num_of_military_factories < 60
-				num_of_military_factories > 29
-			}
+		has_navy_size = { size > 0 type = carrier }
+		has_navy_size = { size < 4 type = carrier }
+		has_equipment = {
+			cv_small_plane_cas_airframe < 200
 		}
+		num_of_military_factories > 29
 	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_cas_airframe > 200
-			}
-			has_navy_size = { size < 1 type = carrier }
-			has_navy_size = { size > 3 type = carrier }
-			num_of_military_factories < 30
-		}
-	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2685,21 +2596,13 @@ we_need_cv_cas_2 = {
 	}
 	enable = {
 		has_navy_size = { size > 3 type = carrier }
-		num_of_military_factories > 59
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_cas_airframe > 380
-			}
-			has_navy_size = { size < 4 type = carrier }
-			num_of_military_factories < 60
-			AND = {
-				has_navy_size = { size > 7 type = carrier }
-				num_of_military_factories > 89
-			}
+		has_navy_size = { size < 8 type = carrier }
+		has_equipment = {
+			cv_small_plane_cas_airframe < 380
 		}
+		num_of_military_factories > 54
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2714,17 +2617,12 @@ we_need_cv_cas_3 = {
 	}
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
-		num_of_military_factories > 89
-	}
-	abort = {
-		OR = {
-			has_equipment = {
-				cv_small_plane_cas_airframe > 560
-			}
-			has_navy_size = { size < 8 type = carrier }
-			num_of_military_factories < 90
+		has_equipment = {
+			cv_small_plane_cas_airframe < 560
 		}
+		num_of_military_factories > 79
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2740,8 +2638,9 @@ we_need_cv_cas_4 = {
 	enable = {
 		has_navy_size = { size > 7 type = carrier }
 		has_equipment = {
-			cv_small_plane_cas_airframe > 560
+			cv_small_plane_cas_airframe > 559
 		}
+		num_of_military_factories > 29
 	}
 	abort_when_not_enabled = yes
 
@@ -2758,6 +2657,8 @@ build_more_missile_cruisers = {
 	}
 	enable = {
 		has_tech = modern_ship_hull_cruiser
+		has_tech = ship_to_ship_missile
+		has_tech = cruiser_missile_upgrade
 	}
 	abort_when_not_enabled = yes
 
@@ -2786,7 +2687,7 @@ upgrade_cv_plane_is_important = {
 	ai_strategy = {
 		type = air_xp_spend_priority
 		id = equipment_variant
-		value = 100
+		value = 30
 	}
 }
 
