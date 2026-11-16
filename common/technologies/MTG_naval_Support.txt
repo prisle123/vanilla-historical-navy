@@ -414,7 +414,7 @@ technologies = {
 
 		research_cost = 0.25
 
-		start_year = 1944
+		start_year = 1943
 
 		enable_equipment_modules = {
 			ship_light_battery_4
@@ -585,7 +585,7 @@ technologies = {
 
 		research_cost = 0.75
 
-		start_year = 1944
+		start_year = 1943
 
 		enable_equipment_modules = {
 			ship_heavy_battery_4
@@ -858,7 +858,7 @@ technologies = {
 
 		research_cost = 0.3
 
-		start_year = 1944
+		start_year = 1943
 
 		enable_equipment_modules = {
 			dp_ship_medium_1
@@ -1504,7 +1504,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalsupportfolder
-			position = { x = 2 y = 20 }
+			position = { x = 2 y = 21 }
 		}
 		path = {
 			leads_to_tech = wake_homing_torpedo
@@ -1690,7 +1690,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 0.5
 
-		start_year = 1943
+		start_year = 1942
 		dependencies = {
 			radio_detection = 1
 		}
@@ -1761,6 +1761,10 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = dd_tech_13_tt
 			custom_effect_tooltip = torpedo_advice_tt
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				set_technology = { air_torpedoe_1 = 1 }
+			}
 		}
 
 		enable_equipment_modules = {
@@ -1796,7 +1800,7 @@ technologies = {
 
 		research_cost = 0.5
 
-		start_year = 1940
+		start_year = 1939
 
 		path = {
 			leads_to_tech = modern_ship_torpedo_launcher
@@ -1806,6 +1810,10 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = dd_tech_6_tt
 			custom_effect_tooltip = torpedo_advice_tt
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				set_technology = { air_torpedoe_2 = 1 }
+			}
 		}
 
 		enable_equipment_modules = {
@@ -1842,7 +1850,7 @@ technologies = {
 
 		research_cost = 0.75
 
-		start_year = 1944
+		start_year = 1943
 
 		enable_equipment_modules = {
 			ship_torpedo_4
@@ -1853,6 +1861,10 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = dd_tech_6_tt
 			custom_effect_tooltip = torpedo_advice_tt
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				set_technology = { air_torpedoe_3 = 1 }
+			}
 		}
 
 		path = {
