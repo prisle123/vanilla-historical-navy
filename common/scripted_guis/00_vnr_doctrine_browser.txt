@@ -1,0 +1,88 @@
+# Co-authored by ChatGPT Astra
+scripted_gui = {
+    vnr_doctrine_browser_launcher = {
+        context_type = player_context
+        window_name = vnr_doctrine_browser_launcher_container
+        parent_window_name = doctrine_selection_list
+        ai_enabled = { always = no }
+        visible = { always = yes }
+        effects = {
+            vnr_db_open_click = {
+                set_country_flag = vnr_doctrine_browser_open
+                clear_variable = vnr_doctrine_browser_page
+            }
+        }
+    }
+    vnr_doctrine_browser = {
+        context_type = player_context
+        window_name = vnr_doctrine_browser_window
+        ai_enabled = { always = no }
+        visible = { has_country_flag = vnr_doctrine_browser_open }
+        triggers = {
+            vnr_db_back_visible = { has_variable = vnr_doctrine_browser_page }
+        }
+        effects = {
+            vnr_db_close_click = {
+                clr_country_flag = vnr_doctrine_browser_open
+                clear_variable = vnr_doctrine_browser_page
+            }
+            vnr_db_back_click = { clear_variable = vnr_doctrine_browser_page }
+        }
+    }
+    vnr_doctrine_browser_list = {
+        context_type = player_context
+        window_name = vnr_doctrine_browser_list
+        parent_window_name = vnr_doctrine_browser_window
+        ai_enabled = { always = no }
+        visible = {
+            has_country_flag = vnr_doctrine_browser_open
+            NOT = { has_variable = vnr_doctrine_browser_page }
+        }
+        effects = {
+            vnr_db_choose_1_click = { set_variable = { vnr_doctrine_browser_page = 1 } }
+            vnr_db_choose_2_click = { set_variable = { vnr_doctrine_browser_page = 2 } }
+            vnr_db_choose_3_click = { set_variable = { vnr_doctrine_browser_page = 3 } }
+            vnr_db_choose_4_click = { set_variable = { vnr_doctrine_browser_page = 4 } }
+        }
+    }
+    vnr_doctrine_browser_chart_1 = {
+        context_type = player_context
+        window_name = vnr_doctrine_browser_chart_1
+        parent_window_name = vnr_doctrine_browser_window
+        ai_enabled = { always = no }
+        visible = {
+            has_country_flag = vnr_doctrine_browser_open
+            check_variable = { vnr_doctrine_browser_page = 1 }
+        }
+    }
+    vnr_doctrine_browser_chart_2 = {
+        context_type = player_context
+        window_name = vnr_doctrine_browser_chart_2
+        parent_window_name = vnr_doctrine_browser_window
+        ai_enabled = { always = no }
+        visible = {
+            has_country_flag = vnr_doctrine_browser_open
+            check_variable = { vnr_doctrine_browser_page = 2 }
+        }
+    }
+    vnr_doctrine_browser_chart_3 = {
+        context_type = player_context
+        window_name = vnr_doctrine_browser_chart_3
+        parent_window_name = vnr_doctrine_browser_window
+        ai_enabled = { always = no }
+        visible = {
+            has_country_flag = vnr_doctrine_browser_open
+            check_variable = { vnr_doctrine_browser_page = 3 }
+        }
+    }
+    vnr_doctrine_browser_chart_4 = {
+        context_type = player_context
+        window_name = vnr_doctrine_browser_chart_4
+        parent_window_name = vnr_doctrine_browser_window
+        ai_enabled = { always = no }
+        visible = {
+            has_country_flag = vnr_doctrine_browser_open
+            check_variable = { vnr_doctrine_browser_page = 4 }
+        }
+    }
+}

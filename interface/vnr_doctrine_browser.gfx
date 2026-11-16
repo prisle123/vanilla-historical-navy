@@ -1,0 +1,23 @@
+# Co-authored by ChatGPT Astra
+spriteTypes = {
+    spriteType = {
+        name = "GFX_vnr_db_chart_1"
+        texturefile = "gfx/interface/doctrines/browser/new_fleet_in_being.png"
+        alwaystransparent = yes
+    }
+    spriteType = {
+        name = "GFX_vnr_db_chart_2"
+        texturefile = "gfx/interface/doctrines/browser/new_convoy_raiding.png"
+        alwaystransparent = yes
+    }
+    spriteType = {
+        name = "GFX_vnr_db_chart_3"
+        texturefile = "gfx/interface/doctrines/browser/new_base_strike.png"
+        alwaystransparent = yes
+    }
+    spriteType = {
+        name = "GFX_vnr_db_chart_4"
+        texturefile = "gfx/interface/doctrines/browser/new_littoral_defense.png"
+        alwaystransparent = yes
+    }
+}

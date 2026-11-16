@@ -1,6 +1,6 @@
 naval_light_carrier = {
 	category = naval
-	#blocked_for = {}
+	blocked_for = { ENG USA JAP ITA GER SOV FRA }
 	roles = { vnr_naval_carrier_light }
 	priority = { base = 0 }
 

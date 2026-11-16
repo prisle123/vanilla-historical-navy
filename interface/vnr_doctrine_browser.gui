@@ -1,0 +1,1394 @@
+# Co-authored by ChatGPT Astra
+guiTypes = {
+    containerWindowType = {
+        name = "vnr_doctrine_browser_launcher_container"
+        position = { x = -104 y = -57 }
+        size = { width = 38 height = 38 }
+        orientation = lower_right
+        buttonType = {
+            name = "vnr_db_open" 
+            position = { x = 0 y = 0 }
+            quadTextureSprite = "GFX_FOCUS_FILTER_ICON_BG"
+            pdx_tooltip = "VNR_DB_OPEN" 
+            clicksound = click_default
+        }
+        iconType = {
+            name = "vnr_db_open_icon" 
+            position = { x = 7 y = 8 }
+            spriteType = "GFX_FOCUS_FILTER_RESEARCH" 
+            alwaystransparent = yes
+        }
+    }
+    containerWindowType = {
+        name = "vnr_doctrine_browser_window" 
+        position = { x = 0 y = 0 }
+        size = { width = 1040 height = 640 }
+        orientation = center
+        origo = center
+        moveable = yes
+        click_to_front = yes
+        background = { 
+            name = "background" 
+            spriteType = "GFX_tiled_window_w_close"
+        }
+        buttonType = {
+            name = "vnr_db_close" 
+            position = { x = -45 y = 13 } 
+            orientation = upper_right
+            quadTextureSprite = "GFX_closebutton" 
+            pdx_tooltip = "CLOSE"
+            shortcut = "ESCAPE" 
+            clicksound = click_close
+        }
+        buttonType = {
+            name = "vnr_db_back" 
+            position = { x = 24 y = 18 }
+            quadTextureSprite = "GFX_button_123x34" 
+            buttonText = "VNR_DB_BACK"
+            buttonFont = "hoi_16mbs" 
+            clicksound = click_default
+        }
+        instantTextboxType = {
+            name = "vnr_db_title" 
+            position = { x = 166 y = 17 }
+            text = "VNR_DB_TITLE" 
+            font = "hoi_30header"
+            maxWidth = 708 
+            maxHeight = 35 
+            format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_rules" 
+            position = { x = 28 y = 61 }
+            text = "VNR_DB_RULES" 
+            font = "hoi_16mbs"
+            maxWidth = 984 
+            maxHeight = 30 
+            format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_legend" 
+            position = { x = 26 y = 596 }
+            text = "VNR_DB_LEGEND" 
+            font = "hoi_16mbs"
+            maxWidth = 988 
+            maxHeight = 34 
+            format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+    }
+    containerWindowType = {
+        name = "vnr_doctrine_browser_list" 
+        position = { x = 24 y = 102 }
+        size = { width = 992 height = 488 }
+        instantTextboxType = {
+            name = "vnr_db_intro" 
+            position = { x = 0 y = 0 }
+            text = "VNR_DB_INTRO" 
+            font = "hoi_18mbs"
+            maxWidth = 992 
+            maxHeight = 44 
+            format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        buttonType = {
+            name = "vnr_db_choose_1" 
+            position = { x = 14 y = 74 }
+            size = { x = 468 y = 128 } 
+            spriteType = "GFX_tiled_decisions_bg_small"
+            pdx_tooltip = "VNR_DB_GRAND_new_fleet_in_being" 
+            clicksound = click_default
+        }
+        iconType = {
+            name = "vnr_db_list_icon_1" 
+            spriteType = "GFX_doctrine_fleet_in_being_medium"
+            position = { x = 34 y = 106 } 
+            scale = 1
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_list_name_1" 
+            position = { x = 110 y = 94 }
+            text = "GRAND_DOCTRINE_FLEET_IN_BEING" 
+            font = "hoi_24header"
+            maxWidth = 354 
+            maxHeight = 88 
+            format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        buttonType = {
+            name = "vnr_db_choose_2" 
+            position = { x = 510 y = 74 }
+            size = { x = 468 y = 128 } 
+            spriteType = "GFX_tiled_decisions_bg_small"
+            pdx_tooltip = "VNR_DB_GRAND_new_convoy_raiding" 
+            clicksound = click_default
+        }
+        iconType = {
+            name = "vnr_db_list_icon_2" 
+            spriteType = "GFX_doctrine_trade_interdiction_medium"
+            position = { x = 530 y = 106 } 
+            scale = 1
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_list_name_2" 
+            position = { x = 606 y = 94 }
+            text = "GRAND_DOCTRINE_CONVOY_RAIDING" 
+            font = "hoi_24header"
+            maxWidth = 354 
+            maxHeight = 88 
+            format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        buttonType = {
+            name = "vnr_db_choose_3" 
+            position = { x = 14 y = 238 }
+            size = { x = 468 y = 128 } 
+            spriteType = "GFX_tiled_decisions_bg_small"
+            pdx_tooltip = "VNR_DB_GRAND_new_base_strike" 
+            clicksound = click_default
+        }
+        iconType = {
+            name = "vnr_db_list_icon_3" 
+            spriteType = "GFX_doctrine_base_strike_medium"
+            position = { x = 34 y = 270 } 
+            scale = 1
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_list_name_3" 
+            position = { x = 110 y = 258 }
+            text = "GRAND_DOCTRINE_BASE_STRIKE"
+            font = "hoi_24header"
+            maxWidth = 354 
+            maxHeight = 88 
+            format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        buttonType = {
+            name = "vnr_db_choose_4" 
+            position = { x = 510 y = 238 }
+            size = { x = 468 y = 128 } 
+            spriteType = "GFX_tiled_decisions_bg_small"
+            pdx_tooltip = "VNR_DB_GRAND_new_littoral_defense" 
+            clicksound = click_default
+        }
+        iconType = {
+            name = "vnr_db_list_icon_4" 
+            spriteType = "GFX_doctrine_littoral_defense_medium"
+            position = { x = 530 y = 270 } 
+            scale = 1
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_list_name_4" 
+            position = { x = 606 y = 258 }
+            text = "GRAND_DOCTRINE_LITTORAL_DEFENSE" 
+            font = "hoi_24header"
+            maxWidth = 354 
+            maxHeight = 88 
+            format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+    }
+    containerWindowType = {
+        name = "vnr_doctrine_browser_chart_1" 
+        position = { x = 24 y = 102 }
+        size = { width = 992 height = 488 }
+        iconType = {
+            name = "vnr_db_geometry_1" spriteType = "GFX_vnr_db_chart_1"
+            position = { x = 0 y = 0 } scale = 1
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_grand_icon_1" spriteType = "GFX_doctrine_fleet_in_being_medium"
+            position = { x = 357 y = 4 } scale = 0.625
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_grand_name_1" position = { x = 401 y = 4 }
+            text = "GRAND_DOCTRINE_FLEET_IN_BEING" font = "hoi_18mbs"
+            maxWidth = 235 maxHeight = 40 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_1_0" position = { x = 20 y = 89 }
+            text = "DOCTRINE_TRACK_SUBMARINES" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_submarine_fleet_operations" spriteType = "GFX_doctrine_submarine_operations_medium"
+            position = { x = 20 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_fleet_operations"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_submarine_fleet_operations" position = { x = 56 y = 151 }
+            text = "SUBDOCTRINE_SUBMARINE_FLEET_OPERATIONS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_fleet_operations"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_capital_hunters" spriteType = "GFX_doctrine_unrestricted_submarine_warfare_medium"
+            position = { x = 20 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_capital_hunters"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_capital_hunters" position = { x = 56 y = 233 }
+            text = "SUBDOCTRINE_SUBMARINE_CAPITAL_HUNTERS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_capital_hunters"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_submarine_area_denial" spriteType = "GFX_doctrine_submarine_area_denial_medium"
+            position = { x = 20 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_area_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_submarine_area_denial" position = { x = 56 y = 315 }
+            text = "SUBDOCTRINE_SUBMARINE_AREA_DENIAL" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_area_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_1_1" position = { x = 218 y = 89 }
+            text = "DOCTRINE_TRACK_SCREENS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_convoy_escort" spriteType = "GFX_doctrine_convoy_sailing_medium"
+            position = { x = 218 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_convoy_escort"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_convoy_escort" position = { x = 254 y = 151 }
+            text = "SUBDOCTRINE_SCREEN_CONVOY_ESCORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_convoy_escort"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_support_integrated_operations" spriteType = "GFX_doctrine_escort_patrols_medium"
+            position = { x = 218 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_support_integrated_operations"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_support_integrated_operations" position = { x = 254 y = 233 }
+            text = "SUBDOCTRINE_SCREEN_INTEGRATED_OPERATIONS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_support_integrated_operations"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_hunter_killers" spriteType = "GFX_doctrine_hunter_killer_groups_medium"
+            position = { x = 218 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_hunter_killers"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_hunter_killers" position = { x = 254 y = 315 }
+            text = "SUBDOCTRINE_SCREEN_HUNTER_KILLERS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_hunter_killers"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_torpedo_primacy" spriteType = "GFX_doctrine_torpedo_groups_medium"
+            position = { x = 218 y = 412 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_torpedo_primacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_torpedo_primacy" position = { x = 254 y = 397 }
+            text = "SUBDOCTRINE_SCREEN_TORPEDO_PRIMACY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_torpedo_primacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_1_2" position = { x = 416 y = 89 }
+            text = "DOCTRINE_TRACK_CARRIERS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_floating_airfields" spriteType = "GFX_doctrine_floating_airfield_medium"
+            position = { x = 416 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_floating_airfields"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_floating_airfields" position = { x = 452 y = 151 }
+            text = "SUBDOCTRINE_CARRIER_AIRFIELDS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_floating_airfields"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_subsidiary_carrier_support" spriteType = "GFX_doctrine_escort_carriers_medium"
+            position = { x = 416 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_subsidiary_carrier_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_subsidiary_carrier_support" position = { x = 452 y = 233 }
+            text = "SUBDOCTRINE_SUBSIDIARY_CARRIER_SUPPORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_subsidiary_carrier_support"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_naval_airfoce" spriteType = "GFX_doctrine_naval_airforce_medium"
+            position = { x = 416 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_naval_airfoce" position = { x = 452 y = 315 }
+            text = "SUBDOCTRINE_NAVAL_AIRFOCE" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_airspace_denial" spriteType = "GFX_doctrine_airspace_denial_medium"
+            position = { x = 416 y = 412 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_airspace_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_airspace_denial" position = { x = 452 y = 397 }
+            text = "SUBDOCTRINE_AIRSPACE_DENIAL" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_airspace_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_1_3" position = { x = 614 y = 89 }
+            text = "DOCTRINE_TRACK_CAPITAL_SHIPS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_fast_battleship_primacy" spriteType = "GFX_doctrine_fast_battleship_primacy_medium"
+            position = { x = 614 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_fast_battleship_primacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_fast_battleship_primacy" position = { x = 650 y = 151 }
+            text = "SUBDOCTRINE_FAST_BATTLESHIP_PRIMACY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_fast_battleship_primacy"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_battlecruiser_supremacy" spriteType = "GFX_doctrine_battlecruiser_supremacy_medium"
+            position = { x = 614 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_battlecruiser_supremacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_battlecruiser_supremacy" position = { x = 650 y = 233 }
+            text = "SUBDOCTRINE_BATTLECRUISER_SUPREMACY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_battlecruiser_supremacy"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_coastal_defence_fleet" spriteType = "GFX_doctrine_floating_fortress_medium"
+            position = { x = 614 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coastal_defence_fleet"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_coastal_defence_fleet" position = { x = 650 y = 315 }
+            text = "SUBDOCTRINE_COASTAL_DEFENCE" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coastal_defence_fleet"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_naval_gunfire_support" spriteType = "GFX_doctrine_naval_gunfire_support_medium"
+            position = { x = 614 y = 412 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_gunfire_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_naval_gunfire_support" position = { x = 650 y = 397 }
+            text = "SUBDOCTRINE_NAVAL_GUNFIRE_SUPPORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_gunfire_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_dlc_1_naval_gunfire_support" position = { x = 774 y = 392 }
+            text = "*" font = "hoi_16mbs"
+            maxWidth = 14 maxHeight = 18 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_gunfire_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_1_4" position = { x = 812 y = 89 }
+            text = "DOCTRINE_TRACK_NAVAL_LOGISTICS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_industrialized_naval_logistics" spriteType = "GFX_doctrine_industrialized_naval_logistics_medium"
+            position = { x = 812 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_industrialized_naval_logistics"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_industrialized_naval_logistics" position = { x = 848 y = 151 }
+            text = "SUBDOCTRINE_LOGISTICS_INDUSTRIALIZED_NAVAL_LOGISTICS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_industrialized_naval_logistics"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_trade_supply_network" spriteType = "GFX_doctrine_trade_supply_network_medium"
+            position = { x = 812 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_trade_supply_network"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_trade_supply_network" position = { x = 848 y = 233 }
+            text = "SUBDOCTRINE_LOGISTICS_TRADE_SUPPLY_NETWORK" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_trade_supply_network"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_centralized_logistics_planning" spriteType = "GFX_doctrine_centralized_logistics_planning_medium"
+            position = { x = 812 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_centralized_logistics_planning"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_centralized_logistics_planning" position = { x = 848 y = 315 }
+            text = "SUBDOCTRINE_LOGISTICS_CENTRALIZED_LOGISTICS_PLANNING" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_centralized_logistics_planning"
+        }
+        instantTextboxType = {
+            name = "vnr_db_dlc_1_centralized_logistics_planning" position = { x = 972 y = 310 }
+            text = "*" font = "hoi_16mbs"
+            maxWidth = 14 maxHeight = 18 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_centralized_logistics_planning"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_1_defensive_combat_support" spriteType = "GFX_doctrine_defensive_combat_support_medium"
+            position = { x = 812 y = 412 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_defensive_combat_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_1_defensive_combat_support" position = { x = 848 y = 397 }
+            text = "SUBDOCTRINE_LOGISTICS_DEFENSIVE_COMBAT_SUPPORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_defensive_combat_support"
+        }
+    }
+    containerWindowType = {
+        name = "vnr_doctrine_browser_chart_2" position = { x = 24 y = 102 }
+        size = { width = 992 height = 488 }
+        iconType = {
+            name = "vnr_db_geometry_2" spriteType = "GFX_vnr_db_chart_2"
+            position = { x = 0 y = 0 } scale = 1
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_grand_icon_2" spriteType = "GFX_doctrine_trade_interdiction_medium"
+            position = { x = 357 y = 4 } scale = 0.625
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_grand_name_2" position = { x = 401 y = 4 }
+            text = "GRAND_DOCTRINE_CONVOY_RAIDING" font = "hoi_18mbs"
+            maxWidth = 235 maxHeight = 40 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_2_0" position = { x = 20 y = 89 }
+            text = "DOCTRINE_TRACK_SUBMARINES" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_wolfpacks" spriteType = "GFX_doctrine_wolfpacks_medium"
+            position = { x = 20 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_wolfpacks"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_wolfpacks" position = { x = 56 y = 151 }
+            text = "SUBDOCTRINE_SUBMARINE_WOLFPACKS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_wolfpacks"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_submarine_area_denial" spriteType = "GFX_doctrine_submarine_area_denial_medium"
+            position = { x = 20 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_area_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_submarine_area_denial" position = { x = 56 y = 233 }
+            text = "SUBDOCTRINE_SUBMARINE_AREA_DENIAL" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_area_denial"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_operation_autonomy" spriteType = "GFX_doctrine_operation_autonomy_medium"
+            position = { x = 20 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_operation_autonomy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_operation_autonomy" position = { x = 56 y = 315 }
+            text = "SUBDOCTRINE_SUBMARINE_OPERATION_AUTONOMY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_operation_autonomy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_2_1" position = { x = 218 y = 89 }
+            text = "DOCTRINE_TRACK_SCREENS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_convoy_escort" spriteType = "GFX_doctrine_convoy_sailing_medium"
+            position = { x = 218 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_convoy_escort"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_convoy_escort" position = { x = 254 y = 151 }
+            text = "SUBDOCTRINE_SCREEN_CONVOY_ESCORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_convoy_escort"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_support_integrated_operations" spriteType = "GFX_doctrine_escort_patrols_medium"
+            position = { x = 218 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_support_integrated_operations"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_support_integrated_operations" position = { x = 254 y = 233 }
+            text = "SUBDOCTRINE_SCREEN_INTEGRATED_OPERATIONS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_support_integrated_operations"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_jeune_ecole" spriteType = "GFX_doctrine_battlefleet_concentration_medium"
+            position = { x = 218 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_jeune_ecole"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_jeune_ecole" position = { x = 254 y = 315 }
+            text = "SUBDOCTRINE_SCREEN_JEUNE_ECOLE" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_jeune_ecole"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_2_2" position = { x = 416 y = 89 }
+            text = "DOCTRINE_TRACK_CARRIERS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_floating_airfields" spriteType = "GFX_doctrine_floating_airfield_medium"
+            position = { x = 416 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_floating_airfields"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_floating_airfields" position = { x = 452 y = 151 }
+            text = "SUBDOCTRINE_CARRIER_AIRFIELDS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_floating_airfields"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_subsidiary_carrier_support" spriteType = "GFX_doctrine_escort_carriers_medium"
+            position = { x = 416 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_subsidiary_carrier_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_subsidiary_carrier_support" position = { x = 452 y = 233 }
+            text = "SUBDOCTRINE_SUBSIDIARY_CARRIER_SUPPORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_subsidiary_carrier_support"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_naval_airfoce" spriteType = "GFX_doctrine_naval_airforce_medium"
+            position = { x = 416 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_naval_airfoce" position = { x = 452 y = 315 }
+            text = "SUBDOCTRINE_NAVAL_AIRFOCE" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_airspace_denial" spriteType = "GFX_doctrine_airspace_denial_medium"
+            position = { x = 416 y = 412 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_airspace_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_airspace_denial" position = { x = 452 y = 397 }
+            text = "SUBDOCTRINE_AIRSPACE_DENIAL" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_airspace_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_2_3" position = { x = 614 y = 89 }
+            text = "DOCTRINE_TRACK_CAPITAL_SHIPS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_battlecruiser_supremacy" spriteType = "GFX_doctrine_battlecruiser_supremacy_medium"
+            position = { x = 614 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_battlecruiser_supremacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_battlecruiser_supremacy" position = { x = 650 y = 151 }
+            text = "SUBDOCTRINE_BATTLECRUISER_SUPREMACY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_battlecruiser_supremacy"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_armored_raiders" spriteType = "GFX_doctrine_capital_ship_raiders_medium"
+            position = { x = 614 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_armored_raiders"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_armored_raiders" position = { x = 650 y = 233 }
+            text = "SUBDOCTRINE_ARMORED_RAIDERS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_armored_raiders"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_coastal_defence_fleet" spriteType = "GFX_doctrine_floating_fortress_medium"
+            position = { x = 614 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coastal_defence_fleet"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_coastal_defence_fleet" position = { x = 650 y = 315 }
+            text = "SUBDOCTRINE_COASTAL_DEFENCE" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coastal_defence_fleet"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_2_4" position = { x = 812 y = 89 }
+            text = "DOCTRINE_TRACK_NAVAL_LOGISTICS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_coverted_oceanic_replenishment" spriteType = "GFX_doctrine_coverted_oceanic_replenishment_medium"
+            position = { x = 812 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_coverted_oceanic_replenishment" position = { x = 848 y = 151 }
+            text = "SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_trade_supply_network" spriteType = "GFX_doctrine_trade_supply_network_medium"
+            position = { x = 812 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_trade_supply_network"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_trade_supply_network" position = { x = 848 y = 233 }
+            text = "SUBDOCTRINE_LOGISTICS_TRADE_SUPPLY_NETWORK" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_trade_supply_network"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_centralized_logistics_planning" spriteType = "GFX_doctrine_centralized_logistics_planning_medium"
+            position = { x = 812 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_centralized_logistics_planning"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_centralized_logistics_planning" position = { x = 848 y = 315 }
+            text = "SUBDOCTRINE_LOGISTICS_CENTRALIZED_LOGISTICS_PLANNING" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_centralized_logistics_planning"
+        }
+        instantTextboxType = {
+            name = "vnr_db_dlc_2_centralized_logistics_planning" position = { x = 972 y = 310 }
+            text = "*" font = "hoi_16mbs"
+            maxWidth = 14 maxHeight = 18 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_centralized_logistics_planning"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_2_defensive_combat_support" spriteType = "GFX_doctrine_defensive_combat_support_medium"
+            position = { x = 812 y = 412 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_defensive_combat_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_2_defensive_combat_support" position = { x = 848 y = 397 }
+            text = "SUBDOCTRINE_LOGISTICS_DEFENSIVE_COMBAT_SUPPORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_defensive_combat_support"
+        }
+    }
+    containerWindowType = {
+        name = "vnr_doctrine_browser_chart_3" position = { x = 24 y = 102 }
+        size = { width = 992 height = 488 }
+        iconType = {
+            name = "vnr_db_geometry_3" spriteType = "GFX_vnr_db_chart_3"
+            position = { x = 0 y = 0 } scale = 1
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_grand_icon_3" spriteType = "GFX_doctrine_base_strike_medium"
+            position = { x = 357 y = 4 } scale = 0.625
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_grand_name_3" position = { x = 401 y = 4 }
+            text = "GRAND_DOCTRINE_BASE_STRIKE" font = "hoi_18mbs"
+            maxWidth = 235 maxHeight = 40 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_3_0" position = { x = 20 y = 89 }
+            text = "DOCTRINE_TRACK_SUBMARINES" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_submarine_fleet_operations" spriteType = "GFX_doctrine_submarine_operations_medium"
+            position = { x = 20 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_fleet_operations"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_submarine_fleet_operations" position = { x = 56 y = 151 }
+            text = "SUBDOCTRINE_SUBMARINE_FLEET_OPERATIONS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_fleet_operations"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_capital_hunters" spriteType = "GFX_doctrine_unrestricted_submarine_warfare_medium"
+            position = { x = 20 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_capital_hunters"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_capital_hunters" position = { x = 56 y = 233 }
+            text = "SUBDOCTRINE_SUBMARINE_CAPITAL_HUNTERS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_capital_hunters"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_operation_autonomy" spriteType = "GFX_doctrine_operation_autonomy_medium"
+            position = { x = 20 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_operation_autonomy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_operation_autonomy" position = { x = 56 y = 315 }
+            text = "SUBDOCTRINE_SUBMARINE_OPERATION_AUTONOMY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_operation_autonomy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_3_1" position = { x = 218 y = 89 }
+            text = "DOCTRINE_TRACK_SCREENS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_convoy_escort" spriteType = "GFX_doctrine_convoy_sailing_medium"
+            position = { x = 218 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_convoy_escort"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_convoy_escort" position = { x = 254 y = 151 }
+            text = "SUBDOCTRINE_SCREEN_CONVOY_ESCORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_convoy_escort"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_support_integrated_operations" spriteType = "GFX_doctrine_escort_patrols_medium"
+            position = { x = 218 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_support_integrated_operations"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_support_integrated_operations" position = { x = 254 y = 233 }
+            text = "SUBDOCTRINE_SCREEN_INTEGRATED_OPERATIONS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_support_integrated_operations"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_hunter_killers" spriteType = "GFX_doctrine_hunter_killer_groups_medium"
+            position = { x = 218 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_hunter_killers"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_hunter_killers" position = { x = 254 y = 315 }
+            text = "SUBDOCTRINE_SCREEN_HUNTER_KILLERS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_hunter_killers"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_torpedo_primacy" spriteType = "GFX_doctrine_torpedo_groups_medium"
+            position = { x = 218 y = 412 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_torpedo_primacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_torpedo_primacy" position = { x = 254 y = 397 }
+            text = "SUBDOCTRINE_SCREEN_TORPEDO_PRIMACY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_torpedo_primacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_3_2" position = { x = 416 y = 89 }
+            text = "DOCTRINE_TRACK_CARRIERS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_carrier_battlegroups" spriteType = "GFX_doctrine_carrier_battlegroups_medium"
+            position = { x = 416 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_carrier_battlegroups"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_carrier_battlegroups" position = { x = 452 y = 151 }
+            text = "SUBDOCTRINE_CARRIER_BATTLEGROUPS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_carrier_battlegroups"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_floating_airfields" spriteType = "GFX_doctrine_floating_airfield_medium"
+            position = { x = 416 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_floating_airfields"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_floating_airfields" position = { x = 452 y = 233 }
+            text = "SUBDOCTRINE_CARRIER_AIRFIELDS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_floating_airfields"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_carrier_concentration" spriteType = "GFX_doctrine_carrier_primacy_medium"
+            position = { x = 416 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_carrier_concentration"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_carrier_concentration" position = { x = 452 y = 315 }
+            text = "SUBDOCTRINE_CARRIER_CONCENTRATION" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_carrier_concentration"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_airspace_denial" spriteType = "GFX_doctrine_airspace_denial_medium"
+            position = { x = 416 y = 412 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_airspace_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_airspace_denial" position = { x = 452 y = 397 }
+            text = "SUBDOCTRINE_AIRSPACE_DENIAL" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_airspace_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_3_3" position = { x = 614 y = 89 }
+            text = "DOCTRINE_TRACK_CAPITAL_SHIPS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_fast_battleship_primacy" spriteType = "GFX_doctrine_fast_battleship_primacy_medium"
+            position = { x = 614 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_fast_battleship_primacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_fast_battleship_primacy" position = { x = 650 y = 151 }
+            text = "SUBDOCTRINE_FAST_BATTLESHIP_PRIMACY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_fast_battleship_primacy"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_battlecruiser_supremacy" spriteType = "GFX_doctrine_battlecruiser_supremacy_medium"
+            position = { x = 614 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_battlecruiser_supremacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_battlecruiser_supremacy" position = { x = 650 y = 233 }
+            text = "SUBDOCTRINE_BATTLECRUISER_SUPREMACY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_battlecruiser_supremacy"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_battleship_antiair_screen" spriteType = "GFX_doctrine_battleship_antiair_screen_medium"
+            position = { x = 614 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_battleship_antiair_screen"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_battleship_antiair_screen" position = { x = 650 y = 315 }
+            text = "SUBDOCTRINE_BATTLESHIP_ANTIAIR_SCREEN" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_battleship_antiair_screen"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_3_4" position = { x = 812 y = 89 }
+            text = "DOCTRINE_TRACK_NAVAL_LOGISTICS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_coverted_oceanic_replenishment" spriteType = "GFX_doctrine_coverted_oceanic_replenishment_medium"
+            position = { x = 812 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_coverted_oceanic_replenishment" position = { x = 848 y = 151 }
+            text = "SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_industrialized_naval_logistics" spriteType = "GFX_doctrine_industrialized_naval_logistics_medium"
+            position = { x = 812 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_industrialized_naval_logistics"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_industrialized_naval_logistics" position = { x = 848 y = 233 }
+            text = "SUBDOCTRINE_LOGISTICS_INDUSTRIALIZED_NAVAL_LOGISTICS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_industrialized_naval_logistics"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_trade_supply_network" spriteType = "GFX_doctrine_trade_supply_network_medium"
+            position = { x = 812 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_trade_supply_network"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_trade_supply_network" position = { x = 848 y = 315 }
+            text = "SUBDOCTRINE_LOGISTICS_TRADE_SUPPLY_NETWORK" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_trade_supply_network"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_3_centralized_logistics_planning" spriteType = "GFX_doctrine_centralized_logistics_planning_medium"
+            position = { x = 812 y = 412 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_centralized_logistics_planning"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_3_centralized_logistics_planning" position = { x = 848 y = 397 }
+            text = "SUBDOCTRINE_LOGISTICS_CENTRALIZED_LOGISTICS_PLANNING" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_centralized_logistics_planning"
+        }
+        instantTextboxType = {
+            name = "vnr_db_dlc_3_centralized_logistics_planning" position = { x = 972 y = 392 }
+            text = "*" font = "hoi_16mbs"
+            maxWidth = 14 maxHeight = 18 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_centralized_logistics_planning"
+        }
+    }
+    containerWindowType = {
+        name = "vnr_doctrine_browser_chart_4" position = { x = 24 y = 102 }
+        size = { width = 992 height = 488 }
+        iconType = {
+            name = "vnr_db_geometry_4" spriteType = "GFX_vnr_db_chart_4"
+            position = { x = 0 y = 0 } scale = 1
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_grand_icon_4" spriteType = "GFX_doctrine_littoral_defense_medium"
+            position = { x = 357 y = 4 } scale = 0.625
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_grand_name_4" position = { x = 401 y = 4 }
+            text = "GRAND_DOCTRINE_LITTORAL_DEFENSE" font = "hoi_18mbs"
+            maxWidth = 235 maxHeight = 40 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_4_0" position = { x = 20 y = 89 }
+            text = "DOCTRINE_TRACK_SUBMARINES" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_submarine_coastal_defense" spriteType = "GFX_doctrine_undersea_blockade_medium"
+            position = { x = 20 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_coastal_defense"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_submarine_coastal_defense" position = { x = 56 y = 151 }
+            text = "SUBDOCTRINE_SUBMARINE_COASTAL_DEFENSE" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_coastal_defense"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_submarine_area_denial" spriteType = "GFX_doctrine_submarine_area_denial_medium"
+            position = { x = 20 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_area_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_submarine_area_denial" position = { x = 56 y = 233 }
+            text = "SUBDOCTRINE_SUBMARINE_AREA_DENIAL" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_submarine_area_denial"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_4_1" position = { x = 218 y = 89 }
+            text = "DOCTRINE_TRACK_SCREENS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_torpedo_primacy" spriteType = "GFX_doctrine_torpedo_groups_medium"
+            position = { x = 218 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_torpedo_primacy"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_torpedo_primacy" position = { x = 254 y = 151 }
+            text = "SUBDOCTRINE_SCREEN_TORPEDO_PRIMACY" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_torpedo_primacy"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_jeune_ecole" spriteType = "GFX_doctrine_battlefleet_concentration_medium"
+            position = { x = 218 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_jeune_ecole"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_jeune_ecole" position = { x = 254 y = 233 }
+            text = "SUBDOCTRINE_SCREEN_JEUNE_ECOLE" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_jeune_ecole"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_mosquito_fleet" spriteType = "GFX_doctrine_mosquito_fleet_medium"
+            position = { x = 218 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_mosquito_fleet"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_mosquito_fleet" position = { x = 254 y = 315 }
+            text = "SUBDOCTRINE_SCREEN_MOSQUITO_FLEET" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_mosquito_fleet"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_4_2" position = { x = 416 y = 89 }
+            text = "DOCTRINE_TRACK_CARRIERS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_subsidiary_carrier_support" spriteType = "GFX_doctrine_escort_carriers_medium"
+            position = { x = 416 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_subsidiary_carrier_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_subsidiary_carrier_support" position = { x = 452 y = 151 }
+            text = "SUBDOCTRINE_SUBSIDIARY_CARRIER_SUPPORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_subsidiary_carrier_support"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_naval_airfoce" spriteType = "GFX_doctrine_naval_airforce_medium"
+            position = { x = 416 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_naval_airfoce" position = { x = 452 y = 233 }
+            text = "SUBDOCTRINE_NAVAL_AIRFOCE" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_4_3" position = { x = 614 y = 89 }
+            text = "DOCTRINE_TRACK_CAPITAL_SHIPS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_armored_raiders" spriteType = "GFX_doctrine_capital_ship_raiders_medium"
+            position = { x = 614 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_armored_raiders"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_armored_raiders" position = { x = 650 y = 151 }
+            text = "SUBDOCTRINE_ARMORED_RAIDERS" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_armored_raiders"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_coastal_defence_fleet" spriteType = "GFX_doctrine_floating_fortress_medium"
+            position = { x = 614 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coastal_defence_fleet"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_coastal_defence_fleet" position = { x = 650 y = 233 }
+            text = "SUBDOCTRINE_COASTAL_DEFENCE" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coastal_defence_fleet"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_naval_gunfire_support" spriteType = "GFX_doctrine_naval_gunfire_support_medium"
+            position = { x = 614 y = 330 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_gunfire_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_naval_gunfire_support" position = { x = 650 y = 315 }
+            text = "SUBDOCTRINE_NAVAL_GUNFIRE_SUPPORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_gunfire_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_dlc_4_naval_gunfire_support" position = { x = 774 y = 310 }
+            text = "*" font = "hoi_16mbs"
+            maxWidth = 14 maxHeight = 18 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_naval_gunfire_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_track_4_4" position = { x = 812 y = 89 }
+            text = "DOCTRINE_TRACK_NAVAL_LOGISTICS" font = "hoi_16mbs"
+            maxWidth = 172 maxHeight = 32 format = center
+            vertical_alignment = center
+            alwaystransparent = yes
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_coverted_oceanic_replenishment" spriteType = "GFX_doctrine_coverted_oceanic_replenishment_medium"
+            position = { x = 812 y = 166 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_coverted_oceanic_replenishment" position = { x = 848 y = 151 }
+            text = "SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+        }
+        iconType = {
+            name = "vnr_db_node_icon_4_defensive_combat_support" spriteType = "GFX_doctrine_defensive_combat_support_medium"
+            position = { x = 812 y = 248 } scale = 0.5
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_defensive_combat_support"
+        }
+        instantTextboxType = {
+            name = "vnr_db_node_name_4_defensive_combat_support" position = { x = 848 y = 233 }
+            text = "SUBDOCTRINE_LOGISTICS_DEFENSIVE_COMBAT_SUPPORT" font = "hoi_16mbs"
+            maxWidth = 134 maxHeight = 64 format = center
+            vertical_alignment = center
+            alwaystransparent = no
+            pdx_tooltip = "VNR_DB_NODE_defensive_combat_support"
+        }
+    }
+}
