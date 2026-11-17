@@ -1,6 +1,10 @@
 spriteTypes = {	
 	# slot
 	spriteType = {
+		name = "GFX_EMSI_fixed_ship_role_slot"
+		texturefile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/role.dds"
+	}
+	spriteType = {
 		name = "GFX_EMSI_fixed_ship_airplane_launcher_slot"
 		texturefile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
 	}
