@@ -213,7 +213,7 @@ equipments = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = ship_mast_1
 			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_role_slot = ship_hull_cruiser_role_c
+			fixed_ship_role_slot = empty
 			mid_1_custom_slot = empty
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
@@ -409,7 +409,7 @@ equipments = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_secondaries_slot = empty
 			fixed_ship_radar_slot = ship_mast_1
-			fixed_ship_role_slot = ship_hull_cruiser_role_cd
+			fixed_ship_role_slot = empty
 		}
 
 		module_count_limit = {
@@ -586,7 +586,7 @@ equipments = {
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = ship_mast_1
 			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_role_slot = ship_hull_cruiser_role_c
+			fixed_ship_role_slot = empty
 			mid_1_custom_slot = empty
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
@@ -682,6 +682,8 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_4
+			fixed_ship_radar_slot = empty
+			fixed_ship_role_slot = empty
 		}
 		naval_dominance_factor = 115
 	}
@@ -843,6 +845,8 @@ equipments = {
 		}
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_5
+			fixed_ship_radar_slot = empty
+			fixed_ship_role_slot = empty
 		}
 		naval_dominance_factor = 130
 	}
@@ -1005,6 +1009,8 @@ equipments = {
 		}
 		default_modules = {
 			fixed_ship_engine_slot = cruiser_ship_engine_5
+			fixed_ship_radar_slot = empty
+			fixed_ship_role_slot = empty
 		}
 		naval_dominance_factor = 140
 	}
@@ -1099,16 +1105,14 @@ equipments = {
 			rear_2_custom_slot = rear_1_custom_slot
 		}
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1_double
+			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
-			front_1_custom_slot = ship_anti_air_1
 			mid_1_custom_slot = ship_torpedo_1
 			mid_2_custom_slot = ship_torpedo_1
 			rear_1_custom_slot = ship_torpedo_1
-			rear_2_custom_slot = ship_anti_air_1
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0

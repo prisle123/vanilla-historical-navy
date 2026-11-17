@@ -69,7 +69,7 @@ naval_screen_leader = {
 
 			type = vnr_ship_hull_light_3
 			modules = {
-				fixed_ship_engine_slot = { upgrade = current any_of = { light_ship_engine_6 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
+				fixed_ship_engine_slot = { any_of = { light_ship_engine_6 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
 				fixed_ship_battery_slot = ship_light_battery
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system

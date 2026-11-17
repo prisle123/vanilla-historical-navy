@@ -1245,6 +1245,7 @@ technologies = {
 			ship_missile_1
 			ship_cruise_missile_1
 			ship_missile_aa_1
+			ship_carrier_missile_aa_1
 		}
 
 		special_project_specialization = { specialization_naval specialization_air }
@@ -1280,6 +1281,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_missile_2
 			ship_missile_aa_2
+			ship_carrier_missile_aa_2
 		}
 
 		special_project_specialization = { specialization_naval specialization_air }

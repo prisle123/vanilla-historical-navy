@@ -55,8 +55,8 @@ equipments = {
         }
 
         default_modules = {
-            fixed_ship_engine_slot = empty
-            fixed_ship_role_slot = ship_hull_civilian_role_ap
+            fixed_ship_engine_slot = civilian_ship_engine_1
+            fixed_ship_role_slot = empty
         }
 
         lg_armor_piercing = 0

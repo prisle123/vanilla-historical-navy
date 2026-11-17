@@ -9,11 +9,8 @@ equipment_modules = {
 		gui_category = ship_radar
 		
 		add_stats = {
-			build_cost_ic = 70
+			build_cost_ic = 50
 			surface_detection = 1
-		}
-		forbid_module_categories = {
-			ship_radar
 		}
 		manpower = 5
 	}

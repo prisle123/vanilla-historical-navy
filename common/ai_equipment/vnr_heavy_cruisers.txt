@@ -22,12 +22,9 @@ naval_cruiser_heavy = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_1 } }
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar }
-					module = empty
-				}
-				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_1 } }
+				fixed_ship_engine_slot = { any_of = { cruiser_ship_engine_1 } }
+				fixed_ship_radar_slot = ship_mast
+				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_role_slot = cds_role
 				mid_1_custom_slot = ship_anti_air
@@ -61,12 +58,9 @@ naval_cruiser_heavy = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_2 cruiser_ship_engine_1 } }
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar }
-					module = empty
-				}
-				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_engine_slot = { any_of = { cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_radar_slot = ship_mast
+				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = ship_secondaries_light
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
@@ -103,12 +97,9 @@ naval_cruiser_heavy = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar }
-					module = empty
-				}
-				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_engine_slot = { any_of = { cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
+				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
 				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
@@ -147,9 +138,9 @@ naval_cruiser_heavy = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
-				fixed_ship_radar_slot = { any_of = { ship_radar } }
-				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_engine_slot = cruiser_ship_engine_4
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
+				fixed_ship_armor_slot = ship_cruiser_armor
 				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
@@ -189,9 +180,9 @@ naval_cruiser_heavy = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { upgrade = current any_of = { cruiser_ship_engine_5 cruiser_ship_engine_4 cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
-				fixed_ship_radar_slot = { any_of = { ship_radar } }
-				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_4 ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_engine_slot = cruiser_ship_engine_5
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_armor_slot = ship_cruiser_armor
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
@@ -213,7 +204,7 @@ naval_cruiser_heavy = {
 	}
 
 	capital_cruiser_1949 = {
-		name = vnr_cam_1949
+		name = vnr_ca_1949
 		role_icon_index = 55
 
 		priority = {
@@ -233,19 +224,220 @@ naval_cruiser_heavy = {
 			modules = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_missile_aa
-				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_engine_slot = { any_of = { cruiser_ship_engine cruiser_ship_engine_nuclear } }
-				fixed_ship_radar_slot = { any_of = { ship_radar } }
-				fixed_ship_armor_slot = { upgrade = current any_of = { ship_armor_cruiser_4 ship_armor_cruiser_3 ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
+				fixed_ship_engine_slot = cruiser_ship_engine
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_armor_slot = ship_cruiser_armor
 				fixed_ship_role_slot = ship_hull_cruiser_role_cg
 				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_extra_missile_slot = full_missile_upgrade
-				front_1_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
+				front_1_custom_slot = { any_of = { ship_missile_2 ship_missile_1 } }
 				front_2_custom_slot = dp_light_battery
 				mid_1_custom_slot = ship_missile_aa
 				mid_2_custom_slot = ship_dp_secondaries
-				rear_1_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
-				rear_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
+				rear_1_custom_slot = { any_of = { ship_missile_2 ship_missile_1 } }
+				rear_2_custom_slot = { any_of = { ship_missile_2 ship_missile_1 } }
+			}
+		}
+		allowed_modules = {
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
+			ship_missile_aa
+		}
+	}
+}
+
+
+naval_cruiser_heavy_expert = {
+	category = naval
+	available_for = { ENG USA JAP GER ITA FRA SOV }
+	roles = { vnr_naval_cruiser_heavy }
+	priority = { base = 30 }
+	
+	
+	capital_cruiser_1932_expert = {
+		name = vnr_ca_1932_expert
+		role_icon_index = 27
+
+		priority = {
+			base = 10
+			modifier = { factor = 0.1 has_tech = improved_ship_hull_cruiser }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
+
+		
+		history = yes
+		target_variant = {
+			match_value = 800.0
+			type = vnr_ship_hull_cruiser_3
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = { any_of = { cruiser_ship_engine_3 cruiser_ship_engine_2 cruiser_ship_engine_1 } }
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
+				fixed_ship_armor_slot = { any_of = { ship_armor_cruiser_2 ship_armor_cruiser_1 } }
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
+				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				front_1_custom_slot = ship_medium_battery
+				mid_1_custom_slot = ship_anti_air
+				mid_2_custom_slot = ship_torpedo
+				mid_3_custom_slot = ship_airplane_launcher
+				rear_1_custom_slot = ship_medium_battery
+				rear_2_custom_slot = ship_medium_battery
+			}
+		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
+		}
+	}
+
+	capital_cruiser_1940_expert = {
+		name = vnr_ca_1940_expert
+		role_icon_index = 27
+
+		priority = {
+			base = 20
+			modifier = { factor = 0.1 has_tech = advanced_ship_hull_cruiser }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
+
+		
+		history = yes
+		target_variant = {
+			match_value = 2500.0
+
+			type = vnr_ship_hull_cruiser_4
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = cruiser_ship_engine_4
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
+				fixed_ship_armor_slot = ship_cruiser_armor
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
+				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				front_1_custom_slot = ship_medium_battery
+				front_2_custom_slot = ship_medium_battery
+				mid_1_custom_slot = ship_anti_air
+				mid_2_custom_slot = ship_dp_secondaries
+				mid_3_custom_slot = ship_airplane_launcher
+				rear_1_custom_slot = ship_medium_battery
+				rear_2_custom_slot = ship_medium_battery
+			}
+		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
+		}
+	}
+
+	capital_cruiser_1944_expert = {
+		name = vnr_ca_1944_expert
+		role_icon_index = 27
+
+		priority = {
+			base = 30
+			modifier = { factor = 0.1 has_tech = modern_ship_hull_cruiser }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
+
+		
+		history = yes
+		target_variant = {
+			match_value = 5000.0
+
+			type = vnr_ship_hull_cruiser_5
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_engine_slot = cruiser_ship_engine_5
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_armor_slot = ship_cruiser_armor
+				fixed_ship_role_slot = ship_hull_cruiser_role_ca
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous heavy_miscellaneous generic_miscellaneous } }
+				front_1_custom_slot = ship_medium_battery
+				front_2_custom_slot = ship_medium_battery
+				mid_1_custom_slot = ship_anti_air
+				mid_2_custom_slot = ship_dp_secondaries
+				mid_3_custom_slot = ship_airplane_launcher
+				rear_1_custom_slot = ship_medium_battery
+				rear_2_custom_slot = ship_medium_battery
+			}
+		}
+		allowed_modules = {
+			ship_mast
+			ship_fire_control_system
+			ship_radar
+			ship_anti_air
+		}
+	}
+
+	capital_cruiser_1949_expert = {
+		name = vnr_ca_1949_expert
+		role_icon_index = 55
+
+		priority = {
+			factor = 0
+			modifier = {
+				add = 50
+				has_tech = modern_ship_hull_cruiser
+			}
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
+		}
+
+		
+		history = yes
+		target_variant = {
+			match_value = 9000.0
+
+			type = vnr_ship_hull_cruiser_6
+			modules = {
+				fixed_ship_battery_slot = dp_light_battery
+				fixed_ship_anti_air_slot = ship_missile_aa
+				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
+				fixed_ship_engine_slot = cruiser_ship_engine
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_armor_slot = ship_cruiser_armor
+				fixed_ship_role_slot = ship_hull_cruiser_role_cg
+				fixed_ship_secondaries_slot = ship_dp_secondaries
+				fixed_ship_extra_missile_slot = full_missile_upgrade
+				front_1_custom_slot = { any_of = { ship_missile_2 ship_missile_1 } }
+				front_2_custom_slot = dp_light_battery
+				mid_1_custom_slot = ship_missile_aa
+				mid_2_custom_slot = ship_dp_secondaries
+				rear_1_custom_slot = { any_of = { ship_missile_2 ship_missile_1 } }
+				rear_2_custom_slot = { any_of = { ship_missile_2 ship_missile_1 } }
 			}
 		}
 		allowed_modules = {

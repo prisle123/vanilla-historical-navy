@@ -402,7 +402,7 @@ vnr_historical_ita_ca = {
 			modules = {
 				fixed_ship_battery_slot = ship_medium_battery_double
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_5
@@ -495,7 +495,7 @@ vnr_historical_ita_cl = {
 				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_3
-				fixed_ship_armor_slot = ship_armor_cruiser
+				fixed_ship_armor_slot = ship_cruiser_armor
 				fixed_ship_secondaries_slot = ship_dp_secondaries
 				fixed_ship_airplane_launcher_slot = ship_airplane_launcher
 				fixed_ship_role_slot = ship_hull_cruiser_role_c
@@ -1216,7 +1216,7 @@ vnr_historical_ita_cv = {
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = carrier_ship_engine_4
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
-				fixed_ship_armor_slot = ship_armor_carrier
+				fixed_ship_armor_slot = ship_carrier_armor
 				fixed_ship_carrier_miscellaneous_slot_1 = empty
 				fixed_ship_carrier_miscellaneous_slot_2 = empty
 				fixed_ship_flight_deck_slot = carrier_wooden_deck

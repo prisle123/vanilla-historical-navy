@@ -259,7 +259,7 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_role_slot = carrier_bb_conversion
+			fixed_ship_role_slot = empty
 			mid_1_custom_slot = empty
 		}
 		naval_range = 6500
@@ -352,7 +352,7 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
-			fixed_ship_role_slot = ship_hull_carrier_role_cv
+			fixed_ship_role_slot = empty
 		}
 		naval_dominance_factor = 180
 	}
@@ -431,7 +431,7 @@ equipments = {
 			front_1_custom_slot = empty
 			mid_1_custom_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_3
-			fixed_ship_role_slot = ship_hull_carrier_role_cv
+			fixed_ship_role_slot = empty
 		}
 		naval_range = 5800
 		reliability = 0.75
@@ -540,7 +540,7 @@ equipments = {
 		}
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_4
-			fixed_ship_role_slot = ship_hull_carrier_role_cv
+			fixed_ship_role_slot = empty
 		}
 
 		naval_range = 6600
