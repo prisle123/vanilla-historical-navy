@@ -24,7 +24,7 @@ naval_screen_cruiser = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_cl
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous generic_miscellaneous } }
@@ -56,7 +56,7 @@ naval_screen_cruiser = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_cl
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous generic_miscellaneous } }
@@ -88,7 +88,7 @@ naval_screen_cruiser = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_cl
 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous generic_miscellaneous } }

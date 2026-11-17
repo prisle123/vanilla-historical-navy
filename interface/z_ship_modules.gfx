@@ -226,6 +226,22 @@ spriteTypes = {
 		name = "GFX_SMI_ship_propulsion_range"
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_heavy_boiler.png"
 	}
+	spriteType = {
+		name = "GFX_SMI_dd_role"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_dd.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dd_role_missile"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_light_role_ddg.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_c_role"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_c.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_c_role_missile"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_hull_cruiser_role_cg.png"
+	}
 	
 	# topview images
 	spriteType = {

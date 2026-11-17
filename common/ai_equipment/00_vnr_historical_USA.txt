@@ -112,7 +112,7 @@ vnr_historical_usa_bb = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air_heavy
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = heavy_ship_engine_4
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = ship_armor_bb_3
@@ -149,7 +149,7 @@ vnr_historical_usa_bb = {
 				fixed_ship_battery_slot = ship_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air_heavy
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = heavy_ship_engine_5
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = ship_armor_bb_4
@@ -277,7 +277,7 @@ vnr_historical_usa_ca = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_4
 				fixed_ship_armor_slot = ship_armor_cruiser_3
@@ -319,7 +319,7 @@ vnr_historical_usa_ca = {
 				fixed_ship_battery_slot = ship_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_5
 				fixed_ship_armor_slot = ship_armor_cruiser_4
@@ -358,8 +358,8 @@ vnr_historical_usa_ca = {
 			modules = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { any_of = { ship_missile_control_system ship_fire_control_system } }
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_engine_slot = cruiser_ship_engine_5
 				fixed_ship_armor_slot = ship_armor_cruiser_4
@@ -449,7 +449,7 @@ vnr_historical_usa_cl = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_4
 				fixed_ship_armor_slot = ship_armor_cruiser_3
@@ -491,7 +491,7 @@ vnr_historical_usa_cl = {
 				fixed_ship_battery_slot = ship_light_medium_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_5
 				fixed_ship_armor_slot = ship_armor_cruiser_4
@@ -527,8 +527,8 @@ vnr_historical_usa_cl = {
 			modules = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { any_of = { ship_missile_control_system ship_fire_control_system } }
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_engine_slot = cruiser_ship_engine_5
 				fixed_ship_armor_slot = ship_armor_cruiser_4
@@ -580,7 +580,7 @@ vnr_historical_usa_cb = {
 				fixed_ship_battery_slot = ship_medium_heavy_battery_triple
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_4
 				fixed_ship_armor_slot = ship_armor_cruiser_heavy
@@ -708,7 +708,7 @@ vnr_historical_usa_dd = {
 				fixed_ship_battery_slot = dp_light_battery_single
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_4
@@ -746,7 +746,7 @@ vnr_historical_usa_dd = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_engine_slot = light_ship_engine_5
@@ -783,8 +783,8 @@ vnr_historical_usa_dd = {
 			modules = {
 				fixed_ship_battery_slot = ship_missile
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { any_of = { ship_missile_control_system ship_fire_control_system } }
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_torpedo_slot = ship_torpedo_3
 				fixed_ship_engine_slot = light_ship_engine_5
@@ -1054,7 +1054,7 @@ vnr_historical_usa_cv = {
 				fixed_ship_deck_slot_1 = ship_deck_space_open
 				fixed_ship_deck_slot_2 = ship_deck_space_open
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = carrier_ship_engine_3
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = ship_carrier_armor
@@ -1095,7 +1095,7 @@ vnr_historical_usa_cv = {
 				fixed_ship_deck_slot_1 = ship_deck_space_armored
 				fixed_ship_deck_slot_2 = ship_deck_space_armored
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = carrier_ship_engine_4
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
@@ -1133,7 +1133,7 @@ vnr_historical_usa_cv = {
 				fixed_ship_deck_slot_1 = ship_deck_space_big
 				fixed_ship_deck_slot_2 = ship_deck_space_big
 				fixed_ship_anti_air_slot = ship_carrier_missile_aa
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = carrier_ship_engine_4
 				fixed_ship_secondaries_slot = ship_dp_secondaries_bb
 				fixed_ship_armor_slot = ship_carrier_armor_heavy
@@ -1181,7 +1181,7 @@ vnr_historical_usa_cvl = {
 				fixed_ship_deck_slot_1 = ship_deck_space_small
 				fixed_ship_deck_slot_2 = ship_deck_space_small
 				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_engine_slot = cruiser_ship_engine_4
 				fixed_ship_secondaries_slot = empty
 				fixed_ship_armor_slot = empty

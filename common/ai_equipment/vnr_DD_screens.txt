@@ -190,7 +190,7 @@ naval_screen = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_anti_air_slot = { any_of = { ship_anti_air } }
 				fixed_ship_role_slot = ship_hull_light_role_dd
@@ -230,8 +230,8 @@ naval_screen = {
 				fixed_ship_engine_slot = { any_of = { light_ship_engine_5 light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
 				fixed_ship_battery_slot = { any_of = { ship_missile_2 ship_missile_1 } }
 				fixed_ship_torpedo_slot = ship_torpedo
-				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { any_of = { ship_missile_control_system ship_fire_control_system } }
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_anti_air_slot = { any_of = { ship_missile_aa ship_anti_air } }
 				fixed_ship_role_slot = ship_hull_light_role_ddg
@@ -328,7 +328,7 @@ naval_screen_expert = {
 				fixed_ship_battery_slot = ship_light_battery_double
 				fixed_ship_torpedo_slot = ship_torpedo
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_dd
@@ -371,8 +371,8 @@ naval_screen_expert = {
 				fixed_ship_engine_slot = { any_of = { light_ship_engine_5 light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
 				fixed_ship_battery_slot = ship_light_battery_double
 				fixed_ship_torpedo_slot = ship_torpedo
-				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { any_of = { ship_missile_control_system ship_fire_control_system } }
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_role_slot = ship_hull_light_role_dd
@@ -414,8 +414,8 @@ naval_screen_expert = {
 				fixed_ship_engine_slot = { any_of = { light_ship_engine_5 light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
 				fixed_ship_battery_slot = ship_light_battery_double
 				fixed_ship_torpedo_slot = ship_torpedo
-				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { any_of = { ship_missile_control_system ship_fire_control_system } }
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_anti_air_slot = ship_missile_aa
 				fixed_ship_role_slot = ship_hull_light_role_dda
@@ -459,8 +459,8 @@ naval_screen_expert = {
 				fixed_ship_engine_slot = { any_of = { light_ship_engine_5 light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
 				fixed_ship_battery_slot = { any_of = { ship_missile_2 ship_missile_1 } }
 				fixed_ship_torpedo_slot = ship_torpedo
-				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_fire_control_system_slot = { any_of = { ship_missile_control_system ship_fire_control_system } }
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_extra_electronics_slot = ship_sonar
 				fixed_ship_role_slot = ship_hull_light_role_ddg
 				fixed_ship_extra_secondaries_slot = ship_radar_jammer

@@ -181,7 +181,7 @@ naval_cruiser_heavy = {
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_engine_slot = cruiser_ship_engine_5
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_armor_slot = ship_cruiser_armor
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				fixed_ship_secondaries_slot = ship_dp_secondaries
@@ -224,9 +224,9 @@ naval_cruiser_heavy = {
 			modules = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_missile_aa
-				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
+				fixed_ship_fire_control_system_slot = { any_of = { ship_missile_control_system ship_fire_control_system } }
 				fixed_ship_engine_slot = cruiser_ship_engine
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_armor_slot = ship_cruiser_armor
 				fixed_ship_role_slot = ship_hull_cruiser_role_cg
 				fixed_ship_secondaries_slot = ship_dp_secondaries
@@ -376,7 +376,7 @@ naval_cruiser_heavy_expert = {
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				fixed_ship_engine_slot = cruiser_ship_engine_5
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_armor_slot = ship_cruiser_armor
 				fixed_ship_role_slot = ship_hull_cruiser_role_ca
 				fixed_ship_secondaries_slot = ship_dp_secondaries
@@ -425,9 +425,9 @@ naval_cruiser_heavy_expert = {
 			modules = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_missile_aa
-				fixed_ship_fire_control_system_slot = { any_of = { missile_fire_control_system ship_fire_control_system } }
+				fixed_ship_fire_control_system_slot = { any_of = { ship_missile_control_system ship_fire_control_system } }
 				fixed_ship_engine_slot = cruiser_ship_engine
-				fixed_ship_radar_slot = ship_radar
+				fixed_ship_radar_slot = { any_of = { ship_radar ship_mast } }
 				fixed_ship_armor_slot = ship_cruiser_armor
 				fixed_ship_role_slot = ship_hull_cruiser_role_cg
 				fixed_ship_secondaries_slot = ship_dp_secondaries
