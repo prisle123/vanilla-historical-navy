@@ -1,4 +1,4 @@
-version="v3.5 - Operation Torch"
+version="v3.5.5 - Sicilian Defense"
 tags={
 	"Military"
 	"Graphics"
