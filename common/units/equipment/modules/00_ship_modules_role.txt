@@ -197,11 +197,12 @@ equipment_modules = {
 		category = c_role
 		add_equipment_type = capital_ship
 		add_stats = {
-			max_strength = 55
+			max_strength = 40
+			reliability = 0.1
 		}
 		multiply_stats = {
 			naval_range = 0.15
-			naval_speed = -0.2
+			naval_speed = -0.1
 			build_cost_ic = 0.1
 		}
 		dismantle_cost_ic = 7500
@@ -226,13 +227,15 @@ equipment_modules = {
 		category = c_role
 		add_equipment_type = capital_ship
 		add_stats = {
-			max_strength = 40
-			convoy_raiding_coordination = 0.05
+			max_strength = 25
+			convoy_raiding_coordination = 0.1
+			reliability = 0.05
 		}
 		multiply_stats = {
 			naval_range = 0.2
-			naval_speed = -0.2
-			build_cost_ic = 0.075
+			naval_speed = -0.1
+			surface_visibility = -0.05
+			build_cost_ic = 0.1
 		}
 		dismantle_cost_ic = 7500
 		can_convert_from = {

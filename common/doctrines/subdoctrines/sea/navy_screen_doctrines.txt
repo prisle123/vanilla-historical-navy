@@ -439,6 +439,9 @@ mosquito_fleet = {
 	ai_will_do = {
 		factor = 0
 	}
+	mastery = {
+		multiplier = 5.0
+	}
 
 	screening_efficiency = -0.50
 	equipment_bonus = {
@@ -482,8 +485,6 @@ mosquito_fleet = {
 			destroyer = {
 				naval_torpedo_hit_chance_factor = 0.1
 				torpedo_attack = 0.1
-			}
-			destroyer = {
 				max_organisation = -10
 			}
 			modifier = {

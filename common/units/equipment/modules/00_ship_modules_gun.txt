@@ -779,21 +779,22 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			hg_attack = 4
-			lg_attack = 2
-			build_cost_ic = 400
+			hg_attack = 5
+			lg_attack = 4
+			build_cost_ic = 360
 			surface_visibility = 0.8
-			max_strength = 18
+			max_strength = 25
 			armor_value = 0.2
+			reliability = -0.01
 		}
 		multiply_stats = {
 			build_cost_ic = 0.08
-			naval_speed = -0.015
+			naval_speed = -0.05
 			naval_range = 0.06
 		}
 		add_average_stats = {
-			hg_armor_piercing = 30
-			lg_armor_piercing = 12
+			hg_armor_piercing = 31
+			lg_armor_piercing = 13
 		}
 		
 
@@ -814,16 +815,17 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			hg_attack = 5
-			lg_attack = 3.5
-			build_cost_ic = 500
+			hg_attack = 6
+			lg_attack = 5
+			build_cost_ic = 450
 			surface_visibility = 0.9
-			max_strength = 22
+			max_strength = 30
 			armor_value = 0.2
+			reliability = -0.02
 		}
 		multiply_stats = {
-			build_cost_ic = 0.1
-			naval_speed = -0.02
+			build_cost_ic = 0.09
+			naval_speed = -0.06
 			naval_range = 0.07
 		}
 		add_average_stats = {
@@ -850,21 +852,22 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			hg_attack = 5.5
-			lg_attack = 3
-			build_cost_ic = 500
+			hg_attack = 7
+			lg_attack = 5
+			build_cost_ic = 450
 			surface_visibility = 0.9
-			max_strength = 20
+			max_strength = 30
 			armor_value = 0.3
+			reliability = -0.015
 		}
 		multiply_stats = {
 			build_cost_ic = 0.1
-			naval_speed = -0.02
+			naval_speed = -0.07
 			naval_range = 0.07
 		}
 		add_average_stats = {
-			hg_armor_piercing = 30
-			lg_armor_piercing = 12
+			hg_armor_piercing = 31
+			lg_armor_piercing = 13
 		}
 		
 
@@ -885,16 +888,17 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			hg_attack = 7
-			lg_attack = 4.5
-			build_cost_ic = 600
+			hg_attack = 9
+			lg_attack = 6
+			build_cost_ic = 550
 			surface_visibility = 1
-			max_strength = 26
+			max_strength = 35
 			armor_value = 0.3
+			reliability = -0.03
 		}
 		multiply_stats = {
-			build_cost_ic = 0.125
-			naval_speed = -0.025
+			build_cost_ic = 0.11
+			naval_speed = -0.08
 			naval_range = 0.08
 		}
 		add_average_stats = {

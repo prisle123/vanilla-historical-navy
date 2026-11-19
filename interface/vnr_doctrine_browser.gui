@@ -371,18 +371,18 @@ guiTypes = {
             pdx_tooltip = "VNR_DB_NODE_subsidiary_carrier_support"
         }
         iconType = {
-            name = "vnr_db_node_icon_1_naval_airfoce" spriteType = "GFX_doctrine_naval_airforce_medium"
+            name = "vnr_db_node_icon_1_naval_airforce" spriteType = "GFX_doctrine_naval_airforce_medium"
             position = { x = 416 y = 330 } scale = 0.5
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+            pdx_tooltip = "VNR_DB_NODE_naval_airforce"
         }
         instantTextboxType = {
-            name = "vnr_db_node_name_1_naval_airfoce" position = { x = 452 y = 315 }
-            text = "SUBDOCTRINE_NAVAL_AIRFOCE" font = "hoi_16mbs"
+            name = "vnr_db_node_name_1_naval_airforce" position = { x = 452 y = 315 }
+            text = "SUBDOCTRINE_NAVAL_AIRFORCE" font = "hoi_16mbs"
             maxWidth = 134 maxHeight = 64 format = center
             vertical_alignment = center
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+            pdx_tooltip = "VNR_DB_NODE_naval_airforce"
         }
         iconType = {
             name = "vnr_db_node_icon_1_airspace_denial" spriteType = "GFX_doctrine_airspace_denial_medium"
@@ -695,18 +695,18 @@ guiTypes = {
             pdx_tooltip = "VNR_DB_NODE_subsidiary_carrier_support"
         }
         iconType = {
-            name = "vnr_db_node_icon_2_naval_airfoce" spriteType = "GFX_doctrine_naval_airforce_medium"
+            name = "vnr_db_node_icon_2_naval_airforce" spriteType = "GFX_doctrine_naval_airforce_medium"
             position = { x = 416 y = 330 } scale = 0.5
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+            pdx_tooltip = "VNR_DB_NODE_naval_airforce"
         }
         instantTextboxType = {
-            name = "vnr_db_node_name_2_naval_airfoce" position = { x = 452 y = 315 }
-            text = "SUBDOCTRINE_NAVAL_AIRFOCE" font = "hoi_16mbs"
+            name = "vnr_db_node_name_2_naval_airforce" position = { x = 452 y = 315 }
+            text = "SUBDOCTRINE_NAVAL_AIRFORCE" font = "hoi_16mbs"
             maxWidth = 134 maxHeight = 64 format = center
             vertical_alignment = center
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+            pdx_tooltip = "VNR_DB_NODE_naval_airforce"
         }
         iconType = {
             name = "vnr_db_node_icon_2_airspace_denial" spriteType = "GFX_doctrine_airspace_denial_medium"
@@ -779,18 +779,18 @@ guiTypes = {
             alwaystransparent = yes
         }
         iconType = {
-            name = "vnr_db_node_icon_2_coverted_oceanic_replenishment" spriteType = "GFX_doctrine_coverted_oceanic_replenishment_medium"
+            name = "vnr_db_node_icon_2_covert_oceanic_replenishment" spriteType = "GFX_doctrine_covert_oceanic_replenishment_medium"
             position = { x = 812 y = 166 } scale = 0.5
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+            pdx_tooltip = "VNR_DB_NODE_covert_oceanic_replenishment"
         }
         instantTextboxType = {
-            name = "vnr_db_node_name_2_coverted_oceanic_replenishment" position = { x = 848 y = 151 }
-            text = "SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT" font = "hoi_16mbs"
+            name = "vnr_db_node_name_2_covert_oceanic_replenishment" position = { x = 848 y = 151 }
+            text = "SUBDOCTRINE_LOGISTICS_COVERT_OCEANIC_REPLENISHMENT" font = "hoi_16mbs"
             maxWidth = 134 maxHeight = 64 format = center
             vertical_alignment = center
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+            pdx_tooltip = "VNR_DB_NODE_covert_oceanic_replenishment"
         }
         iconType = {
             name = "vnr_db_node_icon_2_trade_supply_network" spriteType = "GFX_doctrine_trade_supply_network_medium"
@@ -1095,18 +1095,18 @@ guiTypes = {
             alwaystransparent = yes
         }
         iconType = {
-            name = "vnr_db_node_icon_3_coverted_oceanic_replenishment" spriteType = "GFX_doctrine_coverted_oceanic_replenishment_medium"
+            name = "vnr_db_node_icon_3_covert_oceanic_replenishment" spriteType = "GFX_doctrine_covert_oceanic_replenishment_medium"
             position = { x = 812 y = 166 } scale = 0.5
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+            pdx_tooltip = "VNR_DB_NODE_covert_oceanic_replenishment"
         }
         instantTextboxType = {
-            name = "vnr_db_node_name_3_coverted_oceanic_replenishment" position = { x = 848 y = 151 }
-            text = "SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT" font = "hoi_16mbs"
+            name = "vnr_db_node_name_3_covert_oceanic_replenishment" position = { x = 848 y = 151 }
+            text = "SUBDOCTRINE_LOGISTICS_COVERT_OCEANIC_REPLENISHMENT" font = "hoi_16mbs"
             maxWidth = 134 maxHeight = 64 format = center
             vertical_alignment = center
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+            pdx_tooltip = "VNR_DB_NODE_covert_oceanic_replenishment"
         }
         iconType = {
             name = "vnr_db_node_icon_3_industrialized_naval_logistics" spriteType = "GFX_doctrine_industrialized_naval_logistics_medium"
@@ -1285,18 +1285,18 @@ guiTypes = {
             pdx_tooltip = "VNR_DB_NODE_subsidiary_carrier_support"
         }
         iconType = {
-            name = "vnr_db_node_icon_4_naval_airfoce" spriteType = "GFX_doctrine_naval_airforce_medium"
+            name = "vnr_db_node_icon_4_naval_airforce" spriteType = "GFX_doctrine_naval_airforce_medium"
             position = { x = 416 y = 248 } scale = 0.5
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+            pdx_tooltip = "VNR_DB_NODE_naval_airforce"
         }
         instantTextboxType = {
-            name = "vnr_db_node_name_4_naval_airfoce" position = { x = 452 y = 233 }
-            text = "SUBDOCTRINE_NAVAL_AIRFOCE" font = "hoi_16mbs"
+            name = "vnr_db_node_name_4_naval_airforce" position = { x = 452 y = 233 }
+            text = "SUBDOCTRINE_NAVAL_AIRFORCE" font = "hoi_16mbs"
             maxWidth = 134 maxHeight = 64 format = center
             vertical_alignment = center
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_naval_airfoce"
+            pdx_tooltip = "VNR_DB_NODE_naval_airforce"
         }
         instantTextboxType = {
             name = "vnr_db_track_4_3" position = { x = 614 y = 89 }
@@ -1363,18 +1363,18 @@ guiTypes = {
             alwaystransparent = yes
         }
         iconType = {
-            name = "vnr_db_node_icon_4_coverted_oceanic_replenishment" spriteType = "GFX_doctrine_coverted_oceanic_replenishment_medium"
+            name = "vnr_db_node_icon_4_covert_oceanic_replenishment" spriteType = "GFX_doctrine_covert_oceanic_replenishment_medium"
             position = { x = 812 y = 166 } scale = 0.5
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+            pdx_tooltip = "VNR_DB_NODE_covert_oceanic_replenishment"
         }
         instantTextboxType = {
-            name = "vnr_db_node_name_4_coverted_oceanic_replenishment" position = { x = 848 y = 151 }
-            text = "SUBDOCTRINE_LOGISTICS_COVERTED_OCEANIC_REPLENISHMENT" font = "hoi_16mbs"
+            name = "vnr_db_node_name_4_covert_oceanic_replenishment" position = { x = 848 y = 151 }
+            text = "SUBDOCTRINE_LOGISTICS_COVERT_OCEANIC_REPLENISHMENT" font = "hoi_16mbs"
             maxWidth = 134 maxHeight = 64 format = center
             vertical_alignment = center
             alwaystransparent = no
-            pdx_tooltip = "VNR_DB_NODE_coverted_oceanic_replenishment"
+            pdx_tooltip = "VNR_DB_NODE_covert_oceanic_replenishment"
         }
         iconType = {
             name = "vnr_db_node_icon_4_defensive_combat_support" spriteType = "GFX_doctrine_defensive_combat_support_medium"

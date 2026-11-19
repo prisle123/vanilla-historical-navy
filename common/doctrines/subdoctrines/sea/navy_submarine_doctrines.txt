@@ -64,6 +64,7 @@ wolfpacks = {
         rough_weather_procedure = {
 			equipment_bonus = {
                 ship_hull_submarine = {
+                    instant = yes
 				    naval_weather_penalty_factor = -0.15
 		        }
             }
@@ -273,6 +274,9 @@ submarine_coastal_defense = {
         }
         has_tech = midget_submarines
     }
+    mastery = {
+		multiplier = 7.0
+	}
 
     submarine = {
         fuel_consumption = -0.25
@@ -280,7 +284,7 @@ submarine_coastal_defense = {
     }
     equipment_bonus = {
         submarine = {
-            naval_range = -0.25
+            naval_range = -0.1
             instant = yes
         }
     }
@@ -305,14 +309,8 @@ submarine_coastal_defense = {
     			max_organisation = 5
     			surface_detection = 0.1
     		}
-            equipment_bonus ={
-                submarine = {
-                    naval_range = -0.1
-                    instant = yes
-                }
-            }
     	}
-    	maneuever_fire = {
+    	maneuver_fire = {
             modifier = {
                 naval_torpedo_cooldown_factor = -0.125
                 sub_retreat_speed = 0.1

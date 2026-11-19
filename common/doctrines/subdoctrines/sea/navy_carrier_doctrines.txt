@@ -193,6 +193,9 @@ subsidiary_carrier_support = {
             size > 0
         }
     }
+    mastery = {
+		multiplier = 20.0
+	}
     ai_will_do = {
         factor = 1
         modifier = {
@@ -330,10 +333,10 @@ carrier_concentration = {
 }
 
 
-naval_airfoce = {
+naval_airforce = {
     track = carriers
-    name = SUBDOCTRINE_NAVAL_AIRFOCE
-    description = SUBDOCTRINE_NAVAL_AIRFOCE_DESC
+    name = SUBDOCTRINE_NAVAL_AIRFORCE
+    description = SUBDOCTRINE_NAVAL_AIRFORCE_DESC
     icon = GFX_doctrine_naval_airforce_medium
 
     xp_cost = 100
@@ -342,6 +345,9 @@ naval_airfoce = {
     ai_will_do = { 
         base = 0
     }
+    mastery = {
+		multiplier = 18.0
+	}
     available = {
         OR = {
             has_doctrine = new_fleet_in_being
@@ -422,6 +428,9 @@ airspace_denial = {
             size > 0
         }
     }
+    mastery = {
+		multiplier = 18.0
+	}
 
     carrier = {
         anti_air_attack = 0.1

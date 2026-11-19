@@ -116,7 +116,7 @@ battlecruiser_supremacy = {
     description = SUBDOCTRINE_BATTLECRUISER_SUPREMACY_DESC
     icon = GFX_doctrine_battlecruiser_supremacy_medium
 
-    xp_cost = 100
+    xp_cost = 85
     xp_type = navy
 
     available = {
@@ -134,6 +134,9 @@ battlecruiser_supremacy = {
             size > 1
         }
     }
+    mastery = {
+		multiplier = 4.5
+	}
 
     ai_will_do = { 
         base = 1
@@ -190,7 +193,7 @@ battlecruiser_supremacy = {
                 positioning = 0.05
             }
         }
-        assualt_operation = {
+        assault_operation = {
             modifier = {
                 ships_at_battle_start = 0.1
                 naval_retreat_chance = 0.15
@@ -369,7 +372,7 @@ armored_raiders = {
     description = SUBDOCTRINE_ARMORED_RAIDERS_DESC
     icon = GFX_doctrine_capital_ship_raiders_medium
 
-    xp_cost = 100
+    xp_cost = 85
     xp_type = navy
 
     available = {
@@ -383,6 +386,9 @@ armored_raiders = {
             has_navy_size = { unit = heavy_cruiser size > 0 }
         }
     }
+    mastery = {
+		multiplier = 4.0
+	}
 
     ai_will_do = { 
         base = 1
@@ -515,6 +521,9 @@ coastal_defence_fleet = {
     ai_will_do = {
         factor = 0.5
     }
+    mastery = {
+		multiplier = 6.0
+	}
 
 	equipment_bonus = {
         capital_ship = {
@@ -594,6 +603,9 @@ naval_gunfire_support = {
             has_doctrine = new_littoral_defense
         }
     }
+    mastery = {
+		multiplier = 6.0
+	}
 
     ai_will_do = {
         factor = 0

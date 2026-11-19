@@ -1,4 +1,4 @@
-version="v3.5.5 - Sicilian Defense"
+version="v3.6 - The Longest Day"
 tags={
 	"Military"
 	"Graphics"
