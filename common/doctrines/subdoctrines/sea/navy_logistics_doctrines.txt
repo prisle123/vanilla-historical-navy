@@ -4,7 +4,7 @@ covert_oceanic_replenishment = {
     description = SUBDOCTRINE_LOGISTICS_COVERT_OCEANIC_REPLENISHMENT_DESC
     icon = GFX_doctrine_covert_oceanic_replenishment_medium
 
-    xp_cost = 60
+    xp_cost = 75
     xp_type = navy
 
     available = {
@@ -399,7 +399,7 @@ defensive_combat_support = {
     description = SUBDOCTRINE_LOGISTICS_DEFENSIVE_COMBAT_SUPPORT_DESC
     icon = GFX_doctrine_defensive_combat_support_medium
 
-    xp_cost = 60
+    xp_cost = 50
     xp_type = navy
 
     available = {
@@ -410,6 +410,9 @@ defensive_combat_support = {
         }
         has_tech = naval_combat_support
     }
+	mastery = {
+		multiplier = 3
+	}
 
     ai_will_do = { 
         base = 1

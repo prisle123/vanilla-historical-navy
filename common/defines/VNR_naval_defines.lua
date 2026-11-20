@@ -30,7 +30,7 @@ NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.6   -- factors speed value when dete
 
 
 --Positioning and Screening
-NDefines.NNavy.BASE_POSITIONING = 0.7   -- base value for positioning (was 1.0)
+NDefines.NNavy.BASE_POSITIONING = 0.8   -- base value for positioning (was 1.0)
 NDefines.NNavy.MIN_SHIPS_FOR_HIGHER_SHIP_RATIO_PENALTY = 41   -- the minimum fleet size in ships that a fleet must be before having the large fleet penalty applied to them (was 4, relative size penalty starts counting from 41)
 NDefines.NNavy.BEST_CAPITALS_TO_SCREENS_RATIO = 0.5   -- capitals / screens ratio used for creating FEX groups in naval combat (was 0.25, screens for max screening cut to half)
 NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 2.0   -- this screen ratio to num capital/carriers is needed for full screening beyond screen line (was 3.0, 2 screens needed to escort a capital ship)
@@ -39,8 +39,8 @@ NDefines.NNavy.MAX_POSITIONING_BONUS_FROM_SURFACE_DETECTION = 0.3   -- will clam
 NDefines.NNavy.POSITIONING_PENALTY_FOR_SHIPS_JOINED_COMBAT_AFTER_IT_STARTS = 0.01   -- each ship that joins the combat will have this penalty to be added into positioning (was 0.01)
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS = 1   -- the accumulated penalty from new ships will be clamped to this value (was 0.25)
 NDefines.NNavy.POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS = 0.02   -- the accumulated penalty from new ships will decay hourly by this value (was 0.05)
-NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR = 0.4   -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has (was 0.25)
-NDefines.NNavy.MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO = 2   -- maximum penalty to get from larger fleets (was 0.75, aggressively punish deathstacking)
+NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR = 0.3   -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has (was 0.25)
+NDefines.NNavy.MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO = 1.5   -- maximum penalty to get from larger fleets (was 0.75, aggressively punish deathstacking)
 NDefines.NNavy.HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.05   -- penalty if other side has stronger carrier air force (was 0.2)
 NDefines.NNavy.MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.15   -- max penalty from stronger carrier air force (was 0.2)
 NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.9   -- damage penalty at 0% positioning (was 0.5)

@@ -892,6 +892,16 @@ SOV = {
 
     }
 
+    vnr_ship_hull_arsenal_ship = {
+        pool = {
+            weight = 5
+            icons = {
+                "gfx/interface/technologies/extra/SOV_heavy_cruiser_Frunze.png"
+            }
+        }
+
+    }
+
     vnr_ship_hull_carrier_1 = {
         pool = {
             weight = 5

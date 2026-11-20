@@ -172,3 +172,20 @@ unique_id = vnr_achievements
 		has_naval_control = 50
     }
 }
+
+00_vnr_sukhoi_super_maneuver = {
+    possible = {
+        difficulty > 1
+        game_rules_allow_achievements = yes
+        OR = {
+            tag = SOV
+            tag = RUS
+        }
+        has_dlc = "By Blood Alone"
+    }
+    happened = {
+        has_equipment = {
+            cv_small_plane_airframe_4 > 0
+        }
+    }
+}
