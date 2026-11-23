@@ -387,7 +387,7 @@ armored_raiders = {
         }
     }
     mastery = {
-		multiplier = 4.0
+		multiplier = 5.0
 	}
 
     ai_will_do = { 
@@ -471,7 +471,7 @@ armored_raiders = {
                 surface_visibility = -0.1
 			}
             modifier = {
-                screening_without_screens = 0.10
+                ships_at_battle_start = -0.1
             }
         }
         trade_route_sabotage = {

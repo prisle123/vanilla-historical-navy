@@ -26,7 +26,7 @@ NDefines.NNavy.MANPOWER_LOSS_RATIO_ON_SUNK = 0.5   -- sunk ships will lose this 
 NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.5   -- upper limit of shore bombardment (was 0.33)
 NDefines.NNavy.HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.1   -- heavy gun attack value is divided by this value * 100 and added to shore bombardment modifier (was 0.05)
 NDefines.NNavy.LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.5   -- light gun attack value is divided by this value * 100 and added to shore bombardment modifier (was 0.025)
-NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.6   -- factors speed value when determining it profile (Vis * HIT_PROFILE_MULT * Ship Hit Profile Mult) (was 0.5)
+NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 1.0   -- factors speed value when determining it profile (Vis * HIT_PROFILE_MULT * Ship Hit Profile Mult) (was 0.5)
 
 
 --Positioning and Screening
@@ -96,7 +96,7 @@ NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 24   -- hours where all get to attack (
 NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 6   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.1   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
-NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 1.85   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
+NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 1.6   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
 
 
 --Naval Aviation / Carriers

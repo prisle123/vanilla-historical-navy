@@ -106,4 +106,55 @@ spriteTypes = {
 		name = "GFX_vnr_ast_flag"
 		texturefile = "gfx/event_pictures/flag_icons/ast_flag.png"
 	}
+
+	# generic decision icons
+	spriteType = {
+		name = "GFX_decision_vnr_naval_hire_designer"
+		texturefile = "gfx/interface/decisions/decision_vnr_naval_hire_designer.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_naval_hire_advisor"
+		texturefile = "gfx/interface/decisions/decision_vnr_naval_hire_advisor.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_naval_develop_destroyer"
+		texturefile = "gfx/interface/decisions/decision_vnr_naval_develop_destroyer.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_naval_develop_cruiser"
+		texturefile = "gfx/interface/decisions/decision_vnr_naval_develop_cruiser.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_naval_develop_battleship"
+		texturefile = "gfx/interface/decisions/decision_vnr_naval_develop_battleship.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_naval_develop_carrier"
+		texturefile = "gfx/interface/decisions/decision_vnr_naval_develop_carrier.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_naval_develop_submarine"
+		texturefile = "gfx/interface/decisions/decision_vnr_naval_develop_submarine.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_naval_research_budget"
+		texturefile = "gfx/interface/decisions/decision_vnr_naval_research_budget.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_never_built_alicorn"
+		texturefile = "gfx/interface/decisions/decision_vnr_never_built_alicorn.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_never_built_constitution"
+		texturefile = "gfx/interface/decisions/decision_vnr_never_built_constitution.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_never_built_macross"
+		texturefile = "gfx/interface/decisions/decision_vnr_never_built_macross.png"
+	}
+	spriteType = {
+		name = "GFX_decision_vnr_never_built_space_yamato"
+		texturefile = "gfx/interface/decisions/decision_vnr_never_built_space_yamato.png"
+	}
+
 }

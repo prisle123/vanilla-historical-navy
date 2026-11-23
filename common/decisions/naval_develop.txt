@@ -1,6 +1,6 @@
 naval_develop_category = {
     gen_naval_hire_designer = {
-		icon = generic_naval
+		icon = GFX_decision_vnr_naval_hire_designer
 		fire_only_once = yes
 		days_remove = 30
 		available = {
@@ -46,7 +46,7 @@ naval_develop_category = {
 		}
 	}
 	gen_naval_hire_advisor = {
-		icon = generic_naval
+		icon = GFX_decision_vnr_naval_hire_advisor
 		fire_only_once = yes
 		days_remove = 30
 		available = {
@@ -85,7 +85,7 @@ naval_develop_category = {
 		}
 	}
     gen_naval_develop_destroyer = {
-        icon = generic_naval
+        icon = GFX_decision_vnr_naval_develop_destroyer
 		fire_only_once = yes
 		days_remove = 30
 		available = {
@@ -127,7 +127,7 @@ naval_develop_category = {
 		}
     }
     gen_naval_develop_cruiser = {
-        icon = generic_naval
+        icon = GFX_decision_vnr_naval_develop_cruiser
 		fire_only_once = yes
 		days_remove = 30
 		available = {
@@ -170,7 +170,7 @@ naval_develop_category = {
 		}
     }
     gen_naval_develop_battleship = {
-        icon = generic_naval
+        icon = GFX_decision_vnr_naval_develop_battleship
 		fire_only_once = yes
 		days_remove = 45
 		available = {
@@ -218,7 +218,7 @@ naval_develop_category = {
 		}
     }
     gen_naval_develop_carrier = {
-        icon = generic_naval
+        icon = GFX_decision_vnr_naval_develop_carrier
 		fire_only_once = yes
 		days_remove = 45
 		available = {
@@ -265,7 +265,7 @@ naval_develop_category = {
 		}
     }
     gen_naval_develop_submarine = {
-        icon = generic_naval
+        icon = GFX_decision_vnr_naval_develop_submarine
 		fire_only_once = yes
 		days_remove = 30
 		available = {
@@ -308,7 +308,7 @@ naval_develop_category = {
 		}
     }
 	gen_naval_research_budget = {
-		icon = GFX_decision_generic_research
+		icon = GFX_decision_vnr_naval_research_budget
 		available = {
 			num_of_naval_factories > 0
 			has_navy_size = {
