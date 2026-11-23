@@ -113,11 +113,11 @@ units= {
 			name = "Chernomorskiy Flot"
 			location = 3686 # Sevastopopl
 			ship = { name = "Parizhskaya Kommuna" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Sevastopol Class" } } }
-			ship = { name = "Krasni Kavkaz" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "Admiral Nakhimov Class" } } }
+			ship = { name = "Krasny Kavkaz" definition = medium_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "Krasny Kavkaz Class" } } }
 			ship = { name = "Krasny Krym" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Svetlana Class" } } }
 			ship = { name = "Chervona Ukraina" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = SOV version_name = "Admiral Nakhimov Class" } } }
 			ship = { name = "Komintern" definition = light_cruiser start_experience_factor = 0.09 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SOV version_name = "Bogatyr Class" } } }
-		}	
+		}
 		task_force = {	
 			name = "Chernomorskiy Podvodniy Flot"
 			location = 3686 # Sevastopopl
