@@ -164,6 +164,13 @@ spriteTypes = {
 		texturefile = "gfx/army_icons/naval_equipment_role_icons_selected.dds"
 		noOfFrames = 86
 	}
+
+	## critical parts
+	spriteType = {
+		name = "GFX_vnr_critical_damage_icons"
+		texturefile = "gfx/interface/navalcombat/vnr_critical_damage_icons.dds"
+		noOfFrames = 17
+	}
 	
 
 	### panels of technology, use assets from KR to make it wider and taller for more lines of tech description

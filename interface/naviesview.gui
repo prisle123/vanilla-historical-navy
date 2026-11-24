@@ -1710,7 +1710,7 @@ guiTypes = {
 		# moved in code
 		iconType = {
 			name = "damaged_part_report"
-			spriteType = "GFX_default_critical_damage_icons"
+			spriteType = "GFX_vnr_critical_damage_icons"
 			frame = 1
 			position = { x=-100 y=22 }
 			orientation = "UPPER_RIGHT"
