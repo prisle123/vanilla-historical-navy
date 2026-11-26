@@ -275,7 +275,7 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 12
 			fuel_consumption = 35
-			build_cost_ic = 1500
+			build_cost_ic = 800
 			reliability = -0.35
 		}
 		
@@ -589,7 +589,6 @@ equipment_modules = {
 	cruiser_ship_engine_5 = {
 		category = cruiser_ship_engine
 		parent = cruiser_ship_engine_4
-		gfx = light_ship_engine_5
 		sfx = sfx_ui_sd_module_engine
 		gfx = ship_steam_engine_5
 
@@ -743,7 +742,7 @@ equipment_modules = {
 		add_stats = {
 			#naval_speed = 12
 			fuel_consumption = 48
-			build_cost_ic = 3000
+			build_cost_ic = 1800
 			reliability = -0.35
 		}
 		

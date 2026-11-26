@@ -142,6 +142,9 @@ leader_attack_skills = {
 			naval_damage_factor = 0.2
             naval_critical_score_chance_factor = 0.08
 		}
+		building_module_modifier = {
+			ships_at_battle_start = 0.08
+		}
 	}
 
 	9 = {

@@ -7,7 +7,7 @@ unique_id = vnr_achievements
     happened = {
         custom_override_tooltip = {
             tooltip = 00_vnr_bathtub_war_tt
-            has_tech = wunderwaffe_modules
+            ROOT = { has_tech = wunderwaffe_modules }
         }
     }
 }
@@ -20,9 +20,11 @@ unique_id = vnr_achievements
     happened = {
         custom_override_tooltip = {
             tooltip = 00_vnr_outbuild_the_yankees_tt
-            has_navy_size = { archetype = ship_hull_carrier size > 100 }
-            has_navy_size = { archetype = ship_hull_heavy size > 20 }
-            has_navy_size = { archetype = ship_hull_cruiser size > 70 }
+            ROOT = {
+                has_navy_size = { archetype = ship_hull_carrier size > 100 }
+                has_navy_size = { archetype = ship_hull_heavy size > 20 }
+                has_navy_size = { archetype = ship_hull_cruiser size > 70 }
+            }
         }
     }
 }
@@ -47,7 +49,9 @@ unique_id = vnr_achievements
     happened = {
         custom_override_tooltip = {
             tooltip = 00_vnr_topgun_tt
-            has_tech = super_carriers
+            ROOT = {
+                has_tech = super_carriers
+            }
         }
     }
 }
@@ -58,11 +62,13 @@ unique_id = vnr_achievements
         game_rules_allow_achievements = yes
     }
     happened = {
-        has_completed_track = capital_ships
-        has_completed_track = carriers
-        has_completed_track = screens
-        has_completed_track = submarines
-        has_completed_track = naval_logistics
+        ROOT = {
+            has_completed_track = capital_ships
+            has_completed_track = carriers
+            has_completed_track = screens
+            has_completed_track = submarines
+            has_completed_track = naval_logistics
+        }
     }
 }
 
@@ -72,9 +78,11 @@ unique_id = vnr_achievements
         game_rules_allow_achievements = yes
     }
     happened = {
-        has_navy_size = {
-            unit = battle_cruiser
-            size > 99
+        ROOT = {
+            has_navy_size = {
+                unit = battle_cruiser
+                size > 99
+            }
         }
     }
 }
@@ -100,7 +108,9 @@ unique_id = vnr_achievements
         game_rules_allow_achievements = yes
     }
     happened = {
-        has_navy_size = { unit = destroyer size > 499 }
+        ROOT = {
+            has_navy_size = { unit = destroyer size > 499 }
+        }
     }
 }
 
@@ -112,8 +122,10 @@ unique_id = vnr_achievements
     happened = {
         custom_override_tooltip = {
             tooltip = 00_vnr_nelson_reborn_tt
-            any_navy_leader = {
-                skill > 6
+            ROOT = {
+                any_navy_leader = {
+                    skill > 6
+                }
             }
         }
     }
@@ -125,7 +137,9 @@ unique_id = vnr_achievements
         game_rules_allow_achievements = yes
     }
     happened = {
-        has_tech = helipad
+        ROOT = {
+            has_tech = helipad
+        }
     }
 }
 
@@ -136,9 +150,11 @@ unique_id = vnr_achievements
         tag = GRE
     }
     happened = {
-        OR = {
-            has_tech = nuclear_engine_research
-            has_tech = sub_nuclear_engine
+        ROOT = {
+            OR = {
+                has_tech = nuclear_engine_research
+                has_tech = sub_nuclear_engine
+            }
         }
     }
 }
@@ -149,11 +165,13 @@ unique_id = vnr_achievements
         game_rules_allow_achievements = yes
     }
     happened = {
-        has_tech = harvey_steel
-        has_tech = krupp_steel
-        has_tech = krupp_cemented_steel
-        has_tech = ducol_steel
-        has_tech = homogeneous_krupp_steel
+        ROOT = {
+            has_tech = harvey_steel
+            has_tech = krupp_steel
+            has_tech = krupp_cemented_steel
+            has_tech = ducol_steel
+            has_tech = homogeneous_krupp_steel
+        }
     }
 }
 
@@ -184,8 +202,10 @@ unique_id = vnr_achievements
         has_dlc = "By Blood Alone"
     }
     happened = {
-        has_equipment = {
-            cv_small_plane_airframe_4 > 0
+        ROOT = {
+            has_equipment = {
+                cv_small_plane_airframe_4 > 0
+            }
         }
     }
 }

@@ -182,6 +182,7 @@ equipments = {
 		reliability = 0.65
 		naval_speed = 20
 		surface_visibility = 22
+		surface_detection = 20
 		build_cost_ic = 1200
 		max_organisation = -0.2
 		resources = {
@@ -267,6 +268,7 @@ equipments = {
 		max_strength = 110
 		naval_speed = 26.5
 		surface_visibility = 33
+		surface_detection = 22
 
 
 		build_cost_ic = 2800
@@ -349,6 +351,7 @@ equipments = {
 			}
 		}
 		naval_speed = 28
+		surface_detection = 22
 
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
@@ -438,6 +441,7 @@ equipments = {
 		max_strength = 125
 		naval_speed = 28
 		surface_visibility = 25
+		surface_detection = 24
 
 		module_count_limit = {
 			category = carrier_angled_deck
@@ -548,6 +552,7 @@ equipments = {
 		max_strength = 140
 		naval_speed = 28
 		surface_visibility = 29
+		surface_detection = 26
 		max_organisation = 0.1
 
 		module_count_limit = {
@@ -810,6 +815,7 @@ equipments = {
 		max_strength = 150
 		naval_speed = 30.5
 		surface_visibility = 35
+		surface_detection = 28
 		max_organisation = 0.15
 
 		module_count_limit = {
@@ -919,6 +925,7 @@ equipments = {
 		max_strength = 170
 		naval_speed = 28
 		surface_visibility = 34
+		surface_detection = 28
 
 		module_count_limit = {
 			category = carrier_angled_deck

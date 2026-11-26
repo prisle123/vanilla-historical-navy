@@ -43,6 +43,8 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 130
 			surface_detection = 7
+			naval_light_gun_hit_chance_factor = 0.02
+			naval_heavy_gun_hit_chance_factor = 0.02
 			fuel_consumption = 1
 		}
 		
@@ -63,8 +65,10 @@ equipment_modules = {
 			sub_detection = 0.05
 		}
 		add_stats = {
-			surface_detection = 12
+			surface_detection = 9
 			build_cost_ic = 160
+			naval_light_gun_hit_chance_factor = 0.04
+			naval_heavy_gun_hit_chance_factor = 0.04
 			fuel_consumption = 1.5
 		}
 		can_convert_from = {
@@ -89,7 +93,9 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 190
-			surface_detection = 18
+			surface_detection = 12
+			naval_light_gun_hit_chance_factor = 0.06
+			naval_heavy_gun_hit_chance_factor = 0.06
 			fuel_consumption = 2
 		}
 		can_convert_from = {
@@ -113,7 +119,9 @@ equipment_modules = {
 		}
 		add_stats = {
 			build_cost_ic = 600
-			surface_detection = 25
+			surface_detection = 18
+			naval_light_gun_hit_chance_factor = 0.08
+			naval_heavy_gun_hit_chance_factor = 0.08
 			fuel_consumption = 4
 		}
 		can_convert_from = {

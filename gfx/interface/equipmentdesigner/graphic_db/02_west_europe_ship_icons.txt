@@ -308,6 +308,7 @@ FRA = {
                 GFX_FRA_vnr_ship_hull_super_heavy_1_medium
                 GFX_FRA_vnr_ship_hull_heavy_1_medium
 				GFX_FRA_vnr_ship_hull_heavy_2_medium
+                "gfx/interface/technologies/extra/FRA_battleship_Jean_Bart.png"
             }
         }
 
@@ -326,6 +327,7 @@ FRA = {
                 GFX_FRA_vnr_ship_hull_super_heavy_1_medium
                 GFX_FRA_vnr_ship_hull_heavy_1_medium
 				GFX_FRA_vnr_ship_hull_heavy_2_medium
+                "gfx/interface/technologies/extra/FRA_battleship_Jean_Bart.png"
 				GFX_FRA_vnr_ship_hull_heavy_3_medium
                 "gfx/interface/technologies/extra/FRA_battleship_Richelieu.png"
             }
@@ -346,6 +348,7 @@ FRA = {
                 GFX_FRA_vnr_ship_hull_super_heavy_1_medium
                 GFX_FRA_vnr_ship_hull_heavy_1_medium
 				GFX_FRA_vnr_ship_hull_heavy_2_medium
+                "gfx/interface/technologies/extra/FRA_battleship_Jean_Bart.png"
 				GFX_FRA_vnr_ship_hull_heavy_3_medium
 				GFX_FRA_vnr_ship_hull_heavy_4_medium
                 "gfx/interface/technologies/extra/FRA_battleship_Richelieu.png"
@@ -737,6 +740,34 @@ SPR = {
             weight = 5
             icons = {
                 GFX_SPR_vnr_ship_hull_heavy_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_SPR_vnr_ship_hull_carrier_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_carrier_3 = {
+        pool = {
+            icons = {
+                GFX_SPR_vnr_ship_hull_carrier_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_super_carrier = {
+        pool = {
+            icons = {
+                GFX_SPR_vnr_ship_hull_carrier_2_medium
             }
         }
 

@@ -496,13 +496,13 @@ Retreating is made faster in VNR to simulate the quick disengagement in real nav
 
 Positioning is typically used to measure how successful the fleet formation is in real life, which is a very important element in the era of ship of line. In the game, it is a factor applied to screen efficiency. Bad positioning may lead to degradation of screen efficiency. In that case, the preferred screen ratio is no longer 1:1:2, you will need more ships to achieve max screen efficiency, which in return it hurts positioning even more due to expansion of fleet and thus creates a vicious circle.
 
-Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 40 ships have a chance to get penalized for high relative size, which is -30% positioning with every doubling of ships than the other side, capped to -150%.
+Positioning is affected by several factors including relative size of fleet, speed, detection, etc. To achieve good positioning, make sure to have fast ships with good detection, and avoid maneuvering a super massive fleet around. Any fleets with more than 40 ships have a chance to get penalized for high relative size, which is -40% positioning with every doubling of ships than the other side, capped to -150%.
 
 To be more specific, I will provide you with a list to illustrate: 
 
 - 10 vs 1: threshold of 41 ships not reached, no positioning penalty
-- 80 vs 20: fleet is four times bigger, threshold of 41 ships reached, (80 - 20) / 20 x (-30%) = -90% positioning
-- 100 vs 70: doubling relative size not achieved, threshold of 41 ships reached, partial positioning penalty, (100 - 70) / 70 x (-30%) = -12.85% positioning
+- 80 vs 20: fleet is four times bigger, threshold of 41 ships reached, (80 - 20) / 20 x (-40%) = -120% positioning
+- 100 vs 70: doubling relative size not achieved, threshold of 41 ships reached, partial positioning penalty, (100 - 70) / 70 x (-40%) = -17.15% positioning
 
 When positioning reaches 0%, you will have to face harsh debuffs such as -90% damage, -75% AA, and -125% screening efficiency.
 

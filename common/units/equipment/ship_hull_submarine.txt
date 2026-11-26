@@ -194,6 +194,7 @@ equipments = {
 			fixed_ship_secondaries_slot = sub_deck_gun_2
 		}
 		sub_visibility = 22
+		surface_detection = 12
 		naval_speed = 17
 		reliability = 0.70
 
@@ -255,7 +256,7 @@ equipments = {
 		}
 
 		sub_visibility = 19
-		surface_detection = 12
+		surface_detection = 14
 		naval_speed = 18
 		reliability = 0.75
 
@@ -314,7 +315,7 @@ equipments = {
 		}
 
 		sub_visibility = 16
-		surface_detection = 14
+		surface_detection = 16
 		naval_speed = 18
 		reliability = 0.80
 
@@ -378,7 +379,7 @@ equipments = {
 		}
 
 		sub_visibility = 13.5
-		surface_detection = 16
+		surface_detection = 18
 		naval_speed = 18
 		reliability = 1.5
 
@@ -469,7 +470,7 @@ equipments = {
 		}
 
 		sub_visibility = 24
-		surface_detection = 13
+		surface_detection = 15
 		naval_speed = 16
 		reliability = 0.75
 
@@ -520,7 +521,7 @@ equipments = {
 		}
 
 		sub_visibility = 15
-		surface_detection = 9
+		surface_detection = 10
 		naval_speed = 8.3
 		reliability = 0.65
 

@@ -37,9 +37,9 @@ NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 2.0   -- this scre
 NDefines.NNavy.RELATIVE_SURFACE_DETECTION_TO_POSITIONING_FACTOR = 0.025   -- multiples the surface detection difference between two sides. the side with higher detection will get a bonus of this value (was 0.01)
 NDefines.NNavy.MAX_POSITIONING_BONUS_FROM_SURFACE_DETECTION = 0.3   -- will clamp the bonus that you get from detection (was 0.25)
 NDefines.NNavy.POSITIONING_PENALTY_FOR_SHIPS_JOINED_COMBAT_AFTER_IT_STARTS = 0.01   -- each ship that joins the combat will have this penalty to be added into positioning (was 0.01)
-NDefines.NNavy.MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS = 1   -- the accumulated penalty from new ships will be clamped to this value (was 0.25)
+NDefines.NNavy.MAX_POSITIONING_PENALTY_FOR_NEWLY_JOINED_SHIPS = 0.5   -- the accumulated penalty from new ships will be clamped to this value (was 0.25)
 NDefines.NNavy.POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS = 0.02   -- the accumulated penalty from new ships will decay hourly by this value (was 0.05)
-NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR = 0.3   -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has (was 0.25)
+NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR = 0.4   -- if one side has more ships than the other, that side will get this penalty for each +100% ship ratio it has (was 0.25)
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO = 1.5   -- maximum penalty to get from larger fleets (was 0.75, aggressively punish deathstacking)
 NDefines.NNavy.HIGHER_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.05   -- penalty if other side has stronger carrier air force (was 0.2)
 NDefines.NNavy.MAX_CARRIER_RATIO_POSITIONING_PENALTY_FACTOR = 0.15   -- max penalty from stronger carrier air force (was 0.2)
@@ -96,7 +96,7 @@ NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 24   -- hours where all get to attack (
 NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 6   -- Before we resign chasing enemy, give them some minimum time so the combat doesn't end instantly. (was 8, no fleet commander would chase enemy fleet due to fog of war)
 NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.1   -- daily increase in escape speed during combat duration (was 0.01, faster retreating to simulate real disengagement)
 NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.60   -- max escape speed that will be gained from combat duration (was 0.15)
-NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 1.6   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
+NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 0.95   -- ratio to converstion from ship speed to escape speed (divided by hundred) (was 0.95)
 
 
 --Naval Aviation / Carriers

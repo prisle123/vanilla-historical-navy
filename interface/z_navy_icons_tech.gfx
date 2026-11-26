@@ -1777,6 +1777,12 @@ spriteTypes = {
         		name = "GFX_SPR_early_ship_hull_heavy_medium"
         		texturefile = "gfx/interface/technologies/Spain/SPR_battleship1.png"
         	}
+	# carrier
+
+			spriteType = {
+				name = "GFX_SPR_improved_ship_hull_carrier_medium"
+				texturefile = "gfx/interface/technologies/Spain/SPR_carrier3.png"
+			}
 			
 ### TUR ###
 	# destroyer
