@@ -666,7 +666,9 @@ naval_gunfire_support = {
 			heavy_cruiser = {
     			surface_visibility = -0.10
 			}
-            navy_capital_ship_defence_factor = -0.15
+            modifier = {
+                navy_capital_ship_defence_factor = -0.15
+            }
    		}
    	}
 }

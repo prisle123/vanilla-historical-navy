@@ -45,7 +45,7 @@ DEN_CL_HISTORICAL = {
 	ship_types = { ship_hull_cruiser light_cruiser }
 
 	prefix = "HDMS "
-	fallback_name = "Krysder %d"
+	fallback_name = "Krydser %d"
 
 	unique = {
 		"Flynderen"
@@ -69,7 +69,7 @@ DEN_CA_HISTORICAL = {
 	ship_types = { ship_hull_cruiser ship_hull_cruiser_coastal_defense_ship ship_hull_cruiser_panzerschiff heavy_cruiser battle_cruiser }
 
 	prefix = "HDMS "
-	fallback_name = "Panserkrysder %d"
+	fallback_name = "Panserkrydser %d"
 
 	unique = {
 		"Niels Juel"
@@ -96,8 +96,6 @@ DEN_BB_HISTORICAL = {
 		"Ivar Huitfeldt"
 		"Ulrik Gyldenløve"
 		"Markor Rodsteen"
-		"Drzki"
-		"Zheleznjakov"
 	}
 }
 
